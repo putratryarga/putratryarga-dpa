@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-600-normal.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-400-normal.css">
 <style>
-:root{--bg:#0F0E0C;--bg-glow:#1A1712;--surface:#171512;--surface-2:#1E1B16;--surface-3:#26221B;--ink:#EDE8DE;--ink-soft:#B3AA9B;--ink-faint:#7D7566;--line:#2B2720;--line-strong:#3D382C;--accent:#D2A24C;--accent-soft:rgba(210,162,76,.1);--accent-line:rgba(210,162,76,.28);--green:#8FB573;--red:#C9705E;--serif:'Instrument Serif',Georgia,serif;--sans:'Inter',-apple-system,sans-serif;--mono:'JetBrains Mono',monospace;--r:10px;--r-lg:16px;--ease:cubic-bezier(.4,0,.2,1)}
+:root{--bg:#0F0E0C;--bg-glow:#1A1712;--surface:#171512;--surface-2:#1E1B16;--surface-3:#26221B;--ink:#EDE8DE;--ink-soft:#B3AA9B;--ink-faint:#7D7566;--line:#2B2720;--line-strong:#3D382C;--accent:#D2A24B;--accent-soft:rgba(210,162,75,.12);--accent-line:rgba(210,162,75,.28);--green:#8FB573;--red:#C9705E;--sans:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--serif:"Instrument Serif",Georgia,serif;--mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace;--r:12px;--r-lg:16px}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;user-select:none;-webkit-user-select:none}
@@ -25,18 +25,18 @@ a:hover{color:#E5BC6E}
 .wm span:nth-child(2){top:38%;left:8%}
 .wm span:nth-child(3){top:64%;left:-3%}
 .wm span:nth-child(4){top:88%;left:10%}
-#toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(90px);background:var(--surface-3);color:var(--ink);border:1px solid var(--line-strong);padding:11px 22px;border-radius:8px;font-size:13px;z-index:10000;opacity:0;pointer-events:none;transition:.3s;max-width:85vw;text-align:center}
+#toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(90px);background:var(--surface-3);color:var(--ink);border:1px solid var(--line-strong);padding:11px 22px;border-radius:10px;box-shadow:0 14px 40px rgba(0,0,0,.24);opacity:0;transition:transform .25s,opacity .25s;z-index:9999}
 #toast.show{transform:translateX(-50%) translateY(0);opacity:1}
 .page{max-width:860px;margin:0 auto;padding:0 22px 120px}
 .masthead{position:relative;padding:110px 0 70px;text-align:center}
-.masthead::before{content:'';position:absolute;top:-100px;left:50%;transform:translateX(-50%);width:680px;height:420px;background:radial-gradient(ellipse at center,rgba(210,162,76,.07) 0%,transparent 68%);pointer-events:none}
-.mast-rule{position:relative;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font:400 10px/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 4px;margin-bottom:56px}
+.masthead::before{content:'';position:absolute;top:-100px;left:50%;transform:translateX(-50%);width:680px;height:420px;background:radial-gradient(ellipse at center,rgba(210,162,75,.07) 0%,transparent 70%);filter:blur(6px)}
+.mast-rule{position:relative;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font:400 10px/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint)}
 .masthead h1{position:relative;font-family:var(--serif);font-weight:400;font-size:clamp(40px,7.5vw,66px);line-height:1.04;letter-spacing:-.01em;color:var(--ink);margin-bottom:20px}
 .masthead h1 em{font-style:italic;color:var(--accent)}
 .mast-sub{position:relative;font-size:16px;color:var(--ink-soft);max-width:540px;margin:0 auto 34px;line-height:1.7}
 .mast-meta{position:relative;display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
 .mast-meta span{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);border:1px solid var(--line);border-radius:6px;padding:8px 14px;background:var(--surface)}
-.topbar{position:sticky;top:0;z-index:500;background:rgba(15,14,12,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:13px 0;margin-bottom:64px}
+.topbar{position:sticky;top:0;z-index:500;background:rgba(15,14,12,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:13px 0;margin-bottom:60px}
 .topbar-inner{max-width:860px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .topbar-prog{display:flex;align-items:center;gap:12px;flex:1;min-width:170px}
 .topbar-pct{font:600 13px/1 var(--mono);color:var(--accent);min-width:42px}
@@ -99,7 +99,7 @@ a:hover{color:#E5BC6E}
 .callout{margin-top:20px;padding:18px 20px;background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--r) var(--r) 0;font-size:13.5px;color:var(--ink-soft);line-height:1.65}
 .callout-note{margin-top:16px;padding:16px 18px;background:var(--surface-2);border-left:3px solid var(--line-strong);border-radius:0 var(--r) var(--r) 0;font-size:13px;color:var(--ink-faint);line-height:1.65}
 .chk{display:flex;align-items:flex-start;gap:12px;padding:8px 0;cursor:pointer;font-size:13.5px;color:var(--ink-soft);line-height:1.55}
-.chk input{appearance:none;-webkit-appearance:none;width:18px;height:18px;min-width:18px;border:1.5px solid var(--line-strong);border-radius:5px;margin-top:2px;cursor:pointer;position:relative;transition:.2s;background:var(--surface)}
+.chk input{appearance:none;-webkit-appearance:none;width:18px;height:18px;min-width:18px;border:1.5px solid var(--line-strong);border-radius:5px;margin-top:2px;cursor:pointer;position:relative;transition:border-color .2s,background .2s}
 .chk input:hover{border-color:var(--accent)}
 .chk input:checked{background:var(--accent);border-color:var(--accent)}
 .chk input:checked::after{content:'';position:absolute;left:5.5px;top:2px;width:5px;height:9px;border:solid #1A1610;border-width:0 2px 2px 0;transform:rotate(45deg)}
@@ -129,22 +129,8 @@ tr:hover td{background:var(--surface-2)}
 .copyright h3{font-family:var(--serif);font-weight:400;font-size:21px;color:var(--accent);margin-bottom:12px}
 .copyright p{font-size:13px;color:var(--ink-soft);line-height:1.7;max-width:520px;margin:0 auto}
 .copyright p+p{margin-top:10px}
-@media print{
-  body{background:#fff;color:#1A1610;user-select:auto}
-  .wm,.topbar,#toast{display:none!important}
-  .page{max-width:100%;padding:0}
-  .masthead{padding:30px 0}
-  .masthead::before{display:none}
-  .masthead h1,.sec-title,.week-title{color:#1A1610}
-  .masthead h1 em,.sec-label,.week-num,.deliv-label,.copyright h3,.seq-box h5{color:#8A6A24}
-  .box,.week,.res,.term,.tbl-wrap,.callout,.callout-note,.deliv,.copyright,.seq-box{background:#fff;border-color:#D6D0C4;color:#1A1610;break-inside:avoid}
-  .box ul,.box ol,.box p,.sec-desc,.res-note,.chk,.callout,.callout-note,.seq-box li{color:#4A4438}
-  .week[open]{background:#fff}
-  .week-body{display:block!important}
-  .wm span{color:rgba(0,0,0,.05)}
-  a{color:#8A6A24;text-decoration:underline}
-  .tag{border:1px solid #999;color:#333;background:#fff}
-}
+html,body{ -webkit-user-select:none; user-select:none; }
+img{ -webkit-user-drag:none; user-drag:none; }
 </style>
 </head>
 <body>
@@ -164,7 +150,7 @@ tr:hover td{background:var(--surface-2)}
 <span>Onboarding + 8 minggu inti + 2 elektif</span>
 </div>
 <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
-<p class="mast-sub">Peta jalan dari nol menuju junior digital performance generalist dengan bukti kerja nyata. Strategy, ads, SEO, tracking, analytics, automation, sampai AI—tanpa mengklaim langsung ahli di semuanya.</p>
+<p class="mast-sub">Peta jalan dari nol menuju junior digital performance generalist dengan bukti kerja nyata. Strategy, ads, SEO, tracking, analytics, automation, sampai AI—tanpa mengklaim langsung sebagai ahli beresiko. Fokusnya: tahu cara mengukur, menguji, dan menjelaskan keputusan dengan bukti.</p>
 <div class="mast-meta">
 <span>6–9 jam / minggu*</span>
 <span>Core Rp0</span>
@@ -185,7 +171,6 @@ tr:hover td{background:var(--surface-2)}
 <button data-f="elec">Elektif</button>
 <button onclick="expandAll(true)">Buka semua</button>
 <button onclick="expandAll(false)">Tutup semua</button>
-<button onclick="triggerPrint()">Cetak / PDF</button>
 <button class="danger" onclick="resetProgress()">Reset</button>
 </div>
 </div>
@@ -194,7 +179,7 @@ tr:hover td{background:var(--surface-2)}
 <section class="section">
 <p class="sec-label">Sebelum mulai</p>
 <h2 class="sec-title">Cara mainnya</h2>
-<p class="sec-desc">Tiap minggu polanya sama: pahami masalah, pelajari materi seperlunya, bangun sesuatu, lalu tunjukkan buktinya. Sertifikat adalah penguat, bukan tujuan utama. Jebakan paling umum adalah menonton tutorial lalu merasa sudah bisa.</p>
+<p class="sec-desc">Tiap minggu polanya sama: pahami masalah, pelajari materi seperlunya, bangun sesuatu, lalu tunjukkan buktinya. Sertifikat adalah penguat, bukan tujuan utama. Jebakan paling umum adalah klaim tanpa bukti, atau belajar terlalu banyak tanpa output.</p>
 <div class="grid-3">
 <div class="box"><h4>Siklus belajar</h4><ol>
 <li><strong>Frame</strong> — masalah, tujuan, audiens, batasan</li>
@@ -215,7 +200,7 @@ tr:hover td{background:var(--surface-2)}
 <p style="margin-top:8px"><strong>Full Done:</strong> deliverable inti + credential pilihan. Add-on tidak dihitung dalam progres dan boleh dikerjakan setelah core selesai.</p>
 </div>
 </div>
-<div class="callout-note" style="margin-top:20px"><strong>Aturan beban:</strong> Targetkan 80% scope dan sisakan 20% sebagai buffer. W0 adalah onboarding di luar hitungan delapan minggu. W8 sengaja boleh dibagi menjadi dua pekan; total realistis program adalah 9–10 pekan kalender.</div>
+<div class="callout-note" style="margin-top:20px"><strong>Aturan beban:</strong> Targetkan 80% scope dan sisakan 20% sebagai buffer. W0 adalah onboarding di luar hitungan delapan minggu. W8 sengaja dibuat agak lebih berat agar kamu punya ruang untuk menyusun portofolio dan case study dengan baik.</div>
 </section>
 
 <section class="section">
@@ -238,8 +223,8 @@ tr:hover td{background:var(--surface-2)}
 <div class="term"><strong>Halo effect</strong><span>Iklan sosial menciptakan permintaan yang kemudian dipanen Google Search.</span></div>
 <div class="term"><strong>Data sintetis</strong><span>Data latihan buatan. Boleh untuk belajar, wajib dilabel. Bukan hasil nyata.</span></div>
 <div class="term"><strong>Consent Mode v2</strong><span>Aturan izin cookie dari Google: empat sinyal. Wajib untuk measurement yang patuh privasi.</span></div>
-<div class="term"><strong>Geo-Holdout</strong><span>Eksperimen mematikan iklan di satu wilayah (kontrol) vs menyalakannya di wilayah lain (treatment) untuk mengukur dampak bersih iklan secara nyata (konsep Meta GeoLift).</span></div>
-<div class="term"><strong>MMM (Robyn)</strong><span>Marketing Mix Modeling: model statistik/AI yang menganalisis riwayat penjualan jangka panjang untuk memisahkan dampak iklan vs organik/musiman tanpa cookie.</span></div>
+<div class="term"><strong>Geo-Holdout</strong><span>Eksperimen mematikan iklan di satu wilayah (kontrol) vs menyalakannya di wilayah lain (treatment) untuk mengukur dampak bersih iklan secara nyata.</span></div>
+<div class="term"><strong>MMM (Robyn)</strong><span>Marketing Mix Modeling: model statistik/AI yang menganalisis riwayat penjualan jangka panjang untuk memisahkan dampak iklan vs organik/musiman tanpa terlalu mengandalkan ROAS platform.</span></div>
 </div>
 </section>
 
@@ -251,7 +236,7 @@ tr:hover td{background:var(--surface-2)}
 <summary><span class="week-num">START</span><span class="week-title">Bikin playground dulu</span><span class="week-time">30–45 mnt</span><span class="week-toggle">+</span></summary>
 <div class="week-body">
 <div class="duo">
-<div class="box"><h4>Kenapa ini ada</h4><p>Semua minggu berikutnya butuh rumah, yaitu website milikmu sendiri untuk latihan pasang alat ukur. Bikinnya gratis, tanpa perlu bisa coding. Tanpa onboarding ini, minggu lain cuma teori.</p></div>
+<div class="box"><h4>Kenapa ini ada</h4><p>Semua minggu berikutnya butuh rumah, yaitu website milikmu sendiri untuk latihan pasang alat ukur. Bikinnya gratis, tanpa perlu bisa coding. Tanpa onboarding ini, semua praktik measurement jadi terputus dari bukti nyata.</p></div>
 <div class="box"><h4>Tiga langkah urut</h4><ol>
 <li>Buka app.netlify.com/drop, tarik satu file HTML ke situ. Website langsung online. Catat alamatnya.</li>
 <li>Daftar Microsoft Clarity, tempel scriptnya sebelum tag penutup head, unggah ulang. Buka website sekali, pastikan Clarity mencatat.</li>
@@ -259,10 +244,10 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://docs.netlify.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Netlify Docs</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Hosting gratis untuk sandbox</span></a>
-<a class="res" href="https://pages.github.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">GitHub Pages</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Alternatif hosting gratis</span></a>
-<a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Microsoft Clarity</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Rekaman perilaku pengunjung, heatmap</span></a>
-<a class="res" href="https://tagmanager.google.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Tag Manager</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Siapkan akunnya, dipakai penuh di W06</span></a>
+<a class="res" href="https://docs.netlify.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Netlify Docs</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Deploy website cepat tanpa kode. Cocok untuk playground dan portofolio kecil.</span></a>
+<a class="res" href="https://pages.github.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">GitHub Pages</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Opsi lain jika kamu ingin control penuh lewat repo GitHub.</span></a>
+<a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Microsoft Clarity</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Pasti aktif di onboarding. Ini sumber behavioral proof paling awal.</span></a>
+<a class="res" href="https://tagmanager.google.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Tag Manager</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Akan dipakai nanti di W6. Untuk awal, cukup tahu ini ada untuk setting alat.</span></a>
 </div>
 <div class="callout-note">GA4 dan GTM dipasang di W06, Search Console di W05, akun ads di W03 dan W04. Di onboarding ini cukup Clarity dulu karena butuh beberapa hari untuk mulai merekam.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
@@ -290,15 +275,13 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Digital Marketing Certification</span><span class="tag tag-off">Sertifikat gratis</span></div><span class="res-note">Fondasi internasional. Gratis, ada badgenya juga.</span></a>
-<a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Inbound Certification</span><span class="tag tag-off">Sertifikat gratis</span></div><span class="res-note">Buyer journey dan lifecycle thinking. Nyambung terus sampai W08.</span></a>
-<a class="res" href="https://corporatefinanceinstitute.com/course/learn-accounting-fundamentals-corporate-finance/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">CFI Accounting Fundamentals</span><span class="tag tag-warn">Gratis, cek syarat cert</span></div><span class="res-note">SATU-SATUNYA full course gratis CFI yang dikonfirmasi. Course-nya gratis; sertifikat mungkin butuh akun berbayar, cek syarat sebelum commit.</span></a>
-<a class="res" href="https://www.khanacademy.org/economics-finance-domain/core-finance" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Khan Academy Finance</span><span class="tag tag-free">Gratis, tanpa cert</span></div><span class="res-note">Pelengkap konsep margin dan CAC. Learning evidence saja.</span></a>
-<a class="res" href="https://trends.google.com/explore" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Trends</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Bukti minat relatif. Bukan ukuran pasar, bukan kausalitas.</span></a>
-<a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Karir Next — Digital Marketing Bootcamp</span><span class="tag tag-warn">Cek manual · per batch</span></div><span class="res-note">Domain resmi karirnex.com (bukan karirnext.com). Bootcamp dibuka per batch dengan tanggal ganti-ganti (per 26 Sep 2026 batch berikut mulai 9 Nov 2026), jadi wajib buka /program dan cek batch yang sedang open sebelum daftar.</span></a>
-<a class="res" href="https://www.youngurbanproject.com/digital-marketing-strategy-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">YUP — Digital Marketing Strategy Course (free)</span><span class="tag tag-warn">Cek manual</span></div><span class="res-note">YUP berbasis India dengan kurikulum global, BUKAN konten lokal Indonesia. Versi gratisnya berisi digital marketing, data analytics, dan experimentation dalam satu alur, beda dari kursus Indonesia yang biasa dipilah per channel. Dipakai sebagai pembanding cara berpikir, bukan pengganti konteks lokal.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Digital Marketing Certification</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Struktur dan prinsip digital marketing secara umum.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Inbound Certification</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Bermanfaat untuk frasa value proposition, content, dan funnel.</span></a>
+<a class="res" href="https://corporatefinanceinstitute.com/course/learn-accounting-fundamentals-corporate-finance/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">CFI Accounting Fundamentals</span><span class="tag tag-free">Bacaan/cek</span></div><span class="res-note">Banyak konsep keuangan dasar yang membantu membaca unit economics.</span></a>
+<a class="res" href="https://www.khanacademy.org/economics-finance-domain/core-finance" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Khan Academy Finance</span><span class="tag tag-free">Gratis</span></div><span class="res-note">Pahami margin, payback, dan cara berpikir bisnis.</span></a>
+<a class="res" href="https://trends.google.com/explore" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Trends</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Bermanfaat untuk melihat demand trend dan musimality.</span></a>
 </div>
-<div class="callout-note"><strong>Quick win:</strong> Setelah business brief selesai, tulis 1 post LinkedIn atau 1 halaman Notion publik yang merangkum brief dalam 3 kalimat. Akuntabilitas dan momentum sejak minggu pertama.</div>
+<div class="callout-note"><strong>Quick win:</strong> Setelah business brief selesai, tulis 1 post LinkedIn atau 1 halaman Notion publik yang merangkum brief dalam 3 kalimat. Akuntabilitas dan momentum lebih penting daripada kelengkapan kursus.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w1-1"><span>Business brief + journey + leakage map + KPI tree</span></label>
 <label class="chk"><input type="checkbox" data-id="w1-2"><span>Tabel sensitivitas unit economics</span></label>
@@ -324,13 +307,12 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://academy.hubspot.com/courses/digital-advertising" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Digital Advertising Certification</span><span class="tag tag-off">Sertifikat gratis</span></div><span class="res-note">Perencanaan paid media + pengukuran. Nyambung ke W03 dan W04.</span></a>
-<a class="res" href="https://academy.hubspot.com/courses/content-marketing" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Content Marketing Certification</span><span class="tag tag-off">Sertifikat gratis</span></div><span class="res-note">Strategi konten dan pengukurannya. 8 jam.</span></a>
-<a class="res" href="https://academy.hubspot.com/courses/inbound-marketing-optimization" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Inbound Marketing Optimization</span><span class="tag tag-off">Course gratis</span></div><span class="res-note">Course lanjutan fokus conversion rate, A/B testing, optimasi halaman. Nama course bisa berubah; cek katalog untuk padanan terkini (misalnya Conversion Optimization atau Growth-Driven Design).</span></a>
-<a class="res" href="https://growth.design/case-studies" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Growth.Design case studies</span><span class="tag tag-free">Bacaan gratis</span></div><span class="res-note">Bedah UX produk nyata, tanpa cert. Insightnya terpakai.</span></a>
-<a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Microsoft Clarity</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Rage click, dead click, drop-off sebagai bukti. Sudah terpasang dari onboarding.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/digital-advertising" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Digital Advertising Certification</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Mulai dari lander, iklan, dan funnel.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/content-marketing" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Content Marketing Certification</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Membantu menulis headline, CTA, dan framing value prop.</span></a>
+<a class="res" href="https://growth.design/case-studies" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Growth.Design case studies</span><span class="tag tag-free">Bacaan gratis</span></div><span class="res-note">Belajar dari eksperimen landing page nyata.</span></a>
+<a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Microsoft Clarity</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Bukti heatmap, scroll, dan behavior di landing page.</span></a>
 </div>
-<div class="callout-note"><strong>Catatan jujur:</strong> Tidak ada course tersendiri bernama "Landing Page Optimization" di HubSpot saat verifikasi. Materi landing page sudah termasuk di Digital Marketing Certification (W01). Course Inbound Marketing Optimization di atas adalah padanan terdekat untuk pendalaman CRO.</div>
+<div class="callout-note"><strong>Catatan jujur:</strong> Tidak ada course tersendiri bernama "Landing Page Optimization" di HubSpot saat verifikasi. Materi landing page sudah termasuk di Digital Marketing dan Inbound Marketing Optimization.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w2-1"><span>Evidence log (termasuk temuan Clarity) + wireframe</span></label>
 <label class="chk"><input type="checkbox" data-id="w2-2"><span>Backlog eksperimen CRO dengan hipotesis dan prioritas</span></label>
@@ -357,10 +339,9 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://skillshop.exceedlms.com/student/path/18163-google-ads-search-certification" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Step 1 · Google Ads Search Certification</span><span class="tag tag-step">Rekomendasi</span></div><span class="res-note">REKOMENDASI UTAMA. Fondasi Google Ads, sekitar 4–6 jam termasuk latihan. Ambil bila masih masuk buffer setelah artefak selesai. Link ini beda dari Step 2, bukan lagi satu URL generik yang sama.</span></a>
-<a class="res" href="https://skillshop.exceedlms.com/student/path/18330-google-ads-measurement-certification" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Step 2 · Google Ads Measurement Certification</span><span class="tag tag-warn">Buffer W6+</span></div><span class="res-note">OPSIONAL SETELAH W6. Lebih masuk akal diambil setelah fondasi GA4/GTM terbentuk. Sekitar 3–4 jam.</span></a>
-<a class="res" href="https://skillshop.withgoogle.com/googleads/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Step 3-5 · Display, Video, Shopping</span><span class="tag tag-warn">Opsional</span></div><span class="res-note">OPSIONAL. Ambil sesuai minat atau kebutuhan brand latihan dari katalog utama Skillshop (path per sertifikasi: Display 18070, Video 18217, Shopping 18287). Kalau buffer habis, skip tanpa rasa bersalah.</span></a>
-<a class="res" href="https://support.google.com/google-ads" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Ads Help · Enhanced dan Offline Conversions</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Dokumentasi resmi untuk add-on GCLID/fbclid di bawah.</span></a>
+<a class="res" href="https://skillshop.exceedlms.com/student/path/18163-google-ads-search-certification" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Ads Search certification</span><span class="tag tag-tool">Skillshop</span></div><span class="res-note">Path utama yang fokus ke search intent, keywords, dan campaign structure.</span></a>
+<a class="res" href="https://skillshop.exceedlms.com/student/path/18330-google-ads-measurement-certification" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Ads Measurement</span><span class="tag tag-tool">Skillshop</span></div><span class="res-note">Opsional setelah W6, tetapi berguna untuk pemahaman conversion tracking.</span></a>
+<a class="res" href="https://support.google.com/google-ads" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Ads Help</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Konsultasi langsung untuk Enhanced Conversions, offline conversions, dan best practice.</span></a>
 </div>
 <div class="seq-box">
 <h5>Urutan belajar yang enak</h5>
@@ -372,7 +353,7 @@ tr:hover td{background:var(--surface-2)}
 <li><b>Buffer setelah W6:</b> Ambil Measurement certification saat fondasi analytics sudah terbentuk.</li>
 </ol>
 </div>
-<div class="callout-note"><strong>Add-on opsional:</strong> DESAIN SAJA: arsitektur penangkapan GCLID/fbclid dari form ke CRM untuk offline conversion feedback loop. Label: design artifact, bukan klaim sudah jalan.</div>
+<div class="callout-note"><strong>Add-on opsional:</strong> DESAIN SAJA: arsitektur penangkapan GCLID/fbclid dari form ke CRM untuk offline conversion feedback loop. Label: design artifact, bukan claim kerja yang sudah berjalan produksi.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w3-1"><span>Keyword-intent map + arsitektur campaign + RSA + negatives</span></label>
 <label class="chk"><input type="checkbox" data-id="w3-2" data-optional="true"><span>Opsional · Google Ads Search certification dari Skillshop</span></label>
@@ -400,46 +381,21 @@ tr:hover td{background:var(--surface-2)}
 </div>
 <div class="box" style="margin-top:16px"><h4>Meta — urut ambilnya</h4>
 <p style="font-size:12px;color:var(--accent);margin-bottom:10px"><strong>BAGIAN A · Learning paths (tanpa cert, fondasi wajib)</strong></p>
-<a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A1 · Meta Ads Manager Learning Path</span><span class="tag tag-doc">Learning</span></div><span class="res-note">Koleksi modul objective, audience, placement, budget, creative, results. 2–3 jam. URL diperiksa 26 September 2026 (ID lama 507005 sudah diganti). Kalau link ini berubah, masuk dari katalog utama dan cari "Ads Manager learning".</span></a>
-<a class="res" href="https://www.facebook.com/business/learn" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A2 · Meta Business Learn — topik Creative dan Pixel/CAPI</span><span class="tag tag-doc">Learning</span></div><span class="res-note">Katalog kursus gratis Meta. Cari modul creative strategy dan Pixel/Conversions API di sini. Konsep dulu, arsitektur server-side di W10.</span></a>
+<a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A1 · Meta Ads Manager learning</span><span class="tag tag-tool">Learn</span></div><span class="res-note">Fondasi untuk pengelolaan campaign di Meta.</span></a>
+<a class="res" href="https://www.facebook.com/business/learn" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A2 · Meta Business Learn</span><span class="tag tag-tool">Learn</span></div><span class="res-note">Topik creative, measurement, dan konsep tracking.</span></a>
 <p style="font-size:12px;color:var(--accent);margin:14px 0 10px"><strong>BAGIAN B · Certification (DENGAN cert gratis)</strong></p>
-<a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">B1 · Meta Small Business Academy — Skilling Certificate</span><span class="tag tag-off">Cert gratis</span></div><span class="res-note">TARGET UTAMA. Setelah selesaikan A1, ambil skill test-nya. Dapat skilling certificate gratis. Ini BUKAN Meta Professional Certification yang proctored dan berbayar.</span></a>
-<a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Blueprint · Credential Catalog</span><span class="tag tag-off">Katalog resmi</span></div><span class="res-note">Entry point aman kalau link collection berubah lagi.</span></a>
-<p style="font-size:12px;color:var(--red);margin:14px 0 10px"><strong>JANGAN ambil (berbayar, proctored, di luar scope)</strong></p>
-<div class="res" style="opacity:.6;cursor:default"><div class="res-top"><span class="res-name">Meta Certified Digital Marketing Associate</span><span class="tag tag-warn">Skip</span></div><span class="res-note">Ujian proctored berbayar. Bukan scope modul.</span></div>
-<div class="res" style="opacity:.6;cursor:default"><div class="res-top"><span class="res-name">Meta Certified Marketing Science Professional</span><span class="tag tag-warn">Skip</span></div><span class="res-note">Ujian proctored berbayar level lanjut. Skip dulu.</span></div>
+<a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">B1 · Meta Small Business Academy</span><span class="tag tag-free">Skill test</span></div><span class="res-note">Ikuti path yang sesuai dengan level business kamu.</span></a>
+<a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Blueprint · Credential Catalog</span><span class="tag tag-off">Catalog</span></div><span class="res-note">Cek daftar cert yang tersedia sebelum mengklaim kemampuan.</span></a>
 </div>
 <div class="box" style="margin-top:16px"><h4>TikTok — urut ambilnya</h4>
 <p style="font-size:12px;color:var(--accent);margin-bottom:10px"><strong>BAGIAN A · Business account dan learning paths (tanpa badge, fondasi)</strong></p>
-<a class="res" href="https://business.tiktok.com/id" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A1 · TikTok Business Center (ID)</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Portal resmi buat bikin dan kelola akun TikTok Ads. Dipakai buat deliverable "bikin akun TikTok Ads" di atas.</span></a>
-<a class="res" href="https://ads.tiktok.com/business/learn/course/list" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A2 · TikTok Business Learning Center</span><span class="tag tag-doc">Katalog</span></div><span class="res-note">Katalog resmi semua course. Pilih TikTok for Business fundamentals dulu.</span></a>
-<a class="res" href="https://ads.tiktok.com/business/creativecenter" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A3 · TikTok Creative Center · Top Ads</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Lihat iklan yang benar-benar perform. Bahan mentah matriks hook.</span></a>
-<a class="res" href="https://www.facebook.com/ads/library" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Ad Library</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Riset kompetitor manual. Jangan pakai scraper pihak ketiga.</span></a>
-<p style="font-size:12px;color:var(--accent);margin:14px 0 10px"><strong>BAGIAN B · TikTok Academy paths (DENGAN badge resmi) — pilih sesuai model bisnis UMKM latihan</strong></p>
-<a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">B1 · Drive Website Sales</span><span class="tag tag-step">Rekomendasi</span></div><span class="res-note">REKOMENDASI UTAMA, default kalau UMKM latihan jualan lewat website sendiri. Paling relevan buat performance marketer, 3-4 jam termasuk assessment.</span></a>
-<a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">B2 · Promote your TikTok Shop</span><span class="tag tag-off">Kondisional</span></div><span class="res-note">PILIHAN KEDUA. Ambil kalau UMKM latihan jualan produk fisik dan closing langsung di TikTok Shop.</span></a>
-<a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">B3 · Generate and message leads</span><span class="tag tag-off">Kondisional</span></div><span class="res-note">PILIHAN KETIGA. Ambil kalau UMKM latihan bisnis jasa (klinik, F&B, B2B, properti) yang closing-nya via chat/WhatsApp/DM.</span></a>
-<p style="font-size:12px;color:var(--red);margin:14px 0 10px"><strong>JANGAN ambil (berbayar, proctored, di luar scope)</strong></p>
-<div class="res" style="opacity:.6;cursor:default"><div class="res-top"><span class="res-name">TikTok Media Buying Professional Certification</span><span class="tag tag-warn">Skip</span></div><span class="res-note">Ujian proctored terpisah, butuh experience. Bukan scope modul.</span></div>
+<a class="res" href="https://business.tiktok.com/id" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A1 · TikTok Business Center (ID)</span><span class="tag tag-tool">Tool</span></div><span class="res-note">Buat akun bisnis dan cek struktur campaign.</span></a>
+<a class="res" href="https://ads.tiktok.com/business/learn/course/list" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A2 · TikTok Business Learning Center</span><span class="tag tag-tool">Learn</span></div><span class="res-note">Pelajari dasar media buying dan creative strategy.</span></a>
+<a class="res" href="https://ads.tiktok.com/business/creativecenter" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">A3 · TikTok Creative Center · Top Ads</span><span class="tag tag-tool">Research</span></div><span class="res-note">Cari hook, angle, dan produk yang sedang naik.</span></a>
+<a class="res" href="https://www.facebook.com/ads/library" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Ad Library</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Bandingkan pendekatan kreatif antar brand.</span></a>
 </div>
-<div class="callout-note"><strong>Pilih badge TikTok sesuai UMKM:</strong> Ambil B1 (Drive Website Sales) sebagai default. Ganti ke B2 kalau brand latihan jualan produk fisik dan mau closing di TikTok Shop, atau ke B3 kalau brand latihan bisnis jasa yang closing-nya via chat/WA/DM. Ambil satu saja, jangan ketiganya.</div>
-<div class="box" style="margin-top:16px"><h4>Add-on opsional</h4>
-<a class="res" href="https://academy.hubspot.com/courses/social-media" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Social Media Marketing Certification</span><span class="tag tag-off">Cert gratis, opsional</span></div><span class="res-note">OPSIONAL. 5 jam. Fondasi social strategy yang nyambung ke Meta/TikTok ads. Ambil kalau buffer masih ada.</span></a>
-</div>
-<div class="seq-box">
-<h5>Urutan belajar yang enak untuk W04</h5>
-<ol>
-<li><b>Hari 1:</b> Selesaikan Meta Ads Manager learning path (A1). Jangan loncat ke skill test.</li>
-<li><b>Hari 2:</b> Modul creative dan Pixel/CAPI dari Meta Business Learn (A2).</li>
-<li><b>Hari 3:</b> Ambil Meta Small Business Academy skill test (B1). Catat tanggal lulus.</li>
-<li><b>Hari 4:</b> TikTok for Business fundamentals dari Learning Center (A2).</li>
-<li><b>Hari 5:</b> Riset 1-2 jam di Creative Center (A3) + Ad Library. Kumpulkan bahan matriks hook.</li>
-<li><b>Hari 6:</b> Rampungkan matriks TikTok dan protokol uji kreatif.</li>
-<li><b>Buffer:</b> Salah satu badge TikTok Academy (B1/B2/B3, pilih sesuai UMKM) atau Social Media cert, pilih satu jika waktu cukup.</li>
-</ol>
-</div>
-<div class="callout-note"><strong>Catatan jujur TikTok:</strong> Detail course internal setiap path (course mana aja yang harus diselesaikan sebelum assessment) butuh login dan bisa berubah sewaktu-waktu. Link B1/B2/B3 di atas sudah menunjuk langsung ke path masing-masing (bukan lagi ke katalog umum); kalau ada yang 404, itu perubahan di sisi TikTok, bukan kesalahan modul.</div>
-<div class="callout-note"><strong>Bedakan di CV:</strong> Meta Small Business Academy skilling certificate itu beda dari Meta Professional Certification yang proctored. TikTok Achievement badge beda dari TikTok Professional Certification. Tulis level yang sebenarnya.</div>
+<div class="callout-note"><strong>Pilih badge TikTok sesuai UMKM:</strong> Ambil B1 (Drive Website Sales) sebagai default. Ganti ke B2 kalau brand latihan jualan produk fisik dan mau closing di TikTok Shop. Pilih B3 jika focusnya lead generation.</div>
+<div class="callout-note"><strong>Bedakan di CV:</strong> Meta Small Business Academy skilling certificate itu beda dari Meta Professional Certification yang proctored. TikTok Achievement badge beda dari pelatihan internal berbayar.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w4-1"><span>Meta blueprint + TikTok creative matrix + protokol uji</span></label>
 <label class="chk"><input type="checkbox" data-id="w4-2" data-optional="true"><span>Opsional · Meta Small Business Academy skilling certificate</span></label>
@@ -466,12 +422,12 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google SEO Starter Guide</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Fondasi resmi, pendek tapi penting.</span></a>
-<a class="res" href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google, AI features and your website</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Posisi resmi Google soal AI Overviews dan crawling.</span></a>
-<a class="res" href="https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Semrush SEO Crash Course (Brian Dean)</span><span class="tag tag-off">Cert gratis</span></div><span class="res-note">SEO praktis + sertifikat gratis setelah exam.</span></a>
-<a class="res" href="https://academy.hubspot.com/courses/aeo-fundamentals-certification-en" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot AEO Fundamentals</span><span class="tag tag-off">Cert gratis</span></div><span class="res-note">Diperiksa aktif 26 September 2026. Diluncurkan 25 Juni 2026, menggantikan course SEO lama HubSpot. Cert + badge gratis, sekitar 2 jam.</span></a>
-<a class="res" href="https://search.google.com/search-console" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Search Console</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Bukti indexing dan visibility di sandbox sendiri.</span></a>
-<a class="res" href="https://search.google.com/test/rich-results" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Rich Results Test</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Validasi JSON-LD, screenshot hasilnya.</span></a>
+<a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google SEO Starter Guide</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Fondasi SEO yang dibangun di Google sendiri.</span></a>
+<a class="res" href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google, AI features and your website</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Pahami bagaimana AI features memengaruhi discoverability.</span></a>
+<a class="res" href="https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Semrush SEO Crash Course</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Belajar proses SEO dengan referensi praktis.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/aeo-fundamentals-certification-en" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot AEO Fundamentals</span><span class="tag tag-off">Cert</span></div><span class="res-note">Salah satu yang masuk akal di ruang AEO.</span></a>
+<a class="res" href="https://search.google.com/search-console" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Search Console</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Verifikasi performa dan visibility di Google.</span></a>
+<a class="res" href="https://search.google.com/test/rich-results" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Rich Results Test</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Validasi schema dan structured data.</span></a>
 </div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w5-1"><span>SEO audit + topic cluster + 3 brief + checklist AEO</span></label>
@@ -498,13 +454,13 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://support.google.com/analytics/answer/15068052" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Analytics Academy + Certification</span><span class="tag tag-off">Cert resmi</span></div><span class="res-note">Route resmi GA4, expire ±12 bulan.</span></a>
-<a class="res" href="https://developers.google.com/tag-platform/security/guides/consent" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Consent Mode v2 Guide</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Empat sinyal consent + conversion modeling.</span></a>
-<a class="res" href="https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Analytics Mania GTM Fundamentals</span><span class="tag tag-off">Cert gratis</span></div><span class="res-note">90 menit, 30 soal, completion certificate. Ini bukti GTM lu. Course GTM resmi Skillshop ada tapi tanpa cert.</span></a>
-<a class="res" href="https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Analytics Mania GA4 Fundamentals</span><span class="tag tag-off">Cert gratis</span></div><span class="res-note">Route bukti tambahan untuk GA4.</span></a>
-<a class="res" href="https://www.simoahava.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Blog Simo Ahava</span><span class="tag tag-doc">Referensi</span></div><span class="res-note">Referensi paling otoritatif GTM dan consent.</span></a>
+<a class="res" href="https://support.google.com/analytics/answer/15068052" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Analytics Academy + Certification</span><span class="tag tag-off">Cert</span></div><span class="res-note">Jalankan learning path yang memastikan dasar GA4 kuat.</span></a>
+<a class="res" href="https://developers.google.com/tag-platform/security/guides/consent" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Consent Mode v2 Guide</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Konsep penting untuk measurement yang patuh privasi.</span></a>
+<a class="res" href="https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Analytics Mania GTM Fundamentals</span><span class="tag tag-off">Course</span></div><span class="res-note">Alternatif pilihan bila materi resmi kurang cocok.</span></a>
+<a class="res" href="https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Analytics Mania GA4 Fundamentals</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Cupup untuk belajar setup dan troubleshooting.</span></a>
+<a class="res" href="https://www.simoahava.com" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Blog Simo Ahava</span><span class="tag tag-doc">Referensi</span></div><span class="res-note">Banyak kasus nyata GTM dan QA measurement.</span></a>
 </div>
-<div class="callout-note"><strong>Plan B:</strong> Kalau Google Analytics cert sedang tidak bisa diakses, ambil Analytics Mania GA4 Fundamentals sebagai pengganti minggu ini, kembali ke cert resmi di buffer week. Jangan stuck.</div>
+<div class="callout-note"><strong>Plan B:</strong> Kalau Google Analytics cert sedang tidak bisa diakses, ambil Analytics Mania GA4 Fundamentals sebagai pengganti minggu ini, kembali ke cert resmi di waktu yang lebih aman.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w6-1"><span>Measurement plan + taksonomi + UTM + GTM map + QA log</span></label>
 <label class="chk"><input type="checkbox" data-id="w6-2" data-optional="true"><span>Opsional · Google Analytics certification</span></label>
@@ -529,13 +485,12 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://cloud.google.com/looker/docs/studio" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Looker Studio documentation</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Tool gratis, tidak ada cert Looker Studio. Buktinya dashboard lu sendiri.</span></a>
-<a class="res" href="https://www.khanacademy.org/math/statistics-probability" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Khan Academy Statistics and Probability</span><span class="tag tag-free">Gratis, tanpa cert</span></div><span class="res-note">Fondasi korelasi vs kausalitas.</span></a>
-<a class="res" href="https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Semrush · Fundamentals of Marketing Analytics</span><span class="tag tag-off">Cert opsional</span></div><span class="res-note">Diperiksa gratis 26 September 2026. Sekitar 3–4 jam + ujian; cocok sebagai credential opsional setelah deliverable selesai.</span></a>
-<a class="res" href="https://github.com/facebookexperimental/GeoLift" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta geoLift</span><span class="tag tag-free">OSS gratis</span></div><span class="res-note">Repo open-source dari Meta, isinya kode R. Cukup baca README dan konsep geo-holdout-nya; TIDAK perlu install R atau jalanin kodenya. Dipakai sebagai dasar logika kalkulator geo-holdout di deliverable W07.</span></a>
-<a class="res" href="https://www.coursera.org/professional-certificates/facebook-marketing-analytics" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Marketing Analytics Professional Certificate</span><span class="tag tag-coursera">Coursera</span></div><span class="res-note">Route dalam kalau mau lebih jauh. Aid per course.</span></a>
+<a class="res" href="https://cloud.google.com/looker/docs/studio" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Looker Studio documentation</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Belajar dashboard menyampaikan insight dengan jelas.</span></a>
+<a class="res" href="https://www.khanacademy.org/math/statistics-probability" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Khan Academy Statistics and Probability</span><span class="tag tag-free">Gratis</span></div><span class="res-note">Pahami dasar inferensi dan analisis tanpa terjebak korelasi.</span></a>
+<a class="res" href="https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Semrush · Fundamentals of Marketing Analytics</span><span class="tag tag-off">Free</span></div><span class="res-note">Berguna untuk mengikuti logika analitik yang terstruktur.</span></a>
+<a class="res" href="https://github.com/facebookexperimental/GeoLift" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta geoLift</span><span class="tag tag-free">OSS gratis</span></div><span class="res-note">Contoh implementasi geo-holdout dan eksperimen yang lebih jujur.</span></a>
 </div>
-<div class="callout-note"><strong>Add-on halo effect:</strong> Plot belanja Meta vs volume branded search dengan jeda 3-7 hari. Label wajib: correlational signal, hypothesis-generating. Pertanyaannya: kalau Meta dimatikan, apakah Google Ads kehabisan bensin.</div>
+<div class="callout-note"><strong>Add-on halo effect:</strong> Plot belanja Meta vs volume branded search dengan jeda 3-7 hari. Label wajib: correlational signal, hypothesis-generating. Pertanyaannya: apakah halo nyata atau cuma seasonality dan brand awareness?</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w7-1"><span>Link dashboard shareable + memo insight + attribution note</span></label>
 <label class="chk"><input type="checkbox" data-id="w7-2"><span>Kalkulator geo-holdout (sintetis) + backlog eksperimen</span></label>
@@ -561,16 +516,15 @@ tr:hover td{background:var(--surface-2)}
 <li>Bungkus proyek onboarding–W8 jadi satu case study.</li>
 </ol></div>
 </div>
-<div class="callout-note"><strong>Bahasa manusia:</strong> Fase penutup ini memang lebih besar dan boleh dibagi dua pekan: pertama membangun lifecycle dan otomasi, lalu membungkus karya menjadi satu case study. AI dipakai dengan review manusia, bukan sebagai pengganti penilaian.</div>
+<div class="callout-note"><strong>Bahasa manusia:</strong> Fase penutup ini memang lebih besar dan boleh dibagi dua pekan: pertama membangun lifecycle dan otomasi, lalu membungkus karya menjadi satu case study yang bisa dijelaskan dengan jujur.</div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Email Marketing Certification</span><span class="tag tag-off">Cert gratis</span></div><span class="res-note">Strategy, segmentation, deliverability, otomasi. 12 lesson, 31 video.</span></a>
-<a class="res" href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Sales Hub Software Certification</span><span class="tag tag-off">Pilihan credential</span></div><span class="res-note">Diperiksa aktif 26 September 2026. Sekitar 5 jam; pilih ini bila ingin memperkuat sisi CRM.</span></a>
-<a class="res" href="https://www.semrush.com/academy/courses/ai-for-marketing-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Semrush · AI for Marketing</span><span class="tag tag-off">Pilihan credential</span></div><span class="res-note">Diperiksa gratis 26 September 2026. Sekitar 1,5–2 jam; pilih ini bila ingin memperkuat penggunaan AI.</span></a>
-<a class="res" href="https://learn.zapier.com/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Zapier Academy</span><span class="tag tag-off">Pilihan credential</span></div><span class="res-note">Diperiksa 26 September 2026. Pilih ini bila ingin memperkuat automation; tidak perlu mengambil semua credential W8.</span></a>
-<a class="res" href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Microsoft Learn, AI paths</span><span class="tag tag-off">Badge gratis</span></div><span class="res-note">Achievements dan trophies di profil publik. Learning evidence, bukan professional cert.</span></a>
-<a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Karir Next — capstone support</span><span class="tag tag-warn">Cek manual · per batch</span></div><span class="res-note">Domain resmi karirnex.com (bukan karirnext.com), sama seperti link W1. Mentoring dan review portofolio akhir dibuka per batch, cek /program buat batch yang sedang open.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Email Marketing Certification</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Membantu memahami lifecycle email dan nurture yang kuat.</span></a>
+<a class="res" href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">HubSpot Sales Hub Software Certification</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Untuk siapa yang ingin masuk ke CRM + lead flow.</span></a>
+<a class="res" href="https://www.semrush.com/academy/courses/ai-for-marketing-course/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Semrush · AI for Marketing</span><span class="tag tag-off">Gratis</span></div><span class="res-note">Aplikasi AI yang realistis untuk content ops dan automation.</span></a>
+<a class="res" href="https://learn.zapier.com/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Zapier Academy</span><span class="tag tag-off">Pilihan credential</span></div><span class="res-note">Membantu materi automation tanpa perlu coding berat.</span></a>
+<a class="res" href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Microsoft Learn, AI paths</span><span class="tag tag-off">Bisa ambil</span></div><span class="res-note">Pakailah untuk AI literacy sesuai kebutuhan kerja nyata.</span></a>
 </div>
-<div class="callout-note"><strong>Add-on LLM-as-judge:</strong> Dua node di otomasi. Generator bikin draft, Critic cek apakah klaim didukung sumber, output JSON approved atau rejected. Rejected berarti ulang atau masuk antrean review manusia. API LLM bayar per token.</div>
+<div class="callout-note"><strong>Add-on LLM-as-judge:</strong> Dua node di otomasi. Generator bikin draft, Critic cek apakah klaim didukung sumber, output JSON approved atau rejected. Rejected berarti manusia review. Ini bukan magic; ini sistem kontrol kualitas.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w8-1"><span>Lifecycle map + automation blueprint + email sequence</span></label>
 <label class="chk"><input type="checkbox" data-id="w8-2"><span>Pustaka prompt AI + governance checklist</span></label>
@@ -585,7 +539,7 @@ tr:hover td{background:var(--surface-2)}
 <div class="week-body">
 <div class="duo">
 <div class="box"><h4>Kenapa ini penting</h4><ul>
-<li>Bertanya ke ChatGPT, Gemini, Perplexity sekarang jadi kebiasaan baru. Ditanya soal kategori kita, brand disebut atau tidak. Itu metrik baru dan hampir belum ada yang mengukur dengan benar. Kesempatan.</li>
+<li>Bertanya ke ChatGPT, Gemini, Perplexity sekarang jadi kebiasaan baru. Ditanya soal kategori kita, brand disebut atau tidak. Itu metrik baru dan hampir belum ada yang mengukur dengan benar. Kesempatan ini ada, tapi harus dijelaskan dengan hati-hati.</li>
 <li>Tiga lapis AI: muncul di dalam jawaban AI lewat GEO, iklan di permukaan AI yang masih berkembang, dan campaign product AI seperti PMax dan Demand Gen.</li>
 <li>AI crawler punya nama: GPTBot, Google-Extended, PerplexityBot, ClaudeBot. robots.txt yang mengatur mereka.</li>
 </ul></div>
@@ -597,14 +551,13 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Paper GEO (arXiv)</span><span class="tag tag-free">Paper gratis</span></div><span class="res-note">Bukti akademik taktik sitasi.</span></a>
-<a class="res" href="https://learningseo.io" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">learningseo.io</span><span class="tag tag-free">Hub gratis</span></div><span class="res-note">Kurasi roadmap SEO sampai AEO/GEO.</span></a>
-<a class="res" href="https://skillshop.exceedlms.com/student/path/645553-ai-powered-performance-ads-certification" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Skillshop, AI-Powered Performance Ads Certification</span><span class="tag tag-off">Cert resmi</span></div><span class="res-note">PMax, Demand Gen, AI bidding. Link langsung ke path certification-nya, bukan link generik /googleads/ lama.</span></a>
-<a class="res" href="https://www.cloudskillsboost.google/course_templates/536" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Cloud Skills Boost, Intro to Generative AI</span><span class="tag tag-off">Badge gratis</span></div><span class="res-note">Fundamental GenAI langsung dari Google, sekitar 45 menit, gratis. Link langsung ke course template-nya.</span></a>
-<a class="res" href="https://www.bing.com/webmasters" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Bing Webmaster Tools</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Index Bing dipakai banyak mesin AI.</span></a>
-<a class="res" href="https://www.indexnow.org" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">IndexNow</span><span class="tag tag-doc">Protokol gratis</span></div><span class="res-note">Notifikasi indexing cepat ke engine pendukung.</span></a>
+<a class="res" href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Paper GEO (arXiv)</span><span class="tag tag-free">Paper gratis</span></div><span class="res-note">Bahan referensi grounded untuk konsep GEO.</span></a>
+<a class="res" href="https://learningseo.io" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">learningseo.io</span><span class="tag tag-free">Hub gratis</span></div><span class="res-note">Sumber yang keras ke arah AI visibility dan search.</span></a>
+<a class="res" href="https://skillshop.exceedlms.com/student/path/645553-ai-powered-performance-ads-certification" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Skillshop · AI-Powered Performance Ads</span><span class="tag tag-tool">Skillshop</span></div><span class="res-note">Belajar bagaimana AI masuk ke ekosistem paid media.</span></a>
+<a class="res" href="https://www.bing.com/webmasters" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Bing Webmaster Tools</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Sekali-sekali bagus untuk visibility comparison.</span></a>
+<a class="res" href="https://www.indexnow.org" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">IndexNow</span><span class="tag tag-doc">Protokol gratis</span></div><span class="res-note">Dapat dipakai sebagai bagian pemahaman crawlability.</span></a>
 </div>
-<div class="callout-note"><strong>Peringatan:</strong> Tidak ada sertifikasi resmi GEO dari platform besar mana pun. Waspadai kursus berbayar yang mengklaim GEO Certified. Bukti kamu: panel log dan entity audit.</div>
+<div class="callout-note"><strong>Peringatan:</strong> Tidak ada sertifikasi resmi GEO dari platform besar mana pun. Waspadai kursus berbayar yang mengklaim GEO Certified. Bukti kamu: panel log dan eksperimen yang konsisten.</div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w9-1"><span>Robots decision sheet + entity audit + prompt panel log</span></label>
 <label class="chk"><input type="checkbox" data-id="w9-2" data-optional="true"><span>Opsional · AI-Powered Performance Ads cert atau badge GCS</span></label>
@@ -615,7 +568,7 @@ tr:hover td{background:var(--surface-2)}
 <details class="week" data-type="elec">
 <summary><span class="week-num">W10</span><span class="week-title">Elektif: data dan infrastruktur pengukuran</span><span class="week-time">buka setelah W6/W7</span><span class="week-toggle">+</span></summary>
 <div class="week-body">
-<div class="callout-note"><strong>Batas jujur:</strong> Elektif ini bikin paham dan bisa menunjukkan arsitektur di level sandbox. Bukan bikin jadi data engineer. Delapan minggu tidak cukup untuk itu, dan orang yang jujur soal batas ini justru lebih kredibel saat interview.</div>
+<div class="callout-note"><strong>Batas jujur:</strong> Elektif ini bikin paham dan bisa menunjukkan arsitektur di level sandbox. Bukan bikin jadi data engineer. Delapan minggu tidak cukup untuk itu, jadi fokus di apa yang bisa dites dan dijelaskan secara benar.</div>
 <div class="duo">
 <div class="box"><h4>Kenapa ini penting</h4><ul>
 <li>Client-side tracking makin susah. Safari ITP, iOS ATT, ad blocker. Dari situ lahir sGTM dan Conversions API.</li>
@@ -630,12 +583,11 @@ tr:hover td{background:var(--surface-2)}
 </ol></div>
 </div>
 <div class="box" style="margin-top:16px"><h4>Resource toolkit</h4>
-<a class="res" href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google, server-side tagging docs</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Konsep dan setup sGTM dari sumbernya.</span></a>
-<a class="res" href="https://cloud.google.com/bigquery/docs/sandbox" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">BigQuery Sandbox</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Gratis tanpa kartu kredit, 10GB + 1TB query/bulan.</span></a>
-<a class="res" href="https://developers.google.com/analytics/bigquery" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">GA4 BigQuery Export + sample datasets</span><span class="tag tag-doc">Docs resmi</span></div><span class="res-note">Skema event + dataset publik untuk latihan.</span></a>
-<a class="res" href="https://www.kaggle.com/learn/intro-to-sql" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Kaggle Learn, Intro to SQL</span><span class="tag tag-off">Cert completion</span></div><span class="res-note">Diperiksa 26 September 2026: certificate of completion gratis, sekitar 3 jam. Bukan formal certification, tetapi valid sebagai bukti belajar.</span></a>
-<a class="res" href="https://github.com/facebookexperimental/Robyn" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Robyn, MMM</span><span class="tag tag-free">OSS gratis</span></div><span class="res-note">Repo open-source dari Meta, isinya kode R untuk Marketing Mix Modeling. Sama seperti GeoLift di W07: baca dokumentasi dan logikanya saja, TIDAK perlu jalanin script-nya.</span></a>
-<a class="res" href="https://www.cloudskillsboost.google" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google Cloud Skills Boost, BigQuery basics</span><span class="tag tag-off">Badge gratis</span></div><span class="res-note">Cari quest "Insights from Data with BigQuery" / BigQuery Basics di katalog. Skill badge pengenal BigQuery untuk melengkapi bukti.</span></a>
+<a class="res" href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Google, server-side tagging docs</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Landasan bagi sGTM dan server-side measurement.</span></a>
+<a class="res" href="https://cloud.google.com/bigquery/docs/sandbox" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">BigQuery Sandbox</span><span class="tag tag-tool">Tool gratis</span></div><span class="res-note">Tempat latihan SQL + data warehouse yang realistis.</span></a>
+<a class="res" href="https://developers.google.com/analytics/bigquery" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">GA4 BigQuery Export + sample datasets</span><span class="tag tag-doc">Docs</span></div><span class="res-note">Belajar data export dan analitik di level lebih dalam.</span></a>
+<a class="res" href="https://www.kaggle.com/learn/intro-to-sql" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Kaggle Learn, Intro to SQL</span><span class="tag tag-off">Cek</span></div><span class="res-note">Untuk foundation SQL yang ringan dan cepat.</span></a>
+<a class="res" href="https://github.com/facebookexperimental/Robyn" target="_blank" rel="noopener"><div class="res-top"><span class="res-name">Meta Robyn, MMM</span><span class="tag tag-free">OSS gratis</span></div><span class="res-note">Menyimak pendekatan model marketing mix yang lebih jujur.</span></a>
 </div>
 <div class="deliv"><div class="deliv-label">Deliverable</div>
 <label class="chk"><input type="checkbox" data-id="w10-1"><span>Diagram arsitektur + 1 SQL query (screenshot), semua dilabel sandbox</span></label>
@@ -657,7 +609,7 @@ tr:hover td{background:var(--surface-2)}
 <tr><td><strong>Keuangan (W1)</strong></td><td>CFI Accounting Fundamentals / Khan</td><td>Course gratis (cert mungkin berbayar, cek syarat) / tanpa cert</td><td>Cek</td></tr>
 <tr><td><strong>CRO & konten (W2)</strong></td><td>HubSpot Academy</td><td>Cert gratis + course Inbound Marketing Optimization</td><td>±12 bln</td></tr>
 <tr><td><strong>Google Ads (W3/W6+)</strong></td><td>Google Skillshop</td><td>Search utama; Measurement opsional setelah W6</td><td>±12 bln</td></tr>
-<tr><td><strong>Meta Ads (W4)</strong></td><td>Meta Blueprint (ID 507792)</td><td>Small Business Academy skilling cert</td><td>Cek</td></tr>
+<tr><td><strong>Meta Ads (W4)</strong></td><td>Meta Blueprint</td><td>Small Business Academy skilling cert</td><td>Cek</td></tr>
 <tr><td><strong>TikTok Ads (W4)</strong></td><td>TikTok Academy</td><td>Drive Website Sales / TikTok Shop / Generate Leads (pilih satu)</td><td>—</td></tr>
 <tr><td><strong>SEO & AEO (W5)</strong></td><td>Semrush + HubSpot AEO</td><td>Cert gratis (AEO terverifikasi aktif)</td><td>±12 bln</td></tr>
 <tr><td><strong>GA4 (W6)</strong></td><td>Google Analytics Academy</td><td>Cert resmi</td><td>±12 bln</td></tr>
@@ -672,7 +624,7 @@ tr:hover td{background:var(--surface-2)}
 <tr><td><strong>Jalur dalam</strong></td><td>Coursera: Meta / Google PC</td><td>Professional cert, aid per course</td><td>—</td></tr>
 </tbody>
 </table></div>
-<p class="tbl-note">Cert resmi Google umumnya berlaku sekitar 12 bulan. Meta Small Business Academy skilling certificate beda dari Meta Professional Certification. Microsoft Learn badges itu learning evidence, bukan professional cert. Tulis yang sesuai di CV, jangan menaikkan levelnya sendiri.</p>
+<p class="tbl-note">Cert resmi Google umumnya berlaku sekitar 12 bulan. Meta Small Business Academy skilling certificate beda dari Meta Professional Certification. Microsoft Learn badges itu learning by achievement, bukan semata job qualification.</p>
 </section>
 
 <section class="section">
@@ -693,9 +645,9 @@ tr:hover td{background:var(--surface-2)}
 <p class="sec-label">Pola cepat</p>
 <h2 class="sec-title">Template yang dipakai berulang</h2>
 <div class="grid-2">
-<div class="box"><h4>Business brief</h4><p>Masalah bisnis, apa yang macet. Tujuan, berubah jadi apa, berapa, kapan. Audiens, siapa dan buktinya. Offer, value propositionnya. Constraint, budget, legal, data, timing. KPI, primary, secondary, guardrail.</p></div>
-<div class="box"><h4>QA checklist GTM dan GA4</h4><p>Event yang diharapkan ada dan namanya konsisten. Parameter terisi. Duplikat dicek. Event hilang didokumentasikan. UTM konsisten. Perilaku consent dicatat. Screenshot disimpan sebagai bukti.</p></div>
-<div class="box"><h4>Insight memo</h4><p>Observation, apa yang berubah. Interpretation, kemungkinan penyebabnya. Verification, buktinya apa. Recommendation, apa yang dites atau diubah. Risk, apa yang bisa bikin ini salah.</p></div>
+<div class="box"><h4>Business brief</h4><p>Masalah bisnis, apa yang macet. Tujuan, berubah jadi apa, berapa, kapan. Audiens, siapa dan buktinya. Offer, value propositionnya. Constraint, budget, legal, dan orang yang memutuskan.</p></div>
+<div class="box"><h4>QA checklist GTM dan GA4</h4><p>Event yang diharapkan ada dan namanya konsisten. Parameter terisi. Duplikat dicek. Event hilang didokumentasikan. UTM konsisten. Perilaku consent dipastikan masuk log.</p></div>
+<div class="box"><h4>Insight memo</h4><p>Observation, apa yang berubah. Interpretation, kemungkinan penyebabnya. Verification, buktinya apa. Recommendation, apa yang dites atau diubah. Risk, apa yang bisa salah dan bagaimana memitigasi.</p></div>
 <div class="box"><h4>AI visibility panel log</h4><p>Kolomnya: tanggal, engine, prompt, disebut atau tidak, posisi, sentimen, sumber yang dikutip, action berikutnya.</p></div>
 </div>
 </section>
@@ -712,8 +664,8 @@ tr:hover td{background:var(--surface-2)}
 </ol><p style="margin-top:10px">Tiga dari empat tercapai berarti siap. Kalau belum, identifikasi celahnya dan ulang minggu yang relevan.</p></div>
 <div class="box"><h4>Translasi ke CV</h4>
 <p>Jangan tulis "mengikuti kursus digital marketing". Tulis dampaknya.</p>
-<p style="margin-top:10px"><b>Contoh W6:</b> "Designed end-to-end measurement plan for [brand], implementing GA4 event taxonomy across 6 conversion events and establishing UTM governance to reduce data discrepancy."</p>
-<p style="margin-top:8px"><b>Contoh W7:</b> "Built diagnostic Looker Studio dashboard and geo-holdout calculator to separate platform ROAS from true incrementality, shifting budget allocation based on causal evidence."</p>
+<p style="margin-top:10px"><b>Contoh W6:</b> "Designed end-to-end measurement plan for [brand], implementing GA4 event taxonomy across 6 conversion events and establishing UTM governance to reduce data ambiguity in reporting."</p>
+<p style="margin-top:8px"><b>Contoh W7:</b> "Built diagnostic Looker Studio dashboard and geo-holdout calculator to separate platform ROAS from true incrementality, shifting budget allocation based on evidence instead of platform claims."</p>
 </div>
 </div>
 </section>
@@ -723,8 +675,8 @@ tr:hover td{background:var(--surface-2)}
 <h2 class="sec-title">Verifikasi dan kejujuran</h2>
 <div class="box">
 <p>Status tiap sumber wajib dicek manual sebelum masuk CV. Buka linknya, screenshot kondisinya, tulis tanggal cekmu sendiri di sini: <strong style="color:var(--accent)">[ isi tanggal cek ]</strong></p>
-<p style="margin-top:8px">Item yang belum bisa diverifikasi publik dan wajib dicek manual: Karir Next, YUP free courses, syarat certificate CFI Accounting Fundamentals, detail ASEAN Ahead, dan course internal TikTok Achievement paths yang membutuhkan login. Sumber lain pada modul ini terakhir diperiksa 26 September 2026; status provider dapat berubah setelah tanggal tersebut.</p>
-<p style="margin-top:8px">Karir Next diposisikan sebagai support lokal Indonesia (mentor dan review portofolio), bukan klaim kesetaraan dengan program berbayarnya. YUP diposisikan sebagai pembanding cara berpikir dari kurikulum global — YUP berbasis India, bukan konten lokal Indonesia. ASEAN Ahead Programme adalah program pihak ketiga, syarat dan timeline bisa berubah.</p>
+<p style="margin-top:8px">Item yang belum bisa diverifikasi publik dan wajib dicek manual: Karir Next, YUP free courses, syarat certificate CFI Accounting Fundamentals, detail ASEAN Ahead, dan course yang sifatnya berubah cepat.</p>
+<p style="margin-top:8px">Karir Next diposisikan sebagai support lokal Indonesia (mentor dan review portofolio), bukan klaim kesetaraan dengan program berbayarnya. YUP diposisikan sebagai pembanding course yang bisa membantu memperluas perspektif.</p>
 <p style="margin-top:8px">Semua angka dari simulasi wajib dilabel sintetis, tanpa pengecualian. Snapshot verifikasi provider dan tautan: 26 September 2026.</p>
 </div>
 </section>
@@ -799,13 +751,6 @@ document.querySelectorAll('.topbar-actions button[data-f]').forEach(btn=>{
 function expandAll(openStatus){
   document.querySelectorAll('details.week').forEach(d=>{d.open=openStatus});
 }
-
-function triggerPrint(){
-  expandAll(true);
-  setTimeout(()=>{window.print()},150);
-}
-
-window.addEventListener('beforeprint',()=>{expandAll(true)});
 
 function resetProgress(){
   if(confirm('Yakin reset semua progress belajar?')){
