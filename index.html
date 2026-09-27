@@ -15,10 +15,11 @@
 :root{--bg:#0F0E0C;--bg-glow:#1A1712;--surface:#171512;--surface-2:#1E1B16;--surface-3:#26221B;--ink:#EDE8DE;--ink-soft:#B3AA9B;--ink-faint:#7D7566;--line:#2B2720;--line-strong:#3D382C;--accent:#D2A24B;--accent-soft:rgba(210,162,75,.12);--accent-line:rgba(210,162,75,.28);--green:#8FB573;--red:#C9705E;--sans:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--serif:"Instrument Serif",Georgia,serif;--mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace;--r:12px;--r-lg:16px}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;user-select:none;-webkit-user-select:none}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased;user-select:none;-webkit-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-user-drag:none}
 ::selection{background:var(--accent);color:#1A1610}
 a{color:var(--accent);text-decoration:none;transition:color .2s}
 a:hover{color:#E5BC6E}
+img,svg,canvas,video{user-drag:none;-webkit-user-drag:none;pointer-events:none}
 .wm{position:fixed;inset:0;z-index:9000;pointer-events:none;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .wm span{position:absolute;font:500 14px/1 var(--sans);color:rgba(237,232,222,.03);white-space:nowrap;transform:rotate(-32deg);letter-spacing:.05em;user-select:none}
 .wm span:nth-child(1){top:12%;left:-6%}
@@ -129,8 +130,8 @@ tr:hover td{background:var(--surface-2)}
 .copyright h3{font-family:var(--serif);font-weight:400;font-size:21px;color:var(--accent);margin-bottom:12px}
 .copyright p{font-size:13px;color:var(--ink-soft);line-height:1.7;max-width:520px;margin:0 auto}
 .copyright p+p{margin-top:10px}
-html,body{ -webkit-user-select:none; user-select:none; }
-img{ -webkit-user-drag:none; user-drag:none; }
+html,body{ -webkit-user-select:none; user-select:none; -ms-user-select:none; -webkit-touch-callout:none; }
+img,svg,canvas,video{ -webkit-user-drag:none; user-drag:none; pointer-events:none; }
 </style>
 </head>
 <body>
@@ -763,10 +764,26 @@ function resetProgress(){
 
 document.addEventListener('contextmenu',e=>{e.preventDefault();showToast('Klik kanan dinonaktifkan')});
 document.addEventListener('copy',e=>{e.preventDefault();showToast('Copy dinonaktifkan. Bagikan linknya saja')});
+document.addEventListener('dragstart',e=>e.preventDefault());
+document.addEventListener('selectstart',e=>e.preventDefault());
+document.addEventListener('dblclick',e=>e.preventDefault());
 document.addEventListener('keydown',e=>{
-  if((e.ctrlKey||e.metaKey)&&['c','p','s','u'].indexOf(e.key.toLowerCase())>-1){
+  const blocked = ['c','p','s','u','i','j','k'];
+  const devBlocked = [123, 74, 75, 85];
+  const combo = (e.ctrlKey||e.metaKey||e.shiftKey) && (blocked.includes(e.key.toLowerCase()) || devBlocked.includes(e.keyCode));
+  if((e.ctrlKey||e.metaKey)&&['c','p','s','u'].includes(e.key.toLowerCase())){
     e.preventDefault();
     showToast('Shortcut diblokir. Modul ini dilindungi hak cipta.');
+    return;
+  }
+  if((e.ctrlKey||e.metaKey||e.shiftKey) && (e.key === 'I' || e.key === 'J' || e.key === 'C' || e.key === 'K' || e.keyCode === 123)){
+    e.preventDefault();
+    showToast('Developer tools shortcut diblokir.');
+    return;
+  }
+  if(e.key === 'F12' || e.keyCode === 123){
+    e.preventDefault();
+    showToast('Developer tools diblokir.');
   }
 });
 
