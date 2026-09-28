@@ -7,11 +7,9 @@
 <meta name="theme-color" content="#0F0E0C">
 <link rel="canonical" href="https://putratryarga-dpa.vercel.app/">
 
-<!-- SEO -->
 <title>Full-Stack Digital Performance Architect — Putra Try Arga</title>
 <meta name="description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata. Sumber gratis dan bukti kerja yang jujur. Diverifikasi 26 September 2026.">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="id_ID">
 <meta property="og:title" content="Full-Stack Digital Performance Architect — Putra Try Arga">
@@ -19,13 +17,11 @@
 <meta property="og:url" content="https://putratryarga-dpa.vercel.app/">
 <meta property="og:image" content="https://putratryarga-dpa.vercel.app/og.png">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Full-Stack Digital Performance Architect">
 <meta name="twitter:description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata.">
 <meta name="twitter:image" content="https://putratryarga-dpa.vercel.app/og.png">
 
-<!-- Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -44,10 +40,8 @@
 }
 </script>
 
-<!-- Favicon (inline SVG) -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230F0E0C'/%3E%3Ctext x='16' y='22' font-family='Georgia' font-size='16' font-weight='400' fill='%23D2A24C' text-anchor='middle' font-style='italic'%3EP%3C/text%3E%3C/svg%3E">
 
-<!-- Fonts (with preconnect for performance) -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-normal.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-italic-normal.css">
@@ -102,7 +96,13 @@ button:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 3px;
   border-radius: 4px;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 120px;
+}
+
+section,
+details.week,
+[id] {
+  scroll-margin-top: 120px;
 }
 
 .wm { position: fixed; inset: 0; z-index: 9000; pointer-events: none; overflow: hidden; }
@@ -646,15 +646,32 @@ footer p {
 @media (max-width: 640px) {
   .g2 { grid-template-columns: 1fr; }
   .slot-grid { grid-template-columns: 1fr; }
+  
   details.week summary {
     padding: 16px 18px;
     gap: 10px;
     flex-wrap: wrap;
   }
-  .wn { order: 1; flex-shrink: 0; }
-  .wt { order: 3; flex: 1 1 100%; min-width: 0; font-size: 18px; margin-top: 4px; }
-  .wtime { order: 2; flex-shrink: 0; margin-left: auto; }
-  .wtog { order: 4; flex-shrink: 0; }
+  .wn { 
+    order: 1; 
+    flex-shrink: 0;
+  }
+  .wt { 
+    order: 3; 
+    flex: 1 1 100%;
+    min-width: 0;
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .wtime { 
+    order: 2;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+  .wtog {
+    order: 4;
+    flex-shrink: 0;
+  }
 }
 
 @media print {
@@ -680,6 +697,7 @@ footer p {
   .tag { border: 1px solid #999; color: #333; background: #fff; }
   .slot-item { background: #fff; border: 1px solid #ccc; }
   .seq-box { background: #FAF7F0; border-color: #D6D0C4; }
+  
   .rn, .term b, .seq-box li b, td b { color: #1A1610; }
   .mast-sub, td { color: #4A4438; }
   .chk input { background: #fff; border-color: #999; }
@@ -703,37 +721,47 @@ footer p {
 <header class="masthead">
   <div class="mast-rule">
     <span>Putra Try Arga</span>
-    <span>Final v10.4 · 26 September 2026</span>
+    <span>Final v10.5 · 28 September 2026</span>
     <span>Onboarding + 8 minggu inti + 2 elektif</span>
   </div>
   <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
-  <p class="mast-sub">Peta jalan dari nol menuju junior digital performance generalist dengan bukti kerja nyata. Strategy, ads, SEO, tracking, analytics, automation, sampai AI—tanpa mengklaim langsung ahli di semuanya.</p>
+  <p class="mast-sub">Kalau lu mau belajar digital performance tapi masih bingung harus mulai dari mana, roadmap ini bisa jadi titik awalnya. Selama 8 minggu, lu akan memahami konsep dasarnya, mencoba tools yang dipakai di industri, dan menyusun hasil latihan menjadi portofolio untuk interview.</p>
   <div class="mast-meta">
-    <div>Waktu<b>6–9 jam / minggu*</b></div>
+    <div>Waktu<b>6–9 jam / minggu untuk core*</b></div>
     <div>Biaya inti<b>Rp0</b></div>
     <div>Struktur<b>Start → W8 + 2 elektif</b></div>
   </div>
 </header>
 
-<section class="quick-start" aria-labelledby="sec-qs">
-  <p class="slabel" id="sec-qs">Kejar waktu?</p>
-  <h2 class="stitle">Quick Start 5 menit</h2>
+<section class="quick-start">
+  <p class="slabel">Baru pertama kali buka roadmap ini?</p>
+  <h2 class="stitle">Mulai dari sini</h2>
   <div class="g3">
-    <div class="box"><h3>Untuk pemula</h3><ol>
-      <li><a href="#sec-sebelum">Cara mainnya</a> — pahami pola belajar</li>
-      <li><a href="#weeks">Peta jalannya</a> — lihat struktur 8 minggu</li>
-      <li><a href="#sec-ujian">Tujuh pertanyaan</a> — selfcheck readiness</li>
-    </ol></div>
-    <div class="box"><h3>Cari spesifik</h3><ol>
-      <li><a href="#sec-kamus">Kamus mini</a> — istilah penting</li>
-      <li><a href="#sec-cred">Peta credential</a> — semua sertifikat</li>
-      <li><a href="#sec-pola">Template belajar</a> — quick reference</li>
-    </ol></div>
-    <div class="box"><h3>Mulai coding</h3><ol>
-      <li>Jump ke <strong>START</strong> → Bikin playground</li>
-      <li>Ikuti urutan <strong>W1–W8</strong> dalam 8–10 minggu</li>
-      <li>Kumpulkan bukti kerja ke portofolio (bukan cuma sertifikat)</li>
-    </ol></div>
+    <div class="box">
+      <h3>KALAU LU BARU MULAI</h3>
+      <ol>
+        <li>Baca <a href="#sec-sebelum">Cara mainnya</a> supaya paham alur belajarnya.</li>
+        <li>Lihat <a href="#weeks">Peta jalan</a> untuk cek isi roadmap selama 8 minggu.</li>
+        <li>Mulai dari <a href="#week-start">START</a> dan siapkan website latihan.</li>
+        <li>Lanjutkan dari W1 sampai W8.</li>
+      </ol>
+    </div>
+    <div class="box">
+      <h3>KALAU LU MAU CEK ISINYA</h3>
+      <ol>
+        <li>Buka <a href="#weeks">Peta jalan</a> dan lihat hasil yang dibuat setiap minggu.</li>
+        <li>Cek <a href="#sec-cred">Peta credential</a> untuk melihat sertifikat yang tersedia.</li>
+        <li>Buka <a href="#sec-ujian">Cek pemahaman</a> untuk melihat kemampuan yang perlu dikuasai.</li>
+      </ol>
+    </div>
+    <div class="box">
+      <h3>KALAU LU CARI BAGIAN TERTENTU</h3>
+      <ol>
+        <li><a href="#sec-kamus">Istilah penting</a> untuk memahami jargon di roadmap.</li>
+        <li><a href="#sec-pola">Template kerja</a> untuk format yang bisa langsung dipakai.</li>
+        <li><a href="#sec-exit">Cek kesiapan</a> untuk menilai portofolio sebelum mulai melamar.</li>
+      </ol>
+    </div>
   </div>
 </section>
 
@@ -758,80 +786,89 @@ footer p {
   </div>
 </div>
 
-<section aria-labelledby="sec-sebelum">
-  <p class="slabel" id="sec-sebelum">Sebelum mulai</p>
+<section id="sec-sebelum">
+  <p class="slabel">Sebelum mulai</p>
   <h2 class="stitle">Cara mainnya</h2>
-  <p class="sdesc">Tiap minggu polanya sama: pahami masalah, pelajari materi seperlunya, bangun sesuatu, lalu tunjukkan buktinya. Sertifikat adalah penguat, bukan tujuan utama. Jebakan paling umum adalah menonton tutorial lalu merasa sudah bisa.</p>
+  <p class="sdesc">Roadmap ini dibuat supaya proses belajarnya tidak berhenti di nonton course dan mengumpulkan sertifikat. Setiap minggu ada topik yang perlu dipahami, latihan yang perlu dikerjakan, dan satu hasil yang bisa dimasukkan ke portofolio. Lu tidak harus menguasai semuanya sekaligus. Ikuti urutannya, selesaikan tugas inti, lalu lanjut ke minggu berikutnya.</p>
   <div class="g3">
-    <div class="box"><h3>Siklus belajar</h3><ol>
-      <li><b>Frame</b> — masalah, tujuan, audiens, batasan</li>
-      <li><b>Learn</b> — buka kursus yang spesifik</li>
-      <li><b>Build</b> — hasilkan karya nyata</li>
-      <li><b>Verify</b> — QA, asumsi, batasan</li>
-      <li><b>Package</b> — simpan ke portofolio</li>
-      <li><b>Credential</b> — ambil bila relevan dan waktunya cukup</li>
-    </ol></div>
-    <div class="box"><h3>Tangga bukti</h3><ol>
-      <li>Karya yang dapat dibuka dan dijelaskan</li>
-      <li>QA log, keputusan, dan asumsi yang terdokumentasi</li>
-      <li>Karya sintetis yang dilabel jujur</li>
-      <li>Sertifikat resmi sebagai bukti pendukung</li>
-    </ol><p style="margin-top:10px">Yang tidak punya cert resmi tetap bisa membuktikan diri lewat karya. Asal jujur soal labelnya.</p></div>
-    <div class="box"><h3>Definition of Done</h3>
-      <p><b>Minimum Viable:</b> deliverable inti selesai dan bisa dijelaskan. Ini syarat lanjut ke minggu berikutnya.</p>
-      <p><b>Full Done:</b> deliverable inti + credential pilihan. Add-on tidak dihitung dalam progres dan boleh dikerjakan setelah core selesai.</p>
+    <div class="box">
+      <h3>Siklus belajar</h3>
+      <ol>
+        <li>Pahami masalah yang mau diselesaikan.</li>
+        <li>Pelajari materi yang memang dibutuhkan.</li>
+        <li>Buat latihan atau project-nya.</li>
+        <li>Cek kembali data, tracking, dan asumsi.</li>
+        <li>Rapikan hasilnya untuk portofolio.</li>
+        <li>Ambil sertifikat jika masih relevan dan waktunya cukup.</li>
+      </ol>
+    </div>
+    <div class="box">
+      <h3>Tangga bukti</h3>
+      <ol>
+        <li>Project atau hasil latihan yang bisa dibuka dan dijelaskan.</li>
+        <li>Catatan keputusan, asumsi, dan hasil pengecekan.</li>
+        <li>Data simulasi yang dilabel dengan jelas.</li>
+        <li>Sertifikat sebagai bukti pendukung.</li>
+      </ol>
+    </div>
+    <div class="box">
+      <h3>Kapan bisa lanjut?</h3>
+      <p>Lu bisa lanjut ke minggu berikutnya setelah deliverable inti selesai dan bisa dijelaskan. Sertifikat dan add-on bersifat opsional. Kerjakan kalau waktu masih cukup.</p>
+      <p style="margin-top:10px">W8 boleh dibagi menjadi dua minggu kalender jika beban tugas terlalu besar.</p>
     </div>
   </div>
-  <div class="addon" style="margin-top:20px"><b>Aturan beban</b> — Targetkan 80% scope dan sisakan 20% sebagai buffer. Start adalah onboarding di luar hitungan delapan minggu. W8 sengaja boleh dibagi menjadi dua pekan; total realistis program adalah 9–10 pekan kalender.</div>
 </section>
 
-<section aria-labelledby="sec-kamus">
-  <p class="slabel" id="sec-kamus">Referensi cepat</p>
-  <h2 class="stitle">Kamus mini</h2>
+<section id="sec-kamus">
+  <p class="slabel">Masih asing dengan istilahnya?</p>
+  <h2 class="stitle">Istilah yang perlu lu kenal</h2>
   <div class="g2">
-    <div class="term"><b>Funnel</b><span>Corong perjalanan pembeli: kenal, tertarik, beli. Bocor artinya banyak yang kabur di tengah.</span></div>
-    <div class="term"><b>KPI</b><span>Angka kunci pengukur sukses. Contoh, jumlah pembelian per bulan.</span></div>
-    <div class="term"><b>CAC</b><span>Biaya mendapat satu pelanggan. Iklan Rp100rb dapat 2 pembeli berarti CAC Rp50rb.</span></div>
-    <div class="term"><b>LTV</b><span>Total untung dari satu pelanggan selama jadi pelanggan. Harus jauh lebih besar dari CAC.</span></div>
-    <div class="term"><b>MER</b><span>Media Efficiency Ratio: total omzet dibagi total biaya iklan. Angka jujur yang dilihat bos.</span></div>
-    <div class="term"><b>ROAS</b><span>Omzet per rupiah iklan menurut platform. Sering lebih indah dari kenyataan.</span></div>
-    <div class="term"><b>CRO</b><span>Conversion Rate Optimization. Ilmu membuat lebih banyak pengunjung benar-benar beli atau klik.</span></div>
-    <div class="term"><b>SEO / AEO</b><span>Muncul gratis di Google. AEO versi AI-nya: biar brand disebut ChatGPT, Gemini, AI Overview.</span></div>
-    <div class="term"><b>GA4 / GTM</b><span>CCTV website dan saklar pusat alat ukur. Pasang tanpa ngoding.</span></div>
-    <div class="term"><b>sGTM / CAPI</b><span>Alat ukur versi server, lebih tahan pemblokir iklan. Ada di W10, cukup paham konsep.</span></div>
-    <div class="term"><b>UTM</b><span>Label di belakang link untuk melacak iklan mana yang membawa pengunjung.</span></div>
-    <div class="term"><b>Lead / CRM</b><span>Calon pelanggan yang meninggalkan kontak, dan sistem yang mencatatnya dari kenalan sampai beli lagi.</span></div>
-    <div class="term"><b>Incrementality</b><span>Pertanyaan jujur: kalau iklannya dimatikan, penjualan benar-benar turun atau tidak.</span></div>
-    <div class="term"><b>Halo effect</b><span>Iklan sosial menciptakan permintaan yang kemudian dipanen Google Search.</span></div>
-    <div class="term"><b>Data sintetis</b><span>Data latihan buatan. Boleh untuk belajar, wajib dilabel. Bukan hasil nyata.</span></div>
-    <div class="term"><b>Consent Mode v2</b><span>Aturan izin cookie dari Google: empat sinyal. Wajib untuk measurement yang patuh privasi.</span></div>
-    <div class="term"><b>Geo-Holdout</b><span>Eksperimen mematikan iklan di satu wilayah (kontrol) vs menyalakannya di wilayah lain (treatment) untuk mengukur dampak bersih iklan secara nyata (konsep Meta GeoLift).</span></div>
-    <div class="term"><b>MMM (Robyn)</b><span>Marketing Mix Modeling: model statistik/AI yang menganalisis riwayat penjualan jangka panjang untuk memisahkan dampak iklan vs organik/musiman tanpa cookie.</span></div>
+    <div class="term"><b>Funnel</b><span>Tahapan yang dilewati seseorang dari pertama kali mengenal brand sampai akhirnya membeli. Funnel membantu lu melihat di tahap mana paling banyak calon pelanggan berhenti.</span></div>
+    <div class="term"><b>KPI</b><span>Metrik utama yang dipakai untuk menilai apakah target tercapai. Contohnya jumlah leads, conversion rate, atau jumlah transaksi.</span></div>
+    <div class="term"><b>CAC</b><span>Customer Acquisition Cost adalah rata-rata biaya untuk mendapatkan satu pelanggan baru. Kalau biaya iklan Rp100 ribu menghasilkan dua pelanggan, CAC-nya Rp50 ribu.</span></div>
+    <div class="term"><b>LTV</b><span>Lifetime Value adalah perkiraan nilai yang diberikan satu pelanggan selama masih menggunakan produk atau layanan. LTV biasanya dibandingkan dengan CAC untuk melihat apakah biaya akuisisinya masih sehat.</span></div>
+    <div class="term"><b>MER</b><span>Marketing Efficiency Ratio membandingkan total revenue dengan total biaya marketing. Metrik ini membantu melihat efisiensi marketing secara keseluruhan, bukan dari satu platform saja.</span></div>
+    <div class="term"><b>ROAS</b><span>Return on Ad Spend membandingkan revenue yang tercatat dengan biaya iklan pada platform tertentu. Angka ROAS tetap perlu dibaca bersama margin, attribution, dan data penjualan aktual.</span></div>
+    <div class="term"><b>CRO</b><span>Conversion Rate Optimization adalah proses memperbaiki halaman atau customer journey supaya lebih banyak pengunjung melakukan tindakan yang diinginkan, seperti mengisi form atau membeli.</span></div>
+    <div class="term"><b>SEO / AEO</b><span>SEO membantu konten lebih mudah ditemukan melalui search engine. AEO berfokus pada cara menyusun informasi agar lebih mudah dipahami dan digunakan oleh answer engine atau fitur pencarian berbasis AI.</span></div>
+    <div class="term"><b>GA4 / GTM</b><span>GA4 digunakan untuk mengukur aktivitas pengguna di website atau aplikasi. GTM membantu memasang dan mengatur tracking tag tanpa harus mengubah source code setiap kali ada kebutuhan baru.</span></div>
+    <div class="term"><b>sGTM / CAPI</b><span>sGTM dan CAPI membantu mengirim data melalui server, bukan hanya dari browser pengguna. Keduanya digunakan untuk meningkatkan reliability dan control pada tracking, tetapi implementasinya tetap perlu memperhatikan consent dan privacy.</span></div>
+    <div class="term"><b>UTM</b><span>UTM adalah parameter tambahan pada URL untuk menandai sumber traffic. Dengan UTM, lu bisa membedakan traffic dari campaign, channel, atau konten tertentu.</span></div>
+    <div class="term"><b>Lead / CRM</b><span>Lead adalah calon pelanggan yang sudah menunjukkan minat, misalnya dengan mengisi form atau menghubungi WhatsApp. CRM adalah sistem untuk menyimpan dan mengelola data serta interaksi dengan lead dan pelanggan.</span></div>
+    <div class="term"><b>Incrementality</b><span>Incrementality mengukur tambahan hasil yang benar-benar terjadi karena aktivitas marketing. Pertanyaannya, apakah hasil tersebut tetap terjadi kalau campaign tidak dijalankan?</span></div>
+    <div class="term"><b>Halo effect</b><span>Dampak satu channel terhadap channel lain. Contohnya, iklan di TikTok atau Instagram dapat meningkatkan pencarian nama brand di Google.</span></div>
+    <div class="term"><b>Data sintetis</b><span>Data buatan yang digunakan untuk latihan atau simulasi. Data ini boleh dipakai dalam portofolio selama dilabel dengan jelas dan tidak diklaim sebagai hasil campaign nyata.</span></div>
+    <div class="term"><b>Consent Mode v2</b><span>Fitur Google yang menyesuaikan cara tag bekerja berdasarkan pilihan consent pengguna. Implementasinya membantu proses measurement mengikuti konfigurasi privacy yang digunakan website.</span></div>
+    <div class="term"><b>Geo-holdout</b><span>Metode eksperimen dengan membandingkan area yang menjalankan campaign dan area yang tidak. Tujuannya untuk memperkirakan dampak tambahan dari iklan, bukan hanya membaca hasil yang dilaporkan platform.</span></div>
+    <div class="term"><b>MMM (Robyn)</b><span>Marketing Mix Modeling menggunakan data historis untuk memperkirakan kontribusi berbagai aktivitas marketing terhadap hasil bisnis. Robyn adalah framework open-source dari Meta yang digunakan untuk membantu proses tersebut.</span></div>
   </div>
 </section>
 
-<section id="weeks" aria-labelledby="sec-weeks">
-  <p class="slabel" id="sec-weeks">Onboarding + minggu 1–8 + elektif</p>
+<section id="weeks">
+  <p class="slabel">Onboarding + minggu 1–8 + elektif</p>
   <h2 class="stitle">Peta jalannya</h2>
 
-  <details class="week" data-type="core">
+  <details class="week" data-type="core" id="week-start">
     <summary><span class="wn">START</span><span class="wt">Bikin playground dulu</span><span class="wtime">30–45 mnt</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Semua minggu berikutnya butuh rumah, yaitu website milikmu sendiri untuk latihan pasang alat ukur. Bikinnya gratis, tanpa perlu bisa coding. Tanpa onboarding ini, minggu lain cuma teori.</div>
+      <div class="human"><b>Fokus minggu ini</b> Di tahap awal, lu akan menyiapkan satu website sederhana sebagai tempat latihan. Website ini nanti dipakai untuk mencoba analytics, tracking, landing page, SEO, dan tools lain sepanjang roadmap.</div>
       <div class="g2">
         <div class="box"><h3>Yang dibuat</h3><ol>
-          <li>Buka app.netlify.com/drop, tarik satu file HTML ke situ. Website langsung online. Catat alamatnya.</li>
-          <li>Daftar Microsoft Clarity, tempel scriptnya sebelum tag penutup head, unggah ulang. Buka website sekali, pastikan Clarity mencatat.</li>
-          <li>Bikin Google Sheet aset dan akses: akun, email, status. Password di password manager.</li>
+          <li>Siapkan satu file HTML sederhana.</li>
+          <li>Buka Netlify Drop dan upload file tersebut.</li>
+          <li>Setelah website online, simpan URL-nya karena akan dipakai sampai roadmap selesai.</li>
+          <li>Daftar Microsoft Clarity dan pasang tracking script sesuai dokumentasi resminya.</li>
+          <li>Buka website dan pastikan data mulai terdeteksi.</li>
+          <li>Buat Google Sheet untuk mencatat akun, email, status akses, dan link penting. Simpan password di password manager, bukan di spreadsheet.</li>
         </ol></div>
         <div class="box"><h3>Sumber</h3>
-          <a class="res" href="https://docs.netlify.com" target="_blank" rel="noopener"><span><span class="rn">Netlify Docs</span><span class="rd">Hosting gratis untuk sandbox</span></span><span class="tag t-tool">Tool gratis</span></a>
-          <a class="res" href="https://pages.github.com" target="_blank" rel="noopener"><span><span class="rn">GitHub Pages</span><span class="rd">Alternatif hosting gratis</span></span><span class="tag t-tool">Tool gratis</span></a>
-          <a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener"><span><span class="rn">Microsoft Clarity</span><span class="rd">Rekaman perilaku pengunjung, heatmap</span></span><span class="tag t-tool">Tool gratis</span></a>
-          <a class="res" href="https://tagmanager.google.com" target="_blank" rel="noopener"><span><span class="rn">Google Tag Manager</span><span class="rd">Siapkan akunnya, dipakai penuh di W6</span></span><span class="tag t-tool">Tool gratis</span></a>
+          <a class="res" href="https://docs.netlify.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Netlify Docs</span><span class="rd">Hosting gratis untuk sandbox</span></span><span class="tag t-tool">Tool gratis</span></a>
+          <a class="res" href="https://pages.github.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">GitHub Pages</span><span class="rd">Alternatif hosting gratis</span></span><span class="tag t-tool">Tool gratis</span></a>
+          <a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Clarity</span><span class="rd">Rekaman perilaku pengunjung, heatmap</span></span><span class="tag t-tool">Tool gratis</span></a>
+          <a class="res" href="https://tagmanager.google.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager</span><span class="rd">Siapkan akunnya, dipakai penuh di W6</span></span><span class="tag t-tool">Tool gratis</span></a>
         </div>
       </div>
-      <div class="addon"><b>Catatan</b> — GA4 dan GTM dipasang di W6, Search Console di W5, akun ads di W3 dan W4. Di onboarding cukup Clarity dulu karena butuh beberapa hari untuk mulai merekam.</div>
+      <div class="addon"><b>Catatan</b> GA4 dan GTM dipasang di W6, Search Console di W5, akun ads di W3 dan W4. Di onboarding cukup Clarity dulu karena butuh beberapa hari untuk mulai merekam.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w0-1"><span>Website playground online, URL dicatat</span></label>
         <label class="chk"><input type="checkbox" data-id="w0-2"><span>Clarity terpasang dan merekam</span></label>
@@ -843,32 +880,32 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W1</span><span class="wt">Bisnis, funnel, unit economics</span><span class="wtime">6–8 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Sebelum pasang iklan, pahami dulu bisnisnya: siapa yang beli, kenapa mereka beli, di mana mereka kabur, dan angka apa yang bikin pemilik bisnis senang. Minggu ini kamu belajar bicara bahasa bisnis, bukan cuma bahasa iklan.</div>
+      <div class="human"><b>Fokus minggu ini</b> Sebelum membuat campaign, lu perlu memahami bisnis yang mau dibantu. Minggu ini fokusnya mengenali target customer, alasan orang membeli, tahapan sebelum transaksi, dan metrik yang dipakai untuk mengukur hasil.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
-          <li>Tujuan bisnis → tujuan marketing → KPI</li>
-          <li>Masalah pelanggan, value proposition</li>
-          <li>Perjalanan pelanggan dan dugaan kebocoran</li>
-          <li>Metrik utama, sekunder, dan pengaman</li>
-          <li>CAC, LTV, margin, payback, MER level dasar</li>
+          <li>Hubungan antara tujuan bisnis, tujuan marketing, dan KPI.</li>
+          <li>Masalah customer dan value proposition.</li>
+          <li>Customer journey dan titik tempat calon pelanggan berpotensi berhenti.</li>
+          <li>Metrik utama, metrik pendukung, dan guardrail metrics.</li>
+          <li>Dasar CAC, LTV, margin, payback period, dan MER.</li>
         </ul></div>
         <div class="box"><h3>Yang dibuat</h3><ol>
-          <li>Pilih SATU UMKM atau brand latihan realistis (dipakai sampai W8)</li>
-          <li>Business brief satu halaman</li>
-          <li>Peta journey + minimal 3 dugaan kebocoran</li>
-          <li>KPI tree + tabel sensitivitas: CPA naik 20%, masih untung?</li>
+          <li>Pilih satu UMKM atau brand latihan yang realistis dan gunakan sampai W8.</li>
+          <li>Buat business brief satu halaman.</li>
+          <li>Buat customer journey dan tandai minimal tiga titik tempat calon pelanggan berpotensi berhenti.</li>
+          <li>Buat KPI tree dan simulasi sederhana, misalnya apakah campaign masih menguntungkan jika CPA naik 20%.</li>
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener"><span><span class="rn">HubSpot Digital Marketing Certification</span><span class="rd">Fondasi: SEO, sosial, email, iklan. 3 jam 24 menit</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener"><span><span class="rn">HubSpot Inbound Certification</span><span class="rd">Inbound + cara berpikir lifecycle. 3 jam</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://corporatefinanceinstitute.com/course/learn-accounting-fundamentals-corporate-finance/" target="_blank" rel="noopener"><span><span class="rn">CFI Accounting Fundamentals</span><span class="rd">Course-nya gratis; sertifikat mungkin butuh akun berbayar, cek syarat sebelum commit</span></span><span class="tag t-warn">Gratis, cek syarat cert</span></a>
-        <a class="res" href="https://www.khanacademy.org/economics-finance-domain/core-finance" target="_blank" rel="noopener"><span><span class="rn">Khan Academy Finance</span><span class="rd">Pelengkap konsep margin dan CAC. Learning evidence saja</span></span><span class="tag t-free">Gratis, tanpa cert</span></a>
-        <a class="res" href="https://trends.google.com/explore" target="_blank" rel="noopener"><span><span class="rn">Google Trends</span><span class="rd">Bukti minat relatif, bukan ukuran pasar</span></span><span class="tag t-tool">Tool gratis</span></a>
-        <a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener"><span><span class="rn">Karir Next — Digital Marketing Bootcamp</span><span class="rd">Bootcamp dibuka per batch dengan tanggal ganti-ganti (per 26 Sep 2026 batch berikut mulai 9 Nov 2026), wajib buka /program dan cek batch yang sedang open sebelum daftar</span></span><span class="tag t-warn">Cek manual · per batch</span></a>
-        <a class="res" href="https://www.youngurbanproject.com/digital-marketing-strategy-course/" target="_blank" rel="noopener"><span><span class="rn">YUP — Digital Marketing Strategy Course (free)</span><span class="rd">YUP berbasis India dengan kurikulum global, BUKAN konten lokal Indonesia. Versi gratisnya berisi digital marketing, data analytics, dan experimentation dalam satu alur. Dipakai sebagai pembanding cara berpikir, bukan pengganti konteks lokal</span></span><span class="tag t-warn">Cek manual</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Digital Marketing Certification</span><span class="rd">Fondasi: SEO, sosial, email, iklan. 3 jam 24 menit</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Inbound Certification</span><span class="rd">Inbound + cara berpikir lifecycle. 3 jam</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://corporatefinanceinstitute.com/course/learn-accounting-fundamentals-corporate-finance/" target="_blank" rel="noopener noreferrer"><span><span class="rn">CFI Accounting Fundamentals</span><span class="rd">Course-nya gratis; sertifikat mungkin butuh akun berbayar, cek syarat sebelum commit</span></span><span class="tag t-warn">Perlu dicek</span></a>
+        <a class="res" href="https://www.khanacademy.org/economics-finance-domain/core-finance" target="_blank" rel="noopener noreferrer"><span><span class="rn">Khan Academy Finance</span><span class="rd">Pelengkap konsep margin dan CAC. Learning evidence saja</span></span><span class="tag t-free">Gratis</span></a>
+        <a class="res" href="https://trends.google.com/explore" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Trends</span><span class="rd">Bukti minat relatif, bukan ukuran pasar</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener noreferrer"><span><span class="rn">Karir Next — Digital Marketing Bootcamp</span><span class="rd">Bootcamp dibuka per batch dengan tanggal ganti-ganti (per 26 Sep 2026 batch berikut mulai 9 Nov 2026), wajib buka /program dan cek batch yang sedang open sebelum daftar</span></span><span class="tag t-warn">Perlu dicek</span></a>
+        <a class="res" href="https://www.youngurbanproject.com/digital-marketing-strategy-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">YUP — Digital Marketing Strategy Course (free)</span><span class="rd">YUP berbasis India dengan kurikulum global, BUKAN konten lokal Indonesia. Versi gratisnya berisi digital marketing, data analytics, dan experimentation dalam satu alur. Dipakai sebagai pembanding cara berpikir, bukan pengganti konteks lokal</span></span><span class="tag t-warn">Perlu dicek</span></a>
       </div>
-      <div class="addon"><b>Quick win</b> — Setelah business brief selesai, tulis 1 post LinkedIn atau 1 halaman Notion publik yang merangkum brief dalam 3 kalimat. Akuntabilitas dan momentum sejak minggu pertama.</div>
+      <div class="addon"><b>Quick win</b> Setelah business brief selesai, tulis 1 post LinkedIn atau 1 halaman Notion publik yang merangkum brief dalam 3 kalimat. Akuntabilitas dan momentum sejak minggu pertama.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w1-1"><span>Business brief + journey + leakage map + KPI tree</span></label>
         <label class="chk"><input type="checkbox" data-id="w1-2"><span>Tabel sensitivitas unit economics</span></label>
@@ -880,30 +917,30 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W2</span><span class="wt">Landing page dan CRO</span><span class="wtime">6–9 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Belajar membuat orang mau berhenti, tertarik, lalu klik. Kamu riset saingan, susun penawaran, desain halaman jualan, dan bikin daftar tebakan ilmiah untuk menaikkan konversi. Semuanya berdasarkan bukti perilaku pengunjung, bukan perasaan.</div>
+      <div class="human"><b>Fokus minggu ini</b> Minggu ini lu akan belajar menyusun landing page yang jelas dan mudah digunakan. Lu akan melihat cara kompetitor berkomunikasi, menyusun offer, lalu mencari bagian halaman yang masih bisa diperbaiki berdasarkan data dan perilaku pengguna.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
-          <li>Pertanyaan riset dan log bukti</li>
-          <li>Peta kompetitor dan pola pesan</li>
-          <li>Offer, hierarki pesan, bukti, friksi, CTA</li>
-          <li>Kecocokan pesan iklan ke halaman</li>
-          <li>Hipotesis CRO + prioritas ICE</li>
+          <li>Menentukan pertanyaan riset dan mencatat temuan.</li>
+          <li>Membandingkan pesan dan offer dari kompetitor.</li>
+          <li>Menyusun urutan pesan, bukti, CTA, dan informasi penting.</li>
+          <li>Menjaga pesan iklan tetap konsisten dengan landing page.</li>
+          <li>Menyusun ide eksperimen CRO dan menentukan prioritasnya.</li>
         </ul></div>
         <div class="box"><h3>Yang dibuat</h3><ol>
-          <li>Bandingkan 3 tema demand via Google Trends</li>
-          <li>Value proposition + offer</li>
-          <li>Wireframe landing page mobile-first</li>
-          <li>8–10 hipotesis CRO dengan skor ICE + risiko</li>
+          <li>Bandingkan tiga topik atau kebutuhan pasar melalui Google Trends.</li>
+          <li>Susun value proposition dan offer.</li>
+          <li>Buat wireframe landing page untuk tampilan mobile.</li>
+          <li>Buat 8 sampai 10 ide eksperimen CRO, lengkap dengan alasan dan prioritas.</li>
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://academy.hubspot.com/courses/digital-advertising" target="_blank" rel="noopener"><span><span class="rn">HubSpot Digital Advertising Certification</span><span class="rd">Perencanaan paid media + pengukuran</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://academy.hubspot.com/courses/content-marketing" target="_blank" rel="noopener"><span><span class="rn">HubSpot Content Marketing Certification</span><span class="rd">Strategi konten + pengukurannya. 8 jam</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://academy.hubspot.com/courses/inbound-marketing-optimization" target="_blank" rel="noopener"><span><span class="rn">HubSpot Inbound Marketing Optimization</span><span class="rd">Course lanjutan fokus conversion rate, A/B testing, optimasi halaman. Nama course bisa berubah; cek katalog untuk padanan terkini</span></span><span class="tag t-free">Course gratis</span></a>
-        <a class="res" href="https://growth.design/case-studies" target="_blank" rel="noopener"><span><span class="rn">Growth.Design case studies</span><span class="rd">Bedah UX produk nyata, tanpa cert</span></span><span class="tag t-doc">Bacaan</span></a>
-        <a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener"><span><span class="rn">Microsoft Clarity</span><span class="rd">Rage click, dead click, drop-off sebagai bukti</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/digital-advertising" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Digital Advertising Certification</span><span class="rd">Perencanaan paid media + pengukuran</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/content-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Content Marketing Certification</span><span class="rd">Strategi konten + pengukurannya. 8 jam</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/inbound-marketing-optimization" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Inbound Marketing Optimization</span><span class="rd">Course lanjutan fokus conversion rate, A/B testing, optimasi halaman. Nama course bisa berubah; cek katalog untuk padanan terkini</span></span><span class="tag t-free">Gratis</span></a>
+        <a class="res" href="https://growth.design/case-studies" target="_blank" rel="noopener noreferrer"><span><span class="rn">Growth.Design case studies</span><span class="rd">Bedah UX produk nyata, tanpa cert</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://clarity.microsoft.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Clarity</span><span class="rd">Rage click, dead click, drop-off sebagai bukti</span></span><span class="tag t-tool">Tool gratis</span></a>
       </div>
-      <div class="addon"><b>Catatan jujur</b> — Tidak ada course tersendiri bernama "Landing Page Optimization" di HubSpot saat verifikasi. Materi landing page sudah termasuk di Digital Marketing Certification (W01). Course Inbound Marketing Optimization di atas adalah padanan terdekat untuk pendalaman CRO.</div>
+      <div class="addon"><b>Catatan jujur</b> Tidak ada course tersendiri bernama "Landing Page Optimization" di HubSpot saat verifikasi. Materi landing page sudah termasuk di Digital Marketing Certification (W01). Course Inbound Marketing Optimization di atas adalah padanan terdekat untuk pendalaman CRO.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w2-1"><span>Evidence log (termasuk temuan Clarity) + wireframe</span></label>
         <label class="chk"><input type="checkbox" data-id="w2-2"><span>Backlog eksperimen CRO dengan hipotesis dan prioritas</span></label>
@@ -914,28 +951,28 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W3</span><span class="wt">Google Ads dan search intent</span><span class="wtime">6–9 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Belajar beriklan di Google: muncul tepat saat orang mencari. Kuncinya satu, paham maksud di balik pencarian. Mau beli, membandingkan, atau sekadar cari tahu. Salah baca maksud berarti uang iklan terbakar sia-sia.</div>
+      <div class="human"><b>Fokus minggu ini</b> Google Ads membantu brand muncul saat seseorang sedang mencari produk, layanan, atau informasi tertentu. Minggu ini lu akan belajar membaca search intent, memilih keyword, dan menyusun campaign yang relevan dengan kebutuhan pengguna.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
-          <li>Search intent dan kelas query</li>
-          <li>Arsitektur campaign → ad group → keyword</li>
-          <li>Match type dan logika kata kunci negatif</li>
-          <li>Responsive Search Ads dan assets</li>
-          <li>Quality Score sebagai alat diagnosa</li>
+          <li>Search intent dan jenis pencarian.</li>
+          <li>Struktur campaign, ad group, dan keyword.</li>
+          <li>Keyword match type dan negative keyword.</li>
+          <li>Responsive Search Ads dan ad assets.</li>
+          <li>Faktor yang memengaruhi Quality Score.</li>
         </ul></div>
         <div class="box"><h3>Yang dibuat</h3><ol>
-          <li>Bikin akun Google Ads, lewati billing dulu</li>
-          <li>Petakan 20 query ke ember intent</li>
-          <li>Struktur campaign → ad group → keyword</li>
-          <li>2 konsep RSA per grup + sheet negative keyword</li>
-          <li>Mapping keyword ke landing page</li>
+          <li>Buat akun Google Ads tanpa menjalankan campaign berbayar.</li>
+          <li>Kelompokkan 20 search queries berdasarkan intent.</li>
+          <li>Susun struktur campaign, ad group, dan keyword.</li>
+          <li>Tulis dua konsep Responsive Search Ads untuk setiap ad group.</li>
+          <li>Cocokkan keyword dengan landing page yang relevan.</li>
         </ol></div>
       </div>
-      <div class="box" style="margin-top:14px"><h3>Sumber — urut ambilnya</h3>
-        <a class="res" href="https://skillshop.exceedlms.com/student/path/18163-google-ads-search-certification" target="_blank" rel="noopener"><span><span class="rn">Step 1 · Google Ads Search Certification</span><span class="rd">REKOMENDASI UTAMA. Fondasi Google Ads, sekitar 4–6 jam. Berlaku ±12 bulan.</span></span><span class="tag t-step">Rekomendasi</span></a>
-        <a class="res" href="https://skillshop.exceedlms.com/student/path/18330-google-ads-measurement-certification" target="_blank" rel="noopener"><span><span class="rn">Step 2 · Google Ads Measurement Certification</span><span class="rd">OPSIONAL SETELAH W6. Lebih masuk akal diambil setelah fondasi GA4/GTM terbentuk. Sekitar 3–4 jam.</span></span><span class="tag t-skip">Buffer W6+</span></a>
-        <a class="res" href="https://skillshop.withgoogle.com/googleads/" target="_blank" rel="noopener"><span><span class="rn">Step 3-5 · Display, Video, Shopping</span><span class="rd">OPSIONAL. Ambil sesuai minat dari katalog utama Skillshop.</span></span><span class="tag t-skip">Opsional</span></a>
-        <a class="res" href="https://support.google.com/google-ads" target="_blank" rel="noopener"><span><span class="rn">Google Ads Help · Enhanced dan Offline Conversions</span><span class="rd">Dokumentasi resmi untuk add-on GCLID/fbclid</span></span><span class="tag t-doc">Docs resmi</span></a>
+      <div class="box" style="margin-top:14px"><h3>Sumber</h3>
+        <a class="res" href="https://skillshop.exceedlms.com/student/path/18163-google-ads-search-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 1 · Google Ads Search Certification</span><span class="rd">REKOMENDASI UTAMA. Fondasi Google Ads, sekitar 4–6 jam. Berlaku ±12 bulan.</span></span><span class="tag t-step">Rekomendasi</span></a>
+        <a class="res" href="https://skillshop.exceedlms.com/student/path/18330-google-ads-measurement-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 2 · Google Ads Measurement Certification</span><span class="rd">OPSIONAL SETELAH W6. Lebih masuk akal diambil setelah fondasi GA4/GTM terbentuk. Sekitar 3–4 jam.</span></span><span class="tag t-skip">Tidak diprioritaskan</span></a>
+        <a class="res" href="https://skillshop.withgoogle.com/googleads/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 3-5 · Display, Video, Shopping</span><span class="rd">OPSIONAL. Ambil sesuai minat dari katalog utama Skillshop.</span></span><span class="tag t-skip">Opsional</span></a>
+        <a class="res" href="https://support.google.com/google-ads" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Help · Enhanced dan Offline Conversions</span><span class="rd">Dokumentasi resmi untuk add-on GCLID/fbclid</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
       </div>
       <div class="seq-box">
         <h4>Urutan belajar yang enak</h4>
@@ -947,7 +984,7 @@ footer p {
           <li><b>Buffer setelah W6:</b> Ambil Measurement certification saat fondasi analytics sudah terbentuk.</li>
         </ol>
       </div>
-      <div class="addon"><b>Add-on opsional</b> — DESAIN SAJA: arsitektur penangkapan GCLID/fbclid dari form ke CRM untuk offline conversion feedback loop. Label: design artifact, bukan klaim sudah jalan.</div>
+      <div class="addon"><b>Add-on opsional</b> DESAIN SAJA: arsitektur penangkapan GCLID/fbclid dari form ke CRM untuk offline conversion feedback loop. Label: design artifact, bukan klaim sudah jalan.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w3-1"><span>Keyword-intent map + arsitektur campaign + RSA + negatives</span></label>
         <label class="chk"><input type="checkbox" data-id="w3-2" data-optional="true"><span>Opsional · Google Ads Search certification dari Skillshop</span></label>
@@ -959,14 +996,15 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W4</span><span class="wt">Meta Ads, TikTok Ads, uji kreatif</span><span class="wtime">6–9 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Belajar beriklan di Instagram, Facebook, dan TikTok. Yang lebih penting: bikin iklan yang tidak di-skip. Tiga detik pertama menentukan segalanya. Kamu belajar menguji kreatif secara sistematis: satu variabel, metrik utama jelas, ada aturan berhenti.</div>
+      <div class="human"><b>Fokus minggu ini</b> Minggu ini fokusnya memahami cara kerja iklan di Meta dan TikTok, terutama dari sisi creative. Lu akan belajar menyusun beberapa angle, menentukan apa yang mau diuji, lalu membaca hasilnya tanpa mengubah terlalu banyak hal sekaligus.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
-          <li>Objective campaign Meta dan logika audiens</li>
-          <li>Pixel / Conversions API di level konsep</li>
-          <li>Kreatif native TikTok: hook, format, CTA</li>
-          <li>Variabel uji kreatif dan kontrol</li>
-          <li>Creative fatigue dan kualitas downstream</li>
+          <li>Campaign objective dan audience di Meta.</li>
+          <li>Fungsi Pixel dan Conversions API pada level konsep.</li>
+          <li>Format creative yang sesuai dengan pengalaman pengguna TikTok.</li>
+          <li>Cara menguji satu variabel creative pada satu waktu.</li>
+          <li>Creative fatigue dan kualitas hasil setelah pengguna mengklik iklan.</li>
+          <li>Stop rule, yaitu batas yang ditentukan sebelum testing untuk memutuskan kapan iklan dihentikan, dilanjutkan, atau direvisi.</li>
         </ul></div>
         <div class="box"><h3>Yang dibuat</h3><ol>
           <li>Bikin akun Meta Ads Manager + TikTok Ads</li>
@@ -976,33 +1014,33 @@ footer p {
           <li>Protokol uji lengkap dengan stop rule</li>
         </ol></div>
       </div>
-      <div class="box" style="margin-top:14px"><h3>Meta — urut ambilnya</h3>
+      <div class="box" style="margin-top:14px"><h3>Meta</h3>
         <p style="font-size:12px;color:var(--gold);margin-bottom:10px"><b>BAGIAN A · Learning paths (tanpa cert, fondasi wajib)</b></p>
-        <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener"><span><span class="rn">A1 · Meta Ads Manager Learning Path</span><span class="rd">Koleksi modul objective, audience, placement, budget, creative, results. 2–3 jam. URL diperiksa 26 September 2026.</span></span><span class="tag t-doc">Learning</span></a>
-        <a class="res" href="https://www.facebook.com/business/learn" target="_blank" rel="noopener"><span><span class="rn">A2 · Meta Business Learn — topik Creative dan Pixel/CAPI</span><span class="rd">Katalog kursus gratis Meta. Cari modul creative strategy dan Pixel/Conversions API di sini.</span></span><span class="tag t-doc">Learning</span></a>
+        <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">A1 · Meta Ads Manager Learning Path</span><span class="rd">Koleksi modul objective, audience, placement, budget, creative, results. 2–3 jam. URL diperiksa 26 September 2026.</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://www.facebook.com/business/learn" target="_blank" rel="noopener noreferrer"><span><span class="rn">A2 · Meta Business Learn — topik Creative dan Pixel/CAPI</span><span class="rd">Katalog kursus gratis Meta. Cari modul creative strategy dan Pixel/Conversions API di sini.</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
         <p style="font-size:12px;color:var(--gold);margin:14px 0 10px"><b>BAGIAN B · Certification (DENGAN cert gratis)</b></p>
-        <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener"><span><span class="rn">B1 · Meta Small Business Academy — Skilling Certificate</span><span class="rd">TARGET UTAMA. Setelah selesaikan A1, ambil skill test-nya. Dapat skilling certificate gratis. Ini BUKAN Meta Professional Certification yang proctored dan berbayar.</span></span><span class="tag t-off">Cert gratis</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener"><span><span class="rn">Meta Blueprint · Credential Catalog</span><span class="rd">Entry point aman kalau link collection berubah lagi.</span></span><span class="tag t-off">Katalog resmi</span></a>
-        <p style="font-size:12px;color:var(--red);margin:14px 0 10px"><b>JANGAN ambil (berbayar, proctored, di luar scope)</b></p>
-        <div class="res" style="opacity:.6;cursor:default"><span><span class="rn">Meta Certified Digital Marketing Associate</span><span class="rd">Ujian proctored berbayar. Bukan scope modul.</span></span><span class="tag t-skip">Skip</span></div>
-        <div class="res" style="opacity:.6;cursor:default"><span><span class="rn">Meta Certified Marketing Science Professional</span><span class="rd">Ujian proctored berbayar level lanjut. Skip dulu.</span></span><span class="tag t-skip">Skip</span></div>
+        <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">B1 · Meta Small Business Academy — Skilling Certificate</span><span class="rd">TARGET UTAMA. Setelah selesaikan A1, ambil skill test-nya. Dapat skilling certificate gratis. Ini BUKAN Meta Professional Certification yang proctored dan berbayar.</span></span><span class="tag t-off">Sertifikat gratis</span></a>
+        <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Credential Catalog</span><span class="rd">Entry point aman kalau link collection berubah lagi.</span></span><span class="tag t-off">Dokumentasi resmi</span></a>
+        <p style="font-size:12px;color:var(--red);margin:14px 0 10px"><b>Di luar scope roadmap (berbayar, proctored)</b></p>
+        <div class="res" style="opacity:.6;cursor:default"><span><span class="rn">Meta Certified Digital Marketing Associate</span><span class="rd">Ujian proctored berbayar. Bukan scope modul.</span></span><span class="tag t-skip">Tidak diprioritaskan</span></div>
+        <div class="res" style="opacity:.6;cursor:default"><span><span class="rn">Meta Certified Marketing Science Professional</span><span class="rd">Ujian proctored berbayar level lanjut.</span></span><span class="tag t-skip">Tidak diprioritaskan</span></div>
       </div>
-      <div class="box" style="margin-top:14px"><h3>TikTok — urut ambilnya</h3>
+      <div class="box" style="margin-top:14px"><h3>TikTok</h3>
         <p style="font-size:12px;color:var(--gold);margin-bottom:10px"><b>BAGIAN A · Business account dan learning paths (tanpa badge, fondasi)</b></p>
-        <a class="res" href="https://business.tiktok.com/id" target="_blank" rel="noopener"><span><span class="rn">A1 · TikTok Business Center (ID)</span><span class="rd">Portal resmi buat bikin dan kelola akun TikTok Ads.</span></span><span class="tag t-tool">Tool gratis</span></a>
-        <a class="res" href="https://ads.tiktok.com/business/learn/course/list" target="_blank" rel="noopener"><span><span class="rn">A2 · TikTok Business Learning Center</span><span class="rd">Katalog resmi semua course. Pilih TikTok for Business fundamentals dulu.</span></span><span class="tag t-doc">Katalog</span></a>
-        <a class="res" href="https://ads.tiktok.com/business/creativecenter" target="_blank" rel="noopener"><span><span class="rn">A3 · TikTok Creative Center · Top Ads</span><span class="rd">Lihat iklan yang benar-benar perform. Bahan mentah matriks hook.</span></span><span class="tag t-tool">Tool gratis</span></a>
-        <a class="res" href="https://www.facebook.com/ads/library" target="_blank" rel="noopener"><span><span class="rn">Meta Ad Library</span><span class="rd">Riset kompetitor manual. Jangan pakai scraper pihak ketiga.</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://business.tiktok.com/id" target="_blank" rel="noopener noreferrer"><span><span class="rn">A1 · TikTok Business Center (ID)</span><span class="rd">Portal resmi buat bikin dan kelola akun TikTok Ads.</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://ads.tiktok.com/business/learn/course/list" target="_blank" rel="noopener noreferrer"><span><span class="rn">A2 · TikTok Business Learning Center</span><span class="rd">Katalog resmi semua course. Pilih TikTok for Business fundamentals dulu.</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://ads.tiktok.com/business/creativecenter" target="_blank" rel="noopener noreferrer"><span><span class="rn">A3 · TikTok Creative Center · Top Ads</span><span class="rd">Lihat iklan yang benar-benar perform. Bahan mentah matriks hook.</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://www.facebook.com/ads/library" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Ad Library</span><span class="rd">Riset kompetitor manual. Jangan pakai scraper pihak ketiga.</span></span><span class="tag t-tool">Tool gratis</span></a>
         <p style="font-size:12px;color:var(--gold);margin:14px 0 10px"><b>BAGIAN B · TikTok Academy paths (DENGAN badge resmi)</b></p>
-        <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener"><span><span class="rn">B1 · Drive Website Sales</span><span class="rd">REKOMENDASI UTAMA. Paling relevan buat performance marketer, 3–4 jam termasuk assessment.</span></span><span class="tag t-step">Rekomendasi</span></a>
-        <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener"><span><span class="rn">B2 · Promote your TikTok Shop</span><span class="rd">PILIHAN KEDUA. Ambil kalau UMKM latihan jualan produk fisik dan closing langsung di TikTok Shop.</span></span><span class="tag t-off">Kondisional</span></a>
-        <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener"><span><span class="rn">B3 · Generate and message leads</span><span class="rd">PILIHAN KETIGA. Ambil kalau UMKM latihan bisnis jasa yang closing-nya via chat/WA/DM.</span></span><span class="tag t-off">Kondisional</span></a>
-        <p style="font-size:12px;color:var(--red);margin:14px 0 10px"><b>JANGAN ambil (berbayar, proctored, di luar scope)</b></p>
-        <div class="res" style="opacity:.6;cursor:default"><span><span class="rn">TikTok Media Buying Professional Certification</span><span class="rd">Ujian proctored terpisah, butuh experience. Bukan scope modul.</span></span><span class="tag t-skip">Skip</span></div>
+        <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">B1 · Drive Website Sales</span><span class="rd">REKOMENDASI UTAMA. Paling relevan buat performance marketer, 3–4 jam termasuk assessment.</span></span><span class="tag t-step">Rekomendasi</span></a>
+        <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">B2 · Promote your TikTok Shop</span><span class="rd">PILIHAN KEDUA. Ambil kalau UMKM latihan jualan produk fisik dan closing langsung di TikTok Shop.</span></span><span class="tag t-off">Opsional</span></a>
+        <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener noreferrer"><span><span class="rn">B3 · Generate and message leads</span><span class="rd">PILIHAN KETIGA. Ambil kalau UMKM latihan bisnis jasa yang closing-nya via chat/WA/DM.</span></span><span class="tag t-off">Opsional</span></a>
+        <p style="font-size:12px;color:var(--red);margin:14px 0 10px"><b>Di luar scope roadmap (berbayar, proctored)</b></p>
+        <div class="res" style="opacity:.6;cursor:default"><span><span class="rn">TikTok Media Buying Professional Certification</span><span class="rd">Ujian proctored terpisah, butuh experience. Bukan scope modul.</span></span><span class="tag t-skip">Tidak diprioritaskan</span></div>
       </div>
       <div class="addon"><b>Pilih badge TikTok sesuai UMKM:</b> Ambil B1 sebagai default. Ganti ke B2 kalau brand latihan jualan produk fisik dan mau closing di TikTok Shop, atau ke B3 kalau brand latihan bisnis jasa yang closing-nya via chat/WA/DM. Ambil satu saja, jangan ketiganya.</div>
       <div class="box" style="margin-top:14px"><h3>Add-on opsional</h3>
-        <a class="res" href="https://academy.hubspot.com/courses/social-media" target="_blank" rel="noopener"><span><span class="rn">HubSpot Social Media Marketing Certification</span><span class="rd">OPSIONAL. 5 jam. Fondasi social strategy yang nyambung ke Meta/TikTok ads.</span></span><span class="tag t-free">Cert gratis, opsional</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/social-media" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Social Media Marketing Certification</span><span class="rd">OPSIONAL. 5 jam. Fondasi social strategy yang nyambung ke Meta/TikTok ads.</span></span><span class="tag t-free">Sertifikat gratis</span></a>
       </div>
       <div class="seq-box">
         <h4>Urutan belajar yang enak untuk W4</h4>
@@ -1016,8 +1054,8 @@ footer p {
           <li><b>Buffer:</b> Salah satu badge TikTok Academy (B1/B2/B3) atau Social Media cert, pilih satu jika waktu cukup.</li>
         </ol>
       </div>
-      <div class="addon"><b>Catatan jujur TikTok</b> — Detail course internal setiap path butuh login dan bisa berubah sewaktu-waktu. Link B1/B2/B3 di atas sudah menunjuk langsung ke path masing-masing.</div>
-      <div class="addon"><b>Bedakan di CV</b> — Meta Small Business Academy skilling certificate itu beda dari Meta Professional Certification yang proctored. TikTok Achievement badge beda dari TikTok Professional Certification. Tulis level yang sebenarnya.</div>
+      <div class="addon"><b>Catatan jujur TikTok</b> Detail course internal setiap path butuh login dan bisa berubah sewaktu-waktu. Link B1/B2/B3 di atas sudah menunjuk langsung ke path masing-masing.</div>
+      <div class="addon"><b>Bedakan di CV</b> Meta Small Business Academy skilling certificate itu beda dari Meta Professional Certification yang proctored. TikTok Achievement badge beda dari TikTok Professional Certification. Tulis level yang sebenarnya.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w4-1"><span>Meta blueprint + TikTok creative matrix + protokol uji</span></label>
         <label class="chk"><input type="checkbox" data-id="w4-2" data-optional="true"><span>Opsional · Meta Small Business Academy skilling certificate</span></label>
@@ -1029,7 +1067,7 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W5</span><span class="wt">SEO, konten, AI search (AEO)</span><span class="wtime">6–9 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Belajar muncul gratis di Google, plus skill zaman sekarang: muncul di jawaban AI. Orang tidak lagi cuma mencari, mereka bertanya ke ChatGPT dan Gemini. Kamu belajar bikin konten yang mudah dikutip mesin, tanpa janji palsu bahwa schema pasti disitasi.</div>
+      <div class="human"><b>Fokus minggu ini</b> Minggu ini lu akan belajar membantu website dan konten lebih mudah ditemukan melalui Google dan fitur pencarian berbasis AI. Fokusnya bukan menjanjikan ranking atau sitasi, tetapi memastikan halaman dapat diakses, dipahami, dan memiliki informasi yang jelas.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
           <li>Crawl, index, ranking dasar</li>
@@ -1047,12 +1085,12 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener"><span><span class="rn">Google SEO Starter Guide</span><span class="rd">Fondasi resmi, pendek tapi penting</span></span><span class="tag t-doc">Docs resmi</span></a>
-        <a class="res" href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener"><span><span class="rn">Google, AI features and your website</span><span class="rd">Posisi resmi Google soal AI Overviews dan crawling</span></span><span class="tag t-doc">Docs resmi</span></a>
-        <a class="res" href="https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/" target="_blank" rel="noopener"><span><span class="rn">Semrush SEO Crash Course (Brian Dean)</span><span class="rd">SEO praktis + sertifikat gratis setelah exam</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://academy.hubspot.com/courses/aeo-fundamentals-certification-en" target="_blank" rel="noopener"><span><span class="rn">HubSpot AEO Fundamentals</span><span class="rd">Diperiksa aktif 26 September 2026. Diluncurkan 25 Juni 2026, menggantikan course SEO lama. Cert + badge gratis, sekitar 2 jam</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://search.google.com/search-console" target="_blank" rel="noopener"><span><span class="rn">Google Search Console</span><span class="rd">Bukti indexing dan visibility di sandbox sendiri</span></span><span class="tag t-tool">Tool gratis</span></a>
-        <a class="res" href="https://search.google.com/test/rich-results" target="_blank" rel="noopener"><span><span class="rn">Google Rich Results Test</span><span class="rd">Validasi JSON-LD, screenshot hasilnya</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google SEO Starter Guide</span><span class="rd">Fondasi resmi, pendek tapi penting</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google, AI features and your website</span><span class="rd">Posisi resmi Google soal AI Overviews dan crawling</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush SEO Crash Course (Brian Dean)</span><span class="rd">SEO praktis + sertifikat gratis setelah exam</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/aeo-fundamentals-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot AEO Fundamentals</span><span class="rd">Diperiksa aktif 26 September 2026. Diluncurkan 25 Juni 2026, menggantikan course SEO lama. Cert + badge gratis, sekitar 2 jam</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Search Console</span><span class="rd">Bukti indexing dan visibility di sandbox sendiri</span></span><span class="tag t-tool">Tool gratis</span></a>
+        <a class="res" href="https://search.google.com/test/rich-results" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Rich Results Test</span><span class="rd">Validasi JSON-LD, screenshot hasilnya</span></span><span class="tag t-tool">Tool gratis</span></a>
       </div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w5-1"><span>SEO audit + topic cluster + 3 brief + checklist AEO</span></label>
@@ -1064,7 +1102,7 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W6</span><span class="wt">GA4, GTM, consent, QA</span><span class="wtime">6–9 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Belajar memasang CCTV digital dengan benar: setiap klik, isi form, dan pembelian tercatat rapi. Salah pasang alat ukur berarti semua keputusan bisnis sesudahnya dibangun di atas angka bohong. Minggu paling teknis, paling membedakan profesional dan amatir.</div>
+      <div class="human"><b>Fokus minggu ini</b> Data yang tidak rapi akan membuat analisis dan keputusan ikut salah. Minggu ini lu akan menyiapkan GA4 dan GTM, menentukan event yang perlu dicatat, lalu mengecek apakah setiap event bekerja sesuai rencana. Event adalah aktivitas yang dicatat, misalnya klik tombol atau form submit. Parameter adalah informasi tambahan yang dikirim bersama event. Consent mengatur bagaimana tracking merespons pilihan privacy pengguna.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
           <li>Rantai: pertanyaan bisnis → keputusan → KPI → event → parameter → report → owner</li>
@@ -1082,13 +1120,13 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://support.google.com/analytics/answer/15068052" target="_blank" rel="noopener"><span><span class="rn">Google Analytics Academy + Certification</span><span class="rd">Route resmi GA4, expire ±12 bulan</span></span><span class="tag t-off">Cert resmi</span></a>
-        <a class="res" href="https://developers.google.com/tag-platform/security/guides/consent" target="_blank" rel="noopener"><span><span class="rn">Google Consent Mode v2 Guide</span><span class="rd">Empat sinyal consent + conversion modeling</span></span><span class="tag t-doc">Docs resmi</span></a>
-        <a class="res" href="https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/" target="_blank" rel="noopener"><span><span class="rn">Analytics Mania GTM Fundamentals</span><span class="rd">90 menit, 30 soal, completion certificate. Ini bukti GTM lu.</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/" target="_blank" rel="noopener"><span><span class="rn">Analytics Mania GA4 Fundamentals</span><span class="rd">Route bukti tambahan untuk GA4</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://www.simoahava.com" target="_blank" rel="noopener"><span><span class="rn">Blog Simo Ahava</span><span class="rd">Referensi paling otoritatif GTM dan consent</span></span><span class="tag t-doc">Referensi</span></a>
+        <a class="res" href="https://support.google.com/analytics/answer/15068052" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Academy + Certification</span><span class="rd">Route resmi GA4, expire ±12 bulan</span></span><span class="tag t-off">Sertifikat resmi</span></a>
+        <a class="res" href="https://developers.google.com/tag-platform/security/guides/consent" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Consent Mode v2 Guide</span><span class="rd">Empat sinyal consent + conversion modeling</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Analytics Mania GTM Fundamentals</span><span class="rd">90 menit, 30 soal, completion certificate. Ini bukti GTM lu.</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Analytics Mania GA4 Fundamentals</span><span class="rd">Route bukti tambahan untuk GA4</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://www.simoahava.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Blog Simo Ahava</span><span class="rd">Referensi paling otoritatif GTM dan consent</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
       </div>
-      <div class="addon"><b>Plan B</b> — Kalau Google Analytics cert sedang tidak bisa diakses, ambil Analytics Mania GA4 Fundamentals sebagai pengganti minggu ini, kembali ke cert resmi di buffer week.</div>
+      <div class="addon"><b>Plan B</b> Kalau Google Analytics cert sedang tidak bisa diakses, ambil Analytics Mania GA4 Fundamentals sebagai pengganti minggu ini, kembali ke cert resmi di buffer week.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w6-1"><span>Measurement plan + taksonomi + UTM + GTM map + QA log</span></label>
         <label class="chk"><input type="checkbox" data-id="w6-2" data-optional="true"><span>Opsional · Google Analytics certification</span></label>
@@ -1099,7 +1137,7 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W7</span><span class="wt">Dashboard, diagnosa, incrementality</span><span class="wtime">6–9 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Belajar membaca angka seperti dokter: bikin dashboard, lalu diagnosa kenapa penjualan turun secara berurutan, bukan asal tebak. Plus pertanyaan paling jujur di dunia iklan: kalau iklannya dimatikan, penjualan benar-benar turun tidak.</div>
+      <div class="human"><b>Fokus minggu ini</b> Punya dashboard belum tentu berarti bisa membaca data. Minggu ini lu akan belajar mencari perubahan, menelusuri kemungkinan penyebabnya, lalu membedakan hubungan yang terlihat berkaitan dengan dampak yang benar-benar disebabkan oleh campaign. Kalau campaign dihentikan, apakah hasil bisnis ikut berubah?</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
           <li>Dashboard eksekutif vs dashboard diagnosa</li>
@@ -1117,13 +1155,13 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://cloud.google.com/looker/docs/studio" target="_blank" rel="noopener"><span><span class="rn">Looker Studio documentation</span><span class="rd">Tool gratis, tidak ada cert Looker Studio</span></span><span class="tag t-doc">Docs resmi</span></a>
-        <a class="res" href="https://www.khanacademy.org/math/statistics-probability" target="_blank" rel="noopener"><span><span class="rn">Khan Academy Statistics and Probability</span><span class="rd">Fondasi korelasi vs kausalitas</span></span><span class="tag t-free">Gratis, tanpa cert</span></a>
-        <a class="res" href="https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/" target="_blank" rel="noopener"><span><span class="rn">Semrush · Fundamentals of Marketing Analytics</span><span class="rd">Diperiksa gratis 26 September 2026. 3–4 jam + ujian.</span></span><span class="tag t-off">Cert opsional</span></a>
-        <a class="res" href="https://github.com/facebookexperimental/GeoLift" target="_blank" rel="noopener"><span><span class="rn">Meta geoLift</span><span class="rd">Repo open-source dari Meta. Baca README dan konsep geo-holdout-nya, TIDAK perlu install R.</span></span><span class="tag t-free">OSS gratis</span></a>
-        <a class="res" href="https://www.coursera.org/professional-certificates/facebook-marketing-analytics" target="_blank" rel="noopener"><span><span class="rn">Meta Marketing Analytics Professional Certificate</span><span class="rd">Route dalam kalau mau lebih jauh. Aid per course</span></span><span class="tag t-cs">Coursera</span></a>
+        <a class="res" href="https://cloud.google.com/looker/docs/studio" target="_blank" rel="noopener noreferrer"><span><span class="rn">Looker Studio documentation</span><span class="rd">Tool gratis, tidak ada cert Looker Studio</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://www.khanacademy.org/math/statistics-probability" target="_blank" rel="noopener noreferrer"><span><span class="rn">Khan Academy Statistics and Probability</span><span class="rd">Fondasi korelasi vs kausalitas</span></span><span class="tag t-free">Gratis</span></a>
+        <a class="res" href="https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush · Fundamentals of Marketing Analytics</span><span class="rd">Diperiksa gratis 26 September 2026. 3–4 jam + ujian.</span></span><span class="tag t-off">Opsional</span></a>
+        <a class="res" href="https://github.com/facebookexperimental/GeoLift" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta geoLift</span><span class="rd">Repo open-source dari Meta. Baca README dan konsep geo-holdout-nya, TIDAK perlu install R.</span></span><span class="tag t-free">Gratis</span></a>
+        <a class="res" href="https://www.coursera.org/professional-certificates/facebook-marketing-analytics" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Marketing Analytics Professional Certificate</span><span class="rd">Route dalam kalau mau lebih jauh. Aid per course</span></span><span class="tag t-cs">Berbayar</span></a>
       </div>
-      <div class="addon"><b>Add-on halo effect</b> — Plot belanja Meta vs volume branded search dengan jeda 3–7 hari. Label wajib: correlational signal, hypothesis-generating.</div>
+      <div class="addon"><b>Add-on halo effect</b> Plot belanja Meta vs volume branded search dengan jeda 3–7 hari. Label wajib: correlational signal, hypothesis-generating.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w7-1"><span>Link dashboard shareable + memo insight + attribution note</span></label>
         <label class="chk"><input type="checkbox" data-id="w7-2"><span>Kalkulator geo-holdout (sintetis) + backlog eksperimen</span></label>
@@ -1135,7 +1173,7 @@ footer p {
   <details class="week" data-type="core">
     <summary><span class="wn">W8</span><span class="wt">CRM, otomasi, AI, portofolio</span><span class="wtime">10–14 jam · boleh 2 pekan</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Fase penutup ini memang lebih besar dan boleh dibagi dua pekan: pertama membangun lifecycle dan otomasi, lalu membungkus karya menjadi satu case study. AI dipakai dengan review manusia, bukan sebagai pengganti penilaian.</div>
+      <div class="human"><b>Fokus minggu ini</b> Minggu terakhir menggabungkan lead management, email, automation, dan AI workflow. Setelah itu, semua hasil dari W1 sampai W8 akan dirapikan menjadi satu case study yang mudah dipahami recruiter atau interviewer. Trigger adalah kejadian yang memulai automation. Condition adalah syarat yang menentukan langkah berikutnya. Fallback adalah langkah cadangan jika automation gagal. Opt-out adalah pilihan pengguna untuk berhenti menerima komunikasi.</div>
       <div class="g2">
         <div class="box"><h3>Yang dipelajari</h3><ul>
           <li>Tahapan lifecycle dan manajemen lead</li>
@@ -1154,14 +1192,14 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener"><span><span class="rn">HubSpot Email Marketing Certification</span><span class="rd">Strategy, segmentation, deliverability, otomasi</span></span><span class="tag t-free">Cert gratis</span></a>
-        <a class="res" href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener"><span><span class="rn">HubSpot Sales Hub Software Certification</span><span class="rd">Sekitar 5 jam; pilih ini bila ingin memperkuat sisi CRM</span></span><span class="tag t-off">Pilihan credential</span></a>
-        <a class="res" href="https://www.semrush.com/academy/courses/ai-for-marketing-course/" target="_blank" rel="noopener"><span><span class="rn">Semrush · AI for Marketing</span><span class="rd">1,5–2 jam; pilih ini bila ingin memperkuat penggunaan AI</span></span><span class="tag t-off">Pilihan credential</span></a>
-        <a class="res" href="https://learn.zapier.com/" target="_blank" rel="noopener"><span><span class="rn">Zapier Academy</span><span class="rd">Pilih ini bila ingin memperkuat automation</span></span><span class="tag t-off">Pilihan credential</span></a>
-        <a class="res" href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener"><span><span class="rn">Microsoft Learn, AI paths</span><span class="rd">Achievements dan trophies di profil publik</span></span><span class="tag t-off">Badge gratis</span></a>
-        <a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener"><span><span class="rn">Karir Next — capstone support</span><span class="rd">Mentoring dan review portofolio akhir, per batch</span></span><span class="tag t-warn">Cek manual · per batch</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Email Marketing Certification</span><span class="rd">Strategy, segmentation, deliverability, otomasi</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Sales Hub Software Certification</span><span class="rd">Sekitar 5 jam; pilih ini bila ingin memperkuat sisi CRM</span></span><span class="tag t-off">Opsional</span></a>
+        <a class="res" href="https://www.semrush.com/academy/courses/ai-for-marketing-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush · AI for Marketing</span><span class="rd">1,5–2 jam; pilih ini bila ingin memperkuat penggunaan AI</span></span><span class="tag t-off">Opsional</span></a>
+        <a class="res" href="https://learn.zapier.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Zapier Academy</span><span class="rd">Pilih ini bila ingin memperkuat automation</span></span><span class="tag t-off">Opsional</span></a>
+        <a class="res" href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Learn, AI paths</span><span class="rd">Achievements dan trophies di profil publik</span></span><span class="tag t-off">Sertifikat gratis</span></a>
+        <a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener noreferrer"><span><span class="rn">Karir Next — capstone support</span><span class="rd">Mentoring dan review portofolio akhir, per batch</span></span><span class="tag t-warn">Perlu dicek</span></a>
       </div>
-      <div class="addon"><b>Add-on LLM-as-judge</b> — Dua node di otomasi. Generator bikin draft, Critic cek apakah klaim didukung sumber, output JSON approved atau rejected. Rejected berarti ulang atau masuk antrean review manusia.</div>
+      <div class="addon"><b>Add-on LLM-as-judge</b> Dua node di otomasi. Generator bikin draft, Critic cek apakah klaim didukung sumber, output JSON approved atau rejected. Rejected berarti ulang atau masuk antrean review manusia.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w8-1"><span>Lifecycle map + automation blueprint + email sequence</span></label>
         <label class="chk"><input type="checkbox" data-id="w8-2"><span>Pustaka prompt AI + governance checklist</span></label>
@@ -1174,7 +1212,7 @@ footer p {
   <details class="week" data-type="elec">
     <summary><span class="wn">W9</span><span class="wt">Elektif: AI search, GEO, AI ads</span><span class="wtime">buka setelah W5</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Bahasa manusia</b>Zaman sekarang orang bertanya ke AI, bukan cuma ke Google. Minggu pilihan ini mengajari tiga lapis: bikin brand disebut AI, iklan yang mulai muncul di permukaan AI, dan campaign otomatis bertenaga AI seperti PMax dan Advantage+.</div>
+      <div class="human"><b>Fokus minggu ini</b> Elektif ini membahas bagaimana brand tetap mudah ditemukan ketika pengguna mencari informasi melalui AI. Lu akan mengecek struktur entity, akses crawler, konsistensi informasi brand, dan cara memantau apakah sebuah brand muncul dalam jawaban AI.</div>
       <div class="g2">
         <div class="box"><h3>Yang dibuat</h3><ol>
           <li>Robots.txt decision sheet untuk sandbox</li>
@@ -1183,15 +1221,15 @@ footer p {
           <li>Optimasi 1 konten untuk sitasi AI, label sintetis</li>
         </ol></div>
         <div class="box"><h3>Sumber</h3>
-          <a class="res" href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener"><span><span class="rn">Paper GEO (arXiv)</span><span class="rd">Bukti akademik taktik sitasi</span></span><span class="tag t-free">Paper gratis</span></a>
-          <a class="res" href="https://learningseo.io" target="_blank" rel="noopener"><span><span class="rn">learningseo.io</span><span class="rd">Kurasi roadmap SEO sampai AEO/GEO</span></span><span class="tag t-free">Hub gratis</span></a>
-          <a class="res" href="https://skillshop.exceedlms.com/student/path/645553-ai-powered-performance-ads-certification" target="_blank" rel="noopener"><span><span class="rn">Skillshop, AI-Powered Performance Ads</span><span class="rd">PMax, Demand Gen, AI bidding</span></span><span class="tag t-off">Cert resmi</span></a>
-          <a class="res" href="https://www.cloudskillsboost.google/course_templates/536" target="_blank" rel="noopener"><span><span class="rn">Google Cloud Skills Boost, Intro to Generative AI</span><span class="rd">Fundamental GenAI, 45 menit, gratis</span></span><span class="tag t-off">Badge gratis</span></a>
-          <a class="res" href="https://www.bing.com/webmasters" target="_blank" rel="noopener"><span><span class="rn">Bing Webmaster Tools</span><span class="rd">Index Bing dipakai banyak mesin AI</span></span><span class="tag t-tool">Tool gratis</span></a>
-          <a class="res" href="https://www.indexnow.org" target="_blank" rel="noopener"><span><span class="rn">IndexNow</span><span class="rd">Notifikasi indexing cepat ke engine pendukung</span></span><span class="tag t-doc">Protokol gratis</span></a>
+          <a class="res" href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener noreferrer"><span><span class="rn">Paper GEO (arXiv)</span><span class="rd">Bukti akademik taktik sitasi</span></span><span class="tag t-free">Gratis</span></a>
+          <a class="res" href="https://learningseo.io" target="_blank" rel="noopener noreferrer"><span><span class="rn">learningseo.io</span><span class="rd">Kurasi roadmap SEO sampai AEO/GEO</span></span><span class="tag t-free">Gratis</span></a>
+          <a class="res" href="https://skillshop.exceedlms.com/student/path/645553-ai-powered-performance-ads-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Skillshop, AI-Powered Performance Ads</span><span class="rd">PMax, Demand Gen, AI bidding</span></span><span class="tag t-off">Sertifikat resmi</span></a>
+          <a class="res" href="https://www.cloudskillsboost.google/course_templates/536" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Cloud Skills Boost, Intro to Generative AI</span><span class="rd">Fundamental GenAI, 45 menit, gratis</span></span><span class="tag t-off">Sertifikat gratis</span></a>
+          <a class="res" href="https://www.bing.com/webmasters" target="_blank" rel="noopener noreferrer"><span><span class="rn">Bing Webmaster Tools</span><span class="rd">Index Bing dipakai banyak mesin AI</span></span><span class="tag t-tool">Tool gratis</span></a>
+          <a class="res" href="https://www.indexnow.org" target="_blank" rel="noopener noreferrer"><span><span class="rn">IndexNow</span><span class="rd">Notifikasi indexing cepat ke engine pendukung</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
         </div>
       </div>
-      <div class="addon"><b>Peringatan</b> — Tidak ada sertifikasi resmi GEO dari platform besar mana pun. Waspadai kursus berbayar yang mengklaim GEO Certified. Bukti kamu: panel log dan entity audit.</div>
+      <div class="addon"><b>Peringatan</b> Tidak ada sertifikasi resmi GEO dari platform besar mana pun. Waspadai kursus berbayar yang mengklaim GEO Certified. Bukti lu: panel log dan entity audit.</div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w9-1"><span>Robots decision sheet + entity audit + prompt panel log</span></label>
         <label class="chk"><input type="checkbox" data-id="w9-2" data-optional="true"><span>Opsional · AI-Powered Performance Ads cert atau badge GCS</span></label>
@@ -1202,7 +1240,7 @@ footer p {
   <details class="week" data-type="elec">
     <summary><span class="wn">W10</span><span class="wt">Elektif: data dan infrastruktur pengukuran</span><span class="wtime">buka setelah W6/W7</span><span class="wtog" aria-hidden="true">+</span></summary>
     <div class="wbody">
-      <div class="human"><b>Batas jujur</b>Elektif ini bikin paham dan bisa menunjukkan arsitektur di level sandbox. Bukan bikin jadi data engineer. Delapan minggu tidak cukup untuk itu, dan orang yang jujur soal batas ini justru lebih kredibel saat interview.</div>
+      <div class="human"><b>Fokus minggu ini</b> Elektif ini memperkenalkan alur data dan tracking di level yang lebih teknis. Targetnya bukan menjadikan lu data engineer, tetapi membantu lu memahami bagaimana data dikirim, disimpan, dicek, dan digunakan untuk reporting.</div>
       <div class="g2">
         <div class="box"><h3>Yang dibuat</h3><ol>
           <li>Diagram arsitektur data end-to-end (draw.io/Miro)</li>
@@ -1211,12 +1249,12 @@ footer p {
           <li>Adoption note: kapan sGTM layak vs berlebihan</li>
         </ol></div>
         <div class="box"><h3>Sumber</h3>
-          <a class="res" href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener"><span><span class="rn">Google, server-side tagging docs</span><span class="rd">Konsep dan setup sGTM dari sumbernya</span></span><span class="tag t-doc">Docs resmi</span></a>
-          <a class="res" href="https://cloud.google.com/bigquery/docs/sandbox" target="_blank" rel="noopener"><span><span class="rn">BigQuery Sandbox</span><span class="rd">Gratis tanpa kartu kredit, 10GB + 1TB query/bulan</span></span><span class="tag t-tool">Tool gratis</span></a>
-          <a class="res" href="https://developers.google.com/analytics/bigquery" target="_blank" rel="noopener"><span><span class="rn">GA4 BigQuery Export + sample datasets</span><span class="rd">Skema event + dataset publik untuk latihan</span></span><span class="tag t-doc">Docs resmi</span></a>
-          <a class="res" href="https://www.kaggle.com/learn/intro-to-sql" target="_blank" rel="noopener"><span><span class="rn">Kaggle Learn, Intro to SQL</span><span class="rd">Certificate of completion gratis, 3 jam</span></span><span class="tag t-off">Cert completion</span></a>
-          <a class="res" href="https://github.com/facebookexperimental/Robyn" target="_blank" rel="noopener"><span><span class="rn">Meta Robyn, MMM</span><span class="rd">Marketing Mix Modeling, level konsep. Baca dokumentasi saja.</span></span><span class="tag t-free">OSS gratis</span></a>
-          <a class="res" href="https://www.cloudskillsboost.google" target="_blank" rel="noopener"><span><span class="rn">Google Cloud Skills Boost, BigQuery basics</span><span class="rd">Skill badge untuk melengkapi bukti</span></span><span class="tag t-off">Badge gratis</span></a>
+          <a class="res" href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google, server-side tagging docs</span><span class="rd">Konsep dan setup sGTM dari sumbernya</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+          <a class="res" href="https://cloud.google.com/bigquery/docs/sandbox" target="_blank" rel="noopener noreferrer"><span><span class="rn">BigQuery Sandbox</span><span class="rd">Gratis tanpa kartu kredit, 10GB + 1TB query/bulan</span></span><span class="tag t-tool">Tool gratis</span></a>
+          <a class="res" href="https://developers.google.com/analytics/bigquery" target="_blank" rel="noopener noreferrer"><span><span class="rn">GA4 BigQuery Export + sample datasets</span><span class="rd">Skema event + dataset publik untuk latihan</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+          <a class="res" href="https://www.kaggle.com/learn/intro-to-sql" target="_blank" rel="noopener noreferrer"><span><span class="rn">Kaggle Learn, Intro to SQL</span><span class="rd">Certificate of completion gratis, 3 jam</span></span><span class="tag t-off">Sertifikat gratis</span></a>
+          <a class="res" href="https://github.com/facebookexperimental/Robyn" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Robyn, MMM</span><span class="rd">Marketing Mix Modeling, level konsep. Baca dokumentasi saja.</span></span><span class="tag t-free">Gratis</span></a>
+          <a class="res" href="https://www.cloudskillsboost.google" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Cloud Skills Boost, BigQuery basics</span><span class="rd">Skill badge untuk melengkapi bukti</span></span><span class="tag t-off">Sertifikat gratis</span></a>
         </div>
       </div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
@@ -1227,35 +1265,35 @@ footer p {
   </details>
 </section>
 
-<section aria-labelledby="sec-trackb">
-  <p class="slabel" id="sec-trackb">Track B · paralel, bukan inti</p>
+<section id="sec-trackb">
+  <p class="slabel">Track B · paralel, bukan inti</p>
   <h2 class="stitle">Booster ASEAN Ahead + LinkedIn Premium</h2>
-  <p class="sdesc">Program <b>ASEAN Ahead Programme</b> (kolaborasi ASEAN Foundation × LinkedIn): selesaikan courses-nya, dapat reward LinkedIn Premium 1 tahun. Timeline-nya milik program, bukan milik modul.</p>
+  <p class="sdesc">ASEAN Ahead Programme adalah program terpisah dari roadmap ini. Kalau lu terdaftar dan memenuhi seluruh persyaratannya, program tersebut dapat memberikan akses LinkedIn Premium sesuai ketentuan yang berlaku. Karena jadwal dan syaratnya ditentukan oleh penyelenggara, cek kembali informasi terbaru sebelum mengatur timeline belajar.</p>
   <div class="g3">
-    <div class="box"><h3>Fase 1 · W0-W1</h3><ul>
-      <li>Daftar program ASEAN Ahead, baca syarat reward dan deadline</li>
-      <li>Petakan course program melawan modul</li>
-      <li>Pilih yang tumpang tindih: fundamental, analytics, AI</li>
-      <li>Satu belajar harus counted twice, jangan dobel beban</li>
+    <div class="box"><h3>Cek program dan jadwal</h3><ul>
+      <li>Daftar melalui halaman resmi.</li>
+      <li>Baca syarat peserta, course yang wajib diselesaikan, dan batas waktunya.</li>
+      <li>Catat tanggal penting.</li>
+      <li>Tandai course yang topiknya sama dengan roadmap.</li>
     </ul></div>
-    <div class="box"><h3>Fase 2 · W2-W6</h3><ul>
-      <li>Cicil course program 1-2 jam per minggu</li>
-      <li>Ambil dari buffer, jangan sentuh jam core</li>
-      <li>Deadline program dicatat di sheet aset Start</li>
-      <li>Kalau bentrok dengan deliverable core, core menang</li>
+    <div class="box"><h3>Jalankan secara paralel</h3><ul>
+      <li>Sisihkan 1–2 jam per minggu jika tugas utama sudah selesai.</li>
+      <li>Prioritaskan course yang mendukung topik minggu berjalan.</li>
+      <li>Jangan mengulang materi yang sama tanpa kebutuhan.</li>
+      <li>Kalau jadwal bertabrakan, selesaikan deliverable inti terlebih dahulu.</li>
     </ul></div>
-    <div class="box"><h3>Fase 3 · W7-W8+</h3><ul>
-      <li>Target selesai course di W7, klaim reward</li>
-      <li>Aktifkan Premium tepat saat fase exit assessment dan CV</li>
-      <li>Pakai untuk rapikan profil, InMail outreach, LinkedIn Learning</li>
-      <li>Jangan aktifkan lebih awal, nilainya kebakar saat fase belajar</li>
+    <div class="box"><h3>Gunakan benefit-nya</h3><ul>
+      <li>Selesaikan seluruh persyaratan program.</li>
+      <li>Ikuti prosedur klaim benefit dari penyelenggara.</li>
+      <li>Gunakan LinkedIn Premium untuk memperbaiki profil, belajar, dan melakukan outreach.</li>
+      <li>Catat tanggal aktivasi dan masa berlaku benefit.</li>
     </ul></div>
   </div>
-  <div class="addon" style="margin-top:14px"><b>Aturan timeline</b> — Modul ini self-paced, program ASEAN Ahead kemungkinan cohort tanggal tetap. Kalau programmu cohort, balik urutannya: kunci tanggal program dulu, baru modul yang mengalah di sekitarnya.</div>
+  <div class="addon" style="margin-top:14px"><b>Cara mengatur jadwal</b> Roadmap ini fleksibel, sedangkan program eksternal dapat memiliki jadwal tetap. Catat deadline program terlebih dahulu, lalu sesuaikan waktu belajar tanpa mengorbankan deliverable inti.</div>
   <div class="box" style="margin-top:14px"><h3>Sumber Track B</h3>
-    <a class="res" href="https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/" target="_blank" rel="noopener"><span><span class="rn">ASEAN Ahead Programme</span><span class="rd">Kolaborasi ASEAN Foundation × LinkedIn</span></span><span class="tag t-prog">Program resmi</span></a>
-    <a class="res" href="https://www.linkedin.com/premium/" target="_blank" rel="noopener"><span><span class="rn">LinkedIn Premium</span><span class="rd">Reward 1 tahun</span></span><span class="tag t-tool">Reward</span></a>
-    <a class="res" href="https://www.linkedin.com/learning/" target="_blank" rel="noopener"><span><span class="rn">LinkedIn Learning</span><span class="rd">Sudah include di Premium</span></span><span class="tag t-tool">Reward</span></a>
+    <a class="res" href="https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/" target="_blank" rel="noopener noreferrer"><span><span class="rn">ASEAN Ahead Programme</span><span class="rd">Kolaborasi ASEAN Foundation × LinkedIn</span></span><span class="tag t-prog">Program eksternal</span></a>
+    <a class="res" href="https://www.linkedin.com/premium/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Premium</span><span class="rd">Reward 1 tahun</span></span><span class="tag t-tool">Tool gratis</span></a>
+    <a class="res" href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Learning</span><span class="rd">Sudah include di Premium</span></span><span class="tag t-tool">Tool gratis</span></a>
     <div class="slot-grid">
       <div class="slot-item"><b>Tanggal Cohort</b><span>___ / ___ / ______</span></div>
       <div class="slot-item"><b>Deadline Course</b><span>___ / ___ / ______</span></div>
@@ -1269,116 +1307,117 @@ footer p {
   </div>
 </section>
 
-<section aria-labelledby="sec-bonus">
-  <p class="slabel" id="sec-bonus">Opsional · setelah core selesai</p>
+<section id="sec-bonus">
+  <p class="slabel">Opsional · setelah core selesai</p>
   <h2 class="stitle">Bonus track: 4 cert HubSpot tambahan</h2>
-  <p class="sdesc">Bukan syarat kelulusan. Ambil hanya kalau lu mau deep dive di satu area spesifik dan buffer waktu masih ada.</p>
+  <p class="sdesc">Bagian ini opsional dan baru perlu dibuka setelah deliverable utama selesai. Pilih course yang benar-benar mendukung arah karier lu. Tidak perlu mengambil semuanya.</p>
   <div class="g2">
-    <div class="box"><h3>Relevan untuk modul</h3><ul>
-      <li><a href="https://academy.hubspot.com/courses/social-media" target="_blank" rel="noopener"><b>Social Media Marketing</b></a> (5 jam, cert gratis). Fondasi social strategy sebelum Meta/TikTok ads.</li>
-      <li><a href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener"><b>Sales Hub Software</b></a> (5 jam, cert gratis). Pilihan credential W8.</li>
+    <div class="box"><h3>Pilihan yang paling relevan</h3><ul>
+      <li><a href="https://academy.hubspot.com/courses/social-media" target="_blank" rel="noopener noreferrer"><b>Social Media Marketing</b></a> (5 jam, cert gratis). Fondasi social strategy sebelum Meta/TikTok ads.</li>
+      <li><a href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener noreferrer"><b>Sales Hub Software</b></a> (5 jam, cert gratis). Pilihan credential W8.</li>
     </ul></div>
-    <div class="box"><h3>Kurang relevan, skip kecuali minat</h3><ul>
-      <li><a href="https://academy.hubspot.com/courses/seo-training" target="_blank" rel="noopener"><b>SEO Training</b></a>. Redundant. W5 sudah punya Semrush SEO + HubSpot AEO.</li>
-      <li><a href="https://academy.hubspot.com/courses/inbound-sales" target="_blank" rel="noopener"><b>Inbound Sales</b></a> (3 jam). Fokus sales methodology, cocok untuk SDR/BDR.</li>
+    <div class="box"><h3>Ambil hanya jika sesuai kebutuhan</h3><ul>
+      <li><a href="https://academy.hubspot.com/courses/seo-training" target="_blank" rel="noopener noreferrer"><b>SEO Training</b></a>. W5 sudah punya Semrush SEO + HubSpot AEO.</li>
+      <li><a href="https://academy.hubspot.com/courses/inbound-sales" target="_blank" rel="noopener noreferrer"><b>Inbound Sales</b></a> (3 jam). Fokus sales methodology, cocok untuk SDR/BDR.</li>
     </ul></div>
   </div>
-  <div class="addon"><b>Aturan main bonus track</b> — Maksimal 1 cert bonus per bulan setelah W8 selesai. Jangan kejar badge kalau deliverable core masih bolong.</div>
+  <div class="addon"><b>Aturan main</b> Maksimal ambil satu sertifikat tambahan dalam satu waktu. Selesaikan dulu project dan portofolio utama sebelum menambah course baru.</div>
 </section>
 
-<section aria-labelledby="sec-cred">
-  <p class="slabel" id="sec-cred">Ringkasan bukti</p>
+<section id="sec-cred">
+  <p class="slabel">Ringkasan bukti</p>
   <h2 class="stitle">Peta credential</h2>
   <div class="tbl"><table>
     <thead><tr><th scope="col">Fokus</th><th scope="col">Provider</th><th scope="col">Bukti</th><th scope="col">Berlaku</th></tr></thead>
     <tbody>
-      <tr><td><b>Support lokal & portofolio</b></td><td>Karir Next</td><td>Per batch, cek manual sebelum dipakai di CV</td><td>—</td></tr>
-      <tr><td><b>Strategy & analytics pembanding (W1)</b></td><td>YUP (India, global)</td><td>Gratis, cek manual</td><td>—</td></tr>
-      <tr><td><b>Fondasi & inbound (W1)</b></td><td>HubSpot Academy</td><td>Cert + badge gratis</td><td>±12 bln</td></tr>
-      <tr><td><b>Keuangan (W1)</b></td><td>CFI Accounting Fundamentals / Khan</td><td>Course gratis (cert mungkin berbayar, cek syarat) / tanpa cert</td><td>Cek</td></tr>
-      <tr><td><b>CRO & konten (W2)</b></td><td>HubSpot Academy</td><td>Cert gratis + course Inbound Marketing Optimization</td><td>±12 bln</td></tr>
+      <tr><td><b>Support lokal & portofolio</b></td><td>Karir Next</td><td>Perlu dicek manual sebelum dipakai di CV</td><td>Perlu dicek</td></tr>
+      <tr><td><b>Strategy & analytics pembanding (W1)</b></td><td>YUP (India, global)</td><td>Gratis, perlu dicek</td><td>Perlu dicek</td></tr>
+      <tr><td><b>Fondasi & inbound (W1)</b></td><td>HubSpot Academy</td><td>Sertifikat + badge gratis</td><td>±12 bln</td></tr>
+      <tr><td><b>Keuangan (W1)</b></td><td>CFI Accounting Fundamentals / Khan</td><td>Course gratis (cert mungkin berbayar, cek syarat) / tanpa cert</td><td>Perlu dicek</td></tr>
+      <tr><td><b>CRO & konten (W2)</b></td><td>HubSpot Academy</td><td>Sertifikat gratis + course Inbound Marketing Optimization</td><td>±12 bln</td></tr>
       <tr><td><b>Google Ads (W3/W6+)</b></td><td>Google Skillshop</td><td>Search utama; Measurement opsional setelah W6</td><td>±12 bln</td></tr>
-      <tr><td><b>Meta Ads (W4)</b></td><td>Meta Blueprint (ID 507792)</td><td>Small Business Academy skilling cert</td><td>Cek</td></tr>
-      <tr><td><b>TikTok Ads (W4)</b></td><td>TikTok Academy</td><td>Drive Website Sales / TikTok Shop / Generate Leads (pilih satu)</td><td>—</td></tr>
-      <tr><td><b>SEO & AEO (W5)</b></td><td>Semrush + HubSpot AEO</td><td>Cert gratis (AEO terverifikasi aktif)</td><td>±12 bln</td></tr>
-      <tr><td><b>GA4 (W6)</b></td><td>Google Analytics Academy</td><td>Cert resmi</td><td>±12 bln</td></tr>
-      <tr><td><b>GTM (W6)</b></td><td>Analytics Mania</td><td>Completion certificate gratis</td><td>—</td></tr>
+      <tr><td><b>Meta Ads (W4)</b></td><td>Meta Blueprint (ID 507792)</td><td>Small Business Academy skilling cert</td><td>Perlu dicek</td></tr>
+      <tr><td><b>TikTok Ads (W4)</b></td><td>TikTok Academy</td><td>Drive Website Sales / TikTok Shop / Generate Leads (pilih satu)</td><td>Perlu dicek</td></tr>
+      <tr><td><b>SEO & AEO (W5)</b></td><td>Semrush + HubSpot AEO</td><td>Sertifikat gratis (AEO terverifikasi aktif)</td><td>±12 bln</td></tr>
+      <tr><td><b>GA4 (W6)</b></td><td>Google Analytics Academy</td><td>Sertifikat resmi</td><td>±12 bln</td></tr>
+      <tr><td><b>GTM (W6)</b></td><td>Analytics Mania</td><td>Completion certificate gratis</td><td>Perlu dicek</td></tr>
       <tr><td><b>Analytics (W7)</b></td><td>Semrush</td><td>Fundamentals of Marketing Analytics (free, terverifikasi)</td><td>±12 bln</td></tr>
-      <tr><td><b>Looker Studio (W7)</b></td><td>Docs + dashboard sendiri</td><td>Bukti karya, tanpa cert</td><td>—</td></tr>
+      <tr><td><b>Looker Studio (W7)</b></td><td>Docs + dashboard sendiri</td><td>Bukti karya, tanpa cert</td><td>Perlu dicek</td></tr>
       <tr><td><b>Email & CRM (W8)</b></td><td>HubSpot Academy</td><td>Pilih Email atau Sales Hub sesuai fokus</td><td>±12 bln</td></tr>
-      <tr><td><b>Otomasi (W8)</b></td><td>Zapier Academy</td><td>Certificate of completion (terverifikasi)</td><td>—</td></tr>
+      <tr><td><b>Otomasi (W8)</b></td><td>Zapier Academy</td><td>Certificate of completion (terverifikasi)</td><td>Perlu dicek</td></tr>
       <tr><td><b>AI marketing (W8)</b></td><td>Semrush</td><td>AI for Marketing cert (terverifikasi)</td><td>±12 bln</td></tr>
       <tr><td><b>AI (W8-W9)</b></td><td>Microsoft Learn + GCS Boost + Skillshop</td><td>Badge + cert resmi</td><td>±12 bln cert</td></tr>
-      <tr><td><b>SQL (W10)</b></td><td>Kaggle Learn</td><td>Certificate of completion (terverifikasi)</td><td>—</td></tr>
-      <tr><td><b>Jalur dalam</b></td><td>Coursera: Meta / Google PC</td><td>Professional cert, aid per course</td><td>—</td></tr>
+      <tr><td><b>SQL (W10)</b></td><td>Kaggle Learn</td><td>Certificate of completion (terverifikasi)</td><td>Perlu dicek</td></tr>
+      <tr><td><b>Jalur dalam</b></td><td>Coursera: Meta / Google PC</td><td>Professional cert, aid per course</td><td>Perlu dicek</td></tr>
       <tr><td><b>Track B</b></td><td>ASEAN Ahead (ASEAN Foundation × LinkedIn)</td><td>Completion program + reward LinkedIn Premium</td><td>Sesuai program</td></tr>
     </tbody>
   </table></div>
   <p class="note">Cert resmi Google umumnya berlaku sekitar 12 bulan. Meta Small Business Academy skilling certificate beda dari Meta Professional Certification. Microsoft Learn badges itu learning evidence, bukan professional cert. Tulis yang sesuai di CV, jangan menaikkan levelnya sendiri.</p>
 </section>
 
-<section aria-labelledby="sec-ujian">
-  <p class="slabel" id="sec-ujian">Ujian diri</p>
-  <h2 class="stitle">Tujuh pertanyaan sebelum klaim apa pun</h2>
+<section id="sec-ujian">
+  <p class="slabel">Evaluasi</p>
+  <h2 class="stitle">Cek pemahaman</h2>
+  <p class="sdesc">Bisakah lu menjelaskan tujuh hal ini?</p>
   <div class="g3">
-    <div class="box"><h3>1. Privasi</h3><p>Semua izin ditolak user. Apa yang masih terukur secara patuh, dan modeling menutup celahnya di mana.</p></div>
-    <div class="box"><h3>2. Incrementality</h3><p>ROAS platform 4x tapi geo-holdout bilang beda. Mana yang dipercaya, dan kenapa.</p></div>
-    <div class="box"><h3>3. Integritas data</h3><p>Event duplikat dan bot traffic terdeteksi di mana, sebelum merusak laporan.</p></div>
-    <div class="box"><h3>4. Tata kelola AI</h3><p>Seribu halaman buatan AI. QA pipeline apa yang mencegah halusinasi dan klaim yang melanggar regulasi.</p></div>
-    <div class="box"><h3>5. Halo</h3><p>Meta dimatikan besok. Apa yang terjadi pada branded search. Bukti korelasi atau kausal, jujur yang mana.</p></div>
-    <div class="box"><h3>6. Komersial</h3><p>CPC murah tapi konversi jelek. Jalankan rantai diagnosa sampai keputusan.</p></div>
-    <div class="box"><h3>7. Kejujuran</h3><p>Mana karya sintetis, mana kerja nyata. Tunjuk file-nya. Yang tidak bisa ditunjuk jangan diklaim.</p></div>
+    <div class="box"><h3>1. Privacy dan consent</h3><p>Kalau pengguna menolak consent, data apa yang masih boleh dikumpulkan dan bagaimana tracking harus merespons?</p></div>
+    <div class="box"><h3>2. Incrementality</h3><p>Kalau ROAS dari platform terlihat tinggi tetapi hasil eksperimen menunjukkan dampak yang lebih kecil, data mana yang perlu diprioritaskan dan kenapa?</p></div>
+    <div class="box"><h3>3. Kualitas data</h3><p>Bagaimana cara mengecek event duplikat, event yang tidak terkirim, dan traffic yang tidak valid sebelum data dipakai untuk reporting?</p></div>
+    <div class="box"><h3>4. AI governance</h3><p>Kalau AI digunakan untuk membuat konten dalam jumlah besar, proses review apa yang diperlukan untuk mengecek fakta, klaim, sumber, dan risiko regulasi?</p></div>
+    <div class="box"><h3>5. Dampak antar-channel</h3><p>Kalau iklan Meta dihentikan, apakah branded search ikut berubah? Data apa yang dibutuhkan untuk membedakan korelasi dan dampak langsung?</p></div>
+    <div class="box"><h3>6. Business performance</h3><p>Kalau CPC turun tetapi conversion rate ikut turun, langkah apa yang perlu dicek sebelum mengubah budget?</p></div>
+    <div class="box"><h3>7. Kejujuran portofolio</h3><p>Bagian mana yang menggunakan data simulasi dan bagian mana yang berasal dari project nyata? Apakah labelnya sudah jelas?</p></div>
   </div>
 </section>
 
-<section aria-labelledby="sec-pola">
-  <p class="slabel" id="sec-pola">Pola cepat</p>
-  <h2 class="stitle">Template yang dipakai berulang</h2>
+<section id="sec-pola">
+  <p class="slabel">Referensi</p>
+  <h2 class="stitle">Template kerja</h2>
+  <p class="sdesc">Format yang bisa lu pakai selama roadmap</p>
   <div class="g2">
-    <div class="box"><h3>Business brief</h3><p>Masalah bisnis, apa yang macet. Tujuan, berubah jadi apa, berapa, kapan. Audiens, siapa dan buktinya. Offer, value propositionnya. Constraint, budget, legal, data, timing. KPI, primary, secondary, guardrail.</p></div>
-    <div class="box"><h3>QA checklist GTM dan GA4</h3><p>Event yang diharapkan ada dan namanya konsisten. Parameter terisi. Duplikat dicek. Event hilang didokumentasikan. UTM konsisten. Perilaku consent dicatat. Screenshot disimpan sebagai bukti.</p></div>
-    <div class="box"><h3>Insight memo</h3><p>Observation, apa yang berubah. Interpretation, kemungkinan penyebabnya. Verification, buktinya apa. Recommendation, apa yang dites atau diubah. Risk, apa yang bisa bikin ini salah.</p></div>
-    <div class="box"><h3>AI visibility panel log</h3><p>Kolomnya: tanggal, engine, prompt, disebut atau tidak, posisi, sentimen, sumber yang dikutip, action berikutnya.</p></div>
+    <div class="box"><h3>Business brief</h3><p>Isi singkatnya: masalah bisnis, target yang ingin dicapai, target customer, value proposition, batasan project, dan KPI yang akan digunakan.</p></div>
+    <div class="box"><h3>QA checklist GA4 dan GTM</h3><p>Cek apakah nama event konsisten, parameter terisi, tidak ada event duplikat, UTM terbaca dengan benar, dan tracking mengikuti pilihan consent. Simpan screenshot untuk setiap hasil pengujian.</p></div>
+    <div class="box"><h3>Insight memo</h3><p>Susun dalam lima bagian: apa yang berubah, kemungkinan penyebabnya, data pendukung, tindakan yang disarankan, dan risiko yang dapat membuat kesimpulan tersebut salah.</p></div>
+    <div class="box"><h3>AI visibility log</h3><p>Catat tanggal, AI platform yang digunakan, prompt, apakah brand disebut, sumber yang ditampilkan, konteks penyebutan, dan langkah berikutnya.</p></div>
   </div>
 </section>
 
-<section aria-labelledby="sec-exit">
-  <p class="slabel" id="sec-exit">Setelah minggu ke-8</p>
-  <h2 class="stitle">Exit assessment dan integrasi CV</h2>
+<section id="sec-exit">
+  <p class="slabel">Langkah selanjutnya</p>
+  <h2 class="stitle">Cek kesiapan dan rapikan portofolio</h2>
   <div class="g2">
-    <div class="box"><h3>Ujian kesiapan</h3><ol>
-      <li>Bisa jelaskan rantai KPI dari tujuan bisnis sampai keputusan dalam 2 menit. Rekam suara sendiri, dengar ulang.</li>
-      <li>Bisa jawab tujuh ujian diri di atas tanpa lihat catatan.</li>
-      <li>Portofolio bisa dibuka dan dijelaskan 5 menit ke orang awam.</li>
-      <li>CV dan LinkedIn sudah diperbarui dengan credential dan link portofolio.</li>
-    </ol><p style="margin-top:10px">Tiga dari empat tercapai berarti siap. Kalau belum, identifikasi celahnya dan ulang minggu yang relevan.</p></div>
-    <div class="box"><h3>Translasi ke CV</h3>
-      <p>Jangan tulis "mengikuti kursus digital marketing". Tulis dampaknya.</p>
-      <p style="margin-top:10px"><b lang="en">Contoh W6:</b> <span lang="en">"Designed end-to-end measurement plan for [brand], implementing GA4 event taxonomy across 6 conversion events and establishing UTM governance to reduce data discrepancy."</span></p>
-      <p style="margin-top:8px"><b lang="en">Contoh W7:</b> <span lang="en">"Built diagnostic Looker Studio dashboard and geo-holdout calculator to separate platform ROAS from true incrementality, shifting budget allocation based on causal evidence."</span></p>
+    <div class="box"><h3>Sebelum mulai melamar</h3><ol>
+      <li>Lu bisa menjelaskan hubungan antara tujuan bisnis, KPI, dan keputusan marketing dalam dua menit.</li>
+      <li>Lu bisa menjawab tujuh pertanyaan evaluasi tanpa membaca catatan.</li>
+      <li>Portofolio dapat dibuka dan dijelaskan dalam lima menit kepada orang yang tidak bekerja di bidang digital marketing.</li>
+      <li>CV dan LinkedIn sudah memuat project, hasil latihan, sertifikat yang relevan, serta link portofolio.</li>
+    </ol><p style="margin-top:10px">Kalau minimal tiga poin sudah terpenuhi, lu bisa mulai menggunakannya untuk melamar sambil tetap memperbaiki bagian yang belum kuat.</p></div>
+    <div class="box"><h3>Cara menulis project di CV</h3>
+      <p style="margin-top:10px"><b lang="en">Contoh W6:</b> <span lang="en">"Designed a GA4 measurement plan and event taxonomy for a simulated brand project, covering six key conversion events and UTM naming conventions."</span></p>
+      <p style="margin-top:8px"><b lang="en">Contoh W7:</b> <span lang="en">"Built a Looker Studio dashboard and a synthetic geo-holdout calculator to practice campaign diagnosis and incrementality analysis."</span></p>
     </div>
   </div>
 </section>
 
-<section aria-labelledby="sec-note">
-  <p class="slabel" id="sec-note">Catatan penting</p>
+<section id="sec-note">
+  <p class="slabel">Catatan penting</p>
   <h2 class="stitle">Verifikasi dan kejujuran</h2>
   <div class="box">
-    <p>Status tiap sumber wajib dicek manual sebelum masuk CV. Buka linknya, screenshot kondisinya, tulis tanggal cekmu sendiri di sini: <b style="color:var(--gold);border-bottom:1px dashed var(--gold);padding:0 40px;display:inline-block">&nbsp;</b></p>
-    <p style="margin-top:8px">Item yang belum bisa diverifikasi publik dan wajib dicek manual: Karir Next, YUP free courses, syarat certificate CFI Accounting Fundamentals, detail ASEAN Ahead, dan course internal TikTok Achievement paths yang membutuhkan login. Sumber lain pada modul ini terakhir diperiksa 26 September 2026; status provider dapat berubah setelah tanggal tersebut.</p>
-    <p style="margin-top:8px">Karir Next diposisikan sebagai support lokal Indonesia (mentor dan review portofolio), bukan klaim kesetaraan dengan program berbayarnya. YUP diposisikan sebagai pembanding cara berpikir dari kurikulum global — YUP berbasis India, bukan konten lokal Indonesia. ASEAN Ahead Programme adalah program pihak ketiga, syarat dan timeline bisa berubah.</p>
-    <p style="margin-top:8px">Semua angka dari simulasi wajib dilabel sintetis, tanpa pengecualian. Snapshot verifikasi provider dan tautan: 26 September 2026.</p>
+    <p>Status course, sertifikat, harga, dan masa berlaku dapat berubah. Sebelum mencantumkannya di CV atau LinkedIn, buka kembali halaman resmi provider dan cek informasi terbarunya.</p>
+    <p style="margin-top:8px">Item yang belum bisa diverifikasi publik dan wajib dicek manual: Karir Next, YUP free courses, syarat certificate CFI Accounting Fundamentals, detail ASEAN Ahead, dan course internal TikTok Achievement paths yang membutuhkan login.</p>
+    <p style="margin-top:8px">YUP dan Karir Next diposisikan sebagai konteks dan support lokal, bukan klaim kesetaraan dengan program berbayarnya. ASEAN Ahead Programme adalah program pihak ketiga, syarat dan timeline bisa berubah.</p>
+    <p style="margin-top:8px">Semua angka dari simulasi wajib dilabel sintetis, tanpa pengecualian. Kalau menemukan link yang sudah berubah, laporkan melalui kontak yang tersedia agar roadmap dapat diperbarui.</p>
   </div>
 </section>
 
 <div class="copy">
   <h3>Hak cipta dan lisensi</h3>
   <p>© 2026 Putra Try Arga · The Full-Stack Digital Performance Architect</p>
-  <p>Modul ini dibagikan 100% gratis untuk keperluan edukasi dan pengembangan diri pribadi.</p>
-  <p style="color:var(--red)">Dilarang memperjualbelikan, mengemas ulang, memasukkan ke grup berbayar, atau mengomersialkan modul ini dalam bentuk apa pun. Pelanggaran akan langsung dilaporkan tanpa peringatan.</p>
+  <p>Modul ini dibagikan gratis untuk keperluan belajar dan pengembangan diri.</p>
+  <p style="color:var(--red)">Dilarang memperjualbelikan, mengemas ulang, memasukkan modul ini ke layanan berbayar, atau mengomersialkannya tanpa izin tertulis dari pemilik. Pelanggaran terhadap ketentuan ini dapat ditindaklanjuti melalui pelaporan kepada platform terkait.</p>
 </div>
 
-<section aria-labelledby="sec-veri">
+<section id="sec-veri">
   <div class="verified-notice">
     <b>⚠️ Verifikasi sumber</b>
     <p style="margin-top:8px">Semua link dalam modul terakhir diverifikasi <strong>26 September 2026</strong>. Karena platform sering ganti URL atau policy, pastikan lu cek manual sebelum commit:</p>
@@ -1388,7 +1427,7 @@ footer p {
       <li>TikTok Academy learning paths</li>
       <li>Status gratis setiap course</li>
     </ul>
-    <p style="margin-top:8px">Kalau ada link 404 atau course jadi berbayar, <strong>buka issue di GitHub atau email</strong> agar bisa diupdate. Kejujuran > proteksi.</p>
+    <p style="margin-top:8px">Kalau ada link 404 atau course jadi berbayar, <strong>buka issue di GitHub atau email</strong> agar bisa diupdate. Kalau menemukan link yang sudah berubah, laporkan melalui kontak yang tersedia agar roadmap dapat diperbarui.</p>
   </div>
 </section>
 
@@ -1405,6 +1444,7 @@ footer p {
   try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
 
   function boxes() { return Array.prototype.slice.call(document.querySelectorAll('.chk input[type="checkbox"]')); }
+  
   function coreBoxes() { 
     return boxes().filter(function(c) {
       var week = c.closest('.week');
@@ -1482,6 +1522,32 @@ footer p {
       toast('Progress direset.');
     }
   };
+
+  document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var selector = this.getAttribute('href');
+      if (!selector || selector === '#') return;
+
+      var target = document.querySelector(selector);
+      if (!target) return;
+
+      if (target.tagName.toLowerCase() === 'details') {
+        target.open = true;
+      }
+
+      var parentDetails = target.closest('details');
+      if (parentDetails) {
+        parentDetails.open = true;
+      }
+
+      requestAnimationFrame(function() {
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  });
+
+  apply();
 })();
 </script>
 </body>
