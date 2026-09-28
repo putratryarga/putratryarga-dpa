@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0F0E0C">
-<link rel="canonical" href="https://putratryarga-dpa.netlify.app/">
+<link rel="canonical" href="https://putratryarga-dpa.vercel.app/">
 
 <!-- SEO -->
 <title>Full-Stack Digital Performance Architect — Putra Try Arga</title>
@@ -16,14 +16,14 @@
 <meta property="og:locale" content="id_ID">
 <meta property="og:title" content="Full-Stack Digital Performance Architect — Putra Try Arga">
 <meta property="og:description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata. Sumber gratis dan bukti kerja yang jujur.">
-<meta property="og:url" content="https://putratryarga-dpa.netlify.app/">
-<meta property="og:image" content="https://putratryarga-dpa.netlify.app/og.png">
+<meta property="og:url" content="https://putratryarga-dpa.vercel.app/">
+<meta property="og:image" content="https://putratryarga-dpa.vercel.app/og.png">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Full-Stack Digital Performance Architect">
 <meta name="twitter:description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata.">
-<meta name="twitter:image" content="https://putratryarga-dpa.netlify.app/og.png">
+<meta name="twitter:image" content="https://putratryarga-dpa.vercel.app/og.png">
 
 <!-- Structured Data -->
 <script type="application/ld+json">
@@ -65,7 +65,6 @@
   --sf3: #26221B;
   --ink: #EDE8DE;
   --ink2: #B3AA9B;
-  /* v10.3 FIX: naikkan kontras --ink-faint dari 7D7566 ke 968D7C (gagal WCAG 4.23:1 → lolos 4.83:1) */
   --ink3: #968D7C;
   --line: #2B2720;
   --line2: #3D382C;
@@ -80,7 +79,6 @@
   --red-s: rgba(201,112,94,.12);
   --serif: 'Instrument Serif', Georgia, serif;
   --sans: 'Inter', -apple-system, sans-serif;
-  /* v10.3 FIX: fallback font mono lebih kaya */
   --mono: 'JetBrains Mono', Consolas, monospace;
   --r: 10px;
   --r-lg: 16px;
@@ -97,7 +95,6 @@ body {
 a { color: var(--gold); text-decoration: none; transition: color .2s; }
 a:hover { color: #E5BC6E; }
 
-/* v10.3 FIX: focus-visible dengan scroll-margin-top (WCAG 2.2 SC 2.4.11) */
 a:focus-visible,
 summary:focus-visible,
 input:focus-visible,
@@ -195,6 +192,11 @@ main.page { max-width: 900px; margin: 0 auto; padding: 0 22px 100px; }
   text-transform: none;
   color: var(--ink);
   margin-top: 3px;
+}
+
+.quick-start {
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 .topbar {
@@ -295,7 +297,6 @@ section { margin-bottom: 64px; }
   transition: border-color .25s;
 }
 .box:hover { border-color: var(--line2); }
-/* v10.3 FIX: h3 (bukan h4) untuk proper heading hierarchy */
 .box h3 {
   font: 600 10px var(--mono);
   letter-spacing: .15em;
@@ -470,7 +471,6 @@ details.week[open] .wtog { transform: rotate(45deg); color: var(--gold); }
   width: 17px;
   height: 17px;
   min-width: 17px;
-  /* v10.3 FIX: naikkan kontras border checkbox unchecked */
   border: 1.5px solid #5C5540;
   border-radius: 5px;
   margin-top: 2px;
@@ -601,6 +601,30 @@ tr:hover td { background: var(--sf2); }
 }
 .copy p + p { margin-top: 8px; }
 
+.verified-notice {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(201,112,94,.08);
+  border: 1px solid var(--red);
+  border-radius: 10px;
+  font-size: 13px;
+  color: var(--ink2);
+  line-height: 1.65;
+}
+.verified-notice b {
+  color: var(--red);
+  font: 600 12px var(--mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.verified-notice ul {
+  margin-top: 8px;
+  margin-left: 20px;
+  color: var(--ink2);
+  font-size: 13px;
+}
+.verified-notice li { margin-bottom: 4px; }
+
 footer {
   margin-top: 70px;
   padding-top: 20px;
@@ -614,19 +638,25 @@ footer p {
   color: var(--ink3);
 }
 
-/* ACCESSIBILITY: prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .prog-fill, .wtog, * { transition: none !important; animation: none !important; }
 }
 
-/* RESPONSIVE */
 @media (max-width: 640px) {
   .g2 { grid-template-columns: 1fr; }
   .slot-grid { grid-template-columns: 1fr; }
+  details.week summary {
+    padding: 16px 18px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .wn { order: 1; flex-shrink: 0; }
+  .wt { order: 3; flex: 1 1 100%; min-width: 0; font-size: 18px; margin-top: 4px; }
+  .wtime { order: 2; flex-shrink: 0; margin-left: auto; }
+  .wtog { order: 4; flex-shrink: 0; }
 }
 
-/* v10.3 FIX: Print stylesheet LENGKAP - tambahkan override untuk elemen yang punya color langsung */
 @media print {
   body { background: #fff; color: #1A1610; }
   .wm, .topbar, #toast { display: none !important; }
@@ -634,26 +664,24 @@ footer p {
   section { margin-bottom: 24px; break-inside: avoid-page; }
   details.week { break-inside: avoid; border-color: #ccc; background: #fff; }
   details.week[open] { background: #fff; }
-  .box, .term, .res, .tbl, .deliv, .human, .addon, .copy {
+  .box, .term, .res, .tbl, .deliv, .human, .addon, .copy, .verified-notice {
     background: #fff !important;
     border-color: #D6D0C4 !important;
     color: #1A1610;
   }
   .stitle, .wt, .masthead h1 { color: #1A1610; }
   .slabel, .wn, .deliv-l, .copy h3, .masthead h1 em, .human b, .addon b, .seq-box h4 { color: #8A6A24; }
-  .box li, .box p, .sdesc, .rd, .chk, .note, .copy p, .human, .addon, .seq-box li { color: #4A4438; }
+  .box li, .box p, .sdesc, .rd, .chk, .note, .copy p, .human, .addon, .seq-box li, .verified-notice { color: #4A4438; }
+  .verified-notice b { color: #9C3A2D; }
   .deliv .chk { color: #1A1610; }
-  th { background: #1A1610; color: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  th { background: #F2EFE8; color: #1A1610; }
   a { color: #1A1610; text-decoration: underline; }
   .wm span { color: rgba(0,0,0,.05); }
   .tag { border: 1px solid #999; color: #333; background: #fff; }
   .slot-item { background: #fff; border: 1px solid #ccc; }
   .seq-box { background: #FAF7F0; border-color: #D6D0C4; }
-  
-  /* v10.3 FIX: 6 baris penambal yang sebelumnya hilang */
   .rn, .term b, .seq-box li b, td b { color: #1A1610; }
   .mast-sub, td { color: #4A4438; }
-  th { background: #F2EFE8; color: #1A1610; }
   .chk input { background: #fff; border-color: #999; }
   .chk input:checked { background: #8A6A24; border-color: #8A6A24; }
   .chk input:checked::after { border-color: #fff; }
@@ -675,7 +703,7 @@ footer p {
 <header class="masthead">
   <div class="mast-rule">
     <span>Putra Try Arga</span>
-    <span>Final v10.3 · 26 September 2026</span>
+    <span>Final v10.4 · 26 September 2026</span>
     <span>Onboarding + 8 minggu inti + 2 elektif</span>
   </div>
   <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
@@ -686,6 +714,28 @@ footer p {
     <div>Struktur<b>Start → W8 + 2 elektif</b></div>
   </div>
 </header>
+
+<section class="quick-start" aria-labelledby="sec-qs">
+  <p class="slabel" id="sec-qs">Kejar waktu?</p>
+  <h2 class="stitle">Quick Start 5 menit</h2>
+  <div class="g3">
+    <div class="box"><h3>Untuk pemula</h3><ol>
+      <li><a href="#sec-sebelum">Cara mainnya</a> — pahami pola belajar</li>
+      <li><a href="#weeks">Peta jalannya</a> — lihat struktur 8 minggu</li>
+      <li><a href="#sec-ujian">Tujuh pertanyaan</a> — selfcheck readiness</li>
+    </ol></div>
+    <div class="box"><h3>Cari spesifik</h3><ol>
+      <li><a href="#sec-kamus">Kamus mini</a> — istilah penting</li>
+      <li><a href="#sec-cred">Peta credential</a> — semua sertifikat</li>
+      <li><a href="#sec-pola">Template belajar</a> — quick reference</li>
+    </ol></div>
+    <div class="box"><h3>Mulai coding</h3><ol>
+      <li>Jump ke <strong>START</strong> → Bikin playground</li>
+      <li>Ikuti urutan <strong>W1–W8</strong> dalam 8–10 minggu</li>
+      <li>Kumpulkan bukti kerja ke portofolio (bukan cuma sertifikat)</li>
+    </ol></div>
+  </div>
+</section>
 
 <div class="topbar">
   <div class="topbar-in">
@@ -1304,7 +1354,6 @@ footer p {
     </ol><p style="margin-top:10px">Tiga dari empat tercapai berarti siap. Kalau belum, identifikasi celahnya dan ulang minggu yang relevan.</p></div>
     <div class="box"><h3>Translasi ke CV</h3>
       <p>Jangan tulis "mengikuti kursus digital marketing". Tulis dampaknya.</p>
-      <!-- v10.3 FIX: lang="en" untuk teks Bahasa Inggris (WCAG 3.1.2) -->
       <p style="margin-top:10px"><b lang="en">Contoh W6:</b> <span lang="en">"Designed end-to-end measurement plan for [brand], implementing GA4 event taxonomy across 6 conversion events and establishing UTM governance to reduce data discrepancy."</span></p>
       <p style="margin-top:8px"><b lang="en">Contoh W7:</b> <span lang="en">"Built diagnostic Looker Studio dashboard and geo-holdout calculator to separate platform ROAS from true incrementality, shifting budget allocation based on causal evidence."</span></p>
     </div>
@@ -1329,6 +1378,20 @@ footer p {
   <p style="color:var(--red)">Dilarang memperjualbelikan, mengemas ulang, memasukkan ke grup berbayar, atau mengomersialkan modul ini dalam bentuk apa pun. Pelanggaran akan langsung dilaporkan tanpa peringatan.</p>
 </div>
 
+<section aria-labelledby="sec-veri">
+  <div class="verified-notice">
+    <b>⚠️ Verifikasi sumber</b>
+    <p style="margin-top:8px">Semua link dalam modul terakhir diverifikasi <strong>26 September 2026</strong>. Karena platform sering ganti URL atau policy, pastikan lu cek manual sebelum commit:</p>
+    <ul>
+      <li>HubSpot Academy courses (sering ganti link)</li>
+      <li>Meta Blueprint collection IDs</li>
+      <li>TikTok Academy learning paths</li>
+      <li>Status gratis setiap course</li>
+    </ul>
+    <p style="margin-top:8px">Kalau ada link 404 atau course jadi berbayar, <strong>buka issue di GitHub atau email</strong> agar bisa diupdate. Kejujuran > proteksi.</p>
+  </div>
+</section>
+
 <footer>
   <p>Standar global · Konteks lokal · Bukti jujur · Mulai dari onboarding</p>
 </footer>
@@ -1337,15 +1400,11 @@ footer p {
 
 <script>
 (function(){
-  // v10.3 FIX: Key stabil tanpa nomor versi, progress gak hilang saat update konten
   var KEY = 'dpa.progress';
   var saved = {};
   try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
 
   function boxes() { return Array.prototype.slice.call(document.querySelectorAll('.chk input[type="checkbox"]')); }
-  
-  // v10.3 FIX: coreBoxes() sekarang filter out minggu elektif (W9/W10)
-  // Ini fix bug 89% dimana user yang selesaikan semua core cuma liat 89%
   function coreBoxes() { 
     return boxes().filter(function(c) {
       var week = c.closest('.week');
@@ -1387,11 +1446,9 @@ footer p {
   document.addEventListener('change', function(e) {
     if (e.target.matches('.chk input[type="checkbox"]')) {
       saved[e.target.dataset.id] = e.target.checked;
-      // v10.3 FIX: Update UI dulu sebelum save ke localStorage
       var l = e.target.closest('.chk');
       if (l) l.classList.toggle('done', e.target.checked);
       upd();
-      // v10.3 FIX: Try-catch untuk setItem (private mode, kuota penuh)
       try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (err) {}
     }
   });
@@ -1420,29 +1477,11 @@ footer p {
   window.resetAll = function() {
     if (confirm('Reset semua progress centang?')) {
       saved = {};
-      // v10.3 FIX: Try-catch untuk removeItem
       try { localStorage.removeItem(KEY); } catch (err) {}
       apply();
       toast('Progress direset.');
     }
   };
-
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    toast('Klik kanan dinonaktifkan');
-  });
-  document.addEventListener('copy', function(e) {
-    e.preventDefault();
-    toast('Copy dinonaktifkan. Bagikan linknya saja.');
-  });
-  document.addEventListener('keydown', function(e) {
-    if ((e.ctrlKey || e.metaKey) && ['c','s','u'].indexOf(e.key.toLowerCase()) > -1) {
-      e.preventDefault();
-      toast('Shortcut diblokir. Modul ini dilindungi hak cipta.');
-    }
-  });
-
-  apply();
 })();
 </script>
 </body>
