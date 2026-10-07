@@ -3,24 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="dark light">
 <meta name="theme-color" content="#0F0E0C">
 <link rel="canonical" href="https://putratryarga-dpa.vercel.app/">
 
 <title>Full-Stack Digital Performance Architect — Putra Try Arga</title>
-<meta name="description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata. Sumber gratis dan bukti kerja yang jujur. Diverifikasi 26 September 2026.">
+<meta name="description" content="Roadmap gratis untuk belajar digital performance dari business sampai optimization, dengan jalur Full-Stack dan 8 role specialist, deliverable nyata, portfolio, dan bukti kerja yang jujur.">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="id_ID">
 <meta property="og:title" content="Full-Stack Digital Performance Architect — Putra Try Arga">
 <meta property="og:description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata. Sumber gratis dan bukti kerja yang jujur.">
 <meta property="og:url" content="https://putratryarga-dpa.vercel.app/">
-<meta property="og:image" content="https://putratryarga-dpa.vercel.app/og.png">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Full-Stack Digital Performance Architect">
-<meta name="twitter:description" content="Blueprint onboarding + 8 minggu untuk menjadi junior digital performance generalist dengan portofolio nyata.">
-<meta name="twitter:image" content="https://putratryarga-dpa.vercel.app/og.png">
+<meta name="twitter:description" content="Roadmap gratis untuk belajar digital performance dengan jalur Full-Stack dan specialist, deliverable nyata, portfolio, dan bukti kerja yang jujur.">
 
 <script type="application/ld+json">
 {
@@ -78,7 +76,7 @@
   --r-lg: 16px;
 }
 *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; color-scheme: dark; }
+html { scroll-behavior: smooth; color-scheme: dark light; }
 body {
   background: var(--bg);
   color: var(--ink);
@@ -198,6 +196,234 @@ main.page { max-width: 900px; margin: 0 auto; padding: 0 22px 100px; }
   margin-top: 40px;
   margin-bottom: 64px;
 }
+
+html[data-theme="light"] {
+  --bg: #F5F1E8;
+  --bg-glow: #ECE7DC;
+  --sf: #FBF8F0;
+  --sf2: #F0EBE0;
+  --sf3: #E6DFD2;
+  --ink: #191712;
+  --ink2: #5F584B;
+  --ink3: #776F62;
+  --line: #D9D1C3;
+  --line2: #C6BBAA;
+  --gold: #8A641D;
+  --gold-s: rgba(138,100,29,.10);
+  --gold-l: rgba(138,100,29,.28);
+  --green: #42652F;
+  --green-s: rgba(66,101,47,.10);
+  --blue: #3D5C73;
+  --blue-s: rgba(61,92,115,.10);
+  --red: #6B2F25;
+  --red-s: rgba(107,47,37,.10);
+}
+
+html[data-theme="light"] .topbar {
+  background: rgba(245,241,232,.92);
+}
+
+html[data-theme="light"] .human {
+  background: #EEE8DC;
+}
+
+html[data-theme="light"] .chk input {
+  border-color: #716955;
+  background: var(--sf2);
+}
+
+html[data-theme="light"] .wm span {
+  color: rgba(25,23,18,.04);
+}
+
+html[data-theme="light"] .t-step {
+  background: var(--gold);
+  color: #fff;
+}
+
+html[data-theme="light"] ::selection {
+  background: #B4893B;
+  color: #fff;
+}
+
+.role-section {
+  margin-top: 8px;
+}
+
+.role-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.role-card {
+  background: var(--sf);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 18px;
+  transition: border-color .2s, transform .2s, background .2s;
+}
+
+.role-card:hover {
+  border-color: var(--line2);
+  transform: translateY(-1px);
+}
+
+.role-card.selected {
+  border-color: var(--gold);
+  background: var(--bg-glow);
+}
+
+.role-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.role-name {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.role-card p {
+  margin-top: 9px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink2);
+}
+
+.role-path {
+  margin-top: 11px;
+  font: 600 10px/1.5 var(--mono);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.role-pick {
+  border: 1px solid var(--line2);
+  background: var(--sf2);
+  color: var(--ink2);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font: 600 10px var(--sans);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.role-pick:hover,
+.role-card.selected .role-pick {
+  background: var(--gold);
+  color: #1A1610;
+  border-color: var(--gold);
+}
+
+.role-resources {
+  margin-top: 13px;
+  padding-top: 11px;
+  border-top: 1px dotted var(--line);
+}
+
+.role-resources-label {
+  font: 600 9px var(--mono);
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 7px;
+}
+
+.role-resources a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 2px 9px 2px 0;
+}
+
+.role-status {
+  margin: 16px 0 0;
+  padding: 14px 16px;
+  background: var(--gold-s);
+  border: 1px solid var(--gold-l);
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink2);
+}
+
+.role-status strong {
+  color: var(--ink);
+}
+
+.role-status code {
+  font: 600 11px var(--mono);
+  color: var(--gold);
+}
+
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--line);
+  background: var(--sf);
+  color: var(--ink2);
+  border-radius: 7px;
+  padding: 6px 9px;
+  font: 600 10px var(--sans);
+  cursor: pointer;
+}
+
+.theme-switch:hover {
+  border-color: var(--gold);
+  color: var(--ink);
+}
+
+.switch-rail {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 18px;
+  border-radius: 10px;
+  background: var(--sf3);
+  border: 1px solid var(--line2);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+
+.switch-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--ink3);
+  transition: transform .2s, background .2s;
+}
+
+html[data-theme="light"] .switch-knob {
+  transform: translateX(14px);
+  background: var(--gold);
+}
+
+html[data-theme="light"] .theme-switch {
+  background: var(--sf2);
+}
+
+@media (max-width: 640px) {
+  .role-grid { grid-template-columns: 1fr; }
+  .role-head { gap: 8px; }
+  .role-name { font-size: 19px; }
+  .theme-switch { padding: 6px 8px; }
+}
+
+@media print {
+  .theme-switch, .role-pick { display: none !important; }
+  html[data-theme="light"], html[data-theme="dark"] { color-scheme: light; }
+}
+
 
 .topbar {
   position: sticky;
@@ -722,14 +948,14 @@ footer p {
   <div class="mast-rule">
     <span>Putra Try Arga</span>
     <span>Final v10.5 · 28 September 2026</span>
-    <span>Onboarding + 8 minggu inti + 2 elektif</span>
+    <span>START + 8 minggu inti + 2 elektif</span>
   </div>
   <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
-  <p class="mast-sub">Kalau lu mau belajar digital performance tapi masih bingung harus mulai dari mana, roadmap ini bisa jadi titik awalnya. Selama 8 minggu, lu akan memahami konsep dasarnya, mencoba tools yang dipakai di industri, dan menyusun hasil latihan menjadi portofolio untuk interview.</p>
+  <p class="mast-sub">Kalau lu mau belajar digital performance tapi masih bingung harus mulai dari mana, roadmap ini bisa jadi titik awalnya. Lu bisa mengikuti jalur Full-Stack dari awal sampai akhir, atau memilih role yang paling dekat dengan target kerja lu. Setiap jalur tetap punya hasil latihan yang bisa dibawa ke portofolio.</p>
   <div class="mast-meta">
     <div>Waktu<b>6–9 jam / minggu untuk core*</b></div>
     <div>Biaya inti<b>Rp0</b></div>
-    <div>Struktur<b>Start → W8 + 2 elektif</b></div>
+    <div>Struktur<b>START + W1–W8 + 2 elektif</b></div>
   </div>
 </header>
 
@@ -742,8 +968,8 @@ footer p {
       <ol>
         <li>Baca <a href="#sec-sebelum">Cara mainnya</a> supaya paham alur belajarnya.</li>
         <li>Lihat <a href="#weeks">Peta jalan</a> untuk cek isi roadmap selama 8 minggu.</li>
-        <li>Mulai dari <a href="#week-start">START</a> dan siapkan website latihan.</li>
-        <li>Lanjutkan dari W1 sampai W8.</li>
+        <li>Pilih <a href="#sec-role">role path</a> yang paling dekat dengan target kerja lu.</li>
+        <li>Mulai dari <a href="#week-start">START</a>, lalu ikuti <b>Jalur saya</b> di peta jalan.</li>
       </ol>
     </div>
     <div class="box">
@@ -765,6 +991,103 @@ footer p {
   </div>
 </section>
 
+<section id="sec-role" class="role-section">
+  <p class="slabel">Pilih jalur</p>
+  <h2 class="stitle">Lu tidak harus belajar semuanya.</h2>
+  <p class="sdesc">Full-Stack mengikuti seluruh chain. Kalau lu mengejar role specialist, pilih jalur yang paling dekat dengan target kerja lu. Minggu yang tidak masuk jalur tetap boleh dibuka sebagai supporting knowledge, tapi tidak dihitung sebagai kewajiban progress.</p>
+
+  <div class="role-grid">
+    <div class="role-card selected" data-role-card="fullstack">
+      <div class="role-head"><span class="role-name">Full-Stack Digital Performance</span><button type="button" class="role-pick" data-role="fullstack" aria-pressed="true">Pilih jalur</button></div>
+      <p>Belajar end-to-end dari business problem, planning, execution, measurement, optimization, sampai next planning.</p>
+      <div class="role-path">Path: START + W1–W10</div>
+      <div class="role-resources"><div class="role-resources-label">Sistem kerja</div>
+        <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        <a href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
+        <a href="mailto:putratryarga027@gmail.com?subject=Digital%20Performance%20Roadmap%20Feedback">Kirim feedback</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="connection">
+      <div class="role-head"><span class="role-name">Connection Planner</span><button type="button" class="role-pick" data-role="connection" aria-pressed="false">Pilih jalur</button></div>
+      <p>Fokus pada consumer journey, touchpoints, channel roles, connection logic, dan bagaimana semuanya diterjemahkan ke planning.</p>
+      <div class="role-path">Path: START + W1, W2, W4, W5, W7, W8</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://business.google.com/in/think/consumer-insights/influence-pathways-with-ai/" target="_blank" rel="noopener noreferrer">Think with Google</a>
+        <a href="https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep" target="_blank" rel="noopener noreferrer">Forage Omnichannel Marketing</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="media">
+      <div class="role-head"><span class="role-name">Media Planner</span><button type="button" class="role-pick" data-role="media" aria-pressed="false">Pilih jalur</button></div>
+      <p>Mengubah brief menjadi audience, channel, placement, KPI, budget, forecast, media plan, dan handoff yang bisa dijalankan.</p>
+      <div class="role-path">Path: START + W1, W3, W4, W6, W7</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://training.marketing.linkedin.com/marketing-strategy-exam" target="_blank" rel="noopener noreferrer">LinkedIn Marketing Strategy Certification</a>
+        <a href="https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide" target="_blank" rel="noopener noreferrer">Meta Media Planning Study Guide</a>
+        <a href="https://www.credly.com/org/the-trade-desk-inc/badge/the-trade-desk-edge-academy-certified-data-driven-planning" target="_blank" rel="noopener noreferrer">The Trade Desk Data-Driven Planning</a>
+        <a href="https://support.google.com/google-ads/answer/9427120" target="_blank" rel="noopener noreferrer">Google Reach Planner</a>
+        <a href="https://www.tiktokacademy.com/student/path/2078935-build-your-brand" target="_blank" rel="noopener noreferrer">TikTok Build Your Brand</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="paid">
+      <div class="role-head"><span class="role-name">Performance Marketing / Paid Media</span><button type="button" class="role-pick" data-role="paid" aria-pressed="false">Pilih jalur</button></div>
+      <p>Fokus pada paid search, paid social, campaign setup, creative testing, measurement, diagnosis, dan optimization.</p>
+      <div class="role-path">Path: START + W1, W2, W3, W4, W6, W7</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://www.youtube.com/@madya_id/courses" target="_blank" rel="noopener noreferrer">Madya · Paid Media</a>
+        <a href="https://training.marketing.linkedin.com/advertising-fundamentals" target="_blank" rel="noopener noreferrer">LinkedIn Advertising Fundamentals</a>
+        <a href="https://www.tiktokacademy.com/student/path/2078935-build-your-brand" target="_blank" rel="noopener noreferrer">TikTok Build Your Brand</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="analyst">
+      <div class="role-head"><span class="role-name">Marketing Analyst</span><button type="button" class="role-pick" data-role="analyst" aria-pressed="false">Pilih jalur</button></div>
+      <p>Menghubungkan data, measurement, audit, dashboard, diagnosis, dan keputusan bisnis tanpa berhenti di reporting.</p>
+      <div class="role-path">Path: START + W1, W6, W7, W10</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://training.marketing.linkedin.com/marketing-measurement-exam" target="_blank" rel="noopener noreferrer">LinkedIn Marketing Measurement</a>
+        <a href="https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/" target="_blank" rel="noopener noreferrer">Semrush Marketing Analytics</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="cro">
+      <div class="role-head"><span class="role-name">CRO / Growth</span><button type="button" class="role-pick" data-role="cro" aria-pressed="false">Pilih jalur</button></div>
+      <p>Fokus pada landing page, customer experience, hypothesis, experiment, dan perbaikan conversion berdasarkan evidence.</p>
+      <div class="role-path">Path: START + W1, W2, W7</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://www.experimentnation.com/certification" target="_blank" rel="noopener noreferrer">Experiment Nation CRO Qualification</a>
+        <a href="https://growth.design/case-studies" target="_blank" rel="noopener noreferrer">Growth.Design Case Studies</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="organic">
+      <div class="role-head"><span class="role-name">Organic Growth / Search &amp; Social</span><button type="button" class="role-pick" data-role="organic" aria-pressed="false">Pilih jalur</button></div>
+      <p>Fokus pada SEO, content, AEO, search visibility, dan organic social sebagai bagian dari growth system.</p>
+      <div class="role-path">Path: START + W1, W5, W9</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://www.semrush.com/academy/courses/" target="_blank" rel="noopener noreferrer">Semrush Academy</a>
+        <a href="https://www.youngurbanproject.com/blog/" target="_blank" rel="noopener noreferrer">YUP Blog</a>
+      </div>
+    </div>
+
+    <div class="role-card" data-role-card="crm">
+      <div class="role-head"><span class="role-name">CRM / Lifecycle / Automation</span><button type="button" class="role-pick" data-role="crm" aria-pressed="false">Pilih jalur</button></div>
+      <p>Fokus pada customer lifecycle, CRM, email, automation, data flow, retention, dan hubungan antara marketing dan customer data.</p>
+      <div class="role-path">Path: START + W1, W6, W7, W8, W10</div>
+      <div class="role-resources"><div class="role-resources-label">Sumber pendukung</div>
+        <a href="https://trailhead.salesforce.com/content/learn/modules/customer-journey-basics" target="_blank" rel="noopener noreferrer">Salesforce Customer Journey Basics</a>
+        <a href="https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup" target="_blank" rel="noopener noreferrer">Salesforce Marketing Cloud Engagement</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="role-status" id="roleStatus" aria-live="polite">
+    <strong>Jalur aktif: Full-Stack Digital Performance.</strong> Progress menghitung deliverable wajib dari START sampai W10. Elektif tetap bisa dibuka sebagai pendalaman.
+  </div>
+</section>
+
 <div class="topbar">
   <div class="topbar-in">
     <div class="prog">
@@ -772,16 +1095,18 @@ footer p {
       <div class="prog-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Progres belajar">
         <div class="prog-fill" id="bar"></div>
       </div>
-      <span class="prog-n"><span id="cnt">0</span> tugas inti</span>
+      <span class="prog-n"><span id="cnt">0</span> tugas jalur</span>
     </div>
     <div class="acts">
-      <button class="on" data-f="all">Semua</button>
-      <button data-f="core">Inti</button>
-      <button data-f="elec">Elektif</button>
-      <button onclick="expAll(true)">Buka</button>
-      <button onclick="expAll(false)">Tutup</button>
-      <button onclick="doPrint()">Cetak / PDF</button>
-      <button class="dg" onclick="resetAll()">Reset</button>
+      <button class="on" data-f="all" type="button">Semua</button>
+      <button data-f="role" type="button">Jalur saya</button>
+      <button data-f="core" type="button">Inti</button>
+      <button data-f="elec" type="button">Elektif</button>
+      <button type="button" onclick="expAll(true)">Buka</button>
+      <button type="button" onclick="expAll(false)">Tutup</button>
+      <button type="button" onclick="doPrint()">Cetak / PDF</button>
+      <button class="dg" type="button" onclick="resetAll()">Reset</button>
+      <button class="theme-switch" id="themeToggle" type="button" aria-pressed="false" aria-label="Ganti tema gelap dan terang"><span class="switch-rail"><span class="switch-knob"></span></span><span class="theme-label">Dark</span></button>
     </div>
   </div>
 </div>
@@ -789,7 +1114,7 @@ footer p {
 <section id="sec-sebelum">
   <p class="slabel">Sebelum mulai</p>
   <h2 class="stitle">Cara mainnya</h2>
-  <p class="sdesc">Roadmap ini dibuat supaya proses belajarnya tidak berhenti di nonton course dan mengumpulkan sertifikat. Setiap minggu ada topik yang perlu dipahami, latihan yang perlu dikerjakan, dan satu hasil yang bisa dimasukkan ke portofolio. Lu tidak harus menguasai semuanya sekaligus. Ikuti urutannya, selesaikan tugas inti, lalu lanjut ke minggu berikutnya.</p>
+  <p class="sdesc">Roadmap ini dibuat supaya proses belajarnya tidak berhenti di nonton course dan mengumpulkan sertifikat. Setiap minggu ada topik yang perlu dipahami, latihan yang perlu dikerjakan, dan satu hasil yang bisa dimasukkan ke portofolio. Lu tidak harus menguasai semuanya sekaligus. START dan W1 jadi fondasi, setelah itu ikuti jalur role yang lu pilih. Minggu lain tetap bisa dibuka sebagai supporting knowledge.</p>
   <div class="g3">
     <div class="box">
       <h3>Siklus belajar</h3>
@@ -897,9 +1222,9 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Digital Marketing Certification</span><span class="rd">Fondasi: SEO, sosial, email, iklan. 3 jam 24 menit</span></span><span class="tag t-free">Sertifikat gratis</span></a>
+        <a class="res" href="https://www.purwadhika.com/free-course/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika Free Course · Digital Marketing</span><span class="rd">Fondasi digital consumer, framework, planning flow, goal, KPI, dan metrics. Certificate setelah course + quiz.</span></span><span class="tag t-free">Gratis + cert</span></a>
+        <a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Digital Marketing Certification</span><span class="rd">Fondasi: SEO, sosial, email, iklan. Sertifikat sebagai bukti pendukung.</span></span><span class="tag t-free">Sertifikat gratis</span></a>
         <a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Inbound Certification</span><span class="rd">Inbound + cara berpikir lifecycle. 3 jam</span></span><span class="tag t-free">Sertifikat gratis</span></a>
-        <a class="res" href="https://corporatefinanceinstitute.com/course/learn-accounting-fundamentals-corporate-finance/" target="_blank" rel="noopener noreferrer"><span><span class="rn">CFI Accounting Fundamentals</span><span class="rd">Course-nya gratis; sertifikat mungkin butuh akun berbayar, cek syarat sebelum commit</span></span><span class="tag t-warn">Perlu dicek</span></a>
         <a class="res" href="https://www.khanacademy.org/economics-finance-domain/core-finance" target="_blank" rel="noopener noreferrer"><span><span class="rn">Khan Academy Finance</span><span class="rd">Pelengkap konsep margin dan CAC. Learning evidence saja</span></span><span class="tag t-free">Gratis</span></a>
         <a class="res" href="https://trends.google.com/explore" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Trends</span><span class="rd">Bukti minat relatif, bukan ukuran pasar</span></span><span class="tag t-tool">Tool gratis</span></a>
         <a class="res" href="https://karirnex.com/program" target="_blank" rel="noopener noreferrer"><span><span class="rn">Karir Next — Digital Marketing Bootcamp</span><span class="rd">Bootcamp dibuka per batch dengan tanggal ganti-ganti (per 26 Sep 2026 batch berikut mulai 9 Nov 2026), wajib buka /program dan cek batch yang sedang open sebelum daftar</span></span><span class="tag t-warn">Perlu dicek</span></a>
@@ -969,8 +1294,8 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://skillshop.exceedlms.com/student/path/18163-google-ads-search-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 1 · Google Ads Search Certification</span><span class="rd">REKOMENDASI UTAMA. Fondasi Google Ads, sekitar 4–6 jam. Berlaku ±12 bulan.</span></span><span class="tag t-step">Rekomendasi</span></a>
-        <a class="res" href="https://skillshop.exceedlms.com/student/path/18330-google-ads-measurement-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 2 · Google Ads Measurement Certification</span><span class="rd">OPSIONAL SETELAH W6. Lebih masuk akal diambil setelah fondasi GA4/GTM terbentuk. Sekitar 3–4 jam.</span></span><span class="tag t-skip">Tidak diprioritaskan</span></a>
+        <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 1 · Google Ads Search Certification (2026)</span><span class="rd">REKOMENDASI UTAMA. Fondasi Google Ads, sekitar 4–6 jam. Berlaku ±12 bulan.</span></span><span class="tag t-step">Rekomendasi</span></a>
+        <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 2 · Google Ads Measurement Certification (2026)</span><span class="rd">OPSIONAL SETELAH W6. Lebih masuk akal diambil setelah fondasi GA4/GTM terbentuk. Sekitar 3–4 jam.</span></span><span class="tag t-skip">Tidak diprioritaskan</span></a>
         <a class="res" href="https://skillshop.withgoogle.com/googleads/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Step 3-5 · Display, Video, Shopping</span><span class="rd">OPSIONAL. Ambil sesuai minat dari katalog utama Skillshop.</span></span><span class="tag t-skip">Opsional</span></a>
         <a class="res" href="https://support.google.com/google-ads" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Help · Enhanced dan Offline Conversions</span><span class="rd">Dokumentasi resmi untuk add-on GCLID/fbclid</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
       </div>
@@ -1120,8 +1445,9 @@ footer p {
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://support.google.com/analytics/answer/15068052" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Academy + Certification</span><span class="rd">Route resmi GA4, expire ±12 bulan</span></span><span class="tag t-off">Sertifikat resmi</span></a>
-        <a class="res" href="https://developers.google.com/tag-platform/security/guides/consent" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Consent Mode v2 Guide</span><span class="rd">Empat sinyal consent + conversion modeling</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
+        <a class="res" href="https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification-2026" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Certification (2026)</span><span class="rd">Certification resmi melalui Google Skillshop</span></span><span class="tag t-off">Sertifikat resmi</span></a>
+        <a class="res" href="https://www.youngurbanproject.com/google-tag-manager-cheatsheet/" target="_blank" rel="noopener noreferrer"><span><span class="rn">YUP GTM Cheatsheet</span><span class="rd">GTM, GA4, Meta Pixel, CAPI, dan debugging untuk latihan tracking.</span></span><span class="tag t-doc">Resource</span></a>
+      <a class="res" href="https://developers.google.com/tag-platform/security/guides/consent" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Consent Mode v2 Guide</span><span class="rd">Empat sinyal consent + conversion modeling</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
         <a class="res" href="https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Analytics Mania GTM Fundamentals</span><span class="rd">90 menit, 30 soal, completion certificate. Ini bukti GTM lu.</span></span><span class="tag t-free">Sertifikat gratis</span></a>
         <a class="res" href="https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Analytics Mania GA4 Fundamentals</span><span class="rd">Route bukti tambahan untuk GA4</span></span><span class="tag t-free">Sertifikat gratis</span></a>
         <a class="res" href="https://www.simoahava.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Blog Simo Ahava</span><span class="rd">Referensi paling otoritatif GTM dan consent</span></span><span class="tag t-doc">Dokumentasi resmi</span></a>
@@ -1404,7 +1730,7 @@ footer p {
   <h2 class="stitle">Verifikasi dan kejujuran</h2>
   <div class="box">
     <p>Status course, sertifikat, harga, dan masa berlaku dapat berubah. Sebelum mencantumkannya di CV atau LinkedIn, buka kembali halaman resmi provider dan cek informasi terbarunya.</p>
-    <p style="margin-top:8px">Item yang belum bisa diverifikasi publik dan wajib dicek manual: Karir Next, YUP free courses, syarat certificate CFI Accounting Fundamentals, detail ASEAN Ahead, dan course internal TikTok Achievement paths yang membutuhkan login.</p>
+    <p style="margin-top:8px">Item yang tetap perlu dicek manual: Karir Next, detail ASEAN Ahead, beberapa course internal TikTok Academy yang membutuhkan login, dan status komersial provider yang bisa berubah.</p>
     <p style="margin-top:8px">YUP dan Karir Next diposisikan sebagai konteks dan support lokal, bukan klaim kesetaraan dengan program berbayarnya. ASEAN Ahead Programme adalah program pihak ketiga, syarat dan timeline bisa berubah.</p>
     <p style="margin-top:8px">Semua angka dari simulasi wajib dilabel sintetis, tanpa pengecualian. Kalau menemukan link yang sudah berubah, laporkan melalui kontak yang tersedia agar roadmap dapat diperbarui.</p>
   </div>
@@ -1420,7 +1746,7 @@ footer p {
 <section id="sec-veri">
   <div class="verified-notice">
     <b>⚠️ Verifikasi sumber</b>
-    <p style="margin-top:8px">Semua link dalam modul terakhir diverifikasi <strong>26 September 2026</strong>. Karena platform sering ganti URL atau policy, pastikan lu cek manual sebelum commit:</p>
+    <p style="margin-top:8px">Link yang diperbarui dalam audit ini diverifikasi <strong>8 Oktober 2026</strong>. Provider bisa mengubah URL, policy, atau status credential, jadi tetap cek halaman resmi sebelum mencantumkannya di CV:</p>
     <ul>
       <li>HubSpot Academy courses (sering ganti link)</li>
       <li>Meta Blueprint collection IDs</li>
@@ -1439,115 +1765,286 @@ footer p {
 
 <script>
 (function(){
-  var KEY = 'dpa.progress';
-  var saved = {};
-  try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  var STATE_KEY = 'dpa.v11';
+  var LEGACY_KEY = 'dpa.progress';
+  var THEME_KEY = 'dpa.theme.v11';
 
-  function boxes() { return Array.prototype.slice.call(document.querySelectorAll('.chk input[type="checkbox"]')); }
-  
-  function coreBoxes() { 
-    return boxes().filter(function(c) {
-      var week = c.closest('.week');
-      var isElective = week && week.dataset.type === 'elec';
-      return c.dataset.optional !== 'true' && !isElective;
+  var ROLE_PATHS = {
+    fullstack: ['START','W1','W2','W3','W4','W5','W6','W7','W8','W9','W10'],
+    connection: ['START','W1','W2','W4','W5','W7','W8'],
+    media: ['START','W1','W3','W4','W6','W7'],
+    paid: ['START','W1','W2','W3','W4','W6','W7'],
+    analyst: ['START','W1','W6','W7','W10'],
+    cro: ['START','W1','W2','W7'],
+    organic: ['START','W1','W5','W9'],
+    crm: ['START','W1','W6','W7','W8','W10']
+  };
+
+  var ROLE_NAMES = {
+    fullstack: 'Full-Stack Digital Performance',
+    connection: 'Connection Planner',
+    media: 'Media Planner',
+    paid: 'Performance Marketing / Paid Media',
+    analyst: 'Marketing Analyst',
+    cro: 'CRO / Growth',
+    organic: 'Organic Growth / Search & Social',
+    crm: 'CRM / Lifecycle / Automation'
+  };
+
+  var ROLE_SUPPORT = {
+    fullstack: 'Progress menghitung seluruh START + W1 sampai W10 yang wajib untuk full-stack.',
+    connection: 'Fokus pada connection logic; minggu lain tetap bisa dibuka sebagai supporting knowledge.',
+    media: 'Fokus pada planning, media math, platform context, measurement, dan optimization.',
+    paid: 'Fokus pada paid channel, execution, creative testing, measurement, dan optimization.',
+    analyst: 'Fokus pada measurement, audit, dashboard, diagnosis, dan data infrastructure.',
+    cro: 'Fokus pada business foundation, landing page, experiment, dan diagnosis growth.',
+    organic: 'Fokus pada business foundation, SEO/content/AEO, lalu AI search dan GEO sebagai pendalaman.',
+    crm: 'Fokus pada measurement, diagnosis, lifecycle, automation, dan data infrastructure.'
+  };
+
+  var state = {
+    version: 1,
+    role: 'fullstack',
+    completed: {}
+  };
+
+  try {
+    var current = JSON.parse(localStorage.getItem(STATE_KEY) || 'null');
+    if (current && typeof current === 'object' && !Array.isArray(current)) {
+      state.role = ROLE_PATHS[current.role] ? current.role : 'fullstack';
+      state.completed = (current.completed && typeof current.completed === 'object' && !Array.isArray(current.completed)) ? current.completed : {};
+    } else {
+      var legacy = JSON.parse(localStorage.getItem(LEGACY_KEY) || '{}');
+      if (legacy && typeof legacy === 'object' && !Array.isArray(legacy)) {
+        state.completed = legacy;
+      }
+    }
+  } catch (e) {
+    state = { version: 1, role: 'fullstack', completed: {} };
+  }
+
+  function persistState(){
+    try {
+      localStorage.setItem(STATE_KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function boxes(){
+    return Array.prototype.slice.call(document.querySelectorAll('.chk input[type="checkbox"]'));
+  }
+
+  function weeks(){
+    return Array.prototype.slice.call(document.querySelectorAll('details.week'));
+  }
+
+  function weekKey(week){
+    var el = week.querySelector('.wn');
+    return el ? el.textContent.trim() : '';
+  }
+
+  function requiredWeeks(){
+    return ROLE_PATHS[state.role] || ROLE_PATHS.fullstack;
+  }
+
+  function requiredBoxes(){
+    var required = requiredWeeks();
+    return boxes().filter(function(c){
+      var week = c.closest('details.week');
+      if (!week) return false;
+      if (c.dataset.optional === 'true') return false;
+      return required.indexOf(weekKey(week)) !== -1;
     });
   }
 
-  function upd() {
-    var a = coreBoxes(), d = 0, i;
-    for (i = 0; i < a.length; i++) { if (a[i].checked) d++; }
-    var p = a.length ? Math.round(d / a.length * 100) : 0;
-    document.getElementById('pct').textContent = p + '%';
-    document.getElementById('bar').style.width = p + '%';
-    document.getElementById('cnt').textContent = d + ' / ' + a.length;
+  function updateProgress(){
+    var list = requiredBoxes(), done = 0;
+    list.forEach(function(c){ if (c.checked) done++; });
+    var pct = list.length ? Math.round(done / list.length * 100) : 0;
+    var pctEl = document.getElementById('pct');
+    var barEl = document.getElementById('bar');
+    var cntEl = document.getElementById('cnt');
+    if (pctEl) pctEl.textContent = pct + '%';
+    if (barEl) barEl.style.width = pct + '%';
+    if (cntEl) cntEl.textContent = done + ' / ' + list.length;
+
     var track = document.querySelector('.prog-track');
     if (track) {
-      track.setAttribute('aria-valuenow', String(p));
-      track.setAttribute('aria-label', 'Progres ' + d + ' dari ' + a.length + ' tugas inti');
+      track.setAttribute('aria-valuenow', String(pct));
+      track.setAttribute('aria-label', 'Progres ' + done + ' dari ' + list.length + ' tugas wajib untuk ' + ROLE_NAMES[state.role]);
     }
   }
 
-  function apply() {
-    boxes().forEach(function(c) {
-      c.checked = !!saved[c.dataset.id];
-      var l = c.closest('.chk');
-      if (l) l.classList.toggle('done', c.checked);
+  function applyChecks(){
+    boxes().forEach(function(c){
+      var id = c.dataset.id;
+      c.checked = state.completed[id] === true;
+      var label = c.closest('.chk');
+      if (label) label.classList.toggle('done', c.checked);
     });
-    upd();
+    updateProgress();
   }
 
-  function toast(m) {
-    var t = document.getElementById('toast');
-    t.textContent = m;
-    t.classList.add('show');
-    setTimeout(function(){ t.classList.remove('show'); }, 2600);
+  function updateRoleUI(){
+    document.querySelectorAll('[data-role-card]').forEach(function(card){
+      var active = card.dataset.roleCard === state.role;
+      card.classList.toggle('selected', active);
+      var pick = card.querySelector('.role-pick');
+      if (pick) pick.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+
+    var status = document.getElementById('roleStatus');
+    if (status) {
+      var path = requiredWeeks().join(', ');
+      status.innerHTML = '<strong>Jalur aktif: ' + ROLE_NAMES[state.role] + '.</strong> ' +
+        ROLE_SUPPORT[state.role] +
+        ' <code>' + path + '</code>';
+    }
+
+    document.documentElement.dataset.role = state.role;
   }
 
-  document.addEventListener('change', function(e) {
+  function applyFilter(filter){
+    var list = requiredWeeks();
+    document.querySelectorAll('details.week').forEach(function(w){
+      var type = w.dataset.type || 'core';
+      var key = weekKey(w);
+      var show = true;
+
+      if (filter === 'core') show = type === 'core';
+      else if (filter === 'elec') show = type === 'elec';
+      else if (filter === 'role') show = list.indexOf(key) !== -1;
+
+      w.style.display = show ? '' : 'none';
+    });
+  }
+
+  var currentFilter = 'all';
+  var filterButtons = document.querySelectorAll('[data-f]');
+
+  function setFilter(filter){
+    currentFilter = filter;
+    filterButtons.forEach(function(btn){
+      btn.classList.toggle('on', btn.dataset.f === filter);
+    });
+    applyFilter(filter);
+  }
+
+  filterButtons.forEach(function(btn){
+    btn.addEventListener('click', function(){ setFilter(btn.dataset.f); });
+  });
+
+  document.querySelectorAll('.role-pick').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var role = btn.dataset.role;
+      if (!ROLE_PATHS[role]) return;
+      state.role = role;
+      persistState();
+      updateRoleUI();
+      updateProgress();
+      setFilter('role');
+      var roleSection = document.getElementById('sec-role');
+      if (roleSection) {
+        roleSection.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+      }
+      toast('Jalur ' + ROLE_NAMES[role] + ' dipilih.');
+    });
+  });
+
+  document.addEventListener('change', function(e){
     if (e.target.matches('.chk input[type="checkbox"]')) {
-      saved[e.target.dataset.id] = e.target.checked;
-      var l = e.target.closest('.chk');
-      if (l) l.classList.toggle('done', e.target.checked);
-      upd();
-      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (err) {}
+      state.completed[e.target.dataset.id] = e.target.checked;
+      persistState();
+      var label = e.target.closest('.chk');
+      if (label) label.classList.toggle('done', e.target.checked);
+      updateProgress();
     }
   });
 
-  var fbtns = document.querySelectorAll('[data-f]');
-  fbtns.forEach(function(b) {
-    b.addEventListener('click', function() {
-      fbtns.forEach(function(x){ x.classList.remove('on'); });
-      b.classList.add('on');
-      var f = b.dataset.f;
-      document.querySelectorAll('details.week').forEach(function(w) {
-        var t = w.dataset.type || 'core';
-        w.style.display = (f === 'all' || t === f) ? '' : 'none';
-      });
-    });
-  });
+  function toast(message){
+    var el = document.getElementById('toast');
+    if (!el) return;
+    el.textContent = message;
+    el.classList.add('show');
+    window.setTimeout(function(){ el.classList.remove('show'); }, 2600);
+  }
 
-  window.expAll = function(o) {
-    document.querySelectorAll('details.week').forEach(function(d){ d.open = o; });
+  window.expAll = function(open){
+    weeks().forEach(function(d){ d.open = open; });
   };
-  window.doPrint = function() {
+
+  window.doPrint = function(){
     expAll(true);
-    setTimeout(function(){ window.print(); }, 150);
+    window.setTimeout(function(){ window.print(); }, 150);
   };
-  window.addEventListener('beforeprint', function(){ expAll(true); });
-  window.resetAll = function() {
-    if (confirm('Reset semua progress centang?')) {
-      saved = {};
-      try { localStorage.removeItem(KEY); } catch (err) {}
-      apply();
+
+  window.resetAll = function(){
+    if (window.confirm('Reset semua progress centang dan pilihan role?')) {
+      state = { version: 1, role: 'fullstack', completed: {} };
+      try {
+        localStorage.removeItem(STATE_KEY);
+        localStorage.removeItem(LEGACY_KEY);
+      } catch (e) {}
+      applyChecks();
+      updateRoleUI();
+      setFilter('all');
       toast('Progress direset.');
     }
   };
 
-  document.querySelectorAll('a[href^="#"]').forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      var selector = this.getAttribute('href');
-      if (!selector || selector === '#') return;
+  window.addEventListener('beforeprint', function(){ expAll(true); });
 
+  // Theme state
+  function setTheme(theme){
+    var normalized = theme === 'light' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = normalized;
+    var btn = document.getElementById('themeToggle');
+    var label = btn ? btn.querySelector('.theme-label') : null;
+    if (btn) {
+      btn.setAttribute('aria-pressed', normalized === 'light' ? 'true' : 'false');
+      btn.setAttribute('aria-label', normalized === 'light' ? 'Ganti ke tema gelap' : 'Ganti ke tema terang');
+    }
+    if (label) label.textContent = normalized === 'light' ? 'Light' : 'Dark';
+    var themeMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeMeta) themeMeta.setAttribute('content', normalized === 'light' ? '#F5F1E8' : '#0F0E0C');
+    try { localStorage.setItem(THEME_KEY, normalized); } catch (e) {}
+  }
+
+  var theme = 'dark';
+  try {
+    theme = localStorage.getItem(THEME_KEY) || 'dark';
+  } catch (e) {}
+  setTheme(theme);
+
+  var themeBtn = document.getElementById('themeToggle');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function(){
+      setTheme(document.documentElement.dataset.theme === 'light' ? 'dark' : 'light');
+    });
+  }
+
+  // In-page navigation
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener('click', function(e){
+      var selector = link.getAttribute('href');
+      if (!selector || selector === '#') return;
       var target = document.querySelector(selector);
       if (!target) return;
+      e.preventDefault();
 
-      if (target.tagName.toLowerCase() === 'details') {
-        target.open = true;
-      }
+      if (target.tagName.toLowerCase() === 'details') target.open = true;
+      var parent = target.closest('details');
+      if (parent) parent.open = true;
 
-      var parentDetails = target.closest('details');
-      if (parentDetails) {
-        parentDetails.open = true;
-      }
-
-      requestAnimationFrame(function() {
-        target.scrollIntoView({ behavior: 'smooth' });
+      target.scrollIntoView({
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+        block: 'start'
       });
     });
   });
 
-  apply();
+  updateRoleUI();
+  applyChecks();
+  setFilter(currentFilter);
 })();
 </script>
 </body>
