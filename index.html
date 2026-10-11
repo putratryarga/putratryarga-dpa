@@ -345,6 +345,9 @@ html[data-theme="light"] ::selection {
   margin: 2px 9px 2px 0;
 }
 
+.track-role-resource[hidden] { display: none !important; }
+.track-role-resource { margin-top: 14px; }
+
 .role-status {
   margin: 16px 0 0;
   padding: 14px 16px;
@@ -1325,6 +1328,28 @@ footer p {
         <a class="res" href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer"><span><span class="rn">Guidebook Media Plan Arga</span><span class="rd">Panduan kerja untuk menyusun media-planning logic dari objective, audience, channel, hingga rekomendasi.</span></span><span class="tag t-tool">Aset proyek</span></a>
         <a class="res" href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer"><span><span class="rn">Master Media Planning Workbook</span><span class="rd">Workbook latihan untuk budget allocation, timeline, channel planning, dan perhitungan media metrics.</span></span><span class="tag t-tool">Aset proyek</span></a>
       </div>
+      <div class="box track-role-resource" data-track-roles="fullstack media paid" hidden>
+        <h3>Panduan &amp; worksheet untuk jalur lu</h3>
+        <p>Resource ini ditampilkan untuk jalur yang memang menggunakan media planning atau paid media. Pakai sebagai alat latihan, bukan pengganti penjelasan keputusan dan asumsi.</p>
+        <div class="role-resources">
+          <div class="role-resources-label">Panduan strategi media</div>
+          <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        </div>
+        <div class="role-resources">
+          <div class="role-resources-label">Worksheet perencanaan</div>
+          <a href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
+          <p>Untuk menyusun alokasi budget, channel/placement, asumsi forecast, dan rationale. Sesuaikan isi worksheet dengan objective serta kebutuhan campaign.</p>
+        </div>
+      </div>
+      <div class="box track-role-resource" data-track-roles="connection" hidden>
+        <h3>Panduan strategi untuk jalur lu</h3>
+        <p>Untuk Connection Planner, fokus pada consumer insight, communication role, dan alasan pemilihan channel. Worksheet media planning lengkap tidak diwajibkan untuk jalur ini.</p>
+        <div class="role-resources">
+          <div class="role-resources-label">Panduan strategi media</div>
+          <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        </div>
+      </div>
+
       <div class="seq-box"><h4>Urutan yang dipakai</h4><ol>
         <li><b>Goal</b> → apa outcome campaign?</li>
         <li><b>Audience</b> → siapa dan signal apa yang tersedia?</li>
@@ -1910,6 +1935,11 @@ footer p {
     }
 
     document.documentElement.dataset.role = state.role;
+
+    document.querySelectorAll('[data-track-roles]').forEach(function(resource){
+      var allowedRoles = (resource.getAttribute('data-track-roles') || '').split(/\\s+/).filter(Boolean);
+      resource.hidden = allowedRoles.indexOf(state.role) === -1;
+    });
   }
 
   function applyFilter(filter){
