@@ -1126,14 +1126,14 @@ footer p {
     </div>
     <div class="acts">
       <button class="on" data-f="all" type="button">Semua</button>
-      <button data-f="role" type="button">Jalur saya</button>
+      <button data-f="role" type="button">Jalur lu</button>
       <button data-f="core" type="button">Inti</button>
-      <button data-f="elec" type="button">Elektif</button>
-      <button type="button" onclick="expAll(true)">Buka</button>
-      <button type="button" onclick="expAll(false)">Tutup</button>
+      <button data-f="elec" type="button">Pilihan</button>
+      <button type="button" onclick="expAll(true)">Buka semua</button>
+      <button type="button" onclick="expAll(false)">Tutup semua</button>
       <button type="button" onclick="doPrint()">Cetak / PDF</button>
-      <button class="dg" type="button" onclick="resetAll()">Reset</button>
-      <button class="theme-switch" id="themeToggle" type="button" aria-pressed="false" aria-label="Ganti tema gelap dan terang"><span class="switch-rail"><span class="switch-knob"></span></span><span class="theme-label">Dark</span></button>
+      <button class="dg" type="button" onclick="resetAll()">Reset progres</button>
+      <button class="theme-switch" id="themeToggle" type="button" aria-pressed="false" aria-label="Ganti tema gelap dan terang"><span class="switch-rail"><span class="switch-knob"></span></span><span class="theme-label">Gelap</span></button>
     </div>
   </div>
 </div>
@@ -2017,7 +2017,7 @@ footer p {
   };
 
   window.resetAll = function(){
-    if (window.confirm('Reset semua progress centang dan pilihan role?')) {
+    if (window.confirm('Reset semua centang dan pilihan jalur?')) {
       state = { version: 1, role: 'fullstack', completed: {} };
       try {
         localStorage.removeItem(STATE_KEY);
@@ -2026,7 +2026,7 @@ footer p {
       applyChecks();
       updateRoleUI();
       setFilter('all');
-      toast('Progress direset.');
+      toast('Progres belajar direset.');
     }
   };
 
@@ -2042,7 +2042,7 @@ footer p {
       btn.setAttribute('aria-pressed', normalized === 'light' ? 'true' : 'false');
       btn.setAttribute('aria-label', normalized === 'light' ? 'Ganti ke tema gelap' : 'Ganti ke tema terang');
     }
-    if (label) label.textContent = normalized === 'light' ? 'Light' : 'Dark';
+    if (label) label.textContent = normalized === 'light' ? 'Terang' : 'Gelap';
     var themeMeta = document.querySelector('meta[name="theme-color"]');
     if (themeMeta) themeMeta.setAttribute('content', normalized === 'light' ? '#F5F1E8' : '#0F0E0C');
     try { localStorage.setItem(THEME_KEY, normalized); } catch (e) {}
