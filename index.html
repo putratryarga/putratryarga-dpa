@@ -936,194 +936,244 @@ footer p {
   .chk input:checked::after { border-color: #fff; }
 }
 
-/* Design pass 01: editorial learning guide, Apple-inspired restraint.
-   Keep the existing palette, content model, IDs, and interaction logic. */
-@media screen {
-  :root { --r: 8px; --r-lg: 10px; }
-  main.page { max-width: 980px; padding: 0 28px 96px; }
-  .masthead { text-align: left; padding-bottom: 8px; }
-  .mast-rule {
-    margin-top: 30px; padding: 12px 0; gap: 8px 20px;
-    border-top-color: var(--line2); border-bottom-color: var(--line2);
-    letter-spacing: .09em;
-  }
-  .mast-rule span:first-child {
-    color: var(--ink); font: 600 11px/1.35 var(--sans);
-    letter-spacing: .02em; text-transform: none;
-  }
-  .masthead h1 {
-    max-width: 900px; margin: 50px 0 20px;
-    font-size: clamp(44px, 6.8vw, 74px);
-    line-height: 1.01; letter-spacing: -.035em;
-  }
-  .masthead h1 em { color: var(--gold); text-decoration: none; }
-  .mast-sub {
-    max-width: 660px; margin: 0 0 28px; font-size: 15px;
-    line-height: 1.78; text-align: left; text-justify: auto;
-  }
-  .mast-meta {
-    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-    justify-content: stretch; border-top: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
-  }
-  .mast-meta div {
-    min-width: 0; padding: 14px 20px; border-right: 1px solid var(--line);
-    font: 500 10px/1.45 var(--sans); letter-spacing: .06em;
-  }
-  .mast-meta div:first-child { padding-left: 0; }
-  .mast-meta div:last-child { border-right: 0; }
-  .mast-meta b { margin-top: 5px; font: 600 13px/1.45 var(--sans); }
 
-  .slabel { margin-bottom: 12px; font: 600 10px/1.4 var(--sans); letter-spacing: .14em; }
-  .stitle {
-    margin-bottom: 14px; font-size: clamp(29px, 3vw, 35px);
-    line-height: 1.08; letter-spacing: -.025em;
-  }
-  .sdesc { max-width: 68ch; margin-bottom: 30px; font-size: 14px; line-height: 1.8; }
+/* Design pass 02 — editorial field guide, designed around the learning task. */
+:root {
+  --bg:#101114; --bg-glow:#191B20; --sf:#15171B; --sf2:#1B1E23; --sf3:#252A31;
+  --ink:#F1F0EC; --ink2:#B8BAC0; --ink3:#9297A1; --line:#2B2F36; --line2:#414751;
+  --gold:#E0B45E; --gold-s:rgba(224,180,94,.085); --gold-l:rgba(224,180,94,.32);
+  --r:7px; --r-lg:10px;
+}
+html[data-theme="light"] {
+  --bg:#F5F5F7; --bg-glow:#ECEEF2; --sf:#FFFFFF; --sf2:#ECEEF1; --sf3:#E2E5EA;
+  --ink:#1D1D1F; --ink2:#484B52; --ink3:#6D727A; --line:#D9DCE2; --line2:#BFC4CD;
+  --gold:#8A641D; --gold-s:rgba(138,100,29,.075); --gold-l:rgba(138,100,29,.28);
+}
+html { scroll-behavior:smooth; }
+body { background:var(--bg); color:var(--ink); }
+a { text-underline-offset:3px; }
+a:hover { text-decoration:underline; text-decoration-thickness:1px; }
+button,a,summary { -webkit-tap-highlight-color:transparent; }
+main.page { max-width:1160px; padding:0 42px 112px; }
 
-  .quick-start { margin-top: 48px; margin-bottom: 76px; }
-  .quick-start .g3 {
-    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0; border-top: 1px solid var(--line2); border-bottom: 1px solid var(--line2);
-  }
-  .quick-start .g3 > .box {
-    padding: 22px 22px 20px 0; background: transparent;
-    border: 0; border-radius: 0; box-shadow: none; transition: none;
-  }
-  .quick-start .g3 > .box + .box { padding-left: 22px; border-left: 1px solid var(--line); }
-  .quick-start .g3 > .box:hover { border-color: transparent; }
-  .quick-start .g3 > .box h3 {
-    margin: 0 0 12px; padding: 0; border: 0; color: var(--ink);
-    font: 700 11px/1.45 var(--sans); letter-spacing: .045em; text-transform: none;
-  }
-  .quick-start .g3 > .box ol { padding-left: 18px; font-size: 13px; }
-  .quick-start .g3 > .box li { margin-bottom: 9px; }
+/* Split the opening between the promise and the actual learning sequence. */
+.masthead { padding:0; text-align:left; }
+.mast-rule {
+  margin:28px 0 0; padding:11px 0; display:flex; justify-content:space-between; align-items:center;
+  flex-wrap:wrap; gap:8px 18px; border-top:1px solid var(--line2); border-bottom:1px solid var(--line2);
+  color:var(--ink3); font:500 10px/1.5 var(--sans); letter-spacing:.035em; text-transform:none;
+}
+.mast-rule span:first-child { color:var(--ink); }
+.mast-rule i { color:var(--gold); font-style:normal; margin:0 4px; }
+.hero-grid {
+  display:grid; grid-template-columns:minmax(0,1.48fr) minmax(270px,.72fr);
+  gap:clamp(28px,5vw,76px); align-items:stretch; padding:clamp(42px,5vw,68px) 0 34px;
+}
+.hero-main { min-width:0; display:flex; flex-direction:column; align-items:flex-start; }
+.hero-eyebrow { margin:0 0 22px; color:var(--ink3); font:600 10px/1.5 var(--sans); letter-spacing:.12em; }
+.hero-eyebrow span { color:var(--gold); padding:0 4px; }
+.masthead h1 {
+  max-width:780px; margin:0 0 22px; font-family:var(--serif); font-size:clamp(48px,5.15vw,72px);
+  font-weight:400; line-height:.99; letter-spacing:-.035em; text-wrap:balance;
+}
+.masthead h1 em { color:var(--gold); font-style:italic; text-decoration:none; }
+.mast-sub { max-width:650px; margin:0; color:var(--ink2); font-size:15px; line-height:1.8; text-align:left; text-justify:auto; }
+.hero-actions { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top:28px; }
+.hero-action {
+  display:inline-flex; align-items:center; justify-content:center; gap:24px; min-height:42px; padding:10px 13px;
+  border:1px solid var(--line2); border-radius:5px; color:var(--ink); font:600 12px/1.2 var(--sans);
+  text-decoration:none; transition:background-color .16s,border-color .16s,color .16s;
+}
+.hero-action span { color:var(--gold); font-size:16px; line-height:1; }
+.hero-action:hover { border-color:var(--gold); text-decoration:none; }
+.hero-action-primary { background:var(--gold); border-color:var(--gold); color:#18150F; }
+.hero-action-primary span { color:#18150F; }
+.hero-action-primary:hover { background:#EDC879; border-color:#EDC879; color:#18150F; }
+.hero-side { min-width:0; display:flex; flex-direction:column; justify-content:center; padding:4px 0 4px clamp(22px,3vw,38px); border-left:1px solid var(--line2); }
+.hero-side-heading { display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; padding-bottom:14px; color:var(--ink3); font:600 9px/1.45 var(--sans); letter-spacing:.1em; }
+.hero-side-heading span:last-child { color:var(--gold); letter-spacing:.035em; }
+.hero-steps { list-style:none; padding:0; margin:0; border-top:1px solid var(--line); }
+.hero-steps li { display:grid; grid-template-columns:28px minmax(0,1fr); gap:10px; align-items:start; padding:14px 0; border-bottom:1px solid var(--line); }
+.hero-step-mark { padding-top:2px; color:var(--gold); font:500 10px/1.5 var(--mono); }
+.hero-steps b { display:block; font-size:12px; font-weight:600; line-height:1.45; }
+.hero-steps small { display:block; margin-top:4px; color:var(--ink3); font-size:11px; line-height:1.5; }
+.hero-side-note { max-width:36ch; margin-top:16px; color:var(--ink2); font-size:12px; line-height:1.7; }
+.mast-meta { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); border-top:1px solid var(--line2); border-bottom:1px solid var(--line2); }
+.mast-meta div { min-width:0; padding:13px 20px; border-right:1px solid var(--line); font:500 10px/1.45 var(--sans); letter-spacing:.02em; }
+.mast-meta div:first-child { padding-left:0; }
+.mast-meta div:last-child { border-right:0; }
+.mast-meta div > span { display:block; color:var(--ink3); }
+.mast-meta b { display:block; margin-top:5px; color:var(--ink); font:600 12px/1.55 var(--sans); letter-spacing:0; }
 
-  .role-card { padding: 20px; border-radius: 8px; transition: border-color .18s, background-color .18s; }
-  .role-card:hover { transform: none; }
-  .role-card.selected { background: var(--gold-s); }
-  .role-name { font-size: 22px; letter-spacing: -.015em; }
+/* The start guide is an index, not another row of boxed features. */
+.quick-start { margin:64px 0 84px; padding-top:22px; border-top:1px solid var(--line2); }
+.quick-start .slabel { margin-bottom:10px; }
+.quick-start .stitle { margin-bottom:22px; }
+.quick-start .g3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.quick-start .g3 > .box,.quick-start .g3 > .box + .box {
+  min-width:0; padding:22px 22px 22px 0; border:0; border-radius:0; background:transparent; box-shadow:none;
+}
+.quick-start .g3 > .box + .box { padding-left:22px; border-left:1px solid var(--line); }
+.quick-start .g3 > .box h3 { margin:0 0 13px; padding:0; border:0; color:var(--ink); font:600 14px/1.4 var(--sans); letter-spacing:-.015em; text-transform:none; }
+.quick-start .g3 > .box ol { padding-left:17px; color:var(--ink2); font-size:12px; }
+.quick-start .g3 > .box li { margin-bottom:8px; line-height:1.7; }
+.quick-start .g3 > .box li:last-child { margin-bottom:0; }
+.quick-start .g3 > .box li::marker { color:var(--gold); }
 
-  .topbar {
-    margin: 16px 0 48px; padding: 10px 0;
-    background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none;
-  }
-  .topbar-in {
-    display: grid; grid-template-columns: minmax(0, 1fr); max-width: 980px;
-    gap: 10px; padding: 0 28px;
-  }
-  .prog { min-width: 0; gap: 12px; }
-  .acts { display: flex; align-items: center; gap: 5px; min-width: 0; }
-  .acts button {
-    padding: 6px 9px; border-radius: 4px; font: 600 10px/1.35 var(--sans);
-    transition: background-color .15s, border-color .15s, color .15s;
-  }
-  .acts button:active, .role-pick:active, .theme-switch:active { transform: scale(.98); }
+/* One primary route, with the specialist roles presented as an index. */
+section[id] { scroll-margin-top:108px; margin-top:76px; padding-top:28px; border-top:1px solid var(--line); }
+#sec-role { margin-top:0; border-top-color:var(--line2); }
+.slabel { margin-bottom:12px; color:var(--gold); font:600 10px/1.5 var(--sans); letter-spacing:.12em; text-transform:uppercase; }
+.stitle { margin-bottom:16px; color:var(--ink); font-size:clamp(30px,3.2vw,42px); font-weight:550; line-height:1.07; letter-spacing:-.045em; text-wrap:balance; }
+.sdesc { max-width:70ch; margin-bottom:30px; color:var(--ink2); font-size:14px; line-height:1.8; }
+.role-section { margin-top:0; }
+.role-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; border-top:1px solid var(--line2); }
+.role-card {
+  min-width:0; position:relative; display:flex; flex-direction:column; padding:25px 24px 27px 0;
+  border:0; border-bottom:1px solid var(--line); border-radius:0; background:transparent; transition:background-color .16s;
+}
+.role-card:not(:first-child):nth-child(even) { padding-right:24px; padding-left:0; border-right:1px solid var(--line); }
+.role-card:not(:first-child):nth-child(odd) { padding-right:0; padding-left:24px; }
+.role-card:hover { transform:none; background:var(--sf2); }
+.role-card.selected:not([data-role-card="fullstack"])::before { position:absolute; content:""; left:0; top:25px; bottom:25px; width:2px; background:var(--gold); }
+.role-card[data-role-card="fullstack"] {
+  grid-column:1/-1; display:grid; grid-template-columns:minmax(0,1.2fr) minmax(230px,.8fr);
+  grid-template-areas:"head resources" "desc resources" "path resources"; gap:12px 38px;
+  padding:28px; margin-bottom:1px; border:1px solid var(--gold-l);
+  background:linear-gradient(112deg,var(--gold-s),transparent 64%);
+}
+.role-card[data-role-card="fullstack"] .role-head { grid-area:head; }
+.role-card[data-role-card="fullstack"] > p { grid-area:desc; margin:0; }
+.role-card[data-role-card="fullstack"] > .role-path { grid-area:path; align-self:start; }
+.role-card[data-role-card="fullstack"] > .role-resources { grid-area:resources; margin:0; align-self:center; }
+.role-card[data-role-card="fullstack"].selected { border-color:var(--gold); }
+.role-head { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; }
+.role-name { color:var(--ink); font-family:var(--sans); font-size:19px; font-weight:600; line-height:1.35; letter-spacing:-.03em; }
+.role-card p { margin-top:10px; color:var(--ink2); font-size:12.5px; line-height:1.75; }
+.role-card .role-path { margin-top:12px; color:var(--ink3); font:500 10px/1.6 var(--sans); }
+.role-resources { margin-top:15px; padding-top:12px; border-top:1px solid var(--line); }
+.role-resources-label { margin-bottom:8px; color:var(--ink3); font:600 9px/1.5 var(--sans); letter-spacing:.08em; text-transform:uppercase; }
+.role-resources a { display:inline-block; margin:0 11px 6px 0; color:var(--gold); font-size:11px; line-height:1.55; }
+.role-pick { flex:0 0 auto; padding:7px 10px; border:1px solid var(--line2); border-radius:4px; background:transparent; color:var(--ink2); font:600 10px/1.2 var(--sans); cursor:pointer; transition:border-color .16s,background-color .16s,color .16s; }
+.role-pick:hover,.role-card.selected .role-pick { border-color:var(--gold); color:var(--gold); }
+.role-card.selected .role-pick { background:var(--gold-s); }
+.role-status { margin-top:22px; padding:14px 17px; border-left:2px solid var(--gold); border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:transparent; color:var(--ink2); font-size:12px; line-height:1.7; }
+.role-status strong { color:var(--ink); font-weight:600; }
 
-  .box { border-radius: 8px; transition: border-color .15s; }
-  .box:hover { border-color: var(--line); }
-  .box h3 {
-    color: var(--ink2); font: 700 11px/1.45 var(--sans);
-    letter-spacing: .055em; text-transform: none;
-  }
-  #sec-kamus .g2 { column-gap: 32px; row-gap: 0; }
-  #sec-kamus .term {
-    padding: 14px 0; background: transparent; border: 0;
-    border-top: 1px solid var(--line); border-radius: 0;
-  }
+/* Sticky progress controls remain legible, without the glass-panel effect. */
+.topbar { position:sticky; top:0; z-index:500; margin:38px calc(50% - 50vw) 68px; padding:10px 0; background:var(--bg); border-bottom:1px solid var(--line2); box-shadow:0 8px 18px rgba(0,0,0,.045); backdrop-filter:none; -webkit-backdrop-filter:none; }
+html[data-theme="light"] .topbar { background:var(--bg); }
+.topbar-in { max-width:1160px; margin:0 auto; padding:0 42px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.prog { min-width:230px; gap:12px; }
+.prog-pct { font-size:12px; }
+.prog-track { height:3px; }
+.prog-n { font:500 10px/1.4 var(--sans); white-space:nowrap; }
+.acts { display:flex; gap:5px; flex-wrap:wrap; }
+.acts button { min-height:30px; padding:6px 9px; border:1px solid transparent; border-radius:4px; background:transparent; font:600 10px/1.25 var(--sans); transition:background-color .15s,border-color .15s,color .15s; }
+.acts button:hover { border-color:var(--line2); background:var(--sf2); }
+.acts button.on { border-color:var(--gold-l); background:var(--gold-s); color:var(--gold); }
+.acts button:active,.role-pick:active,.theme-switch:active,.hero-action:active { transform:scale(.985); }
 
-  details.week {
-    margin: 0; overflow: visible; background: transparent;
-    border: 0; border-top: 1px solid var(--line2); border-radius: 0; transition: none;
-  }
-  details.week[open] { background: transparent; border-color: var(--gold-l); }
-  details.week:last-of-type { border-bottom: 1px solid var(--line2); }
-  details.week summary {
-    gap: 18px; padding: 20px 12px; transition: background-color .15s;
-  }
-  details.week summary:hover { background: var(--sf2); }
-  details.week[open] > summary { background: var(--gold-s); }
-  .wn {
-    min-width: 52px; padding: 0 6px 0 0;
-    background: transparent; border: 0; border-radius: 0;
-  }
-  .wt { font-size: 22px; letter-spacing: -.01em; }
-  .wtime { font: 500 10px/1.4 var(--sans); }
-  .wtog {
-    display: inline-flex; width: 24px; height: 24px;
-    align-items: center; justify-content: center; border: 1px solid var(--line2);
-    border-radius: 50%; color: var(--ink2); font-size: 16px; line-height: 1;
-  }
-  .wbody { padding: 22px 20px 28px; border-top: 1px solid var(--line); }
-  .wbody > .g2 { gap: 20px; }
-  .wbody > .g2 > .box {
-    padding: 8px 18px 8px 0; background: transparent; border: 0; border-radius: 0;
-  }
-  .wbody > .g2 > .box + .box { padding-left: 20px; border-left: 1px solid var(--line); }
+/* Make the glossary and weekly roadmap read as lists rather than boxed panels. */
+#sec-kamus .g2 { column-gap:38px; row-gap:0; }
+#sec-kamus .term { padding:15px 0; border:0; border-top:1px solid var(--line); border-radius:0; background:transparent; }
+#sec-kamus .term b { display:block; margin-bottom:5px; color:var(--ink); font-size:13px; font-weight:650; }
+#sec-kamus .term span { color:var(--ink2); font-size:12px; line-height:1.75; }
+details.week { margin:0; overflow:visible; border:0; border-top:1px solid var(--line2); border-radius:0; background:transparent; transition:border-color .16s; }
+details.week:last-of-type { border-bottom:1px solid var(--line2); }
+details.week[open] { border-color:var(--gold-l); background:transparent; }
+details.week summary { display:flex; align-items:center; gap:18px; min-height:76px; padding:18px 12px; transition:background-color .15s; }
+details.week summary:hover { background:var(--sf2); }
+details.week[open] > summary { background:var(--gold-s); }
+.wn { flex:0 0 58px; min-width:58px; padding:0 8px 0 0; border:0; border-radius:0; background:transparent; color:var(--gold); font:600 10px/1.5 var(--mono); }
+.wt { flex:1; min-width:0; font-size:clamp(18px,2vw,23px); font-weight:500; line-height:1.3; letter-spacing:-.025em; }
+.wtime { color:var(--ink3); font:500 10px/1.5 var(--sans); white-space:nowrap; }
+.wtog { display:inline-flex; flex:0 0 25px; width:25px; height:25px; align-items:center; justify-content:center; border:1px solid var(--line2); border-radius:50%; color:var(--ink2); font-size:16px; line-height:1; transition:transform .2s,background-color .2s; }
+details.week[open] .wtog { transform:rotate(45deg); border-color:var(--gold-l); color:var(--gold); }
+.wbody { padding:20px 30px 30px 70px; border-top:1px solid var(--line); }
+.wbody > .g2 { gap:24px; }
+.wbody > .g2 > .box { padding:8px 22px 8px 0; border:0; border-radius:0; background:transparent; box-shadow:none; }
+.wbody > .g2 > .box + .box { padding-left:22px; border-left:1px solid var(--line); }
+.wbody .box h3 { color:var(--ink); font:600 12px/1.45 var(--sans); letter-spacing:0; text-transform:none; border:0; padding:0; }
+.human { margin:0 0 22px; padding:4px 0 4px 15px; border-left:2px solid var(--gold); border-radius:0; background:transparent; color:var(--ink2); font-size:13px; line-height:1.8; font-style:normal; }
+.human b { display:block; margin-bottom:4px; color:var(--gold); font:600 9px/1.5 var(--sans); letter-spacing:.1em; text-transform:uppercase; }
+.deliv { padding:16px 18px; border:1px solid var(--line); border-radius:5px; background:var(--sf2); }
+.addon,.copy { border-radius:5px; }
+footer { margin-top:72px; padding-top:22px; border-top:1px solid var(--line2); }
+footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
-  .human {
-    margin: 18px 0; padding: 4px 0 4px 15px; border-left: 2px solid var(--gold);
-    border-radius: 0; background: transparent; font-style: normal;
-  }
-  .human b { margin-bottom: 6px; font: 700 10px/1.4 var(--sans); letter-spacing: .1em; }
-  .deliv { padding: 16px 18px; border-radius: 6px; background: var(--sf2); }
-  .addon, .copy { border-radius: 8px; }
-  footer p { font: 600 10px/1.5 var(--sans); letter-spacing: .12em; }
+/* Responsive layout: the same hierarchy, not a compressed desktop page. */
+@media screen and (max-width:900px) {
+  main.page { padding-right:28px; padding-left:28px; }
+  .hero-grid { grid-template-columns:minmax(0,1fr) minmax(230px,.7fr); gap:25px; }
+  .masthead h1 { font-size:clamp(45px,5.8vw,60px); }
+  .hero-side { padding-left:20px; }
+  .topbar-in { padding-right:28px; padding-left:28px; }
+  .prog { min-width:200px; }
+  .role-card[data-role-card="fullstack"] { gap:12px 24px; padding:22px; }
+  .wbody { padding-left:48px; }
+}
+@media screen and (max-width:700px) {
+  main.page { padding:0 19px 76px; }
+  .mast-rule { align-items:flex-start; flex-direction:column; gap:5px; margin-top:17px; padding:10px 0; }
+  .hero-grid { grid-template-columns:minmax(0,1fr); gap:30px; padding:36px 0 28px; }
+  .hero-eyebrow { margin-bottom:17px; font-size:9px; }
+  .masthead h1 { max-width:620px; margin:0 0 17px; font-size:clamp(43px,10.5vw,62px); line-height:.99; }
+  .masthead h1 br { display:none; }
+  .mast-sub { max-width:56ch; font-size:14px; line-height:1.75; }
+  .hero-actions { gap:8px; margin-top:22px; }
+  .hero-action { min-height:40px; padding:10px 11px; gap:15px; }
+  .hero-side { padding:20px 0 0; border-left:0; border-top:1px solid var(--line2); }
+  .hero-side-heading { padding-bottom:10px; }
+  .hero-steps { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border-bottom:1px solid var(--line); }
+  .hero-steps li { padding:13px 8px 13px 0; border-bottom:0; }
+  .hero-steps li:nth-child(odd) { border-right:1px solid var(--line); }
+  .hero-steps li:nth-child(even) { padding-left:12px; }
+  .hero-side-note { max-width:none; margin-top:12px; }
+  .mast-meta { grid-template-columns:minmax(0,1fr); }
+  .mast-meta div,.mast-meta div:first-child { padding:11px 0; border-right:0; border-bottom:1px solid var(--line); }
+  .mast-meta div:last-child { border-bottom:0; }
+  .quick-start { margin:44px 0 62px; padding-top:19px; }
+  .quick-start .stitle { margin-bottom:16px; }
+  .quick-start .g3 { grid-template-columns:minmax(0,1fr); }
+  .quick-start .g3 > .box,.quick-start .g3 > .box + .box { padding:17px 0; border-left:0; }
+  .quick-start .g3 > .box + .box { border-top:1px solid var(--line); }
+  .stitle { font-size:clamp(29px,8vw,38px); }
+  .sdesc { margin-bottom:22px; font-size:13px; }
+  .role-grid { grid-template-columns:minmax(0,1fr); }
+  .role-card:not(:first-child):nth-child(even),.role-card:not(:first-child):nth-child(odd) { padding:20px 0; border-right:0; }
+  .role-card[data-role-card="fullstack"] { grid-template-columns:minmax(0,1fr); grid-template-areas:"head" "desc" "path" "resources"; gap:11px; padding:19px; }
+  .role-card[data-role-card="fullstack"] > .role-resources { margin-top:3px; }
+  .role-head { gap:9px; }
+  .role-name { font-size:17px; }
+  .role-card p { font-size:12px; }
+  .role-resources a { margin-right:8px; font-size:11px; }
+  .topbar { margin:30px calc(50% - 50vw) 52px; padding:8px 0 7px; }
+  .topbar-in { gap:8px; padding:0 19px; }
+  .prog { width:100%; min-width:0; gap:9px; }
+  .prog-pct { min-width:35px; font-size:11px; }
+  .prog-n { font-size:9px; }
+  .acts { width:100%; overflow-x:auto; flex-wrap:nowrap; padding:1px 1px 5px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+  .acts::-webkit-scrollbar { display:none; }
+  .acts button { flex:0 0 auto; }
+  section[id] { scroll-margin-top:116px; margin-top:60px; }
+  #sec-role { margin-top:0; }
+  #sec-kamus .g2 { grid-template-columns:minmax(0,1fr); column-gap:0; }
+  details.week summary { min-height:68px; gap:9px; padding:16px 4px; }
+  .wn { flex-basis:44px; min-width:44px; font-size:9px; }
+  .wt { font-size:16px; }
+  .wtime { max-width:60px; font-size:9px; white-space:normal; text-align:right; }
+  .wtog { flex-basis:22px; width:22px; height:22px; }
+  .wbody { padding:17px 4px 23px; }
+  .wbody > .g2 { gap:0; grid-template-columns:minmax(0,1fr); }
+  .wbody > .g2 > .box { padding:13px 0; }
+  .wbody > .g2 > .box + .box { padding-left:0; border-top:1px solid var(--line); border-left:0; }
+}
+@media screen and (prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  *,*::before,*::after { transition-duration:.01ms !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; }
 }
 
-@media screen and (max-width: 640px) {
-  main.page { padding: 0 18px 72px; }
-  .mast-rule {
-    align-items: flex-start; flex-direction: column; gap: 8px;
-    margin-top: 18px; padding: 12px 0;
-  }
-  .masthead h1 {
-    margin: 36px 0 18px; font-size: clamp(34px, 10.4vw, 54px);
-    line-height: 1.02; letter-spacing: -.035em;
-  }
-  .masthead h1 br { display: none; }
-  .mast-sub { max-width: none; font-size: 14px; line-height: 1.75; }
-  .mast-meta { grid-template-columns: minmax(0, 1fr); }
-  .mast-meta div, .mast-meta div:first-child {
-    padding: 12px 0; border-right: 0; border-bottom: 1px solid var(--line);
-  }
-  .mast-meta div:last-child { border-bottom: 0; }
-  .quick-start { margin-top: 38px; margin-bottom: 56px; }
-  .quick-start .g3 { grid-template-columns: minmax(0, 1fr); }
-  .quick-start .g3 > .box, .quick-start .g3 > .box + .box {
-    padding: 18px 0; border-left: 0;
-  }
-  .quick-start .g3 > .box + .box { border-top: 1px solid var(--line); }
-
-  .topbar { margin: 12px 0 36px; padding: 9px 0 7px; }
-  .topbar-in { gap: 9px; padding: 0 16px; }
-  .prog { gap: 8px; }
-  .prog-pct { min-width: 36px; font-size: 12px; }
-  .prog-n { font-size: 10px; white-space: nowrap; }
-  .acts {
-    overflow-x: auto; flex-wrap: nowrap; padding: 1px 1px 5px;
-    scrollbar-color: var(--line2) transparent; scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
-  }
-  .acts button { flex: 0 0 auto; }
-  #sec-kamus .g2 { column-gap: 0; }
-
-  details.week summary { gap: 10px; padding: 17px 8px; }
-  .wn { min-width: 48px; }
-  .wt { font-size: 19px; }
-  .wtime { font-size: 10px; }
-  .wbody { padding: 18px 8px 24px; }
-  .wbody > .g2 { gap: 0; }
-  .wbody > .g2 > .box { padding: 12px 0; }
-  .wbody > .g2 > .box + .box {
-    padding-left: 0; border-top: 1px solid var(--line); border-left: 0;
-  }
-  .slot-grid { gap: 8px; }
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  .acts button:active, .role-pick:active, .theme-switch:active { transform: none; }
-}
 
 </style>
 </head>
@@ -1141,16 +1191,35 @@ footer p {
 
 <header class="masthead">
   <div class="mast-rule">
-    <span>Putra Try Arga</span>
+    <span>Putra Try Arga <i aria-hidden="true">/</i> Digital Performance</span>
     <span>Revisi v10.6 · 11 Oktober 2026</span>
     <span>START + 8 minggu inti + 2 minggu pilihan</span>
   </div>
-  <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
-  <p class="mast-sub">Kalau lu mau belajar digital performance tapi masih bingung harus mulai dari mana, roadmap ini bisa jadi titik awalnya. Lu bisa mengikuti jalur Full-Stack dari awal sampai akhir, atau memilih role yang paling dekat dengan target kerja lu. Setiap jalur tetap punya hasil latihan yang bisa dibawa ke portofolio.</p>
+  <div class="hero-grid">
+    <div class="hero-main">
+      <p class="hero-eyebrow">PRACTICAL LEARNING GUIDE <span aria-hidden="true">·</span> BUILD AS YOU LEARN</p>
+      <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
+      <p class="mast-sub">Kalau lu mau belajar digital performance tapi masih bingung harus mulai dari mana, roadmap ini bisa jadi titik awalnya. Lu bisa mengikuti jalur Full-Stack dari awal sampai akhir, atau memilih role yang paling dekat dengan target kerja lu. Setiap jalur tetap punya hasil latihan yang bisa dibawa ke portofolio.</p>
+      <div class="hero-actions">
+        <a class="hero-action hero-action-primary" href="#sec-role">Pilih jalur <span aria-hidden="true">↘</span></a>
+        <a class="hero-action" href="#weeks">Lihat roadmap <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <aside class="hero-side" aria-label="Alur belajar digital performance">
+      <div class="hero-side-heading"><span>ALUR BELAJAR</span><span>BRIEF → DECISION</span></div>
+      <ol class="hero-steps">
+        <li><span class="hero-step-mark" aria-hidden="true">A</span><div><b>Pahami masalah</b><small>Business goal & customer</small></div></li>
+        <li><span class="hero-step-mark" aria-hidden="true">B</span><div><b>Plan & execute</b><small>Audience, channel, creative</small></div></li>
+        <li><span class="hero-step-mark" aria-hidden="true">C</span><div><b>Measure & diagnose</b><small>Tracking, data, insight</small></div></li>
+        <li><span class="hero-step-mark" aria-hidden="true">D</span><div><b>Optimize & document</b><small>Eksperimen dan next move</small></div></li>
+      </ol>
+      <p class="hero-side-note">Bukan cuma nonton course. Lu latihan, ngecek hasilnya, lalu menyimpan bukti kerja yang bisa dijelaskan.</p>
+    </aside>
+  </div>
   <div class="mast-meta">
-    <div>Waktu<b>6–9 jam/minggu untuk materi inti*</b></div>
-    <div>Biaya inti<b>Rp0</b></div>
-    <div>Struktur<b>START + W1–W8 + 2 pilihan</b></div>
+    <div><span>Waktu</span><b>6–9 jam/minggu untuk materi inti*</b></div>
+    <div><span>Biaya inti</span><b>Rp0</b></div>
+    <div><span>Struktur</span><b>START + W1–W8 + 2 pilihan</b></div>
   </div>
 </header>
 
