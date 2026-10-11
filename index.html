@@ -1175,6 +1175,30 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 }
 
 
+
+
+/* Desktop density pass: keep the editorial feel without leaving the page under-filled. */
+@media screen and (min-width: 1101px) {
+  main.page { max-width: 1320px; padding-right: 36px; padding-left: 36px; padding-bottom: 92px; }
+  .mast-rule { margin-top: 22px; }
+  .hero-grid { gap: clamp(28px, 3.4vw, 52px); padding-top: clamp(34px, 3.5vw, 48px); padding-bottom: 24px; }
+  .masthead h1 { font-size: clamp(48px, 4.8vw, 68px); }
+  .hero-eyebrow { margin-bottom: 17px; }
+  .hero-side { padding-left: clamp(20px, 2.3vw, 30px); }
+  .hero-steps li { padding: 12px 0; }
+  .hero-side-note { margin-top: 12px; }
+  .mast-meta div { padding-top: 11px; padding-bottom: 11px; }
+  .quick-start { margin-top: 48px; margin-bottom: 58px; padding-top: 18px; }
+  section[id] { margin-top: 58px; padding-top: 22px; }
+  #sec-role { margin-top: 0; }
+  .role-card { padding-top: 20px; padding-bottom: 22px; }
+  .role-card[data-role-card="fullstack"] { padding: 23px 25px; }
+  .topbar { margin-top: 28px; margin-bottom: 54px; padding: 8px 0; }
+  .topbar-in { max-width: 1320px; padding-right: 36px; padding-left: 36px; }
+  details.week summary { min-height: 68px; padding-top: 15px; padding-bottom: 15px; }
+  .wbody { padding-top: 18px; padding-bottom: 25px; }
+}
+
 </style>
 </head>
 <body>
@@ -1197,7 +1221,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   </div>
   <div class="hero-grid">
     <div class="hero-main">
-      <p class="hero-eyebrow">PRACTICAL LEARNING GUIDE <span aria-hidden="true">·</span> BUILD AS YOU LEARN</p>
+      <p class="hero-eyebrow">ROADMAP DIGITAL PERFORMANCE <span aria-hidden="true">·</span> BELAJAR LEWAT PRAKTIK</p>
       <h1>The Full-Stack Digital<br>Performance <em>Architect</em></h1>
       <p class="mast-sub">Kalau lu mau belajar digital performance tapi masih bingung harus mulai dari mana, roadmap ini bisa jadi titik awalnya. Lu bisa mengikuti jalur Full-Stack dari awal sampai akhir, atau memilih role yang paling dekat dengan target kerja lu. Setiap jalur tetap punya hasil latihan yang bisa dibawa ke portofolio.</p>
       <div class="hero-actions">
@@ -1213,7 +1237,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
         <li><span class="hero-step-mark" aria-hidden="true">C</span><div><b>Measure & diagnose</b><small>Tracking, data, insight</small></div></li>
         <li><span class="hero-step-mark" aria-hidden="true">D</span><div><b>Optimize & document</b><small>Eksperimen dan next move</small></div></li>
       </ol>
-      <p class="hero-side-note">Bukan cuma nonton course. Lu latihan, ngecek hasilnya, lalu menyimpan bukti kerja yang bisa dijelaskan.</p>
+      <p class="hero-side-note">Abis belajar, langsung praktik. Hasilnya bisa lu masukin ke portofolio dan jelasin saat interview.</p>
     </aside>
   </div>
   <div class="mast-meta">
