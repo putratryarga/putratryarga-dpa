@@ -935,6 +935,195 @@ footer p {
   .chk input:checked { background: #8A6A24; border-color: #8A6A24; }
   .chk input:checked::after { border-color: #fff; }
 }
+
+/* Design pass 01: editorial learning guide, Apple-inspired restraint.
+   Keep the existing palette, content model, IDs, and interaction logic. */
+@media screen {
+  :root { --r: 8px; --r-lg: 10px; }
+  main.page { max-width: 980px; padding: 0 28px 96px; }
+  .masthead { text-align: left; padding-bottom: 8px; }
+  .mast-rule {
+    margin-top: 30px; padding: 12px 0; gap: 8px 20px;
+    border-top-color: var(--line2); border-bottom-color: var(--line2);
+    letter-spacing: .09em;
+  }
+  .mast-rule span:first-child {
+    color: var(--ink); font: 600 11px/1.35 var(--sans);
+    letter-spacing: .02em; text-transform: none;
+  }
+  .masthead h1 {
+    max-width: 900px; margin: 50px 0 20px;
+    font-size: clamp(44px, 6.8vw, 74px);
+    line-height: 1.01; letter-spacing: -.035em;
+  }
+  .masthead h1 em { color: var(--gold); text-decoration: none; }
+  .mast-sub {
+    max-width: 660px; margin: 0 0 28px; font-size: 15px;
+    line-height: 1.78; text-align: left; text-justify: auto;
+  }
+  .mast-meta {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: stretch; border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .mast-meta div {
+    min-width: 0; padding: 14px 20px; border-right: 1px solid var(--line);
+    font: 500 10px/1.45 var(--sans); letter-spacing: .06em;
+  }
+  .mast-meta div:first-child { padding-left: 0; }
+  .mast-meta div:last-child { border-right: 0; }
+  .mast-meta b { margin-top: 5px; font: 600 13px/1.45 var(--sans); }
+
+  .slabel { margin-bottom: 12px; font: 600 10px/1.4 var(--sans); letter-spacing: .14em; }
+  .stitle {
+    margin-bottom: 14px; font-size: clamp(29px, 3vw, 35px);
+    line-height: 1.08; letter-spacing: -.025em;
+  }
+  .sdesc { max-width: 68ch; margin-bottom: 30px; font-size: 14px; line-height: 1.8; }
+
+  .quick-start { margin-top: 48px; margin-bottom: 76px; }
+  .quick-start .g3 {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0; border-top: 1px solid var(--line2); border-bottom: 1px solid var(--line2);
+  }
+  .quick-start .g3 > .box {
+    padding: 22px 22px 20px 0; background: transparent;
+    border: 0; border-radius: 0; box-shadow: none; transition: none;
+  }
+  .quick-start .g3 > .box + .box { padding-left: 22px; border-left: 1px solid var(--line); }
+  .quick-start .g3 > .box:hover { border-color: transparent; }
+  .quick-start .g3 > .box h3 {
+    margin: 0 0 12px; padding: 0; border: 0; color: var(--ink);
+    font: 700 11px/1.45 var(--sans); letter-spacing: .045em; text-transform: none;
+  }
+  .quick-start .g3 > .box ol { padding-left: 18px; font-size: 13px; }
+  .quick-start .g3 > .box li { margin-bottom: 9px; }
+
+  .role-card { padding: 20px; border-radius: 8px; transition: border-color .18s, background-color .18s; }
+  .role-card:hover { transform: none; }
+  .role-card.selected { background: var(--gold-s); }
+  .role-name { font-size: 22px; letter-spacing: -.015em; }
+
+  .topbar {
+    margin: 16px 0 48px; padding: 10px 0;
+    background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none;
+  }
+  .topbar-in {
+    display: grid; grid-template-columns: minmax(0, 1fr); max-width: 980px;
+    gap: 10px; padding: 0 28px;
+  }
+  .prog { min-width: 0; gap: 12px; }
+  .acts { display: flex; align-items: center; gap: 5px; min-width: 0; }
+  .acts button {
+    padding: 6px 9px; border-radius: 4px; font: 600 10px/1.35 var(--sans);
+    transition: background-color .15s, border-color .15s, color .15s;
+  }
+  .acts button:active, .role-pick:active, .theme-switch:active { transform: scale(.98); }
+
+  .box { border-radius: 8px; transition: border-color .15s; }
+  .box:hover { border-color: var(--line); }
+  .box h3 {
+    color: var(--ink2); font: 700 11px/1.45 var(--sans);
+    letter-spacing: .055em; text-transform: none;
+  }
+  #sec-kamus .g2 { column-gap: 32px; row-gap: 0; }
+  #sec-kamus .term {
+    padding: 14px 0; background: transparent; border: 0;
+    border-top: 1px solid var(--line); border-radius: 0;
+  }
+
+  details.week {
+    margin: 0; overflow: visible; background: transparent;
+    border: 0; border-top: 1px solid var(--line2); border-radius: 0; transition: none;
+  }
+  details.week[open] { background: transparent; border-color: var(--gold-l); }
+  details.week:last-of-type { border-bottom: 1px solid var(--line2); }
+  details.week summary {
+    gap: 18px; padding: 20px 12px; transition: background-color .15s;
+  }
+  details.week summary:hover { background: var(--sf2); }
+  details.week[open] > summary { background: var(--gold-s); }
+  .wn {
+    min-width: 52px; padding: 0 6px 0 0;
+    background: transparent; border: 0; border-radius: 0;
+  }
+  .wt { font-size: 22px; letter-spacing: -.01em; }
+  .wtime { font: 500 10px/1.4 var(--sans); }
+  .wtog {
+    display: inline-flex; width: 24px; height: 24px;
+    align-items: center; justify-content: center; border: 1px solid var(--line2);
+    border-radius: 50%; color: var(--ink2); font-size: 16px; line-height: 1;
+  }
+  .wbody { padding: 22px 20px 28px; border-top: 1px solid var(--line); }
+  .wbody > .g2 { gap: 20px; }
+  .wbody > .g2 > .box {
+    padding: 8px 18px 8px 0; background: transparent; border: 0; border-radius: 0;
+  }
+  .wbody > .g2 > .box + .box { padding-left: 20px; border-left: 1px solid var(--line); }
+
+  .human {
+    margin: 18px 0; padding: 4px 0 4px 15px; border-left: 2px solid var(--gold);
+    border-radius: 0; background: transparent; font-style: normal;
+  }
+  .human b { margin-bottom: 6px; font: 700 10px/1.4 var(--sans); letter-spacing: .1em; }
+  .deliv { padding: 16px 18px; border-radius: 6px; background: var(--sf2); }
+  .addon, .copy { border-radius: 8px; }
+  footer p { font: 600 10px/1.5 var(--sans); letter-spacing: .12em; }
+}
+
+@media screen and (max-width: 640px) {
+  main.page { padding: 0 18px 72px; }
+  .mast-rule {
+    align-items: flex-start; flex-direction: column; gap: 8px;
+    margin-top: 18px; padding: 12px 0;
+  }
+  .masthead h1 {
+    margin: 36px 0 18px; font-size: clamp(42px, 11.8vw, 60px);
+    line-height: 1.02; letter-spacing: -.035em;
+  }
+  .mast-sub { max-width: none; font-size: 14px; line-height: 1.75; }
+  .mast-meta { grid-template-columns: minmax(0, 1fr); }
+  .mast-meta div, .mast-meta div:first-child {
+    padding: 12px 0; border-right: 0; border-bottom: 1px solid var(--line);
+  }
+  .mast-meta div:last-child { border-bottom: 0; }
+  .quick-start { margin-top: 38px; margin-bottom: 56px; }
+  .quick-start .g3 { grid-template-columns: minmax(0, 1fr); }
+  .quick-start .g3 > .box, .quick-start .g3 > .box + .box {
+    padding: 18px 0; border-left: 0;
+  }
+  .quick-start .g3 > .box + .box { border-top: 1px solid var(--line); }
+
+  .topbar { margin: 12px 0 36px; padding: 9px 0 7px; }
+  .topbar-in { gap: 9px; padding: 0 16px; }
+  .prog { gap: 8px; }
+  .prog-pct { min-width: 36px; font-size: 12px; }
+  .prog-n { font-size: 10px; white-space: nowrap; }
+  .acts {
+    overflow-x: auto; flex-wrap: nowrap; padding: 1px 1px 5px;
+    scrollbar-color: var(--line2) transparent; scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  .acts button { flex: 0 0 auto; }
+  #sec-kamus .g2 { column-gap: 0; }
+
+  details.week summary { gap: 10px; padding: 17px 8px; }
+  .wn { min-width: 48px; }
+  .wt { font-size: 19px; }
+  .wtime { font-size: 10px; }
+  .wbody { padding: 18px 8px 24px; }
+  .wbody > .g2 { gap: 0; }
+  .wbody > .g2 > .box { padding: 12px 0; }
+  .wbody > .g2 > .box + .box {
+    padding-left: 0; border-top: 1px solid var(--line); border-left: 0;
+  }
+  .slot-grid { gap: 8px; }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .acts button:active, .role-pick:active, .theme-switch:active { transform: none; }
+}
+
 </style>
 </head>
 <body>
@@ -969,7 +1158,7 @@ footer p {
   <h2 class="stitle">Mulai dari sini</h2>
   <div class="g3">
     <div class="box">
-      <h3>KALAU LU BARU MULAI</h3>
+      <h3>Baru mulai</h3>
       <ol>
         <li>Baca <a href="#sec-sebelum">Cara mainnya</a> supaya paham alur belajarnya.</li>
         <li>Lihat <a href="#weeks">Roadmap belajar</a> untuk melihat materi inti dan dua minggu pilihan.</li>
@@ -978,7 +1167,7 @@ footer p {
       </ol>
     </div>
     <div class="box">
-      <h3>KALAU LU MAU CEK ISINYA</h3>
+      <h3>Mau cek isinya</h3>
       <ol>
         <li>Buka <a href="#weeks">Roadmap belajar</a> dan lihat hasil yang dibuat setiap minggu.</li>
         <li>Cek <a href="#sec-cred">Peta credential</a> untuk melihat sertifikat yang tersedia.</li>
@@ -986,7 +1175,7 @@ footer p {
       </ol>
     </div>
     <div class="box">
-      <h3>KALAU LU CARI BAGIAN TERTENTU</h3>
+      <h3>Cari bagian tertentu</h3>
       <ol>
         <li><a href="#sec-kamus">Istilah penting</a> untuk memahami jargon di roadmap.</li>
         <li><a href="#sec-pola">Template kerja</a> untuk format yang bisa langsung dipakai.</li>
