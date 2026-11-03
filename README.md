@@ -1,116 +1,76 @@
-# The Full-Stack Digital Performance Architect
-
-Roadmap belajar digital performance dari **business problem sampai measurement dan optimization**, dengan pilihan jalur Full-Stack atau specialist. Materinya disusun agar proses belajar tidak berhenti pada course dan sertifikat: setiap tahap mendorong learner membuat deliverable yang dapat dijelaskan, dievaluasi, dan dirapikan menjadi portofolio.
-
-**[Buka roadmap live](https://putratryarga-dpa.vercel.app/)**
-
-Dibuat oleh **Putra Try Arga** · Bahasa utama: Indonesia · Gratis untuk pembelajaran mandiri.
-
-## Tentang proyek
-
-Repository ini berisi website edukasi satu halaman (*single-page learning roadmap*) untuk membantu learner membangun pemahaman digital performance secara bertahap. Alurnya dimulai dari konteks bisnis dan consumer, lalu bergerak ke planning, channel execution, measurement, analytics, optimization, CRM, dan portfolio.
-
-Roadmap ini merupakan panduan belajar mandiri, bukan sertifikasi resmi dari platform yang ditautkan dan bukan jaminan mendapatkan pekerjaan. Learner tetap perlu memeriksa sumber asli, mempraktikkan materinya, dan mampu menjelaskan alasan di balik setiap keputusan.
-
-## Jalur belajar
-
-Pilih satu jalur sesuai target belajar atau role yang ingin dieksplorasi.
-
-| Jalur | Fokus utama |
-| --- | --- |
-| **Full-Stack Digital Performance** | Alur end-to-end dari masalah bisnis, consumer, planning, execution, measurement, sampai optimization. |
-| Connection Planner | Communication architecture, consumer journey map, messaging framework, touchpoints, dan communication experience. |
-| Media Planner | Media strategy, channel selection, audience, budget allocation, reach/frequency, forecast, dan media rationale. |
-| Performance Marketing / Paid Media | Paid search dan paid social, campaign setup, creative testing, funnel, measurement, dan optimization. |
-| Programmatic Specialist | DSP ecosystem, audience/data, inventory/deals, bidding, pacing, brand safety, measurement, dan optimization. |
-| Marketing Analyst | Data quality, dashboard, diagnosis, experimentation, dan rekomendasi bisnis. |
-| CRO / Growth | Customer experience, conversion journey, hypothesis, dan eksperimen. |
-| Organic Growth / Search & Social | Content, search, social, community, dan AI search visibility. |
-| CRM / Lifecycle / Automation | Customer lifecycle, email, automation, dan retention-oriented thinking. |
-
-Roadmap ini memiliki **1 jalur Full-Stack + 8 jalur spesialis**. Istilah Programmatic, Biddable Media, dan Media Buying saling beririsan, bukan jenjang karier yang harus dilalui secara berurutan. Pemilihan role juga menyaring subtopik dan checklist di dalam minggu belajar, bukan hanya menampilkan minggu yang sama untuk semua jalur.
-
-### Struktur roadmap
-
-- **START:** menyiapkan playground dan fondasi awal.
-- **W1–W8:** materi inti, dari business dan consumer fundamentals sampai portfolio.
-- **W9–W10:** materi elektif untuk pendalaman AI-native search serta advanced measurement/data infrastructure.
-
-Estimasi beban belajar untuk core adalah sekitar **6–9 jam per minggu**. Waktu aktual bergantung pada pengalaman awal dan kedalaman latihan; W8 memiliki beban lebih besar dan dapat dibagi menjadi dua minggu kalender.
-
-## Fitur yang tersedia
-
-- **Role-path selector** untuk menampilkan jalur belajar sesuai pilihan, termasuk Programmatic Specialist.
-- **Role-aware subtopics and deliverables** agar materi, sumber, dan checklist di dalam tiap minggu mengikuti kompetensi role yang dipilih.
-- **Progress checklist** yang menghitung deliverable sesuai role aktif.
-- **Roadmap filters** untuk melihat semua materi, jalur yang dipilih, materi inti, atau elektif.
-- **Dark/light theme** untuk preferensi tampilan.
-- **Sumber belajar eksternal** yang ditautkan langsung ke provider atau resource terkait.
-- **Cek pemahaman** berupa pertanyaan reflektif untuk menguji pemahaman sebelum menganggap materi dikuasai (bukan kuis bernilai).
-- **Template kerja** untuk membantu menyusun business brief, tracking QA, insight memo, dan AI visibility log.
-- **Rubrik self-review** untuk menilai deliverable (masalah, data & asumsi, keputusan, eksekusi teknis, insight) sebelum masuk portofolio.
-- **Portfolio-readiness checklist** untuk meninjau kelengkapan bukti kerja.
-- **Print / Save as PDF** untuk menyimpan roadmap sebagai referensi offline.
-
-Checklist, pilihan jalur, dan preferensi tema disimpan di browser melalui `localStorage`. Data tersebut bersifat lokal pada browser/perangkat yang digunakan, bukan akun cloud, sehingga tidak otomatis tersinkron ke perangkat lain. Menghapus data situs/browser dapat menghapus progress tersimpan.
-
-## Contoh hasil latihan
-
-Roadmap mendorong learner membuat artefak kerja yang bisa ditinjau ulang, antara lain:
-
-- Business brief, audience/customer framing, funnel, dan KPI logic.
-- Consumer journey, channel role, dan media-planning rationale.
-- Campaign/creative testing plan beserta metrik yang relevan.
-- Measurement plan serta QA checklist untuk tracking dan event.
-- Analytics diagnosis, insight memo, dan rekomendasi optimization.
-- CRM/lifecycle concept dan portfolio case yang menjelaskan problem, proses, keputusan, serta hasil.
-
-**Penting:** setiap angka atau dataset simulasi harus diberi label *synthetic/simulated*. Jangan menyajikan latihan atau simulasi sebagai hasil campaign klien nyata.
-
-## Teknologi
-
-Website ini menggunakan pendekatan static tanpa framework atau build pipeline:
-
-- HTML5 untuk struktur halaman.
-- CSS3 untuk layout, responsive styling, dan tema.
-- Vanilla JavaScript untuk interaksi, filter, checklist, dan penyimpanan preferensi.
-- Font eksternal yang dimuat dari CDN Fontsource/JSDelivr.
-
-File aplikasi utamanya adalah `index.html`. Untuk versi saat ini, tidak ada dependency package yang perlu di-install dan tidak ada proses build khusus.
-
-## Menjalankan secara lokal
-
-1. Clone atau download repository ini.
-2. Buka folder proyek.
-3. Jalankan static server, misalnya dengan Python:
-
-   ```bash
-   python -m http.server 8000
-   ```
-
-4. Buka [http://localhost:8000](http://localhost:8000) di browser.
-
-Karena ini static site, repository juga dapat di-deploy menggunakan layanan hosting static yang sesuai. Versi publik yang ditautkan di atas adalah deployment yang dicantumkan dalam proyek.
-
-## Sumber dan pemeliharaan
-
-Resource belajar, URL course, biaya, akses trial, dan kebijakan credential dapat berubah sewaktu-waktu. Gunakan tautan di website sebagai titik awal, lalu verifikasi kembali pada situs resmi provider sebelum mengikuti program atau mencantumkan credential di CV/LinkedIn. Tanggal audit resource terbaru yang dicantumkan oleh website adalah **3 November 2026**.
-
-## Revisi v10.7 (3 November 2026)
-
-- **Perbaikan font**: URL CSS Fontsource di CDN jsDelivr yang lama (`/fontsource/fonts/*.css`) sudah mengembalikan HTTP 400 sehingga Instrument Serif, Inter, dan JetBrains Mono tidak pernah termuat. Diganti ke path `npm/@fontsource/*` yang ter-pin versi 5.2.5.
-- **Aksesibilitas**: tambah skip link "Langsung ke konten utama", fokus keyboard dipindah ke target saat navigasi anchor, toast kini `role="status" aria-live="polite"`, dan `aria-label` tombol tema kini memuat teks yang terlihat.
-- **Layout**: H1 tidak lagi meluber di layar ≤380px (clamp font baru); overflow horizontal di 320px hilang.
-- **Tautan**: 13 tautan shortlink `tinyurl` diganti URL kanonik (Google Drive/Sheets), link Meta GeoLift diperbarui ke `facebookincubator/GeoLift`, dan referensi kursus HubSpot "SEO Training" yang sudah dihentikan diganti catatan penggantinya (AEO Fundamentals).
-- **Akurasi kredensial**: label "Gratis + sertifikat" dipisah dari "Gratis · badge" (Trailhead, OpenAI/Claude Academy, Google Skills), LinkedIn Premium/Learning diberi tag berbayar dengan syarat reward yang jujur, dan deskripsi Coursera menjelaskan trial vs langganan. Rincian distinctions tambahan ada di bagian "Biar nggak salah info" di website.
-- **Kurikulum**: konvensi penamaan campaign ditambahkan di W3, resource Microsoft Advertising Learning Lab (opsional) di W3, dan rubrik self-review deliverable di bagian portofolio.
-
-Masukan tentang materi, tautan yang berubah, atau perbaikan roadmap dapat dikirim melalui [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%20Roadmap%20Feedback).
-
-## Hak penggunaan
-
-Roadmap ini dibagikan gratis untuk pembelajaran dan pengembangan diri. Konten dan desain tetap merupakan karya pemiliknya. Repository ini tidak menyertakan lisensi open-source yang memberikan izin redistribusi atau penggunaan komersial secara umum. Jangan menjual, mengemas ulang, atau mengomersialkan modul tanpa izin tertulis dari pemilik.
-
----
-
-© 2026 Putra Try Arga · The Full-Stack Digital Performance Architect
+# The Full-Stack Digital Performance Architect
+
+Roadmap belajar digital performance berbasis **job family agency**: satu Common Foundation, lalu pilih satu dari **16 jalur spesialisasi** — dari Full-Stack, Connection Planner, Media Planner, Paid Search, Paid Social, Programmatic, Retail & Commerce Media, Media Investment, Ad Operations, Analytics, SEO/AEO/GEO, CRM, Content, KOL/Creator, Affiliate, sampai Community.
+
+**[Buka roadmap live](https://putratryarga-dpa.vercel.app/)**
+
+Dibuat oleh **Putra Try Arga** · Bahasa utama: Indonesia · Gratis untuk pembelajaran mandiri.
+
+## Tentang proyek
+
+Repository ini berisi website edukasi satu halaman (*single-page learning roadmap*). Struktur v11 disusun dari audit fungsi pekerjaan di global agency network (WPP, Publicis, Omnicom/legacy IPG, Dentsu, Havas) dan benchmark kurikulum Purwadhika × P3I — bukan sekadar daftar course.
+
+Alur belajar: **Common Foundation (CF1–CF6)** → **pilih jalur** → **bab khusus jalur (10–12 bab)** → **platform learning & credential** → **praktik/simulasi** → **capstone portofolio**.
+
+Roadmap ini panduan belajar mandiri, bukan sertifikasi resmi platform dan bukan jaminan pekerjaan. Badge course ≠ sertifikasi profesional; perbedaan ini dilabeli eksplisit di seluruh situs.
+
+## 16 jalur utama
+
+| # | Jalur | Fokus |
+| --- | --- | --- |
+| 1 | Full-Stack Digital Marketing & Performance | Generalist end-to-end |
+| 2 | Connection / Communications Planner | Communication strategy & touchpoint |
+| 3 | Media Planner / Digital Planner & Strategist | Media mix, budget, forecast |
+| 4 | Paid Search / SEM Specialist | Search intent & SEM |
+| 5 | Paid Social / Biddable Social Specialist | Social auction & creative |
+| 6 | Programmatic Specialist / Trader | DSP, RTB & inventory |
+| 7 | Retail & Commerce Media Specialist | Marketplace & retailer ads |
+| 8 | Media Buying, Investment & Publisher Partnerships | Publisher & commercial buying |
+| 9 | Ad Operations / Digital Campaign Operations | Trafficking, tracking & QA |
+| 10 | Media Analytics / Marketing Science | Data, diagnosis & effectiveness |
+| 11 | SEO / Organic Search / AEO / GEO | Organic search & AI visibility |
+| 12 | CRM / Lifecycle / Marketing Automation | Lifecycle & automation |
+| 13 | Content Strategy & Creation | Editorial system & storytelling |
+| 14 | KOL / KOC / Influencer & Creator Partnerships | Creator strategy & activation |
+| 15 | Affiliate & Social Commerce Partnerships | Performance partnership |
+| 16 | Community Management & Advocacy | Engagement & advocacy |
+
+Advanced elective (blueprint tersedia, kurikulum menyusul): **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying**.
+
+## Fitur
+
+- **Role-path selector 16 jalur** — bab, resource, dan progres menyesuaikan jalur aktif.
+- **Common Foundation CF1–CF6** wajib untuk semua jalur.
+- **Deliverable per bab** yang bisa dibawa ke portofolio + capstone per jalur.
+- **Peta credential per jalur** dengan pemisahan tajam: badge / completion credential / skilling certificate / professional certification, termasuk yang berbayar ditandai jelas.
+- **Rubrik self-review** untuk menilai deliverable sebelum masuk portofolio.
+- **Tema gelap/terang**, checklist progres tersimpan di browser (localStorage), print/save PDF.
+
+## Teknologi
+
+Static satu halaman tanpa framework atau build pipeline: HTML5 + CSS3 + vanilla JS. Font via CDN Fontsource (versi ter-pin). File utama: `index.html`.
+
+## Menjalankan secara lokal
+
+```bash
+python -m http.server 8000
+```
+
+Lalu buka http://localhost:8000.
+
+## Catatan data & audit
+
+- Tanggal audit resource terbaru: **4 November 2026** (v11.0).
+- Sumber prioritas: dokumentasi resmi platform (Tier 1), standar industri IAB/MRC/IAB Europe (Tier 2), dan praktik/simulasi berbasis job task (Tier 3).
+- Klaim yang belum bisa diverifikasi otomatis (mis. ketersediaan ChatGPT Ads per negara, harga ujian TikTok certification) diberi catatan eksplisit di situs — jangan dikutip sebagai fakta pasti.
+- Nama jalur adalah **keluarga kompetensi standar**, bukan klaim bahwa semua agency memakai job title yang persis sama; variasi title dicantumkan sebagai alias.
+
+Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%20Roadmap%20Feedback).
+
+## Hak penggunaan
+
+Roadmap ini dibagikan gratis untuk pembelajaran. Konten dan desain tetap milik pembuatnya. Jangan menjual, mengemas ulang, atau mengomersialkan modul tanpa izin tertulis.
+
+---
+
+© 2026 Putra Try Arga · The Full-Stack Digital Performance Architect
