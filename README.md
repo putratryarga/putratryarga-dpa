@@ -42,8 +42,9 @@ Estimasi beban belajar untuk core adalah sekitar **6–9 jam per minggu**. Waktu
 - **Roadmap filters** untuk melihat semua materi, jalur yang dipilih, materi inti, atau elektif.
 - **Dark/light theme** untuk preferensi tampilan.
 - **Sumber belajar eksternal** yang ditautkan langsung ke provider atau resource terkait.
-- **Knowledge checks** untuk menguji pemahaman sebelum menganggap materi dikuasai.
+- **Cek pemahaman** berupa pertanyaan reflektif untuk menguji pemahaman sebelum menganggap materi dikuasai (bukan kuis bernilai).
 - **Template kerja** untuk membantu menyusun business brief, tracking QA, insight memo, dan AI visibility log.
+- **Rubrik self-review** untuk menilai deliverable (masalah, data & asumsi, keputusan, eksekusi teknis, insight) sebelum masuk portofolio.
 - **Portfolio-readiness checklist** untuk meninjau kelengkapan bukti kerja.
 - **Print / Save as PDF** untuk menyimpan roadmap sebagai referensi offline.
 
@@ -89,7 +90,16 @@ Karena ini static site, repository juga dapat di-deploy menggunakan layanan host
 
 ## Sumber dan pemeliharaan
 
-Resource belajar, URL course, biaya, akses trial, dan kebijakan credential dapat berubah sewaktu-waktu. Gunakan tautan di website sebagai titik awal, lalu verifikasi kembali pada situs resmi provider sebelum mengikuti program atau mencantumkan credential di CV/LinkedIn. Tanggal audit resource terbaru yang dicantumkan oleh website adalah **8 Oktober 2026**.
+Resource belajar, URL course, biaya, akses trial, dan kebijakan credential dapat berubah sewaktu-waktu. Gunakan tautan di website sebagai titik awal, lalu verifikasi kembali pada situs resmi provider sebelum mengikuti program atau mencantumkan credential di CV/LinkedIn. Tanggal audit resource terbaru yang dicantumkan oleh website adalah **3 November 2026**.
+
+## Revisi v10.7 (3 November 2026)
+
+- **Perbaikan font**: URL CSS Fontsource di CDN jsDelivr yang lama (`/fontsource/fonts/*.css`) sudah mengembalikan HTTP 400 sehingga Instrument Serif, Inter, dan JetBrains Mono tidak pernah termuat. Diganti ke path `npm/@fontsource/*` yang ter-pin versi 5.2.5.
+- **Aksesibilitas**: tambah skip link "Langsung ke konten utama", fokus keyboard dipindah ke target saat navigasi anchor, toast kini `role="status" aria-live="polite"`, dan `aria-label` tombol tema kini memuat teks yang terlihat.
+- **Layout**: H1 tidak lagi meluber di layar ≤380px (clamp font baru); overflow horizontal di 320px hilang.
+- **Tautan**: 13 tautan shortlink `tinyurl` diganti URL kanonik (Google Drive/Sheets), link Meta GeoLift diperbarui ke `facebookincubator/GeoLift`, dan referensi kursus HubSpot "SEO Training" yang sudah dihentikan diganti catatan penggantinya (AEO Fundamentals).
+- **Akurasi kredensial**: label "Gratis + sertifikat" dipisah dari "Gratis · badge" (Trailhead, OpenAI/Claude Academy, Google Skills), LinkedIn Premium/Learning diberi tag berbayar dengan syarat reward yang jujur, dan deskripsi Coursera menjelaskan trial vs langganan. Rincian distinctions tambahan ada di bagian "Biar nggak salah info" di website.
+- **Kurikulum**: konvensi penamaan campaign ditambahkan di W3, resource Microsoft Advertising Learning Lab (opsional) di W3, dan rubrik self-review deliverable di bagian portofolio.
 
 Masukan tentang materi, tautan yang berubah, atau perbaikan roadmap dapat dikirim melalui [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%20Roadmap%20Feedback).
 

@@ -41,12 +41,12 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23101114'/%3E%3Ctext x='16' y='22' font-family='Georgia' font-size='16' font-weight='400' fill='%23E0B45E' text-anchor='middle' font-style='italic'%3EP%3C/text%3E%3C/svg%3E">
 
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-normal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-italic-normal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-500-normal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-600-normal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-400-normal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400-italic.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-400.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-500.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-600.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.5/latin-400.css">
 
 <style>
 :root {
@@ -96,6 +96,21 @@ button:focus-visible {
   border-radius: 4px;
   scroll-margin-top: 120px;
 }
+
+.skip-link {
+  position: fixed;
+  top: -60px;
+  left: 14px;
+  z-index: 9500;
+  background: var(--gold);
+  color: #1A1610;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font: 600 14px var(--sans);
+  transition: top .15s;
+}
+.skip-link:focus { top: 12px; }
+.page:focus { outline: none; }
 
 section,
 details.week,
@@ -666,6 +681,7 @@ details.week[open] .wtog { transform: rotate(45deg); color: var(--gold); }
 .t-doc { background: var(--sf3); color: var(--ink3); border: 1px solid var(--line); }
 .t-cs { background: var(--blue-s); color: var(--blue); border: 1px solid rgba(122,155,190,.3); }
 .t-prog { background: rgba(210,162,76,.18); color: var(--gold); border: 1px solid var(--gold-l); }
+.t-paid { background: var(--red-s); color: var(--red); border: 1px solid rgba(201,112,94,.3); }
 .t-step { background: var(--gold); color: #1A1610; font-weight: 700; }
 .t-skip { background: var(--sf3); color: var(--ink3); border: 1px solid var(--line); }
 
@@ -1119,6 +1135,9 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   .hero-grid { grid-template-columns:minmax(0,1fr); gap:30px; padding:36px 0 28px; }
   .hero-eyebrow { margin-bottom:17px; font-size:9px; }
   .masthead h1 { max-width:620px; margin:0 0 17px; font-size:clamp(43px,10.5vw,62px); line-height:.99; }
+  @media screen and (max-width:380px) {
+    .masthead h1 { font-size: clamp(29px, 9vw, 43px); line-height: 1.05; }
+  }
   .masthead h1 br { display:none; }
   .mast-sub { max-width:56ch; font-size:14px; line-height:1.75; }
   .hero-actions { gap:8px; margin-top:22px; }
@@ -1203,20 +1222,22 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 </head>
 <body>
 
+<a class="skip-link" href="#main">Langsung ke konten utama</a>
+
 <div class="wm" aria-hidden="true">
 <span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
 <span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
 <span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
 <span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
 </div>
-<div id="toast"></div>
+<div id="toast" role="status" aria-live="polite"></div>
 
-<main class="page">
+<main class="page" id="main" tabindex="-1">
 
 <header class="masthead">
   <div class="mast-rule">
     <span>Putra Try Arga <i aria-hidden="true">/</i> Digital Performance</span>
-    <span>Revisi v10.6 · 11 Oktober 2026</span>
+    <span>Revisi v10.7 · 3 November 2026</span>
     <span>START + 8 minggu inti + 2 minggu pilihan</span>
   </div>
   <div class="hero-grid">
@@ -1291,8 +1312,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="role-path">Jalur: START + W1–W8 · W9–W10 pilihan</div>
       <div class="role-resources">
         <div class="role-resources-label">Panduan & alat kerja</div>
-        <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
-        <a href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
+        <a href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        <a href="https://docs.google.com/spreadsheets/d/1wPJqmNaAtMuGaA9GnIGsxR9sLYmitHy2usVA_nLE3gY/edit?gid=2041542219" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
       </div>
     </div>
 
@@ -1302,7 +1323,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="role-path">Jalur: START + W1–W5, W7, W8</div>
       <div class="role-resources">
         <div class="role-resources-label">Panduan strategi</div>
-        <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        <a href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
       </div>
       <div class="role-resources">
         <div class="role-resources-label">Sumber pendukung</div>
@@ -1318,8 +1339,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="role-path">Jalur: START + W1, W3, W4, W6, W7</div>
       <div class="role-resources">
         <div class="role-resources-label">Panduan & alat kerja</div>
-        <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
-        <a href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
+        <a href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        <a href="https://docs.google.com/spreadsheets/d/1wPJqmNaAtMuGaA9GnIGsxR9sLYmitHy2usVA_nLE3gY/edit?gid=2041542219" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
       </div>
       <div class="role-resources">
         <div class="role-resources-label">Sumber pendukung</div>
@@ -1337,8 +1358,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="role-path">Jalur: START + W1, W2, W3, W4, W6, W7</div>
       <div class="role-resources">
         <div class="role-resources-label">Panduan & alat kerja</div>
-        <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
-        <a href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
+        <a href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+        <a href="https://docs.google.com/spreadsheets/d/1wPJqmNaAtMuGaA9GnIGsxR9sLYmitHy2usVA_nLE3gY/edit?gid=2041542219" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
       </div>
       <div class="role-resources">
         <div class="role-resources-label">Sumber pendukung</div>
@@ -1528,10 +1549,10 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
         </ol></div>
       </div>
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
-        <a class="res" href="https://www.purwadhika.com/free-course/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika Free Course · Digital Marketing</span><span class="rd">Membahas consumer insight, framework, alur planning, business goal, KPI, dan metrics.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
+        <a class="res" href="https://www.purwadhika.com/free-course/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika Free Course · Digital Marketing</span><span class="rd">Membahas consumer insight, framework, alur planning, business goal, KPI, dan metrics. Sertifikatnya sertifikat keikutsertaan, bukan sertifikasi profesional.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
         <a class="res" href="https://academy.hubspot.com/courses/digital-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Digital Marketing Certification</span><span class="rd">Membahas dasar digital marketing, termasuk SEO, social, email, dan advertising.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
         <a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Inbound Certification</span><span class="rd">Membahas inbound marketing, buyer journey, dan lifecycle thinking.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Digital Marketing &amp; E-commerce Professional Certificate</span><span class="rd">Program pendalaman terstruktur yang mencakup digital marketing, e-commerce, search, social, email, analytics, dan measurement.</span></span><span class="tag t-prog">Pendalaman</span></a>
+        <a class="res" href="https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Digital Marketing &amp; E-commerce Professional Certificate</span><span class="rd">Program pendalaman terstruktur yang mencakup digital marketing, e-commerce, search, social, email, analytics, dan measurement. Konten bisa dicoba lewat trial; sertifikat butuh langganan Coursera atau financial aid.</span></span><span class="tag t-prog">Pendalaman</span></a>
         <a class="res" href="https://www.khanacademy.org/economics-finance-domain/core-finance" target="_blank" rel="noopener noreferrer"><span><span class="rn">Khan Academy Finance</span><span class="rd">Materi pendukung untuk memahami margin dan unit economics.</span></span><span class="tag t-free">Gratis</span></a>
         <a class="res" href="https://trends.google.com/explore" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Trends</span><span class="rd">Gunakan untuk membaca minat relatif dan seasonality, bukan untuk mengukur market size.</span></span><span class="tag t-tool">Tool gratis</span></a>
         <a class="res" href="https://www.youngurbanproject.com/digital-marketing-strategy-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">YUP · Digital Marketing Strategy Course</span><span class="rd">Kerangka marketing tambahan untuk membandingkan pendekatan dan cara berpikir strategi.</span></span><span class="tag t-off">Sumber</span></a>
@@ -1588,10 +1609,11 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
           <li>Consumer insight → communication role → channel role → media placement.</li>
           <li>Objective media, KPI, budget, reach/frequency/click, efisiensi biaya, dan efektivitas.</li>
           <li>Search intent, logika keyword, struktur campaign, ad copy, dan kesesuaian landing page.</li>
+          <li>Konvensi penamaan campaign/ad group yang konsisten, supaya reporting dan audit tidak berantakan saat struktur membesar.</li>
         </ul></div>
         <div class="box"><h3>Yang dibuat</h3><ol>
           <li>Buat connection/media plan yang menjelaskan kenapa channel dan placement dipilih.</li>
-          <li>Buat keyword-intent map dan struktur campaign Google Ads.</li>
+          <li>Buat keyword-intent map dan struktur campaign Google Ads, termasuk konvensi penamaan campaign dan ad group.</li>
           <li>Buat budget dan forecast sederhana, lalu tulis asumsi yang digunakan.</li>
           <li>Buat RSA (responsive search ad) dan jelaskan hubungan query → ad → landing page.</li>
         </ol></div>
@@ -1604,23 +1626,24 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
         <a class="res" href="https://support.google.com/google-ads/answer/9427120" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Help · Reach Planner</span><span class="rd">Panduan resmi untuk merencanakan reach dan membuat forecast.</span></span><span class="tag t-doc">Dokumentasi</span></a>
         <a class="res" href="https://www.credly.com/org/the-trade-desk-inc/badge/the-trade-desk-edge-academy-certified-data-driven-planning" target="_blank" rel="noopener noreferrer"><span><span class="rn">The Trade Desk Data-Driven Planning</span><span class="rd">Credential tingkat lanjut di media planning. Lebih cocok diambil setelah materi inti selesai sebagai spesialisasi.</span></span><span class="tag t-prog">Pendalaman</span></a>
       </div>
+        <a class="res" href="https://about.ads.microsoft.com/en/resources/training-certification/learning-lab" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Advertising Learning Lab</span><span class="rd">Materi resmi Microsoft Ads dan badge penyelesaian gratis. Opsi pendalaman, relevan bila target kerja menyentuh jaringan Microsoft/Bing atau klien global.</span></span><span class="tag t-prog">Pendalaman</span></a>
 
       <div class="box" style="margin-top:14px" id="w3-project-assets">
         <h3>Aset proyek · Media planning</h3>
         <p>Aset ini membantu lu mengubah brief dan consumer insight menjadi keputusan tentang channel, budget, dan forecast. Workbook ini untuk latihan, bukan berisi data campaign yang sedang berjalan.</p>
-        <a class="res" href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer"><span><span class="rn">Guidebook Media Plan Arga</span><span class="rd">Panduan untuk menghubungkan objective, audience, channel, dan rekomendasi dalam media plan.</span></span><span class="tag t-tool">Aset proyek</span></a>
-        <a class="res" href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer"><span><span class="rn">Master Media Planning Workbook</span><span class="rd">Workbook latihan untuk alokasi budget, timeline, channel planning, dan perhitungan metrik media.</span></span><span class="tag t-tool">Aset proyek</span></a>
+        <a class="res" href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer"><span><span class="rn">Guidebook Media Plan Arga</span><span class="rd">Panduan untuk menghubungkan objective, audience, channel, dan rekomendasi dalam media plan.</span></span><span class="tag t-tool">Aset proyek</span></a>
+        <a class="res" href="https://docs.google.com/spreadsheets/d/1wPJqmNaAtMuGaA9GnIGsxR9sLYmitHy2usVA_nLE3gY/edit?gid=2041542219" target="_blank" rel="noopener noreferrer"><span><span class="rn">Master Media Planning Workbook</span><span class="rd">Workbook latihan untuk alokasi budget, timeline, channel planning, dan perhitungan metrik media.</span></span><span class="tag t-tool">Aset proyek</span></a>
       </div>
       <div class="box track-role-resource" data-track-roles="fullstack media paid" hidden>
         <h3>Panduan &amp; worksheet untuk jalur lu</h3>
         <p>Pakai panduan ini kalau jalur lu membutuhkan media planning atau paid media. Jadikan sebagai alat latihan, lalu jelaskan alasan dan asumsi di balik rekomendasi lu.</p>
         <div class="role-resources">
           <div class="role-resources-label">Panduan strategi media</div>
-          <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+          <a href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
         </div>
         <div class="role-resources">
           <div class="role-resources-label">Worksheet perencanaan</div>
-          <a href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
+          <a href="https://docs.google.com/spreadsheets/d/1wPJqmNaAtMuGaA9GnIGsxR9sLYmitHy2usVA_nLE3gY/edit?gid=2041542219" target="_blank" rel="noopener noreferrer">Master Media Planning Workbook</a>
           <p>Gunakan untuk menyusun alokasi budget, channel/placement, asumsi forecast, dan alasan di balik rekomendasi. Sesuaikan dengan objective serta kebutuhan campaign.</p>
         </div>
       </div>
@@ -1629,7 +1652,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
         <p>Kalau lu memilih Connection Planner, fokus pada consumer insight, peran komunikasi, dan alasan di balik pemilihan channel. Workbook media planning lengkap tidak wajib untuk jalur ini.</p>
         <div class="role-resources">
           <div class="role-resources-label">Panduan strategi media</div>
-          <a href="https://tinyurl.com/Guidebook-mediaplan-arga" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
+          <a href="https://drive.google.com/file/d/1JN7CukmbhwL20vAWMS4SIhJ8VmtItxok/view" target="_blank" rel="noopener noreferrer">Guidebook Media Plan Arga</a>
         </div>
       </div>
 
@@ -1643,7 +1666,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       </ol></div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w3-1"><span>Connection/media plan + audience table</span></label>
-        <label class="chk"><input type="checkbox" data-id="w3-2"><span>Keyword-intent map + campaign architecture</span></label>
+        <label class="chk"><input type="checkbox" data-id="w3-2"><span>Keyword-intent map + campaign architecture + naming convention</span></label>
         <label class="chk"><input type="checkbox" data-id="w3-3"><span>Budget/forecast + RSA</span></label>
       </div>
     </div>
@@ -1670,7 +1693,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="box" style="margin-top:14px"><h3>Meta</h3>
         <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Ads Manager Learning Path</span><span class="rd">Mencakup objective, audience, placement, budget, creative, hasil campaign, dan jalur belajar lanjutan.</span></span><span class="tag t-doc">Dokumentasi</span></a>
         <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint Catalog · Creator & Community</span><span class="rd">Katalog materi tentang creator marketing, community strategy, dan aktivitas belajar yang dapat menghasilkan bukti penyelesaian.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-        <a class="res" href="https://www.coursera.org/professional-certificates/facebook-social-media-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Social Media Marketing Professional Certificate</span><span class="rd">Program pendalaman terstruktur untuk social strategy, content, community, Meta Ads Manager, analytics, dan campaign work.</span></span><span class="tag t-cs">Pendalaman</span></a>
+        <a class="res" href="https://www.coursera.org/professional-certificates/facebook-social-media-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Social Media Marketing Professional Certificate</span><span class="rd">Program pendalaman terstruktur untuk social strategy, content, community, Meta Ads Manager, analytics, dan campaign work. Konten lewat trial/audit; sertifikat butuh langganan atau financial aid — dan sertifikatnya milik Coursera, bukan otomatis sertifikasi Meta.</span></span><span class="tag t-cs">Pendalaman</span></a>
       </div>
       <div class="box" style="margin-top:14px"><h3>TikTok</h3>
         <a class="res" href="https://business.tiktok.com/id" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Business Center</span><span class="rd">Portal resmi TikTok untuk mengelola Ads, creator, commerce, dan operasional bisnis.</span></span><span class="tag t-tool">Tool gratis</span></a>
@@ -1687,7 +1710,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="box" style="margin-top:14px" id="w4-media-buying-asset">
         <h3>Latihan media buying</h3>
         <p>Gunakan workbook ini untuk menerjemahkan strategi paid social menjadi budget dan rencana eksekusi. Workbook ini tidak wajib untuk jalur yang tidak mengerjakan media buying.</p>
-        <a class="res" href="https://tinyurl.com/putratryarga-mediaplan" target="_blank" rel="noopener noreferrer"><span><span class="rn">Master Media Planning Workbook</span><span class="rd">Referensi kerja untuk menyusun budget, timeline, alokasi channel, dan metrik media.</span></span><span class="tag t-tool">Aset proyek</span></a>
+        <a class="res" href="https://docs.google.com/spreadsheets/d/1wPJqmNaAtMuGaA9GnIGsxR9sLYmitHy2usVA_nLE3gY/edit?gid=2041542219" target="_blank" rel="noopener noreferrer"><span><span class="rn">Master Media Planning Workbook</span><span class="rd">Referensi kerja untuk menyusun budget, timeline, alokasi channel, dan metrik media.</span></span><span class="tag t-tool">Aset proyek</span></a>
       </div>
       <div class="deliv"><div class="deliv-l">Deliverable</div>
         <label class="chk"><input type="checkbox" data-id="w4-1"><span>Creative brief + testing matrix</span></label>
@@ -1787,9 +1810,9 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
         <a class="res" href="https://docs.cloud.google.com/data-studio" target="_blank" rel="noopener noreferrer"><span><span class="rn">Looker Studio / Data Studio Documentation</span><span class="rd">Tool gratis untuk membuat dashboard dan laporan.</span></span><span class="tag t-tool">Tool gratis</span></a>
         <a class="res" href="https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush · Fundamentals of Marketing Analytics</span><span class="rd">Course analytics gratis dengan sertifikat dari Semrush Academy.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
         <a class="res" href="https://www.experimentnation.com/certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Experiment Nation CRO Qualification</span><span class="rd">Kualifikasi gratis: 30 soal, nilai minimal untuk lulus 85%, sertifikat bisa diunduh, dan tidak memiliki masa kedaluwarsa.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://github.com/facebookexperimental/GeoLift" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta GeoLift</span><span class="rd">Framework open-source untuk latihan geo-holdout dan memahami incrementality.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-        <a class="res" href="https://www.coursera.org/professional-certificates/facebook-marketing-analytics" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Marketing Analytics Professional Certificate</span><span class="rd">Program pendalaman marketing analytics yang mencakup data, eksperimen, effectiveness, SQL, Python, Tableau, funnel, dan optimization.</span></span><span class="tag t-cs">Pendalaman</span></a>
-        <a class="res" href="https://www.coursera.org/professional-certificates/unilever-digital-marketing-analyst" target="_blank" rel="noopener noreferrer"><span><span class="rn">Unilever Digital Marketing Analyst Professional Certificate</span><span class="rd">Menghubungkan marketing, campaign, analytics, dan effectiveness dalam satu jalur belajar analis dari Unilever.</span></span><span class="tag t-cs">Pendalaman</span></a>
+        <a class="res" href="https://github.com/facebookincubator/GeoLift" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta GeoLift</span><span class="rd">Framework open-source untuk latihan geo-holdout dan memahami incrementality.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+        <a class="res" href="https://www.coursera.org/professional-certificates/facebook-marketing-analytics" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Marketing Analytics Professional Certificate</span><span class="rd">Program pendalaman marketing analytics yang mencakup data, eksperimen, effectiveness, SQL, Python, Tableau, funnel, dan optimization. Konten lewat trial/audit; sertifikat butuh langganan atau financial aid.</span></span><span class="tag t-cs">Pendalaman</span></a>
+        <a class="res" href="https://www.coursera.org/professional-certificates/unilever-digital-marketing-analyst" target="_blank" rel="noopener noreferrer"><span><span class="rn">Unilever Digital Marketing Analyst Professional Certificate</span><span class="rd">Menghubungkan marketing, campaign, analytics, dan effectiveness dalam satu jalur belajar analis dari Unilever. Konten lewat trial/audit; sertifikat butuh langganan atau financial aid.</span></span><span class="tag t-cs">Pendalaman</span></a>
         <a class="res" href="https://www.khanacademy.org/math/statistics-probability" target="_blank" rel="noopener noreferrer"><span><span class="rn">Khan Academy Statistics & Probability</span><span class="rd">Materi pendukung untuk memahami korelasi, probabilitas, dan penalaran kausal.</span></span><span class="tag t-free">Gratis · tanpa sertifikat</span></a>
       </div>
       <div class="addon"><b>Prinsip diagnosis</b> Jangan langsung mengubah budget hanya karena satu metrik turun. Cek perubahan dan kualitas data, bandingkan denominator atau rate, lalu uji dugaan penyebab sebelum mengambil tindakan.</div>
@@ -1822,8 +1845,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
         <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Email Marketing Certification</span><span class="rd">Membahas strategi email, segmentation, deliverability, dan automation.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
         <a class="res" href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Sales Hub Software Certification</span><span class="rd">Materi tambahan untuk memahami alur kerja CRM dan handoff ke tim sales. Opsional.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://trailhead.salesforce.com/content/learn/modules/customer-journey-basics" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Trailhead · Customer Journey Basics</span><span class="rd">Modul belajar gratis dengan badge penyelesaian untuk dasar customer journey.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Marketing Cloud Engagement</span><span class="rd">Jalur belajar Trailhead untuk memahami CRM dan marketing automation.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
+        <a class="res" href="https://trailhead.salesforce.com/content/learn/modules/customer-journey-basics" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Trailhead · Customer Journey Basics</span><span class="rd">Modul belajar gratis dengan badge penyelesaian untuk dasar customer journey.</span></span><span class="tag t-free">Gratis · badge</span></a>
+        <a class="res" href="https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Marketing Cloud Engagement</span><span class="rd">Jalur belajar Trailhead untuk memahami CRM dan marketing automation. Hasilnya badge, bukan sertifikasi profesional Salesforce.</span></span><span class="tag t-free">Gratis · badge</span></a>
         <a class="res" href="https://www.semrush.com/academy/courses/ai-for-marketing-course/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush · AI for Marketing</span><span class="rd">Workflow pemasaran berbantuan AI dan contoh penerapan praktis.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
         <a class="res" href="https://learn.zapier.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Zapier Academy</span><span class="rd">Mulai dari sini untuk mempelajari automation. Status credential bergantung pada program yang tersedia.</span></span><span class="tag t-off">Sumber</span></a>
         <a class="res" href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Learn · AI learning paths</span><span class="rd">Bisa menjadi bukti belajar atau achievement, tetapi tidak otomatis setara dengan Professional Certification.</span></span><span class="tag t-off">Sumber</span></a>
@@ -1859,11 +1882,11 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="box" style="margin-top:14px"><h3>Sumber</h3>
         <a class="res" href="https://www.semrush.com/academy/courses/ai-visibility-essentials-with-semrush/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush · AI Visibility Essentials</span><span class="rd">Course AI Search gratis dengan sertifikat, berfokus pada AI visibility, prompt, mentions, dan clickless metrics.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
         <a class="res" href="https://www.semrush.com/academy/courses/ai-search-os/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Semrush · AI Search Operating System</span><span class="rd">Course gratis untuk mengaudit AI visibility, menyusun KPI dan action plan lintas tim, serta membuat reporting.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://academy.openai.com/public/courses/ai-foundations-dnq5w" target="_blank" rel="noopener noreferrer"><span><span class="rn">OpenAI Academy · AI Foundations</span><span class="rd">Course gratis dengan badge setelah selesai dan nilai assessment minimal 80%.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://academy.claude.com/courses/ai-fluency-framework-foundations" target="_blank" rel="noopener noreferrer"><span><span class="rn">Claude Academy · AI Fluency: Framework & Foundations</span><span class="rd">Course AI fluency gratis dengan badge penyelesaian. Fokus pada penggunaan praktis, pertimbangan manusia, dan penggunaan AI yang bertanggung jawab.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://academy.claude.com/courses/ai-fluency-for-creative-work" target="_blank" rel="noopener noreferrer"><span><span class="rn">Claude Academy · AI Fluency for Creative Work</span><span class="rd">Jalur AI fluency gratis dengan badge penyelesaian untuk creative workflow.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
+        <a class="res" href="https://academy.openai.com/public/courses/ai-foundations-dnq5w" target="_blank" rel="noopener noreferrer"><span><span class="rn">OpenAI Academy · AI Foundations</span><span class="rd">Course gratis dengan badge setelah selesai dan nilai assessment minimal 80%. Badge, bukan sertifikasi profesional.</span></span><span class="tag t-free">Gratis · badge</span></a>
+        <a class="res" href="https://academy.claude.com/courses/ai-fluency-framework-foundations" target="_blank" rel="noopener noreferrer"><span><span class="rn">Claude Academy · AI Fluency: Framework & Foundations</span><span class="rd">Course AI fluency gratis dengan badge penyelesaian. Fokus pada penggunaan praktis, pertimbangan manusia, dan penggunaan AI yang bertanggung jawab.</span></span><span class="tag t-free">Gratis · badge</span></a>
+        <a class="res" href="https://academy.claude.com/courses/ai-fluency-for-creative-work" target="_blank" rel="noopener noreferrer"><span><span class="rn">Claude Academy · AI Fluency for Creative Work</span><span class="rd">Jalur AI fluency gratis dengan badge penyelesaian untuk creative workflow.</span></span><span class="tag t-free">Gratis · badge</span></a>
         <a class="res" href="https://skillshop.docebosaas.com/learn/course/8510/ai-powered-performance-ads-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · AI-Powered Performance Ads</span><span class="rd">Sertifikasi resmi untuk AI-powered performance advertising.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <a class="res" href="https://www.skills.google/course_templates/536" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skills · Introduction to Generative AI</span><span class="rd">Materi pengantar GenAI dengan badge penyelesaian.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
+        <a class="res" href="https://www.skills.google/course_templates/536" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skills · Introduction to Generative AI</span><span class="rd">Materi pengantar GenAI dengan badge penyelesaian. Badge penuh butuh menyelesaikan aktivitas di learning path-nya.</span></span><span class="tag t-free">Gratis · badge</span></a>
         <a class="res" href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener noreferrer"><span><span class="rn">GEO Paper · arXiv</span><span class="rd">Referensi akademik untuk memahami generative engine optimization dan perilaku sitasi.</span></span><span class="tag t-doc">Dokumentasi</span></a>
         <a class="res" href="https://www.bing.com/webmasters" target="_blank" rel="noopener noreferrer"><span><span class="rn">Bing Webmaster Tools</span><span class="rd">Referensi indexing dan visibilitas pencarian untuk ekosistem yang juga menjadi jalur penemuan konten.</span></span><span class="tag t-tool">Tool gratis</span></a>
         <a class="res" href="https://www.indexnow.org" target="_blank" rel="noopener noreferrer"><span><span class="rn">IndexNow</span><span class="rd">Dokumentasi resmi untuk memberi tahu mesin pencari yang didukung saat konten berubah.</span></span><span class="tag t-doc">Dokumentasi</span></a>
@@ -1936,8 +1959,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   <div class="addon" style="margin-top:14px"><b>Cara mengatur jadwal</b> Roadmap ini fleksibel, sedangkan program eksternal dapat memiliki jadwal tetap. Catat deadline program terlebih dahulu, lalu sesuaikan waktu belajar tanpa mengorbankan deliverable inti.</div>
   <div class="box" style="margin-top:14px"><h3>Referensi program</h3>
     <a class="res" href="https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/" target="_blank" rel="noopener noreferrer"><span><span class="rn">ASEAN Ahead Programme</span><span class="rd">Kolaborasi ASEAN Foundation × LinkedIn</span></span><span class="tag t-prog">Program eksternal</span></a>
-    <a class="res" href="https://www.linkedin.com/premium/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Premium</span><span class="rd">Reward 1 tahun</span></span><span class="tag t-tool">Tool gratis</span></a>
-    <a class="res" href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Learning</span><span class="rd">Termasuk dalam Premium</span></span><span class="tag t-tool">Tool gratis</span></a>
+    <a class="res" href="https://www.linkedin.com/premium/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Premium</span><span class="rd">Berbayar (sekitar USD 39,99/bulan). Reward 1 tahun hanya lewat program eksternal seperti ASEAN Ahead — tergantung syarat dan ketersediaan kuota, tidak dijamin.</span></span><span class="tag t-paid">Berbayar</span></a>
+    <a class="res" href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Learning</span><span class="rd">Butuh langganan Premium, kecuali lu dapat akses lewat program eksternal yang berlaku.</span></span><span class="tag t-paid">Berbayar</span></a>
     <div class="slot-grid">
       <div class="slot-item"><b>Tanggal Cohort</b><span>___ / ___ / ______</span></div>
       <div class="slot-item"><b>Deadline Course</b><span>___ / ___ / ______</span></div>
@@ -1953,7 +1976,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
 <section id="sec-bonus">
   <p class="slabel">Opsional · setelah materi inti selesai</p>
-  <h2 class="stitle">Jalur bonus: 4 sertifikasi HubSpot tambahan</h2>
+  <h2 class="stitle">Jalur bonus: sertifikasi HubSpot tambahan</h2>
   <p class="sdesc">Bagian ini opsional dan baru perlu dibuka setelah deliverable utama selesai. Pilih course yang benar-benar mendukung arah karier lu. Tidak perlu mengambil semuanya.</p>
   <div class="g2">
     <div class="box"><h3>Pilihan yang paling relevan</h3><ul>
@@ -1961,7 +1984,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li><a href="https://academy.hubspot.com/courses/hubspot-sales-hub-software" target="_blank" rel="noopener noreferrer"><b>Sales Hub Software</b></a> (5 jam, sertifikat gratis). Opsi tambahan untuk memperkuat materi CRM di W8.</li>
     </ul></div>
     <div class="box"><h3>Ambil hanya jika sesuai kebutuhan</h3><ul>
-      <li><a href="https://academy.hubspot.com/courses/seo-training" target="_blank" rel="noopener noreferrer"><b>SEO Training</b></a>. Materi SEO di W5 sudah mencakup Semrush SEO dan HubSpot AEO.</li>
+      <li><b>Catatan:</b> kursus HubSpot "SEO Training" sudah dihentikan HubSpot (Juni 2026) dan digantikan AEO Fundamentals — sudah tercakup di resource W5, jadi tidak perlu diambil ulang.</li>
       <li><a href="https://academy.hubspot.com/courses/inbound-sales" target="_blank" rel="noopener noreferrer"><b>Inbound Sales</b></a> (3 jam). Fokus pada sales methodology, cocok untuk role SDR/BDR.</li>
     </ul></div>
   </div>
@@ -2032,6 +2055,17 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <p style="margin-top:10px"><b lang="en">Contoh W6:</b> <span lang="en">"Designed a GA4 measurement plan and event taxonomy for a simulated brand project, covering six key conversion events and UTM naming conventions."</span></p>
       <p style="margin-top:8px"><b lang="en">Contoh W7:</b> <span lang="en">"Built a Looker Studio dashboard and a synthetic geo-holdout calculator to practice campaign diagnosis and incrementality analysis."</span></p>
     </div>
+    <div class="box" style="grid-column:1/-1"><h3>Rubrik self-review deliverable</h3>
+      <p>Sebelum deliverable masuk portofolio, nilai sendiri lima kriteria ini dengan skala 1–3 (1 = belum, 2 = cukup, 3 = bisa dijelaskan ke orang lain).</p>
+      <ol style="margin-top:8px;padding-left:18px">
+        <li><b>Masalah jelas</b> — deliverable langsung kelihatan menjawab masalah bisnis apa, tanpa perlu konteks tambahan.</li>
+        <li><b>Data &amp; asumsi jujur</b> — sumber data ditulis, angka sintetis diberi label, asumsi dipisahkan dari fakta.</li>
+        <li><b>Keputusan &amp; alasan</b> — setiap pilihan (channel, budget, event, eksperimen) punya alasan plus alternatif yang dipertimbangkan.</li>
+        <li><b>Eksekusi teknis rapi</b> — struktur, penamaan, dan parameter konsisten; orang lain bisa mereplikasi langkahnya.</li>
+        <li><b>Insight &amp; next step</b> — ada rekomendasi konkret, lengkap dengan risiko dan batasan kesimpulannya.</li>
+      </ol>
+      <p style="margin-top:8px">Patokan: layak portofolio minimal skor 2 di semua kriteria dan skor 3 di dua kriteria. Di bawah itu, revisi dulu sebelum dipamerkan.</p>
+    </div>
   </div>
 </section>
 
@@ -2042,6 +2076,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     <p>Info course, certificate, harga, dan akses bisa berubah. Sebelum masukin course atau credential ke CV/LinkedIn, cek lagi detail terbaru di website resmi provider-nya.</p>
     <p style="margin-top:8px">Untuk course pihak ketiga, bedain dua hal: course dan providernya bisa legit, tetapi jalur aksesnya belum tentu gratis. Label “free trial” juga bukan berarti certificate otomatis gratis.</p>
     <p style="margin-top:8px"><b>Coursera deep dive:</b> <i>Official course · free trial · cert tested</i>. Di pengujian sebelumnya, jalur free trial berhasil digunakan sampai Professional Certificate-nya didapat. Ini hasil pengujian terdahulu, bukan jaminan cara yang sama masih berlaku untuk semua akun. Mekanisme akses bisa berubah, jadi cek lagi ketentuan terbaru sebelum mulai.</p>
+    <p style="margin-top:8px"><b>Badge bukan sertifikasi:</b> penyelesaian TikTok Academy, Salesforce Trailhead, OpenAI/Claude Academy, dan Google Skills umumnya berhenti di badge atau bukti penyelesaian — bukan sertifikasi profesional. Contoh: TikTok Media Buying Professional Certification adalah ujian proctored terpisah yang berbayar dan berlaku 2 tahun. Sertifikasi Semrush gratis tapi berlaku 1 tahun dan diperpanjang dengan ujian ulang. Kursus HubSpot "SEO Training" sudah dihentikan HubSpot (Juni 2026) dan digantikan AEO Fundamentals.</p>
     <p style="margin-top:8px">Kalau pakai data simulasi, kasih label <i>synthetic</i> dengan jelas supaya nggak ketuker sama data real. Nemu link yang nggak bisa dibuka atau resource yang sudah berubah? Kirim feedback biar roadmap ini bisa terus di-update.</p>
   </div>
 </section>
@@ -2056,7 +2091,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 <section id="sec-veri">
   <div class="verified-notice">
     <b>⚠️ Verifikasi sumber</b>
-    <p style="margin-top:8px">Daftar resource dan tautan eksternal terakhir ditinjau pada <strong>8 Oktober 2026</strong>. Sebagian provider membatasi akses melalui login atau menampilkan katalog yang dinamis. Jadi, tampilan course dan aksesnya bisa berbeda tergantung akun atau kondisi saat dibuka.</p>
+    <p style="margin-top:8px">Daftar resource dan tautan eksternal terakhir ditinjau pada <strong>3 November 2026</strong>. Sebagian provider membatasi akses melalui login atau menampilkan katalog yang dinamis. Jadi, tampilan course dan aksesnya bisa berbeda tergantung akun atau kondisi saat dibuka.</p>
     <ul>
       <li>Link resmi provider jadi rujukan utama untuk course, dokumentasi, dan credential.</li>
       <li>Materi LinkedIn Ads tidak wajib untuk menyelesaikan roadmap inti, tetapi tetap berguna sebagai pengetahuan tambahan untuk marketing B2B.</li>
@@ -2122,6 +2157,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   var state = {
     version: 1,
     role: 'fullstack',
+    filter: 'all',
     completed: {}
   };
 
@@ -2137,7 +2173,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       }
     }
   } catch (e) {
-    state = { version: 1, role: 'fullstack', completed: {} };
+    state = { version: 1, role: 'fullstack', filter: 'all', completed: {} };
   }
 
   function persistState(){
@@ -2245,6 +2281,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
   function setFilter(filter){
     currentFilter = filter;
+    state.filter = filter;
+    persistState();
     filterButtons.forEach(function(btn){
       btn.classList.toggle('on', btn.dataset.f === filter);
     });
@@ -2301,7 +2339,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
   window.resetAll = function(){
     if (window.confirm('Reset semua centang dan pilihan jalur?')) {
-      state = { version: 1, role: 'fullstack', completed: {} };
+      state = { version: 1, role: 'fullstack', filter: 'all', completed: {} };
       try {
         localStorage.removeItem(STATE_KEY);
         localStorage.removeItem(LEGACY_KEY);
@@ -2323,7 +2361,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     var label = btn ? btn.querySelector('.theme-label') : null;
     if (btn) {
       btn.setAttribute('aria-pressed', normalized === 'light' ? 'true' : 'false');
-      btn.setAttribute('aria-label', normalized === 'light' ? 'Ganti ke tema gelap' : 'Ganti ke tema terang');
+      btn.setAttribute('aria-label', normalized === 'light' ? 'Tema saat ini: terang. Ganti ke tema gelap' : 'Tema saat ini: gelap. Ganti ke tema terang');
     }
     if (label) label.textContent = normalized === 'light' ? 'Terang' : 'Gelap';
     var themeMeta = document.querySelector('meta[name="theme-color"]');
@@ -2357,16 +2395,20 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       var parent = target.closest('details');
       if (parent) parent.open = true;
 
+      if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+      target.focus({ preventScroll: true });
       target.scrollIntoView({
         behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
         block: 'start'
       });
+      if (history.pushState) history.pushState(null, '', selector);
     });
   });
 
   updateRoleUI();
   applyChecks();
-  setFilter(currentFilter);
+  var VALID_FILTERS = ['all', 'core', 'elec', 'role'];
+  setFilter(VALID_FILTERS.indexOf(state.filter) !== -1 ? state.filter : 'all');
 })();
 </script>
 </body>
