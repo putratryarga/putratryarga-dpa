@@ -19,13 +19,16 @@ Pilih satu jalur sesuai target belajar atau role yang ingin dieksplorasi.
 | Jalur | Fokus utama |
 | --- | --- |
 | **Full-Stack Digital Performance** | Alur end-to-end dari masalah bisnis, consumer, planning, execution, measurement, sampai optimization. |
-| Connection Planner | Consumer journey, communication role, channel role, touchpoints, dan connection logic. |
-| Media Planner | Media strategy, channel selection, budget allocation, reach, dan planning. |
-| Performance Marketing / Paid Media | Paid search dan paid social, campaign setup, creative testing, measurement, dan optimization. |
+| Connection Planner | Communication architecture, consumer journey map, messaging framework, touchpoints, dan communication experience. |
+| Media Planner | Media strategy, channel selection, audience, budget allocation, reach/frequency, forecast, dan media rationale. |
+| Performance Marketing / Paid Media | Paid search dan paid social, campaign setup, creative testing, funnel, measurement, dan optimization. |
+| Programmatic Specialist | DSP ecosystem, audience/data, inventory/deals, bidding, pacing, brand safety, measurement, dan optimization. |
 | Marketing Analyst | Data quality, dashboard, diagnosis, experimentation, dan rekomendasi bisnis. |
 | CRO / Growth | Customer experience, conversion journey, hypothesis, dan eksperimen. |
 | Organic Growth / Search & Social | Content, search, social, community, dan AI search visibility. |
 | CRM / Lifecycle / Automation | Customer lifecycle, email, automation, dan retention-oriented thinking. |
+
+Roadmap ini memiliki **1 jalur Full-Stack + 8 jalur spesialis**. Istilah Programmatic, Biddable Media, dan Media Buying saling beririsan, bukan jenjang karier yang harus dilalui secara berurutan. Pemilihan role juga menyaring subtopik dan checklist di dalam minggu belajar, bukan hanya menampilkan minggu yang sama untuk semua jalur.
 
 ### Struktur roadmap
 
@@ -37,8 +40,9 @@ Estimasi beban belajar untuk core adalah sekitar **6–9 jam per minggu**. Waktu
 
 ## Fitur yang tersedia
 
-- **Role-path selector** untuk menampilkan jalur belajar sesuai pilihan.
-- **Progress checklist** agar learner dapat menandai deliverable yang sudah selesai.
+- **Role-path selector** untuk menampilkan jalur belajar sesuai pilihan, termasuk Programmatic Specialist.
+- **Role-aware subtopics and deliverables** agar materi, sumber, dan checklist di dalam tiap minggu mengikuti kompetensi role yang dipilih.
+- **Progress checklist** yang menghitung deliverable sesuai role aktif.
 - **Roadmap filters** untuk melihat semua materi, jalur yang dipilih, materi inti, atau elektif.
 - **Dark/light theme** untuk preferensi tampilan.
 - **Sumber belajar eksternal** yang ditautkan langsung ke provider atau resource terkait.
