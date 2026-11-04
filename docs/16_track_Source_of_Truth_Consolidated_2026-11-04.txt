@@ -8161,3 +8161,33 @@ No PR merge is authorized by this document.
 ================================================================================
 END OF CONSOLIDATED VALIDATION ADDENDUM v1.1
 ================================================================================
+
+
+
+================================================================================
+ADDENDUM v1.2 — CHAPTER INVENTORY REGISTER LINK
+Date: 4 November 2026
+================================================================================
+
+A first-pass 169-chapter inventory and initial competency crosswalk is now
+maintained in:
+docs/169-chapter-evidence-register.md
+
+The register was generated from the PR #5 branch's rendered HTML chapter
+inventory and reconciled to 169 chapter entries:
+- 16 track chapters: 169 total.
+- 149 role-specific guide constructors across 14 specialist role arrays.
+- 20 retained Full-Stack and Paid Social guide/fallback entries.
+
+This is a structural inventory and first-pass competency mapping, not a
+completed 169-chapter evidence audit. It explicitly records the current
+positional mapping risk, unverified chapter-level resources, missing formal
+rubrics/pass criteria, static Q&A vs interactive quiz limitation, and the
+Organic Social specialization gap in Track 13.
+
+The next implementation gate is immutable chapter_id-to-guide_id mapping,
+followed by source/resource/assessment validation and manual chapter review.
+Do not mark the 169 chapters validated based on inventory reconciliation alone.
+================================================================================
+END OF ADDENDUM v1.2
+================================================================================
