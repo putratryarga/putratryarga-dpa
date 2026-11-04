@@ -8319,3 +8319,68 @@ Therefore:
 ================================================================================
 END OF ADDENDUM v1.5
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.6 — ADVANCED ELECTIVE EVIDENCE RE-CHECK
+Date: 4 November 2026
+================================================================================
+
+The ten agency × elective evidence groups were rechecked against current search
+results and employer/role pages. The companion file
+docs/role-competency-matrix-and-elective-chapter-audit.md now records revised
+source quality, date/market limits and current-vs-historical status.
+
+CRO:
+- WPP: Advanced Analytics supports conversion-lift and experimentation
+  measurement but is adjacent, not a CRO-only role. The old Greenhouse URL now
+  redirects to the general jobs index. Keep B / Medium and historical evidence.
+- Publicis: CRO Specialist listing contains direct responsibilities for A/B and
+  multivariate testing, UX/UI, funnel friction, heatmaps, qualitative research,
+  prototyping, backlog prioritization and named testing/analytics tools. The
+  listing is hosted on LinkedIn, so retain D / Medium, not official employer-site
+  evidence. Publicis Collective official careers page returned 403 during this
+  check; do not claim the senior analytics JD was fully re-opened.
+- Omnicom: CRO Consultant listing specifies hypothesis/prioritization, A/B and
+  multivariate tests, quantitative web data, qualitative UX research, GA4,
+  VWO/Optimizely/AB Tasty/Kameleoon, Figma, Contentsquare and Hotjar. Hosted on
+  LinkedIn; retain D / Medium. It is consultant/execution-level evidence.
+- Dentsu: current Director, Data Science posting is direct Marketing Science
+  evidence for MMM, incrementality, RBA, forecasting, Bayesian/frequentist
+  methods, Python/SQL, validation and team leadership. It is NOT direct CRO
+  evidence. Keep B / Medium–Low for the CRO elective.
+- Havas: Senior Enablement Lead (Analytics, CRO & Personalisation) directly
+  covers analytics implementation, CRO, personalization, experimentation,
+  A/B-test prioritization and journey orchestration. The captured posting is
+  historical (application end date August 3, 2026); retain as role evidence,
+  not an active vacancy.
+
+Traditional Media:
+- WPP: official AVP Client Services posting is offline-heavy across TV, print,
+  radio, OOH, sponsorship and content integrations; includes audience
+  measurement, BARC, GRP/CPRP, negotiation, investment and team/client
+  leadership. Market example: India.
+- Publicis: official Director, Media Investment posting dated November 2, 2026
+  explicitly owns traditional/broadcast buying, with 7+ years' broadcast
+  experience, negotiation, execution, optimization, reconciliation and
+  post-campaign reporting. Market example: Canada; not Indonesia currency/rules.
+- Omnicom: Senior Director Integrated Investment Lead covers national media,
+  retail, commerce, search, social, programmatic, audio and emerging channels.
+  It supports integrated investment governance, but is not offline-only. Keep
+  B / Medium.
+- Dentsu: Senior Media Investment Executive, Jakarta directly covers planning,
+  negotiation and execution across TV, radio, OOH, print and cinema; media-owner
+  relationships, campaign monitoring, reporting and investment tracking.
+  This is the strongest Indonesia-local direct evidence in this batch.
+- Havas: evidence remains mixed capability/third-party/historical. Do not claim
+  direct current Traditional Media role validation for Havas without a current
+  employer JD.
+
+No evidence group is treated as equally strong. CRO evidence is uneven and
+senior direct CRO evidence remains incomplete. Traditional Media is better
+supported, especially for Indonesia through Dentsu, but local audience
+measurement currencies, vendors, methodologies and market practice still need
+a separate Indonesia-specific source audit.
+================================================================================
+END OF ADDENDUM v1.6
+================================================================================
