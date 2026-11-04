@@ -10,7 +10,7 @@ Dibuat oleh **Putra Try Arga** · Bahasa utama: Indonesia · Gratis untuk pembel
 ## Source of Truth and audit status
 
 The consolidated research and validation record is maintained in
-[`docs/16_track_Source_of_Truth_Consolidated_2026-11-04.txt`](docs/16_track_Source_of_Truth_Consolidated_2026-11-04.txt).
+[`docs/16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt`](docs/16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt).
 The canonical role taxonomy is maintained in
 [`docs/16-core-track-role-crosswalk.md`](docs/16-core-track-role-crosswalk.md). The initial 169-chapter inventory is in
 [`docs/169-chapter-evidence-register.md`](docs/169-chapter-evidence-register.md). The initial issuer-verified resource and credential register is in
