@@ -16,10 +16,11 @@ The canonical role taxonomy is maintained in
 [`docs/169-chapter-evidence-register.md`](docs/169-chapter-evidence-register.md). The initial issuer-verified resource and credential register is in
 [`docs/resource-credential-validation.md`](docs/resource-credential-validation.md).
 
-The taxonomy decisions are recorded, but the 16-agency role evidence audit,
-169-chapter evidence register, resource/credential validation and final
-pre-merge QA remain in progress. Do not treat this repository as fully
-validated or merge PRs until the documented release blockers are closed.
+The taxonomy decisions and 169 chapter IDs/content extraction are recorded.
+The five-agency × 16-track evidence validation, SME/technical review of the 169
+chapters, answer-key/rubric validation, regional resource checks and browser/
+runtime QA remain partial. Do not treat this repository as fully validated or
+merge PRs until the documented release blockers are closed.
 
 ## Tentang proyek
 
