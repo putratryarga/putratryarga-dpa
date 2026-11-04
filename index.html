@@ -4629,6 +4629,10 @@ details.week{margin-bottom:16px!important}
 
 <script src="./fullstack-guides.js"></script>
 <script src="./paid-social-guides.js"></script>
+<script src="./role-guides-strategy.js"></script>
+<script src="./role-guides-buying.js"></script>
+<script src="./role-guides-analytics.js"></script>
+<script src="./role-guides-content.js"></script>
 <script>
 (function(){
   var STATE_KEY = 'dpa.v12';
@@ -4803,6 +4807,37 @@ function buildGuide(box,chapter,index){
  var topics=Array.prototype.slice.call(chapter.querySelectorAll(".wbody > .box ul li")).map(function(x){return x.textContent.trim();});
  var deliverEl=chapter.querySelector(".deliv .chk span");
  var outcome=deliverEl?deliverEl.textContent.trim():"";
+ var profile=(typeof ROLE_GUIDES!=="undefined"&&ROLE_GUIDES)?ROLE_GUIDES[role]:null;
+ var specific=profile&&profile.chapters?profile.chapters[index]:null;
+ if(specific){
+  var steps=[];
+  if(profile.workflow&&profile.workflow.length)steps.push(profile.workflow[0]);
+  (specific.actions||[]).forEach(function(x){steps.push(x);});
+  if(profile.workflow&&profile.workflow.length>1)steps.push(profile.workflow[profile.workflow.length-1]);
+  var checks=(specific.checks||[]).map(function(x){
+   return {q:x[0],a:x[1]};
+  });
+  if(!checks.length){
+   checks=(specific.qaFocus||topics.slice(0,3)).map(function(q,i){
+    var answer=(profile.qa&&profile.qa[i])?profile.qa[i]:"Validasi dengan bukti dan dokumentasikan definisi, source, unit, owner, dan limitation sebelum mengambil keputusan.";
+    return {q:q,a:answer+" Untuk bab \""+title.trim()+"\", catat evidence, assumption, owner, QA, dan keputusan yang dihasilkan."};
+   });
+  }
+  var terms=(specific.terms&&specific.terms.length?specific.terms:(profile.glossary||[]).slice(0,5)).map(function(t){
+   if(Array.isArray(t))return {term:t[0],definition:t[1]};
+   return {term:t.term||t.name||"",definition:t.definition||t.description||""};
+  });
+  return {
+   concept:specific.concept||profile.scope,
+   example:specific.example||"Gunakan kasus latihan yang relevan dengan "+title+". Labeli data sebagai SIMULATED jika bukan data real.",
+   steps:steps,
+   practice:(specific.practice||"")+ " Output bab: "+outcome+". Pisahkan fakta, asumsi, simulasi, source, owner, dan evidence.",
+   checks:checks,
+   deliverable:outcome,
+   roleScope:profile.scope||"",
+   terms:terms
+  };
+ }
  var custom=role==="cf"?CF_GUIDE_NOTES[index]:(role==="adops"?ADOPS_GUIDE_NOTES[index]:null);
  var roleNote=role==="connection"?CONNECTION_GUIDES[index]:(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:(role==="fullstack"?FULLSTACK_GUIDES[index]:null));
  var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
@@ -4825,11 +4860,11 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  }).join("");
  var html='<section class="chapter-study" aria-label="Materi belajar bab">';
  html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
- html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
+ html+='<p class="chapter-study-intro">'+(guide.roleScope?studyEsc(guide.roleScope)+' ':'')+'Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
  html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
  if(guide.terms&&guide.terms.length){html+='<details class="lesson-fold"><summary>Istilah penting &amp; definisi</summary><div class="lesson-fold-body"><dl class="lesson-glossary">'+guide.terms.map(function(t){return '<div class="lesson-glossary-item"><dt>'+studyEsc(t.term)+'</dt><dd>'+studyEsc(t.definition)+'</dd></div>';}).join("")+'</dl></div></details>';}
  html+='<details class="lesson-fold" open><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
- html+='<details class="lesson-fold" open><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
+ html+='<details class="lesson-fold" open><summary>Tier 3 · Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
  html+='<details class="lesson-fold" open><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
  html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
  html+='</section>';
