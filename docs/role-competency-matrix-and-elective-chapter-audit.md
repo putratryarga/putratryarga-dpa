@@ -392,15 +392,36 @@ A chapter is not complete merely because its title matches a competency. Every s
 | 15. Affiliate & Social Commerce Partnerships | Partner model, commission economics, tracking, attribution, fraud, payout, activation, platform commerce and compliance. | Core track, not elective and not interchangeable with influencer marketing. |
 | 16. Community Management & Advocacy | Community purpose, member journey, moderation, engagement, service, UGC governance, advocacy and impact measurement. | Does not fully cover Organic Social Media Specialist. |
 
-### Taxonomy issues still open
+### Taxonomy decisions recorded (4 November 2026)
 
-1. **Performance Marketing Specialist / Performance Strategist:** titles appear in agency evidence but are not automatically Full-Stack, Paid Social, Paid Search or Media Planner. Map each job by actual scope: cross-platform execution, strategy, measurement, budget and commercial accountability.
-2. **Organic Social Media Specialist:** Community does not cover social publishing, editorial calendar, platform-native execution, distribution and social analytics. Interim recommendation: named specialization under Content Strategy & Creation, while Community remains moderation, participation, service and advocacy.
-3. **Direct Digital Media Buying vs Programmatic vs Traditional:** keep mechanics distinct. Direct publisher buying belongs in Track 8; DSP buying in Track 6; offline broadcast/print/OOH in Elective 18.
-4. **Google Ads Multi-channel:** treat as platform specialization/crosswalk within Paid Search and Full-Stack; separate YouTube/Display/Shopping/Demand Gen scope from DV360.
-5. **Media Analytics vs Marketing Science:** distinguish reporting/diagnosis from causal measurement, experimentation methodology and advanced modelling.
+The curriculum architecture now records the five boundary decisions in
+[`docs/16-core-track-role-crosswalk.md`](16-core-track-role-crosswalk.md) and
+the consolidated Source of Truth.
+
+1. Full-Stack is the integrated generalist learning path. Performance Marketing
+   is a cross-channel paid-growth job family/pathway mapped by actual JD scope.
+2. Organic Social remains a distinct market job family and named specialization
+   under Track 13 to preserve the 16-track limit. Track 16 remains Community
+   Management & Advocacy. Organic Social, Community and Paid Social are not
+   interchangeable.
+3. Track 10 has two pathways: Media Analytics (reporting/diagnosis/data quality)
+   and Marketing Science (experimentation, causal measurement, incrementality,
+   MMM/econometrics and advanced modelling).
+4. Track 4 is Paid Search. Google Ads is a platform suite; YouTube, Display,
+   Shopping, Demand Gen, SA360 and DV360 must be scoped correctly. DV360 is a
+   DSP, not a Paid Search module.
+5. Track 8 is direct publisher/media-owner commercial investment; Track 6 is
+   automated programmatic/DSP trading; Elective 18 is offline Traditional
+   Media Planning & Buying.
+
+These are curriculum taxonomy decisions, not a claim of complete empirical
+validation across every agency. The 5×16 role evidence matrix remains partial.
+
 
 ## 7. PR #5 guide audit: verified vs not yet verified
+
+The initial 169-chapter inventory is maintained in [169-chapter-evidence-register.md](169-chapter-evidence-register.md). It reconciles the rendered HTML chapter count but is not yet a full content/source/resource/rubric validation.
+
 
 PR #5 describes 169 specialist chapter guides: 149 added across 14 tracks plus 10 retained Full-Stack and 10 retained Paid Social guides. The guide pattern includes concept, simulated example, workflow steps, practice/deliverable, comprehension questions and glossary.
 
