@@ -281,3 +281,16 @@
 
 This closes the positional mapping blocker at source level. It does not replace browser/runtime testing or the remaining chapter content, source, resource, assessment and rubric review. The ID convention is now:
 `DPA-T01-CH01` through `DPA-T16-CHnn`.
+
+
+## Static pre-merge QA snapshot — 4 November 2026
+
+- 169 unique chapter IDs in HTML; 169 unique matching guide IDs; no missing, orphaned or duplicate guide IDs.
+- 391 HTML element IDs are unique; 13 internal anchors resolve to existing IDs.
+- Eight local scripts are declared and present in PR #5: the five guide files, chapter-guide-map.js and two Full-Stack master files.
+- Static source checks confirm localStorage progress persistence, theme switching, checkbox persistence, keyboard focus handling, reduced-motion handling and responsive CSS breakpoints.
+- No quiz scoring/submission engine was detected in the inspected index source. Static Q&A must not be called an interactive scored quiz.
+- Vercel status checks on the inspected PR branch commits returned success; this is not equivalent to automated test coverage.
+- Browser/device runtime QA, screenshot comparison, console/network testing, full external link crawl, chapter answer-key review and formal rubric scoring remain NOT RUN / OPEN.
+
+**Gate result:** structural ID mapping and static anchor checks PASS; browser/runtime QA and content/resource/assessment validation remain PARTIAL. Do not merge yet.
