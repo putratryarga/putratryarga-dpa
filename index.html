@@ -1390,6 +1390,30 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 #sec-role #rolePickerContent .role-grid{column-gap:24px!important;row-gap:24px!important;padding:0 20px!important}
 #sec-role #rolePickerContent .role-grid>.role-card{padding:18px!important}
 }
+
+/* Paid Social study-guide glossary, answer review, and mobile spacing */
+.lesson-glossary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px;margin:0}
+.lesson-glossary-item{min-width:0;padding:9px 0;border-bottom:1px dotted var(--line)}
+.lesson-glossary dt{color:var(--gold);font:650 11px/1.5 var(--sans)}
+.lesson-glossary dd{margin:4px 0 0;color:var(--ink2);font-size:11px;line-height:1.65}
+.lesson-check-list>li{padding-left:2px}
+.lesson-check-list>li>b{display:block;color:var(--ink);font-size:12px;line-height:1.6}
+.lesson-answer{margin-top:7px;padding:7px 10px;border-left:2px solid var(--gold-l);background:var(--sf2);border-radius:0 6px 6px 0}
+.lesson-answer>summary{cursor:pointer;list-style:none;color:var(--gold);font:600 10px/1.5 var(--sans)}
+.lesson-answer>summary::-webkit-details-marker{display:none}
+.lesson-answer>summary:after{content:" +";font:500 13px var(--mono)}
+.lesson-answer[open]>summary:after{content:" −"}
+.lesson-answer p{margin-top:6px!important;color:var(--ink2);font-size:11px;line-height:1.7}
+@media(max-width:760px){
+  details.week>summary{gap:10px;padding:16px 15px;align-items:flex-start}
+  details.week .wn{padding:5px 7px;font-size:10px}
+  details.week .wt{min-width:0;font-size:18px;line-height:1.3;overflow-wrap:anywhere}
+  details.week .wtog{margin-left:auto;padding-top:2px}
+  details.week .wbody{padding:4px 15px 18px}
+  .lesson-glossary{grid-template-columns:minmax(0,1fr)}
+  .lesson-fold-body{padding:11px 12px 13px}
+  .lesson-answer{padding:7px 9px}
+}
 </style>
 </head>
 <body>
@@ -2561,23 +2585,35 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Weekly performance report (synthetic)</li>
       <li><b>Capstone:</b> Social campaign launch plan dan optimization report lintas Meta dan TikTok: audience matrix, creative testing matrix, budget/pacing sheet, weekly performance report.</li>
     </ul></div>
-    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Ads Manager Learning Path (Small Business Academy)</span><span class="rd">Jalur belajar Ads Manager; punya skilling certificate via tes terpisah.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Sales</span><span class="rd">Learning path konversi website dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Promote Your TikTok Shop</span><span class="rd">Commerce &amp; Shop Ads dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Generate and Message Leads</span><span class="rd">Lead generation dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Advertising Fundamentals</span><span class="rd">Advertising Fundamentals untuk kebutuhan B2B.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <div class="box" style="margin-top:14px"><h3>Meta Blueprint · Course dengan Credential for Completion</h3>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211543-meta-advertising-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Running Facebook &amp; Instagram Advertising Campaigns</span><span class="rd">Setup campaign dan Ads Manager.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Selecting Campaign Objectives</span><span class="rd">Objective, conversion location, performance goal.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/219694-define-audiences" target="_blank" rel="noopener noreferrer"><span><span class="rn">Defining Your Ad Audience</span><span class="rd">Custom, Lookalike, dan audience strategy.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211562-ad-types-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Ad Auction, Buying &amp; Reservation Types</span><span class="rd">Auction, reservation, dan bidding.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative" target="_blank" rel="noopener noreferrer"><span><span class="rn">Best Practices for Ad Creative, Formats &amp; Placements</span><span class="rd">Creative, format, placement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Pixel vs. Conversions API</span><span class="rd">Pixel, CAPI, event, measurement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Analyzing Campaign Reporting &amp; Measurement</span><span class="rd">Analisis campaign dan measurement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings" target="_blank" rel="noopener noreferrer"><span><span class="rn">Privacy Controls &amp; Brand Safety</span><span class="rd">Perlindungan data, privacy, brand safety.</span></span><span class="tag t-free">Gratis · badge</span></a>
-    </div>
-  <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope Biddable Social Specialist Big Five (Meta, TikTok, LinkedIn + platform tambahan; audience/creative testing; bidding, pacing, tracking) · MRC social measurement standards.</p>
+    <div class="box track-source-catalog" style="margin-top:14px">
+      <h3>Sumber belajar · Paid Social</h3>
+      <p class="source-note">Prioritas praktik: Meta Ads Manager dan TikTok Ads Manager. LinkedIn Ads adalah pendalaman B2B; platform lain dipelajari sesuai kebutuhan pasar dan akses akun. Label course, learning path, credential, dan sertifikasi dibedakan sesuai bukti provider.</p>
+      <div class="tier-label">Tier 1 · Learning path resmi platform</div>
+      <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Meta Ads Manager learning</span><span class="rd">Objective, campaign creation, management, dan tracking. Tes untuk Meta Small Business Academy skilling certificate ditawarkan secara terpisah.</span></span><span class="tag t-doc">Path + test</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Conversions</span><span class="rd">Learning path untuk membawa pengunjung ke website dan mendorong sales atau sign-up.</span></span><span class="tag t-doc">Learning path</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Promote Your TikTok Shop</span><span class="rd">TikTok Shop, GMV Max, Shop Ads, campaign setup, dan measurement; halaman menampilkan Credential for Completion.</span></span><span class="tag t-doc">Credential</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Generate Leads</span><span class="rd">Instant Form, lead management, website lead generation, Messaging Ads, dan measurement; halaman menampilkan Credential for Completion.</span></span><span class="tag t-doc">Credential</span></a>
+      <a class="res" href="https://training.marketing.linkedin.com/path/start-advertising" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Start Advertising Your Business</span><span class="rd">Learning path 7 course tentang LinkedIn Ads, Campaign Manager, targeting, format, dan optimization; LinkedIn Advertising Fundamentals exam terpisah. Sertifikasi berlaku 2 tahun.</span></span><span class="tag t-doc">Path + exam</span></a>
+
+      <div class="tier-label">Tier 1 · Meta Blueprint courses</div>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211543-meta-advertising-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Running Facebook &amp; Instagram Advertising Campaigns</span><span class="rd">Membuat iklan dan menggunakan Meta Ads Manager.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Selecting Campaign Objectives in Meta Ads Manager</span><span class="rd">Campaign objective, conversion location, dan performance goal.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/219694-define-audiences" target="_blank" rel="noopener noreferrer"><span><span class="rn">Defining Your Ad Audience</span><span class="rd">Detailed targeting, Custom Audience, Lookalike Audience, dan Advantage+ audience.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211562-ad-types-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Ad Auction, Buying &amp; Reservation Types</span><span class="rd">Auction, reservation buying, dan bidding di Meta.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative" target="_blank" rel="noopener noreferrer"><span><span class="rn">Best Practices for Ad Creative, Formats &amp; Placements</span><span class="rd">Creative, format, placement, dan praktik optimasi.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Pixel vs. Conversions API</span><span class="rd">Pixel, Conversions API, dan custom events.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Ads Campaign Performance Measurement and Testing</span><span class="rd">Reporting, metrics, testing methodology, dan measurement.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings" target="_blank" rel="noopener noreferrer"><span><span class="rn">Privacy Controls and Brand Safety</span><span class="rd">Data privacy, business integrity, ad review, dan brand safety.</span></span><span class="tag t-doc">Course</span></a>
+
+      <div class="tier-label">Tier 1 · Dokumentasi operasional resmi</div>
+      <a class="res" href="https://ads.tiktok.com/help/article/campaign-set-up" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · How to Set Up an Ad Campaign</span><span class="rd">Objective, campaign setup, Manual/Search/Smart+, campaign budget, dan pre-delivery QA.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/help/article/ad-set-up?lang=en-GB" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · How to Create an Ad</span><span class="rd">Identity, ad format, creative asset, CTA, URL parameters, UTM, preview, dan QA.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/help/article/event-deduplication?lang=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · About Event Deduplication</span><span class="rd">Pixel dan Events API: event overlap, event_id, serta duplicate handling.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/resources/help/article/learning-phase" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · About Learning Phase</span><span class="rd">Delivery volatility, learning signals, dan perubahan yang dapat memengaruhi learning phase.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/resources/help/article/account-structure-best-practices?lang=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · Account Structure Best Practices</span><span class="rd">Campaign structure, audience, ad groups, dan delivery management.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/resources/help/article/bidding-budget-solutions-drive-tiktok-auction-ad-performance" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · Bidding &amp; Budget Solutions</span><span class="rd">Budget, bidding, expected CPA, dan auction delivery.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <div class="tier-label">Tier 2 · Framework &amp; standar</div>
+      <p style="color:var(--ink2);font-size:13px">Job scope Biddable Social Specialist: Meta/TikTok activation, B2B LinkedIn sebagai elective, audience dan creative testing, bidding, pacing, measurement, privacy, serta MRC social measurement standards. Course completion, completion credential, skilling certificate, dan professional certification bukan hal yang sama.</p>
     </div>
   </div>
   <h3 class="track-h" id="track-programmatic">6. Programmatic Specialist / Trader</h3>
@@ -4539,6 +4575,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
 </main>
 
+<script src="./paid-social-guides.js"></script>
 <script>
 (function(){
   var STATE_KEY = 'dpa.v12';
@@ -4633,7 +4670,7 @@ fullstack:[[0,1],[1,0],[0,2],[3,1],[4,5,6],[7,8,9,6],[2,11,4],[10,2],[12,13,0],[
 connection:[[0,1],[0,3],[0,2],[0,2],[0,1],[1,3],[0,1,2],[1,2],[0,2],[0,1,2,3]],
 media:[[0],[0],[0],[0,1],[0,1,2],[1],[0,1],[0,2],[0,2],[0,1,2]],
 paidsearch:[[0],[0,1],[0],[0],[0],[0],[0,2],[0,2],[0,1,2],[0,1,2]],
-paidsocial:[[5,8],[6,5],[7],[5,6],[9],[8],[10],[8,11],[11,9],[0,5,6,8,9,10,11,12]],
+paidsocial:[[0,5,17],[6,0,13,1],[7,12,0],[5,13,17],[9,14],[8,18,13],[10,15,14,12],[16,17,18],[11,9,14],[0,2,3,4,13]],
 programmatic:[[0,1],[0,1],[0,1],[0,1],[1],[1],[1,3],[1,0],[0,1,2],[1],[0,1,3],[0,1,2,3]],
 retail:[[5],[0,5],[1,2,3,5],[1,2],[0,2],[2,5],[3],[0,1,2,3],[4,5],[0,1,2,3,4,5]],
 investment:[[0,2],[2,0],[1,3],[1,2],[1,0,3],[1],[0,1,2],[1],[0,1,2,3],[0,1,2,3]],
@@ -4714,7 +4751,7 @@ function buildGuide(box,chapter,index){
  var deliverEl=chapter.querySelector(".deliv .chk span");
  var outcome=deliverEl?deliverEl.textContent.trim():"";
  var custom=role==="cf"?CF_GUIDE_NOTES[index]:(role==="adops"?ADOPS_GUIDE_NOTES[index]:null);
- var roleNote=role==="connection"?CONNECTION_GUIDES[index]:null;
+ var roleNote=role==="connection"?CONNECTION_GUIDES[index]:(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:null);
  var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
  var example=role==="adops"?(ADOPS_CASES[index]||ctx.example):(custom?custom[1]:(roleNote?roleNote.example:ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
  var steps=roleNote?roleNote.steps:topics.map(function(t){
@@ -4724,7 +4761,7 @@ function buildGuide(box,chapter,index){
   return 'Untuk "'+t+'": input apa yang diperlukan, seperti apa output yang benar, dan bagaimana lu memverifikasinya sebelum dipakai?';
  });
  var practice=roleNote?roleNote.practice:(ctx.worksheet+' Kerjakan deliverable "'+outcome+'" dalam urutan: (1) tulis brief dan asumsi; (2) isi komponen wajib dari subtopik; (3) tambahkan sumber, evidence, owner, dan versi; (4) review dengan quality check; (5) tulis keputusan, risiko, dan next action. '+(role==="adops"?"Gunakan data sintetis dan beri label SYNTHETIC.":"Pisahkan fakta, asumsi, dan data sintetis."));
- return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome};
+ return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome,terms:roleNote&&roleNote.terms?roleNote.terms:[]};
 }
 function appendChapterStudy(chapter,box,index,resources,selected){
  if(chapter.querySelector(".chapter-study"))return;
@@ -4737,9 +4774,10 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
  html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
  html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
+ if(guide.terms&&guide.terms.length){html+='<details class="lesson-fold"><summary>Istilah penting &amp; definisi</summary><div class="lesson-fold-body"><dl class="lesson-glossary">'+guide.terms.map(function(t){return '<div class="lesson-glossary-item"><dt>'+studyEsc(t.term)+'</dt><dd>'+studyEsc(t.definition)+'</dd></div>';}).join("")+'</dl></div></details>';}
  html+='<details class="lesson-fold"><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
  html+='<details class="lesson-fold"><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
- html+='<details class="lesson-fold"><summary>Cek pemahaman</summary><div class="lesson-fold-body"><ul>'+guide.checks.map(function(x){return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ul></div></details>';
+ html+='<details class="lesson-fold"><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
  html+='<details class="lesson-fold"><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
  html+='</section>';
  var body=chapter.querySelector(".wbody");if(!body)return;
