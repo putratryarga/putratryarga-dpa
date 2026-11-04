@@ -1414,6 +1414,41 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   .lesson-fold-body{padding:11px 12px 13px}
   .lesson-answer{padding:7px 9px}
 }
+
+/* Mobile-first role cards: visible separation at very narrow viewports. */
+#sec-role #rolePickerContent .role-grid{
+ display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ column-gap:30px!important;row-gap:32px!important;align-items:stretch!important;
+ width:min(100%,1120px)!important;max-width:1120px!important;
+ margin:24px auto 0!important;padding:0 24px!important;box-sizing:border-box!important;
+}
+#sec-role #rolePickerContent .role-grid>.role-card{
+ min-width:0!important;width:100%!important;height:100%!important;min-height:210px!important;
+ margin:0!important;padding:22px!important;box-sizing:border-box!important;
+ display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:15px!important;
+ border-radius:var(--r-lg)!important;overflow-wrap:anywhere!important;
+}
+#sec-role #rolePickerContent .role-grid>.fam-h{
+ grid-column:1/-1!important;width:100%!important;margin:28px 0 4px!important;padding:0 0 10px!important;
+}
+#sec-role #rolePickerContent .role-grid .role-head{display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:14px!important;min-width:0!important}
+#sec-role #rolePickerContent .role-grid .role-name{min-width:0!important;overflow-wrap:anywhere!important;line-height:1.32!important}
+#sec-role #rolePickerContent .role-grid .role-path{margin-top:auto!important}
+details.week{margin-bottom:16px!important}
+.lesson-fold{margin:12px 0!important}
+@media(max-width:760px){
+ #sec-role #rolePickerContent .role-grid{grid-template-columns:minmax(0,1fr)!important;row-gap:24px!important;column-gap:0!important;width:100%!important;max-width:720px!important;margin:18px auto 0!important;padding:0 18px!important}
+ #sec-role #rolePickerContent .role-grid>.role-card{min-height:0!important;height:auto!important;padding:19px!important;gap:13px!important}
+ #sec-role #rolePickerContent .role-grid .role-head{flex-direction:column!important;align-items:flex-start!important;gap:10px!important}
+ #sec-role #rolePickerContent .role-grid .role-pick{align-self:flex-start!important}
+ #sec-role #rolePickerContent .role-grid>.fam-h{margin:22px 0 4px!important}
+ details.week>summary{gap:10px!important;padding:16px 15px!important;align-items:flex-start!important}
+ details.week .wt{font-size:18px!important;line-height:1.3!important;overflow-wrap:anywhere!important}
+ details.week .wbody{padding:4px 15px 18px!important}
+ .chapter-study{padding:15px!important}
+ .chapter-source-list{grid-template-columns:minmax(0,1fr)!important}
+ .lesson-glossary{grid-template-columns:minmax(0,1fr)!important}
+}
 </style>
 </head>
 <body>
@@ -1987,20 +2022,37 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Optimization report dari synthetic campaign data</li>
       <li><b>Capstone:</b> Satu kasus brand dari business problem sampai integrated performance recommendation: strategy deck, media plan, measurement framework, optimization strategy, dan executive case study.</li>
     </ul></div>
-    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Full-Stack Digital Performance</h3><a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Inbound Certification</span><span class="rd">Buyer journey, customer-centric marketing, value proposition and inbound fundamentals.</span></span><span class="tag t-free">Free course</span></a>
-<a class="res" href="https://www.thinkwithgoogle.com/intl/en-apac/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Think with Google · APAC insights</span><span class="rd">Consumer, audience and category insights for brand and marketing planning.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://support.google.com/analytics/answer/6367342" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics · Demo Account</span><span class="rd">Official demo properties for funnel, events, acquisition and conversion measurement.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep" target="_blank" rel="noopener noreferrer"><span><span class="rn">Forage · Omnichannel Marketing simulation</span><span class="rd">Scenario-based practice for integrated channel decisions and customer experience.</span></span><span class="tag t-free">Free simulation</span></a>
-<a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Ads catalogue</span><span class="rd">Official learning catalogue for Google Ads and other Google advertising products.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Learning catalogue</span><span class="rd">Official training catalogue for Meta advertising, business tools and marketing.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://www.tiktokacademy.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Learning catalogue</span><span class="rd">Official learning paths for media buying and creative development.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Search Central · SEO Starter Guide</span><span class="rd">Official documentation on search-friendly website and content fundamentals.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://training.marketing.linkedin.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy</span><span class="rd">Official marketing learning paths, organic content modules and certification exams.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://www.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Community Management courses</span><span class="rd">Official courses on community building, engagement, moderation and measurement.</span></span><span class="tag t-doc">Sumber resmi</span></a>
-<a class="res" href="https://clarity.microsoft.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Clarity</span><span class="rd">Heatmaps and session recordings for user behaviour and conversion experience review.</span></span><span class="tag t-tool">Free tool</span></a>
-<a class="res" href="https://tagmanager.google.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager</span><span class="rd">Tag management workspace for analytics and marketing measurement setup.</span></span><span class="tag t-tool">Official tool</span></a>
-<a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Email Marketing Certification</span><span class="rd">Email strategy, segmentation, automation, performance and optimisation.</span></span><span class="tag t-free">Free course</span></a>
-<a class="res" href="https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Trailhead · Marketing Cloud Engagement</span><span class="rd">Structured learning trail on the Marketing Cloud Engagement platform.</span></span><span class="tag t-doc">Sumber resmi</span></a><p class="source-note">Gunakan sumber berdasarkan bab terkait. Platform dan course bisa memerlukan akun; credential hanya diklaim bila provider menyatakan syarat kelulusannya.</p></div>
+        <div class="box track-source-catalog" style="margin-top:14px">
+      <h3>Sumber belajar · Full-Stack Digital Performance</h3>
+      <p class="source-note">Urutan belajar: business dan consumer context → channel planning/activation → measurement → optimization → lifecycle. Semua sumber resmi; beberapa course memerlukan akun dan ujian terpisah untuk credential. Pilih referensi sesuai bab, bukan menonton semuanya sekaligus.</p>
+
+      <div class="tier-label">Tier 1 · Platform &amp; performance channel</div>
+      <a class="res" href="https://skillshop.withgoogle.com/intl/id_ALL/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Ads, Analytics &amp; Marketing Platform</span><span class="rd">Pelatihan resmi Google untuk Ads, Analytics, dan Google Marketing Platform; kursus online gratis, sertifikasi mengikuti assessment masing-masing.</span></span><span class="tag t-doc">Learning + exam</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Learning Catalog</span><span class="rd">Katalog resmi pelatihan Meta untuk advertising, campaign setup, creative, audience, measurement, dan business tools.</span></span><span class="tag t-doc">Course catalog</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Conversions</span><span class="rd">Learning path resmi tentang traffic website dan conversion, termasuk sales serta sign-up.</span></span><span class="tag t-doc">Learning path</span></a>
+      <a class="res" href="https://training.marketing.linkedin.com/path/start-advertising" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Start Advertising Your Business</span><span class="rd">Learning path Campaign Manager, targeting, format, dan dasar LinkedIn Ads; ujian sertifikasi terpisah.</span></span><span class="tag t-doc">Learning path</span></a>
+      <a class="res" href="https://business.google.com/us/think/measurement/cmo-guide-measuring-media-effectiveness/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Think with Google · A Media Effectiveness Guide</span><span class="rd">Measurement framework untuk KPI/metric structure, attribution, marketing mix modelling, incrementality, dan test-learn-improve.</span></span><span class="tag t-doc">Playbook</span></a>
+
+      <div class="tier-label">Tier 1 · Analytics, tagging &amp; measurement</div>
+      <a class="res" href="https://support.google.com/analytics/answer/6367342?hl=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics · Demo Account</span><span class="rd">Properti GA4 demo dengan data Google Merchandise Store dan Flood-It! untuk latihan laporan, acquisition, funnel, dan exploration. Perlu Google Account; akses read-only.</span></span><span class="tag t-tool">Practice data</span></a>
+      <a class="res" href="https://support.google.com/analytics/answer/10917952?hl=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">GA4 · Campaign URL Builder / UTM Parameters</span><span class="rd">Dokumentasi parameter kampanye kustom, source/medium, campaign, content, dan implikasi tagging.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://support.google.com/tagmanager/answer/13034206?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager · Set Up GA4 Events</span><span class="rd">Walkthrough recommended/custom events, trigger, parameter, verification, Preview, DebugView, dan publish workflow.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://support.google.com/tagmanager/answer/9442095?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager · Set Up Google Analytics</span><span class="rd">Konfigurasi Google tag agar data website mengalir ke properti Google Analytics.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+
+      <div class="tier-label">Tier 1 · Organic, content &amp; lifecycle</div>
+      <a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Search Central · SEO Starter Guide</span><span class="rd">Fondasi crawl/index, struktur situs, konten yang berguna, link, dan search visibility.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://academy.hubspot.com/courses/content-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Content Marketing Certification</span><span class="rd">Strategi content, storytelling, editorial framework, content planning, SEO, dan measurement. Kursus gratis; pilihan bahasa terbatas.</span></span><span class="tag t-free">Free course</span></a>
+      <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Email Marketing Certification</span><span class="rd">Segmentasi, personalization, automation, email copy/design, analytics, dan A/B testing. Kursus dan sertifikasi gratis sesuai syarat lulus.</span></span><span class="tag t-free">Free certification</span></a>
+
+      <div class="tier-label">Tier 1 · Experimentation &amp; optimization</div>
+      <a class="res" href="https://business.google.com/id/ad-tools/google-ad-experiments/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads · Campaign Experiments</span><span class="rd">Membuat eksperimen, membandingkan campaign asli dan variasi, menetapkan goal, jadwal, serta evaluasi.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://formedia.facebookblueprint.com/student/path/253143-meta-campaign-measurement-strategies" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Campaign Evaluation &amp; Measurement Strategies</span><span class="rd">Metrik evaluasi, incrementality, experiments di Ads Manager, dan advanced measurement studies.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://skillshop.withgoogle.com/googleads/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Google Ads Learning Paths</span><span class="rd">Search, Display, Measurement, Video, Shopping, dan certification paths; gunakan sebagai pendalaman channel.</span></span><span class="tag t-doc">Learning paths</span></a>
+
+      <div class="tier-label">Tier 2 · Practice standard</div>
+      <p style="color:var(--ink2);font-size:13px">Gunakan data SIMULATED atau demo account untuk latihan tanpa mengklaim client result. Bedakan course completion, badge, skilling certificate, dan professional certification. Untuk media effectiveness, baca attribution bersama incrementality dan business economics.</p>
+    </div>
+
   </div>
   <h3 class="fam-h">B. Strategy &amp; Planning</h3>
   <h3 class="track-h" id="track-connection">2. Connection / Communications Planner</h3>
@@ -4575,6 +4627,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
 </main>
 
+<script src="./fullstack-guides.js"></script>
 <script src="./paid-social-guides.js"></script>
 <script>
 (function(){
@@ -4666,7 +4719,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
   var CHAPTER_SOURCE_MAP = {
 cf:[[0,1],[6,0],[1,2],[3,1],[4,5],[6,5]],
-fullstack:[[0,1],[1,0],[0,2],[3,1],[4,5,6],[7,8,9,6],[2,11,4],[10,2],[12,13,0],[0,1,2,3,4,5,6,7,8,9,10,11,12,13]],
+fullstack:[[0,4],[10,4,1],[5,13,4],[4,0,3],[14,1,2,3],[9,10,1],[5,6,7,8,0],[12,13,5],[11,1],[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]],
 connection:[[0,1],[0,3],[0,2],[0,2],[0,1],[1,3],[0,1,2],[1,2],[0,2],[0,1,2,3]],
 media:[[0],[0],[0],[0,1],[0,1,2],[1],[0,1],[0,2],[0,2],[0,1,2]],
 paidsearch:[[0],[0,1],[0],[0],[0],[0],[0,2],[0,2],[0,1,2],[0,1,2]],
@@ -4751,7 +4804,7 @@ function buildGuide(box,chapter,index){
  var deliverEl=chapter.querySelector(".deliv .chk span");
  var outcome=deliverEl?deliverEl.textContent.trim():"";
  var custom=role==="cf"?CF_GUIDE_NOTES[index]:(role==="adops"?ADOPS_GUIDE_NOTES[index]:null);
- var roleNote=role==="connection"?CONNECTION_GUIDES[index]:(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:null);
+ var roleNote=role==="connection"?CONNECTION_GUIDES[index]:(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:(role==="fullstack"?FULLSTACK_GUIDES[index]:null));
  var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
  var example=role==="adops"?(ADOPS_CASES[index]||ctx.example):(custom?custom[1]:(roleNote?roleNote.example:ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
  var steps=roleNote?roleNote.steps:topics.map(function(t){
@@ -4775,10 +4828,10 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
  html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
  if(guide.terms&&guide.terms.length){html+='<details class="lesson-fold"><summary>Istilah penting &amp; definisi</summary><div class="lesson-fold-body"><dl class="lesson-glossary">'+guide.terms.map(function(t){return '<div class="lesson-glossary-item"><dt>'+studyEsc(t.term)+'</dt><dd>'+studyEsc(t.definition)+'</dd></div>';}).join("")+'</dl></div></details>';}
- html+='<details class="lesson-fold"><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
- html+='<details class="lesson-fold"><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
- html+='<details class="lesson-fold"><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
- html+='<details class="lesson-fold"><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
+ html+='<details class="lesson-fold" open><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
+ html+='<details class="lesson-fold" open><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
+ html+='<details class="lesson-fold" open><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
+ html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
  html+='</section>';
  var body=chapter.querySelector(".wbody");if(!body)return;
  var deliverable=body.querySelector(".deliv");
