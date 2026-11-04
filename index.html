@@ -1344,6 +1344,52 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 #sec-role .role-grid>.role-card{min-height:0!important;height:auto!important;padding:17px!important}#sec-role .role-grid .role-head{gap:10px!important}#sec-role .role-grid>.fam-h{margin-top:23px!important;padding-inline:4px!important}
 }
 @media(min-width:761px) and (max-width:980px){#sec-role .role-grid{column-gap:20px!important;padding:0 20px!important}#sec-role .role-grid>.role-card{padding:17px!important}}
+
+/* Final UX correction: two-column role selector with clear separation. */
+#sec-role #rolePickerContent .role-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:34px!important;row-gap:30px!important;align-items:stretch!important;width:min(100%,1120px)!important;max-width:1120px!important;margin:24px auto 0!important;padding:0 24px!important;box-sizing:border-box!important}
+#sec-role #rolePickerContent .role-grid>.fam-h{grid-column:1/-1!important;width:100%!important;margin:28px 0 2px!important;padding:0 0 10px!important}
+#sec-role #rolePickerContent .role-grid>.role-card{min-width:0!important;width:100%!important;min-height:210px!important;height:100%!important;margin:0!important;padding:22px!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:14px!important;overflow-wrap:anywhere!important}
+#sec-role #rolePickerContent .role-grid .role-head{gap:16px!important;min-width:0!important}
+#sec-role #rolePickerContent .role-grid .role-name{min-width:0!important;line-height:1.34!important;overflow-wrap:anywhere!important}
+#sec-role #rolePickerContent .role-grid .role-path{margin-top:auto!important}
+.chapter-study{margin:18px 0;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--sf2);min-width:0}
+.chapter-study-title{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.chapter-study-title h4{margin:3px 0 0;color:var(--ink);font:500 19px/1.3 var(--serif)}
+.chapter-study-kicker{color:var(--gold);font:600 10px/1.4 var(--mono);letter-spacing:.13em;text-transform:uppercase}
+.chapter-study-time{flex:0 0 auto;color:var(--ink3);font:500 10px/1.4 var(--mono)}
+.chapter-study-intro{margin:12px 0 14px!important;color:var(--ink2);font-size:12px;line-height:1.65}
+.lesson-fold{margin:9px 0;border:1px solid var(--line);border-radius:9px;background:var(--sf);overflow:hidden}
+.lesson-fold summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;color:var(--ink);font-size:12px;font-weight:650}
+.lesson-fold summary::-webkit-details-marker{display:none}
+.lesson-fold summary:after{content:"+";color:var(--gold);font-size:17px;font-weight:400}
+.lesson-fold[open] summary:after{content:"−"}
+.lesson-fold[open] summary{border-bottom:1px solid var(--line);color:var(--gold)}
+.lesson-fold-body{padding:13px 15px 15px;min-width:0}
+.lesson-fold-body p,.lesson-fold-body li{color:var(--ink2);font-size:12px;line-height:1.75}
+.lesson-fold-body p{margin:0}.lesson-fold-body ol,.lesson-fold-body ul{margin:10px 0 0;padding-left:20px}
+.lesson-fold-body li+li{margin-top:9px}.lesson-fold-body li b{color:var(--ink)}
+.lesson-topic-list{display:flex;flex-direction:column;gap:8px}
+.chapter-deliverable{margin-top:12px;padding:11px 13px;border:1px solid var(--line);border-radius:8px;background:var(--sf2);font-size:12px;line-height:1.65;color:var(--ink2)}
+.chapter-deliverable b{color:var(--gold)}
+.lesson-source-count{color:var(--ink3);font:500 10px var(--mono)}
+.chapter-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 12px;min-width:0}
+.chapter-resource-item{min-width:0;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:var(--sf2)}
+.chapter-resource-item .res{display:flex;align-items:flex-start;gap:8px;padding:0;border:0;min-width:0}
+.chapter-resource-item .rn{font-size:11px;line-height:1.45}.chapter-resource-item .rd{font-size:10px;line-height:1.5}
+.chapter-resource-item .tag{font-size:9px;white-space:normal;max-width:105px;text-align:center}
+@media(max-width:760px){
+#sec-role #rolePickerContent .role-grid{grid-template-columns:minmax(0,1fr)!important;column-gap:0!important;row-gap:18px!important;width:100%!important;max-width:720px!important;padding:0 16px!important}
+#sec-role #rolePickerContent .role-grid>.role-card{min-height:0!important;height:auto!important;padding:18px!important}
+#sec-role #rolePickerContent .role-grid>.fam-h{margin-top:22px!important}
+.chapter-study{padding:14px;margin-top:14px}
+.chapter-study-title{align-items:flex-start;flex-direction:column}
+.chapter-source-list{grid-template-columns:minmax(0,1fr)}
+.lesson-fold summary{align-items:flex-start}
+}
+@media(min-width:761px) and (max-width:980px){
+#sec-role #rolePickerContent .role-grid{column-gap:24px!important;row-gap:24px!important;padding:0 20px!important}
+#sec-role #rolePickerContent .role-grid>.role-card{padding:18px!important}
+}
 </style>
 </head>
 <body>
@@ -4648,33 +4694,57 @@ function findChapterCatalog(box){
  for(var i=0;i<nodes.length;i++){var heading=nodes[i].querySelector("h3");if(heading&&/sumber belajar/i.test(heading.textContent))return nodes[i];}
  return null;
 }
+
+var TOPIC_LESSONS=[[["business model","revenue","margin","cac","ltv"],"Petakan sumber revenue, biaya yang mengikuti penjualan, margin kontribusi, serta biaya akuisisi atau retensi. Definisikan rumus, periode, dan basis margin sebelum membandingkan CAC dengan LTV."],[["brief","problem statement"],"Pisahkan gejala, masalah terverifikasi, objective, audience, scope, budget, timeline, dan bukti yang belum tersedia. Bedakan fakta, interpretasi, dan asumsi."],[["audience","consumer","segment","needs","tension","behavior"],"Bangun segmen dari kebutuhan, motivasi, perilaku, hambatan, konteks, dan decision criteria. Demografi saja bukan insight; setiap insight perlu bukti."],[["journey","funnel","touchpoint"],"Petakan tindakan, pertanyaan, emosi, hambatan, pengaruh, dan touchpoint pada tiap tahap. Journey tidak selalu linear; prioritaskan momen dengan bukti dan dampak."],[["insight","cultural","human tension","trend"],"Bedakan observasi, tren, dan insight. Insight menghubungkan sinyal dengan motivasi atau tension yang menjelaskan perilaku; uji relevansi dan bukti yang dapat membantahnya."],[["positioning","proposition","proof point","reason to believe"],"Positioning menyatakan ruang pembeda brand; proposition menjanjikan nilai; proof point memberi alasan untuk percaya. Pastikan janji dapat dibuktikan."],[["kpi","metric","attribution","measurement","consent","privacy"],"Definisikan outcome, diagnostic, dan guardrail metrics beserta rumus, sumber, owner, dan window. Attribution bukan bukti kausalitas; validasi consent, duplicate, missing event, timezone, dan source."],[["cpm","cpc","ctr","cvr","cpa","roas","reach","frequency","forecast"],"Tuliskan numerator, denominator, unit, window, dan asumsi sebelum menghitung. Lower cost tidak menjamin nilai bisnis bila kualitas traffic atau margin turun."],[["media mix","channel role","paid owned","earned","shared","inventory","channel"],"Pilih channel berdasarkan tugas pada journey, bukan popularitas. Jelaskan audience, role, format, reach/intent/credibility, timing, cost, measurement, dan batas channel."],[["flight","flighting","phasing","flowchart","schedule","pacing"],"Ubah strategi menjadi kalender delivery: tanggal, fase, spend, weight, format, audience, dependency, dan owner. Siapkan skenario perubahan budget, inventory, atau launch date."],[["keyword","search term","intent","match type","negative"],"Pisahkan target keyword dari search term aktual; klasifikasikan intent, relevansi, volume, landing-page fit, match type, dan negative keyword."],[["auction","bidding","bid strategy","quality score","impression share"],"Pahami eligibility, auction signals, bid strategy, relevance, conversion signal, dan budget. Diagnosis lost impression share karena budget secara terpisah dari rank."],[["creative","format","placement","specification","rich media","fallback"],"Cocokkan aset dengan format dan placement. Validasi dimensi, aspect ratio, file size, duration, click URL, SSL, fallback, safe zone, dan rendering."],[["campaign structure","ad group","ad set","campaign objective","conversion location"],"Tentukan batas campaign berdasarkan objective, budget, geography, language, audience, atau intent. Hindari fragmentasi dan jaga naming, ownership, permission, serta reporting."],[["pixel","conversion api","capi","floodlight","tag","tracker","utm","event","data layer"],"Bedakan placement tag, click/impression tracker, pixel, server event, Floodlight, dan UTM. Definisikan event, parameter, deduplication, consent, conversion window, dan source of truth. UTM bukan conversion tag."],[["ad server","placement","publisher","trafficking","trafficking sheet","naming taxonomy","ad operations","ad ops"],"Ad Ops menerjemahkan media plan menjadi advertiser, campaign, site, placement, ad, creative, tag, URL, targeting, flight, budget, owner, approval, dan status. Jaga relasi serta jejak perubahan."],[["cm360","campaign manager","floodlight activity","floodlight tag","placement tag"],"Di CM360 pahami relasi advertiser, campaign, site, placement, ad, creative, dan tag. Placement mewakili slot inventory dan menghasilkan tag; Floodlight mengukur activity sesuai counting method dan conversion window."],[["qa","go-live","pre-launch","verification","test click","test impression","test conversion"],"Uji trafficking, creative, URL, tags, events, targeting, dates, budget, consent/policy, publisher acceptance, dan approval. Simpan expected result, actual result, owner, severity, dan sign-off."],[["monitoring","pacing","troubleshooting","delivery","under-delivery"],"Bandingkan planned dengan actual delivery per tanggal, placement, audience, creative, dan metric. Pisahkan masalah supply, bid, budget, targeting, creative, tag, dan measurement."],[["discrepancy","billing","invoice","reconciliation","rate card","makegood","insertion order"],"Samakan event definition, timezone, cutoff, attribution window, deduplication, latency, currency, tax, rate, billable basis, dan kontrak. Jangan sebut selisih sebagai error sebelum basisnya setara."],[["dsp","ssp","rtb","openrtb","programmatic","pmp","deal id","supply path","ads.txt"],"Telusuri buyer–DSP–exchange–SSP–publisher, auction, deal, dan ad server. Validasi Deal ID, floor, authorized sellers, reseller chain, fees, inventory quality, timeout, dan privacy."],[["viewability","ivt","invalid traffic","brand safety","verification","mrc","ias","doubleverify"],"Pisahkan brand safety, suitability, viewability, invalid traffic, dan effectiveness. Catat definisi vendor, eligible/measured impressions, exclusions, coverage, dan standard."],[["retail media","commerce media","shopper","sponsored product","sponsored search","digital shelf","product feed"],"Hubungkan retailer data, product feed, placement, shopper intent, availability, product page, purchase, dan closed-loop sales. Periksa item eligibility, stock, content quality, attribution, dan incrementality."],[["incrementality","holdout","experiment","a/b","hypothesis","cohort"],"Tentukan hypothesis, randomization unit, control/treatment, primary metric, guardrail, sample, duration, contamination, dan decision rule. Bedakan attributed dari incremental outcome."],[["ga4","analytics","dashboard","looker","sql","data model","reporting"],"Definisikan business question dan data model sebelum dashboard. Validasi event, grain, joins, deduplication, timezone, filters, attribution, dan freshness."],[["seo","crawl","index","canonical","robots","sitemap","schema","aeo","geo"],"Pisahkan crawlability, indexability, relevance, architecture, page experience, authority, dan intent. Validasi dengan crawler, Search Console, logs, dan SERP."],[["crm","lifecycle","automation","trigger","suppression","deliverability","retention","churn"],"Rancang trigger, segment, channel, content, timing, frequency, suppression, branch, exit condition, dan outcome. Ukur retention, repeat purchase, churn, atau margin."],[["content strategy","editorial","content pillar","storytelling","distribution"],"Hubungkan audience question, insight, brand POV, content pillar, format, cadence, distribution, CTA, dan measurement. Setiap asset harus punya job di journey."],[["kol","koc","influencer","creator","usage rights","whitelisting","spark ads"],"Nilai creator berdasarkan audience fit, quality, authenticity, fee, deliverables, usage rights, exclusivity, disclosure, amplification permission, dan measurement."],[["affiliate","commission","reversal","clawback","coupon"],"Definisikan eligible action, commission basis, attribution, validation, reversal, partner tier, fraud control, payout, dan contribution margin."],[["community","moderation","advocacy","ugc","crisis","escalation","sentiment"],"Tetapkan purpose, member segments, participation rules, moderation severity, response SLA, escalation, UGC permission, care handoff, dan health metrics."]];
+function explainTopic(topic,role,title,outcome){
+ var low=String(topic||"").toLowerCase();
+ for(var i=0;i<TOPIC_LESSONS.length;i++){
+  for(var j=0;j<TOPIC_LESSONS[i][0].length;j++){
+   if(low.indexOf(TOPIC_LESSONS[i][0][j])!==-1)return TOPIC_LESSONS[i][1];
+  }
+ }
+ return 'Pada track '+(TRACK_NAMES[role]||role)+', "'+topic+'" adalah bagian dari "'+title+'". Identifikasi input, standar, urutan tindakan, owner, output, dan quality check; hubungkan ke deliverable "'+outcome+'".';
+}
+var ADOPS_CASES=["Gunakan campaign display sintetis: satu advertiser, dua publisher placement, satu creative, satu landing page, click tracker, dan satu conversion event. Gambar alur media plan sampai iklan tampil dan tandai pemilik tiap object.","Ambil brief campaign dua placement dan dua creative size. Buat trafficking sheet berisi campaign/placement ID, format, URL, dates, budget, targeting, tags, naming, owner, approval, dan status.","Simulasikan creative display 300×250 dan video 9:16. Buat spec matrix dimensions, file size, duration, codec, audio, click URL, SSL, fallback, safe zone, dan compatibility.","Buat tag map: placement/ad tag, click tracker, impression tracker, conversion pixel/Floodlight, event parameter, dan UTM. Jelaskan penerbit, pemasang, tester; UTM bukan conversion pixel.","Susun draft CM360 hierarchy advertiser → campaign → site/placement → ad → creative. Generate placement tag dan rancang Floodlight activity dengan counting method sesuai definisi bisnis.","Gunakan pre-launch checklist untuk asset, rendering, URL, click/impression tag, conversion event, targeting, dates, budget, consent/policy, publisher acceptance, dan approval. Simpan evidence.","Buat monitoring log harian spend, impressions, clicks, conversions, CPM, CPC, CTR, CPA, pacing, rejection, placement status, viewability, IVT, dan frequency. Diagnosis satu kasus under-delivery.","Buat dua reporting extracts dengan timezone atau attribution window berbeda. Reconcile clicks, impressions, conversions, sessions, dan Floodlight; pisahkan penyebab terbukti dari dugaan.","Gunakan IO latihan untuk membandingkan contracted impressions, rate, dates, placement, currency, tax, discount, bonus, makegood, dan billable basis terhadap invoice dan proof of delivery.","Satukan brief, trafficking sheet, creative spec, tag map, CM360/Floodlight plan, QA, go-live, monitoring, discrepancy, billing reconciliation, dan operational review. Labeli data SYNTHETIC."];
 function buildGuide(box,chapter,index){
- var ctx=TRACK_GUIDE_CONTEXT[box.dataset.trackBox]||TRACK_GUIDE_CONTEXT.fullstack;
+ var role=box.dataset.trackBox;
+ var ctx=TRACK_GUIDE_CONTEXT[role]||TRACK_GUIDE_CONTEXT.fullstack;
  var title=(chapter.querySelector(".wt")||{}).textContent||"bab ini";
  var topics=Array.prototype.slice.call(chapter.querySelectorAll(".wbody > .box ul li")).map(function(x){return x.textContent.trim();});
- var deliver=chapter.querySelector(".deliv .chk span");var outcome=deliver?deliver.textContent.trim():"";
- var custom=box.dataset.trackBox==="cf"?CF_GUIDE_NOTES[index]:(box.dataset.trackBox==="adops"?ADOPS_GUIDE_NOTES[index]:null);
- var roleNote=box.dataset.trackBox==="connection"?CONNECTION_GUIDES[index]:null;
- var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Pada bab "'+title.trim()+'", kuasai setiap subtopik sampai lu bisa menerangkan definisi, input/data, alur kerja, output, indikator kualitas dan kapan keputusan tersebut relevan.');
- var example=custom?custom[1]:(roleNote?roleNote.example:ctx.example);
- var steps=roleNote?roleNote.steps:topics.map(function(t,i){return (i===0?"Pahami: ":i===1?"Hubungkan: ":"Terapkan: ")+t+" — baca sumber, tulis definisi, input, proses, output, owner dan risiko; lalu tunjukkan penerapannya pada kasus latihan.";});
- var checks=roleNote?roleNote.checks:["Apa definisi dan input minimum dari konsep utama bab ini?","Bagaimana konsep ini memengaruhi keputusan, output atau risiko role tersebut?","Bukti apa yang membuat hasil latihan dapat dipercaya, dan apa batasannya?"];
- var practice=roleNote?roleNote.practice:ctx.worksheet;
- return {concept:concept,example:example,steps:steps,practice:practice+(outcome?" Deliverable bab ini: "+outcome:"")+" Sertakan asumsi, bukti/sumber, keterbatasan dan alasan keputusan.",checks:checks};
+ var deliverEl=chapter.querySelector(".deliv .chk span");
+ var outcome=deliverEl?deliverEl.textContent.trim():"";
+ var custom=role==="cf"?CF_GUIDE_NOTES[index]:(role==="adops"?ADOPS_GUIDE_NOTES[index]:null);
+ var roleNote=role==="connection"?CONNECTION_GUIDES[index]:null;
+ var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
+ var example=role==="adops"?(ADOPS_CASES[index]||ctx.example):(custom?custom[1]:(roleNote?roleNote.example:ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
+ var steps=roleNote?roleNote.steps:topics.map(function(t){
+  return '<b>'+studyEsc(t)+'</b>. '+studyEsc(explainTopic(t,role,title,outcome))+' Tindakan belajar: tulis definisi dan sumber, petakan input serta proses, lalu catat output dan kesalahan yang harus dicegah.';
+ });
+ var checks=roleNote?roleNote.checks:topics.slice(0,3).map(function(t){
+  return 'Untuk "'+t+'": input apa yang diperlukan, seperti apa output yang benar, dan bagaimana lu memverifikasinya sebelum dipakai?';
+ });
+ var practice=roleNote?roleNote.practice:(ctx.worksheet+' Kerjakan deliverable "'+outcome+'" dalam urutan: (1) tulis brief dan asumsi; (2) isi komponen wajib dari subtopik; (3) tambahkan sumber, evidence, owner, dan versi; (4) review dengan quality check; (5) tulis keputusan, risiko, dan next action. '+(role==="adops"?"Gunakan data sintetis dan beri label SYNTHETIC.":"Pisahkan fakta, asumsi, dan data sintetis."));
+ return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome};
 }
 function appendChapterStudy(chapter,box,index,resources,selected){
  if(chapter.querySelector(".chapter-study"))return;
  var guide=buildGuide(box,chapter,index);
- var links=selected.slice(0,5).map(function(n){var a=resources[n].cloneNode(true);a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");return '<div class="chapter-resource-item">'+a.outerHTML+'</div>';}).join("");
- var html='<section class="chapter-study">';
+ var links=selected.slice(0,5).map(function(n){
+  var a=resources[n].cloneNode(true);a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");
+  return '<div class="chapter-resource-item">'+a.outerHTML+'</div>';
+ }).join("");
+ var html='<section class="chapter-study" aria-label="Materi belajar bab">';
  html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
- html+='<div class="chapter-study-concept"><h5>Penjelasan inti</h5><p>'+studyEsc(guide.concept)+'</p></div>';
- html+='<div class="chapter-study-example"><h5>Contoh kasus</h5><p>'+studyEsc(guide.example)+'</p></div>';
- html+='<div class="chapter-study-columns"><div><h5>Materi yang harus dikuasai</h5><ol>'+guide.steps.map(function(x){return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div>';
- html+='<div><h5>Latihan terpandu</h5><p>'+studyEsc(guide.practice)+'</p><h5 class="chapter-selfcheck-title">Cek pemahaman</h5><ul>'+guide.checks.map(function(x){return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ul></div></div>';
- html+='<div class="chapter-sources"><div class="chapter-sources-head"><h5>Sumber belajar</h5><span>'+selected.length+' referensi terpilih untuk bab ini</span></div><div class="chapter-source-list">'+(links||'<p class="source-empty">Katalog belum memuat sumber untuk bab ini. Perlu audit referensi manual.</p>')+'</div></div></section>';
+ html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
+ html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
+ html+='<details class="lesson-fold"><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
+ html+='<details class="lesson-fold"><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
+ html+='<details class="lesson-fold"><summary>Cek pemahaman</summary><div class="lesson-fold-body"><ul>'+guide.checks.map(function(x){return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ul></div></details>';
+ html+='<details class="lesson-fold"><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
+ html+='</section>';
  var body=chapter.querySelector(".wbody");if(!body)return;
- var deliverable=body.querySelector(".deliv");if(deliverable)deliverable.insertAdjacentHTML("beforebegin",html);else body.insertAdjacentHTML("beforeend",html);
+ var deliverable=body.querySelector(".deliv");
+ if(deliverable)deliverable.insertAdjacentHTML("beforebegin",html);else body.insertAdjacentHTML("beforeend",html);
 }
 function attachChapterSources(){
  document.querySelectorAll("[data-track-box]").forEach(function(box){
