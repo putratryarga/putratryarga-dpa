@@ -4629,6 +4629,9 @@ details.week{margin-bottom:16px!important}
 
 <script src="./fullstack-guides.js"></script>
 <script src="./paid-social-guides.js"></script>
+<script src="./role-study-guides-part1.js"></script>
+<script src="./role-study-guides-part2.js"></script>
+<script src="./role-study-guides-part3.js"></script>
 <script>
 (function(){
   var STATE_KEY = 'dpa.v12';
@@ -4803,10 +4806,12 @@ function buildGuide(box,chapter,index){
  var topics=Array.prototype.slice.call(chapter.querySelectorAll(".wbody > .box ul li")).map(function(x){return x.textContent.trim();});
  var deliverEl=chapter.querySelector(".deliv .chk span");
  var outcome=deliverEl?deliverEl.textContent.trim():"";
- var custom=role==="cf"?CF_GUIDE_NOTES[index]:(role==="adops"?ADOPS_GUIDE_NOTES[index]:null);
- var roleNote=role==="connection"?CONNECTION_GUIDES[index]:(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:(role==="fullstack"?FULLSTACK_GUIDES[index]:null));
+ var custom=role==="cf"?CF_GUIDE_NOTES[index]:null;
+ var libraryGuides=(typeof ROLE_STUDY_GUIDES!=="undefined"&&ROLE_STUDY_GUIDES[role])?ROLE_STUDY_GUIDES[role]:null;
+ var libraryGuide=libraryGuides?libraryGuides[index]:null;
+ var roleNote=libraryGuide||(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:(role==="fullstack"?FULLSTACK_GUIDES[index]:(role==="connection"?CONNECTION_GUIDES[index]:null)));
  var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
- var example=role==="adops"?(ADOPS_CASES[index]||ctx.example):(custom?custom[1]:(roleNote?roleNote.example:ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
+ var example=roleNote?roleNote.example:(custom?custom[1]:(role==="adops"?(ADOPS_CASES[index]||ctx.example):ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
  var steps=roleNote?roleNote.steps:topics.map(function(t){
   return '<b>'+studyEsc(t)+'</b>. '+studyEsc(explainTopic(t,role,title,outcome))+' Tindakan belajar: tulis definisi dan sumber, petakan input serta proses, lalu catat output dan kesalahan yang harus dicegah.';
  });
@@ -4826,6 +4831,7 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  var html='<section class="chapter-study" aria-label="Materi belajar bab">';
  html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
  html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
+ html+='<details class="lesson-fold" open><summary>Rute belajar &amp; bukti kerja</summary><div class="lesson-fold-body"><ol><li><b>LEARN:</b> pahami konsep dan contoh kasus, lalu baca referensi yang dipetakan untuk bab ini.</li><li><b>CREDENTIAL ROUTE:</b> cek ketentuan provider. Course completion, badge, skilling certificate, dan professional certification adalah bukti yang berbeda; jangan mengklaim credential sebelum assessment dan syaratnya terpenuhi.</li><li><b>BUILD:</b> kerjakan latihan terpandu dan simpan worksheet, diagram, query, brief, campaign map, atau output lain yang diminta.</li><li><b>VERIFY:</b> jawab cek pemahaman, uji output terhadap acceptance criteria, simpan evidence, dan tulis limitation serta next action.</li></ol><p style="margin-top:10px">Gunakan data sintetis hanya untuk latihan dan beri label SIMULATED. Jangan menyajikannya sebagai client result atau live campaign outcome.</p></div></details>';
  html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
  if(guide.terms&&guide.terms.length){html+='<details class="lesson-fold"><summary>Istilah penting &amp; definisi</summary><div class="lesson-fold-body"><dl class="lesson-glossary">'+guide.terms.map(function(t){return '<div class="lesson-glossary-item"><dt>'+studyEsc(t.term)+'</dt><dd>'+studyEsc(t.definition)+'</dd></div>';}).join("")+'</dl></div></details>';}
  html+='<details class="lesson-fold" open><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
