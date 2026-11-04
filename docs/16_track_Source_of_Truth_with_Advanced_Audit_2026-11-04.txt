@@ -8633,3 +8633,26 @@ No merge has been performed or authorized.
 ================================================================================
 END OF ADDENDUM v1.9
 ================================================================================
+
+
+================================================================================
+ADDENDUM v2.0 — CURRENT PREVIEW DEPLOYMENT CHECK
+Date: 4 November 2026
+================================================================================
+
+A follow-up Vercel inspection was completed after v1.9:
+- PR #5 current head: 6951142d20eb1683dca1a46b918516088f340c37.
+  Vercel state: READY.
+- PR #6 current head: c335d1913d510f08dd76845a3394c557340b3345.
+  Vercel state: READY.
+
+Both PRs remain OPEN and DRAFT. Neither is merged. Their PR descriptions now
+link the canonical Source of Truth, role crosswalk, 169-chapter evidence
+register, resource/credential validation and elective audit.
+
+Preview deployment READY confirms deployment completion only. The preview
+URLs were not successfully inspected through the web reader, and no real
+browser/device runtime QA has been completed. Keep that gate open.
+================================================================================
+END OF ADDENDUM v2.0
+================================================================================
