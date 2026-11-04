@@ -2,7 +2,7 @@
 
 **Date:** 4 November 2026  
 **Branch:** `audit/align-all-16-track-learning-modules`  
-**Status:** 169 chapter-specific rubric drafts generated from the actual chapter learning objective and practice/deliverable prompts. This is an authored assessment baseline, not SME-approved scoring.  
+**Status:** 169 chapter-specific rubric drafts generated from actual chapter learning objectives and practice prompts. This is an authored assessment baseline, not SME-approved scoring.  
 **Canonical Source of Truth:** [16-track Source of Truth](16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt)
 
 ## Scoring standard
@@ -35,7 +35,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -55,7 +55,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -75,7 +75,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -95,7 +95,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -115,7 +115,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -135,7 +135,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -155,7 +155,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -175,7 +175,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -195,7 +195,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -215,7 +215,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -235,7 +235,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -255,7 +255,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -275,7 +275,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -295,7 +295,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -315,7 +315,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -335,7 +335,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -355,7 +355,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -375,7 +375,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -395,7 +395,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -415,7 +415,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -435,7 +435,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -455,7 +455,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -475,7 +475,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -495,7 +495,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -515,7 +515,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -535,7 +535,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -555,7 +555,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -575,7 +575,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -595,7 +595,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -615,7 +615,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -635,7 +635,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -655,7 +655,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -675,7 +675,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -695,7 +695,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -715,7 +715,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -735,7 +735,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -755,7 +755,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -775,7 +775,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -795,7 +795,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -815,7 +815,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -835,7 +835,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -855,7 +855,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -875,7 +875,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -895,7 +895,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -915,7 +915,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -935,7 +935,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -955,7 +955,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -975,7 +975,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -995,7 +995,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1015,7 +1015,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1035,7 +1035,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1055,7 +1055,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1075,7 +1075,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1095,7 +1095,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1115,7 +1115,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1135,7 +1135,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1155,7 +1155,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1175,7 +1175,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1195,7 +1195,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1215,7 +1215,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1235,7 +1235,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1255,7 +1255,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1275,7 +1275,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1295,7 +1295,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1315,7 +1315,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1335,7 +1335,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1355,7 +1355,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1375,7 +1375,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1395,7 +1395,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1415,7 +1415,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1435,7 +1435,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1455,7 +1455,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1475,7 +1475,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1495,7 +1495,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1515,7 +1515,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1535,7 +1535,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1555,7 +1555,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1575,7 +1575,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1595,7 +1595,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1615,7 +1615,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1635,7 +1635,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1655,7 +1655,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1675,7 +1675,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1695,7 +1695,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1715,7 +1715,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1735,7 +1735,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1755,7 +1755,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1775,7 +1775,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1795,7 +1795,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1815,7 +1815,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1835,7 +1835,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1855,7 +1855,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1875,7 +1875,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1895,7 +1895,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1915,7 +1915,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1935,7 +1935,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1955,7 +1955,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1975,7 +1975,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -1995,7 +1995,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2015,7 +2015,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2035,7 +2035,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2055,7 +2055,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2075,7 +2075,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2095,7 +2095,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2115,7 +2115,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2135,7 +2135,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2155,7 +2155,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2175,7 +2175,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2195,7 +2195,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2215,7 +2215,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2235,7 +2235,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2255,7 +2255,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2275,7 +2275,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2295,7 +2295,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2315,7 +2315,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2335,7 +2335,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2355,7 +2355,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2375,7 +2375,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2395,7 +2395,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2415,7 +2415,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2435,7 +2435,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2455,7 +2455,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2475,7 +2475,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2495,7 +2495,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2515,7 +2515,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2535,7 +2535,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2555,7 +2555,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2575,7 +2575,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2595,7 +2595,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2615,7 +2615,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2635,7 +2635,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2655,7 +2655,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2675,7 +2675,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2695,7 +2695,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2715,7 +2715,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2735,7 +2735,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2755,7 +2755,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2775,7 +2775,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2795,7 +2795,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2815,7 +2815,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2835,7 +2835,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2855,7 +2855,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2875,7 +2875,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2895,7 +2895,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2915,7 +2915,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2935,7 +2935,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2955,7 +2955,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2975,7 +2975,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -2995,7 +2995,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3015,7 +3015,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3035,7 +3035,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3055,7 +3055,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3075,7 +3075,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3095,7 +3095,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3115,7 +3115,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3135,7 +3135,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3155,7 +3155,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3175,7 +3175,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3195,7 +3195,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3215,7 +3215,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3235,7 +3235,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3255,7 +3255,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3275,7 +3275,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3295,7 +3295,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3315,7 +3315,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3335,7 +3335,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3355,7 +3355,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3375,7 +3375,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3395,7 +3395,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
 - The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and any platform/version dependencies are explicitly labelled.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
@@ -3407,7 +3407,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 ## Validation protocol before release
 
-1. Assign a qualified reviewer for each role family; record reviewer name/qualification and date.
+1. Assign a qualified reviewer for each role family; record reviewer qualification and date.
 2. Verify each learning outcome is observable and aligned to the chapter ID and competency.
 3. Validate technical steps, formulas, platform workflows, policy, privacy and current product terminology against official documentation.
 4. Review every answer key. Accept valid alternate answers; reject answers that are incomplete, overgeneralized or technically wrong. Add citations or source URLs to the review record.
