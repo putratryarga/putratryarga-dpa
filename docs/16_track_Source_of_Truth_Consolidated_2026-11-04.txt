@@ -8227,3 +8227,42 @@ certifications mandatory for beginners.
 ================================================================================
 END OF ADDENDUM v1.3
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.4 — IMMUTABLE CHAPTER/GUIDE ID MAPPING IMPLEMENTED
+Date: 4 November 2026
+================================================================================
+
+The positional chapter-guide mapping blocker identified in v1.1/v1.2 has now
+been addressed in the PR #5 branch:
+- index.html assigns a unique data-chapter-id to all 169 rendered core chapters.
+- fullstack-guides.js and paid-social-guides.js assign explicit chapterId fields
+  to the 20 retained Full-Stack/Paid Social guide objects.
+- role-study-guides-part1.js, part2.js and part3.js pass explicit chapter IDs
+  into the G() guide constructor for all 149 specialist guide objects.
+- chapter-guide-map.js builds a registry keyed by chapterId and rejects
+  duplicate IDs.
+- buildGuide() resolves a guide by chapter.dataset.chapterId, not by array
+  position. Missing guide mapping uses generic chapter guidance rather than
+  silently displaying another chapter's guide.
+
+Static reconciliation against the current PR #5 branch:
+- HTML chapter IDs: 169
+- Unique HTML chapter IDs: 169
+- Guide IDs: 169
+- Unique guide IDs: 169
+- Missing guide IDs: 0
+- Orphan guide IDs: 0
+- Duplicate guide IDs: 0
+- Registry script loaded after the guide source scripts: yes
+- Legacy positional lookup in buildGuide(): removed
+
+This closes the source-level positional mapping issue. It does NOT certify
+browser/runtime behavior, content quality, source accuracy, chapter resources,
+answer-key correctness, scoring, rubrics or responsive UI. Those remain
+separate QA gates. The chapter evidence register is:
+docs/169-chapter-evidence-register.md
+================================================================================
+END OF ADDENDUM v1.4
+================================================================================
