@@ -156,7 +156,7 @@ Update materi berdasarkan audit 3 November 2026
 
 Role tersedia
 
-9 jalur
+9 Ad Operations | D: Senior AdOps Specialist listings | G: direct AdOps JD not located in this batch | D: AdOps role families in career taxonomy | G: direct AdOps JD not located in this batch | B: data/media operations capability, no direct AdOps JD
 
 Role baru
 
@@ -272,7 +272,7 @@ Ini rincian sebenarnya.
 
 ## 1. Meta Ads: apa saja yang ditambahkan?
 
-8 course Meta Blueprint
+8 Media Investment | D/A: Senior Investment Associate/Client Investment roles | A: Director, Media Investment, traditional/broadcast buying, negotiation and reconciliation | B/D: Integrated Investment Lead covers cross-channel national media/commerce and investment governance | A: Senior Media Investment Executive Jakarta, offline TV/radio/OOH/print/cinema | D: Digital Investment/Publishing career listings
 
 Selain Meta Ads Manager Learning Path, ada delapan course yang ditautkan di roadmap:
 
@@ -1745,11 +1745,11 @@ Sumber yang diaudit: repository index.html.
 6. Keputusan akhir yang gw rekomendasikan
 Agar tidak ada lagi perubahan struktur berulang, gw ingin menetapkan standar berikut sebagai curriculum governance:
 Standar kurikulum baru
-3 learning tiers
+3 Media Planning | A/D: Media Planner/Planning and Executive Connection Planning role evidence | A: Media Planner, Programmatic and digital planning role evidence | A: Senior Associate, Planning JD | A: Media Planner Jakarta JD, including integrated planning and local offline work | D/A: Media Planner career listings and selected JD evidence
 Wajib
 
 Official platform learning, industry standards, dan applied learning harus ada di setiap track.
-6 learning stages
+6 Programmatic | A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic role listings across KINESSO/UM | G: direct programmatic JD not located in this batch | D: Trader Programmatique and Private Marketplace Manager listings
 Wajib
 
 Common Foundation, Role-Based Core, Official Platform Learning & Certification, Practical Simulation, Assessment, dan Portfolio Capstone.
@@ -2703,7 +2703,7 @@ Bukti penguasaan kompetensi dan pekerjaan.
 8. Audit status rancangan
 Komponen	Status
 Common Foundation	Struktur dirancang
-14 roadmap utama	Draft kurikulum selesai
+14 KOL / Creator | A/B: Content Planning JD includes KOL/creator strategy and briefing | A: Social & Community Management Specialist includes UGC/influencer discovery, briefing and campaign coordination | G: dedicated KOL/creator JD not located in this batch | B: Account Manager influencer campaign role evidence | G: dedicated KOL/creator JD not located in this batch
 3 elective	Struktur awal tersedia
 Big Five role mapping	Cross-check dilakukan
 Tier 1 resource mapping	Resource utama terpetakan
@@ -7925,22 +7925,22 @@ genuine gaps (G). It is a coverage register, not a claim that every cell has a
 full JD-level competency validation.
 
 Track | WPP Media | Publicis Media | Omnicom Media | Dentsu | Havas Media Network
-1 Full-Stack / Performance | B/A: Performance and cross-channel media roles; see WPP listings | A: Digital Manager performance media, cross-channel | D/B: Performance Manager and integrated media roles | B: integrated digital/media planning role | D: SEA/Performance Marketing listings
-2 Connection Planning | A: Executive Connection Planning JD | B/D: planning capability/title evidence; full role JD still needed | D: Planning role | B: integrated planning roles | D: Connections Planning career category
+1 Full-Stack / Performance | A/D: Performance Marketing and integrated planning role evidence; title and JD scope vary by market | A: Digital Manager cross-channel performance media | D/B: Performance Manager, integrated investment and performance roles | B: integrated digital/media planning and performance role evidence | D: SEA/Performance Marketing roles in career index
+2 Connection Planning | A: Executive Connection Planning Jakarta JD, full-funnel channel roles, budget/phasing and brand/performance KPIs | B/D: planning capability and role evidence; dedicated direct JD still needed | D: Planning role/title evidence; direct connection-planning JD not yet verified | B: integrated planning/media planner roles | D: Connections Planning category and Media Planner career listings
 3 Media Planning | D/A: media planning listings | A/B: media planner/programmatic role evidence | A: Senior Associate Planning JD | A: Jakarta Media Planner JD | D/A: Media Planner career listings and older JD
-4 Paid Search | D: Paid Search Executive/Manager listing | B/D: cross-channel digital roles; direct SEM JD required | D: SEM/paid search listings | G: direct JD not located in this batch | D: SEA Executive listing
-5 Paid Social | D/A: Paid Social Manager/Executive listings and activation JD | B/D: digital/performance roles; direct paid-social JD needed | D: Paid Social Specialist listings | G: direct JD not located in this batch | G: direct JD not located in this batch
+4 Paid Search | D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+5 Paid Social | D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
 6 Programmatic | A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
-7 Retail & Commerce Media | D/A: Retail DSP, Retail Search and Commerce roles | B/D: commerce/media capabilities; direct JD needed | D: Retail Search/Commerce roles | G: direct JD not located in this batch | G: direct JD not located in this batch
+7 Retail & Commerce Media | D/A: Retail DSP, Retail Search and Commerce roles | D: Retail Media Lead title evidence; full JD required | D: Retail Search/Commerce roles and career-index evidence | A: Jakarta eCommerce Executive covers marketplace advertising, retail media and affiliate ecosystems | D: Director of Retail Media employer-attributed LinkedIn posting covers retail DSP, retailer data and activation
 8 Media Investment | D/A: Senior Investment Associate/Client Investment roles | B: Media Investment Director role evidence in elective audit | B/D: integrated investment roles | A: Senior Media Investment Executive Jakarta JD | D: Digital Investment/Publishing roles
 9 Ad Operations | D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
-10 Media Analytics / Science | A/D: Manager Analytics, Director Measurement Science, econometrician listings | A: Associate Director Analytics JD | D: Insight/Marketing Science career families | B: Director Data Science and analytics roles | D: Analytics career listings
-11 SEO / AEO / GEO | D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | D: SEO Specialist/Manager listings | G: direct JD not located in this batch | G: direct JD not located in this batch
-12 CRM / Lifecycle | G: direct CRM JD not located in this batch | G: direct CRM JD not located in this batch | B/D: customer/precision capability, direct role evidence needed | G: direct CRM JD not located in this batch | D: CRM Director career listing
-13 Content / Organic Social | D: Content Planner/Content Operations and Social roles; direct organic JD needed | G: direct organic/content JD not located in this batch | B/D: Social Strategist/Content Manager role family | B/D: social media analyst/community role evidence | D: Content Creator career listing; not equivalent to content strategy
+10 Media Analytics / Science | A/D: Manager Analytics, Director Measurement Science and econometrician role listings | A: Associate Director, Analytics JD | D: Insights/Marketing Science career families | A: Director Data Science JD covers MMM, incrementality, forecasting, Python/SQL and methodology leadership | D: Analytics career listings and Global Data & Analytics Manager title evidence
+11 SEO / AEO / GEO | D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+12 CRM / Lifecycle | G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+13 Content / Organic Social | A: Manager Content Planning Jakarta, full-funnel content strategy, social/KOL integration and performance | A: Social Strategist and Social & Community Management Specialist JDs | A: Social Media Strategist role, organic channel publishing, editorial calendars, listening and community | A: Senior Social Media Executive Jakarta and Social Media Officer role evidence | D: Content Creator title-level evidence; no direct organic-social strategy JD in current index
 14 KOL / Creator | D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
-15 Affiliate | G: direct role JD not located in this batch | G: direct role JD not located in this batch | B/D: legacy network/affiliate evidence requires current Omnicom-specific validation | G: direct role JD not located in this batch | G: direct role JD not located in this batch
-16 Community | B/D: social/community leadership roles | G: direct role JD not located in this batch | D: Social Strategist/community-adjacent evidence | B/D: Social Media Analyst/Community role evidence | G: direct role JD not located in this batch
+15 Affiliate | G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+16 Community | B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
 
 Important:
 - D is evidence of a job family/title on an employer careers index, not proof of
