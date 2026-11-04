@@ -8687,3 +8687,12 @@ This addendum supersedes earlier statements that the 169-chapter register contai
 - All 507 Q&A items are source-matched for extraction integrity, **not yet approved for correctness**. SME/technical review, alternate-answer acceptance, rubric calibration, final resource mapping, 80-cell agency-role evidence validation and browser/runtime QA remain release blockers.
 
 The repair is committed in PR #5 and PR #6. Keep both PRs open/draft; this addendum does not authorize merge or claim full curriculum validation.
+
+
+# ADDENDUM — 4 NOVEMBER 2026: 80-CELL EVIDENCE MATRIX AND FIVE SOURCE UPGRADES
+
+The new `docs/80-cell-agency-role-evidence-matrix.md` records all 16 core tracks against WPP Media, Publicis Media, Omnicom Media, Dentsu and Havas Media Network (80 cells). It transcribes the role-level evidence notes in the 169-chapter register, preserves A/B/C/D/G evidence classes and explicitly records missing or adjacent evidence rather than inferring equivalence.
+
+A fresh employer-source pass upgraded five cells: Track 5/Havas Paid Social; Track 6/Dentsu Programmatic; Track 9/Publicis Ad Operations; Track 11/Dentsu SEO; Track 15/WPP Affiliate. Each source URL, scope and geography/seniority limitation is recorded in the matrix and validation delta.
+
+**Status remains PARTIAL:** all 80 cells are represented, but not all 80 have current direct JDs or competency-level extraction. Do not label 80/80 validated. Browser/runtime QA and chapter SME/answer-key review remain separate release blockers.
