@@ -43,3 +43,8 @@
 - Check expiry/renewal at the point of certification purchase or enrollment.
 - Map each credential to one or more competencies and specify whether it is required, recommended or optional.
 - Do not use credential counts as a substitute for demonstrated role competency.
+
+
+## 16-track resource mapping and 169-chapter register
+
+A first-pass official-source map for every core chapter is now maintained in [169-chapter resource mapping register](169-chapter-resource-mapping.md). It assigns a Tier 1 learning route, Tier 2 official reference/standard and Tier 3 chapter-specific practice artifact to all 169 chapters. This is a traceable mapping baseline, not proof of final SME source-fit or Indonesian account accessibility. Source-type and credential distinctions are preserved; platform course completion is not conflated with professional certification.
