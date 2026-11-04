@@ -1,6 +1,6 @@
 # 16 Core Track — Role Competency Crosswalk
 **Version:** 1.1 · **Date:** 4 November 2026  
-**Canonical Source of Truth:** [Consolidated 16-track Source of Truth](16_track_Source_of_Truth_Consolidated_2026-11-04.txt)  
+**Canonical Source of Truth:** [Consolidated 16-track Source of Truth](16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt)  
 **Evidence status:** competency architecture documented; agency-level evidence validation remains partial.
 
 | # | Canonical track | Competency spine | Core outputs | Boundary control |
