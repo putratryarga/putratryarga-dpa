@@ -8673,3 +8673,17 @@ Do not interpret the v2.0 SHA values as the final HEAD after this addendum.
 ================================================================================
 END OF ADDENDUM v2.1
 ================================================================================
+
+
+# ADDENDUM — 4 NOVEMBER 2026: SOURCE-TO-REGISTER EXTRACTION REPAIR
+
+This addendum supersedes earlier statements that the 169-chapter register contains literal `undefined` in extracted Q&A/glossary fields. The actual source-guide arrays were parsed from `role-study-guides-part1.js`, `role-study-guides-part2.js` and `role-study-guides-part3.js` and reconciled by immutable chapter ID.
+
+- 149 added guide objects were reconciled to their chapter IDs.
+- The 169-entry chapter register was preserved. Its 507 Q&A pairs and glossary fields for the 149 added guides now contain the corresponding source-guide text.
+- Register literal `undefined` scan: 2,086 before; 0 after.
+- The main rubric register now has 169 chapter-specific entries (previously 168), including DPA-T16-CH12 Community Capstone.
+- Rubric literal `undefined` scan: 888 before; 0 after.
+- All 507 Q&A items are source-matched for extraction integrity, **not yet approved for correctness**. SME/technical review, alternate-answer acceptance, rubric calibration, final resource mapping, 80-cell agency-role evidence validation and browser/runtime QA remain release blockers.
+
+The repair is committed in PR #5 and PR #6. Keep both PRs open/draft; this addendum does not authorize merge or claim full curriculum validation.
