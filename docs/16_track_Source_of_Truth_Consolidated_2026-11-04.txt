@@ -8547,3 +8547,48 @@ EVIDENCE LIMITATIONS
 ================================================================================
 END OF ADDENDUM v1.7
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.8 — FULL GUIDE CONTENT EXTRACTION FOR 169 CHAPTERS
+Date: 4 November 2026
+================================================================================
+
+The 169-chapter evidence register has been expanded from an inventory table
+into a chapter-by-chapter guide-content extraction:
+docs/169-chapter-evidence-register.md
+
+It now contains:
+- 169 unique chapter IDs, reconciled to 169 matching guide objects.
+- Track/role competency ID mapping for every chapter (initial crosswalk).
+- Five-agency role-level evidence row attached to each chapter, with explicit
+  note that this is role-level, not proof for each subtopic.
+- Guide concept/learning focus, simulated example, workflow/technical steps,
+  practice/deliverable and glossary terms.
+- 507 static comprehension Q&A items, including the current guide answer text,
+  extracted for SME correctness review.
+- Chapter-level resource links where present; where none exist, a resource
+  mapping gap is explicitly recorded.
+- Explicit assessment/rubric gaps for every chapter.
+
+This makes all 169 chapters individually inspectable and gives reviewers the
+current content and answer text to validate. It does NOT mean all 169 are
+content-validated. Remaining per-chapter gates:
+1. Verify learning objective is observable and not merely a paraphrase of title.
+2. Verify each technical step, named tool and method against authoritative
+   current documentation.
+3. Verify the simulated case and practice deliverable are realistic, complete
+   and appropriate to the role/seniority.
+4. Review all 507 question/answer pairs for correctness, ambiguity and
+   coverage; do not assume extracted answer text is correct.
+5. Map official resource URLs to chapter competency and verify access, language,
+   cost, prerequisites, credential type and expiry.
+6. Author role-specific rubric criteria, pass thresholds, assessor guidance
+   and resubmission rules.
+7. Run full browser/runtime QA and regression tests.
+
+The 169-chapter audit status is now: INVENTORY + GUIDE CONTENT + STATIC Q&A
+EXTRACTION COMPLETE; SME/TECHNICAL/RESOURCE/ASSESSMENT VALIDATION PARTIAL.
+================================================================================
+END OF ADDENDUM v1.8
+================================================================================
