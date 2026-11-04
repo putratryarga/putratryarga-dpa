@@ -6,6 +6,19 @@ Roadmap belajar digital performance berbasis **job family agency**: satu Common 
 
 Dibuat oleh **Putra Try Arga** · Bahasa utama: Indonesia · Gratis untuk pembelajaran mandiri.
 
+
+## Source of Truth and audit status
+
+The consolidated research and validation record is maintained in
+[`docs/16_track_Source_of_Truth_Consolidated_2026-11-04.txt`](docs/16_track_Source_of_Truth_Consolidated_2026-11-04.txt).
+The canonical role taxonomy is maintained in
+[`docs/16-core-track-role-crosswalk.md`](docs/16-core-track-role-crosswalk.md).
+
+The taxonomy decisions are recorded, but the 16-agency role evidence audit,
+169-chapter evidence register, resource/credential validation and final
+pre-merge QA remain in progress. Do not treat this repository as fully
+validated or merge PRs until the documented release blockers are closed.
+
 ## Tentang proyek
 
 Repository ini berisi website edukasi satu halaman (*single-page learning roadmap*). Struktur v11 disusun dari audit fungsi pekerjaan di global agency network (WPP, Publicis, Omnicom/legacy IPG, Dentsu, Havas) dan benchmark kurikulum Purwadhika × P3I — bukan sekadar daftar course.
