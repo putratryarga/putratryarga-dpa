@@ -26,11 +26,11 @@ Each chapter uses five dimensions scored 0–3 (maximum 15), converted to 100 po
 The chapter-specific checklist below is the minimum evidence the assessor must inspect. The five dimensions above are scored against this exact artifact, not against generic participation or time spent.
 
 ### DPA-T01-CH01 — Business Strategy & Commercial Understanding
-**Competency:** Not parsed
+**Competency:** T01-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Digital performance dimulai dari business problem, bukan langsung dari channel. Pahami model bisnis, revenue, variable cost, margin, customer acquisition, repeat purchase, dan payback. Pisahkan growth, efficiency, serta profitability. CAC, LTV, AOV, contribution margin, dan retention perlu definisi dan periode yang konsisten. Marketing dapat memperbesar demand, tetapi tidak otomatis memperbaiki distribusi, stok, harga, kualitas produk, atau kapasitas sales.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat business analysis satu halaman: model bisnis, target customer, product/price, revenue stream, cost structure, contribution margin, AOV, CAC, asumsi repeat/LTV, sales funnel, tiga risiko operasional, dan tiga marketing implications. Gunakan angka SIMULATED, tulis rumus dan sumber/asumsi.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -39,18 +39,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa revenue naik belum tentu berarti marketing membaik?
+   - **Current guide answer (not yet approved):** Revenue dapat naik karena diskon tinggi, CAC mahal, product mix bermargin rendah, refund, atau repeat quality yang buruk. Periksa contribution setelah variable cost dan marketing.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa perbedaan CAC dan CPA?
+   - **Current guide answer (not yet approved):** CPA adalah biaya per action yang didefinisikan; CAC adalah biaya memperoleh customer baru sesuai cakupan biaya/periode yang disepakati. CPA purchase tidak otomatis sama dengan fully-loaded CAC.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Kapan masalah bisnis tidak tepat dijawab dengan menambah media spend?
+   - **Current guide answer (not yet approved):** Ketika bottleneck utamanya stock-out, distribusi, checkout failure, sales response, harga, margin, atau product-market fit.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH02 — Consumer Research, Brand & Positioning
-**Competency:** Not parsed
+**Competency:** T01-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Consumer research mengubah asumsi audience menjadi pemahaman untuk memilih proposition, pesan, dan channel. Bedakan data primer (interview, survey, observation, usability test) dari data sekunder (CRM, sales, search, social listening, review, industry report). Segmentasi yang berguna dibangun dari kebutuhan, perilaku, konteks, motivasi, dan decision criteria, bukan demografi saja. Positioning menentukan ruang pembeda brand; value proposition menyatakan nilai; proof point memberi alasan untuk percaya.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat consumer snapshot dua segmen: job-to-be-done, need, tension, trigger, barrier, alternatives, purchase criteria, media behavior, proposition, proof, dan evidence. Tambahkan positioning statement serta tiga asumsi yang perlu diuji.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -59,18 +67,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa demografi saja belum cukup?
+   - **Current guide answer (not yet approved):** Demografi mendeskripsikan siapa, tetapi belum menjelaskan mengapa seseorang membeli, hambatannya, atau bukti yang diperlukan. Need dan behavior lebih langsung mengarahkan proposition serta channel.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda positioning dan value proposition?
+   - **Current guide answer (not yet approved):** Positioning adalah ruang pembeda yang ingin ditempati brand relatif terhadap alternatif; value proposition adalah nilai spesifik yang dijanjikan kepada target dan harus didukung proof.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Bagaimana membedakan insight dari opini?
+   - **Current guide answer (not yet approved):** Insight menjelaskan perilaku/tension yang relevan, punya evidence yang dapat dilacak, dan mengubah keputusan. Opini adalah generalisasi tanpa evidence atau implikasi teruji.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH03 — Funnel, Customer Journey & KPI Architecture
-**Competency:** Not parsed
+**Competency:** T01-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Funnel dan customer journey adalah alat diagnosis, bukan diagram linear yang selalu sama untuk semua kategori. Definisikan outcome bisnis terlebih dahulu, lalu petakan tindakan, pertanyaan, hambatan, dan touchpoint. KPI tree menghubungkan business outcome dengan driver dan diagnostic metric. Setiap metric perlu definisi, formula, unit, sumber data, owner, window, dan guardrail. Hindari vanity metrics dan jangan membandingkan metrik dengan denominator berbeda.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat journey map dan KPI tree minimal lima stage dengan action, customer question, friction, touchpoint, event, owner, primary KPI, diagnostic metric, dan guardrail. Hitung conversion dari data SIMULATED dan jelaskan prioritas serta evidence yang kurang.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -79,18 +95,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa KPI tree harus dimulai dari outcome bisnis?
+   - **Current guide answer (not yet approved):** Agar channel metric tidak menjadi tujuan sendiri. Aktivitas harus menjelaskan kontribusi terhadap sales, margin, qualified pipeline, atau retention.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa akibat denominator yang salah saat menghitung conversion rate?
+   - **Current guide answer (not yet approved):** Rate dapat terlihat baik/buruk secara artifisial dan mendorong keputusan salah. Definisikan populasi, event, unit, serta periode.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apakah customer journey selalu linear?
+   - **Current guide answer (not yet approved):** Tidak. Perjalanan dapat berulang atau dipengaruhi offline touchpoints, komunitas, marketplace, dan rekomendasi. Peta harus mengikuti bukti kategori.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH04 — Integrated Channel & Media Planning
-**Competency:** Not parsed
+**Competency:** T01-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Integrated channel planning menetapkan peran channel berdasarkan audience, objective, journey, creative capability, cost, reach/intent, dan measurement. Paid, owned, earned, shared menjelaskan cara distribusi/ownership, bukan daftar channel eksklusif. Media mix tidak ditentukan dengan membagi budget rata atau mengikuti tren. Buat rationale tiap channel, proyeksi dengan asumsi, flighting, dan evaluasi. Forecast adalah estimasi, bukan janji.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat integrated channel plan tiga bulan: objective, audience, role, format, budget, timing/flight, forecast dengan asumsi, KPI, source, dependency, risk, owner, rationale. Bandingkan base budget dengan skenario -20% dan jelaskan trade-off.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -99,18 +123,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa budget tidak dibagi rata ke semua channel?
+   - **Current guide answer (not yet approved):** Fungsi, audience, inventory, cost, dan conversion role berbeda. Alokasi mengikuti objective, marginal return, capacity, dan confidence forecast.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda reach forecast dan guaranteed reach?
+   - **Current guide answer (not yet approved):** Forecast adalah estimasi berbasis asumsi; guaranteed delivery hanya berlaku bila ada komitmen kontraktual dan definisi delivery yang jelas.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang dicek saat suatu channel tampak punya ROAS tinggi?
+   - **Current guide answer (not yet approved):** Attribution overlap, assisted role, incrementality, volume, margin, saturation, dan opportunity cost sebelum budget dipindahkan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH05 — Paid Search, Paid Social & Programmatic Fundamentals
-**Competency:** Not parsed
+**Competency:** T01-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Paid media perlu dipahami melalui perbedaan demand capture, demand generation, dan automated buying. Search merespons query/intent; social ads menggabungkan audience signal dan creative untuk menstimulasi demand; programmatic mengakses inventory lintas publisher melalui DSP, SSP, exchange, auction, atau deal. Objective, audience, creative, conversion signal, bidding, inventory quality, privacy, dan measurement berbeda antarpublisher. Full-stack planner memilih channel, memberi brief yang benar, dan menilai output specialist.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat paid-channel decision matrix untuk (A) menangkap demand, (B) mengenalkan produk, (C) menambah reach dengan kontrol inventory. Bandingkan Search, Social, Programmatic dari audience/intent, format, buying mechanism, KPI, data/creative needs, risk, use case, dan kondisi tidak direkomendasikan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -119,18 +151,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa perbedaan demand capture dan demand generation?
+   - **Current guide answer (not yet approved):** Demand capture merespons permintaan yang sudah muncul seperti query; demand generation membangun awareness, preference, atau kebutuhan yang belum diekspresikan sebagai query.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apakah CPM termurah berarti media paling efisien?
+   - **Current guide answer (not yet approved):** Tidak. CPM tidak menilai kualitas audience, viewability, invalid traffic, attention, conversion, atau contribution.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa peran full-stack planner ketika ada specialist platform?
+   - **Current guide answer (not yet approved):** Menetapkan objective, channel role, budget guardrail, KPI, brief, dependency, governance, dan evaluasi; bukan mengambil alih keputusan teknis tanpa konteks.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH06 — Organic Search, Content & Community
-**Competency:** Not parsed
+**Competency:** T01-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Organic search, content, dan community memperkuat discoverability, consideration, trust, dan hubungan jangka panjang. SEO mencakup crawling/indexing, site architecture, helpful content, technical accessibility, dan search intent. Content strategy menghubungkan audience question dengan brand POV, format, cadence, distribution, dan measurement. GEO/AEO atau AI-search visibility masih berkembang; jangan menganggap trik khusus sebagai jaminan citation/ranking. Community butuh purpose, moderation, response, dan customer-care handoff.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat organic plan untuk satu kategori: keyword/topic cluster, intent, pillar page, tiga supporting content, community program, distribution, internal links, CTA, KPI, source, owner, update cadence. Audit satu URL secara konseptual dan prioritaskan issue berdasarkan impact, evidence, effort, dependency.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -139,18 +179,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa keyword stuffing bukan SEO strategy?
+   - **Current guide answer (not yet approved):** Search intent, usefulness, crawling/indexing, trust, dan user experience lebih penting daripada repetisi keyword. Keyword stuffing dapat menurunkan kualitas dan melanggar spam policy.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa perbedaan content pillar dan content campaign?
+   - **Current guide answer (not yet approved):** Pillar adalah tema editorial jangka panjang; campaign adalah aktivitas terikat objective, timing, message, dan measurement.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Bagaimana mengukur community selain follower?
+   - **Current guide answer (not yet approved):** Participation quality, repeat contributors, response time, resolution, advocacy, member retention, UGC permission, dan customer experience.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH07 — Tracking, Analytics & Measurement
-**Competency:** Not parsed
+**Competency:** T01-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Measurement mengubah interaksi menjadi data yang dapat dipercaya. Mulai dari business question, framework, event taxonomy, data layer/parameter, source of truth, consent, dan QA—baru kemudian dashboard. GA4 memakai event-based model; UTM mengklasifikasikan traffic campaign; Google Tag Manager mengelola tag/trigger/variable; pixel/API mengirim signal ke platform iklan. Attribution memberi credit menurut model/window tertentu, bukan otomatis kausalitas. Dashboard rapi tidak memperbaiki event yang salah.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat measurement plan satu campaign: business question, KPI tree, event map, trigger, parameters, UTM taxonomy, consent, tag owner, QA steps, expected/actual, source of truth, dashboard dimensions/metrics, data quality, dan limitation. Gunakan Google Analytics demo account untuk latihan data yang disediakan Google.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -159,18 +207,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa perbedaan UTM dan GA4 event?
+   - **Current guide answer (not yet approved):** UTM adalah parameter URL untuk mengidentifikasi source/campaign; event merekam tindakan seperti purchase atau generate_lead. UTM tidak menggantikan event tracking.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa platform ads dan GA4 melaporkan conversion berbeda?
+   - **Current guide answer (not yet approved):** Attribution model/window, timezone, identity, consent, event definition, click/view rules, deduplication, serta data processing dapat berbeda.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa fungsi Preview/DebugView saat QA GTM dan GA4?
+   - **Current guide answer (not yet approved):** Menguji apakah tag terpicu pada kondisi benar dan event/parameter masuk sesuai harapan sebelum dipublikasikan; simpan test evidence.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH08 — CRO, Experimentation & Optimization
-**Competency:** Not parsed
+**Competency:** T01-C02, T01-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** CRO dan experimentation mengubah diagnosis funnel menjadi hipotesis yang diuji. CRO bukan hanya mengubah warna tombol; ia menggabungkan research, analytics, usability, page performance, offer clarity, trust, friction, dan operational constraints. Hipotesis menyebut observation, insight, change, expected mechanism, audience, dan metric. A/B testing memerlukan randomization, unit tepat, primary metric, guardrails, sample/duration, stopping rule, serta kontrol kontaminasi. Conversion rate naik belum tentu profit naik bila kualitas order turun.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat optimization backlog tiga hipotesis. Untuk hipotesis prioritas, tulis evidence, mechanism, audience, control/treatment, primary metric, guardrails, randomization, sample/duration assumption, QA, stopping criteria, dan decision rule. Jangan mengklaim significance tanpa perhitungan benar.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -179,18 +235,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa yang membuat hipotesis CRO dapat diuji?
+   - **Current guide answer (not yet approved):** Ia menghubungkan evidence dengan perubahan spesifik, mekanisme, audience, primary metric, dan guardrails. Pernyataan 'buat halaman lebih menarik' belum cukup.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa mengubah checkout, harga, promo, desain, dan shipping sekaligus tidak ideal?
+   - **Current guide answer (not yet approved):** Banyak variabel berubah bersamaan sehingga penyebab hasil sulit dipisahkan. Isolasi intervensi utama atau gunakan desain multivariat yang benar.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa arti hasil eksperimen inconclusive?
+   - **Current guide answer (not yet approved):** Data belum memberi bukti cukup untuk memilih winner sesuai decision rule. Itu bukan bukti kedua variasi identik; periksa power, sample, variance, dan implementasi.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH09 — CRM, Lifecycle & Automation
-**Competency:** Not parsed
+**Competency:** T01-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** CRM dan lifecycle marketing mengelola hubungan setelah interaksi: lead nurturing, onboarding, activation, repeat purchase, loyalty, win-back, dan churn prevention. Rancang komunikasi berdasarkan lifecycle stage, segment, trigger, content, timing, frequency, suppression, exit condition, dan consent. Email/WhatsApp bukan sekadar channel blast; keduanya memerlukan permission, preference management, deliverability, data hygiene, dan customer-service coordination. Ukur activation, repeat rate, retention, churn, revenue/margin, dan customer experience.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat lifecycle map dua flow: (1) new customer onboarding, (2) replenishment/repeat atau lapsed win-back. Tiap flow berisi trigger, eligibility, consent, segment, message, channel, delay, branch, frequency cap, suppression, exit, KPI, guardrail, dan QA. Unsubscribe/opt-out wajib jadi test scenario.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -199,18 +263,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa suppression dan exit condition penting?
+   - **Current guide answer (not yet approved):** Mencegah komunikasi berulang/tidak relevan, misalnya reminder purchase setelah customer sudah membeli atau promotional message setelah unsubscribe.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apakah nomor WhatsApp/email otomatis berarti consent marketing?
+   - **Current guide answer (not yet approved):** Tidak. Kontak yang tersedia bukan bukti izin promosi. Perlu dasar pemrosesan/consent, preference management, opt-out, dan kebijakan channel.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa repeat purchase dibaca bersama margin dan customer experience?
+   - **Current guide answer (not yet approved):** Diskon agresif dapat menaikkan repeat tetapi menurunkan margin; frekuensi pesan berlebih meningkatkan unsubscribe/complaint. Nilai hubungan dinilai utuh.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T01-CH10 — Integrated Digital Performance Capstone
-**Competency:** Not parsed
+**Competency:** T01-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone menguji kemampuan mengintegrasikan strategy, channel, measurement, optimization, dan lifecycle menjadi rekomendasi yang masuk akal secara komersial. Paket kerja harus konsisten dari business problem sampai KPI, channel role, budget, tracking, experiment, dan executive decision. Setiap angka harus bersumber atau diberi label SIMULATED; forecast bukan actual. Full-stack bukan berarti menguasai setiap platform sedalam operator, tetapi memahami trade-off, memimpin specialist, dan menjaga sistem keputusan koheren.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun capstone folder: (1) brief restatement + business economics, (2) consumer snapshot/positioning, (3) journey map + KPI tree, (4) integrated channel plan + budget scenario, (5) paid-channel comparison, (6) organic/content/community plan, (7) measurement/event/UTM spec, (8) CRO backlog, (9) CRM lifecycle map, (10) executive recommendation. Presentasikan 8–10 slide plus workbook. Rubrik 0–3: commercial logic, audience/strategy, channel planning, measurement, optimization reasoning, executive communication. Setiap area minimal 2; tandai semua synthetic figures.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -219,18 +291,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa yang membedakan rekomendasi full-stack dari kumpulan channel tactic?
+   - **Current guide answer (not yet approved):** Semua tactic diturunkan dari satu business objective dan consumer insight, memiliki channel role jelas, measurement kompatibel, budget guardrail, dan keputusan optimasi yang saling terhubung.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Bagaimana menyajikan forecast dan synthetic dataset secara jujur?
+   - **Current guide answer (not yet approved):** Cantumkan asumsi, rumus, rentang, source, serta label SIMULATED/FORECAST. Jangan menyebutnya actual performance atau client result.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa pertanyaan executive yang harus dijawab saat presentasi?
+   - **Current guide answer (not yet approved):** Mengapa masalah diprioritaskan, mengapa audience/channel dipilih, bagaimana ekonomi dan KPI bekerja, evidence apa yang mendasari keputusan, apa risikonya, dan kapan strategi diubah.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH01 — Business Problem, Client Brief & Communication Challenge
-**Competency:** Not parsed
+**Competency:** T02-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Connection Planning dimulai dengan memisahkan business problem, marketing problem, dan communication problem. Penjualan turun bisa terjadi karena harga, distribusi, stok, produk, atau pengalaman; tidak semuanya dapat diselesaikan oleh komunikasi. Planner harus menulis masalah yang dapat dipengaruhi komunikasi, mendefinisikan audience, perubahan perilaku/persepsi yang diharapkan, baseline, periode, dan constraint. Brief yang baik menghasilkan pertanyaan riset dan keputusan, bukan langsung daftar channel.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat brief diagnosis dua halaman: business context, problem tree, communication challenge, target audience, objective, baseline/target, constraint, stakeholder, tiga research question, serta evidence/assumption log. Labeli setiap angka SIMULATED bila bukan data aktual.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -239,18 +319,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH02 — Consumer Research, Audience & Segmentation
-**Competency:** Not parsed
+**Competency:** T02-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Audience research menggabungkan data primer seperti interview, survey, observation, dan usability research dengan data sekunder seperti sales, CRM, search, review, social listening, dan syndicated studies. Segmentasi harus menjelaskan kebutuhan, perilaku, motivasi, konteks, trigger, dan decision criteria yang memengaruhi strategi. Demografi dapat membantu sizing, tetapi tidak otomatis menjadi insight. Planner perlu menilai kualitas sample, recency, bias, representativeness, dan batas inferensi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat dua audience profile lengkap dengan jobs-to-be-done, tension, trigger, barrier, alternatives, proof needed, media behavior, dan implication untuk pesan/touchpoint. Sertakan source log dan satu research gap per segmen.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -259,18 +347,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH03 — Cultural Insight, Human Tension & Behavioral Insight
-**Competency:** Not parsed
+**Competency:** T02-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Cultural insight menghubungkan perubahan konteks budaya, perilaku nyata, kebutuhan manusia, dan ketegangan yang relevan dengan kategori. Tren hanya sinyal; insight menjelaskan mengapa sinyal tersebut penting bagi audience dan brand. Human tension biasanya memuat dua kebutuhan yang bertabrakan. Planner menguji skala, momentum, durasi, relevansi kategori, dan risiko appropriation sebelum mengusulkan platform ide.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat cultural insight board berisi lima sinyal, dua tren, satu human tension, evidence pro/kontra, brand role, serta tiga potential communication territories. Jangan mengklaim hubungan kausal dari korelasi tren.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -279,18 +375,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH04 — Brand Positioning, Proposition & Communication Strategy
-**Competency:** Not parsed
+**Competency:** T02-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Positioning menentukan ruang pembeda brand relatif terhadap alternatif. Proposition menerjemahkan positioning menjadi nilai yang dijanjikan kepada audience; proof points membuat janji dapat dipercaya; objections menjelaskan alasan audience mungkin ragu. Communication strategy menentukan perubahan audience yang diharapkan, pesan yang perlu dibangun, dan cara mengatasi barrier. Jangan menyamakan tagline, key message, proposition, dan creative idea.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Susun positioning statement, value proposition, 3 proof points, 3 objections beserta respons, messaging hierarchy, dan satu communication strategy statement. Tandai klaim yang membutuhkan persetujuan legal atau validasi produk.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -299,18 +403,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH05 — Consumer Journey, Moments & Touchpoint Mapping
-**Competency:** Not parsed
+**Competency:** T02-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Customer journey memetakan bagaimana audience bergerak dari kebutuhan hingga penggunaan, pembelian ulang, atau advocacy. Journey tidak selalu linear dan sering melibatkan offline, marketplace, search, creator, customer service, dan word-of-mouth. Moment of truth adalah titik pengalaman yang sangat memengaruhi keputusan. Touchpoint audit menilai audience need, brand role, friction, consistency, owner, dan evidence pada tiap momen.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat journey map minimal enam tahap yang berisi audience action, question, emotion, friction, touchpoint, brand role, owner, evidence, dan opportunity. Pilih tiga moments of truth dan jelaskan alasan prioritas.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -319,18 +431,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH06 — Paid, Owned, Earned & Shared Channel Roles
-**Competency:** Not parsed
+**Competency:** T02-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Paid, Owned, Earned, dan Shared menjelaskan karakter distribusi, bukan empat silo yang berdiri sendiri. Connection Planner memberi setiap channel tugas yang jelas: create demand, explain, validate, capture intent, convert, serve, retain, atau amplify advocacy. Pilihan dipengaruhi audience, trust, control, reach, context, timing, cost, frequency, dan measurement. Channel role harus berasal dari journey dan proposition, bukan tren platform.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat channel-role matrix untuk minimal enam channel. Cantumkan task, audience, message, format, KPI, timing, dependency, owner, serta alasan channel dipilih atau ditolak.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -339,18 +459,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH07 — Communication Architecture & Messaging Framework
-**Competency:** Not parsed
+**Competency:** T02-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Communication Architecture mengatur hubungan antara audience, pesan, channel, sequence, dan experience agar komunikasi terasa sebagai satu sistem. Messaging Framework menerjemahkan proposition menjadi message house, proof, objection, CTA, dan format. Konsistensi berarti janji brand tidak berubah; adaptasi berarti ekspresi dan proof disesuaikan dengan konteks platform serta kebutuhan audience.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun communication architecture satu campaign, message house, messaging matrix enam touchpoint, sequence/timing plan, dan governance/approval checklist. Sertakan contoh pesan per platform dan alasan adaptasinya.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -359,18 +487,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH08 — Creative Brief, Channel Orchestration & Experience Handoff
-**Competency:** Not parsed
+**Competency:** T02-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creative brief menerjemahkan strategy menjadi arahan yang dapat dikerjakan creative, content, media, CXM, dan production team. Brief harus menjelaskan problem, audience, insight, proposition, desired response, mandatory, channel context, deliverables, timing, budget, measurement, dan constraint. Orchestration memastikan aset, pesan, dan experience tersambung; handoff bukan hanya mengirim deck, tetapi memastikan pemilik, spesifikasi, dependencies, dan approval jelas.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creative brief, channel adaptation matrix, asset/deliverable schedule, RACI/owner table, approval checklist, dan risk register untuk satu integrated campaign.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -379,18 +515,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH09 — Communication Effectiveness & Learning Agenda
-**Competency:** Not parsed
+**Competency:** T02-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Communication effectiveness menilai apakah komunikasi mencapai perubahan yang ditargetkan, bukan hanya apakah media deliver sesuai rencana. Pisahkan output (impressions, reach, views), outtake (attention, recall, comprehension, consideration), dan outcome (trial, sales, retention). Susun learning agenda sebelum campaign agar measurement dapat membantu keputusan berikutnya. Attribution platform tidak otomatis membuktikan causal impact.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Rancang measurement framework campaign dengan KPI output/outtake/outcome, measurement method, baseline, target, learning question, decision rule, dan limitation. Tulis satu rekomendasi berdasarkan data SIMULATED.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -399,18 +543,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T02-CH10 — Integrated Connection Strategy Capstone
-**Competency:** Not parsed
+**Competency:** T02-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Connection Strategy menggabungkan problem framing, insight, positioning, journey, channel roles, communication architecture, creative brief, orchestration, effectiveness, dan recommendation. Deck yang baik memperlihatkan logika dari evidence ke keputusan; bukan hanya moodboard atau channel list. Setiap asumsi, estimasi, dan data simulasi harus diberi label, serta rekomendasi perlu menyebut trade-off, owner, dan learning next step.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Susun deck 10–12 slide dan workbook: brief, evidence log, audience/insight, positioning, journey, message house, channel-role matrix, creative brief, measurement/learning agenda, governance, budget implication, dan 30/60/90-day next steps. Labeli synthetic assumptions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -419,18 +571,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH01 — Media Brief, Business Objective & Campaign Requirements
-**Competency:** Not parsed
+**Competency:** T03-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media Planner menerjemahkan business dan communication objective menjadi media objective dan rencana yang dapat dibeli/dieksekusi. Brief harus mengunci target audience, geography, timing, product availability, budget, KPI, mandatories, competitive context, dan definisi sukses. Planner menanyakan hal yang belum jelas sebelum forecast, karena asumsi target, reach, atau conversion yang tidak terdefinisi akan membuat seluruh plan sulit dipertanggungjawabkan.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat media brief intake dan assumption log satu campaign: objective tree, audience, target market, timeline, budget, KPI, mandatories, inventory dependencies, serta lima pertanyaan klarifikasi untuk klien.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -439,18 +599,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH02 — Audience Research & Media Consumption
-**Competency:** Not parsed
+**Competency:** T03-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Audience planning memilih siapa yang perlu dijangkau, di mana mereka berada, bagaimana konsumsi medianya, dan apakah data yang digunakan cukup relevan. Gunakan behavioral, category, contextual, first-party, survey, syndicated, dan platform data dengan memahami definisi serta bias masing-masing. Audience sizing perlu menyebut universe, target definition, duplication, geography, dan periode. Planner tidak boleh menganggap platform audience estimate sama dengan unique people.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat audience landscape berisi 2–3 segmen, estimasi universe dengan source caveat, media consumption, occasion, platform role, duplication risk, dan implikasi terhadap channel selection.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -459,18 +627,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH03 — Media Landscape, Inventory & Channel Evaluation
-**Competency:** Not parsed
+**Competency:** T03-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media landscape evaluation menilai channel, format, placement, publisher, inventory quality, audience fit, environment, availability, cost model, dan measurement. Channel yang sama dapat memiliki kualitas berbeda menurut placement dan context. Planner perlu membedakan media owner/publisher, platform self-serve, network, DSP, dan reseller; pahami siapa mengontrol inventory, data, ad serving, brand safety, dan laporan delivery.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat inventory evaluation sheet minimal enam opsi: audience fit, placement/context, buying type, rate basis, projected delivery, quality controls, reporting, exclusions, dan recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -479,18 +655,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH04 — Media Objective, KPI & Channel Roles
-**Competency:** Not parsed
+**Competency:** T03-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media objective dan KPI harus berasal dari funnel serta peran channel. Awareness dapat menggunakan reach, frequency, viewable impressions, atau brand metrics; consideration bisa menggunakan qualified visits/engagement; performance menggunakan conversion, CPA, atau revenue. KPI harus mempunyai formula, unit, denominator, source, attribution window, target, dan guardrail. Jangan mencampur metric platform yang tidak comparable tanpa normalisasi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat KPI dictionary untuk minimal enam media metric dan susun objective-to-KPI tree. Sertakan rumus, sumber, unit, target, guardrail, window, dan alasan pemilihan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -499,18 +683,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH05 — Media Mix, Budget Allocation & Investment Rationale
-**Competency:** Not parsed
+**Competency:** T03-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media mix mengalokasikan investasi antar channel dan format berdasarkan audience, task, reach/intent, cost, expected contribution, creative, measurement, dan risiko. Budget allocation bukan pembagian rata atau sekadar mengejar ROAS platform. Planner membuat scenario dan menjelaskan marginal trade-off: apa yang hilang ketika suatu channel dikurangi, dan apa yang diperoleh ketika budget dipindah. Forecast harus menampilkan input, range, dan uncertainty.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat tiga media-mix scenarios dengan budget total tetap. Untuk setiap skenario tulis allocation, KPI, forecast range, assumptions, risks, marginal trade-off, dan kondisi realokasi.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -519,18 +711,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH06 — Reach, Frequency, GRP, CPM, CPP & Forecasting
-**Competency:** Not parsed
+**Competency:** T03-C03, T03-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Reach dan frequency mengukur distribusi kepada audience; CPM/CPC/CPP mengukur biaya menurut unit delivery; GRP/TRP mengukur tekanan iklan berdasarkan rating audience. Semua metrik bergantung pada universe, source, methodology, period, duplication, dan currency. Forecast perlu membedakan unique reach dengan impressions serta rata-rata frequency dengan distribusi frekuensi. Jangan membandingkan GRP, platform reach, dan panel estimates tanpa metodologi sepadan.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat media forecast dengan CPM, reach, frequency, GRP/TRP, dan CPP untuk skenario latihan. Tulis source/universe, formula, assumptions, duplication caveat, dan sensitivity saat reach turun.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -539,18 +739,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH07 — Media Flowchart, Flighting & Scenario Planning
-**Competency:** Not parsed
+**Competency:** T03-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media flowchart menerjemahkan strategi dan budget menjadi jadwal, channel, format, weight, target, owner, dan flight dates. Pola continuity, flighting, dan pulsing berbeda sesuai seasonality, demand, launch moment, inventory, serta budget. Scenario planning menguji perubahan tanggal, stock, price promotion, atau media availability. Flowchart bukan dekorasi; ia menjadi alat koordinasi planning, buying, creative, client, dan finance.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat flowchart 8 minggu dengan channel/format, spend weighting, flighting, asset deadline, dependencies, dan three contingency scenarios. Tulis change-control rules jika dates atau inventory berubah.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -559,18 +767,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH08 — Buying Brief, Media Owner Coordination & Activation Handoff
-**Competency:** Not parsed
+**Competency:** T03-C01, T03-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Buying brief adalah jembatan antara keputusan planner dan eksekusi media buyer/investment, bukan instruksi samar. Brief perlu memuat objective, target, channel role, budget, dates, format, audience, geography, KPI, benchmark, mandatory, exclusions, creative, measurement, dan approval. Planner juga memastikan rekomendasi commercial dari publisher/buyer dapat dibandingkan serta tetap sesuai rationale media plan.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat buying brief, RFP question list, apples-to-apples proposal comparison, owner/RACI table, dan handoff checklist untuk satu digital + publisher package.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -579,18 +795,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH09 — Post-Campaign Analysis & Media Effectiveness
-**Competency:** Not parsed
+**Competency:** T03-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Post-campaign analysis membandingkan plan, booked, delivered, measured, dan billed results. Evaluasi memisahkan under/over-delivery, cost variance, audience quality, creative performance, reach/frequency, placement quality, outcomes, serta data limitations. Planner harus menjelaskan mengapa hasil berubah, apa bukti pendukung, apa faktor eksternal, dan apa yang direkomendasikan untuk flight berikutnya.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat post-buy report berisi plan-vs-actual, reach/frequency, cost variance, placement quality, outcome, discrepancy note, root-cause hypothesis, dan tiga next-flight decisions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -599,18 +823,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T03-CH10 — Media Planning Capstone
-**Competency:** Not parsed
+**Competency:** T03-C01, T03-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Media Planning harus memperlihatkan alur dari brief hingga rekomendasi post-buy. Nilai utama bukan banyaknya chart, tetapi konsistensi audience, role, budget, forecast, flighting, buying handoff, KPI, dan evaluasi. Setiap angka diberi sumber atau label SIMULATED. Planner perlu mampu menjelaskan trade-off antara reach, frequency, quality, cost, timing, serta business objective.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan media plan 10 slide plus workbook: brief, audience, inventory evaluation, channel roles, budget scenarios, reach/frequency forecast, flowchart, buying brief, KPI dashboard specification, post-buy evaluation plan, dan assumptions log.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -619,18 +851,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH01 — Search Advertising Ecosystem & Auction Fundamentals
-**Competency:** Not parsed
+**Competency:** T04-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Paid Search menangkap intent yang diekspresikan melalui query. Specialist harus memahami auction eligibility, Ad Rank, keyword/query, ad relevance, landing experience, conversion signal, bidding, dan budget. Search term bukan keyword target; platform dapat mencocokkan query melalui variasi. Performance dinilai dari kualitas demand dan kontribusi bisnis, bukan hanya klik atau impression.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat search ecosystem map untuk satu kategori: query types, auction factors, account actors, conversion actions, landing-page match, dan KPI chain. Gunakan sample query nyata atau label SIMULATED.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -639,18 +879,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH02 — Search Intent, Keyword Research & Competitor Analysis
-**Competency:** Not parsed
+**Competency:** T04-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Keyword research menyusun peluang query berdasarkan intent, relevance, volume, competition, value, geography, seasonality, dan landing-page readiness. Search volume tidak sama dengan demand yang dapat dikonversi; keyword populer bisa tidak relevan, terlalu luas, atau punya economics buruk. Competitor ad research membantu melihat positioning dan SERP, tetapi tidak membuktikan biaya atau profit pesaing.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat 30-keyword intent map dengan cluster, priority, expected query type, CPC/volume source, landing page, negative candidates, dan assumptions. Buat competitor SERP review untuk tiga query utama.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -659,18 +907,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH03 — Account, Campaign & Ad Group Architecture
-**Competency:** Not parsed
+**Competency:** T04-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Campaign architecture mengatur hubungan account, campaign, ad group, keyword, ads, assets, audience, geography, language, budget, conversion action, dan landing page. Struktur yang baik memberi kontrol cukup tanpa memecah data terlalu kecil. Naming taxonomy memudahkan QA dan reporting; pemilihan campaign type harus mengikuti objective, channel inventory, feed, conversion readiness, dan kemampuan kontrol.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun account map untuk brand latihan: account settings, 3 campaign, ad groups, keyword clusters, ad assets, landing pages, conversion actions, naming, dan QA checks. Jelaskan alasan struktur.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -679,18 +935,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH04 — Match Types, Negative Keywords & Search Terms
-**Competency:** Not parsed
+**Competency:** T04-C02, T04-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Match type mengatur seberapa luas keyword dapat mencocokkan query, tetapi tidak boleh dianggap sebagai exact string match sederhana. Search terms report menunjukkan query yang benar-benar memicu iklan dan menjadi sumber optimasi. Negative keyword melindungi relevance, budget, brand safety, serta query intent. Pemilihan negatives harus hati-hati agar tidak memblokir query bernilai.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat search-term mining worksheet dari data latihan minimal 100 rows: intent, relevance, cost, conversions, value, action (keep/negative/observe), rationale, serta owner/date. Tulis daftar negative beserta risiko false positive.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -699,18 +963,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH05 — Search Ad Copy, Assets & Landing Page Relevance
-**Competency:** Not parsed
+**Competency:** T04-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Search ad copy harus menjawab query, menyampaikan benefit, memberi proof, dan mengarahkan ke landing page yang sesuai. Responsive Search Ads menguji kombinasi headline/description; assets menambah informasi dan action. Message match mengurangi cognitive friction: kata, offer, price, eligibility, dan CTA pada iklan harus selaras dengan destination page. Klaim harus dapat dibuktikan dan sesuai policy.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat dua RSA concept untuk satu ad group: masing-masing 10–15 headline draft, empat description, assets, keyword theme, LP URL, proof requirement, dan policy checklist. Tandai klaim yang memerlukan substantiation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -719,18 +991,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH06 — Campaign Types, Bidding Strategy & Budget Management
-**Competency:** Not parsed
+**Competency:** T04-C03, T04-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Bidding dan budget menentukan cara platform berpartisipasi dalam auction dan mengejar conversion/value. Manual, Maximize Clicks, Maximize Conversions, target CPA, Maximize Conversion Value, dan target ROAS memiliki kebutuhan sinyal serta trade-off berbeda. Smart bidding memerlukan conversion tracking yang sehat, volume yang memadai, dan definisi value yang tepat. Budget pacing harus dipantau bersama spend, impression share, marginal CPA/ROAS, dan business margin.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Simulasikan tiga bid strategies untuk satu campaign. Isi input signal, required data, budget, expected trade-off, monitoring metrics, guardrail, dan perubahan yang dilakukan pada kasus underdelivery/overspend.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -739,18 +1019,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH07 — Conversion Tracking, Enhanced Conversions & Offline Conversion
-**Competency:** Not parsed
+**Competency:** T04-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Conversion tracking mengubah business action menjadi signal yang dapat diukur dan dipakai bidding. Specialist harus membedakan page view, form submit, qualified lead, purchase, phone call, offline conversion, enhanced conversions, dan imported CRM outcomes. Event definition, count setting, value, attribution window, consent, deduplication, tag implementation, dan QA wajib disepakati sebelum optimasi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat conversion measurement spec untuk lead dan purchase: event name, trigger, parameters/value, tag owner, source of truth, consent, deduplication, QA test, offline import field, dan reconciliation plan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -759,18 +1047,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH08 — Search Terms Analysis, Quality Score & Impression Share
-**Competency:** Not parsed
+**Competency:** T04-C04, T04-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Diagnosis Search menggunakan search terms, auction insights, Quality Score components, impression share, landing-page signals, conversion rate, dan value. Quality Score adalah diagnostic indicator, bukan KPI bisnis atau tombol optimasi tunggal. Lost impression share karena budget berbeda dari rank. Analyst harus memisahkan issue query, competition, bid, relevance, page, tracking, dan budget sebelum membuat perubahan.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat weekly search diagnosis report dengan segmentation, search term issues, lost IS, Quality Score components, LP issue, tracking check, root-cause hypotheses, prioritized actions, owner, dan follow-up date.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -779,18 +1075,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH09 — Testing, Optimization, Reporting & Diagnosis
-**Competency:** Not parsed
+**Competency:** T04-C05, T04-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Testing Search harus menguji satu hipotesis yang dapat dipisahkan dari perubahan lain. Variabel dapat berupa message angle, asset, landing page, match coverage, bid strategy, atau audience; test perlu primary metric, guardrail, randomization/experiment setup, sample/duration, seasonality control, dan stopping rule. Setelah test, interpretasikan effect size dan uncertainty, bukan hanya siapa yang tampak menang.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat experiment backlog tiga test untuk Search: ad-message test, LP test, dan match/negative strategy test. Untuk satu test, lengkapi protocol, sample/duration assumptions, guardrails, QA, decision rule, dan results template.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -799,18 +1103,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T04-CH10 — Paid Search Capstone
-**Competency:** Not parsed
+**Competency:** T04-C03, T04-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Paid Search menguji kemampuan mengelola jalur dari intent sampai conversion dan diagnosis. Paket kerja harus menyatukan keyword architecture, campaign build, RSA/assets, bidding/budget, conversion tracking, negative strategy, QA, reporting, dan optimization. Semua forecast atau data yang tidak berasal dari account aktual wajib ditandai SIMULATED. Hasil harus dijelaskan menurut intent dan economics, bukan hanya platform metrics.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun Search case-study workbook: brief, intent map 30 keywords, architecture, RSA assets, negative list, bid/budget scenario, conversion spec, QA log, weekly report, 3 optimizations, dan executive summary.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -819,18 +1131,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH01 — Social Advertising Ecosystem & Account Structure
-**Competency:** Not parsed
+**Competency:** T05-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Paid social adalah aktivitas membeli inventory iklan pada platform sosial secara terencana dan terukur. Pekerjaan specialist menghubungkan outcome bisnis, akun platform, aset identitas, sumber data, audience, creative, auction/delivery, measurement, dan optimization. Meta dan TikTok menjadi platform praktik utama; LinkedIn merupakan pendalaman untuk kebutuhan B2B, sedangkan Pinterest, Snapchat, Reddit, atau X dipelajari sesuai kebutuhan pasar dan akses akun.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat asset-and-permission register untuk satu brand fiktif. Kolom minimal: platform, jenis aset, account ID sintetis, legal owner, agency partner, assigned role, admin backup, status 2FA, tanggal access review terakhir, status, dan evidence. Tandai seluruh ID sebagai SIMULATED. Jangan memasukkan email, password, ID akun pribadi, atau data pelanggan sungguhan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -839,18 +1159,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Siapa yang seharusnya tetap memiliki aset digital utama brand ketika iklan dikelola agency?
+   - **Current guide answer (not yet approved):** Brand atau badan usaha pemilik bisnis sebaiknya mempertahankan ownership. Agency memperoleh partner/person access yang dibutuhkan, bukan mengambil alih kepemilikan atau meminta password personal.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa full admin access tidak boleh diberikan ke seluruh anggota tim?
+   - **Current guide answer (not yet approved):** Hak admin yang terlalu luas memperbesar dampak jika terjadi kesalahan atau account compromise. Least privilege membatasi tindakan setiap orang sesuai tugas dan membuat access review serta offboarding lebih mudah diaudit.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa perbedaan ad account, Page/identity, dan Pixel/dataset?
+   - **Current guide answer (not yet approved):** Ad account mengelola pembelian serta campaign; Page atau identity mewakili identitas advertiser pada iklan; Pixel/dataset menerima event untuk measurement. Ketiganya saling terhubung, tetapi bukan aset yang sama.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH02 — Campaign Objective, Funnel & Conversion Location
-**Competency:** Not parsed
+**Competency:** T05-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Campaign objective menjelaskan hasil yang diminta dari optimasi platform; funnel menggambarkan perjalanan konsumen; conversion location menunjukkan tempat tindakan terjadi; performance goal dan optimization event menentukan sinyal delivery. Semuanya saling berkaitan, tetapi bukan istilah yang dapat saling menggantikan. Nama objective, conversion location, dan goal dapat berubah sesuai platform, campaign type, serta eligibility akun. Periksa pilihan aktual di Ads Manager sebelum launch.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat objective decision tree untuk tiga brief: (A) awareness produk baru, (B) purchase melalui website, dan (C) lead konsultasi melalui Instant Form atau messaging. Untuk setiap brief, tulis business outcome, platform, objective yang tersedia, conversion location, performance goal/event, KPI utama, diagnostic metric, tracking requirement, dan alasan menolak alternatif. Tandai asumsi yang belum terbukti.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -859,18 +1187,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa perbedaan objective dan KPI?
+   - **Current guide answer (not yet approved):** Objective platform adalah arah optimasi campaign; KPI adalah ukuran untuk menilai pencapaian outcome bisnis. Memilih objective tidak otomatis membuktikan campaign berhasil.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa Traffic tidak otomatis tepat untuk brief yang meminta penjualan?
+   - **Current guide answer (not yet approved):** Traffic mengoptimalkan kunjungan atau sinyal traffic terkait, bukan selalu purchase. Klik murah tetap dapat menghasilkan conversion rate rendah, CPA tinggi, atau margin yang buruk.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang harus diperiksa sebelum memilih Purchase sebagai optimization event?
+   - **Current guide answer (not yet approved):** Pastikan checkout berjalan, event terpicu, parameter value/currency benar, deduplication berfungsi bila diperlukan, consent dihormati, serta kualitas sinyal memadai.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH03 — Audience Research, Segmentation & Targeting
-**Competency:** Not parsed
+**Competency:** T05-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Audience strategy dimulai dari kebutuhan dan perilaku konsumen, lalu diterjemahkan menjadi sumber data, aturan segmentasi, exclusions, serta hipotesis yang bisa diuji. Custom Audience biasanya memakai sumber first-party atau interaksi platform yang diizinkan; Lookalike Audience memodelkan prospek dari karakteristik source audience; interest/behavior memberi sinyal targeting; broad atau automated audience memberi ruang lebih luas bagi sistem. Ketersediaan fitur berbeda menurut platform dan akun. Jangan mengunggah atau mengaktifkan data pelanggan tanpa hak, consent, dan dasar penggunaan yang sesuai.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun audience matrix dengan kolom: segment, business role, source, inclusion rule, exclusion rule, lookback/recency, consent status, estimated size, overlap risk, message angle, KPI, dan test hypothesis. Buat minimal segmen prospecting, retargeting, serta existing-customer/retention. Gunakan data sintetis jika data first-party berizin tidak tersedia.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -879,18 +1215,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa daftar seluruh pengunjung website tidak otomatis menjadi seed Lookalike terbaik?
+   - **Current guide answer (not yet approved):** Pengunjung memiliki niat dan kualitas yang beragam. Seed harus mewakili outcome yang dicari dan cukup valid; buyer terverifikasi atau qualified lead dapat lebih relevan jika sumbernya sah serta ukurannya memadai.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa risiko retargeting tanpa exclusion pelanggan yang sudah membeli?
+   - **Current guide answer (not yet approved):** Pembeli lama bisa terus menerima pesan akuisisi yang sama, audience dapat overlap, dan frequency meningkat tanpa menambah nilai incremental.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Bolehkah data pelanggan sensitif digunakan untuk membuat audience?
+   - **Current guide answer (not yet approved):** Jangan menggunakan atau mengirim data sensitif yang dilarang platform atau tidak memiliki dasar pemrosesan yang sah. Ikuti consent, privacy law, platform policy, serta prinsip minimisasi data.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH04 — Campaign, Ad Set & Ad Architecture
-**Competency:** Not parsed
+**Competency:** T05-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Campaign architecture menyusun hubungan objective, budget, audience, placement, creative, dan reporting. Meta umumnya memakai hierarchy Campaign → Ad Set → Ad; TikTok Ads Manager memakai Campaign → Ad Group → Ad. Konsep levelnya mirip, tetapi setting dan tanggung jawabnya tidak identik. Pada TikTok, campaign setup mencakup objective dan campaign budget; ad group mengatur antara lain placement, targeting, schedule, optimization, dan bid; ad memuat identity, creative, copy, CTA, URL, serta tracking. Selalu validasi workflow dan pilihan terbaru di masing-masing platform.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat dua blueprint terpisah: satu untuk Meta dan satu untuk TikTok. Sertakan campaign name/ID, objective, budget level, Ad Set/Ad Group, audience, placement, optimization event, bid strategy, schedule, ad/creative ID, CTA, destination URL, UTM, owner, dan QA status. Jelaskan kapan suatu group perlu dipisahkan dan kapan lebih baik digabung.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -899,18 +1243,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Bisakah hierarchy Campaign → Ad Set → Ad di Meta disalin mentah ke TikTok?
+   - **Current guide answer (not yet approved):** Tidak. Konsep hierarchy sebanding, tetapi nama objek dan setting yang tersedia berbeda. Gunakan Campaign → Ad Group → Ad untuk TikTok dan petakan setting sesuai dokumentasi platform.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Kapan campaign perlu dipisahkan?
+   - **Current guide answer (not yet approved):** Ketika objective, market, budget ownership, governance, atau rancangan test memang membutuhkan isolasi. Jangan memisahkan hanya untuk menambah jumlah baris atau membuat campaign tersendiri untuk setiap creative.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa naming convention dibuat sebelum launch?
+   - **Current guide answer (not yet approved):** Naming konsisten mempercepat QA, filtering reporting, handover, reconciliation, dan audit perubahan antar-campaign.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH05 — Creative Strategy, Format, Placement & Messaging
-**Competency:** Not parsed
+**Competency:** T05-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creative merupakan bagian dari sistem optimasi, bukan dekorasi setelah media plan selesai. Mulai dari audience tension dan product truth, lalu turunkan menjadi angle, hook, proof, format, message, CTA, serta kesinambungan landing page. Satu iklan sebaiknya menyampaikan satu proposisi utama dan satu tindakan yang jelas. Format dan placement harus mengikuti spesifikasi platform, safe zone, cropping, aspect ratio, caption/audio, serta konteks konsumsi. Hak penggunaan creator content, musik, testimonial, dan partnership ads harus dipastikan sebelum amplifikasi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat tiga creative concept untuk satu produk latihan. Setiap concept memuat audience insight, angle, hook, proof, storyboard/shot list, format/placement, primary copy, CTA, landing-page promise, creator/usage rights, policy check, dan hypothesis. Susun test matrix yang mengisolasi variabel utama serta tetapkan diagnostic metric dan outcome metric.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -919,18 +1271,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa perbedaan hook, angle, dan proof?
+   - **Current guide answer (not yet approved):** Angle adalah sudut pesan atau manfaat; hook adalah pembuka yang menarik perhatian; proof adalah bukti yang membuat klaim lebih kredibel, misalnya demonstrasi, fakta terverifikasi, atau testimonial yang berizin.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa creative dengan CTR tinggi tetap dapat berkinerja buruk?
+   - **Current guide answer (not yet approved):** CTR tinggi bisa berasal dari rasa penasaran atau clickbait tanpa kunjungan berkualitas dan purchase. Periksa landing-page view, conversion rate, CPA, revenue/margin, serta kualitas lead/customer.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang harus dicek sebelum menggunakan konten creator sebagai iklan?
+   - **Current guide answer (not yet approved):** Cakupan dan durasi usage rights, platform/placement yang diizinkan, paid amplification atau whitelisting permission, disclosure, hak musik/asset, brand safety, dan kepatuhan klaim.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH06 — Auction, Bid Strategy, Budget & Delivery
-**Competency:** Not parsed
+**Competency:** T05-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Auction menentukan iklan yang memenuhi syarat untuk memperoleh kesempatan delivery. Hasil tidak ditentukan bid saja; platform juga mempertimbangkan predicted action, relevance/quality, serta delivery rules. Bedakan budget, level budget, bid, cost cap/goal, dan target ROAS. Nama serta ketersediaan strategi berbeda antarpublisher dan objective. Jangan menganggap istilah CBO/ABO Meta berlaku identik di TikTok. Target efisiensi harus diturunkan dari unit economics, bukan hanya benchmark CPM.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat budget-and-bidding sheet sintetis. Input: AOV, margin, allowable CPA, target ROAS, budget, asumsi CTR/CVR, forecast conversions, planned daily spend, actual spend, dan variance. Uji skenario CPA 25% lebih tinggi dan CVR 20% lebih rendah. Berikan rekomendasi continue, test, limit, atau stop beserta risiko dan bukti yang masih kurang.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -939,18 +1299,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa bid bukan satu-satunya faktor yang menentukan hasil auction?
+   - **Current guide answer (not yet approved):** Platform menggabungkan bid dengan predicted action, relevance/quality signals, dan eligibility. Bid lebih tinggi tidak otomatis menghasilkan outcome paling efisien.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa perbedaan budget dan bid?
+   - **Current guide answer (not yet approved):** Budget mengatur atau membatasi spend pada periode dan level tertentu. Bid strategy memengaruhi cara platform bersaing di auction atau mengontrol target biaya/volume.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apakah ROAS 5x berarti profit 5x?
+   - **Current guide answer (not yet approved):** Tidak. Revenue ROAS adalah attributed revenue dibagi ad spend. Profit harus memperhitungkan margin serta biaya produk, fulfilment, diskon, fee, refund, dan biaya relevan lainnya.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH07 — Pixel, CAPI, Events API, UTM & Tracking
-**Competency:** Not parsed
+**Competency:** T05-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Tracking menghubungkan interaksi iklan dengan tindakan di website/app. Browser Pixel mengirim event dari browser; Conversions API/Events API mengirim event melalui server atau koneksi data. Keduanya dapat saling melengkapi, tetapi tidak menghapus kewajiban consent, privacy, dan minimisasi data. Event design harus punya definisi bisnis, event name, waktu, value/currency, source, dan parameter yang diperlukan. Jika event yang sama dikirim melalui browser dan server, ikuti aturan deduplication provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap dari Pixel dan Events API. UTM mengelompokkan traffic; UTM bukan pengganti event tracking.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat event map dan tracking QA sheet untuk website e-commerce fiktif. Kolom minimal: funnel stage, event name, trigger, event source, event_id rule, parameters, consent dependency, platform destination, dedup rule, UTM fields, test case, expected result, actual result, evidence, owner, dan defect severity. Sertakan satu tes duplicate browser/server dan expected count-nya. Tandai seluruh data sebagai SIMULATED.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -959,18 +1327,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa fungsi event_id saat event yang sama dikirim melalui browser dan server?
+   - **Current guide answer (not yet approved):** event_id yang cocok membantu platform mengenali dua kiriman sebagai satu kejadian dan melakukan deduplication sesuai ketentuan provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap antara Pixel dan Events API.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apakah UTM dapat menggantikan Pixel atau Conversions API?
+   - **Current guide answer (not yet approved):** Tidak. UTM mengelompokkan traffic campaign pada analytics; Pixel/API mengirim event serta parameter tindakan ke platform iklan. Fungsinya berbeda.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apakah server-side tracking membuat consent tidak diperlukan?
+   - **Current guide answer (not yet approved):** Tidak. Pengiriman melalui server tidak menghapus kewajiban privacy, consent, legal basis, platform policy, atau data minimization.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH08 — Learning Phase, Pacing, Frequency & Troubleshooting
-**Competency:** Not parsed
+**Competency:** T05-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Learning phase adalah periode awal delivery saat sistem mengeksplorasi dan mengumpulkan signal untuk menemukan audience yang paling mungkin mencapai optimization goal. Performa dapat berfluktuasi; fluktuasi saja bukan bukti campaign gagal. Jangan menerapkan satu ambang untuk semua platform atau objective. Panduan umum TikTok yang diperbarui Juni 2026 menyebut volatilitas biasanya mulai menurun setelah sekitar 25 hasil campaign atau 7 hari. Angka tersebut bersifat indikatif, bukan jaminan status learning selesai. Guidance objective-specific dapat berbeda. Jangan menerapkan benchmark TikTok ke Meta.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat troubleshooting playbook untuk lima gejala: (1) spend tidak mulai, (2) CPM naik, (3) CTR turun, (4) frequency naik sementara conversion turun, dan (5) purchase/event tidak tercatat. Untuk setiap gejala tulis symptom, possible causes, diagnostic checks, evidence yang diperlukan, low-risk action pertama, escalation point, dan metric untuk memvalidasi perbaikan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -979,18 +1355,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apakah 25 hasil atau 7 hari menjamin campaign TikTok keluar dari learning phase?
+   - **Current guide answer (not yet approved):** Tidak. Panduan umum TikTok menyebut volatilitas biasanya mulai menurun pada kisaran tersebut. Itu indikator stabilisasi, bukan jaminan perubahan status untuk setiap objective, account, atau campaign.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Bisakah benchmark learning TikTok diterapkan ke Meta?
+   - **Current guide answer (not yet approved):** Tidak. Sistem, signal, dan guidance kedua platform berbeda. Gunakan dokumentasi terkini sesuai platform dan optimization event yang dipakai.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa mengubah budget, audience, creative, dan event sekaligus menyulitkan diagnosis?
+   - **Current guide answer (not yet approved):** Beberapa faktor berubah bersamaan sehingga efek masing-masing tidak bisa dipisahkan. Change log serta intervensi yang terkontrol membuat evaluasi lebih dapat dipercaya.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH09 — Creative Testing, Reporting & Performance Optimization
-**Competency:** Not parsed
+**Competency:** T05-C03, T05-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Optimization harus dimulai dari business outcome lalu bergerak ke diagnosis, bukan dari satu metrik ke tindakan spontan. CTR, CPC, CPM, video views, dan frequency membantu menjelaskan delivery; conversion rate, CPA, revenue, margin, lead quality, dan retention lebih dekat dengan nilai bisnis. Creative testing yang baik menetapkan hypothesis, variabel utama, audience, budget, duration, primary metric, guardrail, dan decision rule sebelum test berjalan. A/B test sulit diinterpretasikan jika banyak variabel berubah sekaligus atau basis reporting tidak sebanding.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Gunakan dataset SIMULATED untuk dua atau tiga creative. Hitung CPM, CTR, CPC, landing-page-view rate, CVR, CPA, revenue, revenue ROAS, dan contribution setelah biaya iklan. Buat tabel atau chart, tunjukkan funnel drop-off, lalu berikan keputusan scale, iterate, hold, atau stop. Jelaskan mengapa attributed performance saja tidak cukup untuk mengklaim causal lift tanpa control/holdout atau desain kausal yang sesuai.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -999,18 +1383,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Mengapa creative dengan CTR lebih rendah masih dapat menang secara bisnis?
+   - **Current guide answer (not yet approved):** Creative tersebut mungkin membawa traffic lebih sedikit tetapi lebih berkualitas, sehingga conversion atau margin lebih baik. Evaluasi outcome, CPA, revenue/margin, dan kualitas lead/customer bersama CTR.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa yang harus konsisten sebelum membandingkan dua creative?
+   - **Current guide answer (not yet approved):** Conversion definition, objective, audience eligibility, attribution window, reporting period, budget/exposure, landing-page experience, serta variabel yang diuji harus cukup sebanding.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apakah ROAS yang lebih tinggi otomatis membuktikan incrementality?
+   - **Current guide answer (not yet approved):** Tidak. ROAS menunjukkan attributed revenue per ad spend dalam setup measurement tertentu. Incrementality memerlukan counterfactual yang kredibel seperti holdout atau randomized experiment.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T05-CH10 — Paid Social Capstone
-**Competency:** Not parsed
+**Competency:** T05-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone menguji kemampuan menghubungkan business brief sampai rekomendasi optimization yang dapat dipertanggungjawabkan. Satu paket kerja harus menunjukkan commercial guardrails, objective, audience, campaign architecture per platform, creative strategy, budget/bidding, tracking, QA, reporting, serta decision log. Meta dan TikTok menjadi scope inti; TikTok Shop/Lead Gen dan LinkedIn ditambahkan bila conversion path serta business case mendukung. Angka contoh tanpa data advertiser wajib diberi label SIMULATED.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Susun satu capstone folder berisi: (1) brief restatement dan unit economics, (2) platform role/objective decision, (3) Meta dan TikTok architecture, (4) audience matrix, (5) creative strategy dan test matrix, (6) budget/bid/pacing sheet, (7) event map + UTM + deduplication plan, (8) pre-launch QA checklist, (9) weekly report memakai data SIMULATED, dan (10) optimization memo. Presentasikan keputusan dalam 8–10 slide. Beri skor 0–3 untuk business logic, platform setup, creative/testing, tracking/QA, commercial analysis, dan evidence/limitations. Setiap area harus minimal 2; setidaknya dua area harus mendapat 3 sebelum pekerjaan disebut portfolio-ready.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1019,18 +1411,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** Apa yang membedakan capstone portfolio-ready dari campaign mock-up biasa?
+   - **Current guide answer (not yet approved):** Ada alur yang dapat ditelusuri dari brief dan unit economics ke objective, audience, structure, creative, budget, tracking, QA, hasil, serta keputusan. File dapat direplikasi dan semua asumsi/data diberi label dengan jujur.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Bagaimana data performa sintetis harus ditampilkan?
+   - **Current guide answer (not yet approved):** Beri label SIMULATED pada setiap tabel/chart, jelaskan cara pembuatannya, dan jangan menyebutnya hasil campaign aktual atau client work.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa saja yang harus ada dalam optimization memo?
+   - **Current guide answer (not yet approved):** Keputusan, evidence, perbandingan KPI dengan target, diagnosis, risk/limitation, owner, timeline, dan next test yang spesifik.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH01 — Programmatic Ecosystem: DSP, SSP, Exchange & Ad Server
-**Competency:** Not parsed
+**Competency:** T06-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Programmatic adalah pembelian inventory digital melalui platform dan automation, bukan nama lain untuk semua paid media. Ekosistem mencakup advertiser/agency, DSP, ad exchange, SSP, publisher/ad server, data/identity partners, dan verification. Setiap pihak memiliki peran dalam auction, targeting, delivery, measurement, dan biaya. Trader harus memahami supply chain untuk membaca fees, latency, quality, transparency, dan accountability.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat programmatic ecosystem diagram dan cost-flow workbook untuk satu campaign. Sertakan owner, object, data/signal, fee layer, risk, dan kontrol pada setiap node.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1039,18 +1439,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH02 — Auction Mechanics, OpenRTB & Supply Path
-**Competency:** Not parsed
+**Competency:** T06-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** OpenRTB dan auction mechanics menjelaskan bagaimana bid request, impression opportunity, buyer response, price, dan creative diproses. Supply path menentukan rantai pihak yang terlibat dari publisher menuju DSP. Trader perlu memahami auction type, bid floor, timeout, win rate, clearing dynamics, deal identifiers, reseller, dan ads.txt/sellers.json sebagai sinyal otorisasi. Tidak semua mekanisme lelang bersifat first-price dengan implementasi identik.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat bid-flow diagram dan supply-path audit untuk dua inventory scenarios. Isi request signals, eligibility, auction/deal type, fee layers, authorized sellers checks, timeout risk, dan optimization actions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1059,18 +1467,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH03 — Audience, Data Strategy, Identity & Privacy
-**Competency:** Not parsed
+**Competency:** T06-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Audience strategy programmatic menggabungkan first-party data, contextual, publisher segments, third-party data, identity solutions, dan privacy/consent. Audience targeting harus sesuai objective dan data rights. Cookie deprecation, browser restrictions, consent, match rates, data provenance, and identity interoperability dapat memengaruhi scale serta accuracy. Contextual targeting tidak sama dengan behavioral identity targeting.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat audience decision matrix: first-party, contextual, publisher, and third-party options. Sertakan reach/match assumption, consent basis, quality risks, freshness, cost, and use-case fit.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1079,18 +1495,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH04 — Inventory, Formats & Deal Types
-**Competency:** Not parsed
+**Competency:** T06-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Inventory mencakup format, device, environment, publisher, geo, audience, placement, viewability, fraud risk, and suitability. Deal types memberi tingkat kontrol dan komitmen berbeda. Trader perlu menilai inventory fit, scale, measurement eligibility, creative constraints, and cost. CTV, audio, video, display, native, in-app, DOOH, and mobile web memiliki kebutuhan asset, verification, and measurement berbeda.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat inventory matrix minimal enam opsi (display, video, CTV, audio, native, in-app atau DOOH) dengan format specs, deal type, audience, quality checks, cost assumptions, and use-case rationale.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1099,18 +1523,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH05 — DSP Architecture & Platform Navigation
-**Competency:** Not parsed
+**Competency:** T06-C01, T06-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** DSP navigation dimulai dengan memahami hirarki advertiser, campaign, insertion order/order, line item, targeting, creative, budget, flight, frequency, and optimization. Nomenclature antar-DSP berbeda; prinsip dasarnya tetap sama. DV360 menjadi platform utama belajar di roadmap, sedangkan The Trade Desk dan Amazon DSP dibandingkan pada capability serta inventory ecosystem. Tool access bergantung pada organisasi/partner dan tidak boleh dijanjikan hanya dari kursus.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat DSP setup workbook untuk satu campaign: object hierarchy, naming, budgets, bids, audiences, inventory/deals, creatives, tracking, permissions, launch checklist, and monitoring cadence.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1119,18 +1551,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH06 — Campaign Structure, Trafficking & Creative Setup
-**Competency:** Not parsed
+**Competency:** T06-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Campaign setup/trafficking memastikan plan dapat diterjemahkan menjadi objek dan creative yang siap diperdagangkan. Brief, naming, IO/line item, deal IDs, audience, creative spec, click URL, trackers, macros, event tags, and approvals harus sinkron. Trafficking berbeda dari media strategy: tugasnya menjaga akurasi konfigurasi dan bukti QA, bukan menentukan seluruh business strategy.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat trafficking sheet, creative spec matrix, macro/URL map, tag map, deal checklist, and QA evidence for one synthetic DSP campaign.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1139,18 +1579,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH07 — Bidding, Budget, Pacing & Frequency Management
-**Competency:** Not parsed
+**Competency:** T06-C05, T06-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Bidding, budget, pacing, and frequency management mengontrol delivery dalam batas economics dan campaign objective. Pahami bid strategy, auction pressure, bid shading where relevant, win rate, clearing price, pacing algorithm, frequency caps, reach, and spend curve. Jangan mengubah bid/budget tanpa memeriksa inventory, audience, floor, conversion signals, and campaign stage. Platform automation berbeda sehingga jangan menganggap satu setting berlaku sama di seluruh DSP.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat pacing simulator harian dengan planned vs actual spend, bid, win rate, CPM, frequency, reach, and outcomes. Simulasikan underdelivery, overspend, and fatigue; dokumentasikan root-cause decisions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1159,18 +1607,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH08 — PMP, Preferred Deals & Programmatic Guaranteed
-**Competency:** Not parsed
+**Competency:** T06-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** PMP, Preferred Deals, dan Programmatic Guaranteed mengubah cara advertiser mengakses publisher inventory dan menyepakati harga/delivery. Setiap deal memiliki buyer/seller IDs, deal ID, floor/fixed price, targeting, dates, format, priority, inventory scope, and delivery terms. Trader wajib menguji compatibility dan memahami apakah deal bersifat invitation, non-guaranteed, atau guaranteed; label platform dapat berbeda.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat deal negotiation matrix dan activation checklist untuk PMP, Preferred, dan PG. Isikan seller/buyer seat, deal ID, floor/price, volume, formats, dates, targeting, guarantee, QA, and delivery escalation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1179,18 +1635,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH09 — Brand Safety, Viewability, IVT & Supply Quality
-**Competency:** Not parsed
+**Competency:** T06-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Brand safety, suitability, viewability, invalid traffic, and supply quality adalah dimensi berbeda. Brand safety menghindari konten berisiko; suitability mencocokkan toleransi brand; viewability mengukur apakah iklan memenuhi kriteria terlihat; IVT mengidentifikasi traffic tidak valid; supply quality menilai transparency, duplication, fees, and publisher quality. Vendor verification memiliki methodology/coverage yang harus dipahami.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat supply-quality scorecard untuk 10 inventory sources: brand safety, suitability, viewability, IVT, seller authorization, fees, transparency, data coverage, and remediation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1199,18 +1663,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH10 — CM360, Floodlight, Attribution & Measurement
-**Competency:** Not parsed
+**Competency:** T06-C01, T06-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** CM360 dan Floodlight memiliki peran ad-serving dan measurement yang perlu dibedakan dari DSP reporting. CM360 mengelola advertiser/campaign/site/placement/ad/creative/trackers; Floodlight mengukur activities/conversions menurut counting method, attribution, and window. Discrepancy antara DSP, CM360, dan analytics sering muncul dari event definition, time zone, click/view windows, deduplication, redirects, latency, and consent.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat measurement architecture diagram dan discrepancy reconciliation workbook yang membandingkan DSP, CM360/Floodlight, dan GA4. Include event mapping, window, timezone, dedupe, consent, and limits.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1219,18 +1691,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH11 — Optimization, Reporting & Post-Campaign Analysis
-**Competency:** Not parsed
+**Competency:** T06-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Optimization dan post-campaign review mengevaluasi bukan hanya ROAS, tetapi delivery, supply quality, reach, frequency, margin, partner fees, audience, format, and incrementality limits. Report harus menjelaskan apa yang terjadi, mengapa diduga terjadi, bukti pendukung, alternatif penjelasan, dan tindakan berikutnya. Programmatic trader menjaga traceability perubahan agar learning dapat direplikasi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat post-campaign report dan supply evaluation: delivery, spend, CPM, reach/frequency, viewability, IVT, deal quality, discrepancy, outcome, optimization changes, and next test agenda. Labeli data SYNTHETIC.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1239,18 +1719,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T06-CH12 — Programmatic Capstone
-**Competency:** Not parsed
+**Competency:** T06-C01, T06-C03, T06-C06, T06-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Programmatic menguji pemahaman supply chain hingga measurement, bukan hanya navigasi DSP. Paket kerja harus menghubungkan objective, audience, inventory/deal strategy, DSP setup, creative/trafficking, bidding/pacing, verification, CM360/Floodlight, discrepancy, dan reporting. Seluruh account/campaign/auction figures yang tidak berasal dari live account diberi label SIMULATED. Akses credential tidak berarti peserta memiliki live buying seat.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan DSP campaign blueprint, supply-chain diagram, audience/data matrix, deal matrix, trafficking sheet, bidding/pacing simulator, verification scorecard, CM360/Floodlight measurement spec, discrepancy log, dan executive trading recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1259,18 +1747,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH01 — Retail Media & Commerce Media Ecosystem
-**Competency:** Not parsed
+**Competency:** T07-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Retail Media dan Commerce Media menggunakan retailer/commerce ecosystem, shopping intent, product/catalog data, onsite/offsite inventory, dan sales signals untuk memengaruhi pembelian. Retail media network dapat menjual inventory pada aset retailer atau aktivasi offsite yang memakai data/measurement retailer. Definisi, data access, placement, dan attribution berbeda per platform; trader perlu memisahkan retailer-owned inventory, third-party activation, dan marketplace ads.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat retail media ecosystem map untuk satu kategori Indonesia: Shopee, Tokopedia/TikTok Shop, Lazada, atau Blibli sesuai akses produk. Tandai onsite/offsite/in-store, buyer, seller, data owner, metrics, dan limitations.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1279,18 +1775,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH02 — Shopper Journey, Purchase Intent & Retail Insights
-**Competency:** Not parsed
+**Competency:** T07-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Shopper journey berbeda menurut kategori, urgency, price, availability, and retail context. Purchase intent signal dapat berasal dari search terms marketplace, category browsing, product views, add-to-cart, loyalty, repeat purchase, store location, atau review. Data tersebut harus dipahami menurut coverage dan consent; jangan menganggap click atau product view sebagai purchase intent kuat tanpa evidence.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat shopper journey untuk satu kategori dan peta intent signals ke stage. Sertakan listing/review/availability issues, media opportunities, metrics, and evidence gaps.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1299,18 +1803,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH03 — Retailer Media Network & Advertising Models
-**Competency:** Not parsed
+**Competency:** T07-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Retail Media Network menawarkan model managed/self-service, sponsored product/search, display/video, audience activation, and measurement. Platform Indonesia memiliki nomenclature, eligibility, and reporting yang berubah; kurikulum harus mengajarkan cara membaca help center/current product availability, bukan menghafal satu nama fitur. Seller, brand, distributor, and agency account roles juga dapat berbeda.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat platform comparison untuk tiga RMN/marketplace aktif yang dapat diakses: ad types, seller/advertiser eligibility, placement, billing, targeting, reporting, conversion measurement, and documentation link. Cantumkan last-checked date.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1319,18 +1831,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH04 — Onsite Retail Media: Sponsored Products & Search
-**Competency:** Not parsed
+**Competency:** T07-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Onsite Retail Media memanfaatkan sponsored products, sponsored search, sponsored brands/store, dan rekomendasi pada properti retailer. Search placement menangkap query/shopper intent; product placement memerlukan listing content, image, price, rating, inventory, and availability. Bid dan budget harus dibaca bersama organic rank, competition, margin, product-level ROAS/ACoS, and category economics.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat onsite retail campaign plan untuk lima SKU: product readiness audit, keyword/product target, campaign structure, bid/budget assumptions, negative/exclusion logic, sales metrics, and listing improvement backlog.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1339,18 +1859,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH05 — Offsite Retail Media: Display, Social & Video
-**Competency:** Not parsed
+**Competency:** T07-C01, T07-C03, T07-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Offsite Retail Media mengaktifkan retailer audience/data pada inventory di luar properti retailer, misalnya display/video/social melalui partners. Measurement dapat memakai sales matching/closed-loop reporting, tetapi access, coverage, attribution window, and fees harus dipahami. Offsite audience bukan berarti data pelanggan bebas dipindahkan ke platform lain; privacy, consent, aggregation, and clean-room rules tetap berlaku.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat offsite retail media plan: audience source, activation channel, data governance, placements, measurement approach, match coverage assumption, control design, cost, and limitations.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1359,18 +1887,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH06 — Retail Audience, First-Party Data & Targeting
-**Competency:** Not parsed
+**Competency:** T07-C02, T07-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** In-store media menghubungkan shopper experience fisik dengan digital commerce melalui screen, audio, shelf signage, kiosk, sampling, QR, and proximity-based placements. Perencanaan membutuhkan store list, footfall, dwell/traffic, shopper segment, inventory, store operations, installation, uptime, creative spec, proof-of-play, and sales/brand measurement. Jangan menganggap impression di toko setara dengan audience unik tanpa metodologi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat in-store plan untuk 20 toko: store selection, inventory, audience, placement map, flight, creative spec, proof-of-play, store ops checklist, measurement, and sales-lift caveats.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1379,18 +1915,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH07 — Product Feed, Digital Shelf & Retail Readiness
-**Competency:** Not parsed
+**Competency:** T07-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Retail audience and first-party data digunakan untuk membuat segment seperti category buyers, loyalty members, lapsed purchasers, new-to-brand, high-value, and product affinities. Targeting bergantung pada taxonomy retailer, match coverage, scale, privacy, and platform controls. Audience strategy harus seimbang antara precision dan reach; segment terlalu kecil dapat menaikkan CPM, membatasi delivery, atau membuat hasil tidak stabil.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat retail audience taxonomy untuk prospecting, new-to-brand, repeat, lapsed, and high-value segments. Sertakan logic, window, scale/match caveat, activation, suppression, and measurement.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1399,18 +1943,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH08 — Campaign Activation, Bidding & Optimization
-**Competency:** Not parsed
+**Competency:** T07-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Retail activation dan optimization menggabungkan campaign configuration, product/feed readiness, bid/budget, placement, query, product availability, pricing, promotion, reviews, and sales signals. Optimasi dilakukan pada level retailer, campaign, keyword, placement, and SKU. Perubahan bid harus dibandingkan dengan stock/price/promo agar kenaikan sales tidak salah diatribusikan ke media.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat retail optimization log dari data SIMULATED 14 hari: per SKU/query, bid, spend, clicks, sales, stock, price, promo, rating, ACoS, root cause, action, and result.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1419,18 +1971,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH09 — Sales Measurement, ACoS, ROAS & Incrementality
-**Competency:** Not parsed
+**Competency:** T07-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Retail measurement menggabungkan platform ad reports, retailer sales, SKU economics, new-to-brand, marketplace share, product margin, and incrementality. Attribution window, category, campaign eligibility, returns/cancellations, VAT/fees, and sales definitions perlu disamakan. ROAS/ACoS tidak menunjukkan profit bila margin/discount/fulfillment belum dihitung. Lift tests dan holdout dapat digunakan bila retailer methodology dan sample mendukung.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat retail effectiveness dashboard spec dan analysis memo: spend, attributed sales, ACoS/ROAS, margin, returns, new-to-brand, stock, match coverage, and incrementality test design.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1439,18 +1999,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T07-CH10 — Retail Media Capstone
-**Competency:** Not parsed
+**Competency:** T07-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Retail & Commerce Media menyatukan shopper insight, retailer ecosystem, product readiness, onsite/offsite/in-store media, audience, activation, measurement, and profitability. Output bukan sekadar media plan marketplace; ia harus menjelaskan SKU priority, data/access, placement, forecast, operations, stock dependencies, closed-loop metrics, and test design. Cantumkan ketersediaan produk dan access assumptions berdasarkan provider yang diverifikasi.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan retail media strategy 90 hari plus workbook: retailer comparison, shopper journey, SKU readiness, inventory/placement matrix, audience segments, budget scenarios, campaign setup, measurement, sales/margin dashboard, and recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1459,18 +2027,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH01 — Media Owner, Publisher & Supply Landscape
-**Competency:** Not parsed
+**Competency:** T08-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media Investment dan Publisher Partnerships berfokus pada pembelian inventory secara komersial dan pengelolaan relasi media owner. Fungsi ini berbeda dari media planning yang merancang channel mix dan forecast, serta berbeda dari biddable/programmatic yang membeli melalui auction/DSP. Investment specialist mengevaluasi rate, audience, package, value-add, supply, terms, contract, delivery, and value-for-money.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat media owner landscape dan buying route map untuk satu kategori. Tulis siapa pemilik inventory, siapa bernegosiasi, siapa approve, siapa traffick, serta bukti delivery/billing yang dibutuhkan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1479,18 +2055,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH02 — Inventory, Audience & Media Value Assessment
-**Competency:** Not parsed
+**Competency:** T08-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Inventory evaluation menilai audience fit, reach, context, format, quality, availability, exclusivity, placement, package flexibility, and pricing. Media kit menyediakan deskripsi inventory, tetapi klaim reach/circulation perlu diperiksa berdasarkan source, period, methodology, duplication, and target. Value bukan sekadar audience besar; premium context, relevance, attention, and commercial guarantee juga penting.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat publisher inventory scorecard untuk lima opsi dengan audience, reach definition, format, quality, availability, rate, value-add, verification, methodology, dan recommended use.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1499,18 +2083,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH03 — Rate Card, RFP/RFQ & Proposal Evaluation
-**Competency:** Not parsed
+**Competency:** T08-C03, T08-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** RFP/RFQ mengubah kebutuhan media menjadi permintaan proposal atau quotation yang dapat dibandingkan. Dokumen harus menetapkan objective, target, geography, dates, format, deliverables, KPI, audience requirement, budget range, measurement, brand safety, and commercial terms. Proposal review memeriksa completeness, assumptions, exclusions, rate basis, bonus, agency fee, production, data/measurement cost, and cancellation policy.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat RFP template dan proposal comparison untuk tiga publisher. Sertakan standardized fields, weighted scoring, commercial normalization, clarification log, and recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1519,18 +2111,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH04 — Reach, Cost, Value & Commercial Benchmarking
-**Competency:** Not parsed
+**Competency:** T08-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Commercial benchmarking membandingkan cost dan value menggunakan unit yang disamakan. CPM, CPP, cost per unique reach, sponsorship rate, package pricing, discount, and added value harus memiliki target universe, dates, format, geography, and delivery definitions yang jelas. Historical rate bukan otomatis market benchmark terkini. Buyer perlu menyimpan source, date, volume tier, currency, and negotiation condition.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat benchmark workbook dengan lima publisher packages. Hitung net CPM/cost per reach, total cost, bonus value, unit comparability, benchmark confidence, and recommended negotiation anchor.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1539,18 +2139,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH05 — Negotiation, Trading Terms & Partnership
-**Competency:** Not parsed
+**Competency:** T08-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Negotiation media mengelola price, inventory, quality, dates, exclusivity, cancellation, makegood, payment, proof, data, and partnership value. Negotiation prep dimulai dari BATNA, objective, target/limit, leverage, alternative suppliers, and commercial priorities. Added value harus dinilai menurut audience dan delivery, bukan sekadar nominal rate-card yang tidak terpakai.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat negotiation plan dan value tracker: target/limit, BATNA, concessions, added value, contract terms, risk, approval, and post-negotiation summary. Simulasikan vendor negotiation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1559,18 +2167,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH06 — Media Booking, Insertion Order & Contract Terms
-**Competency:** Not parsed
+**Competency:** T08-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Insertion Order dan kontrak mengikat scope media buying menjadi komitmen komersial. IO perlu advertiser, publisher, placement, format, dates, quantity, rate, cost, currency, tax, cancellation, creative deadline, tracking, reporting, payment, and sign-off. Legal terms dapat meliputi indemnity, privacy, IP, liability, exclusivity, makegood, force majeure, and termination; buyer bukan pengganti legal counsel tetapi harus mengenali escalation points.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat IO checklist dan sample order form untuk campaign latihan. Bandingkan negotiated terms dengan signed IO dan trafficking sheet; tandai discrepancy/approval exceptions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1579,18 +2195,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH07 — Campaign Delivery, Proof of Performance & Makegoods
-**Competency:** Not parsed
+**Competency:** T08-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Delivery stewardship memastikan media owner memenuhi booking dan terms. Buyer memonitor booked vs delivered, dates, placements, creative, proof-of-posting/proof-of-play, audience, quality, and shortfall. Makegood bukan permintaan informal; ia mengikuti contract, tolerance, deadline, and evidence. Monitor campaign secara berkala agar masalah bisa diperbaiki sebelum end-of-flight.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat delivery tracker dan proof checklist untuk tiga publisher. Simulasikan underdelivery 12%; hitung shortfall, bukti yang diperlukan, makegood options, dan client communication.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1599,18 +2223,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH08 — Invoice, Reconciliation & Financial Control
-**Competency:** Not parsed
+**Competency:** T08-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Invoice reconciliation menghubungkan IO, vendor invoice, rate, volume, dates, placement, currency, tax, fees, discount, bonus, makegood, and proof. Buyer harus membedakan planned, contracted, delivered, and billable basis. Variance dapat berasal dari taxes, FX, cancellation, underdelivery, extra placement, or contract amendments. Semua adjustment harus memiliki evidence dan approver.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat reconciliation workbook dari satu IO dan invoice sintetis. Gunakan line-item matching, formula checks, variance categories, evidence links, approval status, and payment recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1619,18 +2251,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH09 — Media Investment Evaluation & Recommendation
-**Competency:** Not parsed
+**Competency:** T08-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Investment evaluation menilai hasil pembelian dan hubungan media owner setelah campaign. Analisis mencakup cost, delivery, audience quality, placement, value-add, fees, makegood, effectiveness, and future leverage. Negosiasi berikutnya menggunakan evidence, bukan sekadar meminta discount. Buyer harus menyampaikan value story kepada planner/finance/client serta memisahkan hasil komersial dari performance campaign.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat media investment review satu kuartal: vendor scorecard, rate/value history, delivery, quality, audience overlap, discrepancy, recommendation, and negotiation agenda.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1639,18 +2279,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T08-CH10 — Investment Capstone
-**Competency:** Not parsed
+**Competency:** T08-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Media Buying/Investment membuktikan kemampuan membeli dan menjaga nilai inventory secara komersial dari RFP sampai invoice. Paket harus mencakup media owner mapping, inventory evaluation, proposal normalization, negotiation, IO/contract, delivery stewardship, proof, reconciliation, and investment review. Track ini tidak mengajarkan DSP bidding sebagai kompetensi inti; direct publisher buying menjadi fokus, dengan auction/platform buying sebagai cross-track awareness.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan complete buying pack: media owner map, RFP, proposal comparison, negotiation plan, signed-style IO sample, trafficking handoff, delivery/proof tracker, reconciliation workbook, and investment review deck.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1659,18 +2307,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH01 — Digital Ad Tech & Campaign Delivery Ecosystem
-**Competency:** Not parsed
+**Competency:** T09-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Ad Operations menghubungkan media plan, platform/ad server, publisher, creative, tracking, verification, dan analytics. Tugas utamanya memastikan campaign dikonfigurasi, ditayangkan, dilacak, dan direkonsiliasi dengan benar—bukan menetapkan seluruh audience strategy atau budget allocation. Ekosistem dapat meliputi Google Ads, Meta, TikTok, LinkedIn, DV360, CM360, retailer platforms, dan direct publisher placements. Scope kerja mengikuti platform yang dipakai klien.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat cross-platform Ad Ops ecosystem diagram untuk satu campaign: platform roles, ad server, tags/pixels, publisher, verification, ownership, approvals, and evidence trail.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1679,18 +2335,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH02 — Campaign Brief, Trafficking Sheet & Naming Taxonomy
-**Competency:** Not parsed
+**Competency:** T09-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Campaign brief dan trafficking sheet adalah single source of truth operasional. Setiap object perlu advertiser/client, campaign, platform/publisher, placement/ad set/line item, creative, format, URL, click tracker, pixel/event, targeting, flight, budget, owner, approval, dan status. Naming taxonomy harus memudahkan identifikasi sekaligus kompatibel dengan reporting; jangan menaruh data pribadi di parameter atau URL.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat trafficking sheet lintas Meta, Google, TikTok, dan direct placement dengan IDs, names, asset specs, URLs, tags, flight, budget, targeting, owners, approval, and status.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1699,18 +2363,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH03 — Creative, Placement & Technical Specifications
-**Competency:** Not parsed
+**Competency:** T09-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creative and placement specifications memastikan asset diterima dan dirender sesuai environment. Periksa dimensions, aspect ratio, file size, format, duration, codec, frame rate, audio, click URL, SSL, safe zone, HTML5, fallbacks, responsive behavior, and platform policy. Spec berubah; selalu cek halaman resmi platform/publisher dan tanggal. Asset approved secara brand belum tentu technically eligible.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creative spec matrix untuk 6 placements (display, video, story/reel, native, HTML5, retailer sponsored content). Sertakan sumber resmi, date checked, file limits, CTA, safe zones, fallback, and QA status.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1719,18 +2391,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH04 — Tags, Pixels, UTMs & Click Trackers
-**Competency:** Not parsed
+**Competency:** T09-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Tagging dan tracking memiliki fungsi berbeda. Platform pixel/SDK/CAPI merekam events; UTM memberi label traffic; ad-server placement tag memanggil creative/delivery; click tracker merekam click redirect; impression tracker mengukur exposure; Floodlight mengukur activity di Campaign Manager 360. Ad Ops harus mengetahui siapa memasang, siapa memverifikasi, data apa yang dikirim, consent dependency, and deduplication.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat cross-platform tag map untuk Google tag/GA4, GTM, Meta Pixel/CAPI, TikTok Pixel/Events API, CM360/Floodlight, click/impression tracker, and UTM; sertakan QA cases.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1739,18 +2419,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH05 — CM360 Campaign, Placement, Ad & Floodlight Setup
-**Competency:** Not parsed
+**Competency:** T09-C03, T09-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Ad-server setup seperti CM360 menyusun advertiser, campaign, site, placement, ad, creative, and trackers. Placement mewakili inventory slot dan menghasilkan tag; ad mengontrol delivery/rotation; creative merupakan asset. Floodlight activities memakai counting method, activity group, value, and conversion window. Implementasi harus konsisten dengan naming, click tags, publisher requirements, and reporting.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat CM360 setup blueprint: advertiser, campaign, sites, placements, ads, creatives, Floodlight activity groups, counting methods, tags, and QA evidence. Labeli as design simulation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1759,18 +2447,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH06 — Pre-Launch QA, Testing & Go-Live Checklist
-**Competency:** Not parsed
+**Competency:** T09-C03, T09-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Pre-launch QA adalah quality gate sebelum campaign live. Checklist harus mencakup object setup, budget, flight, targeting, creative rendering, URL, redirects, tags/events, consent, policy, exclusions, frequency, geo, language, conversion settings, publisher acceptance, and sign-off. Upload success tidak berarti siap launch. Severity levels membantu menentukan blocker, major issue, and minor issue.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat pre-launch QA checklist dengan 30 test cases, expected vs actual, severity, owner, evidence link, status, retest, and formal go/no-go decision.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1779,18 +2475,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH07 — Live Campaign Monitoring, Pacing & Troubleshooting
-**Competency:** Not parsed
+**Competency:** T09-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Live monitoring membandingkan planned dengan actual delivery dan memisahkan media issue dari tracking issue. Pantau spend, pacing, impressions, clicks, conversions, cost metrics, rejection, placement status, frequency, viewability/IVT, site errors, and reporting lag. Troubleshooting harus hirarkis: data signal, tag, creative, targeting, platform eligibility, inventory, budget/bid, and publisher—not langsung menaikkan spend.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat monitoring dashboard/log dan troubleshooting tree untuk underdelivery, sudden spend spike, rejection, broken click URL, lost conversion event, and discrepancy.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1799,18 +2503,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH08 — Platform Discrepancy & Data Validation
-**Competency:** Not parsed
+**Competency:** T09-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Platform discrepancy muncul karena definisi event, click/impression filtering, attribution window, view-through, timezone, cut-off, consent, deduplication, latency, and identity berbeda. Ad Ops tidak boleh langsung menyebut salah satu sistem rusak sebelum membandingkan apples-to-apples. Reconciliation harus menyamakan scope, unit, date, event definition, and eligibility.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat discrepancy report tiga platform: data dictionary, event mapping, timezone/cutoff, click/view windows, dedupe, consent, latency, matched/unknown variance, and recommendations.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1819,18 +2531,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH09 — Billing Reconciliation, Documentation & Process Control
-**Competency:** Not parsed
+**Competency:** T09-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Billing reconciliation and process control menjaga kesesuaian booking, delivery, dan invoice. Ad Ops mengumpulkan IO, placement logs, rate, booked volume, billable basis, currency, tax, discount, bonus, makegood, platform fees, and proof. Finance controls perlu separation of duties, version history, access controls, and archive. Operational efficiency bukan berarti menghapus quality gates.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat billing reconciliation pack untuk dua vendor: IO-vs-invoice, delivery proof, billable calculation, variance, adjustment, approval, audit trail, and process improvement memo.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1839,18 +2559,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T09-CH10 — Ad Operations Capstone
-**Competency:** Not parsed
+**Competency:** T09-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Capstone Ad Operations menyatukan operation chain multi-platform: brief, trafficking, creative spec, tags, ad-server/platform setup, QA, go-live, monitoring, troubleshooting, discrepancy, billing, and documentation. Keberhasilan dinilai dari accuracy, traceability, risk control, and timely delivery—not creative strategy or budget optimization. Setiap contoh account/data harus berlabel SIMULATED dan tidak menyiratkan akses live.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan operational case pack: master brief, cross-platform trafficking sheet, creative spec matrix, tag map, CM360/Floodlight design, QA evidence, go-live checklist, monitoring log, incident report, discrepancy reconciliation, invoice pack, and process review.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1859,18 +2587,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH01 — Business Question, KPI & Measurement Framework
-**Competency:** Not parsed
+**Competency:** T10-C01, T10-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media Analytics dimulai dari business question, bukan dashboard atau file data yang kebetulan tersedia. Pertanyaan harus menentukan unit analisis, periode, population, outcome, diagnostic metrics, guardrails, dan keputusan yang akan diambil. KPI architecture menghubungkan business outcomes dengan driver seperti spend, reach, qualified traffic, conversion, revenue, margin, and retention. Definisi metric wajib menyebut formula, denominator, source, timezone, attribution window, owner, and limitation.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat measurement brief untuk pertanyaan bisnis 'apa yang mendorong kenaikan cost per qualified lead?'. Sertakan KPI tree, metric dictionary, analysis scope, segmentation, data owners, dan decision criteria.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1879,18 +2615,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH02 — Data Sources, Taxonomy & Data Quality
-**Competency:** Not parsed
+**Competency:** T10-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Media data berasal dari ad platforms, ad servers, GA4/Adobe Analytics, CRM, ecommerce, retailer, search console, finance, dan research sources. Grain harus diketahui sebelum join: campaign-day, ad-day, session, user, order, atau SKU. Taxonomy menstandarkan channel, campaign, market, audience, objective, and creative. Data quality memeriksa completeness, validity, consistency, uniqueness, accuracy, and timeliness.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat data source inventory dan QA audit untuk synthetic exports dari platform, GA4, CRM, dan ad server. Temukan duplicate, missing, invalid, date/currency mismatch, dan usulkan correction.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1899,18 +2643,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH03 — GA4, Platform Analytics & CM360 Data
-**Competency:** Not parsed
+**Competency:** T10-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** GA4, native ad-platform analytics, dan CM360 memiliki model serta fungsi berbeda. GA4 berorientasi event/session/user; platform Ads mengoptimasi dan melaporkan menurut model internal; CM360/ad server merekam delivery, clicks, and Floodlight activities. Analyst harus memahami dimension, metric, event parameter, attribution setting, modeled data, consent, retention, thresholding, and export limits sebelum menyatukan data lintas sistem.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat cross-platform metric mapping untuk Google Ads, Meta, TikTok, GA4, dan CM360. Sertakan event/metric definitions, attribution, time zone, deduplication, reporting grain, and known limitations.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1919,18 +2671,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH04 — Spreadsheet, SQL & Data Extraction
-**Competency:** Not parsed
+**Competency:** T10-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Spreadsheet dan SQL digunakan untuk membersihkan, menggabungkan, dan menganalisis data secara reproducible. Spreadsheet cocok untuk QA/ad hoc, tetapi raw data besar memerlukan structured query. SQL mengharuskan analyst memahami SELECT, WHERE, GROUP BY, JOIN, CTE, window functions, date handling, nulls, and aggregation. Query yang benar secara sintaks masih dapat salah secara bisnis jika grain atau join relationship keliru.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat workbook data QA dan SQL notebook dengan minimal 5 query: spend aggregation, CTR/CVR/CPA, JOIN spend-to-conversion, cohort summary, dan outlier check. Sertakan expected output dan test assertions menggunakan data SIMULATED.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1939,18 +2699,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH05 — Dashboard, Visualization & BI
-**Competency:** Not parsed
+**Competency:** T10-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Dashboard adalah interface keputusan, bukan galeri chart. Susun dari audience pengguna (executive, planner, trader, analyst), decision cadence, KPI hierarchy, grain, refresh, filters, and alerts. Visual harus memperlihatkan trend, variance, contribution, and context tanpa distorsi. Power BI, Tableau, Looker Studio, atau spreadsheet dipilih berdasarkan data access, governance, user needs, and maintenance.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat dashboard wireframe dan data model untuk cross-channel campaign performance. Sertakan 5 KPI utama, 5 diagnostic views, filters, alert conditions, data freshness, and metric definitions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1959,18 +2727,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH06 — Descriptive & Diagnostic Analytics
-**Competency:** Not parsed
+**Competency:** T10-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Descriptive analytics menjawab apa yang terjadi; diagnostic analytics menyelidiki mengapa. Analyst memeriksa trend, segment, variance, distribution, cohort, seasonality, mix shifts, and anomalies. Diagnosis memerlukan hypothesis tree dan triangulasi, bukan korelasi sederhana. Perubahan performa dapat disebabkan media delivery, audience/creative, landing page, tracking, product, stock, price, or sales operations.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat diagnostic memo dari synthetic dataset yang menunjukkan satu KPI memburuk. Lakukan metric decomposition, segment analysis, hypothesis tree, evidence check, root cause confidence, and recommended action.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1979,18 +2755,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH07 — Attribution, Incrementality & Marketing Effectiveness
-**Competency:** Not parsed
+**Competency:** T10-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Attribution membagi credit conversion berdasarkan rule/model, sedangkan incrementality mengestimasi tambahan outcome yang disebabkan media dibanding counterfactual. Marketing effectiveness mempertimbangkan contribution, halo/cross-channel, brand, sales, and long-term effects. Platform ROAS tidak otomatis mengukur incremental return. Analyst perlu memahami last-click, data-driven, multi-touch, lift test, geo holdout, MMM, and their assumptions and data needs.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat attribution vs incrementality analysis memo dengan synthetic dataset; rancang satu geo-holdout atau user-level holdout, tentukan primary metric, contamination risk, sample/duration, and limitation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1999,18 +2783,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH08 — Experiment Design, A/B Testing & Statistics
-**Competency:** Not parsed
+**Competency:** T10-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Experiment design membutuhkan hypothesis, randomization unit, control/treatment, primary metric, guardrails, sample size, duration, stopping rule, and contamination controls. Statistik dasar seperti confidence interval, power, significance, variance, and multiple testing memengaruhi interpretasi. Significance bukan ukuran business impact; analyst harus memeriksa effect size, practical significance, data quality, and segment effects.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat A/B test protocol dan analysis notebook untuk satu experiment: hypothesis, unit, sample/duration calculation, metrics, guardrails, QA, stopping rule, confidence interval, and decision memo.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2019,18 +2811,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH09 — Insight, Recommendation & Executive Storytelling
-**Competency:** Not parsed
+**Competency:** T10-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Insight storytelling mengubah analisis menjadi keputusan yang dapat dipahami executive. Struktur yang efektif memuat question, context, key finding, evidence, driver, business impact, recommendation, risk, and next action. Analyst harus memisahkan fact, interpretation, hypothesis, and recommendation; visual mendukung narasi, bukan menutupi uncertainty. Komunikasi harus menyesuaikan audience tanpa mengubah data.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat executive insight memo satu halaman dan 5-slide narrative untuk kasus analitik. Cantumkan fact/interpretation/hypothesis/recommendation, chart, risk, and decision requested.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2039,18 +2839,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T10-CH10 — Analytics Capstone
-**Competency:** Not parsed
+**Competency:** T10-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Analytics Capstone menunjukkan kemampuan end-to-end: merumuskan business question, mengambil data, memvalidasi, menganalisis, membuat dashboard, menjelaskan hasil, dan merekomendasikan tindakan. Data pipeline harus reproducible dan dapat diaudit. Bila memakai data synthetic/demo, jelaskan generator, assumptions, and limitations. Advanced MMM/econometrics dapat menjadi specialization lanjutan, bukan prasyarat untuk semua entry-level analyst.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun portfolio pack: measurement brief, data dictionary, SQL/Spreadsheet notebook, QA report, dashboard, diagnostic memo, attribution/incrementality plan, and executive presentation. Labeli dataset DEMO/SIMULATED.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2059,18 +2867,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH01 — Search Ecosystem, Organic Visibility & Search Intent
-**Competency:** Not parsed
+**Competency:** T11-C01, T11-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** SEO dan Organic Search meningkatkan kemampuan website ditemukan melalui crawling, indexing, relevance, quality, and search experience. Search result dapat mencakup organic web, local, images, video, featured snippets, dan AI features. SEO tidak menjamin ranking; specialist bekerja pada technical accessibility, content usefulness, intent match, information architecture, authority, and measurement. Search intent harus menjadi titik awal, bukan keyword density.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat search ecosystem map dan organic baseline untuk satu website: indexable pages, search visibility, query intent, page types, business outcomes, and key technical/content risks.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2079,18 +2895,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH02 — Keyword, Topic & Competitor Research
-**Competency:** Not parsed
+**Competency:** T11-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Keyword/topic research mengidentifikasi demand, query language, competitor gaps, and content opportunities. Keyword volume dari tools adalah estimasi, bukan demand pasti; periksa trend, SERP format, geography, and seasonality. Topic clustering menyusun hubungan pillar/supporting pages. Competitor SERP analysis membaca page type, intent, features, content depth, and proof rather than copying text.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat keyword-topic map minimal 50 query untuk satu kategori. Sertakan intent, SERP feature, page type, topic cluster, competitor gaps, priority score, and proposed URL.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2099,18 +2923,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH03 — Website Architecture, Crawlability & Indexing
-**Competency:** Not parsed
+**Competency:** T11-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Website architecture memengaruhi crawling, navigation, internal link equity, and user discovery. URL structure, hierarchy, canonical, robots directives, sitemap, pagination, faceted navigation, and JavaScript rendering perlu dipahami berdasarkan site scale. Crawl budget bukan solusi universal; prioritasnya memastikan important pages discoverable, indexable, canonicalized, and valuable.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat technical architecture audit dengan crawl sample: URL taxonomy, orphan pages, status code, canonical, robots, sitemap, faceted URLs, internal links, and remediation roadmap.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2119,18 +2951,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH04 — Technical SEO & Core Web Vitals
-**Competency:** Not parsed
+**Competency:** T11-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Technical SEO memastikan website mudah diakses, di-render, aman, cepat, and stabil. Core Web Vitals menilai loading, interactivity, and visual stability; interpretasi field data berbeda dari lab tests. Technical review juga mencakup mobile usability, JavaScript rendering, redirects, status codes, HTTPS, structured data validation, and server reliability. Prioritization harus memakai evidence, page templates, and business impact.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat audit teknis untuk tiga page templates: issue, evidence, affected URLs, root-cause hypothesis, impact, fix, owner, and before/after measurement plan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2139,18 +2979,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH05 — On-Page SEO, Content & Structured Data
-**Competency:** Not parsed
+**Competency:** T11-C01, T11-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** On-page SEO membuat halaman menjawab intent secara jelas dan bermanfaat. Title, headings, copy, internal links, images, metadata, and structured data harus mengikuti page purpose dan actual content. Helpful content memerlukan first-hand expertise, completeness, trust, evidence, and reader value. Keyword stuffing, doorway pages, thin programmatic pages, and misleading claims dapat merusak kualitas.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat content brief dan on-page audit untuk satu landing page: intent, title/H1, outline, proof, internal links, media, CTA, schema validity, and review checklist.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2159,18 +3007,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH06 — Off-Page SEO, Digital PR & Authority
-**Competency:** Not parsed
+**Competency:** T11-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Off-page SEO and Digital PR membangun reputation, authority, and discovery melalui editorial links, mentions, partnerships, and relevant coverage. Link quantity alone is not a strategy; evaluate relevance, editorial integrity, source quality, referral value, anchor context, and policy compliance. Jangan membeli link atau membuat network manipulatif. Digital PR harus memiliki angle newsworthy dan credible data.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat digital PR plan dan backlink risk audit untuk brand latihan: competitor gap, story angle, target publishers, pitch outline, link quality criteria, and measurement.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2179,18 +3035,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH07 — Local SEO & Search Demand
-**Competency:** Not parsed
+**Competency:** T11-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Local SEO mengoptimalkan discoverability untuk pencarian berbasis lokasi dan service area. Google Business Profile, NAP consistency, category, hours, services, reviews, photos, local landing pages, citations, and location relevance berperan. Multi-location brand membutuhkan governance listing dan review management. Ranking dipengaruhi relevansi, distance, prominence, and context; tidak semua faktor dapat dikendalikan marketer.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat local search audit untuk lima lokasi: profile completeness, NAP, category, reviews, local landing pages, citations, owner, and maintenance SLA.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2199,18 +3063,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH08 — Search Console, Analytics & SEO Reporting
-**Competency:** Not parsed
+**Competency:** T11-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Search Console dan analytics menghubungkan organic visibility dengan behavior dan business outcomes. GSC memberi performance queries/pages, indexing, sitemap, enhancements, and search appearance; GA4 memberi sessions/events/conversions. Metrics memiliki scope dan attribution berbeda; clicks GSC tidak sama dengan sessions GA4. Reporting harus memisahkan branded/non-branded, page type, country/device, and search feature.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat organic reporting dashboard dan monthly memo dari synthetic/demo data: query, page, clicks, impressions, CTR, position, indexation, sessions, conversions, and prioritized actions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2219,18 +3091,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH09 — AEO, GEO & AI Search Visibility
-**Competency:** Not parsed
+**Competency:** T11-C01, T11-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** AEO/GEO/AI Search mengamati bagaimana brand/content ditemukan dan dirujuk pada answer engines dan AI features. Fondasi website tetap crawlability, helpful content, entity clarity, source authority, and structured information. Tidak ada markup khusus yang menjamin citation/rank di semua AI systems. Monitoring harus mencatat platform, prompt, date, answer, cited sources, brand mention, and context; hasil sampling tidak boleh disajikan sebagai universal visibility metric.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat AI search visibility log dengan 20 prompts lintas informational/commercial/local intents. Catat date, engine, answer, citations, mention/context, source quality, and content actions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2239,18 +3119,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T11-CH10 — Organic Search Capstone
-**Competency:** Not parsed
+**Competency:** T11-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** SEO Capstone menyatukan audit teknis, keyword/topic research, content strategy, digital PR, local, reporting, and AI visibility baseline menjadi roadmap yang diprioritaskan. Rekomendasi harus mempertimbangkan engineering/content resources dan business impact. Hindari menjanjikan ranking atau traffic uplift tanpa data; nyatakan uncertainty dan measurement plan.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan SEO capstone: technical audit, keyword/topic map, on-page brief, backlink/PR review, local checklist, Search Console baseline, AI visibility log, prioritized 90-day roadmap, and executive summary.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2259,18 +3147,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH01 — CRM Ecosystem & Lifecycle Strategy
-**Competency:** Not parsed
+**Competency:** T12-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** CRM adalah strategi pengelolaan hubungan customer berbasis data dan lifecycle, bukan sekadar software atau daftar kontak. Lifecycle dapat mencakup lead, onboarding, activation, repeat, loyalty, lapse, and win-back; definisi harus mengikuti model bisnis. CRM specialist menyelaraskan acquisition, sales, service, and customer value dengan consent, data quality, governance, and communication experience.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat CRM lifecycle blueprint untuk satu business model: stage definitions, entry/exit criteria, trigger, owner, business metric, contact policy, and high-risk customer scenarios.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2279,18 +3175,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH02 — Customer Data Architecture & Database
-**Competency:** Not parsed
+**Competency:** T12-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Customer data architecture mengatur struktur, identifiers, sources, events, fields, relationships, deduplication, consent, and access. Data dapat berasal dari web/app, POS, CRM, support, email, WhatsApp, sales, and offline systems. Identity resolution harus dilakukan dengan governance dan tidak menggabungkan data hanya karena nama/email mirip. Data model perlu menyebut customer, account, contact, event, transaction, product, and consent entities.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat CRM data dictionary dan ERD sederhana: contact, account, transaction, product, event, consent, and communication preference. Sertakan dedupe, identity, access, and retention rules.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2299,18 +3203,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH03 — Segmentation, Lead Scoring & Lifecycle Stages
-**Competency:** Not parsed
+**Competency:** T12-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Segmentation mengelompokkan customer untuk action yang relevan; lead scoring menilai fit/intent/progression; lifecycle stage memberi konteks hubungan. Segment harus memiliki criteria yang reproducible, refresh cadence, size, and owner. RFM (recency, frequency, monetary) berguna untuk transaksi, tetapi tidak menggantikan behavioral/need segmentation. Lead scoring harus divalidasi terhadap sales outcomes agar tidak hanya memberi poin pada aktivitas mudah.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat segment taxonomy 6 kelompok dan lead score model dengan firmographic/behavioral signals, point weights, exclusions, validation sample, and sales handoff SLA.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2319,18 +3231,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH04 — Customer Journey & Trigger-Based Communication
-**Competency:** Not parsed
+**Competency:** T12-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Trigger-based communication terjadi karena event/kondisi: signup, purchase, product usage, cart abandon, renewal, inactivity, or service status. Trigger berbeda dari broadcast campaign dan journey sequence. Setiap workflow perlu eligibility, consent, branch, delay, frequency cap, suppression, exit condition, retry, and exception handling. Timing harus masuk akal dengan product use and customer context.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat workflow diagram untuk welcome, cart abandon, post-purchase, and reactivation. Sertakan trigger/condition/action, branches, delays, suppression, exit, frequency cap, and QA scenarios.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2339,18 +3259,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH05 — Email, WhatsApp, SMS & Push Strategy
-**Competency:** Not parsed
+**Competency:** T12-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Email, WhatsApp, SMS, and push memiliki permission, format, cost, immediacy, content, and response expectations berbeda. Channel selection harus mengikuti customer preference, urgency, service vs marketing purpose, and local policy/platform terms. Email memerlukan sender/domain, authentication (SPF/DKIM/DMARC), list hygiene, unsubscribe, deliverability; WhatsApp business messaging memiliki template/session/pricing/policy rules yang harus diverifikasi terkini. Jangan menganggap nomor telepon berarti izin marketing.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat channel decision matrix dan 3 sample communications untuk service update, onboarding, and promotional reactivation. Sertakan consent, preference, opt-out, fallback, and compliance check.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2359,18 +3287,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH06 — Marketing Automation & Workflow Architecture
-**Competency:** Not parsed
+**Competency:** T12-C02, T12-C04, T12-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Automation architecture menyusun trigger, condition, action, branch, delay, data input, integration, retry, and monitoring. Workflow harus idempotent agar event duplicate tidak memicu pesan ganda. API/webhook, CRM, email service, spreadsheet, and data warehouse perlu error handling and ownership. Automation bukan sekadar happy path; desain juga failure, consent change, missing data, and human handoff.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat automation architecture dan QA plan untuk form-to-CRM-to-email flow. Dokumentasikan schema, API/webhook, dedupe, retries, consent, error queue, monitoring, and human handoff.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2379,18 +3315,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH07 — Personalization, Content & Deliverability
-**Competency:** Not parsed
+**Competency:** T12-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Personalization harus memberi relevansi tanpa terasa mengawasi. Gunakan attributes/behavior yang diperlukan, jelaskan value, jaga data minimization, and provide preference controls. Deliverability dipengaruhi sender reputation, authentication (SPF/DKIM/DMARC), list quality, bounce, complaint, engagement, content, and sending behavior. Open rates memiliki privacy limitations; gunakan click, conversion, deliverability, and downstream outcomes secara seimbang.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat personalization map dan email deliverability audit: data fields, source, use/purpose, fallback, preference, SPF/DKIM/DMARC checklist, bounce/complaint, and KPI.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2399,18 +3343,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH08 — Retention, Churn, Cohort & Customer Lifetime Value
-**Competency:** Not parsed
+**Competency:** T12-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Retention, churn, cohort, and LTV mengukur kualitas hubungan customer sepanjang waktu. Cohort dibentuk berdasarkan event awal yang sama; retention perlu definisi activity yang sesuai model bisnis. Churn dapat berupa inactivity, cancellation, lapse, or loss of revenue. LTV harus memperhatikan margin, repeat cadence, refunds, discounts, service cost, and horizon; jangan menghitung revenue-only LTV lalu membandingkannya dengan CAC seolah-olah contribution.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat cohort retention workbook, churn definition, LTV sensitivity model, and 3 intervention hypotheses. Gunakan synthetic transactions and explicitly label assumptions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2419,18 +3371,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH09 — Lifecycle Experimentation & Reporting
-**Competency:** Not parsed
+**Competency:** T12-C08
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Lifecycle experimentation menguji pesan, timing, channel, offer, onboarding sequence, and frequency. Metric seperti delivery, bounce, click, conversion, repeat, complaint, unsubscribe, and revenue harus dipilih sesuai objective. Test perlu randomization unit, holdout, primary KPI, guardrails, sample/duration, and decision rules. CRM lift sering dipengaruhi seasonality, overlapping campaigns, and contact eligibility; holdout membantu menilai incrementality.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat test backlog untuk onboarding, replenishment, win-back: hypothesis, audience, treatment/control, primary/guardrails, timing, sample assumptions, and decision rules.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2439,18 +3399,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T12-CH10 — CRM Capstone
-**Competency:** Not parsed
+**Competency:** T12-C08
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** CRM Capstone menunjukkan lifecycle system yang menghubungkan data architecture, segments, consent, triggers, channel, automation, deliverability, measurement, and business value. Workflow harus memiliki happy path dan failure path. Data synthetic/demo harus diberi label dan privacy risks ditulis eksplisit. Presentasi harus memperlihatkan bagaimana CRM mengurangi friction atau meningkatkan customer value, bukan sekadar memperbanyak message volume.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun portfolio pack: lifecycle map, data dictionary/ERD, segment model, consent matrix, workflow diagrams, message samples, QA cases, deliverability audit, cohort/LTV workbook, and executive readout.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2459,18 +3427,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH01 — Audience, Culture & Brand Voice
-**Competency:** Not parsed
+**Competency:** T13-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Content Strategy dimulai dari business objective, audience need, brand positioning, and communication role. Content bukan sekadar kalender posting; ia adalah sistem aset yang membantu audience memahami, mempertimbangkan, memilih, menggunakan, dan merekomendasikan brand. Brand voice harus memiliki prinsip, tone, vocabulary, and boundaries yang konsisten, tetapi dapat diekspresikan secara native pada tiap platform.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat brand voice guide dengan 4 prinsip, tone matrix, vocabulary, do/don't, claims policy, dan contoh adaptasi satu message untuk TikTok, Instagram, YouTube, LinkedIn, dan blog.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2479,18 +3455,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH02 — Content Strategy, Objectives & Pillars
-**Competency:** Not parsed
+**Competency:** T13-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Content strategy menerjemahkan objective campaign/business menjadi content objectives, territories, pillars, formats, and distribution roles. Content pillar bukan sekadar daftar tema; tiap pillar harus memiliki audience need, brand role, proof, format, and measurement. Pisahkan content untuk education, consideration, conversion, retention, and advocacy. Proporsi konten perlu mengikuti objective, resources, and evidence—not fixed universal percentages.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat content strategy one-pager dengan objectives, audience journey, 4–6 content pillars, formats, distribution, channel role, KPIs, owner, and resource assumptions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2499,18 +3483,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH03 — Editorial Architecture & Content Calendar
-**Competency:** Not parsed
+**Competency:** T13-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Editorial architecture mengatur alur ide, brief, production, review, publish, repurpose, and update. Calendar harus memuat objective, audience, pillar, format, channel, owner, asset status, approval, dependencies, dates, and KPI. Always-on dan campaign content memiliki ritme berbeda. Capacity planning penting agar kalender realistis dan tidak mendorong kuantitas dengan mengorbankan editorial quality.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat editorial calendar 4 minggu dengan 12 planned assets, status workflow, owner, deadlines, production effort, campaign dependencies, repurpose plan, and KPI.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2519,18 +3511,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH04 — Insight Mining & Content Opportunity
-**Competency:** Not parsed
+**Competency:** T13-C01, T13-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Insight mining menggabungkan search, social listening, comments, competitor content, community, consumer research, and campaign performance untuk menemukan content gaps dan audience tensions. Ide konten perlu berasal dari audience questions, not solely trend chasing. Opportunity sizing menilai reach, relevance, urgency, competition, brand permission, production effort, and ability to differentiate.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat insight-mining board 20 signals, cluster audience questions, validate three tensions, lalu prioritaskan lima content opportunities dengan score dan evidence trail.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2539,18 +3539,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH05 — Storytelling, Hook, Narrative & Brand POV
-**Competency:** Not parsed
+**Competency:** T13-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Storytelling architecture membangun narasi dari hook, audience tension, problem, context, transformation, proof, and payoff. Hook menarik perhatian tetapi tidak boleh misleading. Brand POV memberi sudut pandang; story harus tetap factual, useful, and memorable. Format short-form perlu segera menyampaikan context/value, sedangkan long-form dapat membangun argument lebih lengkap. Narrative harus terhubung ke proposition dan CTA.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat tiga storyboards untuk satu insight: 15-second video, 60-second video, and long-form article. Sertakan hook, tension, beat sheet, proof, visual/audio notes, and CTA.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2559,18 +3567,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH06 — Long-Form Content Development
-**Competency:** Not parsed
+**Competency:** T13-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Long-form content membutuhkan riset, struktur, evidence, editorial clarity, and search/user intent. Artikel, newsletter, founder POV, case study, blog, whitepaper, and thought leadership memiliki depth dan reader task berbeda. Outline perlu argument, source, examples, proof, author expertise, internal/external links, and CTA. Content accuracy dan legal claim review penting terutama pada finance/health/regulated categories.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat brief dan outline long-form 1.200–1.500 kata dengan thesis, audience, sources, evidence table, section hierarchy, visual suggestions, author review, and CTA.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2579,18 +3595,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH07 — Short-Form Content & Repurposing
-**Competency:** Not parsed
+**Competency:** T13-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Short-form content mengoptimalkan ide menjadi video/carousel/short posts dengan pacing, retention, visual hierarchy, sound, captions, and platform-specific constraints. Repurposing bukan copy-paste; satu source idea dapat dipecah menjadi multiple angles, hooks, formats, and audience stages. Batch production membantu efisiensi tetapi membutuhkan asset naming, versioning, and quality control.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat repurpose matrix 1 long-form source menjadi 8 assets: 3 short videos, 2 carousels, 1 email, 1 LinkedIn post, and 1 story. Sertakan hook, audience, format, CTA, and production notes.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2599,18 +3623,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH08 — Platform Adaptation: TikTok, Instagram, YouTube, LinkedIn
-**Competency:** Not parsed
+**Competency:** T13-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Platform adaptation mempertimbangkan audience behavior, native formats, discovery mechanics, content length, interaction, and professional/community context. TikTok, Instagram Reels, YouTube Shorts tidak identik; LinkedIn memiliki expectation profesional dan context berbeda. Adaptasi tetap menjaga proposition/brand voice tetapi mengubah hook, depth, visual, pace, CTA, and publishing metadata sesuai platform.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat one-idea/multi-platform adaptation matrix untuk TikTok, Instagram, YouTube, and LinkedIn. Sertakan hook, format, depth, CTA, native behavior, KPI, and risk per platform.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2619,18 +3651,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH09 — Content Distribution & Amplification
-**Competency:** Not parsed
+**Competency:** T13-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Distribution and amplification menentukan bagaimana konten menjangkau audience melalui organic, paid, creator/KOL, community, newsletter, website, and partner channels. Distribution strategy bukan tugas setelah produksi; format, rights, timing, and measurement harus direncanakan di awal. Paid amplification sebaiknya memperkuat asset yang punya audience/creative fit, bukan menjadi jalan pintas untuk konten yang tidak menyelesaikan need.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat distribution plan untuk 5 content assets: organic, paid, creator, community, newsletter, and website. Sertakan rights, owner, schedule, amplification trigger, KPI, and cross-channel caveats.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2639,18 +3679,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH10 — Content Measurement & Optimization
-**Competency:** Not parsed
+**Competency:** T13-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Content measurement menghubungkan objective, asset, audience, platform, and action. KPI dapat mencakup reach, watch time, retention, saves, shares, click, engaged sessions, qualified leads, assisted conversion, and business outcomes. Content performance perlu dianalisis menurut format, topic, hook, creator, channel, audience, and journey role. Jangan menilai content quality hanya dari view count atau menganggap engagement selalu berdampak ke sales.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat content performance dashboard schema dan optimization memo untuk 20 assets. Sertakan IDs, format, pillar, retention, engagement, click quality, conversion, objective, and next action.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2659,18 +3707,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T13-CH11 — Content Strategy Capstone
-**Competency:** Not parsed
+**Competency:** T13-C02, T13-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Content Capstone membangun satu quarter content system dari audience insight hingga measurement. Paket harus menyatukan brand voice, objectives, pillars, editorial architecture, insight mining, storytelling, long/short production, platform adaptation, distribution rights, and optimization. Produksi harus memasukkan shooting, editing, sound, lighting, motion, accessibility, and tool workflow bila role mencakup hands-on creator capability; P3I curriculum menjadi benchmark strategi/editorial/storytelling, bukan bukti semua skill produksi teknis tercakup.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Siapkan content portfolio: audience/insight deck, brand voice, 4–6 pillars, quarter calendar, 3 long-form briefs, 12 short-form storyboards/assets, production specs, distribution/right matrix, dashboard, and optimization review.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2679,18 +3735,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH01 — Creator Economy & Influencer Ecosystem
-**Competency:** Not parsed
+**Competency:** T14-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creator partnerships beroperasi dalam creator economy yang melibatkan talent, agency/MCN, brand, platform, creator manager, affiliate, production, and media amplification. Partnership dapat dibayar untuk reach, content, credibility, community, usage rights, or trackable conversion. Creator partnership bukan sekadar memilih akun dengan followers besar; strategi harus menentukan role creator dalam audience journey dan business objective.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creator ecosystem map dan role matrix untuk awareness, education, product review, conversion, and advocacy campaigns. Sertakan partner types, deliverables, payment model, and risks.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2699,18 +3763,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH02 — KOL, KOC, Nano, Micro, Macro & Mega Creator
-**Competency:** Not parsed
+**Competency:** T14-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** KOL dan KOC adalah pendekatan yang sering dipakai di Indonesia, tetapi keduanya bukan kategori global yang selalu distandarkan. KOL lebih sering dipilih karena expertise/authority/visibility; KOC lebih dekat dengan peer recommendation dan pengalaman pengguna. Nano/micro/macro/mega tiers hanya shortcut; audience relevance, trust, content niche, and quality lebih penting daripada follower threshold semata.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat KOL/KOC creator matrix berisi 20 creators synthetic/example: tier, niche, audience geo, trust signal, content format, objective fit, rate range assumption, disclosure, and recommended role.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2719,18 +3791,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH03 — Creator Discovery & Audience Research
-**Competency:** Not parsed
+**Competency:** T14-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creator discovery menggunakan criteria yang dapat direplikasi: category fit, audience demographics/geography, engagement quality, content quality, brand safety, previous sponsorship, follower growth anomalies, and commercial availability. Discovery sources dapat berupa platform search, creator marketplace, agency roster, social listening, and referrals. Shortlist tidak boleh hanya berdasarkan popularitas; semua claims tentang audience harus diverifikasi dengan available analytics atau media kit.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat discovery workbook 30 candidates dan shortlist lima: criteria, source, profile, audience evidence, content fit, conflicts, outreach status, and recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2739,18 +3819,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH04 — Creator Vetting, Audience Fit & Fraud Screening
-**Competency:** Not parsed
+**Competency:** T14-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creator vetting memeriksa authentic audience, engagement quality, content credibility, brand safety, previous sponsorship, follower growth anomalies, and category fit. Fraud indicators bukan bukti final; sudden spikes, generic comments, bot-like profiles, engagement pods, and inconsistent geo perlu investigasi. Gunakan third-party tools sebagai signal, bukan verdict tunggal. Simpan evidence dan decision rationale.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creator vetting scorecard untuk lima candidates dengan audience fit, ER context, quality, fake signal checks, brand safety, history, and accept/reject/risk decision.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2759,18 +3847,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH05 — Influencer Strategy & Campaign Planning
-**Competency:** Not parsed
+**Competency:** T14-C04, T14-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Influencer strategy menerjemahkan objective menjadi creator roles, tier mix, campaign concept, timeline, budget, and KPI. Campaign brief perlu menjelaskan audience, insight, message, content role, deliverables, creative freedom, mandatories, CTA, disclosure, and usage rights. Creator plan harus memperhitungkan audience overlap, product availability, seasonality, production capacity, and cross-channel amplification.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creator campaign plan 4 minggu: creator tier mix, shortlists, budget, message, timeline, deliverables, KPI, rights, disclosure, and amplification. Buat base/conservative scenarios.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2779,18 +3875,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH06 — KOL Briefing, Storyline & Content Approval
-**Competency:** Not parsed
+**Competency:** T14-C02, T14-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** KOL brief harus memberi strategic direction tetapi tidak membunuh creator authenticity. Brief memuat campaign context, audience, product truth, key message, proof, do/don't, story role, platform/format, deliverables, CTA, disclosure, mandatory, and approval. Storyline harus menunjukkan pengalaman atau explanation yang believable. Approval flow membutuhkan SLA dan batas revisi agar creator autonomy dan brand safety seimbang.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creator brief, storyline outline, key-message/proof matrix, do/don't, disclosure copy, approval workflow, and feedback template for one campaign.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2799,18 +3903,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH07 — Negotiation, Rate, Contract & Usage Rights
-**Competency:** Not parsed
+**Competency:** T14-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Negotiation dan contract mengikat scope, fee, deliverables, payment terms, usage rights, exclusivity, whitelisting, revisions, cancellations, disclosure, performance claims, IP, confidentiality, and remedies. Creator fee tidak otomatis mencakup perpetual paid usage. Buyer harus memisahkan organic posting license, paid amplification, raw footage, cutdowns, edit, territory, channels, and duration.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat creator deal sheet dan contract checklist dengan rate, deliverables, revisions, usage rights, paid whitelisting, exclusivity, disclosure, cancel, payment, and expiry fields.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2819,18 +3931,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH08 — Product Seeding, Barter & Creator Relationship
-**Competency:** Not parsed
+**Competency:** T14-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Seeding dan barter membangun trial/relationship tetapi bukan gratis: product cost, packaging, shipping, staff time, and content rights tetap ada. Seeding harus punya target, reason, opt-in, logistics, brief, and post-send follow-up. Barter harus menyebut deliverables atau menyatakan tidak ada guarantee. Relationship management meliputi CRM creator, communication, feedback, payment, and long-term trust.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat seeding program plan 30 creators: selection criteria, opt-in, product allocation, logistics tracker, expected/non-guaranteed outputs, feedback form, and cost model.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2839,18 +3959,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH09 — Campaign Execution & Content Delivery
-**Competency:** Not parsed
+**Competency:** T14-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Campaign execution mengatur production, deadlines, asset collection, quality review, disclosure, platform settings, link/tag, publishing, and proof. Deliverable acceptance harus didasarkan pada contract/brief, bukan selera internal setelah tayang. Tanggal post, URL, screenshot, view/engagement snapshots, and invoice status perlu dicatat. Crisis/negative feedback harus memiliki escalation protocol.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat execution tracker untuk 10 creator posts: status, owner, due date, asset version, approval, disclosure, URL, proof, corrections, invoice, and final acceptance.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2859,18 +3987,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH10 — Paid Amplification & Partnership Ads
-**Competency:** Not parsed
+**Competency:** T14-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Paid amplification dan Partnership Ads memakai creator identity/content untuk distribution berbayar. Boosting dari brand page berbeda dari partnership ad/whitelisting. Campaign setup perlu account permission, post authorization, ad disclosure, creative rights, targeting, budget, tracking, and expiry. Organic creator performance dan paid amplified performance harus dilaporkan terpisah sebelum digabung ke total campaign view.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat partnership ads checklist dan paid amplification plan untuk dua creator assets. Sertakan permissions, rights, objective, budget, tracking, organic/paid reporting, and expiry alerts.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2879,18 +4015,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH11 — Influencer Measurement & Reporting
-**Competency:** Not parsed
+**Competency:** T14-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Influencer measurement harus mencocokkan KPI dengan creator role: awareness (reach/unique, view quality), engagement (saves/shares/comments), content quality, traffic, lead/sales, and advocacy. Attribution dipengaruhi codes/links, platform windows, view-through, and overlap. Cost metrics seperti CPM/CPE/CPV perlu denominator dan format yang sesuai. ROI harus mempertimbangkan fee, production, rights, seeding, amplification, discounts, and margin.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat influencer dashboard/memo untuk 10 creator: fee, organic/paid reach, views/retention, engagement quality, clicks, conversions, cost metrics, margin assumptions, and recommendations.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2899,18 +4043,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T14-CH12 — Creator Partnerships Capstone
-**Competency:** Not parsed
+**Competency:** T14-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creator Partnerships Capstone menunjukkan proses lengkap dari discovery hingga measurement dan relationship management. Portfolio harus mencakup strategy, creator matrix, vetting evidence, brief, deal/rights, seeding/production, execution tracker, partnership ads, reporting, and post-campaign review. Semua creator examples dan results yang bukan campaign aktual diberi label SIMULATED; no invented endorsements.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun capstone pack: creator strategy, 20-name shortlist, vetting scorecard, budget, creative brief, contract/rights matrix, seeding/production tracker, partnership ads plan, performance dashboard, and executive recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2919,18 +4071,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH01 — Affiliate Marketing Ecosystem
-**Competency:** Not parsed
+**Competency:** T15-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Affiliate marketing membayar partner berdasarkan action/conversion yang ditetapkan. Ecosystem dapat melibatkan advertiser, affiliate network/platform, publisher, creator affiliate, sub-network, tracking provider, and finance. Performance terms harus menjelaskan eligible action, attribution window, commission basis, validation, reversal, fraud, payout, and margin. Affiliate bukan sinonim influencer; creator dapat berperan sebagai affiliate bila commercial model menekankan tracked sale/commission.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat affiliate ecosystem and program brief untuk brand: partner types, conversion definition, tracking flow, attribution window, commission model, fraud rules, and payout governance.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2939,18 +4099,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH02 — Affiliate Network, Publisher & Creator Affiliate
-**Competency:** Not parsed
+**Competency:** T15-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Publisher and creator affiliate memiliki model traffic and content berbeda. Publisher dapat berupa content/review, comparison, coupon, cashback, loyalty, search arbitrage, and sub-network. Creator affiliate memakai short video/live/showcase, product link, or platform-native commission. Recruitment harus menilai audience fit, traffic source, content method, disclosure, conversion quality, and policy risk.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat publisher classification and recruitment matrix: partner type, audience/source, allowed method, risk, traffic quality evidence, commission fit, and onboarding need.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2959,18 +4127,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH03 — Partner Discovery & Recruitment
-**Competency:** Not parsed
+**Competency:** T15-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Partner discovery and recruitment harus memiliki ideal partner profile, category fit, reach/source quality, content standards, commercial expectations, and compliance checks. Outreach menjelaskan value proposition untuk partner, tracking, support, payment, asset, and exclusivity. Recruitment bukan mengejar jumlah partner; active/productive partner ratio dan incremental contribution lebih relevan.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat recruitment pipeline untuk 30 partner prospects: source, type, audience, reach, fit, risks, contact, status, onboarding requirements, and activation target.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2979,18 +4155,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH04 — Commercial Model, Commission & Incentives
-**Competency:** Not parsed
+**Competency:** T15-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Commission models meliputi CPS, CPA, CPL, hybrid, tiered, fixed fee, bonus, and performance incentives. Commission harus diuji terhadap gross margin, discount, returns, tax, fulfilment, marketplace fees, and existing customer behavior. Tiered incentives dapat meningkatkan volume tetapi mendorong low-quality conversions. Payout terms, validation, reversal, cap, and effective dates harus tercatat.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat commission calculator untuk CPS/CPA/hybrid dengan sensitivity: AOV, margin, discount, refund, fee, commission, and allowable acquisition cost. Labeli assumptions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -2999,18 +4183,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH05 — Affiliate Platform & Product Feed
-**Competency:** Not parsed
+**Competency:** T15-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Affiliate platforms, product feeds, and tracking tools menghubungkan offer, SKU, deep links, attribution, publisher IDs, coupon codes, and conversion records. Product feeds membutuhkan title, price, availability, image, link, category, and update schedule. Deep links harus membuka product/app target dengan tracking intact. Platform access and available products differ by marketplace, country, seller, and program status; always verify current provider documentation.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat product feed data dictionary, deep-link/tracking map, and QA cases for five SKUs. Verify price, availability, image, destination, IDs, publisher attribution, and update cadence.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3019,18 +4211,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH06 — Tracking Links, Attribution & Conversion
-**Competency:** Not parsed
+**Competency:** T15-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Tracking links and attribution menentukan bagaimana click dan conversions dipasangkan dengan publisher. Cookie loss, cross-device, browser restrictions, app/web, redirects, coupon leakage, last-click overwrites, and attribution windows dapat mengubah credit. Affiliate analyst harus memahami click ID, sub-ID, conversion IDs, dedupe, view/click rules, validation, and source of truth. Jangan menganggap attribution credit berarti incremental sale.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat affiliate attribution flow diagram dan reconciliation workbook: click IDs, sub-IDs, conversion IDs, window, coupon rules, dedupe, cross-device caveats, and sales source.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3039,18 +4239,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH07 — Affiliate Campaign Setup
-**Competency:** Not parsed
+**Competency:** T15-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Affiliate campaign setup menggabungkan offer, partner groups, commission, creative, feed, landing, tracking, policy, and approval. Campaign structure dapat dipisah menurut SKU/category, geography, partner type, objective, or incentive. Launch checklist harus memastikan product ready, link/UTM/sub-ID valid, discount eligible, commission correct, stock available, and reporting/payout configured.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat affiliate launch pack untuk 10 publishers: campaign brief, offer matrix, commission, assets, links, product list, eligibility, disclosure, QA, and launch approval.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3059,18 +4267,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH08 — Creator Affiliate & Social Commerce
-**Competency:** Not parsed
+**Competency:** T15-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Creator affiliate/social commerce menggabungkan content, live, short video, product showcase, shopping links, and commission. Creator performance harus dinilai melalui content quality, product demonstration, audience relevance, click/shop conversion, returns, and commission. Platform-native programs memiliki product eligibility, commission rates, content policy, settlement, and attribution rules yang dapat berubah; jangan menjanjikan akses jika seller/creator tidak eligible.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat social commerce creator program untuk lima SKUs: creator tiers, commission, product feed, live/video brief, claim restrictions, tracking, order quality, returns, and payout conditions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3079,18 +4295,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH09 — Fraud, Traffic Quality & Compliance
-**Competency:** Not parsed
+**Competency:** T15-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Fraud and traffic quality controls melindungi advertiser dari non-human clicks, cookie stuffing, click injection, fake orders, coupon abuse, incentivized traffic violations, and brand bidding violations. Tidak semua spike adalah fraud; detection harus menggunakan pattern, source, timestamps, device, conversion validation, and partner communication. Contract perlu memberi hak audit, suspend, reversal, and clawback.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat affiliate fraud playbook: risk taxonomy, monitoring alerts, investigation checklist, evidence log, partner communication, reversal/clawback rules, and escalation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3099,18 +4323,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH10 — Commission Reconciliation & Reporting
-**Competency:** Not parsed
+**Competency:** T15-C03, T15-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Commission reconciliation menghitung eligible sales, cancellations, returns, duplicate orders, attribution rules, commission tiers, tax, payout currency, and invoice. Affiliate platform report tidak selalu sama dengan finance/marketplace due to delay or reversal windows. Reconciliation harus memiliki period, order IDs, partner IDs, rate table version, and approval trace.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat monthly commission reconciliation workbook untuk 30 synthetic orders. Hitung eligible, cancelled, returned, duplicate, net commission, tax, payout, variance, and approval.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3119,18 +4351,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH11 — Affiliate Optimization & Partner Growth
-**Competency:** Not parsed
+**Competency:** T15-C02, T15-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Affiliate optimization and partner growth meningkatkan quality and contribution, bukan sekadar jumlah publishers. Segment partner by type, quality, value, activity, new-to-brand, category, order value, returns, commission, incrementality, and compliance. Growth levers include exclusive offers, product feed, content support, tiering, creator programs, and improved landing/stock. Partner activation and retention need relationship management and fair terms.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat partner growth scorecard dan 90-day action plan: activation, active rate, net sales, margin, new-to-brand, returns, fraud, commission, and partner tier.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3139,18 +4379,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T15-CH12 — Affiliate Capstone
-**Competency:** Not parsed
+**Competency:** T15-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Affiliate Capstone menyatukan commercial model, recruitment, platform/feed, tracking, campaign, quality control, reconciliation, and partner growth. Pekerjaan harus memperlihatkan unit economics dan payout rules, bukan hanya link creation. Data synthetic harus diberi label dan platform access/terms diverifikasi per account. Portfolio perlu menunjukkan bagaimana program menjaga advertiser margin dan fair partner measurement.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Bangun affiliate capstone pack: program brief, ecosystem map, partner shortlist, commission model, feed/link QA, campaign plan, fraud playbook, reconciliation workbook, partner dashboard, and executive recommendation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3159,18 +4407,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH01 — Community Strategy & Purpose
-**Competency:** Not parsed
+**Competency:** T16-C01
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Community strategy menetapkan mengapa komunitas perlu ada, siapa yang dilayani, nilai yang diberikan, rules, participation model, and expected business/customer impact. Komunitas dapat brand-owned, platform-based, customer-led, professional, or interest-based. Tujuan bukan hanya menambah anggota; community health mencakup trust, participation, safety, retention, and mutual value. Tidak semua brand membutuhkan komunitas milik sendiri.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat community charter: purpose, member promise, target segments, platform rationale, entry rules, participation principles, governance, and measurable success criteria.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3179,18 +4435,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH02 — Audience Community Mapping
-**Competency:** Not parsed
+**Competency:** T16-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Community mapping mengidentifikasi ruang audience berkumpul, norms, influential members, moderators, critics, advocates, and unmet needs. Mapping perlu membedakan platform audience dari community participants dan memperhatikan public/private spaces. Listening harus menghormati privacy, context, and platform terms; jangan mengumpulkan data pribadi tanpa kebutuhan/izin.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat audience community map untuk satu kategori dengan 10 public spaces/accounts, member roles, norms, high-value conversations, risk, and ethical engagement approach.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3199,18 +4463,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH03 — Community Platform & Audience Segmentation
-**Competency:** Not parsed
+**Competency:** T16-C02
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Community platform selection mempertimbangkan audience presence, conversation type, moderation capability, privacy, discoverability, searchability, features, member expectations, and operational burden. Segmentasi member dapat berdasarkan stage, expertise, interest, contribution, and support needs. Jangan memilih WhatsApp/Discord/Telegram hanya karena populer; platform harus sesuai purpose and safety requirements.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat platform decision matrix untuk tiga opsi komunitas: objective, user behavior, moderation tools, privacy, analytics, integrations, cost, and risk. Sertakan member segmentation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3219,18 +4491,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH04 — Social Listening & Conversation Intelligence
-**Competency:** Not parsed
+**Competency:** T16-C03
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Social listening and conversation intelligence mengubah percakapan menjadi insight melalui query design, source coverage, Boolean logic, taxonomy, sentiment/context coding, topic clustering, trend detection, and reporting. Sentiment automation tidak memahami seluruh ironi/slang/bahasa campuran; analyst harus melakukan manual validation. Volume mention bukan otomatis market opinion atau representative survey.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat listening query set dan coding book untuk brand/kategori. Analisis 100 synthetic/public-safe mentions: topic, sentiment, intent, audience tension, false positives, and recommended actions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3239,18 +4519,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH05 — Community Management & Engagement
-**Competency:** Not parsed
+**Competency:** T16-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Community management menjalankan interaksi harian dan membangun participation. Community manager menjawab pertanyaan, memfasilitasi peer support, welcome newcomers, maintain tone, detect friction, and protect trust. Response quality harus akurat, human, timely, and consistent; jangan menjanjikan hal yang tidak dapat dipenuhi. SLA dibedakan berdasarkan question, complaint, safety, and crisis severity.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat response playbook 20 cases: question, praise, complaint, misinformation, product issue, crisis signal, safety concern, and spam. Include response, owner, SLA, and escalation.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3259,18 +4547,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH06 — Content Programming & Community Activation
-**Competency:** Not parsed
+**Competency:** T16-C04
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Content programming membuat komunitas memiliki alasan untuk kembali dan berkontribusi. Program dapat berupa AMA, challenge, peer learning, feedback sessions, events, member stories, product clinics, and co-creation. Editorial plan harus mengikuti community questions and rhythms, bukan hanya brand broadcast. UGC membutuhkan permission, context, credit, rights, moderation, and safety review.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat 4-week community program calendar dengan 2 recurring formats, one event/AMA, UGC process, moderation roles, participation metric, and safety plan.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3279,18 +4575,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH07 — Moderation, Guidelines & Brand Safety
-**Competency:** Not parsed
+**Competency:** T16-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Moderation dan guidelines menjaga keamanan, trust, and brand suitability. Policy perlu mendefinisikan spam, harassment, hate, misinformation, personal data, threats, illegal activity, and product claims. Moderation ladder menentukan hide, remove, warn, mute, ban, or escalation; keputusan harus konsisten, documented, and appealable bila sesuai. Brand safety bukan berarti menghapus kritik yang sah.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat community rules dan moderation matrix dengan 10 scenarios, severity, action, response template, evidence retention, appeal, and escalation owner.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3299,18 +4603,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH08 — Customer Care & Response Management
-**Competency:** Not parsed
+**Competency:** T16-C04, T16-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Customer care via community/social harus menghubungkan public response dengan private case handling. Community manager perlu memahami privacy, verification, ticketing, SLA, escalation, and crisis boundaries. Jangan meminta nomor order/PII di public comments; arahkan ke secure channel. Public response tetap perlu menunjukkan ownership tanpa membocorkan data customer.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat customer care handoff flow dan response templates untuk order issue, refund, product defect, privacy complaint, and safety incident. Sertakan PII rules and SLA.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3319,18 +4631,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH09 — Advocacy, UGC & Brand Relationship
-**Competency:** Not parsed
+**Competency:** T16-C06
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Advocacy dan UGC membangun hubungan sehingga member secara sukarela membantu brand melalui recommendation, review, referrals, content, feedback, and peer support. Advocacy program harus memberi recognition/value tanpa membeli opini atau memaksa positive reviews. Permission, disclosure, incentives, content rights, and authenticity perlu diatur. Advocate bukan sekadar member dengan follower tinggi; trust dan helpful contribution lebih penting.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat advocacy program blueprint: member tiers/behaviors, recognition system, UGC permission, referral flow, review policy, disclosure, and health metrics.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3339,18 +4659,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH10 — Crisis Monitoring & Escalation
-**Competency:** Not parsed
+**Competency:** T16-C05
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Crisis monitoring mengamati early signals, complaint velocity, sentiment/context, safety reports, influential actors, and potential escalation. Crisis playbook harus mendefinisikan trigger, severity, spokesperson, legal/PR/customer care owners, holding statement, approval, evidence preservation, and updates. Community manager tidak boleh berspekulasi atau menghapus kritik substansial; ia harus menjaga factuality, empathy, and escalation.
 
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat crisis playbook dengan 5 scenarios, severity triggers, RACI, holding statement, approval chain, response SLA, evidence log, and after-action review.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3359,38 +4687,26 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
 
 ### DPA-T16-CH11 — Community Measurement & Reporting
-**Competency:** Not parsed
+**Competency:** T16-C07
 
-**Learning outcome under assessment:** 
+**Learning outcome under assessment:** Community measurement mengukur health dan value: active members, repeat contributors, meaningful conversation, response SLA, resolution, sentiment/context, retention, safety incidents, UGC quality, referral, and customer outcomes. Metrics perlu denominator, period, segment, and sampling method. Follower/member count tidak menunjukkan value tanpa participation. Report harus memadukan quantitative trend dan qualitative examples.
 
-**Required artifact / chapter-specific evidence checklist:** 
-
-**Assessor must verify:**
-- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
-- The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
-- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
-
-**Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
-
-**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
-
----
-
-### DPA-T16-CH12 — Community Capstone
-**Competency:** Not parsed
-
-**Learning outcome under assessment:** 
-
-**Required artifact / chapter-specific evidence checklist:** 
+**Required artifact / chapter-specific evidence checklist:** Buat community health dashboard dan monthly report: active members, contributor rate, repeat, SLA, resolution, moderation, sentiment themes, UGC permissions, and next actions.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -3399,7 +4715,15 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-- No static Q&A extracted; confirm whether chapter intentionally has no questions or extraction/mapping failed.
+1. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** undefined
+   - **Current guide answer (not yet approved):** undefined
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
@@ -3417,8 +4741,9 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 ## Known limitations
 
-- 169 rubric records generated from chapter objectives and practice prompts.
-- 0 existing static Q&A pairs reproduced for answer-key review.
+- 168 rubric records generated from chapter objectives and practice prompts.
+- 504 existing static Q&A pairs reproduced for answer-key review.
+- Chapters without parsed practice/objective/Q&A fields: 0.
 - This document does not create a scored quiz engine in the website.
 - This document does not certify SME approval, technical correctness, or learning effectiveness.
 - Rubric scoring criteria are a proposed internal standard and require pilot calibration.
