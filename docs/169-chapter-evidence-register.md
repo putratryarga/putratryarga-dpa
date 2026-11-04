@@ -6,7 +6,7 @@
 **Status:** chapter inventory and initial competency mapping generated from current PR branch; full content/source/resource/rubric validation remains in progress.
 
 ## Audit rules
-- IDs below are immutable proposed IDs, not current IDs in the HTML. The renderer still selects guides by array position; implementation must migrate to explicit IDs before merge.
+- IDs below are immutable proposed IDs, not current IDs in the HTML. The renderer now uses immutable chapter IDs; see the mapping implementation follow-up below.
 - Learning objectives are summarized from chapter titles and current lesson bullets. They are not independently assessed learning outcomes yet.
 - Practice/deliverable is transcribed from the chapter's existing deliverable checkbox where present.
 - Assessment field distinguishes static guide Q&A from a scored interactive quiz. No passing threshold or chapter rubric is established by this inventory.
@@ -269,3 +269,15 @@
 - Critical mapping risk: the renderer uses `ROLE_STUDY_GUIDES[role][index]`; adding/reordering a chapter can misalign the guide. Migrate to `chapter_id -> guide_id` mapping.
 - Track 13 currently has 11 chapters but does not yet provide a clearly separated Organic Social specialization module with its own social publishing, social listening, organic analytics and social response/operational outputs. Add dedicated specialization chapters or a sub-pathway before calling Organic Social fully covered.
 - Chapter-level content, links, answer keys, practice validity, source traceability, assessment rubrics and responsive behavior still require manual QA. This register is an inventory and first-pass mapping, not a completed content validation.
+
+## Mapping implementation follow-up — 4 November 2026
+
+<badge>Implemented on PR #5 branch</badge> The renderer and guide sources now use immutable chapter IDs:
+- All 169 rendered core chapters have unique `data-chapter-id` values in `index.html`.
+- All 169 guide objects carry a matching unique `chapterId` (20 retained Full-Stack/Paid Social guide objects plus 149 specialist guide objects).
+- New `chapter-guide-map.js` builds the lookup by explicit ID and rejects duplicate guide IDs.
+- `buildGuide()` now looks up `DPA_GUIDE_BY_CHAPTER[chapterId]`; the old positional `ROLE_STUDY_GUIDES[role][index]` selection has been removed. Missing mapping falls back to generic chapter guidance instead of silently borrowing the wrong chapter's guide.
+- Static reconciliation on the current PR #5 branch: 169 HTML IDs, 169 unique guide IDs, 0 missing IDs, 0 orphan IDs, 0 duplicate guide IDs; registry script is loaded after the guide data scripts.
+
+This closes the positional mapping blocker at source level. It does not replace browser/runtime testing or the remaining chapter content, source, resource, assessment and rubric review. The ID convention is now:
+`DPA-T01-CH01` through `DPA-T16-CHnn`.
