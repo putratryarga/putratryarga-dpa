@@ -106,3 +106,17 @@ Counts are labels, not mutually exclusive cells: compound evidence labels contri
 6. Recheck taxonomy boundaries after evidence extraction; do not add tracks merely to improve symmetry.
 
 **Status:** 80/80 cells are explicitly represented; five cells were upgraded with additional direct employer-hosted evidence in this pass. Substantive source/JD validation remains **PARTIAL**. This is an auditable coverage ledger, not a claim that all 80 cells have passed.
+
+
+## Additional employer-hosted evidence upgrades — 4 November 2026
+
+1. **Dentsu — Digital Consultant, Biddable Specialist** — [employer source](https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Digital-Consultant_R1123158). Cross-channel paid search (Google/Bing), paid social (Meta/TikTok/LinkedIn) and display; classify as adjacent for pure Search/Social tracks.
+2. **WPP Media — Manager, Marketing, Italy** — [employer source](https://job-boards.greenhouse.io/wppmedia/jobs/5425758008). CRM communications, marketing automation workflows, newsletter, database hygiene, compliance and email performance; adjacent title.
+3. **Omnicom Media — Manager, Analytics/Insights** — [employer source](https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Data-Science-and-Analytics-05_60055-AS). Analytics/insights role with segmentation, media analytics and CRM evaluations; adjacent evidence, not lifecycle execution.
+4. **Dentsu — Influencer Manager, London** — [employer source](https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Manager_R1126792). Influencer strategy, creator sourcing, contracts, campaign delivery, budgets, compliance and measurement.
+5. **Dentsu — Influencer Marketing Lead, Lisbon** — [employer source](https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Marketing-Lead_R1129669). Senior client leadership and end-to-end influencer campaign execution.
+6. **Dentsu — Manager, Influencer Marketing, New York** — [employer source](https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Manager--Influencer-Marketing_R1130356). Creator strategy, briefs, negotiation, contracting, budget, CreatorIQ and compliance; 2–4 years.
+7. **Dentsu — Social Media Analyst / Community Manager, Medellin** — [employer source](https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Media-Analyst_R1129420-1). Community management, replies, reputation, content, engagement, analytics and reporting; 1+ year.
+8. **Dentsu — Senior Content & Community Manager, Sports** — [employer source](https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Content-Manager_R1121993). Community/content operations across Discord, Reddit and Telegram; senior role, sports niche.
+
+These sources upgrade five additional cells: T04/Dentsu and T05/Dentsu from G to B (cross-channel biddable, not dedicated specialist); T12/WPP and T12/Omnicom from G to B (adjacent CRM/analytics duties); T14/Dentsu from G to A (direct influencer role family); T16/Dentsu from B to A (direct community role). The cell labels preserve adjacent-vs-direct scope and geography. This is not proof of all competencies in those tracks.
