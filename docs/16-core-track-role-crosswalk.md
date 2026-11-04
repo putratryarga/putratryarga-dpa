@@ -58,3 +58,8 @@ Outstanding blockers:
 **169 chapter register: not complete.**  
 **Advanced electives: 10 evidence groups and 28 chapter specifications recorded; resource/assessment/local-market validation partial.**  
 **PR #5 / PR #6: keep open until blockers close. No merge authorization is implied.**
+
+
+## Evidence coverage register
+
+The full 5-agency × 16-track (80-cell) evidence ledger is maintained in [80-cell agency-role evidence matrix](80-cell-agency-role-evidence-matrix.md). This matrix records direct, adjacent, capability/index and gap evidence by holding group. It is a coverage ledger; it does not imply 80/80 competency-level validation. The five additional source upgrades dated 4 November 2026 are recorded in the validation execution delta.
