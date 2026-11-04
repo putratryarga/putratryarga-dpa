@@ -8656,3 +8656,20 @@ browser/device runtime QA has been completed. Keep that gate open.
 ================================================================================
 END OF ADDENDUM v2.0
 ================================================================================
+
+
+================================================================================
+ADDENDUM v2.1 — HEAD SHA CHANGE CONTROL
+Date: 4 November 2026
+================================================================================
+
+The SHAs in v2.0 are a point-in-time preview snapshot. Because this Source of
+Truth file is itself committed to each PR branch, each subsequent documentation
+update changes that branch's HEAD and triggers a new deployment. Therefore the
+canonical source for the exact current branch HEAD and PR state is the GitHub
+PR metadata (#5 and #6), not a frozen SHA copied into this file.
+
+Do not interpret the v2.0 SHA values as the final HEAD after this addendum.
+================================================================================
+END OF ADDENDUM v2.1
+================================================================================
