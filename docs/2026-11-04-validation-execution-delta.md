@@ -104,3 +104,26 @@ The public deployment could not be inspected through the available page reader. 
 | Q&A items in register/rubric | 507 | 507 | Source text populated; correctness review remains open |
 
 **Release decision remains:** NOT READY / DRAFT. Do not merge based on extraction repair alone.
+
+
+## 8. 4 November 2026 — five additional direct employer-role sources
+
+A further official-source search upgraded five inherited evidence cells in the role-level chapter register and the new 80-cell matrix:
+
+- **Track 5 / Havas:** Paid Social Specialist, employer-hosted Havas Workday listing. Scope includes paid-social campaign management, audience segmentation, budgets, reporting and A/B tests. The indexed extract did not expose complete geography/seniority; those fields remain explicitly unconfirmed.
+- **Track 6 / Dentsu:** Programmatic Specialist, employer-hosted Workday listing, Lisbon. Scope includes DSP setup, targeting, bids/budgets, brand safety, viewability, trafficking support and end-of-campaign evaluation. This is execution/support-level evidence, not senior trading leadership.
+- **Track 9 / Publicis:** Ad Operations Specialist, employer-hosted Publicis careers listing, Johannesburg. Scope includes trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live and issue logs; 2–5 years' experience.
+- **Track 11 / Dentsu:** SEO Executive, employer-hosted Workday listing. Scope includes technical SEO checks, robots.txt, XML sitemap, redirects, canonical tags, keyword/content audits, reporting and SEO tools. The indexed extract did not expose geography; retain this limitation.
+- **Track 15 / WPP:** Group Head Affiliate, employer-hosted Jakarta listing, plus Mindshare Affiliate Manager Beirut employer JD. The latter specifies direct publishers/networks, S2S postbacks, pixels, MMPs, attribution, tracking QA, fraud controls and CPI/CPL/CPA/RevShare/CPS models. Preserve the Jakarta vs Beirut market/seniority distinction.
+
+The matrix is now at `docs/80-cell-agency-role-evidence-matrix.md`. It explicitly represents all 80 cells and upgrades these five cell statements. This does not mean 80/80 are fully validated: the matrix remains partial, with 16 explicit G gaps in the inherited/updated class labels and other cells relying on B/D or compound evidence. The new matrix documents the evidence class, scope caveats, source URLs and outstanding work.
+
+### New official URLs
+- Havas Paid Social Specialist: https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Paid-Social-Specialist_JR0095187-1
+- Dentsu Programmatic Specialist, Lisbon: https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Programmatic-Specialist_R1123420
+- Publicis Ad Operations Specialist, Johannesburg: https://careers.publicisgroupe.com/jobs/176664?lang=en-US
+- Dentsu SEO Executive: https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/SEO-Executive_R1121609-1
+- WPP Media Group Head Affiliate, Jakarta: https://job-boards.greenhouse.io/wppmedia/jobs/5235133008
+- WPP Media Mindshare Affiliate Manager, Beirut: https://job-boards.greenhouse.io/wppmedia/jobs/5341033008
+
+**Remaining:** validate all 80 cells at JD/competency level; this pass upgrades five but does not close every gap.
