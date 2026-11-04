@@ -1,7 +1,7 @@
 # Resource & Credential Validation Register — 4 November 2026
 
 **Status:** Initial issuer-source validation. Recheck price/access/expiry before each cohort or curriculum release.  
-**Canonical Source of Truth:** [16-track consolidated source](16_track_Source_of_Truth_Consolidated_2026-11-04.txt)
+**Canonical Source of Truth:** [16-track consolidated source](16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt)
 
 ## Verified issuer facts
 
