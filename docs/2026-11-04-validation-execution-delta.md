@@ -72,3 +72,35 @@ This pass adds several direct JDs and improves coverage for Paid Search, Paid So
 ## 6. Runtime QA constraint in this pass
 
 The public deployment could not be inspected through the available page reader. The interactive browser automation service reported a negative wallet balance and refused to start a run. Therefore no browser-level runtime test or screenshot has been claimed. Resume after the browser service is funded or an authorized browser session becomes available.
+
+
+## 7. 4 November 2026 — source-to-register extraction correction
+
+**Execution status:** completed and committed to PR #5 and PR #6. This corrects extraction integrity only; it does not convert the answer keys or curriculum into SME-approved content.
+
+- Parsed the actual guide-source arrays from `role-study-guides-part1.js`, `role-study-guides-part2.js` and `role-study-guides-part3.js`, preserving each immutable `DPA-Txx-CHxx` identifier.
+- Reconciled all **149 newly added guide objects** to their chapter IDs and replaced the broken Q&A/glossary extraction in the chapter evidence register.
+- Before correction, the register contained **2,086 literal `undefined` tokens** across the 149 added guide entries. After correction, a full-string scan returned **0** literal `undefined` tokens.
+- The chapter register still contains **169 unique chapter entries**. Its 507 Q&A items now contain the actual source-guide question and answer text, not placeholders.
+- The assessment register now contains **169 chapter-specific rubric entries** and 507 source-matched Q&A answer-key review entries. A full-string scan returned **0** literal `undefined` tokens in the rubric file.
+- The previously separate T16-CH12 Community Capstone rubric is now incorporated into the main rubric register.
+- The corrected register and rubric file are committed in both PR branches. PR #6 now also carries the rubric register so both pull requests share the same core audit artifacts.
+
+### What this closes / does not close
+
+**Closed:** extraction defect for the 149 added guides; chapter ID-to-source-array reconciliation for those 149; missing 169th rubric entry; placeholder removal in the two audit artifacts.
+
+**Still open:** correctness review of all 507 answers, acceptable alternate answers, independent technical/SME review of all 169 chapters, rubric calibration with sample work, final per-chapter official resource mapping, 80-cell employer-role evidence validation, and authenticated browser/runtime QA. The source-guide text is preserved as authored and is not represented as independently fact-checked merely because extraction now matches.
+
+### Reproducible checks
+
+| Check | Before | After | Interpretation |
+|---|---:|---:|---|
+| Register chapter entries | 169 | 169 | Count preserved |
+| Register literal `undefined` | 2,086 | 0 | Extraction placeholders removed |
+| Added source guide objects reconciled | Not reconciled | 149 | ID-linked source arrays parsed |
+| Rubric chapter entries | 168 | 169 | Missing T16-CH12 added |
+| Rubric literal `undefined` | 888 | 0 | Answer-key placeholders removed |
+| Q&A items in register/rubric | 507 | 507 | Source text populated; correctness review remains open |
+
+**Release decision remains:** NOT READY / DRAFT. Do not merge based on extraction repair alone.
