@@ -272,7 +272,7 @@
 
 ## Mapping implementation follow-up — 4 November 2026
 
-<badge>Implemented on PR #5 branch</badge> The renderer and guide sources now use immutable chapter IDs:
+**Implemented on PR #5 branch.** The renderer and guide sources now use immutable chapter IDs:
 - All 169 rendered core chapters have unique `data-chapter-id` values in `index.html`.
 - All 169 guide objects carry a matching unique `chapterId` (20 retained Full-Stack/Paid Social guide objects plus 149 specialist guide objects).
 - New `chapter-guide-map.js` builds the lookup by explicit ID and rejects duplicate guide IDs.
