@@ -436,6 +436,8 @@ Required QA before PR #5 is final:
 - Review Common Foundation separately from specialist depth.
 - Resolve taxonomy issues above.
 
+Resource and credential checks are tracked in [resource-credential-validation.md](resource-credential-validation.md); the current issuer facts and unresolved regional access/expiry checks are documented there.
+
 ## 8. Chapter quality gate and scoring rubric
 
 Every chapter/subchapter must pass all six gates:
