@@ -8712,3 +8712,12 @@ The resource/credential register now links to this 169-chapter map. Release stat
 The 80-cell matrix and chapter register were updated with six further cell-level changes based on employer-hosted job descriptions: T04/Dentsu G→B; T05/Dentsu G→B; T12/WPP G→B; T12/Omnicom G→B; T14/Dentsu G→A; T16/Dentsu B→A. Cross-channel paid search/social is retained as adjacent evidence, not treated as a pure specialist JD. CRM duties inside a Marketing or Analytics title remain adjacent evidence. Direct influencer and community role-family evidence is now recorded for Dentsu with market/seniority caveats.
 
 The matrix's class counts and source URLs are maintained in `docs/80-cell-agency-role-evidence-matrix.md`. Full competency-level validation remains PARTIAL.
+
+
+# ADDENDUM — 4 NOVEMBER 2026: 80-CELL EVIDENCE AND CHAPTER TECHNICAL TRIAGE
+
+Current 80-cell evidence-class labels: A 36, B 19, D 37, G 6, with 18 compound labels (counts overlap and are not mutually exclusive). Six explicit G gaps remain: T09/Dentsu Ad Operations; T11/Havas SEO; T14/Havas creator/influencer; T15/Omnicom affiliate; T15/Havas affiliate; T16/Havas community. The detailed source links, geography and seniority caveats are in `docs/80-cell-agency-role-evidence-matrix.md`.
+
+The new `docs/169-chapter-technical-review-matrix.md` gives all 169 chapters a traceable review row. The 149 added guides have 3 Q&A, 4 glossary entries and 4 workflow steps each; 20 legacy guides are separately identified. Brevity triage flagged 125 answer pairs across 81 chapters and 81 glossary definitions across 58 chapters; these require contextual review and are not automatically wrong. All 169 rubrics have chapter-specific artifact checklists and shared scoring dimensions, but calibration and SME approval remain open. All 507 answer keys are source-matched, not yet correctness-approved.
+
+**Release status remains NOT READY:** full competency-level 80-cell evidence validation, technical/SME review of all 169 chapters, answer-key correctness, rubric calibration, resource source-fit/Indonesia access verification and browser/runtime QA remain open.
