@@ -8592,3 +8592,44 @@ EXTRACTION COMPLETE; SME/TECHNICAL/RESOURCE/ASSESSMENT VALIDATION PARTIAL.
 ================================================================================
 END OF ADDENDUM v1.8
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.9 — CANONICAL FILENAME, REPOSITORY SYNCHRONIZATION & DEPLOYMENT SNAPSHOT
+Date: 4 November 2026
+================================================================================
+
+The canonical document has been published under the requested recognizable
+filename:
+docs/16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt
+
+The temporary duplicate filename ending in "_Consolidated_" was removed from
+both PR branches. README, crosswalk, chapter register, resource register and
+elective audit references point to the canonical file.
+
+Repository placement:
+- PR #5 branch: audit/align-all-16-track-learning-modules
+- PR #6 branch: docs/advanced-electives-source-of-truth
+- Both branches contain the canonical Source of Truth, role crosswalk,
+  169-chapter evidence register and resource/credential register.
+- PR #5 also contains the immutable chapter-guide mapping implementation:
+  chapter-guide-map.js, chapterId fields in all 169 guide objects, and
+  data-chapter-id on all 169 rendered core chapters.
+- PR #6 contains the consolidated elective source material and evidence docs.
+
+Deployment snapshot before this addendum:
+- PR #5 branch deployment for commit 9f4141e was READY.
+- PR #6 branch deployment for commit 35d8d22 was READY.
+- A newer README/source update was subsequently committed; Vercel must finish
+  its deployment for the new branch heads before the newest previews can be
+  considered READY.
+- Preview pages could not be fetched by the web reader. This does not prove
+  the previews are inaccessible to the user, and it is not a substitute for
+  browser QA.
+- Vercel READY means deployment completed, not that UI, quiz, links, or content
+  have passed end-to-end tests.
+
+No merge has been performed or authorized.
+================================================================================
+END OF ADDENDUM v1.9
+================================================================================
