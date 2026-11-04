@@ -127,3 +127,14 @@ The matrix is now at `docs/80-cell-agency-role-evidence-matrix.md`. It explicitl
 - WPP Media Mindshare Affiliate Manager, Beirut: https://job-boards.greenhouse.io/wppmedia/jobs/5341033008
 
 **Remaining:** validate all 80 cells at JD/competency level; this pass upgrades five but does not close every gap.
+
+
+## 9. 4 November 2026 — deterministic static repository QA
+
+Static QA was rerun against the PR #5 branch and recorded in `docs/2026-11-04-static-repository-qa.md` (synchronized to PR #6). Confirmed: 169 HTML chapter IDs; 169 guide IDs (10 Full-Stack + 10 Paid Social + 149 role-specific); no missing/orphan/duplicate guide IDs; 391 unique HTML element IDs; 13/13 internal anchors resolve; eight local script references; 169 chapter-register entries; 169 rubric entries; 507 Q&A items in each register; zero literal `undefined` in the corrected register and rubric. Responsive/media-query, localStorage, theme, focus and reduced-motion code is present but behavior is not runtime-verified.
+
+**New PR-head CI state:** GitHub combined status for the latest PR #5 and PR #6 commits reports Vercel **FAILURE** with target URL indicating a build-rate-limit restriction. This is not a code-test failure diagnosis and is not a READY deployment. No GitHub Actions workflow runs are associated with these commits.
+
+**Browser QA:** not run. The connected local Browser service could not access the originating browser context; cloud browser/deep-research service returned insufficient funds/empty wallet before a run could start. No screenshots, interaction, console/network, mobile/desktop or accessibility runtime tests are claimed.
+
+Release status remains NOT READY TO MERGE.
