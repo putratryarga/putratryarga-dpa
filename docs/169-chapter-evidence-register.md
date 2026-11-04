@@ -1417,7 +1417,7 @@
 
 **Competency ID(s):** T05-C01
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Paid social adalah aktivitas membeli inventory iklan pada platform sosial secara terencana dan terukur. Pekerjaan specialist menghubungkan outcome bisnis, akun platform, aset identitas, sumber data, audience, creative, auction/delivery, measurement, dan optimization. Meta dan TikTok menjadi platform praktik utama; LinkedIn merupakan pendalaman untuk kebutuhan B2B, sedangkan Pinterest, Snapchat, Reddit, atau X dipelajari sesuai kebutuhan pasar dan akses akun.
 
@@ -1453,7 +1453,7 @@
 
 **Competency ID(s):** T05-C01
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Campaign objective menjelaskan hasil yang diminta dari optimasi platform; funnel menggambarkan perjalanan konsumen; conversion location menunjukkan tempat tindakan terjadi; performance goal dan optimization event menentukan sinyal delivery. Semuanya saling berkaitan, tetapi bukan istilah yang dapat saling menggantikan. Nama objective, conversion location, dan goal dapat berubah sesuai platform, campaign type, serta eligibility akun. Periksa pilihan aktual di Ads Manager sebelum launch.
 
@@ -1490,7 +1490,7 @@
 
 **Competency ID(s):** T05-C02
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Audience strategy dimulai dari kebutuhan dan perilaku konsumen, lalu diterjemahkan menjadi sumber data, aturan segmentasi, exclusions, serta hipotesis yang bisa diuji. Custom Audience biasanya memakai sumber first-party atau interaksi platform yang diizinkan; Lookalike Audience memodelkan prospek dari karakteristik source audience; interest/behavior memberi sinyal targeting; broad atau automated audience memberi ruang lebih luas bagi sistem. Ketersediaan fitur berbeda menurut platform dan akun. Jangan mengunggah atau mengaktifkan data pelanggan tanpa hak, consent, dan dasar penggunaan yang sesuai.
 
@@ -1527,7 +1527,7 @@
 
 **Competency ID(s):** T05-C01
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Campaign architecture menyusun hubungan objective, budget, audience, placement, creative, dan reporting. Meta umumnya memakai hierarchy Campaign → Ad Set → Ad; TikTok Ads Manager memakai Campaign → Ad Group → Ad. Konsep levelnya mirip, tetapi setting dan tanggung jawabnya tidak identik. Pada TikTok, campaign setup mencakup objective dan campaign budget; ad group mengatur antara lain placement, targeting, schedule, optimization, dan bid; ad memuat identity, creative, copy, CTA, URL, serta tracking. Selalu validasi workflow dan pilihan terbaru di masing-masing platform.
 
@@ -1564,7 +1564,7 @@
 
 **Competency ID(s):** T05-C03
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Creative merupakan bagian dari sistem optimasi, bukan dekorasi setelah media plan selesai. Mulai dari audience tension dan product truth, lalu turunkan menjadi angle, hook, proof, format, message, CTA, serta kesinambungan landing page. Satu iklan sebaiknya menyampaikan satu proposisi utama dan satu tindakan yang jelas. Format dan placement harus mengikuti spesifikasi platform, safe zone, cropping, aspect ratio, caption/audio, serta konteks konsumsi. Hak penggunaan creator content, musik, testimonial, dan partnership ads harus dipastikan sebelum amplifikasi.
 
@@ -1601,7 +1601,7 @@
 
 **Competency ID(s):** T05-C04
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Auction menentukan iklan yang memenuhi syarat untuk memperoleh kesempatan delivery. Hasil tidak ditentukan bid saja; platform juga mempertimbangkan predicted action, relevance/quality, serta delivery rules. Bedakan budget, level budget, bid, cost cap/goal, dan target ROAS. Nama serta ketersediaan strategi berbeda antarpublisher dan objective. Jangan menganggap istilah CBO/ABO Meta berlaku identik di TikTok. Target efisiensi harus diturunkan dari unit economics, bukan hanya benchmark CPM.
 
@@ -1638,7 +1638,7 @@
 
 **Competency ID(s):** T05-C05
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Tracking menghubungkan interaksi iklan dengan tindakan di website/app. Browser Pixel mengirim event dari browser; Conversions API/Events API mengirim event melalui server atau koneksi data. Keduanya dapat saling melengkapi, tetapi tidak menghapus kewajiban consent, privacy, dan minimisasi data. Event design harus punya definisi bisnis, event name, waktu, value/currency, source, dan parameter yang diperlukan. Jika event yang sama dikirim melalui browser dan server, ikuti aturan deduplication provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap dari Pixel dan Events API. UTM mengelompokkan traffic; UTM bukan pengganti event tracking.
 
@@ -1675,7 +1675,7 @@
 
 **Competency ID(s):** T05-C06
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Learning phase adalah periode awal delivery saat sistem mengeksplorasi dan mengumpulkan signal untuk menemukan audience yang paling mungkin mencapai optimization goal. Performa dapat berfluktuasi; fluktuasi saja bukan bukti campaign gagal. Jangan menerapkan satu ambang untuk semua platform atau objective. Panduan umum TikTok yang diperbarui Juni 2026 menyebut volatilitas biasanya mulai menurun setelah sekitar 25 hasil campaign atau 7 hari. Angka tersebut bersifat indikatif, bukan jaminan status learning selesai. Guidance objective-specific dapat berbeda. Jangan menerapkan benchmark TikTok ke Meta.
 
@@ -1712,7 +1712,7 @@
 
 **Competency ID(s):** T05-C03, T05-C06
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Optimization harus dimulai dari business outcome lalu bergerak ke diagnosis, bukan dari satu metrik ke tindakan spontan. CTR, CPC, CPM, video views, dan frequency membantu menjelaskan delivery; conversion rate, CPA, revenue, margin, lead quality, dan retention lebih dekat dengan nilai bisnis. Creative testing yang baik menetapkan hypothesis, variabel utama, audience, budget, duration, primary metric, guardrail, dan decision rule sebelum test berjalan. A/B test sulit diinterpretasikan jika banyak variabel berubah sekaligus atau basis reporting tidak sebanding.
 
@@ -1749,7 +1749,7 @@
 
 **Competency ID(s):** T05-C06
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | G: direct paid-social JD not located in this batch
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Capstone menguji kemampuan menghubungkan business brief sampai rekomendasi optimization yang dapat dipertanggungjawabkan. Satu paket kerja harus menunjukkan commercial guardrails, objective, audience, campaign architecture per platform, creative strategy, budget/bidding, tracking, QA, reporting, serta decision log. Meta dan TikTok menjadi scope inti; TikTok Shop/Lead Gen dan LinkedIn ditambahkan bila conversion path serta business case mendukung. Angka contoh tanpa data advertiser wajib diberi label SIMULATED.
 
@@ -1789,7 +1789,7 @@
 
 **Competency ID(s):** T06-C01
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Programmatic adalah pembelian inventory digital melalui platform dan automation, bukan nama lain untuk semua paid media. Ekosistem mencakup advertiser/agency, DSP, ad exchange, SSP, publisher/ad server, data/identity partners, dan verification. Setiap pihak memiliki peran dalam auction, targeting, delivery, measurement, dan biaya. Trader harus memahami supply chain untuk membaca fees, latency, quality, transparency, dan accountability.
 
@@ -1823,7 +1823,7 @@
 
 **Competency ID(s):** T06-C01
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** OpenRTB dan auction mechanics menjelaskan bagaimana bid request, impression opportunity, buyer response, price, dan creative diproses. Supply path menentukan rantai pihak yang terlibat dari publisher menuju DSP. Trader perlu memahami auction type, bid floor, timeout, win rate, clearing dynamics, deal identifiers, reseller, dan ads.txt/sellers.json sebagai sinyal otorisasi. Tidak semua mekanisme lelang bersifat first-price dengan implementasi identik.
 
@@ -1857,7 +1857,7 @@
 
 **Competency ID(s):** T06-C02
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Audience strategy programmatic menggabungkan first-party data, contextual, publisher segments, third-party data, identity solutions, dan privacy/consent. Audience targeting harus sesuai objective dan data rights. Cookie deprecation, browser restrictions, consent, match rates, data provenance, and identity interoperability dapat memengaruhi scale serta accuracy. Contextual targeting tidak sama dengan behavioral identity targeting.
 
@@ -1891,7 +1891,7 @@
 
 **Competency ID(s):** T06-C03
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Inventory mencakup format, device, environment, publisher, geo, audience, placement, viewability, fraud risk, and suitability. Deal types memberi tingkat kontrol dan komitmen berbeda. Trader perlu menilai inventory fit, scale, measurement eligibility, creative constraints, and cost. CTV, audio, video, display, native, in-app, DOOH, and mobile web memiliki kebutuhan asset, verification, and measurement berbeda.
 
@@ -1925,7 +1925,7 @@
 
 **Competency ID(s):** T06-C01, T06-C04
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** DSP navigation dimulai dengan memahami hirarki advertiser, campaign, insertion order/order, line item, targeting, creative, budget, flight, frequency, and optimization. Nomenclature antar-DSP berbeda; prinsip dasarnya tetap sama. DV360 menjadi platform utama belajar di roadmap, sedangkan The Trade Desk dan Amazon DSP dibandingkan pada capability serta inventory ecosystem. Tool access bergantung pada organisasi/partner dan tidak boleh dijanjikan hanya dari kursus.
 
@@ -1959,7 +1959,7 @@
 
 **Competency ID(s):** T06-C04
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Campaign setup/trafficking memastikan plan dapat diterjemahkan menjadi objek dan creative yang siap diperdagangkan. Brief, naming, IO/line item, deal IDs, audience, creative spec, click URL, trackers, macros, event tags, and approvals harus sinkron. Trafficking berbeda dari media strategy: tugasnya menjaga akurasi konfigurasi dan bukti QA, bukan menentukan seluruh business strategy.
 
@@ -1993,7 +1993,7 @@
 
 **Competency ID(s):** T06-C05, T06-C07
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Bidding, budget, pacing, and frequency management mengontrol delivery dalam batas economics dan campaign objective. Pahami bid strategy, auction pressure, bid shading where relevant, win rate, clearing price, pacing algorithm, frequency caps, reach, and spend curve. Jangan mengubah bid/budget tanpa memeriksa inventory, audience, floor, conversion signals, and campaign stage. Platform automation berbeda sehingga jangan menganggap satu setting berlaku sama di seluruh DSP.
 
@@ -2027,7 +2027,7 @@
 
 **Competency ID(s):** T06-C03
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** PMP, Preferred Deals, dan Programmatic Guaranteed mengubah cara advertiser mengakses publisher inventory dan menyepakati harga/delivery. Setiap deal memiliki buyer/seller IDs, deal ID, floor/fixed price, targeting, dates, format, priority, inventory scope, and delivery terms. Trader wajib menguji compatibility dan memahami apakah deal bersifat invitation, non-guaranteed, atau guaranteed; label platform dapat berbeda.
 
@@ -2061,7 +2061,7 @@
 
 **Competency ID(s):** T06-C06
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Brand safety, suitability, viewability, invalid traffic, and supply quality adalah dimensi berbeda. Brand safety menghindari konten berisiko; suitability mencocokkan toleransi brand; viewability mengukur apakah iklan memenuhi kriteria terlihat; IVT mengidentifikasi traffic tidak valid; supply quality menilai transparency, duplication, fees, and publisher quality. Vendor verification memiliki methodology/coverage yang harus dipahami.
 
@@ -2095,7 +2095,7 @@
 
 **Competency ID(s):** T06-C01, T06-C06
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** CM360 dan Floodlight memiliki peran ad-serving dan measurement yang perlu dibedakan dari DSP reporting. CM360 mengelola advertiser/campaign/site/placement/ad/creative/trackers; Floodlight mengukur activities/conversions menurut counting method, attribution, and window. Discrepancy antara DSP, CM360, dan analytics sering muncul dari event definition, time zone, click/view windows, deduplication, redirects, latency, and consent.
 
@@ -2129,7 +2129,7 @@
 
 **Competency ID(s):** T06-C07
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Optimization dan post-campaign review mengevaluasi bukan hanya ROAS, tetapi delivery, supply quality, reach, frequency, margin, partner fees, audience, format, and incrementality limits. Report harus menjelaskan apa yang terjadi, mengapa diduga terjadi, bukti pendukung, alternatif penjelasan, dan tindakan berikutnya. Programmatic trader menjaga traceability perubahan agar learning dapat direplikasi.
 
@@ -2163,7 +2163,7 @@
 
 **Competency ID(s):** T06-C01, T06-C03, T06-C06, T06-C07
 
-**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | G: direct JD not located in this batch | D: Trader Programmatique career listing
+**Agency evidence (role-level):** A/D: Programmatic Manager/Senior Manager JDs and career listings | A: Media Planner, Programmatic JD | D: Programmatic roles and platform activation listings | A: Programmatic Specialist, Dentsu employer-hosted Workday JD, Lisbon; DSP setup, audience/geo/device targeting, bid and budget optimization, brand-safety/viewability controls, trafficking support and end-of-campaign evaluation. Execution/support-level scope; Lisbon market. | D: Trader Programmatique career listing
 
 **Learning objective / concept:** Capstone Programmatic menguji pemahaman supply chain hingga measurement, bukan hanya navigasi DSP. Paket kerja harus menghubungkan objective, audience, inventory/deal strategy, DSP setup, creative/trafficking, bidding/pacing, verification, CM360/Floodlight, discrepancy, dan reporting. Seluruh account/campaign/auction figures yang tidak berasal dari live account diberi label SIMULATED. Akses credential tidak berarti peserta memiliki live buying seat.
 
@@ -2883,7 +2883,7 @@
 
 **Competency ID(s):** T09-C01
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Ad Operations menghubungkan media plan, platform/ad server, publisher, creative, tracking, verification, dan analytics. Tugas utamanya memastikan campaign dikonfigurasi, ditayangkan, dilacak, dan direkonsiliasi dengan benar—bukan menetapkan seluruh audience strategy atau budget allocation. Ekosistem dapat meliputi Google Ads, Meta, TikTok, LinkedIn, DV360, CM360, retailer platforms, dan direct publisher placements. Scope kerja mengikuti platform yang dipakai klien.
 
@@ -2917,7 +2917,7 @@
 
 **Competency ID(s):** T09-C02
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Campaign brief dan trafficking sheet adalah single source of truth operasional. Setiap object perlu advertiser/client, campaign, platform/publisher, placement/ad set/line item, creative, format, URL, click tracker, pixel/event, targeting, flight, budget, owner, approval, dan status. Naming taxonomy harus memudahkan identifikasi sekaligus kompatibel dengan reporting; jangan menaruh data pribadi di parameter atau URL.
 
@@ -2951,7 +2951,7 @@
 
 **Competency ID(s):** T09-C03
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Creative and placement specifications memastikan asset diterima dan dirender sesuai environment. Periksa dimensions, aspect ratio, file size, format, duration, codec, frame rate, audio, click URL, SSL, safe zone, HTML5, fallbacks, responsive behavior, and platform policy. Spec berubah; selalu cek halaman resmi platform/publisher dan tanggal. Asset approved secara brand belum tentu technically eligible.
 
@@ -2985,7 +2985,7 @@
 
 **Competency ID(s):** T09-C04
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Tagging dan tracking memiliki fungsi berbeda. Platform pixel/SDK/CAPI merekam events; UTM memberi label traffic; ad-server placement tag memanggil creative/delivery; click tracker merekam click redirect; impression tracker mengukur exposure; Floodlight mengukur activity di Campaign Manager 360. Ad Ops harus mengetahui siapa memasang, siapa memverifikasi, data apa yang dikirim, consent dependency, and deduplication.
 
@@ -3019,7 +3019,7 @@
 
 **Competency ID(s):** T09-C03, T09-C05
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Ad-server setup seperti CM360 menyusun advertiser, campaign, site, placement, ad, creative, and trackers. Placement mewakili inventory slot dan menghasilkan tag; ad mengontrol delivery/rotation; creative merupakan asset. Floodlight activities memakai counting method, activity group, value, and conversion window. Implementasi harus konsisten dengan naming, click tags, publisher requirements, and reporting.
 
@@ -3053,7 +3053,7 @@
 
 **Competency ID(s):** T09-C03, T09-C06
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Pre-launch QA adalah quality gate sebelum campaign live. Checklist harus mencakup object setup, budget, flight, targeting, creative rendering, URL, redirects, tags/events, consent, policy, exclusions, frequency, geo, language, conversion settings, publisher acceptance, and sign-off. Upload success tidak berarti siap launch. Severity levels membantu menentukan blocker, major issue, and minor issue.
 
@@ -3087,7 +3087,7 @@
 
 **Competency ID(s):** T09-C06
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Live monitoring membandingkan planned dengan actual delivery dan memisahkan media issue dari tracking issue. Pantau spend, pacing, impressions, clicks, conversions, cost metrics, rejection, placement status, frequency, viewability/IVT, site errors, and reporting lag. Troubleshooting harus hirarkis: data signal, tag, creative, targeting, platform eligibility, inventory, budget/bid, and publisher—not langsung menaikkan spend.
 
@@ -3121,7 +3121,7 @@
 
 **Competency ID(s):** T09-C06
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Platform discrepancy muncul karena definisi event, click/impression filtering, attribution window, view-through, timezone, cut-off, consent, deduplication, latency, and identity berbeda. Ad Ops tidak boleh langsung menyebut salah satu sistem rusak sebelum membandingkan apples-to-apples. Reconciliation harus menyamakan scope, unit, date, event definition, and eligibility.
 
@@ -3155,7 +3155,7 @@
 
 **Competency ID(s):** T09-C07
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Billing reconciliation and process control menjaga kesesuaian booking, delivery, dan invoice. Ad Ops mengumpulkan IO, placement logs, rate, booked volume, billable basis, currency, tax, discount, bonus, makegood, platform fees, and proof. Finance controls perlu separation of duties, version history, access controls, and archive. Operational efficiency bukan berarti menghapus quality gates.
 
@@ -3189,7 +3189,7 @@
 
 **Competency ID(s):** T09-C07
 
-**Agency evidence (role-level):** D: Senior AdOps Specialist listings | G: direct JD not located in this batch | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
+**Agency evidence (role-level):** D: Senior AdOps Specialist listings | A: Ad Operations Specialist, Publicis employer-hosted careers JD, Johannesburg; trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live confirmation and issue logs; 2–5 years' Ad Ops/trafficking experience. | D: AdOps role families in career taxonomy | G: direct JD not located in this batch | B: data/media operations capability
 
 **Learning objective / concept:** Capstone Ad Operations menyatukan operation chain multi-platform: brief, trafficking, creative spec, tags, ad-server/platform setup, QA, go-live, monitoring, troubleshooting, discrepancy, billing, and documentation. Keberhasilan dinilai dari accuracy, traceability, risk control, and timely delivery—not creative strategy or budget optimization. Setiap contoh account/data harus berlabel SIMULATED dan tidak menyiratkan akses live.
 
@@ -3567,7 +3567,7 @@
 
 **Competency ID(s):** T11-C01, T11-C03
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** SEO dan Organic Search meningkatkan kemampuan website ditemukan melalui crawling, indexing, relevance, quality, and search experience. Search result dapat mencakup organic web, local, images, video, featured snippets, dan AI features. SEO tidak menjamin ranking; specialist bekerja pada technical accessibility, content usefulness, intent match, information architecture, authority, and measurement. Search intent harus menjadi titik awal, bukan keyword density.
 
@@ -3601,7 +3601,7 @@
 
 **Competency ID(s):** T11-C02
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** Keyword/topic research mengidentifikasi demand, query language, competitor gaps, and content opportunities. Keyword volume dari tools adalah estimasi, bukan demand pasti; periksa trend, SERP format, geography, and seasonality. Topic clustering menyusun hubungan pillar/supporting pages. Competitor SERP analysis membaca page type, intent, features, content depth, and proof rather than copying text.
 
@@ -3635,7 +3635,7 @@
 
 **Competency ID(s):** T11-C03
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** Website architecture memengaruhi crawling, navigation, internal link equity, and user discovery. URL structure, hierarchy, canonical, robots directives, sitemap, pagination, faceted navigation, and JavaScript rendering perlu dipahami berdasarkan site scale. Crawl budget bukan solusi universal; prioritasnya memastikan important pages discoverable, indexable, canonicalized, and valuable.
 
@@ -3669,7 +3669,7 @@
 
 **Competency ID(s):** T11-C03
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** Technical SEO memastikan website mudah diakses, di-render, aman, cepat, and stabil. Core Web Vitals menilai loading, interactivity, and visual stability; interpretasi field data berbeda dari lab tests. Technical review juga mencakup mobile usability, JavaScript rendering, redirects, status codes, HTTPS, structured data validation, and server reliability. Prioritization harus memakai evidence, page templates, and business impact.
 
@@ -3703,7 +3703,7 @@
 
 **Competency ID(s):** T11-C01, T11-C04
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** On-page SEO membuat halaman menjawab intent secara jelas dan bermanfaat. Title, headings, copy, internal links, images, metadata, and structured data harus mengikuti page purpose dan actual content. Helpful content memerlukan first-hand expertise, completeness, trust, evidence, and reader value. Keyword stuffing, doorway pages, thin programmatic pages, and misleading claims dapat merusak kualitas.
 
@@ -3737,7 +3737,7 @@
 
 **Competency ID(s):** T11-C05
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** Off-page SEO and Digital PR membangun reputation, authority, and discovery melalui editorial links, mentions, partnerships, and relevant coverage. Link quantity alone is not a strategy; evaluate relevance, editorial integrity, source quality, referral value, anchor context, and policy compliance. Jangan membeli link atau membuat network manipulatif. Digital PR harus memiliki angle newsworthy dan credible data.
 
@@ -3771,7 +3771,7 @@
 
 **Competency ID(s):** T11-C05
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** Local SEO mengoptimalkan discoverability untuk pencarian berbasis lokasi dan service area. Google Business Profile, NAP consistency, category, hours, services, reviews, photos, local landing pages, citations, and location relevance berperan. Multi-location brand membutuhkan governance listing dan review management. Ranking dipengaruhi relevansi, distance, prominence, and context; tidak semua faktor dapat dikendalikan marketer.
 
@@ -3805,7 +3805,7 @@
 
 **Competency ID(s):** T11-C06
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** Search Console dan analytics menghubungkan organic visibility dengan behavior dan business outcomes. GSC memberi performance queries/pages, indexing, sitemap, enhancements, and search appearance; GA4 memberi sessions/events/conversions. Metrics memiliki scope dan attribution berbeda; clicks GSC tidak sama dengan sessions GA4. Reporting harus memisahkan branded/non-branded, page type, country/device, and search feature.
 
@@ -3839,7 +3839,7 @@
 
 **Competency ID(s):** T11-C01, T11-C07
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** AEO/GEO/AI Search mengamati bagaimana brand/content ditemukan dan dirujuk pada answer engines dan AI features. Fondasi website tetap crawlability, helpful content, entity clarity, source authority, and structured information. Tidak ada markup khusus yang menjamin citation/rank di semua AI systems. Monitoring harus mencatat platform, prompt, date, answer, cited sources, brand mention, and context; hasil sampling tidak boleh disajikan sebagai universal visibility metric.
 
@@ -3873,7 +3873,7 @@
 
 **Competency ID(s):** T11-C07
 
-**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | G: direct agency SEO JD not located in this batch | G: direct agency SEO JD not located in this batch
+**Agency evidence (role-level):** D: SEO Consultant listing | B/D: search capability; direct SEO JD needed | A: Senior Analyst, SEO JD covers technical/content audits, keyword strategy, analytics and implementation | A: SEO Executive, Dentsu employer-hosted Workday JD; technical SEO checks (robots.txt, XML sitemap, redirects, canonical tags, crawl/index issues), keyword research, content audits, reporting and tools including Ahrefs/SEMrush/Screaming Frog. Geography not captured in the indexed extract. | G: direct agency SEO JD not located in this batch
 
 **Learning objective / concept:** SEO Capstone menyatukan audit teknis, keyword/topic research, content strategy, digital PR, local, reporting, and AI visibility baseline menjadi roadmap yang diprioritaskan. Rekomendasi harus mempertimbangkan engineering/content resources dan business impact. Hindari menjanjikan ranking atau traffic uplift tanpa data; nyatakan uncertainty dan measurement plan.
 
@@ -5037,7 +5037,7 @@
 
 **Competency ID(s):** T15-C01
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Affiliate marketing membayar partner berdasarkan action/conversion yang ditetapkan. Ecosystem dapat melibatkan advertiser, affiliate network/platform, publisher, creator affiliate, sub-network, tracking provider, and finance. Performance terms harus menjelaskan eligible action, attribution window, commission basis, validation, reversal, fraud, payout, and margin. Affiliate bukan sinonim influencer; creator dapat berperan sebagai affiliate bila commercial model menekankan tracked sale/commission.
 
@@ -5071,7 +5071,7 @@
 
 **Competency ID(s):** T15-C01
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Publisher and creator affiliate memiliki model traffic and content berbeda. Publisher dapat berupa content/review, comparison, coupon, cashback, loyalty, search arbitrage, and sub-network. Creator affiliate memakai short video/live/showcase, product link, or platform-native commission. Recruitment harus menilai audience fit, traffic source, content method, disclosure, conversion quality, and policy risk.
 
@@ -5105,7 +5105,7 @@
 
 **Competency ID(s):** T15-C02
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Partner discovery and recruitment harus memiliki ideal partner profile, category fit, reach/source quality, content standards, commercial expectations, and compliance checks. Outreach menjelaskan value proposition untuk partner, tracking, support, payment, asset, and exclusivity. Recruitment bukan mengejar jumlah partner; active/productive partner ratio dan incremental contribution lebih relevan.
 
@@ -5139,7 +5139,7 @@
 
 **Competency ID(s):** T15-C03
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Commission models meliputi CPS, CPA, CPL, hybrid, tiered, fixed fee, bonus, and performance incentives. Commission harus diuji terhadap gross margin, discount, returns, tax, fulfilment, marketplace fees, and existing customer behavior. Tiered incentives dapat meningkatkan volume tetapi mendorong low-quality conversions. Payout terms, validation, reversal, cap, and effective dates harus tercatat.
 
@@ -5173,7 +5173,7 @@
 
 **Competency ID(s):** T15-C04
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Affiliate platforms, product feeds, and tracking tools menghubungkan offer, SKU, deep links, attribution, publisher IDs, coupon codes, and conversion records. Product feeds membutuhkan title, price, availability, image, link, category, and update schedule. Deep links harus membuka product/app target dengan tracking intact. Platform access and available products differ by marketplace, country, seller, and program status; always verify current provider documentation.
 
@@ -5207,7 +5207,7 @@
 
 **Competency ID(s):** T15-C04
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Tracking links and attribution menentukan bagaimana click dan conversions dipasangkan dengan publisher. Cookie loss, cross-device, browser restrictions, app/web, redirects, coupon leakage, last-click overwrites, and attribution windows dapat mengubah credit. Affiliate analyst harus memahami click ID, sub-ID, conversion IDs, dedupe, view/click rules, validation, and source of truth. Jangan menganggap attribution credit berarti incremental sale.
 
@@ -5241,7 +5241,7 @@
 
 **Competency ID(s):** T15-C04
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Affiliate campaign setup menggabungkan offer, partner groups, commission, creative, feed, landing, tracking, policy, and approval. Campaign structure dapat dipisah menurut SKU/category, geography, partner type, objective, or incentive. Launch checklist harus memastikan product ready, link/UTM/sub-ID valid, discount eligible, commission correct, stock available, and reporting/payout configured.
 
@@ -5275,7 +5275,7 @@
 
 **Competency ID(s):** T15-C01
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Creator affiliate/social commerce menggabungkan content, live, short video, product showcase, shopping links, and commission. Creator performance harus dinilai melalui content quality, product demonstration, audience relevance, click/shop conversion, returns, and commission. Platform-native programs memiliki product eligibility, commission rates, content policy, settlement, and attribution rules yang dapat berubah; jangan menjanjikan akses jika seller/creator tidak eligible.
 
@@ -5309,7 +5309,7 @@
 
 **Competency ID(s):** T15-C05
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Fraud and traffic quality controls melindungi advertiser dari non-human clicks, cookie stuffing, click injection, fake orders, coupon abuse, incentivized traffic violations, and brand bidding violations. Tidak semua spike adalah fraud; detection harus menggunakan pattern, source, timestamps, device, conversion validation, and partner communication. Contract perlu memberi hak audit, suspend, reversal, and clawback.
 
@@ -5343,7 +5343,7 @@
 
 **Competency ID(s):** T15-C03, T15-C05
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Commission reconciliation menghitung eligible sales, cancellations, returns, duplicate orders, attribution rules, commission tiers, tax, payout currency, and invoice. Affiliate platform report tidak selalu sama dengan finance/marketplace due to delay or reversal windows. Reconciliation harus memiliki period, order IDs, partner IDs, rate table version, and approval trace.
 
@@ -5377,7 +5377,7 @@
 
 **Competency ID(s):** T15-C02, T15-C06
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Affiliate optimization and partner growth meningkatkan quality and contribution, bukan sekadar jumlah publishers. Segment partner by type, quality, value, activity, new-to-brand, category, order value, returns, commission, incrementality, and compliance. Growth levers include exclusive offers, product feed, content support, tiering, creator programs, and improved landing/stock. Partner activation and retention need relationship management and fair terms.
 
@@ -5411,7 +5411,7 @@
 
 **Competency ID(s):** T15-C06
 
-**Agency evidence (role-level):** G: direct affiliate JD not located in this batch | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
+**Agency evidence (role-level):** A: Group Head Affiliate, WPP Media employer-hosted Jakarta listing; plus Affiliate Manager, Mindshare/WPP Media Beirut JD covering affiliate networks, direct publishers, S2S postbacks, pixels, MMPs, attribution, conversion QA and CPI/CPL/CPA/RevShare/CPS models. Preserve Jakarta vs Beirut seniority/market differences; not proof that affiliate equals retail media. | D: Affiliate Account Manager title evidence in Publicis UK careers index | G: dedicated affiliate role evidence not located in this batch | A/B: Jakarta eCommerce Executive explicitly manages affiliate structures/campaigns | G: direct affiliate JD not located in this batch
 
 **Learning objective / concept:** Affiliate Capstone menyatukan commercial model, recruitment, platform/feed, tracking, campaign, quality control, reconciliation, and partner growth. Pekerjaan harus memperlihatkan unit economics dan payout rules, bukan hanya link creation. Data synthetic harus diberi label dan platform access/terms diverifikasi per account. Portfolio perlu menunjukkan bagaimana program menjaga advertiser margin dan fair partner measurement.
 
