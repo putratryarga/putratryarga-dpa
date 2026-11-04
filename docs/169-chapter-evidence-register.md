@@ -1075,7 +1075,7 @@
 
 **Competency ID(s):** T04-C01
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Paid Search menangkap intent yang diekspresikan melalui query. Specialist harus memahami auction eligibility, Ad Rank, keyword/query, ad relevance, landing experience, conversion signal, bidding, dan budget. Search term bukan keyword target; platform dapat mencocokkan query melalui variasi. Performance dinilai dari kualitas demand dan kontribusi bisnis, bukan hanya klik atau impression.
 
@@ -1109,7 +1109,7 @@
 
 **Competency ID(s):** T04-C02
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Keyword research menyusun peluang query berdasarkan intent, relevance, volume, competition, value, geography, seasonality, dan landing-page readiness. Search volume tidak sama dengan demand yang dapat dikonversi; keyword populer bisa tidak relevan, terlalu luas, atau punya economics buruk. Competitor ad research membantu melihat positioning dan SERP, tetapi tidak membuktikan biaya atau profit pesaing.
 
@@ -1143,7 +1143,7 @@
 
 **Competency ID(s):** T04-C03
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Campaign architecture mengatur hubungan account, campaign, ad group, keyword, ads, assets, audience, geography, language, budget, conversion action, dan landing page. Struktur yang baik memberi kontrol cukup tanpa memecah data terlalu kecil. Naming taxonomy memudahkan QA dan reporting; pemilihan campaign type harus mengikuti objective, channel inventory, feed, conversion readiness, dan kemampuan kontrol.
 
@@ -1177,7 +1177,7 @@
 
 **Competency ID(s):** T04-C02, T04-C04
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Match type mengatur seberapa luas keyword dapat mencocokkan query, tetapi tidak boleh dianggap sebagai exact string match sederhana. Search terms report menunjukkan query yang benar-benar memicu iklan dan menjadi sumber optimasi. Negative keyword melindungi relevance, budget, brand safety, serta query intent. Pemilihan negatives harus hati-hati agar tidak memblokir query bernilai.
 
@@ -1211,7 +1211,7 @@
 
 **Competency ID(s):** T04-C05
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Search ad copy harus menjawab query, menyampaikan benefit, memberi proof, dan mengarahkan ke landing page yang sesuai. Responsive Search Ads menguji kombinasi headline/description; assets menambah informasi dan action. Message match mengurangi cognitive friction: kata, offer, price, eligibility, dan CTA pada iklan harus selaras dengan destination page. Klaim harus dapat dibuktikan dan sesuai policy.
 
@@ -1245,7 +1245,7 @@
 
 **Competency ID(s):** T04-C03, T04-C06
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Bidding dan budget menentukan cara platform berpartisipasi dalam auction dan mengejar conversion/value. Manual, Maximize Clicks, Maximize Conversions, target CPA, Maximize Conversion Value, dan target ROAS memiliki kebutuhan sinyal serta trade-off berbeda. Smart bidding memerlukan conversion tracking yang sehat, volume yang memadai, dan definisi value yang tepat. Budget pacing harus dipantau bersama spend, impression share, marginal CPA/ROAS, dan business margin.
 
@@ -1279,7 +1279,7 @@
 
 **Competency ID(s):** T04-C06
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Conversion tracking mengubah business action menjadi signal yang dapat diukur dan dipakai bidding. Specialist harus membedakan page view, form submit, qualified lead, purchase, phone call, offline conversion, enhanced conversions, dan imported CRM outcomes. Event definition, count setting, value, attribution window, consent, deduplication, tag implementation, dan QA wajib disepakati sebelum optimasi.
 
@@ -1313,7 +1313,7 @@
 
 **Competency ID(s):** T04-C04, T04-C06
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Diagnosis Search menggunakan search terms, auction insights, Quality Score components, impression share, landing-page signals, conversion rate, dan value. Quality Score adalah diagnostic indicator, bukan KPI bisnis atau tombol optimasi tunggal. Lost impression share karena budget berbeda dari rank. Analyst harus memisahkan issue query, competition, bid, relevance, page, tracking, dan budget sebelum membuat perubahan.
 
@@ -1347,7 +1347,7 @@
 
 **Competency ID(s):** T04-C05, T04-C06
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Testing Search harus menguji satu hipotesis yang dapat dipisahkan dari perubahan lain. Variabel dapat berupa message angle, asset, landing page, match coverage, bid strategy, atau audience; test perlu primary metric, guardrail, randomization/experiment setup, sample/duration, seasonality control, dan stopping rule. Setelah test, interpretasikan effect size dan uncertainty, bukan hanya siapa yang tampak menang.
 
@@ -1381,7 +1381,7 @@
 
 **Competency ID(s):** T04-C03, T04-C06
 
-**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | G: direct paid-search JD not located in this batch | D: SEA Executive career listing
+**Agency evidence (role-level):** D: Paid Search Executive/Manager career listings | B/D: cross-channel digital roles; direct SEM JD still needed | D: SEM Specialist and Paid Search role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; covers paid search (Google/Bing), paid social and display performance, campaign setup, keyword/copy creation, optimization and reporting. Cross-channel biddable role; not a pure SEM specialist JD. | D: SEA Executive career listing
 
 **Learning objective / concept:** Capstone Paid Search menguji kemampuan mengelola jalur dari intent sampai conversion dan diagnosis. Paket kerja harus menyatukan keyword architecture, campaign build, RSA/assets, bidding/budget, conversion tracking, negative strategy, QA, reporting, dan optimization. Semua forecast atau data yang tidak berasal dari account aktual wajib ditandai SIMULATED. Hasil harus dijelaskan menurut intent dan economics, bukan hanya platform metrics.
 
@@ -1417,7 +1417,7 @@
 
 **Competency ID(s):** T05-C01
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Paid social adalah aktivitas membeli inventory iklan pada platform sosial secara terencana dan terukur. Pekerjaan specialist menghubungkan outcome bisnis, akun platform, aset identitas, sumber data, audience, creative, auction/delivery, measurement, dan optimization. Meta dan TikTok menjadi platform praktik utama; LinkedIn merupakan pendalaman untuk kebutuhan B2B, sedangkan Pinterest, Snapchat, Reddit, atau X dipelajari sesuai kebutuhan pasar dan akses akun.
 
@@ -1453,7 +1453,7 @@
 
 **Competency ID(s):** T05-C01
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Campaign objective menjelaskan hasil yang diminta dari optimasi platform; funnel menggambarkan perjalanan konsumen; conversion location menunjukkan tempat tindakan terjadi; performance goal dan optimization event menentukan sinyal delivery. Semuanya saling berkaitan, tetapi bukan istilah yang dapat saling menggantikan. Nama objective, conversion location, dan goal dapat berubah sesuai platform, campaign type, serta eligibility akun. Periksa pilihan aktual di Ads Manager sebelum launch.
 
@@ -1490,7 +1490,7 @@
 
 **Competency ID(s):** T05-C02
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Audience strategy dimulai dari kebutuhan dan perilaku konsumen, lalu diterjemahkan menjadi sumber data, aturan segmentasi, exclusions, serta hipotesis yang bisa diuji. Custom Audience biasanya memakai sumber first-party atau interaksi platform yang diizinkan; Lookalike Audience memodelkan prospek dari karakteristik source audience; interest/behavior memberi sinyal targeting; broad atau automated audience memberi ruang lebih luas bagi sistem. Ketersediaan fitur berbeda menurut platform dan akun. Jangan mengunggah atau mengaktifkan data pelanggan tanpa hak, consent, dan dasar penggunaan yang sesuai.
 
@@ -1527,7 +1527,7 @@
 
 **Competency ID(s):** T05-C01
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Campaign architecture menyusun hubungan objective, budget, audience, placement, creative, dan reporting. Meta umumnya memakai hierarchy Campaign → Ad Set → Ad; TikTok Ads Manager memakai Campaign → Ad Group → Ad. Konsep levelnya mirip, tetapi setting dan tanggung jawabnya tidak identik. Pada TikTok, campaign setup mencakup objective dan campaign budget; ad group mengatur antara lain placement, targeting, schedule, optimization, dan bid; ad memuat identity, creative, copy, CTA, URL, serta tracking. Selalu validasi workflow dan pilihan terbaru di masing-masing platform.
 
@@ -1564,7 +1564,7 @@
 
 **Competency ID(s):** T05-C03
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Creative merupakan bagian dari sistem optimasi, bukan dekorasi setelah media plan selesai. Mulai dari audience tension dan product truth, lalu turunkan menjadi angle, hook, proof, format, message, CTA, serta kesinambungan landing page. Satu iklan sebaiknya menyampaikan satu proposisi utama dan satu tindakan yang jelas. Format dan placement harus mengikuti spesifikasi platform, safe zone, cropping, aspect ratio, caption/audio, serta konteks konsumsi. Hak penggunaan creator content, musik, testimonial, dan partnership ads harus dipastikan sebelum amplifikasi.
 
@@ -1601,7 +1601,7 @@
 
 **Competency ID(s):** T05-C04
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Auction menentukan iklan yang memenuhi syarat untuk memperoleh kesempatan delivery. Hasil tidak ditentukan bid saja; platform juga mempertimbangkan predicted action, relevance/quality, serta delivery rules. Bedakan budget, level budget, bid, cost cap/goal, dan target ROAS. Nama serta ketersediaan strategi berbeda antarpublisher dan objective. Jangan menganggap istilah CBO/ABO Meta berlaku identik di TikTok. Target efisiensi harus diturunkan dari unit economics, bukan hanya benchmark CPM.
 
@@ -1638,7 +1638,7 @@
 
 **Competency ID(s):** T05-C05
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Tracking menghubungkan interaksi iklan dengan tindakan di website/app. Browser Pixel mengirim event dari browser; Conversions API/Events API mengirim event melalui server atau koneksi data. Keduanya dapat saling melengkapi, tetapi tidak menghapus kewajiban consent, privacy, dan minimisasi data. Event design harus punya definisi bisnis, event name, waktu, value/currency, source, dan parameter yang diperlukan. Jika event yang sama dikirim melalui browser dan server, ikuti aturan deduplication provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap dari Pixel dan Events API. UTM mengelompokkan traffic; UTM bukan pengganti event tracking.
 
@@ -1675,7 +1675,7 @@
 
 **Competency ID(s):** T05-C06
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Learning phase adalah periode awal delivery saat sistem mengeksplorasi dan mengumpulkan signal untuk menemukan audience yang paling mungkin mencapai optimization goal. Performa dapat berfluktuasi; fluktuasi saja bukan bukti campaign gagal. Jangan menerapkan satu ambang untuk semua platform atau objective. Panduan umum TikTok yang diperbarui Juni 2026 menyebut volatilitas biasanya mulai menurun setelah sekitar 25 hasil campaign atau 7 hari. Angka tersebut bersifat indikatif, bukan jaminan status learning selesai. Guidance objective-specific dapat berbeda. Jangan menerapkan benchmark TikTok ke Meta.
 
@@ -1712,7 +1712,7 @@
 
 **Competency ID(s):** T05-C03, T05-C06
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Optimization harus dimulai dari business outcome lalu bergerak ke diagnosis, bukan dari satu metrik ke tindakan spontan. CTR, CPC, CPM, video views, dan frequency membantu menjelaskan delivery; conversion rate, CPA, revenue, margin, lead quality, dan retention lebih dekat dengan nilai bisnis. Creative testing yang baik menetapkan hypothesis, variabel utama, audience, budget, duration, primary metric, guardrail, dan decision rule sebelum test berjalan. A/B test sulit diinterpretasikan jika banyak variabel berubah sekaligus atau basis reporting tidak sebanding.
 
@@ -1749,7 +1749,7 @@
 
 **Competency ID(s):** T05-C06
 
-**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | G: direct paid-social JD not located in this batch | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
+**Agency evidence (role-level):** D/A: Paid Social Manager/Executive and activation role listings | B/D: cross-channel performance roles; direct paid-social JD still needed | D: Paid Social Specialist/Manager role listings | B: Digital Consultant - Biddable Specialist, Dentsu employer-hosted Workday JD; includes paid social on Meta/TikTok/LinkedIn alongside paid search/display. Adjacent cross-channel evidence; dedicated paid-social specialist scope not separately established. | A: Paid Social Specialist, Havas employer-hosted Workday JD; paid-social campaign management, audience segments, budgets, reporting and A/B testing. Geography/seniority must be confirmed from the complete source.
 
 **Learning objective / concept:** Capstone menguji kemampuan menghubungkan business brief sampai rekomendasi optimization yang dapat dipertanggungjawabkan. Satu paket kerja harus menunjukkan commercial guardrails, objective, audience, campaign architecture per platform, creative strategy, budget/bidding, tracking, QA, reporting, serta decision log. Meta dan TikTok menjadi scope inti; TikTok Shop/Lead Gen dan LinkedIn ditambahkan bila conversion path serta business case mendukung. Angka contoh tanpa data advertiser wajib diberi label SIMULATED.
 
@@ -3909,7 +3909,7 @@
 
 **Competency ID(s):** T12-C01
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** CRM adalah strategi pengelolaan hubungan customer berbasis data dan lifecycle, bukan sekadar software atau daftar kontak. Lifecycle dapat mencakup lead, onboarding, activation, repeat, loyalty, lapse, and win-back; definisi harus mengikuti model bisnis. CRM specialist menyelaraskan acquisition, sales, service, and customer value dengan consent, data quality, governance, and communication experience.
 
@@ -3943,7 +3943,7 @@
 
 **Competency ID(s):** T12-C02
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Customer data architecture mengatur struktur, identifiers, sources, events, fields, relationships, deduplication, consent, and access. Data dapat berasal dari web/app, POS, CRM, support, email, WhatsApp, sales, and offline systems. Identity resolution harus dilakukan dengan governance dan tidak menggabungkan data hanya karena nama/email mirip. Data model perlu menyebut customer, account, contact, event, transaction, product, and consent entities.
 
@@ -3977,7 +3977,7 @@
 
 **Competency ID(s):** T12-C03
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Segmentation mengelompokkan customer untuk action yang relevan; lead scoring menilai fit/intent/progression; lifecycle stage memberi konteks hubungan. Segment harus memiliki criteria yang reproducible, refresh cadence, size, and owner. RFM (recency, frequency, monetary) berguna untuk transaksi, tetapi tidak menggantikan behavioral/need segmentation. Lead scoring harus divalidasi terhadap sales outcomes agar tidak hanya memberi poin pada aktivitas mudah.
 
@@ -4011,7 +4011,7 @@
 
 **Competency ID(s):** T12-C04
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Trigger-based communication terjadi karena event/kondisi: signup, purchase, product usage, cart abandon, renewal, inactivity, or service status. Trigger berbeda dari broadcast campaign dan journey sequence. Setiap workflow perlu eligibility, consent, branch, delay, frequency cap, suppression, exit condition, retry, and exception handling. Timing harus masuk akal dengan product use and customer context.
 
@@ -4045,7 +4045,7 @@
 
 **Competency ID(s):** T12-C05
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Email, WhatsApp, SMS, and push memiliki permission, format, cost, immediacy, content, and response expectations berbeda. Channel selection harus mengikuti customer preference, urgency, service vs marketing purpose, and local policy/platform terms. Email memerlukan sender/domain, authentication (SPF/DKIM/DMARC), list hygiene, unsubscribe, deliverability; WhatsApp business messaging memiliki template/session/pricing/policy rules yang harus diverifikasi terkini. Jangan menganggap nomor telepon berarti izin marketing.
 
@@ -4079,7 +4079,7 @@
 
 **Competency ID(s):** T12-C02, T12-C04, T12-C06
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Automation architecture menyusun trigger, condition, action, branch, delay, data input, integration, retry, and monitoring. Workflow harus idempotent agar event duplicate tidak memicu pesan ganda. API/webhook, CRM, email service, spreadsheet, and data warehouse perlu error handling and ownership. Automation bukan sekadar happy path; desain juga failure, consent change, missing data, and human handoff.
 
@@ -4113,7 +4113,7 @@
 
 **Competency ID(s):** T12-C06
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Personalization harus memberi relevansi tanpa terasa mengawasi. Gunakan attributes/behavior yang diperlukan, jelaskan value, jaga data minimization, and provide preference controls. Deliverability dipengaruhi sender reputation, authentication (SPF/DKIM/DMARC), list quality, bounce, complaint, engagement, content, and sending behavior. Open rates memiliki privacy limitations; gunakan click, conversion, deliverability, and downstream outcomes secara seimbang.
 
@@ -4147,7 +4147,7 @@
 
 **Competency ID(s):** T12-C07
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Retention, churn, cohort, and LTV mengukur kualitas hubungan customer sepanjang waktu. Cohort dibentuk berdasarkan event awal yang sama; retention perlu definisi activity yang sesuai model bisnis. Churn dapat berupa inactivity, cancellation, lapse, or loss of revenue. LTV harus memperhatikan margin, repeat cadence, refunds, discounts, service cost, and horizon; jangan menghitung revenue-only LTV lalu membandingkannya dengan CAC seolah-olah contribution.
 
@@ -4181,7 +4181,7 @@
 
 **Competency ID(s):** T12-C08
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** Lifecycle experimentation menguji pesan, timing, channel, offer, onboarding sequence, and frequency. Metric seperti delivery, bounce, click, conversion, repeat, complaint, unsubscribe, and revenue harus dipilih sesuai objective. Test perlu randomization unit, holdout, primary KPI, guardrails, sample/duration, and decision rules. CRM lift sering dipengaruhi seasonality, overlapping campaigns, and contact eligibility; holdout membantu menilai incrementality.
 
@@ -4215,7 +4215,7 @@
 
 **Competency ID(s):** T12-C08
 
-**Agency evidence (role-level):** G: direct CRM JD not located in this batch | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | G: direct CRM JD not located in this batch | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
+**Agency evidence (role-level):** B: Manager, Marketing, WPP Media employer-hosted JD, Italy; CRM communications, marketing automation platform/workflow configuration, newsletters, database hygiene, compliance and email performance. Adjacent title/scope, not a dedicated CRM specialist JD. | A: CRM & Lifecycle Strategy Executive, Kuala Lumpur | B: Manager, Analytics/Insights, Omnicom Media employer-hosted JD, New York; includes segmentation, marketing analytics and CRM evaluations. Adjacent analytics evidence, not dedicated lifecycle/automation operations. | A: CRM Campaign Specialist, Jakarta/Merkle | A: CRM Director, San Francisco
 
 **Learning objective / concept:** CRM Capstone menunjukkan lifecycle system yang menghubungkan data architecture, segments, consent, triggers, channel, automation, deliverability, measurement, and business value. Workflow harus memiliki happy path dan failure path. Data synthetic/demo harus diberi label dan privacy risks ditulis eksplisit. Presentasi harus memperlihatkan bagaimana CRM mengurangi friction atau meningkatkan customer value, bukan sekadar memperbanyak message volume.
 
@@ -4627,7 +4627,7 @@
 
 **Competency ID(s):** T14-C01
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Creator partnerships beroperasi dalam creator economy yang melibatkan talent, agency/MCN, brand, platform, creator manager, affiliate, production, and media amplification. Partnership dapat dibayar untuk reach, content, credibility, community, usage rights, or trackable conversion. Creator partnership bukan sekadar memilih akun dengan followers besar; strategi harus menentukan role creator dalam audience journey dan business objective.
 
@@ -4661,7 +4661,7 @@
 
 **Competency ID(s):** T14-C02
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** KOL dan KOC adalah pendekatan yang sering dipakai di Indonesia, tetapi keduanya bukan kategori global yang selalu distandarkan. KOL lebih sering dipilih karena expertise/authority/visibility; KOC lebih dekat dengan peer recommendation dan pengalaman pengguna. Nano/micro/macro/mega tiers hanya shortcut; audience relevance, trust, content niche, and quality lebih penting daripada follower threshold semata.
 
@@ -4695,7 +4695,7 @@
 
 **Competency ID(s):** T14-C03
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Creator discovery menggunakan criteria yang dapat direplikasi: category fit, audience demographics/geography, engagement quality, content quality, brand safety, previous sponsorship, follower growth anomalies, and commercial availability. Discovery sources dapat berupa platform search, creator marketplace, agency roster, social listening, and referrals. Shortlist tidak boleh hanya berdasarkan popularitas; semua claims tentang audience harus diverifikasi dengan available analytics atau media kit.
 
@@ -4729,7 +4729,7 @@
 
 **Competency ID(s):** T14-C03
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Creator vetting memeriksa authentic audience, engagement quality, content credibility, brand safety, previous sponsorship, follower growth anomalies, and category fit. Fraud indicators bukan bukti final; sudden spikes, generic comments, bot-like profiles, engagement pods, and inconsistent geo perlu investigasi. Gunakan third-party tools sebagai signal, bukan verdict tunggal. Simpan evidence dan decision rationale.
 
@@ -4763,7 +4763,7 @@
 
 **Competency ID(s):** T14-C04, T14-C05
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Influencer strategy menerjemahkan objective menjadi creator roles, tier mix, campaign concept, timeline, budget, and KPI. Campaign brief perlu menjelaskan audience, insight, message, content role, deliverables, creative freedom, mandatories, CTA, disclosure, and usage rights. Creator plan harus memperhitungkan audience overlap, product availability, seasonality, production capacity, and cross-channel amplification.
 
@@ -4797,7 +4797,7 @@
 
 **Competency ID(s):** T14-C02, T14-C04
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** KOL brief harus memberi strategic direction tetapi tidak membunuh creator authenticity. Brief memuat campaign context, audience, product truth, key message, proof, do/don't, story role, platform/format, deliverables, CTA, disclosure, mandatory, and approval. Storyline harus menunjukkan pengalaman atau explanation yang believable. Approval flow membutuhkan SLA dan batas revisi agar creator autonomy dan brand safety seimbang.
 
@@ -4831,7 +4831,7 @@
 
 **Competency ID(s):** T14-C05
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Negotiation dan contract mengikat scope, fee, deliverables, payment terms, usage rights, exclusivity, whitelisting, revisions, cancellations, disclosure, performance claims, IP, confidentiality, and remedies. Creator fee tidak otomatis mencakup perpetual paid usage. Buyer harus memisahkan organic posting license, paid amplification, raw footage, cutdowns, edit, territory, channels, and duration.
 
@@ -4865,7 +4865,7 @@
 
 **Competency ID(s):** T14-C05
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Seeding dan barter membangun trial/relationship tetapi bukan gratis: product cost, packaging, shipping, staff time, and content rights tetap ada. Seeding harus punya target, reason, opt-in, logistics, brief, and post-send follow-up. Barter harus menyebut deliverables atau menyatakan tidak ada guarantee. Relationship management meliputi CRM creator, communication, feedback, payment, and long-term trust.
 
@@ -4899,7 +4899,7 @@
 
 **Competency ID(s):** T14-C06
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Campaign execution mengatur production, deadlines, asset collection, quality review, disclosure, platform settings, link/tag, publishing, and proof. Deliverable acceptance harus didasarkan pada contract/brief, bukan selera internal setelah tayang. Tanggal post, URL, screenshot, view/engagement snapshots, and invoice status perlu dicatat. Crisis/negative feedback harus memiliki escalation protocol.
 
@@ -4933,7 +4933,7 @@
 
 **Competency ID(s):** T14-C06
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Paid amplification dan Partnership Ads memakai creator identity/content untuk distribution berbayar. Boosting dari brand page berbeda dari partnership ad/whitelisting. Campaign setup perlu account permission, post authorization, ad disclosure, creative rights, targeting, budget, tracking, and expiry. Organic creator performance dan paid amplified performance harus dilaporkan terpisah sebelum digabung ke total campaign view.
 
@@ -4967,7 +4967,7 @@
 
 **Competency ID(s):** T14-C07
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Influencer measurement harus mencocokkan KPI dengan creator role: awareness (reach/unique, view quality), engagement (saves/shares/comments), content quality, traffic, lead/sales, and advocacy. Attribution dipengaruhi codes/links, platform windows, view-through, and overlap. Cost metrics seperti CPM/CPE/CPV perlu denominator dan format yang sesuai. ROI harus mempertimbangkan fee, production, rights, seeding, amplification, discounts, and margin.
 
@@ -5001,7 +5001,7 @@
 
 **Competency ID(s):** T14-C07
 
-**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | G: direct JD not located in this batch | G: direct role JD not located in this batch
+**Agency evidence (role-level):** D: Influencer Marketing Strategist listing | B/D: creator capability, direct role JD needed | B/D: creator/social strategy evidence | A: Influencer Manager / Influencer Marketing Lead / Manager Influencer Marketing, Dentsu employer-hosted Workday JDs (London, Lisbon, New York); creator sourcing, influencer relationships, briefs, contracts, campaign delivery, budgets, compliance and measurement. Direct role-family evidence; preserve market/seniority. | G: direct role JD not located in this batch
 
 **Learning objective / concept:** Creator Partnerships Capstone menunjukkan proses lengkap dari discovery hingga measurement dan relationship management. Portfolio harus mencakup strategy, creator matrix, vetting evidence, brief, deal/rights, seeding/production, execution tracker, partnership ads, reporting, and post-campaign review. Semua creator examples dan results yang bukan campaign aktual diberi label SIMULATED; no invented endorsements.
 
@@ -5447,7 +5447,7 @@
 
 **Competency ID(s):** T16-C01
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Community strategy menetapkan mengapa komunitas perlu ada, siapa yang dilayani, nilai yang diberikan, rules, participation model, and expected business/customer impact. Komunitas dapat brand-owned, platform-based, customer-led, professional, or interest-based. Tujuan bukan hanya menambah anggota; community health mencakup trust, participation, safety, retention, and mutual value. Tidak semua brand membutuhkan komunitas milik sendiri.
 
@@ -5481,7 +5481,7 @@
 
 **Competency ID(s):** T16-C02
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Community mapping mengidentifikasi ruang audience berkumpul, norms, influential members, moderators, critics, advocates, and unmet needs. Mapping perlu membedakan platform audience dari community participants dan memperhatikan public/private spaces. Listening harus menghormati privacy, context, and platform terms; jangan mengumpulkan data pribadi tanpa kebutuhan/izin.
 
@@ -5515,7 +5515,7 @@
 
 **Competency ID(s):** T16-C02
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Community platform selection mempertimbangkan audience presence, conversation type, moderation capability, privacy, discoverability, searchability, features, member expectations, and operational burden. Segmentasi member dapat berdasarkan stage, expertise, interest, contribution, and support needs. Jangan memilih WhatsApp/Discord/Telegram hanya karena populer; platform harus sesuai purpose and safety requirements.
 
@@ -5549,7 +5549,7 @@
 
 **Competency ID(s):** T16-C03
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Social listening and conversation intelligence mengubah percakapan menjadi insight melalui query design, source coverage, Boolean logic, taxonomy, sentiment/context coding, topic clustering, trend detection, and reporting. Sentiment automation tidak memahami seluruh ironi/slang/bahasa campuran; analyst harus melakukan manual validation. Volume mention bukan otomatis market opinion atau representative survey.
 
@@ -5583,7 +5583,7 @@
 
 **Competency ID(s):** T16-C04
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Community management menjalankan interaksi harian dan membangun participation. Community manager menjawab pertanyaan, memfasilitasi peer support, welcome newcomers, maintain tone, detect friction, and protect trust. Response quality harus akurat, human, timely, and consistent; jangan menjanjikan hal yang tidak dapat dipenuhi. SLA dibedakan berdasarkan question, complaint, safety, and crisis severity.
 
@@ -5617,7 +5617,7 @@
 
 **Competency ID(s):** T16-C04
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Content programming membuat komunitas memiliki alasan untuk kembali dan berkontribusi. Program dapat berupa AMA, challenge, peer learning, feedback sessions, events, member stories, product clinics, and co-creation. Editorial plan harus mengikuti community questions and rhythms, bukan hanya brand broadcast. UGC membutuhkan permission, context, credit, rights, moderation, and safety review.
 
@@ -5651,7 +5651,7 @@
 
 **Competency ID(s):** T16-C05
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Moderation dan guidelines menjaga keamanan, trust, and brand suitability. Policy perlu mendefinisikan spam, harassment, hate, misinformation, personal data, threats, illegal activity, and product claims. Moderation ladder menentukan hide, remove, warn, mute, ban, or escalation; keputusan harus konsisten, documented, and appealable bila sesuai. Brand safety bukan berarti menghapus kritik yang sah.
 
@@ -5685,7 +5685,7 @@
 
 **Competency ID(s):** T16-C04, T16-C05
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Customer care via community/social harus menghubungkan public response dengan private case handling. Community manager perlu memahami privacy, verification, ticketing, SLA, escalation, and crisis boundaries. Jangan meminta nomor order/PII di public comments; arahkan ke secure channel. Public response tetap perlu menunjukkan ownership tanpa membocorkan data customer.
 
@@ -5719,7 +5719,7 @@
 
 **Competency ID(s):** T16-C06
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Advocacy dan UGC membangun hubungan sehingga member secara sukarela membantu brand melalui recommendation, review, referrals, content, feedback, and peer support. Advocacy program harus memberi recognition/value tanpa membeli opini atau memaksa positive reviews. Permission, disclosure, incentives, content rights, and authenticity perlu diatur. Advocate bukan sekadar member dengan follower tinggi; trust dan helpful contribution lebih penting.
 
@@ -5753,7 +5753,7 @@
 
 **Competency ID(s):** T16-C05
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Crisis monitoring mengamati early signals, complaint velocity, sentiment/context, safety reports, influential actors, and potential escalation. Crisis playbook harus mendefinisikan trigger, severity, spokesperson, legal/PR/customer care owners, holding statement, approval, evidence preservation, and updates. Community manager tidak boleh berspekulasi atau menghapus kritik substansial; ia harus menjaga factuality, empathy, and escalation.
 
@@ -5787,7 +5787,7 @@
 
 **Competency ID(s):** T16-C07
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Community measurement mengukur health dan value: active members, repeat contributors, meaningful conversation, response SLA, resolution, sentiment/context, retention, safety incidents, UGC quality, referral, and customer outcomes. Metrics perlu denominator, period, segment, and sampling method. Follower/member count tidak menunjukkan value tanpa participation. Report harus memadukan quantitative trend dan qualitative examples.
 
@@ -5821,7 +5821,7 @@
 
 **Competency ID(s):** T16-C07
 
-**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | B: Senior Social Media Executive and Social Media Officer include community engagement | G: direct community role not located in current Havas Media index
+**Agency evidence (role-level):** B: social/content roles with community-adjacent responsibilities | A: Social & Community Management Specialist, community conversation, moderation, UGC and reporting | A: Social Media Strategist role includes community management, social listening and social reporting | A: Social Media Analyst / Community Manager, Dentsu employer-hosted Workday JD, Medellin; social publishing, replies to messages/comments/mentions, reputation monitoring, community engagement, KPI analysis and reporting; 1+ year. Direct community-role evidence; preserve Colombia market. | G: direct community role not located in current Havas Media index
 
 **Learning objective / concept:** Community Capstone menyatukan purpose, audience mapping, platform selection, listening, engagement, programming, moderation, customer care, advocacy, crisis, and measurement. Deliverable harus operasional: charter, governance, calendar, response bank, escalation, and dashboard. Community bukan sekadar group chat; keberhasilannya diukur dari value dan safety bagi anggota serta dampaknya pada relationship/customer experience.
 
