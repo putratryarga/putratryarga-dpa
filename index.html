@@ -1253,6 +1253,202 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 .term-chev { margin-left:auto; color:var(--gold); font:600 14px var(--mono); transition:transform .16s; }
 .term-d[open] .term-chev { transform:rotate(45deg); }
 .term-body { padding:10px 13px 12px; color:var(--ink2); font-size:13px; line-height:1.65; border-top:1px solid var(--line); }
+/* Single-role focus mode and stable role-card geometry */
+[hidden]{display:none!important}
+#sec-role{scroll-margin-top:24px}
+#sec-role #rolePickerContent[hidden]{display:none!important}
+#sec-role .role-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;align-items:stretch;column-gap:24px!important;row-gap:20px!important;border:0!important;width:min(100%,1160px);max-width:1160px;min-width:0;margin:20px auto 0!important;padding:0 22px!important;box-sizing:border-box}
+#sec-role .role-grid>.fam-h{grid-column:1/-1!important;width:100%;margin:22px 0 2px;padding:0 0 8px;border-bottom:1px solid var(--line)}
+#sec-role .role-grid>.role-card,#sec-role .role-grid>.role-card:nth-child(odd),#sec-role .role-grid>.role-card:nth-child(even),#sec-role .role-grid>.role-card[data-role-card="fullstack"]{display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start;position:relative;box-sizing:border-box;min-width:0;width:auto;grid-column:auto!important;grid-template:none!important;grid-template-areas:none!important;gap:12px;margin:0!important;padding:18px!important;border:1px solid var(--line)!important;border-radius:var(--r-lg);background:var(--sf);overflow-wrap:anywhere}
+#sec-role .role-grid>.role-card.selected{border-color:var(--gold)!important;background:var(--gold-s)}
+#sec-role .role-grid>.role-card:hover{transform:none}
+#sec-role .role-grid .role-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;min-width:0}
+#sec-role .role-grid .role-name{display:block;min-width:0;font-size:clamp(16px,1.5vw,19px);line-height:1.25;overflow-wrap:anywhere}
+#sec-role .role-grid .role-pick{flex:0 0 auto}
+#sec-role .role-grid .role-card>p{margin:0;min-width:0}#sec-role .role-grid .role-path{margin:0}
+#sec-role .role-grid .role-resources{grid-area:auto;margin:0;min-width:0}
+.role-electives{margin-top:16px}.role-picker-done{margin:14px 0 0}
+.role-picker-done button,.role-status-change,.active-change-role{appearance:none;border:1px solid var(--line2);border-radius:7px;background:var(--sf2);color:var(--ink);font:600 12px/1.2 var(--sans);padding:10px 13px;cursor:pointer}
+.role-picker-done button:hover,.role-status-change:hover,.active-change-role:hover{border-color:var(--gold);background:var(--gold-s)}
+.role-status{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:14px 0 0;padding:15px 17px;border:1px solid var(--gold-l);border-radius:var(--r);background:var(--gold-s);min-width:0}
+.role-status-copy{display:flex;flex-direction:column;gap:4px;min-width:0}.role-status-kicker,.active-track-kicker,.foundation-kicker{color:var(--gold);font:600 10px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.role-status-copy strong{font:500 20px/1.2 var(--serif);color:var(--ink);overflow-wrap:anywhere}.role-status-alias{color:var(--ink3);font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+#weeks{scroll-margin-top:22px}
+#weeks .active-track-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+#weeks .active-track-heading .stitle{margin:4px 0 0}#weeks .roadmap-subtitle{margin:0 0 20px;max-width:780px}
+#weeks .fam-h[hidden],#weeks .track-h[hidden],#weeks [data-track-box][hidden]{display:none!important}
+.foundation-fold{margin:0 0 24px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--sf);overflow:hidden}
+.foundation-fold>summary{list-style:none;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 18px;cursor:pointer}
+.foundation-fold>summary::-webkit-details-marker{display:none}.foundation-fold>summary strong{font:500 19px/1.2 var(--serif);color:var(--ink)}
+.foundation-hint{margin-left:auto;color:var(--ink3);font-size:11px}.foundation-fold[open]>summary{border-bottom:1px solid var(--line);background:var(--sf2)}
+.foundation-body{padding:16px}.foundation-body>.track-box{display:block!important}
+.global-resource-fold{margin-top:20px}
+.chapter-sources{margin-top:14px;padding-top:10px;border-top:1px solid var(--line)}
+.chapter-sources>summary{list-style:none;display:flex;align-items:center;gap:9px;cursor:pointer;color:var(--gold);font:600 11px/1.5 var(--sans);letter-spacing:.035em}
+.chapter-sources>summary::-webkit-details-marker{display:none}.chapter-source-count{margin-left:auto;color:var(--ink3);font:500 10px var(--mono)}
+.chapter-source-chevron{font:500 16px var(--mono);color:var(--ink3);transition:transform .16s}
+.chapter-sources[open] .chapter-source-chevron{transform:rotate(45deg);color:var(--gold)}
+.chapter-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px;padding:7px 0 0}
+.chapter-source-list .res{min-width:0;align-items:flex-start;padding:10px 0}.chapter-source-list .rn{font-size:12px;line-height:1.4}
+.chapter-source-list .rd{font-size:11px;line-height:1.5}.chapter-source-list .tag{white-space:normal;text-align:center;max-width:120px}
+.source-note{margin-top:10px;color:var(--ink3);font-size:11px;line-height:1.6}
+@media(max-width:760px){#sec-role .role-grid{grid-template-columns:minmax(0,1fr)!important;gap:9px!important}#sec-role .role-grid>.fam-h{margin-top:18px}#sec-role .role-grid>.role-card,#sec-role .role-grid>.role-card:nth-child(odd),#sec-role .role-grid>.role-card:nth-child(even),#sec-role .role-grid>.role-card[data-role-card="fullstack"]{padding:15px!important}#weeks .active-track-heading{align-items:flex-start;flex-direction:column}.role-status{align-items:flex-start;flex-direction:column}.role-status-change,.active-change-role{width:100%}.chapter-source-list{grid-template-columns:minmax(0,1fr)}.foundation-fold>summary{align-items:flex-start}.foundation-hint{width:100%;margin-left:0}}
+@media print{#rolePickerContent,.role-picker-done,.role-status,.active-change-role{display:none!important}#weeks .fam-h,#weeks .track-h{display:none!important}.foundation-fold:not([open])>.foundation-body{display:block!important}.chapter-sources:not([open])>.chapter-source-list{display:block!important}}
+
+/* Explicit role-card spacing and equal geometry */
+#sec-role .role-grid>.role-card{min-width:0!important;width:100%!important;min-height:190px!important;height:100%!important;margin:0!important;box-sizing:border-box!important;padding:20px!important;border:1px solid var(--line)!important;border-radius:var(--r-lg)!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:12px!important;overflow-wrap:anywhere!important}
+#sec-role .role-grid>.role-card .role-head{display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:14px!important;min-width:0!important}
+#sec-role .role-grid>.role-card .role-name{min-width:0!important;overflow-wrap:anywhere!important;line-height:1.3!important}
+#sec-role .role-grid>.role-card .role-pick{flex:0 0 auto!important;white-space:nowrap!important}
+#sec-role .role-grid>.role-card .role-path{margin-top:auto!important}
+#sec-role .role-grid>.fam-h{grid-column:1/-1!important;padding:0 8px 10px!important;margin:26px 0 2px!important;box-sizing:border-box!important}
+@media(max-width:760px){
+ #sec-role .role-grid{grid-template-columns:minmax(0,1fr)!important;width:100%!important;max-width:720px!important;padding:0 14px!important;margin:14px auto 0!important;row-gap:15px!important;column-gap:0!important}
+ #sec-role .role-grid>.role-card{min-height:0!important;height:auto!important;padding:17px!important}
+ #sec-role .role-grid .role-head{gap:10px!important}
+ #sec-role .role-grid>.fam-h{margin-top:22px!important;padding-inline:4px!important}
+}
+
+.chapter-study{margin:16px 0 4px;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--sf2);display:flex;flex-direction:column;gap:16px;min-width:0}
+.chapter-study-title{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-bottom:11px;border-bottom:1px solid var(--line)}
+.chapter-study-title h4{margin:3px 0 0;color:var(--ink);font:500 19px/1.3 var(--serif)}
+.chapter-study-kicker{color:var(--gold);font:600 10px/1.4 var(--mono);letter-spacing:.13em;text-transform:uppercase}
+.chapter-study-time{flex:0 0 auto;color:var(--ink3);font:500 10px/1.4 var(--mono)}
+.chapter-study h5{margin:0 0 7px;color:var(--ink);font:650 12px/1.4 var(--sans)}
+.chapter-study p,.chapter-study li{color:var(--ink2);font-size:12px;line-height:1.75}
+.chapter-study p{margin:0}.chapter-study ol,.chapter-study ul{margin:0;padding-left:19px}.chapter-study li+li{margin-top:8px}
+.chapter-study-example{padding:13px 15px;border-left:3px solid var(--gold);background:var(--sf);border-radius:0 8px 8px 0}
+.chapter-study-columns{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:20px;min-width:0}
+.chapter-study-columns>div{min-width:0}.chapter-selfcheck-title{margin-top:16px!important}
+.chapter-sources{padding-top:13px;border-top:1px solid var(--line);margin-top:2px}
+.chapter-sources-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:9px}
+.chapter-sources-head h5{margin:0}.chapter-sources-head>span{color:var(--ink3);font:500 10px/1.5 var(--mono)}
+.chapter-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px;min-width:0}
+.chapter-resource-item{min-width:0;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:var(--sf)}
+.chapter-resource-item .res{display:flex;align-items:flex-start;gap:8px;padding:0;border:0;min-width:0}
+.chapter-resource-item .rn{font-size:11px;line-height:1.45}.chapter-resource-item .rd{font-size:10px;line-height:1.5}
+.chapter-resource-item .tag{font-size:9px;white-space:normal;max-width:105px;text-align:center}
+.source-empty{color:var(--warning,#b7791f)!important;font-size:11px!important}
+.track-source-catalog[hidden]{display:none!important}
+#sec-role .role-grid{width:min(100%,1160px)!important;max-width:1160px!important;margin:20px auto 0!important;padding:0 26px!important;box-sizing:border-box!important;column-gap:28px!important;row-gap:22px!important}
+#sec-role .role-grid>.role-card{min-width:0!important;width:100%!important;min-height:190px!important;height:100%!important;margin:0!important;padding:20px!important;box-sizing:border-box!important;border:1px solid var(--line)!important;border-radius:var(--r-lg)!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:13px!important;overflow-wrap:anywhere!important}
+#sec-role .role-grid>.role-card .role-head{display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:14px!important;min-width:0!important}
+#sec-role .role-grid>.role-card .role-name{min-width:0!important;overflow-wrap:anywhere!important;line-height:1.3!important}
+#sec-role .role-grid>.role-card .role-pick{flex:0 0 auto!important;white-space:nowrap!important}
+#sec-role .role-grid>.role-card .role-path{margin-top:auto!important}
+#sec-role .role-grid>.fam-h{grid-column:1/-1!important;margin:26px 0 3px!important;padding:0 8px 10px!important;box-sizing:border-box!important}
+@media(max-width:760px){
+.chapter-study{padding:15px;margin-top:14px}.chapter-study-columns{grid-template-columns:minmax(0,1fr);gap:15px}
+.chapter-source-list{grid-template-columns:minmax(0,1fr)}.chapter-study-title{align-items:flex-start;flex-direction:column}
+#sec-role .role-grid{grid-template-columns:minmax(0,1fr)!important;width:100%!important;max-width:720px!important;padding:0 16px!important;margin:14px auto 0!important;row-gap:16px!important;column-gap:0!important}
+#sec-role .role-grid>.role-card{min-height:0!important;height:auto!important;padding:17px!important}#sec-role .role-grid .role-head{gap:10px!important}#sec-role .role-grid>.fam-h{margin-top:23px!important;padding-inline:4px!important}
+}
+@media(min-width:761px) and (max-width:980px){#sec-role .role-grid{column-gap:20px!important;padding:0 20px!important}#sec-role .role-grid>.role-card{padding:17px!important}}
+
+/* Final UX correction: two-column role selector with clear separation. */
+#sec-role #rolePickerContent .role-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:34px!important;row-gap:30px!important;align-items:stretch!important;width:min(100%,1120px)!important;max-width:1120px!important;margin:24px auto 0!important;padding:0 24px!important;box-sizing:border-box!important}
+#sec-role #rolePickerContent .role-grid>.fam-h{grid-column:1/-1!important;width:100%!important;margin:28px 0 2px!important;padding:0 0 10px!important}
+#sec-role #rolePickerContent .role-grid>.role-card{min-width:0!important;width:100%!important;min-height:210px!important;height:100%!important;margin:0!important;padding:22px!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:14px!important;overflow-wrap:anywhere!important}
+#sec-role #rolePickerContent .role-grid .role-head{gap:16px!important;min-width:0!important}
+#sec-role #rolePickerContent .role-grid .role-name{min-width:0!important;line-height:1.34!important;overflow-wrap:anywhere!important}
+#sec-role #rolePickerContent .role-grid .role-path{margin-top:auto!important}
+.chapter-study{margin:18px 0;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--sf2);min-width:0}
+.chapter-study-title{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.chapter-study-title h4{margin:3px 0 0;color:var(--ink);font:500 19px/1.3 var(--serif)}
+.chapter-study-kicker{color:var(--gold);font:600 10px/1.4 var(--mono);letter-spacing:.13em;text-transform:uppercase}
+.chapter-study-time{flex:0 0 auto;color:var(--ink3);font:500 10px/1.4 var(--mono)}
+.chapter-study-intro{margin:12px 0 14px!important;color:var(--ink2);font-size:12px;line-height:1.65}
+.lesson-fold{margin:9px 0;border:1px solid var(--line);border-radius:9px;background:var(--sf);overflow:hidden}
+.lesson-fold summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;color:var(--ink);font-size:12px;font-weight:650}
+.lesson-fold summary::-webkit-details-marker{display:none}
+.lesson-fold summary:after{content:"+";color:var(--gold);font-size:17px;font-weight:400}
+.lesson-fold[open] summary:after{content:"−"}
+.lesson-fold[open] summary{border-bottom:1px solid var(--line);color:var(--gold)}
+.lesson-fold-body{padding:13px 15px 15px;min-width:0}
+.lesson-fold-body p,.lesson-fold-body li{color:var(--ink2);font-size:12px;line-height:1.75}
+.lesson-fold-body p{margin:0}.lesson-fold-body ol,.lesson-fold-body ul{margin:10px 0 0;padding-left:20px}
+.lesson-fold-body li+li{margin-top:9px}.lesson-fold-body li b{color:var(--ink)}
+.lesson-topic-list{display:flex;flex-direction:column;gap:8px}
+.chapter-deliverable{margin-top:12px;padding:11px 13px;border:1px solid var(--line);border-radius:8px;background:var(--sf2);font-size:12px;line-height:1.65;color:var(--ink2)}
+.chapter-deliverable b{color:var(--gold)}
+.lesson-source-count{color:var(--ink3);font:500 10px var(--mono)}
+.chapter-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 12px;min-width:0}
+.chapter-resource-item{min-width:0;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:var(--sf2)}
+.chapter-resource-item .res{display:flex;align-items:flex-start;gap:8px;padding:0;border:0;min-width:0}
+.chapter-resource-item .rn{font-size:11px;line-height:1.45}.chapter-resource-item .rd{font-size:10px;line-height:1.5}
+.chapter-resource-item .tag{font-size:9px;white-space:normal;max-width:105px;text-align:center}
+@media(max-width:760px){
+#sec-role #rolePickerContent .role-grid{grid-template-columns:minmax(0,1fr)!important;column-gap:0!important;row-gap:18px!important;width:100%!important;max-width:720px!important;padding:0 16px!important}
+#sec-role #rolePickerContent .role-grid>.role-card{min-height:0!important;height:auto!important;padding:18px!important}
+#sec-role #rolePickerContent .role-grid>.fam-h{margin-top:22px!important}
+.chapter-study{padding:14px;margin-top:14px}
+.chapter-study-title{align-items:flex-start;flex-direction:column}
+.chapter-source-list{grid-template-columns:minmax(0,1fr)}
+.lesson-fold summary{align-items:flex-start}
+}
+@media(min-width:761px) and (max-width:980px){
+#sec-role #rolePickerContent .role-grid{column-gap:24px!important;row-gap:24px!important;padding:0 20px!important}
+#sec-role #rolePickerContent .role-grid>.role-card{padding:18px!important}
+}
+
+/* Paid Social study-guide glossary, answer review, and mobile spacing */
+.lesson-glossary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px;margin:0}
+.lesson-glossary-item{min-width:0;padding:9px 0;border-bottom:1px dotted var(--line)}
+.lesson-glossary dt{color:var(--gold);font:650 11px/1.5 var(--sans)}
+.lesson-glossary dd{margin:4px 0 0;color:var(--ink2);font-size:11px;line-height:1.65}
+.lesson-check-list>li{padding-left:2px}
+.lesson-check-list>li>b{display:block;color:var(--ink);font-size:12px;line-height:1.6}
+.lesson-answer{margin-top:7px;padding:7px 10px;border-left:2px solid var(--gold-l);background:var(--sf2);border-radius:0 6px 6px 0}
+.lesson-answer>summary{cursor:pointer;list-style:none;color:var(--gold);font:600 10px/1.5 var(--sans)}
+.lesson-answer>summary::-webkit-details-marker{display:none}
+.lesson-answer>summary:after{content:" +";font:500 13px var(--mono)}
+.lesson-answer[open]>summary:after{content:" −"}
+.lesson-answer p{margin-top:6px!important;color:var(--ink2);font-size:11px;line-height:1.7}
+@media(max-width:760px){
+  details.week>summary{gap:10px;padding:16px 15px;align-items:flex-start}
+  details.week .wn{padding:5px 7px;font-size:10px}
+  details.week .wt{min-width:0;font-size:18px;line-height:1.3;overflow-wrap:anywhere}
+  details.week .wtog{margin-left:auto;padding-top:2px}
+  details.week .wbody{padding:4px 15px 18px}
+  .lesson-glossary{grid-template-columns:minmax(0,1fr)}
+  .lesson-fold-body{padding:11px 12px 13px}
+  .lesson-answer{padding:7px 9px}
+}
+
+/* Mobile-first role cards: visible separation at very narrow viewports. */
+#sec-role #rolePickerContent .role-grid{
+ display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ column-gap:30px!important;row-gap:32px!important;align-items:stretch!important;
+ width:min(100%,1120px)!important;max-width:1120px!important;
+ margin:24px auto 0!important;padding:0 24px!important;box-sizing:border-box!important;
+}
+#sec-role #rolePickerContent .role-grid>.role-card{
+ min-width:0!important;width:100%!important;height:100%!important;min-height:210px!important;
+ margin:0!important;padding:22px!important;box-sizing:border-box!important;
+ display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:15px!important;
+ border-radius:var(--r-lg)!important;overflow-wrap:anywhere!important;
+}
+#sec-role #rolePickerContent .role-grid>.fam-h{
+ grid-column:1/-1!important;width:100%!important;margin:28px 0 4px!important;padding:0 0 10px!important;
+}
+#sec-role #rolePickerContent .role-grid .role-head{display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:14px!important;min-width:0!important}
+#sec-role #rolePickerContent .role-grid .role-name{min-width:0!important;overflow-wrap:anywhere!important;line-height:1.32!important}
+#sec-role #rolePickerContent .role-grid .role-path{margin-top:auto!important}
+details.week{margin-bottom:16px!important}
+.lesson-fold{margin:12px 0!important}
+@media(max-width:760px){
+ #sec-role #rolePickerContent .role-grid{grid-template-columns:minmax(0,1fr)!important;row-gap:24px!important;column-gap:0!important;width:100%!important;max-width:720px!important;margin:18px auto 0!important;padding:0 18px!important}
+ #sec-role #rolePickerContent .role-grid>.role-card{min-height:0!important;height:auto!important;padding:19px!important;gap:13px!important}
+ #sec-role #rolePickerContent .role-grid .role-head{flex-direction:column!important;align-items:flex-start!important;gap:10px!important}
+ #sec-role #rolePickerContent .role-grid .role-pick{align-self:flex-start!important}
+ #sec-role #rolePickerContent .role-grid>.fam-h{margin:22px 0 4px!important}
+ details.week>summary{gap:10px!important;padding:16px 15px!important;align-items:flex-start!important}
+ details.week .wt{font-size:18px!important;line-height:1.3!important;overflow-wrap:anywhere!important}
+ details.week .wbody{padding:4px 15px 18px!important}
+ .chapter-study{padding:15px!important}
+ .chapter-source-list{grid-template-columns:minmax(0,1fr)!important}
+ .lesson-glossary{grid-template-columns:minmax(0,1fr)!important}
+}
 </style>
 </head>
 <body>
@@ -1338,8 +1534,8 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 <section id="sec-role" class="role-section">
   <p class="slabel">Pilih jalur</p>
   <h2 class="stitle">16 jalur spesialisasi, satu common foundation.</h2>
-    <p class="sdesc">Struktur baru berbasis audit job family di global agency network: pilih satu dari 16 jalur spesialisasi. Semua jalur mulai dari Common Foundation (CF1–CF6), lalu masuk bab khusus jalur, platform learning, praktik, sampai capstone. Jalur lain tetap bisa dibaca sebagai referensi, tetapi hanya jalur aktif yang dihitung di progres.</p>
-  <div class="role-grid">
+    <p class="sdesc" id="rolePickerIntro">Pilih satu role yang sesuai target pekerjaan. Setelah dipilih, halaman akan menampilkan roadmap role tersebut saja, beserta Common Foundation yang berlaku untuk semua jalur.</p>
+  <div id="rolePickerContent"><div class="role-grid">
 <h3 class="fam-h">A. Generalist / End-to-End</h3>
     <div class="role-card selected" data-role-card="fullstack">
       <div class="role-head"><span class="role-name">1. Full-Stack Digital Marketing &amp; Performance</span><button type="button" class="role-pick" data-role="fullstack" aria-pressed="false">Pilih jalur</button></div>
@@ -1442,21 +1638,19 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <div class="role-path">CF1–CF6 + 12 bab + capstone</div>
       <p class="role-alias">Alias industri: Community Manager · Advocacy Lead · Social &amp; Community Manager</p>
     </div>
-  <h3 class="fam-h">Advanced elective — kurikulum lengkap menyusul</h3>
-  <div class="role-card elec-card">
+  
+
+  </div><details class="fold role-electives" id="roleElectives"><summary><span class="slabel">Elective</span><span class="stitle">Jalur tambahan di luar 16 role inti</span><span class="fold-chev" aria-hidden="true">+</span></summary><div class="fold-body"><p class="sdesc">Elective tetap tersedia sebagai materi tambahan dan tidak masuk perhitungan progres 16 role inti.</p><div class="role-card elec-card">
       <div class="role-head"><span class="role-name">17. CRO / Growth / Experience Optimization</span></div>
       <p>Elective lanjutan: funnel diagnosis, behavioral analytics, experiment design, A/B testing, personalization. Blueprint sudah disusun; kurikulum lengkap menyusul.</p>
       <div class="role-path">Coming soon — bab & deliverable menyusul</div>
-    </div>
-  <div class="role-card elec-card">
+    </div><div class="role-card elec-card">
       <div class="role-head"><span class="role-name">18. Traditional Media Planning &amp; Buying</span></div>
       <p>Elective lanjutan: TV, radio, OOH/DOOH, print, cinema, audience measurement, GRP/TRP, rate negotiation. Blueprint sudah disusun; kurikulum lengkap menyusul.</p>
       <div class="role-path">Coming soon — bab & deliverable menyusul</div>
-    </div>
+    </div></div></details></div>
 
-  </div>
-
-  <div class="role-status" id="roleStatus" aria-live="polite"></div>
+  <div class="role-status" id="roleStatus" aria-live="polite" hidden></div><div class="role-picker-done" id="rolePickerDone" hidden><button type="button" data-role-picker-close>Kembali ke roadmap</button></div>
 </section>
 
 <div class="topbar">
@@ -1595,27 +1789,10 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
 <section id="weeks">
   <p class="slabel">Roadmap belajar</p>
-  <h2 class="stitle">Common Foundation dulu, lalu bab khusus jalur lu.</h2>
-    <div class="track-chips" aria-label="Ganti jalur cepat">
-    <button type="button" class="chip" data-goto="fullstack">1 Full-Stack</button>
-    <button type="button" class="chip" data-goto="connection">2 Connection</button>
-    <button type="button" class="chip" data-goto="media">3 Media Planner</button>
-    <button type="button" class="chip" data-goto="paidsearch">4 Paid Search</button>
-    <button type="button" class="chip" data-goto="paidsocial">5 Paid Social</button>
-    <button type="button" class="chip" data-goto="programmatic">6 Programmatic</button>
-    <button type="button" class="chip" data-goto="retail">7 Retail Media</button>
-    <button type="button" class="chip" data-goto="investment">8 Investment</button>
-    <button type="button" class="chip" data-goto="adops">9 Ad Ops</button>
-    <button type="button" class="chip" data-goto="analytics">10 Analytics</button>
-    <button type="button" class="chip" data-goto="seo">11 SEO/AEO</button>
-    <button type="button" class="chip" data-goto="crm">12 CRM</button>
-    <button type="button" class="chip" data-goto="content">13 Content</button>
-    <button type="button" class="chip" data-goto="kol">14 KOL/KOC</button>
-    <button type="button" class="chip" data-goto="affiliate">15 Affiliate</button>
-    <button type="button" class="chip" data-goto="community">16 Community</button>
-  </div>
-  <p class="sdesc">Bab di bawah menyesuaikan jalur yang lu pilih di atas. Progres dihitung dari checklist wajib: CF1–CF6 + bab di jalur aktif. Jalur lain bisa dibuka untuk dibaca, tapi tidak masuk hitungan progres.</p>
-<h3 class="fam-h" id="cf">Common Foundation — wajib semua jalur</h3>
+  <div class="active-track-heading"><div><p class="active-track-kicker">ROADMAP AKTIF</p><h2 class="stitle" id="activeRoleName">Full-Stack Digital Marketing &amp; Performance</h2></div><button type="button" class="active-change-role" data-role-picker-open>Ganti role</button></div>
+    
+  <p class="sdesc roadmap-subtitle">Hanya bab dari role aktif yang ditampilkan. Common Foundation berlaku untuk semua role dan dapat dibuka dari bagian wajib di atas. Setiap bab memiliki materi, deliverable dan sumber belajar yang relevan.</p>
+<details class="foundation-fold" id="foundationFold"><summary id="cf"><span class="foundation-kicker">WAJIB UNTUK SEMUA ROLE</span><strong>Common Foundation · 6 bab</strong><span class="foundation-hint">Buka saat diperlukan</span><span class="fold-chev" aria-hidden="true">+</span></summary><div class="foundation-body">
   <div class="track-box on" data-track-box="cf">
     <details class="week" data-type="core">
       <summary><span class="wn">CF1</span><span class="wt">Business &amp; Commercial Understanding</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
@@ -1695,7 +1872,15 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
         </div>
       </div>
     </details>
-  </div>
+<div class="box track-source-catalog" style="margin-top:14px"><h3>Common Foundation · sumber belajar</h3><a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Inbound Certification</span><span class="rd">Customer-centric marketing, buyer journey and inbound fundamentals.</span></span><span class="tag t-free">Free course</span></a>
+<a class="res" href="https://www.thinkwithgoogle.com/intl/en-apac/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Think with Google · APAC insights</span><span class="rd">Consumer behaviour, search, video and measurement insights for marketers.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Trends</span><span class="rd">Explore search interest over time, regional interest and related queries.</span></span><span class="tag t-tool">Free tool</span></a>
+<a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Ads catalogue</span><span class="rd">Official learning and certification catalogue for Google advertising products.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/analytics/answer/6367342" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics · Demo Account</span><span class="rd">Official demo properties for analytics and measurement practice.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://tagmanager.google.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager</span><span class="rd">Official tag management workspace and product entry point; account required.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep" target="_blank" rel="noopener noreferrer"><span><span class="rn">Forage · Omnichannel Marketing simulation</span><span class="rd">Self-paced integrated marketing case simulation.</span></span><span class="tag t-free">Free simulation</span></a><p class="source-note">Beberapa platform memerlukan akun. Course completion dan credential mengikuti ketentuan provider.</p></div>
+</div>
+</div></details>
   <h3 class="fam-h">A. Generalist / End-to-End</h3>
   <h3 class="track-h" id="track-fullstack">1. Full-Stack Digital Marketing &amp; Performance</h3>
   <div class="track-box" data-track-box="fullstack">
@@ -1837,13 +2022,37 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Optimization report dari synthetic campaign data</li>
       <li><b>Capstone:</b> Satu kasus brand dari business problem sampai integrated performance recommendation: strategy deck, media plan, measurement framework, optimization strategy, dan executive case study.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop</span><span class="rd">Katalog resmi Google Ads &amp; platform certifications.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint</span><span class="rd">Katalog resmi Meta, termasuk course berbasis role.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy</span><span class="rd">Learning path resmi TikTok dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Labs</span><span class="rd">Portal LinkedIn Marketing (Labs &amp; 4 sertifikasi; cek ketersediaan bahasa).</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-    <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope Digital Consultant / Integrated Planner di Big Five · MRC measurement standards · WARC effectiveness research.</p>
+        <div class="box track-source-catalog" style="margin-top:14px">
+      <h3>Sumber belajar · Full-Stack Digital Performance</h3>
+      <p class="source-note">Urutan belajar: business dan consumer context → channel planning/activation → measurement → optimization → lifecycle. Semua sumber resmi; beberapa course memerlukan akun dan ujian terpisah untuk credential. Pilih referensi sesuai bab, bukan menonton semuanya sekaligus.</p>
+
+      <div class="tier-label">Tier 1 · Platform &amp; performance channel</div>
+      <a class="res" href="https://skillshop.withgoogle.com/intl/id_ALL/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Ads, Analytics &amp; Marketing Platform</span><span class="rd">Pelatihan resmi Google untuk Ads, Analytics, dan Google Marketing Platform; kursus online gratis, sertifikasi mengikuti assessment masing-masing.</span></span><span class="tag t-doc">Learning + exam</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Learning Catalog</span><span class="rd">Katalog resmi pelatihan Meta untuk advertising, campaign setup, creative, audience, measurement, dan business tools.</span></span><span class="tag t-doc">Course catalog</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Conversions</span><span class="rd">Learning path resmi tentang traffic website dan conversion, termasuk sales serta sign-up.</span></span><span class="tag t-doc">Learning path</span></a>
+      <a class="res" href="https://training.marketing.linkedin.com/path/start-advertising" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Start Advertising Your Business</span><span class="rd">Learning path Campaign Manager, targeting, format, dan dasar LinkedIn Ads; ujian sertifikasi terpisah.</span></span><span class="tag t-doc">Learning path</span></a>
+      <a class="res" href="https://business.google.com/us/think/measurement/cmo-guide-measuring-media-effectiveness/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Think with Google · A Media Effectiveness Guide</span><span class="rd">Measurement framework untuk KPI/metric structure, attribution, marketing mix modelling, incrementality, dan test-learn-improve.</span></span><span class="tag t-doc">Playbook</span></a>
+
+      <div class="tier-label">Tier 1 · Analytics, tagging &amp; measurement</div>
+      <a class="res" href="https://support.google.com/analytics/answer/6367342?hl=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics · Demo Account</span><span class="rd">Properti GA4 demo dengan data Google Merchandise Store dan Flood-It! untuk latihan laporan, acquisition, funnel, dan exploration. Perlu Google Account; akses read-only.</span></span><span class="tag t-tool">Practice data</span></a>
+      <a class="res" href="https://support.google.com/analytics/answer/10917952?hl=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">GA4 · Campaign URL Builder / UTM Parameters</span><span class="rd">Dokumentasi parameter kampanye kustom, source/medium, campaign, content, dan implikasi tagging.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://support.google.com/tagmanager/answer/13034206?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager · Set Up GA4 Events</span><span class="rd">Walkthrough recommended/custom events, trigger, parameter, verification, Preview, DebugView, dan publish workflow.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://support.google.com/tagmanager/answer/9442095?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager · Set Up Google Analytics</span><span class="rd">Konfigurasi Google tag agar data website mengalir ke properti Google Analytics.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+
+      <div class="tier-label">Tier 1 · Organic, content &amp; lifecycle</div>
+      <a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Search Central · SEO Starter Guide</span><span class="rd">Fondasi crawl/index, struktur situs, konten yang berguna, link, dan search visibility.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://academy.hubspot.com/courses/content-marketing" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Content Marketing Certification</span><span class="rd">Strategi content, storytelling, editorial framework, content planning, SEO, dan measurement. Kursus gratis; pilihan bahasa terbatas.</span></span><span class="tag t-free">Free course</span></a>
+      <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Academy · Email Marketing Certification</span><span class="rd">Segmentasi, personalization, automation, email copy/design, analytics, dan A/B testing. Kursus dan sertifikasi gratis sesuai syarat lulus.</span></span><span class="tag t-free">Free certification</span></a>
+
+      <div class="tier-label">Tier 1 · Experimentation &amp; optimization</div>
+      <a class="res" href="https://business.google.com/id/ad-tools/google-ad-experiments/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads · Campaign Experiments</span><span class="rd">Membuat eksperimen, membandingkan campaign asli dan variasi, menetapkan goal, jadwal, serta evaluasi.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://formedia.facebookblueprint.com/student/path/253143-meta-campaign-measurement-strategies" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Campaign Evaluation &amp; Measurement Strategies</span><span class="rd">Metrik evaluasi, incrementality, experiments di Ads Manager, dan advanced measurement studies.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://skillshop.withgoogle.com/googleads/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Google Ads Learning Paths</span><span class="rd">Search, Display, Measurement, Video, Shopping, dan certification paths; gunakan sebagai pendalaman channel.</span></span><span class="tag t-doc">Learning paths</span></a>
+
+      <div class="tier-label">Tier 2 · Practice standard</div>
+      <p style="color:var(--ink2);font-size:13px">Gunakan data SIMULATED atau demo account untuk latihan tanpa mengklaim client result. Bedakan course completion, badge, skilling certificate, dan professional certification. Untuk media effectiveness, baca attribution bersama incrementality dan business economics.</p>
     </div>
+
   </div>
   <h3 class="fam-h">B. Strategy &amp; Planning</h3>
   <h3 class="track-h" id="track-connection">2. Connection / Communications Planner</h3>
@@ -1987,13 +2196,10 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Touchpoint evaluation ringkas</li>
       <li><b>Capstone:</b> Integrated communication strategy untuk brand launch atau business challenge: insight deck, communication architecture, journey map, messaging framework, channel-role matrix.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Media Planning Study Guide</span><span class="rd">Study guide resmi: objective, audience, placement, measurement.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Build Your Brand</span><span class="rd">Learning path brand &amp; awareness dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Labs</span><span class="rd">Marketing Strategy certification (B2B/strategy angle) via portal LinkedIn Marketing.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep" target="_blank" rel="noopener noreferrer"><span><span class="rn">Forage · Omnichannel Marketing</span><span class="rd">Simulasi integrated marketing (pengenalan).</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-    <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope WPP Executive Connection Planning &amp; Dentsu Connection Planner (full-funnel, channel roles, integration dengan Investment/Strategy/Performance) · IPA TouchPoints sebagai metode riset (data UK, bukan gambaran Indonesia).</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Connection Planning</h3><a class="res" href="https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Media Planning Study Guide</span><span class="rd">Official guide for media objectives, audience, placements and measurement.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.tiktokacademy.com/student/catalog/list?category_ids=38330-build-brand-awareness" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Build brand awareness</span><span class="rd">Official learning catalogue for brand-awareness campaign planning.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://training.marketing.linkedin.com/page/certifications" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Certifications</span><span class="rd">Official marketing credential catalogue; verify current eligibility and assessment requirements.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep" target="_blank" rel="noopener noreferrer"><span><span class="rn">Forage · Omnichannel Marketing simulation</span><span class="rd">Scenario practice for integrated audience and channel decisions.</span></span><span class="tag t-free">Free simulation</span></a><p class="source-note">Cek enrolment, biaya, eligibility dan jenis credential langsung pada halaman provider.</p></div>
   </div>
   <h3 class="track-h" id="track-media">3. Media Planner / Digital Planner &amp; Strategist</h3>
   <div class="track-box" data-track-box="media">
@@ -2136,7 +2342,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Post-campaign evaluation</li>
       <li><b>Capstone:</b> Media plan lengkap dari brief: channel mix, alokasi budget, reach/frequency forecast, media flowchart, dan post-campaign recommendation. Benchmark urutan belajar: Purwadhika × P3I Certified Digital Planner &amp; Strategist.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Media Planning Study Guide</span><span class="rd">Study guide resmi media planning.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://support.google.com/google-ads/answer/9427120" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Help · Reach Planner</span><span class="rd">Panduan resmi reach planning &amp; forecast.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://www.purwadhika.com/skill-accelerator/certified-digital-planner-and-strategist-with-p3i" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika × P3I · Certified Digital Planner &amp; Strategist</span><span class="rd">Benchmark kurikulum: 6 minggu, 7 sesi (strategy, media planning &amp; budget, governance, measurement, pitching). Berbayar.</span></span><span class="tag t-prog">Pendalaman</span></a>
@@ -2284,7 +2490,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Optimization report dari synthetic data</li>
       <li><b>Capstone:</b> Simulasi search campaign untuk satu brand: keyword-intent map, struktur campaign, negative keyword list, bid strategy, dan optimization report dengan synthetic performance data.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://skillshop.docebosaas.com/learn/courses/8692/google-ads-search-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Search Certification (Skillshop)</span><span class="rd">Sertifikasi resmi Google Search — rujukan utama jalur ini.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://about.ads.microsoft.com/en/resources/training-certification/learning-lab" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Advertising Learning Lab</span><span class="rd">Learning path + sertifikasi Search Microsoft, gratis dengan badge.</span></span><span class="tag t-free">Gratis · badge</span></a>
               <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Ads Catalog</span><span class="rd">Katalog untuk Search Ads 360 dan materi lanjutan.</span></span><span class="tag t-doc">Dokumentasi</span></a>
@@ -2431,23 +2637,35 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Weekly performance report (synthetic)</li>
       <li><b>Capstone:</b> Social campaign launch plan dan optimization report lintas Meta dan TikTok: audience matrix, creative testing matrix, budget/pacing sheet, weekly performance report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Ads Manager Learning Path (Small Business Academy)</span><span class="rd">Jalur belajar Ads Manager; punya skilling certificate via tes terpisah.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Sales</span><span class="rd">Learning path konversi website dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Promote Your TikTok Shop</span><span class="rd">Commerce &amp; Shop Ads dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Generate and Message Leads</span><span class="rd">Lead generation dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Advertising Fundamentals</span><span class="rd">Advertising Fundamentals untuk kebutuhan B2B.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-        <div class="box" style="margin-top:14px"><h3>Meta Blueprint · Course dengan Credential for Completion</h3>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211543-meta-advertising-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Running Facebook &amp; Instagram Advertising Campaigns</span><span class="rd">Setup campaign dan Ads Manager.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Selecting Campaign Objectives</span><span class="rd">Objective, conversion location, performance goal.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/219694-define-audiences" target="_blank" rel="noopener noreferrer"><span><span class="rn">Defining Your Ad Audience</span><span class="rd">Custom, Lookalike, dan audience strategy.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211562-ad-types-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Ad Auction, Buying &amp; Reservation Types</span><span class="rd">Auction, reservation, dan bidding.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative" target="_blank" rel="noopener noreferrer"><span><span class="rn">Best Practices for Ad Creative, Formats &amp; Placements</span><span class="rd">Creative, format, placement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Pixel vs. Conversions API</span><span class="rd">Pixel, CAPI, event, measurement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Analyzing Campaign Reporting &amp; Measurement</span><span class="rd">Analisis campaign dan measurement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-        <a class="res" href="https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings" target="_blank" rel="noopener noreferrer"><span><span class="rn">Privacy Controls &amp; Brand Safety</span><span class="rd">Perlindungan data, privacy, brand safety.</span></span><span class="tag t-free">Gratis · badge</span></a>
-    </div>
-  <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope Biddable Social Specialist Big Five (Meta, TikTok, LinkedIn + platform tambahan; audience/creative testing; bidding, pacing, tracking) · MRC social measurement standards.</p>
+    <div class="box track-source-catalog" style="margin-top:14px">
+      <h3>Sumber belajar · Paid Social</h3>
+      <p class="source-note">Prioritas praktik: Meta Ads Manager dan TikTok Ads Manager. LinkedIn Ads adalah pendalaman B2B; platform lain dipelajari sesuai kebutuhan pasar dan akses akun. Label course, learning path, credential, dan sertifikasi dibedakan sesuai bukti provider.</p>
+      <div class="tier-label">Tier 1 · Learning path resmi platform</div>
+      <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Meta Ads Manager learning</span><span class="rd">Objective, campaign creation, management, dan tracking. Tes untuk Meta Small Business Academy skilling certificate ditawarkan secara terpisah.</span></span><span class="tag t-doc">Path + test</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Conversions</span><span class="rd">Learning path untuk membawa pengunjung ke website dan mendorong sales atau sign-up.</span></span><span class="tag t-doc">Learning path</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Promote Your TikTok Shop</span><span class="rd">TikTok Shop, GMV Max, Shop Ads, campaign setup, dan measurement; halaman menampilkan Credential for Completion.</span></span><span class="tag t-doc">Credential</span></a>
+      <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619728" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Generate Leads</span><span class="rd">Instant Form, lead management, website lead generation, Messaging Ads, dan measurement; halaman menampilkan Credential for Completion.</span></span><span class="tag t-doc">Credential</span></a>
+      <a class="res" href="https://training.marketing.linkedin.com/path/start-advertising" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Start Advertising Your Business</span><span class="rd">Learning path 7 course tentang LinkedIn Ads, Campaign Manager, targeting, format, dan optimization; LinkedIn Advertising Fundamentals exam terpisah. Sertifikasi berlaku 2 tahun.</span></span><span class="tag t-doc">Path + exam</span></a>
+
+      <div class="tier-label">Tier 1 · Meta Blueprint courses</div>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211543-meta-advertising-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Running Facebook &amp; Instagram Advertising Campaigns</span><span class="rd">Membuat iklan dan menggunakan Meta Ads Manager.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Selecting Campaign Objectives in Meta Ads Manager</span><span class="rd">Campaign objective, conversion location, dan performance goal.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/219694-define-audiences" target="_blank" rel="noopener noreferrer"><span><span class="rn">Defining Your Ad Audience</span><span class="rd">Detailed targeting, Custom Audience, Lookalike Audience, dan Advantage+ audience.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211562-ad-types-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Ad Auction, Buying &amp; Reservation Types</span><span class="rd">Auction, reservation buying, dan bidding di Meta.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative" target="_blank" rel="noopener noreferrer"><span><span class="rn">Best Practices for Ad Creative, Formats &amp; Placements</span><span class="rd">Creative, format, placement, dan praktik optimasi.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Pixel vs. Conversions API</span><span class="rd">Pixel, Conversions API, dan custom events.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Ads Campaign Performance Measurement and Testing</span><span class="rd">Reporting, metrics, testing methodology, dan measurement.</span></span><span class="tag t-doc">Course</span></a>
+      <a class="res" href="https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings" target="_blank" rel="noopener noreferrer"><span><span class="rn">Privacy Controls and Brand Safety</span><span class="rd">Data privacy, business integrity, ad review, dan brand safety.</span></span><span class="tag t-doc">Course</span></a>
+
+      <div class="tier-label">Tier 1 · Dokumentasi operasional resmi</div>
+      <a class="res" href="https://ads.tiktok.com/help/article/campaign-set-up" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · How to Set Up an Ad Campaign</span><span class="rd">Objective, campaign setup, Manual/Search/Smart+, campaign budget, dan pre-delivery QA.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/help/article/ad-set-up?lang=en-GB" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · How to Create an Ad</span><span class="rd">Identity, ad format, creative asset, CTA, URL parameters, UTM, preview, dan QA.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/help/article/event-deduplication?lang=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · About Event Deduplication</span><span class="rd">Pixel dan Events API: event overlap, event_id, serta duplicate handling.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/resources/help/article/learning-phase" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · About Learning Phase</span><span class="rd">Delivery volatility, learning signals, dan perubahan yang dapat memengaruhi learning phase.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/resources/help/article/account-structure-best-practices?lang=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · Account Structure Best Practices</span><span class="rd">Campaign structure, audience, ad groups, dan delivery management.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <a class="res" href="https://ads.tiktok.com/resources/help/article/bidding-budget-solutions-drive-tiktok-auction-ad-performance" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Ads Manager · Bidding &amp; Budget Solutions</span><span class="rd">Budget, bidding, expected CPA, dan auction delivery.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+      <div class="tier-label">Tier 2 · Framework &amp; standar</div>
+      <p style="color:var(--ink2);font-size:13px">Job scope Biddable Social Specialist: Meta/TikTok activation, B2B LinkedIn sebagai elective, audience dan creative testing, bidding, pacing, measurement, privacy, serta MRC social measurement standards. Course completion, completion credential, skilling certificate, dan professional certification bukan hal yang sama.</p>
     </div>
   </div>
   <h3 class="track-h" id="track-programmatic">6. Programmatic Specialist / Trader</h3>
@@ -2617,11 +2835,11 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Supply-quality audit + discrepancy report</li>
       <li><b>Capstone:</b> Rancang programmatic campaign end-to-end dengan synthetic data: DSP blueprint, inventory/deal matrix, bidding &amp; pacing plan, supply-quality audit, discrepancy report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://edgeacademy.thetradedesk.com/programmatic-101" target="_blank" rel="noopener noreferrer"><span><span class="rn">The Trade Desk Edge Academy · Programmatic 101</span><span class="rd">Pengantar resmi ±1 jam; learning badge via Credly (bukan professional certification).</span></span><span class="tag t-free">Gratis · badge</span></a>
               <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · DV360 &amp; Campaign Manager 360</span><span class="rd">Cari Display &amp; Video 360 Certification dan Campaign Manager 360 Certification (individual, gratis).</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://advertising.amazon.com/academy/certifications" target="_blank" rel="noopener noreferrer"><span><span class="rn">Amazon Ads Academy · Certifications</span><span class="rd">Sertifikasi gratis (badge + PDF); DSP Indonesia tidak tersedia → posisikan sebagai global elective.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://www.stackadapt.com/academy" target="_blank" rel="noopener noreferrer"><span><span class="rn">StackAdapt · Programmatic Masterclass</span><span class="rd">Masterclass programmatic gratis dengan sertifikat (cek jadwal/akses saat enrol).</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
+              <a class="res" href="https://www.stackadapt.com/academy/programmatic-masterclass" target="_blank" rel="noopener noreferrer"><span><span class="rn">StackAdapt · Programmatic Masterclass</span><span class="rd">Masterclass learning page; confirm current certificate and enrolment details on the provider page.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
     <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">IAB Tech Lab: OpenRTB, ads.txt, sellers.json, SupplyChain Object (standar teknis, bukan sertifikat) · MRC: invalid traffic, viewability, measurement.</p>
     </div>
   </div>
@@ -2765,7 +2983,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Sales performance report (ACoS/ROAS, synthetic)</li>
       <li><b>Capstone:</b> Commerce media strategy untuk satu kategori produk: retail media plan, product bidding sheet, sales performance report (ACoS/ROAS/incrementality).</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok/Tokopedia · Product Shopping Ads (dokumentasi resmi)</span><span class="rd">Kelola Tokopedia Product Shopping Ads via TikTok Ads Manager; GMV Max default untuk TikTok Shop Ads.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://iklan.shopee.co.id/learn/faq/571/19" target="_blank" rel="noopener noreferrer"><span><span class="rn">Shopee Ads · Iklan Pencarian Produk &amp; Toko</span><span class="rd">Dokumentasi resmi tipe iklan dan pengelolaan via Seller Centre.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://www.lazadasolutions.com/id/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Lazada Sponsored Solutions Indonesia</span><span class="rd">Nomenklatur terbaru: Sponsored Max Store/Product, Sponsored Discovery Manual (perubahan Okt 2026).</span></span><span class="tag t-doc">Dokumentasi</span></a>
@@ -2915,13 +3133,10 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Insertion order + reconciliation + post-buy evaluation</li>
       <li><b>Capstone:</b> Media investment recommendation untuk client brief: vendor comparison, rate benchmarking, RFP evaluation matrix, insertion order, dan post-buy evaluation.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://www.mediaratingcouncil.org/" target="_blank" rel="noopener noreferrer"><span><span class="rn">MRC · Digital Advertising Auction Transparency Standards</span><span class="rd">Referensi standar transparansi auction (Jan 2026).</span></span><span class="tag t-doc">Dokumentasi</span></a>
-                      <a class="res" href="https://www.dentsu.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Dentsu · career &amp; service pages</span><span class="rd">Job scope nyata Investment &amp; Trading sebagai acuan kompetensi.</span></span><span class="tag t-off">Sumber</span></a>
-                  <a class="res" href="https://www.mediaocean.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Mediaocean</span><span class="rd">Sistem planning/buying/financial yang disebut di job description investment agency.</span></span><span class="tag t-tool">Tool gratis</span></a>
-              <a class="res" href="https://www.mediaratingcouncil.org/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Media Rating Council</span><span class="rd">Standar transparansi auction &amp; pengukuran (Jan 2026).</span></span><span class="tag t-doc">Dokumentasi</span></a>
-  <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope Media Investment/Trading Big Five (Manager Trading WPP Jakarta, Senior Media Investment Executive Dentsu Jakarta, Buyer Digital Investments Havas) · MRC auction transparency.</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Media Investment &amp; Trading</h3><a class="res" href="https://wfanet.org/globalmediacharter" target="_blank" rel="noopener noreferrer"><span><span class="rn">WFA · Global Media Charter 3.0</span><span class="rd">Advertiser-led framework covering responsible media decisions, measurement accountability, partner selection and media investment governance.</span></span><span class="tag t-doc">Industry framework</span></a>
+<a class="res" href="https://wfanet.org/knowledge/item/2025/02/27/wfa-launches-new-transparency-tool-for-media" target="_blank" rel="noopener noreferrer"><span><span class="rn">WFA · Media Transparency Tool</span><span class="rd">Framework for benchmarking media agency agreements, governance, rebates and principal media; member access may be required.</span></span><span class="tag t-doc">Member tool / framework</span></a>
+<a class="res" href="https://iabeurope.eu/knowledge_hub/iab-europes-guide-to-curation-in-digital-advertising/" target="_blank" rel="noopener noreferrer"><span><span class="rn">IAB Europe · Guide to Curation in Digital Advertising</span><span class="rd">Commercially neutral guidance on curated marketplaces, inventory, data, transparency, fees and supply-side value.</span></span><span class="tag t-doc">Industry guide</span></a>
+<a class="res" href="https://www.warc.com/en/article/pitch-smart-a-study-by-mediasense-7b4c212ae8a846a6871e0815cbdd199c" target="_blank" rel="noopener noreferrer"><span><span class="rn">WARC · Pitch Smart: Media Agency Pitch Practices</span><span class="rd">Research on media-agency pitches, commercial evaluation, transparency and client/agency decision criteria; some access may be paid.</span></span><span class="tag t-doc">Research / may be paid</span></a><p class="source-note">Gunakan sebagai bahan kerangka, bukan pengganti rate cards, kontrak atau prosedur procurement milik perusahaan. WFA tools dan WARC research dapat membatasi akses.</p></div>
   </div>
   <h3 class="fam-h">D. Campaign &amp; Ad Operations</h3>
   <h3 class="track-h" id="track-adops">9. Ad Operations / Digital Campaign Operations</h3>
@@ -3064,14 +3279,21 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Discrepancy report + billing reconciliation</li>
       <li><b>Capstone:</b> Simulasi technical campaign operation yang lolos pre-launch QA: trafficking sheet, tagging confirmation, QA record, go-live confirmation, issue log.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Campaign Manager 360 Certification (Skillshop)</span><span class="rd">CM360 certification individual — kunci jalur ini.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://tagmanager.google.com" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager</span><span class="rd">Tool utama tagging &amp; data layer (butuh akun Google).</span></span><span class="tag t-tool">Tool gratis</span></a>
-              <a class="res" href="https://support.google.com/google-ads" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads / Meta / TikTok / DV360 help centers</span><span class="rd">Dokumentasi operasional lintas platform — Ad Ops harus lintas kanal.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-                  <a class="res" href="https://integralads.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">IAS (Integral Ad Science)</span><span class="rd">Ad verification, viewability, invalid traffic.</span></span><span class="tag t-tool">Tool gratis</span></a>
-              <a class="res" href="https://doubleverify.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">DoubleVerify</span><span class="rd">Verification &amp; media quality — sering disebut di job description Ad Ops.</span></span><span class="tag t-tool">Tool gratis</span></a>
-  <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">IAB Tech Lab standards (VAST, ads.txt, OM SDK) · MRC verification &amp; measurement · Job scope Ad Ops Big Five (trafficking, pixels, GA4 tagging, IAS/DoubleVerify, discrepancy).</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Ad Operations / Campaign Delivery</h3><a class="res" href="https://support.google.com/campaignmanager/answer/3419088?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · Trafficking workflow</span><span class="rd">Create campaigns, placements, ads, creatives and send placement tags.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/campaignmanager/answer/2829205?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · Create and manage placements</span><span class="rd">Placement structure, packages, roadblocks, site inventory, schedule and pricing.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/campaignmanager/answer/2826636?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · Placement tags</span><span class="rd">Ad-tag mechanics, supported types, click trackers, tag generation and publisher handoff.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/campaignmanager/answer/2834023?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · Create ads</span><span class="rd">Ad properties, creative assignment, serving readiness and placement assignment.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/campaignmanager/answer/4483813?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · Display creative specifications</span><span class="rd">Dimensions, asset matching, SSL, HTML5 and backup images.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/campaignmanager/answer/3027419?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · Floodlight and conversions</span><span class="rd">Floodlight configuration, activity, tag implementation and shared GMP measurement.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/campaignmanager/answer/2823400?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google CM360 · How Floodlight counts conversions</span><span class="rd">Conversion windows, Every / One per user / One per session counting methods.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/tagmanager/answer/6107056?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager · Preview and debug</span><span class="rd">Use Tag Assistant to inspect tags, firing order and data processed.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/tagmanager/answer/14842769?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Tag Manager · Verify and publish tags</span><span class="rd">Pre-publication verification, versioning and publishing workflow.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://support.google.com/analytics/answer/10917952?hl=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics · URL builders and UTM</span><span class="rd">UTM source, medium, campaign, content and naming consistency.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://iabtechlab.com/ads-txt/" target="_blank" rel="noopener noreferrer"><span><span class="rn">IAB Tech Lab · ads.txt and supply validation</span><span class="rd">Publisher authorisation and supply transparency: ads.txt, app-ads.txt, sellers.json.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.mediascience.org/standards-and-guidelines/" target="_blank" rel="noopener noreferrer"><span><span class="rn">MRC · Standards and guidelines</span><span class="rd">Industry measurement and verification standards.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.integralads.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Integral Ad Science · Verification</span><span class="rd">Brand safety, viewability and invalid-traffic measurement overview; commercial platform.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://doubleverify.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">DoubleVerify · Media quality and measurement</span><span class="rd">Independent media-quality, brand-safety and verification capabilities; commercial platform.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Certification catalogue</span><span class="rd">Search for CM360 training and check current certification availability.</span></span><span class="tag t-free">Free learning</span></a><p class="source-note">Mulai dari Google CM360 dan GTM untuk alur operasional. MRC/IAB dan vendor verification adalah referensi industri, bukan pengganti spesifikasi kontrak atau platform yang digunakan.</p></div>
   </div>
   <h3 class="fam-h">E. Analytics &amp; Digital Technology</h3>
   <h3 class="track-h" id="track-analytics">10. Media Analytics / Marketing Science</h3>
@@ -3214,7 +3436,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Insight &amp; optimization recommendation memo</li>
       <li><b>Capstone:</b> Analisis yang menjawab business question: multi-channel dashboard, data quality audit, diagnostic memo, dan optimization recommendation.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Certification (Skillshop)</span><span class="rd">Sertifikasi GA resmi, gratis.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://support.google.com/analytics/answer/6367342" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Demo Account</span><span class="rd">Data demonstrasi resmi Google Merchandise Store untuk latihan analisis.</span></span><span class="tag t-doc">Gratis · tanpa sertifikat</span></a>
               <a class="res" href="https://www.kaggle.com/learn/intro-to-sql" target="_blank" rel="noopener noreferrer"><span><span class="rn">Kaggle Learn · Intro to SQL</span><span class="rd">SQL dasar gratis dengan sertifikat penyelesaian.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
@@ -3364,7 +3586,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Organic visibility report + GEO/AEO baseline</li>
       <li><b>Capstone:</b> Website audit end-to-end: technical SEO report, keyword/intent map, content brief, backlink assessment, organic dashboard, dan AI-search visibility baseline.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google SEO Starter Guide</span><span class="rd">Fondasi resmi Google.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google · AI features and your website</span><span class="rd">Posisi resmi Google soal AI Overviews &amp; AI Mode.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Search Console</span><span class="rd">Tool inti measurement organic.</span></span><span class="tag t-tool">Tool gratis</span></a>
@@ -3513,7 +3735,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>QA checklist + measurement plan</li>
       <li><b>Capstone:</b> Rancang lifecycle marketing system dari acquisition sampai reactivation: lifecycle map, segment logic, automation workflow, email sequence, QA checklist.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Email Marketing Certification</span><span class="rd">Course gratis + sertifikat, ada practical exercise.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Inbound Certification</span><span class="rd">Buyer journey, nurturing, automation basics.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Trailhead · Marketing Cloud Engagement</span><span class="rd">Jalur belajar resmi SFMC (badge, bukan sertifikasi profesional).</span></span><span class="tag t-free">Gratis · badge</span></a>
@@ -3676,12 +3898,9 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Performance report + learning log</li>
       <li><b>Capstone:</b> Integrated content strategy &amp; community activation plan: content system, editorial calendar, content brief, storyboarding, short-form assets, performance report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Content &amp; Creative Design Certification</span><span class="rd">Content &amp; Creative Design certification via portal LinkedIn Marketing.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Creative Planning / Production / Iteration</span><span class="rd">Learning path creative dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.purwadhika.com/skill-accelerator/certified-advanced-digital-content-specialist-with-p3i" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika × P3I · Certified Advanced Digital Content Specialist</span><span class="rd">Benchmark kurikulum (7 sesi, berbayar): editorial system, insight mining, storytelling, content engine, distribution &amp; measurement.</span></span><span class="tag t-prog">Pendalaman</span></a>
-    <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope WPP Social &amp; Community / Content Planning · Platform content policies &amp; brand safety guidelines. Catatan: skill produksi (shooting, editing, audio, lighting) butuh praktik terpisah di luar silabus benchmark.</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Content Strategy</h3><a class="res" href="https://training.marketing.linkedin.com/page/certifications" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Content &amp; Creative Design</span><span class="rd">Official certification catalogue; check assessment eligibility and availability.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.tiktokacademy.com/student/catalog/list?category_ids=38329-creative-guidance" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Creative guidance</span><span class="rd">Official learning catalogue for creative planning, production and iteration.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.purwadhika.com/skill-accelerator/certified-advanced-digital-content-specialist-with-p3i" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika × P3I · Advanced Digital Content Specialist</span><span class="rd">Paid benchmark programme covering editorial systems, insight mining, storytelling, distribution and measurement.</span></span><span class="tag t-paid">Paid benchmark</span></a><p class="source-note">Cek enrolment, biaya, eligibility dan jenis credential langsung pada halaman provider.</p></div>
   </div>
   <h3 class="track-h" id="track-kol">14. KOL / KOC / Influencer &amp; Creator Partnerships</h3>
   <div class="track-box" data-track-box="kol">
@@ -3849,12 +4068,9 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Campaign tracking &amp; report</li>
       <li><b>Capstone:</b> Creator campaign plan dari objective sampai evaluation: shortlist, scoring matrix, brief, usage-rights checklist, tracking &amp; report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Creative Planning</span><span class="rd">Achievement path untuk creative planning.</span></span><span class="tag t-free">Gratis · badge</span></a>
-              <a class="res" href="https://www.facebookblueprint.com/student/catalog" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Partnership ads learning</span><span class="rd">Cari materi partnership/creator ads di katalog resmi.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-                  <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Katalog learning path</span><span class="rd">Katalog resmi path dengan achievement, termasuk creative planning/production/iteration.</span></span><span class="tag t-free">Gratis · badge</span></a>
-  <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope WPP Executive KOL, Publicis Senior Creator Partnerships, Dentsu KOL Specialist · Platform advertising disclosure policies.</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Creator &amp; Influencer Partnerships</h3><a class="res" href="https://www.tiktokacademy.com/student/activity/2638309-find-and-partner-with-creators" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Find and partner with creators</span><span class="rd">Official short learning activity about creator discovery and partnership workflows.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.tiktokacademy.com/student/catalog/list?category_ids=38329-creative-guidance" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Creative guidance</span><span class="rd">Official learning catalogue for creative planning, production and creator collaboration.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.facebookblueprint.com/student/catalog/list?locale=en" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Learning catalogue</span><span class="rd">Official Meta learning catalogue; search for partnership ads and creator collaboration material.</span></span><span class="tag t-doc">Dokumentasi</span></a><p class="source-note">Cek enrolment, biaya, eligibility dan jenis credential langsung pada halaman provider.</p></div>
   </div>
   <h3 class="track-h" id="track-affiliate">15. Affiliate &amp; Social Commerce Partnerships</h3>
   <div class="track-box" data-track-box="affiliate">
@@ -4022,11 +4238,10 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Reconciliation report + optimization plan</li>
       <li><b>Capstone:</b> Affiliate program plan: partner shortlist, commission model, tracking plan, reconciliation report, dan partner growth plan.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Shop · Affiliate (dokumentasi resmi)</span><span class="rd">Ecosystem Shop/Tokopedia &amp; ads documentation.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-              <a class="res" href="https://iklan.shopee.co.id/learn/faq/571/19" target="_blank" rel="noopener noreferrer"><span><span class="rn">Shopee Affiliate / Seller Centre learning</span><span class="rd">Dokumentasi resmi Shopee Ads &amp; affiliate ecosystem.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-    <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Disclosure &amp; commercial governance (regulasi endorsement) · Attribution &amp; tracking standards dari platform yang dipilih — pilih platform berdasarkan market &amp; klien, bukan satu network sebagai representasi pasar.</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Affiliate &amp; Performance Partnerships</h3><a class="res" href="https://www.iabaustralia.com.au/online-courses/iab-australia-affiliate-marketing-essentials-training/" target="_blank" rel="noopener noreferrer"><span><span class="rn">IAB Australia · Affiliate &amp; Partnership Marketing Essentials</span><span class="rd">Free course with six chapters, 13 lessons and about 63 minutes of video on strategy, partners, tracking, data and privacy.</span></span><span class="tag t-free">Free course</span></a>
+<a class="res" href="https://help.shopee.co.id/portal/4/article/72053" target="_blank" rel="noopener noreferrer"><span><span class="rn">Shopee Affiliate Program · Official overview</span><span class="rd">Official Indonesia guide to affiliate links, content formats, Shopee Video/Live and commission basics.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://help.shopee.co.id/portal/10/article/147677" target="_blank" rel="noopener noreferrer"><span><span class="rn">Shopee Affiliate · Current commission scheme</span><span class="rd">Official help article on commission structures and eligibility.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://help.shopee.co.id/portal/4/article/72050" target="_blank" rel="noopener noreferrer"><span><span class="rn">Shopee Affiliate · Registration guide</span><span class="rd">Official Indonesia registration steps and approval process.</span></span><span class="tag t-doc">Dokumentasi</span></a><p class="source-note">Cek enrolment, biaya, eligibility dan jenis credential langsung pada halaman provider.</p></div>
   </div>
   <h3 class="track-h" id="track-community">16. Community Management &amp; Advocacy</h3>
   <div class="track-box" data-track-box="community">
@@ -4194,15 +4409,16 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Measurement framework + report</li>
       <li><b>Capstone:</b> Community playbook: community strategy &amp; mapping, response bank, moderation guidelines, activation program, crisis escalation flow, measurement report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
-              <a class="res" href="https://www.dentsu.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Dentsu Social · Community Management (referensi layanan)</span><span class="rd">Referensi pemisahan Community Engagement vs Community Management.</span></span><span class="tag t-off">Sumber</span></a>
-                      <a class="res" href="https://www.facebook.com/business/help" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Business Help Center</span><span class="rd">Pusat bantuan Business Suite, page, dan tools komunitas Meta.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-                <a class="res" href="https://www.tiktok.com/safety/id-ID/policies-and-engagement/overview?ln=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok · Community Guidelines (ID)</span><span class="rd">Kebijakan komunitas &amp; engagement TikTok versi Indonesia.</span></span><span class="tag t-doc">Dokumentasi</span></a>
-                  <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Katalog learning path</span><span class="rd">Katalog resmi path dengan achievement (termasuk creative).</span></span><span class="tag t-free">Gratis · badge</span></a>
-  <div class="tier-label">Tier 2 · Framework & standar</div><p style="color:var(--ink2);font-size:13px">Job scope WPP Social Media &amp; Community Manager · Platform policies &amp; brand safety guidelines.</p>
-    </div>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar · Organic Social &amp; Community</h3><a class="res" href="https://www.facebookblueprint.com/student/path/196033-establish-online-community" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Define and establish a community</span><span class="rd">10-minute beginner course on mission, goals, success criteria and guidelines; official page lists Credential for Completion.</span></span><span class="tag t-free">Credential for Completion</span></a>
+<a class="res" href="https://www.facebookblueprint.com/student/path/196034" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Develop community strategies and processes</span><span class="rd">20-minute course on audience personas, branding, workflows, growth and partnerships; page lists Credential for Completion.</span></span><span class="tag t-free">Credential for Completion</span></a>
+<a class="res" href="https://www.facebookblueprint.com/student/path/196036-strategic-content-for-your-community" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Make strategic content decisions</span><span class="rd">15-minute course on community content, trends, polls and audience insights; page lists Credential for Completion.</span></span><span class="tag t-free">Credential for Completion</span></a>
+<a class="res" href="https://www.facebookblueprint.com/student/path/196035-managing-online-communities-course" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Blueprint · Engage and moderate a community</span><span class="rd">20-minute course on onboarding, member connections, conflict management and moderation; page lists Credential for Completion.</span></span><span class="tag t-free">Credential for Completion</span></a>
+<a class="res" href="https://www.tiktok.com/safety/id-ID/policies-and-engagement/overview?ln=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok · Community Guidelines Indonesia</span><span class="rd">Official policy reference for moderation and platform safety.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://social-media-management-help.brandwatch.com/en/collections/19777485-listen" target="_blank" rel="noopener noreferrer"><span><span class="rn">Brandwatch · Listen Help Center</span><span class="rd">Documentation for queries, mentions, sentiment, topic analysis and reporting; Brandwatch is a paid platform.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://www.iab.com/guidelines/mrc-social-media-measurement-guidelines/" target="_blank" rel="noopener noreferrer"><span><span class="rn">IAB / MRC · Social Media Measurement Guidelines</span><span class="rd">Industry guidance for social reach, engagement, listening and measurement.</span></span><span class="tag t-doc">Dokumentasi</span></a>
+<a class="res" href="https://training.marketing.linkedin.com/page/course-library-es" target="_blank" rel="noopener noreferrer"><span><span class="rn">LinkedIn Marketing Academy · Organic content courses</span><span class="rd">Official course library with organic-content and Page-insights learning.</span></span><span class="tag t-doc">Dokumentasi</span></a><p class="source-note">Cek enrolment, biaya, eligibility dan jenis credential langsung pada halaman provider.</p></div>
   </div>
-  <div class="box global-res"><h3>Sumber lintas jalur (Tier 2 · standar & benchmark)</h3>
+  <details class="fold global-resource-fold" id="globalResourceFold"><summary><span class="slabel">Tambahan</span><span class="stitle">Sumber lintas jalur &amp; elective</span><span class="fold-chev" aria-hidden="true">+</span></summary><div class="fold-body"><div class="box global-res"><h3>Sumber lintas jalur (Tier 2 · standar & benchmark)</h3>
             <a class="res" href="https://iabtechlab.com/standards/" target="_blank" rel="noopener noreferrer"><span><span class="rn">IAB Tech Lab · Standards</span><span class="rd">OpenRTB, ads.txt, sellers.json, VAST, OM SDK — standar teknis industri.</span></span><span class="tag t-doc">Dokumentasi</span></a>
             <a class="res" href="https://www.mediaratingcouncil.org/" target="_blank" rel="noopener noreferrer"><span><span class="rn">MRC · Measurement Standards</span><span class="rd">Standar pengukuran: IVT, viewability, retail media, auction transparency.</span></span><span class="tag t-doc">Dokumentasi</span></a>
             <a class="res" href="https://www.warc.com/" target="_blank" rel="noopener noreferrer"><span><span class="rn">WARC</span><span class="rd">Benchmark efektivitas campaign &amp; case studies.</span></span><span class="tag t-off">Sumber</span></a>
@@ -4210,7 +4426,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     <div class="tier-label">Catatan elective</div>
     <p style="color:var(--ink2);font-size:13px"><b>17. CRO / Growth / Experience Optimization</b> — Elective lanjutan: funnel diagnosis, behavioral analytics, experiment design, A/B testing, personalization. Blueprint sudah disusun; kurikulum lengkap menyusul.</p>
     <p style="color:var(--ink2);font-size:13px"><b>18. Traditional Media Planning &amp; Buying</b> — Elective lanjutan: TV, radio, OOH/DOOH, print, cinema, audience measurement, GRP/TRP, rate negotiation. Blueprint sudah disusun; kurikulum lengkap menyusul.</p>
-  </div>
+  </div></div></details>
 </section>
 
 <details class="fold" id="sec-trackb">
@@ -4411,11 +4627,14 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
 
 </main>
 
+<script src="./fullstack-guides.js"></script>
+<script src="./paid-social-guides.js"></script>
 <script>
 (function(){
   var STATE_KEY = 'dpa.v12';
   var PREV_KEY = 'dpa.v11';
   var THEME_KEY = 'dpa.theme.v11';
+  var rolePickerOpen = true;
 
   var TRACK_NAMES = {
     fullstack: 'Full-Stack Digital Marketing & Performance',
@@ -4478,12 +4697,14 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     if (current && typeof current === 'object' && !Array.isArray(current)) {
       state.role = TRACK_NAMES[current.role] ? current.role : 'fullstack';
       state.completed = (current.completed && typeof current.completed === 'object' && !Array.isArray(current.completed)) ? current.completed : {};
+      rolePickerOpen = false;
     } else {
       var prev = JSON.parse(localStorage.getItem(PREV_KEY) || 'null');
       if (prev && typeof prev === 'object' && !Array.isArray(prev)) {
         var mapped = LEGACY_ROLE_MAP[prev.role];
         if (mapped && TRACK_NAMES[mapped]) {
           state.role = mapped;
+          rolePickerOpen = false;
           window.setTimeout(function(){ toast('Struktur roadmap baru: v11. Progres direset, jalur lu dipindah otomatis.'); }, 1200);
         }
       }
@@ -4496,7 +4717,140 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {}
   }
 
-  function visibleBoxes(){
+  var CHAPTER_SOURCE_MAP = {
+cf:[[0,1],[6,0],[1,2],[3,1],[4,5],[6,5]],
+fullstack:[[0,4],[10,4,1],[5,13,4],[4,0,3],[14,1,2,3],[9,10,1],[5,6,7,8,0],[12,13,5],[11,1],[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]],
+connection:[[0,1],[0,3],[0,2],[0,2],[0,1],[1,3],[0,1,2],[1,2],[0,2],[0,1,2,3]],
+media:[[0],[0],[0],[0,1],[0,1,2],[1],[0,1],[0,2],[0,2],[0,1,2]],
+paidsearch:[[0],[0,1],[0],[0],[0],[0],[0,2],[0,2],[0,1,2],[0,1,2]],
+paidsocial:[[0,5,17],[6,0,13,1],[7,12,0],[5,13,17],[9,14],[8,18,13],[10,15,14,12],[16,17,18],[11,9,14],[0,2,3,4,13]],
+programmatic:[[0,1],[0,1],[0,1],[0,1],[1],[1],[1,3],[1,0],[0,1,2],[1],[0,1,3],[0,1,2,3]],
+retail:[[5],[0,5],[1,2,3,5],[1,2],[0,2],[2,5],[3],[0,1,2,3],[4,5],[0,1,2,3,4,5]],
+investment:[[0,2],[2,0],[1,3],[1,2],[1,0,3],[1],[0,1,2],[1],[0,1,2,3],[0,1,2,3]],
+adops:[[0,2,10],[0,1],[3,4],[2,5,7,9],[0,1,3,5,6],[2,4,7,8],[0,2,10,12,13],[5,6,11,12,13],[0,1,11,12],[0,1,2,3,4,5,6,7,8,9,10,11,12,13]],
+analytics:[[0,1],[1,2,3],[0,1,4],[2,3],[4],[0,1,5],[0,1],[0,2],[0,4],[0,1,2,3,4,5]],
+seo:[[0,1],[0,2,3],[0,2],[0,2],[0,1],[3,4],[2],[0,2,4],[0,1],[0,1,2,3,4]],
+crm:[[0,1],[2,3],[1,2],[1,2],[0,1],[2,3],[0,3],[1,2],[0,3],[0,1,2,3,4]],
+content:[[0,1],[0,1],[2],[1],[0,1],[1,2],[1],[1],[2],[0,1,2],[0,1,2]],
+kol:[[0,2],[0,1],[0],[0,1],[2,0],[0,1],[1],[0],[0,2],[1,0],[0,2],[0,1,2]],
+affiliate:[[0,1],[0,1,2],[0,1],[0,1],[2,3],[0,1,3],[2,3],[0,2,3],[1,2,3],[0,1,2],[0,1,2,3],[0,1,2,3]],
+community:[[0,1,2],[1,2],[0,2],[5,6],[3,4],[2,0],[3,5],[1,3],[2,0],[3,5],[6,7],[0,1,2,3,4,5,6,7]]
+};
+
+var TRACK_GUIDE_CONTEXT={
+cf:{purpose:"Fondasi bisnis, brief, consumer, marketing mathematics, measurement dan workflow profesional.",example:"Pilih satu brand consumer Indonesia; gunakan data sintetis bila data asli tidak tersedia dan beri label simulasi.",worksheet:"Worksheet: konsep, definisi, input/rumus, bukti, keputusan dan risiko."},
+fullstack:{purpose:"Hubungkan business objective → consumer → journey → channel → activation → measurement → optimization.",example:"Ikuti satu brand dari masalah bisnis sampai rekomendasi channel dan KPI; tulis asumsi setiap keputusan.",worksheet:"Decision log: objective, audience insight, channel choice, KPI, optimization decision."},
+connection:{purpose:"Ubah business challenge menjadi audience insight, communication strategy, journey, touchpoint, message architecture dan learning agenda.",example:"Rancang bagaimana komunikasi mengubah pemahaman, persepsi atau tindakan audience pada beberapa momen journey.",worksheet:"Strategy sheet: challenge, audience, tension, proposition, journey, channel role, message, KPI dan evidence."},
+media:{purpose:"Turunkan brief menjadi audience, media objective, channel role, budget mix, reach/frequency, flighting dan evaluation.",example:"Bandingkan dua media mix dengan budget hipotetis dan jelaskan trade-off reach, cost, audience quality dan objective.",worksheet:"Media plan: objective, audience, channel, budget, timing, forecast, assumption dan source."},
+paidsearch:{purpose:"Hubungkan search intent, keyword structure, ad relevance, bidding, tracking dan optimization.",example:"Kelompokkan keyword produk menurut intent dan tunjukkan bagaimana negative keywords mengurangi traffic tidak relevan.",worksheet:"Keyword map: query, intent, match type, ad group, negative keyword, landing page, KPI dan alasan."},
+paidsocial:{purpose:"Hubungkan objective, audience, creative, auction, delivery, tracking dan eksperimen paid social.",example:"Rancang campaign Meta/TikTok. Pisahkan audience hypothesis, creative angle dan measurement.",worksheet:"Campaign blueprint: objective, audience, creative matrix, placements, budget, event, UTM, KPI dan test plan."},
+programmatic:{purpose:"Pahami supply chain, DSP/SSP, auction, inventory, deals, identity/privacy, pacing, verification dan measurement.",example:"Bandingkan open auction, PMP dan programmatic guaranteed dari sisi kontrol, harga, supply quality dan risiko.",worksheet:"DSP blueprint: inventory, deal type, audience/data, bid, pacing, frequency, verification dan measurement."},
+retail:{purpose:"Hubungkan shopper journey, retailer media network, onsite/offsite, product feed, audience dan closed-loop measurement.",example:"Pilih kategori marketplace Indonesia; petakan sponsored search, display, social/video dan digital shelf.",worksheet:"Retail media plan: retailer, placement, product readiness, shopper segment, bid, sales metric dan incrementality."},
+investment:{purpose:"Nilai inventory, media owner, rate card, proposal, negotiation, booking, delivery, invoice dan investment value.",example:"Bandingkan dua proposal vendor; pisahkan price, delivery guarantee, audience value, added value dan contract risk.",worksheet:"Vendor comparison: cost, units, rate, audience, guarantee, bonus, makegood, terms, risk dan recommendation."},
+adops:{purpose:"Jaga akurasi trafficking, creative spec, tags, setup, pre-launch QA, monitoring, discrepancy dan billing control.",example:"Simulasikan display campaign dengan satu creative, dua placement, click/conversion tracking dan satu discrepancy. Labeli data synthetic.",worksheet:"Paket operasional: trafficking sheet, creative spec, tag map, QA log, go-live record, monitoring log dan reconciliation."},
+analytics:{purpose:"Ubah business question menjadi KPI framework, data model, analysis, experiment, insight dan keputusan.",example:"Gunakan synthetic campaign data untuk menemukan perubahan performa, memecahnya per segmen/channel dan menguji kemungkinan penyebab.",worksheet:"Analysis notebook: question, dataset, definitions, checks, method, result, limitation dan recommendation."},
+seo:{purpose:"Hubungkan search intent, architecture, crawl/index, technical health, content, authority, reporting dan AI search visibility.",example:"Audit satu situs: crawl/indexability, intent match, structured data, performance dan prioritas perbaikan.",worksheet:"Audit log: URL, issue, evidence, severity, impact, recommendation, owner dan validation method."},
+crm:{purpose:"Hubungkan customer data, segmentation, journey, triggers, channel, automation, deliverability, retention dan measurement.",example:"Rancang lifecycle pelanggan baru dari signup hingga repeat purchase dengan suppression, consent, branching dan exit condition.",worksheet:"Lifecycle map: stage, trigger, segment, channel, content, timing, suppression, KPI dan experiment."},
+content:{purpose:"Hubungkan audience/culture, brand voice, editorial architecture, insight, storytelling, distribution dan measurement.",example:"Buat content pillar lalu adaptasikan satu ide ke long-form dan short-form tanpa kehilangan brand POV.",worksheet:"Content brief: audience, insight, objective, pillar, key message, format, CTA, distribution, KPI dan learning."},
+kol:{purpose:"Hubungkan creator ecosystem, discovery, audience fit, vetting, briefing, rights, execution, amplification dan measurement.",example:"Buat shortlist creator; nilai audience fit, content quality, engagement authenticity, usage rights, price dan risk.",worksheet:"Creator scorecard: profile, audience fit, quality, performance, risk, fee, rights, deliverables dan recommendation."},
+affiliate:{purpose:"Hubungkan advertiser, network, publisher, creator affiliate, commission, tracking, fraud control dan partner growth.",example:"Rancang program affiliate produk bermargin terbatas; hitung commission ceiling, contribution margin, reversal dan incentive.",worksheet:"Affiliate model: partner type, commission basis, tracking, attribution, validation, clawback, reconciliation dan growth plan."},
+community:{purpose:"Bangun komunitas dengan purpose, audience map, listening, engagement, moderation, customer care, advocacy dan measurement.",example:"Buat guidelines dan response matrix untuk pertanyaan normal, complaint, misinformation dan escalation.",worksheet:"Community playbook: purpose, member segment, programming, moderation, response SLA, escalation, advocacy dan health metrics."}
+};
+var CONNECTION_GUIDES=[{"concept":"Communication planning dimulai dengan membedakan business problem dari communication problem. Business problem adalah outcome komersial yang perlu berubah; communication problem adalah hambatan pemahaman, persepsi, preference atau perilaku audience yang dapat dipengaruhi komunikasi. Objective harus punya audience, perubahan yang diinginkan, baseline dan periode.","example":"Penjualan turun belum otomatis berarti awareness rendah. Penyebabnya bisa distribution, price, availability, product experience atau message. Planner harus mengisolasi communication barrier yang benar-benar bisa diintervensi.","steps":["Petakan business outcome, gejala, bukti dan faktor di luar kendali komunikasi.","Tulis audience-specific communication problem: siapa yang perlu berubah, dari kondisi apa ke kondisi apa, dan mengapa belum terjadi.","Turunkan success criteria: baseline, desired change, period, measurement source dan constraint."],"practice":"Tulis ulang brief menjadi satu business problem, satu communication challenge, satu objective dan tiga pertanyaan riset yang masih harus dijawab.","checks":["Apa bukti bahwa hambatan utamanya memang komunikasi?","Perubahan audience apa yang realistis dipengaruhi dalam timeframe campaign?","Metrik apa yang membuktikan perubahan tersebut?"]},{"concept":"Audience research menggabungkan data primer (interview, survey, observation) dan sekunder (sales, CRM, search, social listening, syndicated research). Segmentasi harus menjelaskan perbedaan kebutuhan, perilaku, motivasi dan decision criteria yang mengubah strategi. Demografi hanya deskripsi, bukan otomatis insight.","example":"Dua audience usia sama dapat punya tension berbeda: satu ingin hasil cepat dan praktis; yang lain ingin kepastian, keamanan dan bukti. Mereka mungkin memerlukan proposition serta touchpoint berbeda.","steps":["Tentukan research question sebelum mengumpulkan data agar metode dan sample sesuai keputusan yang ingin dibuat.","Triangulasikan setidaknya dua sumber: misalnya search/social listening dengan interview atau review customer.","Buat segmen berdasarkan needs dan behavior; tulis trigger, barrier, decision criteria, media habits serta tingkat evidence."],"practice":"Buat dua audience profile dengan needs, tension, behavior, category entry point, barrier dan bukti yang mendukung setiap insight.","checks":["Mengapa segmen ini lebih berguna daripada kelompok umur/gender?","Data mana fakta teramati dan mana interpretasi planner?","Apa keterbatasan sample atau sumber riset?"]},{"concept":"Cultural insight bukan daftar tren atau kalimat yang terdengar pintar. Insight menghubungkan perubahan konteks budaya, perilaku nyata, kebutuhan manusia dan ketegangan yang relevan dengan kategori. Human tension biasanya memuat dua kebutuhan yang bertabrakan; insight harus dapat mengarahkan keputusan komunikasi.","example":"'Gen Z suka konten autentik' terlalu umum. Tension yang lebih berguna mungkin: ingin mengekspresikan diri, tetapi takut dinilai berlebihan. Planner tetap harus membuktikan relevansinya pada kategori dan audience target.","steps":["Kumpulkan signals dari percakapan, search, creator, komunitas, berita, riset dan observasi kategori.","Pisahkan signal, trend dan cultural shift; periksa skala, momentum, durasi dan relevansinya.","Rumuskan tension sebagai 'audience ingin X, tetapi menghadapi Y karena Z'; uji dengan evidence dan cari implikasi komunikasi."],"practice":"Tulis satu cultural insight, evidence yang mendukung, evidence yang berpotensi membantahnya dan implikasinya untuk brand.","checks":["Apa yang membuat ini insight, bukan sekadar observasi tren?","Bukti apa yang bisa membantah insight tersebut?","Apa peran brand yang kredibel tanpa memaksakan diri masuk ke budaya?"]},{"concept":"Positioning menentukan ruang mental yang ingin dimiliki brand dibanding alternatif. Proposition menyatakan nilai utama bagi audience; proof points memberi alasan untuk percaya; objection menunjukkan alasan audience mungkin ragu. Communication strategy menjelaskan bagaimana pesan mengatasi barrier dan menggerakkan audience.","example":"'Brand terbaik dan inovatif' tidak menunjukkan audience, pembanding atau bukti. Proposition yang kuat mengikat kebutuhan spesifik, benefit dan alasan untuk percaya.","steps":["Petakan category, competitor alternatives, audience need dan kemampuan brand yang benar-benar dapat dibuktikan.","Tulis positioning statement dan proposition. Lengkapi differentiator, reason-to-believe, proof serta objection.","Terjemahkan ke communication task: apa yang harus diketahui, dirasakan, dipercaya atau dilakukan audience."],"practice":"Buat positioning statement, single-minded proposition, tiga proof points, dua objection dan message response untuk satu brand latihan.","checks":["Apakah pembeda berarti bagi audience atau hanya klaim internal brand?","Dapatkah proposition dibuktikan oleh produk dan pengalaman?","Apa alternatif yang akan dipilih audience bila brand tidak dipilih?"]},{"concept":"Consumer journey menggambarkan rangkaian situasi, pertanyaan dan keputusan audience; tidak selalu linear. Touchpoint adalah kesempatan brand membantu audience pada momen tertentu. Touchpoint audit menilai keberadaan, kualitas, konsistensi, friksi dan peran tiap interaksi.","example":"Journey personal care dapat dimulai dari munculnya kebutuhan, discovery lewat search/creator, evaluasi review/ingredient, purchase di store/marketplace, penggunaan, lalu repeat atau rekomendasi. Urutan harus mengikuti evidence kategori.","steps":["Tentukan audience dan skenario yang dipetakan, bukan membuat satu journey generik untuk semua orang.","Untuk setiap stage, tulis action, question, emotion, barrier, influence, touchpoint dan evidence.","Nilai gap: touchpoint hilang, pesan bertentangan, friction, serta moment yang paling menentukan pilihan."],"practice":"Buat journey map lima tahap dan touchpoint audit. Prioritaskan tiga momen berdasarkan audience impact, business relevance dan kemampuan brand bertindak.","checks":["Apakah journey berasal dari perilaku nyata atau asumsi tim?","Touchpoint mana yang paling menentukan keputusan dan mengapa?","Apa yang harus berubah dalam pengalaman, bukan hanya pesannya?"]},{"concept":"Paid, Owned, Earned dan Shared adalah kerangka untuk memahami kontrol serta peran distribusi. Paid membeli akses/distribusi; Owned adalah ruang yang dikelola brand; Earned muncul dari pihak lain; Shared berkembang melalui percakapan dan distribusi sosial. Tidak semua campaign harus memakai semua jenis channel.","example":"Paid video dapat menciptakan exposure; owned landing page menjelaskan proposition dan conversion path; earned review memberi bukti pihak ketiga; shared community memicu percakapan. Tiap channel punya job yang berbeda.","steps":["Mulai dari objective dan perubahan audience yang diperlukan, bukan daftar platform populer.","Nilai channel berdasarkan reach, credibility, depth, timing, control, cost, audience context dan role dalam journey.","Susun channel-role matrix: objective, audience, message, format, timing, KPI, dependency dan owner."],"practice":"Buat channel role matrix minimal empat touchpoint. Jelaskan mengapa tiap channel dipilih dan apa yang tidak dapat dilakukan channel tersebut.","checks":["Apa job unik masing-masing channel?","Apa risiko bila semua channel membawa pesan dan CTA yang sama?","Apakah kombinasi channel membentuk perjalanan yang koheren?"]},{"concept":"Communication architecture menyusun proposition menjadi hierarchy pesan: core message, supporting message, proof, objection handling dan CTA. Konsistensi menjaga inti strategi; adaptasi menyesuaikan format, konteks, durasi dan perilaku platform tanpa mengubah janji brand.","example":"Video awareness mungkin hanya membawa satu benefit utama; landing page memberi detail dan proof; CRM memberi reminder atau CTA. Ketiganya harus berasal dari proposition yang sama.","steps":["Tentukan proposition tunggal dan barrier audience yang hendak diatasi.","Susun message hierarchy: core, supporting, proof, objection, tone dan CTA.","Buat message-by-channel/stage matrix; tandai bagian yang wajib konsisten dan elemen yang boleh diadaptasi."],"practice":"Buat message house dan contoh satu key message yang diadaptasi menjadi video, landing page dan CRM tanpa mengubah proposition.","checks":["Pesan apa yang wajib sama di semua touchpoint?","Apa yang harus berubah karena audience context atau format berbeda?","Bagaimana memastikan proof yang dipakai valid?"]},{"concept":"Creative brief adalah handoff yang membuat creative team paham problem, audience, insight, proposition, proof, mandatories, deliverables, channel context dan success criteria. Brief memberi arah tanpa mengunci solusi kreatif secara berlebihan.","example":"'Buat konten yang engaging' tidak cukup. Creative team perlu tahu perubahan audience yang dibutuhkan, proposition yang harus diingat, proof yang tersedia, constraint legal dan format yang diminta.","steps":["Tulis background, challenge, audience, insight, single-minded proposition, proof, mandatories dan tone.","Jelaskan channel roles, format/deliverable list, timing, dependencies dan measurement context.","Lakukan kick-off, cek pemahaman tim, catat decision owner, feedback, version dan approval status."],"practice":"Buat creative brief satu halaman dan handoff checklist untuk creative, media, account dan activation team.","checks":["Apa yang creative team harus pahami sebelum membuat ide?","Mana mandatories yang wajib dan mana ruang eksplorasi?","Bagaimana perubahan brief dicatat agar tidak merusak handoff?"]},{"concept":"Communication effectiveness menilai apakah komunikasi mengubah outcome yang direncanakan, bukan hanya jumlah exposure. Metrik bisa meliputi reach/quality, ad recall, message association, consideration, search lift, preference, action dan kontribusi bisnis. Measurement plan perlu membedakan exposure, response dan outcome.","example":"Reach tinggi belum membuktikan message landed. Gabungkan delivery data dengan recall/message association atau behavior signal, dan jelaskan batas attribution serta faktor eksternal.","steps":["Tulis learning question dan hypothesis sebelum campaign berjalan.","Pilih design yang feasible: brand lift, pre/post, holdout, survey, search signals, platform reporting atau triangulasi.","Tetapkan baseline, sample, period, data source, limitation dan keputusan yang akan diambil dari hasil."],"practice":"Buat learning agenda berisi tiga hypothesis, method, KPI, source, timing, limitation dan decision rule.","checks":["Apa bukti perubahan selain reach dan engagement?","Faktor luar apa yang dapat menjelaskan perubahan metrik?","Apa tindakan bila hasil test tidak mendukung hypothesis?"]},{"concept":"Capstone menguji kesinambungan business problem → audience insight → communication strategy → journey/touchpoints → message architecture → channel orchestration → measurement. Setiap keputusan harus punya alasan, evidence, trade-off dan indikator keberhasilan.","example":"Deck yang baik memungkinkan reviewer melacak setiap recommendation kembali ke insight/evidence, bukan menerima daftar channel karena populer.","steps":["Bangun kasus brand latihan dari brief, evidence, audience, market dan constraint yang jelas.","Susun insight, proposition, architecture, journey, channel-role matrix, creative brief dan measurement agenda.","Buat executive deck dan latih pembelaan keputusan: alternatif, risiko, opportunity cost, success criteria dan learning plan."],"practice":"Siapkan strategy deck 8–10 slide, source/evidence log, channel matrix, message framework, creative brief dan learning agenda.","checks":["Dapatkah setiap keputusan dijelaskan dengan bukti dan trade-off?","Apa yang akan diubah jika hypothesis utama salah?","Apakah rekomendasi feasible dengan budget, timing dan capability brand?"]}];
+var CF_GUIDE_NOTES=[
+["Business model menjelaskan bagaimana perusahaan menciptakan, mengirimkan dan menangkap nilai. Pisahkan revenue, COGS, gross profit, operating expense dan contribution margin. CAC adalah biaya akuisisi per pelanggan baru; LTV memperkirakan kontribusi ekonomi pelanggan sepanjang hubungan dengan periode dan basis margin konsisten.","Contoh sintetis: 1.000 unit × Rp100.000 = Rp100 juta revenue. COGS Rp60 juta menghasilkan gross profit Rp40 juta. Biaya akuisisi Rp10 juta untuk 200 pelanggan berarti CAC Rp50.000. Gross profit bukan net profit."],
+["Client brief adalah input yang perlu diklarifikasi. Pisahkan business context, gejala, masalah bisnis, objective, audience, scope, budget, timeline, constraint dan bukti. Problem framing mengubah permintaan kabur menjadi pertanyaan yang bisa diteliti.","'Butuh campaign awareness' belum cukup. Tanyakan awareness siapa, terhadap apa, di wilayah mana, dibanding baseline apa, dan apakah awareness memang hambatan utama menuju business outcome."],
+["Audience bukan sekadar umur atau gender. Segmentasi berguna mengelompokkan orang berdasarkan kebutuhan, motivasi, perilaku, nilai ekonomi dan konteks. Need menjelaskan apa yang dicari; tension adalah hambatan; insight menghubungkan observasi dengan alasan perilaku.","Banyak user menambah produk ke cart tetapi tidak checkout. Jangan langsung simpulkan harga mahal; cek ongkir, payment, trust, stok, urgency dan error checkout."],
+["Marketing mathematics mengubah budget dan delivery menjadi estimasi hasil. CTR=clicks/impressions; CPC=spend/clicks; CPM=spend/impressions×1.000; CVR=conversions/clicks; CPA=spend/conversions; ROAS=attributed revenue/ad spend; frequency=impressions/reach. ROAS bukan profit.","Data sintetis: spend Rp10 juta; 500.000 impressions; 5.000 clicks; 100 conversions; revenue Rp30 juta. CPM Rp20.000, CPC Rp2.000, CTR 1%, CVR 2%, CPA Rp100.000 dan ROAS 3,0x."],
+["Measurement dimulai dari keputusan, bukan dashboard. Bedakan business KPI, diagnostic metric dan guardrail. Attribution membagi kredit menurut aturan tertentu, bukan bukti kausalitas. Data quality mencakup event definition, duplicate firing, missing values, timezone, consent dan source consistency.","Untuk meningkatkan completed purchase, KPI bisa purchases/contribution revenue; add-to-cart dan checkout start adalah diagnostic metrics; refund rate dan margin bisa menjadi guardrails."],
+["Agency workflow adalah rangkaian handoff dan quality gate: brief → strategy → planning → approval → activation → QA → monitoring → reporting → learning. Setiap tahap butuh owner, input, output, deadline dan approval.","Sebelum launch, activation perlu brief final, approved creative, placement/tagging plan, landing URL, tracking spec, flight dates, target dan sign-off, bukan hanya pesan 'sudah siap'."]
+];
+var ADOPS_GUIDE_NOTES=[
+["Ad Ops menghubungkan media plan, ad platform/ad server, publisher dan tracking. Ad server mengatur ads/creatives/placements; DSP membeli inventory; publisher/SSP menyediakan supply; verification mengukur kualitas/risiko; analytics membaca perilaku/conversion.","Placement adalah slot/lokasi iklan; ad adalah unit penayangan; creative adalah asset yang dilihat audience; placement tag memanggil ad server. Keempatnya bukan istilah yang sama."],
+["Trafficking sheet menerjemahkan approved media plan menjadi instruksi operasional dan single source of truth untuk advertiser, publisher, placement, size, ad, creative, URL, tracking, targeting, flight, budget, owner, approval dan status.","Pola nama: BRAND_MARKET_OBJECTIVE_PLATFORM_FORMAT_AUDIENCE_FLIGHT_VERSION. Hindari nama ambigu seperti Campaign1-final-fix2."],
+["Creative specification memastikan asset diterima dan tayang benar. Periksa format, dimensi/aspect ratio, file size, duration, frame rate, audio, click URL, SSL, HTML5, fallback dan placement compatibility. Gunakan spec terkini per platform/publisher/ad server.","Creative 300×250 tidak otomatis cocok untuk placement 320×50. HTML5 perlu dicek parent dimension, backup image dan supported sizes."],
+["Tag dan tracker punya fungsi berbeda. Placement/ad tag memanggil ad server; click tracker mencatat klik; impression tracker mengukur ad; pixel/Floodlight merekam event/conversion; UTM memberi label campaign pada destination URL.","UTM bukan pixel. utm_source=meta dan utm_medium=paid_social mengklasifikasikan traffic; pixel/Floodlight merekam tindakan di situs."],
+["CM360 mengorganisasi delivery melalui advertiser/campaign, sites/placements, ads dan creatives. Placement menentukan lokasi penayangan dan menghasilkan tag; ad mengatur delivery; creative adalah asset. Floodlight mengukur activity/conversion dengan counting method dan conversion window.","Purchase dengan beberapa order dapat memakai Every; lead/signup mungkin One per user atau One per session sesuai definisi event bisnis."],
+["Pre-launch QA adalah quality gate. Periksa trafficking, creative rendering/spec, click/landing page, tracking, targeting, flight, budget, placement, consent/policy, publisher handoff dan approval. Upload sukses tidak otomatis berarti siap live.","Click URL salah dapat mengirim audience ke halaman keliru; event duplicate dapat membuat conversion terlihat lebih tinggi."],
+["Live monitoring membandingkan planned dan actual delivery. Pisahkan pacing problem dari tracking/creative problem. Pantau spend, impressions, clicks, conversions, CPM/CPC/CTR/CPA, placement delivery, rejection, viewability/IVT, frequency dan discrepancy.","Under-delivery bisa disebabkan placement belum aktif, creative rejected, targeting sempit, bid/budget, tag error atau inventory. Naikkan budget setelah akar masalah diketahui."],
+["Discrepancy muncul karena sistem berbeda menghitung event dengan definisi, timezone, cutoff, attribution window, deduplication, filtering dan latency berbeda. Bandingkan apples-to-apples.","Klik platform dan session analytics tidak selalu sama: click bisa tidak menjadi session karena halaman gagal dimuat, redirect, consent atau browser block."],
+["Billing reconciliation memastikan invoice sesuai booking/IO, rate, period, placement, delivered volume, billable basis, currency, tax, discount, bonus, makegood dan proof of performance. Delivery report belum tentu sama dengan billable basis.","Jika IO memesan 1.000.000 impressions tetapi proof menunjukkan 850.000 billable, hitung shortfall sesuai kontrak; jangan asumsikan perlakuan bonus sama."],
+["Capstone menggabungkan brief, trafficking, creative spec, tags, CM360 setup, QA, monitoring, discrepancy dan billing control. Nilai utamanya keterlacakan keputusan hingga evidence delivery. Data latihan harus dilabeli synthetic.","Paket final: brief summary, trafficking sheet, spec matrix, tag map, QA record, go-live checklist, monitoring log, discrepancy log, invoice reconciliation dan operational review."]
+];
+function studyEsc(v){return String(v||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function findChapterCatalog(box){
+ var preferred=box.querySelector(".track-source-catalog");if(preferred)return preferred;
+ var nodes=Array.prototype.slice.call(box.querySelectorAll(".box"));
+ for(var i=0;i<nodes.length;i++){var heading=nodes[i].querySelector("h3");if(heading&&/sumber belajar/i.test(heading.textContent))return nodes[i];}
+ return null;
+}
+
+var TOPIC_LESSONS=[[["business model","revenue","margin","cac","ltv"],"Petakan sumber revenue, biaya yang mengikuti penjualan, margin kontribusi, serta biaya akuisisi atau retensi. Definisikan rumus, periode, dan basis margin sebelum membandingkan CAC dengan LTV."],[["brief","problem statement"],"Pisahkan gejala, masalah terverifikasi, objective, audience, scope, budget, timeline, dan bukti yang belum tersedia. Bedakan fakta, interpretasi, dan asumsi."],[["audience","consumer","segment","needs","tension","behavior"],"Bangun segmen dari kebutuhan, motivasi, perilaku, hambatan, konteks, dan decision criteria. Demografi saja bukan insight; setiap insight perlu bukti."],[["journey","funnel","touchpoint"],"Petakan tindakan, pertanyaan, emosi, hambatan, pengaruh, dan touchpoint pada tiap tahap. Journey tidak selalu linear; prioritaskan momen dengan bukti dan dampak."],[["insight","cultural","human tension","trend"],"Bedakan observasi, tren, dan insight. Insight menghubungkan sinyal dengan motivasi atau tension yang menjelaskan perilaku; uji relevansi dan bukti yang dapat membantahnya."],[["positioning","proposition","proof point","reason to believe"],"Positioning menyatakan ruang pembeda brand; proposition menjanjikan nilai; proof point memberi alasan untuk percaya. Pastikan janji dapat dibuktikan."],[["kpi","metric","attribution","measurement","consent","privacy"],"Definisikan outcome, diagnostic, dan guardrail metrics beserta rumus, sumber, owner, dan window. Attribution bukan bukti kausalitas; validasi consent, duplicate, missing event, timezone, dan source."],[["cpm","cpc","ctr","cvr","cpa","roas","reach","frequency","forecast"],"Tuliskan numerator, denominator, unit, window, dan asumsi sebelum menghitung. Lower cost tidak menjamin nilai bisnis bila kualitas traffic atau margin turun."],[["media mix","channel role","paid owned","earned","shared","inventory","channel"],"Pilih channel berdasarkan tugas pada journey, bukan popularitas. Jelaskan audience, role, format, reach/intent/credibility, timing, cost, measurement, dan batas channel."],[["flight","flighting","phasing","flowchart","schedule","pacing"],"Ubah strategi menjadi kalender delivery: tanggal, fase, spend, weight, format, audience, dependency, dan owner. Siapkan skenario perubahan budget, inventory, atau launch date."],[["keyword","search term","intent","match type","negative"],"Pisahkan target keyword dari search term aktual; klasifikasikan intent, relevansi, volume, landing-page fit, match type, dan negative keyword."],[["auction","bidding","bid strategy","quality score","impression share"],"Pahami eligibility, auction signals, bid strategy, relevance, conversion signal, dan budget. Diagnosis lost impression share karena budget secara terpisah dari rank."],[["creative","format","placement","specification","rich media","fallback"],"Cocokkan aset dengan format dan placement. Validasi dimensi, aspect ratio, file size, duration, click URL, SSL, fallback, safe zone, dan rendering."],[["campaign structure","ad group","ad set","campaign objective","conversion location"],"Tentukan batas campaign berdasarkan objective, budget, geography, language, audience, atau intent. Hindari fragmentasi dan jaga naming, ownership, permission, serta reporting."],[["pixel","conversion api","capi","floodlight","tag","tracker","utm","event","data layer"],"Bedakan placement tag, click/impression tracker, pixel, server event, Floodlight, dan UTM. Definisikan event, parameter, deduplication, consent, conversion window, dan source of truth. UTM bukan conversion tag."],[["ad server","placement","publisher","trafficking","trafficking sheet","naming taxonomy","ad operations","ad ops"],"Ad Ops menerjemahkan media plan menjadi advertiser, campaign, site, placement, ad, creative, tag, URL, targeting, flight, budget, owner, approval, dan status. Jaga relasi serta jejak perubahan."],[["cm360","campaign manager","floodlight activity","floodlight tag","placement tag"],"Di CM360 pahami relasi advertiser, campaign, site, placement, ad, creative, dan tag. Placement mewakili slot inventory dan menghasilkan tag; Floodlight mengukur activity sesuai counting method dan conversion window."],[["qa","go-live","pre-launch","verification","test click","test impression","test conversion"],"Uji trafficking, creative, URL, tags, events, targeting, dates, budget, consent/policy, publisher acceptance, dan approval. Simpan expected result, actual result, owner, severity, dan sign-off."],[["monitoring","pacing","troubleshooting","delivery","under-delivery"],"Bandingkan planned dengan actual delivery per tanggal, placement, audience, creative, dan metric. Pisahkan masalah supply, bid, budget, targeting, creative, tag, dan measurement."],[["discrepancy","billing","invoice","reconciliation","rate card","makegood","insertion order"],"Samakan event definition, timezone, cutoff, attribution window, deduplication, latency, currency, tax, rate, billable basis, dan kontrak. Jangan sebut selisih sebagai error sebelum basisnya setara."],[["dsp","ssp","rtb","openrtb","programmatic","pmp","deal id","supply path","ads.txt"],"Telusuri buyer–DSP–exchange–SSP–publisher, auction, deal, dan ad server. Validasi Deal ID, floor, authorized sellers, reseller chain, fees, inventory quality, timeout, dan privacy."],[["viewability","ivt","invalid traffic","brand safety","verification","mrc","ias","doubleverify"],"Pisahkan brand safety, suitability, viewability, invalid traffic, dan effectiveness. Catat definisi vendor, eligible/measured impressions, exclusions, coverage, dan standard."],[["retail media","commerce media","shopper","sponsored product","sponsored search","digital shelf","product feed"],"Hubungkan retailer data, product feed, placement, shopper intent, availability, product page, purchase, dan closed-loop sales. Periksa item eligibility, stock, content quality, attribution, dan incrementality."],[["incrementality","holdout","experiment","a/b","hypothesis","cohort"],"Tentukan hypothesis, randomization unit, control/treatment, primary metric, guardrail, sample, duration, contamination, dan decision rule. Bedakan attributed dari incremental outcome."],[["ga4","analytics","dashboard","looker","sql","data model","reporting"],"Definisikan business question dan data model sebelum dashboard. Validasi event, grain, joins, deduplication, timezone, filters, attribution, dan freshness."],[["seo","crawl","index","canonical","robots","sitemap","schema","aeo","geo"],"Pisahkan crawlability, indexability, relevance, architecture, page experience, authority, dan intent. Validasi dengan crawler, Search Console, logs, dan SERP."],[["crm","lifecycle","automation","trigger","suppression","deliverability","retention","churn"],"Rancang trigger, segment, channel, content, timing, frequency, suppression, branch, exit condition, dan outcome. Ukur retention, repeat purchase, churn, atau margin."],[["content strategy","editorial","content pillar","storytelling","distribution"],"Hubungkan audience question, insight, brand POV, content pillar, format, cadence, distribution, CTA, dan measurement. Setiap asset harus punya job di journey."],[["kol","koc","influencer","creator","usage rights","whitelisting","spark ads"],"Nilai creator berdasarkan audience fit, quality, authenticity, fee, deliverables, usage rights, exclusivity, disclosure, amplification permission, dan measurement."],[["affiliate","commission","reversal","clawback","coupon"],"Definisikan eligible action, commission basis, attribution, validation, reversal, partner tier, fraud control, payout, dan contribution margin."],[["community","moderation","advocacy","ugc","crisis","escalation","sentiment"],"Tetapkan purpose, member segments, participation rules, moderation severity, response SLA, escalation, UGC permission, care handoff, dan health metrics."]];
+function explainTopic(topic,role,title,outcome){
+ var low=String(topic||"").toLowerCase();
+ for(var i=0;i<TOPIC_LESSONS.length;i++){
+  for(var j=0;j<TOPIC_LESSONS[i][0].length;j++){
+   if(low.indexOf(TOPIC_LESSONS[i][0][j])!==-1)return TOPIC_LESSONS[i][1];
+  }
+ }
+ return 'Pada track '+(TRACK_NAMES[role]||role)+', "'+topic+'" adalah bagian dari "'+title+'". Identifikasi input, standar, urutan tindakan, owner, output, dan quality check; hubungkan ke deliverable "'+outcome+'".';
+}
+var ADOPS_CASES=["Gunakan campaign display sintetis: satu advertiser, dua publisher placement, satu creative, satu landing page, click tracker, dan satu conversion event. Gambar alur media plan sampai iklan tampil dan tandai pemilik tiap object.","Ambil brief campaign dua placement dan dua creative size. Buat trafficking sheet berisi campaign/placement ID, format, URL, dates, budget, targeting, tags, naming, owner, approval, dan status.","Simulasikan creative display 300×250 dan video 9:16. Buat spec matrix dimensions, file size, duration, codec, audio, click URL, SSL, fallback, safe zone, dan compatibility.","Buat tag map: placement/ad tag, click tracker, impression tracker, conversion pixel/Floodlight, event parameter, dan UTM. Jelaskan penerbit, pemasang, tester; UTM bukan conversion pixel.","Susun draft CM360 hierarchy advertiser → campaign → site/placement → ad → creative. Generate placement tag dan rancang Floodlight activity dengan counting method sesuai definisi bisnis.","Gunakan pre-launch checklist untuk asset, rendering, URL, click/impression tag, conversion event, targeting, dates, budget, consent/policy, publisher acceptance, dan approval. Simpan evidence.","Buat monitoring log harian spend, impressions, clicks, conversions, CPM, CPC, CTR, CPA, pacing, rejection, placement status, viewability, IVT, dan frequency. Diagnosis satu kasus under-delivery.","Buat dua reporting extracts dengan timezone atau attribution window berbeda. Reconcile clicks, impressions, conversions, sessions, dan Floodlight; pisahkan penyebab terbukti dari dugaan.","Gunakan IO latihan untuk membandingkan contracted impressions, rate, dates, placement, currency, tax, discount, bonus, makegood, dan billable basis terhadap invoice dan proof of delivery.","Satukan brief, trafficking sheet, creative spec, tag map, CM360/Floodlight plan, QA, go-live, monitoring, discrepancy, billing reconciliation, dan operational review. Labeli data SYNTHETIC."];
+function buildGuide(box,chapter,index){
+ var role=box.dataset.trackBox;
+ var ctx=TRACK_GUIDE_CONTEXT[role]||TRACK_GUIDE_CONTEXT.fullstack;
+ var title=(chapter.querySelector(".wt")||{}).textContent||"bab ini";
+ var topics=Array.prototype.slice.call(chapter.querySelectorAll(".wbody > .box ul li")).map(function(x){return x.textContent.trim();});
+ var deliverEl=chapter.querySelector(".deliv .chk span");
+ var outcome=deliverEl?deliverEl.textContent.trim():"";
+ var custom=role==="cf"?CF_GUIDE_NOTES[index]:(role==="adops"?ADOPS_GUIDE_NOTES[index]:null);
+ var roleNote=role==="connection"?CONNECTION_GUIDES[index]:(role==="paidsocial"?PAID_SOCIAL_GUIDES[index]:(role==="fullstack"?FULLSTACK_GUIDES[index]:null));
+ var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
+ var example=role==="adops"?(ADOPS_CASES[index]||ctx.example):(custom?custom[1]:(roleNote?roleNote.example:ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
+ var steps=roleNote?roleNote.steps:topics.map(function(t){
+  return '<b>'+studyEsc(t)+'</b>. '+studyEsc(explainTopic(t,role,title,outcome))+' Tindakan belajar: tulis definisi dan sumber, petakan input serta proses, lalu catat output dan kesalahan yang harus dicegah.';
+ });
+ var checks=roleNote?roleNote.checks:topics.slice(0,3).map(function(t){
+  return 'Untuk "'+t+'": input apa yang diperlukan, seperti apa output yang benar, dan bagaimana lu memverifikasinya sebelum dipakai?';
+ });
+ var practice=roleNote?roleNote.practice:(ctx.worksheet+' Kerjakan deliverable "'+outcome+'" dalam urutan: (1) tulis brief dan asumsi; (2) isi komponen wajib dari subtopik; (3) tambahkan sumber, evidence, owner, dan versi; (4) review dengan quality check; (5) tulis keputusan, risiko, dan next action. '+(role==="adops"?"Gunakan data sintetis dan beri label SYNTHETIC.":"Pisahkan fakta, asumsi, dan data sintetis."));
+ return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome,terms:roleNote&&roleNote.terms?roleNote.terms:[]};
+}
+function appendChapterStudy(chapter,box,index,resources,selected){
+ if(chapter.querySelector(".chapter-study"))return;
+ var guide=buildGuide(box,chapter,index);
+ var links=selected.slice(0,5).map(function(n){
+  var a=resources[n].cloneNode(true);a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");
+  return '<div class="chapter-resource-item">'+a.outerHTML+'</div>';
+ }).join("");
+ var html='<section class="chapter-study" aria-label="Materi belajar bab">';
+ html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
+ html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
+ html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
+ if(guide.terms&&guide.terms.length){html+='<details class="lesson-fold"><summary>Istilah penting &amp; definisi</summary><div class="lesson-fold-body"><dl class="lesson-glossary">'+guide.terms.map(function(t){return '<div class="lesson-glossary-item"><dt>'+studyEsc(t.term)+'</dt><dd>'+studyEsc(t.definition)+'</dd></div>';}).join("")+'</dl></div></details>';}
+ html+='<details class="lesson-fold" open><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
+ html+='<details class="lesson-fold" open><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
+ html+='<details class="lesson-fold" open><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
+ html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
+ html+='</section>';
+ var body=chapter.querySelector(".wbody");if(!body)return;
+ var deliverable=body.querySelector(".deliv");
+ if(deliverable)deliverable.insertAdjacentHTML("beforebegin",html);else body.insertAdjacentHTML("beforeend",html);
+}
+function attachChapterSources(){
+ document.querySelectorAll("[data-track-box]").forEach(function(box){
+  var chapters=Array.prototype.slice.call(box.querySelectorAll("details.week"));
+  var catalog=findChapterCatalog(box);
+  var resources=catalog?Array.prototype.slice.call(catalog.querySelectorAll("a.res")):[];
+  var mapping=CHAPTER_SOURCE_MAP[box.dataset.trackBox]||[];
+  if(!chapters.length)return;
+  chapters.forEach(function(chapter,index){
+   var selected=(mapping[index]||[]).filter(function(n){return Number.isInteger(n)&&n>=0&&n<resources.length;});
+   appendChapterStudy(chapter,box,index,resources,selected);
+  });
+  if(catalog)catalog.hidden=true;
+}
+);}  function visibleBoxes(){
     return Array.prototype.slice.call(document.querySelectorAll('[data-track-box].on .chk input[type="checkbox"]'));
   }
 
@@ -4531,60 +4885,17 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     updateProgress();
   }
 
-  function updateTrackUI(){
-    document.querySelectorAll('[data-role-card]').forEach(function(card){
-      var active = card.dataset.roleCard === state.role;
-      card.classList.toggle('selected', active);
-      var pick = card.querySelector('.role-pick');
-      if (pick) pick.setAttribute('aria-pressed', active ? 'true' : 'false');
-    });
-    document.querySelectorAll('[data-track-box]').forEach(function(box){
-      box.classList.toggle('on', box.dataset.trackBox === 'cf' || box.dataset.trackBox === state.role);
-    });
-    document.querySelectorAll('.chip').forEach(function(c){
-      c.classList.toggle('on', c.dataset.goto === state.role);
-    });
-    var status = document.getElementById('roleStatus');
-    if (status) {
-      status.innerHTML = '<strong>Jalur aktif: ' + TRACK_NAMES[state.role] + '.</strong> ' +
-        'Alias industri: <code>' + TRACK_ALIAS[state.role] + '</code>' +
-        '. Progres lu dihitung dari CF1–CF6 plus bab wajib jalur ini. Jalur lain tetap bisa dibaca.';
-    }
-    document.documentElement.dataset.role = state.role;
-  }
-
-  document.querySelectorAll('.role-pick').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var role = btn.dataset.role;
-      if (!TRACK_NAMES[role]) return;
-      state.role = role;
-      persistState();
-      updateTrackUI();
-      updateProgress();
-      var weeks = document.getElementById('weeks');
-      if (weeks) {
-        weeks.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
-      }
-      toast('Jalur ' + TRACK_NAMES[role] + ' dipilih - langsung ke roadmap.');
-    });
-  });
-
-  document.querySelectorAll('.chip').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var key = btn.dataset.goto;
-      if (!TRACK_NAMES[key]) return;
-      state.role = key;
-      persistState();
-      updateTrackUI();
-      updateProgress();
-      var weeks = document.getElementById('weeks');
-      if (weeks) {
-        weeks.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
-      }
-      toast('Jalur ' + TRACK_NAMES[key] + ' aktif.');
-    });
-  });
-
+  function setRolePickerState(open){rolePickerOpen=!!open;var c=document.getElementById('rolePickerContent'),i=document.getElementById('rolePickerIntro'),s=document.getElementById('roleStatus'),d=document.getElementById('rolePickerDone');if(c)c.hidden=!rolePickerOpen;if(i)i.hidden=!rolePickerOpen;if(s)s.hidden=rolePickerOpen;if(d)d.hidden=!rolePickerOpen;}
+function updateTrackUI(){
+ document.querySelectorAll('[data-role-card]').forEach(function(card){var a=card.dataset.roleCard===state.role;card.classList.toggle('selected',a);var b=card.querySelector('.role-pick');if(b)b.setAttribute('aria-pressed',a?'true':'false');});
+ document.querySelectorAll('#weeks [data-track-box]').forEach(function(box){var a=box.dataset.trackBox==='cf'||box.dataset.trackBox===state.role;box.classList.toggle('on',a);box.hidden=!a;});
+ document.querySelectorAll('#weeks .fam-h').forEach(function(x){x.hidden=true;});
+ document.querySelectorAll('#weeks .track-h').forEach(function(x){x.hidden=x.id!=='track-'+state.role;});
+ var s=document.getElementById('roleStatus');if(s)s.innerHTML='<div class="role-status-copy"><span class="role-status-kicker">ROLE TERPILIH</span><strong>'+TRACK_NAMES[state.role]+'</strong><span class="role-status-alias">'+TRACK_ALIAS[state.role]+'</span></div><button type="button" class="role-status-change" data-role-picker-open>Ganti role</button>';
+ var active=document.getElementById('activeRoleName');if(active)active.textContent=TRACK_NAMES[state.role];document.documentElement.dataset.role=state.role;setRolePickerState(rolePickerOpen);
+}
+function scrollToRoadmap(){var x=document.getElementById('weeks');if(x)x.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
+document.addEventListener('click',function(e){var p=e.target.closest('.role-pick');if(p){var role=p.dataset.role;if(!TRACK_NAMES[role])return;state.role=role;rolePickerOpen=false;persistState();updateTrackUI();applyChecks();scrollToRoadmap();toast('Jalur '+TRACK_NAMES[role]+' dipilih. Roadmap sekarang fokus pada role tersebut.');return;}if(e.target.closest('[data-role-picker-open]')){setRolePickerState(true);var r=document.getElementById('sec-role');if(r)r.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});return;}if(e.target.closest('[data-role-picker-close]')){setRolePickerState(false);scrollToRoadmap();}});
   document.addEventListener('change', function(e){
     if (e.target.matches('.chk input[type="checkbox"]')) {
       state.completed[e.target.dataset.id] = e.target.checked;
@@ -4622,6 +4933,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   };
 
   window.addEventListener('beforeprint', function(){
+    var foundation=document.getElementById('foundationFold');if(foundation)foundation.open=true;
     expAll(true);
     document.querySelectorAll('details.fold, details.term-d').forEach(function(d){ d.open = true; });
   });
@@ -4672,6 +4984,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
     });
   });
 
+  attachChapterSources();
   updateTrackUI();
   applyChecks();
 })();
