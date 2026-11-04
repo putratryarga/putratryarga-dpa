@@ -8705,3 +8705,10 @@ The new `docs/169-chapter-resource-mapping.md` maps all 169 core chapters across
 The mapping is complete as a **coverage map**, but per-chapter SME confirmation of source-to-objective fit, Indonesian account accessibility, price/tax, language and credential eligibility remains open. Course completion, platform learning credentials, vendor-issued certifications, professional certification and standards documentation remain distinct. Do not infer price, free access or credential status from the presence of a link.
 
 The resource/credential register now links to this 169-chapter map. Release status remains NOT READY until resource-fit SME review, regional verification and the other release gates are evidenced.
+
+
+# ADDENDUM — 4 NOVEMBER 2026: FURTHER AGENCY ROLE EVIDENCE
+
+The 80-cell matrix and chapter register were updated with six further cell-level changes based on employer-hosted job descriptions: T04/Dentsu G→B; T05/Dentsu G→B; T12/WPP G→B; T12/Omnicom G→B; T14/Dentsu G→A; T16/Dentsu B→A. Cross-channel paid search/social is retained as adjacent evidence, not treated as a pure specialist JD. CRM duties inside a Marketing or Analytics title remain adjacent evidence. Direct influencer and community role-family evidence is now recorded for Dentsu with market/seniority caveats.
+
+The matrix's class counts and source URLs are maintained in `docs/80-cell-agency-role-evidence-matrix.md`. Full competency-level validation remains PARTIAL.
