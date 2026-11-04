@@ -8384,3 +8384,166 @@ a separate Indonesia-specific source audit.
 ================================================================================
 END OF ADDENDUM v1.6
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.7 — CORE TRACK ROLE EVIDENCE EXPANSION
+Date: 4 November 2026
+================================================================================
+
+This batch adds direct role descriptions for content/organic social, community,
+CRM, commerce/affiliate, SEO and retail media. It improves the evidence base but
+does not close the full 5-agency × 16-track matrix.
+
+NEW DIRECT / EMPLOYER-ATTRIBUTED ROLE EVIDENCE
+
+A. WPP Media
+- Manager, Content Planning, Jakarta: develops full-funnel content strategy,
+  platform roles, briefs, messaging, storytelling, content performance
+  optimization and integration with social/KOL/paid media. The role asks for
+  1–3 years' experience. This is direct Track 13 evidence and supports the
+  interface with Track 14, but it is not a pure Organic Social Specialist JD.
+  https://job-boards.greenhouse.io/wppmedia/jobs/5208747008
+- Executive Connection Planning, Jakarta: 1–3 years; full-funnel Search,
+  Social, Display, Video, OOH and Retail Media; channel roles, budget split,
+  phasing, brand/performance KPIs, data-led re-planning. Direct Track 2 role
+  evidence with clear overlap to Track 3.
+  https://job-boards.greenhouse.io/wppmedia/jobs/5378904008
+- Current careers index lists Paid Search, Paid Social, Programmatic, Retail
+  Media, Media Planning, Content Planning, Investment and Analytics roles.
+  Index evidence is title-level only.
+  https://job-boards.greenhouse.io/wppmedia
+
+B. Publicis Groupe
+- Social & Community Management Specialist, Copenhagen, posted November 3,
+  2026: daily community conversations/moderation, social insights, platform
+  content planning/publishing on Instagram/TikTok, UGC/influencer discovery
+  and briefing, campaign coordination and reporting. This one role integrates
+  functions but still names Community as its centre. Direct employer career
+  posting; geography/language-specific.
+  https://careers.publicisgroupe.com/jobs/180872?lang=en-US
+- Social Strategist, Publicis Production/Creator Studio, New York/Chicago:
+  social-first creative strategy, platform-native content, always-on social,
+  social/community management, real-time conversation, creator partnerships,
+  research, briefs and client deliverables. This supports Organic Social as a
+  distinct function from Community and Content production alone.
+  https://careers.publicisgroupe.com/jobs/167181?lang=en-US
+- CRM & Lifecycle Strategy Executive, Digitas, Kuala Lumpur: CRM/lifecycle,
+  loyalty, segmentation, journey, personalization, eDM, push, in-app,
+  WhatsApp, test-and-learn and client recommendations. Direct Track 12 role
+  evidence, entry level.
+  https://careers.publicisgroupe.com/jobs/136800?lang=en-us
+- Publicis UK career index includes Affiliate Account Manager (CJ) and Retail
+  Media Lead titles; retain as title-level, geography-specific evidence only.
+  https://www.publicisgroupeuk.com/careers/all-jobs/
+
+C. Omnicom Media / legacy KINESSO
+- Social Media Strategist, Omnicom Media/KINESSO: organic always-on channel
+  management, social publishing/QA, social playbooks, editorial calendars,
+  social listening, community management, social reporting and collaboration
+  with paid social/analytics. The captured listing's stated close date is
+  October 5, 2026; retain as historical role evidence, not active vacancy.
+  https://interpublic.wd5.myworkdayjobs.com/omc/job/los-angeles-california-united-states-of-america/social-media-strategist_r11306
+- Senior Analyst, SEO, Omnicom Media/KINESSO: client-facing technical SEO,
+  content/technical audits, keyword strategy, SEO reports, analytics, tools
+  including Ahrefs, Screaming Frog and Lumar, and cross-team implementation.
+  The captured listing's close date is November 9, 2026.
+  https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Senior-Analyst--SEO_26445-KP
+- Omnicom Media career index also lists current/previous role families for
+  Paid Search/SEM, Paid Social, Programmatic, Retail Search/Commerce,
+  Performance, SEO, AdOps, Social and Insights. Treat index evidence as D,
+  not as a full role competency source.
+  https://job-boards.greenhouse.io/mediabrands
+
+D. Dentsu
+- Senior Social Media Executive, Jakarta: always-on content, integrated
+  campaigns, real-time moments and platform-native social. Direct Track 13
+  evidence; detailed duties should be read from the full employer JD.
+  https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Sr-Social-Media-Executive_R1126105
+- Social Media Officer (Contract), Jakarta: daily account operations,
+  platform-specific content calendar, trend translation, community engagement,
+  performance reporting and cross-team execution. Employer-attributed
+  LinkedIn listing; treat as D.
+  https://id.linkedin.com/jobs/view/social-media-officer-contract-at-dentsu-4255076703
+- CRM Campaign Specialist, Jakarta/Merkle: HTML email, SMS and push deployment,
+  dynamic content, personalization, segmentation, conditional logic, CRM
+  platform operation, device/browser QA and technical troubleshooting. Direct
+  Track 12 operations evidence.
+  https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/CRM-Campaign-Specialist_R1124584
+- eCommerce Executive, Jakarta/Amplifi: marketplace advertising, retail media
+  and affiliate ecosystems; TikTok Shop, Shopee Ads, Lazada Ads and Tokopedia
+  Ads; budget, placements, affiliate structures, performance optimization and
+  sales outcomes. Direct evidence for Track 7 and Track 15 interfaces, but the
+  role is integrated commerce execution rather than pure affiliate management.
+  https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/eCommerce-Executive_R1123610
+- Senior Media Investment Executive, Jakarta: offline TV, radio, OOH, print,
+  cinema, negotiation, media-owner relationships and campaign delivery.
+  Direct Elective 18 evidence; Indonesia-specific.
+  https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Jakarta/Sr-Media-Investment-Executive_R1126022
+
+E. Havas
+- CRM Director, San Francisco: integrated CRM planning/operations, relationship
+  marketing, segmentation, communication architecture, email/direct mail/
+  telemarketing/digital, testing, KPIs, analysis and client/team leadership.
+  Direct Track 12 evidence; healthcare experience is a plus, not a universal
+  requirement.
+  https://jobs.jobvite.com/havas/job/oWGf9fwK
+- Director of Retail Media, Havas Media Network, New York: retail media DSP
+  programs across Amazon DSP, Walmart DSP, Target Roundel and others; audience
+  segmentation, retailer first-party data, AMC/clean-room, budget, bidding,
+  pacing, frequency, QA, test roadmaps and team/client leadership. This is a
+  LinkedIn-hosted employer-attributed posting; classify D until confirmed on
+  Havas employer career site.
+  https://www.linkedin.com/jobs/view/director-of-retail-media-at-havas-media-network-4421203270
+- Havas Media careers index lists Analytics, Connections Planning, Digital
+  Investment, Publishing, SEA/Performance Marketing and Programmatic; the
+  broader Havas Group index lists Content Creator and CRM Director. These are
+  title-level index evidence unless a full JD is separately linked.
+  https://jobs.jobvite.com/havasmedia
+  https://jobs.jobvite.com/thehavasgroup/
+
+IMPLICATIONS FOR THE 16-TRACK MATRIX
+
+- Track 12 CRM now has direct evidence from Publicis (strategy), Dentsu/Merkle
+  (campaign operations) and Havas (senior integrated CRM leadership). These
+  are different seniority/function layers and must not be merged into one
+  generic CRM job.
+- Track 13 Content/Organic Social now has direct evidence from WPP, Publicis,
+  Omnicom and Dentsu. Organic Social is a real role family with strategy,
+  platform-native publishing, editorial calendar, social listening and
+  performance reporting. It remains a named specialization inside Track 13
+  to preserve the 16-track count; Track 16 remains community relationship,
+  moderation, service and advocacy.
+- Track 14 KOL/Creator has WPP content planning and Publicis Social/Community
+  role evidence; Dentsu has adjacent influencer campaign account leadership.
+  Dedicated specialist-title evidence remains uneven.
+- Track 15 Affiliate has Dentsu integrated eCommerce/affiliate execution and
+  Publicis UK affiliate title evidence. Dedicated affiliate-programme
+  management evidence across all five groups remains incomplete.
+- Track 7 Retail/Commerce has WPP and Omnicom title/role evidence, Dentsu
+  Jakarta integrated eCommerce/retail media execution and Havas retail DSP
+  director evidence. Publicis evidence is title-level in this batch.
+- Track 11 SEO has direct Omnicom Senior Analyst SEO evidence and WPP title
+  evidence; other agency coverage still requires full JDs.
+- Track 16 Community has direct Publicis and Omnicom role evidence, plus
+  Dentsu/WPP adjacent social roles. Community should not absorb all Organic
+  Social publishing responsibilities.
+- Track 9 Ad Operations remains weak on full JDs in this batch. WPP and
+  Omnicom career indexes identify AdOps role families, but chapter-level
+  technical competencies still need direct JD validation.
+
+EVIDENCE LIMITATIONS
+- A job title or careers index is not a complete JD. Mark D when only the title
+  is visible.
+- Employer-hosted pages, LinkedIn-hosted employer-attributed listings and
+  third-party syndication are different evidence classes.
+- Expired postings remain historical evidence; never describe them as active.
+- Geography and seniority are mandatory fields. Jakarta role evidence is more
+  transferable to Indonesia curriculum than US/Europe examples, but still
+  requires local workflow, legal, platform and vendor verification.
+- The 5 × 16 matrix is now stronger for selected functions but is still not a
+  complete set of 80 full job-description validations. Overall evidence status
+  remains PARTIAL.
+================================================================================
+END OF ADDENDUM v1.7
+================================================================================
