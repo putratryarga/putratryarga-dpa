@@ -1,247 +1,247 @@
-/* Original, chapter-specific instructional content for the Paid Social track.
- * Numbers in worked examples are explicitly synthetic. Platform controls are
- * described conceptually because labels and availability can change by account.
+/* Materi orisinal per bab untuk jalur Paid Social.
+ * Semua angka pada contoh kasus bersifat simulasi dan bukan hasil advertiser.
+ * Nama menu/fitur platform dapat berubah; validasi opsi aktual di akun masing-masing.
  */
 var PAID_SOCIAL_GUIDES = [
 {
- concept:"Paid social is the managed purchase of advertising inventory on social platforms. A specialist connects business outcomes, platform accounts, identity assets, data sources, audiences, creative, auction delivery, measurement, and optimization. Use Meta and TikTok as the core practice platforms; treat LinkedIn as a B2B elective and Pinterest, Snapchat, Reddit, or X as market-dependent extensions.",
- example:"SIMULATED CASE — an Indonesian FMCG brand appoints an agency to manage Meta and TikTok. The brand retains ownership of its Business Portfolio, Page, Instagram identity, TikTok account, ad accounts, domain, catalog, and Pixel/dataset. The agency receives only the partner/person access needed for campaign work. When the engagement ends, access can be revoked without transferring ownership or sharing personal passwords.",
+ concept:"Paid social adalah aktivitas membeli inventory iklan pada platform sosial secara terencana dan terukur. Pekerjaan specialist menghubungkan outcome bisnis, akun platform, aset identitas, sumber data, audience, creative, auction/delivery, measurement, dan optimization. Meta dan TikTok menjadi platform praktik utama; LinkedIn merupakan pendalaman untuk kebutuhan B2B, sedangkan Pinterest, Snapchat, Reddit, atau X dipelajari sesuai kebutuhan pasar dan akses akun.",
+ example:"KASUS SIMULASI — sebuah brand FMCG Indonesia menunjuk agency untuk mengelola Meta dan TikTok. Brand tetap menjadi pemilik Business Portfolio, Page, Instagram identity, TikTok account, ad account, domain, catalog, serta Pixel/dataset. Agency mendapat partner/person access sesuai pekerjaannya. Saat kerja sama berakhir, akses agency dapat dicabut tanpa memindahkan kepemilikan aset atau berbagi password personal.",
  steps:[
-  "<b>Map the entities and owners.</b> Register the brand/business, Business Portfolio or business center, ad accounts, Page, Instagram identity, TikTok account, website domain, app, catalog, Pixel/dataset, payment profile, and legal owner of each asset.",
-  "<b>Separate ownership from access.</b> The business should retain ownership of core brand assets. Assign people and agency partners only the assets and permissions needed for their work.",
-  "<b>Build a role matrix.</b> Define who can manage campaigns, creative, audiences, billing, data sources, and business settings. Apply least privilege, two-factor authentication, approval steps, and an offboarding process.",
-  "<b>Run an account-readiness check.</b> Verify account status, payment setup, Page/identity connection, domain or app setup where relevant, data-source health, catalog connection, policy restrictions, and backup administrators."
+  "<b>Petakan entitas dan pemilik aset.</b> Daftarkan badan usaha/brand, Business Portfolio atau Business Center, ad account, Page, Instagram identity, TikTok account, domain website, app, catalog, Pixel/dataset, payment profile, dan pemilik legal setiap aset.",
+  "<b>Pisahkan ownership dari access.</b> Brand sebaiknya mempertahankan kepemilikan aset utama. Berikan person atau agency partner hanya aset dan permission yang diperlukan untuk menjalankan tugas.",
+  "<b>Buat role matrix.</b> Tentukan siapa yang dapat mengelola campaign, creative, audience, billing, data source, serta business settings. Terapkan least privilege, two-factor authentication, approval, dan prosedur offboarding.",
+  "<b>Lakukan account-readiness check.</b> Periksa account status, payment method, koneksi Page/identity, domain atau app setup bila relevan, kesehatan data source, katalog, policy restrictions, dan ketersediaan administrator cadangan."
  ],
- practice:"Create an asset-and-permission register for a fictional brand. Include platform, asset type, synthetic account ID, legal owner, agency partner, assigned role, admin backup, 2FA status, last access review, status, and evidence. Mark all IDs SIMULATED; never place real customer or personal-account credentials in the worksheet.",
+ practice:"Buat asset-and-permission register untuk satu brand fiktif. Kolom minimal: platform, jenis aset, account ID sintetis, legal owner, agency partner, assigned role, admin backup, status 2FA, tanggal access review terakhir, status, dan evidence. Tandai seluruh ID sebagai SIMULATED. Jangan memasukkan email, password, ID akun pribadi, atau data pelanggan sungguhan.",
  checks:[
-  {q:"Who should retain ownership of a brand's core digital assets when an agency manages the ads?",a:"The brand or business entity should retain ownership. The agency receives scoped partner/person access, rather than taking ownership or sharing personal passwords."},
-  {q:"Why is full admin access not appropriate for every team member?",a:"It increases the impact of mistakes or account compromise. Least-privilege access limits each person to the work they need and makes access reviews and offboarding auditable."},
-  {q:"How do an ad account, Page/identity, and Pixel/dataset differ?",a:"The ad account manages paid campaigns and billing; the Page or identity represents the advertiser in the ad; the Pixel/dataset receives measurement events. They are linked assets, not interchangeable objects."}
+  {q:"Siapa yang seharusnya tetap memiliki aset digital utama brand ketika iklan dikelola agency?",a:"Brand atau badan usaha pemilik bisnis sebaiknya mempertahankan ownership. Agency memperoleh partner/person access yang dibutuhkan, bukan mengambil alih kepemilikan atau meminta password personal."},
+  {q:"Mengapa full admin access tidak boleh diberikan ke seluruh anggota tim?",a:"Hak admin yang terlalu luas memperbesar dampak jika terjadi kesalahan atau account compromise. Least privilege membatasi tindakan setiap orang sesuai tugas dan membuat access review serta offboarding lebih mudah diaudit."},
+  {q:"Apa perbedaan ad account, Page/identity, dan Pixel/dataset?",a:"Ad account mengelola pembelian serta campaign; Page atau identity mewakili identitas advertiser pada iklan; Pixel/dataset menerima event untuk measurement. Ketiganya saling terhubung, tetapi bukan aset yang sama."}
  ],
  terms:[
-  {term:"Business Portfolio / Business Center",definition:"The business-level workspace for managing platform assets and permissions; names and features vary by platform."},
-  {term:"Ad account",definition:"The workspace used to create, pay for, manage, and report on advertising campaigns."},
-  {term:"Data source",definition:"A source of advertising events or conversion data, such as a Meta Pixel/dataset or TikTok Pixel."},
-  {term:"Partner access",definition:"Scoped access granted to an agency or vendor without handing over a personal login."},
-  {term:"Least privilege",definition:"Giving a user only the access required to perform an assigned task."}
+  {term:"Business Portfolio / Business Center",definition:"Workspace tingkat bisnis untuk mengelola aset serta permission. Nama dan fitur berbeda antarpublisher."},
+  {term:"Ad account",definition:"Workspace untuk membuat, membayar, mengelola, dan melaporkan campaign iklan."},
+  {term:"Data source",definition:"Sumber event atau conversion data, misalnya Meta Pixel/dataset atau TikTok Pixel."},
+  {term:"Partner access",definition:"Akses terbatas yang diberikan kepada agency/vendor tanpa menyerahkan login personal."},
+  {term:"Least privilege",definition:"Prinsip memberikan hak akses minimum yang cukup untuk menjalankan tugas."}
  ]
 },
 {
- concept:"A campaign objective describes the result the platform is asked to optimize; the funnel describes the consumer journey; conversion location identifies where the action happens; performance goal and optimization event define the delivery signal. These are related but not interchangeable. Available objectives and labels change by platform, campaign type, and account eligibility, so always confirm the current Ads Manager options.",
- example:"SIMULATED CASE — a skincare brand says it needs more website sales, but the operator chooses Traffic because clicks are inexpensive. This can produce visits without enough purchases. When the website, checkout, event tracking, and consent flow are ready, evaluate a Sales/conversion objective and a Purchase event. If conversion signals are not yet reliable, identify the data gap rather than presenting cheap clicks as sales.",
+ concept:"Campaign objective menjelaskan hasil yang diminta dari optimasi platform; funnel menggambarkan perjalanan konsumen; conversion location menunjukkan tempat tindakan terjadi; performance goal dan optimization event menentukan sinyal delivery. Semuanya saling berkaitan, tetapi bukan istilah yang dapat saling menggantikan. Nama objective, conversion location, dan goal dapat berubah sesuai platform, campaign type, serta eligibility akun. Periksa pilihan aktual di Ads Manager sebelum launch.",
+ example:"KASUS SIMULASI — brand skincare meminta lebih banyak penjualan website, tetapi operator memilih Traffic hanya karena kliknya murah. Hasilnya bisa berupa banyak kunjungan tanpa purchase yang memadai. Ketika website, checkout, event tracking, dan consent sudah siap, evaluasi objective Sales/conversion dan event Purchase. Bila conversion signal belum dapat dipercaya, dokumentasikan kekurangan data; jangan menyebut traffic murah sebagai sales.",
  steps:[
-  "<b>Define the business outcome.</b> Specify purchase, qualified lead, app install, reach, or another outcome, with a baseline, target, reporting period, and cost constraint.",
-  "<b>Choose the conversion location.</b> Website, app, instant form, messaging, or another destination changes the user journey, friction, tracking requirement, and lead quality.",
-  "<b>Select the objective and performance goal.</b> Use the options available in the platform and align them with the intended business outcome; do not select an objective merely because its label sounds like a funnel stage.",
-  "<b>Set the optimization event and KPI.</b> For example, Purchase for website sales or qualified Lead for lead generation. Confirm that the event is valid, defined, and measurable.",
-  "<b>Build a measurement hierarchy.</b> Separate the outcome KPI from diagnostic metrics such as CTR/CPC/landing-page views and guardrails such as allowable CPA, margin, refunds, or lead quality."
+  "<b>Definisikan business outcome.</b> Tentukan purchase, qualified lead, app install, reach, atau outcome lain beserta baseline, target, periode laporan, dan batas biaya.",
+  "<b>Pilih conversion location.</b> Website, app, instant form, messaging, atau destination lain akan mengubah alur pengguna, friction, kebutuhan tracking, dan kualitas hasil.",
+  "<b>Pilih objective dan performance goal.</b> Gunakan opsi yang tersedia di platform dan selaraskan dengan outcome bisnis. Jangan memilih hanya karena labelnya terdengar cocok dengan tahap funnel.",
+  "<b>Tentukan optimization event dan KPI.</b> Contohnya Purchase untuk website sales atau qualified Lead untuk lead generation. Pastikan definisi event jelas, event benar-benar terjadi, dan datanya dapat diverifikasi.",
+  "<b>Susun measurement hierarchy.</b> Pisahkan outcome KPI dari diagnostic metrics seperti CTR/CPC/landing-page view dan guardrail seperti allowable CPA, margin, refund, atau lead quality."
  ],
- practice:"Create an objective decision tree for three briefs: (A) awareness for a new product, (B) purchases on a website, and (C) consultation leads via Instant Form or messaging. For each, document outcome, platform, current objective option, conversion location, performance goal/event, primary KPI, diagnostic metric, tracking requirement, and why other options are less suitable. Label unresolved assumptions.",
+ practice:"Buat objective decision tree untuk tiga brief: (A) awareness produk baru, (B) purchase melalui website, dan (C) lead konsultasi melalui Instant Form atau messaging. Untuk setiap brief, tulis business outcome, platform, objective yang tersedia, conversion location, performance goal/event, KPI utama, diagnostic metric, tracking requirement, dan alasan menolak alternatif. Tandai asumsi yang belum terbukti.",
  checks:[
-  {q:"What is the difference between an objective and a KPI?",a:"The platform objective is the campaign's optimization direction; the KPI is the measure used to judge the business outcome. Selecting an objective does not itself prove campaign success."},
-  {q:"Why is Traffic not automatically appropriate for a brief asking for sales?",a:"Traffic optimizes toward visits or related traffic signals, not necessarily purchases. Low-cost clicks can still produce weak conversion rate, high CPA, or poor margin."},
-  {q:"What should be checked before optimizing for Purchase?",a:"Verify checkout, event firing, event parameters, value/currency, duplicate handling where needed, consent controls, and signal quality before using the event for optimization."}
+  {q:"Apa perbedaan objective dan KPI?",a:"Objective platform adalah arah optimasi campaign; KPI adalah ukuran untuk menilai pencapaian outcome bisnis. Memilih objective tidak otomatis membuktikan campaign berhasil."},
+  {q:"Mengapa Traffic tidak otomatis tepat untuk brief yang meminta penjualan?",a:"Traffic mengoptimalkan kunjungan atau sinyal traffic terkait, bukan selalu purchase. Klik murah tetap dapat menghasilkan conversion rate rendah, CPA tinggi, atau margin yang buruk."},
+  {q:"Apa yang harus diperiksa sebelum memilih Purchase sebagai optimization event?",a:"Pastikan checkout berjalan, event terpicu, parameter value/currency benar, deduplication berfungsi bila diperlukan, consent dihormati, serta kualitas sinyal memadai."}
  ],
  terms:[
-  {term:"Campaign objective",definition:"The platform's selected direction for optimizing a campaign."},
-  {term:"Conversion location",definition:"Where the intended action occurs, such as a website, app, instant form, or messaging destination."},
-  {term:"Performance goal",definition:"The delivery outcome the platform is asked to prioritize under the selected objective."},
-  {term:"Optimization event",definition:"The event signal used for optimization, such as Purchase or Lead."},
-  {term:"Diagnostic metric",definition:"A metric that helps explain performance; it does not replace the business outcome."}
+  {term:"Campaign objective",definition:"Arah optimasi yang dipilih pada tingkat campaign sesuai opsi platform."},
+  {term:"Conversion location",definition:"Tempat tindakan yang diinginkan terjadi, misalnya website, app, instant form, atau messaging."},
+  {term:"Performance goal",definition:"Hasil delivery yang diminta untuk diprioritaskan platform pada objective terpilih."},
+  {term:"Optimization event",definition:"Event yang digunakan sebagai sinyal optimasi, misalnya Purchase atau Lead."},
+  {term:"Diagnostic metric",definition:"Metrik untuk menjelaskan perubahan performa; bukan pengganti outcome bisnis."}
  ]
 },
 {
- concept:"Audience strategy starts with customer needs and behavior, then becomes data-source rules, segmentation, exclusions, and testable hypotheses. Custom Audiences use permitted first-party or platform-interaction sources; Lookalike Audiences model new prospects from a source audience; interests/behaviors offer targeting signals; broad or automated audience settings give the system more room to find results. Availability differs by platform/account. Do not upload or activate customer data without the required rights, consent, and platform-policy basis.",
- example:"SIMULATED CASE — a store has 20,000 website visitors but only 1,200 buyers. A Lookalike seed made from every visitor may be broad and mixed in intent. A buyer seed may better represent the desired outcome, but could be too small or stale. The specialist must assess source quality, recency, consent, size, overlap, and campaign objective before choosing.",
+ concept:"Audience strategy dimulai dari kebutuhan dan perilaku konsumen, lalu diterjemahkan menjadi sumber data, aturan segmentasi, exclusions, serta hipotesis yang bisa diuji. Custom Audience biasanya memakai sumber first-party atau interaksi platform yang diizinkan; Lookalike Audience memodelkan prospek dari karakteristik source audience; interest/behavior memberi sinyal targeting; broad atau automated audience memberi ruang lebih luas bagi sistem. Ketersediaan fitur berbeda menurut platform dan akun. Jangan mengunggah atau mengaktifkan data pelanggan tanpa hak, consent, dan dasar penggunaan yang sesuai.",
+ example:"KASUS SIMULASI — toko online memiliki 20.000 pengunjung website, tetapi hanya 1.200 pembeli. Seed Lookalike dari seluruh pengunjung mungkin terlalu luas karena niatnya beragam. Seed pembeli bisa lebih dekat dengan outcome, tetapi mungkin terlalu kecil atau sudah usang. Specialist perlu menilai kualitas sumber, recency, consent, ukuran, overlap, dan objective sebelum memilih seed.",
  steps:[
-  "<b>Write the audience hypothesis.</b> Define who should be reached, the need or tension they have, the action they may take, and the evidence supporting the hypothesis.",
-  "<b>Audit data sources.</b> Check CRM, Pixel, engagement, customer-list, or app-event quality, recency, coverage, deduplication, consent, and eligibility for advertising use.",
-  "<b>Create functional segments.</b> Separate prospecting/new customers, high-intent retargeting, existing-customer/retention, and exclusions. Give each segment a job and KPI.",
-  "<b>Manage overlap and scale.</b> Review estimated size, overlap, geographic eligibility, exclusions, and delivery concentration. Avoid splitting audiences into many tiny ad groups without a test rationale.",
-  "<b>Plan the experiment.</b> Compare broad/automated targeting with a meaningful hypothesis while holding creative, objective, budget, and measurement as consistent as possible."
+  "<b>Tulis audience hypothesis.</b> Definisikan siapa yang perlu dijangkau, kebutuhan/tension yang dimiliki, tindakan yang mungkin dilakukan, dan evidence yang mendukung dugaan tersebut.",
+  "<b>Audit data source.</b> Periksa kualitas, recency, coverage, deduplication, consent, dan kelayakan penggunaan CRM, Pixel, engagement, customer list, atau app event untuk advertising.",
+  "<b>Buat segmen fungsional.</b> Pisahkan prospecting/new customer, high-intent retargeting, existing customer/retention, dan exclusions. Setiap segmen harus memiliki peran dan KPI yang jelas.",
+  "<b>Kelola overlap dan scale.</b> Tinjau estimasi ukuran audience, overlap, exclusions, eligibility geografis, dan konsentrasi delivery. Hindari memecah audience menjadi banyak ad group kecil tanpa alasan pengujian.",
+  "<b>Rancang eksperimen.</b> Bandingkan broad/automated targeting dengan satu hipotesis targeting yang relevan. Jaga creative, objective, budget, dan measurement tetap sebanding."
  ],
- practice:"Build an audience matrix with segment, business role, source, inclusion rule, exclusion rule, lookback/recency, consent status, estimated size, overlap risk, message angle, KPI, and test hypothesis. Include prospecting, retargeting, and existing-customer/retention. Use synthetic data when permissioned first-party data is unavailable.",
+ practice:"Bangun audience matrix dengan kolom: segment, business role, source, inclusion rule, exclusion rule, lookback/recency, consent status, estimated size, overlap risk, message angle, KPI, dan test hypothesis. Buat minimal segmen prospecting, retargeting, serta existing-customer/retention. Gunakan data sintetis jika data first-party berizin tidak tersedia.",
  checks:[
-  {q:"Why is a website visitor list not automatically the best Lookalike seed?",a:"Visitors have mixed intent and quality. A seed should represent the outcome sought and be sufficiently valid and useful; verified buyers or qualified leads may be more relevant when the source is lawful and sufficiently large."},
-  {q:"What can happen if retargeting has no customer exclusions?",a:"Existing buyers may keep receiving acquisition messages, audiences may overlap, and frequency may rise without incremental value."},
-  {q:"Can sensitive customer data be used to build audiences?",a:"Do not use or transmit prohibited sensitive data or data without an appropriate legal basis. Follow consent requirements, privacy law, platform policy, and data-minimization principles."}
+  {q:"Mengapa daftar seluruh pengunjung website tidak otomatis menjadi seed Lookalike terbaik?",a:"Pengunjung memiliki niat dan kualitas yang beragam. Seed harus mewakili outcome yang dicari dan cukup valid; buyer terverifikasi atau qualified lead dapat lebih relevan jika sumbernya sah serta ukurannya memadai."},
+  {q:"Apa risiko retargeting tanpa exclusion pelanggan yang sudah membeli?",a:"Pembeli lama bisa terus menerima pesan akuisisi yang sama, audience dapat overlap, dan frequency meningkat tanpa menambah nilai incremental."},
+  {q:"Bolehkah data pelanggan sensitif digunakan untuk membuat audience?",a:"Jangan menggunakan atau mengirim data sensitif yang dilarang platform atau tidak memiliki dasar pemrosesan yang sah. Ikuti consent, privacy law, platform policy, serta prinsip minimisasi data."}
  ],
  terms:[
-  {term:"Custom Audience",definition:"An audience built from permitted customer or platform-interaction sources."},
-  {term:"Lookalike Audience",definition:"A prospecting audience modeled from characteristics of a source audience; its quality depends on the source."},
-  {term:"Prospecting",definition:"Paid activity intended to acquire or reach potential new customers."},
-  {term:"Retargeting",definition:"Re-engaging people who have interacted with the brand or shown intent."},
-  {term:"Audience overlap",definition:"People appearing in multiple audience groups, which can complicate delivery and result interpretation."}
+  {term:"Custom Audience",definition:"Audience yang dibentuk dari sumber pelanggan atau interaksi platform yang penggunaannya diizinkan."},
+  {term:"Lookalike Audience",definition:"Audience prospek yang dimodelkan dari karakteristik source audience; kualitasnya bergantung pada kualitas sumber."},
+  {term:"Prospecting",definition:"Aktivitas paid media untuk menjangkau atau memperoleh calon pelanggan baru."},
+  {term:"Retargeting",definition:"Menjangkau kembali orang yang pernah berinteraksi dengan brand atau menunjukkan intent."},
+  {term:"Audience overlap",definition:"Tumpang tindih orang di beberapa audience group yang dapat mengganggu delivery dan interpretasi hasil."}
  ]
 },
 {
- concept:"Campaign architecture organizes objective, budget, audience, placement, creative, and reporting. Meta generally uses Campaign → Ad Set → Ad; TikTok Ads Manager uses Campaign → Ad Group → Ad. The levels are similar in concept, not identical in settings. TikTok campaign setup includes objective and campaign budget; ad groups include settings such as placements, targeting, schedule, optimization, and bid; ads contain identity, creative, copy, CTA, URL, and tracking. Validate the current workflow in each platform.",
- example:"SIMULATED CASE — a brand needs to test two audiences and three creative angles on Meta and TikTok. Creating a separate campaign for every possible combination fragments the budget and complicates reporting. A simpler architecture defines the objective and budget at the correct level, separates only the audience/test cells that need isolation, and gives each ad a traceable creative ID and naming convention.",
+ concept:"Campaign architecture menyusun hubungan objective, budget, audience, placement, creative, dan reporting. Meta umumnya memakai hierarchy Campaign → Ad Set → Ad; TikTok Ads Manager memakai Campaign → Ad Group → Ad. Konsep levelnya mirip, tetapi setting dan tanggung jawabnya tidak identik. Pada TikTok, campaign setup mencakup objective dan campaign budget; ad group mengatur antara lain placement, targeting, schedule, optimization, dan bid; ad memuat identity, creative, copy, CTA, URL, serta tracking. Selalu validasi workflow dan pilihan terbaru di masing-masing platform.",
+ example:"KASUS SIMULASI — sebuah brand ingin menguji dua audience dan tiga creative angle di Meta dan TikTok. Jika setiap kombinasi dibuat menjadi campaign terpisah, budget dapat terfragmentasi dan reporting makin sulit. Arsitektur yang lebih sederhana menentukan objective serta level budget yang tepat, memisahkan audience/test cell hanya jika memang perlu diisolasi, lalu memberi setiap ad creative ID dan naming yang dapat ditelusuri.",
  steps:[
-  "<b>Start with outcome and market.</b> Separate campaigns when objective, market/geography, budget ownership, or governance genuinely differs.",
-  "<b>Design the campaign level.</b> Record platform, objective, campaign type, budget level, special category where relevant, and any experiment setup.",
-  "<b>Design the Ad Set / Ad Group level.</b> Define audience, placements, schedule, optimization goal, bid strategy, and budget according to the selected platform.",
-  "<b>Design the ad level.</b> Connect identity, post/creative, copy, CTA, destination URL, tracking parameters, and approval status.",
-  "<b>Apply naming and QA.</b> Make names consistent and readable; check every ID and relationship against the brief before launch."
+  "<b>Mulai dari outcome dan market.</b> Pisahkan campaign jika objective, market/geography, pemilik budget, atau governance memang berbeda.",
+  "<b>Rancang campaign level.</b> Catat platform, objective, campaign type, budget level, special category bila relevan, dan rancangan eksperimen.",
+  "<b>Rancang Ad Set / Ad Group level.</b> Definisikan audience, placements, schedule, optimization goal, bid strategy, dan budget sesuai struktur platform yang digunakan.",
+  "<b>Rancang ad level.</b> Hubungkan identity, post/creative, copy, CTA, destination URL, tracking parameters, dan approval status.",
+  "<b>Terapkan naming serta QA.</b> Gunakan nama yang konsisten dan mudah dibaca. Periksa setiap ID serta relasi objek dengan brief sebelum launch."
  ],
- practice:"Produce two separate blueprints, one for Meta and one for TikTok. Include campaign name/ID, objective, budget level, Ad Set/Ad Group, audience, placement, optimization event, bid strategy, schedule, ad/creative ID, CTA, destination URL, UTM, owner, and QA status. Explain when a group should be split or consolidated.",
+ practice:"Buat dua blueprint terpisah: satu untuk Meta dan satu untuk TikTok. Sertakan campaign name/ID, objective, budget level, Ad Set/Ad Group, audience, placement, optimization event, bid strategy, schedule, ad/creative ID, CTA, destination URL, UTM, owner, dan QA status. Jelaskan kapan suatu group perlu dipisahkan dan kapan lebih baik digabung.",
  checks:[
-  {q:"Can Meta's Campaign → Ad Set → Ad hierarchy be copied word-for-word into TikTok?",a:"No. The high-level hierarchy is comparable, but the object names and available settings differ. Use Campaign → Ad Group → Ad for TikTok and map each setting from the platform documentation."},
-  {q:"When should a campaign be split?",a:"When objective, market, budget ownership, governance, or test design requires isolation. Do not split simply to create more rows or because every creative needs its own campaign."},
-  {q:"Why create a naming convention before launch?",a:"It improves QA, filtering, reporting, handover, reconciliation, and change audits across campaigns."}
+  {q:"Bisakah hierarchy Campaign → Ad Set → Ad di Meta disalin mentah ke TikTok?",a:"Tidak. Konsep hierarchy sebanding, tetapi nama objek dan setting yang tersedia berbeda. Gunakan Campaign → Ad Group → Ad untuk TikTok dan petakan setting sesuai dokumentasi platform."},
+  {q:"Kapan campaign perlu dipisahkan?",a:"Ketika objective, market, budget ownership, governance, atau rancangan test memang membutuhkan isolasi. Jangan memisahkan hanya untuk menambah jumlah baris atau membuat campaign tersendiri untuk setiap creative."},
+  {q:"Mengapa naming convention dibuat sebelum launch?",a:"Naming konsisten mempercepat QA, filtering reporting, handover, reconciliation, dan audit perubahan antar-campaign."}
  ],
  terms:[
-  {term:"Campaign",definition:"The campaign-level object for objective and selected budget/settings, depending on platform."},
-  {term:"Ad Set (Meta)",definition:"Meta's level for settings such as audience, placement, schedule, optimization, and budget/bid, depending on configuration."},
-  {term:"Ad Group (TikTok)",definition:"TikTok's level for settings such as placement, audience, schedule, optimization, and bid."},
-  {term:"Naming convention",definition:"A consistent naming structure that makes platform, market, objective, audience, creative, and test easy to identify."},
-  {term:"Test cell",definition:"A defined unit in an experiment that allows results to be compared fairly."}
+  {term:"Campaign",definition:"Objek tingkat campaign untuk mengatur objective dan setting/budget tertentu sesuai platform."},
+  {term:"Ad Set (Meta)",definition:"Level Meta untuk setting seperti audience, placement, schedule, optimization, serta budget/bid sesuai konfigurasi."},
+  {term:"Ad Group (TikTok)",definition:"Level TikTok untuk setting seperti placement, audience, schedule, optimization, dan bid."},
+  {term:"Naming convention",definition:"Pola nama konsisten agar platform, market, objective, audience, creative, dan test mudah dikenali."},
+  {term:"Test cell",definition:"Unit kombinasi variabel dalam eksperimen yang didefinisikan agar hasil dapat dibandingkan secara adil."}
  ]
 },
 {
- concept:"Creative is part of the optimization system, not decoration added after media planning. Start from an audience tension and product truth, then define the angle, hook, proof, format, message, CTA, and landing-page continuity. Each ad should communicate one main proposition and a clear action. Format and placement should respect current platform specifications, safe zones, cropping, aspect ratio, captions/audio, and viewing context. Usage rights for creator content, music, testimonials, and partnership ads must be cleared before amplification.",
- example:"SIMULATED CASE — a healthy-drink brand tests three angles: convenience, taste, and ingredient proof. The offer and landing page remain the same so the first comparison is more likely to reflect the message angle rather than a promotion change. Each angle has two hooks. The team records creative ID, opening seconds, demonstration, proof, CTA, duration, format, and retention metrics.",
+ concept:"Creative merupakan bagian dari sistem optimasi, bukan dekorasi setelah media plan selesai. Mulai dari audience tension dan product truth, lalu turunkan menjadi angle, hook, proof, format, message, CTA, serta kesinambungan landing page. Satu iklan sebaiknya menyampaikan satu proposisi utama dan satu tindakan yang jelas. Format dan placement harus mengikuti spesifikasi platform, safe zone, cropping, aspect ratio, caption/audio, serta konteks konsumsi. Hak penggunaan creator content, musik, testimonial, dan partnership ads harus dipastikan sebelum amplifikasi.",
+ example:"KASUS SIMULASI — sebuah brand minuman sehat menguji tiga angle: convenience, taste, dan ingredient proof. Offer dan landing page dibuat sama agar perbandingan awal lebih mungkin mencerminkan perbedaan angle, bukan perubahan promosi. Setiap angle memiliki dua hook. Tim mencatat creative ID, opening beberapa detik pertama, product demonstration, proof, CTA, durasi, format, dan retention metrics.",
  steps:[
-  "<b>Find the audience tension.</b> Use reviews, comments, customer interviews, search queries, and sales questions to identify real needs or objections.",
-  "<b>Write the creative hypothesis.</b> State the angle, intended audience, reason the message may resonate, proof to show, and action expected.",
-  "<b>Build controlled variations.</b> Create an angle × hook × format matrix. Change one primary variable in an initial test unless a properly designed multivariate test has enough volume.",
-  "<b>Adapt to placement.</b> Check safe zones, cropping, aspect ratio, thumbnail, on-screen text, captions, audio, CTA, landing page, and ad previews on each platform.",
-  "<b>Check policy and rights.</b> Verify product claims, paid-partnership disclosure, creator usage/whitelisting/Spark Ads permission, music licenses, and category rules."
+  "<b>Temukan audience tension.</b> Gunakan review, komentar, interview pelanggan, search query, dan pertanyaan sales untuk menemukan kebutuhan atau keberatan yang nyata.",
+  "<b>Tulis creative hypothesis.</b> Nyatakan angle, audience yang dituju, alasan pesan mungkin relevan, proof yang dapat ditunjukkan, dan tindakan yang diharapkan.",
+  "<b>Buat variasi yang terkontrol.</b> Susun matrix angle × hook × format. Untuk test awal, ubah satu variabel utama kecuali multivariate test memiliki rancangan dan volume yang memadai.",
+  "<b>Adaptasikan ke placement.</b> Periksa safe zone, cropping, aspect ratio, thumbnail, on-screen text, caption, audio, CTA, landing page, serta preview iklan di setiap platform.",
+  "<b>Periksa policy dan usage rights.</b> Verifikasi product claim, paid-partnership disclosure, izin creator content untuk whitelisting/Spark Ads, lisensi musik, dan aturan kategori."
  ],
- practice:"Create three creative concepts for a training product. Each must include audience insight, angle, hook, proof, storyboard/shot list, format/placement, primary copy, CTA, landing-page promise, creator/usage rights, policy check, and hypothesis. Build a test matrix that isolates the main variable and defines diagnostic and outcome metrics.",
+ practice:"Buat tiga creative concept untuk satu produk latihan. Setiap concept memuat audience insight, angle, hook, proof, storyboard/shot list, format/placement, primary copy, CTA, landing-page promise, creator/usage rights, policy check, dan hypothesis. Susun test matrix yang mengisolasi variabel utama serta tetapkan diagnostic metric dan outcome metric.",
  checks:[
-  {q:"What is the difference between a hook, an angle, and proof?",a:"The angle is the message perspective or benefit; the hook is the opening that earns attention; proof is evidence that makes the claim credible, such as a verified fact, demonstration, or authorized testimonial."},
-  {q:"Why can a high-CTR creative still be a weak performer?",a:"It may attract curiosity without qualified visits or purchases. Check landing-page views, conversion rate, CPA, revenue/margin, and guardrails."},
-  {q:"What must be checked before using creator content in ads?",a:"Usage scope and duration, platforms/placements, amplification or whitelisting permission, disclosure, music/asset rights, brand safety, and claims compliance."}
+  {q:"Apa perbedaan hook, angle, dan proof?",a:"Angle adalah sudut pesan atau manfaat; hook adalah pembuka yang menarik perhatian; proof adalah bukti yang membuat klaim lebih kredibel, misalnya demonstrasi, fakta terverifikasi, atau testimonial yang berizin."},
+  {q:"Mengapa creative dengan CTR tinggi tetap dapat berkinerja buruk?",a:"CTR tinggi bisa berasal dari rasa penasaran atau clickbait tanpa kunjungan berkualitas dan purchase. Periksa landing-page view, conversion rate, CPA, revenue/margin, serta kualitas lead/customer."},
+  {q:"Apa yang harus dicek sebelum menggunakan konten creator sebagai iklan?",a:"Cakupan dan durasi usage rights, platform/placement yang diizinkan, paid amplification atau whitelisting permission, disclosure, hak musik/asset, brand safety, dan kepatuhan klaim."}
  ],
  terms:[
-  {term:"Creative angle",definition:"The message perspective or benefit used to make a proposition relevant to a target audience."},
-  {term:"Hook",definition:"The opening visual, audio, or copy intended to earn attention and lead into the main message."},
-  {term:"Proof point",definition:"Evidence supporting a claim or product benefit."},
-  {term:"Native creative",definition:"Creative adapted to the platform's viewing context and format while retaining brand clarity."},
-  {term:"Usage rights / whitelisting",definition:"Permission to reuse or amplify creator content; the scope and duration should be documented."}
+  {term:"Creative angle",definition:"Sudut pesan atau manfaat yang dipakai agar proposisi relevan bagi audience tertentu."},
+  {term:"Hook",definition:"Pembuka visual, audio, atau copy untuk menarik perhatian dan mengantarkan pesan utama."},
+  {term:"Proof point",definition:"Bukti yang mendukung klaim atau manfaat produk."},
+  {term:"Native creative",definition:"Creative yang disesuaikan dengan konteks konsumsi dan format platform tanpa kehilangan kejelasan brand."},
+  {term:"Usage rights / whitelisting",definition:"Izin penggunaan atau amplifikasi konten creator; ruang lingkup dan durasinya harus terdokumentasi."}
  ]
 },
 {
- concept:"An auction determines which eligible ads receive delivery opportunities. Results are not determined by bid alone; platforms also consider predicted action, relevance/quality, and delivery rules. Distinguish budget, budget level, bid, cost cap/goal, and target ROAS. Available strategies and names differ across platforms and objectives. Do not assume Meta's CBO/ABO language applies identically to TikTok. Set efficiency targets from unit economics, not from a CPM benchmark alone.",
- example:"SIMULATED CASE — an item has AOV Rp150,000 and contribution margin before ads of Rp45,000 per order. The business sets an allowable paid acquisition cost of Rp30,000, leaving Rp15,000 contribution before other costs. The arithmetic revenue ROAS target at that AOV and CPA is 5.0x (Rp150,000 ÷ Rp30,000). This is a business target, not a promise that the auction will deliver it.",
+ concept:"Auction menentukan iklan yang memenuhi syarat untuk memperoleh kesempatan delivery. Hasil tidak ditentukan bid saja; platform juga mempertimbangkan predicted action, relevance/quality, serta delivery rules. Bedakan budget, level budget, bid, cost cap/goal, dan target ROAS. Nama serta ketersediaan strategi berbeda antarpublisher dan objective. Jangan menganggap istilah CBO/ABO Meta berlaku identik di TikTok. Target efisiensi harus diturunkan dari unit economics, bukan hanya benchmark CPM.",
+ example:"KASUS SIMULASI — AOV sebuah produk Rp150.000 dan contribution margin sebelum biaya iklan Rp45.000 per order. Bisnis menetapkan allowable acquisition cost Rp30.000 per order agar tersisa kontribusi Rp15.000 sebelum biaya lain. Target revenue ROAS aritmetis pada AOV dan CPA tersebut adalah 5,0x (Rp150.000 ÷ Rp30.000). Ini target bisnis simulasi, bukan janji bahwa auction akan menghasilkan angka tersebut.",
  steps:[
-  "<b>Calculate commercial limits.</b> Work out AOV, contribution margin, repeat-purchase assumptions, allowable CPA/CAC, refunds/cancellations, and target ROAS. Separate revenue ROAS from profit ROAS.",
-  "<b>Choose the budget level.</b> Decide whether budget control belongs at campaign or ad set/ad group level, according to platform features and campaign objective.",
-  "<b>Understand the bid strategy.</b> Distinguish volume/lowest-cost, cost cap/target cost, bid cap, and target ROAS where available. Record what the advertiser controls and what the system optimizes.",
-  "<b>Plan pacing.</b> Compare planned with actual spend daily and cumulatively. Flag underdelivery, overspend risk, and any change requiring approval.",
-  "<b>Change one material factor at a time.</b> Diagnose signal, audience, bid, budget, creative, conversion path, and competition before editing; record rationale and timestamp."
+  "<b>Hitung batas komersial.</b> Hitung AOV, contribution margin, asumsi repeat purchase, allowable CPA/CAC, refund/cancel, dan target ROAS. Pisahkan revenue ROAS dari profit ROAS.",
+  "<b>Tentukan budget level.</b> Pilih apakah budget dikontrol pada campaign atau Ad Set/Ad Group sesuai fitur platform dan objective.",
+  "<b>Pahami bid strategy.</b> Bedakan volume/lowest cost, cost cap/target cost, bid cap, dan target ROAS jika tersedia. Catat apa yang dikontrol advertiser dan apa yang dioptimalkan platform.",
+  "<b>Rencanakan pacing.</b> Bandingkan planned spend dengan actual spend harian dan kumulatif. Tandai underdelivery, risiko overspend, serta perubahan yang membutuhkan approval.",
+  "<b>Ubah satu faktor penting pada satu waktu.</b> Diagnosis signal, audience, bid, budget, creative, conversion path, dan competition sebelum melakukan edit. Simpan alasan serta timestamp."
  ],
- practice:"Build a synthetic budget-and-bidding sheet with AOV, margin, allowable CPA, target ROAS, budget, assumed CTR/CVR, forecast conversions, planned daily spend, actual spend, and variance. Stress-test CPA 25% higher and CVR 20% lower. Recommend continue, test, limit, or stop, with evidence gaps and risks.",
+ practice:"Buat budget-and-bidding sheet sintetis. Input: AOV, margin, allowable CPA, target ROAS, budget, asumsi CTR/CVR, forecast conversions, planned daily spend, actual spend, dan variance. Uji skenario CPA 25% lebih tinggi dan CVR 20% lebih rendah. Berikan rekomendasi continue, test, limit, atau stop beserta risiko dan bukti yang masih kurang.",
  checks:[
-  {q:"Why is bid not the only factor in winning an auction?",a:"Platforms consider more than the bid, including predicted action, relevance or quality signals, and eligibility. A higher bid does not guarantee the most efficient outcome."},
-  {q:"What is the difference between budget and bid?",a:"Budget sets or limits spend over a period at a selected level; bid strategy influences auction competition or controls the cost/volume target."},
-  {q:"Does a 5x ROAS mean 5x profit?",a:"No. Revenue ROAS is attributed revenue divided by ad spend. Profit requires margin and all relevant costs, including product, fulfilment, discounts, fees, and refunds."}
+  {q:"Mengapa bid bukan satu-satunya faktor yang menentukan hasil auction?",a:"Platform menggabungkan bid dengan predicted action, relevance/quality signals, dan eligibility. Bid lebih tinggi tidak otomatis menghasilkan outcome paling efisien."},
+  {q:"Apa perbedaan budget dan bid?",a:"Budget mengatur atau membatasi spend pada periode dan level tertentu. Bid strategy memengaruhi cara platform bersaing di auction atau mengontrol target biaya/volume."},
+  {q:"Apakah ROAS 5x berarti profit 5x?",a:"Tidak. Revenue ROAS adalah attributed revenue dibagi ad spend. Profit harus memperhitungkan margin serta biaya produk, fulfilment, diskon, fee, refund, dan biaya relevan lainnya."}
  ],
  terms:[
-  {term:"Auction",definition:"The platform's competition process for deciding which eligible ads receive an opportunity to show."},
-  {term:"Bid strategy",definition:"The platform/advertiser rule for bidding or optimizing cost and volume."},
-  {term:"Cost cap / target cost",definition:"A cost-control target defined by the platform; not a guarantee that every result will occur at that exact cost."},
-  {term:"Pacing",definition:"The rate at which spend is delivered compared with the budget plan and campaign schedule."},
-  {term:"Revenue ROAS",definition:"Attributed revenue divided by ad spend; it is not the same as profit or incrementality."}
+  {term:"Auction",definition:"Mekanisme kompetisi platform untuk menentukan iklan eligible yang memperoleh kesempatan tampil."},
+  {term:"Bid strategy",definition:"Aturan platform/advertiser untuk bidding atau optimasi biaya dan volume hasil."},
+  {term:"Cost cap / target cost",definition:"Target pengendalian biaya menurut definisi platform; bukan jaminan setiap hasil tepat pada angka tersebut."},
+  {term:"Pacing",definition:"Laju pengeluaran aktual dibandingkan rencana budget dan jadwal campaign."},
+  {term:"Revenue ROAS",definition:"Attributed revenue dibagi ad spend; tidak sama dengan profit atau incrementality."}
  ]
 },
 {
- concept:"Tracking connects ad interactions with website/app actions. A browser Pixel sends events from the browser; Conversions API or Events API sends events through server-side or connected data sources. They can complement one another, but neither removes consent, privacy, or data-minimization requirements. Event design needs a business definition, event name, time, value/currency, source, and required parameters. When the same event is sent through browser and server paths, follow the provider's deduplication rules. TikTok explicitly requires the same event_id through Pixel and Events API for overlapping events. UTM parameters classify traffic; they do not replace event tracking.",
- example:"SIMULATED CASE — one website purchase is sent by both browser Pixel and server Events API. If the two copies represent the same transaction but use different event IDs, the platform may count two events. When the matching event_id is sent on both paths under the platform's rules, the duplicate can be recognized. Do not use one static event_id for every transaction; an ID must distinguish each occurrence.",
+ concept:"Tracking menghubungkan interaksi iklan dengan tindakan di website/app. Browser Pixel mengirim event dari browser; Conversions API/Events API mengirim event melalui server atau koneksi data. Keduanya dapat saling melengkapi, tetapi tidak menghapus kewajiban consent, privacy, dan minimisasi data. Event design harus punya definisi bisnis, event name, waktu, value/currency, source, dan parameter yang diperlukan. Jika event yang sama dikirim melalui browser dan server, ikuti aturan deduplication provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap dari Pixel dan Events API. UTM mengelompokkan traffic; UTM bukan pengganti event tracking.",
+ example:"KASUS SIMULASI — satu purchase website dikirim melalui browser Pixel dan server Events API. Jika keduanya mewakili transaksi yang sama tetapi memakai event ID berbeda, platform dapat membaca dua event. Jika event_id yang sama diteruskan pada kedua jalur sesuai aturan provider, sistem dapat mengenali duplikasi. Jangan menggunakan satu event_id statis untuk semua transaksi; identifier harus unik untuk setiap kejadian.",
  steps:[
-  "<b>Define the event taxonomy.</b> Map ViewContent, AddToCart, InitiateCheckout, Lead, and Purchase. Each event needs a trigger, owner, required parameters, and validation criteria.",
-  "<b>Design event IDs and deduplication.</b> For an event sent from browser and server, generate one unique event_id per occurrence and pass the identical value on both paths, following each provider's matching rules.",
-  "<b>Validate the payload.</b> Check event name, event_id, event time/timezone, value, currency, content IDs, source, consent signal, and parameter format. Do not send passwords, sensitive data, or disallowed PII.",
-  "<b>Build UTM taxonomy.</b> Use utm_source, utm_medium, utm_campaign, utm_content, and utm_term consistently. Avoid random casing/spaces, personal information, and parameters that break redirects.",
-  "<b>Run end-to-end QA.</b> Test view, add-to-cart, checkout, purchase/lead; inspect Test Events/diagnostics, event count, deduplication, landing page, redirects, and analytics attribution."
+  "<b>Definisikan event taxonomy.</b> Petakan ViewContent, AddToCart, InitiateCheckout, Lead, dan Purchase. Setiap event membutuhkan trigger, owner, required parameters, dan kriteria validasi.",
+  "<b>Rancang event ID dan deduplication.</b> Untuk event yang dikirim dari browser dan server, buat satu event_id unik per kejadian dan teruskan nilai yang identik di kedua jalur sesuai matching rules provider.",
+  "<b>Validasi payload.</b> Periksa event name, event_id, event_time/timezone, value, currency, content IDs, source, consent signal, serta format parameter. Jangan mengirim password, data sensitif, atau PII yang tidak diizinkan.",
+  "<b>Bangun UTM taxonomy.</b> Gunakan utm_source, utm_medium, utm_campaign, utm_content, dan utm_term secara konsisten. Hindari kapitalisasi/spasi acak, data pribadi, dan parameter yang merusak redirect.",
+  "<b>Lakukan end-to-end QA.</b> Uji view, add-to-cart, checkout, purchase/lead; periksa Test Events/diagnostics, event count, deduplication, landing page, redirect, dan analytics attribution."
  ],
- practice:"Create an event map and tracking QA sheet for a fictional ecommerce site. Include funnel stage, event name, trigger, event source, event_id rule, parameters, consent dependency, platform destination, dedup rule, UTM fields, test case, expected/actual result, evidence, owner, and defect severity. Include one browser/server duplicate test and its expected count. Mark all data SIMULATED.",
+ practice:"Buat event map dan tracking QA sheet untuk website e-commerce fiktif. Kolom minimal: funnel stage, event name, trigger, event source, event_id rule, parameters, consent dependency, platform destination, dedup rule, UTM fields, test case, expected result, actual result, evidence, owner, dan defect severity. Sertakan satu tes duplicate browser/server dan expected count-nya. Tandai seluruh data sebagai SIMULATED.",
  checks:[
-  {q:"What does event_id do when the same event is sent from browser and server?",a:"A matching event ID helps the platform recognize two submissions as copies of one occurrence and deduplicate them under its rules. TikTok explicitly requires the same event_id for overlapping Pixel and Events API events."},
-  {q:"Can UTM parameters replace Pixel or Conversions API?",a:"No. UTMs classify campaign traffic in analytics; Pixel/API send event and parameter data to the ad platform. They serve different measurement functions."},
-  {q:"Does server-side tracking allow consent to be bypassed?",a:"No. Server delivery does not remove privacy, consent, legal-basis, platform-policy, or data-minimization obligations."}
+  {q:"Apa fungsi event_id saat event yang sama dikirim melalui browser dan server?",a:"event_id yang cocok membantu platform mengenali dua kiriman sebagai satu kejadian dan melakukan deduplication sesuai ketentuan provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap antara Pixel dan Events API."},
+  {q:"Apakah UTM dapat menggantikan Pixel atau Conversions API?",a:"Tidak. UTM mengelompokkan traffic campaign pada analytics; Pixel/API mengirim event serta parameter tindakan ke platform iklan. Fungsinya berbeda."},
+  {q:"Apakah server-side tracking membuat consent tidak diperlukan?",a:"Tidak. Pengiriman melalui server tidak menghapus kewajiban privacy, consent, legal basis, platform policy, atau data minimization."}
  ],
  terms:[
-  {term:"Pixel",definition:"A browser-based platform tag/library that sends events from browser interactions."},
-  {term:"Conversions API / Events API",definition:"An interface for sending event and parameter data from advertiser systems to a platform."},
-  {term:"event_id",definition:"An identifier unique to one event occurrence, used to connect/deduplicate copies sent through multiple paths."},
-  {term:"Event deduplication",definition:"The process of recognizing duplicate submissions that represent one conversion."},
-  {term:"UTM",definition:"URL query parameters such as utm_source and utm_campaign used to classify campaign traffic in analytics."},
-  {term:"Consent signal",definition:"A user's permission or choice that governs whether data may be collected or shared."}
+  {term:"Pixel",definition:"Tag/library berbasis browser untuk mengirim event dari interaksi pengguna di browser."},
+  {term:"Conversions API / Events API",definition:"Interface untuk mengirim event dan parameter dari sistem advertiser ke platform."},
+  {term:"event_id",definition:"Identifier unik untuk satu kejadian, digunakan untuk menghubungkan atau menduplikasi salinan event dari beberapa jalur."},
+  {term:"Event deduplication",definition:"Proses mengenali salinan event yang merepresentasikan satu conversion agar tidak dihitung ganda."},
+  {term:"UTM",definition:"Parameter URL seperti utm_source dan utm_campaign untuk mengklasifikasikan traffic campaign di analytics."},
+  {term:"Consent signal",definition:"Informasi izin atau pilihan pengguna yang mengatur apakah data boleh dikumpulkan atau dibagikan."}
  ]
 },
 {
- concept:"The learning phase is a delivery period in which the system explores and gathers signals to find people likely to meet the optimization goal. Performance may fluctuate; fluctuation alone does not prove that a campaign has failed. Do not apply one threshold to all platforms or objectives. TikTok's June 2026 general guidance says volatility often begins to decline after about 25 campaign results or 7 days; this is indicative, not a guaranteed completion rule. Objective-specific help pages may give different context. Never transfer TikTok's benchmark to Meta.",
- example:"SIMULATED CASE — during the first three days, a purchase campaign's CPA moves up and down. An operator then sharply raises the budget, changes the audience, replaces the creative, and changes the optimization event at once. Performance changes, but the cause is unclear. Better practice is to record a baseline, verify delivery and tracking, inspect learning status, and then make one material change with a clear hypothesis.",
+ concept:"Learning phase adalah periode awal delivery saat sistem mengeksplorasi dan mengumpulkan signal untuk menemukan audience yang paling mungkin mencapai optimization goal. Performa dapat berfluktuasi; fluktuasi saja bukan bukti campaign gagal. Jangan menerapkan satu ambang untuk semua platform atau objective. Panduan umum TikTok yang diperbarui Juni 2026 menyebut volatilitas biasanya mulai menurun setelah sekitar 25 hasil campaign atau 7 hari. Angka tersebut bersifat indikatif, bukan jaminan status learning selesai. Guidance objective-specific dapat berbeda. Jangan menerapkan benchmark TikTok ke Meta.",
+ example:"KASUS SIMULASI — tiga hari pertama campaign Purchase menunjukkan CPA yang naik-turun. Operator kemudian menaikkan budget besar, mengganti audience, mengganti creative, dan mengubah event sekaligus. Setelah itu performa berubah, tetapi penyebabnya tidak dapat dipisahkan. Praktik yang lebih baik: catat baseline, periksa status learning, pastikan delivery dan tracking sehat, lalu lakukan satu perubahan material dengan hipotesis yang terdokumentasi.",
  steps:[
-  "<b>Record the context.</b> Save launch date, objective, optimization event, budget/bid, audience, creative count, and learning/delivery status.",
-  "<b>Separate volatility from defects.</b> Confirm ads are delivering, events are received, landing pages work, spend is on pace, approvals are valid, and tracking has not broken.",
-  "<b>Diagnose frequency and fatigue.</b> Review frequency together with reach, CPM, CTR, video retention, conversion rate, creative age, and audience changes—not frequency alone.",
-  "<b>Use a change log.</b> Record budget, bid, audience, event, creative, or structure changes with timestamp, owner, hypothesis, expected impact, and rollback criteria.",
-  "<b>Optimize only when evidence supports it.</b> Avoid repeated pausing and major edits without a hypothesis. Check the latest guidance for the platform and objective."
+  "<b>Catat konteks dan status.</b> Simpan launch date, objective, optimization event, budget/bid, audience, jumlah creative, serta learning/delivery status.",
+  "<b>Pisahkan volatility dari defect.</b> Pastikan iklan benar-benar deliver, event diterima, landing page berfungsi, spend berjalan, approval valid, dan tracking tidak rusak.",
+  "<b>Diagnosis frequency dan fatigue.</b> Tinjau frequency bersama reach, CPM, CTR, video retention, conversion rate, usia creative, dan perubahan audience—jangan menilai dari frequency saja.",
+  "<b>Gunakan change log.</b> Catat perubahan budget, bid, audience, event, creative, atau struktur beserta timestamp, owner, hypothesis, expected impact, dan rollback condition.",
+  "<b>Optimalkan berdasarkan evidence.</b> Hindari pause atau major edit berulang tanpa hipotesis. Gunakan guidance terbaru sesuai platform dan objective."
  ],
- practice:"Create a troubleshooting playbook for five symptoms: (1) spend does not start, (2) CPM rises, (3) CTR falls, (4) frequency rises while conversions fall, and (5) purchase/event tracking disappears. For each, document symptom, possible causes, diagnostic checks, required evidence, lowest-risk first action, escalation point, and metric used to validate the fix.",
+ practice:"Buat troubleshooting playbook untuk lima gejala: (1) spend tidak mulai, (2) CPM naik, (3) CTR turun, (4) frequency naik sementara conversion turun, dan (5) purchase/event tidak tercatat. Untuk setiap gejala tulis symptom, possible causes, diagnostic checks, evidence yang diperlukan, low-risk action pertama, escalation point, dan metric untuk memvalidasi perbaikan.",
  checks:[
-  {q:"Does 25 results or 7 days guarantee that a TikTok campaign exits learning?",a:"No. The general TikTok article says volatility often begins to decline around those points; it is an indicator of stabilization, not a guaranteed status change for every objective, account, or campaign."},
-  {q:"Can TikTok's learning benchmark be applied to Meta?",a:"No. The platforms use different systems and guidance. Check the current documentation for the actual platform and optimization event."},
-  {q:"Why is changing budget, audience, creative, and event at once a poor diagnostic approach?",a:"Several factors change simultaneously, so their individual effects cannot be separated. A change log and controlled intervention make the outcome easier to interpret."}
+  {q:"Apakah 25 hasil atau 7 hari menjamin campaign TikTok keluar dari learning phase?",a:"Tidak. Panduan umum TikTok menyebut volatilitas biasanya mulai menurun pada kisaran tersebut. Itu indikator stabilisasi, bukan jaminan perubahan status untuk setiap objective, account, atau campaign."},
+  {q:"Bisakah benchmark learning TikTok diterapkan ke Meta?",a:"Tidak. Sistem, signal, dan guidance kedua platform berbeda. Gunakan dokumentasi terkini sesuai platform dan optimization event yang dipakai."},
+  {q:"Mengapa mengubah budget, audience, creative, dan event sekaligus menyulitkan diagnosis?",a:"Beberapa faktor berubah bersamaan sehingga efek masing-masing tidak bisa dipisahkan. Change log serta intervensi yang terkontrol membuat evaluasi lebih dapat dipercaya."}
  ],
  terms:[
-  {term:"Learning phase",definition:"A delivery period in which the platform gathers signals to optimize toward its selected goal."},
-  {term:"Learning volatility",definition:"Performance fluctuation while the system explores; it is not automatically evidence of campaign failure."},
-  {term:"Creative fatigue",definition:"A decline in response as people repeatedly see similar assets or as a message loses relevance."},
-  {term:"Pacing issue",definition:"Actual spend is materially ahead of or behind the campaign's budget/time plan."},
-  {term:"Change log",definition:"A record of configuration changes, owner, timestamp, hypothesis, and the result after the change."}
+  {term:"Learning phase",definition:"Periode delivery ketika platform mengumpulkan signal untuk mengoptimalkan campaign ke goal yang dipilih."},
+  {term:"Learning volatility",definition:"Fluktuasi performa ketika sistem masih mengeksplorasi; bukan otomatis bukti kegagalan campaign."},
+  {term:"Creative fatigue",definition:"Penurunan respons ketika audience terlalu sering melihat asset serupa atau relevansi pesannya berkurang."},
+  {term:"Pacing issue",definition:"Spend aktual terlalu cepat atau terlalu lambat dibandingkan rencana budget dan waktu campaign."},
+  {term:"Change log",definition:"Catatan perubahan konfigurasi, owner, timestamp, hipotesis, serta hasil setelah perubahan."}
  ]
 },
 {
- concept:"Optimization should move from business outcomes to diagnosis, not from one metric to a spontaneous action. CTR, CPC, CPM, video views, and frequency explain delivery; conversion rate, CPA, revenue, margin, lead quality, and retention are closer to business value. A good creative test predefines its hypothesis, primary variable, audience, budget, duration, primary metric, guardrails, and decision rule. An A/B test is not interpretable when multiple variables change together or the reporting basis is inconsistent.",
- example:"SIMULATED CASE — two creatives each spend Rp1,500,000. Creative A records 20 purchases and Rp3,000,000 revenue (CPA Rp75,000; revenue ROAS 2.0x). Creative B records 30 purchases and Rp4,500,000 revenue (CPA Rp50,000; revenue ROAS 3.0x), despite lower CTR. B appears stronger on the simulated business outcomes, but the team must still check margin, refunds, attribution consistency, and whether the volume is sufficient for a reliable conclusion.",
+ concept:"Optimization harus dimulai dari business outcome lalu bergerak ke diagnosis, bukan dari satu metrik ke tindakan spontan. CTR, CPC, CPM, video views, dan frequency membantu menjelaskan delivery; conversion rate, CPA, revenue, margin, lead quality, dan retention lebih dekat dengan nilai bisnis. Creative testing yang baik menetapkan hypothesis, variabel utama, audience, budget, duration, primary metric, guardrail, dan decision rule sebelum test berjalan. A/B test sulit diinterpretasikan jika banyak variabel berubah sekaligus atau basis reporting tidak sebanding.",
+ example:"KASUS SIMULASI — dua creative masing-masing menghabiskan Rp1.500.000. Creative A menghasilkan 20 purchase dan revenue Rp3.000.000 (CPA Rp75.000; revenue ROAS 2,0x). Creative B menghasilkan 30 purchase dan revenue Rp4.500.000 (CPA Rp50.000; revenue ROAS 3,0x), walaupun CTR-nya lebih rendah. B tampak lebih kuat pada outcome simulasi, tetapi keputusan akhir tetap harus memeriksa margin, refund, konsistensi attribution, dan kecukupan volume untuk menarik kesimpulan.",
  steps:[
-  "<b>Set the metric hierarchy.</b> Start with business outcome; add efficiency (CPA/ROAS), conversion quality, diagnostics (CTR/CPC/CPM/LPV), and guardrails.",
-  "<b>Design a readable test.</b> Define hypothesis, primary variable, control, treatment, randomization unit, audience, budget, duration, minimum evidence, and stopping rule.",
-  "<b>Read the funnel by creative.</b> Inspect impression → click → landing-page view → conversion. Find drop-offs instead of stopping at CTR or video views.",
-  "<b>Keep comparisons consistent.</b> Align attribution window, reporting timezone, conversion definition, spend period, eligibility, and landing-page experience.",
-  "<b>State decisions and uncertainty.</b> Record the winning hypothesis, limitations, business impact, next test, and whether an incrementality/holdout study is needed."
+  "<b>Tetapkan hierarchy metrik.</b> Mulai dari business outcome; tambahkan efficiency (CPA/ROAS), conversion quality, diagnostic (CTR/CPC/CPM/LPV), serta guardrail.",
+  "<b>Rancang test yang bisa dibaca.</b> Tulis hypothesis, primary variable, control, treatment, randomization unit, audience, budget, duration, minimum evidence, dan stopping rule.",
+  "<b>Baca funnel per creative.</b> Telusuri impression → click → landing-page view → conversion. Temukan drop-off, jangan berhenti pada CTR atau video views.",
+  "<b>Jaga comparability.</b> Samakan attribution window, reporting timezone, conversion definition, spend period, eligibility audience, dan landing-page experience.",
+  "<b>Tulis keputusan beserta uncertainty.</b> Catat winning hypothesis, limitation, dampak bisnis, next test, dan kebutuhan incrementality/holdout study."
  ],
- practice:"Use a SIMULATED dataset for two or three creatives. Calculate CPM, CTR, CPC, landing-page-view rate, CVR, CPA, revenue, revenue ROAS, and contribution after ad costs. Build a table or chart, identify funnel drop-offs, and recommend scale, iterate, hold, or stop. Explain why attributed performance alone cannot prove causal lift without a control/holdout or suitable causal design.",
+ practice:"Gunakan dataset SIMULATED untuk dua atau tiga creative. Hitung CPM, CTR, CPC, landing-page-view rate, CVR, CPA, revenue, revenue ROAS, dan contribution setelah biaya iklan. Buat tabel atau chart, tunjukkan funnel drop-off, lalu berikan keputusan scale, iterate, hold, atau stop. Jelaskan mengapa attributed performance saja tidak cukup untuk mengklaim causal lift tanpa control/holdout atau desain kausal yang sesuai.",
  checks:[
-  {q:"Why can a creative with lower CTR still win commercially?",a:"It may bring fewer but higher-quality visits that convert at a better rate or generate more margin. Read outcome, CPA, revenue/margin, and lead/customer quality alongside CTR."},
-  {q:"What should be consistent before comparing two creatives?",a:"Conversion definitions, objective, audience eligibility, attribution window, reporting period, budget/exposure, landing-page experience, and the variable being tested."},
-  {q:"Does higher ROAS automatically prove incrementality?",a:"No. ROAS is attributed revenue per ad spend under a measurement setup. Incrementality requires a comparison with a credible counterfactual, such as a holdout or randomized experiment."}
+  {q:"Mengapa creative dengan CTR lebih rendah masih dapat menang secara bisnis?",a:"Creative tersebut mungkin membawa traffic lebih sedikit tetapi lebih berkualitas, sehingga conversion atau margin lebih baik. Evaluasi outcome, CPA, revenue/margin, dan kualitas lead/customer bersama CTR."},
+  {q:"Apa yang harus konsisten sebelum membandingkan dua creative?",a:"Conversion definition, objective, audience eligibility, attribution window, reporting period, budget/exposure, landing-page experience, serta variabel yang diuji harus cukup sebanding."},
+  {q:"Apakah ROAS yang lebih tinggi otomatis membuktikan incrementality?",a:"Tidak. ROAS menunjukkan attributed revenue per ad spend dalam setup measurement tertentu. Incrementality memerlukan counterfactual yang kredibel seperti holdout atau randomized experiment."}
  ],
  terms:[
-  {term:"Primary metric",definition:"The main measure that determines the test decision and should be chosen before results are viewed."},
-  {term:"Guardrail metric",definition:"A measure that prevents gains in the primary metric from damaging cost, quality, margin, or customer experience."},
-  {term:"A/B test",definition:"A controlled experiment comparing variations around a clearly defined primary variable."},
-  {term:"Attribution window",definition:"The period and rules used by the platform to connect ad exposure/clicks with a conversion."},
-  {term:"Incrementality",definition:"The additional outcome caused by advertising compared with a credible no-ad counterfactual."}
+  {term:"Primary metric",definition:"Metrik utama untuk mengambil keputusan test dan harus ditentukan sebelum hasil dilihat."},
+  {term:"Guardrail metric",definition:"Metrik penjaga agar peningkatan primary metric tidak merusak biaya, kualitas, margin, atau customer experience."},
+  {term:"A/B test",definition:"Eksperimen terkontrol untuk membandingkan variasi dengan satu variabel utama yang terdefinisi."},
+  {term:"Attribution window",definition:"Periode dan aturan yang digunakan platform untuk menghubungkan ad exposure/click dengan conversion."},
+  {term:"Incrementality",definition:"Outcome tambahan yang disebabkan iklan dibandingkan counterfactual tanpa iklan."}
  ]
 },
 {
- concept:"The capstone tests the ability to connect a business brief to an optimization recommendation that can be defended. A complete working pack shows commercial guardrails, objective, audience, per-platform campaign architecture, creative strategy, budget/bidding, tracking, QA, reporting, and a decision log. Meta and TikTok form the core scope; TikTok Shop/Lead Gen and LinkedIn are added only when the conversion path and business case justify them. Any example figures without advertiser data must be labelled SIMULATED.",
- example:"SIMULATED CASE — an Indonesian consumer brand plans a 30-day website-purchase campaign with a hypothetical Rp30 million budget. The brief includes AOV, contribution margin, target orders, and stock constraints. The plan must show budget allocation, objective/event selection, creative tests, event deduplication, monitoring, and decision points. A forecast must never be presented as an actual result.",
+ concept:"Capstone menguji kemampuan menghubungkan business brief sampai rekomendasi optimization yang dapat dipertanggungjawabkan. Satu paket kerja harus menunjukkan commercial guardrails, objective, audience, campaign architecture per platform, creative strategy, budget/bidding, tracking, QA, reporting, serta decision log. Meta dan TikTok menjadi scope inti; TikTok Shop/Lead Gen dan LinkedIn ditambahkan bila conversion path serta business case mendukung. Angka contoh tanpa data advertiser wajib diberi label SIMULATED.",
+ example:"KASUS SIMULASI — brand consumer Indonesia menyiapkan campaign website-purchase selama 30 hari dengan budget hipotetis Rp30 juta. Brief mencantumkan AOV, contribution margin, target order, dan batas stok. Rencana harus menjelaskan pembagian budget, pilihan objective/event, creative test, deduplication event, monitoring, serta kapan keputusan perubahan dilakukan. Forecast tidak boleh disajikan sebagai hasil aktual.",
  steps:[
-  "<b>Brief and economics.</b> Restate the problem, audience, product readiness, AOV, margin, allowable CPA, revenue ROAS target, budget, period, stock, and constraints; label assumptions.",
-  "<b>Strategy and architecture.</b> Define Meta/TikTok roles, objective, conversion location, optimization event, naming, campaign/ad set/ad group/ad structure, audience, placements, budget level, and bid strategy.",
-  "<b>Creative and experiment.</b> Deliver angle/hook matrix, platform-format adaptation, creator rights, policy checks, test hypothesis, control/treatment, primary metric, guardrails, and stopping rule.",
-  "<b>Measurement and QA.</b> Include event map, Pixel/CAPI or Pixel/Events API plan, event_id/deduplication, consent controls, UTM taxonomy, test-event evidence, link/redirect checks, and launch sign-off.",
-  "<b>Reporting and optimization.</b> Prepare pacing and weekly report; analyze funnel, efficiency, creative, audience, frequency, and data quality; defend scale/iterate/hold/stop decisions.",
-  "<b>Handover and learning.</b> Package source files, assumptions, version, owner, unresolved risks, and next experiment so another specialist can reproduce the work."
+  "<b>Brief dan economics.</b> Restate problem, audience, product readiness, AOV, margin, allowable CPA, revenue ROAS target, budget, periode, stok, dan constraints; beri label pada setiap asumsi.",
+  "<b>Strategy dan architecture.</b> Tetapkan peran Meta/TikTok, objective, conversion location, optimization event, naming, campaign/ad set/ad group/ad structure, audience, placements, budget level, dan bid strategy.",
+  "<b>Creative dan experiment.</b> Siapkan angle/hook matrix, adaptasi format platform, creator rights, policy check, test hypothesis, control/treatment, primary metric, guardrail, dan stopping rule.",
+  "<b>Measurement dan QA.</b> Sertakan event map, Pixel/CAPI atau Pixel/Events API plan, event_id/deduplication, consent controls, UTM taxonomy, test-event evidence, link/redirect checks, serta launch sign-off.",
+  "<b>Reporting dan optimization.</b> Siapkan pacing sheet dan weekly report; analisis funnel, efficiency, creative, audience, frequency, dan data quality; pertanggungjawabkan keputusan scale/iterate/hold/stop.",
+  "<b>Handover dan learning.</b> Kemas source file, assumptions, version, owner, unresolved risks, serta next experiment agar pekerjaan dapat direplikasi specialist lain."
  ],
- practice:"Assemble one capstone folder containing: (1) brief restatement and unit economics, (2) platform role/objective decision, (3) Meta and TikTok architecture, (4) audience matrix, (5) creative strategy and test matrix, (6) budget/bid/pacing sheet, (7) event map + UTM + deduplication plan, (8) pre-launch QA checklist, (9) weekly report using SIMULATED data, and (10) optimization memo. Present the decisions in 8–10 slides. Score each rubric area from 0–3: business logic, platform setup, creative/testing, tracking/QA, commercial analysis, and evidence/limitations. Each area must score at least 2; at least two areas must score 3 before the work is called portfolio-ready.",
+ practice:"Susun satu capstone folder berisi: (1) brief restatement dan unit economics, (2) platform role/objective decision, (3) Meta dan TikTok architecture, (4) audience matrix, (5) creative strategy dan test matrix, (6) budget/bid/pacing sheet, (7) event map + UTM + deduplication plan, (8) pre-launch QA checklist, (9) weekly report memakai data SIMULATED, dan (10) optimization memo. Presentasikan keputusan dalam 8–10 slide. Beri skor 0–3 untuk business logic, platform setup, creative/testing, tracking/QA, commercial analysis, dan evidence/limitations. Setiap area harus minimal 2; setidaknya dua area harus mendapat 3 sebelum pekerjaan disebut portfolio-ready.",
  checks:[
-  {q:"What makes a capstone portfolio-ready rather than just a campaign mock-up?",a:"A traceable line connects the brief and unit economics to objective, audience, structure, creative, budget, tracking, QA, results, and decisions. The files are reproducible and assumptions/data are honestly labelled."},
-  {q:"How should synthetic performance data be presented?",a:"Label every table/chart SIMULATED, explain how it was constructed, and never describe it as an actual campaign or client result."},
-  {q:"What belongs in an optimization memo?",a:"The decision, evidence, KPI-versus-target comparison, diagnosis, risk/limitation, owner, timeline, and a specific next test."}
+  {q:"Apa yang membedakan capstone portfolio-ready dari campaign mock-up biasa?",a:"Ada alur yang dapat ditelusuri dari brief dan unit economics ke objective, audience, structure, creative, budget, tracking, QA, hasil, serta keputusan. File dapat direplikasi dan semua asumsi/data diberi label dengan jujur."},
+  {q:"Bagaimana data performa sintetis harus ditampilkan?",a:"Beri label SIMULATED pada setiap tabel/chart, jelaskan cara pembuatannya, dan jangan menyebutnya hasil campaign aktual atau client work."},
+  {q:"Apa saja yang harus ada dalam optimization memo?",a:"Keputusan, evidence, perbandingan KPI dengan target, diagnosis, risk/limitation, owner, timeline, dan next test yang spesifik."}
  ],
  terms:[
-  {term:"Campaign launch plan",definition:"The pre-launch package covering objective, structure, budget, creative, tracking, QA, and approvals."},
-  {term:"Optimization memo",definition:"A post-analysis decision record connecting evidence to action, rationale, risk, and the next experiment."},
-  {term:"SIMULATED",definition:"An explicit label stating that figures or outcomes are created for learning, not actual advertiser performance."},
-  {term:"Portfolio-ready",definition:"Work that can be explained, reproduced, checked, and includes honest decisions and limitations."},
-  {term:"Handover",definition:"Transfer of files, context, IDs, ownership, status, change log, and unresolved issues to the next owner."}
+  {term:"Campaign launch plan",definition:"Paket pra-launch yang mencakup objective, structure, budget, creative, tracking, QA, serta approval."},
+  {term:"Optimization memo",definition:"Dokumen keputusan pasca-analisis yang menghubungkan evidence dengan tindakan, alasan, risiko, dan eksperimen berikutnya."},
+  {term:"SIMULATED",definition:"Label eksplisit bahwa angka atau outcome dibuat untuk latihan, bukan performa advertiser aktual."},
+  {term:"Portfolio-ready",definition:"Kualitas pekerjaan yang dapat dijelaskan, direplikasi, diperiksa, serta menyertakan keputusan dan limitation secara jujur."},
+  {term:"Handover",definition:"Penyerahan file, konteks, ID, ownership, status, change log, dan isu yang belum selesai kepada owner berikutnya."}
  ]
 }
 ];
