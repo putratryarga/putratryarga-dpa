@@ -406,14 +406,12 @@
 **Practice / deliverable:** Buat brief diagnosis dua halaman: business context, problem tree, communication challenge, target audience, objective, baseline/target, constraint, stakeholder, tiga research question, serta evidence/assumption log. Labeli setiap angka SIMULATED bila bukan data aktual.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda business problem dan communication problem?
+   **Expected answer in guide:** Business problem adalah hasil komersial yang perlu berubah; communication problem adalah hambatan persepsi, pemahaman, preference, atau tindakan yang memang dapat dipengaruhi komunikasi.
+2. **Q:** Mengapa brief tidak boleh langsung berisi channel?
+   **Expected answer in guide:** Channel baru dipilih setelah audience, barrier, objective, dan journey dipahami. Memulai dari channel berisiko mengoptimalkan media untuk masalah yang salah.
+3. **Q:** Bagaimana membuktikan sebuah masalah berada dalam kendali komunikasi?
+   **Expected answer in guide:** Triangulasikan riset audience, perilaku, pesan yang diterima, dan faktor komersial seperti harga/stok. Catat faktor yang tidak dapat dikendalikan planner.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -442,14 +440,12 @@
 **Practice / deliverable:** Buat dua audience profile lengkap dengan jobs-to-be-done, tension, trigger, barrier, alternatives, proof needed, media behavior, dan implication untuk pesan/touchpoint. Sertakan source log dan satu research gap per segmen.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa persona demografis saja tidak cukup?
+   **Expected answer in guide:** Demografi membantu mendeskripsikan populasi, tetapi tidak menjelaskan motivasi, trigger, hambatan, atau bukti yang diperlukan untuk mengambil keputusan.
+2. **Q:** Apa risiko memakai social listening sebagai satu-satunya riset?
+   **Expected answer in guide:** Percakapan publik tidak selalu representatif, dapat bias platform, loud minority, dan tidak selalu menjelaskan sebab perilaku.
+3. **Q:** Kapan segmentasi layak digunakan untuk strategi?
+   **Expected answer in guide:** Saat segmen memiliki kebutuhan/perilaku berbeda yang mengubah proposition, channel, experience, atau keputusan investasi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -478,14 +474,12 @@
 **Practice / deliverable:** Buat cultural insight board berisi lima sinyal, dua tren, satu human tension, evidence pro/kontra, brand role, serta tiga potential communication territories. Jangan mengklaim hubungan kausal dari korelasi tren.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda trend dan insight?
+   **Expected answer in guide:** Trend menunjukkan pola/sinyal yang berkembang; insight menjelaskan motivasi atau tension yang mendasari perilaku dan mengarahkan keputusan.
+2. **Q:** Mengapa insight harus punya evidence yang dapat membantahnya?
+   **Expected answer in guide:** Tanpa falsifiability, insight mudah menjadi slogan yang terdengar menarik tetapi tidak dapat diuji atau dipakai mengambil keputusan.
+3. **Q:** Apa yang dimaksud brand fit dalam cultural moment?
+   **Expected answer in guide:** Kesesuaian antara nilai, pengalaman, kompetensi, dan peran nyata brand dengan isu yang ingin dimasuki.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -514,14 +508,12 @@
 **Practice / deliverable:** Susun positioning statement, value proposition, 3 proof points, 3 objections beserta respons, messaging hierarchy, dan satu communication strategy statement. Tandai klaim yang membutuhkan persetujuan legal atau validasi produk.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa perbedaan proposition dan tagline?
+   **Expected answer in guide:** Proposition menjelaskan nilai dan alasan memilih brand; tagline adalah ekspresi kreatif singkat yang dapat menjadi salah satu bentuk komunikasi.
+2. **Q:** Mengapa proof point tidak boleh dibuat hanya dari copywriting?
+   **Expected answer in guide:** Proof harus berasal dari fakta produk, data, sertifikasi, pengalaman, atau bukti yang dapat diverifikasi. Klaim tanpa dasar menimbulkan risiko reputasi/legal.
+3. **Q:** Bagaimana menguji messaging hierarchy?
+   **Expected answer in guide:** Pastikan pesan utama konsisten, supporting messages menjawab barrier, proof dapat diverifikasi, dan CTA sesuai tahap journey.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -550,14 +542,12 @@
 **Practice / deliverable:** Buat journey map minimal enam tahap yang berisi audience action, question, emotion, friction, touchpoint, brand role, owner, evidence, dan opportunity. Pilih tiga moments of truth dan jelaskan alasan prioritas.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa journey tidak selalu funnel linear?
+   **Expected answer in guide:** Audience dapat bolak-balik, melompat, dipengaruhi marketplace/offline, dan menerima rekomendasi sebelum atau sesudah search.
+2. **Q:** Apa beda touchpoint dengan channel?
+   **Expected answer in guide:** Channel adalah medium/distribusi; touchpoint adalah interaksi spesifik yang dialami audience pada konteks dan waktu tertentu.
+3. **Q:** Bagaimana memilih moment of truth?
+   **Expected answer in guide:** Gunakan evidence dampak pada keputusan, intensitas friction, frekuensi/reach, dan kemampuan brand memperbaiki pengalaman.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -586,14 +576,12 @@
 **Practice / deliverable:** Buat channel-role matrix untuk minimal enam channel. Cantumkan task, audience, message, format, KPI, timing, dependency, owner, serta alasan channel dipilih atau ditolak.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa channel tidak dipilih hanya berdasarkan CPM termurah?
+   **Expected answer in guide:** Biaya exposure tidak menjelaskan trust, intent, attention, experience, conversion, atau contribution terhadap outcome.
+2. **Q:** Apa fungsi shared media?
+   **Expected answer in guide:** Distribusi atau penyebaran yang didorong partisipasi audience, creator, komunitas, atau jaringan sosial; bukan sepenuhnya dibeli atau dikontrol brand.
+3. **Q:** Bagaimana menghindari channel silos?
+   **Expected answer in guide:** Gunakan satu journey dan messaging architecture, tentukan handoff, shared measurement, owner, dan aturan frekuensi/sequence.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -622,14 +610,12 @@
 **Practice / deliverable:** Bangun communication architecture satu campaign, message house, messaging matrix enam touchpoint, sequence/timing plan, dan governance/approval checklist. Sertakan contoh pesan per platform dan alasan adaptasinya.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko pesan terlalu seragam di semua channel?
+   **Expected answer in guide:** Pesan dapat kehilangan relevansi konteks dan intent; audience dipaksa menerima format yang tidak sesuai tahap atau kebutuhan.
+2. **Q:** Apa risiko pesan terlalu berbeda antar-channel?
+   **Expected answer in guide:** Brand promise menjadi tidak konsisten, proof saling bertentangan, dan audience menerima pengalaman terputus.
+3. **Q:** Apa yang dimaksud architecture, bukan sekadar content calendar?
+   **Expected answer in guide:** Architecture menentukan hubungan strategis audience, objective, message, channel, sequence, dan experience; calendar hanya menempatkan aktivitas pada waktu.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -658,14 +644,12 @@
 **Practice / deliverable:** Buat creative brief, channel adaptation matrix, asset/deliverable schedule, RACI/owner table, approval checklist, dan risk register untuk satu integrated campaign.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa bedanya creative brief dan media brief?
+   **Expected answer in guide:** Creative brief mengarahkan ide/pesan/pengalaman; media brief mengarahkan target, channel, inventory, budget, timing, dan delivery.
+2. **Q:** Mengapa desired response harus jelas?
+   **Expected answer in guide:** Agar creative team mengerti perubahan audience yang dituju dan dapat menilai apakah ide bekerja untuk objective.
+3. **Q:** Apa bukti handoff berhasil?
+   **Expected answer in guide:** Owner menerima brief dan aset dengan konteks, spesifikasi, deadline, KPI, approval, dependency, serta kriteria QA yang disepakati.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -694,14 +678,12 @@
 **Practice / deliverable:** Rancang measurement framework campaign dengan KPI output/outtake/outcome, measurement method, baseline, target, learning question, decision rule, dan limitation. Tulis satu rekomendasi berdasarkan data SIMULATED.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah reach tinggi membuktikan komunikasi efektif?
+   **Expected answer in guide:** Tidak. Reach adalah output delivery; efektivitas perlu bukti perubahan pemahaman, persepsi, perilaku, atau outcome sesuai objective.
+2. **Q:** Apa beda attribution dan incrementality?
+   **Expected answer in guide:** Attribution membagi kredit menurut aturan model; incrementality mengestimasi tambahan outcome yang disebabkan aktivitas dibanding kondisi counterfactual.
+3. **Q:** Mengapa learning agenda harus ditetapkan sebelum campaign?
+   **Expected answer in guide:** Agar pengumpulan data, metode, sample, dan decision threshold sesuai pertanyaan; mengurangi bias memilih metrik setelah melihat hasil.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -730,14 +712,12 @@
 **Practice / deliverable:** Susun deck 10–12 slide dan workbook: brief, evidence log, audience/insight, positioning, journey, message house, channel-role matrix, creative brief, measurement/learning agenda, governance, budget implication, dan 30/60/90-day next steps. Labeli synthetic assumptions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang membedakan capstone strategis dari moodboard?
+   **Expected answer in guide:** Capstone menunjukkan evidence, diagnosis, strategi, channel/message architecture, feasibility, KPI, governance, dan keputusan yang dapat dipertanggungjawabkan.
+2. **Q:** Bagaimana menyampaikan uncertainty kepada klien?
+   **Expected answer in guide:** Nyatakan assumption, confidence, data gap, sensitivity, dan cara mengujinya; jangan menyamarkan estimasi sebagai fakta.
+3. **Q:** Apa ukuran recommendation siap dijalankan?
+   **Expected answer in guide:** Ada owner, timeline, asset/approval requirements, budget implication, KPI, QA, risks, dan decision gates.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -768,14 +748,12 @@
 **Practice / deliverable:** Buat media brief intake dan assumption log satu campaign: objective tree, audience, target market, timeline, budget, KPI, mandatories, inventory dependencies, serta lima pertanyaan klarifikasi untuk klien.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda business objective dan media objective?
+   **Expected answer in guide:** Business objective adalah hasil bisnis; media objective adalah kontribusi distribusi/eksposur atau aksi media yang mendukung hasil tersebut.
+2. **Q:** Mengapa distribution footprint harus dicek sebelum national reach plan?
+   **Expected answer in guide:** Media dapat menjangkau wilayah tanpa produk/layanan tersedia; exposure tersebut membuang budget dan dapat merusak experience.
+3. **Q:** Apa yang harus dilakukan ketika brief belum lengkap?
+   **Expected answer in guide:** Catat gap, minta clarification, nyatakan asumsi sementara, dan jangan menyajikan forecast seolah-olah sudah pasti.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -804,14 +782,12 @@
 **Practice / deliverable:** Buat audience landscape berisi 2–3 segmen, estimasi universe dengan source caveat, media consumption, occasion, platform role, duplication risk, dan implikasi terhadap channel selection.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa audience estimate tidak bisa langsung dijumlahkan lintas platform?
+   **Expected answer in guide:** Universe, identity resolution, time window, deduplication, dan metode pengukuran berbeda; hasilnya dapat overlap.
+2. **Q:** Apa fungsi first-party data dalam media planning?
+   **Expected answer in guide:** Membantu memahami existing customers/consented audience dan membangun targeting atau suppression, dengan governance serta izin yang sesuai.
+3. **Q:** Mengapa data source harus punya tanggal dan metodologi?
+   **Expected answer in guide:** Audience behavior dan platform definitions berubah; tanpa recency/method, planner tidak bisa menilai reliability estimate.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -840,14 +816,12 @@
 **Practice / deliverable:** Buat inventory evaluation sheet minimal enam opsi: audience fit, placement/context, buying type, rate basis, projected delivery, quality controls, reporting, exclusions, dan recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa CPM murah belum tentu inventory bernilai?
+   **Expected answer in guide:** Cost per thousand tidak mengukur viewability, IVT, contextual suitability, attention, audience relevance, atau outcomes.
+2. **Q:** Apa beda publisher direct dan DSP inventory?
+   **Expected answer in guide:** Direct dibeli melalui media owner/representative dengan terms spesifik; DSP mengakses inventory melalui platform dan mekanisme auction/deal.
+3. **Q:** Apa yang dimaksud apples-to-apples media comparison?
+   **Expected answer in guide:** Menyamakan scope, format, audience, dates, impressions/reach, fee, measurement, dan delivery terms sebelum membandingkan harga.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -876,14 +850,12 @@
 **Practice / deliverable:** Buat KPI dictionary untuk minimal enam media metric dan susun objective-to-KPI tree. Sertakan rumus, sumber, unit, target, guardrail, window, dan alasan pemilihan.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa KPI perlu denominator dan window?
+   **Expected answer in guide:** Tanpa denominator/periode yang jelas, angka tidak dapat dibandingkan dan dapat menyesatkan.
+2. **Q:** Apa beda primary dan diagnostic metric?
+   **Expected answer in guide:** Primary menentukan keberhasilan; diagnostic membantu menjelaskan penyebab perubahan primary metric.
+3. **Q:** Mengapa CTR tidak boleh menjadi KPI universal?
+   **Expected answer in guide:** CTR bergantung pada format, objective, placement, audience, dan click definition; ia tidak selalu mencerminkan business outcome.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -912,14 +884,12 @@
 **Practice / deliverable:** Buat tiga media-mix scenarios dengan budget total tetap. Untuk setiap skenario tulis allocation, KPI, forecast range, assumptions, risks, marginal trade-off, dan kondisi realokasi.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda average ROAS dan marginal ROAS?
+   **Expected answer in guide:** Average menilai hasil keseluruhan; marginal mengukur hasil tambahan dari satu unit budget berikutnya dan lebih relevan untuk scaling.
+2. **Q:** Mengapa satu channel dengan ROAS tertinggi tidak otomatis menerima seluruh budget?
+   **Expected answer in guide:** Volume, incrementality, role dalam demand creation, saturation, overlap, margin, dan channel risk dapat membuat return marginal turun.
+3. **Q:** Apa yang wajib ada dalam forecast?
+   **Expected answer in guide:** Input, formula, time window, range, source, confidence, scenario, serta penjelasan bahwa forecast bukan guaranteed delivery.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -948,14 +918,12 @@
 **Practice / deliverable:** Buat media forecast dengan CPM, reach, frequency, GRP/TRP, dan CPP untuk skenario latihan. Tulis source/universe, formula, assumptions, duplication caveat, dan sensitivity saat reach turun.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda impressions dan reach?
+   **Expected answer in guide:** Impressions menghitung exposure; reach menghitung individu/household unik menurut metodologi yang digunakan.
+2. **Q:** Apa arti GRP?
+   **Expected answer in guide:** Gross Rating Points mengukur total rating points berdasarkan target universe; dapat mencakup repeated exposure.
+3. **Q:** Mengapa platform reach tidak selalu dapat dijumlahkan lintas channel?
+   **Expected answer in guide:** Setiap platform dapat menggunakan identity, deduplication, universe, dan time window berbeda.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -984,14 +952,12 @@
 **Practice / deliverable:** Buat flowchart 8 minggu dengan channel/format, spend weighting, flighting, asset deadline, dependencies, dan three contingency scenarios. Tulis change-control rules jika dates atau inventory berubah.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko flighting tanpa stock calendar?
+   **Expected answer in guide:** Iklan dapat mendorong demand saat produk tidak tersedia dan membuang budget atau menurunkan customer trust.
+2. **Q:** Kapan pulsing lebih tepat daripada full continuity?
+   **Expected answer in guide:** Saat baseline presence dibutuhkan tetapi demand/seasonality memiliki momen puncak yang memerlukan intensitas tambahan.
+3. **Q:** Apa fungsi dependency mapping?
+   **Expected answer in guide:** Memastikan booking, creative, approvals, tags, stock, dan owner siap sesuai urutan launch.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1020,14 +986,12 @@
 **Practice / deliverable:** Buat buying brief, RFP question list, apples-to-apples proposal comparison, owner/RACI table, dan handoff checklist untuk satu digital + publisher package.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda media planner dan media buyer?
+   **Expected answer in guide:** Planner merancang channel/budget/forecast dan rationale; buyer melakukan negotiation, booking, buying terms, serta stewardship sesuai mandat.
+2. **Q:** Mengapa rate card tidak cukup untuk menilai proposal?
+   **Expected answer in guide:** Perlu delivery basis, audience, placement quality, fees, value-add, dates, measurement, cancellation, serta contractual makegood.
+3. **Q:** Apa bukti buying handoff siap?
+   **Expected answer in guide:** Buyer menerima brief final, inventory/format, budget/date, KPI, spec, tracking, approval, terms, dan escalation owner.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1056,14 +1020,12 @@
 **Practice / deliverable:** Buat post-buy report berisi plan-vs-actual, reach/frequency, cost variance, placement quality, outcome, discrepancy note, root-cause hypothesis, dan tiga next-flight decisions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa CPM turun belum tentu kemenangan?
+   **Expected answer in guide:** CPM lebih murah bisa disebabkan placement/audience quality menurun atau delivery bergeser; cek reach, attention, fraud, conversion, dan margin.
+2. **Q:** Apa beda delivery analysis dan effectiveness analysis?
+   **Expected answer in guide:** Delivery menilai pemenuhan media plan; effectiveness menilai perubahan audience/business outcome.
+3. **Q:** Apa syarat rekomendasi optimization yang kuat?
+   **Expected answer in guide:** Root cause evidence, change spesifik, expected mechanism, KPI/guardrail, owner, dan batas inferensi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1092,14 +1054,12 @@
 **Practice / deliverable:** Siapkan media plan 10 slide plus workbook: brief, audience, inventory evaluation, channel roles, budget scenarios, reach/frequency forecast, flowchart, buying brief, KPI dashboard specification, post-buy evaluation plan, dan assumptions log.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang membuat media plan dapat dipertanggungjawabkan?
+   **Expected answer in guide:** Setiap keputusan terkait audience, task, inventory, budget, forecast, KPI, dan timing memiliki rationale serta sumber/asumsi.
+2. **Q:** Mengapa forecast perlu scenario range?
+   **Expected answer in guide:** Inventory, audience, price, competition, creative readiness, dan response tidak pasti; satu angka tunggal memberi kepastian palsu.
+3. **Q:** Apa yang harus disiapkan untuk presentasi klien?
+   **Expected answer in guide:** Recommendation, logic, budget, KPI, timing, risks, assumptions, dependencies, owner, dan keputusan yang diminta.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1130,14 +1090,12 @@
 **Practice / deliverable:** Buat search ecosystem map untuk satu kategori: query types, auction factors, account actors, conversion actions, landing-page match, dan KPI chain. Gunakan sample query nyata atau label SIMULATED.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa search bukan sekadar bidding keyword?
+   **Expected answer in guide:** Auction, query intent, relevance, landing experience, conversion signal, budget, dan competition bersama-sama menentukan delivery serta outcome.
+2. **Q:** Apa perbedaan keyword dengan search term?
+   **Expected answer in guide:** Keyword adalah target/setting yang dipilih advertiser; search term adalah query aktual yang memicu iklan.
+3. **Q:** Mengapa conversion harus didefinisikan sebelum campaign?
+   **Expected answer in guide:** Bidding dan reporting belajar dari conversion signal; event yang salah mengarahkan algoritma serta keputusan budget ke outcome yang keliru.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1166,14 +1124,12 @@
 **Practice / deliverable:** Buat 30-keyword intent map dengan cluster, priority, expected query type, CPC/volume source, landing page, negative candidates, dan assumptions. Buat competitor SERP review untuk tiga query utama.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa volume tinggi tidak selalu berarti prioritas tinggi?
+   **Expected answer in guide:** Volume tanpa intent, conversion potential, margin, landing fit, dan economics bisa menghasilkan traffic mahal tetapi tidak bernilai.
+2. **Q:** Bagaimana mengelompokkan keyword?
+   **Expected answer in guide:** Berdasarkan intent, product/service, need, brand, competitor, geography, dan funnel context.
+3. **Q:** Apa batas competitor ad analysis?
+   **Expected answer in guide:** Ad copy/visibility adalah observasi; tidak memberi akses ke bid, actual CPA, margin, atau conversion results pesaing.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1202,14 +1158,12 @@
 **Practice / deliverable:** Bangun account map untuk brand latihan: account settings, 3 campaign, ad groups, keyword clusters, ad assets, landing pages, conversion actions, naming, dan QA checks. Jelaskan alasan struktur.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa tidak membuat satu campaign untuk setiap keyword?
+   **Expected answer in guide:** Fragmentasi dapat membagi budget/conversion signals dan membuat learning serta management tidak efisien.
+2. **Q:** Kapan campaign perlu dipisah?
+   **Expected answer in guide:** Saat objective, budget, geo, product economics, brand protection, atau bidding strategy membutuhkan kontrol berbeda.
+3. **Q:** Apa tujuan naming taxonomy?
+   **Expected answer in guide:** Menjamin identifikasi objek, konsistensi laporan, QA, perubahan, dan handover antar operator.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1238,14 +1192,12 @@
 **Practice / deliverable:** Buat search-term mining worksheet dari data latihan minimal 100 rows: intent, relevance, cost, conversions, value, action (keep/negative/observe), rationale, serta owner/date. Tulis daftar negative beserta risiko false positive.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa fungsi search terms report?
+   **Expected answer in guide:** Menunjukkan query yang memicu iklan untuk menilai intent, relevansi, biaya, conversion quality, dan peluang keyword/negative.
+2. **Q:** Apa risiko negative keyword terlalu agresif?
+   **Expected answer in guide:** Query bernilai dapat terblokir sehingga reach, volume, dan learning berkurang.
+3. **Q:** Mengapa match type harus dicek di dokumentasi terbaru?
+   **Expected answer in guide:** Platform mengubah matching behavior dan close variants; label match tidak selalu berarti literal match.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1274,14 +1226,12 @@
 **Practice / deliverable:** Buat dua RSA concept untuk satu ad group: masing-masing 10–15 headline draft, empat description, assets, keyword theme, LP URL, proof requirement, dan policy checklist. Tandai klaim yang memerlukan substantiation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang dimaksud message match?
+   **Expected answer in guide:** Konsistensi antara query, ad promise, offer, dan konten landing page sehingga audience menemukan yang dijanjikan.
+2. **Q:** Mengapa semua headline tidak harus memiliki CTA yang sama?
+   **Expected answer in guide:** Asset perlu melengkapi benefit, proof, offer, dan action; repetisi mengurangi kombinasi informasi yang tersedia.
+3. **Q:** Apa yang dilakukan jika CTR naik tetapi CVR turun?
+   **Expected answer in guide:** Audit query mix, promise-to-page match, audience quality, page experience, offer, dan tracking sebelum menyimpulkan creative lebih baik.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1310,14 +1260,12 @@
 **Practice / deliverable:** Simulasikan tiga bid strategies untuk satu campaign. Isi input signal, required data, budget, expected trade-off, monitoring metrics, guardrail, dan perubahan yang dilakukan pada kasus underdelivery/overspend.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa smart bidding tidak memperbaiki conversion tracking yang rusak?
+   **Expected answer in guide:** Algoritma mengoptimalkan signal yang diberikan; event salah/duplikat membuat learning dan budget allocation ikut salah.
+2. **Q:** Apa risiko menetapkan target ROAS terlalu tinggi?
+   **Expected answer in guide:** Delivery dapat menyempit atau berhenti mengejar peluang yang masih profitable pada target bisnis sebenarnya.
+3. **Q:** Apa yang dipantau selain average CPA?
+   **Expected answer in guide:** Conversion value, margin, volume, query quality, impression share, budget pacing, new-customer share, dan marginal performance.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1346,14 +1294,12 @@
 **Practice / deliverable:** Buat conversion measurement spec untuk lead dan purchase: event name, trigger, parameters/value, tag owner, source of truth, consent, deduplication, QA test, offline import field, dan reconciliation plan.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa form submit belum tentu qualified lead?
+   **Expected answer in guide:** Submit hanya perilaku awal; qualification memerlukan validasi data, fit, sales response, dan outcome CRM.
+2. **Q:** Apa risiko conversion double-counting?
+   **Expected answer in guide:** Bidding/reporting menganggap conversion lebih banyak sehingga CPA/ROAS dan optimasi menjadi bias.
+3. **Q:** Apa fungsi offline conversion import?
+   **Expected answer in guide:** Menghubungkan conversion yang terjadi di CRM/sales setelah click dengan campaign signal, sesuai identifier, privacy, dan rules.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1382,14 +1328,12 @@
 **Practice / deliverable:** Buat weekly search diagnosis report dengan segmentation, search term issues, lost IS, Quality Score components, LP issue, tracking check, root-cause hypotheses, prioritized actions, owner, dan follow-up date.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah Quality Score dapat menjadi business KPI?
+   **Expected answer in guide:** Tidak. Ia diagnostic indicator untuk relevance/auction context; success harus dilihat pada cost, qualified conversion, value, dan margin.
+2. **Q:** Apa beda lost IS budget dan lost IS rank?
+   **Expected answer in guide:** Budget loss menunjukkan batas anggaran; rank loss berkaitan competitiveness/Ad Rank, bid, relevance, dan auction context.
+3. **Q:** Mengapa diagnosis harus disegmentasi?
+   **Expected answer in guide:** Rata-rata account dapat menutupi query, device, region, atau landing-page pockets yang punya masalah berbeda.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1418,14 +1362,12 @@
 **Practice / deliverable:** Buat experiment backlog tiga test untuk Search: ad-message test, LP test, dan match/negative strategy test. Untuk satu test, lengkapi protocol, sample/duration assumptions, guardrails, QA, decision rule, dan results template.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa perubahan banyak variabel sekaligus berbahaya?
+   **Expected answer in guide:** Penyebab hasil tidak dapat diisolasi, sehingga tim tidak tahu intervensi mana yang memberi dampak.
+2. **Q:** Apa arti hasil inconclusive?
+   **Expected answer in guide:** Bukti belum cukup untuk memilih pemenang; itu bukan bukti bahwa variasi identik.
+3. **Q:** Kapan eksperimen sebaiknya dihentikan?
+   **Expected answer in guide:** Sesuai pre-defined stopping rule, misalnya safety issue, tracking failure, budget limit, atau sample/time threshold—bukan saat hasil disukai.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1454,14 +1396,12 @@
 **Practice / deliverable:** Bangun Search case-study workbook: brief, intent map 30 keywords, architecture, RSA assets, negative list, bid/budget scenario, conversion spec, QA log, weekly report, 3 optimizations, dan executive summary.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang membuat paid search capstone berbeda dari kumpulan keyword?
+   **Expected answer in guide:** Ia membuktikan intent-to-conversion system, termasuk architecture, message match, economics, tracking, optimization, dan QA.
+2. **Q:** Mengapa qualified lead lebih bernilai daripada raw form volume?
+   **Expected answer in guide:** Qualified lead lebih dekat ke pipeline/revenue; raw form dapat dipenuhi spam atau audience yang tidak sesuai.
+3. **Q:** Bagaimana membedakan actual dan simulated result di portfolio?
+   **Expected answer in guide:** Gunakan label jelas, jelaskan sumber/rumus, jangan klaim client spend atau campaign outcome yang tidak pernah terjadi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1864,14 +1804,12 @@
 **Practice / deliverable:** Buat programmatic ecosystem diagram dan cost-flow workbook untuk satu campaign. Sertakan owner, object, data/signal, fee layer, risk, dan kontrol pada setiap node.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa perbedaan DSP dan SSP?
+   **Expected answer in guide:** DSP membantu advertiser membeli inventory; SSP membantu publisher mengelola dan menjual inventory.
+2. **Q:** Mengapa programmatic tidak sama dengan paid social?
+   **Expected answer in guide:** Programmatic membeli inventory lintas publisher melalui DSP/exchange; paid social berjalan pada platform social dengan inventory/audience system masing-masing.
+3. **Q:** Mengapa supply-chain transparency penting?
+   **Expected answer in guide:** Intermediary fees, reselling, unauthorized supply, dan poor-quality inventory dapat mengurangi net value dan accountability.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1900,14 +1838,12 @@
 **Practice / deliverable:** Buat bid-flow diagram dan supply-path audit untuk dua inventory scenarios. Isi request signals, eligibility, auction/deal type, fee layers, authorized sellers checks, timeout risk, dan optimization actions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa itu bid floor?
+   **Expected answer in guide:** Harga minimum yang disyaratkan supply side untuk eligible impression/deal.
+2. **Q:** Apa fungsi ads.txt dan sellers.json?
+   **Expected answer in guide:** Membantu transparansi dan otorisasi penjual inventory, tetapi tidak sendirian menjamin kualitas.
+3. **Q:** Mengapa bid tinggi tidak menjamin win?
+   **Expected answer in guide:** Eligibility, deal rules, timeout, floor, auction competition, creative compatibility, dan supply signals juga menentukan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1936,14 +1872,12 @@
 **Practice / deliverable:** Buat audience decision matrix: first-party, contextual, publisher, and third-party options. Sertakan reach/match assumption, consent basis, quality risks, freshness, cost, and use-case fit.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda first-party audience dan third-party data?
+   **Expected answer in guide:** First-party berasal dari hubungan/interaksi langsung organisasi; third-party diperoleh dari sumber/pihak eksternal dengan ketentuan penggunaan.
+2. **Q:** Mengapa match rate bukan audience quality?
+   **Expected answer in guide:** Match rate hanya menunjukkan keberhasilan matching; tidak membuktikan intent, freshness, identity accuracy, atau conversion likelihood.
+3. **Q:** Kapan contextual targeting lebih tepat?
+   **Expected answer in guide:** Ketika page/content context relevan dan identity/consent constraints membatasi behavioral targeting, dengan QA brand suitability.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1972,14 +1906,12 @@
 **Practice / deliverable:** Buat inventory matrix minimal enam opsi (display, video, CTV, audio, native, in-app atau DOOH) dengan format specs, deal type, audience, quality checks, cost assumptions, and use-case rationale.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda brand safety dan brand suitability?
+   **Expected answer in guide:** Safety menghindari konten yang jelas berbahaya; suitability menilai kesesuaian konteks dengan brand/category tolerance.
+2. **Q:** Apa perbedaan PMP dan programmatic guaranteed?
+   **Expected answer in guide:** PMP biasanya private auction access; programmatic guaranteed memiliki komitmen inventory/price/delivery yang disepakati.
+3. **Q:** Mengapa format harus divalidasi sebelum buying?
+   **Expected answer in guide:** Format incompatibility dapat menyebabkan rejection, rendering error, underdelivery, atau pengalaman iklan buruk.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2008,14 +1940,12 @@
 **Practice / deliverable:** Buat DSP setup workbook untuk satu campaign: object hierarchy, naming, budgets, bids, audiences, inventory/deals, creatives, tracking, permissions, launch checklist, and monitoring cadence.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa platform interface skills tidak cukup?
+   **Expected answer in guide:** Trader harus memahami auction, supply, data, economics, verification, measurement, dan troubleshooting di balik kontrol UI.
+2. **Q:** Apa beda line item dengan creative?
+   **Expected answer in guide:** Line item mengatur delivery, targeting, bid, budget, dan schedule; creative adalah asset yang ditayangkan.
+3. **Q:** Apakah sertifikasi DV360 otomatis memberi akses live seat?
+   **Expected answer in guide:** Tidak. Learning credential dan akses akun/seat dikendalikan organisasi/partner dan ketentuan platform.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2044,14 +1974,12 @@
 **Practice / deliverable:** Buat trafficking sheet, creative spec matrix, macro/URL map, tag map, deal checklist, and QA evidence for one synthetic DSP campaign.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko click macro salah?
+   **Expected answer in guide:** Click-through dapat hilang, salah redirect, mengganggu billing atau memutus measurement.
+2. **Q:** Mengapa trafficking sheet menjadi single source of truth?
+   **Expected answer in guide:** Sheet mengikat object, tag, date, budget, creative, owner, approval, dan status untuk mencegah konfigurasi berbeda.
+3. **Q:** Apa bukti QA selain upload success?
+   **Expected answer in guide:** Preview/render evidence, click test, landing validation, tracking test, policy/approval, and sign-off.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2080,14 +2008,12 @@
 **Practice / deliverable:** Buat pacing simulator harian dengan planned vs actual spend, bid, win rate, CPM, frequency, reach, and outcomes. Simulasikan underdelivery, overspend, and fatigue; dokumentasikan root-cause decisions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa menaikkan bid tidak selalu menyelesaikan underspend?
+   **Expected answer in guide:** Inventory eligibility, targeting, deal/creative issues, supply, and timeouts dapat menjadi bottleneck selain bid.
+2. **Q:** Apa risiko frequency terlalu tinggi?
+   **Expected answer in guide:** Waste, fatigue, negative experience, and diminishing incremental reach.
+3. **Q:** Apa beda average CPM dan clearing price?
+   **Expected answer in guide:** Average CPM merangkum biaya hasil delivery; clearing price adalah harga auction pada impression tertentu/menurut mekanisme platform.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2116,14 +2042,12 @@
 **Practice / deliverable:** Buat deal negotiation matrix dan activation checklist untuk PMP, Preferred, dan PG. Isikan seller/buyer seat, deal ID, floor/price, volume, formats, dates, targeting, guarantee, QA, and delivery escalation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda preferred deal dan PMP auction?
+   **Expected answer in guide:** Preferred biasanya memberi akses/first look dengan harga tertentu tanpa guarantee; PMP umumnya private auction dengan buyers invited, terms platform-specific.
+2. **Q:** Apa yang perlu dikonfirmasi sebelum PG?
+   **Expected answer in guide:** Volume, dates, price, inventory, priority, format, audience, guarantee, makegood, cancellation, and measurement terms.
+3. **Q:** Mengapa deal ID perlu di-test?
+   **Expected answer in guide:** Deal dapat gagal karena seat/seller mismatch, targeting, format, dates, price, atau line-item setup.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2152,14 +2076,12 @@
 **Practice / deliverable:** Buat supply-quality scorecard untuk 10 inventory sources: brand safety, suitability, viewability, IVT, seller authorization, fees, transparency, data coverage, and remediation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda viewability dengan attention?
+   **Expected answer in guide:** Viewability mengukur peluang terlihat menurut standard; attention mengukur engagement/notice lebih jauh dan memerlukan metode berbeda.
+2. **Q:** Mengapa unmeasured impression bukan otomatis failure?
+   **Expected answer in guide:** Sebagian inventory tidak terukur karena coverage/technical limits; laporkan sebagai unmeasured terpisah dari non-viewable.
+3. **Q:** Apakah ads.txt menjamin inventory aman?
+   **Expected answer in guide:** Tidak. Ia membantu mengidentifikasi authorized sellers, tetapi fraud/suitability/viewability tetap membutuhkan controls lain.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2188,14 +2110,12 @@
 **Practice / deliverable:** Buat measurement architecture diagram dan discrepancy reconciliation workbook yang membandingkan DSP, CM360/Floodlight, dan GA4. Include event mapping, window, timezone, dedupe, consent, and limits.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda ad server dengan DSP?
+   **Expected answer in guide:** Ad server mengelola ad decisioning/delivery/tracking; DSP mengelola buying/auction/targeting di inventory.
+2. **Q:** Mengapa Floodlight counts dapat berbeda dengan GA4 purchase?
+   **Expected answer in guide:** Counting method, attribution, time zone, identity, consent, deduplication, event definition, and processing berbeda.
+3. **Q:** Mengapa UTM bukan pengganti Floodlight?
+   **Expected answer in guide:** UTM memberi label campaign pada session/source; Floodlight merekam conversion activity sesuai setup measurement.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2224,14 +2144,12 @@
 **Practice / deliverable:** Buat post-campaign report dan supply evaluation: delivery, spend, CPM, reach/frequency, viewability, IVT, deal quality, discrepancy, outcome, optimization changes, and next test agenda. Labeli data SYNTHETIC.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa CPM tidak boleh menjadi satu-satunya optimization target?
+   **Expected answer in guide:** Ia mengabaikan inventory quality, fraud, reach, outcomes, fees, and contribution.
+2. **Q:** Apa hubungan optimization log dengan repeatability?
+   **Expected answer in guide:** Log mencatat perubahan, alasan, dan hasil sehingga learning bisa direplikasi dan tim tidak mengulang kesalahan.
+3. **Q:** Apa batas ROAS platform dalam menilai programmatic?
+   **Expected answer in guide:** Attribution platform tidak otomatis mengukur causal impact, overlap, fee, margin, atau long-term value.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2260,14 +2178,12 @@
 **Practice / deliverable:** Siapkan DSP campaign blueprint, supply-chain diagram, audience/data matrix, deal matrix, trafficking sheet, bidding/pacing simulator, verification scorecard, CM360/Floodlight measurement spec, discrepancy log, dan executive trading recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang harus bisa dijelaskan dalam programmatic capstone?
+   **Expected answer in guide:** Mengapa supply/channel/deal dipilih, bagaimana buying berjalan, bagaimana kualitas dijaga, dan bagaimana hasil diukur.
+2. **Q:** Apa batas latihan dengan synthetic data?
+   **Expected answer in guide:** Ia membuktikan workflow, logic, and analysis—not live campaign performance, spend, platform access, or client results.
+3. **Q:** Bagaimana menilai programmatic inventory yang terlihat murah?
+   **Expected answer in guide:** Cek net fees, authorized sellers, quality, viewability, IVT, audience, outcome, and incremental value.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2298,14 +2214,12 @@
 **Practice / deliverable:** Buat retail media ecosystem map untuk satu kategori Indonesia: Shopee, Tokopedia/TikTok Shop, Lazada, atau Blibli sesuai akses produk. Tandai onsite/offsite/in-store, buyer, seller, data owner, metrics, dan limitations.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda marketplace ads dan retail media network?
+   **Expected answer in guide:** Marketplace ads adalah penempatan iklan dalam marketplace; RMN dapat mencakup inventory/advertising dari retailer dan aktivasi offsite berbasis retailer signals.
+2. **Q:** Mengapa onsite dan offsite harus dipisah?
+   **Expected answer in guide:** Inventory, audience, data activation, fee, attribution, dan measurement berbeda.
+3. **Q:** Mengapa produk dan seller eligibility perlu dicek?
+   **Expected answer in guide:** Ads hanya berguna bila SKU, stok, listing, content, dan account memenuhi syarat platform.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2334,14 +2248,12 @@
 **Practice / deliverable:** Buat shopper journey untuk satu kategori dan peta intent signals ke stage. Sertakan listing/review/availability issues, media opportunities, metrics, and evidence gaps.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah product view selalu berarti high intent?
+   **Expected answer in guide:** Tidak. Ia dapat menunjukkan curiosity atau accidental browse; perlu konteks query, depth, add-to-cart, repeat, dan category behavior.
+2. **Q:** Mengapa review dan availability penting bagi retail ads?
+   **Expected answer in guide:** Media dapat mendorong traffic, tetapi listing trust, stock, pricing, and delivery influence conversion.
+3. **Q:** Apa batas penggunaan loyalty data?
+   **Expected answer in guide:** Eligibility, consent, purpose limitation, access, aggregation, and platform terms harus dipatuhi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2370,14 +2282,12 @@
 **Practice / deliverable:** Buat platform comparison untuk tiga RMN/marketplace aktif yang dapat diakses: ad types, seller/advertiser eligibility, placement, billing, targeting, reporting, conversion measurement, and documentation link. Cantumkan last-checked date.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa nama product/feature harus diverifikasi ulang?
+   **Expected answer in guide:** Retail platform sering mengganti nama campaign, default optimization, eligibility, dan reporting.
+2. **Q:** Apa yang perlu diperiksa sebelum memilih self-service vs managed?
+   **Expected answer in guide:** Budget threshold, service scope, control, inventory, reporting, fee, data access, and campaign complexity.
+3. **Q:** Apakah satu platform mapping berlaku untuk semua seller?
+   **Expected answer in guide:** Tidak. Access dan ad products dapat berbeda menurut seller/brand status, region, category, and program eligibility.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2406,14 +2316,12 @@
 **Practice / deliverable:** Buat onsite retail campaign plan untuk lima SKU: product readiness audit, keyword/product target, campaign structure, bid/budget assumptions, negative/exclusion logic, sales metrics, and listing improvement backlog.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa hubungan listing quality dengan sponsored ad performance?
+   **Expected answer in guide:** Ad dapat menghasilkan traffic; listing, availability, price, review, and fulfillment menentukan apakah traffic berkonversi.
+2. **Q:** Apa beda ROAS dan ACoS?
+   **Expected answer in guide:** ROAS adalah sales/ad spend; ACoS adalah ad spend/ad-attributed sales, sehingga keduanya berbanding terbalik jika basis sama.
+3. **Q:** Mengapa perlu SKU-level analysis?
+   **Expected answer in guide:** Aggregate campaign metrics dapat menutupi SKU bermargin rendah, low stock, atau listing yang tidak converting.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2442,14 +2350,12 @@
 **Practice / deliverable:** Buat offsite retail media plan: audience source, activation channel, data governance, placements, measurement approach, match coverage assumption, control design, cost, and limitations.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda offsite sales attribution dan incrementality?
+   **Expected answer in guide:** Attribution memberi credit pada exposure menurut model/window; incrementality mengestimasi tambahan penjualan dibanding control/counterfactual.
+2. **Q:** Mengapa match coverage harus dilaporkan?
+   **Expected answer in guide:** Hanya transaksi/audience eligible yang dapat diukur; coverage rendah membatasi representativeness.
+3. **Q:** Apa risiko mengaktifkan retailer data ke luar platform?
+   **Expected answer in guide:** Privacy, consent, purpose limitation, partner terms, identity resolution, and security controls.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2478,14 +2384,12 @@
 **Practice / deliverable:** Buat in-store plan untuk 20 toko: store selection, inventory, audience, placement map, flight, creative spec, proof-of-play, store ops checklist, measurement, and sales-lift caveats.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa itu proof-of-play?
+   **Expected answer in guide:** Bukti bahwa aset ditayangkan pada screen/placement sesuai waktu/ketentuan yang dibooking.
+2. **Q:** Mengapa footfall tidak sama dengan ad exposure?
+   **Expected answer in guide:** Footfall mengukur kunjungan lokasi; tidak membuktikan setiap orang melihat placement atau mengingat pesan.
+3. **Q:** Apa kontrol operasional khas in-store?
+   **Expected answer in guide:** Store availability, uptime, installation, staff, display condition, operating hours, and safety.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2514,14 +2418,12 @@
 **Practice / deliverable:** Buat retail audience taxonomy untuk prospecting, new-to-brand, repeat, lapsed, and high-value segments. Sertakan logic, window, scale/match caveat, activation, suppression, and measurement.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa segment terlalu sempit berisiko?
+   **Expected answer in guide:** Scale kecil dapat meningkatkan biaya, underdelivery, unstable measurement, dan overfrequency.
+2. **Q:** Apa risiko menganggap retailer segment sama dengan CRM segment?
+   **Expected answer in guide:** Definisi, refresh, identity, transaction coverage, and eligibility dapat berbeda.
+3. **Q:** Mengapa suppression penting?
+   **Expected answer in guide:** Mencegah budget/communication terbuang untuk customer yang sudah convert atau tidak eligible.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2550,14 +2452,12 @@
 **Practice / deliverable:** Buat retail optimization log dari data SIMULATED 14 hari: per SKU/query, bid, spend, clicks, sales, stock, price, promo, rating, ACoS, root cause, action, and result.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa ROAS bisa turun meski campaign setting tidak berubah?
+   **Expected answer in guide:** Harga, stock, competitor price, ratings, product content, seasonality, and auction competition dapat berubah.
+2. **Q:** Apa yang harus dilakukan bila stock-out?
+   **Expected answer in guide:** Pause/exclude affected SKU atau ubah destination/offer; koordinasikan inventory dan jangan biarkan spend mendorong item unavailable.
+3. **Q:** Mengapa perubahan bid perlu change log?
+   **Expected answer in guide:** Agar dampak bisa ditelusuri dan tidak tercampur dengan price/promo/stock changes.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2586,14 +2486,12 @@
 **Practice / deliverable:** Buat retail effectiveness dashboard spec dan analysis memo: spend, attributed sales, ACoS/ROAS, margin, returns, new-to-brand, stock, match coverage, and incrementality test design.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa ROAS tinggi belum tentu profitable?
+   **Expected answer in guide:** Gross sales tidak memperhitungkan margin, discount, returns, fulfillment, retailer fees, dan incremental contribution.
+2. **Q:** Apa yang perlu disamakan saat reconciliation?
+   **Expected answer in guide:** Date, SKU, currency/tax, sales basis, attribution window, cancellations/returns, campaign tags, and data latency.
+3. **Q:** Apa batas closed-loop reporting?
+   **Expected answer in guide:** Coverage, match rate, attribution methodology, and selection bias membatasi causal interpretation.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2622,14 +2520,12 @@
 **Practice / deliverable:** Siapkan retail media strategy 90 hari plus workbook: retailer comparison, shopper journey, SKU readiness, inventory/placement matrix, audience segments, budget scenarios, campaign setup, measurement, sales/margin dashboard, and recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang membedakan retail capstone dari paid search/social?
+   **Expected answer in guide:** Retail harus mengintegrasikan marketplace/retailer product data, stock, listing, shopper behavior, sales reconciliation, and margin.
+2. **Q:** Bagaimana memastikan platform recommendations current?
+   **Expected answer in guide:** Cek official help center, local advertiser eligibility, product taxonomy, update date, and current account access.
+3. **Q:** Apa keputusan utama yang harus dipresentasikan?
+   **Expected answer in guide:** Retailer/channel/SKU investment, budget, stock/readiness actions, risk, measurement confidence, and next scale/hold decision.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2660,14 +2556,12 @@
 **Practice / deliverable:** Buat media owner landscape dan buying route map untuk satu kategori. Tulis siapa pemilik inventory, siapa bernegosiasi, siapa approve, siapa traffick, serta bukti delivery/billing yang dibutuhkan.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda Media Investment dengan Programmatic Trading?
+   **Expected answer in guide:** Investment menegosiasikan/membeli inventory/partnership secara komersial; Programmatic Trader mengelola buying berbasis DSP/auction/deal.
+2. **Q:** Apa beda Media Planner dengan Media Buyer?
+   **Expected answer in guide:** Planner menyusun strategy/mix/budget/forecast; buyer menegosiasikan rates, terms, booking, dan inventory delivery.
+3. **Q:** Mengapa ownership map penting?
+   **Expected answer in guide:** Agar negotiation, approval, booking, tracking, QA, and invoice memiliki accountable owner yang jelas.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2696,14 +2590,12 @@
 **Practice / deliverable:** Buat publisher inventory scorecard untuk lima opsi dengan audience, reach definition, format, quality, availability, rate, value-add, verification, methodology, dan recommended use.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa media kit tidak boleh diterima tanpa verifikasi?
+   **Expected answer in guide:** Reach, circulation, audience and engagement claims dapat memakai definisi/periode berbeda atau self-reported.
+2. **Q:** Apa yang membuat proposal media value comparable?
+   **Expected answer in guide:** Satuan, audience, dates, placements, format, reporting, measurement, exclusivity, fees, and contract basis harus dinormalisasi.
+3. **Q:** Bagaimana menilai value-add?
+   **Expected answer in guide:** Periksa placement, audience, timing, guarantee, production/measurement cost, and whether it substitutes paid inventory.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2732,14 +2624,12 @@
 **Practice / deliverable:** Buat RFP template dan proposal comparison untuk tiga publisher. Sertakan standardized fields, weighted scoring, commercial normalization, clarification log, and recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda RFP dan RFQ?
+   **Expected answer in guide:** RFP meminta solusi/proposal yang menjelaskan approach; RFQ meminta quotation untuk scope/requirements yang lebih terdefinisi.
+2. **Q:** Mengapa gross dan net rate harus dipisah?
+   **Expected answer in guide:** Discount/commission/fees dapat membuat quoted price tidak comparable dengan final payable amount.
+3. **Q:** Apa risiko added value dijadikan pengganti discount?
+   **Expected answer in guide:** Bonus mungkin tidak relevan, tidak guaranteed, atau memiliki kualitas/jangkauan berbeda dari paid inventory.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2768,14 +2658,12 @@
 **Practice / deliverable:** Buat benchmark workbook dengan lima publisher packages. Hitung net CPM/cost per reach, total cost, bonus value, unit comparability, benchmark confidence, and recommended negotiation anchor.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa rate benchmark lama perlu caveat?
+   **Expected answer in guide:** Inventory, market demand, inflation, seasonality, package, and commercial conditions berubah.
+2. **Q:** Apa perbedaan cost efficiency dan value?
+   **Expected answer in guide:** Cost efficiency menilai biaya per unit; value juga menilai quality, relevance, outcomes, guarantees, and audience context.
+3. **Q:** Apa dampak package bundling?
+   **Expected answer in guide:** Bundling bisa memberi efficiency tetapi menyamarkan rate per asset/placement dan mengurangi flexibility.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2804,14 +2692,12 @@
 **Practice / deliverable:** Buat negotiation plan dan value tracker: target/limit, BATNA, concessions, added value, contract terms, risk, approval, and post-negotiation summary. Simulasikan vendor negotiation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa fungsi BATNA?
+   **Expected answer in guide:** Alternatif terbaik jika kesepakatan tidak tercapai; memberi batas rasional dan mengurangi keputusan emosional.
+2. **Q:** Mengapa semua added value tidak setara?
+   **Expected answer in guide:** Nilainya tergantung audience, placement, timing, guarantee, production cost, and measurement.
+3. **Q:** Apa yang harus didokumentasikan setelah negotiation?
+   **Expected answer in guide:** Final rate, discount, scope, dates, inventory, cancellation, makegood, payment, proof, and authorized approver.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2840,14 +2726,12 @@
 **Practice / deliverable:** Buat IO checklist dan sample order form untuk campaign latihan. Bandingkan negotiated terms dengan signed IO dan trafficking sheet; tandai discrepancy/approval exceptions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko bonus tidak tercatat terpisah?
+   **Expected answer in guide:** Volume billable dan bonus dapat tertukar sehingga delivery/invoice reconciliation tidak akurat.
+2. **Q:** Siapa yang menyetujui legal clause?
+   **Expected answer in guide:** Procurement/legal/authorized approver sesuai governance organisasi; media buyer menandai dan mengeskalasi risiko.
+3. **Q:** Mengapa IO harus selaras dengan trafficking sheet?
+   **Expected answer in guide:** Agar inventory, dates, formats, volume, rates, tags, and responsibilities sama di dokumen komersial dan operasional.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2876,14 +2760,12 @@
 **Practice / deliverable:** Buat delivery tracker dan proof checklist untuk tiga publisher. Simulasikan underdelivery 12%; hitung shortfall, bukti yang diperlukan, makegood options, dan client communication.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda proof-of-posting dan proof-of-play?
+   **Expected answer in guide:** Proof-of-posting mendokumentasikan publication placement; proof-of-play membuktikan screen/audio/spot diputar sesuai log.
+2. **Q:** Mengapa shortfall tidak boleh langsung diasumsikan berdasarkan impressions?
+   **Expected answer in guide:** Contract mungkin memakai billable basis, tolerance, sampling, or alternative delivery definition.
+3. **Q:** Kapan makegood harus dieskalasi?
+   **Expected answer in guide:** Saat delivery di luar tolerance, bukti tidak lengkap, deadline terlewati, atau remedy tidak sesuai kontrak.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2912,14 +2794,12 @@
 **Practice / deliverable:** Buat reconciliation workbook dari satu IO dan invoice sintetis. Gunakan line-item matching, formula checks, variance categories, evidence links, approval status, and payment recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda invoice variance dan delivery variance?
+   **Expected answer in guide:** Invoice variance adalah selisih amount/terms; delivery variance adalah perbedaan volume/placement/flight terhadap booking.
+2. **Q:** Apa yang dilakukan bila currency/tax tidak cocok?
+   **Expected answer in guide:** Verifikasi kontrak, exchange-rate basis, tax treatment, legal entity, and finance rules sebelum approve.
+3. **Q:** Mengapa audit trail perlu disimpan?
+   **Expected answer in guide:** Memudahkan dispute, finance approval, month-end close, compliance, and vendor accountability.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2948,14 +2828,12 @@
 **Practice / deliverable:** Buat media investment review satu kuartal: vendor scorecard, rate/value history, delivery, quality, audience overlap, discrepancy, recommendation, and negotiation agenda.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa added value dapat bernilai rendah?
+   **Expected answer in guide:** Jika audience overlap, timing, format, or quality tidak mendukung objective, bonus volume tidak menambah incremental value.
+2. **Q:** Apa beda cost saving dan value creation?
+   **Expected answer in guide:** Cost saving menurunkan spend; value creation meningkatkan kualitas, audience, outcome, reliability, or flexibility.
+3. **Q:** Apa bukti partner layak dipertahankan?
+   **Expected answer in guide:** Delivery reliability, commercial fairness, transparency, issue resolution, audience value, and measurable contribution.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2984,14 +2862,12 @@
 **Practice / deliverable:** Siapkan complete buying pack: media owner map, RFP, proposal comparison, negotiation plan, signed-style IO sample, trafficking handoff, delivery/proof tracker, reconciliation workbook, and investment review deck.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang membedakan buyer capstone dengan media plan?
+   **Expected answer in guide:** Buyer capstone membuktikan commercial procurement, negotiation, contract, delivery, proof, and financial control.
+2. **Q:** Apa hubungan buyer dengan Ad Ops?
+   **Expected answer in guide:** Buyer/Investment mengatur deal/terms dan booking; Ad Ops menerjemahkan booking ke trafficking/tracking/QA; planner memastikan tujuan media.
+3. **Q:** Bagaimana membuktikan negotiation berhasil?
+   **Expected answer in guide:** Bandingkan baseline/alternative, final terms, total cost, inventory quality, delivery, added value actually used, and risks.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3022,14 +2898,12 @@
 **Practice / deliverable:** Buat cross-platform Ad Ops ecosystem diagram untuk satu campaign: platform roles, ad server, tags/pixels, publisher, verification, ownership, approvals, and evidence trail.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda Ad Ops dan Media Buyer?
+   **Expected answer in guide:** Ad Ops menjalankan technical trafficking, tracking, QA, and delivery control; buyer mengelola inventory purchase, rates, and commercial terms.
+2. **Q:** Apa beda Ad Ops dan performance specialist?
+   **Expected answer in guide:** Performance specialist mengelola audience/bidding/creative optimization; Ad Ops memastikan setup teknis dan measurement berfungsi.
+3. **Q:** Mengapa multi-platform governance penting?
+   **Expected answer in guide:** Tanpa naming, versioning, access, and approval yang konsisten, kesalahan sulit dilacak antar channel.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3058,14 +2932,12 @@
 **Practice / deliverable:** Buat trafficking sheet lintas Meta, Google, TikTok, dan direct placement dengan IDs, names, asset specs, URLs, tags, flight, budget, targeting, owners, approval, and status.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa trafficking sheet harus mencatat object IDs?
+   **Expected answer in guide:** Nama dapat berubah/duplikat; ID membantu traceability, QA, API/report matching, dan handover.
+2. **Q:** Apa risiko URL belum final?
+   **Expected answer in guide:** Traffic dapat salah arah, tracking parameter hilang, conversion tidak terekam, atau campaign terpaksa dihentikan.
+3. **Q:** Apa fungsi version control?
+   **Expected answer in guide:** Menghindari asset/setting lama tertayang dan memastikan approval merujuk pada versi final.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3094,14 +2966,12 @@
 **Practice / deliverable:** Buat creative spec matrix untuk 6 placements (display, video, story/reel, native, HTML5, retailer sponsored content). Sertakan sumber resmi, date checked, file limits, CTA, safe zones, fallback, and QA status.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa creative spec harus bersumber dari dokumen terkini?
+   **Expected answer in guide:** Dimensi, limits, file type, placement rules, and policy dapat berubah antar platform dan waktu.
+2. **Q:** Apa itu fallback?
+   **Expected answer in guide:** Asset atau behavior alternatif saat creative utama tidak didukung environment/placement.
+3. **Q:** Apa yang diperiksa pada click URL selain destination?
+   **Expected answer in guide:** Redirect, query parameters, UTMs, macros, SSL, deep-link behavior, and tracking events.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3130,14 +3000,12 @@
 **Practice / deliverable:** Buat cross-platform tag map untuk Google tag/GA4, GTM, Meta Pixel/CAPI, TikTok Pixel/Events API, CM360/Floodlight, click/impression tracker, and UTM; sertakan QA cases.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa perbedaan UTM dan pixel?
+   **Expected answer in guide:** UTM memberi label source/medium/campaign pada traffic; pixel merekam event/interaksi untuk platform measurement.
+2. **Q:** Mengapa server-side CAPI bukan sekadar tag lain?
+   **Expected answer in guide:** Ia mengirim event dari server dengan identity/consent/deduplication controls yang berbeda dari browser pixel.
+3. **Q:** Apa bukti tag benar-benar bekerja?
+   **Expected answer in guide:** Test event/log, expected parameters, trigger condition, no duplicate, consent behavior, and platform diagnostics.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3166,14 +3034,12 @@
 **Practice / deliverable:** Buat CM360 setup blueprint: advertiser, campaign, sites, placements, ads, creatives, Floodlight activity groups, counting methods, tags, and QA evidence. Labeli as design simulation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda placement dan creative?
+   **Expected answer in guide:** Placement adalah slot/inventory; creative adalah asset yang ditayangkan dalam slot tersebut.
+2. **Q:** Apa fungsi Floodlight counting method?
+   **Expected answer in guide:** Menentukan bagaimana activity dihitung agar conversion metric sesuai definisi bisnis.
+3. **Q:** Apa yang perlu diserahkan ke publisher?
+   **Expected answer in guide:** Correct ad/placement tags, spec, click macro, dates, creative, implementation instructions, and QA contacts.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3202,14 +3068,12 @@
 **Practice / deliverable:** Buat pre-launch QA checklist dengan 30 test cases, expected vs actual, severity, owner, evidence link, status, retest, and formal go/no-go decision.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa status campaign active belum cukup sebagai QA?
+   **Expected answer in guide:** Campaign bisa active tetapi asset, URL, tag, targeting, consent, atau conversion path salah.
+2. **Q:** Apa contoh blocker?
+   **Expected answer in guide:** Wrong landing URL, non-working conversion tag, unapproved claim, incorrect geo/date/budget, or rejected creative.
+3. **Q:** Apa tujuan severity classification?
+   **Expected answer in guide:** Membantu memprioritaskan issue berdasarkan impact dan mencegah low-priority issue menahan launch tanpa alasan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3238,14 +3102,12 @@
 **Practice / deliverable:** Buat monitoring dashboard/log dan troubleshooting tree untuk underdelivery, sudden spend spike, rejection, broken click URL, lost conversion event, and discrepancy.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa conversion drop tidak selalu masalah ads delivery?
+   **Expected answer in guide:** Site, checkout, consent, tracking, price, stock, CRM, or reporting latency dapat berubah meski delivery normal.
+2. **Q:** Apa urutan troubleshooting yang disiplin?
+   **Expected answer in guide:** Isolasi simptom dan cek data/tag/page/creative/settings/supply sebelum mengubah bid/budget.
+3. **Q:** Mengapa action log penting?
+   **Expected answer in guide:** Membuat root cause, owner, risk, and recovery dapat diaudit dan mencegah perubahan berulang tanpa evidence.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3274,14 +3136,12 @@
 **Practice / deliverable:** Buat discrepancy report tiga platform: data dictionary, event mapping, timezone/cutoff, click/view windows, dedupe, consent, latency, matched/unknown variance, and recommendations.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa arti apples-to-apples reconciliation?
+   **Expected answer in guide:** Perbandingan dengan unit, window, timezone, event, scope, dan eligibility yang setara.
+2. **Q:** Mengapa click count tidak sama dengan GA4 sessions?
+   **Expected answer in guide:** Click dapat gagal load, user close page, redirect, consent, browser block, or multiple clicks per session.
+3. **Q:** Kapan discrepancy perlu dieskalasi?
+   **Expected answer in guide:** Jika di luar tolerance/contract, memengaruhi billing/optimization, atau sumber perbedaan tidak dapat dijelaskan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3310,14 +3170,12 @@
 **Practice / deliverable:** Buat billing reconciliation pack untuk dua vendor: IO-vs-invoice, delivery proof, billable calculation, variance, adjustment, approval, audit trail, and process improvement memo.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa delivered impressions belum tentu billable impressions?
+   **Expected answer in guide:** Kontrak dapat memiliki tolerance, excluded events, bonus, or alternative billable definitions.
+2. **Q:** Apa risiko satu orang mengatur dan menyetujui invoice sendiri?
+   **Expected answer in guide:** Segregation of duties lemah sehingga fraud/error lebih sulit dideteksi.
+3. **Q:** Apa output operational review yang berguna?
+   **Expected answer in guide:** Recurring issue, control gap, SLA, owners, automation opportunities, and measurable process improvement.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3346,14 +3204,12 @@
 **Practice / deliverable:** Siapkan operational case pack: master brief, cross-platform trafficking sheet, creative spec matrix, tag map, CM360/Floodlight design, QA evidence, go-live checklist, monitoring log, incident report, discrepancy reconciliation, invoice pack, and process review.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa bukti Ad Ops yang siap portofolio?
+   **Expected answer in guide:** Traceable operational artefacts: trafficking sheet, tags, QA evidence, approvals, monitoring, discrepancy, and billing reconciliation.
+2. **Q:** Apa yang tidak boleh diklaim dari simulasi?
+   **Expected answer in guide:** Tidak boleh mengklaim real client account access, live campaign delivery, spend, or campaign outcomes.
+3. **Q:** Bagaimana Ad Ops menunjukkan nilai bisnis?
+   **Expected answer in guide:** Mengurangi launch errors, data loss, downtime, underdelivery, billing disputes, and audit risk.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3384,14 +3240,12 @@
 **Practice / deliverable:** Buat measurement brief untuk pertanyaan bisnis 'apa yang mendorong kenaikan cost per qualified lead?'. Sertakan KPI tree, metric dictionary, analysis scope, segmentation, data owners, dan decision criteria.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa analyst perlu tahu keputusan apa yang akan diambil?
+   **Expected answer in guide:** Agar analisis fokus pada evidence yang dapat mengubah tindakan, bukan hanya menghasilkan chart.
+2. **Q:** Apa yang wajib ada di metric dictionary?
+   **Expected answer in guide:** Formula, denominator, unit, currency, source, timezone, attribution window, owner, refresh, dan caveat.
+3. **Q:** Apa beda leading dan lagging metrics?
+   **Expected answer in guide:** Leading memberi sinyal awal proses; lagging mencatat hasil akhir seperti sales atau margin.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3420,14 +3274,12 @@
 **Practice / deliverable:** Buat data source inventory dan QA audit untuk synthetic exports dari platform, GA4, CRM, dan ad server. Temukan duplicate, missing, invalid, date/currency mismatch, dan usulkan correction.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa itu grain data?
+   **Expected answer in guide:** Level satu baris data merepresentasikan satu entitas/kejadian, misalnya campaign-day, event, session, atau order.
+2. **Q:** Mengapa join key campaign name berisiko?
+   **Expected answer in guide:** Naming bisa berubah/duplikat dan grain berbeda; join dapat menggandakan rows atau menyatukan entitas salah.
+3. **Q:** Apa beda missing dan zero?
+   **Expected answer in guide:** Missing berarti nilai tidak tersedia; zero berarti terukur dan nilainya nol. Menyamakan keduanya dapat mengubah kesimpulan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3456,14 +3308,12 @@
 **Practice / deliverable:** Buat cross-platform metric mapping untuk Google Ads, Meta, TikTok, GA4, dan CM360. Sertakan event/metric definitions, attribution, time zone, deduplication, reporting grain, and known limitations.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa angka conversion platform bisa berbeda dari GA4?
+   **Expected answer in guide:** Attribution, view-through, identity, consent, time zone, event definition, deduplication, and processing berbeda.
+2. **Q:** Apa beda impression dan session?
+   **Expected answer in guide:** Impression adalah exposure iklan; session adalah kumpulan interaksi website/app dalam analytics definition.
+3. **Q:** Apa yang harus dipastikan sebelum data digabung?
+   **Expected answer in guide:** Grain, keys, time zone, currency, naming, event definition, dedupe, and source limitations.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3492,14 +3342,12 @@
 **Practice / deliverable:** Buat workbook data QA dan SQL notebook dengan minimal 5 query: spend aggregation, CTR/CVR/CPA, JOIN spend-to-conversion, cohort summary, dan outlier check. Sertakan expected output dan test assertions menggunakan data SIMULATED.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa SQL JOIN dapat menggandakan spend?
+   **Expected answer in guide:** Join many-to-many atau grain yang tidak sama menyebabkan satu row cocok dengan banyak row di table lain.
+2. **Q:** Mengapa query perlu test totals sebelum/sesudah join?
+   **Expected answer in guide:** Reconciliation membantu mendeteksi double count, lost rows, and incorrect keys.
+3. **Q:** Apa beda WHERE dan HAVING?
+   **Expected answer in guide:** WHERE menyaring rows sebelum aggregation; HAVING menyaring hasil group/aggregate.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3528,14 +3376,12 @@
 **Practice / deliverable:** Buat dashboard wireframe dan data model untuk cross-channel campaign performance. Sertakan 5 KPI utama, 5 diagnostic views, filters, alert conditions, data freshness, and metric definitions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa tanda dashboard tidak berguna?
+   **Expected answer in guide:** Ia tidak menjawab keputusan pengguna, tidak memiliki metric definitions, atau tidak menyediakan diagnosis/action path.
+2. **Q:** Mengapa total KPI perlu reconcile ke source?
+   **Expected answer in guide:** Chart dapat terlihat rapi tetapi salah akibat filters, joins, duplicated rows, or refresh failure.
+3. **Q:** Apa bedanya dashboard dan report?
+   **Expected answer in guide:** Dashboard mendukung monitoring/interaksi rutin; report dapat memberi analisis/narrative lebih mendalam untuk periode tertentu.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3564,14 +3410,12 @@
 **Practice / deliverable:** Buat diagnostic memo dari synthetic dataset yang menunjukkan satu KPI memburuk. Lakukan metric decomposition, segment analysis, hypothesis tree, evidence check, root cause confidence, and recommended action.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa korelasi bukan bukti penyebab?
+   **Expected answer in guide:** Dua metrik dapat bergerak bersama akibat seasonality, mix, budget, atau faktor ketiga tanpa causal link.
+2. **Q:** Apa fungsi decomposition?
+   **Expected answer in guide:** Memecah outcome menjadi driver sehingga lokasi perubahan dapat diisolasi.
+3. **Q:** Kapan analisis harus ditahan?
+   **Expected answer in guide:** Saat data quality, tracking, population, or metric definitions belum valid untuk mendukung kesimpulan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3600,14 +3444,12 @@
 **Practice / deliverable:** Buat attribution vs incrementality analysis memo dengan synthetic dataset; rancang satu geo-holdout atau user-level holdout, tentukan primary metric, contamination risk, sample/duration, and limitation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda attributed conversion dan incremental conversion?
+   **Expected answer in guide:** Attributed conversion menerima credit menurut model/window; incremental conversion adalah tambahan akibat treatment dibanding counterfactual.
+2. **Q:** Apa risiko last-click?
+   **Expected answer in guide:** Ia cenderung memberi credit pada touchpoint akhir dan mengabaikan demand creation/assisted interactions.
+3. **Q:** Kapan geo experiment cocok?
+   **Expected answer in guide:** Saat treatment dapat dibedakan lintas wilayah, market comparability memadai, spillover dapat dikendalikan, and sample/time cukup.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3636,14 +3478,12 @@
 **Practice / deliverable:** Buat A/B test protocol dan analysis notebook untuk satu experiment: hypothesis, unit, sample/duration calculation, metrics, guardrails, QA, stopping rule, confidence interval, and decision memo.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda statistical significance dan practical significance?
+   **Expected answer in guide:** Significance menilai compatibility data dengan null hypothesis; practical significance menilai apakah effect cukup besar untuk keputusan bisnis.
+2. **Q:** Mengapa early peeking berisiko?
+   **Expected answer in guide:** Repeated checks dapat meningkatkan false-positive rate dan mendorong stop/continue decisions yang bias.
+3. **Q:** Apa peran randomization unit?
+   **Expected answer in guide:** Menentukan entitas yang diacak; harus sesuai exposure and interference pattern agar perbandingan valid.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3672,14 +3512,12 @@
 **Practice / deliverable:** Buat executive insight memo satu halaman dan 5-slide narrative untuk kasus analitik. Cantumkan fact/interpretation/hypothesis/recommendation, chart, risk, and decision requested.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda finding dan insight?
+   **Expected answer in guide:** Finding adalah temuan angka; insight menjelaskan makna/driver dan mengubah keputusan.
+2. **Q:** Mengapa limitation perlu disampaikan?
+   **Expected answer in guide:** Agar stakeholder tidak menganggap atribusi/korelasi sebagai causal proof atau membuat keputusan melebihi evidence.
+3. **Q:** Apa yang harus berakhir pada executive deck?
+   **Expected answer in guide:** Keputusan yang diminta, owner, timing, expected impact, risk, and measurement follow-up.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3708,14 +3546,12 @@
 **Practice / deliverable:** Bangun portfolio pack: measurement brief, data dictionary, SQL/Spreadsheet notebook, QA report, dashboard, diagnostic memo, attribution/incrementality plan, and executive presentation. Labeli dataset DEMO/SIMULATED.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa bukti kualitas data sebelum analisis?
+   **Expected answer in guide:** Data dictionary, source lineage, QA results, duplicate/missing checks, reconciliation, and documented transformations.
+2. **Q:** Apa yang membedakan dashboard dengan portfolio capstone?
+   **Expected answer in guide:** Capstone juga membuktikan question framing, methodology, interpretation, decision, and limitations—not visual output saja.
+3. **Q:** Bagaimana mengklaim skill tanpa mengklaim client result?
+   **Expected answer in guide:** Tampilkan project demo/synthetic, code/query, method, evidence, and clear label without inventing commercial impact.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3746,14 +3582,12 @@
 **Practice / deliverable:** Buat search ecosystem map dan organic baseline untuk satu website: indexable pages, search visibility, query intent, page types, business outcomes, and key technical/content risks.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda crawling dan indexing?
+   **Expected answer in guide:** Crawling adalah discovery/access; indexing adalah proses menyimpan/memahami halaman untuk kemungkinan ditampilkan.
+2. **Q:** Mengapa ranking bukan satu-satunya KPI SEO?
+   **Expected answer in guide:** Ranking tidak otomatis menghasilkan qualified traffic, engagement, conversions, or contribution.
+3. **Q:** Bagaimana AI features memengaruhi SEO?
+   **Expected answer in guide:** Mereka mengubah format discovery/click patterns; foundational crawlability, content usefulness, and search intent tetap penting.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3782,14 +3616,12 @@
 **Practice / deliverable:** Buat keyword-topic map minimal 50 query untuk satu kategori. Sertakan intent, SERP feature, page type, topic cluster, competitor gaps, priority score, and proposed URL.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa satu keyword tidak otomatis memerlukan satu halaman?
+   **Expected answer in guide:** Query dengan intent sama dapat dilayani satu halaman; terlalu banyak halaman serupa dapat menimbulkan cannibalization.
+2. **Q:** Apa batas search volume estimate?
+   **Expected answer in guide:** Tools menggunakan estimasi, grouping, and sampling; actual demand varies by location, season, and query definition.
+3. **Q:** Apa maksud keyword cannibalization?
+   **Expected answer in guide:** Beberapa halaman site bersaing untuk intent/query yang sama sehingga relevansi dan signals dapat tersebar.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3818,14 +3650,12 @@
 **Practice / deliverable:** Buat technical architecture audit dengan crawl sample: URL taxonomy, orphan pages, status code, canonical, robots, sitemap, faceted URLs, internal links, and remediation roadmap.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko memblokir URL melalui robots.txt tanpa memahami index state?
+   **Expected answer in guide:** URL dapat tetap diketahui/diindeks dari links meski crawler tidak dapat membaca content; directives punya fungsi berbeda.
+2. **Q:** Apa fungsi canonical?
+   **Expected answer in guide:** Memberi sinyal preferred URL di antara duplicates/similar pages; bukan jaminan search engine mengikuti pilihan.
+3. **Q:** Apa yang dimaksud orphan page?
+   **Expected answer in guide:** Halaman tanpa internal links yang dapat ditemukan crawler/user melalui navigation biasa.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3854,14 +3684,12 @@
 **Practice / deliverable:** Buat audit teknis untuk tiga page templates: issue, evidence, affected URLs, root-cause hypothesis, impact, fix, owner, and before/after measurement plan.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda field data dan lab data CWV?
+   **Expected answer in guide:** Field data mencerminkan real-user experience; lab data membantu reproduksi/debug pada kondisi test.
+2. **Q:** Mengapa schema markup tidak menjamin rich result?
+   **Expected answer in guide:** Search engine menentukan eligibility/appearance berdasarkan content quality, policies, and other systems.
+3. **Q:** Mengapa technical SEO perlu koordinasi developer?
+   **Expected answer in guide:** Banyak issue berada pada templates, rendering, redirects, server, and deployment—not hanya content editor.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3890,14 +3718,12 @@
 **Practice / deliverable:** Buat content brief dan on-page audit untuk satu landing page: intent, title/H1, outline, proof, internal links, media, CTA, schema validity, and review checklist.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah keyword density menentukan ranking?
+   **Expected answer in guide:** Tidak. Intent match, usefulness, content quality, and technical access lebih penting; keyword repetition bukan shortcut.
+2. **Q:** Mengapa structured data harus sesuai visible content?
+   **Expected answer in guide:** Markup yang misleading/tidak sesuai dapat melanggar guidelines dan tidak dipercaya search engines.
+3. **Q:** Apa yang membuat halaman helpful?
+   **Expected answer in guide:** Jawaban lengkap dan akurat, bukti, usability, first-hand expertise, and clear next steps for audience.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3926,14 +3752,12 @@
 **Practice / deliverable:** Buat digital PR plan dan backlink risk audit untuk brand latihan: competitor gap, story angle, target publishers, pitch outline, link quality criteria, and measurement.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa backlink quantity tidak sama dengan authority?
+   **Expected answer in guide:** Relevance, editorial legitimacy, source quality, context, and spam signals memengaruhi value.
+2. **Q:** Apa beda earned link dan paid link scheme?
+   **Expected answer in guide:** Earned link muncul karena editorial value; paid/manipulative links bertujuan memengaruhi ranking dan berisiko melanggar guidelines.
+3. **Q:** Apa ukuran keberhasilan digital PR selain link count?
+   **Expected answer in guide:** Relevant coverage, referral quality, brand search, audience reach, authority signals, and business influence.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3962,14 +3786,12 @@
 **Practice / deliverable:** Buat local search audit untuk lima lokasi: profile completeness, NAP, category, reviews, local landing pages, citations, owner, and maintenance SLA.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa itu NAP consistency?
+   **Expected answer in guide:** Name, Address, Phone harus akurat dan konsisten lintas listing/sumber.
+2. **Q:** Mengapa review tidak boleh dibeli?
+   **Expected answer in guide:** Fake/incentivized reviews melanggar platform policies dan merusak trust.
+3. **Q:** Apa tantangan multi-location SEO?
+   **Expected answer in guide:** Duplicate/thin location pages, inconsistent business data, ownership, and review response governance.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3998,14 +3820,12 @@
 **Practice / deliverable:** Buat organic reporting dashboard dan monthly memo dari synthetic/demo data: query, page, clicks, impressions, CTR, position, indexation, sessions, conversions, and prioritized actions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa GSC clicks tidak sama dengan GA4 sessions?
+   **Expected answer in guide:** Click tidak selalu menjadi session akibat loading, redirects, consent, browser, and measurement differences.
+2. **Q:** Mengapa average position perlu segmentasi?
+   **Expected answer in guide:** Aggregation across queries/pages/devices can hide changes in query mix and SERP features.
+3. **Q:** Apa isi SEO recommendation yang actionable?
+   **Expected answer in guide:** Specific page/technical change, evidence, impact hypothesis, priority, owner, timeline, and measurement.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4034,14 +3854,12 @@
 **Practice / deliverable:** Buat AI search visibility log dengan 20 prompts lintas informational/commercial/local intents. Catat date, engine, answer, citations, mention/context, source quality, and content actions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah schema menjamin brand muncul di AI answer?
+   **Expected answer in guide:** Tidak. Structured data membantu machine understanding di konteks tertentu; tidak menjamin answer inclusion/citation.
+2. **Q:** Mengapa prompt sampling bukan market share?
+   **Expected answer in guide:** Hasil bergantung model, date, location, prompt, personalization, and response variance.
+3. **Q:** Apa fondasi AEO/GEO yang tetap relevan?
+   **Expected answer in guide:** Accessible, helpful, accurate content, clear entities, authoritative evidence, and sound technical SEO.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4070,14 +3888,12 @@
 **Practice / deliverable:** Siapkan SEO capstone: technical audit, keyword/topic map, on-page brief, backlink/PR review, local checklist, Search Console baseline, AI visibility log, prioritized 90-day roadmap, and executive summary.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa SEO roadmap perlu owner dan dependency?
+   **Expected answer in guide:** Banyak fixes butuh engineering, design, content, legal, and product; tanpa owners/dependencies, rekomendasi tidak bisa dieksekusi.
+2. **Q:** Apa yang tidak boleh dijanjikan SEO specialist?
+   **Expected answer in guide:** Posisi/ranking pasti atau traffic growth tanpa mempertimbangkan competition, indexing, update, and external factors.
+3. **Q:** Apa yang membuktikan capstone berbasis evidence?
+   **Expected answer in guide:** Source URLs, crawl export, GSC/GA4 data, issue examples, priority rationale, assumptions, and measurement plan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4108,14 +3924,12 @@
 **Practice / deliverable:** Buat CRM lifecycle blueprint untuk satu business model: stage definitions, entry/exit criteria, trigger, owner, business metric, contact policy, and high-risk customer scenarios.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa CRM bukan sekadar software?
+   **Expected answer in guide:** Software menjalankan workflow; strategi CRM mendefinisikan lifecycle, customer value, data, communication, and governance.
+2. **Q:** Apa risiko lifecycle stage tidak memiliki entry/exit criteria?
+   **Expected answer in guide:** Contacts dapat menerima komunikasi salah, masuk berulang, atau tetap di stage yang tidak tepat.
+3. **Q:** Mengapa retention metric harus mengikuti model bisnis?
+   **Expected answer in guide:** Repeat/retention memiliki arti berbeda untuk subscription, durable goods, retail, and lead-based B2B.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4144,14 +3958,12 @@
 **Practice / deliverable:** Buat CRM data dictionary dan ERD sederhana: contact, account, transaction, product, event, consent, and communication preference. Sertakan dedupe, identity, access, and retention rules.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa data merge harus memiliki confidence rules?
+   **Expected answer in guide:** False merges dapat menampilkan data customer lain, salah segment, dan mengirim komunikasi yang keliru.
+2. **Q:** Apa beda contact record dan transaction record?
+   **Expected answer in guide:** Contact merepresentasikan individu/account; transaction merepresentasikan event bisnis dengan tanggal, product, value, and status.
+3. **Q:** Apa peran consent dan preference fields?
+   **Expected answer in guide:** Membatasi tujuan, channel, topic, and frequency komunikasi sesuai izin dan pilihan customer.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4180,14 +3992,12 @@
 **Practice / deliverable:** Buat segment taxonomy 6 kelompok dan lead score model dengan firmographic/behavioral signals, point weights, exclusions, validation sample, and sales handoff SLA.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko lead scoring hanya dari email opens?
+   **Expected answer in guide:** Open tracking dapat bias/privacy-protected and tidak selalu menandakan intent atau fit.
+2. **Q:** Apa beda fit dan intent?
+   **Expected answer in guide:** Fit adalah kesesuaian dengan target profile; intent adalah sinyal kebutuhan/kesiapan bertindak.
+3. **Q:** Bagaimana memvalidasi model scoring?
+   **Expected answer in guide:** Uji terhadap qualified rate, sales acceptance, conversion, false positives/negatives, and calibration over time.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4216,14 +4026,12 @@
 **Practice / deliverable:** Buat workflow diagram untuk welcome, cart abandon, post-purchase, and reactivation. Sertakan trigger/condition/action, branches, delays, suppression, exit, frequency cap, and QA scenarios.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda trigger dan campaign blast?
+   **Expected answer in guide:** Trigger dikirim karena event/condition spesifik; blast dikirim ke target segment pada jadwal yang ditetapkan.
+2. **Q:** Mengapa cross-channel purchase suppression penting?
+   **Expected answer in guide:** Agar customer tidak menerima reminder setelah membeli di channel lain.
+3. **Q:** Apa fungsi exit condition?
+   **Expected answer in guide:** Mengeluarkan contact saat goal tercapai, tidak lagi eligible, atau consent/status berubah.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4252,14 +4060,12 @@
 **Practice / deliverable:** Buat channel decision matrix dan 3 sample communications untuk service update, onboarding, and promotional reactivation. Sertakan consent, preference, opt-out, fallback, and compliance check.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah contact detail sama dengan consent marketing?
+   **Expected answer in guide:** Tidak. Email/nomor yang tersedia tidak otomatis menjadi izin promosi.
+2. **Q:** Kapan SMS/WhatsApp lebih tepat daripada email?
+   **Expected answer in guide:** Untuk komunikasi urgent/transactional atau audience preference tertentu; harus sesuai permission, cost, policy, and use case.
+3. **Q:** Mengapa channel fallback perlu dirancang?
+   **Expected answer in guide:** Agar pesan penting tetap dapat disampaikan jika primary channel gagal, tanpa melanggar consent/frequency rules.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4288,14 +4094,12 @@
 **Practice / deliverable:** Buat automation architecture dan QA plan untuk form-to-CRM-to-email flow. Dokumentasikan schema, API/webhook, dedupe, retries, consent, error queue, monitoring, and human handoff.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa arti idempotent workflow?
+   **Expected answer in guide:** Pemrosesan event berulang tidak menghasilkan efek samping ganda, seperti duplicate contact/message.
+2. **Q:** Mengapa retry harus memiliki batas?
+   **Expected answer in guide:** Retry tanpa kontrol dapat membuat duplicate action, API overload, and repeated messages.
+3. **Q:** Apa yang wajib disimpan dalam error log?
+   **Expected answer in guide:** Timestamp, event ID, failure reason, workflow step, retry count, owner, and remediation status.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4324,14 +4128,12 @@
 **Practice / deliverable:** Buat personalization map dan email deliverability audit: data fields, source, use/purpose, fallback, preference, SPF/DKIM/DMARC checklist, bounce/complaint, and KPI.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa open rate tidak selalu reliable?
+   **Expected answer in guide:** Privacy features dan image preloading dapat mengubah open tracking; ia bukan ukuran penuh attention.
+2. **Q:** Apa fungsi SPF, DKIM, dan DMARC?
+   **Expected answer in guide:** Authentication/alignment membantu memverifikasi domain sending dan mengurangi spoofing; konfigurasi harus sesuai provider.
+3. **Q:** Bagaimana membuat personalization terasa relevan?
+   **Expected answer in guide:** Gunakan data yang diperlukan, jelaskan manfaat, hindari kejutan invasif, dan sediakan preference/control.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4360,14 +4162,12 @@
 **Practice / deliverable:** Buat cohort retention workbook, churn definition, LTV sensitivity model, and 3 intervention hypotheses. Gunakan synthetic transactions and explicitly label assumptions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa cohort harus memiliki start event yang sama?
+   **Expected answer in guide:** Agar kelompok dibandingkan pada lifecycle age yang setara.
+2. **Q:** Apa risiko LTV berbasis revenue?
+   **Expected answer in guide:** Tidak memperhitungkan margin, returns, discounts, support costs, or contribution.
+3. **Q:** Apa yang dimaksud churn signal?
+   **Expected answer in guide:** Perubahan perilaku/engagement/purchase yang dapat mengindikasikan risiko berhenti; perlu validasi dengan historical outcomes.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4396,14 +4196,12 @@
 **Practice / deliverable:** Buat test backlog untuk onboarding, replenishment, win-back: hypothesis, audience, treatment/control, primary/guardrails, timing, sample assumptions, and decision rules.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa opens bukan satu-satunya success metric?
+   **Expected answer in guide:** Engagement proxy tidak menjamin conversion/retention dan dapat terdistorsi privacy mechanisms.
+2. **Q:** Apa fungsi holdout group?
+   **Expected answer in guide:** Memberi pembanding untuk mengestimasi dampak tambahan komunikasi dibanding tidak menerima treatment.
+3. **Q:** Mengapa frequency perlu guardrail?
+   **Expected answer in guide:** Kontak berlebihan dapat menaikkan fatigue, unsubscribe, complaint, and long-term brand harm.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4432,14 +4230,12 @@
 **Practice / deliverable:** Bangun portfolio pack: lifecycle map, data dictionary/ERD, segment model, consent matrix, workflow diagrams, message samples, QA cases, deliverability audit, cohort/LTV workbook, and executive readout.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa bukti CRM system siap dijalankan?
+   **Expected answer in guide:** Documented data sources, consent, workflow, suppression/exit, QA, deliverability, monitoring, owners, and rollback.
+2. **Q:** Bagaimana membedakan CRM activity dan business impact?
+   **Expected answer in guide:** Message volume/delivery adalah activity; activation, repeat, margin, retention, and incremental lift menunjukkan impact.
+3. **Q:** Apa yang harus dilakukan bila opt-out tidak masuk ke automation?
+   **Expected answer in guide:** Segera suppress/stop marketing, perbaiki event/data pipeline, audit impacted records, and document incident/remediation.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4470,14 +4266,12 @@
 **Practice / deliverable:** Buat brand voice guide dengan 4 prinsip, tone matrix, vocabulary, do/don't, claims policy, dan contoh adaptasi satu message untuk TikTok, Instagram, YouTube, LinkedIn, dan blog.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda brand voice dan tone?
+   **Expected answer in guide:** Voice adalah karakter konsisten; tone adalah penyesuaian ekspresi sesuai konteks/platform/audience.
+2. **Q:** Mengapa brand voice tidak boleh menghalangi platform-native content?
+   **Expected answer in guide:** Ekspresi perlu menyesuaikan format dan perilaku audience sambil mempertahankan promise dan principles.
+3. **Q:** Apa yang termasuk claims policy?
+   **Expected answer in guide:** Batas klaim, proof requirement, legal/regulatory review, and prohibited statements.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4506,14 +4300,12 @@
 **Practice / deliverable:** Buat content strategy one-pager dengan objectives, audience journey, 4–6 content pillars, formats, distribution, channel role, KPIs, owner, and resource assumptions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda content pillar dan editorial calendar?
+   **Expected answer in guide:** Pillar menentukan territory/strategic themes; calendar mengatur kapan dan aset mana yang diproduksi/publish.
+2. **Q:** Mengapa persentase content mix tidak universal?
+   **Expected answer in guide:** Kategori, audience, funnel, budget, and business objective berbeda; proporsi harus ditentukan dari evidence.
+3. **Q:** Kapan content dianggap mendukung conversion?
+   **Expected answer in guide:** Saat ia menjawab objection, membuktikan value, memfasilitasi decision, and mengarah ke next action yang relevan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4542,14 +4334,12 @@
 **Practice / deliverable:** Buat editorial calendar 4 minggu dengan 12 planned assets, status workflow, owner, deadlines, production effort, campaign dependencies, repurpose plan, and KPI.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa calendar harus memuat status/owner?
+   **Expected answer in guide:** Tanpa status dan owner, tim tidak dapat mengelola approval, dependencies, delays, and accountability.
+2. **Q:** Apa beda always-on dan campaign content?
+   **Expected answer in guide:** Always-on melayani kebutuhan berulang; campaign content terikat objective/timing/event tertentu.
+3. **Q:** Bagaimana mengatasi kapasitas produksi terbatas?
+   **Expected answer in guide:** Prioritaskan audience/business value, repurpose, gunakan modular assets, and plan feasible cadence.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4578,14 +4368,12 @@
 **Practice / deliverable:** Buat insight-mining board 20 signals, cluster audience questions, validate three tensions, lalu prioritaskan lima content opportunities dengan score dan evidence trail.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa tren viral belum tentu opportunity?
+   **Expected answer in guide:** Trend bisa tidak relevan dengan audience/category/brand atau tidak mendukung objective.
+2. **Q:** Apa tanda insight mining berkualitas?
+   **Expected answer in guide:** Signals dapat ditelusuri, cluster menjelaskan need/tension, evidence lintas sumber, and content action jelas.
+3. **Q:** Apa beda audience question dan brand talking point?
+   **Expected answer in guide:** Audience question berasal dari kebutuhan mereka; brand talking point berasal dari hal yang ingin disampaikan brand.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4614,14 +4402,12 @@
 **Practice / deliverable:** Buat tiga storyboards untuk satu insight: 15-second video, 60-second video, and long-form article. Sertakan hook, tension, beat sheet, proof, visual/audio notes, and CTA.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko hook clickbait?
+   **Expected answer in guide:** Audience expectation tidak terpenuhi, meningkatkan bounce/negative feedback, dan menurunkan brand trust.
+2. **Q:** Apa beda tension dan problem statement?
+   **Expected answer in guide:** Tension menangkap konflik/need audience secara naratif; problem statement memformulasikan hambatan untuk keputusan.
+3. **Q:** Apa fungsi proof dalam storytelling?
+   **Expected answer in guide:** Membuat claim dipercaya dan membedakan cerita dari opini/hiburan kosong.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4650,14 +4436,12 @@
 **Practice / deliverable:** Buat brief dan outline long-form 1.200–1.500 kata dengan thesis, audience, sources, evidence table, section hierarchy, visual suggestions, author review, and CTA.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa long-form membutuhkan source trail?
+   **Expected answer in guide:** Pembaca/editor perlu memeriksa klaim, angka, freshness, and credibility.
+2. **Q:** Apa risiko memakai sumber sekunder tanpa cross-check?
+   **Expected answer in guide:** Angka/claim bisa outdated, salah konteks, atau hanya mengutip sumber lain yang sama.
+3. **Q:** Kapan artikel harus diperbarui?
+   **Expected answer in guide:** Saat data, policy, product, platform, legal claim, or search intent berubah.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4686,14 +4470,12 @@
 **Practice / deliverable:** Buat repurpose matrix 1 long-form source menjadi 8 assets: 3 short videos, 2 carousels, 1 email, 1 LinkedIn post, and 1 story. Sertakan hook, audience, format, CTA, and production notes.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda repurposing dan reposting?
+   **Expected answer in guide:** Repurposing mengadaptasi angle, structure, format, and CTA untuk audience/context; reposting mengulang asset.
+2. **Q:** Mengapa first-frame penting?
+   **Expected answer in guide:** Ia memberi context/relevance cepat dan memengaruhi apakah audience melanjutkan konsumsi.
+3. **Q:** Apa yang harus dicek pada video short-form?
+   **Expected answer in guide:** Aspect ratio, safe zones, captions, audio rights, claims, brand visibility, and link/CTA behavior.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4722,14 +4504,12 @@
 **Practice / deliverable:** Buat one-idea/multi-platform adaptation matrix untuk TikTok, Instagram, YouTube, and LinkedIn. Sertakan hook, format, depth, CTA, native behavior, KPI, and risk per platform.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa satu content format tidak selalu cocok lintas platform?
+   **Expected answer in guide:** Audience intent, consumption context, platform distribution, interaction behavior, and format constraints berbeda.
+2. **Q:** Apa yang harus konsisten?
+   **Expected answer in guide:** Brand promise, fact accuracy, POV, and key message; format/length/execution dapat diadaptasi.
+3. **Q:** Mengapa metrics lintas platform tidak boleh dibandingkan mentah?
+   **Expected answer in guide:** Definitions, view thresholds, audience, and platform behavior berbeda; gunakan normalized task-specific metrics.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4758,14 +4538,12 @@
 **Practice / deliverable:** Buat distribution plan untuk 5 content assets: organic, paid, creator, community, newsletter, and website. Sertakan rights, owner, schedule, amplification trigger, KPI, and cross-channel caveats.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa paid boost bukan pengganti distribution strategy?
+   **Expected answer in guide:** Amplification perlu audience fit, asset quality, rights, objective, budget, and downstream measurement.
+2. **Q:** Apa risiko UGC/creator asset digunakan berbayar tanpa rights?
+   **Expected answer in guide:** Pelanggaran usage agreement/IP, creator relationship damage, and policy/legal exposure.
+3. **Q:** Bagaimana memisahkan hasil organic dan paid?
+   **Expected answer in guide:** Gunakan tagging, platform reporting, asset IDs, time windows, and clearly defined attribution.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4794,14 +4572,12 @@
 **Practice / deliverable:** Buat content performance dashboard schema dan optimization memo untuk 20 assets. Sertakan IDs, format, pillar, retention, engagement, click quality, conversion, objective, and next action.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa view count bukan universal success metric?
+   **Expected answer in guide:** View thresholds/platform definitions berbeda dan tidak membuktikan attention, brand impact, or downstream behavior.
+2. **Q:** Apa nilai saves dan shares?
+   **Expected answer in guide:** Dapat menunjukkan utility/advocacy, tetapi tetap perlu interpretasi sesuai platform, content type, and business objective.
+3. **Q:** Apa yang harus dilakukan bila content metric dan sales tidak sejalan?
+   **Expected answer in guide:** Periksa audience/journey role, attribution, landing path, product readiness, and whether asset's intended job is direct conversion.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4830,14 +4606,12 @@
 **Practice / deliverable:** Siapkan content portfolio: audience/insight deck, brand voice, 4–6 pillars, quarter calendar, 3 long-form briefs, 12 short-form storyboards/assets, production specs, distribution/right matrix, dashboard, and optimization review.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang harus bisa dijelaskan dari content capstone?
+   **Expected answer in guide:** Mengapa content themes dipilih, audience need apa yang dijawab, bagaimana diproduksi/disebar, dan bagaimana success diukur.
+2. **Q:** Apa yang belum otomatis tercakup oleh kurikulum content strategy?
+   **Expected answer in guide:** Practical production depth seperti shooting, editing, lighting, audio, and motion perlu latihan teknis tambahan.
+3. **Q:** Bagaimana membuktikan portfolio tanpa client?
+   **Expected answer in guide:** Labeli brief/data sebagai simulated; tampilkan storyboard/asset/workflow/source and self-review, bukan fake performance claims.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4868,14 +4642,12 @@
 **Practice / deliverable:** Buat creator ecosystem map dan role matrix untuk awareness, education, product review, conversion, and advocacy campaigns. Sertakan partner types, deliverables, payment model, and risks.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa creator economy tidak sama dengan follower economy?
+   **Expected answer in guide:** Creator value mencakup audience trust, content quality, niche authority, rights, and commercial fit—not audience size alone.
+2. **Q:** Apa beda influencer campaign dan affiliate partnership?
+   **Expected answer in guide:** Influencer dibayar untuk content/reach/credibility; affiliate dibayar menurut tracked action/sales, meski creator dapat menjalankan keduanya.
+3. **Q:** Apa fungsi MCN/creator agency?
+   **Expected answer in guide:** Mengelola talent, production, commercial negotiation, access, and scale; scope berbeda per partner.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4904,14 +4676,12 @@
 **Practice / deliverable:** Buat KOL/KOC creator matrix berisi 20 creators synthetic/example: tier, niche, audience geo, trust signal, content format, objective fit, rate range assumption, disclosure, and recommended role.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda KOL dan KOC secara praktis?
+   **Expected answer in guide:** KOL biasanya dipilih untuk expertise/authority; KOC untuk peer experience/recommendation, tetapi batasnya tidak selalu formal.
+2. **Q:** Mengapa tier berdasarkan followers tidak cukup?
+   **Expected answer in guide:** Followers tidak menunjukkan audience fit, authenticity, influence, engagement quality, or content capability.
+3. **Q:** Apa kewajiban disclosure?
+   **Expected answer in guide:** Audience harus memahami hubungan komersial/paid/gifted sesuai hukum, platform policies, and contract.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4940,14 +4710,12 @@
 **Practice / deliverable:** Buat discovery workbook 30 candidates dan shortlist lima: criteria, source, profile, audience evidence, content fit, conflicts, outreach status, and recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa discovery perlu source trail?
+   **Expected answer in guide:** Memudahkan recheck creator data, contact, rates, availability, and changes sebelum kontrak.
+2. **Q:** Apa beda fit score dan performance guarantee?
+   **Expected answer in guide:** Fit score adalah penilaian awal; tidak menjamin campaign outcomes.
+3. **Q:** Apa yang harus dikonfirmasi sebelum shortlist final?
+   **Expected answer in guide:** Audience evidence, availability, fee, usage rights, exclusivity, policy issues, and deliverables.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4976,14 +4744,12 @@
 **Practice / deliverable:** Buat creator vetting scorecard untuk lima candidates dengan audience fit, ER context, quality, fake signal checks, brand safety, history, and accept/reject/risk decision.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah suspicious follower growth pasti fraud?
+   **Expected answer in guide:** Tidak. Bisa dipengaruhi viral content, media coverage, or platform events; perlu triangulasi.
+2. **Q:** Mengapa engagement rate saja tidak cukup?
+   **Expected answer in guide:** Comments dapat fake/low quality, audience tidak relevan, and platform metrics differ by format.
+3. **Q:** Apa bukti vetting yang harus disimpan?
+   **Expected answer in guide:** Dated screenshots/exports, media kit, risk flags, creator response, source links, and approval rationale.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5012,14 +4778,12 @@
 **Practice / deliverable:** Buat creator campaign plan 4 minggu: creator tier mix, shortlists, budget, message, timeline, deliverables, KPI, rights, disclosure, and amplification. Buat base/conservative scenarios.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa KPI harus berbeda per creator role?
+   **Expected answer in guide:** Authority/education, reach, UGC, and affiliate conversion memiliki tugas dan outcome berbeda.
+2. **Q:** Apa risiko audience overlap tinggi?
+   **Expected answer in guide:** Incremental reach dapat turun dan biaya menjangkau orang yang sama menjadi tinggi.
+3. **Q:** Apa yang harus masuk budget creator?
+   **Expected answer in guide:** Talent fee, production, seeding, shipping, usage rights, exclusivity, amplification, measurement, tax, and contingency.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5048,14 +4812,12 @@
 **Practice / deliverable:** Buat creator brief, storyline outline, key-message/proof matrix, do/don't, disclosure copy, approval workflow, and feedback template for one campaign.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko brief terlalu preskriptif?
+   **Expected answer in guide:** Konten kehilangan naturalness/creator voice, dan audience dapat melihatnya sebagai iklan yang tidak autentik.
+2. **Q:** Apa risiko brief terlalu bebas?
+   **Expected answer in guide:** Pesan/claim dapat melenceng, mandatories terlewat, atau brand safety/contract issue muncul.
+3. **Q:** Bagaimana approval SLA membantu?
+   **Expected answer in guide:** Creator dan brand mengetahui timeline review, jumlah revisi, final asset, and publishing lock.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5084,14 +4846,12 @@
 **Practice / deliverable:** Buat creator deal sheet dan contract checklist dengan rate, deliverables, revisions, usage rights, paid whitelisting, exclusivity, disclosure, cancel, payment, and expiry fields.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda organic posting rights dan paid usage rights?
+   **Expected answer in guide:** Izin posting pada channel creator berbeda dari izin brand menggunakannya pada paid ads/other channels.
+2. **Q:** Mengapa raw footage harus disebutkan?
+   **Expected answer in guide:** Raw files memiliki nilai/IP scope berbeda; edit, storage, access, and reuse perlu persetujuan.
+3. **Q:** Apa yang dilakukan bila creator meminta exclusivity luas?
+   **Expected answer in guide:** Nilai business impact, category definition, duration, competitors, and compensation; negotiate narrower scope.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5120,14 +4880,12 @@
 **Practice / deliverable:** Buat seeding program plan 30 creators: selection criteria, opt-in, product allocation, logistics tracker, expected/non-guaranteed outputs, feedback form, and cost model.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah gifting otomatis mewajibkan posting?
+   **Expected answer in guide:** Tidak kecuali ada agreement yang jelas; gifting dan paid deliverables harus dibedakan.
+2. **Q:** Mengapa opt-in penting?
+   **Expected answer in guide:** Creator harus menyetujui penerimaan produk dan memahami campaign terms/expectations.
+3. **Q:** Apa biaya seeding selain produk?
+   **Expected answer in guide:** Packing, shipping, taxes, handling, staff hours, follow-up, and content usage/rights if negotiated.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5156,14 +4914,12 @@
 **Practice / deliverable:** Buat execution tracker untuk 10 creator posts: status, owner, due date, asset version, approval, disclosure, URL, proof, corrections, invoice, and final acceptance.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang dilakukan jika creator telat publish?
+   **Expected answer in guide:** Ikuti contract/deadline clause, assess campaign impact, notify owner, and agree corrective path.
+2. **Q:** Mengapa screenshot alone tidak cukup untuk proof?
+   **Expected answer in guide:** Perlu URL, timestamp, platform, asset version, and relevant insight exports/permissions.
+3. **Q:** Apa yang harus ditangani segera setelah salah link?
+   **Expected answer in guide:** Pause amplification, correct destination, notify creator/brand, record impact, and verify link/tracking.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5192,14 +4948,12 @@
 **Practice / deliverable:** Buat partnership ads checklist dan paid amplification plan untuk dua creator assets. Sertakan permissions, rights, objective, budget, tracking, organic/paid reporting, and expiry alerts.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda boost dan partnership ad?
+   **Expected answer in guide:** Boost dapat menggunakan post melalui brand/account flow; partnership ads menjalankan iklan dengan creator partnership identity/authorization sesuai platform.
+2. **Q:** Mengapa organic and paid metrics harus dipisah?
+   **Expected answer in guide:** Paid spend mengubah reach/audience/delivery dan mengaburkan evaluasi organic content.
+3. **Q:** Apa risiko permission expiry?
+   **Expected answer in guide:** Ads dapat berhenti/reject dan penggunaan identity/content dapat melanggar agreement.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5228,14 +4982,12 @@
 **Practice / deliverable:** Buat influencer dashboard/memo untuk 10 creator: fee, organic/paid reach, views/retention, engagement quality, clicks, conversions, cost metrics, margin assumptions, and recommendations.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa total views tidak boleh diklaim seluruhnya organic?
+   **Expected answer in guide:** Views dapat berasal dari paid amplification; sumber delivery harus dipisah.
+2. **Q:** Apa risiko discount code sebagai attribution tunggal?
+   **Expected answer in guide:** Pembelian dapat terjadi tanpa code atau code dibagikan; code usage tidak menunjukkan keseluruhan causal impact.
+3. **Q:** Apa yang harus masuk ROI?
+   **Expected answer in guide:** Talent fee, production, seeding, usage rights, paid media, discounts, sales margin, and measurement costs.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5264,14 +5016,12 @@
 **Practice / deliverable:** Bangun capstone pack: creator strategy, 20-name shortlist, vetting scorecard, budget, creative brief, contract/rights matrix, seeding/production tracker, partnership ads plan, performance dashboard, and executive recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa bukti capstone siap portfolio?
+   **Expected answer in guide:** Artifacts from strategy through contracting, execution, tracking, reporting, and clear disclosure of synthetic assumptions.
+2. **Q:** Bagaimana membuktikan creator selection berbasis data?
+   **Expected answer in guide:** Sertakan audience evidence, content sample, fit score, risk review, rate rationale, and alternatives.
+3. **Q:** Apa yang membedakan campaign report dari relationship review?
+   **Expected answer in guide:** Campaign report menilai output/outcome; relationship review menilai reliability, collaboration, rights, quality, and future fit.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5302,14 +5052,12 @@
 **Practice / deliverable:** Buat affiliate ecosystem and program brief untuk brand: partner types, conversion definition, tracking flow, attribution window, commission model, fraud rules, and payout governance.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda affiliate dengan influencer marketing?
+   **Expected answer in guide:** Influencer sering dibayar untuk reach/content/engagement; affiliate dibayar menurut tracked action/sales sesuai contract.
+2. **Q:** Mengapa conversion definition harus jelas?
+   **Expected answer in guide:** Menentukan apakah order/lead eligible, kapan divalidasi, kapan komisi reversal, and kapan dibayar.
+3. **Q:** Apa risiko coupon attribution?
+   **Expected answer in guide:** Code leakage, last-click capture, cannibalization, and existing-customer credit dapat membayar komisi untuk sale non-incremental.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5338,14 +5086,12 @@
 **Practice / deliverable:** Buat publisher classification and recruitment matrix: partner type, audience/source, allowed method, risk, traffic quality evidence, commission fit, and onboarding need.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa partner type penting?
+   **Expected answer in guide:** Each type has different traffic, attribution, fraud, audience, and commission behavior.
+2. **Q:** Apa risiko sub-network yang tidak transparan?
+   **Expected answer in guide:** Traffic source and downstream publishers sulit diaudit; fraud or policy violations may be hidden.
+3. **Q:** Bagaimana membedakan creator affiliate dari paid creator?
+   **Expected answer in guide:** Creator affiliate earns commission per tracked action; paid creator receives fee for content/reach, or may combine both under separate terms.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5374,14 +5120,12 @@
 **Practice / deliverable:** Buat recruitment pipeline untuk 30 partner prospects: source, type, audience, reach, fit, risks, contact, status, onboarding requirements, and activation target.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda partner recruited dan partner activated?
+   **Expected answer in guide:** Recruited sudah join; activated telah mempromosikan offer/menjalankan campaign dengan eligible activity.
+2. **Q:** Mengapa first-conversion review penting?
+   **Expected answer in guide:** Membantu mendeteksi poor traffic/fraud atau setup errors sebelum partner mendapat scale.
+3. **Q:** Apa yang perlu ada di partner kit?
+   **Expected answer in guide:** Offer, product feed/assets, tracking links, commission terms, rules, disclosure, contact, and troubleshooting.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5410,14 +5154,12 @@
 **Practice / deliverable:** Buat commission calculator untuk CPS/CPA/hybrid dengan sensitivity: AOV, margin, discount, refund, fee, commission, and allowable acquisition cost. Labeli assumptions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa komisi tidak sebaiknya berdasarkan gross sales tanpa caveat?
+   **Expected answer in guide:** Discount, cancellations, returns, taxes, and fees dapat mengurangi net value; gross basis dapat membuat program rugi.
+2. **Q:** Apa fungsi reversal/clawback?
+   **Expected answer in guide:** Menarik kembali atau membatalkan commission untuk invalid, cancelled, returned, or non-eligible conversions.
+3. **Q:** Bagaimana tiered incentive dapat menimbulkan risiko?
+   **Expected answer in guide:** Partner bisa mengejar volume dengan low-quality/fraud traffic saat bonus threshold mendekat.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5446,14 +5188,12 @@
 **Practice / deliverable:** Buat product feed data dictionary, deep-link/tracking map, and QA cases for five SKUs. Verify price, availability, image, destination, IDs, publisher attribution, and update cadence.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa risiko stale product feed?
+   **Expected answer in guide:** Advertiser/partner promote wrong price or unavailable product, damaging conversion and trust.
+2. **Q:** Apa fungsi sub-ID?
+   **Expected answer in guide:** Membantu memisahkan publisher placement/campaign/creator source dalam attribution/reporting.
+3. **Q:** Mengapa deep link perlu test di app dan web?
+   **Expected answer in guide:** User journey and tracking may break across device/app install/redirect conditions.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5482,14 +5222,12 @@
 **Practice / deliverable:** Buat affiliate attribution flow diagram dan reconciliation workbook: click IDs, sub-IDs, conversion IDs, window, coupon rules, dedupe, cross-device caveats, and sales source.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda attributed sale dan incremental sale?
+   **Expected answer in guide:** Attributed sale mendapat credit menurut tracking rule; incremental sale adalah tambahan yang tidak akan terjadi tanpa treatment.
+2. **Q:** Apa yang terjadi bila conversion ID tidak unik?
+   **Expected answer in guide:** Satu order dapat tercatat berulang atau gagal dideduplikasi.
+3. **Q:** Mengapa cookie loss harus dicatat?
+   **Expected answer in guide:** Itu dapat mengurangi match/attribution dan membuat observed partner performance tidak lengkap.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5518,14 +5256,12 @@
 **Practice / deliverable:** Buat affiliate launch pack untuk 10 publishers: campaign brief, offer matrix, commission, assets, links, product list, eligibility, disclosure, QA, and launch approval.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa coupon eligibility harus jelas?
+   **Expected answer in guide:** Partner dapat menjanjikan discount yang tidak bisa digunakan sehingga returns/cancellations and trust issues naik.
+2. **Q:** Apa yang harus dipantau saat launch?
+   **Expected answer in guide:** Click, conversion, AOV, stock, orders, cancellations, invalid orders, link errors, and partner policy compliance.
+3. **Q:** Apa pentingnya launch approval?
+   **Expected answer in guide:** Memastikan product, legal, pricing, finance, tracking, and partner terms disetujui sebelum campaign aktif.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5554,14 +5290,12 @@
 **Practice / deliverable:** Buat social commerce creator program untuk lima SKUs: creator tiers, commission, product feed, live/video brief, claim restrictions, tracking, order quality, returns, and payout conditions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa GMV tidak sama dengan net sales/profit?
+   **Expected answer in guide:** GMV dapat mencakup cancellations/returns/discounts and does not subtract product, fulfillment, and commission costs.
+2. **Q:** Apa risiko creator claims tidak akurat?
+   **Expected answer in guide:** Misleading product promises can cause complaints, returns, policy violations, and brand trust harm.
+3. **Q:** Mengapa platform program terms harus dicek ulang?
+   **Expected answer in guide:** Eligibility, campaign type, commission, attribution, and settlement rules can change by account/category/market.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5590,14 +5324,12 @@
 **Practice / deliverable:** Buat affiliate fraud playbook: risk taxonomy, monitoring alerts, investigation checklist, evidence log, partner communication, reversal/clawback rules, and escalation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apakah click spike otomatis fraud?
+   **Expected answer in guide:** Tidak; promotions/events can cause spikes. Use multiple signals and investigation before final decision.
+2. **Q:** Apa itu cookie stuffing?
+   **Expected answer in guide:** Praktik menyisipkan tracking cookie tanpa valid user click/consent untuk mengambil attribution credit.
+3. **Q:** Mengapa fraud policy harus tertulis di contract?
+   **Expected answer in guide:** Memberi dasar audit, hold, reversal, suspension, clawback, and dispute resolution.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5626,14 +5358,12 @@
 **Practice / deliverable:** Buat monthly commission reconciliation workbook untuk 30 synthetic orders. Hitung eligible, cancelled, returned, duplicate, net commission, tax, payout, variance, and approval.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa network conversions belum final payout?
+   **Expected answer in guide:** Orders may be pending, cancelled, returned, invalid, or outside program eligibility.
+2. **Q:** Apa pentingnya rate table version?
+   **Expected answer in guide:** Commission can change across dates/partners/products; using wrong version produces payment errors.
+3. **Q:** Apa yang harus dilakukan saat partner dispute?
+   **Expected answer in guide:** Provide order-level evidence, rules, source reconciliation, and transparent resolution timeline.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5662,14 +5392,12 @@
 **Practice / deliverable:** Buat partner growth scorecard dan 90-day action plan: activation, active rate, net sales, margin, new-to-brand, returns, fraud, commission, and partner tier.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa jumlah publisher bukan KPI utama?
+   **Expected answer in guide:** Program size can rise while active quality, incremental profit, and compliance fall.
+2. **Q:** Apa beda active partner rate dan recruited count?
+   **Expected answer in guide:** Active rate measures partners generating eligible activity; recruited count only measures enrollment.
+3. **Q:** Mengapa concentration risk perlu dipantau?
+   **Expected answer in guide:** Revenue/attribution from few partners creates dependency and vulnerability to policy or traffic change.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5698,14 +5426,12 @@
 **Practice / deliverable:** Bangun affiliate capstone pack: program brief, ecosystem map, partner shortlist, commission model, feed/link QA, campaign plan, fraud playbook, reconciliation workbook, partner dashboard, and executive recommendation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa bukti program affiliate siap diluncurkan?
+   **Expected answer in guide:** Clear economics, conversion rules, contract, feed, tracking QA, partner policy, fraud control, and finance reconciliation.
+2. **Q:** Bagaimana membuktikan affiliate menguntungkan?
+   **Expected answer in guide:** Gunakan incremental contribution after discount, fees, returns, and commission; do not rely on gross sales/attributed ROAS only.
+3. **Q:** Apa yang perlu dicantumkan dalam portfolio?
+   **Expected answer in guide:** Artifacts, formulas, sources, assumptions, simulated labels, risk controls, and learning—not invented sales results.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5736,14 +5462,12 @@
 **Practice / deliverable:** Buat community charter: purpose, member promise, target segments, platform rationale, entry rules, participation principles, governance, and measurable success criteria.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda audience dan community?
+   **Expected answer in guide:** Audience menerima konten; community memiliki interaksi, norma, hubungan antar anggota, dan partisipasi berkelanjutan.
+2. **Q:** Kapan brand tidak perlu membuat community sendiri?
+   **Expected answer in guide:** Saat audience sudah terlayani di ruang lain, value proposition komunitas tidak jelas, atau resource moderation tidak tersedia.
+3. **Q:** Mengapa member count bukan ukuran health?
+   **Expected answer in guide:** Anggota bisa pasif, tidak relevan, atau tidak aman; participation, trust, retention, and value lebih penting.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5772,14 +5496,12 @@
 **Practice / deliverable:** Buat audience community map untuk satu kategori dengan 10 public spaces/accounts, member roles, norms, high-value conversations, risk, and ethical engagement approach.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa brand tidak boleh langsung masuk dengan promosi?
+   **Expected answer in guide:** Community memiliki norma/trust; pesan komersial tanpa permission/value dapat dianggap spam.
+2. **Q:** Apa beda lurker dan contributor?
+   **Expected answer in guide:** Lurker mengamati tanpa aktif posting; contributor memberi pertanyaan, jawaban, content, or participation.
+3. **Q:** Apa etika social listening?
+   **Expected answer in guide:** Ikuti platform rules, minimize personal data, respect private spaces, and report aggregate/context rather than exposing individuals.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5808,14 +5530,12 @@
 **Practice / deliverable:** Buat platform decision matrix untuk tiga opsi komunitas: objective, user behavior, moderation tools, privacy, analytics, integrations, cost, and risk. Sertakan member segmentation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa platform harus mengikuti use case?
+   **Expected answer in guide:** Setiap platform memiliki conversation format, search, roles, privacy, and moderation constraints berbeda.
+2. **Q:** Apa risiko community group tanpa moderation capacity?
+   **Expected answer in guide:** Spam, misinformation, harassment, privacy issues, and customer harm can grow faster than support resources.
+3. **Q:** Apa yang perlu dikumpulkan saat onboarding?
+   **Expected answer in guide:** Minimum profile and preference needed for purpose; avoid unnecessary personal data.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5844,14 +5564,12 @@
 **Practice / deliverable:** Buat listening query set dan coding book untuk brand/kategori. Analisis 100 synthetic/public-safe mentions: topic, sentiment, intent, audience tension, false positives, and recommended actions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa automated sentiment perlu human QA?
+   **Expected answer in guide:** Slang, sarcasm, context, and mixed language can cause misclassification.
+2. **Q:** Apa beda mention volume dan sentiment?
+   **Expected answer in guide:** Volume counts conversations; sentiment interprets tone/context and needs validation.
+3. **Q:** Mengapa query exclusions penting?
+   **Expected answer in guide:** Untuk mengurangi irrelevant mentions, homonyms, spam, and false positives.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5880,14 +5598,12 @@
 **Practice / deliverable:** Buat response playbook 20 cases: question, praise, complaint, misinformation, product issue, crisis signal, safety concern, and spam. Include response, owner, SLA, and escalation.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa beda community management dan customer care?
+   **Expected answer in guide:** Community management mengelola relationship/participation; customer care menyelesaikan service cases dengan systems/SLA—keduanya perlu handoff.
+2. **Q:** Mengapa response template tidak boleh kaku?
+   **Expected answer in guide:** Context, emotion, and issue severity require human adaptation; template supports consistency, not robotic replies.
+3. **Q:** Kapan harus escalate product safety?
+   **Expected answer in guide:** Saat ada injury, adverse reaction, contamination, or serious risk; follow approved safety/legal protocol immediately.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5916,14 +5632,12 @@
 **Practice / deliverable:** Buat 4-week community program calendar dengan 2 recurring formats, one event/AMA, UGC process, moderation roles, participation metric, and safety plan.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa challenge dengan hadiah saja dapat gagal?
+   **Expected answer in guide:** It can attract incentive-only behavior without meaningful member value or durable participation.
+2. **Q:** Apa yang perlu sebelum repost UGC?
+   **Expected answer in guide:** Permission, attribution/credit, usage scope, editing consent, and compliance review.
+3. **Q:** Bagaimana mengukur programming quality?
+   **Expected answer in guide:** Repeat contributors, meaningful replies, completion, member value, retention, and issue reduction—not raw posts alone.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5952,14 +5666,12 @@
 **Practice / deliverable:** Buat community rules dan moderation matrix dengan 10 scenarios, severity, action, response template, evidence retention, appeal, and escalation owner.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa kritik sah tidak boleh dihapus otomatis?
+   **Expected answer in guide:** Feedback yang sah memberi evidence dan trust; moderation harus menargetkan harmful behavior, bukan negative sentiment.
+2. **Q:** Apa yang dilakukan pada doxxing/personal data exposure?
+   **Expected answer in guide:** Hide/remove promptly, preserve minimal evidence, escalate security/legal, and protect affected member.
+3. **Q:** Mengapa moderation harus memiliki appeal/escalation path?
+   **Expected answer in guide:** Untuk konsistensi, fairness, and review atas keputusan yang berdampak pada anggota.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5988,14 +5700,12 @@
 **Practice / deliverable:** Buat customer care handoff flow dan response templates untuk order issue, refund, product defect, privacy complaint, and safety incident. Sertakan PII rules and SLA.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa case perlu dipindah ke secure channel?
+   **Expected answer in guide:** Untuk melindungi PII/order details dan memastikan verification/records sesuai service process.
+2. **Q:** Apa bedanya acknowledge dengan resolve?
+   **Expected answer in guide:** Acknowledge mengakui issue; resolve menyelesaikan masalah dan mengonfirmasi outcome.
+3. **Q:** Apa yang harus dicatat di ticket?
+   **Expected answer in guide:** Case ID, category, owner, SLA, status, evidence, action, and closure—minimum necessary personal data.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6024,14 +5734,12 @@
 **Practice / deliverable:** Buat advocacy program blueprint: member tiers/behaviors, recognition system, UGC permission, referral flow, review policy, disclosure, and health metrics.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa reward untuk positive review berisiko?
+   **Expected answer in guide:** Mengontrol sentiment dan dapat melanggar review/platform policies; reward should not require positive rating.
+2. **Q:** Apa beda advocate dan influencer?
+   **Expected answer in guide:** Advocate punya relationship/peer trust through genuine participation; influencer is selected for audience/content reach, though overlap exists.
+3. **Q:** Apa yang perlu sebelum memakai UGC brand-wide?
+   **Expected answer in guide:** Permission, credit, channel, period, editing rules, and disclosure.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6060,14 +5768,12 @@
 **Practice / deliverable:** Buat crisis playbook dengan 5 scenarios, severity triggers, RACI, holding statement, approval chain, response SLA, evidence log, and after-action review.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa holding statement harus hati-hati?
+   **Expected answer in guide:** Fakta belum lengkap; statement harus acknowledge, explain next step, and avoid unsupported claims or blame.
+2. **Q:** Kapan issue berubah menjadi crisis?
+   **Expected answer in guide:** Saat scope, safety/legal risk, rapid spread, business impact, or stakeholder attention melewati escalation threshold.
+3. **Q:** Apa yang perlu dilakukan setelah crisis?
+   **Expected answer in guide:** Audit timeline, decisions, response, harm, root cause, and prevention; do not simply delete posts.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6096,14 +5802,12 @@
 **Practice / deliverable:** Buat community health dashboard dan monthly report: active members, contributor rate, repeat, SLA, resolution, moderation, sentiment themes, UGC permissions, and next actions.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Mengapa member count tidak cukup?
+   **Expected answer in guide:** Growth dapat berasal dari campaign/giveaway dan tidak menunjukkan active/retained/helpful participation.
+2. **Q:** Apa definisi meaningful contribution?
+   **Expected answer in guide:** Action yang memberi value pada komunitas seperti jawaban, feedback, support, content, or constructive discussion.
+3. **Q:** Mengapa sentiment score harus divalidasi?
+   **Expected answer in guide:** Bahasa, sarcasm, sample bias, and platform coverage dapat menghasilkan misclassification.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6132,14 +5836,12 @@
 **Practice / deliverable:** Bangun community operating pack: charter, audience map, platform decision, onboarding, 4-week calendar, moderation matrix, care handoff, advocacy program, crisis playbook, dashboard, and after-action plan.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no score engine or passing threshold verified.
-1. **Q:** undefined
-   **Expected answer in guide:** undefined
-2. **Q:** undefined
-   **Expected answer in guide:** undefined
-3. **Q:** undefined
-   **Expected answer in guide:** undefined
-
-**Glossary:** undefined: undefined; undefined: undefined; undefined: undefined; undefined: undefined
+1. **Q:** Apa yang membedakan community plan dari social content calendar?
+   **Expected answer in guide:** Community plan mengatur member relationships, participation, norms, service, safety, and governance—not only publishing.
+2. **Q:** Bagaimana membuktikan community value?
+   **Expected answer in guide:** Show member outcomes, repeat participation, resolution, feedback, advocacy, retention, and measured business/service effects.
+3. **Q:** Apa yang harus dihindari dalam capstone?
+   **Expected answer in guide:** Fake member counts, fabricated sentiment, forced testimonials, unsafe data collection, and unapproved UGC use.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
