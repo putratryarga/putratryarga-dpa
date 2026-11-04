@@ -8191,3 +8191,39 @@ Do not mark the 169 chapters validated based on inventory reconciliation alone.
 ================================================================================
 END OF ADDENDUM v1.2
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.3 — RESOURCE AND CREDENTIAL VALIDATION REGISTER
+Date: 4 November 2026
+================================================================================
+
+Issuer-source findings and credential distinctions are maintained in:
+docs/resource-credential-validation.md
+
+Verified in this research batch:
+- Google Ads certification: 80% pass threshold, 75-minute assessment, one-year
+  validity, 22 available languages including Indonesian.
+- Meta Blueprint: free learning content is distinct from paid Meta Certification.
+  Exam voucher pricing varies by marketplace; US pricing must not be copied to
+  Indonesia.
+- TikTok Media Buying Professional: 60 questions, 110 minutes, proctored,
+  USD 200 plus applicable fees/taxes, designed for candidates with at least one
+  year hands-on TikTok Ads Manager experience; two-year validity stated on the
+  certification page.
+- Amazon Ads Programmatic Solutions: approximately two-hour certification path;
+  badge and downloadable certificate after passing. The accessible source
+  includes an expiration date on the PDF but did not establish the exact
+  validity period or exam price in this research batch.
+- StackAdapt Programmatic Masterclass: free, eight modules, 120 minutes; treat
+  as a vendor-issued course certification, not independent industry accreditation.
+- The Trade Desk Programmatic 101: one-hour foundational course; no credential
+  confirmed on the public course page reviewed.
+
+These findings are source-batch facts, not proof of Indonesian account access.
+The exact enrollment price, taxes, regional eligibility and expiration must be
+rechecked at the point of enrollment. Do not make paid/experience-gated
+certifications mandatory for beginners.
+================================================================================
+END OF ADDENDUM v1.3
+================================================================================
