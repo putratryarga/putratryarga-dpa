@@ -4585,7 +4585,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
   };
   function attachChapterSources(){
     document.querySelectorAll('[data-track-box]').forEach(function(box){
-      var resources=Array.prototype.slice.call(box.querySelectorAll('a.res'));
+      var resources=Array.prototype.slice.call(box.querySelectorAll('a.res:not([href="https://ads.openai.com/"])'));
       var chapters=Array.prototype.slice.call(box.querySelectorAll('details.week'));
       var map=CHAPTER_SOURCE_MAP[box.dataset.trackBox] || [];
       if(!resources.length || !chapters.length) return;
