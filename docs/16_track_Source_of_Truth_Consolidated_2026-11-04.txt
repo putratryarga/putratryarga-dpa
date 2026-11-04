@@ -8266,3 +8266,56 @@ docs/169-chapter-evidence-register.md
 ================================================================================
 END OF ADDENDUM v1.4
 ================================================================================
+
+
+================================================================================
+ADDENDUM v1.5 — STATIC PRE-MERGE QA RESULTS
+Date: 4 November 2026
+================================================================================
+
+PR #5 current branch was inspected after the immutable chapter-ID change.
+
+Static HTML/source checks:
+- 16 role selector keys found; 17 track-box keys including Common Foundation.
+- 169 core chapter elements found; 169 unique data-chapter-id values.
+- 391 HTML id attributes found; all 391 are unique.
+- 13 internal anchor links found; zero missing target IDs.
+- Eight local script dependencies are declared: fullstack-guides.js,
+  paid-social-guides.js, role-study-guides-part1.js, role-study-guides-part2.js,
+  role-study-guides-part3.js, chapter-guide-map.js,
+  fullstack-master-roadmap.js and fullstack-master-renderer.js.
+- Local source files are present in the PR #5 branch.
+- Static source contains localStorage progress persistence, theme switching,
+  checkbox persistence, keyboard focus handling and prefers-reduced-motion
+  handling.
+- Responsive CSS breakpoints are present, including max-width 640px, 760px,
+  900px, 980px, 1101px and 380px rules plus print styles.
+- The word "quiz" appears only three times in the inspected index source and
+  no quiz scoring/submission engine was detected by the static check. Current
+  guide comprehension Q&A must not be described as an interactive scored quiz.
+- Vercel status checks on the inspected PR branch commits returned success.
+  This is deployment status only; no GitHub Actions test workflow runs were
+  returned for those commits.
+
+Not performed / still required:
+- No real browser session or device matrix was run in this static audit.
+- No visual screenshot comparison at mobile/tablet/desktop breakpoints.
+- No live click-through test of all 16 role selector states, progress save/
+  restore, theme toggle, print, keyboard-only navigation or screen reader.
+- No console/network trace, runtime exception check, external link crawl or
+  resource enrollment test.
+- No chapter-by-chapter answer-key correctness review or formal rubric scoring.
+- No test with empty/slow network, blocked CDN/font or unavailable third-party
+  platform.
+
+Therefore:
+- Source-level structural checks: PASS for unique IDs, internal anchors and
+  declared script references.
+- Deployment check: Vercel status success for the inspected commits.
+- Browser/runtime QA: NOT RUN.
+- Content/resource/assessment validation: PARTIAL.
+- Overall PR #5 / PR #6 release decision: NOT READY TO MERGE until all remaining
+  gates are closed and a full browser QA report is attached.
+================================================================================
+END OF ADDENDUM v1.5
+================================================================================
