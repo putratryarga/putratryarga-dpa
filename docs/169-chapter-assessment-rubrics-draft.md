@@ -319,14 +319,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda business problem dan communication problem?
+   - **Current guide answer (not yet approved):** Business problem adalah hasil komersial yang perlu berubah; communication problem adalah hambatan persepsi, pemahaman, preference, atau tindakan yang memang dapat dipengaruhi komunikasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa brief tidak boleh langsung berisi channel?
+   - **Current guide answer (not yet approved):** Channel baru dipilih setelah audience, barrier, objective, dan journey dipahami. Memulai dari channel berisiko mengoptimalkan media untuk masalah yang salah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana membuktikan sebuah masalah berada dalam kendali komunikasi?
+   - **Current guide answer (not yet approved):** Triangulasikan riset audience, perilaku, pesan yang diterima, dan faktor komersial seperti harga/stok. Catat faktor yang tidak dapat dikendalikan planner.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -347,14 +347,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa persona demografis saja tidak cukup?
+   - **Current guide answer (not yet approved):** Demografi membantu mendeskripsikan populasi, tetapi tidak menjelaskan motivasi, trigger, hambatan, atau bukti yang diperlukan untuk mengambil keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko memakai social listening sebagai satu-satunya riset?
+   - **Current guide answer (not yet approved):** Percakapan publik tidak selalu representatif, dapat bias platform, loud minority, dan tidak selalu menjelaskan sebab perilaku.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan segmentasi layak digunakan untuk strategi?
+   - **Current guide answer (not yet approved):** Saat segmen memiliki kebutuhan/perilaku berbeda yang mengubah proposition, channel, experience, atau keputusan investasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -375,14 +375,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda trend dan insight?
+   - **Current guide answer (not yet approved):** Trend menunjukkan pola/sinyal yang berkembang; insight menjelaskan motivasi atau tension yang mendasari perilaku dan mengarahkan keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa insight harus punya evidence yang dapat membantahnya?
+   - **Current guide answer (not yet approved):** Tanpa falsifiability, insight mudah menjadi slogan yang terdengar menarik tetapi tidak dapat diuji atau dipakai mengambil keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dimaksud brand fit dalam cultural moment?
+   - **Current guide answer (not yet approved):** Kesesuaian antara nilai, pengalaman, kompetensi, dan peran nyata brand dengan isu yang ingin dimasuki.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -403,14 +403,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa perbedaan proposition dan tagline?
+   - **Current guide answer (not yet approved):** Proposition menjelaskan nilai dan alasan memilih brand; tagline adalah ekspresi kreatif singkat yang dapat menjadi salah satu bentuk komunikasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa proof point tidak boleh dibuat hanya dari copywriting?
+   - **Current guide answer (not yet approved):** Proof harus berasal dari fakta produk, data, sertifikasi, pengalaman, atau bukti yang dapat diverifikasi. Klaim tanpa dasar menimbulkan risiko reputasi/legal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana menguji messaging hierarchy?
+   - **Current guide answer (not yet approved):** Pastikan pesan utama konsisten, supporting messages menjawab barrier, proof dapat diverifikasi, dan CTA sesuai tahap journey.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -431,14 +431,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa journey tidak selalu funnel linear?
+   - **Current guide answer (not yet approved):** Audience dapat bolak-balik, melompat, dipengaruhi marketplace/offline, dan menerima rekomendasi sebelum atau sesudah search.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda touchpoint dengan channel?
+   - **Current guide answer (not yet approved):** Channel adalah medium/distribusi; touchpoint adalah interaksi spesifik yang dialami audience pada konteks dan waktu tertentu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana memilih moment of truth?
+   - **Current guide answer (not yet approved):** Gunakan evidence dampak pada keputusan, intensitas friction, frekuensi/reach, dan kemampuan brand memperbaiki pengalaman.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -459,14 +459,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa channel tidak dipilih hanya berdasarkan CPM termurah?
+   - **Current guide answer (not yet approved):** Biaya exposure tidak menjelaskan trust, intent, attention, experience, conversion, atau contribution terhadap outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi shared media?
+   - **Current guide answer (not yet approved):** Distribusi atau penyebaran yang didorong partisipasi audience, creator, komunitas, atau jaringan sosial; bukan sepenuhnya dibeli atau dikontrol brand.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana menghindari channel silos?
+   - **Current guide answer (not yet approved):** Gunakan satu journey dan messaging architecture, tentukan handoff, shared measurement, owner, dan aturan frekuensi/sequence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -487,14 +487,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko pesan terlalu seragam di semua channel?
+   - **Current guide answer (not yet approved):** Pesan dapat kehilangan relevansi konteks dan intent; audience dipaksa menerima format yang tidak sesuai tahap atau kebutuhan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko pesan terlalu berbeda antar-channel?
+   - **Current guide answer (not yet approved):** Brand promise menjadi tidak konsisten, proof saling bertentangan, dan audience menerima pengalaman terputus.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dimaksud architecture, bukan sekadar content calendar?
+   - **Current guide answer (not yet approved):** Architecture menentukan hubungan strategis audience, objective, message, channel, sequence, dan experience; calendar hanya menempatkan aktivitas pada waktu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -515,14 +515,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa bedanya creative brief dan media brief?
+   - **Current guide answer (not yet approved):** Creative brief mengarahkan ide/pesan/pengalaman; media brief mengarahkan target, channel, inventory, budget, timing, dan delivery.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa desired response harus jelas?
+   - **Current guide answer (not yet approved):** Agar creative team mengerti perubahan audience yang dituju dan dapat menilai apakah ide bekerja untuk objective.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bukti handoff berhasil?
+   - **Current guide answer (not yet approved):** Owner menerima brief dan aset dengan konteks, spesifikasi, deadline, KPI, approval, dependency, serta kriteria QA yang disepakati.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -543,14 +543,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah reach tinggi membuktikan komunikasi efektif?
+   - **Current guide answer (not yet approved):** Tidak. Reach adalah output delivery; efektivitas perlu bukti perubahan pemahaman, persepsi, perilaku, atau outcome sesuai objective.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda attribution dan incrementality?
+   - **Current guide answer (not yet approved):** Attribution membagi kredit menurut aturan model; incrementality mengestimasi tambahan outcome yang disebabkan aktivitas dibanding kondisi counterfactual.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa learning agenda harus ditetapkan sebelum campaign?
+   - **Current guide answer (not yet approved):** Agar pengumpulan data, metode, sample, dan decision threshold sesuai pertanyaan; mengurangi bias memilih metrik setelah melihat hasil.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -571,14 +571,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang membedakan capstone strategis dari moodboard?
+   - **Current guide answer (not yet approved):** Capstone menunjukkan evidence, diagnosis, strategi, channel/message architecture, feasibility, KPI, governance, dan keputusan yang dapat dipertanggungjawabkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Bagaimana menyampaikan uncertainty kepada klien?
+   - **Current guide answer (not yet approved):** Nyatakan assumption, confidence, data gap, sensitivity, dan cara mengujinya; jangan menyamarkan estimasi sebagai fakta.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa ukuran recommendation siap dijalankan?
+   - **Current guide answer (not yet approved):** Ada owner, timeline, asset/approval requirements, budget implication, KPI, QA, risks, dan decision gates.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -599,14 +599,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda business objective dan media objective?
+   - **Current guide answer (not yet approved):** Business objective adalah hasil bisnis; media objective adalah kontribusi distribusi/eksposur atau aksi media yang mendukung hasil tersebut.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa distribution footprint harus dicek sebelum national reach plan?
+   - **Current guide answer (not yet approved):** Media dapat menjangkau wilayah tanpa produk/layanan tersedia; exposure tersebut membuang budget dan dapat merusak experience.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dilakukan ketika brief belum lengkap?
+   - **Current guide answer (not yet approved):** Catat gap, minta clarification, nyatakan asumsi sementara, dan jangan menyajikan forecast seolah-olah sudah pasti.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -627,14 +627,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa audience estimate tidak bisa langsung dijumlahkan lintas platform?
+   - **Current guide answer (not yet approved):** Universe, identity resolution, time window, deduplication, dan metode pengukuran berbeda; hasilnya dapat overlap.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi first-party data dalam media planning?
+   - **Current guide answer (not yet approved):** Membantu memahami existing customers/consented audience dan membangun targeting atau suppression, dengan governance serta izin yang sesuai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa data source harus punya tanggal dan metodologi?
+   - **Current guide answer (not yet approved):** Audience behavior dan platform definitions berubah; tanpa recency/method, planner tidak bisa menilai reliability estimate.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -655,14 +655,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa CPM murah belum tentu inventory bernilai?
+   - **Current guide answer (not yet approved):** Cost per thousand tidak mengukur viewability, IVT, contextual suitability, attention, audience relevance, atau outcomes.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda publisher direct dan DSP inventory?
+   - **Current guide answer (not yet approved):** Direct dibeli melalui media owner/representative dengan terms spesifik; DSP mengakses inventory melalui platform dan mekanisme auction/deal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dimaksud apples-to-apples media comparison?
+   - **Current guide answer (not yet approved):** Menyamakan scope, format, audience, dates, impressions/reach, fee, measurement, dan delivery terms sebelum membandingkan harga.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -683,14 +683,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa KPI perlu denominator dan window?
+   - **Current guide answer (not yet approved):** Tanpa denominator/periode yang jelas, angka tidak dapat dibandingkan dan dapat menyesatkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda primary dan diagnostic metric?
+   - **Current guide answer (not yet approved):** Primary menentukan keberhasilan; diagnostic membantu menjelaskan penyebab perubahan primary metric.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa CTR tidak boleh menjadi KPI universal?
+   - **Current guide answer (not yet approved):** CTR bergantung pada format, objective, placement, audience, dan click definition; ia tidak selalu mencerminkan business outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -711,14 +711,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda average ROAS dan marginal ROAS?
+   - **Current guide answer (not yet approved):** Average menilai hasil keseluruhan; marginal mengukur hasil tambahan dari satu unit budget berikutnya dan lebih relevan untuk scaling.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa satu channel dengan ROAS tertinggi tidak otomatis menerima seluruh budget?
+   - **Current guide answer (not yet approved):** Volume, incrementality, role dalam demand creation, saturation, overlap, margin, dan channel risk dapat membuat return marginal turun.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang wajib ada dalam forecast?
+   - **Current guide answer (not yet approved):** Input, formula, time window, range, source, confidence, scenario, serta penjelasan bahwa forecast bukan guaranteed delivery.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -739,14 +739,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda impressions dan reach?
+   - **Current guide answer (not yet approved):** Impressions menghitung exposure; reach menghitung individu/household unik menurut metodologi yang digunakan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa arti GRP?
+   - **Current guide answer (not yet approved):** Gross Rating Points mengukur total rating points berdasarkan target universe; dapat mencakup repeated exposure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa platform reach tidak selalu dapat dijumlahkan lintas channel?
+   - **Current guide answer (not yet approved):** Setiap platform dapat menggunakan identity, deduplication, universe, dan time window berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -767,14 +767,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko flighting tanpa stock calendar?
+   - **Current guide answer (not yet approved):** Iklan dapat mendorong demand saat produk tidak tersedia dan membuang budget atau menurunkan customer trust.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Kapan pulsing lebih tepat daripada full continuity?
+   - **Current guide answer (not yet approved):** Saat baseline presence dibutuhkan tetapi demand/seasonality memiliki momen puncak yang memerlukan intensitas tambahan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fungsi dependency mapping?
+   - **Current guide answer (not yet approved):** Memastikan booking, creative, approvals, tags, stock, dan owner siap sesuai urutan launch.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -795,14 +795,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda media planner dan media buyer?
+   - **Current guide answer (not yet approved):** Planner merancang channel/budget/forecast dan rationale; buyer melakukan negotiation, booking, buying terms, serta stewardship sesuai mandat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa rate card tidak cukup untuk menilai proposal?
+   - **Current guide answer (not yet approved):** Perlu delivery basis, audience, placement quality, fees, value-add, dates, measurement, cancellation, serta contractual makegood.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bukti buying handoff siap?
+   - **Current guide answer (not yet approved):** Buyer menerima brief final, inventory/format, budget/date, KPI, spec, tracking, approval, terms, dan escalation owner.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -823,14 +823,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa CPM turun belum tentu kemenangan?
+   - **Current guide answer (not yet approved):** CPM lebih murah bisa disebabkan placement/audience quality menurun atau delivery bergeser; cek reach, attention, fraud, conversion, dan margin.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda delivery analysis dan effectiveness analysis?
+   - **Current guide answer (not yet approved):** Delivery menilai pemenuhan media plan; effectiveness menilai perubahan audience/business outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa syarat rekomendasi optimization yang kuat?
+   - **Current guide answer (not yet approved):** Root cause evidence, change spesifik, expected mechanism, KPI/guardrail, owner, dan batas inferensi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -851,14 +851,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang membuat media plan dapat dipertanggungjawabkan?
+   - **Current guide answer (not yet approved):** Setiap keputusan terkait audience, task, inventory, budget, forecast, KPI, dan timing memiliki rationale serta sumber/asumsi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa forecast perlu scenario range?
+   - **Current guide answer (not yet approved):** Inventory, audience, price, competition, creative readiness, dan response tidak pasti; satu angka tunggal memberi kepastian palsu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus disiapkan untuk presentasi klien?
+   - **Current guide answer (not yet approved):** Recommendation, logic, budget, KPI, timing, risks, assumptions, dependencies, owner, dan keputusan yang diminta.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -879,14 +879,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa search bukan sekadar bidding keyword?
+   - **Current guide answer (not yet approved):** Auction, query intent, relevance, landing experience, conversion signal, budget, dan competition bersama-sama menentukan delivery serta outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa perbedaan keyword dengan search term?
+   - **Current guide answer (not yet approved):** Keyword adalah target/setting yang dipilih advertiser; search term adalah query aktual yang memicu iklan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa conversion harus didefinisikan sebelum campaign?
+   - **Current guide answer (not yet approved):** Bidding dan reporting belajar dari conversion signal; event yang salah mengarahkan algoritma serta keputusan budget ke outcome yang keliru.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -907,14 +907,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa volume tinggi tidak selalu berarti prioritas tinggi?
+   - **Current guide answer (not yet approved):** Volume tanpa intent, conversion potential, margin, landing fit, dan economics bisa menghasilkan traffic mahal tetapi tidak bernilai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Bagaimana mengelompokkan keyword?
+   - **Current guide answer (not yet approved):** Berdasarkan intent, product/service, need, brand, competitor, geography, dan funnel context.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa batas competitor ad analysis?
+   - **Current guide answer (not yet approved):** Ad copy/visibility adalah observasi; tidak memberi akses ke bid, actual CPA, margin, atau conversion results pesaing.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -935,14 +935,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa tidak membuat satu campaign untuk setiap keyword?
+   - **Current guide answer (not yet approved):** Fragmentasi dapat membagi budget/conversion signals dan membuat learning serta management tidak efisien.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Kapan campaign perlu dipisah?
+   - **Current guide answer (not yet approved):** Saat objective, budget, geo, product economics, brand protection, atau bidding strategy membutuhkan kontrol berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa tujuan naming taxonomy?
+   - **Current guide answer (not yet approved):** Menjamin identifikasi objek, konsistensi laporan, QA, perubahan, dan handover antar operator.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -963,14 +963,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa fungsi search terms report?
+   - **Current guide answer (not yet approved):** Menunjukkan query yang memicu iklan untuk menilai intent, relevansi, biaya, conversion quality, dan peluang keyword/negative.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko negative keyword terlalu agresif?
+   - **Current guide answer (not yet approved):** Query bernilai dapat terblokir sehingga reach, volume, dan learning berkurang.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa match type harus dicek di dokumentasi terbaru?
+   - **Current guide answer (not yet approved):** Platform mengubah matching behavior dan close variants; label match tidak selalu berarti literal match.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -991,14 +991,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang dimaksud message match?
+   - **Current guide answer (not yet approved):** Konsistensi antara query, ad promise, offer, dan konten landing page sehingga audience menemukan yang dijanjikan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa semua headline tidak harus memiliki CTA yang sama?
+   - **Current guide answer (not yet approved):** Asset perlu melengkapi benefit, proof, offer, dan action; repetisi mengurangi kombinasi informasi yang tersedia.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dilakukan jika CTR naik tetapi CVR turun?
+   - **Current guide answer (not yet approved):** Audit query mix, promise-to-page match, audience quality, page experience, offer, dan tracking sebelum menyimpulkan creative lebih baik.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1019,14 +1019,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa smart bidding tidak memperbaiki conversion tracking yang rusak?
+   - **Current guide answer (not yet approved):** Algoritma mengoptimalkan signal yang diberikan; event salah/duplikat membuat learning dan budget allocation ikut salah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko menetapkan target ROAS terlalu tinggi?
+   - **Current guide answer (not yet approved):** Delivery dapat menyempit atau berhenti mengejar peluang yang masih profitable pada target bisnis sebenarnya.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dipantau selain average CPA?
+   - **Current guide answer (not yet approved):** Conversion value, margin, volume, query quality, impression share, budget pacing, new-customer share, dan marginal performance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1047,14 +1047,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa form submit belum tentu qualified lead?
+   - **Current guide answer (not yet approved):** Submit hanya perilaku awal; qualification memerlukan validasi data, fit, sales response, dan outcome CRM.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko conversion double-counting?
+   - **Current guide answer (not yet approved):** Bidding/reporting menganggap conversion lebih banyak sehingga CPA/ROAS dan optimasi menjadi bias.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fungsi offline conversion import?
+   - **Current guide answer (not yet approved):** Menghubungkan conversion yang terjadi di CRM/sales setelah click dengan campaign signal, sesuai identifier, privacy, dan rules.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1075,14 +1075,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah Quality Score dapat menjadi business KPI?
+   - **Current guide answer (not yet approved):** Tidak. Ia diagnostic indicator untuk relevance/auction context; success harus dilihat pada cost, qualified conversion, value, dan margin.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda lost IS budget dan lost IS rank?
+   - **Current guide answer (not yet approved):** Budget loss menunjukkan batas anggaran; rank loss berkaitan competitiveness/Ad Rank, bid, relevance, dan auction context.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa diagnosis harus disegmentasi?
+   - **Current guide answer (not yet approved):** Rata-rata account dapat menutupi query, device, region, atau landing-page pockets yang punya masalah berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1103,14 +1103,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa perubahan banyak variabel sekaligus berbahaya?
+   - **Current guide answer (not yet approved):** Penyebab hasil tidak dapat diisolasi, sehingga tim tidak tahu intervensi mana yang memberi dampak.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa arti hasil inconclusive?
+   - **Current guide answer (not yet approved):** Bukti belum cukup untuk memilih pemenang; itu bukan bukti bahwa variasi identik.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan eksperimen sebaiknya dihentikan?
+   - **Current guide answer (not yet approved):** Sesuai pre-defined stopping rule, misalnya safety issue, tracking failure, budget limit, atau sample/time threshold—bukan saat hasil disukai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1131,14 +1131,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang membuat paid search capstone berbeda dari kumpulan keyword?
+   - **Current guide answer (not yet approved):** Ia membuktikan intent-to-conversion system, termasuk architecture, message match, economics, tracking, optimization, dan QA.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa qualified lead lebih bernilai daripada raw form volume?
+   - **Current guide answer (not yet approved):** Qualified lead lebih dekat ke pipeline/revenue; raw form dapat dipenuhi spam atau audience yang tidak sesuai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana membedakan actual dan simulated result di portfolio?
+   - **Current guide answer (not yet approved):** Gunakan label jelas, jelaskan sumber/rumus, jangan klaim client spend atau campaign outcome yang tidak pernah terjadi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1439,14 +1439,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa perbedaan DSP dan SSP?
+   - **Current guide answer (not yet approved):** DSP membantu advertiser membeli inventory; SSP membantu publisher mengelola dan menjual inventory.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa programmatic tidak sama dengan paid social?
+   - **Current guide answer (not yet approved):** Programmatic membeli inventory lintas publisher melalui DSP/exchange; paid social berjalan pada platform social dengan inventory/audience system masing-masing.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa supply-chain transparency penting?
+   - **Current guide answer (not yet approved):** Intermediary fees, reselling, unauthorized supply, dan poor-quality inventory dapat mengurangi net value dan accountability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1467,14 +1467,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa itu bid floor?
+   - **Current guide answer (not yet approved):** Harga minimum yang disyaratkan supply side untuk eligible impression/deal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi ads.txt dan sellers.json?
+   - **Current guide answer (not yet approved):** Membantu transparansi dan otorisasi penjual inventory, tetapi tidak sendirian menjamin kualitas.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa bid tinggi tidak menjamin win?
+   - **Current guide answer (not yet approved):** Eligibility, deal rules, timeout, floor, auction competition, creative compatibility, dan supply signals juga menentukan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1495,14 +1495,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda first-party audience dan third-party data?
+   - **Current guide answer (not yet approved):** First-party berasal dari hubungan/interaksi langsung organisasi; third-party diperoleh dari sumber/pihak eksternal dengan ketentuan penggunaan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa match rate bukan audience quality?
+   - **Current guide answer (not yet approved):** Match rate hanya menunjukkan keberhasilan matching; tidak membuktikan intent, freshness, identity accuracy, atau conversion likelihood.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan contextual targeting lebih tepat?
+   - **Current guide answer (not yet approved):** Ketika page/content context relevan dan identity/consent constraints membatasi behavioral targeting, dengan QA brand suitability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1523,14 +1523,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda brand safety dan brand suitability?
+   - **Current guide answer (not yet approved):** Safety menghindari konten yang jelas berbahaya; suitability menilai kesesuaian konteks dengan brand/category tolerance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa perbedaan PMP dan programmatic guaranteed?
+   - **Current guide answer (not yet approved):** PMP biasanya private auction access; programmatic guaranteed memiliki komitmen inventory/price/delivery yang disepakati.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa format harus divalidasi sebelum buying?
+   - **Current guide answer (not yet approved):** Format incompatibility dapat menyebabkan rejection, rendering error, underdelivery, atau pengalaman iklan buruk.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1551,14 +1551,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa platform interface skills tidak cukup?
+   - **Current guide answer (not yet approved):** Trader harus memahami auction, supply, data, economics, verification, measurement, dan troubleshooting di balik kontrol UI.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda line item dengan creative?
+   - **Current guide answer (not yet approved):** Line item mengatur delivery, targeting, bid, budget, dan schedule; creative adalah asset yang ditayangkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apakah sertifikasi DV360 otomatis memberi akses live seat?
+   - **Current guide answer (not yet approved):** Tidak. Learning credential dan akses akun/seat dikendalikan organisasi/partner dan ketentuan platform.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1579,14 +1579,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko click macro salah?
+   - **Current guide answer (not yet approved):** Click-through dapat hilang, salah redirect, mengganggu billing atau memutus measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa trafficking sheet menjadi single source of truth?
+   - **Current guide answer (not yet approved):** Sheet mengikat object, tag, date, budget, creative, owner, approval, dan status untuk mencegah konfigurasi berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bukti QA selain upload success?
+   - **Current guide answer (not yet approved):** Preview/render evidence, click test, landing validation, tracking test, policy/approval, and sign-off.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1607,14 +1607,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa menaikkan bid tidak selalu menyelesaikan underspend?
+   - **Current guide answer (not yet approved):** Inventory eligibility, targeting, deal/creative issues, supply, and timeouts dapat menjadi bottleneck selain bid.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko frequency terlalu tinggi?
+   - **Current guide answer (not yet approved):** Waste, fatigue, negative experience, and diminishing incremental reach.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa beda average CPM dan clearing price?
+   - **Current guide answer (not yet approved):** Average CPM merangkum biaya hasil delivery; clearing price adalah harga auction pada impression tertentu/menurut mekanisme platform.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1635,14 +1635,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda preferred deal dan PMP auction?
+   - **Current guide answer (not yet approved):** Preferred biasanya memberi akses/first look dengan harga tertentu tanpa guarantee; PMP umumnya private auction dengan buyers invited, terms platform-specific.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang perlu dikonfirmasi sebelum PG?
+   - **Current guide answer (not yet approved):** Volume, dates, price, inventory, priority, format, audience, guarantee, makegood, cancellation, and measurement terms.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa deal ID perlu di-test?
+   - **Current guide answer (not yet approved):** Deal dapat gagal karena seat/seller mismatch, targeting, format, dates, price, atau line-item setup.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1663,14 +1663,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda viewability dengan attention?
+   - **Current guide answer (not yet approved):** Viewability mengukur peluang terlihat menurut standard; attention mengukur engagement/notice lebih jauh dan memerlukan metode berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa unmeasured impression bukan otomatis failure?
+   - **Current guide answer (not yet approved):** Sebagian inventory tidak terukur karena coverage/technical limits; laporkan sebagai unmeasured terpisah dari non-viewable.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apakah ads.txt menjamin inventory aman?
+   - **Current guide answer (not yet approved):** Tidak. Ia membantu mengidentifikasi authorized sellers, tetapi fraud/suitability/viewability tetap membutuhkan controls lain.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1691,14 +1691,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda ad server dengan DSP?
+   - **Current guide answer (not yet approved):** Ad server mengelola ad decisioning/delivery/tracking; DSP mengelola buying/auction/targeting di inventory.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa Floodlight counts dapat berbeda dengan GA4 purchase?
+   - **Current guide answer (not yet approved):** Counting method, attribution, time zone, identity, consent, deduplication, event definition, and processing berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa UTM bukan pengganti Floodlight?
+   - **Current guide answer (not yet approved):** UTM memberi label campaign pada session/source; Floodlight merekam conversion activity sesuai setup measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1719,14 +1719,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa CPM tidak boleh menjadi satu-satunya optimization target?
+   - **Current guide answer (not yet approved):** Ia mengabaikan inventory quality, fraud, reach, outcomes, fees, and contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa hubungan optimization log dengan repeatability?
+   - **Current guide answer (not yet approved):** Log mencatat perubahan, alasan, dan hasil sehingga learning bisa direplikasi dan tim tidak mengulang kesalahan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa batas ROAS platform dalam menilai programmatic?
+   - **Current guide answer (not yet approved):** Attribution platform tidak otomatis mengukur causal impact, overlap, fee, margin, atau long-term value.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1747,14 +1747,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang harus bisa dijelaskan dalam programmatic capstone?
+   - **Current guide answer (not yet approved):** Mengapa supply/channel/deal dipilih, bagaimana buying berjalan, bagaimana kualitas dijaga, dan bagaimana hasil diukur.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa batas latihan dengan synthetic data?
+   - **Current guide answer (not yet approved):** Ia membuktikan workflow, logic, and analysis—not live campaign performance, spend, platform access, or client results.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana menilai programmatic inventory yang terlihat murah?
+   - **Current guide answer (not yet approved):** Cek net fees, authorized sellers, quality, viewability, IVT, audience, outcome, and incremental value.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1775,14 +1775,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda marketplace ads dan retail media network?
+   - **Current guide answer (not yet approved):** Marketplace ads adalah penempatan iklan dalam marketplace; RMN dapat mencakup inventory/advertising dari retailer dan aktivasi offsite berbasis retailer signals.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa onsite dan offsite harus dipisah?
+   - **Current guide answer (not yet approved):** Inventory, audience, data activation, fee, attribution, dan measurement berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa produk dan seller eligibility perlu dicek?
+   - **Current guide answer (not yet approved):** Ads hanya berguna bila SKU, stok, listing, content, dan account memenuhi syarat platform.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1803,14 +1803,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah product view selalu berarti high intent?
+   - **Current guide answer (not yet approved):** Tidak. Ia dapat menunjukkan curiosity atau accidental browse; perlu konteks query, depth, add-to-cart, repeat, dan category behavior.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa review dan availability penting bagi retail ads?
+   - **Current guide answer (not yet approved):** Media dapat mendorong traffic, tetapi listing trust, stock, pricing, and delivery influence conversion.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa batas penggunaan loyalty data?
+   - **Current guide answer (not yet approved):** Eligibility, consent, purpose limitation, access, aggregation, and platform terms harus dipatuhi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1831,14 +1831,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa nama product/feature harus diverifikasi ulang?
+   - **Current guide answer (not yet approved):** Retail platform sering mengganti nama campaign, default optimization, eligibility, dan reporting.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang perlu diperiksa sebelum memilih self-service vs managed?
+   - **Current guide answer (not yet approved):** Budget threshold, service scope, control, inventory, reporting, fee, data access, and campaign complexity.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apakah satu platform mapping berlaku untuk semua seller?
+   - **Current guide answer (not yet approved):** Tidak. Access dan ad products dapat berbeda menurut seller/brand status, region, category, and program eligibility.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1859,14 +1859,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa hubungan listing quality dengan sponsored ad performance?
+   - **Current guide answer (not yet approved):** Ad dapat menghasilkan traffic; listing, availability, price, review, and fulfillment menentukan apakah traffic berkonversi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda ROAS dan ACoS?
+   - **Current guide answer (not yet approved):** ROAS adalah sales/ad spend; ACoS adalah ad spend/ad-attributed sales, sehingga keduanya berbanding terbalik jika basis sama.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa perlu SKU-level analysis?
+   - **Current guide answer (not yet approved):** Aggregate campaign metrics dapat menutupi SKU bermargin rendah, low stock, atau listing yang tidak converting.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1887,14 +1887,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda offsite sales attribution dan incrementality?
+   - **Current guide answer (not yet approved):** Attribution memberi credit pada exposure menurut model/window; incrementality mengestimasi tambahan penjualan dibanding control/counterfactual.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa match coverage harus dilaporkan?
+   - **Current guide answer (not yet approved):** Hanya transaksi/audience eligible yang dapat diukur; coverage rendah membatasi representativeness.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa risiko mengaktifkan retailer data ke luar platform?
+   - **Current guide answer (not yet approved):** Privacy, consent, purpose limitation, partner terms, identity resolution, and security controls.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1915,14 +1915,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa itu proof-of-play?
+   - **Current guide answer (not yet approved):** Bukti bahwa aset ditayangkan pada screen/placement sesuai waktu/ketentuan yang dibooking.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa footfall tidak sama dengan ad exposure?
+   - **Current guide answer (not yet approved):** Footfall mengukur kunjungan lokasi; tidak membuktikan setiap orang melihat placement atau mengingat pesan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa kontrol operasional khas in-store?
+   - **Current guide answer (not yet approved):** Store availability, uptime, installation, staff, display condition, operating hours, and safety.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1943,14 +1943,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa segment terlalu sempit berisiko?
+   - **Current guide answer (not yet approved):** Scale kecil dapat meningkatkan biaya, underdelivery, unstable measurement, dan overfrequency.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko menganggap retailer segment sama dengan CRM segment?
+   - **Current guide answer (not yet approved):** Definisi, refresh, identity, transaction coverage, and eligibility dapat berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa suppression penting?
+   - **Current guide answer (not yet approved):** Mencegah budget/communication terbuang untuk customer yang sudah convert atau tidak eligible.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1971,14 +1971,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa ROAS bisa turun meski campaign setting tidak berubah?
+   - **Current guide answer (not yet approved):** Harga, stock, competitor price, ratings, product content, seasonality, and auction competition dapat berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang harus dilakukan bila stock-out?
+   - **Current guide answer (not yet approved):** Pause/exclude affected SKU atau ubah destination/offer; koordinasikan inventory dan jangan biarkan spend mendorong item unavailable.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa perubahan bid perlu change log?
+   - **Current guide answer (not yet approved):** Agar dampak bisa ditelusuri dan tidak tercampur dengan price/promo/stock changes.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1999,14 +1999,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa ROAS tinggi belum tentu profitable?
+   - **Current guide answer (not yet approved):** Gross sales tidak memperhitungkan margin, discount, returns, fulfillment, retailer fees, dan incremental contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang perlu disamakan saat reconciliation?
+   - **Current guide answer (not yet approved):** Date, SKU, currency/tax, sales basis, attribution window, cancellations/returns, campaign tags, and data latency.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa batas closed-loop reporting?
+   - **Current guide answer (not yet approved):** Coverage, match rate, attribution methodology, and selection bias membatasi causal interpretation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2027,14 +2027,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang membedakan retail capstone dari paid search/social?
+   - **Current guide answer (not yet approved):** Retail harus mengintegrasikan marketplace/retailer product data, stock, listing, shopper behavior, sales reconciliation, and margin.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Bagaimana memastikan platform recommendations current?
+   - **Current guide answer (not yet approved):** Cek official help center, local advertiser eligibility, product taxonomy, update date, and current account access.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa keputusan utama yang harus dipresentasikan?
+   - **Current guide answer (not yet approved):** Retailer/channel/SKU investment, budget, stock/readiness actions, risk, measurement confidence, and next scale/hold decision.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2055,14 +2055,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda Media Investment dengan Programmatic Trading?
+   - **Current guide answer (not yet approved):** Investment menegosiasikan/membeli inventory/partnership secara komersial; Programmatic Trader mengelola buying berbasis DSP/auction/deal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda Media Planner dengan Media Buyer?
+   - **Current guide answer (not yet approved):** Planner menyusun strategy/mix/budget/forecast; buyer menegosiasikan rates, terms, booking, dan inventory delivery.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa ownership map penting?
+   - **Current guide answer (not yet approved):** Agar negotiation, approval, booking, tracking, QA, and invoice memiliki accountable owner yang jelas.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2083,14 +2083,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa media kit tidak boleh diterima tanpa verifikasi?
+   - **Current guide answer (not yet approved):** Reach, circulation, audience and engagement claims dapat memakai definisi/periode berbeda atau self-reported.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang membuat proposal media value comparable?
+   - **Current guide answer (not yet approved):** Satuan, audience, dates, placements, format, reporting, measurement, exclusivity, fees, and contract basis harus dinormalisasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana menilai value-add?
+   - **Current guide answer (not yet approved):** Periksa placement, audience, timing, guarantee, production/measurement cost, and whether it substitutes paid inventory.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2111,14 +2111,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda RFP dan RFQ?
+   - **Current guide answer (not yet approved):** RFP meminta solusi/proposal yang menjelaskan approach; RFQ meminta quotation untuk scope/requirements yang lebih terdefinisi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa gross dan net rate harus dipisah?
+   - **Current guide answer (not yet approved):** Discount/commission/fees dapat membuat quoted price tidak comparable dengan final payable amount.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa risiko added value dijadikan pengganti discount?
+   - **Current guide answer (not yet approved):** Bonus mungkin tidak relevan, tidak guaranteed, atau memiliki kualitas/jangkauan berbeda dari paid inventory.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2139,14 +2139,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa rate benchmark lama perlu caveat?
+   - **Current guide answer (not yet approved):** Inventory, market demand, inflation, seasonality, package, and commercial conditions berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa perbedaan cost efficiency dan value?
+   - **Current guide answer (not yet approved):** Cost efficiency menilai biaya per unit; value juga menilai quality, relevance, outcomes, guarantees, and audience context.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa dampak package bundling?
+   - **Current guide answer (not yet approved):** Bundling bisa memberi efficiency tetapi menyamarkan rate per asset/placement dan mengurangi flexibility.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2167,14 +2167,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa fungsi BATNA?
+   - **Current guide answer (not yet approved):** Alternatif terbaik jika kesepakatan tidak tercapai; memberi batas rasional dan mengurangi keputusan emosional.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa semua added value tidak setara?
+   - **Current guide answer (not yet approved):** Nilainya tergantung audience, placement, timing, guarantee, production cost, and measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus didokumentasikan setelah negotiation?
+   - **Current guide answer (not yet approved):** Final rate, discount, scope, dates, inventory, cancellation, makegood, payment, proof, and authorized approver.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2195,14 +2195,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko bonus tidak tercatat terpisah?
+   - **Current guide answer (not yet approved):** Volume billable dan bonus dapat tertukar sehingga delivery/invoice reconciliation tidak akurat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Siapa yang menyetujui legal clause?
+   - **Current guide answer (not yet approved):** Procurement/legal/authorized approver sesuai governance organisasi; media buyer menandai dan mengeskalasi risiko.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa IO harus selaras dengan trafficking sheet?
+   - **Current guide answer (not yet approved):** Agar inventory, dates, formats, volume, rates, tags, and responsibilities sama di dokumen komersial dan operasional.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2223,14 +2223,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda proof-of-posting dan proof-of-play?
+   - **Current guide answer (not yet approved):** Proof-of-posting mendokumentasikan publication placement; proof-of-play membuktikan screen/audio/spot diputar sesuai log.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa shortfall tidak boleh langsung diasumsikan berdasarkan impressions?
+   - **Current guide answer (not yet approved):** Contract mungkin memakai billable basis, tolerance, sampling, or alternative delivery definition.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan makegood harus dieskalasi?
+   - **Current guide answer (not yet approved):** Saat delivery di luar tolerance, bukti tidak lengkap, deadline terlewati, atau remedy tidak sesuai kontrak.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2251,14 +2251,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda invoice variance dan delivery variance?
+   - **Current guide answer (not yet approved):** Invoice variance adalah selisih amount/terms; delivery variance adalah perbedaan volume/placement/flight terhadap booking.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang dilakukan bila currency/tax tidak cocok?
+   - **Current guide answer (not yet approved):** Verifikasi kontrak, exchange-rate basis, tax treatment, legal entity, and finance rules sebelum approve.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa audit trail perlu disimpan?
+   - **Current guide answer (not yet approved):** Memudahkan dispute, finance approval, month-end close, compliance, and vendor accountability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2279,14 +2279,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa added value dapat bernilai rendah?
+   - **Current guide answer (not yet approved):** Jika audience overlap, timing, format, or quality tidak mendukung objective, bonus volume tidak menambah incremental value.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda cost saving dan value creation?
+   - **Current guide answer (not yet approved):** Cost saving menurunkan spend; value creation meningkatkan kualitas, audience, outcome, reliability, or flexibility.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bukti partner layak dipertahankan?
+   - **Current guide answer (not yet approved):** Delivery reliability, commercial fairness, transparency, issue resolution, audience value, and measurable contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2307,14 +2307,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang membedakan buyer capstone dengan media plan?
+   - **Current guide answer (not yet approved):** Buyer capstone membuktikan commercial procurement, negotiation, contract, delivery, proof, and financial control.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa hubungan buyer dengan Ad Ops?
+   - **Current guide answer (not yet approved):** Buyer/Investment mengatur deal/terms dan booking; Ad Ops menerjemahkan booking ke trafficking/tracking/QA; planner memastikan tujuan media.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana membuktikan negotiation berhasil?
+   - **Current guide answer (not yet approved):** Bandingkan baseline/alternative, final terms, total cost, inventory quality, delivery, added value actually used, and risks.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2335,14 +2335,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda Ad Ops dan Media Buyer?
+   - **Current guide answer (not yet approved):** Ad Ops menjalankan technical trafficking, tracking, QA, and delivery control; buyer mengelola inventory purchase, rates, and commercial terms.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda Ad Ops dan performance specialist?
+   - **Current guide answer (not yet approved):** Performance specialist mengelola audience/bidding/creative optimization; Ad Ops memastikan setup teknis dan measurement berfungsi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa multi-platform governance penting?
+   - **Current guide answer (not yet approved):** Tanpa naming, versioning, access, and approval yang konsisten, kesalahan sulit dilacak antar channel.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2363,14 +2363,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa trafficking sheet harus mencatat object IDs?
+   - **Current guide answer (not yet approved):** Nama dapat berubah/duplikat; ID membantu traceability, QA, API/report matching, dan handover.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko URL belum final?
+   - **Current guide answer (not yet approved):** Traffic dapat salah arah, tracking parameter hilang, conversion tidak terekam, atau campaign terpaksa dihentikan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fungsi version control?
+   - **Current guide answer (not yet approved):** Menghindari asset/setting lama tertayang dan memastikan approval merujuk pada versi final.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2391,14 +2391,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa creative spec harus bersumber dari dokumen terkini?
+   - **Current guide answer (not yet approved):** Dimensi, limits, file type, placement rules, and policy dapat berubah antar platform dan waktu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa itu fallback?
+   - **Current guide answer (not yet approved):** Asset atau behavior alternatif saat creative utama tidak didukung environment/placement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang diperiksa pada click URL selain destination?
+   - **Current guide answer (not yet approved):** Redirect, query parameters, UTMs, macros, SSL, deep-link behavior, and tracking events.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2419,14 +2419,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa perbedaan UTM dan pixel?
+   - **Current guide answer (not yet approved):** UTM memberi label source/medium/campaign pada traffic; pixel merekam event/interaksi untuk platform measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa server-side CAPI bukan sekadar tag lain?
+   - **Current guide answer (not yet approved):** Ia mengirim event dari server dengan identity/consent/deduplication controls yang berbeda dari browser pixel.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bukti tag benar-benar bekerja?
+   - **Current guide answer (not yet approved):** Test event/log, expected parameters, trigger condition, no duplicate, consent behavior, and platform diagnostics.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2447,14 +2447,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda placement dan creative?
+   - **Current guide answer (not yet approved):** Placement adalah slot/inventory; creative adalah asset yang ditayangkan dalam slot tersebut.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi Floodlight counting method?
+   - **Current guide answer (not yet approved):** Menentukan bagaimana activity dihitung agar conversion metric sesuai definisi bisnis.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang perlu diserahkan ke publisher?
+   - **Current guide answer (not yet approved):** Correct ad/placement tags, spec, click macro, dates, creative, implementation instructions, and QA contacts.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2475,14 +2475,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa status campaign active belum cukup sebagai QA?
+   - **Current guide answer (not yet approved):** Campaign bisa active tetapi asset, URL, tag, targeting, consent, atau conversion path salah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa contoh blocker?
+   - **Current guide answer (not yet approved):** Wrong landing URL, non-working conversion tag, unapproved claim, incorrect geo/date/budget, or rejected creative.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa tujuan severity classification?
+   - **Current guide answer (not yet approved):** Membantu memprioritaskan issue berdasarkan impact dan mencegah low-priority issue menahan launch tanpa alasan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2503,14 +2503,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa conversion drop tidak selalu masalah ads delivery?
+   - **Current guide answer (not yet approved):** Site, checkout, consent, tracking, price, stock, CRM, or reporting latency dapat berubah meski delivery normal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa urutan troubleshooting yang disiplin?
+   - **Current guide answer (not yet approved):** Isolasi simptom dan cek data/tag/page/creative/settings/supply sebelum mengubah bid/budget.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa action log penting?
+   - **Current guide answer (not yet approved):** Membuat root cause, owner, risk, and recovery dapat diaudit dan mencegah perubahan berulang tanpa evidence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2531,14 +2531,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa arti apples-to-apples reconciliation?
+   - **Current guide answer (not yet approved):** Perbandingan dengan unit, window, timezone, event, scope, dan eligibility yang setara.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa click count tidak sama dengan GA4 sessions?
+   - **Current guide answer (not yet approved):** Click dapat gagal load, user close page, redirect, consent, browser block, or multiple clicks per session.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan discrepancy perlu dieskalasi?
+   - **Current guide answer (not yet approved):** Jika di luar tolerance/contract, memengaruhi billing/optimization, atau sumber perbedaan tidak dapat dijelaskan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2559,14 +2559,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa delivered impressions belum tentu billable impressions?
+   - **Current guide answer (not yet approved):** Kontrak dapat memiliki tolerance, excluded events, bonus, or alternative billable definitions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko satu orang mengatur dan menyetujui invoice sendiri?
+   - **Current guide answer (not yet approved):** Segregation of duties lemah sehingga fraud/error lebih sulit dideteksi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa output operational review yang berguna?
+   - **Current guide answer (not yet approved):** Recurring issue, control gap, SLA, owners, automation opportunities, and measurable process improvement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2587,14 +2587,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa bukti Ad Ops yang siap portofolio?
+   - **Current guide answer (not yet approved):** Traceable operational artefacts: trafficking sheet, tags, QA evidence, approvals, monitoring, discrepancy, and billing reconciliation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang tidak boleh diklaim dari simulasi?
+   - **Current guide answer (not yet approved):** Tidak boleh mengklaim real client account access, live campaign delivery, spend, or campaign outcomes.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana Ad Ops menunjukkan nilai bisnis?
+   - **Current guide answer (not yet approved):** Mengurangi launch errors, data loss, downtime, underdelivery, billing disputes, and audit risk.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2615,14 +2615,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa analyst perlu tahu keputusan apa yang akan diambil?
+   - **Current guide answer (not yet approved):** Agar analisis fokus pada evidence yang dapat mengubah tindakan, bukan hanya menghasilkan chart.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang wajib ada di metric dictionary?
+   - **Current guide answer (not yet approved):** Formula, denominator, unit, currency, source, timezone, attribution window, owner, refresh, dan caveat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa beda leading dan lagging metrics?
+   - **Current guide answer (not yet approved):** Leading memberi sinyal awal proses; lagging mencatat hasil akhir seperti sales atau margin.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2643,14 +2643,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa itu grain data?
+   - **Current guide answer (not yet approved):** Level satu baris data merepresentasikan satu entitas/kejadian, misalnya campaign-day, event, session, atau order.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa join key campaign name berisiko?
+   - **Current guide answer (not yet approved):** Naming bisa berubah/duplikat dan grain berbeda; join dapat menggandakan rows atau menyatukan entitas salah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa beda missing dan zero?
+   - **Current guide answer (not yet approved):** Missing berarti nilai tidak tersedia; zero berarti terukur dan nilainya nol. Menyamakan keduanya dapat mengubah kesimpulan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2671,14 +2671,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa angka conversion platform bisa berbeda dari GA4?
+   - **Current guide answer (not yet approved):** Attribution, view-through, identity, consent, time zone, event definition, deduplication, and processing berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda impression dan session?
+   - **Current guide answer (not yet approved):** Impression adalah exposure iklan; session adalah kumpulan interaksi website/app dalam analytics definition.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dipastikan sebelum data digabung?
+   - **Current guide answer (not yet approved):** Grain, keys, time zone, currency, naming, event definition, dedupe, and source limitations.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2699,14 +2699,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa SQL JOIN dapat menggandakan spend?
+   - **Current guide answer (not yet approved):** Join many-to-many atau grain yang tidak sama menyebabkan satu row cocok dengan banyak row di table lain.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa query perlu test totals sebelum/sesudah join?
+   - **Current guide answer (not yet approved):** Reconciliation membantu mendeteksi double count, lost rows, and incorrect keys.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa beda WHERE dan HAVING?
+   - **Current guide answer (not yet approved):** WHERE menyaring rows sebelum aggregation; HAVING menyaring hasil group/aggregate.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2727,14 +2727,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa tanda dashboard tidak berguna?
+   - **Current guide answer (not yet approved):** Ia tidak menjawab keputusan pengguna, tidak memiliki metric definitions, atau tidak menyediakan diagnosis/action path.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa total KPI perlu reconcile ke source?
+   - **Current guide answer (not yet approved):** Chart dapat terlihat rapi tetapi salah akibat filters, joins, duplicated rows, or refresh failure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bedanya dashboard dan report?
+   - **Current guide answer (not yet approved):** Dashboard mendukung monitoring/interaksi rutin; report dapat memberi analisis/narrative lebih mendalam untuk periode tertentu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2755,14 +2755,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa korelasi bukan bukti penyebab?
+   - **Current guide answer (not yet approved):** Dua metrik dapat bergerak bersama akibat seasonality, mix, budget, atau faktor ketiga tanpa causal link.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi decomposition?
+   - **Current guide answer (not yet approved):** Memecah outcome menjadi driver sehingga lokasi perubahan dapat diisolasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan analisis harus ditahan?
+   - **Current guide answer (not yet approved):** Saat data quality, tracking, population, or metric definitions belum valid untuk mendukung kesimpulan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2783,14 +2783,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda attributed conversion dan incremental conversion?
+   - **Current guide answer (not yet approved):** Attributed conversion menerima credit menurut model/window; incremental conversion adalah tambahan akibat treatment dibanding counterfactual.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko last-click?
+   - **Current guide answer (not yet approved):** Ia cenderung memberi credit pada touchpoint akhir dan mengabaikan demand creation/assisted interactions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan geo experiment cocok?
+   - **Current guide answer (not yet approved):** Saat treatment dapat dibedakan lintas wilayah, market comparability memadai, spillover dapat dikendalikan, and sample/time cukup.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2811,14 +2811,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda statistical significance dan practical significance?
+   - **Current guide answer (not yet approved):** Significance menilai compatibility data dengan null hypothesis; practical significance menilai apakah effect cukup besar untuk keputusan bisnis.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa early peeking berisiko?
+   - **Current guide answer (not yet approved):** Repeated checks dapat meningkatkan false-positive rate dan mendorong stop/continue decisions yang bias.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa peran randomization unit?
+   - **Current guide answer (not yet approved):** Menentukan entitas yang diacak; harus sesuai exposure and interference pattern agar perbandingan valid.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2839,14 +2839,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda finding dan insight?
+   - **Current guide answer (not yet approved):** Finding adalah temuan angka; insight menjelaskan makna/driver dan mengubah keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa limitation perlu disampaikan?
+   - **Current guide answer (not yet approved):** Agar stakeholder tidak menganggap atribusi/korelasi sebagai causal proof atau membuat keputusan melebihi evidence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus berakhir pada executive deck?
+   - **Current guide answer (not yet approved):** Keputusan yang diminta, owner, timing, expected impact, risk, and measurement follow-up.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2867,14 +2867,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa bukti kualitas data sebelum analisis?
+   - **Current guide answer (not yet approved):** Data dictionary, source lineage, QA results, duplicate/missing checks, reconciliation, and documented transformations.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang membedakan dashboard dengan portfolio capstone?
+   - **Current guide answer (not yet approved):** Capstone juga membuktikan question framing, methodology, interpretation, decision, and limitations—not visual output saja.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana mengklaim skill tanpa mengklaim client result?
+   - **Current guide answer (not yet approved):** Tampilkan project demo/synthetic, code/query, method, evidence, and clear label without inventing commercial impact.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2895,14 +2895,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda crawling dan indexing?
+   - **Current guide answer (not yet approved):** Crawling adalah discovery/access; indexing adalah proses menyimpan/memahami halaman untuk kemungkinan ditampilkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa ranking bukan satu-satunya KPI SEO?
+   - **Current guide answer (not yet approved):** Ranking tidak otomatis menghasilkan qualified traffic, engagement, conversions, or contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana AI features memengaruhi SEO?
+   - **Current guide answer (not yet approved):** Mereka mengubah format discovery/click patterns; foundational crawlability, content usefulness, and search intent tetap penting.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2923,14 +2923,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa satu keyword tidak otomatis memerlukan satu halaman?
+   - **Current guide answer (not yet approved):** Query dengan intent sama dapat dilayani satu halaman; terlalu banyak halaman serupa dapat menimbulkan cannibalization.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa batas search volume estimate?
+   - **Current guide answer (not yet approved):** Tools menggunakan estimasi, grouping, and sampling; actual demand varies by location, season, and query definition.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa maksud keyword cannibalization?
+   - **Current guide answer (not yet approved):** Beberapa halaman site bersaing untuk intent/query yang sama sehingga relevansi dan signals dapat tersebar.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2951,14 +2951,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko memblokir URL melalui robots.txt tanpa memahami index state?
+   - **Current guide answer (not yet approved):** URL dapat tetap diketahui/diindeks dari links meski crawler tidak dapat membaca content; directives punya fungsi berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi canonical?
+   - **Current guide answer (not yet approved):** Memberi sinyal preferred URL di antara duplicates/similar pages; bukan jaminan search engine mengikuti pilihan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dimaksud orphan page?
+   - **Current guide answer (not yet approved):** Halaman tanpa internal links yang dapat ditemukan crawler/user melalui navigation biasa.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2979,14 +2979,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda field data dan lab data CWV?
+   - **Current guide answer (not yet approved):** Field data mencerminkan real-user experience; lab data membantu reproduksi/debug pada kondisi test.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa schema markup tidak menjamin rich result?
+   - **Current guide answer (not yet approved):** Search engine menentukan eligibility/appearance berdasarkan content quality, policies, and other systems.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa technical SEO perlu koordinasi developer?
+   - **Current guide answer (not yet approved):** Banyak issue berada pada templates, rendering, redirects, server, and deployment—not hanya content editor.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3007,14 +3007,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah keyword density menentukan ranking?
+   - **Current guide answer (not yet approved):** Tidak. Intent match, usefulness, content quality, and technical access lebih penting; keyword repetition bukan shortcut.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa structured data harus sesuai visible content?
+   - **Current guide answer (not yet approved):** Markup yang misleading/tidak sesuai dapat melanggar guidelines dan tidak dipercaya search engines.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang membuat halaman helpful?
+   - **Current guide answer (not yet approved):** Jawaban lengkap dan akurat, bukti, usability, first-hand expertise, and clear next steps for audience.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3035,14 +3035,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa backlink quantity tidak sama dengan authority?
+   - **Current guide answer (not yet approved):** Relevance, editorial legitimacy, source quality, context, and spam signals memengaruhi value.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda earned link dan paid link scheme?
+   - **Current guide answer (not yet approved):** Earned link muncul karena editorial value; paid/manipulative links bertujuan memengaruhi ranking dan berisiko melanggar guidelines.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa ukuran keberhasilan digital PR selain link count?
+   - **Current guide answer (not yet approved):** Relevant coverage, referral quality, brand search, audience reach, authority signals, and business influence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3063,14 +3063,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa itu NAP consistency?
+   - **Current guide answer (not yet approved):** Name, Address, Phone harus akurat dan konsisten lintas listing/sumber.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa review tidak boleh dibeli?
+   - **Current guide answer (not yet approved):** Fake/incentivized reviews melanggar platform policies dan merusak trust.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa tantangan multi-location SEO?
+   - **Current guide answer (not yet approved):** Duplicate/thin location pages, inconsistent business data, ownership, and review response governance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3091,14 +3091,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa GSC clicks tidak sama dengan GA4 sessions?
+   - **Current guide answer (not yet approved):** Click tidak selalu menjadi session akibat loading, redirects, consent, browser, and measurement differences.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa average position perlu segmentasi?
+   - **Current guide answer (not yet approved):** Aggregation across queries/pages/devices can hide changes in query mix and SERP features.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa isi SEO recommendation yang actionable?
+   - **Current guide answer (not yet approved):** Specific page/technical change, evidence, impact hypothesis, priority, owner, timeline, and measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3119,14 +3119,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah schema menjamin brand muncul di AI answer?
+   - **Current guide answer (not yet approved):** Tidak. Structured data membantu machine understanding di konteks tertentu; tidak menjamin answer inclusion/citation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa prompt sampling bukan market share?
+   - **Current guide answer (not yet approved):** Hasil bergantung model, date, location, prompt, personalization, and response variance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fondasi AEO/GEO yang tetap relevan?
+   - **Current guide answer (not yet approved):** Accessible, helpful, accurate content, clear entities, authoritative evidence, and sound technical SEO.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3147,14 +3147,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa SEO roadmap perlu owner dan dependency?
+   - **Current guide answer (not yet approved):** Banyak fixes butuh engineering, design, content, legal, and product; tanpa owners/dependencies, rekomendasi tidak bisa dieksekusi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang tidak boleh dijanjikan SEO specialist?
+   - **Current guide answer (not yet approved):** Posisi/ranking pasti atau traffic growth tanpa mempertimbangkan competition, indexing, update, and external factors.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang membuktikan capstone berbasis evidence?
+   - **Current guide answer (not yet approved):** Source URLs, crawl export, GSC/GA4 data, issue examples, priority rationale, assumptions, and measurement plan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3175,14 +3175,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa CRM bukan sekadar software?
+   - **Current guide answer (not yet approved):** Software menjalankan workflow; strategi CRM mendefinisikan lifecycle, customer value, data, communication, and governance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko lifecycle stage tidak memiliki entry/exit criteria?
+   - **Current guide answer (not yet approved):** Contacts dapat menerima komunikasi salah, masuk berulang, atau tetap di stage yang tidak tepat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa retention metric harus mengikuti model bisnis?
+   - **Current guide answer (not yet approved):** Repeat/retention memiliki arti berbeda untuk subscription, durable goods, retail, and lead-based B2B.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3203,14 +3203,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa data merge harus memiliki confidence rules?
+   - **Current guide answer (not yet approved):** False merges dapat menampilkan data customer lain, salah segment, dan mengirim komunikasi yang keliru.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda contact record dan transaction record?
+   - **Current guide answer (not yet approved):** Contact merepresentasikan individu/account; transaction merepresentasikan event bisnis dengan tanggal, product, value, and status.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa peran consent dan preference fields?
+   - **Current guide answer (not yet approved):** Membatasi tujuan, channel, topic, and frequency komunikasi sesuai izin dan pilihan customer.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3231,14 +3231,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko lead scoring hanya dari email opens?
+   - **Current guide answer (not yet approved):** Open tracking dapat bias/privacy-protected and tidak selalu menandakan intent atau fit.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda fit dan intent?
+   - **Current guide answer (not yet approved):** Fit adalah kesesuaian dengan target profile; intent adalah sinyal kebutuhan/kesiapan bertindak.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana memvalidasi model scoring?
+   - **Current guide answer (not yet approved):** Uji terhadap qualified rate, sales acceptance, conversion, false positives/negatives, and calibration over time.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3259,14 +3259,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda trigger dan campaign blast?
+   - **Current guide answer (not yet approved):** Trigger dikirim karena event/condition spesifik; blast dikirim ke target segment pada jadwal yang ditetapkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa cross-channel purchase suppression penting?
+   - **Current guide answer (not yet approved):** Agar customer tidak menerima reminder setelah membeli di channel lain.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fungsi exit condition?
+   - **Current guide answer (not yet approved):** Mengeluarkan contact saat goal tercapai, tidak lagi eligible, atau consent/status berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3287,14 +3287,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah contact detail sama dengan consent marketing?
+   - **Current guide answer (not yet approved):** Tidak. Email/nomor yang tersedia tidak otomatis menjadi izin promosi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Kapan SMS/WhatsApp lebih tepat daripada email?
+   - **Current guide answer (not yet approved):** Untuk komunikasi urgent/transactional atau audience preference tertentu; harus sesuai permission, cost, policy, and use case.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa channel fallback perlu dirancang?
+   - **Current guide answer (not yet approved):** Agar pesan penting tetap dapat disampaikan jika primary channel gagal, tanpa melanggar consent/frequency rules.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3315,14 +3315,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa arti idempotent workflow?
+   - **Current guide answer (not yet approved):** Pemrosesan event berulang tidak menghasilkan efek samping ganda, seperti duplicate contact/message.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa retry harus memiliki batas?
+   - **Current guide answer (not yet approved):** Retry tanpa kontrol dapat membuat duplicate action, API overload, and repeated messages.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang wajib disimpan dalam error log?
+   - **Current guide answer (not yet approved):** Timestamp, event ID, failure reason, workflow step, retry count, owner, and remediation status.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3343,14 +3343,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa open rate tidak selalu reliable?
+   - **Current guide answer (not yet approved):** Privacy features dan image preloading dapat mengubah open tracking; ia bukan ukuran penuh attention.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi SPF, DKIM, dan DMARC?
+   - **Current guide answer (not yet approved):** Authentication/alignment membantu memverifikasi domain sending dan mengurangi spoofing; konfigurasi harus sesuai provider.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana membuat personalization terasa relevan?
+   - **Current guide answer (not yet approved):** Gunakan data yang diperlukan, jelaskan manfaat, hindari kejutan invasif, dan sediakan preference/control.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3371,14 +3371,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa cohort harus memiliki start event yang sama?
+   - **Current guide answer (not yet approved):** Agar kelompok dibandingkan pada lifecycle age yang setara.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko LTV berbasis revenue?
+   - **Current guide answer (not yet approved):** Tidak memperhitungkan margin, returns, discounts, support costs, or contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dimaksud churn signal?
+   - **Current guide answer (not yet approved):** Perubahan perilaku/engagement/purchase yang dapat mengindikasikan risiko berhenti; perlu validasi dengan historical outcomes.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3399,14 +3399,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa opens bukan satu-satunya success metric?
+   - **Current guide answer (not yet approved):** Engagement proxy tidak menjamin conversion/retention dan dapat terdistorsi privacy mechanisms.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi holdout group?
+   - **Current guide answer (not yet approved):** Memberi pembanding untuk mengestimasi dampak tambahan komunikasi dibanding tidak menerima treatment.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa frequency perlu guardrail?
+   - **Current guide answer (not yet approved):** Kontak berlebihan dapat menaikkan fatigue, unsubscribe, complaint, and long-term brand harm.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3427,14 +3427,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa bukti CRM system siap dijalankan?
+   - **Current guide answer (not yet approved):** Documented data sources, consent, workflow, suppression/exit, QA, deliverability, monitoring, owners, and rollback.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Bagaimana membedakan CRM activity dan business impact?
+   - **Current guide answer (not yet approved):** Message volume/delivery adalah activity; activation, repeat, margin, retention, and incremental lift menunjukkan impact.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dilakukan bila opt-out tidak masuk ke automation?
+   - **Current guide answer (not yet approved):** Segera suppress/stop marketing, perbaiki event/data pipeline, audit impacted records, and document incident/remediation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3455,14 +3455,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda brand voice dan tone?
+   - **Current guide answer (not yet approved):** Voice adalah karakter konsisten; tone adalah penyesuaian ekspresi sesuai konteks/platform/audience.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa brand voice tidak boleh menghalangi platform-native content?
+   - **Current guide answer (not yet approved):** Ekspresi perlu menyesuaikan format dan perilaku audience sambil mempertahankan promise dan principles.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang termasuk claims policy?
+   - **Current guide answer (not yet approved):** Batas klaim, proof requirement, legal/regulatory review, and prohibited statements.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3483,14 +3483,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda content pillar dan editorial calendar?
+   - **Current guide answer (not yet approved):** Pillar menentukan territory/strategic themes; calendar mengatur kapan dan aset mana yang diproduksi/publish.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa persentase content mix tidak universal?
+   - **Current guide answer (not yet approved):** Kategori, audience, funnel, budget, and business objective berbeda; proporsi harus ditentukan dari evidence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan content dianggap mendukung conversion?
+   - **Current guide answer (not yet approved):** Saat ia menjawab objection, membuktikan value, memfasilitasi decision, and mengarah ke next action yang relevan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3511,14 +3511,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa calendar harus memuat status/owner?
+   - **Current guide answer (not yet approved):** Tanpa status dan owner, tim tidak dapat mengelola approval, dependencies, delays, and accountability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda always-on dan campaign content?
+   - **Current guide answer (not yet approved):** Always-on melayani kebutuhan berulang; campaign content terikat objective/timing/event tertentu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana mengatasi kapasitas produksi terbatas?
+   - **Current guide answer (not yet approved):** Prioritaskan audience/business value, repurpose, gunakan modular assets, and plan feasible cadence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3539,14 +3539,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa tren viral belum tentu opportunity?
+   - **Current guide answer (not yet approved):** Trend bisa tidak relevan dengan audience/category/brand atau tidak mendukung objective.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa tanda insight mining berkualitas?
+   - **Current guide answer (not yet approved):** Signals dapat ditelusuri, cluster menjelaskan need/tension, evidence lintas sumber, and content action jelas.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa beda audience question dan brand talking point?
+   - **Current guide answer (not yet approved):** Audience question berasal dari kebutuhan mereka; brand talking point berasal dari hal yang ingin disampaikan brand.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3567,14 +3567,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko hook clickbait?
+   - **Current guide answer (not yet approved):** Audience expectation tidak terpenuhi, meningkatkan bounce/negative feedback, dan menurunkan brand trust.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda tension dan problem statement?
+   - **Current guide answer (not yet approved):** Tension menangkap konflik/need audience secara naratif; problem statement memformulasikan hambatan untuk keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fungsi proof dalam storytelling?
+   - **Current guide answer (not yet approved):** Membuat claim dipercaya dan membedakan cerita dari opini/hiburan kosong.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3595,14 +3595,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa long-form membutuhkan source trail?
+   - **Current guide answer (not yet approved):** Pembaca/editor perlu memeriksa klaim, angka, freshness, and credibility.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko memakai sumber sekunder tanpa cross-check?
+   - **Current guide answer (not yet approved):** Angka/claim bisa outdated, salah konteks, atau hanya mengutip sumber lain yang sama.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan artikel harus diperbarui?
+   - **Current guide answer (not yet approved):** Saat data, policy, product, platform, legal claim, or search intent berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3623,14 +3623,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda repurposing dan reposting?
+   - **Current guide answer (not yet approved):** Repurposing mengadaptasi angle, structure, format, and CTA untuk audience/context; reposting mengulang asset.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa first-frame penting?
+   - **Current guide answer (not yet approved):** Ia memberi context/relevance cepat dan memengaruhi apakah audience melanjutkan konsumsi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dicek pada video short-form?
+   - **Current guide answer (not yet approved):** Aspect ratio, safe zones, captions, audio rights, claims, brand visibility, and link/CTA behavior.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3651,14 +3651,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa satu content format tidak selalu cocok lintas platform?
+   - **Current guide answer (not yet approved):** Audience intent, consumption context, platform distribution, interaction behavior, and format constraints berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang harus konsisten?
+   - **Current guide answer (not yet approved):** Brand promise, fact accuracy, POV, and key message; format/length/execution dapat diadaptasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa metrics lintas platform tidak boleh dibandingkan mentah?
+   - **Current guide answer (not yet approved):** Definitions, view thresholds, audience, and platform behavior berbeda; gunakan normalized task-specific metrics.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3679,14 +3679,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa paid boost bukan pengganti distribution strategy?
+   - **Current guide answer (not yet approved):** Amplification perlu audience fit, asset quality, rights, objective, budget, and downstream measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko UGC/creator asset digunakan berbayar tanpa rights?
+   - **Current guide answer (not yet approved):** Pelanggaran usage agreement/IP, creator relationship damage, and policy/legal exposure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana memisahkan hasil organic dan paid?
+   - **Current guide answer (not yet approved):** Gunakan tagging, platform reporting, asset IDs, time windows, and clearly defined attribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3707,14 +3707,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa view count bukan universal success metric?
+   - **Current guide answer (not yet approved):** View thresholds/platform definitions berbeda dan tidak membuktikan attention, brand impact, or downstream behavior.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa nilai saves dan shares?
+   - **Current guide answer (not yet approved):** Dapat menunjukkan utility/advocacy, tetapi tetap perlu interpretasi sesuai platform, content type, and business objective.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dilakukan bila content metric dan sales tidak sejalan?
+   - **Current guide answer (not yet approved):** Periksa audience/journey role, attribution, landing path, product readiness, and whether asset's intended job is direct conversion.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3735,14 +3735,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang harus bisa dijelaskan dari content capstone?
+   - **Current guide answer (not yet approved):** Mengapa content themes dipilih, audience need apa yang dijawab, bagaimana diproduksi/disebar, dan bagaimana success diukur.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang belum otomatis tercakup oleh kurikulum content strategy?
+   - **Current guide answer (not yet approved):** Practical production depth seperti shooting, editing, lighting, audio, and motion perlu latihan teknis tambahan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana membuktikan portfolio tanpa client?
+   - **Current guide answer (not yet approved):** Labeli brief/data sebagai simulated; tampilkan storyboard/asset/workflow/source and self-review, bukan fake performance claims.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3763,14 +3763,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa creator economy tidak sama dengan follower economy?
+   - **Current guide answer (not yet approved):** Creator value mencakup audience trust, content quality, niche authority, rights, and commercial fit—not audience size alone.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda influencer campaign dan affiliate partnership?
+   - **Current guide answer (not yet approved):** Influencer dibayar untuk content/reach/credibility; affiliate dibayar menurut tracked action/sales, meski creator dapat menjalankan keduanya.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa fungsi MCN/creator agency?
+   - **Current guide answer (not yet approved):** Mengelola talent, production, commercial negotiation, access, and scale; scope berbeda per partner.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3791,14 +3791,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda KOL dan KOC secara praktis?
+   - **Current guide answer (not yet approved):** KOL biasanya dipilih untuk expertise/authority; KOC untuk peer experience/recommendation, tetapi batasnya tidak selalu formal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa tier berdasarkan followers tidak cukup?
+   - **Current guide answer (not yet approved):** Followers tidak menunjukkan audience fit, authenticity, influence, engagement quality, or content capability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa kewajiban disclosure?
+   - **Current guide answer (not yet approved):** Audience harus memahami hubungan komersial/paid/gifted sesuai hukum, platform policies, and contract.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3819,14 +3819,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa discovery perlu source trail?
+   - **Current guide answer (not yet approved):** Memudahkan recheck creator data, contact, rates, availability, and changes sebelum kontrak.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda fit score dan performance guarantee?
+   - **Current guide answer (not yet approved):** Fit score adalah penilaian awal; tidak menjamin campaign outcomes.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dikonfirmasi sebelum shortlist final?
+   - **Current guide answer (not yet approved):** Audience evidence, availability, fee, usage rights, exclusivity, policy issues, and deliverables.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3847,14 +3847,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah suspicious follower growth pasti fraud?
+   - **Current guide answer (not yet approved):** Tidak. Bisa dipengaruhi viral content, media coverage, or platform events; perlu triangulasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa engagement rate saja tidak cukup?
+   - **Current guide answer (not yet approved):** Comments dapat fake/low quality, audience tidak relevan, and platform metrics differ by format.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa bukti vetting yang harus disimpan?
+   - **Current guide answer (not yet approved):** Dated screenshots/exports, media kit, risk flags, creator response, source links, and approval rationale.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3875,14 +3875,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa KPI harus berbeda per creator role?
+   - **Current guide answer (not yet approved):** Authority/education, reach, UGC, and affiliate conversion memiliki tugas dan outcome berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko audience overlap tinggi?
+   - **Current guide answer (not yet approved):** Incremental reach dapat turun dan biaya menjangkau orang yang sama menjadi tinggi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus masuk budget creator?
+   - **Current guide answer (not yet approved):** Talent fee, production, seeding, shipping, usage rights, exclusivity, amplification, measurement, tax, and contingency.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3903,14 +3903,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko brief terlalu preskriptif?
+   - **Current guide answer (not yet approved):** Konten kehilangan naturalness/creator voice, dan audience dapat melihatnya sebagai iklan yang tidak autentik.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko brief terlalu bebas?
+   - **Current guide answer (not yet approved):** Pesan/claim dapat melenceng, mandatories terlewat, atau brand safety/contract issue muncul.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana approval SLA membantu?
+   - **Current guide answer (not yet approved):** Creator dan brand mengetahui timeline review, jumlah revisi, final asset, and publishing lock.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3931,14 +3931,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda organic posting rights dan paid usage rights?
+   - **Current guide answer (not yet approved):** Izin posting pada channel creator berbeda dari izin brand menggunakannya pada paid ads/other channels.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa raw footage harus disebutkan?
+   - **Current guide answer (not yet approved):** Raw files memiliki nilai/IP scope berbeda; edit, storage, access, and reuse perlu persetujuan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang dilakukan bila creator meminta exclusivity luas?
+   - **Current guide answer (not yet approved):** Nilai business impact, category definition, duration, competitors, and compensation; negotiate narrower scope.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3959,14 +3959,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah gifting otomatis mewajibkan posting?
+   - **Current guide answer (not yet approved):** Tidak kecuali ada agreement yang jelas; gifting dan paid deliverables harus dibedakan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa opt-in penting?
+   - **Current guide answer (not yet approved):** Creator harus menyetujui penerimaan produk dan memahami campaign terms/expectations.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa biaya seeding selain produk?
+   - **Current guide answer (not yet approved):** Packing, shipping, taxes, handling, staff hours, follow-up, and content usage/rights if negotiated.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3987,14 +3987,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa yang dilakukan jika creator telat publish?
+   - **Current guide answer (not yet approved):** Ikuti contract/deadline clause, assess campaign impact, notify owner, and agree corrective path.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa screenshot alone tidak cukup untuk proof?
+   - **Current guide answer (not yet approved):** Perlu URL, timestamp, platform, asset version, and relevant insight exports/permissions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus ditangani segera setelah salah link?
+   - **Current guide answer (not yet approved):** Pause amplification, correct destination, notify creator/brand, record impact, and verify link/tracking.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4015,14 +4015,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda boost dan partnership ad?
+   - **Current guide answer (not yet approved):** Boost dapat menggunakan post melalui brand/account flow; partnership ads menjalankan iklan dengan creator partnership identity/authorization sesuai platform.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa organic and paid metrics harus dipisah?
+   - **Current guide answer (not yet approved):** Paid spend mengubah reach/audience/delivery dan mengaburkan evaluasi organic content.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa risiko permission expiry?
+   - **Current guide answer (not yet approved):** Ads dapat berhenti/reject dan penggunaan identity/content dapat melanggar agreement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4043,14 +4043,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa total views tidak boleh diklaim seluruhnya organic?
+   - **Current guide answer (not yet approved):** Views dapat berasal dari paid amplification; sumber delivery harus dipisah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko discount code sebagai attribution tunggal?
+   - **Current guide answer (not yet approved):** Pembelian dapat terjadi tanpa code atau code dibagikan; code usage tidak menunjukkan keseluruhan causal impact.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus masuk ROI?
+   - **Current guide answer (not yet approved):** Talent fee, production, seeding, usage rights, paid media, discounts, sales margin, and measurement costs.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4071,14 +4071,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa bukti capstone siap portfolio?
+   - **Current guide answer (not yet approved):** Artifacts from strategy through contracting, execution, tracking, reporting, and clear disclosure of synthetic assumptions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Bagaimana membuktikan creator selection berbasis data?
+   - **Current guide answer (not yet approved):** Sertakan audience evidence, content sample, fit score, risk review, rate rationale, and alternatives.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang membedakan campaign report dari relationship review?
+   - **Current guide answer (not yet approved):** Campaign report menilai output/outcome; relationship review menilai reliability, collaboration, rights, quality, and future fit.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4099,14 +4099,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda affiliate dengan influencer marketing?
+   - **Current guide answer (not yet approved):** Influencer sering dibayar untuk reach/content/engagement; affiliate dibayar menurut tracked action/sales sesuai contract.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa conversion definition harus jelas?
+   - **Current guide answer (not yet approved):** Menentukan apakah order/lead eligible, kapan divalidasi, kapan komisi reversal, and kapan dibayar.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa risiko coupon attribution?
+   - **Current guide answer (not yet approved):** Code leakage, last-click capture, cannibalization, and existing-customer credit dapat membayar komisi untuk sale non-incremental.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4127,14 +4127,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa partner type penting?
+   - **Current guide answer (not yet approved):** Each type has different traffic, attribution, fraud, audience, and commission behavior.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko sub-network yang tidak transparan?
+   - **Current guide answer (not yet approved):** Traffic source and downstream publishers sulit diaudit; fraud or policy violations may be hidden.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana membedakan creator affiliate dari paid creator?
+   - **Current guide answer (not yet approved):** Creator affiliate earns commission per tracked action; paid creator receives fee for content/reach, or may combine both under separate terms.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4155,14 +4155,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda partner recruited dan partner activated?
+   - **Current guide answer (not yet approved):** Recruited sudah join; activated telah mempromosikan offer/menjalankan campaign dengan eligible activity.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa first-conversion review penting?
+   - **Current guide answer (not yet approved):** Membantu mendeteksi poor traffic/fraud atau setup errors sebelum partner mendapat scale.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang perlu ada di partner kit?
+   - **Current guide answer (not yet approved):** Offer, product feed/assets, tracking links, commission terms, rules, disclosure, contact, and troubleshooting.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4183,14 +4183,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa komisi tidak sebaiknya berdasarkan gross sales tanpa caveat?
+   - **Current guide answer (not yet approved):** Discount, cancellations, returns, taxes, and fees dapat mengurangi net value; gross basis dapat membuat program rugi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi reversal/clawback?
+   - **Current guide answer (not yet approved):** Menarik kembali atau membatalkan commission untuk invalid, cancelled, returned, or non-eligible conversions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana tiered incentive dapat menimbulkan risiko?
+   - **Current guide answer (not yet approved):** Partner bisa mengejar volume dengan low-quality/fraud traffic saat bonus threshold mendekat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4211,14 +4211,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa risiko stale product feed?
+   - **Current guide answer (not yet approved):** Advertiser/partner promote wrong price or unavailable product, damaging conversion and trust.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa fungsi sub-ID?
+   - **Current guide answer (not yet approved):** Membantu memisahkan publisher placement/campaign/creator source dalam attribution/reporting.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa deep link perlu test di app dan web?
+   - **Current guide answer (not yet approved):** User journey and tracking may break across device/app install/redirect conditions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4239,14 +4239,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda attributed sale dan incremental sale?
+   - **Current guide answer (not yet approved):** Attributed sale mendapat credit menurut tracking rule; incremental sale adalah tambahan yang tidak akan terjadi tanpa treatment.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang terjadi bila conversion ID tidak unik?
+   - **Current guide answer (not yet approved):** Satu order dapat tercatat berulang atau gagal dideduplikasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa cookie loss harus dicatat?
+   - **Current guide answer (not yet approved):** Itu dapat mengurangi match/attribution dan membuat observed partner performance tidak lengkap.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4267,14 +4267,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa coupon eligibility harus jelas?
+   - **Current guide answer (not yet approved):** Partner dapat menjanjikan discount yang tidak bisa digunakan sehingga returns/cancellations and trust issues naik.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang harus dipantau saat launch?
+   - **Current guide answer (not yet approved):** Click, conversion, AOV, stock, orders, cancellations, invalid orders, link errors, and partner policy compliance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa pentingnya launch approval?
+   - **Current guide answer (not yet approved):** Memastikan product, legal, pricing, finance, tracking, and partner terms disetujui sebelum campaign aktif.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4295,14 +4295,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa GMV tidak sama dengan net sales/profit?
+   - **Current guide answer (not yet approved):** GMV dapat mencakup cancellations/returns/discounts and does not subtract product, fulfillment, and commission costs.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko creator claims tidak akurat?
+   - **Current guide answer (not yet approved):** Misleading product promises can cause complaints, returns, policy violations, and brand trust harm.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa platform program terms harus dicek ulang?
+   - **Current guide answer (not yet approved):** Eligibility, campaign type, commission, attribution, and settlement rules can change by account/category/market.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4323,14 +4323,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apakah click spike otomatis fraud?
+   - **Current guide answer (not yet approved):** Tidak; promotions/events can cause spikes. Use multiple signals and investigation before final decision.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa itu cookie stuffing?
+   - **Current guide answer (not yet approved):** Praktik menyisipkan tracking cookie tanpa valid user click/consent untuk mengambil attribution credit.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa fraud policy harus tertulis di contract?
+   - **Current guide answer (not yet approved):** Memberi dasar audit, hold, reversal, suspension, clawback, and dispute resolution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4351,14 +4351,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa network conversions belum final payout?
+   - **Current guide answer (not yet approved):** Orders may be pending, cancelled, returned, invalid, or outside program eligibility.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa pentingnya rate table version?
+   - **Current guide answer (not yet approved):** Commission can change across dates/partners/products; using wrong version produces payment errors.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dilakukan saat partner dispute?
+   - **Current guide answer (not yet approved):** Provide order-level evidence, rules, source reconciliation, and transparent resolution timeline.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4379,14 +4379,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa jumlah publisher bukan KPI utama?
+   - **Current guide answer (not yet approved):** Program size can rise while active quality, incremental profit, and compliance fall.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda active partner rate dan recruited count?
+   - **Current guide answer (not yet approved):** Active rate measures partners generating eligible activity; recruited count only measures enrollment.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa concentration risk perlu dipantau?
+   - **Current guide answer (not yet approved):** Revenue/attribution from few partners creates dependency and vulnerability to policy or traffic change.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4407,14 +4407,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa bukti program affiliate siap diluncurkan?
+   - **Current guide answer (not yet approved):** Clear economics, conversion rules, contract, feed, tracking QA, partner policy, fraud control, and finance reconciliation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Bagaimana membuktikan affiliate menguntungkan?
+   - **Current guide answer (not yet approved):** Gunakan incremental contribution after discount, fees, returns, and commission; do not rely on gross sales/attributed ROAS only.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang perlu dicantumkan dalam portfolio?
+   - **Current guide answer (not yet approved):** Artifacts, formulas, sources, assumptions, simulated labels, risk controls, and learning—not invented sales results.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4435,14 +4435,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda audience dan community?
+   - **Current guide answer (not yet approved):** Audience menerima konten; community memiliki interaksi, norma, hubungan antar anggota, dan partisipasi berkelanjutan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Kapan brand tidak perlu membuat community sendiri?
+   - **Current guide answer (not yet approved):** Saat audience sudah terlayani di ruang lain, value proposition komunitas tidak jelas, atau resource moderation tidak tersedia.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa member count bukan ukuran health?
+   - **Current guide answer (not yet approved):** Anggota bisa pasif, tidak relevan, atau tidak aman; participation, trust, retention, and value lebih penting.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4463,14 +4463,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa brand tidak boleh langsung masuk dengan promosi?
+   - **Current guide answer (not yet approved):** Community memiliki norma/trust; pesan komersial tanpa permission/value dapat dianggap spam.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda lurker dan contributor?
+   - **Current guide answer (not yet approved):** Lurker mengamati tanpa aktif posting; contributor memberi pertanyaan, jawaban, content, or participation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa etika social listening?
+   - **Current guide answer (not yet approved):** Ikuti platform rules, minimize personal data, respect private spaces, and report aggregate/context rather than exposing individuals.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4491,14 +4491,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa platform harus mengikuti use case?
+   - **Current guide answer (not yet approved):** Setiap platform memiliki conversation format, search, roles, privacy, and moderation constraints berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa risiko community group tanpa moderation capacity?
+   - **Current guide answer (not yet approved):** Spam, misinformation, harassment, privacy issues, and customer harm can grow faster than support resources.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang perlu dikumpulkan saat onboarding?
+   - **Current guide answer (not yet approved):** Minimum profile and preference needed for purpose; avoid unnecessary personal data.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4519,14 +4519,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa automated sentiment perlu human QA?
+   - **Current guide answer (not yet approved):** Slang, sarcasm, context, and mixed language can cause misclassification.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda mention volume dan sentiment?
+   - **Current guide answer (not yet approved):** Volume counts conversations; sentiment interprets tone/context and needs validation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa query exclusions penting?
+   - **Current guide answer (not yet approved):** Untuk mengurangi irrelevant mentions, homonyms, spam, and false positives.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4547,14 +4547,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Apa beda community management dan customer care?
+   - **Current guide answer (not yet approved):** Community management mengelola relationship/participation; customer care menyelesaikan service cases dengan systems/SLA—keduanya perlu handoff.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Mengapa response template tidak boleh kaku?
+   - **Current guide answer (not yet approved):** Context, emotion, and issue severity require human adaptation; template supports consistency, not robotic replies.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Kapan harus escalate product safety?
+   - **Current guide answer (not yet approved):** Saat ada injury, adverse reaction, contamination, or serious risk; follow approved safety/legal protocol immediately.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4575,14 +4575,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa challenge dengan hadiah saja dapat gagal?
+   - **Current guide answer (not yet approved):** It can attract incentive-only behavior without meaningful member value or durable participation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang perlu sebelum repost UGC?
+   - **Current guide answer (not yet approved):** Permission, attribution/credit, usage scope, editing consent, and compliance review.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Bagaimana mengukur programming quality?
+   - **Current guide answer (not yet approved):** Repeat contributors, meaningful replies, completion, member value, retention, and issue reduction—not raw posts alone.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4603,14 +4603,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa kritik sah tidak boleh dihapus otomatis?
+   - **Current guide answer (not yet approved):** Feedback yang sah memberi evidence dan trust; moderation harus menargetkan harmful behavior, bukan negative sentiment.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa yang dilakukan pada doxxing/personal data exposure?
+   - **Current guide answer (not yet approved):** Hide/remove promptly, preserve minimal evidence, escalate security/legal, and protect affected member.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa moderation harus memiliki appeal/escalation path?
+   - **Current guide answer (not yet approved):** Untuk konsistensi, fairness, and review atas keputusan yang berdampak pada anggota.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4631,14 +4631,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa case perlu dipindah ke secure channel?
+   - **Current guide answer (not yet approved):** Untuk melindungi PII/order details dan memastikan verification/records sesuai service process.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa bedanya acknowledge dengan resolve?
+   - **Current guide answer (not yet approved):** Acknowledge mengakui issue; resolve menyelesaikan masalah dan mengonfirmasi outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang harus dicatat di ticket?
+   - **Current guide answer (not yet approved):** Case ID, category, owner, SLA, status, evidence, action, and closure—minimum necessary personal data.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4659,14 +4659,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa reward untuk positive review berisiko?
+   - **Current guide answer (not yet approved):** Mengontrol sentiment dan dapat melanggar review/platform policies; reward should not require positive rating.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa beda advocate dan influencer?
+   - **Current guide answer (not yet approved):** Advocate punya relationship/peer trust through genuine participation; influencer is selected for audience/content reach, though overlap exists.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang perlu sebelum memakai UGC brand-wide?
+   - **Current guide answer (not yet approved):** Permission, credit, channel, period, editing rules, and disclosure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4687,14 +4687,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa holding statement harus hati-hati?
+   - **Current guide answer (not yet approved):** Fakta belum lengkap; statement harus acknowledge, explain next step, and avoid unsupported claims or blame.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Kapan issue berubah menjadi crisis?
+   - **Current guide answer (not yet approved):** Saat scope, safety/legal risk, rapid spread, business impact, or stakeholder attention melewati escalation threshold.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Apa yang perlu dilakukan setelah crisis?
+   - **Current guide answer (not yet approved):** Audit timeline, decisions, response, harm, root cause, and prevention; do not simply delete posts.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4715,19 +4715,45 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+1. **Question:** Mengapa member count tidak cukup?
+   - **Current guide answer (not yet approved):** Growth dapat berasal dari campaign/giveaway dan tidak menunjukkan active/retained/helpful participation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+2. **Question:** Apa definisi meaningful contribution?
+   - **Current guide answer (not yet approved):** Action yang memberi value pada komunitas seperti jawaban, feedback, support, content, or constructive discussion.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** undefined
-   - **Current guide answer (not yet approved):** undefined
+3. **Question:** Mengapa sentiment score harus divalidasi?
+   - **Current guide answer (not yet approved):** Bahasa, sarcasm, sample bias, and platform coverage dapat menghasilkan misclassification.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ---
+
+### DPA-T16-CH12 — Community Capstone
+**Competency:** T16-C07
+
+**Learning outcome under assessment:** Community Capstone menyatukan purpose, audience mapping, platform selection, listening, engagement, programming, moderation, customer care, advocacy, crisis, and measurement. Deliverable harus operasional: charter, governance, calendar, response bank, escalation, and dashboard. Community bukan sekadar group chat; keberhasilannya diukur dari value dan safety bagi anggota serta dampaknya pada relationship/customer experience.
+
+**Required artifact / chapter-specific evidence checklist:** Community operating pack containing charter, audience map, platform decision, onboarding, four-week calendar, moderation matrix, care handoff, advocacy program, crisis playbook, dashboard and after-action plan.
+
+**Assessor must verify:**
+- Purpose, member value, audience segments, platform choice and governance are coherent and justified.
+- Moderation, customer-care handoff, escalation, crisis response, privacy and UGC permissions are operationally specified.
+- Metrics distinguish member count from meaningful participation, retention, resolution, safety and business/service value.
+- Assumptions, synthetic data, source provenance, limitations and privacy controls are explicit.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa yang membedakan community plan dari social content calendar?
+   - **Current guide answer (not yet approved):** Community plan mengatur member relationships, participation, norms, service, safety, and governance—not only publishing.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Bagaimana membuktikan community value?
+   - **Current guide answer (not yet approved):** Show member outcomes, repeat participation, resolution, feedback, advocacy, retention, and measured business/service effects.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang harus dihindari dalam capstone?
+   - **Current guide answer (not yet approved):** Fake member counts, fabricated sentiment, forced testimonials, unsafe data collection, and unapproved UGC use.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
 
 ## Validation protocol before release
 
@@ -4741,9 +4767,9 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 ## Known limitations
 
-- 168 rubric records generated from chapter objectives and practice prompts.
-- 504 existing static Q&A pairs reproduced for answer-key review.
-- Chapters without parsed practice/objective/Q&A fields: 0.
+- 169 chapter-specific rubric records drafted from chapter objectives and practice prompts; SME calibration remains open.
+- 507 static Q&A pairs reproduced for answer-key review; correctness and acceptable alternatives remain unapproved.
+- Chapters without parsed practice/objective/Q&A fields: 0. Source arrays for 149 added guides were reconciled to their chapter IDs; 19 pre-existing guides were retained.
 - This document does not create a scored quiz engine in the website.
 - This document does not certify SME approval, technical correctness, or learning effectiveness.
 - Rubric scoring criteria are a proposed internal standard and require pilot calibration.
