@@ -8696,3 +8696,12 @@ The new `docs/80-cell-agency-role-evidence-matrix.md` records all 16 core tracks
 A fresh employer-source pass upgraded five cells: Track 5/Havas Paid Social; Track 6/Dentsu Programmatic; Track 9/Publicis Ad Operations; Track 11/Dentsu SEO; Track 15/WPP Affiliate. Each source URL, scope and geography/seniority limitation is recorded in the matrix and validation delta.
 
 **Status remains PARTIAL:** all 80 cells are represented, but not all 80 have current direct JDs or competency-level extraction. Do not label 80/80 validated. Browser/runtime QA and chapter SME/answer-key review remain separate release blockers.
+
+
+# ADDENDUM — 4 NOVEMBER 2026: RESOURCE MAP FOR ALL 169 CORE CHAPTERS
+
+The new `docs/169-chapter-resource-mapping.md` maps all 169 core chapters across 16 tracks to a Tier 1 official learning resource, Tier 2 official platform reference/industry standard and Tier 3 chapter-specific practice artifact. It uses official resources including Google Skillshop, Meta Blueprint, TikTok Academy, LinkedIn Marketing Academy, The Trade Desk Edge Academy, StackAdapt Academy, IAB Tech Lab, Walmart Connect Academy, Amazon Ads Academy, Google Search Central, Bing Webmaster Guidelines, HubSpot Academy, Salesforce Trailhead, impact.com Partnerships Experience Academy, Awin documentation and creator/community learning resources.
+
+The mapping is complete as a **coverage map**, but per-chapter SME confirmation of source-to-objective fit, Indonesian account accessibility, price/tax, language and credential eligibility remains open. Course completion, platform learning credentials, vendor-issued certifications, professional certification and standards documentation remain distinct. Do not infer price, free access or credential status from the presence of a link.
+
+The resource/credential register now links to this 169-chapter map. Release status remains NOT READY until resource-fit SME review, regional verification and the other release gates are evidenced.
