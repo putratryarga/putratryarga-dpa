@@ -138,3 +138,12 @@ Static QA was rerun against the PR #5 branch and recorded in `docs/2026-11-04-st
 **Browser QA:** not run. The connected local Browser service could not access the originating browser context; cloud browser/deep-research service returned insufficient funds/empty wallet before a run could start. No screenshots, interaction, console/network, mobile/desktop or accessibility runtime tests are claimed.
 
 Release status remains NOT READY TO MERGE.
+
+
+## 10. 4 November 2026 — 169-chapter resource mapping baseline
+
+Created `docs/169-chapter-resource-mapping.md` in both PR branches. It contains **169/169 chapter rows** across all 16 tracks. Each row maps (1) Tier 1 official issuer/platform learning, (2) Tier 2 official platform documentation or industry standard, and (3) the chapter's own Tier 3 practice/deliverable extracted from the chapter evidence register. The existing resource/credential validation register now links to this file.
+
+Official resource families include Google Skillshop, Meta Blueprint, TikTok Academy, LinkedIn Marketing Academy, StackAdapt Academy, The Trade Desk Edge Academy, IAB Tech Lab, Walmart Connect Academy, Amazon Ads Academy, Google Search Central, Bing Webmaster Guidelines, HubSpot Academy, Salesforce Trailhead, impact.com Partnerships Experience Academy, Awin documentation and creator/community platform resources.
+
+**Status:** coverage mapping complete for 169 chapters; chapter-by-chapter SME source-fit review and Indonesian access/price/language/credential checks remain OPEN. A resource link is not evidence of free access, a professional credential or complete chapter coverage.
