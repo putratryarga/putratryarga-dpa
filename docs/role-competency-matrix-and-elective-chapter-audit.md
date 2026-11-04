@@ -404,7 +404,7 @@ A chapter is not complete merely because its title matches a competency. Every s
 
 PR #5 describes 169 specialist chapter guides: 149 added across 14 tracks plus 10 retained Full-Stack and 10 retained Paid Social guides. The guide pattern includes concept, simulated example, workflow steps, practice/deliverable, comprehension questions and glossary.
 
-**Verified at repository level:** the branch contains three guide source files (part 1, part 2, part 3), the main renderer and index.html; guide source exposes 14 new role keys. The PR description records the intended 149 + 10 + 10 = 169 count and its own consistency checks.
+**Verified at repository level:** the branch contains three guide source files (part 1, part 2, part 3), the main renderer and index.html; guide source exposes 14 new role keys. A source-level count finds 152 `G(` strings, of which three are non-chapter occurrences (the shared `function G(...)` declaration and two explanatory comments), leaving **149 actual chapter-guide constructor calls**. This reconciles with the PR description: 149 new guides + 10 retained Full-Stack guides + 10 retained Paid Social guides = **169 total**. This validates the source-level guide count, not the complete rendered chapter-ID-to-competency mapping.
 
 **Not verified by this audit:** a complete 169-row mapping from each rendered chapter ID to competency IDs, evidence, resource, practice, quiz and rubric. The structural LEARN/BUILD/VERIFY pattern does not by itself prove every subchapter is role-specific or evidence-backed.
 
