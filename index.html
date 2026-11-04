@@ -1308,6 +1308,42 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
  #sec-role .role-grid .role-head{gap:10px!important}
  #sec-role .role-grid>.fam-h{margin-top:22px!important;padding-inline:4px!important}
 }
+
+.chapter-study{margin:16px 0 4px;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--sf2);display:flex;flex-direction:column;gap:16px;min-width:0}
+.chapter-study-title{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-bottom:11px;border-bottom:1px solid var(--line)}
+.chapter-study-title h4{margin:3px 0 0;color:var(--ink);font:500 19px/1.3 var(--serif)}
+.chapter-study-kicker{color:var(--gold);font:600 10px/1.4 var(--mono);letter-spacing:.13em;text-transform:uppercase}
+.chapter-study-time{flex:0 0 auto;color:var(--ink3);font:500 10px/1.4 var(--mono)}
+.chapter-study h5{margin:0 0 7px;color:var(--ink);font:650 12px/1.4 var(--sans)}
+.chapter-study p,.chapter-study li{color:var(--ink2);font-size:12px;line-height:1.75}
+.chapter-study p{margin:0}.chapter-study ol,.chapter-study ul{margin:0;padding-left:19px}.chapter-study li+li{margin-top:8px}
+.chapter-study-example{padding:13px 15px;border-left:3px solid var(--gold);background:var(--sf);border-radius:0 8px 8px 0}
+.chapter-study-columns{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:20px;min-width:0}
+.chapter-study-columns>div{min-width:0}.chapter-selfcheck-title{margin-top:16px!important}
+.chapter-sources{padding-top:13px;border-top:1px solid var(--line);margin-top:2px}
+.chapter-sources-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:9px}
+.chapter-sources-head h5{margin:0}.chapter-sources-head>span{color:var(--ink3);font:500 10px/1.5 var(--mono)}
+.chapter-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px;min-width:0}
+.chapter-resource-item{min-width:0;padding:10px 11px;border:1px solid var(--line);border-radius:8px;background:var(--sf)}
+.chapter-resource-item .res{display:flex;align-items:flex-start;gap:8px;padding:0;border:0;min-width:0}
+.chapter-resource-item .rn{font-size:11px;line-height:1.45}.chapter-resource-item .rd{font-size:10px;line-height:1.5}
+.chapter-resource-item .tag{font-size:9px;white-space:normal;max-width:105px;text-align:center}
+.source-empty{color:var(--warning,#b7791f)!important;font-size:11px!important}
+.track-source-catalog[hidden]{display:none!important}
+#sec-role .role-grid{width:min(100%,1160px)!important;max-width:1160px!important;margin:20px auto 0!important;padding:0 26px!important;box-sizing:border-box!important;column-gap:28px!important;row-gap:22px!important}
+#sec-role .role-grid>.role-card{min-width:0!important;width:100%!important;min-height:190px!important;height:100%!important;margin:0!important;padding:20px!important;box-sizing:border-box!important;border:1px solid var(--line)!important;border-radius:var(--r-lg)!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:13px!important;overflow-wrap:anywhere!important}
+#sec-role .role-grid>.role-card .role-head{display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:14px!important;min-width:0!important}
+#sec-role .role-grid>.role-card .role-name{min-width:0!important;overflow-wrap:anywhere!important;line-height:1.3!important}
+#sec-role .role-grid>.role-card .role-pick{flex:0 0 auto!important;white-space:nowrap!important}
+#sec-role .role-grid>.role-card .role-path{margin-top:auto!important}
+#sec-role .role-grid>.fam-h{grid-column:1/-1!important;margin:26px 0 3px!important;padding:0 8px 10px!important;box-sizing:border-box!important}
+@media(max-width:760px){
+.chapter-study{padding:15px;margin-top:14px}.chapter-study-columns{grid-template-columns:minmax(0,1fr);gap:15px}
+.chapter-source-list{grid-template-columns:minmax(0,1fr)}.chapter-study-title{align-items:flex-start;flex-direction:column}
+#sec-role .role-grid{grid-template-columns:minmax(0,1fr)!important;width:100%!important;max-width:720px!important;padding:0 16px!important;margin:14px auto 0!important;row-gap:16px!important;column-gap:0!important}
+#sec-role .role-grid>.role-card{min-height:0!important;height:auto!important;padding:17px!important}#sec-role .role-grid .role-head{gap:10px!important}#sec-role .role-grid>.fam-h{margin-top:23px!important;padding-inline:4px!important}
+}
+@media(min-width:761px) and (max-width:980px){#sec-role .role-grid{column-gap:20px!important;padding:0 20px!important}#sec-role .role-grid>.role-card{padding:17px!important}}
 </style>
 </head>
 <body>
@@ -2184,7 +2220,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Post-campaign evaluation</li>
       <li><b>Capstone:</b> Media plan lengkap dari brief: channel mix, alokasi budget, reach/frequency forecast, media flowchart, dan post-campaign recommendation. Benchmark urutan belajar: Purwadhika × P3I Certified Digital Planner &amp; Strategist.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Media Planning Study Guide</span><span class="rd">Study guide resmi media planning.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://support.google.com/google-ads/answer/9427120" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Help · Reach Planner</span><span class="rd">Panduan resmi reach planning &amp; forecast.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://www.purwadhika.com/skill-accelerator/certified-digital-planner-and-strategist-with-p3i" target="_blank" rel="noopener noreferrer"><span><span class="rn">Purwadhika × P3I · Certified Digital Planner &amp; Strategist</span><span class="rd">Benchmark kurikulum: 6 minggu, 7 sesi (strategy, media planning &amp; budget, governance, measurement, pitching). Berbayar.</span></span><span class="tag t-prog">Pendalaman</span></a>
@@ -2332,7 +2368,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Optimization report dari synthetic data</li>
       <li><b>Capstone:</b> Simulasi search campaign untuk satu brand: keyword-intent map, struktur campaign, negative keyword list, bid strategy, dan optimization report dengan synthetic performance data.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://skillshop.docebosaas.com/learn/courses/8692/google-ads-search-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Ads Search Certification (Skillshop)</span><span class="rd">Sertifikasi resmi Google Search — rujukan utama jalur ini.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://about.ads.microsoft.com/en/resources/training-certification/learning-lab" target="_blank" rel="noopener noreferrer"><span><span class="rn">Microsoft Advertising Learning Lab</span><span class="rd">Learning path + sertifikasi Search Microsoft, gratis dengan badge.</span></span><span class="tag t-free">Gratis · badge</span></a>
               <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · Ads Catalog</span><span class="rd">Katalog untuk Search Ads 360 dan materi lanjutan.</span></span><span class="tag t-doc">Dokumentasi</span></a>
@@ -2479,7 +2515,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Weekly performance report (synthetic)</li>
       <li><b>Capstone:</b> Social campaign launch plan dan optimization report lintas Meta dan TikTok: audience matrix, creative testing matrix, budget/pacing sheet, weekly performance report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning" target="_blank" rel="noopener noreferrer"><span><span class="rn">Meta Ads Manager Learning Path (Small Business Academy)</span><span class="rd">Jalur belajar Ads Manager; punya skilling certificate via tes terpisah.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619726" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Drive Website Sales</span><span class="rd">Learning path konversi website dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
               <a class="res" href="https://www.tiktokacademy.com/student/collection/3523001/path/5619729" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok Academy · Promote Your TikTok Shop</span><span class="rd">Commerce &amp; Shop Ads dengan achievement.</span></span><span class="tag t-free">Gratis · badge</span></a>
@@ -2665,7 +2701,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Supply-quality audit + discrepancy report</li>
       <li><b>Capstone:</b> Rancang programmatic campaign end-to-end dengan synthetic data: DSP blueprint, inventory/deal matrix, bidding &amp; pacing plan, supply-quality audit, discrepancy report.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://edgeacademy.thetradedesk.com/programmatic-101" target="_blank" rel="noopener noreferrer"><span><span class="rn">The Trade Desk Edge Academy · Programmatic 101</span><span class="rd">Pengantar resmi ±1 jam; learning badge via Credly (bukan professional certification).</span></span><span class="tag t-free">Gratis · badge</span></a>
               <a class="res" href="https://skillshop.docebosaas.com/learn/public/catalog/view/1" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Skillshop · DV360 &amp; Campaign Manager 360</span><span class="rd">Cari Display &amp; Video 360 Certification dan Campaign Manager 360 Certification (individual, gratis).</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://advertising.amazon.com/academy/certifications" target="_blank" rel="noopener noreferrer"><span><span class="rn">Amazon Ads Academy · Certifications</span><span class="rd">Sertifikasi gratis (badge + PDF); DSP Indonesia tidak tersedia → posisikan sebagai global elective.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
@@ -2813,7 +2849,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Sales performance report (ACoS/ROAS, synthetic)</li>
       <li><b>Capstone:</b> Commerce media strategy untuk satu kategori produk: retail media plan, product bidding sheet, sales performance report (ACoS/ROAS/incrementality).</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id" target="_blank" rel="noopener noreferrer"><span><span class="rn">TikTok/Tokopedia · Product Shopping Ads (dokumentasi resmi)</span><span class="rd">Kelola Tokopedia Product Shopping Ads via TikTok Ads Manager; GMV Max default untuk TikTok Shop Ads.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://iklan.shopee.co.id/learn/faq/571/19" target="_blank" rel="noopener noreferrer"><span><span class="rn">Shopee Ads · Iklan Pencarian Produk &amp; Toko</span><span class="rd">Dokumentasi resmi tipe iklan dan pengelolaan via Seller Centre.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://www.lazadasolutions.com/id/" target="_blank" rel="noopener noreferrer"><span><span class="rn">Lazada Sponsored Solutions Indonesia</span><span class="rd">Nomenklatur terbaru: Sponsored Max Store/Product, Sponsored Discovery Manual (perubahan Okt 2026).</span></span><span class="tag t-doc">Dokumentasi</span></a>
@@ -3266,7 +3302,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Insight &amp; optimization recommendation memo</li>
       <li><b>Capstone:</b> Analisis yang menjawab business question: multi-channel dashboard, data quality audit, diagnostic memo, dan optimization recommendation.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Certification (Skillshop)</span><span class="rd">Sertifikasi GA resmi, gratis.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://support.google.com/analytics/answer/6367342" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Analytics Demo Account</span><span class="rd">Data demonstrasi resmi Google Merchandise Store untuk latihan analisis.</span></span><span class="tag t-doc">Gratis · tanpa sertifikat</span></a>
               <a class="res" href="https://www.kaggle.com/learn/intro-to-sql" target="_blank" rel="noopener noreferrer"><span><span class="rn">Kaggle Learn · Intro to SQL</span><span class="rd">SQL dasar gratis dengan sertifikat penyelesaian.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
@@ -3416,7 +3452,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>Organic visibility report + GEO/AEO baseline</li>
       <li><b>Capstone:</b> Website audit end-to-end: technical SEO report, keyword/intent map, content brief, backlink assessment, organic dashboard, dan AI-search visibility baseline.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google SEO Starter Guide</span><span class="rd">Fondasi resmi Google.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google · AI features and your website</span><span class="rd">Posisi resmi Google soal AI Overviews &amp; AI Mode.</span></span><span class="tag t-doc">Dokumentasi</span></a>
               <a class="res" href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer"><span><span class="rn">Google Search Console</span><span class="rd">Tool inti measurement organic.</span></span><span class="tag t-tool">Tool gratis</span></a>
@@ -3565,7 +3601,7 @@ footer p { font:500 11px/1.7 var(--sans); letter-spacing:.015em; }
       <li>QA checklist + measurement plan</li>
       <li><b>Capstone:</b> Rancang lifecycle marketing system dari acquisition sampai reactivation: lifecycle map, segment logic, automation workflow, email sequence, QA checklist.</li>
     </ul></div>
-    <div class="box" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
+    <div class="box track-source-catalog" style="margin-top:14px"><h3>Sumber belajar (Tier 1 · resmi)</h3>
               <a class="res" href="https://academy.hubspot.com/courses/email-marketing-certification-en" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Email Marketing Certification</span><span class="rd">Course gratis + sertifikat, ada practical exercise.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://academy.hubspot.com/courses/inbound" target="_blank" rel="noopener noreferrer"><span><span class="rn">HubSpot Inbound Certification</span><span class="rd">Buyer journey, nurturing, automation basics.</span></span><span class="tag t-free">Gratis + sertifikat</span></a>
               <a class="res" href="https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup" target="_blank" rel="noopener noreferrer"><span><span class="rn">Salesforce Trailhead · Marketing Cloud Engagement</span><span class="rd">Jalur belajar resmi SFMC (badge, bukan sertifikasi profesional).</span></span><span class="tag t-free">Gratis · badge</span></a>
@@ -4555,7 +4591,7 @@ paidsocial:[[5,8],[6,5],[7],[5,6],[9],[8],[10],[8,11],[11,9],[0,5,6,8,9,10,11,12
 programmatic:[[0,1],[0,1],[0,1],[0,1],[1],[1],[1,3],[1,0],[0,1,2],[1],[0,1,3],[0,1,2,3]],
 retail:[[5],[0,5],[1,2,3,5],[1,2],[0,2],[2,5],[3],[0,1,2,3],[4,5],[0,1,2,3,4,5]],
 investment:[[0,2],[2,0],[1,3],[1,2],[1,0,3],[1],[0,1,2],[1],[0,1,2,3],[0,1,2,3]],
-adops:[[0,2],[1,2],[2],[1,2],[0],[1,2],[0,2,3],[0,2],[1,2,4],[0,1,2,3,4]],
+adops:[[0,2,10],[0,1],[3,4],[2,5,7,9],[0,1,3,5,6],[2,4,7,8],[0,2,10,12,13],[5,6,11,12,13],[0,1,11,12],[0,1,2,3,4,5,6,7,8,9,10,11,12,13]],
 analytics:[[0,1],[1,2,3],[0,1,4],[2,3],[4],[0,1,5],[0,1],[0,2],[0,4],[0,1,2,3,4,5]],
 seo:[[0,1],[0,2,3],[0,2],[0,2],[0,1],[3,4],[2],[0,2,4],[0,1],[0,1,2,3,4]],
 crm:[[0,1],[2,3],[1,2],[1,2],[0,1],[2,3],[0,3],[1,2],[0,3],[0,1,2,3,4]],
@@ -4564,10 +4600,95 @@ kol:[[0,2],[0,1],[0],[0,1],[2,0],[0,1],[1],[0],[0,2],[1,0],[0,2],[0,1,2]],
 affiliate:[[0,1],[0,1,2],[0,1],[0,1],[2,3],[0,1,3],[2,3],[0,2,3],[1,2,3],[0,1,2],[0,1,2,3],[0,1,2,3]],
 community:[[0,1,2],[1,2],[0,2],[5,6],[3,4],[2,0],[3,5],[1,3],[2,0],[3,5],[6,7],[0,1,2,3,4,5,6,7]]
 };
-function findSourceCatalog(box){var nodes=Array.prototype.slice.call(box.querySelectorAll('.track-source-catalog, .box'));for(var i=0;i<nodes.length;i++){var title=nodes[i].querySelector('h3');if(title&&/Sumber belajar|Common Foundation/.test(title.textContent))return nodes[i];}return null;}
-function attachChapterSources(){document.querySelectorAll('[data-track-box]').forEach(function(box){var chapters=Array.prototype.slice.call(box.querySelectorAll('details.week'));var catalog=findSourceCatalog(box);var resources=catalog?Array.prototype.slice.call(catalog.querySelectorAll('a.res')):[];var map=CHAPTER_SOURCE_MAP[box.dataset.trackBox]||[];if(!chapters.length||!resources.length)return;chapters.forEach(function(chapter,index){if(chapter.querySelector('.chapter-sources'))return;var selected=(map[index]||[]).filter(function(n){return Number.isInteger(n)&&n>=0&&n<resources.length;});if(!selected.length)return;var body=chapter.querySelector('.wbody');if(!body)return;var d=document.createElement('details');d.className='chapter-sources';var s=document.createElement('summary');s.innerHTML='<span>Sumber belajar</span><span class="chapter-source-count">'+selected.length+' referensi</span><span class="chapter-source-chevron" aria-hidden="true">+</span>';d.appendChild(s);var list=document.createElement('div');list.className='chapter-source-list';selected.forEach(function(n){var a=resources[n].cloneNode(true);a.target='_blank';a.rel='noopener noreferrer';list.appendChild(a);});d.appendChild(list);body.appendChild(d);});});}
 
-  function visibleBoxes(){
+var TRACK_GUIDE_CONTEXT={
+cf:{purpose:"Fondasi bisnis, brief, consumer, marketing mathematics, measurement dan workflow profesional.",example:"Pilih satu brand consumer Indonesia; gunakan data sintetis bila data asli tidak tersedia dan beri label simulasi.",worksheet:"Worksheet: konsep, definisi, input/rumus, bukti, keputusan dan risiko."},
+fullstack:{purpose:"Hubungkan business objective → consumer → journey → channel → activation → measurement → optimization.",example:"Ikuti satu brand dari masalah bisnis sampai rekomendasi channel dan KPI; tulis asumsi setiap keputusan.",worksheet:"Decision log: objective, audience insight, channel choice, KPI, optimization decision."},
+connection:{purpose:"Ubah business challenge menjadi audience insight, communication strategy, journey, touchpoint, message architecture dan learning agenda.",example:"Rancang bagaimana komunikasi mengubah pemahaman, persepsi atau tindakan audience pada beberapa momen journey.",worksheet:"Strategy sheet: challenge, audience, tension, proposition, journey, channel role, message, KPI dan evidence."},
+media:{purpose:"Turunkan brief menjadi audience, media objective, channel role, budget mix, reach/frequency, flighting dan evaluation.",example:"Bandingkan dua media mix dengan budget hipotetis dan jelaskan trade-off reach, cost, audience quality dan objective.",worksheet:"Media plan: objective, audience, channel, budget, timing, forecast, assumption dan source."},
+paidsearch:{purpose:"Hubungkan search intent, keyword structure, ad relevance, bidding, tracking dan optimization.",example:"Kelompokkan keyword produk menurut intent dan tunjukkan bagaimana negative keywords mengurangi traffic tidak relevan.",worksheet:"Keyword map: query, intent, match type, ad group, negative keyword, landing page, KPI dan alasan."},
+paidsocial:{purpose:"Hubungkan objective, audience, creative, auction, delivery, tracking dan eksperimen paid social.",example:"Rancang campaign Meta/TikTok. Pisahkan audience hypothesis, creative angle dan measurement.",worksheet:"Campaign blueprint: objective, audience, creative matrix, placements, budget, event, UTM, KPI dan test plan."},
+programmatic:{purpose:"Pahami supply chain, DSP/SSP, auction, inventory, deals, identity/privacy, pacing, verification dan measurement.",example:"Bandingkan open auction, PMP dan programmatic guaranteed dari sisi kontrol, harga, supply quality dan risiko.",worksheet:"DSP blueprint: inventory, deal type, audience/data, bid, pacing, frequency, verification dan measurement."},
+retail:{purpose:"Hubungkan shopper journey, retailer media network, onsite/offsite, product feed, audience dan closed-loop measurement.",example:"Pilih kategori marketplace Indonesia; petakan sponsored search, display, social/video dan digital shelf.",worksheet:"Retail media plan: retailer, placement, product readiness, shopper segment, bid, sales metric dan incrementality."},
+investment:{purpose:"Nilai inventory, media owner, rate card, proposal, negotiation, booking, delivery, invoice dan investment value.",example:"Bandingkan dua proposal vendor; pisahkan price, delivery guarantee, audience value, added value dan contract risk.",worksheet:"Vendor comparison: cost, units, rate, audience, guarantee, bonus, makegood, terms, risk dan recommendation."},
+adops:{purpose:"Jaga akurasi trafficking, creative spec, tags, setup, pre-launch QA, monitoring, discrepancy dan billing control.",example:"Simulasikan display campaign dengan satu creative, dua placement, click/conversion tracking dan satu discrepancy. Labeli data synthetic.",worksheet:"Paket operasional: trafficking sheet, creative spec, tag map, QA log, go-live record, monitoring log dan reconciliation."},
+analytics:{purpose:"Ubah business question menjadi KPI framework, data model, analysis, experiment, insight dan keputusan.",example:"Gunakan synthetic campaign data untuk menemukan perubahan performa, memecahnya per segmen/channel dan menguji kemungkinan penyebab.",worksheet:"Analysis notebook: question, dataset, definitions, checks, method, result, limitation dan recommendation."},
+seo:{purpose:"Hubungkan search intent, architecture, crawl/index, technical health, content, authority, reporting dan AI search visibility.",example:"Audit satu situs: crawl/indexability, intent match, structured data, performance dan prioritas perbaikan.",worksheet:"Audit log: URL, issue, evidence, severity, impact, recommendation, owner dan validation method."},
+crm:{purpose:"Hubungkan customer data, segmentation, journey, triggers, channel, automation, deliverability, retention dan measurement.",example:"Rancang lifecycle pelanggan baru dari signup hingga repeat purchase dengan suppression, consent, branching dan exit condition.",worksheet:"Lifecycle map: stage, trigger, segment, channel, content, timing, suppression, KPI dan experiment."},
+content:{purpose:"Hubungkan audience/culture, brand voice, editorial architecture, insight, storytelling, distribution dan measurement.",example:"Buat content pillar lalu adaptasikan satu ide ke long-form dan short-form tanpa kehilangan brand POV.",worksheet:"Content brief: audience, insight, objective, pillar, key message, format, CTA, distribution, KPI dan learning."},
+kol:{purpose:"Hubungkan creator ecosystem, discovery, audience fit, vetting, briefing, rights, execution, amplification dan measurement.",example:"Buat shortlist creator; nilai audience fit, content quality, engagement authenticity, usage rights, price dan risk.",worksheet:"Creator scorecard: profile, audience fit, quality, performance, risk, fee, rights, deliverables dan recommendation."},
+affiliate:{purpose:"Hubungkan advertiser, network, publisher, creator affiliate, commission, tracking, fraud control dan partner growth.",example:"Rancang program affiliate produk bermargin terbatas; hitung commission ceiling, contribution margin, reversal dan incentive.",worksheet:"Affiliate model: partner type, commission basis, tracking, attribution, validation, clawback, reconciliation dan growth plan."},
+community:{purpose:"Bangun komunitas dengan purpose, audience map, listening, engagement, moderation, customer care, advocacy dan measurement.",example:"Buat guidelines dan response matrix untuk pertanyaan normal, complaint, misinformation dan escalation.",worksheet:"Community playbook: purpose, member segment, programming, moderation, response SLA, escalation, advocacy dan health metrics."}
+};
+var CF_GUIDE_NOTES=[
+["Business model menjelaskan bagaimana perusahaan menciptakan, mengirimkan dan menangkap nilai. Pisahkan revenue, COGS, gross profit, operating expense dan contribution margin. CAC adalah biaya akuisisi per pelanggan baru; LTV memperkirakan kontribusi ekonomi pelanggan sepanjang hubungan dengan periode dan basis margin konsisten.","Contoh sintetis: 1.000 unit × Rp100.000 = Rp100 juta revenue. COGS Rp60 juta menghasilkan gross profit Rp40 juta. Biaya akuisisi Rp10 juta untuk 200 pelanggan berarti CAC Rp50.000. Gross profit bukan net profit."],
+["Client brief adalah input yang perlu diklarifikasi. Pisahkan business context, gejala, masalah bisnis, objective, audience, scope, budget, timeline, constraint dan bukti. Problem framing mengubah permintaan kabur menjadi pertanyaan yang bisa diteliti.","'Butuh campaign awareness' belum cukup. Tanyakan awareness siapa, terhadap apa, di wilayah mana, dibanding baseline apa, dan apakah awareness memang hambatan utama menuju business outcome."],
+["Audience bukan sekadar umur atau gender. Segmentasi berguna mengelompokkan orang berdasarkan kebutuhan, motivasi, perilaku, nilai ekonomi dan konteks. Need menjelaskan apa yang dicari; tension adalah hambatan; insight menghubungkan observasi dengan alasan perilaku.","Banyak user menambah produk ke cart tetapi tidak checkout. Jangan langsung simpulkan harga mahal; cek ongkir, payment, trust, stok, urgency dan error checkout."],
+["Marketing mathematics mengubah budget dan delivery menjadi estimasi hasil. CTR=clicks/impressions; CPC=spend/clicks; CPM=spend/impressions×1.000; CVR=conversions/clicks; CPA=spend/conversions; ROAS=attributed revenue/ad spend; frequency=impressions/reach. ROAS bukan profit.","Data sintetis: spend Rp10 juta; 500.000 impressions; 5.000 clicks; 100 conversions; revenue Rp30 juta. CPM Rp20.000, CPC Rp2.000, CTR 1%, CVR 2%, CPA Rp100.000 dan ROAS 3,0x."],
+["Measurement dimulai dari keputusan, bukan dashboard. Bedakan business KPI, diagnostic metric dan guardrail. Attribution membagi kredit menurut aturan tertentu, bukan bukti kausalitas. Data quality mencakup event definition, duplicate firing, missing values, timezone, consent dan source consistency.","Untuk meningkatkan completed purchase, KPI bisa purchases/contribution revenue; add-to-cart dan checkout start adalah diagnostic metrics; refund rate dan margin bisa menjadi guardrails."],
+["Agency workflow adalah rangkaian handoff dan quality gate: brief → strategy → planning → approval → activation → QA → monitoring → reporting → learning. Setiap tahap butuh owner, input, output, deadline dan approval.","Sebelum launch, activation perlu brief final, approved creative, placement/tagging plan, landing URL, tracking spec, flight dates, target dan sign-off, bukan hanya pesan 'sudah siap'."]
+];
+var ADOPS_GUIDE_NOTES=[
+["Ad Ops menghubungkan media plan, ad platform/ad server, publisher dan tracking. Ad server mengatur ads/creatives/placements; DSP membeli inventory; publisher/SSP menyediakan supply; verification mengukur kualitas/risiko; analytics membaca perilaku/conversion.","Placement adalah slot/lokasi iklan; ad adalah unit penayangan; creative adalah asset yang dilihat audience; placement tag memanggil ad server. Keempatnya bukan istilah yang sama."],
+["Trafficking sheet menerjemahkan approved media plan menjadi instruksi operasional dan single source of truth untuk advertiser, publisher, placement, size, ad, creative, URL, tracking, targeting, flight, budget, owner, approval dan status.","Pola nama: BRAND_MARKET_OBJECTIVE_PLATFORM_FORMAT_AUDIENCE_FLIGHT_VERSION. Hindari nama ambigu seperti Campaign1-final-fix2."],
+["Creative specification memastikan asset diterima dan tayang benar. Periksa format, dimensi/aspect ratio, file size, duration, frame rate, audio, click URL, SSL, HTML5, fallback dan placement compatibility. Gunakan spec terkini per platform/publisher/ad server.","Creative 300×250 tidak otomatis cocok untuk placement 320×50. HTML5 perlu dicek parent dimension, backup image dan supported sizes."],
+["Tag dan tracker punya fungsi berbeda. Placement/ad tag memanggil ad server; click tracker mencatat klik; impression tracker mengukur ad; pixel/Floodlight merekam event/conversion; UTM memberi label campaign pada destination URL.","UTM bukan pixel. utm_source=meta dan utm_medium=paid_social mengklasifikasikan traffic; pixel/Floodlight merekam tindakan di situs."],
+["CM360 mengorganisasi delivery melalui advertiser/campaign, sites/placements, ads dan creatives. Placement menentukan lokasi penayangan dan menghasilkan tag; ad mengatur delivery; creative adalah asset. Floodlight mengukur activity/conversion dengan counting method dan conversion window.","Purchase dengan beberapa order dapat memakai Every; lead/signup mungkin One per user atau One per session sesuai definisi event bisnis."],
+["Pre-launch QA adalah quality gate. Periksa trafficking, creative rendering/spec, click/landing page, tracking, targeting, flight, budget, placement, consent/policy, publisher handoff dan approval. Upload sukses tidak otomatis berarti siap live.","Click URL salah dapat mengirim audience ke halaman keliru; event duplicate dapat membuat conversion terlihat lebih tinggi."],
+["Live monitoring membandingkan planned dan actual delivery. Pisahkan pacing problem dari tracking/creative problem. Pantau spend, impressions, clicks, conversions, CPM/CPC/CTR/CPA, placement delivery, rejection, viewability/IVT, frequency dan discrepancy.","Under-delivery bisa disebabkan placement belum aktif, creative rejected, targeting sempit, bid/budget, tag error atau inventory. Naikkan budget setelah akar masalah diketahui."],
+["Discrepancy muncul karena sistem berbeda menghitung event dengan definisi, timezone, cutoff, attribution window, deduplication, filtering dan latency berbeda. Bandingkan apples-to-apples.","Klik platform dan session analytics tidak selalu sama: click bisa tidak menjadi session karena halaman gagal dimuat, redirect, consent atau browser block."],
+["Billing reconciliation memastikan invoice sesuai booking/IO, rate, period, placement, delivered volume, billable basis, currency, tax, discount, bonus, makegood dan proof of performance. Delivery report belum tentu sama dengan billable basis.","Jika IO memesan 1.000.000 impressions tetapi proof menunjukkan 850.000 billable, hitung shortfall sesuai kontrak; jangan asumsikan perlakuan bonus sama."],
+["Capstone menggabungkan brief, trafficking, creative spec, tags, CM360 setup, QA, monitoring, discrepancy dan billing control. Nilai utamanya keterlacakan keputusan hingga evidence delivery. Data latihan harus dilabeli synthetic.","Paket final: brief summary, trafficking sheet, spec matrix, tag map, QA record, go-live checklist, monitoring log, discrepancy log, invoice reconciliation dan operational review."]
+];
+function studyEsc(v){return String(v||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function findChapterCatalog(box){
+ var preferred=box.querySelector(".track-source-catalog");if(preferred)return preferred;
+ var nodes=Array.prototype.slice.call(box.querySelectorAll(".box"));
+ for(var i=0;i<nodes.length;i++){var heading=nodes[i].querySelector("h3");if(heading&&/sumber belajar/i.test(heading.textContent))return nodes[i];}
+ return null;
+}
+function buildGuide(box,chapter,index){
+ var ctx=TRACK_GUIDE_CONTEXT[box.dataset.trackBox]||TRACK_GUIDE_CONTEXT.fullstack;
+ var title=(chapter.querySelector(".wt")||{}).textContent||"bab ini";
+ var topics=Array.prototype.slice.call(chapter.querySelectorAll(".wbody > .box ul li")).map(function(x){return x.textContent.trim();});
+ var deliver=chapter.querySelector(".deliv .chk span");var outcome=deliver?deliver.textContent.trim():"";
+ var custom=box.dataset.trackBox==="cf"?CF_GUIDE_NOTES[index]:(box.dataset.trackBox==="adops"?ADOPS_GUIDE_NOTES[index]:null);
+ var concept=custom?custom[0]:ctx.purpose+' Pada bab "'+title.trim()+'", kuasai tiap subtopik sampai bisa menerangkan definisi, input/data, alur kerja, output, indikator kualitas dan kapan keputusan tersebut relevan.';
+ var example=custom?custom[1]:ctx.example;
+ var steps=topics.map(function(t,i){
+  return (i===0?"Pahami: ":i===1?"Hubungkan: ":"Terapkan: ")+t+" — baca sumber, tulis definisi, input, proses, output, owner dan risiko; lalu tunjukkan penerapannya pada kasus latihan.";
+ });
+ return {concept:concept,example:example,steps:steps,practice:ctx.worksheet+(outcome?" Deliverable bab ini: "+outcome:"")+" Sertakan asumsi, bukti/sumber, keterbatasan dan alasan keputusan.",
+ checks:["Apa definisi dan input minimum dari konsep utama bab ini?","Bagaimana konsep ini memengaruhi keputusan, output atau risiko role tersebut?","Bukti apa yang membuat hasil latihan dapat dipercaya, dan apa batasannya?"]};
+}
+function appendChapterStudy(chapter,box,index,resources,selected){
+ if(chapter.querySelector(".chapter-study"))return;
+ var guide=buildGuide(box,chapter,index);
+ var links=selected.slice(0,5).map(function(n){var a=resources[n].cloneNode(true);a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");return '<div class="chapter-resource-item">'+a.outerHTML+'</div>';}).join("");
+ var html='<section class="chapter-study">';
+ html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
+ html+='<div class="chapter-study-concept"><h5>Penjelasan inti</h5><p>'+studyEsc(guide.concept)+'</p></div>';
+ html+='<div class="chapter-study-example"><h5>Contoh kasus</h5><p>'+studyEsc(guide.example)+'</p></div>';
+ html+='<div class="chapter-study-columns"><div><h5>Materi yang harus dikuasai</h5><ol>'+guide.steps.map(function(x){return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div>';
+ html+='<div><h5>Latihan terpandu</h5><p>'+studyEsc(guide.practice)+'</p><h5 class="chapter-selfcheck-title">Cek pemahaman</h5><ul>'+guide.checks.map(function(x){return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ul></div></div>';
+ html+='<div class="chapter-sources"><div class="chapter-sources-head"><h5>Sumber belajar</h5><span>'+selected.length+' referensi terpilih untuk bab ini</span></div><div class="chapter-source-list">'+(links||'<p class="source-empty">Katalog belum memuat sumber untuk bab ini. Perlu audit referensi manual.</p>')+'</div></div></section>';
+ var body=chapter.querySelector(".wbody");if(!body)return;
+ var deliverable=body.querySelector(".deliv");if(deliverable)deliverable.insertAdjacentHTML("beforebegin",html);else body.insertAdjacentHTML("beforeend",html);
+}
+function attachChapterSources(){
+ document.querySelectorAll("[data-track-box]").forEach(function(box){
+  var chapters=Array.prototype.slice.call(box.querySelectorAll("details.week"));
+  var catalog=findChapterCatalog(box);
+  var resources=catalog?Array.prototype.slice.call(catalog.querySelectorAll("a.res")):[];
+  var mapping=CHAPTER_SOURCE_MAP[box.dataset.trackBox]||[];
+  if(!chapters.length)return;
+  chapters.forEach(function(chapter,index){
+   var selected=(mapping[index]||[]).filter(function(n){return Number.isInteger(n)&&n>=0&&n<resources.length;});
+   appendChapterStudy(chapter,box,index,resources,selected);
+  });
+  if(catalog)catalog.hidden=true;
+}
+);}  function visibleBoxes(){
     return Array.prototype.slice.call(document.querySelectorAll('[data-track-box].on .chk input[type="checkbox"]'));
   }
 
