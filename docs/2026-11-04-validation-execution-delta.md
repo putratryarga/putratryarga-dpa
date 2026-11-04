@@ -147,3 +147,17 @@ Created `docs/169-chapter-resource-mapping.md` in both PR branches. It contains 
 Official resource families include Google Skillshop, Meta Blueprint, TikTok Academy, LinkedIn Marketing Academy, StackAdapt Academy, The Trade Desk Edge Academy, IAB Tech Lab, Walmart Connect Academy, Amazon Ads Academy, Google Search Central, Bing Webmaster Guidelines, HubSpot Academy, Salesforce Trailhead, impact.com Partnerships Experience Academy, Awin documentation and creator/community platform resources.
 
 **Status:** coverage mapping complete for 169 chapters; chapter-by-chapter SME source-fit review and Indonesian access/price/language/credential checks remain OPEN. A resource link is not evidence of free access, a professional credential or complete chapter coverage.
+
+
+## 11. 4 November 2026 — further agency-role source upgrades
+
+A targeted search of employer-hosted job descriptions produced additional evidence and updated the 80-cell matrix and every chapter's inherited role-level evidence line for affected tracks:
+
+- **T04 / Dentsu: G → B.** Digital Consultant - Biddable Specialist covers paid search (Google/Bing), paid social and display. This is adjacent cross-channel evidence, not a pure SEM specialist JD.
+- **T05 / Dentsu: G → B.** The same cross-channel biddable role covers paid social on Meta/TikTok/LinkedIn. This does not establish a dedicated paid-social specialist role.
+- **T12 / WPP: G → B.** Manager, Marketing, Italy includes CRM communications and marketing automation duties; adjacent role, not a dedicated CRM title.
+- **T12 / Omnicom: G → B.** Manager, Analytics/Insights includes segmentation and CRM evaluations; adjacent analytics evidence, not lifecycle/automation execution.
+- **T14 / Dentsu: G → A.** Employer-hosted Influencer Manager / Influencer Marketing Lead / Manager roles cover creator sourcing, briefs, contracts, campaign delivery, budgets, compliance and measurement across London/Lisbon/New York.
+- **T16 / Dentsu: B → A.** Employer-hosted Social Media Analyst / Community Manager in Medellin directly covers community replies, reputation, engagement, content and reporting; a senior community/content role also covers Discord/Reddit/Telegram.
+
+The matrix now records all 80 cells and a broader set of direct/adjacent source links. Remaining G cells are intentionally retained where the audited batch still lacks sufficiently specific direct evidence. Do not upgrade an adjacent role to A merely because a responsibility appears in its job description.
