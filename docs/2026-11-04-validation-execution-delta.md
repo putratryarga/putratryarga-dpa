@@ -161,3 +161,23 @@ A targeted search of employer-hosted job descriptions produced additional eviden
 - **T16 / Dentsu: B → A.** Employer-hosted Social Media Analyst / Community Manager in Medellin directly covers community replies, reputation, engagement, content and reporting; a senior community/content role also covers Discord/Reddit/Telegram.
 
 The matrix now records all 80 cells and a broader set of direct/adjacent source links. Remaining G cells are intentionally retained where the audited batch still lacks sufficiently specific direct evidence. Do not upgrade an adjacent role to A merely because a responsibility appears in its job description.
+
+
+## 12. 4 November 2026 — 80-cell evidence refresh and chapter technical triage
+
+The 80-cell agency-role matrix and all chapter role-level evidence notes were refreshed with additional employer-hosted sources. Current class-label counts are **A 36, B 19, D 37, G 6**, with **18 compound labels**. These counts are not mutually exclusive because compound cells carry multiple classes. Six explicit G gaps remain:
+
+- T09 / Dentsu — direct Ad Operations JD not located in this batch.
+- T11 / Havas Media Network — direct agency SEO JD not located.
+- T14 / Havas Media Network — direct creator/influencer JD not located.
+- T15 / Omnicom Media — dedicated affiliate JD not located.
+- T15 / Havas Media Network — direct affiliate JD not located.
+- T16 / Havas Media Network — direct community JD not located in the current index.
+
+Additional changes: T04/Dentsu and T05/Dentsu now B (cross-channel biddable JD, not dedicated specialist); T12/WPP and T12/Omnicom now B (adjacent CRM/analytics duties); T14/Dentsu now A (direct influencer role family); T16/Dentsu now A (direct community manager role). Geography and seniority remain attached to the source descriptions.
+
+The new `docs/169-chapter-technical-review-matrix.md` contains 169 per-chapter review rows. Structural triage confirms 149 added role-specific guides with 3 Q&A and 4 glossary entries each and 4 workflow steps each; 20 legacy guides remain separately identified. Within the 149 new guides, 125 answers under 12 words occur across 81 chapters and 81 glossary definitions under 5 words occur across 58 chapters. These are manual-review flags, not automatic defects.
+
+The 169 rubric entries contain chapter-specific artifact checklists and a shared five-dimension scoring model; rubric calibration on weak/competent sample submissions remains open. All 507 answer keys are source-matched but correctness, completeness, acceptable alternatives and SME approval remain open. The 169-chapter resource map is a coverage baseline; source-fit SME and Indonesian access/price/language checks remain open.
+
+**Status:** evidence coverage is materially improved, but the 80-cell matrix is still PARTIAL; all 169 chapters remain pending technical/SME approval. Browser/runtime QA remains NOT RUN.
