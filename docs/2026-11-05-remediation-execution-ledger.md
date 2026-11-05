@@ -23,7 +23,7 @@
 | T16-CH12 | Marked old correction supplement superseded, preserving audit history | Active register/rubric are current | FIXED — governance |
 | Amazon credential register | Updated free/80%/24-hour retake/two-year validity and separated general FAQ duration from exam-specific timers | Current official Academy FAQ/assessment pages | FIXED — issuer facts; local account check pending |
 | Source of Truth | Added structured normative document; TXT retained as historical archive | Crosswalk/README references updated | FIXED — documentation governance |
-| Agency evidence | Reconciled 80-cell class labels after Havas requisition review | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | PARTIAL — source/JD/competency validation remains open |
+| Agency evidence | Reconciled 80-cell class labels after five new evidence routes were recovered | 80 unique cells; A37/B22/D42/G0; 21 compound labels; 101 class-label instances | PARTIAL — direct/current JD and chapter-competency validation remains open |
 | Canonical chapter inventory | Added 169 unique chapter IDs extracted from HTML | Score-recalculation script compares input IDs against the canonical inventory by default | FIXED — structural baseline only |
 | TikTok certification facts | Added 7-day retake interval and six-month recertification eligibility window | Current TikTok Academy FAQ and recertification guidance | FIXED — issuer facts; exam registration/account access remains conditional |
 | Static validator | Extended checks to the 80-cell agency matrix and 10 elective evidence groups | GitHub Actions run 41950779127 on SHA 7442ca4 completed SUCCESS; validator output and synthetic self-test logs inspected | PASS — static/source assertions only; no SME/JD content validation |
