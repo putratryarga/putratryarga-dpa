@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 55);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 67);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
@@ -359,7 +359,19 @@ try {
     "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf",
     "https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/",
     "https://www.w3.org/TR/WCAG22/",
-    "https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management"
+    "https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management",
+    "https://developers.google.com/analytics/bigquery/schemas",
+    "https://support.google.com/analytics/answer/7029846?hl=en",
+    "https://support.google.com/analytics/answer/10597962",
+    "https://support.google.com/analytics/answer/9191807",
+    "https://docs.cloud.google.com/bigquery/docs/introduction-sql",
+    "https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute",
+    "https://docs.cloud.google.com/data-studio/tutorial-calculated-fields-intro",
+    "https://developers.google.com/meridian/docs/basics/meridian-introduction",
+    "https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration",
+    "https://support.optimizely.com/hc/en-us/articles/39075638006541-Steps-to-create-an-experiment",
+    "https://www.optimizely.com/optimization-glossary/statistical-significance",
+    "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm"
   ];
   for (const url of requiredNewResourceUrls) {
     if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);
