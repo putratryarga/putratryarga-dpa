@@ -109,6 +109,22 @@ for (const expected of expectedQna) {
     "Unexpected answer-review status for " + expected.item_id + ": " + actual.answer_review_status);
 }
 
+const t06Qna = qna.records.filter(row => row.chapter_id.startsWith("DPA-T06-"));
+assert(t06Qna.length === 36, "T06 programmatic Q&A review must contain 36 items.");
+assert(qna.headers.includes("prior_answer_guidance") && qna.headers.includes("editorial_revision_note"),
+  "Core Q&A register must retain prior answers and editorial revision notes.");
+assert(t06Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && /https?:\\/\\//.test(row.source_reference || "")),
+  "All T06 Q&A revisions must preserve prior answers, revision notes and source references.");
+assert(t06Qna.every(row => {
+  const words = row.current_guide_answer.trim().split(/\\s+/).filter(Boolean).length;
+  return words >= 33 && words <= 42 && row.item_type === "REFLECTIVE_QA_NOT_SCORED" && row.answer_review_status === "OPEN" && row.editorial_status === "OPEN" && row.sme_status === "OPEN";
+}), "T06 expanded Q&A must remain 33–42 words, reflective/non-scored and formally OPEN.");
+const t06QnaAudit = loadCsv("docs/T06-12-chapter-qna-technical-desk-review.csv");
+assert(t06QnaAudit.records.length === 36, "T06 technical Q&A desk review must contain 36 rows.");
+uniqueBy(t06QnaAudit.records, "item_id", "T06 Q&A technical desk review");
+assert(t06QnaAudit.records.every(row => row.item_id.startsWith("DPA-T06-") && row.desk_review_classification === "PARTIAL" && row.formal_answer_key_status === "OPEN" && row.sme_status === "OPEN"),
+  "T06 Q&A desk audit must remain PARTIAL with formal answer-key and SME status OPEN.");
+
 const objective = loadCsv("docs/169-objective-resource-fit-register.csv");
 assert(objective.records.length === 169, "Objective resource-fit register row count mismatch.");
 uniqueBy(objective.records, "chapter_id", "Objective resource-fit register");

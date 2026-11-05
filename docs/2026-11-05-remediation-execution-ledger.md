@@ -579,3 +579,14 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - The 80-row register still has all five validation fields OPEN in all cells. Publication/expiry, reviewer, review date and decision fields remain blank in 80/80 rows. The snapshot is evidence discovery/currentness triage, not role/competency acceptance.
 - Source classes must remain distinct: direct employer-hosted JD, official career index/portal, employer-attributed LinkedIn lead, historical/expired role, adjacent/sister-practice role and local-office/career-route evidence.
 - No cell has been promoted to PASS. Currentness, exact requisition, employing entity, geography/seniority and chapter-level competency validation remain OPEN.
+
+
+## 2026-11-05 — T06 Programmatic Q&A technical/editorial desk review
+
+- Expanded all 36 T06 answer guidance entries to 33–42 words (mean 37.8), while retaining the prior answer in the 507-item master Q&A register.
+- Reworded T06-CH06-Q02 to remove the false premise that a trafficking sheet is inherently the single source of truth. The revised framing defines it as an operational control/handoff register reconciled to approved brief/IO and live platform configuration.
+- Added supporting source references at item level from IAB OpenRTB, IAB Tech Lab ads.txt/sellers.json, The Trade Desk Edge Academy, Google Ad Manager preferred-vs-guaranteed, DV360 line item/creative/pacing/frequency guidance, CM360 macros/click tracker/Floodlight, Google UTM and MRC viewability/attention guidance.
+- Synchronized role-study-guides-part1.js, docs/169-chapter-evidence-register.md, docs/507-qna-editorial-sme-review-register.csv and docs/507-qna-automated-triage.csv. Prior answer and editorial change note are retained; all T06 items remain REFLECTIVE_QA_NOT_SCORED with answer/editorial/SME status OPEN.
+- Added separate docs/T06-12-chapter-qna-technical-desk-review.md and 36-row CSV. Validator now requires 36 T06 rows, source references, previous-answer history, 33–42 word range and non-scored/open statuses.
+- Automated triage counts were reconciled: source-reference missing 507 → 471; answers under 14 words 152 → 138; bare-Boolean openings 23 → 21; absolute-wording flags remain 16. These are heuristics, not findings of technical incorrectness.
+- No answer was promoted to approved or scored; SME verification and alternate-answer review remain OPEN.

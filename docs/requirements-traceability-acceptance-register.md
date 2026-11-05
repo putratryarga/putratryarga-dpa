@@ -353,7 +353,7 @@ Playwright/Chromium and axe checks passed on exact branch head `de6747268108d9f9
 
 The automated triage files are [507 Q&A triage CSV](507-qna-automated-triage.csv), [80-cell agency gap triage CSV](80-agency-cell-evidence-gap-triage.csv) and [triage methodology/report](2026-11-05-qna-agency-automated-triage.md).
 
-- 507/507 core Q&A rows currently lack a per-item source reference. 152 answers are below the internal 14-word review heuristic, 23 begin with bare Boolean wording, and 16 contain absolute-wording terms. These are review flags, not correctness findings.
+- 471/507 core Q&A rows currently lack a per-item source reference; the T06 Programmatic batch has supporting references on 36 items. The automated triage now flags 138 answers below the internal 14-word heuristic, 21 bare-Boolean openings and 16 absolute-wording terms. These are review flags, not correctness findings. See the T06 36-item technical desk review; all answer/editorial/SME decisions remain OPEN.
 - 80/80 agency validation rows now carry one or more per-cell source references (101 URLs total), including WPP T01 cross-channel performance roles. All 80 remain OPEN for source-type verification, role specificity, currentness, geography/seniority and chapter competency mapping. 37 evidence statements inherit a class label containing A; those direct-JD labels still require exact source and scope validation.
 - The automated screens are not editorial approval, SME validation or evidence of a current vacancy. All affected acceptance requirements remain OPEN/PARTIAL as recorded above.
 
@@ -445,3 +445,12 @@ The [80-cell agency source-currentness snapshot](80-agency-role-source-currentne
 The recheck found fresh Indonesia role leads for selected WPP, Publicis and Dentsu role families. WPP official Greenhouse listings include Jakarta planning, campaign-delivery, search/paid-media and social roles; Publicis official career pages include Jakarta digital planning and media-performance roles, with additional employer-attributed LinkedIn leads for Search/Social; Dentsu Workday search results include Jakarta media planner, connection planner and OOH media planner requisitions, but direct Workday access was unavailable during this check. Havas Village Indonesia confirms the local office and points to a global Workday career route, but no Jakarta-specific requisition was independently read. Omnicom confirms the Jakarta operation and HR contact, but the career market list inspected did not show Indonesia-specific current vacancies.
 
 **Validation boundary:** this is source-discovery and currentness triage, not 80-cell validation. All 80 cells still have the five formal validation fields OPEN; publication/expiry date, reviewer, review date and decision remain blank in all 80 rows. Index-only, historical, adjacent and sister-practice sources must not be promoted to direct/current role proof. The 80-cell matrix remains PARTIAL and all formal competency/currentness decisions remain OPEN.
+
+
+## 21. T06 Programmatic Media Buying — 36 Q&A technical/editorial desk review — 5 November 2026
+
+The [T06 12-chapter Q&A technical desk review](T06-12-chapter-qna-technical-desk-review.md) and [36-row CSV](T06-12-chapter-qna-technical-desk-review.csv) record a first-pass expansion of all T06 answer guidance to 33–42 words and mapping of supporting technical references. The previous answer text is retained in a prior-answer field. The revised question on the trafficking sheet now asks its operational role rather than asserting that a spreadsheet is the single source of truth.
+
+The guide JavaScript, evidence register and Q&A CSV have been synchronized. Automated triage was synchronized with the updated answer length, source references and question. Its global counts now show 471 missing source references, 138 short-answer flags, 21 bare-Boolean flags and 16 absolute-wording flags.
+
+**Formal state:** the 36 items remain reflective/non-scored; answer-review, editorial, source-fit and SME statuses remain OPEN. The 471 other Q&A items without item-level sources remain OPEN. This desk review is not approval of any answer key.

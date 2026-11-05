@@ -226,3 +226,14 @@ The [80-cell agency source-currentness snapshot](80-agency-role-source-currentne
 The 80-cell register still has 80/80 cells with all five formal fields OPEN. Publication/expiry date, reviewer, review date and decision remain blank in all 80 rows. Employer-hosted route, career index, historical JD, adjacent role and employer-attributed post are distinct evidence classes. No title, source URL or job-board result validates all competencies in a chapter.
 
 **Status:** source-currentness desk recheck PARTIAL; 80-cell role specificity, currentness, geography/seniority and chapter-competency validation remain OPEN.
+
+
+## 22. T06 Programmatic Media Buying — 36-item Q&A technical/editorial desk review — 5 November 2026
+
+The [T06 12-chapter Q&A technical desk review](T06-12-chapter-qna-technical-desk-review.md) and [36-row CSV](T06-12-chapter-qna-technical-desk-review.csv) document first-pass expansion and supporting source mapping for all T06 core Q&A items. The answer text is synchronized across the canonical guide JavaScript, 169-chapter evidence register, 507-item Q&A review register and automated triage CSV. Prior answer text is preserved in the Q&A register. One question was reworded to remove the false premise that a trafficking sheet is inherently the single source of truth.
+
+The technical recheck references IAB OpenRTB, ads.txt/sellers.json, Google Ad Manager preferred-vs-guaranteed deal definitions, DV360 line item/creative and pacing/frequency controls, CM360 macros/Floodlight counting and MRC viewability/attention guidance. Vendor-specific behaviour and signed deal terms remain explicit caveats.
+
+The triage inventory now records supporting source references on 36 T06 items; **471/507 core Q&A rows still lack an item-level source reference**. The automated short-answer flag reduces from 152 to 138 and bare-Boolean opening flags from 23 to 21; absolute-wording flags remain 16. These are triage counts, not correctness findings.
+
+**Formal boundary:** all 36 T06 items remain reflective/non-scored; answer-review, editorial, source-fit and SME statuses remain OPEN. Source references support review but do not constitute answer-key approval.

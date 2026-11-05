@@ -2086,11 +2086,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa perbedaan DSP dan SSP?
-   **Expected answer in guide (not independently approved):** DSP membantu advertiser membeli inventory; SSP membantu publisher mengelola dan menjual inventory.
+   **Expected answer in guide (not independently approved):** DSP bekerja di sisi pembeli untuk mengevaluasi peluang impression, menentukan bid, targeting dan anggaran melalui berbagai sumber inventory. SSP bekerja di sisi publisher untuk mengelola penawaran dan monetisasi inventory. Keduanya dapat terhubung melalui exchange, tetapi peran dan kepentingan komersialnya berbeda.
 2. **Q:** Mengapa programmatic tidak sama dengan paid social?
-   **Expected answer in guide (not independently approved):** Programmatic membeli inventory lintas publisher melalui DSP/exchange; paid social berjalan pada platform social dengan inventory/audience system masing-masing.
+   **Expected answer in guide (not independently approved):** Programmatic adalah metode otomatis untuk membeli inventory melalui platform dan mekanisme seperti open auction atau private deal. Paid social membeli ruang iklan di ekosistem platform sosial. Platform sosial juga memakai auction otomatis, tetapi akses supply, data, kontrol dan reporting-nya berbeda.
 3. **Q:** Mengapa supply-chain transparency penting?
-   **Expected answer in guide (not independently approved):** Intermediary fees, reselling, unauthorized supply, dan poor-quality inventory dapat mengurangi net value dan accountability.
+   **Expected answer in guide (not independently approved):** Transparansi supply chain membantu buyer melihat seller, reseller, perantara, jalur inventory dan fee yang mengurangi nilai media bersih. Data ini mendukung pemeriksaan otorisasi serta supply-path optimization, tetapi tidak otomatis membuktikan traffic manusia, viewability atau brand suitability.
 
 **Glossary:**
 - **DSP:** Demand-Side Platform untuk mengelola pembelian media.
@@ -2126,11 +2126,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa itu bid floor?
-   **Expected answer in guide (not independently approved):** Bid floor adalah harga minimum yang ditetapkan supply side untuk impression atau deal yang eligible; bid di bawahnya dapat kalah atau tidak terlayani.
+   **Expected answer in guide (not independently approved):** Bid floor adalah batas harga minimum yang ditetapkan seller atau exchange untuk peluang impression atau deal tertentu. Bid di bawah floor dapat tidak memenuhi syarat atau tidak menang, tetapi hasil akhirnya juga dipengaruhi aturan auction, deal, currency, dan konfigurasi platform.
 2. **Q:** Apa fungsi ads.txt dan sellers.json?
-   **Expected answer in guide (not independently approved):** ads.txt dan sellers.json membantu mengungkap pihak yang berwenang menjual inventory; keduanya meningkatkan transparansi tetapi tidak menjamin traffic bebas fraud.
+   **Expected answer in guide (not independently approved):** ads.txt menyatakan pihak yang diotorisasi publisher untuk menjual inventory pada domain atau aplikasinya. sellers.json membantu mengidentifikasi entitas seller dan perantara; SupplyChain object menampilkan node jalur transaksi. Ketiganya mendukung verifikasi supply, bukan jaminan bebas fraud.
 3. **Q:** Mengapa bid tinggi tidak menjamin win?
-   **Expected answer in guide (not independently approved):** Eligibility, deal rules, timeout, floor, auction competition, creative compatibility, dan supply signals juga menentukan.
+   **Expected answer in guide (not independently approved):** Bid tinggi hanya relevan setelah bid memenuhi syarat. Bid dapat gagal karena seat atau deal tidak cocok, targeting tidak eligible, floor, timeout, latency, creative ditolak, format tidak sesuai, policy restriction atau kompetisi auction. Diagnosis harus memeriksa loss reason dan request.
 
 **Glossary:**
 - **OpenRTB:** Protokol standar untuk komunikasi transaksi RTB.
@@ -2166,11 +2166,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda first-party audience dan third-party data?
-   **Expected answer in guide (not independently approved):** First-party berasal dari hubungan/interaksi langsung organisasi; third-party diperoleh dari sumber/pihak eksternal dengan ketentuan penggunaan.
+   **Expected answer in guide (not independently approved):** First-party data dikumpulkan langsung oleh organisasi dari interaksi atau hubungan dengan customer dan pengguna. Third-party data diperoleh dari pihak eksternal atau agregator. Klasifikasi ini tidak otomatis menentukan kualitas atau izin penggunaan; provenance, purpose, consent dan contractual rights tetap harus diverifikasi.
 2. **Q:** Mengapa match rate bukan audience quality?
-   **Expected answer in guide (not independently approved):** Match rate hanya menunjukkan keberhasilan matching; tidak membuktikan intent, freshness, identity accuracy, atau conversion likelihood.
+   **Expected answer in guide (not independently approved):** Match rate mengukur proporsi record atau signal yang berhasil dicocokkan oleh metode identitas tertentu. Angka tinggi tidak membuktikan identitas akurat, audience representatif, data mutakhir, consent valid atau intent tinggi. Periksa denominator, coverage, freshness dan hasil downstream.
 3. **Q:** Kapan contextual targeting lebih tepat?
-   **Expected answer in guide (not independently approved):** Ketika page/content context relevan dan identity/consent constraints membatasi behavioral targeting, dengan QA brand suitability.
+   **Expected answer in guide (not independently approved):** Contextual targeting layak dipilih ketika topik atau konteks konten relevan dengan objective, sementara identity signal tidak tersedia, tidak akurat atau tidak boleh digunakan. Buyer tetap harus memeriksa kualitas konteks, brand suitability, placement, bahasa, dan risiko adjacency.
 
 **Glossary:**
 - **First-party data:** Data yang dikumpulkan langsung oleh organisasi.
@@ -2206,11 +2206,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda brand safety dan brand suitability?
-   **Expected answer in guide (not independently approved):** Safety menghindari konten yang jelas berbahaya; suitability menilai kesesuaian konteks dengan brand/category tolerance.
+   **Expected answer in guide (not independently approved):** Brand safety menghindari lingkungan yang memenuhi kategori risiko atau konten yang tidak dapat diterima. Brand suitability menerapkan toleransi dan preferensi kontekstual spesifik advertiser. Definisi serta taxonomy dapat berbeda antar vendor, sehingga inclusion, exclusion dan measurement harus ditetapkan.
 2. **Q:** Apa perbedaan PMP dan programmatic guaranteed?
-   **Expected answer in guide (not independently approved):** PMP biasanya private auction access; programmatic guaranteed memiliki komitmen inventory/price/delivery yang disepakati.
+   **Expected answer in guide (not independently approved):** Dalam praktik umum, PMP adalah private auction yang mengundang buyer tertentu untuk bersaing pada inventory dengan terms yang disepakati. Preferred Deal memberi buyer kesempatan awal membeli pada harga negosiasi tanpa kewajiban volume. Programmatic Guaranteed mereservasi inventory dan menjanjikan delivery sesuai kontrak.
 3. **Q:** Mengapa format harus divalidasi sebelum buying?
-   **Expected answer in guide (not independently approved):** Format incompatibility dapat menyebabkan rejection, rendering error, underdelivery, atau pengalaman iklan buruk.
+   **Expected answer in guide (not independently approved):** Preflight format harus memeriksa dimensi, berat file, rasio, durasi, codec, audio, click-through, VAST atau tag requirement, serta dukungan device dan placement. Ketidakcocokan dapat menyebabkan creative ditolak, gagal render, salah redirect atau tidak eligible untuk delivery.
 
 **Glossary:**
 - **Inventory:** Placement/opportunity yang tersedia untuk dibeli.
@@ -2246,11 +2246,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa platform interface skills tidak cukup?
-   **Expected answer in guide (not independently approved):** Trader harus memahami auction, supply, data, economics, verification, measurement, dan troubleshooting di balik kontrol UI.
+   **Expected answer in guide (not independently approved):** Trader perlu memahami objective, inventory, auction/deal, data dan privacy, fee, creative, verification, measurement serta troubleshooting di balik interface. Keahlian klik menu tidak cukup untuk menilai net media cost, kualitas supply, validitas hasil dan risiko operasional.
 2. **Q:** Apa beda line item dengan creative?
-   **Expected answer in guide (not independently approved):** Line item mengatur delivery, targeting, bid, budget, dan schedule; creative adalah asset yang ditayangkan.
+   **Expected answer in guide (not independently approved):** Di DV360, line item mengatur pembelian: inventory, targeting, flight, budget, bid strategy, frequency cap dan tracking. Creative adalah asset iklan yang ditetapkan ke line item untuk ditayangkan. Keduanya terkait, tetapi bukan object yang sama dalam struktur campaign.
 3. **Q:** Apakah sertifikasi DV360 otomatis memberi akses live seat?
-   **Expected answer in guide (not independently approved):** Tidak. Sertifikat membuktikan pembelajaran atau assessment, sedangkan seat live bergantung pada organisasi, partner access, kontrak, dan ketentuan platform.
+   **Expected answer in guide (not independently approved):** Sertifikasi atau course completion menunjukkan peserta menyelesaikan pembelajaran atau assessment tertentu. Akses live seat terpisah dan bergantung pada akun organisasi, kontrak atau partner access, advertiser permissions, billing, role provisioning serta kebijakan platform. Credential tidak otomatis memberikan akses operasional.
 
 **Glossary:**
 - **Line item:** Unit konfigurasi delivery dalam DSP.
@@ -2286,11 +2286,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko click macro salah?
-   **Expected answer in guide (not independently approved):** Click macro yang salah dapat memutus redirect, menghapus parameter, mengganggu billing, atau membuat klik tidak tercatat pada sistem pengukuran.
-2. **Q:** Mengapa trafficking sheet menjadi single source of truth?
-   **Expected answer in guide (not independently approved):** Sheet mengikat object, tag, date, budget, creative, owner, approval, dan status untuk mencegah konfigurasi berbeda.
+   **Expected answer in guide (not independently approved):** Click macro adalah token yang diekspansi ad server menjadi nilai atau redirect tertentu. Macro yang tidak didukung pada konteksnya, salah format atau terpasang keliru dapat membuat click-through gagal, parameter hilang atau tracking tidak tercatat. Uji URL hasil ekspansi, redirect dan landing page.
+2. **Q:** Apa peran trafficking sheet dalam mengendalikan eksekusi?
+   **Expected answer in guide (not independently approved):** Trafficking sheet menjadi control dan handoff register untuk ID, tanggal, budget, creative, tag, owner, approval serta status. Ia harus direkonsiliasi dengan brief dan insertion order yang disetujui serta konfigurasi platform aktual; spreadsheet tidak otomatis mengesampingkan dokumen otoritatif.
 3. **Q:** Apa bukti QA selain upload success?
-   **Expected answer in guide (not independently approved):** Upload success hanya mengonfirmasi file diterima; QA juga memerlukan preview, click test, landing validation, tracking verification, policy approval, dan sign-off.
+   **Expected answer in guide (not independently approved):** Upload success hanya menunjukkan file diterima oleh interface. QA masih harus memastikan creative terpasang pada object dan placement yang benar, render sesuai spesifikasi, click path berfungsi, landing page tepat, tags/events tercatat, policy approval selesai dan owner memberi sign-off.
 
 **Glossary:**
 - **Trafficking:** Konfigurasi teknis campaign/creative/tag untuk delivery.
@@ -2326,11 +2326,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa menaikkan bid tidak selalu menyelesaikan underspend?
-   **Expected answer in guide (not independently approved):** Inventory eligibility, targeting, deal/creative issues, supply, and timeouts dapat menjadi bottleneck selain bid.
+   **Expected answer in guide (not independently approved):** Underspend dapat berasal dari inventory eligible yang terbatas, targeting sempit, deal atau seat mismatch, creative tidak approved, timeout, schedule, pacing, frequency cap atau supply issue. Periksa delivery diagnostics dan loss reasons sebelum menaikkan bid agar biaya tidak naik tanpa memperbaiki bottleneck.
 2. **Q:** Apa risiko frequency terlalu tinggi?
-   **Expected answer in guide (not independently approved):** Frequency berlebihan dapat memboroskan spend, menimbulkan ad fatigue dan pengalaman negatif, serta memberi tambahan reach yang semakin kecil.
+   **Expected answer in guide (not independently approved):** Frequency yang terlalu tinggi dapat mengurangi unique reach tambahan, meningkatkan ad fatigue dan menurunkan pengalaman. Evaluasi distribusi per user dan periode, bukan average saja; gunakan cap sesuai objective dan pertimbangkan keterbatasan identifier, cross-device serta inventory.
 3. **Q:** Apa beda average CPM dan clearing price?
-   **Expected answer in guide (not independently approved):** Average CPM merangkum biaya hasil delivery; clearing price adalah harga auction pada impression tertentu/menurut mekanisme platform.
+   **Expected answer in guide (not independently approved):** Average CPM adalah total biaya dibagi total impressions lalu dikalikan seribu untuk suatu periode atau campaign. Clearing price adalah harga transaksi pada impression yang dimenangkan menurut aturan exchange. Keduanya berbeda unit agregasi; definisi fee dan reporting platform perlu diperiksa.
 
 **Glossary:**
 - **Pacing:** Kecepatan pembelanjaan budget sepanjang flight.
@@ -2366,11 +2366,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda preferred deal dan PMP auction?
-   **Expected answer in guide (not independently approved):** Preferred biasanya memberi akses/first look dengan harga tertentu tanpa guarantee; PMP umumnya private auction dengan buyers invited, terms platform-specific.
+   **Expected answer in guide (not independently approved):** Preferred Deal umumnya menawarkan buyer kesempatan awal pada harga negosiasi tanpa kewajiban membeli atau reservasi volume. PMP auction mengundang buyer tertentu untuk mengajukan bid pada impression. Nama, prioritas dan syarat dapat berbeda antar platform, jadi periksa deal terms.
 2. **Q:** Apa yang perlu dikonfirmasi sebelum PG?
-   **Expected answer in guide (not independently approved):** Volume, dates, price, inventory, priority, format, audience, guarantee, makegood, cancellation, and measurement terms.
+   **Expected answer in guide (not independently approved):** Sebelum mengaktifkan Programmatic Guaranteed, cocokkan buyer dan seller seat, deal ID, inventory reserved, volume, price, flight, format, audience, priority, creative eligibility, pacing, measurement, billing dan remedy. Konfirmasi pula cancellation, underdelivery, makegood, serta pihak yang berwenang menyetujui perubahan.
 3. **Q:** Mengapa deal ID perlu di-test?
-   **Expected answer in guide (not independently approved):** Deal dapat gagal karena seat/seller mismatch, targeting, format, dates, price, atau line-item setup.
+   **Expected answer in guide (not independently approved):** Deal ID perlu diuji agar buyer seat, seller, line item, targeting, format, harga, tanggal dan sumber inventory cocok. Test request dan delivery membantu menemukan mismatch atau ineligibility sebelum campaign live; deal ID valid secara format belum menjamin impression akan menang.
 
 **Glossary:**
 - **Deal ID:** Identifier untuk akses transaksi/inventory deal tertentu.
@@ -2406,11 +2406,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda viewability dengan attention?
-   **Expected answer in guide (not independently approved):** Viewability mengukur peluang terlihat menurut standard; attention mengukur engagement/notice lebih jauh dan memerlukan metode berbeda.
+   **Expected answer in guide (not independently approved):** Viewability mengukur apakah impression memenuhi ambang peluang terlihat menurut standar, misalnya display 50% pixel selama satu detik dan in-stream video 50% selama dua detik. Attention adalah pengukuran berbeda yang dapat memakai time-in-view, interaction atau metodologi lain; viewable tidak otomatis berarti diperhatikan.
 2. **Q:** Mengapa unmeasured impression bukan otomatis failure?
-   **Expected answer in guide (not independently approved):** Sebagian inventory tidak terukur karena coverage/technical limits; laporkan sebagai unmeasured terpisah dari non-viewable.
+   **Expected answer in guide (not independently approved):** Unmeasured impression berarti vendor atau tag tidak memperoleh sinyal yang cukup untuk menentukan viewability. Itu berbeda dari non-viewable dan invalid traffic. Laporkan jumlah serta denominator measurable impressions, penyebab coverage gap dan batas interpretasi; jangan menggolongkannya otomatis sebagai gagal.
 3. **Q:** Apakah ads.txt menjamin inventory aman?
-   **Expected answer in guide (not independently approved):** Tidak. Ia membantu mengidentifikasi authorized sellers, tetapi fraud/suitability/viewability tetap membutuhkan controls lain.
+   **Expected answer in guide (not independently approved):** ads.txt memberi daftar seller yang diotorisasi publisher; sellers.json membantu mengidentifikasi entitas seller dan perantara, sedangkan SupplyChain object menguraikan node transaksi. Ketiganya meningkatkan transparansi, tetapi tidak membuktikan traffic valid, viewable, brand-suitable atau bebas manipulasi.
 
 **Glossary:**
 - **IVT:** Invalid Traffic, aktivitas trafik yang tidak valid.
@@ -2446,11 +2446,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda ad server dengan DSP?
-   **Expected answer in guide (not independently approved):** Ad server mengatur ad decisioning, delivery, dan tracking; DSP membantu advertiser membeli inventory melalui auction, targeting, bidding, dan deal access.
+   **Expected answer in guide (not independently approved):** Ad server mengelola keputusan penayangan, delivery, placement dan tracking sesuai konfigurasi publisher atau advertiser. DSP membantu advertiser membeli inventory dengan auction/deal, targeting, bidding dan budget control. Keduanya dapat terintegrasi dalam supply chain, tetapi fungsi inti dan sisi transaksinya berbeda.
 2. **Q:** Mengapa Floodlight counts dapat berbeda dengan GA4 purchase?
-   **Expected answer in guide (not independently approved):** Counting method, attribution, time zone, identity, consent, deduplication, event definition, and processing berbeda.
+   **Expected answer in guide (not independently approved):** Floodlight dan GA4 dapat berbeda karena counting method, conversion window, click/view-through attribution, definisi event, timezone, identity, consent, deduplication dan processing. Rekonsiliasi harus menyamakan periode serta transaction/event ID dan menjelaskan sisa perbedaan, bukan memaksa kedua platform menghasilkan angka identik.
 3. **Q:** Mengapa UTM bukan pengganti Floodlight?
-   **Expected answer in guide (not independently approved):** UTM memberi label campaign pada session/source; Floodlight merekam conversion activity sesuai setup measurement.
+   **Expected answer in guide (not independently approved):** UTM menandai konteks traffic seperti source, medium dan campaign pada URL; UTM tidak membuktikan ad exposure, click eligibility atau conversion. Floodlight mencatat activity yang dikonfigurasi dengan counting method, conversion window dan value; keduanya mendukung pertanyaan measurement yang berbeda.
 
 **Glossary:**
 - **Floodlight:** Sistem activity/conversion tracking dalam Campaign Manager 360.
@@ -2486,11 +2486,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa CPM tidak boleh menjadi satu-satunya optimization target?
-   **Expected answer in guide (not independently approved):** CPM murah belum tentu berkualitas; optimasi juga perlu menilai invalid traffic, viewability, audience fit, outcomes, fees, dan contribution.
+   **Expected answer in guide (not independently approved):** CPM rendah tidak menjamin media bernilai. Inventory dapat memiliki IVT tinggi, viewability rendah, audience tidak relevan, suitability buruk, fee besar atau outcome lemah. Optimasi perlu menggabungkan net cost, kualitas supply, audience, outcome, contribution dan batas incrementality.
 2. **Q:** Apa hubungan optimization log dengan repeatability?
-   **Expected answer in guide (not independently approved):** Log mencatat perubahan, alasan, dan hasil sehingga learning bisa direplikasi dan tim tidak mengulang kesalahan.
+   **Expected answer in guide (not independently approved):** Optimization log merekam baseline, hipotesis, perubahan, waktu, owner, konfigurasi dan hasil agar keputusan dapat ditelusuri serta diulang. Log saja tidak menjamin repeatability; simpan juga data/source version, definisi metric, constraints dan QA evidence yang relevan.
 3. **Q:** Apa batas ROAS platform dalam menilai programmatic?
-   **Expected answer in guide (not independently approved):** Attribution platform tidak otomatis mengukur causal impact, overlap, fee, margin, atau long-term value.
+   **Expected answer in guide (not independently approved):** Platform ROAS memakai aturan atribusi platform dan bukan otomatis estimasi incremental lift. Angka itu dapat tumpang tindih dengan platform lain, mengabaikan fee, margin, returns, organic demand serta retention. Rekonsiliasikan dengan finance dan gunakan desain incrementality bila keputusan membutuhkan causal impact.
 
 **Glossary:**
 - **Post-campaign analysis:** Evaluasi delivery, quality, outcomes, discrepancy, dan next action.
@@ -2526,11 +2526,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa yang harus bisa dijelaskan dalam programmatic capstone?
-   **Expected answer in guide (not independently approved):** Mengapa supply/channel/deal dipilih, bagaimana buying berjalan, bagaimana kualitas dijaga, dan bagaimana hasil diukur.
+   **Expected answer in guide (not independently approved):** Capstone harus menjelaskan alasan memilih supply, channel dan deal; alur buying; audience/data permission; cost path; setup/trafficking; quality controls; bidding/pacing; measurement; serta trade-off. Setiap klaim perlu evidence, asumsi dan batas data live maupun synthetic yang dinyatakan.
 2. **Q:** Apa batas latihan dengan synthetic data?
-   **Expected answer in guide (not independently approved):** Ia membuktikan workflow, logic, and analysis—not live campaign performance, spend, platform access, or client results.
+   **Expected answer in guide (not independently approved):** Synthetic data dapat menguji workflow, formula, decision logic dan kemampuan analisis dalam lingkungan simulasi. Data tersebut tidak membuktikan live campaign performance, real spend, auction access, platform seat, client result atau market benchmark; labeli seluruh asumsi dan output.
 3. **Q:** Bagaimana menilai programmatic inventory yang terlihat murah?
-   **Expected answer in guide (not independently approved):** Cek net fees, authorized sellers, quality, viewability, IVT, audience, outcome, and incremental value.
+   **Expected answer in guide (not independently approved):** Inventory dengan CPM rendah perlu diperiksa berdasarkan net fee, authorized seller dan supply path, IVT, viewability, suitability, audience fit, measurement coverage, delivery serta outcome. Bandingkan cost dan value setelah quality adjustment; harga murah sendiri bukan dasar keputusan scale.
 
 **Glossary:**
 - **Programmatic blueprint:** Desain integrated buying, supply, audience, operation, and measurement.
