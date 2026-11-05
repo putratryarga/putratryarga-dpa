@@ -340,3 +340,10 @@ The deterministic [169-chapter structural depth screening](169-chapter-depth-scr
 The chapter-specific rubric drafts are now paired with [169-chapter rubric calibration register](169-chapter-rubric-calibration-register.csv), one row for each canonical chapter. Each row preserves the learning outcome, required artifact checklist, assessor verification criteria, three embedded Q&A items and explicit calibration/SME/pilot fields.
 
 The register is a control surface, not evidence that the rubric has been validated. All 169 calibration and SME decisions remain OPEN. In particular, the proposed five-dimension 0–3 scale, 80/100 threshold and critical-failure rules require sample learner artifacts, standard-setting and inter-rater agreement before summative or credential use.
+
+
+### QUIZ-001 browser evidence — 5 November 2026
+
+Exact-head tests passed on `29c981f58be81d470ddb5c0e4542753eb96b4a6f`: [quiz/browser/axe workflow run 41970086027](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086027) and [static validation run 41970086188](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086188). The Playwright sandbox validated unanswered submission, question selection/progress, deterministic score, review, retry, keyboard navigation and 390px mobile overflow; axe checks passed on initial/question/result states using configured WCAG 2.2 target tags.
+
+This closes automated browser verification for the isolated synthetic sandbox only. It does not close authenticated browser QA for the main DPA site, main chapter integration, full manual accessibility review, scored assessment or learner-progress/certificate integration. QUIZ-001 remains PARTIAL.
