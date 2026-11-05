@@ -119,3 +119,8 @@ Separate PASS/FAIL/BLOCKED for: repository integrity; issue/discrepancy reconcil
 ## 13. Requirements traceability and acceptance
 
 The normative remediation and release acceptance checklist is [Requirements Traceability & Acceptance Register](requirements-traceability-acceptance-register.md). It preserves the 18-pathway scope (16 Core Specialist Tracks + Electives 17 and 18), the separate CF1–CF6 shared foundation layer, and distinct evidence gates for structure, content, SME, resources, assessments, agency evidence, runtime, accessibility and production. The register does not replace this architecture document; it converts its requirements into testable acceptance criteria and must be kept synchronized. A requirement is not COMPLETE solely because its structural count or CI check passes.
+
+
+## 14. Assessment engine design
+
+The formative quiz and assessment architecture is documented in [Quiz & Assessment Engine — Technical Design](quiz-engine-technical-design.md). This is a design artifact, not implementation or content approval. Existing static Q&A remains reflective learning support until item IDs, learning-outcome mapping, distractors where applicable, source checks, editorial review and SME answer-key review are complete. Browser-only scoring is formative only; authoritative grading requires server-side key isolation, authenticated submissions, approved scoring and privacy/security governance. The existing 80% target remains uncalibrated.
