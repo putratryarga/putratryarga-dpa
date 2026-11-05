@@ -175,7 +175,7 @@ try {
   if (!resourceFitReview.includes("T08 chapter practice = PARTIALLY ENHANCED")) {
     fail.push("Resource-fit review must preserve T08 simulation as a practice enhancement, not a source-fit PASS.");
   }
-  if (!resourceFitReview.includes("169-objective source-fit gate remains **OPEN**")) {
+  if (!resourceFitReview.includes("169-objective resource-fit gate remains **OPEN**")) {
     fail.push("Resource-fit review must keep the 169-objective source-fit gate OPEN.");
   }
 
