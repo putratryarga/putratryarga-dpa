@@ -52,11 +52,11 @@
 - Cloud browser/deep-research automation returned an insufficient-funds / empty-wallet response; no browser run was started.
 - No desktop/mobile screenshot inspection, real click/keyboard navigation, role-selector interaction, localStorage persistence round-trip, theme toggle, accessibility-tree inspection, console/network test or cross-browser regression was performed.
 - The Vercel status check on source commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` is **SUCCESS**; deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` is **READY**. The prior build-rate-limit failure is superseded for this commit. The push-workflow result remains not independently visible through the available connector.
-- A live content-fetch recheck passed for all 33 unique resource URLs currently in the chapter map. Publisher/URL identity and broad track-level topical relevance were reviewed; chapter-objective fit, login/locale/market eligibility, cost and credential expiry remain separate checks.
+- A live content-fetch recheck passed for all 39 unique resource URLs currently in the chapter map. Publisher/URL identity and broad track-level topical relevance were reviewed; chapter-objective fit, login/locale/market eligibility, cost and credential expiry remain separate checks.
 
 **Branch relationship:** `main` is `640b1924...`; the remediation branch includes main as a parent and currently has zero commits behind `main`. `main` remains unchanged. PR #5/#6 remain draft/open/unmerged.
 
-**Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; PUSH-WORKFLOW EXECUTION NOT INDEPENDENTLY VERIFIED; NOT READY TO MERGE.
+**Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW + HTTP/ASSET SMOKE PASS on code/resource commit f9def1a8c6a8b22568b38bd83c7c1086765418fb; branch-only PUSH-WORKFLOW EXECUTION NOT INDEPENDENTLY VERIFIED; NOT READY TO MERGE.
 
 
 ## 2026-11-05 post-resource-correction verification
@@ -68,7 +68,7 @@
 | Check | Result | Status |
 |---|---:|---|
 | Chapter resource-map rows | 169 / 169; all IDs unique | PASS — mapping structure |
-| Unique resource URLs | 33 | PASS — all fetched with content |
+| Unique resource URLs | 39 | PASS — all fetched with content |
 | Minimum source links per chapter row | 2 | PASS — link count only |
 | Resource-caption / publisher identity corrections | 13 track families (T01, T02, T03, T05, T06, T07, T08, T09, T10, T12, T13, T14, T15) | PASS — source identity |
 | Chapter objective-to-source fit | 169 rows | OPEN — SME/content review required |
@@ -78,6 +78,32 @@
 | Preview anchors | 13 targets present in fetched HTML | STATIC/HTTP CHECK — not keyboard/navigation QA |
 | Browser DOM execution / role switching / persistence / theme / a11y | Not performed | NOT RUN |
 
-The 33 resource URLs comprise official publisher and standards pages. Content fetch establishes that a destination returned readable content at check time; it does not establish that every module maps to every learning objective, nor guarantee local-market eligibility, price, or account access.
+The 39 resource URLs comprise official publisher, product-support and standards pages. Content fetch establishes that a destination returned readable content at check time; it does not establish that every module maps to every learning objective, nor guarantee local-market eligibility, price, or account access.
 
 **Release state remains NOT READY TO MERGE.** Raw score vectors, original 23 findings and D-1…D-12 records, SME/answer-key/rubric validation, agency competency validation, full elective authoring/validation, and authenticated browser interaction QA remain open or blocked.
+
+
+## 2026-11-05 full-draft and supplemental audit update
+
+| Check | Result | Status |
+|---|---:|---|
+| Advanced elective chapter drafts | 28 / 28 (14 CRO + 14 Traditional Media) | PASS — first-pass written content only |
+| Unique elective chapter sections | 28 | PASS — structure |
+| Elective sections with learning outcome, lesson, workflow, practice, artifact/acceptance and source caveat | 28 / 28 | PASS — structure |
+| Elective knowledge checks | 56 / 56 | PASS — answer guidance drafted; SME approval OPEN |
+| Elective glossary definitions | 84 / 84 | PASS — draft terminology; SME review OPEN |
+| Elective shared learner rubric | Five dimensions scored 0–3 | DRAFTED — calibration and learner pilot OPEN |
+| Resource map rows / unique IDs | 169 / 169 | PASS — mapping integrity |
+| Resource URLs | 39 unique; 39 fetched with readable content at check time | PASS — URL/content availability, not objective fit |
+| Track-level resource-fit desk review | 16 / 16 tracks assessed | PROVISIONAL — objective-level 169-row sign-off OPEN |
+| Supplemental findings register | 17 new IDs (3 FIXED / 6 PARTIAL / 6 OPEN / 2 BLOCKED) | PASS — new findings only; not a replacement for historical records |
+| Score input collection template | 169 rows; seven score fields blank | TEMPLATE ONLY — not raw evidence and not scoreable |
+| Historical raw 169 × 7 vectors | Not recovered | BLOCKED |
+| Historical 23 findings and D-1…D-12 | Not recovered | BLOCKED |
+| Authenticated browser interaction/accessibility QA | Not performed | NOT RUN |
+
+The 28 elective chapters are complete only as first-pass written drafts. The five-dimension learner-assessment rubric must not be confused with the separate seven-dimension 0–4 chapter-audit score model. The latter's dimension definitions and original values remain unavailable.
+
+The supplemental findings register documents new observations from this pass and is not the original 23-finding register or D-1…D-12. The blank score template is a collection aid only. It does not provide, infer or impute score values.
+
+**Current conclusion:** source-level remediation is materially advanced; overall status remains **NOT READY — REMEDIATION INCOMPLETE** until historical score/issue source recovery, 169 objective-level resource review, SME and JD validation, answer-key/rubric calibration, Indonesia-market review, learner pilot and authenticated browser QA are evidenced.
