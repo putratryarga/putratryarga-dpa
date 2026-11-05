@@ -1,6 +1,7 @@
 /* Immutable chapter-to-guide registry.
- * Each guide object carries chapterId. Missing mappings deliberately fall back
- * to the generic chapter explanation rather than a positional guide.
+ * Every one of the 169 core chapter IDs must resolve to its authored guide.
+ * Missing mappings fall back to generic copy only as a defensive runtime behavior;
+ * CI validates exact 169/169 coverage and prevents silent loss of authored material.
  */
 var DPA_GUIDE_BY_CHAPTER = {};
 (function(){
@@ -13,9 +14,15 @@ var DPA_GUIDE_BY_CHAPTER = {};
    DPA_GUIDE_BY_CHAPTER[guide.chapterId]=guide;
   });
  }
+ function registerGroup(group){
+  if(!group)return;
+  Object.keys(group).forEach(function(role){
+   register(group[role]);
+  });
+ }
  register(typeof FULLSTACK_GUIDES!=="undefined"?FULLSTACK_GUIDES:[]);
  register(typeof PAID_SOCIAL_GUIDES!=="undefined"?PAID_SOCIAL_GUIDES:[]);
- if(typeof ROLE_STUDY_GUIDES!=="undefined"){
-  Object.keys(ROLE_STUDY_GUIDES).forEach(function(role){register(ROLE_STUDY_GUIDES[role]);});
- }
+ registerGroup(typeof ROLE_STUDY_GUIDES!=="undefined"?ROLE_STUDY_GUIDES:null);
+ registerGroup(typeof ROLE_STUDY_GUIDES_PART2!=="undefined"?ROLE_STUDY_GUIDES_PART2:null);
+ registerGroup(typeof ROLE_STUDY_GUIDES_PART3!=="undefined"?ROLE_STUDY_GUIDES_PART3:null);
 })();
