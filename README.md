@@ -53,7 +53,7 @@ Roadmap ini panduan belajar mandiri, bukan sertifikasi resmi platform dan bukan 
 | 15 | Affiliate & Social Commerce Partnerships | Performance partnership |
 | 16 | Community Management & Advocacy | Engagement & advocacy |
 
-Advanced elective (blueprint tersedia, kurikulum menyusul): **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying**.
+Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying** kini memiliki 28 bab draft lengkap (14 + 14) di repository. Statusnya **first-pass draft, validation pending**; belum menjadi kurikulum final/SME-approved.
 
 ## Fitur
 
@@ -78,13 +78,26 @@ Lalu buka http://localhost:8000.
 
 ## Catatan data & audit
 
-- Tanggal audit resource terbaru: **4 November 2026** (v11.0).
+- Tanggal audit resource terbaru: **5 November 2026** (v11.1 remediation pass).
 - Sumber prioritas: dokumentasi resmi platform (Tier 1), standar industri IAB/MRC/IAB Europe (Tier 2), dan praktik/simulasi berbasis job task (Tier 3).
 - Klaim yang belum bisa diverifikasi otomatis (mis. ketersediaan ChatGPT Ads per negara, harga ujian TikTok certification) diberi catatan eksplisit di situs — jangan dikutip sebagai fakta pasti.
 - Nama jalur adalah **keluarga kompetensi standar**, bukan klaim bahwa semua agency memakai job title yang persis sama; variasi title dicantumkan sebagai alias.
 
 Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%20Roadmap%20Feedback).
 
+
+## Audit & working documents
+
+- [Advanced elective full chapter drafts — 28 chapters](docs/28-advanced-elective-full-chapter-drafts.md) — first-pass content, Q&A, learner rubric and source appendix; SME/market validation remains open.
+- [Advanced elective architecture source of truth](docs/advanced-electives-source-of-truth.md) — approved taxonomy, chapter boundaries and validation gates.
+- [169-chapter resource fit review](docs/169-chapter-resource-fit-review.md) — provisional desk assessment of all 16 core tracks; chapter-level objective sign-off remains open.
+- [169-chapter resource mapping](docs/169-chapter-resource-mapping.md) — chapter source register with publisher and URL corrections.
+- [Supplemental audit findings — 5 November 2026](docs/2026-11-05-supplemental-audit-findings.md) — new observations only; does not replace historical 23 findings or D-1…D-12.
+- [Remediation execution ledger](docs/2026-11-05-remediation-execution-ledger.md) and [static repository QA report](docs/2026-11-04-static-repository-qa.md).
+- [Raw 169 × 7 score input template](audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv) — blank collection template, not historical raw values; read [its usage/provenance rules](audit-inputs/README.md) before use.
+
+**Release decision:** NOT READY — REMEDIATION INCOMPLETE. The original raw score matrix, historical issue/discrepancy records, SME/JD sign-off, complete 169-objective source fit, learner pilot and authenticated browser QA remain open or blocked.
+
 ## Hak penggunaan
 
 Roadmap ini dibagikan gratis untuk pembelajaran. Konten dan desain tetap milik pembuatnya. Jangan menjual, mengemas ulang, atau mengomersialkan modul tanpa izin tertulis.
