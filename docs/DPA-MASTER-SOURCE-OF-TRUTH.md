@@ -146,7 +146,7 @@ This implementation is **PARTIAL** and strictly test-only. It is not connected t
 
 The current remediation branch contains row-level control registers for 507 core Q&A items, 169 objective-to-resource rows, 80 agency × core-track evidence cells, 28 elective chapters and 56 elective knowledge checks. These inventories are linked from the README and requirements acceptance register. Their existence does not establish correctness, source fit, SME approval, direct/current JD validation or learner-pilot readiness; all item-level review decisions remain OPEN.
 
-The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). The resource map now has 55 unique URLs; objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
+The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). The resource map now has 67 unique URLs; objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
 
 
 ## 17. 169-core chapter depth screening
@@ -167,3 +167,8 @@ The 507-item Q&A and 80 agency-cell review registers have separate machine-reada
 ## 20. Exact standards-source refinement
 
 The current core chapter resource map has 169 rows and 55 unique URLs. T03's four OOH-related rows use the exact MRC Out-of-Home Measurement Standards Phase 1 & 2 Combined final PDF (December 2025). T07's four retail-media measurement rows use the IAB/MRC Retail Media Measurement Guidelines PDF (January 2024) and the IAB Europe Commerce Media Measurement Standards V2.1 article (22 January 2026). The source verification, local-jurisdiction caveats and URL access limitations are recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). All 169 objective-level source-fit and Indonesia access decisions remain OPEN.
+
+
+## 21. T10 chapter source-fit batch
+
+The [T10 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and its CSV record the first priority track's chapter-level desk review. T10 has ten PARTIAL chapter dispositions; CH04 and CH07 have stronger source alignment, while the gaps for other chapters are documented. The current resource map has 169 rows and 67 unique URLs. Formal acceptance, exact objective-to-source-section sign-off, Indonesia access and SME review remain OPEN.
