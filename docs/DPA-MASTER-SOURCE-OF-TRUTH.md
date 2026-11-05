@@ -157,3 +157,8 @@ A deterministic screening script, [169-chapter depth report](169-chapter-depth-s
 ## 18. Chapter rubric calibration register
 
 The [169-chapter rubric calibration register](169-chapter-rubric-calibration-register.csv) is the companion control sheet for the chapter-specific assessment-rubric drafts. It tracks chapter outcomes, artifacts, assessor criteria, Q&A and the calibration/SME/pilot decisions separately. No draft rubric or proposed 80/100 score threshold may be represented as calibrated or credential-ready before sample scoring and inter-rater review.
+
+
+## 19. Automated Q&A and agency evidence triage
+
+The 507-item Q&A and 80 agency-cell review registers have separate machine-readable triage outputs. The triage finds missing per-item Q&A source references and unpopulated agency exact URL/Job ID fields. It also flags answer length, Boolean openings and absolute wording for editorial review. These signals prioritize evidence recovery; they are not judgments of correctness or role validity. The linked acceptance register records all outstanding decisions as OPEN.
