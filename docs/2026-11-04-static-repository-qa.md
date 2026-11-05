@@ -96,7 +96,7 @@ The 39 resource URLs comprise official publisher, product-support and standards 
 | Resource map rows / unique IDs | 169 / 169 | PASS — mapping integrity |
 | Resource URLs | 39 unique; 39 fetched with readable content at check time | PASS — URL/content availability, not objective fit |
 | Track-level resource-fit desk review | 16 / 16 tracks assessed | PROVISIONAL — objective-level 169-row sign-off OPEN |
-| Supplemental findings register | 17 new IDs (3 FIXED / 6 PARTIAL / 6 OPEN / 2 BLOCKED) | PASS — new findings only; not a replacement for historical records |
+| Supplemental findings register | 17 new IDs (5 FIXED / 5 PARTIAL / 5 OPEN / 2 BLOCKED) | PASS — new findings only; not a replacement for historical records |
 | Score input collection template | 169 rows; seven score fields blank | TEMPLATE ONLY — not raw evidence and not scoreable |
 | Historical raw 169 × 7 vectors | Not recovered | BLOCKED |
 | Historical 23 findings and D-1…D-12 | Not recovered | BLOCKED |
@@ -147,3 +147,12 @@ The source guide JS files, evidence register and assessment-rubric draft were co
 - The static validator initially failed on the intentionally changed agency evidence counts because its expected values remained A37/B20/D37/G5 and 19 compounds. The validator was updated to A37/B22/D42/G0 and 21 compounds on SHA 42e39b49103c2635d0576b23f92d1529bb07c391.
 - The corrected validator run [41955180966](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41955180966) passed on SHA `42e39b4`. The final current-code/source run [41955517513](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41955517513) also completed **SUCCESS** on SHA `fd5d25c`. Both ran the deterministic repository validator, compiled the score recalculation script, and passed a temporary synthetic 169-vector/16-track score self-test. Earlier failures between 41954852406 and 41955066664 were caused by stale agency-count expectations; the validator contract was updated. Synthetic vectors are not the historical raw audit scores.
 - Synthetic score vectors were produced only under runner temporary storage and are not historical/raw audit scores. Raw 169 × 7 inputs remain BLOCKED.
+
+
+## 2026-11-05 supplemental closure and final branch-head CI update
+
+- Supplemental register status is now **5 FIXED / 5 PARTIAL / 5 OPEN / 2 BLOCKED** across 17 new findings. RUNTIME-002 (current-code preview/HTTP asset smoke) and CI-001 (push-workflow execution evidence) were closed with exact SHA/run/deployment evidence. RUNTIME-001 remains open because authenticated interaction/accessibility tests were not performed.
+- Latest checked remediation branch head: `b418d81483628d08e197aa54fdd2c10cc9390305`.
+- Latest Actions run: [41956411335](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41956411335), SUCCESS on the exact head above. Logs show 169 HTML IDs, 169 unique guide IDs, 169 evidence chapters, 169 rubric chapters, 169 resource rows, 169 technical rows, 16 tracks, updated agency class expectations and the temporary synthetic score self-test.
+- Latest current-code Vercel deployment: `dpl_HdSvAAgybvAvYMPqvF2FUxiJB4kq`, READY on source SHA `fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2`. Documentation-only commits after that SHA did not change application source. Page/asset smoke: HTTP 200, 169 unique chapter IDs, 13 internal anchor targets, 8/8 local JS assets; updated answer/glossary strings confirmed in all three changed role-guide bundles.
+- No authenticated browser interactions, keyboard traversal, persistence round-trip, accessibility-tree, screenshot/visual regression or cross-browser QA was performed. No merge or production deploy occurred.
