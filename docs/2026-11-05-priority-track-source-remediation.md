@@ -144,3 +144,16 @@ The T07 mapping now includes six current Indonesia marketplace references: TikTo
 IAB/MRC Retail Media Guidelines (US-oriented, 2024) and IAB Europe V2.1 (Jan 2026) provide measurement standards context, but do not prove that Indonesian marketplaces implement those standards.
 
 **Current map:** 169 chapter rows / 83 unique URLs / minimum two URLs per chapter. Previous 48/54/55/67/70/77 totals are historical snapshots; no 83/83 direct-access or local account-eligibility claim is made.
+
+
+## 10. T13 content strategy, creator rights and measurement source-fit review — 5 November 2026
+
+The [T13 11-chapter review](T13-11-chapter-source-fit-review.md) and [CSV](T13-11-chapter-source-fit-review.csv) classify all eleven chapters PARTIAL; formal acceptance remains OPEN.
+
+New source routes cover TikTok Creative Center/Top Ads (updated July 2026), Commercial Music Library and creator commercial-content disclosure (April 2026), YouTube native Analytics engagement/impression/retention guidance, and Indonesia's UU 28/2014 JDIH record. The important boundaries are:
+- TikTok Top Ads is high-performing ad inspiration/performance data, not a representative organic-content or cultural-insight dataset.
+- TikTok's Commercial Music Library is the platform's cleared library for the relevant commercial uses; music outside it needs separate rights confirmation. Platform clearance is not a cross-platform or all-territory licence.
+- YouTube impressions, CTR and retention are YouTube-native definitions and cannot be treated as Instagram, TikTok or LinkedIn common metrics.
+- JDIH BPK records UU 28/2014; DPR reporting on 27 October 2026 confirms the amendment RUU was still under Panja discussion. Do not teach proposed changes as enacted law; obtain legal review and recheck status.
+
+**Current map:** 169 rows / 90 unique URLs / at least two source URLs per chapter. This is mapping structure only, not direct-access or legal clearance.
