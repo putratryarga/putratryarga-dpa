@@ -1,11 +1,11 @@
-# 4 November 2026 — Static Repository QA Report
+# 5 November 2026 — Static Repository QA Report
 
 **Target:** remediation branch `audit/full-dpa-remediation-2026-11-05`, derived from PR #5 and containing PR #6's unique advanced-elective source document.  
 **Method:** GitHub source-file inspection and deterministic string/ID reconciliation. This is static QA only; it does not simulate browser rendering or user interaction.
 
 ## Results
 
-**Current target:** remediation branch `audit/full-dpa-remediation-2026-11-05`. All figures below are static-source checks, not browser/runtime behavior.
+**Current target:** remediation branch `audit/full-dpa-remediation-2026-11-05` at commit `bcca5021f83037edf07710c4d8805f13d794e80b`. All figures below are static-source checks, not browser/runtime behavior.
 
 | Check | Result | Status |
 |---|---:|---|
@@ -49,7 +49,9 @@
 - No authenticated PR preview browser session was available. The connected local Browser tool could not access the originating browser context.
 - Cloud browser/deep-research automation returned an insufficient-funds / empty-wallet response; no browser run was started.
 - No desktop/mobile screenshot inspection, real click/keyboard navigation, role-selector interaction, localStorage persistence round-trip, theme toggle, accessibility-tree inspection, console/network test or cross-browser regression was performed.
-- The latest Vercel status check on the new PR heads is **FAILURE due to build-rate-limit** (upgrade/build-rate-limit target), not a successful deployment. There are no GitHub Actions workflow runs associated with the two latest audit commits.
+- The latest known Vercel status check on remediation commit `bcca5021...` is **FAILURE due to build-rate-limit** (upgrade/build-rate-limit target), not a successful deployment. No GitHub Actions workflow runs are associated with this commit.
 - External resource-link availability, redirect chains, locale access, regional price and credential expiry are not proven by static presence.
 
-**Release decision:** STATIC STRUCTURE PASS for the checks above; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; NOT READY TO MERGE.
+**Branch relationship:** `main` is `640b1924...`; remediation is 126 commits ahead / 6 behind with merge base `cc54ac2934f8b806e7fecd62123d5dca7ee38170`. Six main-side commits contain crosswalk and role/elective documentation changes; the remediation branch contains revised counterparts. No history merge/rebase was performed. PR #5/#6 remain draft/open/unmerged.
+
+**Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; BRANCH BASE RELATIONSHIP REQUIRES FINAL RECONCILIATION; NOT READY TO MERGE.
