@@ -133,3 +133,10 @@ The proposed [DPA Certificate Issuance & Verification specification](certificate
 This is a **design baseline only**. The current website is static and has no verified credential registry, authenticated issuer workflow or trusted server-side issuance endpoint. Assessment item approval, rubric calibration, threshold setting, issuer identity, learner privacy/consent, security review and pilot remain prerequisites. No real learner certificate may be issued until the applicable CERT-001–CERT-008 criteria in the acceptance register pass.
 
 A DPA-issued learning certificate is not a BNSP/LSP competency certificate, government-accredited qualification or third-party platform certification. Any LPK/LSP partnership is a separate workstream requiring independent licensing, scheme and issuer verification.
+
+
+## 15. Formative quiz scaffold implementation
+
+The standalone [Quiz Engine Sandbox](../quiz-engine-prototype.html) and dependency-free formative engine are implemented on the remediation branch using synthetic-only T10 fixtures. The engine validates item/chapter IDs, blocks unanswered submissions, calculates deterministic local scores, provides rationale/review/retry and preserves attempt versions for its local session. A dedicated automated test script and GitHub Actions workflow are included.
+
+This implementation is **PARTIAL** and strictly test-only. It is not connected to the main chapter renderer or the 507 reflective Q&A items; no approved item bank, calibrated threshold, summative mode, server-side grading, personal-data collection or credential-bearing assessment exists. The browser-delivered keys are synthetic fixtures only. Exact-head CI and authenticated browser/accessibility verification remain separate gates. See QUIZ-001 in the acceptance register.
