@@ -146,7 +146,7 @@ This implementation is **PARTIAL** and strictly test-only. It is not connected t
 
 The current remediation branch contains row-level control registers for 507 core Q&A items, 169 objective-to-resource rows, 80 agency × core-track evidence cells, 28 elective chapters and 56 elective knowledge checks. These inventories are linked from the README and requirements acceptance register. Their existence does not establish correctness, source fit, SME approval, direct/current JD validation or learner-pilot readiness; all item-level review decisions remain OPEN.
 
-The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). The resource map now has 54 unique URLs; objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
+The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). The resource map now has 55 unique URLs; objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
 
 
 ## 17. 169-core chapter depth screening
@@ -162,3 +162,8 @@ The [169-chapter rubric calibration register](169-chapter-rubric-calibration-reg
 ## 19. Automated Q&A and agency evidence triage
 
 The 507-item Q&A and 80 agency-cell review registers have separate machine-readable triage outputs. The triage finds missing per-item Q&A source references and unpopulated agency exact URL/Job ID fields. It also flags answer length, Boolean openings and absolute wording for editorial review. These signals prioritize evidence recovery; they are not judgments of correctness or role validity. The linked acceptance register records all outstanding decisions as OPEN.
+
+
+## 20. Exact standards-source refinement
+
+The current core chapter resource map has 169 rows and 55 unique URLs. T03's four OOH-related rows use the exact MRC Out-of-Home Measurement Standards Phase 1 & 2 Combined final PDF (December 2025). T07's four retail-media measurement rows use the IAB/MRC Retail Media Measurement Guidelines PDF (January 2024) and the IAB Europe Commerce Media Measurement Standards V2.1 article (22 January 2026). The source verification, local-jurisdiction caveats and URL access limitations are recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). All 169 objective-level source-fit and Indonesia access decisions remain OPEN.
