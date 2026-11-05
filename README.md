@@ -114,3 +114,8 @@ Roadmap ini dibagikan gratis untuk pembelajaran. Konten dan desain tetap milik p
 ---
 
 © 2026 Putra Try Arga · The Full-Stack Digital Performance Architect
+
+
+## Planned feature: DPA Certificate Issuance & Verification
+
+The proposed [certificate issuance and verification specification](docs/certificate-issuance-verification-spec.md) defines DPA-issued participation, completion and track-achievement credentials, server-side issuance, public verification and revocation. **Design only: no live issuance is implemented or authorized.** Assessment approval, issuer policy, privacy/security review and a trusted backend are prerequisites. DPA-issued learning credentials must not be described as BNSP/LSP or government certification without a separately verified authorization.
