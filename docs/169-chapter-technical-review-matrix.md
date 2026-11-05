@@ -85,7 +85,7 @@
 | DPA-T07-CH04 | Onsite Retail Media: Sponsored Products & Search | Added role-specific | 0 | 0 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH05 | Offsite Retail Media: Display, Social & Video | Added role-specific | 2 | 0 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH06 | Retail Audience, First-Party Data & Targeting | Added role-specific | 2 | 1 | OPEN | OPEN | OPEN | OPEN |
-| DPA-T07-CH07 | Product Feed, Digital Shelf & Retail Readiness | Added role-specific | 3 | 3 | OPEN | OPEN | OPEN | OPEN |
+| DPA-T07-CH07 | Product Feed, Digital Shelf & Retail Readiness | Added role-specific | 0 | 0 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH08 | Campaign Activation, Bidding & Optimization | Added role-specific | 1 | 0 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH09 | Sales Measurement, ACoS, ROAS & Incrementality | Added role-specific | 1 | 1 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH10 | Retail Media Capstone | Added role-specific | 0 | 0 | OPEN | OPEN | OPEN | OPEN |
