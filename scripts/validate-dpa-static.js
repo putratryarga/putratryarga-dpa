@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 54);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 55);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
@@ -355,8 +355,9 @@ try {
   const requiredNewResourceUrls = [
     "https://sqlbolt.com/topics",
     "https://miguelhernan.org/whatifbook",
-    "https://mediaratingcouncil.org/standards-and-guidelines",
-    "https://iabeurope.eu/iab-europe-releases-updated-commerce-incl-retail-media-standards-flexi-ad-sizes-guidelines-for-retail-media-networks/",
+    "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf",
+    "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf",
+    "https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/",
     "https://www.w3.org/TR/WCAG22/",
     "https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management"
   ];
