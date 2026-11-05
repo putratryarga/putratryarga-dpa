@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 90);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 98);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
@@ -348,6 +348,9 @@ try {
   const t13DeskReview = read("docs/T13-11-chapter-source-fit-review.csv");
   const t13DeskReviewRows = t13DeskReview.trim().split("\n").length - 1;
   assertEqual("T13 11-chapter source-fit desk-review rows", t13DeskReviewRows, 11);
+  const t16DeskReview = read("docs/T16-12-chapter-source-fit-review.csv");
+  const t16DeskReviewRows = t16DeskReview.trim().split("\n").length - 1;
+  assertEqual("T16 12-chapter source-fit desk-review rows", t16DeskReviewRows, 12);
   const qnaTriage = read("docs/507-qna-automated-triage.csv");
   const agencyGapTriage = read("docs/80-agency-cell-evidence-gap-triage.csv");
   const qnaTriageRows = qnaTriage.trim().split("\n").length - 1;
@@ -406,7 +409,15 @@ try {
     "https://support.google.com/youtube/answer/9313698?cid=analytics-series&hl=en",
     "https://support.google.com/youtube/answer/9314486?hl=en",
     "https://support.google.com/youtube/answer/12942217?co=YOUTUBE",
-    "https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014"
+    "https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014",
+    "https://jdih.dpr.go.id/setjen/detail-dokumen/tipe/uu/id/1814",
+    "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/peraturan%2Bpemerintah%2Bnomor%2B71%2Btahun%2B2019",
+    "https://www.meta.com/safety/topics/safety-basics/tools/stay-safe/",
+    "https://support.tiktok.com/en/account-and-privacy/account-privacy-settings/manage-comments",
+    "https://jdih.komdigi.go.id/produk_hukum/view/id/884/t/undangundang%20nomor%201%20tahun%202024",
+    "https://www.tiktok.com/community-guidelines/en/",
+    "https://www.meta.com/safety/topics/safety-basics/policies/",
+    "https://support.google.com/youtube/answer/9826490?hl=en"
   ];
   for (const url of requiredNewResourceUrls) {
     if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);
