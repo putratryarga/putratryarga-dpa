@@ -108,7 +108,7 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 - **Architecture sync:** docs/advanced-electives-source-of-truth.md now records Architecture v1.1 + Full Chapter Draft v0.1 and marks 28 chapter drafts complete, with validation pending.
 - **Resource map:** 169 chapter rows, 169 unique IDs, 39 unique URLs, minimum two source links per row. All 39 URLs returned readable content at check time. This proves availability and publisher identity, not exact objective fit.
 - **Resource-fit decision:** docs/169-chapter-resource-fit-review.md provides a provisional desk assessment of all 16 tracks. T08 has a clear commercial-buying source gap; T02 cultural/communication planning, T03 offline measurement, T07 Indonesia RMN comparison, T10 statistics/experimentation, T13 neutral editorial/organic content and T16 community governance remain partial/gap. The 169 objective-level review remains OPEN.
-- **Supplemental findings:** docs/2026-11-05-supplemental-audit-findings.md contains 17 new IDs, separate from the missing historical 23 findings and D-1…D-12. Summary: 3 FIXED, 6 PARTIAL, 6 OPEN, 2 BLOCKED.
+- **Supplemental findings:** docs/2026-11-05-supplemental-audit-findings.md contains 17 new IDs, separate from the missing historical 23 findings and D-1…D-12. Final summary: 5 FIXED, 5 PARTIAL, 5 OPEN, 2 BLOCKED.
 - **Raw scores:** audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv is a blank 169-row collection template. Seven dimension definitions and raw scores are not present. The template must not be fed into the calculator and is not a scorecard.
 - **Historical search:** all 12 available GitHub branches were enumerated and their trees checked; current PR #5/#6 discussion/review metadata and accessible Library search were inspected. No original raw score matrix or original findings/discrepancy register was recovered.
 - **Release decision:** NOT READY — REMEDIATION INCOMPLETE. SME/JD, raw score, historical issue/discrepancy, 169 objective fit, 507 answer-key, rubric calibration, Indonesia market/legal, elective pilot and authenticated browser gates remain open or blocked.
@@ -155,3 +155,13 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 - GitHub Actions run [41955517513](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41955517513) completed SUCCESS on the same source SHA fd5d25c.
 - These are deployment metadata, HTTP and asset checks. No authenticated interactive browser session, real role-selector click, localStorage persistence round-trip, theme toggle, keyboard traversal, accessibility-tree or cross-browser visual QA was executed.
 - Production was not deployed; main remains unchanged. Release status remains **NOT READY — REMEDIATION INCOMPLETE** due to historical input, SME, objective-fit, learner pilot and interactive QA blockers.
+
+
+## 2026-11-05 final branch and release checkpoint
+
+- Latest branch head: `b418d81483628d08e197aa54fdd2c10cc9390305`; CI run [41956411335](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41956411335) completed SUCCESS on that exact SHA.
+- The latest CI log rechecked 169 HTML/guide/evidence/rubric/resource/technical entries, 16 track rows, agency class labels A37/B22/D42/G0 with 21 compound cells, Python script compilation and the temporary synthetic 169×7 score calculator test across 169 chapters / 16 track summaries. Synthetic values are not raw audit inputs.
+- Application source SHA `fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2` is deployed READY as `dpl_HdSvAAgybvAvYMPqvF2FUxiJB4kq`. HTTP/asset smoke passed: 169 unique chapter IDs, 13 anchors, 8/8 local JS assets, and updated text probes in the three modified role-guide JS files.
+- The two commits after the current-code deployment only update QA/ledger/supplemental documentation; no HTML/JS/CSS application files changed after `fd5d25c`.
+- Main remains at `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`; remediation branch is 181 commits ahead and zero behind. PR #5 and PR #6 remain open/unmerged. No production deployment or merge was performed.
+- Release decision remains **NOT READY — REMEDIATION INCOMPLETE** due to missing historical 169×7 raw values and original 23 findings/D-1…D-12, open SME/JD and objective-level source-fit validation, Indonesia market/legal review, learner pilot and authenticated browser interaction QA.
