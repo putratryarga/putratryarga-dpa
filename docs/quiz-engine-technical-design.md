@@ -1,7 +1,7 @@
 # DPA Quiz & Assessment Engine — Technical Design
 
 **Version:** 0.1 · 5 November 2026  
-**Status:** DESIGN DRAFT — no scored quiz engine is claimed as implemented  
+**Status:** FORMATIVE SCAFFOLD IMPLEMENTED (synthetic-only); no approved scored bank or summative engine is claimed  
 **Scope:** 169 core chapters / 507 existing static Q&A items; future elective integration is a separate gate  
 **Architecture assumption:** Existing project is a static browser application with JavaScript guide objects and local progress persistence. Any authenticated server-side assessment requires a separate backend decision.
 
@@ -289,3 +289,31 @@ QTI 3.0 may be evaluated later if portability to an LMS or third-party assessmen
 6. Select a backend only if authoritative cross-device/summative scoring is required.
 
 **Decision:** Start the formative quiz shell using synthetic test fixtures in parallel with the 507-item editorial/SME review. Keep all unapproved answers out of scored mode. No pass threshold, credential or learner mastery claim is approved by this design.
+
+
+## 12. Implementation record — 5 November 2026
+
+**Disposition:** isolated formative scaffold PRESENT; integration with the 169 chapter experience and approved assessment bank remains OPEN.
+
+Implemented on the remediation branch:
+- `scripts/dpa-quiz-engine.js`: dependency-free, browser/Node-compatible engine with chapter/item identity validation, synthetic-fixture-only gating, selection, unanswered guard, deterministic scoring, feedback, review, retry and attempt history.
+- `scripts/dpa-quiz-synthetic-fixtures.js`: three clearly labelled, synthetic T10 single-select examples with separate answer-key records. They are engineering fixtures, not approved learning items.
+- `quiz-engine-prototype.html` and `scripts/dpa-quiz-sandbox.js`: standalone accessible prototype with native radio controls, progress, submit, inline validation, results, rationale review and retry.
+- `scripts/test-dpa-quiz-engine.js`: deterministic tests for valid/empty banks, unsupported summative mode, schema and ID constraints, duplicate IDs, invalid option/key version, unanswered submission, score calculation, feedback, retry/history and snapshot isolation.
+- `.github/workflows/dpa-quiz-engine-qa.yml`: separate Node 20 workflow to run syntax, engine and prototype trust-boundary checks on the remediation branch.
+
+### Security and release boundary
+
+- The prototype deliberately ships only synthetic fixture keys to the browser. That is acceptable only for a test sandbox; the page is not a production exam or secure gradebook.
+- Engine creation rejects modes other than `formative` and rejects items without `fixtureStatus: SYNTHETIC_TEST_FIXTURE`.
+- No data is written to localStorage/sessionStorage, no external API is called, and no learner identity or submission is collected.
+- The prototype is standalone and has not been wired into the main chapter renderer or the existing `guide.checks` Q&A.
+- The 507 Q&A pairs remain reflective learning content. They have not been auto-converted, keyed, calibrated or approved.
+- No passing threshold, credential decision, server-side grading, backend registry or certificate workflow is implemented.
+- `noindex` is a crawler hint, not an access-control mechanism. Do not place confidential items or real answer keys in this prototype.
+
+### Verification status
+
+The source and tests have been added. Automated workflow execution and actual browser interaction are separate verification gates and must be recorded against the exact commit before the scaffold can be called CI-verified or browser-verified.
+
+**Requirement disposition:** QUIZ-001 = PARTIAL (isolated formative scaffold present; production integration and browser/runtime verification remain open). QUIZ-002, QUIZ-003, QUIZ-004 and all content/SME approval remain OPEN.
