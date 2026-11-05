@@ -206,3 +206,15 @@ The 169 rubric entries contain chapter-specific artifact checklists and a shared
 After correcting T07-CH06/07/08 guide assignments and rewriting the integrated T07-CH08 assessment, all 149 role-specific guide arrays were reparsed. The deterministic word-count convention strips HTML tags/entities and counts whitespace-delimited tokens. Current totals are **122 short answer pairs across 79 chapters** (<12 words) and **81 short glossary definitions across 58 chapters** (<5 words). These counts are triage flags only; they do not establish that an answer or definition is substantively inadequate. The T07 rows were updated in the technical review matrix: CH06 = 3/3; CH07 = 0/0; CH08 = 0/1.
 
 The 20 legacy Full-Stack and Paid Social guides are not included in these 149-guide short-content totals and remain a separate content-review population.
+
+
+## 15. 5 November 2026 — agency evidence and validation checkpoint
+
+- Reconciled the 80-cell matrix following Havas Workday requisition review. Current class-label instances: A 37, B 20, C 0, D 37, E 0, G 5; 19 compound cells. The table still has exactly 80 unique cells. Four cells are pure G gaps; T14/Havas is B/G because JR0093003 is Havas Paris Social sister-practice evidence, not a direct Havas Media Network role.
+- T05/Havas is direct Paid Social evidence (JR0096922, Warsaw, 2+ years). T11/Havas is direct Organic & AI Manager evidence (JR0099039, Sydney, 4+ years, manager-level); neither proves entry-level or Indonesian market coverage. JR0096564 is historical DMPG evidence with an August 3, 2026 application end date. JR0093690 is Havas Play evidence with unresolved September 2026 vs January 2027 start-date metadata.
+- Added TikTok Media Buying certification retake rule: seven days between unsuccessful attempts; recertification eligibility opens six months before expiry. Exam is 60 questions / 110 minutes, proctored, USD 200 before applicable tax/fees, intended for candidates with at least one year of TikTok Ads Manager experience, and valid for two years. Recheck local account access/pricing at booking.
+- Added `docs/169-core-chapter-ids.txt`, a 169-ID inventory extracted from the HTML chapter attributes. The chapter score script defaults to this inventory and enforces ID-set equality plus integer 0–4 raw values across seven dimensions.
+- Extended `scripts/validate-dpa-static.js` to assert the 80-cell matrix label totals and 10 elective evidence groups. The script has not been executed in an actual local Node checkout; its presence is not claimed as a PASS. Equivalent counts were manually recalculated from GitHub source files.
+- Static QA report formatting was corrected so the Interpretation section is a real heading rather than a literal escaped newline marker.
+
+**Limitations unchanged:** the raw 169 score vectors, original complete 23-issue/12-discrepancy ledgers, 90 raw evidence CSV and full 32 chapter packs remain unavailable; complete SME, all 169 source-fit, 507 answer correctness, rubric calibration, browser/runtime and successful preview-build validation remain open.
