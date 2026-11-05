@@ -133,3 +133,14 @@ The T02 enrichment adds seven source URLs:
 The source scopes are not interchangeable. UK government planning guidance is not Indonesian commercial law or a universal agency SOP; UX journey mapping is not complete media-connection planning; association frameworks are not validated universal standards; ICC Codes are ethical/self-regulatory, not local legal advice.
 
 **Current overall source map:** 169 rows / 77 unique URLs / at least two unique URLs per row. Earlier 48-, 54-, 55-, 67- and 70-URL totals are dated historical snapshots superseded by this current mapping. No 77/77 direct-access claim is made.
+
+
+## 9. T07 retail-media source-fit review and current total — 5 November 2026
+
+The [T07 10-chapter source-fit review](T07-10-chapter-source-fit-review.md) and [CSV](T07-10-chapter-source-fit-review.csv) assess all T07 chapters; every row is PARTIAL at desk-review level and all formal acceptance remains OPEN.
+
+The T07 mapping now includes six current Indonesia marketplace references: TikTok Product Shopping Ads (March 2026), Tokopedia Product Shopping Ads (March 2026), Shopee Ads creation and performance reporting, and Lazada Sponsored Solutions/Sponsored Discovery. Key limitations are recorded: TikTok Shop Ads uses GMV Max as the default/only campaign type since July 2025; Tokopedia placements are invitation/eligibility-gated and can change the Ads Manager/Seller Center reporting path; Shopee's metric guide defines post-click outcomes over seven days and can include other seller-store products; Lazada features include seller-whitelist gates.
+
+IAB/MRC Retail Media Guidelines (US-oriented, 2024) and IAB Europe V2.1 (Jan 2026) provide measurement standards context, but do not prove that Indonesian marketplaces implement those standards.
+
+**Current map:** 169 chapter rows / 83 unique URLs / minimum two URLs per chapter. Previous 48/54/55/67/70/77 totals are historical snapshots; no 83/83 direct-access or local account-eligibility claim is made.
