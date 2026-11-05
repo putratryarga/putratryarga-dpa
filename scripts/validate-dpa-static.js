@@ -152,7 +152,7 @@ try {
   assertEqual("HTML chapter IDs", htmlIds.length, 169);
   assertEqual("Unique HTML chapter IDs", unique(htmlIds).length, 169);
 
-  const canonicalIds = chapterInventory.split(/\\r?\\n/).map((x) => x.trim())
+  const canonicalIds = chapterInventory.split(String.fromCharCode(10)).map((x) => x.trim())
     .filter((x) => x && !x.startsWith("#"));
   report.canonicalChapterInventoryRows = canonicalIds.length;
   report.uniqueCanonicalChapterIds = unique(canonicalIds).length;
@@ -162,7 +162,7 @@ try {
   assertNoMissing("Canonical inventory vs HTML", htmlIds, canonicalIds);
   assertNoExtra("Canonical inventory vs HTML", htmlIds, canonicalIds);
 
-  const scoreTemplateLines = scoreTemplate.trimEnd().split(/\\r?\\n/);
+  const scoreTemplateLines = scoreTemplate.trimEnd().split(String.fromCharCode(10));
   const expectedScoreHeader = "chapter_id,track_id,dim_1,dim_2,dim_3,dim_4,dim_5,dim_6,dim_7";
   report.scoreTemplateRows = Math.max(0, scoreTemplateLines.length - 1);
   if (scoreTemplateLines[0] !== expectedScoreHeader) {
