@@ -38,9 +38,9 @@
 - The 8 local script references and static responsive/theme/progress/focus/reduced-motion code are present. Presence is not proof that the features behave correctly at runtime.
 - The source files include a legitimate JavaScript guard checking whether `DPA_GUIDE_BY_CHAPTER` is `undefined`; this is not a rendered placeholder or a content defect.
 
-| Agency evidence matrix | 80 unique cells; A37/B20/D37/G5; 19 compound labels | STRUCTURE VERIFIED — competency/JD validation remains PARTIAL |
+| Agency evidence matrix | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | STRUCTURE VERIFIED — competency/JD validation remains PARTIAL |
 
-## Not tested / release blockers
+| Elective evidence groups | 10 agency × elective rows (5 groups × 2 electives) | STRUCTURE VERIFIED — content validation remains PENDING |\n| Canonical chapter ID inventory | 169 unique IDs | STRUCTURE VERIFIED — score recomputation blocked by missing raw vectors |\n| Automated validator script | Includes chapter, matrix, Q&A, resource and media-query checks | ADDED — execution not verified in local Node runtime |\n\n## Not tested / release blockers
 
 - No authenticated PR preview browser session was available. The connected local Browser tool could not access the originating browser context.
 - Cloud browser/deep-research automation returned an insufficient-funds / empty-wallet response; no browser run was started.
