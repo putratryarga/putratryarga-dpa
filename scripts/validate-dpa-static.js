@@ -333,6 +333,9 @@ try {
   const chapterDepthScreen = read("docs/169-chapter-depth-screening.csv");
   const chapterDepthRows = chapterDepthScreen.trim().split("\n").length - 1;
   assertEqual("Chapter depth screening snapshot rows", chapterDepthRows, 169);
+  const rubricCalibrationRegister = read("docs/169-chapter-rubric-calibration-register.csv");
+  const rubricCalibrationRows = rubricCalibrationRegister.trim().split("\n").length - 1;
+  assertEqual("169-chapter rubric calibration register rows", rubricCalibrationRows, 169);
   const requiredNewResourceUrls = [
     "https://sqlbolt.com/topics",
     "https://miguelhernan.org/whatifbook",
