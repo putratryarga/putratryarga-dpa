@@ -113,8 +113,12 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [T10 10-chapter source-fit review](docs/T10-10-chapter-source-fit-review.md) and [10-row review CSV](docs/T10-10-chapter-source-fit-review.csv) — chapter-specific findings; all formal acceptance remains OPEN.
 
 
-- Current resource map: **169 rows / 67 unique URLs**. T03 uses the exact MRC OOH standards PDF; T07 uses the IAB/MRC Retail Media Guidelines PDF and IAB Europe V2.1 article. See [track-level source remediation](docs/2026-11-05-priority-track-source-remediation.md).
+- Current resource map: **169 rows / 70 unique URLs**. T03 uses the exact MRC OOH standards PDF; T07 uses the IAB/MRC Retail Media Guidelines PDF and IAB Europe V2.1 article. See [track-level source remediation](docs/2026-11-05-priority-track-source-remediation.md).
 - Direct access, source-fit, and Indonesia-market caveats remain recorded; all 169 objective-level fit decisions are OPEN.
+
+## T03 Media Planning source-fit review
+
+- [T03 10-chapter source-fit review](docs/T03-10-chapter-source-fit-review.md) and [10-row CSV](docs/T03-10-chapter-source-fit-review.csv) — all ten chapters are PARTIAL at desk-review level; formal source-fit, Indonesia access and SME approval remain OPEN.
 
 ## P1 audit registers
 
@@ -127,7 +131,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 ## Audit & working documents
 
-- [Quiz & Assessment Engine — Technical Design](docs/quiz-engine-technical-design.md) — formative quiz architecture, item approval, security boundary and test/release gates; not yet implemented.
+- [Quiz & Assessment Engine — Technical Design](docs/quiz-engine-technical-design.md) — formative quiz architecture and approval/security boundaries. The isolated synthetic-only sandbox is implemented and CI/browser-tested; scored assessment and main chapter integration remain OPEN.
 
 - [Requirements Traceability & Acceptance Register](docs/requirements-traceability-acceptance-register.md) — master acceptance criteria, verification classes, blockers, dependencies and release gates for 16 Core + 2 Electives.
 
