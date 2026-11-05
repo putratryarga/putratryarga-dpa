@@ -95,6 +95,10 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [Open the formative quiz prototype](quiz-engine-prototype.html) — isolated synthetic test only; not an official DPA exam, not connected to learner progress, and not a credential or competency record.
 - Automated tests: `node scripts/test-dpa-quiz-engine.js`; workflow: `.github/workflows/dpa-quiz-engine-qa.yml`.
 
+## 169-core chapter depth screening
+
+- [Depth-screening summary](docs/169-chapter-depth-screening.md) and [169-row metrics CSV](docs/169-chapter-depth-screening.csv) — deterministic structure-only triage; content/SME approval remains open.
+
 ## P1 audit registers
 
 - [507 core Q&A editorial/SME review register](docs/507-qna-editorial-sme-review-register.csv) — 507 items; all OPEN, not scored/approved.
