@@ -326,3 +326,10 @@ The following row-level registers have been generated from the current canonical
 The priority source-enrichment record is [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Six unique source URLs were added to 21 chapter rows, increasing the map to 54 unique URLs. T02, T03, T07, T10, T13 and T16 remain PARTIAL at track level, and all 169 objective-level source-fit decisions remain OPEN.
 
 The 507 core Q&A and 56 elective knowledge checks remain reflective/draft material until item-level editorial, source and SME approval is evidenced. The 80-cell register records the existing evidence statements and their gaps; it does not promote any cell to direct/current JD validation.
+
+
+## 15. 169-core chapter depth screening
+
+The deterministic [169-chapter structural depth screening](169-chapter-depth-screening.md) and row-level [screening CSV](169-chapter-depth-screening.csv) provide an additional content-structure triage layer. All 169 chapters meet the defined minimum signals: objective ≥100 characters, example ≥100, workflow ≥240 characters with at least three steps, practice/deliverable ≥100, glossary ≥3 terms, exactly three Q&A pairs and at least two unique mapped URLs. Observed minimums were higher (362, 176, 367, 4, 133, 4, 3 and 2, respectively). No exact duplicate question text was found across 507 core items after normalization.
+
+**Acceptance boundary:** the thresholds are triage heuristics, not a quality rubric or expert assessment. CORE-002, substantive CORE-003, all 169 objective-level resource-fit decisions, answer correctness and SME sign-off remain OPEN. This screen does not establish that examples are technically correct, realistic or sufficiently challenging.
