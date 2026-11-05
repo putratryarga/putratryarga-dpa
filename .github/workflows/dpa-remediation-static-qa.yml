@@ -1,0 +1,78 @@
+name: DPA Remediation Static QA
+
+on:
+  push:
+    branches:
+      - audit/full-dpa-remediation-2026-11-05
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-validation:
+    name: Static structure and score-script self-test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out remediation branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run deterministic repository validator
+        run: node scripts/validate-dpa-static.js
+
+      - name: Compile score recalculation script
+        run: python -m py_compile scripts/recalculate-chapter-audit-scores.py
+
+      - name: Generate temporary synthetic score vectors
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          ids = [
+              line.strip()
+              for line in Path("docs/169-core-chapter-ids.txt").read_text(encoding="utf-8").splitlines()
+              if line.strip() and not line.lstrip().startswith("#")
+          ]
+          if len(ids) != 169 or len(set(ids)) != 169:
+              raise SystemExit(f"Expected 169 unique canonical IDs, found {len(ids)}")
+
+          dimensions = [f"dim_{i}" for i in range(1, 8)]
+          with Path("/tmp/dpa-synthetic-score-vectors.csv").open("w", encoding="utf-8", newline="") as handle:
+              writer = csv.DictWriter(handle, fieldnames=["chapter_id", "track_id", *dimensions])
+              writer.writeheader()
+              for index, chapter_id in enumerate(ids):
+                  row = {"chapter_id": chapter_id, "track_id": chapter_id[4:7]}
+                  for dimension_index, dimension in enumerate(dimensions):
+                      row[dimension] = (index + dimension_index) % 5
+                  writer.writerow(row)
+          print("Generated 169 temporary SYNTHETIC test vectors; these are not audit scores.")
+          PY
+
+      - name: Self-test seven-dimension score calculation
+        run: |
+          python scripts/recalculate-chapter-audit-scores.py /tmp/dpa-synthetic-score-vectors.csv --require-169 --chapter-output /tmp/dpa-chapter-scores.csv --track-output /tmp/dpa-track-scores.csv
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          with Path("/tmp/dpa-chapter-scores.csv").open(encoding="utf-8", newline="") as handle:
+              chapters = list(csv.DictReader(handle))
+          with Path("/tmp/dpa-track-scores.csv").open(encoding="utf-8", newline="") as handle:
+              tracks = list(csv.DictReader(handle))
+          assert len(chapters) == 169, len(chapters)
+          assert len(tracks) == 16, len(tracks)
+          assert all(row["reported_score_1dp"] for row in chapters)
+          print("PASS: temporary synthetic self-test produced 169 chapter scores and 16 track summaries.")
+          PY
