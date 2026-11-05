@@ -477,3 +477,17 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Current resource map: 169 rows / 90 unique URLs; validator checks all seven T13 source URLs and exactly 11 T13 review rows.
 
 **Register effect:** RES-001 remains PASS for mapping structure only. RES-002 is PARTIAL at desk-review level across T02/T03/T07/T10 (10 chapters each) and T13 (11 chapters); formal acceptance for all 169 objectives remains OPEN.
+
+
+## 28. T16 community management and advocacy source-fit review
+
+**Date:** 5 November 2026  
+**Disposition:** FIRST-PASS DESK REVIEW COMPLETE; 12/12 CHAPTERS PARTIAL; FORMAL ACCEPTANCE OPEN.
+
+- Created `docs/T16-12-chapter-source-fit-review.md` and a 12-row CSV with source evidence and chapter-specific gaps.
+- Added eight source routes for UU PDP 27/2022, UU ITE 1/2024, PP 71/2019, Meta Safety Center tools/policies, TikTok comment filters/Community Guidelines and YouTube live-chat moderation.
+- Updated T16's twelve rows in the 169-objective fit register: desk status PARTIAL; objective/resource acceptance, legal applicability, platform access, technical, SME and learner pilot fields OPEN.
+- Clarified that Dewan Pers Cyber Media Guidelines apply to journalistic cyber media; NSW material is a public-sector example; platform controls vary by account; and PP 71/2019 scope must be confirmed for the actual PSE/entity/service rather than assumed for every brand account.
+- Current resource map: 169 rows / 98 unique URLs; validator checks all eight new URLs and exactly 12 T16 review rows.
+
+**Register effect:** RES-001 remains PASS for structural mapping only. RES-002 is PARTIAL at desk-review level across T02, T03, T07, T10, T13 and T16 (63 chapters in total); all 169 formal objective-level fit decisions remain OPEN.
