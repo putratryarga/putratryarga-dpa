@@ -9,6 +9,8 @@ Dibuat oleh **Putra Try Arga** · Bahasa utama: Indonesia · Gratis untuk pembel
 
 ## Source of Truth and audit status
 
+The current structured architecture and governance reference is [DPA Master Source of Truth](docs/DPA-MASTER-SOURCE-OF-TRUTH.md). The consolidated TXT file below is retained as a historical research/audit archive.
+
 The consolidated research and validation record is maintained in
 [`docs/16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt`](docs/16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt).
 The canonical role taxonomy is maintained in
