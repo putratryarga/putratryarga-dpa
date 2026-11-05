@@ -259,3 +259,19 @@ This section supersedes earlier entries in this ledger that described `b418d814.
 - Exact-head CI run [41963881863](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41963881863) completed SUCCESS on SHA `dfecd41a165f8ba320a0fbdacb2b05f15c9c125b`. This included the T08 validation guards, 16+2 pathway checks, existing 169-row structural tests, Python score-script compilation and synthetic calculator self-test. It did not test a deployed quiz engine, because none was implemented.
 - The run history retained failures from earlier T08 validation attempts; they were traced to validator checking a strict uppercase contiguous `SYNTHETIC, ...` phrase while the document used bold markup around the word. The assertion was changed to case-insensitive semantic checks and the subsequent exact-head run passed. No acceptance check was removed.
 - This remains a design milestone only. Implementation scaffold, item approval, accessibility/runtime tests and content/SME validation remain open.
+
+
+## 13. Certificate issuance and verification feature
+
+**Date:** 5 November 2026  
+**Disposition:** SPECIFICATION COMMITTED; IMPLEMENTATION NOT STARTED; LIVE ISSUANCE NOT AUTHORIZED.
+
+- Added [DPA Certificate Issuance & Verification](certificate-issuance-verification-spec.md) as a product/technical design baseline.
+- Defined three distinct DPA-owned credential types: participation, completion and track achievement. The specification explicitly prohibits implying BNSP/LSP, government accreditation or third-party platform endorsement without separately evidenced authorization.
+- Defined eligibility gates, server-side issuer authorization, unique credential IDs, auditable issue/reissue/revocation states, minimal public verification, PDF/QR requirements, privacy/security controls and phased rollout.
+- Added CERT-001–CERT-008 to the Requirements Traceability & Acceptance Register and linked the feature from the README and Source of Truth.
+- No runtime feature, backend, credential registry, admin workflow, verification page or certificate PDF generator was implemented in this change.
+- Dependencies remain open: approved issuer identity and policy; assessment item bank and calibrated rubrics/threshold; SME/content approval; backend/authentication/database; privacy/security review; learner pilot.
+- Current DPA site is static. localStorage/browser-only generation is explicitly not an authoritative issuance mechanism.
+
+**Verification boundary:** documentation presence and cross-document references only. Feature implementation, security, browser/runtime behavior and issuance remain OPEN. Release decision remains NOT READY.
