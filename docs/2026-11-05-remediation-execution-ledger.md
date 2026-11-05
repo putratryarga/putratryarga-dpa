@@ -569,3 +569,13 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Extended scripts/validate-dpa-audit-registers.js to require the prior-answer audit trail, editorial revision note, 32–47 word range and non-scored/open states. This raises a validation error if an answer is silently promoted or if the markdown/CSV review process loses its historical text.
 - Technical scope checked against current primary/reference sources: Google Consent Mode requires a separate consent solution; Meridian notes experiment/MMM estimand differences; WCAG 2.2 covers keyboard/error behavior; MRC OOH standards distinguish traffic/gross/OTS/LTS/audience; MRC Digital Audio is not terrestrial AM/FM audience measurement; Nielsen Indonesia TV measurement notes panel/big-data methodology.
 - Branch remains audit-only; main, PR merge and production untouched. Overall release remains NOT READY.
+
+
+## 2026-11-05 — 80-cell agency source-currentness recheck
+
+- Added docs/80-agency-role-source-currentness-snapshot-2026-11-05.md with public-source recheck across WPP Media, Publicis Groupe Indonesia, Dentsu, Havas Village Indonesia/Havas Media and Omnicom Media Indonesia.
+- Fresh Jakarta role leads were found for selected WPP, Publicis and Dentsu families. WPP employer-hosted Greenhouse pages include planning/campaign delivery/search/paid-media/social roles; Publicis official pages include digital planning/media performance, with some Search/Social employer-attributed LinkedIn leads; Dentsu Workday search results include Media Planner, Connection Planner and OOH Media Planner requisitions, but direct Workday open was unavailable during this check.
+- Havas Village Indonesia confirms its local office and global Workday careers link; this check did not verify a current Jakarta role requisition. Omnicom Media Indonesia confirms its office and HR contact; its global career market list inspected did not show Indonesia-specific vacancies.
+- The 80-row register still has all five validation fields OPEN in all cells. Publication/expiry, reviewer, review date and decision fields remain blank in 80/80 rows. The snapshot is evidence discovery/currentness triage, not role/competency acceptance.
+- Source classes must remain distinct: direct employer-hosted JD, official career index/portal, employer-attributed LinkedIn lead, historical/expired role, adjacent/sister-practice role and local-office/career-route evidence.
+- No cell has been promoted to PASS. Currentness, exact requisition, employing entity, geography/seniority and chapter-level competency validation remain OPEN.

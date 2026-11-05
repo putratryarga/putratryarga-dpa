@@ -217,3 +217,12 @@ Current inventory: 169 core chapters, 507 core Q&A, 127 unique resource URLs, 73
 - Added [T01 10-chapter source-fit review](T01-10-chapter-source-fit-review.md) and its 10-row CSV. All ten T01 chapters are PARTIAL at desk-review level; all objective-level formal acceptance, Indonesia access/language/cost, technical and SME statuses remain OPEN.
 - The T01 mapping now uses chapter-specific references for unit-economics/CVP, research ethics/journey mapping, evaluation/KPI definitions, integrated campaign planning, platform paid-media training, SEO/content/community, GA4/consent, experimentation/UX and CRM/lifecycle. Six new distinct URLs bring the map to 127.
 - Material gaps are intentionally retained: CAC/LTV and marketing payback, research sampling/Indonesia category validation, cross-media currency/deduplication and pricing, vendor-neutral channel and lifecycle methods, consent/legal implementation, neutral experimentation power/sample-size, and an integrated tested capstone remain OPEN.
+
+
+## 21. Agency-role evidence currentness snapshot — 5 November 2026
+
+The [80-cell agency source-currentness snapshot](80-agency-role-source-currentness-snapshot-2026-11-05.md) records a fresh public-source recheck across all five groups. Selected Jakarta role leads were found for WPP Media, Publicis Groupe Indonesia and Dentsu. Havas Village Indonesia and Omnicom Media Indonesia have official local-presence/career-route evidence, but this pass did not verify a current local role requisition for all mapped role families. Dentsu Workday detail pages were affected by a service-maintenance response on direct open; the indexed requisition is retained as a lead rather than a confirmed live vacancy.
+
+The 80-cell register still has 80/80 cells with all five formal fields OPEN. Publication/expiry date, reviewer, review date and decision remain blank in all 80 rows. Employer-hosted route, career index, historical JD, adjacent role and employer-attributed post are distinct evidence classes. No title, source URL or job-board result validates all competencies in a chapter.
+
+**Status:** source-currentness desk recheck PARTIAL; 80-cell role specificity, currentness, geography/seniority and chapter-competency validation remain OPEN.

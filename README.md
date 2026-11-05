@@ -151,6 +151,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [Quiz & Assessment Engine — Technical Design](docs/quiz-engine-technical-design.md) — formative quiz architecture and approval/security boundaries. The isolated synthetic-only sandbox is implemented and CI/browser-tested; scored assessment and main chapter integration remain OPEN.
 
 - [Requirements Traceability & Acceptance Register](docs/requirements-traceability-acceptance-register.md) — master acceptance criteria, verification classes, blockers, dependencies and release gates for 16 Core + 2 Electives.
+- [80-cell agency source-currentness snapshot](docs/80-agency-role-source-currentness-snapshot-2026-11-05.md) — current public-source discovery and strict OPEN validation boundary for WPP, Publicis, Omnicom, Dentsu and Havas.
 
 
 - [Advanced elective full chapter drafts — 28 chapters](docs/28-advanced-elective-full-chapter-drafts.md) — first-pass content, Q&A, learner rubric and source appendix; SME/market validation remains open.

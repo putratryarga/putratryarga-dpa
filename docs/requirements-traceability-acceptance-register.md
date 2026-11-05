@@ -436,3 +436,12 @@ The [Elective 18 chapter-level desk audit](ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER
 All 56 elective answer-guidance entries now contain 32–47 words and have corresponding previous-answer text retained in the register. The chapter Markdown is synchronized with the revised guidance. This is editorial strengthening only; all 56 remain reflective/non-scored and editorial/source/SME states remain OPEN. No scored quiz or approved answer key is inferred.
 
 **Formal boundary:** all 28 elective validation rows remain OPEN for technical accuracy, resource fit, answer-key correctness, rubric calibration, Indonesia market/legal applicability, workload, pilot and SME approval. Elective 17 and 18 remain separately assessed and outside the 169 core chapter count. Release remains NOT READY.
+
+
+## 20. Agency evidence currentness snapshot — 5 November 2026
+
+The [80-cell agency source-currentness snapshot](80-agency-role-source-currentness-snapshot-2026-11-05.md) rechecks the current public evidence routes for WPP Media, Publicis Groupe Indonesia, Dentsu, Havas Village Indonesia/Havas Media and Omnicom Media Indonesia.
+
+The recheck found fresh Indonesia role leads for selected WPP, Publicis and Dentsu role families. WPP official Greenhouse listings include Jakarta planning, campaign-delivery, search/paid-media and social roles; Publicis official career pages include Jakarta digital planning and media-performance roles, with additional employer-attributed LinkedIn leads for Search/Social; Dentsu Workday search results include Jakarta media planner, connection planner and OOH media planner requisitions, but direct Workday access was unavailable during this check. Havas Village Indonesia confirms the local office and points to a global Workday career route, but no Jakarta-specific requisition was independently read. Omnicom confirms the Jakarta operation and HR contact, but the career market list inspected did not show Indonesia-specific current vacancies.
+
+**Validation boundary:** this is source-discovery and currentness triage, not 80-cell validation. All 80 cells still have the five formal validation fields OPEN; publication/expiry date, reviewer, review date and decision remain blank in all 80 rows. Index-only, historical, adjacent and sister-practice sources must not be promoted to direct/current role proof. The 80-cell matrix remains PARTIAL and all formal competency/currentness decisions remain OPEN.
