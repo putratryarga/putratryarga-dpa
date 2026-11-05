@@ -332,3 +332,14 @@ The source and tests have been added. Automated workflow execution and actual br
 - Static CI also passed cross-register parity: 169 core IDs, 507 Q&A parity, 63 priority-track desk-review rows, 169 resource rows, 98 unique URLs, 80 agency cells, 169 rubric rows, 28 elective chapters, 56 elective checks and 169 depth-screen rows. The validator explicitly preserves formal SME and Indonesia-access states as OPEN.
 
 **Boundary:** this is isolated browser QA for `quiz-engine-prototype.html`, not an authenticated session on the main DPA learning experience. It does not validate the main role selector/chapter renderer, does not establish complete manual WCAG conformance or formal accessibility certification, and does not approve learner assessment content. Main application browser QA, server-side grading, scored items and SME approval remain OPEN.
+
+
+## 14. Latest exact-head CI and isolated browser verification — 5 November 2026
+
+**Exact tested commit:** `b750ad5089e1195250e3f2b4e96ba76751bfff92`
+
+- [DPA Quiz Engine QA run 41998790335](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41998790335) completed SUCCESS on this exact commit.
+- [DPA Remediation Static QA run 41998790251](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41998790251) completed SUCCESS on the same commit, including 507 Q&A parity with zero mismatches, 63 priority desk-review rows, 121 unique resource URLs, 80 agency cells, 169 rubric rows, 28 elective chapters and 56 elective checks.
+- The isolated formative sandbox passed deterministic unit tests, Playwright browser interaction, axe checks on initial/question/result states, keyboard navigation, unanswered guard, review/retry and 390px viewport overflow checks.
+- The test data remains synthetic-only; unsupported summative mode is rejected. No authoritative 507-question bank, server-side grading, main chapter integration, learner progress persistence or certificate issuance is established by these tests.
+- **QUIZ-001 overall remains PARTIAL.** Main application authenticated browser QA, manual accessibility review, assessment content/SME approval, scored mode and credential integration remain OPEN.

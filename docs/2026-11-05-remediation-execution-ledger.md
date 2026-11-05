@@ -536,3 +536,13 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - The 169-row / 121-URL map is now synchronized across the validator, README, acceptance register, source-of-truth, priority-track review and resource-fit review. The minimum two-distinct-URLs-per-chapter invariant is retained.
 - Added the missing T16 12-chapter desk-review Markdown and 12-row CSV artifacts referenced by the source-of-truth and resource-fit review. Every T16 row remains PARTIAL at desk level; formal fit, Indonesia access, legal applicability, technical review, SME approval and learner pilot remain OPEN.
 - This documentation/validator sync is confined to the audit branch. It does not update production, merge PR #5/#6, or authorize certificate issuance.
+
+
+## 2026-11-05 latest exact-head QA closure — `b750ad5089e1195250e3f2b4e96ba76751bfff92`
+
+- Both stale resource-URL assertions were corrected from 98 to 121. The static workflow [41998790251](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41998790251) passed on this exact SHA.
+- Register parity output: 169 canonical chapters; 507 core Q&A with zero parity mismatches; 169 objective-resource rows; 63 priority desk-review rows (T02 10, T03 10, T07 10, T10 10, T13 11, T16 12); 169 resource rows / 121 unique URLs; 80 agency cells; 169 rubric rows; 28 elective chapters; 56 elective knowledge checks; 169 depth-screen rows. Formal review states remain OPEN.
+- Deterministic structure validation, register parity, chapter-depth screen, Python score-script compilation and temporary synthetic 169×7 score-vector self-test passed. Synthetic vectors are test fixtures, not recovered historical audit scores.
+- Isolated formative quiz workflow [41998790335](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41998790335) passed on the same SHA: deterministic tests, Playwright interaction, axe checks, keyboard navigation, unanswered guard, review/retry and 390px overflow test. This is not main-app authenticated QA or scored assessment approval.
+- GitHub combined status reports the Vercel check as SUCCESS for this commit. This is not a substitute for authenticated browser QA, production verification or curriculum/content acceptance.
+- Branch comparison: 405 commits ahead, 0 behind `main`. `main` was not changed. PR #5 and #6 remain open/draft and non-mergeable. Release remains NOT READY; certificate issuance remains NOT AUTHORIZED.
