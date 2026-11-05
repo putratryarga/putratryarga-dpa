@@ -29,7 +29,9 @@
 | Register Q&A items | 507 source-matched items | PASS — answer correctness remains OPEN |
 | Rubric answer-key review entries | 507 | PASS — SME approval remains OPEN |
 
-| Role-specific glossary extraction | 149 source guide term arrays | PASS — source extraction only |\n\n## Interpretation
+| Role-specific glossary extraction | 149 source guide term arrays | PASS — source extraction only |
+
+## Interpretation
 
 - The explicit chapter-ID mapping is statically reconciled: 169 HTML chapter IDs and 169 guide IDs, with no missing, orphan or duplicate IDs.
 - The chapter evidence register and rubric file contain 169 chapters each and 507 Q&A items each. The 149 role-specific guide glossary fields have been regenerated from source arrays; extraction is not SME content approval.
