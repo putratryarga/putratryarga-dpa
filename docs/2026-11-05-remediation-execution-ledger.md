@@ -327,3 +327,15 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Quiz-engine automated workflow passed on SHA `ddfac599440800c9d329fe97d6ddf88e9c054023` (run [41967997038](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41967997038)); static remediation QA also passed on the same SHA (run [41967996999](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41967996999)). Subsequent source/register/validator changes trigger new exact-head runs; their result must be separately recorded.
 
 **Limit:** these artifacts enable controlled review batches. They do not recover the missing original prompt, historical score matrix or original 23/D-1…D-12 issue log; they do not provide SME/JD/browser-session inputs.
+
+
+## 16. 169-core chapter depth screening
+
+**Date:** 5 November 2026  
+**Disposition:** STRUCTURAL SCREEN PASS; SUBSTANTIVE CONTENT VALIDATION OPEN.
+
+- Added docs/169-chapter-depth-screening.csv with one row for each of the 169 canonical core chapter IDs and scripts/audit-dpa-chapter-depth.js for reproducible re-checking.
+- All 169 chapters passed the stated structural heuristics: minimum objective 362 characters, simulated example 176, workflow 367 characters and four steps, practice/deliverable 133, glossary four terms, Q&A three and mapped resources two.
+- The 507 Q&A question texts had zero exact duplicates after case/punctuation/whitespace normalization. This does not detect conceptual near-duplicates or validate answer correctness.
+- Static CI now runs the depth-screen script and validates the 169-row CSV snapshot.
+- No score or chapter-validation status is inferred from text length/field presence. Technical accuracy, specificity, currentness, role relevance, Indonesia application, objective-level source fit, SME review and assessment calibration remain OPEN.
