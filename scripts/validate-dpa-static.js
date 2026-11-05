@@ -172,6 +172,17 @@ try {
     line.includes("Tier 3 practice pack: docs/T08-direct-publisher-buying-simulation.md (synthetic).")
   );
   assertEqual("T08 resource map rows linked to simulation pack", t08ResourceRows.length, 10);
+  const t08Boundary = "Open-auction bidding bukan kompetensi inti T08.";
+  if (!roleParts[0].includes(t08Boundary) || !evidence.includes(t08Boundary)) {
+    fail.push("T08 scope boundary must be synchronized between role guide and evidence register.");
+  }
+  const t08DigitalDelivery = "SIMULATED — publisher menjanjikan 6,000,000 display impressions pada placement homepage/section selama flight; laporan akhir menunjukkan 5,280,000.";
+  if (!roleParts[0].includes(t08DigitalDelivery) || !evidence.includes(t08DigitalDelivery)) {
+    fail.push("T08 digital publisher delivery example must be synchronized between role guide and evidence register.");
+  }
+  if (roleParts[0].includes("100 spot radio") || evidence.includes("100 spot radio")) {
+    fail.push("T08 core example must not use the superseded radio-spot scenario from the Traditional Media scope.");
+  }
   if (!resourceFitReview.includes("T08 chapter practice = PARTIALLY ENHANCED")) {
     fail.push("Resource-fit review must preserve T08 simulation as a practice enhancement, not a source-fit PASS.");
   }
