@@ -240,3 +240,30 @@ QTI 3.0 is an optional portability design consideration, not a requirement to ce
 
 **Release decision:** **NOT READY — REMEDIATION INCOMPLETE.**  
 **Completion rule:** a requirement is COMPLETE only when its acceptance criteria, verification class, direct evidence and reviewer/disposition are all recorded. Structural counts and successful CI cannot substitute for content, SME, runtime or production validation.
+
+
+## 11. P1 remediation execution addendum — T08
+
+**Date:** 5 November 2026  
+**Status:** Practice coverage PARTIALLY ENHANCED; primary-source, SME and local-market acceptance remain OPEN.
+
+### Delivered
+- Created `docs/T08-direct-publisher-buying-simulation.md`, a Tier 3 synthetic end-to-end case for DPA-T08-CH01 through CH10.
+- Added the pack reference to all ten T08 chapter resource-map rows without adding a new external source URL or changing the 48-URL primary-source inventory.
+- The exercise covers media-owner mapping, common RFP/RFQ, proposal normalization, CPM/bonus arithmetic, budget cap, negotiation/BATNA, booking/IO checklist, delivery evidence, shortfall analysis, invoice variance and publisher scorecard.
+- All publishers, rates, impression volumes, dates and campaign outcomes are expressly synthetic. The exercise is not a current Indonesian market benchmark, real rate card, client outcome, legal IO template or tax opinion.
+- Corrected T08 boundary wording: direct publisher IO/sponsorship/reserved inventory is distinguished from PMP/PG DSP execution and open-auction bidding (coordinate with T06); a radio-spot example was replaced by a digital publisher display-delivery shortfall aligned to T08 scope.
+- Cross-checked the model arithmetic independently: A contracted CPM Rp12,000; A bonus-adjusted illustrative CPM Rp10,285.71; B contracted CPM Rp14,000; B bonus-adjusted illustrative CPM Rp13,263.16; A+B contracted blended CPM Rp12,857.14; A+B bonus-adjusted illustrative CPM Rp11,489.36; A+B+C total Rp153,000,000, Rp3,000,000 over the Rp150,000,000 cap; A/B shortfall values Rp8,640,000/Rp7,000,000, combined Rp15,640,000. Shortfall value is not an automatic refund or credit; remedies depend on the signed IO.
+
+### Primary-source cross-check and caveat
+- The Jakarta Post publisher page describes an Advertising Department reservation process, signed Booking Order, media-kit/rate-card references, insertion details and payment/invoice provisions. Direct web open returned HTTP 403, although indexed publisher content was retrievable. It remains a single-publisher source lead, not universal practice.
+- The page displays a 10% VAT note. DJP's 3 January 2025 explanation of PMK 131/2024 states that non-luxury taxable goods/services are calculated using 12% × 11/12 of the relevant base (effective 11% for most such supplies), while relevant luxury goods/services use 12% on the full base. Do not copy the publisher page's 10% note into a current budget model; actual advertising invoice treatment and any specific DPP treatment require finance/tax confirmation.
+- IAB/4A's Internet Advertising Terms v3.0 identifies common IO fields but explicitly states it is not meant to cover direct advertiser buys with publishers and does not fully cover sponsorship/content integration. It is a limited US-oriented reference, not an Indonesian direct-buy contract or local legal precedent.
+
+### What remains open
+- Current publisher-issued media kits, rate cards, written proposals, booking orders/terms, delivery reports and invoice examples from relevant Indonesia media owners.
+- Current agency direct-buying SOPs, procurement thresholds, approval matrix and locally reviewed makegood / cancellation / invoice-dispute practice.
+- Qualified SME review of all ten T08 chapters, answer keys and rubrics; authorized legal/procurement/tax review of local commercial materials.
+- Objective-to-resource fit for every chapter remains open across all 169 core chapters. The simulation is a practice artifact, not a source-fit approval.
+
+**Disposition:** T08 practical simulation deliverable = PARTIAL/PRESENT. T08 primary-source and SME validation = OPEN. Overall release remains NOT READY.
