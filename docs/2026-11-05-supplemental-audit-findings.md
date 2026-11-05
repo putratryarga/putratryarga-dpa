@@ -23,16 +23,16 @@
 | HIST-001 | Historical score inputs | No authoritative 169 × 7 raw score matrix was recovered in any of the 12 inspected repository branches or accessible Library sources. The normative source gives 0–4 scale and formula but does not define/name the seven audit dimensions. | BLOCKED — source recovery required | Recover versioned dimension definitions/anchors and original assessor-entered vectors. Blank collection template is at audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv; it is not data and must not be scored. |
 | HIST-002 | Historical issues / discrepancy log | The original 23 finding rows and D-1…D-12 records were not found in inspected repo branches, PR #5/#6 discussions/reviews or accessible Library sources. | BLOCKED — source recovery required | Request original report/export or source attachment from its author/system. Do not substitute this supplemental register or infer missing rows. |
 | RUNTIME-001 | Browser QA | Preview returned HTTP 200, 169 unique chapter IDs and local JS assets returned HTTP 200; no authenticated browser interaction, DOM execution, role-switch, persistence, keyboard or accessibility-tree QA was performed. | OPEN — authenticated QA required | Run authenticated desktop/mobile browser tests and preserve screenshots, console/network evidence, test matrix and actual interaction outcomes. HTTP smoke is not a browser pass. |
-| RUNTIME-002 | Preview build | Preview on source/resource commit f9def1a8c6a8b22568b38bd83c7c1086765418fb reached Vercel READY and GitHub status success. Later commits are documentation-only; do not infer their deployments from the earlier preview. | PARTIAL — code preview verified at earlier SHA | If a current branch-head preview is required, verify the new deployment maps to the latest commit and re-run HTTP/assets; do not promote to production without approvals. |
-| CI-001 | CI evidence | A branch-only static QA workflow is present, but the workflow-run result is not independently retrievable through the available GitHub connector. | OPEN — run evidence unavailable | Obtain Actions run ID/job conclusion from GitHub Actions UI or a run-aware endpoint; preserve logs and exact SHA. Do not call the workflow passed because it exists. |
+| RUNTIME-002 | Preview build | Current application code at SHA fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2 has Vercel deployment dpl_HdSvAAgybvAvYMPqvF2FUxiJB4kq in READY state. Its preview returned HTTP 200, 169 unique chapter IDs, 13 internal anchor targets and 8/8 local JS assets returning HTTP 200; three updated role-guide bundles contain the expanded content. Later branch changes are documentation-only. | FIXED — current-code preview/HTTP/asset smoke verified | Authenticated browser interaction, persistence, keyboard, accessibility-tree and cross-browser QA remain a separate open finding (RUNTIME-001). No production deployment was performed. |
+| CI-001 | CI evidence | The push-triggered static QA workflow completed successfully on the latest checked documentation head 1070b4ef80d74e7922e0e91ddcc088409bb4a2ce in run 41956236070. The job passed deterministic source validation, Python score-script compilation and the temporary synthetic 169-vector / 16-track calculator test. | FIXED — current branch-head CI evidence captured | Preserve the run URL and exact SHA. Synthetic vectors are test inputs only, not historical audit scores; CI PASS does not substitute for SME or raw-score validation. |
 
 ## Closure summary
 
 | Status | Count |
 |---|---:|
-| FIXED (source corrections / full draft authorship) | 3 |
-| PARTIAL (improvement exists, independent validation remains) | 6 |
-| OPEN (review or runtime/CI action required) | 6 |
+| FIXED (source corrections, elective drafting, current preview, CI evidence) | 5 |
+| PARTIAL (improvement exists, independent validation remains) | 5 |
+| OPEN (review or interaction/runtime action required) | 5 |
 | BLOCKED (historical source records missing) | 2 |
 | **Total supplemental findings** | **17** |
 
