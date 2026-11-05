@@ -40,6 +40,7 @@ See [16-core-track-role-crosswalk.md](16-core-track-role-crosswalk.md) for compe
 
 ## 4. Chapter and guide identity
 - Canonical ID format: `DPA-Txx-CHxx`.
+- Canonical machine-readable chapter inventory: [169-core-chapter-ids.txt](169-core-chapter-ids.txt), extracted from `index.html` and expected by the score-recalculation script.
 - Map guides by immutable chapter ID, never array position.
 - Evidence register is a source-extraction/traceability artifact; populated fields do not prove SME correctness.
 - T07 alignment: CH06 Retail Audience / First-Party Data; CH07 Product Feed / Digital Shelf / Retail Readiness; CH08 Campaign Activation / Bidding / Optimization, including in-store execution controls.
