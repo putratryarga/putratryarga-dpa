@@ -196,3 +196,10 @@ The added local sources document distinct TikTok Shop Ads/GMV Max, invitation-ga
 A first-pass review for all eleven T13 chapters is recorded in [T13 review](T13-11-chapter-source-fit-review.md) and [CSV](T13-11-chapter-source-fit-review.csv). Each chapter is PARTIAL; formal objective acceptance, rights clearance, local legal review, platform access and SME approval remain OPEN. The resource map has 169 chapter rows / 90 unique URLs.
 
 The added references include TikTok Creative Center/Top Ads, commercial music and creator-disclosure help, YouTube native analytics and JDIH BPK's UU 28/2014 record. The DPR reported on 27 October 2026 that the bill to amend the copyright law remained under Panja discussion. A proposal is not an enacted law; learners must not present draft changes as current statutory requirements.
+
+
+## 26. T16 community management and advocacy source-fit review
+
+The [T16 review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) document first-pass desk review of all T16 chapters. All twelve are PARTIAL. Formal objective acceptance, local platform access, legal applicability, technical review and SME sign-off remain OPEN. The resource map contains 169 rows / 98 unique URLs.
+
+The new sources include UU PDP 27/2022, UU ITE 1/2024, PP 71/2019, Meta and TikTok safety/moderation policies, TikTok comment controls and YouTube moderation. Legal obligations, platform standards and journalist-specific guidelines remain separate. PP 71/2019 should not be interpreted to mean an ordinary brand account is automatically a regulated PSE; confirm the entity/service scope with qualified legal review. Dewan Pers Cyber Media Guidelines apply to journalistic cyber media rather than automatically to all brand community pages.
