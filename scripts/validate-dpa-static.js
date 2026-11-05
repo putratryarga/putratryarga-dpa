@@ -330,6 +330,9 @@ try {
   const electiveQnaRegister = read("docs/56-elective-knowledge-check-review-register.csv");
   const electiveQnaRows = electiveQnaRegister.trim().split("\n").length - 1;
   assertEqual("56-item elective knowledge-check register rows", electiveQnaRows, 56);
+  const chapterDepthScreen = read("docs/169-chapter-depth-screening.csv");
+  const chapterDepthRows = chapterDepthScreen.trim().split("\n").length - 1;
+  assertEqual("Chapter depth screening snapshot rows", chapterDepthRows, 169);
   const requiredNewResourceUrls = [
     "https://sqlbolt.com/topics",
     "https://miguelhernan.org/whatifbook",
