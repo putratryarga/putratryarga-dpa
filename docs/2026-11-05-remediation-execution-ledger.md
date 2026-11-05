@@ -351,3 +351,18 @@ Source checks and deterministic tests are present; workflow result and authentic
 - All 169 rows remain OPEN for calibration, qualified SME approval, sample learner submissions and inter-rater agreement.
 - The proposed threshold and critical-failure rule are not authorized for summative grading or credential eligibility until standard-setting evidence is complete.
 - The static validator now enforces the 169-row count of this register.
+
+
+## 18. Quiz sandbox browser and accessibility verification
+
+**Date:** 5 November 2026  
+**Exact tested commit:** `29c981f58be81d470ddb5c0e4542753eb96b4a6f)  
+**Disposition:** AUTOMATED SANDBOX E2E / AXE PASS; MAIN DPA AUTHENTICATED QA OPEN.
+
+- Quiz workflow [41970086027](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086027) completed SUCCESS. Playwright Chromium loaded the local prototype and exercised the empty/unanswered guard, all responses, progress, deterministic 100% fixture result, review, retry/reset, radio-group keyboard navigation, and a 390px viewport with no horizontal overflow.
+- Axe checks passed on initial, question and result states with the configured WCAG 2.0/2.1/2.2 A/AA tag selection. This automated scan is not a complete manual WCAG audit or accessibility certification.
+- Static workflow [41970086188](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086188) completed SUCCESS. Validator reports 169 mapped rows, 54 unique source URLs, at least two source URLs per chapter, no missing DOM/local script references, all granular review-register row counts and no failures. Depth-screen script and temporary synthetic scoring self-test passed.
+- The initial Axe integration failure was traced to using Playwright `browser.newPage()`; it was corrected to create an explicit browser context and the exact-head rerun passed.
+- These checks apply to the separate local synthetic quiz sandbox only. Authenticated browser QA of the main DPA website, role selector, live chapter renderer, accessibility audit of all main pages, actual preview/production build and post-release monitoring remain open.
+
+**Requirement effect:** isolated quiz browser verification = PASS; QUIZ-001 overall = PARTIAL. Release remains NOT READY.
