@@ -26,7 +26,7 @@
 | Agency evidence | Reconciled 80-cell class labels after Havas requisition review | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | PARTIAL — source/JD/competency validation remains open |
 | Canonical chapter inventory | Added 169 unique chapter IDs extracted from HTML | Score-recalculation script compares input IDs against the canonical inventory by default | FIXED — structural baseline only |
 | TikTok certification facts | Added 7-day retake interval and six-month recertification eligibility window | Current TikTok Academy FAQ and recertification guidance | FIXED — issuer facts; exam registration/account access remains conditional |
-| Static validator | Extended checks to the 80-cell agency matrix and 10 elective evidence groups | Script source contains expected structural/class assertions; it has not been executed in a local Node checkout | PENDING EXECUTION — do not treat script presence as a PASS |
+| Static validator | Extended checks to the 80-cell agency matrix and 10 elective evidence groups | GitHub Actions run 41950779127 on SHA 7442ca4 completed SUCCESS; validator output and synthetic self-test logs inspected | PASS — static/source assertions only; no SME/JD content validation |
 
 ## Agency evidence status — PARTIAL
 The reconciled 80-cell matrix contains A 37, B 20, C 0, D 37, E 0 and G 5 class-label instances, with 19 compound cells (99 total label instances across 80 unique cells). Five cells retain a G marker: T09/Dentsu; T14/Havas (B/G sister-practice only, no direct HMN role); T15/Omnicom; T15/Havas; T16/Havas. T05/Havas is now direct Paid Social evidence (JR0096922, Warsaw, 2+ years); T11/Havas is now direct Organic & AI Manager evidence (JR0099039, Sydney, 4+ years, manager-level). Neither should be generalized to entry-level or Indonesia-market roles. JR0096564 is historical DMPG evidence, JR0093003 is Havas Paris Social sister-practice evidence, and JR0093690 is Havas Play evidence with unresolved start-date metadata. Cell coverage is complete; competency-level verification of every source is not.
@@ -56,12 +56,12 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 ## Additional reconciled quality indicators
 - 149 role-specific guide objects were reparsed. Short-content triage now records 122 answers under 12 words across 79 chapters and 81 glossary definitions under 5 words across 58 chapters (HTML tags/entities stripped; whitespace token count). These are review flags, not automatic defects. The 20 legacy guides remain separate.
 - 169 evidence-register chapters, 169 rubric chapters, 169 glossary blocks, 507 register Q&A entries and 507 rubric Q&A entries are structurally aligned. All answer correctness and rubric calibration remain OPEN.
-- Static source checks recorded 169 HTML IDs, 169 guide mappings, 169 register chapters, 169 rubric chapters, 169 resource rows and 169 technical-review rows; 169 glossary blocks; 507 Q&A entries in register and rubric; 19 CSS media queries; 391 DOM IDs; 13 internal anchors with no unresolved target. The agency matrix contains 80 cells (A37/B20/D37/G5; 19 compounds) and the elective matrix contains 10 agency × elective rows. These figures were independently recounted from repository source via API; the added Node validator itself has not yet been run. This is static verification only; no browser/runtime claim.
+- Static source checks recorded 169 HTML IDs, 169 guide mappings, 169 register chapters, 169 rubric chapters, 169 resource rows and 169 technical-review rows; 169 glossary blocks; 507 Q&A entries in register and rubric; 19 CSS media queries; 391 DOM IDs; 13 internal anchors with no unresolved target. The agency matrix contains 80 cells (A37/B20/D37/G5; 19 compounds) and the elective matrix contains 10 agency × elective rows. These figures were independently recounted from repository source via API and confirmed in GitHub Actions run 41950779127 (commit 7442ca481b9e5f786f95db971ac314cef32f9be5). This is static/source verification only; no browser/runtime claim.
 
 ## Open gates
 1. Recalculate all 169 chapter scores from authoritative raw vectors and reconcile all totals.
 2. Recover/disposition all 23 issue rows and D-1…D-12.
-3. Audit all 90 role-evidence cells at source/JD level.
+3. Independently audit all 80 core agency × track cells and the separate 10 agency × elective mappings at source/JD level; distinguish direct, adjacent, historical and gap evidence.
 4. Complete the 169-chapter objective-level source review and Indonesia access/language/price/credential checks; provisional 16-track desk results are documented in docs/169-chapter-resource-fit-review.md.
 5. Complete independent SME review for 169 chapters and legacy guide families.
 6. Validate all 507 answer keys and alternate answers; calibrate rubrics.
@@ -78,8 +78,8 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 - Main's latest history was reconciled into the remediation branch via branch-only merge commit `85a69f5544c1cdf920576b3ceb236431303f568d`. Its first parent is the previous remediation head `cd61a5f94bd50549022c5e5f046b07bdf375d265`; its second parent is the unchanged `main` head. The remediation tree was retained; updated crosswalk/elective documents are kept instead of the older main-side wording.
 - The current remediation branch has **zero commits behind main**. The exact current branch head and ahead count are verified in the final handoff.
 - PR #5 and PR #6 remain open, draft, unmerged and not mergeable. No merge into `main`, no production deployment, promotion, environment-variable/domain change, or production content change was performed.
-- The earlier branch build-rate-limit status was superseded: source commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` now has GitHub combined status **SUCCESS** and Vercel deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` **READY**. The exact preview URL returned HTTP 200; all eight referenced local JavaScript assets also returned HTTP 200. This is HTTP/asset smoke verification, not interactive browser QA. The push-workflow run remains not independently verifiable through the available connector.
-- The branch-only push workflow has been added; its run result is not independently retrievable through the current connector, whose workflow-run listing exposes PR-triggered runs only.
+- The source/resource code commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` has Vercel deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` READY; its preview returned HTTP 200 and all eight referenced local JavaScript assets returned HTTP 200. Separately, GitHub Actions run `41950779127` completed SUCCESS on documentation branch SHA `7442ca481b9e5f786f95db971ac314cef32f9be5`; logs confirm deterministic Node validation, Python compile and a temporary synthetic score self-test. The later branch head `e21c30ec69a66babdab79c3837fb3637d442d8bb` is docs-only and its Vercel status currently shows build-rate-limit; no READY deployment is claimed for that exact head. HTTP smoke is not authenticated interactive browser QA.
+- The branch-only push workflow is now directly verified by run 41950779127 at SHA 7442ca481b9e5f786f95db971ac314cef32f9be5; see the successful execution log below.
 - Authenticated browser/runtime QA: NOT RUN. No desktop/mobile interactions, screenshots, console/network, accessibility-tree or cross-browser checks are claimed.
 
 **Release decision stays NOT READY.** The branch is a remediation working candidate, not a merged or production-ready release.
@@ -88,7 +88,7 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 
 Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branch only. It is configured for pushes to this branch and manual dispatch; it runs the deterministic Node static validator, compiles the Python score script, and runs a temporary 169-row SYNTHETIC-vector self-test against the canonical chapter ID inventory. The synthetic outputs are isolated under `/tmp` on the runner and are not audit scores.
 
-**Execution visibility:** the available GitHub workflow-run listing connector only returns PR-triggered runs. The new workflow is push-triggered; therefore its actual run result is **NOT INDEPENDENTLY VERIFIED** in this session. Do not claim CI PASS until a run ID/job result is available from GitHub Actions UI or a run-aware endpoint.
+**Execution visibility:** GitHub Actions run 41950779127 for push SHA 7442ca481b9e5f786f95db971ac314cef32f9be5 completed SUCCESS. Job “Static structure and score-script self-test” passed the deterministic Node validator, compiled the Python recalculation script, generated temporary SYNTHETIC vectors and successfully recalculated 169 synthetic chapter outputs / 16 track summaries. Synthetic files existed only in runner /tmp and are not audit scores. Do not treat this synthetic self-test as raw-data recalculation.
 
 
 ## 2026-11-05 resource-source and preview execution delta
@@ -112,3 +112,14 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 - **Raw scores:** audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv is a blank 169-row collection template. Seven dimension definitions and raw scores are not present. The template must not be fed into the calculator and is not a scorecard.
 - **Historical search:** all 12 available GitHub branches were enumerated and their trees checked; current PR #5/#6 discussion/review metadata and accessible Library search were inspected. No original raw score matrix or original findings/discrepancy register was recovered.
 - **Release decision:** NOT READY — REMEDIATION INCOMPLETE. SME/JD, raw score, historical issue/discrepancy, 169 objective fit, 507 answer-key, rubric calibration, Indonesia market/legal, elective pilot and authenticated browser gates remain open or blocked.
+
+
+## 2026-11-05 CI verification addendum
+
+- Push workflow run: https://github.com/putratryarga/putratryarga-dpa/actions/runs/41950779127
+- Subject SHA: 7442ca481b9e5f786f95db971ac314cef32f9be5 — branch head when the run was created; subsequent documentation commits advanced the branch.
+- Job: Static structure and score-script self-test — SUCCESS.
+- Validator output confirmed 169 HTML IDs, 169 unique guide IDs, 169 evidence chapters, 169 rubric chapters, 169 glossary blocks, 169 resource rows, 169 technical rows and 16 unique track rows.
+- Python script compilation succeeded. The pipeline generated 169 temporary SYNTHETIC inputs, recalculated 169 synthetic chapter outputs across 16 synthetic track summaries, and passed assertions. The files were isolated in runner temporary storage and were not committed or used as raw chapter score values.
+- Non-blocking warnings: Punycode module deprecation and the runner's Node 20-to-24 action runtime transition. No workflow step failed.
+- Later documentation commit e21c30ec69a66babdab79c3837fb3637d442d8bb triggered another run; its outcome must be checked separately rather than inferred from the earlier run.
