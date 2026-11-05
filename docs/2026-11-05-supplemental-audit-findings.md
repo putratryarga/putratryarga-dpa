@@ -31,10 +31,10 @@
 | Status | Count |
 |---|---:|
 | FIXED (source corrections / full draft authorship) | 3 |
-| PARTIAL (improvement exists, independent validation remains) | 5 |
-| OPEN (review or runtime/CI action required) | 5 |
+| PARTIAL (improvement exists, independent validation remains) | 6 |
+| OPEN (review or runtime/CI action required) | 6 |
 | BLOCKED (historical source records missing) | 2 |
-| **Total supplemental findings** | **15** |
+| **Total supplemental findings** | **17** |
 
 Counts apply only to this newly authored supplemental register. They are not the historical 23 findings or 12 discrepancies.
 
