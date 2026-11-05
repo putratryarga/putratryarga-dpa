@@ -101,7 +101,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 ## Automated Q&A and agency evidence triage
 
-**Agency source linkage update:** 79/80 cells have attached references (99 URLs); T01 × WPP Media remains unlinked. All 80 remain OPEN for currentness, role-scope and competency review.
+**Agency source linkage update:** 80/80 cells have attached references (101 URLs), including WPP T01 performance roles. All 80 remain OPEN for currentness, role-scope and competency review.
 
 
 - [507 Q&A item triage](docs/507-qna-automated-triage.csv) — source gaps and editorial review heuristics; not approval.
