@@ -345,6 +345,9 @@ try {
   const t07DeskReview = read("docs/T07-10-chapter-source-fit-review.csv");
   const t07DeskReviewRows = t07DeskReview.trim().split("\n").length - 1;
   assertEqual("T07 10-chapter source-fit desk-review rows", t07DeskReviewRows, 10);
+  const t13DeskReview = read("docs/T13-11-chapter-source-fit-review.csv");
+  const t13DeskReviewRows = t13DeskReview.trim().split("\n").length - 1;
+  assertEqual("T13 11-chapter source-fit desk-review rows", t13DeskReviewRows, 11);
   const qnaTriage = read("docs/507-qna-automated-triage.csv");
   const agencyGapTriage = read("docs/80-agency-cell-evidence-gap-triage.csv");
   const qnaTriageRows = qnaTriage.trim().split("\n").length - 1;
@@ -396,7 +399,14 @@ try {
     "https://iklan.shopee.co.id/learn/faq/574/1716",
     "https://www.lazadasolutions.com/id/id-faqs/",
     "https://www.lazadasolutions.com/id/faq/bagaimana-cara-mengelola-campaign-sponsored-discovery-di-aplikasi-lazada-seller-center/",
-    "https://iklan.shopee.co.id/learn/faq/555/8"
+    "https://iklan.shopee.co.id/learn/faq/555/8",
+    "https://support.tiktok.com/id/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok",
+    "https://ads.tiktok.com/resources/help/article/about-the-content-disclosure-setting-for-creators?lang=id",
+    "https://ads.tiktok.com/resources/help/article/how-to-use-top-ads-dashboard",
+    "https://support.google.com/youtube/answer/9313698?cid=analytics-series&hl=en",
+    "https://support.google.com/youtube/answer/9314486?hl=en",
+    "https://support.google.com/youtube/answer/12942217?co=YOUTUBE",
+    "https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014"
   ];
   for (const url of requiredNewResourceUrls) {
     if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);
