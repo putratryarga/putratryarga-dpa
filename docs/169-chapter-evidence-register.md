@@ -2746,19 +2746,13 @@
 
 **Practice / deliverable:** Buat retail optimization log dari data SIMULATED 14 hari: per SKU/query, bid, spend, clicks, sales, stock, price, promo, rating, ACoS, root cause, action, and result. Tambahkan modul in-store: placement map untuk 20 toko, flight/daypart, creative spec, store operations checklist, proof-of-play evidence, uptime exception log, dan sales/footfall measurement caveats.
 
-**Assessment / comprehension checks:** 6 static Q&A item(s); no scored quiz engine or approved answer key is implied.
-1. **Q:** Mengapa ROAS bisa turun meski campaign setting tidak berubah?
-   **Expected answer in guide (not independently approved):** Harga, stock, competitor price, ratings, product content, seasonality, and auction competition dapat berubah.
-2. **Q:** Apa yang harus dilakukan bila stock-out?
-   **Expected answer in guide (not independently approved):** Pause/exclude affected SKU atau ubah destination/offer; koordinasikan inventory dan jangan biarkan spend mendorong item unavailable.
-3. **Q:** Mengapa perubahan bid perlu change log?
-   **Expected answer in guide (not independently approved):** Agar dampak bisa ditelusuri dan tidak tercampur dengan price/promo/stock changes.
-4. **Q:** Apa itu proof-of-play?
-   **Expected answer in guide (not independently approved):** Bukti bahwa aset ditayangkan pada screen/placement sesuai waktu/ketentuan yang dibooking.
-5. **Q:** Mengapa footfall tidak sama dengan ad exposure?
-   **Expected answer in guide (not independently approved):** Footfall mengukur kunjungan lokasi; tidak membuktikan setiap orang melihat placement atau mengingat pesan.
-6. **Q:** Apa kontrol operasional khas in-store?
-   **Expected answer in guide (not independently approved):** Store availability, uptime, installation, staff, display condition, operating hours, and safety.
+**Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
+1. **Q:** Apa saja penyebab retail media ROAS turun, dan bagaimana memisahkan masalah media dari masalah produk?
+   **Expected answer in guide (not independently approved):** Periksa spend, bid, query, placement, serta harga, stok, promo, rating, kualitas listing, kompetitor, seasonality, dan margin per SKU. Jangan mengubah seluruh bid sebelum mengisolasi faktor produk/operasional.
+2. **Q:** Kontrol apa yang wajib ada pada aktivasi in-store retail media?
+   **Expected answer in guide (not independently approved):** Validasi store/placement inventory, daypart, creative spec, installation, uptime, proof-of-play, store operations, safety, footfall methodology, dan periode pembanding. Plays atau footfall bukan otomatis unique ad exposure.
+3. **Q:** Mengapa change log dan measurement caveats penting saat mengoptimasi retail campaign?
+   **Expected answer in guide (not independently approved):** Catat perubahan bid/SKU/placement, alasan, observation window, owner, guardrail, dan hasil. Pisahkan platform attribution dari incrementality; rekonsiliasi sales, return, stock, margin, match coverage, dan control design.
 
 **Glossary:**
 - **ACoS:** Ad spend dibagi attributed sales.
