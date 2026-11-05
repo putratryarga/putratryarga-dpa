@@ -165,3 +165,10 @@ A second pass against employer-hosted job pages and career indexes found evidenc
 | T16 × Havas Media Network | [Havas Paris Social Community Manager apprenticeship, JR0094195](https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Alternance-consultant-social-media_JR0094195) | B/D | Adjacent Havas Paris Social sister-practice evidence, Puteaux, 2026 apprentice intake. Covers community interaction, customer-care escalation, creative responses, brand tone and social reporting; not a direct HMN vacancy. |
 
 **Classification outcome:** all five former G markers now have a documented title, historical or adjacent evidence route, so no cell remains an unqualified “no evidence located” marker. This does **not** mean the five cells are direct, current or independently validated. The matrix remains partial at competency/JD level, and evidence must not be generalized across geographies, seniority or Havas sub-brands.
+
+
+## 10. Per-cell traceability attachment update — 5 November 2026
+
+The granular companion register `docs/80-agency-role-cell-validation-register.csv` now attaches 99 source references across 79 of 80 cells, using the employer-hosted/career-index source register and role-specific references in the historical archive. Source types and market/seniority/unit caveats are recorded per cell. One unresolved cell is T01 × WPP Media, whose inherited performance/integrated-planning claim still needs an exact role source.
+
+This is source-link traceability, not a new validation result. The links include direct JDs, career indexes/title evidence, employer-attributed LinkedIn posts, adjacent practices and historical/expired requisitions. All 80 cells remain OPEN for independent source currentness, legal employing entity, role specificity, geography/seniority and chapter-level competency mapping. The 80-cell evidence matrix remains PARTIAL.
