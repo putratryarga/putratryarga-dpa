@@ -256,6 +256,17 @@ The [T14 12-chapter Q&A technical desk review](T14-12-chapter-qna-technical-desk
 
 The reference set includes Dewan Periklanan Indonesia's EPI 2020, BPK records for UU 8/1999 (Consumer Protection), UU 27/2022 (Personal Data Protection) and UU 28/2014 (Copyright), plus Meta branded-content/partnership ads, TikTok branded-content/Spark Ads authorization and YouTube paid-promotion disclosure. The EPI is an industry ethical code, not itself a statute. Platform authorization is not a substitute for contract rights, copyright/likeness licences or local legal review.
 
-The cumulative Q&A source-mapping inventory now has **102/507 items with supporting item-level references** (T06 36, T10 30, T14 36); **405/507 still lack** an item-level source reference. Automated triage flags 107 answers under 14 words, 19 bare-Boolean openings and 16 absolute-wording hits; current answer length range is 12–43 words. These remain heuristic red flags, not correctness findings.
+This T14-era Q&A source-mapping snapshot is superseded by the T12 review recorded below. Current post-T12 inventory: 132/507 items have supporting item-level references (T06 36, T10 30, T14 36, T12 30); 375/507 remain without item-level source references. Current triage flags 94 answers under 14 words, 18 bare-Boolean openings and 16 absolute-wording hits; answer length range is 12–45 words. These are heuristic red flags, not correctness findings.
 
 **Formal boundary:** all 36 T14 items remain reflective/non-scored. Answer-review, editorial, source-fit, local legal/compliance and SME approval remain OPEN.
+
+
+## 25. T12 CRM & Lifecycle — 30-item Q&A technical/editorial desk review — 5 November 2026
+
+The [T12 10-chapter Q&A technical desk review](T12-10-chapter-qna-technical-desk-review.md) and [30-row CSV](T12-10-chapter-qna-technical-desk-review.csv) document first-pass expansion of all T12 answer guidance to 34–45 words with item-level references. Prior answer text is retained. The canonical `role-study-guides-part2.js`, 169-chapter evidence register, Q&A review CSV and automated triage CSV are synchronized; the CH05-Q01 wording was revised to avoid a bare Boolean answer.
+
+The source set includes JDIH Komdigi's UU 27/2022 PDP, Google Consent Mode, WhatsApp Business Policy updated 23 September 2026, Gmail sender guidelines and one-click unsubscribe FAQ, RFC 8058, HubSpot workflow suppression/re-enrollment, Salesforce Journey Builder goals/exit criteria, Google Cloud idempotency/retry guidance and GA4 cohort exploration. Legal basis under UU PDP is not limited to consent; each CRM use case requires appropriate basis and qualified local review. WhatsApp opt-in, 24-hour service window and approved templates are distinct from Gmail sender/unsubscribe requirements.
+
+Cumulative item-level source references now cover **132/507 core Q&A items** (T06 36 + T10 30 + T14 36 + T12 30); **375/507 remain without** item-level sources. Triage flags now show 94 answers under 14 words, 18 bare-Boolean openings and 16 absolute-wording hits; answer length range 12–45 words.
+
+**Formal boundary:** all 30 T12 items remain reflective/non-scored. Editorial, source-fit, legal/compliance and SME approval remain OPEN. These sources support review, not legal advice or approved answer keys.

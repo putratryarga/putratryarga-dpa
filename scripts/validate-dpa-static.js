@@ -364,9 +364,9 @@ try {
   const triageShortAnswers = qnaTriage.split("\n").filter((line) => line.includes("ANSWER_LENGTH_HEURISTIC_LT_14_WORDS")).length;
   const triageBareBoolean = qnaTriage.split("\n").filter((line) => line.includes("BARE_BOOLEAN_OPENING")).length;
   const triageAbsoluteWording = qnaTriage.split("\n").filter((line) => line.includes("ABSOLUTE_WORDING")).length;
-  assertEqual("Q&A triage missing source flags", triageQnaSourceMissing, 405);
-  assertEqual("Q&A triage short-answer flags", triageShortAnswers, 107);
-  assertEqual("Q&A triage bare-Boolean flags", triageBareBoolean, 19);
+  assertEqual("Q&A triage missing source flags", triageQnaSourceMissing, 375);
+  assertEqual("Q&A triage short-answer flags", triageShortAnswers, 94);
+  assertEqual("Q&A triage bare-Boolean flags", triageBareBoolean, 18);
   assertEqual("Q&A triage absolute-wording flags", triageAbsoluteWording, 16);
   const triageAgencyMissingUrl = agencyGapTriage.split("\n").filter((line) => line.includes("EXACT_URL_OR_JOB_ID_MISSING")).length;
   assertEqual("Agency cell exact URL/Job ID gaps", triageAgencyMissingUrl, 0);

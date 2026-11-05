@@ -353,7 +353,7 @@ Playwright/Chromium and axe checks passed on exact branch head `de6747268108d9f9
 
 The automated triage files are [507 Q&A triage CSV](507-qna-automated-triage.csv), [80-cell agency gap triage CSV](80-agency-cell-evidence-gap-triage.csv) and [triage methodology/report](2026-11-05-qna-agency-automated-triage.md).
 
-- 405/507 core Q&A rows currently lack a per-item source reference; 102 items have supporting references from the T06 (36), T10 (30) and T14 (36) first-pass batches. Automated triage now flags 107 answers below the internal 14-word heuristic, 19 bare-Boolean openings and 16 absolute-wording terms. Answer lengths range from 12–43 words. These are review flags, not correctness findings; all answer/editorial/SME decisions remain OPEN.
+- 375/507 core Q&A rows currently lack a per-item source reference; 132 items have supporting references from the T06 (36), T10 (30), T14 (36) and T12 (30) first-pass batches. Automated triage now flags 94 answers below the internal 14-word heuristic, 18 bare-Boolean openings and 16 absolute-wording terms. Answer lengths range from 12–45 words. These are review flags, not correctness findings; all answer/editorial/SME decisions remain OPEN.
 - 80/80 agency validation rows now carry one or more per-cell source references (101 URLs total), including WPP T01 cross-channel performance roles. All 80 remain OPEN for source-type verification, role specificity, currentness, geography/seniority and chapter competency mapping. 37 evidence statements inherit a class label containing A; those direct-JD labels still require exact source and scope validation.
 - The automated screens are not editorial approval, SME validation or evidence of a current vacancy. All affected acceptance requirements remain OPEN/PARTIAL as recorded above.
 
@@ -470,3 +470,12 @@ The [T14 12-chapter Q&A technical desk review](T14-12-chapter-qna-technical-desk
 The source review distinguishes EPI 2020 from statute; UU 8/1999, UU 27/2022 and UU 28/2014 are cited with their BPK record status; Meta/TikTok/YouTube policies are limited to their own branded-content and ad-authorization features. Local counsel must validate real campaign terms, claim categories, privacy roles and rights/licensing.
 
 **Formal state:** all 36 items remain reflective/non-scored. Editorial, source-fit, answer-key, legal/compliance and SME decisions remain OPEN.
+
+
+## 24. T12 CRM & Lifecycle — 30 Q&A technical/editorial desk review — 5 November 2026
+
+The [T12 10-chapter Q&A technical desk review](T12-10-chapter-qna-technical-desk-review.md) and [30-row CSV](T12-10-chapter-qna-technical-desk-review.csv) record expansion to 34–45 words and item-level supporting references for all 30 CRM/lifecycle checks. Previous answer text is preserved and the role guide, evidence register, Q&A register and automated triage are synchronized. The question on contact detail versus marketing permission was reworded to remove an overly binary premise.
+
+The sources distinguish UU PDP legal basis from marketing subscription, WhatsApp opt-in and template rules from Gmail sender requirements, and platform-specific workflow exit/suppression from CRM design principles. RFC 8058 one-click unsubscribe, Google Consent Mode and idempotent retry guidance are mapped only to their technical scopes.
+
+**Formal state:** all 30 remain reflective/non-scored. Answer review, editorial, source-fit, legal/compliance and SME decisions remain OPEN.

@@ -4583,11 +4583,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa CRM bukan sekadar software?
-   **Expected answer in guide (not independently approved):** Software menjalankan workflow; strategi CRM mendefinisikan lifecycle, customer value, data, communication, and governance.
+   **Expected answer in guide (not independently approved):** CRM adalah pendekatan untuk mengelola hubungan dan nilai customer sepanjang lifecycle, bukan hanya aplikasi penyimpan kontak. Software menjalankan proses; strategi menentukan stage, pengalaman, data, ownership, komunikasi dan ukuran keberhasilan sesuai model bisnis. dengan owner dan definisi yang jelas
 2. **Q:** Apa risiko lifecycle stage tidak memiliki entry/exit criteria?
-   **Expected answer in guide (not independently approved):** Contacts dapat menerima komunikasi salah, masuk berulang, atau tetap di stage yang tidak tepat.
+   **Expected answer in guide (not independently approved):** Entry dan exit criteria menentukan kapan contact memenuhi syarat masuk, berpindah atau keluar dari lifecycle stage. Tanpa definisi, contact dapat menerima pesan yang tidak relevan, masuk ulang secara tidak sengaja atau tertahan di journey setelah goal tercapai.
 3. **Q:** Mengapa retention metric harus mengikuti model bisnis?
-   **Expected answer in guide (not independently approved):** Repeat/retention memiliki arti berbeda untuk subscription, durable goods, retail, and lead-based B2B.
+   **Expected answer in guide (not independently approved):** Retention harus mengikuti pola pembelian dan hubungan bisnis. Subscription dapat mengukur renewal, retail mengukur repeat purchase dalam cadence kategori, durable goods memakai service atau accessory engagement, sedangkan B2B dapat memakai account renewal dan qualified expansion; satu definisi tidak cocok untuk semua.
 
 **Glossary:**
 - **Lifecycle:** Tahap hubungan customer dengan organisasi.
@@ -4623,11 +4623,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa data merge harus memiliki confidence rules?
-   **Expected answer in guide (not independently approved):** False merges dapat menampilkan data customer lain, salah segment, dan mengirim komunikasi yang keliru.
+   **Expected answer in guide (not independently approved):** False merge menggabungkan dua orang atau account berbeda sehingga riwayat transaksi, preference, consent dan komunikasi dapat tertukar. Gunakan identifier yang memiliki tingkat keyakinan sesuai, aturan survivorship, manual review untuk ambiguous matches serta audit trail sebelum menggabungkan record.
 2. **Q:** Apa beda contact record dan transaction record?
-   **Expected answer in guide (not independently approved):** Contact merepresentasikan individu/account; transaction merepresentasikan event bisnis dengan tanggal, product, value, and status.
+   **Expected answer in guide (not independently approved):** Contact record menyimpan identitas dan atribut individu atau account sesuai data model. Transaction record mencatat kejadian bisnis seperti order, payment atau return dengan waktu, item, nilai dan status. Relasi keduanya perlu key yang stabil agar aktivitas tidak disamakan dengan profil.
 3. **Q:** Apa peran consent dan preference fields?
-   **Expected answer in guide (not independently approved):** Membatasi tujuan, channel, topic, and frequency komunikasi sesuai izin dan pilihan customer.
+   **Expected answer in guide (not independently approved):** Consent dan preference fields merekam tujuan, dasar pemrosesan, channel, kategori pesan, status, waktu, sumber dan perubahan pilihan customer. Pisahkan izin marketing dari data kontak atau kebutuhan transaksi, batasi penggunaan sesuai tujuan dan hormati penarikan persetujuan.
 
 **Glossary:**
 - **Identity resolution:** Pengaitan record ke identitas customer dengan rule tertentu.
@@ -4663,11 +4663,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko lead scoring hanya dari email opens?
-   **Expected answer in guide (not independently approved):** Open tracking dapat dipengaruhi privacy protection dan machine activity; open tidak selalu menunjukkan intent atau kecocokan lead.
+   **Expected answer in guide (not independently approved):** Email open tracking dapat terpicu oleh image preloading atau privacy protection, bukan tindakan membaca yang dapat dipastikan. Gunakan open hanya sebagai sinyal terbatas; validasi lead dengan fit, explicit actions, qualified engagement, sales acceptance dan outcome downstream.
 2. **Q:** Apa beda fit dan intent?
-   **Expected answer in guide (not independently approved):** Fit mengukur kesesuaian dengan target profile; intent mengukur sinyal kebutuhan atau kesiapan bertindak pada kategori tertentu.
+   **Expected answer in guide (not independently approved):** Fit mengukur kecocokan lead dengan target profile, seperti industri, ukuran, kebutuhan dan eligibility. Intent mengukur sinyal kebutuhan atau kesiapan bertindak, misalnya permintaan demo atau pencarian informasi. Skor sebaiknya memisahkan kedua dimensi dan memvalidasi hubungannya dengan sales outcome.
 3. **Q:** Bagaimana memvalidasi model scoring?
-   **Expected answer in guide (not independently approved):** Uji terhadap qualified rate, sales acceptance, conversion, false positives/negatives, and calibration over time.
+   **Expected answer in guide (not independently approved):** Validasi scoring dengan membandingkan skor terhadap qualified rate, sales acceptance, conversion dan waktu menuju outcome pada periode berikutnya. Periksa false positives, false negatives, calibration antar-segmen, data leakage dan drift; sesuaikan bobot hanya setelah hasil serta keterbatasan dicatat.
 
 **Glossary:**
 - **RFM:** RFM adalah model segmentasi customer berdasarkan Recency, Frequency, dan Monetary value dari transaksi selama periode tertentu.
@@ -4703,11 +4703,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda trigger dan campaign blast?
-   **Expected answer in guide (not independently approved):** Trigger dikirim karena event/condition spesifik; blast dikirim ke target segment pada jadwal yang ditetapkan.
+   **Expected answer in guide (not independently approved):** Trigger workflow berjalan ketika event atau kondisi tertentu terpenuhi, seperti signup, purchase atau renewal. Campaign blast dikirim ke segment pada jadwal yang ditetapkan. Trigger lebih kontekstual, tetapi keduanya tetap memerlukan eligibility, consent, suppression, frequency control dan exit rules.
 2. **Q:** Mengapa cross-channel purchase suppression penting?
-   **Expected answer in guide (not independently approved):** Suppression lintas kanal mencegah customer menerima reminder atau offer yang tidak relevan setelah membeli melalui channel lain.
+   **Expected answer in guide (not independently approved):** Cross-channel suppression menyelaraskan status purchase dan opt-out di email, WhatsApp, SMS, push serta paid audiences. Setelah customer membeli atau tidak lagi eligible, journey yang relevan harus berhenti atau berubah agar tidak mengirim reminder, offer maupun pesan yang bertentangan.
 3. **Q:** Apa fungsi exit condition?
-   **Expected answer in guide (not independently approved):** Exit condition menghentikan contact saat goal tercapai, eligibility hilang, consent ditarik, atau status customer berubah.
+   **Expected answer in guide (not independently approved):** Exit condition menghentikan atau mengeluarkan contact ketika goal tercapai, eligibility hilang, consent ditarik, customer membeli atau status bisnis berubah. Definisikan event, evaluasi, timing dan owner; pastikan exit berlaku lintas journey terkait, bukan hanya satu workflow.
 
 **Glossary:**
 - **Trigger:** Trigger adalah event atau kondisi yang memulai automation workflow atau mengaktifkan langkah komunikasi tertentu.
@@ -4742,12 +4742,12 @@
 **Practice / deliverable:** Buat channel decision matrix dan 3 sample communications untuk service update, onboarding, and promotional reactivation. Sertakan consent, preference, opt-out, fallback, and compliance check.
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
-1. **Q:** Apakah contact detail sama dengan consent marketing?
-   **Expected answer in guide (not independently approved):** Tidak. Memiliki email atau nomor telepon tidak otomatis memberi izin mengirim promosi; periksa purpose dan legal basis.
+1. **Q:** Mengapa kepemilikan contact detail belum cukup untuk mengirim marketing?
+   **Expected answer in guide (not independently approved):** Memiliki email atau nomor telepon hanya menyediakan alamat kontak, bukan otomatis dasar pemrosesan atau bukti subscription marketing. Tentukan dasar hukum yang relevan menurut UU PDP, jelaskan tujuan penggunaan, simpan status pilihan dan hormati opt-out.
 2. **Q:** Kapan SMS/WhatsApp lebih tepat daripada email?
-   **Expected answer in guide (not independently approved):** Untuk komunikasi urgent/transactional atau audience preference tertentu; harus sesuai permission, cost, policy, and use case.
+   **Expected answer in guide (not independently approved):** SMS atau WhatsApp dapat sesuai untuk pesan yang cepat dan kontekstual; email cocok untuk informasi lebih panjang atau yang mudah dicari kembali. Pilih berdasarkan urgensi, preference, biaya, permission, template policy, deliverability serta tujuan service atau marketing.
 3. **Q:** Mengapa channel fallback perlu dirancang?
-   **Expected answer in guide (not independently approved):** Agar pesan penting tetap dapat disampaikan jika primary channel gagal, tanpa melanggar consent/frequency rules.
+   **Expected answer in guide (not independently approved):** Fallback menjaga pesan penting tetap dapat disampaikan ketika channel utama gagal, tetapi tidak boleh menjadi jalan memintas preference atau consent. Tetapkan channel alternatif yang diizinkan, prioritas, suppression bersama, retry limit, biaya dan aturan berhenti setelah berhasil.
 
 **Glossary:**
 - **Deliverability:** Kemampuan pesan mencapai inbox/device sesuai rules provider.
@@ -4783,11 +4783,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa arti idempotent workflow?
-   **Expected answer in guide (not independently approved):** Workflow idempotent memproses event berulang tanpa efek samping ganda, misalnya membuat contact atau mengirim message dua kali.
+   **Expected answer in guide (not independently approved):** Workflow idempotent menghasilkan state akhir yang sama ketika event identik diproses ulang, tanpa membuat contact, order atau message duplicate. Gunakan stable event/idempotency key, deduplication store dan atomic state transition; jangan menganggap seluruh API action otomatis idempotent.
 2. **Q:** Mengapa retry harus memiliki batas?
-   **Expected answer in guide (not independently approved):** Retry tanpa kontrol dapat membuat duplicate action, API overload, and repeated messages.
+   **Expected answer in guide (not independently approved):** Retry tanpa batas dapat menggandakan pesan atau tindakan, membebani API dan menciptakan retry storm. Batasi attempts serta total time, gunakan exponential backoff dengan jitter untuk transient errors, dan retry hanya ketika operasi aman atau memiliki idempotency protection.
 3. **Q:** Apa yang wajib disimpan dalam error log?
-   **Expected answer in guide (not independently approved):** Timestamp, event ID, failure reason, workflow step, retry count, owner, and remediation status.
+   **Expected answer in guide (not independently approved):** Error log perlu mencatat timestamp, correlation/event ID, contact/workflow ID yang aman, step, error class, response code, retry count, idempotency key, owner dan remediation status. Hindari menyimpan isi data personal yang tidak diperlukan; batasi akses serta retensi log.
 
 **Glossary:**
 - **Webhook:** Pesan/event yang dikirim antar sistem saat event terjadi.
@@ -4823,11 +4823,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa open rate tidak selalu reliable?
-   **Expected answer in guide (not independently approved):** Privacy features dan image preloading dapat mengubah open tracking; ia bukan ukuran penuh attention.
+   **Expected answer in guide (not independently approved):** Open rate dipengaruhi image proxy, preloading dan fitur privasi, sehingga bukan pengukuran attention yang sempurna. Gunakan open hanya sebagai diagnostic terbatas; evaluasi deliverability, click, conversion, unsubscribe, complaint dan downstream value sesuai objective. dengan owner dan definisi yang jelas
 2. **Q:** Apa fungsi SPF, DKIM, dan DMARC?
-   **Expected answer in guide (not independently approved):** Authentication/alignment membantu memverifikasi domain sending dan mengurangi spoofing; konfigurasi harus sesuai provider.
+   **Expected answer in guide (not independently approved):** SPF mengidentifikasi server yang diizinkan mengirim untuk domain; DKIM menandatangani pesan; DMARC menerapkan kebijakan dan alignment terhadap domain From. Gmail meminta SPF atau DKIM bagi semua sender dan SPF, DKIM serta DMARC bagi bulk senders yang mengirim lebih dari 5.000 pesan per hari ke Gmail.
 3. **Q:** Bagaimana membuat personalization terasa relevan?
-   **Expected answer in guide (not independently approved):** Gunakan data yang diperlukan, jelaskan manfaat, hindari kejutan invasif, dan sediakan preference/control.
+   **Expected answer in guide (not independently approved):** Personalization terasa relevan ketika memakai atribut yang diperlukan untuk tujuan yang dijelaskan, sesuai preference dan harapan customer. Hindari inferensi sensitif atau kejutan invasif; sediakan kontrol, fallback non-personalized, freshness rule dan cara memperbarui atau menarik pilihan.
 
 **Glossary:**
 - **Personalization:** Penyesuaian experience/message berdasarkan data yang relevan.
@@ -4863,11 +4863,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa cohort harus memiliki start event yang sama?
-   **Expected answer in guide (not independently approved):** Start event yang seragam menyamakan lifecycle age, sehingga retention dan value antarcohort dapat dibandingkan lebih adil.
+   **Expected answer in guide (not independently approved):** Cohort harus memakai inclusion event dan periode awal yang konsisten, misalnya first purchase atau signup, serta return event yang didefinisikan. Ini menyamakan lifecycle age saat membandingkan retention; cohort berdasarkan event berbeda tidak boleh diperlakukan setara tanpa penyesuaian.
 2. **Q:** Apa risiko LTV berbasis revenue?
-   **Expected answer in guide (not independently approved):** LTV berbasis revenue dapat melebihkan nilai customer karena tidak mengurangi margin, returns, discounts, service costs, dan contribution.
+   **Expected answer in guide (not independently approved):** Revenue-only LTV mengabaikan biaya variabel, cost of goods, returns, discount, fulfillment, service dan biaya mempertahankan customer. Untuk keputusan investasi, gunakan contribution atau margin yang disetujui finance, nyatakan horizon, churn/retention assumptions dan sensitivity; jangan menyamakan gross revenue dengan value.
 3. **Q:** Apa yang dimaksud churn signal?
-   **Expected answer in guide (not independently approved):** Perubahan perilaku/engagement/purchase yang dapat mengindikasikan risiko berhenti; perlu validasi dengan historical outcomes.
+   **Expected answer in guide (not independently approved):** Churn signal adalah perubahan perilaku yang berhubungan dengan kemungkinan berhenti atau tidak membeli lagi, seperti penurunan usage, renewal risk atau lapse. Validasi signal terhadap historical outcomes dan segmen; sinyal bukan kepastian churn dan tidak boleh langsung memicu pesan invasif.
 
 **Glossary:**
 - **Cohort:** Kelompok customer dengan titik awal/event sama.
@@ -4903,11 +4903,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa opens bukan satu-satunya success metric?
-   **Expected answer in guide (not independently approved):** Open adalah engagement proxy, bukan hasil bisnis; ia tidak menjamin conversion atau retention dan dapat terdistorsi privacy mechanisms.
+   **Expected answer in guide (not independently approved):** Open adalah proxy engagement dan dapat terdistorsi oleh privacy mechanisms; ia tidak membuktikan perhatian, klik atau nilai bisnis. Evaluasi delivery, click, qualified action, conversion, repeat, margin, unsubscribe dan complaint sesuai objective, sambil menyatakan keterbatasan open tracking.
 2. **Q:** Apa fungsi holdout group?
-   **Expected answer in guide (not independently approved):** Holdout menyediakan kelompok pembanding tanpa treatment untuk memperkirakan dampak tambahan komunikasi dibanding kondisi tanpa komunikasi.
+   **Expected answer in guide (not independently approved):** Holdout menahan sebagian eligible audience dari treatment sehingga hasil kelompok yang menerima komunikasi dapat dibandingkan dengan counterfactual yang relevan. Tetapkan randomization unit, exclusion, contamination control, primary metric, guardrail dan periode; perbedaan observed belum otomatis valid bila desain gagal.
 3. **Q:** Mengapa frequency perlu guardrail?
-   **Expected answer in guide (not independently approved):** Frequency berlebihan dapat meningkatkan fatigue, unsubscribe, complaint, dan kerusakan hubungan jangka panjang; tetapkan batas serta pantau dampaknya.
+   **Expected answer in guide (not independently approved):** Frequency guardrail membatasi paparan per contact dan periode untuk mengurangi fatigue, unsubscribe, complaint serta pengalaman buruk. Tetapkan cap per channel dan lintas journey, suppression hierarchy, exception untuk service messages dan monitoring dampak; satu cap global belum tentu cocok untuk semua pesan.
 
 **Glossary:**
 - **Holdout:** Kelompok yang tidak menerima treatment untuk comparison.
@@ -4943,11 +4943,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa bukti CRM system siap dijalankan?
-   **Expected answer in guide (not independently approved):** Documented data sources, consent, workflow, suppression/exit, QA, deliverability, monitoring, owners, and rollback.
+   **Expected answer in guide (not independently approved):** Kesiapan CRM dibuktikan oleh data dictionary dan ownership, consent/preference controls, identity dan deduplication rules, entry/exit serta suppression, tested workflows, deliverability, monitoring, incident response, access control dan rollback. Keberhasilan login atau send test saja tidak membuktikan operasi aman dan terukur.
 2. **Q:** Bagaimana membedakan CRM activity dan business impact?
-   **Expected answer in guide (not independently approved):** Message volume/delivery adalah activity; activation, repeat, margin, retention, and incremental lift menunjukkan impact.
+   **Expected answer in guide (not independently approved):** Message volume, sends dan delivery adalah activity metrics yang menggambarkan output operasional. Business impact perlu dinilai melalui activation, qualified conversion, repeat, margin, retention atau incremental lift terhadap pembanding. Laporkan keduanya terpisah agar volume komunikasi tidak disalahartikan sebagai customer value.
 3. **Q:** Apa yang harus dilakukan bila opt-out tidak masuk ke automation?
-   **Expected answer in guide (not independently approved):** Segera suppress/stop marketing, perbaiki event/data pipeline, audit impacted records, and document incident/remediation.
+   **Expected answer in guide (not independently approved):** Segera hentikan atau suppress promotional sends untuk record yang opt-out-nya gagal masuk automation. Perbaiki event/pipeline, audit seluruh contact yang terdampak, kirim remedial update hanya sesuai dasar yang berlaku, catat incident dan bukti, lalu uji end-to-end sebelum mengaktifkan ulang.
 
 **Glossary:**
 - **Lifecycle architecture:** Rangkaian stage, data, trigger, channel, and experience.

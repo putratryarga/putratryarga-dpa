@@ -150,6 +150,22 @@ assert(t14QnaAudit.records.length === 36, "T14 technical Q&A desk review must co
 uniqueBy(t14QnaAudit.records, "item_id", "T14 Q&A technical desk review");
 assert(t14QnaAudit.records.every(row => row.item_id.startsWith("DPA-T14-") && row.desk_review_classification === "PARTIAL" && row.formal_answer_key_status === "OPEN" && row.sme_status === "OPEN"),
   "T14 Q&A desk audit must remain PARTIAL with formal answer-key and SME status OPEN.");
+const t12Qna = qna.records.filter(row => row.chapter_id.startsWith("DPA-T12-"));
+assert(t12Qna.length === 30, "T12 CRM/lifecycle Q&A review must contain 30 items.");
+assert(t12Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && String(row.source_reference || "").includes("http")),
+  "All T12 Q&A revisions must preserve prior answers, revision notes and source references.");
+assert(t12Qna.every(row => {
+  const words = row.current_guide_answer.trim().split(" ").filter(Boolean).length;
+  return words >= 34 && words <= 45 && row.item_type === "REFLECTIVE_QA_NOT_SCORED" && row.answer_review_status === "OPEN" && row.editorial_status === "OPEN" && row.sme_status === "OPEN";
+}), "T12 expanded Q&A must remain 34–45 words, reflective/non-scored and formally OPEN.");
+const t12QnaAudit = loadCsv("docs/T12-10-chapter-qna-technical-desk-review.csv");
+assert(t12QnaAudit.records.length === 30, "T12 technical Q&A desk review must contain 30 rows.");
+uniqueBy(t12QnaAudit.records, "item_id", "T12 Q&A technical desk review");
+assert(t12QnaAudit.records.every(row => row.item_id.startsWith("DPA-T12-") && row.desk_review_classification === "PARTIAL" && row.formal_answer_key_status === "OPEN" && row.sme_status === "OPEN"),
+  "T12 Q&A desk audit must remain PARTIAL with formal answer-key and SME status OPEN.");
+const t12Guide = read("role-study-guides-part2.js");
+assert(t12Qna.every(row => t12Guide.includes(row.question_text) && t12Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
+  "T12 Q&A wording must stay synchronized across the role guide and evidence register.");
 const t14Guide = read("role-study-guides-part3.js");
 assert(t14Qna.every(row => t14Guide.includes(row.question_text) && t14Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
   "T14 Q&A wording must stay synchronized across the role guide and evidence register.");

@@ -9,18 +9,18 @@
 | Signal | Count |
 |---|---:|
 | Q&A rows parsed | 507 |
-| Items with supporting item-level source references | 102 |
-| Missing item-level source references | 405 |
-| Answers below 14 words (review heuristic) | 107 |
-| Answers beginning with bare Boolean wording | 19 |
+| Items with supporting item-level source references | 132 |
+| Missing item-level source references | 375 |
+| Answers below 14 words (review heuristic) | 94 |
+| Answers beginning with bare Boolean wording | 18 |
 | Absolute wording detector hits | 16 |
-| Answer length range | 12–43 words |
+| Answer length range | 12–45 words |
 
-The 102 answer-level source mappings come from separate first-pass desk-review batches: T06 Programmatic (36), T10 Analytics & Measurement (30) and T14 Creator & Influencer Partnerships (36). These references support further review; they do not approve answers or imply that each source validates every part of an explanation.
+The 132 answer-level source mappings come from separate first-pass desk-review batches: T06 Programmatic (36), T10 Analytics & Measurement (30), T14 Creator & Influencer Partnerships (36) and T12 CRM & Lifecycle (30). These references support further review; they do not approve answers or imply that each source validates every part of an explanation.
 
 All 507 Q&A items remain in the review queue until technical accuracy, acceptable alternatives, ambiguity, source fit, editorial and SME review are recorded. Flags are heuristic only; a short answer, Boolean opening or absolute phrase can be appropriate in context.
 
-The item-by-item output is [507 Q&A automated triage CSV](507-qna-automated-triage.csv). Batch reviews: [T06 Programmatic](T06-12-chapter-qna-technical-desk-review.md), [T10 Analytics & Measurement](T10-10-chapter-qna-technical-desk-review.md), and [T14 Creator & Influencer Partnerships](T14-12-chapter-qna-technical-desk-review.md).
+The item-by-item output is [507 Q&A automated triage CSV](507-qna-automated-triage.csv). Batch reviews: [T06 Programmatic](T06-12-chapter-qna-technical-desk-review.md), [T10 Analytics & Measurement](T10-10-chapter-qna-technical-desk-review.md), [T14 Creator & Influencer Partnerships](T14-12-chapter-qna-technical-desk-review.md), and [T12 CRM & Lifecycle](T12-10-chapter-qna-technical-desk-review.md).
 
 ## 2. Agency-role evidence — 80 cells
 

@@ -611,3 +611,15 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Added docs/T14-12-chapter-qna-technical-desk-review.md and 36-row CSV. Validator requires 36 unique item IDs, prior-answer preservation, source references, 33–43 word band, reflective/non-scored and OPEN answer/editorial/SME states; guide/evidence parity is checked.
 - Cumulative automated triage: 102/507 core Q&A items have item-level supporting references; 405 source-reference gaps remain. 107 answers are under 14 words, 19 bare-Boolean openings, 16 absolute-wording flags; length range 12–43 words. These are editorial heuristics, not accuracy findings.
 - All 36 remain reflective/non-scored; legal/compliance and qualified influencer-practice SME sign-off remain OPEN.
+
+
+## 2026-11-05 — T12 CRM & Lifecycle Q&A technical/editorial desk review
+
+- Expanded all 30 T12 answers (CH01–CH10) to 34–45 words, mean 37.6. Prior answer text is retained in the 507-item Q&A review register.
+- Reworded T12-CH05-Q01 to ask why possession of contact details is not sufficient to send marketing, avoiding an overly binary opening and retaining the distinction between contactability, legal basis and marketing subscription.
+- Added item-level references from JDIH Komdigi UU 27/2022 PDP; Google Consent Mode; WhatsApp Business Policy (updated 23 September 2026); Gmail sender guidelines and sender FAQ; RFC 8058; HubSpot workflow enrollment/suppression; Salesforce Journey Builder exit criteria/goals; Google Cloud idempotency/retry strategy; and GA4 cohort exploration.
+- Preserved important scope boundaries: UU PDP has multiple processing bases; contact details alone are not a marketing subscription; WhatsApp business-initiated templates/24-hour window differ from email rules; Gmail one-click unsubscribe is for marketing/promotional messages (bulk threshold applies); Consent Mode does not acquire consent; non-idempotent operations must not be blindly retried; LTV needs finance-approved contribution assumptions.
+- Synchronized role-study-guides-part2.js, docs/169-chapter-evidence-register.md, docs/507-qna-editorial-sme-review-register.csv and docs/507-qna-automated-triage.csv.
+- Added docs/T12-10-chapter-qna-technical-desk-review.md and 30-row CSV. Validator requires 30 unique T12 IDs, prior-answer preservation, item sources, 34–45 word band, reflective/non-scored status and OPEN editorial/answer/SME states; guide/evidence parity is checked.
+- Cumulative source mapping: 132/507 item-level references (T06 36, T10 30, T14 36, T12 30); 375 source-reference gaps remain. Global heuristic flags: 94 under 14 words; 18 bare-Boolean; 16 absolute wording; answer length range 12–45 words.
+- All T12 items remain reflective/non-scored; qualified CRM, privacy/legal, messaging-platform, email deliverability and lifecycle measurement SME reviews remain OPEN.
