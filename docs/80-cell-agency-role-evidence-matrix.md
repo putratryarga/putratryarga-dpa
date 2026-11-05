@@ -38,21 +38,22 @@ Evidence classes: **A** direct employer-hosted job description; **B** adjacent r
 | Class | Count of class labels | Interpretation |
 |---|---:|---|
 | A | 37 | Direct JD label appears in cell statement. |
-| B | 20 | Adjacent-role evidence only. |
+| B | 22 | Adjacent-role evidence only. |
 | C | 0 | Capability/service evidence only. |
-| D | 37 | Index/title/syndicated/historical evidence only. |
-| G | 5 | A G gap marker remains in the cell statement; one is paired with B sister-practice evidence. |
-| Compound labels | 19 | Cell contains more than one evidence class. |
+| D | 42 | Index/title/syndicated/historical evidence only. |
+| G | 0 | No cell remains without a documented evidence route; currentness and specificity caveats are retained. |
+| Compound labels | 21 | Cell contains more than one evidence class. |
 
-Counts are class labels, not mutually exclusive cells. Compound evidence labels contribute to more than one class. They are not counts of independently verified current JDs.
+Counts are class labels, not mutually exclusive cells. Compound evidence labels contribute to more than one class. There are 101 class-label instances across 80 unique cells. They are not counts of independently verified current JDs.
 
-## 3. Current explicit evidence gaps
+## 3. Residual specificity and currentness caveats
 
-- **T09 / Dentsu:** G: direct Ad Operations JD not located in the reviewed source batch.
-- **T14 / Havas Media Network:** B/G: Havas Paris Social JR0093003 provides sister-practice influence-management evidence, but no direct Havas Media Network creator/influencer role was verified. The B evidence does not close the HMN-specific gap.
-- **T15 / Omnicom Media:** G: dedicated affiliate role evidence not located in the reviewed source batch.
-- **T15 / Havas Media Network:** G: direct affiliate JD not located in the reviewed source batch.
-- **T16 / Havas Media Network:** G: direct community role not located in the current Havas Media index.
+- **T09 / Dentsu:** B/D evidence is a combined Search & Ad Ops Executive role in Aotearoa/New Zealand, not a pure Ad Ops specialist JD; its 1 September 2026 deadline has passed.
+- **T14 / Havas Media Network:** B/D evidence is from Havas Paris Social and Havas Play sister practices. It supports creator/influencer work but does not establish a direct HMN-specific creator operations role.
+- **T15 / Omnicom Media:** D evidence is the official OMD EMEA / OMG UK career index listing affiliate titles; individual requisition details were inaccessible at recheck, with historical third-party descriptions as supporting context.
+- **T15 / Havas Media Network:** D evidence is a Havas Media Group/HMN Affiliate Manager employer-hosted requisition in London, but its stated 1 September 2026 end date has passed.
+- **T16 / Havas Media Network:** B/D evidence is a Havas Paris Social Community Manager apprenticeship, a sister-practice role in Puteaux, not a direct HMN community vacancy.
+- The absence of a G class means an evidence route is now documented; it does not mean the route is direct, current, local to Indonesia, or sufficient to validate every competency.
 
 ## 4. Employer-hosted source register
 
@@ -117,7 +118,7 @@ These sources upgrade five additional cells: T04/Dentsu and T05/Dentsu from G to
 5. Add chapter-to-JD traceability only where the specific JD supports the chapter competency.
 6. Recheck taxonomy boundaries after evidence extraction; do not add tracks merely to improve symmetry.
 
-**Status:** 80/80 cells are explicitly represented. Five cells retain a G marker: four pure G gaps and one B/G cell where a sister-practice role exists but Havas Media Network direct evidence is still missing. Evidence-class label totals are A 37, B 20, D 37 and G 5, with 19 compound labels (99 label instances across 80 cells). Substantive source/JD validation remains **PARTIAL**. This is an auditable coverage ledger, not a claim that all 80 cells have passed.
+**Status:** 80/80 cells are explicitly represented. The 5 November 2026 recheck removed all five G markers by adding employer-index, historical or adjacent-role evidence with explicit caveats. Current class-label totals are A 37, B 22, D 42 and G 0, with 21 compound labels (101 label instances across 80 cells). This is an evidence-coverage improvement, not a claim that all 80 cells have passed independent current JD or chapter-competency validation. The matrix remains **PARTIAL**.
 
 
 ## 8. 5 November 2026 — Havas role evidence refresh
