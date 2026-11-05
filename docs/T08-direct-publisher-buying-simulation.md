@@ -1,6 +1,6 @@
 # T08 Direct Publisher Buying Simulation Pack
 
-**Status:** Tier 3 applied learning simulation — synthetic, non-client, non-market-benchmark data  
+**Status:** Tier 3 applied learning simulation — **SYNTHETIC**, non-client, non-market-benchmark data  
 **Track:** T08 — Media Investment, Trading & Publisher Partnerships  
 **Chapters:** DPA-T08-CH01 to DPA-T08-CH10  
 **Version:** 0.1 · 5 November 2026
