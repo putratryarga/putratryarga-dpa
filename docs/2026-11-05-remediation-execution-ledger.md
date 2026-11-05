@@ -24,6 +24,9 @@
 | Amazon credential register | Updated free/80%/24-hour retake/two-year validity and separated general FAQ duration from exam-specific timers | Current official Academy FAQ/assessment pages | FIXED — issuer facts; local account check pending |
 | Source of Truth | Added structured normative document; TXT retained as historical archive | Crosswalk/README references updated | FIXED — documentation governance |
 | Agency evidence | Reconciled 80-cell class labels after Havas requisition review | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | PARTIAL — source/JD/competency validation remains open |
+| Canonical chapter inventory | Added 169 unique chapter IDs extracted from HTML | Score-recalculation script compares input IDs against the canonical inventory by default | FIXED — structural baseline only |
+| TikTok certification facts | Added 7-day retake interval and six-month recertification eligibility window | Current TikTok Academy FAQ and recertification guidance | FIXED — issuer facts; exam registration/account access remains conditional |
+| Static validator | Extended checks to the 80-cell agency matrix and 10 elective evidence groups | Script source contains expected structural/class assertions; it has not been executed in a local Node checkout | PENDING EXECUTION — do not treat script presence as a PASS |
 
 ## Agency evidence status — PARTIAL
 The reconciled 80-cell matrix contains A 37, B 20, C 0, D 37, E 0 and G 5 class-label instances, with 19 compound cells (99 total label instances across 80 unique cells). Five cells retain a G marker: T09/Dentsu; T14/Havas (B/G sister-practice only, no direct HMN role); T15/Omnicom; T15/Havas; T16/Havas. T05/Havas is now direct Paid Social evidence (JR0096922, Warsaw, 2+ years); T11/Havas is now direct Organic & AI Manager evidence (JR0099039, Sydney, 4+ years, manager-level). Neither should be generalized to entry-level or Indonesia-market roles. JR0096564 is historical DMPG evidence, JR0093003 is Havas Paris Social sister-practice evidence, and JR0093690 is Havas Play evidence with unresolved start-date metadata. Cell coverage is complete; competency-level verification of every source is not.
@@ -32,6 +35,9 @@ The reconciled 80-cell matrix contains A 37, B 20, C 0, D 37, E 0 and G 5 class-
 Seven raw dimensions (0–4) are required for each of 169 chapters. The complete raw-vector matrix was not found in the inspected repository tree or accessible Library files. The AutoClaw execution transcript reports that 40 scores were recalculated locally, but its files/commit were not retrievable in this repository. This branch does not claim a full 169-score recalculation.
 
 A deterministic script is provided at `scripts/recalculate-chapter-audit-scores.py`. It requires `chapter_id`, `track_id`, and `dim_1..dim_7`; it rejects missing, duplicate, out-of-range or invalid vectors and never imputes. Full scorecard reconciliation remains BLOCKED pending the authoritative raw matrix.
+
+## Canonical chapter ID inventory
+`docs/169-core-chapter-ids.txt` contains 169 unique IDs extracted from `index.html`. The score script now defaults to this file for set comparison and rejects missing/extra IDs, malformed IDs, track-ID mismatch, non-integer or out-of-range raw scores, missing dimensions and duplicate rows. The raw seven-dimension matrix remains unavailable, so recalculation itself is still BLOCKED.
 
 ## Issue/discrepancy register boundary
 The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chapter score matrix, raw 90-cell CSV and 32 detailed chapter evidence packs were not found in the connected repository tree or accessible Library sources during this pass. Previously reviewed themes include stale summary totals, scoring arithmetic, resource-map coverage vs fit, 90-cell evidence classification, T16-CH12 stale language, DPA-007 main-vs-branch distinction, DPA-013 media-query count, and DPA-023 agency taxonomy caveats. The complete 23 findings and D-1…D-12 remain **PENDING RECONCILIATION**; none are silently marked closed.
@@ -50,7 +56,7 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 ## Additional reconciled quality indicators
 - 149 role-specific guide objects were reparsed. Short-content triage now records 122 answers under 12 words across 79 chapters and 81 glossary definitions under 5 words across 58 chapters (HTML tags/entities stripped; whitespace token count). These are review flags, not automatic defects. The 20 legacy guides remain separate.
 - 169 evidence-register chapters, 169 rubric chapters, 169 glossary blocks, 507 register Q&A entries and 507 rubric Q&A entries are structurally aligned. All answer correctness and rubric calibration remain OPEN.
-- Static source checks recorded 169 HTML IDs, 169 guide mappings, 169 resource rows and 169 technical-review rows; 19 CSS media queries; 391 DOM IDs; 13 internal anchors with no unresolved target. This is static verification only; no browser/runtime claim.
+- Static source checks recorded 169 HTML IDs, 169 guide mappings, 169 register chapters, 169 rubric chapters, 169 resource rows and 169 technical-review rows; 169 glossary blocks; 507 Q&A entries in register and rubric; 19 CSS media queries; 391 DOM IDs; 13 internal anchors with no unresolved target. The agency matrix contains 80 cells (A37/B20/D37/G5; 19 compounds) and the elective matrix contains 10 agency × elective rows. These figures were independently recounted from repository source via API; the added Node validator itself has not yet been run. This is static verification only; no browser/runtime claim.
 
 ## Open gates
 1. Recalculate all 169 chapter scores from authoritative raw vectors and reconcile all totals.
