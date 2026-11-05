@@ -420,3 +420,17 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Direct source access was confirmed for GoogleSQL, BigQuery computation, Looker Studio calculated fields, GA4 attribution settings, Meridian intro/calibration, Optimizely experiment workflow and Tableau visual guidance. Some GA4 Help pages and Optimizely statistical-significance content had retrieval limitations; these are not marked as confirmed learner access.
 
 **Status:** T10 is still PARTIAL; all ten formal acceptance/SME decisions and all 169 objective-level fit decisions remain OPEN.
+
+
+## 24. T03 media-planning source-fit review and final source inventory
+
+**Date:** 5 November 2026  
+**Disposition:** FIRST-PASS DESK REVIEW COMPLETE; 10/10 CHAPTERS PARTIAL; FORMAL ACCEPTANCE OPEN.
+
+- Added the T03 10-chapter source-fit review and a chapter-level CSV with each objective, mapped sources, fit evidence and material gaps.
+- Added YouGov 2025 Indonesia media-consumption summary, Google Reach Planner suggestions (Oct 2026) and MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0 (Jan 2018) to T03 rows.
+- MRC digital-audio is a streaming/progressive-download standard and explicitly excludes traditional over-the-air AM/FM. Reach Planner is YouTube/video-partner forecast tooling. MRC OOH is a separate OOH measurement standard. None establishes one unduplicated Indonesia cross-media audience currency.
+- Updated T03 rows in the 169-objective register: desk-fit PARTIAL; formal objective-fit, Indonesia access/cost/language, technical and SME sign-off OPEN.
+- Current resource map: 169 rows / 70 unique URLs; validator checks the 70-URL total, all three new URLs and exactly 10 T03 review rows.
+
+**Register effect:** RES-001 remains PASS for structural mapping only. RES-002 is PARTIAL at desk-review level across T03 (10 chapters) and T10 (10 chapters); formal acceptance of all 169 objectives remains OPEN.
