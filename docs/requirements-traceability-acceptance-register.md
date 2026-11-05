@@ -353,7 +353,7 @@ Playwright/Chromium and axe checks passed on exact branch head `de6747268108d9f9
 
 The automated triage files are [507 Q&A triage CSV](507-qna-automated-triage.csv), [80-cell agency gap triage CSV](80-agency-cell-evidence-gap-triage.csv) and [triage methodology/report](2026-11-05-qna-agency-automated-triage.md).
 
-- 471/507 core Q&A rows currently lack a per-item source reference; the T06 Programmatic batch has supporting references on 36 items. The automated triage now flags 138 answers below the internal 14-word heuristic, 21 bare-Boolean openings and 16 absolute-wording terms. These are review flags, not correctness findings. See the T06 36-item technical desk review; all answer/editorial/SME decisions remain OPEN.
+- 441/507 core Q&A rows currently lack a per-item source reference; 66 items have supporting references from the T06 (36) and T10 (30) first-pass batches. Automated triage now flags 122 answers below the internal 14-word heuristic, 21 bare-Boolean openings and 16 absolute-wording terms. Answer lengths range from 12–42 words. These are review flags, not correctness findings; all answer/editorial/SME decisions remain OPEN.
 - 80/80 agency validation rows now carry one or more per-cell source references (101 URLs total), including WPP T01 cross-channel performance roles. All 80 remain OPEN for source-type verification, role specificity, currentness, geography/seniority and chapter competency mapping. 37 evidence statements inherit a class label containing A; those direct-JD labels still require exact source and scope validation.
 - The automated screens are not editorial approval, SME validation or evidence of a current vacancy. All affected acceptance requirements remain OPEN/PARTIAL as recorded above.
 
@@ -454,3 +454,10 @@ The [T06 12-chapter Q&A technical desk review](T06-12-chapter-qna-technical-desk
 The guide JavaScript, evidence register and Q&A CSV have been synchronized. Automated triage was synchronized with the updated answer length, source references and question. Its global counts now show 471 missing source references, 138 short-answer flags, 21 bare-Boolean flags and 16 absolute-wording flags.
 
 **Formal state:** the 36 items remain reflective/non-scored; answer-review, editorial, source-fit and SME statuses remain OPEN. The 471 other Q&A items without item-level sources remain OPEN. This desk review is not approval of any answer key.
+
+
+## 22. T10 Analytics & Measurement — 30 Q&A technical/editorial desk review — 5 November 2026
+
+The [T10 10-chapter Q&A technical desk review](T10-10-chapter-qna-technical-desk-review.md) and [30-row CSV](T10-10-chapter-qna-technical-desk-review.csv) document the expansion of all T10 guide answers to 33–41 words and mapping of supporting references across metric design, GA4, BigQuery, SQL, statistics, causal inference, attribution, experiment design and dashboard communication. Prior answer text is preserved, and the role guide, evidence register, Q&A register and automated triage are synchronized.
+
+**Formal state:** all 30 remain reflective/non-scored. Item answer-review, editorial, source-fit and SME decisions remain OPEN. These references are source support, not approved answer keys.

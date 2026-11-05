@@ -3779,11 +3779,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa analyst perlu tahu keputusan apa yang akan diambil?
-   **Expected answer in guide (not independently approved):** Agar analisis fokus pada evidence yang dapat mengubah tindakan, bukan hanya menghasilkan chart.
+   **Expected answer in guide (not independently approved):** Analyst perlu mengetahui keputusan yang akan diambil agar ruang lingkup, periode, populasi, metrik dan kedalaman analisis sesuai kebutuhan. Tanpa keputusan yang jelas, dashboard dapat menghasilkan banyak angka tetapi tidak menjawab tindakan, trade-off atau risiko yang perlu diputuskan stakeholder.
 2. **Q:** Apa yang wajib ada di metric dictionary?
-   **Expected answer in guide (not independently approved):** Formula, denominator, unit, currency, source, timezone, attribution window, owner, refresh, dan caveat.
+   **Expected answer in guide (not independently approved):** Metric dictionary sekurang-kurangnya memuat nama dan definisi operasional, formula, numerator, denominator, unit, currency, grain, source, timezone, attribution window bila relevan, filter, owner, refresh cadence serta caveat. Definisi itu memungkinkan dua tim menghitung metrik yang sama secara konsisten.
 3. **Q:** Apa beda leading dan lagging metrics?
-   **Expected answer in guide (not independently approved):** Leading memberi sinyal awal proses; lagging mencatat hasil akhir seperti sales atau margin.
+   **Expected answer in guide (not independently approved):** Leading metrics memberi sinyal awal tentang proses atau driver, misalnya qualified traffic, stock availability dan checkout completion. Lagging metrics mencatat hasil yang sudah terjadi, seperti revenue, contribution atau retention. Leading metric berguna untuk diagnosis, tetapi hubungannya dengan outcome tetap perlu diuji.
 
 **Glossary:**
 - **KPI tree:** Hubungan business outcome dengan driver dan metric.
@@ -3819,11 +3819,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa itu grain data?
-   **Expected answer in guide (not independently approved):** Level satu baris data merepresentasikan satu entitas/kejadian, misalnya campaign-day, event, session, atau order.
+   **Expected answer in guide (not independently approved):** Grain adalah tingkat detail yang diwakili satu baris pada suatu tabel, misalnya satu impression, event, session, order atau campaign-day. Sebelum agregasi atau join, analyst harus mengetahui grain setiap sumber agar unit analisis tidak tercampur atau terhitung berulang.
 2. **Q:** Mengapa join key campaign name berisiko?
-   **Expected answer in guide (not independently approved):** Naming bisa berubah/duplikat dan grain berbeda; join dapat menggandakan rows atau menyatukan entitas salah.
+   **Expected answer in guide (not independently approved):** Campaign name dapat berubah, tidak unik antar market atau platform, dan memiliki variasi ejaan. Jika dipakai sebagai join key, baris dapat hilang, salah terpasangkan atau berlipat. Gunakan identifier stabil, mapping table dan pemeriksaan cardinality serta unmatched records.
 3. **Q:** Apa beda missing dan zero?
-   **Expected answer in guide (not independently approved):** Missing berarti nilai tidak tersedia; zero berarti terukur dan nilainya nol. Menyamakan keduanya dapat mengubah kesimpulan.
+   **Expected answer in guide (not independently approved):** Missing berarti nilai tidak tersedia, tidak terekam atau tidak diketahui; zero berarti nilai terukur dan memang bernilai nol. Mengganti null menjadi zero tanpa aturan dapat mengubah denominator, average, trend dan interpretasi coverage. Simpan status missing dan jelaskan metode imputasi.
 
 **Glossary:**
 - **Data grain:** Unit observasi pada setiap row.
@@ -3859,11 +3859,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa angka conversion platform bisa berbeda dari GA4?
-   **Expected answer in guide (not independently approved):** Attribution, view-through, identity, consent, time zone, event definition, deduplication, and processing berbeda.
+   **Expected answer in guide (not independently approved):** Platform dan GA4 dapat memakai attribution model, eligible channels, lookback window, counting method, timezone, identity, consent handling dan processing latency yang berbeda. Rekonsiliasi harus menyamakan definisi event, periode serta scope sebelum selisih dianggap sebagai kesalahan tracking.
 2. **Q:** Apa beda impression dan session?
-   **Expected answer in guide (not independently approved):** Impression adalah exposure iklan; session adalah kumpulan interaksi website/app dalam analytics definition.
+   **Expected answer in guide (not independently approved):** Impression adalah unit delivery iklan yang dicatat menurut aturan ad platform atau ad server. Session adalah kelompok interaksi website/app dalam definisi analytics tertentu. Keduanya memiliki unit, trigger dan deduplication berbeda, sehingga satu impression tidak sama dengan satu session.
 3. **Q:** Apa yang harus dipastikan sebelum data digabung?
-   **Expected answer in guide (not independently approved):** Grain, keys, time zone, currency, naming, event definition, dedupe, and source limitations.
+   **Expected answer in guide (not independently approved):** Sebelum menggabungkan data, cocokkan grain dan join key, timezone, currency, taxonomy, event/conversion definition, attribution window, deduplication, refresh time serta populasi yang dicakup. Dokumentasikan unmatched records dan data yang tidak comparable; jangan memaksakan total agar terlihat sama.
 
 **Glossary:**
 - **Event-based model:** Model analytics yang merekam interaksi sebagai event.
@@ -3899,11 +3899,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa SQL JOIN dapat menggandakan spend?
-   **Expected answer in guide (not independently approved):** Join many-to-many atau grain yang tidak sama menyebabkan satu row cocok dengan banyak row di table lain.
+   **Expected answer in guide (not independently approved):** JOIN dapat menggandakan spend ketika satu baris pada tabel spend cocok dengan beberapa baris pada tabel conversion, misalnya karena campaign-day digabung dengan event-level. Agregasikan ke grain yang sesuai atau gunakan key lengkap, lalu uji cardinality dan totals.
 2. **Q:** Mengapa query perlu test totals sebelum/sesudah join?
-   **Expected answer in guide (not independently approved):** Bandingkan row count dan total sebelum serta sesudah join untuk mendeteksi duplicate rows, lost records, atau key yang tidak tepat.
+   **Expected answer in guide (not independently approved):** Bandingkan row count, distinct key, total spend, conversion dan null/unmatched rows sebelum serta sesudah JOIN. Selisih dapat menunjukkan many-to-many matching, key hilang atau filter yang salah. Validasi juga contoh record individual agar total yang kebetulan cocok tidak menutupi kesalahan.
 3. **Q:** Apa beda WHERE dan HAVING?
-   **Expected answer in guide (not independently approved):** WHERE menyaring baris sebelum aggregation; HAVING menyaring kelompok setelah GROUP BY berdasarkan kondisi aggregate atau hasil kelompok.
+   **Expected answer in guide (not independently approved):** WHERE menyaring baris input sebelum GROUP BY dan aggregation dijalankan. HAVING menyaring kelompok setelah proses grouping, biasanya memakai hasil agregasi seperti COUNT atau SUM. Filter yang ditempatkan pada tahap salah dapat mengubah populasi dan hasil analisis.
 
 **Glossary:**
 - **Grain:** Grain adalah tingkat detail satu baris data, misalnya satu event, order, customer, atau campaign per hari.
@@ -3939,11 +3939,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa tanda dashboard tidak berguna?
-   **Expected answer in guide (not independently approved):** Ia tidak menjawab keputusan pengguna, tidak memiliki metric definitions, atau tidak menyediakan diagnosis/action path.
+   **Expected answer in guide (not independently approved):** Dashboard tidak berguna ketika pengguna tidak dapat menjawab keputusan rutin, definisi KPI tidak jelas, data tidak segar, filter tidak konsisten atau tidak ada jalur diagnosis dan tindakan. Banyak visual bukan ukuran kualitas; desain harus mengikuti keputusan dan kebutuhan pengguna.
 2. **Q:** Mengapa total KPI perlu reconcile ke source?
-   **Expected answer in guide (not independently approved):** Chart dapat terlihat rapi tetapi salah akibat filters, joins, duplicated rows, or refresh failure.
+   **Expected answer in guide (not independently approved):** Rekonsiliasi membuktikan bahwa visualisasi menggunakan populasi, filter, grain dan formula yang benar. Periksa totals terhadap source, row counts, refresh timestamp, permission, join dan date range. Chart yang rapi tetap dapat salah bila query atau transformasinya keliru.
 3. **Q:** Apa bedanya dashboard dan report?
-   **Expected answer in guide (not independently approved):** Dashboard mendukung monitoring/interaksi rutin; report dapat memberi analisis/narrative lebih mendalam untuk periode tertentu.
+   **Expected answer in guide (not independently approved):** Dashboard biasanya mendukung pemantauan berulang, eksplorasi dan drill-down dengan metrik yang diperbarui terjadwal. Report dapat menyajikan analisis periode tertentu, konteks, interpretasi dan rekomendasi. Batasnya tidak mutlak; format harus mengikuti pengguna, keputusan dan cadence.
 
 **Glossary:**
 - **Semantic layer:** Lapisan definisi metric/dimension yang konsisten.
@@ -3979,11 +3979,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa korelasi bukan bukti penyebab?
-   **Expected answer in guide (not independently approved):** Dua metrik dapat bergerak bersama akibat seasonality, mix, budget, atau faktor ketiga tanpa causal link.
+   **Expected answer in guide (not independently approved):** Korelasi menunjukkan dua variabel bergerak bersama, tetapi belum membuktikan satu menyebabkan yang lain. Seasonality, perubahan mix, budget, faktor eksternal atau reverse causality dapat menjelaskan pola. Klaim kausal memerlukan desain dan asumsi yang mendukung counterfactual.
 2. **Q:** Apa fungsi decomposition?
-   **Expected answer in guide (not independently approved):** Decomposition memecah outcome menjadi driver yang lebih kecil sehingga sumber perubahan dapat diisolasi dan diuji.
+   **Expected answer in guide (not independently approved):** Decomposition memecah perubahan outcome menjadi komponen atau driver yang lebih kecil, misalnya CPA menjadi cost per click dan conversion rate. Analisis ini membantu melokalisasi kontribusi matematis suatu perubahan, tetapi belum otomatis membuktikan penyebab; hipotesis tetap perlu diuji.
 3. **Q:** Kapan analisis harus ditahan?
-   **Expected answer in guide (not independently approved):** Saat data quality, tracking, population, or metric definitions belum valid untuk mendukung kesimpulan.
+   **Expected answer in guide (not independently approved):** Tahan kesimpulan ketika tracking, populasi, grain, metric definition, coverage atau reconciliation belum memadai, atau ketika perubahan bisnis belum dapat dipisahkan dari noise dan confounder. Nyatakan gap, batasi klaim deskriptif yang masih aman, dan minta perbaikan atau data tambahan.
 
 **Glossary:**
 - **Descriptive analytics:** Analisis yang merangkum apa yang terjadi.
@@ -4019,11 +4019,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda attributed conversion dan incremental conversion?
-   **Expected answer in guide (not independently approved):** Attributed conversion menerima credit menurut model/window; incremental conversion adalah tambahan akibat treatment dibanding counterfactual.
+   **Expected answer in guide (not independently approved):** Attributed conversion menerima credit menurut model, channel eligibility dan attribution window tertentu. Incremental conversion adalah tambahan outcome yang diperkirakan terjadi karena treatment dibanding counterfactual. Attribution menjelaskan alokasi credit; incrementality memerlukan desain kausal dan asumsi identifikasi.
 2. **Q:** Apa risiko last-click?
-   **Expected answer in guide (not independently approved):** Ia cenderung memberi credit pada touchpoint akhir dan mengabaikan demand creation/assisted interactions.
+   **Expected answer in guide (not independently approved):** Last-click memberi seluruh credit kepada interaksi terakhir yang memenuhi aturan model, sehingga kontribusi touchpoint sebelumnya dan demand creation dapat terabaikan. Model ini berguna sebagai aturan pelaporan tertentu, tetapi bukan bukti bahwa touchpoint terakhir menyebabkan conversion.
 3. **Q:** Kapan geo experiment cocok?
-   **Expected answer in guide (not independently approved):** Saat treatment dapat dibedakan lintas wilayah, market comparability memadai, spillover dapat dikendalikan, and sample/time cukup.
+   **Expected answer in guide (not independently approved):** Geo experiment cocok ketika wilayah treatment dan control dapat ditentukan, jumlah unit geografis memadai, tren dasar cukup comparable dan spillover dapat dibatasi. Rancang matching/stratification, periode pre/post, outcome, power, contamination check serta asumsi sebelum membaca lift.
 
 **Glossary:**
 - **Attribution:** Aturan pembagian credit pada touchpoint.
@@ -4059,11 +4059,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda statistical significance dan practical significance?
-   **Expected answer in guide (not independently approved):** Significance menilai compatibility data dengan null hypothesis; practical significance menilai apakah effect cukup besar untuk keputusan bisnis.
+   **Expected answer in guide (not independently approved):** Statistical significance menilai seberapa kompatibel data dengan null hypothesis di bawah model uji. Practical significance menilai apakah besaran effect cukup berarti terhadap margin, customer experience, biaya implementasi dan keputusan. Hasil signifikan dapat terlalu kecil untuk bernilai komersial.
 2. **Q:** Mengapa early peeking berisiko?
-   **Expected answer in guide (not independently approved):** Repeated checks dapat meningkatkan false-positive rate dan mendorong stop/continue decisions yang bias.
+   **Expected answer in guide (not independently approved):** Mengintip hasil berulang kali lalu menghentikan test ketika p-value melewati ambang dapat menaikkan false-positive risk pada prosedur fixed-horizon biasa. Tentukan stopping rule sebelum test; pemantauan berulang memerlukan metode sequential atau alpha-spending yang sesuai.
 3. **Q:** Apa peran randomization unit?
-   **Expected answer in guide (not independently approved):** Menentukan entitas yang diacak; harus sesuai exposure and interference pattern agar perbandingan valid.
+   **Expected answer in guide (not independently approved):** Randomization unit adalah entitas yang menerima assignment treatment atau control, misalnya user, account, session atau geo. Unit harus sesuai cara treatment diberikan dan pola interference. Ketidaksesuaian dapat menyebabkan contamination, dependence antar-observasi atau standard error yang salah.
 
 **Glossary:**
 - **Power:** Peluang mendeteksi effect sebesar tertentu jika effect itu ada.
@@ -4099,11 +4099,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda finding dan insight?
-   **Expected answer in guide (not independently approved):** Finding mencatat pola atau angka yang ditemukan; insight menjelaskan kemungkinan makna dan driver, lalu menunjukkan keputusan yang perlu berubah.
+   **Expected answer in guide (not independently approved):** Finding adalah observasi yang dapat ditunjukkan pada data, misalnya conversion rate turun pada mobile. Insight menghubungkan temuan dengan konteks dan mekanisme yang didukung bukti, menimbang penjelasan lain, lalu menjelaskan implikasi keputusan tanpa menyamarkan ketidakpastian.
 2. **Q:** Mengapa limitation perlu disampaikan?
-   **Expected answer in guide (not independently approved):** Agar stakeholder tidak menganggap atribusi/korelasi sebagai causal proof atau membuat keputusan melebihi evidence.
+   **Expected answer in guide (not independently approved):** Limitation menjelaskan apa yang tidak dapat disimpulkan karena coverage, bias, measurement, attribution, desain atau ketidakpastian. Tanpa caveat, stakeholder dapat menganggap korelasi sebagai sebab, menggeneralisasi sampel yang terbatas atau membuat keputusan lebih kuat daripada evidence.
 3. **Q:** Apa yang harus berakhir pada executive deck?
-   **Expected answer in guide (not independently approved):** Executive deck harus meminta keputusan yang jelas, menyebut owner dan timing, serta menunjukkan impact, risk, dan measurement follow-up.
+   **Expected answer in guide (not independently approved):** Executive deck harus berakhir dengan keputusan yang diminta, rekomendasi berbukti, estimasi dampak dan rentang ketidakpastian, risiko/guardrail, owner, tenggat serta rencana measurement lanjutan. Kesimpulan harus membedakan hasil observasi, interpretasi, asumsi dan hal yang belum diketahui.
 
 **Glossary:**
 - **Insight:** Interpretasi berbukti yang bermakna untuk keputusan.
@@ -4139,11 +4139,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa bukti kualitas data sebelum analisis?
-   **Expected answer in guide (not independently approved):** Data dictionary, source lineage, QA results, duplicate/missing checks, reconciliation, and documented transformations.
+   **Expected answer in guide (not independently approved):** Kualitas data dibuktikan melalui data dictionary, source lineage, schema dan grain, pemeriksaan missing/duplicate/invalid values, reconciliation totals, timestamp refresh, dokumentasi query/transformation serta QA log. Simpan test dan exception agar analyst lain dapat mengulang pemeriksaan.
 2. **Q:** Apa yang membedakan dashboard dengan portfolio capstone?
-   **Expected answer in guide (not independently approved):** Capstone juga membuktikan question framing, methodology, interpretation, decision, and limitations—not visual output saja.
+   **Expected answer in guide (not independently approved):** Dashboard menunjukkan output visual dan monitoring. Portfolio capstone juga membuktikan framing business question, akses dan provenance data, query/model, quality checks, interpretasi, alternatif penjelasan, rekomendasi dan limitation. Artefak harus reproducible serta menjelaskan data synthetic/demo bila digunakan.
 3. **Q:** Bagaimana mengklaim skill tanpa mengklaim client result?
-   **Expected answer in guide (not independently approved):** Tampilkan project demo/synthetic, code/query, method, evidence, and clear label without inventing commercial impact.
+   **Expected answer in guide (not independently approved):** Tunjukkan dataset demo/synthetic, query atau code, data dictionary, metode, test, output dan keputusan yang disimulasikan. Beri label bahwa hasil bukan client work atau market result; jelaskan asumsi, keterbatasan dan bagian yang belum diuji pada sistem production.
 
 **Glossary:**
 - **Reproducibility:** Kemampuan mengulang analisis dengan input dan langkah yang terdokumentasi.

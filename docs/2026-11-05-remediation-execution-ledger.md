@@ -375,7 +375,7 @@ Source checks and deterministic tests are present; workflow result and authentic
 
 ### Core Q&A
 - Created `docs/507-qna-automated-triage.csv` with 507 per-item records and deterministic review flags.
-- 507/507 item-level source-reference fields are blank. Heuristic flags: 152 answers under 14 words, 23 answers beginning with Boolean wording, 16 absolute-wording hits. Answer length range 12–35 words; median 15.
+- Initial triage snapshot before answer-level remediation: 507/507 item-level source-reference fields were blank. This was superseded by the T06 and T10 desk-review batches recorded below; do not treat it as the current count.
 - No heuristic flag proves an answer is wrong. A short answer or a Boolean opening may be appropriate; a reviewer must examine the actual question, expected answer, source and alternative formulations.
 
 ### Agency evidence
@@ -590,3 +590,13 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Added separate docs/T06-12-chapter-qna-technical-desk-review.md and 36-row CSV. Validator now requires 36 T06 rows, source references, previous-answer history, 33–42 word range and non-scored/open statuses.
 - Automated triage counts were reconciled: source-reference missing 507 → 471; answers under 14 words 152 → 138; bare-Boolean openings 23 → 21; absolute-wording flags remain 16. These are heuristics, not findings of technical incorrectness.
 - No answer was promoted to approved or scored; SME verification and alternate-answer review remain OPEN.
+
+
+## 2026-11-05 — T10 Analytics & Measurement Q&A technical/editorial desk review
+
+- Expanded all 30 T10 answer explanations (T10-CH01 through T10-CH10) to 33–41 words, mean 36.2 words. Prior text is preserved in the master Q&A register.
+- Added supporting item-level references from Google Analytics attribution settings and BigQuery export schema, GoogleSQL query syntax/best practices, OpenIntro IMS2, Hernán and Robins' *Causal Inference: What If*, Google Meridian calibration documentation, Optimizely's product-specific statistics setting and Tableau visual best practices.
+- Synchronized role-study-guides-part2.js, docs/169-chapter-evidence-register.md, docs/507-qna-editorial-sme-review-register.csv and docs/507-qna-automated-triage.csv.
+- Added docs/T10-10-chapter-qna-technical-desk-review.md and 30-row CSV. The validator requires 30 unique T10 item IDs, prior-answer history, source references, 33–41 word explanations, non-scored item type and OPEN answer/editorial/SME status; it also verifies guide/evidence parity.
+- Updated global automated triage counts after T06 + T10: 66/507 item-level supporting source references; 441 remaining source-reference gaps; 122 answers under 14 words; 21 bare-Boolean flags; 16 absolute-wording flags; answer length range 12–42 words. These are heuristic flags, not correctness findings.
+- No answer was promoted to scored/approved; qualified editorial, statistical, analytics and measurement SME approval remains OPEN.

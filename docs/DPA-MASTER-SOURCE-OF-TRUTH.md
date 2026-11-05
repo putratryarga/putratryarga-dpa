@@ -237,3 +237,14 @@ The technical recheck references IAB OpenRTB, ads.txt/sellers.json, Google Ad Ma
 The triage inventory now records supporting source references on 36 T06 items; **471/507 core Q&A rows still lack an item-level source reference**. The automated short-answer flag reduces from 152 to 138 and bare-Boolean opening flags from 23 to 21; absolute-wording flags remain 16. These are triage counts, not correctness findings.
 
 **Formal boundary:** all 36 T06 items remain reflective/non-scored; answer-review, editorial, source-fit and SME statuses remain OPEN. Source references support review but do not constitute answer-key approval.
+
+
+## 23. T10 Analytics & Measurement — 30-item Q&A technical/editorial desk review — 5 November 2026
+
+The [T10 10-chapter Q&A technical desk review](T10-10-chapter-qna-technical-desk-review.md) and [30-row CSV](T10-10-chapter-qna-technical-desk-review.csv) record a first-pass expansion of all T10 answer guidance to 33–41 words with item-level supporting references. Previous answer text is preserved in the master Q&A register. The canonical `role-study-guides-part2.js`, 169-chapter evidence register, Q&A review CSV and automated triage CSV are synchronized.
+
+The source checks cover Google Analytics attribution settings and BigQuery export schema, GoogleSQL join/query semantics, OpenIntro IMS2, Hernán and Robins' *Causal Inference: What If*, Google Meridian calibration guidance, Optimizely's product-specific significance setting and Tableau visual best practices. Platform-specific behaviour is not generalized as a universal measurement or inference rule.
+
+The cumulative core-Q&A triage inventory now has **66/507 items with supporting item-level references** (36 T06 + 30 T10); **441/507 still lack** an item-level source reference. Short-answer heuristic flags are 122 (under 14 words), bare-Boolean openings 21 and absolute-wording flags 16. Total answer length range is 12–42 words. These are editorial triage signals, not answer correctness findings.
+
+**Formal boundary:** all 30 T10 items remain reflective/non-scored; answer-review, editorial, source-fit and SME approval remain OPEN. The 441 remaining source gaps and all other core answer approvals remain OPEN.

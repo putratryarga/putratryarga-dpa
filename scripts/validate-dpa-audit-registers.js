@@ -124,6 +124,22 @@ assert(t06QnaAudit.records.length === 36, "T06 technical Q&A desk review must co
 uniqueBy(t06QnaAudit.records, "item_id", "T06 Q&A technical desk review");
 assert(t06QnaAudit.records.every(row => row.item_id.startsWith("DPA-T06-") && row.desk_review_classification === "PARTIAL" && row.formal_answer_key_status === "OPEN" && row.sme_status === "OPEN"),
   "T06 Q&A desk audit must remain PARTIAL with formal answer-key and SME status OPEN.");
+const t10Qna = qna.records.filter(row => row.chapter_id.startsWith("DPA-T10-"));
+assert(t10Qna.length === 30, "T10 analytics Q&A review must contain 30 items.");
+assert(t10Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && String(row.source_reference || "").includes("http")),
+  "All T10 Q&A revisions must preserve prior answers, revision notes and source references.");
+assert(t10Qna.every(row => {
+  const words = row.current_guide_answer.trim().split(" ").filter(Boolean).length;
+  return words >= 33 && words <= 41 && row.item_type === "REFLECTIVE_QA_NOT_SCORED" && row.answer_review_status === "OPEN" && row.editorial_status === "OPEN" && row.sme_status === "OPEN";
+}), "T10 expanded Q&A must remain 33–41 words, reflective/non-scored and formally OPEN.");
+const t10QnaAudit = loadCsv("docs/T10-10-chapter-qna-technical-desk-review.csv");
+assert(t10QnaAudit.records.length === 30, "T10 technical Q&A desk review must contain 30 rows.");
+uniqueBy(t10QnaAudit.records, "item_id", "T10 Q&A technical desk review");
+assert(t10QnaAudit.records.every(row => row.item_id.startsWith("DPA-T10-") && row.desk_review_classification === "PARTIAL" && row.formal_answer_key_status === "OPEN" && row.sme_status === "OPEN"),
+  "T10 Q&A desk audit must remain PARTIAL with formal answer-key and SME status OPEN.");
+const t10Guide = read("role-study-guides-part2.js");
+assert(t10Qna.every(row => t10Guide.includes(row.question_text) && t10Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
+  "T10 Q&A wording must stay synchronized across the role guide and evidence register.");
 
 const objective = loadCsv("docs/169-objective-resource-fit-register.csv");
 assert(objective.records.length === 169, "Objective resource-fit register row count mismatch.");
