@@ -60,7 +60,7 @@ function run() {
   assert.equal(submitted.result.totalCount, 3);
   assert.equal(submitted.result.percentage, 66.7);
   assert.equal(submitted.result.answers[2].correct, false);
-  assert.match(submitted.result.answers[2].distractorRationale, /Attribution/);
+  assert.match(submitted.result.answers[2].distractorRationale, /before-after/);
   assert.equal(submitted.result.itemVersions.length, 3);
   assert.equal(quiz.getSnapshot().state, "SCORED");
   expectCode(() => quiz.select(ids[0], "A"), "INVALID_STATE");
