@@ -325,7 +325,7 @@ The source and tests have been added. Automated workflow execution and actual br
 
 **Automated evidence**
 - [DPA Quiz Engine QA — run 41970086027](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086027): SUCCESS.
-- [DPA Remediation Static QA — run 41970086188](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086188): SUCCESS.
+- [DPA Remediation Static QA — run 41970086188](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086188): SUCCESS.
 - Unit suite passed synthetic-only fixture gating, unsupported scored-mode rejection, empty-state behavior, validation, unanswered guard, deterministic scoring, rationale, review/retry and attempt-history isolation.
 - Playwright + axe passed initial, question and result states using the configured WCAG 2.0/2.1/2.2 A/AA tags. The browser flow passed unanswered guard, response/progress, result, review, retry, native radio keyboard navigation and a 390px viewport with no horizontal overflow.
 - Trust-boundary checks passed for synthetic-only labels and no localStorage/sessionStorage persistence or external API fetch in this sandbox.
