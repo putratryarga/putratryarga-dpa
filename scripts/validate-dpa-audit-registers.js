@@ -166,7 +166,7 @@ assert(t12QnaAudit.records.every(row => row.item_id.startsWith("DPA-T12-") && ro
 const t12Guide = read("role-study-guides-part2.js");
 assert(t12Qna.every(row => t12Guide.includes(row.question_text) && t12Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
   "T12 Q&A wording must stay synchronized across the role guide and evidence register.");
-assert(t12Qna.headers.includes("previous_revision_answer_guidance"), "Q&A register must preserve superseded editorial corrections.");
+assert(qna.headers.includes("previous_revision_answer_guidance"), "Q&A register must preserve superseded editorial corrections.");
 assert(t12Qna.find(row => row.item_id === "DPA-T12-CH01-Q01")?.previous_revision_answer_guidance?.includes("dengan owner"),
   "T12-CH01-Q01 must retain the superseded malformed answer for audit traceability.");
 const t13Qna = qna.records.filter(row => row.chapter_id.startsWith("DPA-T13-"));
