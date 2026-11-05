@@ -1,6 +1,6 @@
 # 4 November 2026 — Static Repository QA Report
 
-**Target:** PR #5 branch `audit/align-all-16-track-learning-modules` (same core audit artifacts synchronized to PR #6).  
+**Target:** remediation branch `audit/full-dpa-remediation-2026-11-05`, derived from PR #5 and containing PR #6's unique advanced-elective source document.  
 **Method:** GitHub source-file inspection and deterministic string/ID reconciliation. This is static QA only; it does not simulate browser rendering or user interaction.
 
 ## Results
@@ -17,20 +17,20 @@
 | All HTML element IDs | 391 (391 unique) | PASS |
 | Internal anchors | 13 (13 resolve) | PASS |
 | Local JavaScript files | 8 | PASS — source tags inspected |
-| Responsive media-query declarations | 0 | PRESENT — visual behavior not verified |
+| Total `@media` declarations | 19 (14 width-based, 2 reduced-motion, 3 print) | STATIC COUNT VERIFIED — visual behavior not runtime-verified |
 | Progress persistence code | present | STATIC PRESENCE ONLY |
 | Theme code | present | STATIC PRESENCE ONLY |
 | Keyboard focus styling | present | STATIC PRESENCE ONLY |
 | Reduced-motion handling | present | STATIC PRESENCE ONLY |
 | Chapter evidence register | 169 chapters; 0 literal undefined tokens | PASS |
 | Assessment rubric register | 169 chapters; 0 literal undefined tokens | PASS |
-| Register Q&A items | 507 | PASS |
-| Rubric answer-key review entries | 507 | PASS |
+| Register Q&A items | 507 source-matched items | PASS — answer correctness remains OPEN |
+| Rubric answer-key review entries | 507 | PASS — SME approval remains OPEN |
 
-## Interpretation
+| Role-specific glossary extraction | 149 source guide term arrays | PASS — source extraction only |\n\n## Interpretation
 
 - The explicit chapter-ID mapping is statically reconciled: 169 HTML chapter IDs and 169 guide IDs, with no missing, orphan or duplicate IDs.
-- The chapter evidence register and rubric file now contain 169 chapters each, 507 Q&A items each, and no literal `undefined` placeholders.
+- The chapter evidence register and rubric file contain 169 chapters each and 507 Q&A items each. The 149 role-specific guide glossary fields have been regenerated from source arrays; extraction is not SME content approval.
 - The 8 local script references and static responsive/theme/progress/focus/reduced-motion code are present. Presence is not proof that the features behave correctly at runtime.
 - The source files include a legitimate JavaScript guard checking whether `DPA_GUIDE_BY_CHAPTER` is `undefined`; this is not a rendered placeholder or a content defect.
 
