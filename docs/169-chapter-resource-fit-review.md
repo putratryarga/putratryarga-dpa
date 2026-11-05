@@ -108,3 +108,14 @@ The resource map retains 169 chapter rows and 169 canonical chapter IDs. Seven d
 - **T10 / SRC-007:** strengthened with a free, independent statistics and inference textbook. Still PARTIAL because SQL practice, causal identification, econometrics and marketing-specific experimental application still need executable exercises and review.
 - **T13 / SRC-008 and T16 / SRC-009:** strengthened with an Indonesia-local publisher guideline and a first-party YouTube moderation control reference. T13 remains PARTIAL; T16 remains OPEN because cross-platform community governance, safety/moderation standards, listening, crisis escalation and customer care are not yet adequately covered.
 - The 169-objective source-fit gate remains OPEN. No chapter was marked PASS from a track-level addition alone.
+
+
+### T02 connection-planning source enrichment — 5 November 2026
+
+Added the UK Government's [GovS 011: Communications functional standard](https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications) to the T02 track resource family and selected chapters DPA-T02-CH01, CH02, CH04, CH06, CH09 and CH10.
+
+The official standard is updated 30 November 2023 and describes the OASIS campaign lifecycle (Objectives, Audience Insight, Strategy, Implementation, Scoring), governance/accountability, measurable outcome-based objectives, audience insight, proposition/message/channel strategy, channel-agnostic planning, piloting and evaluation. It is a useful cross-functional planning and assurance framework for the chapter outcomes. Its formal scope is UK government departments and arm's-length bodies; it is **not** Indonesian law, an Indonesian media-planning currency, or a commercial-agency SOP. Use it as an adaptable framework reference and pair it with market-specific evidence and actual planning JDs.
+
+This addition improves T02's planning lifecycle and governance coverage but does not resolve the remaining cultural insight, communication theory, qualitative consumer research and market-specific planning gaps. T02 remains PARTIAL. The 169 chapter-level objective-fit sign-off remains OPEN.
+
+The resource map now contains 47 unique URLs; five of the seven sources added in the earlier second pass were readable directly, while two were access-check items. The new GOV.UK standard page was readable and its title, date, OASIS structure and scope were checked.
