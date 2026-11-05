@@ -59,3 +59,10 @@ The resource mapping was enriched after the original 17-finding register was aut
 - The resource map now has 169 chapter rows, 169 unique chapter IDs and 46 unique URLs (39 previously recorded plus seven distinct URLs added in this pass). Five of the seven new destinations were directly readable in this check; two remain access-check items (The Jakarta Post 403; YouTube Help 429). No 169-chapter objective-fit decision was changed to PASS solely because a link was added.
 
 The detailed chapter mapping, source scope, retrieval outcomes and per-finding boundaries are recorded in `docs/169-chapter-resource-fit-review.md`.
+
+
+## T02 / research-ethics enrichment delta — 5 November 2026
+
+The T02 resource family and chapters DPA-T02-CH01, CH02, CH03 and CH10 now include the official ICC page for the **ICC/ESOMAR International Code on Market, Opinion and Social Research and Data Analytics (2025)**. It supplies a current global ethics/professional-conduct reference for data collection and research transparency, data-subject protection, duty of care, disclosure of methods/sources/limitations, and human oversight. It improves research governance but does not teach cultural insight, qualitative methods, segmentation, or communication theory; it does not replace Indonesian legal advice.
+
+This adds one distinct URL to the resource map. Current inventory is 169 chapter rows, 169 unique chapter IDs, 48 distinct URLs and at least two unique URLs per chapter. Exact-head CI run [41959929523](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41959929523) passed on SHA `3813e4d7aa7894e4668d5c20f843d731c302733d` after the validator's URL-count expectation was updated. T02 remains PARTIAL and all 169 objective-level source-fit decisions remain OPEN. The supplemental finding counts remain **5 FIXED / 5 PARTIAL / 5 OPEN / 2 BLOCKED**; this is enrichment, not finding closure.
