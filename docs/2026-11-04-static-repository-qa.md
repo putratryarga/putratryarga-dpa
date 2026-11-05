@@ -120,3 +120,22 @@ The supplemental findings register documents new observations from this pass and
 The self-test's score vectors are generated in runner temporary storage, labelled SYNTHETIC and discarded after the job. A successful self-test proves the calculator runs on controlled test input; it does not supply the historical raw score matrix. The run logs also show non-blocking Node/Punycode deprecation warnings.
 
 **Current branch-head note:** the current documentation head is later than the three subject SHAs above. The application code has not changed since f9def1a; Vercel READY preview checks refer to that code/resource SHA and not to every later documentation-only head. The latest docs-head Vercel check remains build-rate-limited. No production merge/deployment occurred.
+
+
+## 2026-11-05 answer-key and glossary integrity check
+
+The evidence register and assessment-rubric draft were independently parsed chapter-by-chapter:
+
+| Check | Result | Status |
+|---|---:|---|
+| Evidence-register Q&A entries | 507 | PASS — three per core chapter |
+| Rubric Q&A entries | 507 | PASS — three per core chapter |
+| Question text parity | 507 / 507 exact matches | PASS — mirrored content |
+| Answer-guidance parity | 507 / 507 exact matches | PASS — mirrored content |
+| Missing answer text | 0 | PASS — structurally present |
+| Duplicate question text | 0 | PASS — 507 unique questions |
+| SME approval | 507 / 507 OPEN | OPEN — correctness and alternate-answer review still required |
+| Short answer guidance | 122 entries under 12 words in 79 chapters | REVIEW FLAG — concise answers may be valid, but these need SME adequacy review |
+| Short glossary definitions | 81 entries under 5 words in 58 chapters | REVIEW FLAG — review for sufficient explanation and context |
+
+The answer-guide pairs were compared after normalizing whitespace and case; all 507 question/answer pairs match between the evidence and rubric registers. This is a content-sync check, not a subject-matter correctness judgment. All 507 review statuses remain OPEN. Short-answer and short-glossary flags are triage prompts, not automatic defects or grounds for inventing additional content.
