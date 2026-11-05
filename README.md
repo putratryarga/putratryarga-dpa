@@ -95,6 +95,14 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [Open the formative quiz prototype](quiz-engine-prototype.html) — isolated synthetic test only; not an official DPA exam, not connected to learner progress, and not a credential or competency record.
 - Automated tests: `node scripts/test-dpa-quiz-engine.js`; workflow: `.github/workflows/dpa-quiz-engine-qa.yml`.
 
+## P1 audit registers
+
+- [507 core Q&A editorial/SME review register](docs/507-qna-editorial-sme-review-register.csv) — 507 items; all OPEN, not scored/approved.
+- [169 objective-level resource-fit register](docs/169-objective-resource-fit-register.csv) — one objective/source review row per core chapter; all OPEN.
+- [80 agency-role cell validation register](docs/80-agency-role-cell-validation-register.csv) — one row per agency × core-track cell; direct JD validation remains open.
+- [28 elective validation register](docs/28-advanced-elective-validation-register.csv) and [56 elective knowledge-check review register](docs/56-elective-knowledge-check-review-register.csv) — separate from the 169 core chapters.
+- [Priority-track source remediation](docs/2026-11-05-priority-track-source-remediation.md) — T02/T03/T07/T10/T13/T16 source improvements and limitations.
+
 ## Audit & working documents
 
 - [Quiz & Assessment Engine — Technical Design](docs/quiz-engine-technical-design.md) — formative quiz architecture, item approval, security boundary and test/release gates; not yet implemented.
