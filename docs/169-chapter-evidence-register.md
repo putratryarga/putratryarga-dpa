@@ -41,7 +41,12 @@
 3. **Q:** Kapan masalah bisnis tidak tepat dijawab dengan menambah media spend?
    **Expected answer in guide:** Ketika bottleneck utamanya stock-out, distribusi, checkout failure, sales response, harga, margin, atau product-market fit.
 
-**Glossary:** Revenue: Pendapatan dalam periode tertentu sesuai basis gross/net yang ditentukan.; Contribution margin: Revenue dikurangi biaya variabel yang relevan untuk keputusan bisnis dan CAC.; CAC: Biaya memperoleh satu customer baru sesuai scope biaya dan periode yang disepakati.; LTV / CLV: Perkiraan nilai ekonomi customer sepanjang hubungan dengan asumsi margin, horizon, dan churn.; Payback period: Waktu yang dibutuhkan agar kontribusi customer menutup biaya akuisisi.
+**Glossary:**
+- **Revenue:** Pendapatan dalam periode tertentu sesuai basis gross/net yang ditentukan.
+- **Contribution margin:** Revenue dikurangi biaya variabel yang relevan untuk keputusan bisnis dan CAC.
+- **CAC:** Biaya memperoleh satu customer baru sesuai scope biaya dan periode yang disepakati.
+- **LTV / CLV:** Perkiraan nilai ekonomi customer sepanjang hubungan dengan asumsi margin, horizon, dan churn.
+- **Payback period:** Waktu yang dibutuhkan agar kontribusi customer menutup biaya akuisisi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -78,7 +83,12 @@
 3. **Q:** Bagaimana membedakan insight dari opini?
    **Expected answer in guide:** Insight menjelaskan perilaku/tension yang relevan, punya evidence yang dapat dilacak, dan mengubah keputusan. Opini adalah generalisasi tanpa evidence atau implikasi teruji.
 
-**Glossary:** Job-to-be-done: Kebutuhan/tugas yang ingin diselesaikan seseorang dalam konteks tertentu.; Consumer tension: Ketegangan antara kebutuhan, hambatan, keinginan, atau risiko yang memengaruhi perilaku.; Positioning: Ruang pembeda brand dalam benak target relatif terhadap pilihan lain.; Value proposition: Pernyataan nilai/manfaat yang dijanjikan kepada audience tertentu.; Reason to believe: Bukti atau alasan yang membuat janji brand masuk akal dan dipercaya.
+**Glossary:**
+- **Job-to-be-done:** Kebutuhan/tugas yang ingin diselesaikan seseorang dalam konteks tertentu.
+- **Consumer tension:** Ketegangan antara kebutuhan, hambatan, keinginan, atau risiko yang memengaruhi perilaku.
+- **Positioning:** Ruang pembeda brand dalam benak target relatif terhadap pilihan lain.
+- **Value proposition:** Pernyataan nilai/manfaat yang dijanjikan kepada audience tertentu.
+- **Reason to believe:** Bukti atau alasan yang membuat janji brand masuk akal dan dipercaya.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -115,7 +125,12 @@
 3. **Q:** Apakah customer journey selalu linear?
    **Expected answer in guide:** Tidak. Perjalanan dapat berulang atau dipengaruhi offline touchpoints, komunitas, marketplace, dan rekomendasi. Peta harus mengikuti bukti kategori.
 
-**Glossary:** Customer journey: Rangkaian tindakan, keputusan, dan pengalaman customer lintas waktu/touchpoint.; Leakage point: Tahap perjalanan dengan kehilangan progres/konversi yang perlu didiagnosis.; KPI tree: Struktur yang menghubungkan business outcome dengan driver dan metric.; Metric dictionary: Dokumen definisi, formula, sumber, owner, dan batas interpretasi metric.; Guardrail metric: Metrik pembatas agar optimasi satu outcome tidak merusak kualitas, margin, atau pengalaman.
+**Glossary:**
+- **Customer journey:** Rangkaian tindakan, keputusan, dan pengalaman customer lintas waktu/touchpoint.
+- **Leakage point:** Tahap perjalanan dengan kehilangan progres/konversi yang perlu didiagnosis.
+- **KPI tree:** Struktur yang menghubungkan business outcome dengan driver dan metric.
+- **Metric dictionary:** Dokumen definisi, formula, sumber, owner, dan batas interpretasi metric.
+- **Guardrail metric:** Metrik pembatas agar optimasi satu outcome tidak merusak kualitas, margin, atau pengalaman.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -152,7 +167,12 @@
 3. **Q:** Apa yang dicek saat suatu channel tampak punya ROAS tinggi?
    **Expected answer in guide:** Attribution overlap, assisted role, incrementality, volume, margin, saturation, dan opportunity cost sebelum budget dipindahkan.
 
-**Glossary:** Paid / Owned / Earned / Shared: Kerangka pengelompokan distribusi berdasarkan pembayaran, kontrol aset, publisitas, dan partisipasi berbagi.; Media mix: Kombinasi channel, placement, format, dan investasi untuk mencapai objective.; Flighting: Pola waktu penayangan atau pengeluaran media selama campaign.; Reach & frequency: Reach mengukur orang unik; frequency rata-rata jumlah exposure per orang dalam periode.; Forecast: Estimasi hasil berdasarkan asumsi; tampilkan input, rentang, dan uncertainty.
+**Glossary:**
+- **Paid / Owned / Earned / Shared:** Kerangka pengelompokan distribusi berdasarkan pembayaran, kontrol aset, publisitas, dan partisipasi berbagi.
+- **Media mix:** Kombinasi channel, placement, format, dan investasi untuk mencapai objective.
+- **Flighting:** Pola waktu penayangan atau pengeluaran media selama campaign.
+- **Reach & frequency:** Reach mengukur orang unik; frequency rata-rata jumlah exposure per orang dalam periode.
+- **Forecast:** Estimasi hasil berdasarkan asumsi; tampilkan input, rentang, dan uncertainty.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -189,7 +209,12 @@
 3. **Q:** Apa peran full-stack planner ketika ada specialist platform?
    **Expected answer in guide:** Menetapkan objective, channel role, budget guardrail, KPI, brief, dependency, governance, dan evaluasi; bukan mengambil alih keputusan teknis tanpa konteks.
 
-**Glossary:** Demand capture: Menangkap permintaan yang sudah muncul, misalnya melalui search atau intent eksplisit.; Demand generation: Membangun awareness/preference sebelum kebutuhan diekspresikan sebagai query.; DSP / SSP: DSP membantu buyer mengakses inventory; SSP membantu publisher mengelola/menjual inventory.; RTB: Real-time bidding, lelang otomatis pada kesempatan impression.; Inventory quality: Kualitas placement dari sisi brand safety, suitability, viewability, fraud, audience, dan supply transparency.
+**Glossary:**
+- **Demand capture:** Menangkap permintaan yang sudah muncul, misalnya melalui search atau intent eksplisit.
+- **Demand generation:** Membangun awareness/preference sebelum kebutuhan diekspresikan sebagai query.
+- **DSP / SSP:** DSP membantu buyer mengakses inventory; SSP membantu publisher mengelola/menjual inventory.
+- **RTB:** Real-time bidding, lelang otomatis pada kesempatan impression.
+- **Inventory quality:** Kualitas placement dari sisi brand safety, suitability, viewability, fraud, audience, dan supply transparency.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -226,7 +251,12 @@
 3. **Q:** Bagaimana mengukur community selain follower?
    **Expected answer in guide:** Participation quality, repeat contributors, response time, resolution, advocacy, member retention, UGC permission, dan customer experience.
 
-**Glossary:** Crawlability: Kemampuan crawler menemukan dan mengakses URL.; Indexability: Kelayakan halaman untuk disimpan/ditampilkan dalam indeks search engine.; Search intent: Kebutuhan atau tujuan di balik query pengguna.; Content pillar / cluster: Pillar adalah topik utama; cluster adalah konten terkait yang memperdalam subtopik dan terhubung.; Community health: Ukuran kualitas partisipasi, keamanan, respons, retensi, dan nilai hubungan.
+**Glossary:**
+- **Crawlability:** Kemampuan crawler menemukan dan mengakses URL.
+- **Indexability:** Kelayakan halaman untuk disimpan/ditampilkan dalam indeks search engine.
+- **Search intent:** Kebutuhan atau tujuan di balik query pengguna.
+- **Content pillar / cluster:** Pillar adalah topik utama; cluster adalah konten terkait yang memperdalam subtopik dan terhubung.
+- **Community health:** Ukuran kualitas partisipasi, keamanan, respons, retensi, dan nilai hubungan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -263,7 +293,12 @@
 3. **Q:** Apa fungsi Preview/DebugView saat QA GTM dan GA4?
    **Expected answer in guide:** Menguji apakah tag terpicu pada kondisi benar dan event/parameter masuk sesuai harapan sebelum dipublikasikan; simpan test evidence.
 
-**Glossary:** Event taxonomy: Struktur nama event, trigger, parameter, dan aturan yang konsisten.; UTM: Parameter URL untuk mengidentifikasi source, medium, campaign, content, dan keyword.; Google Tag Manager: Sistem untuk mengelola tag, trigger, dan variable pada website/app.; Attribution: Aturan pemberian credit touchpoint menurut model/window; bukan bukti incremental causality.; Data quality: Kondisi data terkait akurasi, completeness, consistency, timeliness, validity, dan uniqueness.
+**Glossary:**
+- **Event taxonomy:** Struktur nama event, trigger, parameter, dan aturan yang konsisten.
+- **UTM:** Parameter URL untuk mengidentifikasi source, medium, campaign, content, dan keyword.
+- **Google Tag Manager:** Sistem untuk mengelola tag, trigger, dan variable pada website/app.
+- **Attribution:** Aturan pemberian credit touchpoint menurut model/window; bukan bukti incremental causality.
+- **Data quality:** Kondisi data terkait akurasi, completeness, consistency, timeliness, validity, dan uniqueness.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -300,7 +335,12 @@
 3. **Q:** Apa arti hasil eksperimen inconclusive?
    **Expected answer in guide:** Data belum memberi bukti cukup untuk memilih winner sesuai decision rule. Itu bukan bukti kedua variasi identik; periksa power, sample, variance, dan implementasi.
 
-**Glossary:** CRO: Proses sistematis meningkatkan proporsi audience yang menyelesaikan tindakan bernilai.; Hypothesis: Pernyataan yang menghubungkan evidence, perubahan, mekanisme, outcome, dan guardrail.; Randomization unit: Unit yang diacak, misalnya user, session, atau account; memengaruhi validity eksperimen.; Primary metric: Metrik utama untuk keputusan test, ditetapkan sebelum hasil dibaca.; Inconclusive: Hasil belum memenuhi evidence/decision threshold untuk menyatakan winner.
+**Glossary:**
+- **CRO:** Proses sistematis meningkatkan proporsi audience yang menyelesaikan tindakan bernilai.
+- **Hypothesis:** Pernyataan yang menghubungkan evidence, perubahan, mekanisme, outcome, dan guardrail.
+- **Randomization unit:** Unit yang diacak, misalnya user, session, atau account; memengaruhi validity eksperimen.
+- **Primary metric:** Metrik utama untuk keputusan test, ditetapkan sebelum hasil dibaca.
+- **Inconclusive:** Hasil belum memenuhi evidence/decision threshold untuk menyatakan winner.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -337,7 +377,12 @@
 3. **Q:** Mengapa repeat purchase dibaca bersama margin dan customer experience?
    **Expected answer in guide:** Diskon agresif dapat menaikkan repeat tetapi menurunkan margin; frekuensi pesan berlebih meningkatkan unsubscribe/complaint. Nilai hubungan dinilai utuh.
 
-**Glossary:** Lifecycle marketing: Komunikasi/pengalaman yang disesuaikan dengan tahap hubungan customer terhadap brand.; Trigger: Kejadian atau kondisi yang memulai automation flow.; Suppression: Aturan mengecualikan kontak yang tidak eligible untuk komunikasi tertentu.; Deliverability: Kemampuan email/pesan mencapai penerima sesuai kebijakan dan kualitas pengiriman.; Cohort retention: Proporsi kelompok customer yang tetap aktif/bertransaksi setelah titik awal yang sama.
+**Glossary:**
+- **Lifecycle marketing:** Komunikasi/pengalaman yang disesuaikan dengan tahap hubungan customer terhadap brand.
+- **Trigger:** Kejadian atau kondisi yang memulai automation flow.
+- **Suppression:** Aturan mengecualikan kontak yang tidak eligible untuk komunikasi tertentu.
+- **Deliverability:** Kemampuan email/pesan mencapai penerima sesuai kebijakan dan kualitas pengiriman.
+- **Cohort retention:** Proporsi kelompok customer yang tetap aktif/bertransaksi setelah titik awal yang sama.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -375,7 +420,12 @@
 3. **Q:** Apa pertanyaan executive yang harus dijawab saat presentasi?
    **Expected answer in guide:** Mengapa masalah diprioritaskan, mengapa audience/channel dipilih, bagaimana ekonomi dan KPI bekerja, evidence apa yang mendasari keputusan, apa risikonya, dan kapan strategi diubah.
 
-**Glossary:** Integrated performance plan: Rencana yang menghubungkan objective, audience, channel, activation, measurement, optimization, dan lifecycle.; Assumption log: Catatan asumsi, sumber, confidence, owner, dan cara pengujian.; Forecast: Estimasi hasil masa depan berdasarkan input dan asumsi yang dinyatakan.; Executive recommendation: Keputusan berbasis evidence, trade-off, commercial impact, risk, dan next action.; Handover: Penyerahan file, konteks, owner, status, dependency, risiko, dan action berikutnya.
+**Glossary:**
+- **Integrated performance plan:** Rencana yang menghubungkan objective, audience, channel, activation, measurement, optimization, dan lifecycle.
+- **Assumption log:** Catatan asumsi, sumber, confidence, owner, dan cara pengujian.
+- **Forecast:** Estimasi hasil masa depan berdasarkan input dan asumsi yang dinyatakan.
+- **Executive recommendation:** Keputusan berbasis evidence, trade-off, commercial impact, risk, dan next action.
+- **Handover:** Penyerahan file, konteks, owner, status, dependency, risiko, dan action berikutnya.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1619,7 +1669,12 @@
 3. **Q:** Apa perbedaan ad account, Page/identity, dan Pixel/dataset?
    **Expected answer in guide:** Ad account mengelola pembelian serta campaign; Page atau identity mewakili identitas advertiser pada iklan; Pixel/dataset menerima event untuk measurement. Ketiganya saling terhubung, tetapi bukan aset yang sama.
 
-**Glossary:** Business Portfolio / Business Center: Workspace tingkat bisnis untuk mengelola aset serta permission. Nama dan fitur berbeda antarpublisher.; Ad account: Workspace untuk membuat, membayar, mengelola, dan melaporkan campaign iklan.; Data source: Sumber event atau conversion data, misalnya Meta Pixel/dataset atau TikTok Pixel.; Partner access: Akses terbatas yang diberikan kepada agency/vendor tanpa menyerahkan login personal.; Least privilege: Prinsip memberikan hak akses minimum yang cukup untuk menjalankan tugas.
+**Glossary:**
+- **Business Portfolio / Business Center:** Workspace tingkat bisnis untuk mengelola aset serta permission. Nama dan fitur berbeda antarpublisher.
+- **Ad account:** Workspace untuk membuat, membayar, mengelola, dan melaporkan campaign iklan.
+- **Data source:** Sumber event atau conversion data, misalnya Meta Pixel/dataset atau TikTok Pixel.
+- **Partner access:** Akses terbatas yang diberikan kepada agency/vendor tanpa menyerahkan login personal.
+- **Least privilege:** Prinsip memberikan hak akses minimum yang cukup untuk menjalankan tugas.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1656,7 +1711,12 @@
 3. **Q:** Apa yang harus diperiksa sebelum memilih Purchase sebagai optimization event?
    **Expected answer in guide:** Pastikan checkout berjalan, event terpicu, parameter value/currency benar, deduplication berfungsi bila diperlukan, consent dihormati, serta kualitas sinyal memadai.
 
-**Glossary:** Campaign objective: Arah optimasi yang dipilih pada tingkat campaign sesuai opsi platform.; Conversion location: Tempat tindakan yang diinginkan terjadi, misalnya website, app, instant form, atau messaging.; Performance goal: Hasil delivery yang diminta untuk diprioritaskan platform pada objective terpilih.; Optimization event: Event yang digunakan sebagai sinyal optimasi, misalnya Purchase atau Lead.; Diagnostic metric: Metrik untuk menjelaskan perubahan performa; bukan pengganti outcome bisnis.
+**Glossary:**
+- **Campaign objective:** Arah optimasi yang dipilih pada tingkat campaign sesuai opsi platform.
+- **Conversion location:** Tempat tindakan yang diinginkan terjadi, misalnya website, app, instant form, atau messaging.
+- **Performance goal:** Hasil delivery yang diminta untuk diprioritaskan platform pada objective terpilih.
+- **Optimization event:** Event yang digunakan sebagai sinyal optimasi, misalnya Purchase atau Lead.
+- **Diagnostic metric:** Metrik untuk menjelaskan perubahan performa; bukan pengganti outcome bisnis.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1693,7 +1753,12 @@
 3. **Q:** Bolehkah data pelanggan sensitif digunakan untuk membuat audience?
    **Expected answer in guide:** Jangan menggunakan atau mengirim data sensitif yang dilarang platform atau tidak memiliki dasar pemrosesan yang sah. Ikuti consent, privacy law, platform policy, serta prinsip minimisasi data.
 
-**Glossary:** Custom Audience: Audience yang dibentuk dari sumber pelanggan atau interaksi platform yang penggunaannya diizinkan.; Lookalike Audience: Audience prospek yang dimodelkan dari karakteristik source audience; kualitasnya bergantung pada kualitas sumber.; Prospecting: Aktivitas paid media untuk menjangkau atau memperoleh calon pelanggan baru.; Retargeting: Menjangkau kembali orang yang pernah berinteraksi dengan brand atau menunjukkan intent.; Audience overlap: Tumpang tindih orang di beberapa audience group yang dapat mengganggu delivery dan interpretasi hasil.
+**Glossary:**
+- **Custom Audience:** Audience yang dibentuk dari sumber pelanggan atau interaksi platform yang penggunaannya diizinkan.
+- **Lookalike Audience:** Audience prospek yang dimodelkan dari karakteristik source audience; kualitasnya bergantung pada kualitas sumber.
+- **Prospecting:** Aktivitas paid media untuk menjangkau atau memperoleh calon pelanggan baru.
+- **Retargeting:** Menjangkau kembali orang yang pernah berinteraksi dengan brand atau menunjukkan intent.
+- **Audience overlap:** Tumpang tindih orang di beberapa audience group yang dapat mengganggu delivery dan interpretasi hasil.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1730,7 +1795,12 @@
 3. **Q:** Mengapa naming convention dibuat sebelum launch?
    **Expected answer in guide:** Naming konsisten mempercepat QA, filtering reporting, handover, reconciliation, dan audit perubahan antar-campaign.
 
-**Glossary:** Campaign: Objek tingkat campaign untuk mengatur objective dan setting/budget tertentu sesuai platform.; Ad Set (Meta): Level Meta untuk setting seperti audience, placement, schedule, optimization, serta budget/bid sesuai konfigurasi.; Ad Group (TikTok): Level TikTok untuk setting seperti placement, audience, schedule, optimization, dan bid.; Naming convention: Pola nama konsisten agar platform, market, objective, audience, creative, dan test mudah dikenali.; Test cell: Unit kombinasi variabel dalam eksperimen yang didefinisikan agar hasil dapat dibandingkan secara adil.
+**Glossary:**
+- **Campaign:** Objek tingkat campaign untuk mengatur objective dan setting/budget tertentu sesuai platform.
+- **Ad Set (Meta):** Level Meta untuk setting seperti audience, placement, schedule, optimization, serta budget/bid sesuai konfigurasi.
+- **Ad Group (TikTok):** Level TikTok untuk setting seperti placement, audience, schedule, optimization, dan bid.
+- **Naming convention:** Pola nama konsisten agar platform, market, objective, audience, creative, dan test mudah dikenali.
+- **Test cell:** Unit kombinasi variabel dalam eksperimen yang didefinisikan agar hasil dapat dibandingkan secara adil.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1767,7 +1837,12 @@
 3. **Q:** Apa yang harus dicek sebelum menggunakan konten creator sebagai iklan?
    **Expected answer in guide:** Cakupan dan durasi usage rights, platform/placement yang diizinkan, paid amplification atau whitelisting permission, disclosure, hak musik/asset, brand safety, dan kepatuhan klaim.
 
-**Glossary:** Creative angle: Sudut pesan atau manfaat yang dipakai agar proposisi relevan bagi audience tertentu.; Hook: Pembuka visual, audio, atau copy untuk menarik perhatian dan mengantarkan pesan utama.; Proof point: Bukti yang mendukung klaim atau manfaat produk.; Native creative: Creative yang disesuaikan dengan konteks konsumsi dan format platform tanpa kehilangan kejelasan brand.; Usage rights / whitelisting: Izin penggunaan atau amplifikasi konten creator; ruang lingkup dan durasinya harus terdokumentasi.
+**Glossary:**
+- **Creative angle:** Sudut pesan atau manfaat yang dipakai agar proposisi relevan bagi audience tertentu.
+- **Hook:** Pembuka visual, audio, atau copy untuk menarik perhatian dan mengantarkan pesan utama.
+- **Proof point:** Bukti yang mendukung klaim atau manfaat produk.
+- **Native creative:** Creative yang disesuaikan dengan konteks konsumsi dan format platform tanpa kehilangan kejelasan brand.
+- **Usage rights / whitelisting:** Izin penggunaan atau amplifikasi konten creator; ruang lingkup dan durasinya harus terdokumentasi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1804,7 +1879,12 @@
 3. **Q:** Apakah ROAS 5x berarti profit 5x?
    **Expected answer in guide:** Tidak. Revenue ROAS adalah attributed revenue dibagi ad spend. Profit harus memperhitungkan margin serta biaya produk, fulfilment, diskon, fee, refund, dan biaya relevan lainnya.
 
-**Glossary:** Auction: Mekanisme kompetisi platform untuk menentukan iklan eligible yang memperoleh kesempatan tampil.; Bid strategy: Aturan platform/advertiser untuk bidding atau optimasi biaya dan volume hasil.; Cost cap / target cost: Target pengendalian biaya menurut definisi platform; bukan jaminan setiap hasil tepat pada angka tersebut.; Pacing: Laju pengeluaran aktual dibandingkan rencana budget dan jadwal campaign.; Revenue ROAS: Attributed revenue dibagi ad spend; tidak sama dengan profit atau incrementality.
+**Glossary:**
+- **Auction:** Mekanisme kompetisi platform untuk menentukan iklan eligible yang memperoleh kesempatan tampil.
+- **Bid strategy:** Aturan platform/advertiser untuk bidding atau optimasi biaya dan volume hasil.
+- **Cost cap / target cost:** Target pengendalian biaya menurut definisi platform; bukan jaminan setiap hasil tepat pada angka tersebut.
+- **Pacing:** Laju pengeluaran aktual dibandingkan rencana budget dan jadwal campaign.
+- **Revenue ROAS:** Attributed revenue dibagi ad spend; tidak sama dengan profit atau incrementality.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1841,7 +1921,13 @@
 3. **Q:** Apakah server-side tracking membuat consent tidak diperlukan?
    **Expected answer in guide:** Tidak. Pengiriman melalui server tidak menghapus kewajiban privacy, consent, legal basis, platform policy, atau data minimization.
 
-**Glossary:** Pixel: Tag/library berbasis browser untuk mengirim event dari interaksi pengguna di browser.; Conversions API / Events API: Interface untuk mengirim event dan parameter dari sistem advertiser ke platform.; event_id: Identifier unik untuk satu kejadian, digunakan untuk menghubungkan atau menduplikasi salinan event dari beberapa jalur.; Event deduplication: Proses mengenali salinan event yang merepresentasikan satu conversion agar tidak dihitung ganda.; UTM: Parameter URL seperti utm_source dan utm_campaign untuk mengklasifikasikan traffic campaign di analytics.; Consent signal: Informasi izin atau pilihan pengguna yang mengatur apakah data boleh dikumpulkan atau dibagikan.
+**Glossary:**
+- **Pixel:** Tag/library berbasis browser untuk mengirim event dari interaksi pengguna di browser.
+- **Conversions API / Events API:** Interface untuk mengirim event dan parameter dari sistem advertiser ke platform.
+- **event_id:** Identifier unik untuk satu kejadian, digunakan untuk menghubungkan atau menduplikasi salinan event dari beberapa jalur.
+- **Event deduplication:** Proses mengenali salinan event yang merepresentasikan satu conversion agar tidak dihitung ganda.
+- **UTM:** Parameter URL seperti utm_source dan utm_campaign untuk mengklasifikasikan traffic campaign di analytics.
+- **Consent signal:** Informasi izin atau pilihan pengguna yang mengatur apakah data boleh dikumpulkan atau dibagikan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1878,7 +1964,12 @@
 3. **Q:** Mengapa mengubah budget, audience, creative, dan event sekaligus menyulitkan diagnosis?
    **Expected answer in guide:** Beberapa faktor berubah bersamaan sehingga efek masing-masing tidak bisa dipisahkan. Change log serta intervensi yang terkontrol membuat evaluasi lebih dapat dipercaya.
 
-**Glossary:** Learning phase: Periode delivery ketika platform mengumpulkan signal untuk mengoptimalkan campaign ke goal yang dipilih.; Learning volatility: Fluktuasi performa ketika sistem masih mengeksplorasi; bukan otomatis bukti kegagalan campaign.; Creative fatigue: Penurunan respons ketika audience terlalu sering melihat asset serupa atau relevansi pesannya berkurang.; Pacing issue: Spend aktual terlalu cepat atau terlalu lambat dibandingkan rencana budget dan waktu campaign.; Change log: Catatan perubahan konfigurasi, owner, timestamp, hipotesis, serta hasil setelah perubahan.
+**Glossary:**
+- **Learning phase:** Periode delivery ketika platform mengumpulkan signal untuk mengoptimalkan campaign ke goal yang dipilih.
+- **Learning volatility:** Fluktuasi performa ketika sistem masih mengeksplorasi; bukan otomatis bukti kegagalan campaign.
+- **Creative fatigue:** Penurunan respons ketika audience terlalu sering melihat asset serupa atau relevansi pesannya berkurang.
+- **Pacing issue:** Spend aktual terlalu cepat atau terlalu lambat dibandingkan rencana budget dan waktu campaign.
+- **Change log:** Catatan perubahan konfigurasi, owner, timestamp, hipotesis, serta hasil setelah perubahan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1915,7 +2006,12 @@
 3. **Q:** Apakah ROAS yang lebih tinggi otomatis membuktikan incrementality?
    **Expected answer in guide:** Tidak. ROAS menunjukkan attributed revenue per ad spend dalam setup measurement tertentu. Incrementality memerlukan counterfactual yang kredibel seperti holdout atau randomized experiment.
 
-**Glossary:** Primary metric: Metrik utama untuk mengambil keputusan test dan harus ditentukan sebelum hasil dilihat.; Guardrail metric: Metrik penjaga agar peningkatan primary metric tidak merusak biaya, kualitas, margin, atau customer experience.; A/B test: Eksperimen terkontrol untuk membandingkan variasi dengan satu variabel utama yang terdefinisi.; Attribution window: Periode dan aturan yang digunakan platform untuk menghubungkan ad exposure/click dengan conversion.; Incrementality: Outcome tambahan yang disebabkan iklan dibandingkan counterfactual tanpa iklan.
+**Glossary:**
+- **Primary metric:** Metrik utama untuk mengambil keputusan test dan harus ditentukan sebelum hasil dilihat.
+- **Guardrail metric:** Metrik penjaga agar peningkatan primary metric tidak merusak biaya, kualitas, margin, atau customer experience.
+- **A/B test:** Eksperimen terkontrol untuk membandingkan variasi dengan satu variabel utama yang terdefinisi.
+- **Attribution window:** Periode dan aturan yang digunakan platform untuk menghubungkan ad exposure/click dengan conversion.
+- **Incrementality:** Outcome tambahan yang disebabkan iklan dibandingkan counterfactual tanpa iklan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1953,7 +2049,12 @@
 3. **Q:** Apa saja yang harus ada dalam optimization memo?
    **Expected answer in guide:** Keputusan, evidence, perbandingan KPI dengan target, diagnosis, risk/limitation, owner, timeline, dan next test yang spesifik.
 
-**Glossary:** Campaign launch plan: Paket pra-launch yang mencakup objective, structure, budget, creative, tracking, QA, serta approval.; Optimization memo: Dokumen keputusan pasca-analisis yang menghubungkan evidence dengan tindakan, alasan, risiko, dan eksperimen berikutnya.; SIMULATED: Label eksplisit bahwa angka atau outcome dibuat untuk latihan, bukan performa advertiser aktual.; Portfolio-ready: Kualitas pekerjaan yang dapat dijelaskan, direplikasi, diperiksa, serta menyertakan keputusan dan limitation secara jujur.; Handover: Penyerahan file, konteks, ID, ownership, status, change log, dan isu yang belum selesai kepada owner berikutnya.
+**Glossary:**
+- **Campaign launch plan:** Paket pra-launch yang mencakup objective, structure, budget, creative, tracking, QA, serta approval.
+- **Optimization memo:** Dokumen keputusan pasca-analisis yang menghubungkan evidence dengan tindakan, alasan, risiko, dan eksperimen berikutnya.
+- **SIMULATED:** Label eksplisit bahwa angka atau outcome dibuat untuk latihan, bukan performa advertiser aktual.
+- **Portfolio-ready:** Kualitas pekerjaan yang dapat dijelaskan, direplikasi, diperiksa, serta menyertakan keputusan dan limitation secara jujur.
+- **Handover:** Penyerahan file, konteks, ID, ownership, status, change log, dan isu yang belum selesai kepada owner berikutnya.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
