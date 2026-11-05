@@ -119,3 +119,14 @@ The official standard is updated 30 November 2023 and describes the OASIS campai
 This addition improves T02's planning lifecycle and governance coverage but does not resolve the remaining cultural insight, communication theory, qualitative consumer research and market-specific planning gaps. T02 remains PARTIAL. The 169 chapter-level objective-fit sign-off remains OPEN.
 
 The resource map now contains 47 unique URLs; five of the seven sources added in the earlier second pass were readable directly, while two were access-check items. The new GOV.UK standard page was readable and its title, date, OASIS structure and scope were checked.
+
+
+### T02 research ethics source enrichment — 5 November 2026
+
+Added the [ICC/ESOMAR International Code on Market, Opinion and Social Research and Data Analytics (2025)](https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/) to the T02 resource family and chapters DPA-T02-CH01, CH02, CH03 and CH10.
+
+The ICC page identifies the 2025 revision as the global benchmark for ethical/professional conduct across market, opinion and social research and data analytics. Its published principles address legality, honesty, transparency, due care, fair treatment of data subjects, explaining personal-data collection/use, data protection and researcher accountability; the 2025 edition also highlights method/source/limitation disclosure, protections for vulnerable groups, consent/notification, and human oversight. This is directly relevant to research framing, audience insight and evidence handling.
+
+Boundary: a code of conduct sets ethical/professional requirements; it does not teach cultural theory, qualitative interviewing, ethnography, insight synthesis, segmentation methods or Indonesian-specific legal interpretation. Apply it alongside applicable Indonesian law and local professional guidance. The code is mandatory for ESOMAR members and organizations/professionals that adopt it; the ICC page says it is recognised by more than 60 associations in over 50 countries. T02 remains PARTIAL, and the 169-objective resource-fit gate remains OPEN.
+
+The map now has 48 distinct URLs. This source was retrieved directly from the ICC publisher page and checked against its 2025 revision summary and five core principles.
