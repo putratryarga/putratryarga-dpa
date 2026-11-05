@@ -101,3 +101,17 @@ T10 received 12 additional source references (11 unique URLs, including one shar
 Desk classification: CH04 and CH07 have stronger method-source alignment; all ten remain PARTIAL overall. CH01 still lacks a direct KPI/measurement planning framework; CH02 lacks vendor-neutral taxonomy/lineage; CH03 lacks CM360/Floodlight and full platform reconciliation sources; CH04 still needs runnable spreadsheet/SQL validation; CH05 needs cross-tool dashboard governance; CH06 needs a worked diagnostic/root-cause case; CH07 needs explicit MTA vs incrementality vs MMM estimands and direct media measurement sources; CH08 needs MDE/power/sample-size calculation and stopping/multiple-testing controls; CH09 needs an executive-readout rubric; CH10 needs a reproducible end-to-end capstone package.
 
 Source access is not universal. Some Google Analytics Help pages and the Optimizely statistical-significance article returned retrieval/cache limitations; those are not marked as verified Indonesia learner access. All ten formal acceptance/SME decisions remain OPEN.
+
+
+## 7. T03 source-fit desk review and final inventory reconciliation — 5 November 2026
+
+The [T03 10-chapter source-fit review](T03-10-chapter-source-fit-review.md) and [CSV](T03-10-chapter-source-fit-review.csv) document the first-pass assessment of all T03 chapters. All ten are PARTIAL at desk-review level, with formal objective acceptance OPEN.
+
+The T03 map now includes:
+- YouGov's 2025 Indonesia media-consumption report page: summary covers TV, radio, podcasts and social habits; the full report download uses a separate platform route, so full learner access is OPEN.
+- Google Ads Help — Reach Planner suggestions: current October 2026 weekly-frequency suggestions; scope is YouTube/video-partner planning, not all-media reach.
+- MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0 (January 2018): digital streaming/progressive downloads; not traditional over-the-air AM/FM radio.
+
+The source review also records the current provider and policy evidence: MRC OOH Phase 1/2 final December 2025; Nielsen Indonesia TV/streaming releases are older provider-published descriptions; KPI's 2025 MKK survey article is a public-broadcasting survey initiative, not commercial radio ratings. Direct access and local applicability remain separate acceptance checks.
+
+**Current source-map structure:** 169 chapter rows / 70 unique URLs / at least two unique URLs per row. Previous totals (48, 54, 55 and 67) are historical snapshots and are superseded. No 70/70 direct-fetch or Indonesia learner-access claim is made.
