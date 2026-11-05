@@ -124,3 +124,12 @@ The normative remediation and release acceptance checklist is [Requirements Trac
 ## 14. Assessment engine design
 
 The formative quiz and assessment architecture is documented in [Quiz & Assessment Engine — Technical Design](quiz-engine-technical-design.md). This is a design artifact, not implementation or content approval. Existing static Q&A remains reflective learning support until item IDs, learning-outcome mapping, distractors where applicable, source checks, editorial review and SME answer-key review are complete. Browser-only scoring is formative only; authoritative grading requires server-side key isolation, authenticated submissions, approved scoring and privacy/security governance. The existing 80% target remains uncalibrated.
+
+
+## 15. Certificate issuance and verification
+
+The proposed [DPA Certificate Issuance & Verification specification](certificate-issuance-verification-spec.md) records a future DPA-owned learning credential feature: participation, completion and track-achievement certificates with controlled server-side issuance, public verification, revocation and audit history.
+
+This is a **design baseline only**. The current website is static and has no verified credential registry, authenticated issuer workflow or trusted server-side issuance endpoint. Assessment item approval, rubric calibration, threshold setting, issuer identity, learner privacy/consent, security review and pilot remain prerequisites. No real learner certificate may be issued until the applicable CERT-001–CERT-008 criteria in the acceptance register pass.
+
+A DPA-issued learning certificate is not a BNSP/LSP competency certificate, government-accredited qualification or third-party platform certification. Any LPK/LSP partnership is a separate workstream requiring independent licensing, scheme and issuer verification.
