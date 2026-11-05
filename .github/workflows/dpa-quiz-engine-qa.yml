@@ -1,0 +1,53 @@
+name: DPA Quiz Engine QA
+
+on:
+  push:
+    branches:
+      - audit/full-dpa-remediation-2026-11-05
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  formative-quiz:
+    name: Synthetic-only formative quiz tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out remediation branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check scripts/dpa-quiz-engine.js
+          node --check scripts/dpa-quiz-synthetic-fixtures.js
+          node --check scripts/dpa-quiz-sandbox.js
+          node --check scripts/test-dpa-quiz-engine.js
+
+      - name: Run deterministic engine tests
+        run: node scripts/test-dpa-quiz-engine.js
+
+      - name: Verify prototype trust-boundary labels
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const html = fs.readFileSync('quiz-engine-prototype.html', 'utf8');
+          const fixtures = fs.readFileSync('scripts/dpa-quiz-synthetic-fixtures.js', 'utf8');
+          const core = fs.readFileSync('scripts/dpa-quiz-engine.js', 'utf8');
+          for (const marker of ['SYNTHETIC TEST ONLY', 'bukan assessment resmi', 'tidak memengaruhi progres roadmap']) {
+            if (!html.toLowerCase().includes(marker.toLowerCase())) throw new Error('Missing prototype boundary: ' + marker);
+          }
+          if (!fixtures.includes('SYNTHETIC_TEST_FIXTURE') || !core.includes('Only synthetic test fixtures may load')) {
+            throw new Error('Synthetic-only guard missing from fixture/engine.');
+          }
+          if (/localStorage|sessionStorage|fetch\s*\(/.test(html + core)) {
+            throw new Error('Prototype must not persist data or call external APIs.');
+          }
+          console.log('PASS: prototype labels, synthetic-only fixture guard and no-persistence/no-network boundary.');
+          NODE
