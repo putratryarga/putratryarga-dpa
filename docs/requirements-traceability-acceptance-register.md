@@ -283,3 +283,24 @@ QTI 3.0 is an optional portability design consideration, not a requirement to ce
 - QTI 3.0 is optional interoperability consideration only; WCAG 2.2 AA is the proposed accessibility target and still requires applicable human and automated verification.
 
 **Requirement disposition:** quiz technical design = PRESENT / DESIGN COMPLETE. `QUIZ-001`, `QUIZ-002`, `QUIZ-003` and scored-content acceptance remain OPEN. No quiz engine or approved scored bank is claimed as implemented.
+
+
+## 13. Certificate issuance and verification feature
+
+**Design:** [DPA Certificate Issuance & Verification](certificate-issuance-verification-spec.md)  
+**Status:** FEATURE PROPOSED / DESIGN BASELINE PRESENT; IMPLEMENTATION NOT STARTED; ISSUANCE NOT AUTHORIZED.
+
+| ID | Priority | Requirement and acceptance criteria | Verification / evidence | Baseline status |
+|---|---|---|---|---|
+| CERT-001 | P2 | Approve credential types, scope, issuer identity, claims, terms and authorized signatory. A DPA-issued learning credential must not be represented as BNSP/LSP, government or third-party certification without independently evidenced authorization. | Approved issuer/credential policy and reviewed certificate wording | OPEN |
+| CERT-002 | P2 | Define tier-specific identity, completion, approved assessment, capstone, reviewer and pass/fail eligibility rules. The uncalibrated 80% target and existing 507 reflective Q&A pairs are not sufficient. | Approved assessment bank, calibrated rubrics/thresholds and eligibility tests | BLOCKED by assessment readiness |
+| CERT-003 | P2 | Implement trusted server-side issuance with authenticated issuer roles; browser state/localStorage must not create a valid credential. | Unauthorized-action and modified-client-state tests; architecture/security review | OPEN — current site is static |
+| CERT-004 | P2 | Maintain unique non-sequential IDs and auditable issue, correction, reissue, revocation and supersession events. | Registry schema, integrity tests and audit-event evidence | OPEN |
+| CERT-005 | P2 | Publicly verify valid, revoked, superseded and not-found records with minimal approved fields only. | Browser/API tests, privacy checks and abuse/rate-limit tests | OPEN |
+| CERT-006 | P2 | Generate accessible, printable certificate PDFs whose displayed claims, metadata and QR destination match the authoritative registry. | PDF/registry consistency, print, accessibility and QR tests | OPEN |
+| CERT-007 | P2 | Approve and test consent, data minimization, access control, retention, backup, incident response and learner correction/dispute procedures. | Privacy/security review and operational evidence | OPEN |
+| CERT-008 | P2 | Complete controlled pilot, support/recovery procedures, monitoring and release approval before any live issuance. | Pilot report, closed defects and signed release decision | OPEN |
+
+**Dependency rule:** CERT-002 is downstream of quiz/assessment implementation and content/rubric approval. CERT-003 through CERT-007 require an authoritative server-side registry and an approved privacy/security model. No certificate is to be issued to a real learner until all applicable acceptance criteria are PASS with evidence.
+
+**Non-goal:** This feature does not authorize use of BNSP/LSP or government-recognition claims. A licensed LPK/LSP partnership, if pursued, is a separate evidence and approval workstream.
