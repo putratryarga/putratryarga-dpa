@@ -144,6 +144,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [80 agency-role cell validation register](docs/80-agency-role-cell-validation-register.csv) — one row per agency × core-track cell; direct JD validation remains open.
 - [28 elective validation register](docs/28-advanced-elective-validation-register.csv) and [56 elective knowledge-check review register](docs/56-elective-knowledge-check-review-register.csv) — separate from the 169 core chapters.
 - [Priority-track source remediation](docs/2026-11-05-priority-track-source-remediation.md) — T02/T03/T07/T10/T13/T16 source improvements and limitations.
+- [T02 Connection Planning review](docs/T02-10-chapter-source-fit-review.md), [T03 Media Planning review](docs/T03-10-chapter-source-fit-review.md), [T07 Retail Media review](docs/T07-10-chapter-source-fit-review.md), [T10 Analytics review](docs/T10-10-chapter-source-fit-review.md), [T13 Content review](docs/T13-11-chapter-source-fit-review.md), and [T16 Community review](docs/T16-12-chapter-source-fit-review.md) — first-pass desk reviews; every chapter remains PARTIAL and formal acceptance OPEN.
 
 ## Audit & working documents
 
