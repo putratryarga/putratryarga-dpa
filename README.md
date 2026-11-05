@@ -92,6 +92,8 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 ## Audit & working documents
 
+- [Quiz & Assessment Engine — Technical Design](docs/quiz-engine-technical-design.md) — formative quiz architecture, item approval, security boundary and test/release gates; not yet implemented.
+
 - [Requirements Traceability & Acceptance Register](docs/requirements-traceability-acceptance-register.md) — master acceptance criteria, verification classes, blockers, dependencies and release gates for 16 Core + 2 Electives.
 
 
