@@ -1,6 +1,6 @@
 # 16 Core Track — Role Competency Crosswalk
-**Version:** 1.1 · **Date:** 4 November 2026  
-**Canonical Source of Truth:** [Consolidated 16-track Source of Truth](16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt)  
+**Version:** 1.2 · **Date:** 5 November 2026  
+**Canonical Source of Truth:** [DPA Master Source of Truth](DPA-MASTER-SOURCE-OF-TRUTH.md) · Historical research archive: [Consolidated 16-track Source of Truth](16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt)  
 **Evidence status:** competency architecture documented; agency-level evidence validation remains partial.
 
 | # | Canonical track | Competency spine | Core outputs | Boundary control |
@@ -45,8 +45,8 @@ These decisions close the taxonomy design question, not the empirical evidence a
 PR #5 describes 169 guides. The source-level guide pattern includes concept, simulated example, workflow, practice/deliverable, comprehension Q&A and glossary. This is not proof that each rendered chapter is correctly mapped or assessed.
 
 Outstanding blockers:
-- Replace positional guide mapping with immutable chapter IDs.
-- Complete the 169-row chapter-to-competency/source/resource/practice/assessment/rubric evidence register.
+- Maintain immutable chapter-ID guide mapping; the ID-based registry is the intended mapping contract.
+- Maintain the 169-row extraction register; complete independent competency, resource-fit, assessment and rubric validation.
 - Verify answer keys and distinguish static comprehension Q&A from a scored interactive quiz.
 - Verify resource URLs, price, access, credential type and expiry.
 - Test all role selector states, responsive behavior, keyboard/focus, persistence, navigation and regression.
@@ -55,8 +55,8 @@ Outstanding blockers:
 
 **Taxonomy architecture: decisions recorded.**  
 **16 core role matrices: initial competency spines recorded; agency evidence validation partial.**  
-**169 chapter register: not complete.**  
-**Advanced electives: 10 evidence groups and 28 chapter specifications recorded; resource/assessment/local-market validation partial.**  
+**169 chapter register: structurally complete as an extraction/traceability register; content, SME, source-fit and assessment validation remain open.**  
+**Advanced electives: 10 evidence groups and 28 proposed chapter specifications recorded; full chapter development, resource/assessment/local-market validation remain pending.**  
 **PR #5 / PR #6: keep open until blockers close. No merge authorization is implied.**
 
 
