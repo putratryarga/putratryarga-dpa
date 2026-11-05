@@ -202,6 +202,32 @@ try {
   assertNoMissing("Technical matrix vs HTML", htmlIds, technicalIds);
   assertNoExtra("Technical matrix vs HTML", htmlIds, technicalIds);
 
+
+  const agencyMatrix = read("docs/80-cell-agency-role-evidence-matrix.md");
+  const electiveEvidence = read("docs/role-competency-matrix-and-elective-chapter-audit.md");
+  const agencyLines = [...agencyMatrix.matchAll(/^\\|\\s*(\\d{1,2})\\s*\\|[^\\n]*$/gm)];
+  const agencyTrackIds = agencyLines.map((m) => Number(m[1]));
+  const agencyCells = agencyLines.flatMap((m) => m[0].split("|").slice(3, 8).map((x) => x.trim()));
+  report.agencyEvidence = { trackRows: agencyTrackIds.length, uniqueTrackRows: unique(agencyTrackIds).length, cells: agencyCells.length, classLabels: {A:0,B:0,C:0,D:0,E:0,G:0}, compoundCells:0 };
+  assertEqual("Agency track rows", agencyTrackIds.length, 16);
+  assertEqual("Unique agency track rows", unique(agencyTrackIds).length, 16);
+  assertEqual("Agency × track evidence cells", agencyCells.length, 80);
+  for (const cell of agencyCells) {
+    const prefix = cell.match(/^([A-G](?:\\/[A-G])*)\\s*:/);
+    if (!prefix) { fail.push("Agency evidence cell has no explicit class prefix: " + cell.slice(0,100)); continue; }
+    const labels = prefix[1].split("/");
+    if (labels.length > 1) report.agencyEvidence.compoundCells++;
+    for (const label of labels) report.agencyEvidence.classLabels[label]++;
+  }
+  const expectedAgencyLabels = {A:37,B:20,C:0,D:37,E:0,G:5};
+  for (const key of Object.keys(expectedAgencyLabels)) assertEqual("Agency class " + key, report.agencyEvidence.classLabels[key], expectedAgencyLabels[key]);
+  assertEqual("Agency compound cells", report.agencyEvidence.compoundCells, 19);
+  const electiveRows = [...electiveEvidence.matchAll(/^\\|\\s*(WPP|Publicis|Omnicom|Dentsu|Havas)\\s+×\\s+(CRO|Traditional)\\s*\\|/gm)];
+  const electiveKeys = electiveRows.map((m) => m[1] + " × " + m[2]);
+  report.electiveEvidenceGroups = electiveKeys.length;
+  assertEqual("Elective agency evidence groups", electiveKeys.length, 10);
+  assertEqual("Unique elective evidence groups", unique(electiveKeys).length, 10);
+
   const media = [...html.matchAll(/@media\s*([^{}]+)\{/gi)].map((m) => m[1].trim());
   report.mediaQueries = {
     total: media.length,
