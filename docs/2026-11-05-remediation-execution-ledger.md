@@ -324,7 +324,7 @@ Source checks and deterministic tests are present; workflow result and authentic
 ### Static controls and CI
 - Extended `scripts/validate-dpa-static.js` to check 507, 169, 80, 28 and 56 register row counts and all six newly mapped source URLs; updated expected unique source count to 54.
 - Corrected newline splitting in CSV row-count validation.
-- Quiz-engine automated workflow passed on SHA `ddfac599440800c9d329fe97d6ddf88e9c054023` (run [41967997038](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41967997038)); static remediation QA also passed on the same SHA (run [41967996999](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41967996999)). Subsequent source/register/validator changes trigger new exact-head runs; their result must be separately recorded.
+- Quiz-engine automated workflow passed on SHA `ddfac599440800c9d329fe97d6ddf88e9c054023` (run [41967997038](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41967997038)); static remediation QA also passed on the same SHA (run [41967996999](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41967996999)). Subsequent source/register/validator changes trigger new exact-head runs; their result must be separately recorded.
 
 **Limit:** these artifacts enable controlled review batches. They do not recover the missing original prompt, historical score matrix or original 23/D-1…D-12 issue log; they do not provide SME/JD/browser-session inputs.
 
@@ -359,9 +359,9 @@ Source checks and deterministic tests are present; workflow result and authentic
 **Exact tested commit:** `29c981f58be81d470ddb5c0e4542753eb96b4a6f)  
 **Disposition:** AUTOMATED SANDBOX E2E / AXE PASS; MAIN DPA AUTHENTICATED QA OPEN.
 
-- Quiz workflow [41970086027](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086027) completed SUCCESS. Playwright Chromium loaded the local prototype and exercised the empty/unanswered guard, all responses, progress, deterministic 100% fixture result, review, retry/reset, radio-group keyboard navigation, and a 390px viewport with no horizontal overflow.
+- Quiz workflow [41970086027](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086027) completed SUCCESS. Playwright Chromium loaded the local prototype and exercised the empty/unanswered guard, all responses, progress, deterministic 100% fixture result, review, retry/reset, radio-group keyboard navigation, and a 390px viewport with no horizontal overflow.
 - Axe checks passed on initial, question and result states with the configured WCAG 2.0/2.1/2.2 A/AA tag selection. This automated scan is not a complete manual WCAG audit or accessibility certification.
-- Static workflow [41970086188](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41970086188) completed SUCCESS. Validator reports 169 mapped rows, 54 unique source URLs, at least two source URLs per chapter, no missing DOM/local script references, all granular review-register row counts and no failures. Depth-screen script and temporary synthetic scoring self-test passed.
+- Static workflow [41970086188](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086188) completed SUCCESS. Validator reports 169 mapped rows, 54 unique source URLs, at least two source URLs per chapter, no missing DOM/local script references, all granular review-register row counts and no failures. Depth-screen script and temporary synthetic scoring self-test passed.
 - The initial Axe integration failure was traced to using Playwright `browser.newPage()`; it was corrected to create an explicit browser context and the exact-head rerun passed.
 - These checks apply to the separate local synthetic quiz sandbox only. Authenticated browser QA of the main DPA website, role selector, live chapter renderer, accessibility audit of all main pages, actual preview/production build and post-release monitoring remain open.
 
