@@ -66,7 +66,7 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 5. Complete independent SME review for 169 chapters and legacy guide families.
 6. Validate all 507 answer keys and alternate answers; calibrate rubrics.
 7. Develop/validate all elective chapters before calling them complete.
-8. Run authenticated browser/runtime QA and obtain build/preview success without production deployment.
+8. Run authenticated browser/runtime interaction QA. Preview build and HTTP/asset smoke checks now pass for `f9def1a8c6a8b22568b38bd83c7c1086765418fb`; UI behavior, persistence, keyboard and accessibility checks remain NOT RUN.
 9. Re-read all changed files and run final static checks on the exact final SHA.
 
 **Release decision: NOT READY — source-level remediation is partly implemented; multiple gates remain open or blocked.**
@@ -78,7 +78,7 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 - Main's latest history was reconciled into the remediation branch via branch-only merge commit `85a69f5544c1cdf920576b3ceb236431303f568d`. Its first parent is the previous remediation head `cd61a5f94bd50549022c5e5f046b07bdf375d265`; its second parent is the unchanged `main` head. The remediation tree was retained; updated crosswalk/elective documents are kept instead of the older main-side wording.
 - The current remediation branch has **zero commits behind main**. The exact current branch head and ahead count are verified in the final handoff.
 - PR #5 and PR #6 remain open, draft, unmerged and not mergeable. No merge into `main`, no production deployment, promotion, environment-variable/domain change, or production content change was performed.
-- Latest checked Vercel status on the remediation branch: FAILURE with target `upgradeToPro=build-rate-limit`. Treat this as an account/build-quota limitation, not a diagnosed source-code build failure and not a successful preview deployment.
+- The earlier branch build-rate-limit status was superseded: source commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` now has GitHub combined status **SUCCESS** and Vercel deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` **READY**. The exact preview URL returned HTTP 200; all eight referenced local JavaScript assets also returned HTTP 200. This is HTTP/asset smoke verification, not interactive browser QA. The push-workflow run remains not independently verifiable through the available connector.
 - The branch-only push workflow has been added; its run result is not independently retrievable through the current connector, whose workflow-run listing exposes PR-triggered runs only.
 - Authenticated browser/runtime QA: NOT RUN. No desktop/mobile interactions, screenshots, console/network, accessibility-tree or cross-browser checks are claimed.
 
@@ -89,3 +89,14 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branch only. It is configured for pushes to this branch and manual dispatch; it runs the deterministic Node static validator, compiles the Python score script, and runs a temporary 169-row SYNTHETIC-vector self-test against the canonical chapter ID inventory. The synthetic outputs are isolated under `/tmp` on the runner and are not audit scores.
 
 **Execution visibility:** the available GitHub workflow-run listing connector only returns PR-triggered runs. The new workflow is push-triggered; therefore its actual run result is **NOT INDEPENDENTLY VERIFIED** in this session. Do not claim CI PASS until a run ID/job result is available from GitHub Actions UI or a run-aware endpoint.
+
+
+## 2026-11-05 resource-source and preview execution delta
+
+- **Resource map patch:** commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` corrected publisher captions and URLs across T01, T02, T03, T05, T06, T07, T08, T09, T10, T12, T13, T14 and T15. In particular, the TikTok Academy URL is no longer called LinkedIn Marketing Academy; the Edge Academy URL is no longer called Google Skillshop; StackAdapt is no longer mislabeled IAB; and YouTube's current Creator Partnerships help page is separately linked from TikTok One for Creators.
+- **Source-fetch evidence:** the current map contains 169 rows, 169 unique chapter IDs, 33 unique URLs, and at least two links per chapter row. Readable content was fetched from all 33 current unique URLs. Publisher identity and broad track-level source coverage are checked. Exact source-to-learning-objective fit for all 169 chapters, Indonesia market access, localized pricing and credential conditions remain OPEN.
+- **Source register cross-check:** 169 HTML chapter IDs, 169 guide IDs (10 Full-Stack + 10 Paid Social + 149 role-specific), 169 evidence-register headings, 169 rubric headings, 169 resource IDs and 169 technical-review IDs reconcile with zero duplicate/missing IDs. Register and rubric each contain 507 Q&A items; 169 glossary blocks; no literal `undefined` tokens. 391 unique DOM IDs; 13/13 internal anchors resolve; 19 media queries (14 responsive, two reduced-motion, three print). These are independent source/API recounts; the repository Node validator was not executed locally.
+- **Agency/elective structure:** 80 agency evidence cells and 10 agency × elective groups remain structurally present; source/JD/competency sign-off remains PARTIAL/OPEN.
+- **Preview:** Vercel deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` built from the same resource patch SHA and reached READY. HTTP fetch returned 200, with 169 unique chapter IDs and all eight referenced local JavaScript assets returning 200. No authenticated UI session, role click, theme toggle, localStorage round-trip, keyboard, accessibility-tree, screenshot or console/network interaction QA was run.
+- **Missing historical artifacts:** the complete raw 169 × 7 score matrix is still absent from the 36-file branch tree and inspected Library sources. The normative methodology specifies a 0–4 scale and averaging formula but does not name/define the seven dimensions; therefore no substitute vectors were invented. PR #5/#6 bodies and available discussion/review metadata did not yield the original 23-finding register or D-1…D-12 log; both remain pending recovery.
+- **Release decision:** NOT READY — remediation progress recorded; human/SME, historical-source and authenticated runtime gates are not signed off.
