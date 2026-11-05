@@ -4,7 +4,7 @@
 
 ## 1. What changed
 
-- Replaced the initial general MRC and IAB source routes with precise MRC OOH, MRC Retail Media and IAB Europe V2.1 references. The current 169-chapter map has 55 unique URLs (169 rows). The six-track enrichment affects 21 chapter rows.
+- Replaced the initial general MRC and IAB source routes with precise MRC OOH, MRC Retail Media and IAB Europe V2.1 references. The current 169-chapter map has 67 unique URLs (169 rows). The six-track enrichment affects 21 chapter rows.
 - Updated 21 chapter rows in T03, T07, T10, T13 and T16. T02 received no new URL in this pass because GovS 011 and ICC/ESOMAR 2025 were already mapped; its material insight/research gaps remain.
 - Kept the 169-objective resource-fit register at **OPEN for every chapter**. Source mapping is not objective-level source fit, local access confirmation, SME review or curriculum approval.
 - The 63 chapters across the six priority tracks remain separately identifiable in `docs/169-objective-resource-fit-register.csv`.
@@ -92,3 +92,12 @@ The previous automated retrieval snapshot of 46/48 resources predates the six UR
 - SME/technical chapter sign-off: OPEN.
 
 **No track or chapter is marked validated solely because a source URL was added.**
+
+
+## 5. T10 chapter-level source-fit review — 5 November 2026
+
+T10 received 12 additional source references (11 unique URLs, including one shared Tableau resource) across CH02, CH03, CH04, CH05, CH07, CH08, CH09 and CH10. The current map is now 169 rows / 67 unique URLs. See [T10 — 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and the 10-row [T10 source-fit CSV](T10-10-chapter-source-fit-review.csv).
+
+Desk classification: CH04 and CH07 have stronger method-source alignment; all ten remain PARTIAL overall. CH01 still lacks a direct KPI/measurement planning framework; CH02 lacks vendor-neutral taxonomy/lineage; CH03 lacks CM360/Floodlight and full platform reconciliation sources; CH04 still needs runnable spreadsheet/SQL validation; CH05 needs cross-tool dashboard governance; CH06 needs a worked diagnostic/root-cause case; CH07 needs explicit MTA vs incrementality vs MMM estimands and direct media measurement sources; CH08 needs MDE/power/sample-size calculation and stopping/multiple-testing controls; CH09 needs an executive-readout rubric; CH10 needs a reproducible end-to-end capstone package.
+
+Source access is not universal. Some Google Analytics Help pages and the Optimizely statistical-significance article returned retrieval/cache limitations; those are not marked as verified Indonesia learner access. All ten formal acceptance/SME decisions remain OPEN.
