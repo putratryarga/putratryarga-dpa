@@ -163,7 +163,7 @@ The following are evidence of presence or structural integrity only, not overall
 | Shared foundation | CF1–CF6 | Shared layer is documented | All six behave correctly in every role path |
 | Electives | 28 first-pass chapter drafts (14 + 14) | Structural completeness of drafts | SME approval, source fit, local fit or learner readiness |
 | Guides / Q&A | 169 chapters / 507 Q&A items | Source/register parity | Correctness of all answer keys |
-| Resources | 169 rows / 48 unique URLs / ≥2 unique URLs per chapter | Mapping structure | Objective-level fit, Indonesia access, pricing or credential eligibility |
+| Resources | 169 rows / 55 unique URLs / ≥2 unique URLs per chapter | Mapping structure | Objective-level fit, Indonesia access, pricing or credential eligibility |
 | Agency matrix | 80 unique core cells, five agency groups | Matrix coverage ledger exists | 80 independently validated direct/current job descriptions |
 | Static CI | Last recorded exact-head run successful | Validator and synthetic score-code path passed for that SHA | Actual historical scores, content accuracy, runtime or production |
 | Preview | Prior current-code preview HTTP/assets smoke passed | HTML and local assets were reachable at the checked deployment | Authenticated browser interaction, accessibility or latest-doc-only commit deploy |
