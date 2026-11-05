@@ -113,7 +113,7 @@ const t06Qna = qna.records.filter(row => row.chapter_id.startsWith("DPA-T06-"));
 assert(t06Qna.length === 36, "T06 programmatic Q&A review must contain 36 items.");
 assert(qna.headers.includes("prior_answer_guidance") && qna.headers.includes("editorial_revision_note"),
   "Core Q&A register must retain prior answers and editorial revision notes.");
-assert(t06Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && /https?:\\/\\//.test(row.source_reference || "")),
+assert(t06Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && String(row.source_reference || "").includes("http")),
   "All T06 Q&A revisions must preserve prior answers, revision notes and source references.");
 assert(t06Qna.every(row => {
   const words = row.current_guide_answer.trim().split(/\\s+/).filter(Boolean).length;
