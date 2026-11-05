@@ -177,3 +177,8 @@ The [T10 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and 
 ## 22. T03 media-planning source-fit review
 
 A first-pass review for all ten T03 chapters is recorded in [T03 review](T03-10-chapter-source-fit-review.md) and its [10-row CSV](T03-10-chapter-source-fit-review.csv). Each chapter is PARTIAL at desk-review level. The resource map now contains 169 rows and 70 unique URLs. The additional references include YouGov's 2025 Indonesia media-consumption summary, Google Ads Reach Planner's October 2026 frequency-suggestion guidance and MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0. Scope boundaries matter: Reach Planner forecasts YouTube/video-partner plans; MRC OOH covers OOH; MRC digital-audio covers streaming/progressive download and excludes traditional over-the-air AM/FM. No unified Indonesia cross-media currency or radio ratings method is claimed. Formal source fit, Indonesia access and SME review remain OPEN.
+
+
+## 23. T02 connection-planning source-fit review
+
+The [T02 10-chapter source-fit review](T02-10-chapter-source-fit-review.md) and [CSV](T02-10-chapter-source-fit-review.csv) provide a first-pass desk review of all T02 chapters. All ten are PARTIAL; formal objective acceptance, Indonesia access/cost/language and SME review remain OPEN. The current resource map is 169 rows / 77 unique URLs. The added sources support portions of public-sector campaign planning, research ethics, responsible marketing, user-journey mapping and brand positioning. Their scope boundaries are explicit: GCS/GovS are UK government frameworks, NN/g is UX-oriented, AMA/AAMA are association resources, and ICC Codes are global ethical/self-regulatory references, not Indonesian law or complete commercial planning standards.
