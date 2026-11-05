@@ -336,6 +336,22 @@ try {
   const rubricCalibrationRegister = read("docs/169-chapter-rubric-calibration-register.csv");
   const rubricCalibrationRows = rubricCalibrationRegister.trim().split("\n").length - 1;
   assertEqual("169-chapter rubric calibration register rows", rubricCalibrationRows, 169);
+  const qnaTriage = read("docs/507-qna-automated-triage.csv");
+  const agencyGapTriage = read("docs/80-agency-cell-evidence-gap-triage.csv");
+  const qnaTriageRows = qnaTriage.trim().split("\n").length - 1;
+  const agencyGapRows = agencyGapTriage.trim().split("\n").length - 1;
+  assertEqual("507-item automated Q&A triage rows", qnaTriageRows, 507);
+  assertEqual("80-cell agency gap triage rows", agencyGapRows, 80);
+  const triageQnaSourceMissing = qnaTriage.split("\n").filter((line) => line.includes("SOURCE_REFERENCE_MISSING")).length;
+  const triageShortAnswers = qnaTriage.split("\n").filter((line) => line.includes("ANSWER_LENGTH_HEURISTIC_LT_14_WORDS")).length;
+  const triageBareBoolean = qnaTriage.split("\n").filter((line) => line.includes("BARE_BOOLEAN_OPENING")).length;
+  const triageAbsoluteWording = qnaTriage.split("\n").filter((line) => line.includes("ABSOLUTE_WORDING")).length;
+  assertEqual("Q&A triage missing source flags", triageQnaSourceMissing, 507);
+  assertEqual("Q&A triage short-answer flags", triageShortAnswers, 152);
+  assertEqual("Q&A triage bare-Boolean flags", triageBareBoolean, 23);
+  assertEqual("Q&A triage absolute-wording flags", triageAbsoluteWording, 16);
+  const triageAgencyMissingUrl = agencyGapTriage.split("\n").filter((line) => line.includes("EXACT_URL_OR_JOB_ID_MISSING")).length;
+  assertEqual("Agency cell exact URL/Job ID gaps", triageAgencyMissingUrl, 80);
   const requiredNewResourceUrls = [
     "https://sqlbolt.com/topics",
     "https://miguelhernan.org/whatifbook",
