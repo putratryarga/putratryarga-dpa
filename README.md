@@ -4,6 +4,10 @@ Roadmap belajar digital performance berbasis **job family agency**: satu Common 
 
 **[Buka roadmap live](https://putratryarga-dpa.vercel.app/)**
 
+
+
+**Program architecture:** 18 pathways in total — **16 Core Specialist Tracks + 2 Advanced Electives** (Elective 17: CRO / Growth / Experience Optimization; Elective 18: Traditional Media Planning & Buying). The website role selector currently represents the 16 Core Tracks; the two electives remain separately governed advanced paths. Common Foundation CF1–CF6 is shared across the core paths and is not an additional pathway.
+
 Dibuat oleh **Putra Try Arga** · Bahasa utama: Indonesia · Gratis untuk pembelajaran mandiri.
 
 
@@ -87,6 +91,9 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 
 ## Audit & working documents
+
+- [Requirements Traceability & Acceptance Register](docs/requirements-traceability-acceptance-register.md) — master acceptance criteria, verification classes, blockers, dependencies and release gates for 16 Core + 2 Electives.
+
 
 - [Advanced elective full chapter drafts — 28 chapters](docs/28-advanced-elective-full-chapter-drafts.md) — first-pass content, Q&A, learner rubric and source appendix; SME/market validation remains open.
 - [Advanced elective architecture source of truth](docs/advanced-electives-source-of-truth.md) — approved taxonomy, chapter boundaries and validation gates.
