@@ -7,7 +7,7 @@
 
 ## 1. Executive result
 
-At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 83 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
+At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 90 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
 
 The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. The initial six-source enrichment was subsequently refined to direct MRC OOH / MRC retail PDFs and the IAB Europe V2.1 article; later T10 and T03 reviews extended the map to 70 unique URLs. Access outcomes and caveats are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 automated retrieval result forward as a current 46/70 result or claim all 70 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
 
@@ -194,3 +194,12 @@ The [T07 10-Chapter Source-Fit Review](T07-10-chapter-source-fit-review.md) and 
 The T07 source pass adds six Indonesia-facing local routes: TikTok Product Shopping Ads/GMV Max, Tokopedia Product Shopping Ads, Shopee product-ad creation and performance reporting, and Lazada Sponsored Solutions/Sponsored Discovery. These documents make feature scope and local seller workflows more concrete, but several features are seller/permission/whitelist-gated. Shopee's documented 7-day post-click reporting, TikTok campaign optimization and Lazada reporting must not be assumed equivalent. IAB/MRC (US-oriented) and IAB Europe V2.1 (European) remain measurement references, not proof of local retailer implementation.
 
 Formal objective fit, local seller access, commercial fees/terms, technical review and SME approval remain OPEN.
+
+
+## T13 — 11-chapter content strategy and creation source-fit batch review
+
+The [T13 11-Chapter Source-Fit Review](T13-11-chapter-source-fit-review.md) and [11-row CSV](T13-11-chapter-source-fit-review.csv) record the first-pass desk assessment; all eleven chapters are PARTIAL. The current source map contains 169 chapter rows / 90 unique URLs.
+
+New sources provide TikTok Creative Center/Top Ads inspiration, commercial music and creator-disclosure guidance, YouTube native engagement/retention/impression metrics, and the JDIH BPK copyright-law record. These sources are component-specific. Top Ads reports ad examples, not a representative sample of organic posts or consumer culture. YouTube measurement definitions are platform-native, not a shared content currency.
+
+The copyright-law update is time-sensitive: JDIH BPK lists UU 28/2014 in its current record, while DPR reporting on 27 October 2026 describes the amendment bill's ongoing Panja discussion. Verify the live legislative and JDIH status before teaching any specific clause or making a legal claim. Formal source fit, rights clearance, platform access, technical review and SME approval remain OPEN.
