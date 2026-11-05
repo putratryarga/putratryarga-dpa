@@ -347,3 +347,12 @@ The register is a control surface, not evidence that the rubric has been validat
 Exact-head tests passed on `29c981f58be81d470ddb5c0e4542753eb96b4a6f`: [quiz/browser/axe workflow run 41970086027](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086027) and [static validation run 41970086188](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086188). The Playwright sandbox validated unanswered submission, question selection/progress, deterministic score, review, retry, keyboard navigation and 390px mobile overflow; axe checks passed on initial/question/result states using configured WCAG 2.2 target tags.
 
 This closes automated browser verification for the isolated synthetic sandbox only. It does not close authenticated browser QA for the main DPA site, main chapter integration, full manual accessibility review, scored assessment or learner-progress/certificate integration. QUIZ-001 remains PARTIAL.
+
+
+## 17. Automated editorial and agency evidence triage
+
+The automated triage files are [507 Q&A triage CSV](507-qna-automated-triage.csv), [80-cell agency gap triage CSV](80-agency-cell-evidence-gap-triage.csv) and [triage methodology/report](2026-11-05-qna-agency-automated-triage.md).
+
+- 507/507 core Q&A rows currently lack a per-item source reference. 152 answers are below the internal 14-word review heuristic, 23 begin with bare Boolean wording, and 16 contain absolute-wording terms. These are review flags, not correctness findings.
+- 80/80 agency validation rows lack a populated exact URL or Job ID; all remain OPEN for role specificity, currentness, geography/seniority and chapter competency mapping. 37 evidence statements inherit a class label containing A, but row-level traceability still needs the exact JD/Job ID.
+- The automated screens are not editorial approval, SME validation or evidence of a current vacancy. All affected acceptance requirements remain OPEN/PARTIAL as recorded above.
