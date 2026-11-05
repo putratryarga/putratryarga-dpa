@@ -115,3 +115,21 @@ The T03 map now includes:
 The source review also records the current provider and policy evidence: MRC OOH Phase 1/2 final December 2025; Nielsen Indonesia TV/streaming releases are older provider-published descriptions; KPI's 2025 MKK survey article is a public-broadcasting survey initiative, not commercial radio ratings. Direct access and local applicability remain separate acceptance checks.
 
 **Current source-map structure:** 169 chapter rows / 70 unique URLs / at least two unique URLs per row. Previous totals (48, 54, 55 and 67) are historical snapshots and are superseded. No 70/70 direct-fetch or Indonesia learner-access claim is made.
+
+
+## 8. T02 connection-planning source-fit review and current total — 5 November 2026
+
+The [T02 10-chapter source-fit review](T02-10-chapter-source-fit-review.md) and its [CSV](T02-10-chapter-source-fit-review.csv) record first-pass source fit for all ten T02 chapters. Each chapter is PARTIAL; formal objective, Indonesia access/cost/language and SME acceptance remain OPEN.
+
+The T02 enrichment adds seven source URLs:
+- GCS OASIS Guide to Campaign Planning (2020 PDF) — objectives, audience/insight, strategy, implementation and scoring/evaluation.
+- GCS Evaluation Cycle (February 2024 PDF) — planning evaluation from the beginning and linking goals/audiences/metrics/learning.
+- ICC/ESOMAR Code 2025 official PDF route — research/data-analytics ethics and participant/privacy responsibilities; direct PDF learner access needs confirmation.
+- ICC Advertising and Marketing Communications Code (2024) — responsible marketing across advertising, digital communication, sponsorship, sales promotion and social media.
+- Nielsen Norman Group Journey Mapping 101 — UX-oriented action/thought/emotion journey mapping; direct page cache miss in this check.
+- AMA Brand and Branding — public definition of brand positioning relative to competitors; deeper content may be membership-gated.
+- AAMA Positioning & Messaging Framework — detailed association resource; direct page cache miss in this check.
+
+The source scopes are not interchangeable. UK government planning guidance is not Indonesian commercial law or a universal agency SOP; UX journey mapping is not complete media-connection planning; association frameworks are not validated universal standards; ICC Codes are ethical/self-regulatory, not local legal advice.
+
+**Current overall source map:** 169 rows / 77 unique URLs / at least two unique URLs per row. Earlier 48-, 54-, 55-, 67- and 70-URL totals are dated historical snapshots superseded by this current mapping. No 77/77 direct-access claim is made.
