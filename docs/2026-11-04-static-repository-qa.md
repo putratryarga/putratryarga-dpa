@@ -201,3 +201,14 @@ GitHub Actions run [41959560674](https://github.com/putratryarga/putratyarga-dpa
 Two intermediate workflow failures were expected sequencing issues, not unresolved validator defects: run `41959362758` failed before newline parsing was fixed; run `41959549781` failed because the OASIS resource increased the URL inventory to 47 before the validator's expected count was updated from 46. The exact synchronized follow-up run `41959560674` passed on `53a383b`.
 
 The 47-URL count is an inventory count, not 47 independent validations of source-to-objective fit. The 169-chapter objective-level sign-off remains OPEN.
+
+
+## 2026-11-05 T02 research-ethics resource and 48-URL validator update
+
+The T02 connection-planning resource map now includes the 2025 ICC/ESOMAR International Code on Market, Opinion and Social Research and Data Analytics, placed on DPA-T02-CH01, CH02, CH03 and CH10. The ICC publisher describes it as a global professional/ethical benchmark for market, opinion and social research and data analytics, with 2025 updates for transparency, accountability, method/source/limitation disclosure, duty of care, consent/notification, data protection and human oversight. This is a research-ethics framework, not a substitute for cultural-insight methods, qualitative research training, communication theory or Indonesian legal interpretation.
+
+The deterministic validator's expected resource-map URL inventory was updated to 48. Exact-head workflow [41959929523](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41959929523) completed SUCCESS on SHA `3813e4d7aa7894e4668d5c20f843d731c302733d`; its log confirms 169 canonical IDs, 169 score-template rows, 169 resource rows, 48 unique URLs, minimum two unique sources per chapter, zero failures and overall PASS. The temporary synthetic 169-chapter / 16-track calculator test also passed and remains separate from historical raw audit data.
+
+The immediately preceding two workflow failures (`41959904693` on `3e4125a` and `41959919727` on `a5e863e`) were caused by the resource map moving to 48 unique URLs before the validator expectation moved from 47 to 48. The synchronized run above passed. The 48-URL count is an inventory control; it does not represent 48 independent chapter-objective validations.
+
+Current chapter-level resource integrity at the successful checkpoint: 169 rows, 169 unique IDs, 48 unique URLs, minimum two distinct source URLs on every row. The 169-objective source-fit gate remains OPEN.
