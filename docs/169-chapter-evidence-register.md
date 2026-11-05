@@ -2967,7 +2967,7 @@
 
 **Technical depth / workflow:**
 - <b>Petakan ecosystem.</b> Identifikasi media owner, sales house, publisher rep, agency investment, trading desk, and Ad Ops.
-- <b>Kelompokkan buying route.</b> Bedakan direct IO, sponsorship, reserved inventory, network, deal, dan auction-based buying.
+- <b>Kelompokkan buying route.</b> Bedakan direct IO, sponsorship, dan reserved publisher inventory dari programmatic private marketplace/programmatic guaranteed; negosiasi komersial dapat melibatkan T08, tetapi setup DSP, auction execution, dan bid optimization dikoordinasikan dengan T06. Open-auction bidding bukan kompetensi inti T08.
 - <b>Tentukan commercial criteria.</b> Audience, placement, rate, availability, reach, quality, bonus, and measurement.
 - <b>Document accountability.</b> Catat approval, owner, contract, cancellation, delivery, proof, and invoice.
 
@@ -3203,7 +3203,7 @@
 
 **Learning objective / concept:** Delivery stewardship memastikan media owner memenuhi booking dan terms. Buyer memonitor booked vs delivered, dates, placements, creative, proof-of-posting/proof-of-play, audience, quality, and shortfall. Makegood bukan permintaan informal; ia mengikuti contract, tolerance, deadline, and evidence. Monitor campaign secara berkala agar masalah bisa diperbaiki sebelum end-of-flight.
 
-**Simulated example:** SIMULATED — publisher menjanjikan 100 spot radio, tetapi proof menunjukkan 88 spot dan beberapa jadwal di luar agreed daypart. Buyer menyiapkan discrepancy evidence dan mengajukan makegood sesuai IO.
+**Simulated example:** SIMULATED — publisher menjanjikan 6,000,000 display impressions pada placement homepage/section selama flight; laporan akhir menunjukkan 5,280,000. Buyer memeriksa breakdown per placement/tanggal dan definisi billable dalam IO, menghitung shortfall, lalu meminta remedy sesuai terms.
 
 **Technical depth / workflow:**
 - <b>Set delivery tracker.</b> Catat booking, placement, volume, schedule, rate, and evidence owner.
