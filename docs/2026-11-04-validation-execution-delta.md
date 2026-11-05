@@ -199,3 +199,10 @@ The 169 rubric entries contain chapter-specific artifact checklists and a shared
 - Added canonical Source of Truth and remediation execution ledger. Raw 169 audit vectors and full 23-issue / 12-discrepancy registers remain not found in the repository/accessible Library sources and must not be marked closed from partial excerpts.
 
 **Remaining:** raw 169-vector recalculation, complete 23 + 12 finding disposition, full 90-cell row validation, 169 source-fit and SME review, 507 answer-key validation, rubric calibration, elective chapter development, authenticated browser/runtime QA and preview build success.
+
+
+## 14. 5 November 2026 — post-remediation short-content flag recalculation
+
+After correcting T07-CH06/07/08 guide assignments and rewriting the integrated T07-CH08 assessment, all 149 role-specific guide arrays were reparsed. The deterministic word-count convention strips HTML tags/entities and counts whitespace-delimited tokens. Current totals are **122 short answer pairs across 79 chapters** (<12 words) and **81 short glossary definitions across 58 chapters** (<5 words). These counts are triage flags only; they do not establish that an answer or definition is substantively inadequate. The T07 rows were updated in the technical review matrix: CH06 = 3/3; CH07 = 0/0; CH08 = 0/1.
+
+The 20 legacy Full-Stack and Paid Social guides are not included in these 149-guide short-content totals and remain a separate content-review population.
