@@ -1,0 +1,25 @@
+name: DPA Guide Registry QA
+
+on:
+  push:
+    branches:
+      - main
+      - "audit/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  guide-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate all chapter guides
+        run: node scripts/validate-dpa-guide-registry.js
