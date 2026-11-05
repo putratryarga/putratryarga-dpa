@@ -116,7 +116,7 @@ assert(qna.headers.includes("prior_answer_guidance") && qna.headers.includes("ed
 assert(t06Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && String(row.source_reference || "").includes("http")),
   "All T06 Q&A revisions must preserve prior answers, revision notes and source references.");
 assert(t06Qna.every(row => {
-  const words = row.current_guide_answer.trim().split(/\\s+/).filter(Boolean).length;
+  const words = row.current_guide_answer.trim().split(/\s+/).filter(Boolean).length;
   return words >= 33 && words <= 42 && row.item_type === "REFLECTIVE_QA_NOT_SCORED" && row.answer_review_status === "OPEN" && row.editorial_status === "OPEN" && row.sme_status === "OPEN";
 }), "T06 expanded Q&A must remain 33–42 words, reflective/non-scored and formally OPEN.");
 const t06QnaAudit = loadCsv("docs/T06-12-chapter-qna-technical-desk-review.csv");
