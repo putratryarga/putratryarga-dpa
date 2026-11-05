@@ -156,3 +156,28 @@ The source guide JS files, evidence register and assessment-rubric draft were co
 - Latest Actions run: [41956411335](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41956411335), SUCCESS on the exact head above. Logs show 169 HTML IDs, 169 unique guide IDs, 169 evidence chapters, 169 rubric chapters, 169 resource rows, 169 technical rows, 16 tracks, updated agency class expectations and the temporary synthetic score self-test.
 - Latest current-code Vercel deployment: `dpl_HdSvAAgybvAvYMPqvF2FUxiJB4kq`, READY on source SHA `fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2`. Documentation-only commits after that SHA did not change application source. Page/asset smoke: HTTP 200, 169 unique chapter IDs, 13 internal anchor targets, 8/8 local JS assets; updated answer/glossary strings confirmed in all three changed role-guide bundles.
 - No authenticated browser interactions, keyboard traversal, persistence round-trip, accessibility-tree, screenshot/visual regression or cross-browser QA was performed. No merge or production deploy occurred.
+
+
+## 2026-11-05 canonical inventory and score-template validator extension
+
+The deterministic repository validator was extended to cover two audit-control artifacts that had previously been inspected but were not part of the automated pass/fail contract:
+
+| Check | Result | Status |
+|---|---:|---|
+| Canonical chapter inventory rows | 169 | PASS |
+| Unique canonical IDs | 169 | PASS |
+| Canonical inventory compared with HTML chapter IDs | Exact set match | PASS |
+| Blank score-input template data rows | 169 | PASS |
+| Unique score-template IDs | 169 | PASS |
+| Score-template IDs compared with canonical inventory | Exact set match | PASS |
+| CSV schema | 9 columns: chapter ID, track ID, seven dimension fields | PASS |
+| Pre-filled dimension values in the collection template | 0 | PASS — all seven dimension cells remain blank |
+| Static validator failures | 0 | PASS |
+
+The score-input CSV is still a **collection template**, not a completed score matrix. The extension intentionally fails if any of its seven dimension cells contains a value, preventing the blank template from being mistaken for historical source data or silently used as an audit result. The calculator's separate temporary synthetic self-test remains a code-path test only.
+
+- Validator extension: commits `6e8b7ba` and newline-parser correction `5b7b7a6`.
+- First push run `41958798255` failed because the initial line-splitting expression did not split on newline characters; the log showed zero parsed inventory/template rows. This was corrected in `5b7b7a6`; the follow-up run `41958824709` passed.
+- Latest exact-head workflow at this checkpoint: [run 41959194871](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41959194871), SUCCESS on `1965efaaf393f7a89e3059e3c7ea36c683449aa8`. Its logs show 169 canonical rows, 169 unique canonical IDs, 169 score-template rows, empty failures, and a PASS result; Python compilation and the temporary synthetic 169-chapter / 16-track calculation also passed.
+
+No original score values or dimension definitions were created, inferred, or inserted by this extension.
