@@ -434,3 +434,17 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Current resource map: 169 rows / 70 unique URLs; validator checks the 70-URL total, all three new URLs and exactly 10 T03 review rows.
 
 **Register effect:** RES-001 remains PASS for structural mapping only. RES-002 is PARTIAL at desk-review level across T03 (10 chapters) and T10 (10 chapters); formal acceptance of all 169 objectives remains OPEN.
+
+
+## 25. T02 connection-planning source-fit review
+
+**Date:** 5 November 2026  
+**Disposition:** FIRST-PASS DESK REVIEW COMPLETE; 10/10 CHAPTERS PARTIAL; FORMAL ACCEPTANCE OPEN.
+
+- Created `docs/T02-10-chapter-source-fit-review.md` and a 10-row CSV with learning objective, deliverable, mapped sources, component fit, material gaps and next actions for each T02 chapter.
+- Added seven source URLs across all ten chapter mapping rows: GCS OASIS guide, GCS Evaluation Cycle, ICC/ESOMAR Code 2025 PDF, ICC Advertising Code 2024, NN/g Journey Mapping 101, AMA branding page and AAMA Positioning & Messaging Framework.
+- Recorded source context/access limits: UK government standards are not local commercial/Indonesian policy; NN/g is UX-oriented; AMA deeper content may be member-gated; AAMA and NN/g direct pages returned cache misses; the official ESOMAR PDF route requires a local learner-access check.
+- Updated T02's ten rows in the 169-objective resource-fit register with PARTIAL desk-review evidence/gaps; formal objective-fit, technical, Indonesia access/cost/language, SME and learner-pilot fields remain OPEN.
+- Current map: 169 rows / 77 unique URLs; static validator now checks all seven new T02 URLs and exactly 10 T02 review rows.
+
+**Register effect:** RES-001 remains PASS for mapping structure only. RES-002 is PARTIAL at desk-review level across T02 (10 chapters), T03 (10 chapters) and T10 (10 chapters); formal acceptance of all 169 objectives remains OPEN.
