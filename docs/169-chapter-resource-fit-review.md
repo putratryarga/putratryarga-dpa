@@ -9,7 +9,7 @@
 
 The latest deterministic map check reports **169 chapter rows, 169 unique chapter IDs, 48 unique URLs and at least two unique source URLs per chapter**. This is mapping integrity, not a source-fit approval.
 
-The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory. The latest direct automated retrieval record is **46/48 readable at the time checked**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429 in that automated fetch. A current web search surfaced the Jakarta Post publisher page content, but a direct open still returned 403; treat it as indexed source evidence and a source lead, not confirmed learner access. YouTube's direct access still requires a current manual check. Do not claim 48/48 direct fetchability.
+The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. Six source URLs have since been added (current inventory: 54 unique URLs); their access outcomes are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 result forward as a current 46/54 result or claim all 54 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
 
 A further source-level cross-check found an important caveat in the Jakarta Post page: its terms page displays a 10% VAT statement. The Directorate General of Taxes (DJP) explanation of PMK 131/2024 dated 3 January 2025 says non-luxury taxable goods/services are calculated at 12% × 11/12 of the relevant base (effective 11% for most such supplies), while luxury taxable goods/services use 12% on the full applicable base. Do not copy the publisher page's 10% text into a current Indonesian budget model. The tax treatment of an actual advertising invoice, any special DPP treatment and documentation must be confirmed by the publisher and finance/tax reviewer. See the T08 simulation pack and the cited primary-source links there.
 
@@ -152,3 +152,10 @@ This improves practical simulation coverage but does **not** close T08's primary
 - [Directorate General of Taxes (DJP) — PPN 2025: Kebijakan Baru, Beban Pajak Tetap Ringan untuk Masyarakat](https://pajak.go.id/id/siaran-pers/ppn-2025-kebijakan-baru-beban-pajak-tetap-ringan-untuk-masyarakat): dated 3 January 2025, explains PMK 131/2024, including the 12% rate × 11/12 base for non-luxury taxable goods/services and the 12% full-base treatment for relevant luxury goods/services. Confirm classification and actual invoice treatment with finance/tax review.
 
 **Disposition:** T08 chapter practice = PARTIALLY ENHANCED. T08 primary-source/SME/local commercial validation = OPEN. No core chapter is promoted to VALIDATED by this simulation alone.
+
+
+### 5 November 2026 — priority-source remediation
+
+The current resource map contains 169 chapter rows and 54 unique URLs after adding six standards/learning references to 21 chapter rows across T03, T07, T10, T13 and T16. The source-by-source relevance, direct/manual access outcomes, jurisdiction caveats and track dispositions are recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md).
+
+This addition is a source-coverage improvement only. The 169-objective review register has one row per core chapter, but all 169 rows remain OPEN until the reviewer identifies the precise resource section that teaches the stated objective, classifies DIRECT/PARTIAL/SUPPORTING/NOT FIT, records evidence, and checks Indonesian access/language/cost/eligibility. No objective-level or chapter-level PASS is implied.
