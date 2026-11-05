@@ -31,6 +31,9 @@ jobs:
       - name: Run deterministic repository validator
         run: node scripts/validate-dpa-static.js
 
+      - name: Run deterministic chapter depth screen
+        run: node scripts/audit-dpa-chapter-depth.js
+
       - name: Compile score recalculation script
         run: python -m py_compile scripts/recalculate-chapter-audit-scores.py
 
