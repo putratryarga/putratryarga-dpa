@@ -181,3 +181,23 @@ The score-input CSV is still a **collection template**, not a completed score ma
 - Latest exact-head workflow at this checkpoint: [run 41959194871](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41959194871), SUCCESS on `1965efaaf393f7a89e3059e3c7ea36c683449aa8`. Its logs show 169 canonical rows, 169 unique canonical IDs, 169 score-template rows, empty failures, and a PASS result; Python compilation and the temporary synthetic 169-chapter / 16-track calculation also passed.
 
 No original score values or dimension definitions were created, inferred, or inserted by this extension.
+
+
+## 2026-11-05 chapter-level resource-link integrity guard
+
+The source map received targeted primary-source enrichment for T02, T03, T07, T08, T10, T13 and T16. To prevent a future edit from reducing chapter-level evidence coverage, the static validator now parses every chapter resource row and enforces:
+
+| Check | Result | Status |
+|---|---:|---|
+| Chapter resource rows | 169 | PASS |
+| Unique chapter IDs | 169 | PASS |
+| Distinct source URLs in the map | 47 | PASS |
+| Minimum unique URLs in any chapter row | 2 | PASS |
+| Resource map vs HTML chapter-ID set | Exact set match | PASS |
+| Validator failures | 0 | PASS |
+
+GitHub Actions run [41959560674](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41959560674) completed SUCCESS on exact source SHA `53a383b824024e30d5bd5697308f8edb5124ba0e`. The job log confirms `resourceChapterRows=169`, `uniqueResourceUrls=47`, `minimumUniqueSourceLinksPerChapter=2`, `failures=[]` and `status=PASS`. Python compilation and the isolated synthetic score-calculator self-test also passed.
+
+Two intermediate workflow failures were expected sequencing issues, not unresolved validator defects: run `41959362758` failed before newline parsing was fixed; run `41959549781` failed because the OASIS resource increased the URL inventory to 47 before the validator's expected count was updated from 46. The exact synchronized follow-up run `41959560674` passed on `53a383b`.
+
+The 47-URL count is an inventory count, not 47 independent validations of source-to-objective fit. The 169-chapter objective-level sign-off remains OPEN.
