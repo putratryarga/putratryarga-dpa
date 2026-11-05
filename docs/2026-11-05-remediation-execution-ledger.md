@@ -361,7 +361,7 @@ Source checks and deterministic tests are present; workflow result and authentic
 
 - Quiz workflow [41970086027](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086027) completed SUCCESS. Playwright Chromium loaded the local prototype and exercised the empty/unanswered guard, all responses, progress, deterministic 100% fixture result, review, retry/reset, radio-group keyboard navigation, and a 390px viewport with no horizontal overflow.
 - Axe checks passed on initial, question and result states with the configured WCAG 2.0/2.1/2.2 A/AA tag selection. This automated scan is not a complete manual WCAG audit or accessibility certification.
-- Static workflow [41970086188](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086188) completed SUCCESS. Validator reports 169 mapped rows, 54 unique source URLs, at least two source URLs per chapter, no missing DOM/local script references, all granular review-register row counts and no failures. Depth-screen script and temporary synthetic scoring self-test passed.
+- Static workflow [41970086188](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086188) completed SUCCESS. Validator reports 169 mapped rows, 55 unique source URLs, at least two source URLs per chapter, no missing DOM/local script references, all granular review-register row counts and no failures. Depth-screen script and temporary synthetic scoring self-test passed.
 - The initial Axe integration failure was traced to using Playwright `browser.newPage()`; it was corrected to create an explicit browser context and the exact-head rerun passed.
 - These checks apply to the separate local synthetic quiz sandbox only. Authenticated browser QA of the main DPA website, role selector, live chapter renderer, accessibility audit of all main pages, actual preview/production build and post-release monitoring remain open.
 
@@ -399,3 +399,9 @@ Source checks and deterministic tests are present; workflow result and authentic
 - The MRC PDFs were opened and their titles, publication dates and sections checked. SQLBolt remains search-index verified, but the direct page returned a cache miss.
 - Total current resource inventory: 169 rows / 55 unique URLs. The 169-objective fit register has been regenerated against the new URLs. All objective-level fit, Indonesia access, pricing, language and SME decisions remain OPEN.
 - Reproducible static validation now expects 55 source URLs and checks the exact MRC OOH, MRC Retail and IAB Europe V2.1 URLs.
+
+
+## 21. Current source inventory reconciliation
+
+**Date:** 5 November 2026  
+**Current structural state:** 169 chapter rows / 55 unique external URLs / minimum two unique URLs per chapter. The resource-fit CSV has been regenerated to the exact current mapping. Older ledger entries reporting 48 or 54 URLs are historical snapshots tied to their recorded commits; they are superseded by the current 55-URL mapping. The former 46/48 fetch result is not a current 46/55 result. No current 55/55 direct-access claim is made. All 169 objective-level source-fit and Indonesia access decisions remain OPEN.
