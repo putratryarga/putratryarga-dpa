@@ -342,6 +342,9 @@ try {
   const t02DeskReview = read("docs/T02-10-chapter-source-fit-review.csv");
   const t02DeskReviewRows = t02DeskReview.trim().split("\n").length - 1;
   assertEqual("T02 10-chapter source-fit desk-review rows", t02DeskReviewRows, 10);
+  const t07DeskReview = read("docs/T07-10-chapter-source-fit-review.csv");
+  const t07DeskReviewRows = t07DeskReview.trim().split("\n").length - 1;
+  assertEqual("T07 10-chapter source-fit desk-review rows", t07DeskReviewRows, 10);
   const qnaTriage = read("docs/507-qna-automated-triage.csv");
   const agencyGapTriage = read("docs/80-agency-cell-evidence-gap-triage.csv");
   const qnaTriageRows = qnaTriage.trim().split("\n").length - 1;
@@ -387,7 +390,13 @@ try {
     "https://americanadvertisingandmarketingassociation.org/resources/planning-strategy/positioning-messaging-framework/",
     "https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/",
     "https://www.nngroup.com/articles/journey-mapping-101/",
-    "https://www.communications.gov.uk/wp-content/uploads/2024/02/2024-02-13-GCS-Evaluation-Cycle-FINAL-OFFICIAL.pdf"
+    "https://www.communications.gov.uk/wp-content/uploads/2024/02/2024-02-13-GCS-Evaluation-Cycle-FINAL-OFFICIAL.pdf",
+    "https://ads.tiktok.com/help/article/how-to-create-product-shopping-ads?lang=id",
+    "https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id",
+    "https://iklan.shopee.co.id/learn/faq/574/1716",
+    "https://www.lazadasolutions.com/id/id-faqs/",
+    "https://www.lazadasolutions.com/id/faq/bagaimana-cara-mengelola-campaign-sponsored-discovery-di-aplikasi-lazada-seller-center/",
+    "https://iklan.shopee.co.id/learn/faq/555/8"
   ];
   for (const url of requiredNewResourceUrls) {
     if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);
