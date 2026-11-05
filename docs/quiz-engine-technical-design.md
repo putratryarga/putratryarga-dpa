@@ -321,13 +321,14 @@ The source and tests have been added. Automated workflow execution and actual br
 
 ## 13. Browser and accessibility test evidence — 5 November 2026
 
-**Exact tested commit:** `29c981f58be81d470ddb5c0e4542753eb96b4a6f`
+**Exact tested commit:** `9ba12b6f6f9e3b1cbf05d4f21c31c8263864924a`
 
 **Automated evidence**
-- [DPA Quiz Engine QA — run 41970086027](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086027): SUCCESS.
-- [DPA Remediation Static QA — run 41970086188](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41970086188): SUCCESS.
-- Unit suite passed synthetic-only fixture gating, unsupported scored-mode rejection, empty-state behavior, validation, unanswered guard, deterministic scoring, rationale, review/retry and attempt-history isolation.
-- Playwright + axe passed initial, question and result states using the configured WCAG 2.0/2.1/2.2 A/AA tags. The browser flow passed unanswered guard, response/progress, result, review, retry, native radio keyboard navigation and a 390px viewport with no horizontal overflow.
+- [DPA Quiz Engine QA — run 41992938771](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41992938771): SUCCESS on the exact tested commit.
+- [DPA Remediation Static QA — run 41992938737](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41992938737): SUCCESS on the exact tested commit.
+- Unit suite passed synthetic-only fixture gating, unsupported scored-mode rejection, empty-state behavior, schema/ID/version validation, unanswered guard, deterministic scoring, rationale, review/retry and attempt-history isolation.
+- Playwright + axe passed initial, question and result states using WCAG 2.0/2.1/2.2 A/AA tags. The browser flow passed unanswered guard, response/progress, result, review, retry, native radio keyboard navigation and a 390px viewport with no horizontal overflow.
 - Trust-boundary checks passed for synthetic-only labels and no localStorage/sessionStorage persistence or external API fetch in this sandbox.
+- Static CI also passed cross-register parity: 169 core IDs, 507 Q&A parity, 63 priority-track desk-review rows, 169 resource rows, 98 unique URLs, 80 agency cells, 169 rubric rows, 28 elective chapters, 56 elective checks and 169 depth-screen rows. The validator explicitly preserves formal SME and Indonesia-access states as OPEN.
 
-**Boundary:** this is isolated local browser QA for `quiz-engine-prototype.html`. It is not an authenticated session on the main DPA learning experience, does not validate the role selector/chapter renderer, and does not constitute full manual WCAG conformance or formal accessibility certification. Main application browser QA, server-side grading and scored item/SME approval remain OPEN.
+**Boundary:** this is isolated browser QA for `quiz-engine-prototype.html`, not an authenticated session on the main DPA learning experience. It does not validate the main role selector/chapter renderer, does not establish complete manual WCAG conformance or formal accessibility certification, and does not approve learner assessment content. Main application browser QA, server-side grading, scored items and SME approval remain OPEN.
