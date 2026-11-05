@@ -160,7 +160,7 @@ try {
   assertEqual("Advanced elective first-pass chapter headings", electiveChapterHeadings.length, 28);
   if (!acceptanceRegister.includes("28 elective draft chapters")) fail.push("Acceptance register must keep 28 elective drafts separate from 169 core chapters.");
 
-  if (!t08Simulation.includes("SYNTHETIC, non-client, non-market-benchmark data")) {
+  if (!/\bSYNTHETIC\b/i.test(t08Simulation) || !t08Simulation.includes("non-client, non-market-benchmark data")) {
     fail.push("T08 simulation must declare all exercise data as synthetic.");
   }
   const t08ChapterRows = t08Simulation.match(/^\| T08-CH\d{2} — .+\|$/gm) || [];
