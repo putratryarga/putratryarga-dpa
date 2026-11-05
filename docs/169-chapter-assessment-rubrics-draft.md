@@ -1971,23 +1971,14 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 - The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
 
 **Chapter Q&A answer-key review:**
-1. **Question:** Mengapa ROAS bisa turun meski campaign setting tidak berubah?
-   - **Current guide answer (not yet approved):** Harga, stock, competitor price, ratings, product content, seasonality, and auction competition dapat berubah.
+1. **Question:** Apa saja penyebab retail media ROAS turun, dan bagaimana memisahkan masalah media dari masalah produk?
+   - **Current guide answer (not yet approved):** Periksa spend, bid, query, placement, serta harga, stok, promo, rating, kualitas listing, kompetitor, seasonality, dan margin per SKU. Jangan mengubah seluruh bid sebelum mengisolasi faktor produk/operasional.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** Apa yang harus dilakukan bila stock-out?
-   - **Current guide answer (not yet approved):** Pause/exclude affected SKU atau ubah destination/offer; koordinasikan inventory dan jangan biarkan spend mendorong item unavailable.
+2. **Question:** Kontrol apa yang wajib ada pada aktivasi in-store retail media?
+   - **Current guide answer (not yet approved):** Validasi store/placement inventory, daypart, creative spec, installation, uptime, proof-of-play, store operations, safety, footfall methodology, dan periode pembanding. Plays atau footfall bukan otomatis unique ad exposure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** Mengapa perubahan bid perlu change log?
-   - **Current guide answer (not yet approved):** Agar dampak bisa ditelusuri dan tidak tercampur dengan price/promo/stock changes.
-   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-4. **Question:** Apa itu proof-of-play?
-   - **Current guide answer (not yet approved):** Bukti bahwa aset ditayangkan pada screen/placement sesuai waktu/ketentuan yang dibooking.
-   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-5. **Question:** Mengapa footfall tidak sama dengan ad exposure?
-   - **Current guide answer (not yet approved):** Footfall mengukur kunjungan lokasi; tidak membuktikan setiap orang melihat placement atau mengingat pesan.
-   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-6. **Question:** Apa kontrol operasional khas in-store?
-   - **Current guide answer (not yet approved):** Store availability, uptime, installation, staff, display condition, operating hours, and safety.
+3. **Question:** Mengapa change log dan measurement caveats penting saat mengoptimasi retail campaign?
+   - **Current guide answer (not yet approved):** Catat perubahan bid/SKU/placement, alasan, observation window, owner, guardrail, dan hasil. Pisahkan platform attribution dari incrementality; rekonsiliasi sales, return, stock, margin, match coverage, dan control design.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
