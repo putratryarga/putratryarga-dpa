@@ -380,7 +380,7 @@ Source checks and deterministic tests are present; workflow result and authentic
 
 ### Agency evidence
 - Created `docs/80-agency-cell-evidence-gap-triage.csv` with 80 per-cell traceability checks.
-- 80/80 rows lack populated exact evidence URL or Job ID in the granular register. All 80 retain OPEN role-specificity, currentness, geography/seniority and competency-mapping states.
+- 79/80 rows now carry one or more attached source references (99 URL strings); T01 × WPP Media remains unlinked in the per-cell register. The attached sources include employer JDs, official indexes, employer-attributed postings, adjacent roles and historical/expired listings. All 80 retain OPEN source revalidation, role-specificity, currentness, geography/seniority and competency-mapping states.
 - 37 cells inherit a class label containing A from the existing source matrix. Their original direct-JD citations and requisition IDs still need to be attached to these per-cell rows. Do not equate A labels or career-index statements with current vacancies.
 
 ### Reproducibility
