@@ -300,3 +300,30 @@ This section supersedes earlier entries in this ledger that described `b418d814.
 Source checks and deterministic tests are present; workflow result and authenticated browser/accessibility evidence must be attached to the exact commit before closing the corresponding gates.
 
 **Register effect:** QUIZ-001 moves from OPEN to PARTIAL. QUIZ-002, QUIZ-003, QUIZ-004, the 507 item review, 169 rubric calibration and certificate eligibility remain OPEN/BLOCKED as recorded in the acceptance register. Overall release stays NOT READY.
+
+
+## 15. P1 granular review registers and priority source remediation
+
+**Date:** 5 November 2026  
+**Disposition:** CONTROL REGISTERS CREATED; HUMAN/SME REVIEW DECISIONS REMAIN OPEN.
+
+### Inventory delivered
+- `docs/507-qna-editorial-sme-review-register.csv`: 507 stable chapter-linked Q&A records, preserving current guide answer text and explicitly marking each as reflective/not scored; editorial and SME statuses OPEN.
+- `docs/169-objective-resource-fit-register.csv`: 169 core chapter/objective rows synchronized to the latest resource map; all objective-fit, Indonesia access, language/cost/eligibility statuses OPEN.
+- `docs/80-agency-role-cell-validation-register.csv`: 80 separate agency × track cells with inherited evidence-class labels/statements and individual direct-JD, specificity, currentness, geography/seniority and competency validation fields OPEN.
+- `docs/28-advanced-elective-validation-register.csv`: 28 elective chapter rows with learning outcomes, lesson/workflow/practice/artifact extracts and independent validation statuses OPEN.
+- `docs/56-elective-knowledge-check-review-register.csv`: 56 separate elective knowledge-check records (two per elective chapter); editorial, SME and source statuses OPEN.
+- `docs/2026-11-05-priority-track-source-remediation.md`: documented six-source enrichment and caveats for T03, T07, T10, T13 and T16; T02 gaps remain documented against its existing GovS 011 and ICC/ESOMAR source mix.
+
+### Resource enrichment
+- Added six unique source URLs to 21 chapter-resource rows; the resource map now has 169 rows and 54 unique URLs.
+- Added MRC standards references for T03 OOH/measurement context; IAB Europe V2 + MRC retail measurement guidance for T07; SQLBolt + Hernán/Robins *What If* for T10; W3C WCAG 2.2 for T13; and NSW Government community-management guidance for T16.
+- These additions are not Indonesian local market evidence or blanket source-fit approval. Objective-to-resource fit remains OPEN for 169/169 chapters. SQLBolt and IAB Europe direct access were not confirmed in this manual check; their search-index evidence is recorded separately.
+- The prior 46/48 automated retrieval result remains a historical snapshot before the six URL additions and is not represented as current 46/54 or 54/54 coverage.
+
+### Static controls and CI
+- Extended `scripts/validate-dpa-static.js` to check 507, 169, 80, 28 and 56 register row counts and all six newly mapped source URLs; updated expected unique source count to 54.
+- Corrected newline splitting in CSV row-count validation.
+- Quiz-engine automated workflow passed on SHA `ddfac599440800c9d329fe97d6ddf88e9c054023` (run [41967997038](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41967997038)); static remediation QA also passed on the same SHA (run [41967996999](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41967996999)). Subsequent source/register/validator changes trigger new exact-head runs; their result must be separately recorded.
+
+**Limit:** these artifacts enable controlled review batches. They do not recover the missing original prompt, historical score matrix or original 23/D-1…D-12 issue log; they do not provide SME/JD/browser-session inputs.
