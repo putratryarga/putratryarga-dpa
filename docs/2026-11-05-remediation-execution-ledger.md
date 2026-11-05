@@ -448,3 +448,18 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Current map: 169 rows / 77 unique URLs; static validator now checks all seven new T02 URLs and exactly 10 T02 review rows.
 
 **Register effect:** RES-001 remains PASS for mapping structure only. RES-002 is PARTIAL at desk-review level across T02 (10 chapters), T03 (10 chapters) and T10 (10 chapters); formal acceptance of all 169 objectives remains OPEN.
+
+
+## 26. T07 retail and commerce media source-fit review
+
+**Date:** 5 November 2026  
+**Disposition:** FIRST-PASS DESK REVIEW COMPLETE; 10/10 CHAPTERS PARTIAL; FORMAL ACCEPTANCE OPEN.
+
+- Created `docs/T07-10-chapter-source-fit-review.md` and a 10-row CSV; all chapters have component-fit evidence and specific source gaps.
+- Added six Indonesia-facing source routes for TikTok Shop Ads/GMV Max, Tokopedia Product Shopping Ads, Shopee product-ad creation/performance reporting and Lazada Sponsored Solutions/Sponsored Discovery.
+- Updated T07's ten rows in the 169-objective fit register with PARTIAL desk status. Formal objective fit, seller-account eligibility/access, local commercial terms, technical correctness, SME sign-off and learner pilot remain OPEN.
+- Recorded platform-specific limits: GMV Max is TikTok Shop Ads' default/only supported type since July 2025; Tokopedia Product Shopping Ads is invitation/eligibility-gated; Shopee outcome reporting uses a documented seven-day post-click window and includes certain store-product outcomes; Lazada feature eligibility includes whitelist-only routes.
+- Clarified that IAB/MRC and IAB Europe measurement guidance does not prove Indonesian platform implementation or certification. Platform-attributed sales are not automatically incremental.
+- Current resource map: 169 rows / 83 unique URLs; validator checks all six local routes and ten T07 review rows.
+
+**Register effect:** RES-001 remains PASS for mapping structure only. RES-002 is PARTIAL at desk-review level across T02, T03, T07 and T10 (10 chapters each); formal acceptance of all 169 objectives remains OPEN.
