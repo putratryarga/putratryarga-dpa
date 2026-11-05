@@ -21,7 +21,7 @@ for (const relativePath of sourceFiles) {
 }
 
 const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
-const chapterIds = [...html.matchAll(/data-chapter-id=["'](DPA-T\\d{2}-CH\\d{2})["']/g)]
+const chapterIds = [...html.matchAll(/data-chapter-id=["'](DPA-T[0-9]{2}-CH[0-9]{2})["']/g)]
   .map((match) => match[1]);
 const uniqueChapterIds = [...new Set(chapterIds)];
 const registry = sandbox.DPA_GUIDE_BY_CHAPTER;
