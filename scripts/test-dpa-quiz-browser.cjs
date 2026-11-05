@@ -6,7 +6,8 @@ const AxeBuilder = require("@axe-core/playwright").default;
 
 async function run() {
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage({ viewport: { width: 1365, height: 900 } });
+  const context = await browser.newContext({ viewport: { width: 1365, height: 900 } });
+  const page = await context.newPage();
   const pageErrors = [];
   page.on("pageerror", (error) => pageErrors.push(error.message));
   page.on("console", (message) => {
@@ -86,6 +87,7 @@ async function run() {
     console.log("PASS: unanswered guard, progress, deterministic result, review and retry");
     console.log("PASS: native radio keyboard navigation and 390px mobile horizontal-overflow check");
   } finally {
+    await context.close();
     await browser.close();
   }
 }
