@@ -182,3 +182,10 @@ A first-pass review for all ten T03 chapters is recorded in [T03 review](T03-10-
 ## 23. T02 connection-planning source-fit review
 
 The [T02 10-chapter source-fit review](T02-10-chapter-source-fit-review.md) and [CSV](T02-10-chapter-source-fit-review.csv) provide a first-pass desk review of all T02 chapters. All ten are PARTIAL; formal objective acceptance, Indonesia access/cost/language and SME review remain OPEN. The current resource map is 169 rows / 77 unique URLs. The added sources support portions of public-sector campaign planning, research ethics, responsible marketing, user-journey mapping and brand positioning. Their scope boundaries are explicit: GCS/GovS are UK government frameworks, NN/g is UX-oriented, AMA/AAMA are association resources, and ICC Codes are global ethical/self-regulatory references, not Indonesian law or complete commercial planning standards.
+
+
+## 24. T07 retail and commerce media source-fit review
+
+A first-pass review for all ten T07 chapters is recorded in [T07 review](T07-10-chapter-source-fit-review.md) and its [CSV](T07-10-chapter-source-fit-review.csv). Each chapter is PARTIAL; formal objective acceptance, Indonesia seller-account access/eligibility, local commercial terms, technical accuracy and SME review remain OPEN. The current resource map has 169 rows / 83 unique URLs.
+
+The added local sources document distinct TikTok Shop Ads/GMV Max, invitation-gated Tokopedia Product Shopping Ads, Shopee Ads reporting/attribution and Lazada Sponsored Solutions. Their reporting definitions, seller eligibility and account-management paths must be preserved per platform. Platform-attributed sales do not establish incrementality. IAB/MRC and IAB Europe measurement references are standards context, not evidence of local implementation or certification.
