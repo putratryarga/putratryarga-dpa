@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 98);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 121);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2

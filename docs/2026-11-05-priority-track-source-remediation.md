@@ -4,7 +4,7 @@
 
 ## 1. What changed
 
-- Replaced the initial general MRC and IAB source routes with precise MRC OOH, MRC Retail Media and IAB Europe V2.1 references. The current 169-chapter map has 67 unique URLs (169 rows). The six-track enrichment affects 21 chapter rows.
+- Replaced the initial general MRC and IAB source routes with precise MRC OOH, MRC Retail Media and IAB Europe V2.1 references. At that dated checkpoint the 169-chapter map had 67 unique URLs (169 rows); subsequent dated enrichments are recorded below. The six-track enrichment affects 21 chapter rows.
 - Updated 21 chapter rows in T03, T07, T10, T13 and T16. T02 received no new URL in this pass because GovS 011 and ICC/ESOMAR 2025 were already mapped; its material insight/research gaps remain.
 - Kept the 169-objective resource-fit register at **OPEN for every chapter**. Source mapping is not objective-level source fit, local access confirmation, SME review or curriculum approval.
 - The 63 chapters across the six priority tracks remain separately identifiable in `docs/169-objective-resource-fit-register.csv`.
@@ -173,4 +173,4 @@ The T16 mapping adds eight local/official source routes:
 
 The existing Dewan Pers Cyber Media Guidelines remain a journalism-context source, not an automatic rulebook for ordinary brand-community pages. NSW guidance remains a public-sector operational example, not Indonesian law. Platform settings vary by account, device, permissions and release, so account-side checks are still required.
 
-**Current map:** 169 rows / 98 unique URLs / minimum two URLs per chapter. Source-map structure is not legal sign-off or evidence of access to each platform account.
+**Current map:** 169 rows / 121 unique URLs / minimum two URLs per chapter. Source-map structure is not legal sign-off or evidence of access to each platform account.

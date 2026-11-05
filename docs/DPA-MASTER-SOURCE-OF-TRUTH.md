@@ -200,7 +200,7 @@ The added references include TikTok Creative Center/Top Ads, commercial music an
 
 ## 26. T16 community management and advocacy source-fit review
 
-The [T16 review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) document first-pass desk review of all T16 chapters. All twelve are PARTIAL. Formal objective acceptance, local platform access, legal applicability, technical review and SME sign-off remain OPEN. The resource map contains 169 rows / 98 unique URLs.
+The [T16 review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) document first-pass desk review of all T16 chapters. All twelve are PARTIAL. Formal objective acceptance, local platform access, legal applicability, technical review and SME sign-off remain OPEN. The resource map contains 169 rows / 121 unique URLs.
 
 The new sources include UU PDP 27/2022, UU ITE 1/2024, PP 71/2019, Meta and TikTok safety/moderation policies, TikTok comment controls and YouTube moderation. Legal obligations, platform standards and journalist-specific guidelines remain separate. PP 71/2019 should not be interpreted to mean an ordinary brand account is automatically a regulated PSE; confirm the entity/service scope with qualified legal review. Dewan Pers Cyber Media Guidelines apply to journalistic cyber media rather than automatically to all brand community pages.
 
@@ -209,4 +209,4 @@ The new sources include UU PDP 27/2022, UU ITE 1/2024, PP 71/2019, Meta and TikT
 
 The remediation branch has exact-head static/register-parity CI and isolated quiz Playwright/axe checks passing at `9ba12b6f6f9e3b1cbf05d4f21c31c8263864924a`. A Vercel preview for this SHA is READY. These results do not mean the main application has completed authenticated browser QA, that the program is production-ready, or that any chapter/answer/rubric has SME approval.
 
-Current inventory: 169 core chapters, 507 core Q&A, 98 unique resource URLs, 63 first-pass desk-review chapter rows across T02/T03/T07/T10/T13/T16, 80 agency cells with source references, 169 rubric calibration rows, and 28 elective chapters / 56 elective checks. All formal SME, technical, learner-access, legal and pilot decisions remain OPEN. Exact AutoClaw prompt and original historical audit inputs remain BLOCKED. The current branch is 395 ahead / 2 behind main and is not authorized to merge or release.
+Current inventory: 169 core chapters, 507 core Q&A, 121 unique resource URLs, 63 first-pass desk-review chapter rows across T02/T03/T07/T10/T13/T16, 80 agency cells with source references, 169 rubric calibration rows, and 28 elective chapters / 56 elective checks. All formal SME, technical, learner-access, legal and pilot decisions remain OPEN. Exact AutoClaw prompt and original historical audit inputs remain BLOCKED. The audit branch is being synchronized with the current main history; PR merge and production release remain unauthorized.

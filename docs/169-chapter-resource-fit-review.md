@@ -7,7 +7,7 @@
 
 ## 1. Executive result
 
-At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 98 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
+At the end of the T10/T03/T02/T07/T13/T16 priority-track enrichment, the deterministic map check was **169 chapter rows, 169 unique chapter IDs and 98 unique URLs**. A subsequent exact-head enrichment across the remaining ten core tracks expanded the current mapping to **121 unique URLs**. Earlier 39/46/47/48/55/67/70/77/83/90-URL figures below are historical snapshots from their dated passes. These totals establish mapping integrity only, not source-to-objective fit or learner access.
 
 The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. The initial six-source enrichment was subsequently refined to direct MRC OOH / MRC retail PDFs and the IAB Europe V2.1 article; later T10 and T03 reviews extended the map to 70 unique URLs. Access outcomes and caveats are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 automated retrieval result forward as a current 46/70 result or claim all 70 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
 
@@ -207,7 +207,7 @@ The copyright-law update is time-sensitive: JDIH BPK lists UU 28/2014 in its cur
 
 ## T16 — 12-chapter community management and advocacy source-fit batch review
 
-The [T16 12-Chapter Source-Fit Review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) record a first-pass assessment; all twelve chapters are PARTIAL. The current resource map contains 169 chapter rows / 98 unique URLs.
+The [T16 12-Chapter Source-Fit Review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) record a first-pass assessment; all twelve chapters are PARTIAL. The current resource map contains 169 chapter rows / 121 unique URLs.
 
 New sources include UU PDP 27/2022, UU ITE 1/2024, PP 71/2019, Meta safety/community controls, TikTok comment filters and Community Guidelines, and YouTube live-chat moderation. They address different layers: law/data processing, electronic-system governance, platform policies and account-level moderation tools. The Dewan Pers Cyber Media Guidelines are scoped to journalistic cyber media; they do not automatically define brand-community moderation obligations. The applicability of PSE regulation to a particular organization/service requires fact-specific legal review.
 

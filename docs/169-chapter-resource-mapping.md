@@ -1,6 +1,6 @@
 # 169-Chapter Resource Mapping Register
 
-**Date:** 4 November 2026  
+**Date:** 5 November 2026  
 **Scope:** All 169 core chapters across 16 tracks.  
 **Purpose:** Provide a traceable official learning/reference source and a chapter-specific applied practice pointer for every chapter. The resources are shared at track level where the same platform or standard spans multiple chapters; the applied deliverable is taken from each chapter's own practice prompt.
 
