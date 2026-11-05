@@ -169,7 +169,7 @@ for (const line of resourceLines) {
   assert(uniqueUrls.size >= 2, "Resource map row has fewer than two unique URLs: " + line.split("|")[1].trim());
   for (const url of uniqueUrls) resourceUrls.add(url);
 }
-assert(resourceUrls.size === 98, "Resource URL inventory expected 98 unique URLs; found " + resourceUrls.size);
+assert(resourceUrls.size === 121, "Resource URL inventory expected 121 unique URLs; found " + resourceUrls.size);
 
 const agency = loadCsv("docs/80-agency-role-cell-validation-register.csv");
 assert(agency.records.length === 80, "Agency validation register must contain 80 cells.");
