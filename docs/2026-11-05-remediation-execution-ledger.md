@@ -366,3 +366,23 @@ Source checks and deterministic tests are present; workflow result and authentic
 - These checks apply to the separate local synthetic quiz sandbox only. Authenticated browser QA of the main DPA website, role selector, live chapter renderer, accessibility audit of all main pages, actual preview/production build and post-release monitoring remain open.
 
 **Requirement effect:** isolated quiz browser verification = PASS; QUIZ-001 overall = PARTIAL. Release remains NOT READY.
+
+
+## 19. Automated Q&A and agency-cell evidence triage
+
+**Date:** 5 November 2026  
+**Disposition:** MACHINE-READABLE TRIAGE COMPLETE; EDITORIAL AND EMPLOYER EVIDENCE REVIEW OPEN.
+
+### Core Q&A
+- Created `docs/507-qna-automated-triage.csv` with 507 per-item records and deterministic review flags.
+- 507/507 item-level source-reference fields are blank. Heuristic flags: 152 answers under 14 words, 23 answers beginning with Boolean wording, 16 absolute-wording hits. Answer length range 12–35 words; median 15.
+- No heuristic flag proves an answer is wrong. A short answer or a Boolean opening may be appropriate; a reviewer must examine the actual question, expected answer, source and alternative formulations.
+
+### Agency evidence
+- Created `docs/80-agency-cell-evidence-gap-triage.csv` with 80 per-cell traceability checks.
+- 80/80 rows lack populated exact evidence URL or Job ID in the granular register. All 80 retain OPEN role-specificity, currentness, geography/seniority and competency-mapping states.
+- 37 cells inherit a class label containing A from the existing source matrix. Their original direct-JD citations and requisition IDs still need to be attached to these per-cell rows. Do not equate A labels or career-index statements with current vacancies.
+
+### Reproducibility
+- Added deterministic validator checks for both triage row counts and the expected heuristic/gap counts. These values are intended to change only when the source registers or review records are deliberately updated.
+- See `docs/2026-11-05-qna-agency-automated-triage.md` for definitions, limitations and prioritization. All item/cell approvals remain OPEN.
