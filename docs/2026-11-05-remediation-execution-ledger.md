@@ -634,3 +634,15 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Updated the audit-register validator to require 33 unique T13 Q&A items, 34–40 word explanations, item-level references, previous-answer history, guide/evidence parity, PARTIAL desk classification and formal OPEN/non-scored status. It also requires the T12 superseded-revision field and rejects the malformed T14 Copyright URL.
 - Updated the static validator and control documents to the recomputed global triage totals: 165/507 item-level supporting references; 342 missing source references; 79 answers under the 14-word heuristic; 18 bare-Boolean openings; 16 absolute-wording flags. These remain review heuristics, not correctness findings.
 - No Q&A item has been approved or promoted to a scored assessment. No credential has been issued. Main remains untouched; all changes are limited to the audit branch.
+
+
+## 2026-11-05 — T14 Creator & Influencer Partnerships objective-resource fit review
+
+- Added 12 chapter-specific first-pass source-fit dispositions for DPA-T14-CH01 through DPA-T14-CH12 in docs/T14-12-chapter-source-fit-review.md and the 12-row companion CSV.
+- Replaced the repeated generic creator-resource mapping in the 12 T14 rows of docs/169-objective-resource-fit-register.csv with objective-specific platform, industry, measurement and Indonesian legal/ethics references.
+- Desk classifications: CH03 Creator Discovery, CH06 Brief/Storyline, CH10 Partnership Ads and CH11 Measurement are PARTIAL_STRONG; the other eight chapters are PARTIAL. These are desk dispositions, not formal PASS.
+- Added the current PMSE legal reference Permendag 19/2026 (effective 8 June 2026; repeals Permendag 31/2023) with a scope caveat. EPI 2020 is identified as an industry code, with clause 1.16 consumer testimony and clause 1.17 individual endorsement treated separately.
+- Added ANA Influencer Marketing Measurement Guidelines and IAB's 29 January 2026 creator-economy measurement landscape to the T14 source set. Neither establishes a unified Indonesian measurement currency or proves causal incrementality.
+- Updated first-pass source-fit desk-review coverage from 73/169 to 85/169; 84 core chapters remain without first-pass source-fit desk review.
+- Formal objective fit, Indonesia access, language/cost/account eligibility, all 36 T14 Q&A answer-key/editorial/legal/SME decisions and rubric calibration remain OPEN. No historical raw scores, original 23-finding issue register or D-1…D-12 log were fabricated or reconstructed.
+- The separate 169-row core chapter-resource mapping inventory and its 127 unique URL count were not changed. Main, PR state, production deployment and certificates were not changed.

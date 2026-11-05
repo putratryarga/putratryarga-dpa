@@ -209,6 +209,7 @@ const trackSpecs = [
   ["T07","docs/T07-10-chapter-source-fit-review.csv",10],
   ["T10","docs/T10-10-chapter-source-fit-review.csv",10],
   ["T13","docs/T13-11-chapter-source-fit-review.csv",11],
+  ["T14","docs/T14-12-chapter-source-fit-review.csv",12],
   ["T16","docs/T16-12-chapter-source-fit-review.csv",12]
 ];
 let deskReviewRows = 0;
@@ -245,7 +246,7 @@ for (const [track, path, expectedCount] of trackSpecs) {
   deskCounts[track] = {rows:review.records.length,classification:countBy(review.records,classificationField)};
 }
 const expectedDeskReviewRows = trackSpecs.reduce((sum, spec) => sum + spec[2], 0);
-assert(deskReviewRows === expectedDeskReviewRows && deskReviewRows === 73, "First-pass desk-review total must equal 73.");
+assert(deskReviewRows === expectedDeskReviewRows && deskReviewRows === 85, "First-pass desk-review total must equal 85.");
 
 const resourceLines = read("docs/169-chapter-resource-mapping.md").split(/\r?\n/).filter(line => /^\|\s*DPA-T\d{2}-CH\d{2}\s*\|/.test(line));
 const resourceIds = resourceLines.map(line => line.split("|")[1].trim());

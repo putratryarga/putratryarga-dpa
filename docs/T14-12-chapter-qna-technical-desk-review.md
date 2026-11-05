@@ -29,3 +29,10 @@ All 36 answer explanations were expanded and mapped to supporting item-level sou
 - EPI and platform policies are not substitutes for a qualified legal review of category-specific claims, data collection, rights and disclosures.
 
 **Formal state:** all 36 remain reflective/non-scored. Sources are supporting references, not approved answer keys; all editorial, source-fit, legal/compliance and SME review statuses remain OPEN.
+
+
+## Regulatory-currentness follow-up — 5 November 2026
+
+The source-fit review adds Permendag 19/2026 (effective 8 June 2026; repeals Permendag 31/2023) as a current PMSE/electronic-advertising reference for applicable T14 objectives. Articles 31–32 concern responsibility for electronic-ad material, non-misleading information, and consumer reviews/testimonials in electronic advertising. Apply the regulation only within its scope and obtain qualified Indonesian legal review; this is not a legal opinion.
+
+The EPI 2020 distinction is clarified: clause 1.16 concerns consumer testimony, including genuine personal experience, no exaggeration and signed written support; clause 1.17 concerns individual endorsement. EPI is an industry self-regulatory code, not legislation. These updates do not approve any of the 36 reflective Q&A items; answer-key, editorial, source-fit, legal/compliance and SME statuses remain OPEN.

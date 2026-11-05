@@ -222,4 +222,13 @@ Six unique URLs were added, bringing the overall map from 121 to **127 unique UR
 
 Material limitations remain explicit: OpenStax/SBA cover CVP and break-even but not digital CAC/LTV/cohort/payback; ICC/ESOMAR is a code rather than a research-method course; GCS/GovS/OASIS are UK public-sector frameworks; Reach Planner is YouTube/video-only and forecasts are estimates; paid/search/CRM tutorials are vendor-specific; Consent Mode does not obtain consent or replace legal basis; Optimizely statistics are vendor-specific; HubSpot English/Indonesian learner access was not established; and the integrated capstone still lacks a tested reference solution.
 
-**Current desk-review coverage:** T01/T02/T03/T07/T10/T13/T16 = 73 chapters first-pass desk-reviewed, all PARTIAL. The remaining 96 core chapters still require first-pass chapter-level source-fit desk review. All 169 objective-level formal decisions remain OPEN.
+**Current desk-review coverage:** T01/T02/T03/T07/T10/T13/T14/T16 = 85 chapters first-pass desk-reviewed, all PARTIAL/PARTIAL_STRONG. The remaining 84 core chapters still require first-pass chapter-level source-fit desk review. All 169 objective-level formal decisions remain OPEN.
+
+
+## T14 — Creator & Influencer Partnerships source-fit desk review
+
+The [T14 12-Chapter Source-Fit Review](T14-12-chapter-source-fit-review.md) and its [12-row CSV](T14-12-chapter-source-fit-review.csv) document a chapter-specific first-pass desk review. All twelve are PARTIAL or PARTIAL_STRONG, not formal PASS.
+
+The prior objective-resource register reused the same three general platform/creator links for all T14 chapters. The T14 review maps chapters individually to ecosystem, creator segmentation, discovery, vetting, campaign strategy, Indonesian advertising ethics and electronic-advertising rules, copyright/privacy, seeding/barter, execution/disclosure, partnership-ad authorization, measurement and capstone objectives. It adds Permendag 19/2026 (effective 8 June 2026; repeals Permendag 31/2023), clarifies EPI 2020 clause 1.16's signed written-testimony requirement versus clause 1.17's individual endorsement, and adds ANA/IAB measurement context.
+
+The 169-objective register is synchronized for all 12 T14 chapter IDs with chapter-specific source recommendations, evidence summaries, desk classifications and next actions. Objective-level fit, Indonesia access, language/cost/account eligibility and SME approval remain OPEN. No chapter is accepted solely because more relevant sources were mapped.
