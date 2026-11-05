@@ -1904,34 +1904,6 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 ### DPA-T07-CH06 — Retail Audience, First-Party Data & Targeting
 **Competency:** T07-C02, T07-C04
 
-**Learning outcome under assessment:** In-store media menghubungkan shopper experience fisik dengan digital commerce melalui screen, audio, shelf signage, kiosk, sampling, QR, and proximity-based placements. Perencanaan membutuhkan store list, footfall, dwell/traffic, shopper segment, inventory, store operations, installation, uptime, creative spec, proof-of-play, and sales/brand measurement. Jangan menganggap impression di toko setara dengan audience unik tanpa metodologi.
-
-**Required artifact / chapter-specific evidence checklist:** Buat in-store plan untuk 20 toko: store selection, inventory, audience, placement map, flight, creative spec, proof-of-play, store ops checklist, measurement, and sales-lift caveats.
-
-**Assessor must verify:**
-- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
-- The learner explains the decision logic and connects the evidence to the role-specific outcome.
-- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
-- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
-
-**Chapter Q&A answer-key review:**
-1. **Question:** Apa itu proof-of-play?
-   - **Current guide answer (not yet approved):** Bukti bahwa aset ditayangkan pada screen/placement sesuai waktu/ketentuan yang dibooking.
-   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-2. **Question:** Mengapa footfall tidak sama dengan ad exposure?
-   - **Current guide answer (not yet approved):** Footfall mengukur kunjungan lokasi; tidak membuktikan setiap orang melihat placement atau mengingat pesan.
-   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-3. **Question:** Apa kontrol operasional khas in-store?
-   - **Current guide answer (not yet approved):** Store availability, uptime, installation, staff, display condition, operating hours, and safety.
-   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
-
-**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
-
----
-
-### DPA-T07-CH07 — Product Feed, Digital Shelf & Retail Readiness
-**Competency:** T07-C04
-
 **Learning outcome under assessment:** Retail audience and first-party data digunakan untuk membuat segment seperti category buyers, loyalty members, lapsed purchasers, new-to-brand, high-value, and product affinities. Targeting bergantung pada taxonomy retailer, match coverage, scale, privacy, and platform controls. Audience strategy harus seimbang antara precision dan reach; segment terlalu kecil dapat menaikkan CPM, membatasi delivery, atau membuat hasil tidak stabil.
 
 **Required artifact / chapter-specific evidence checklist:** Buat retail audience taxonomy untuk prospecting, new-to-brand, repeat, lapsed, and high-value segments. Sertakan logic, window, scale/match caveat, activation, suppression, and measurement.
@@ -1957,12 +1929,40 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 ---
 
+### DPA-T07-CH07 — Product Feed, Digital Shelf & Retail Readiness
+**Competency:** T07-C04
+
+**Learning outcome under assessment:** Product feed adalah representasi data produk yang dikirim ke marketplace, retailer, shopping engine, dan ad platform agar SKU dapat ditemukan, ditampilkan, divalidasi, serta dipromosikan. Digital shelf adalah pengalaman produk yang dilihat shopper pada retailer digital: judul, atribut, gambar, deskripsi, harga, stok, variasi, rating/review, ketersediaan, dan discoverability. Feed bukan satu format universal. Required attributes, naming, identifiers, image rules, category taxonomy, locale, currency, dan update mechanism berbeda menurut platform, kategori, pasar, dan tipe akun. Praktisi harus memetakan source of truth dari PIM/ERP/catalogue ke schema tujuan, menjaga konsistensi dengan landing page/checkout, dan memantau error, disapproval, stale data, serta perubahan taxonomy.
+
+**Required artifact / chapter-specific evidence checklist:** Buat product-feed audit workbook untuk minimal 20 SKU dari dua kategori. Sertakan source-of-truth map, platform/category attribute dictionary, field mapping untuk Google Merchant Center dan satu catalog/marketplace yang benar-benar dapat diakses, sample feed rows, validation rules, digital-shelf checklist, diagnostics/error log, owner, priority, dan refresh SLA. Tandai platform features yang tidak tersedia di Indonesia atau memerlukan managed-account eligibility sebagai conditional, bukan assumed access.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa sebab field wajib pada product feed tidak boleh dianggap sama untuk semua platform dan kategori?
+   - **Current guide answer (not yet approved):** Setiap platform dan kategori dapat memiliki taxonomy, mandatory attributes, allowed values, identifier rules, dan eligibility berbeda. Gunakan schema/dokumentasi tujuan yang sedang berlaku.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Bagaimana menangani harga atau availability yang berbeda antara feed dan halaman produk?
+   - **Current guide answer (not yet approved):** Temukan source of truth, rekonsiliasi currency/time/update cadence, perbaiki sistem asal dan destination, lalu validasi ulang hingga feed, landing page, dan checkout konsisten. Jangan mengirim data yang diketahui salah.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa perbedaan product feed dengan digital shelf?
+   - **Current guide answer (not yet approved):** Feed adalah struktur data produk yang disuplai ke platform; digital shelf adalah kondisi dan pengalaman produk yang dilihat shopper, termasuk konten, harga, stok, review, ranking, dan discoverability. Feed yang valid belum menjamin digital shelf berkualitas.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
 ### DPA-T07-CH08 — Campaign Activation, Bidding & Optimization
 **Competency:** T07-C05
 
-**Learning outcome under assessment:** Retail activation dan optimization menggabungkan campaign configuration, product/feed readiness, bid/budget, placement, query, product availability, pricing, promotion, reviews, and sales signals. Optimasi dilakukan pada level retailer, campaign, keyword, placement, and SKU. Perubahan bid harus dibandingkan dengan stock/price/promo agar kenaikan sales tidak salah diatribusikan ke media.
+**Learning outcome under assessment:** Retail activation dan optimization menggabungkan campaign configuration, product/feed readiness, bid/budget, placement, query, product availability, pricing, promotion, reviews, and sales signals. Optimasi dilakukan pada level retailer, campaign, keyword, placement, and SKU. Perubahan bid harus dibandingkan dengan stock/price/promo agar kenaikan sales tidak salah diatribusikan ke media. Aktivasi juga dapat mencakup in-store retail media seperti screen, audio, shelf signage, kiosk, sampling, QR, dan proximity placements. Perencanaan in-store memerlukan store list, inventory/location map, footfall/dwell methodology, operating hours, installation, uptime, creative specification, proof-of-play, store operations, safety, serta pengukuran yang tidak menyamakan plays atau footfall dengan unique ad exposure.
 
-**Required artifact / chapter-specific evidence checklist:** Buat retail optimization log dari data SIMULATED 14 hari: per SKU/query, bid, spend, clicks, sales, stock, price, promo, rating, ACoS, root cause, action, and result.
+**Required artifact / chapter-specific evidence checklist:** Buat retail optimization log dari data SIMULATED 14 hari: per SKU/query, bid, spend, clicks, sales, stock, price, promo, rating, ACoS, root cause, action, and result. Tambahkan modul in-store: placement map untuk 20 toko, flight/daypart, creative spec, store operations checklist, proof-of-play evidence, uptime exception log, dan sales/footfall measurement caveats.
 
 **Assessor must verify:**
 - The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
@@ -1979,6 +1979,15 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa perubahan bid perlu change log?
    - **Current guide answer (not yet approved):** Agar dampak bisa ditelusuri dan tidak tercampur dengan price/promo/stock changes.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+4. **Question:** Apa itu proof-of-play?
+   - **Current guide answer (not yet approved):** Bukti bahwa aset ditayangkan pada screen/placement sesuai waktu/ketentuan yang dibooking.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+5. **Question:** Mengapa footfall tidak sama dengan ad exposure?
+   - **Current guide answer (not yet approved):** Footfall mengukur kunjungan lokasi; tidak membuktikan setiap orang melihat placement atau mengingat pesan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+6. **Question:** Apa kontrol operasional khas in-store?
+   - **Current guide answer (not yet approved):** Store availability, uptime, installation, staff, display condition, operating hours, and safety.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
