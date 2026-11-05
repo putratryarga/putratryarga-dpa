@@ -157,3 +157,20 @@ New source routes cover TikTok Creative Center/Top Ads (updated July 2026), Comm
 - JDIH BPK records UU 28/2014; DPR reporting on 27 October 2026 confirms the amendment RUU was still under Panja discussion. Do not teach proposed changes as enacted law; obtain legal review and recheck status.
 
 **Current map:** 169 rows / 90 unique URLs / at least two source URLs per chapter. This is mapping structure only, not direct-access or legal clearance.
+
+
+## 11. T16 community governance and legal-scope source-fit review — 5 November 2026
+
+The [T16 12-chapter review](T16-12-chapter-source-fit-review.md) and [CSV](T16-12-chapter-source-fit-review.csv) assess all twelve chapters; each remains PARTIAL and formally OPEN.
+
+The T16 mapping adds eight local/official source routes:
+- UU PDP 27/2022 (JDIH DPR) — personal-data rights and processing principles; relevant to comments/DMs/member records.
+- UU ITE 1/2024 (JDIH Komdigi) — electronic information and content-moderation context; not a brand-modulator legal handbook.
+- PP 71/2019 (JDIH Komdigi) — electronic-system governance and PSE responsibilities; applicability depends on the actual entity/service and must not be assumed for every brand account.
+- Meta Safety Center tools and Community Standards/policies — platform-specific comment, restrict, hidden-words, report and content-policy mechanisms.
+- TikTok comment filters and Community Guidelines — platform-specific keyword/spam/offensive-comment controls and safety rules.
+- YouTube live-chat moderation — moderator roles, blocked words, hold settings, slow mode and channel-specific controls.
+
+The existing Dewan Pers Cyber Media Guidelines remain a journalism-context source, not an automatic rulebook for ordinary brand-community pages. NSW guidance remains a public-sector operational example, not Indonesian law. Platform settings vary by account, device, permissions and release, so account-side checks are still required.
+
+**Current map:** 169 rows / 98 unique URLs / minimum two URLs per chapter. Source-map structure is not legal sign-off or evidence of access to each platform account.
