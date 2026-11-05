@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 67);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 70);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
@@ -336,6 +336,9 @@ try {
   const rubricCalibrationRegister = read("docs/169-chapter-rubric-calibration-register.csv");
   const rubricCalibrationRows = rubricCalibrationRegister.trim().split("\n").length - 1;
   assertEqual("169-chapter rubric calibration register rows", rubricCalibrationRows, 169);
+  const t03DeskReview = read("docs/T03-10-chapter-source-fit-review.csv");
+  const t03DeskReviewRows = t03DeskReview.trim().split("\n").length - 1;
+  assertEqual("T03 10-chapter source-fit desk-review rows", t03DeskReviewRows, 10);
   const qnaTriage = read("docs/507-qna-automated-triage.csv");
   const agencyGapTriage = read("docs/80-agency-cell-evidence-gap-triage.csv");
   const qnaTriageRows = qnaTriage.trim().split("\n").length - 1;
@@ -371,7 +374,10 @@ try {
     "https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration",
     "https://support.optimizely.com/hc/en-us/articles/39075638006541-Steps-to-create-an-experiment",
     "https://www.optimizely.com/optimization-glossary/statistical-significance",
-    "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm"
+    "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm",
+    "https://yougov.com/reports/52747-id-media-consumption-report-2025",
+    "https://support.google.com/google-ads/answer/9427192?hl=en",
+    "https://mediaratingcouncil.org/sites/default/files/Standards/Digital%20Audio%20Measurement%20Standards%20-%20Final%20Version%201.0.pdf"
   ];
   for (const url of requiredNewResourceUrls) {
     if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);
