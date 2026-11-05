@@ -84,3 +84,10 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 - Authenticated browser/runtime QA: NOT RUN. No desktop/mobile interactions, screenshots, console/network, accessibility-tree or cross-browser checks are claimed.
 
 **Release decision stays NOT READY.** The branch is a remediation working candidate, not a merged or production-ready release.
+
+
+## Branch-only CI workflow — 5 November 2026
+
+Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branch only. It is configured for pushes to this branch and manual dispatch; it runs the deterministic Node static validator, compiles the Python score script, and runs a temporary 169-row SYNTHETIC-vector self-test against the canonical chapter ID inventory. The synthetic outputs are isolated under `/tmp` on the runner and are not audit scores.
+
+**Execution visibility:** the available GitHub workflow-run listing connector only returns PR-triggered runs. The new workflow is push-triggered; therefore its actual run result is **NOT INDEPENDENTLY VERIFIED** in this session. Do not claim CI PASS until a run ID/job result is available from GitHub Actions UI or a run-aware endpoint.
