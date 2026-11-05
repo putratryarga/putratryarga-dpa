@@ -2,7 +2,9 @@
 
 **Date:** 4 November 2026  
 **Affected chapter:** DPA-T16-CH12 — Community Capstone  
-**Purpose:** Correct the chapter register extraction defect. The guide source `role-study-guides-part3.js` contains the expected Q&A and glossary values; the evidence register currently renders those fields as the literal word `undefined`. This is a register-generation defect, not evidence that the source guide itself is empty.
+**Status: SUPERSEDED — 5 November 2026.** The register-generation correction below is preserved as historical audit evidence. The active `169-chapter-evidence-register.md` has since been regenerated from the guide source arrays for all 149 role-specific guides; T16-CH12 is incorporated in the 169-row register and the 169-entry rubric draft. Do not manually reinsert this supplement or repeat its old `undefined` correction. Use the active register/rubric as current references and re-run the extraction validator after future source changes.
+
+**Historical purpose:** Record the original T16-CH12 extraction defect and the source values that were used to correct it. The original defect was in generated documentation, not in the source guide.
 
 ## Correct Q&A values from the guide source
 
@@ -43,3 +45,11 @@ Score each dimension 0–3, maximum 15, convert to 100 by raw/15×100. Proposed 
 - Existing 168-chapter rubric draft: add this supplement as chapter 169; it must not be described as a complete single-file rubric register.
 - Answer-key correctness: not SME-approved. The values above are copied from the guide source and still require subject-matter validation.
 - Release status: OPEN. Do not claim the 169-chapter register is clean until the main register is regenerated and rechecked for literal `undefined`.
+
+
+## Supersession record — 5 November 2026
+
+- Active evidence register: [169-chapter evidence register](169-chapter-evidence-register.md).
+- Active learner rubric draft: [169-chapter assessment rubrics](169-chapter-assessment-rubrics-draft.md).
+- The T16-CH12 guide source remains the content source; the register is an extraction artifact.
+- This supplement is retained for audit history only and is not an active duplicate data source.
