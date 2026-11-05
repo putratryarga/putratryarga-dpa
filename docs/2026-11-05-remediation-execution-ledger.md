@@ -165,3 +165,53 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 - The two commits after the current-code deployment only update QA/ledger/supplemental documentation; no HTML/JS/CSS application files changed after `fd5d25c`.
 - Main remains at `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`; remediation branch is 181 commits ahead and zero behind. PR #5 and PR #6 remain open/unmerged. No production deployment or merge was performed.
 - Release decision remains **NOT READY — REMEDIATION INCOMPLETE** due to missing historical 169×7 raw values and original 23 findings/D-1…D-12, open SME/JD and objective-level source-fit validation, Indonesia market/legal review, learner pilot and authenticated browser interaction QA.
+
+
+## 2026-11-05 continuation checkpoint — validator, source-map and provenance reconciliation
+
+This section supersedes earlier entries in this ledger that described `b418d814...` as the latest branch head. Historical entries above are retained as an audit trail; use the exact SHA/run/deployment values below for the continuation checkpoint.
+
+### Git and change-control state
+
+- Repository: `putratryarga/putratryarga-dpa`.
+- Working branch: `audit/full-dpa-remediation-2026-11-05`.
+- Main head at the last reconciliation: `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`.
+- Before the final documentation refresh, branch source/validator SHA `53a383b824024e30d5bd5697308f8edb5124ba0e` was 195 commits ahead of main and zero behind. The QA-document update that followed is a documentation-only commit; re-check exact branch head and ahead/behind before any future handoff.
+- PR #5 and PR #6 remain open, draft and unmerged. Neither PR was merged, and main was not changed by this continuation.
+- No production deployment, alias promotion, environment-variable/domain change or production content operation was performed.
+
+### New repository-side controls completed
+
+1. **Canonical inventory guard:** `scripts/validate-dpa-static.js` now compares the canonical 169-ID inventory against the HTML set; exact set, count and uniqueness are required.
+2. **Score-template safety guard:** the validator checks the 169-row nine-column collection template, verifies all IDs and track IDs, and rejects any populated score dimension. All seven score cells remain intentionally blank.
+3. **Resource-link guard:** the validator checks 169 chapter resource rows, exact chapter-ID mapping, 47 distinct source URLs, and at least two distinct URLs on every chapter row. The measured minimum is two.
+4. **Workflow proof:** run [41959560674](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41959560674) completed SUCCESS on exact SHA `53a383b824024e30d5bd5697308f8edb5124ba0e`. Logs show 169 canonical IDs, 169 score-template rows, 169 resource rows, 47 unique resource URLs, minimum two unique source URLs per chapter, zero validator failures, and overall PASS. Python compilation and the temporary synthetic 169-chapter / 16-track calculator test also passed. Synthetic scores are CI test data only, not audit evidence.
+5. **Failure provenance:** run `41958798255` failed on the first malformed newline parser and was corrected before run `41958824709` passed. Run `41959549781` failed because the OASIS source increased unique URLs to 47 before the expected validator count was updated; synchronized run `41959560674` passed. These failure records are retained, not hidden.
+6. **Resource-map enrichment:** the map now has 169 rows / 169 unique chapter IDs / 47 unique URLs / at least two distinct source URLs per row. Targeted additions cover T02, T03, T07, T08, T10, T13 and T16. See the resource-fit review second-pass addenda for source scope and access caveats.
+7. **T02 addition:** UK Government GovS 011 (OASIS campaign lifecycle) is mapped to selected T02 chapters as a cross-government planning/governance framework. It is not Indonesian law or an Indonesian commercial-agency SOP. T02 remains PARTIAL.
+
+### What the new QA does and does not prove
+
+- The CI PASS proves deterministic source-structure assertions, input-template emptiness, resource-link count/set checks, Python compilation and a synthetic calculator code-path test.
+- It does not prove that any new source is a direct fit for every chapter learning objective, nor that every URL is accessible to every Indonesian learner, that a certification/exam is available or free, or that market/legal claims are correct.
+- The source-fit review remains a provisional desk assessment; all 169 objective-level source-fit decisions remain OPEN.
+- The 47-URL map inventory includes two newly added source pointers that require manual access confirmation (The Jakarta Post returned HTTP 403 and YouTube Help returned HTTP 429 in automated retrieval). Do not claim 47/47 direct fetchability.
+- Nielsen references are provider- and product-specific, dated TV/video measurement context; they do not establish a universal cross-media currency or radio/OOH measurement.
+- Shopee Advertising Policy provides Indonesia platform terms, not a full multi-marketplace feature/fee/measurement comparison.
+- OpenIntro supplies statistics foundations, not a complete marketing experiment / causal-inference / econometrics path.
+- Kumparan's Cyber Media Guidelines are one local publisher's implementation; YouTube moderation controls are platform-specific, not a complete cross-platform community governance system.
+- The Jakarta Post pointer is one publisher's commercial terms page, not an agency buying SOP, complete IO pack or legal/procurement-reviewed model.
+
+### Remaining gates — not closed
+
+1. **HIST-001 — BLOCKED:** authoritative 169 × 7 raw score values and versioned definitions/anchors for all seven dimensions remain unavailable. Do not populate the template from inference, rubric dimensions or synthetic vectors.
+2. **HIST-002 — BLOCKED:** the original 23 findings and D-1…D-12 discrepancy records remain unrecovered. The 17-row supplemental findings register is separate and is not a replacement.
+3. **Resource / objective fit — OPEN:** 169 exact objectives need exact module-level source mapping, access/language/price checks and independent reviewer disposition.
+4. **SME assessment — OPEN:** all 507 Q&A answer keys/alternatives and 169 assessment rubrics need subject-matter review and calibration.
+5. **Agency JDs — PARTIAL:** all 80 cells have a recorded evidence route, but source-specific currentness, geography, seniority, full role scope and chapter competency need independent validation; do not equate B/D evidence with a direct/current vacancy.
+6. **Indonesia market/legal/procurement — OPEN:** complete local offline-media measurement, commercial rate cards/IOs, media-owner negotiation, marketplace comparisons, consent/privacy and platform rights/fees with authorized review.
+7. **Electives / learner validation — OPEN:** 28 full first-pass drafts exist (14 CRO + 14 Traditional Media) but still need direct/adjacent JD mapping, chapter-resource fit, SME review, assessment calibration and learner pilot.
+8. **RUNTIME-001 — OPEN:** authenticated desktop/mobile interaction QA remains NOT RUN: role switching, persistence, keyboard/focus, theme controls, accessibility tree, screenshot/visual regression and cross-browser checks.
+9. **Final exact-head validation — REQUIRED:** rerun CI after the last documentation update and preserve the exact final SHA and run ID.
+
+**Release decision: NOT READY — REMEDIATION INCOMPLETE.** Source and automated QA coverage improved; historical inputs, external review, market/legal validation, learner validation and authenticated browser evidence remain open or blocked.
