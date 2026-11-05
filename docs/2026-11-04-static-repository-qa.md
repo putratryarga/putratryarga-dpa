@@ -56,7 +56,7 @@
 
 **Branch relationship:** `main` is `640b1924...`; the remediation branch includes main as a parent and currently has zero commits behind `main`. `main` remains unchanged. PR #5/#6 remain draft/open/unmerged.
 
-**Release decision:** STATIC SOURCE CHECKS and GitHub Actions static QA PASS on the exact SHAs recorded; the code preview/HTTP/asset smoke is PASS on code/resource SHA f9def1a8c6a8b22568b38bd83c7c1086765418fb; Vercel deployment of later docs-only branch heads remains build-rate-limited; BROWSER/RUNTIME QA NOT RUN; NOT READY TO MERGE.
+**Release decision:** STATIC SOURCE CHECKS and GitHub Actions static QA PASS on recorded SHAs; current-code Vercel Preview is READY on SHA fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2 with HTTP/asset smoke PASS; authenticated BROWSER/RUNTIME interaction QA NOT RUN; historical/SME/source-fit gates remain open; NOT READY TO MERGE.
 
 
 ## 2026-11-05 post-resource-correction verification
@@ -115,7 +115,7 @@ The supplemental findings register documents new observations from this pass and
 |---|---|---|---|
 | [41950779127](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41950779127) | 7442ca481b9e5f786f95db971ac314cef32f9be5 | SUCCESS | Deterministic Node structure validator, Python script compile, temporary synthetic 169×7 score self-test |
 | [41950936135](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41950936135) | e21c30ec69a66babdab79c3837fb3637d442d8bb | SUCCESS | Same workflow and validation steps |
-| [41951028735](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41951028735) | 220404081535c8a72b966d3ae77dee53911006fe | SUCCESS | 169 HTML IDs, guide/evidence/rubric/resource/technical structures; Python compile; 169 synthetic outputs and 16 synthetic track summaries |
+| [41951028735](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41951028735) | 220404081535c8a72b966d3ae77dee53911006fe | SUCCESS | 169 HTML IDs, guide/evidence/rubric/resource/technical structures; Python compile; 169 synthetic outputs and 16 synthetic track summaries |\n| [41955517513](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41955517513) | fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2 | SUCCESS | Current static validator and synthetic score self-test after guide-source/agency updates |
 
 The self-test's score vectors are generated in runner temporary storage, labelled SYNTHETIC and discarded after the job. A successful self-test proves the calculator runs on controlled test input; it does not supply the historical raw score matrix. The run logs also show non-blocking Node/Punycode deprecation warnings.
 
