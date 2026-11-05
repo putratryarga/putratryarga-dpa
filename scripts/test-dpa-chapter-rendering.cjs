@@ -37,7 +37,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         const practice = material?.querySelector(".chapter-deliverable")?.textContent.trim() || "";
         const questions = material?.querySelectorAll(".lesson-check-list > li").length || 0;
         const steps = material?.querySelectorAll(".lesson-topic-list > li").length || 0;
-        const resources = material?.querySelectorAll(".chapter-source-list .chapter-resource-item").length || 0;
+        const resourceNodes = [...(material?.querySelectorAll(".chapter-source-list .chapter-resource-item a") || [])];
+        const resources = resourceNodes.length;
+        const resourceHrefs = resourceNodes.map((link) => link.getAttribute("href") || "");
         const emptySource = Boolean(material?.querySelector(".source-empty"));
         return {
           id: chapter.dataset.chapterId || "COMMON_FOUNDATION",
@@ -48,6 +50,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           questions,
           steps,
           resources,
+          resourceHrefs,
           emptySource,
           hasMaterial: Boolean(material)
         };
@@ -71,13 +74,17 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.equal(audit.foundationPanels, EXPECTED_FOUNDATION, "Expected 6 Common Foundation chapters.");
 
     const missing = audit.rows.filter((row) =>
-      !row.hasMaterial || !row.title || row.conceptChars < 80 ||
+      !row.hasMaterial || !row.title || row.conceptChars < 80 || row.exampleChars < 80 ||
       row.practiceChars < 20 || row.steps < 1 || row.questions < 1
     );
     assert.deepEqual(missing, [], "Missing or blank learning material panels.");
 
     const noSources = audit.rows.filter((row) => row.emptySource || row.resources < 1);
     assert.deepEqual(noSources, [], "Every chapter must expose at least one mapped source.");
+
+    const invalidResourceLinks = audit.rows.flatMap((row) => row.resourceHrefs)
+      .filter((href) => !/^https?:\/\//i.test(href));
+    assert.deepEqual(invalidResourceLinks, [], "Mapped learning resources must use explicit HTTP(S) URLs.");
 
     const ids = audit.rows.filter((row) => row.id !== "COMMON_FOUNDATION").map((row) => row.id);
     assert.equal(new Set(ids).size, EXPECTED_CORE, "Core chapter IDs must be unique.");
@@ -97,7 +104,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       const activeBox = page.locator(`[data-track-box="${role}"].on`);
       await activeBox.waitFor({ state: "visible" });
       const firstChapter = activeBox.locator("details.week").first();
-      await firstChapter.locator("summary").click();
+      await firstChapter.locator(":scope > summary").click();
       const panel = firstChapter.locator(".chapter-study");
       await panel.waitFor({ state: "visible" });
       const visible = await panel.evaluate((element) => {
@@ -108,6 +115,51 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       assert.equal(visible, true, `Material panel did not become visible for role ${role}.`);
     }
 
+    // Common Foundation is shared by all 16 roles and must render independently.
+    const foundation = page.locator("#foundationFold");
+    if (!(await foundation.evaluate((element) => element.open))) {
+      await foundation.locator(":scope > summary").click();
+    }
+    const firstFoundationChapter = page.locator('[data-track-box="cf"] details.week').first();
+    await firstFoundationChapter.locator(":scope > summary").click();
+    await firstFoundationChapter.locator(".chapter-study").waitFor({ state: "visible" });
+
+    // Mobile smoke test: viewport fit, Paid Social role switch, and visible lesson content.
+    await page.setViewportSize({ width: 390, height: 844 });
+    const mobileLayout = await page.evaluate(() => ({
+      viewportWidth: window.innerWidth,
+      documentWidth: Math.max(document.documentElement.scrollWidth, document.body.scrollWidth)
+    }));
+    assert.ok(
+      mobileLayout.documentWidth <= mobileLayout.viewportWidth + 1,
+      `Horizontal overflow on mobile: ${JSON.stringify(mobileLayout)}`
+    );
+
+    const paidSocialPicker = page.locator('[data-role-card="paidsocial"] .role-pick');
+    if (!(await paidSocialPicker.isVisible())) {
+      await page.locator("[data-role-picker-open]").first().click();
+    }
+    await paidSocialPicker.click();
+    const paidSocialBox = page.locator('[data-track-box="paidsocial"].on');
+    await paidSocialBox.waitFor({ state: "visible" });
+    const paidSocialFirstChapter = paidSocialBox.locator("details.week").first();
+    await paidSocialFirstChapter.locator(":scope > summary").click();
+    const paidSocialPanel = paidSocialFirstChapter.locator(".chapter-study");
+    await paidSocialPanel.waitFor({ state: "visible" });
+    const mobilePanelBounds = await paidSocialPanel.evaluate((element) => {
+      const rect = element.getBoundingClientRect();
+      const style = window.getComputedStyle(element);
+      return {
+        visible: style.display !== "none" && style.visibility !== "hidden" && rect.height > 0,
+        right: rect.right,
+        width: rect.width,
+        viewportWidth: window.innerWidth
+      };
+    });
+    assert.equal(mobilePanelBounds.visible, true, "Paid Social lesson panel must be visible on mobile.");
+    assert.ok(mobilePanelBounds.right <= mobilePanelBounds.viewportWidth + 1,
+      `Paid Social panel overflows mobile viewport: ${JSON.stringify(mobilePanelBounds)}`);
+
     assert.deepEqual(pageErrors, [], "Browser runtime errors were raised during page load or role switching.");
     console.log(JSON.stringify({
       result: "PASS",
@@ -115,7 +167,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       commonFoundationChapters: audit.foundationPanels,
       totalRenderedPanels: audit.totalPanels,
       rolesOpened: roleIds.length,
-      sourceCoverage: "all panels have at least one mapped source",
+      sourceCoverage: "all panels have valid HTTP(S) links",
+      mobileViewport: mobileLayout,
+      mobilePaidSocialPanel: mobilePanelBounds,
       runtimeErrors: pageErrors.length,
       perTrack: audit.perTrack
     }, null, 2));
