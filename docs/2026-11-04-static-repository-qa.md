@@ -5,7 +5,7 @@
 
 ## Results
 
-**Current target:** remediation branch `audit/full-dpa-remediation-2026-11-05` at commit `bcca5021f83037edf07710c4d8805f13d794e80b`. All figures below are static-source checks, not browser/runtime behavior.
+**Current target:** remediation branch `audit/full-dpa-remediation-2026-11-05` at commit `85a69f5544c1cdf920576b3ceb236431303f568d`. All figures below are static-source checks, not browser/runtime behavior.
 
 | Check | Result | Status |
 |---|---:|---|
@@ -52,6 +52,6 @@
 - The latest known Vercel status check on remediation commit `bcca5021...` is **FAILURE due to build-rate-limit** (upgrade/build-rate-limit target), not a successful deployment. No GitHub Actions workflow runs are associated with this commit.
 - External resource-link availability, redirect chains, locale access, regional price and credential expiry are not proven by static presence.
 
-**Branch relationship:** `main` is `640b1924...`; remediation is 126 commits ahead / 6 behind with merge base `cc54ac2934f8b806e7fecd62123d5dca7ee38170`. Six main-side commits contain crosswalk and role/elective documentation changes; the remediation branch contains revised counterparts. No history merge/rebase was performed. PR #5/#6 remain draft/open/unmerged.
+**Branch relationship:** `main` is `640b1924...`; remediation is 129 commits ahead / 0 behind after merge commit `85a69f5544c1cdf920576b3ceb236431303f568d`, whose second parent is the unchanged main head. The remediation tree retains the revised crosswalk/elective documentation. PR #5/#6 remain draft/open/unmerged.
 
 **Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; BRANCH BASE RELATIONSHIP REQUIRES FINAL RECONCILIATION; NOT READY TO MERGE.
