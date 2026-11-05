@@ -275,3 +275,28 @@ This section supersedes earlier entries in this ledger that described `b418d814.
 - Current DPA site is static. localStorage/browser-only generation is explicitly not an authoritative issuance mechanism.
 
 **Verification boundary:** documentation presence and cross-document references only. Feature implementation, security, browser/runtime behavior and issuance remain OPEN. Release decision remains NOT READY.
+
+
+## 14. P2 formative quiz scaffold
+
+**Date:** 5 November 2026  
+**Disposition:** ISOLATED FORMATIVE SCAFFOLD IMPLEMENTED; CONTENT APPROVAL, MAIN-APP INTEGRATION AND BROWSER QA OPEN.
+
+### Delivered
+- `scripts/dpa-quiz-engine.js`: reusable browser/Node core; validates canonical chapter/item identifiers, item version, option integrity, answer-key linkage and synthetic-fixture marker. Supports READY, IN_PROGRESS, SCORED and REVIEWED flow, unanswered guard, deterministic points, rationale, retry and in-memory attempt history.
+- `scripts/dpa-quiz-synthetic-fixtures.js`: three synthetic T10 examples on event/session grain, confidence-interval interpretation and incrementality design. The fixtures are marked NOT_APPROVED_TEST_ONLY.
+- `quiz-engine-prototype.html` + `scripts/dpa-quiz-sandbox.js`: separate accessible sandbox with native fieldsets/radio inputs, keyboard interaction, progress, validation, score summary, rationale review and retry.
+- `scripts/test-dpa-quiz-engine.js`: Node built-in assertion suite for valid and empty state, blocked scored mode, schema errors, duplicate IDs, wrong option and key-version errors, unanswered submission, calculation, feedback, review/retry and snapshot isolation.
+- `.github/workflows/dpa-quiz-engine-qa.yml`: dedicated Node 20 CI workflow; does not require a package manager or new external dependency.
+
+### Deliberate limits
+- The prototype has no learner account, network submission, localStorage/sessionStorage write, progress mutation or certificate integration.
+- Answer keys are shipped only because these are explicitly synthetic test fixtures. Real approved answer keys must remain server-side for summative assessment.
+- The prototype is standalone, not injected into the main chapter renderer. It must not be called a production quiz or a secure exam.
+- None of the 507 reflective Q&A items were auto-converted or treated as SME-approved scored questions.
+- No passing score or 80% threshold is represented as calibrated.
+
+### Verification
+Source checks and deterministic tests are present; workflow result and authenticated browser/accessibility evidence must be attached to the exact commit before closing the corresponding gates.
+
+**Register effect:** QUIZ-001 moves from OPEN to PARTIAL. QUIZ-002, QUIZ-003, QUIZ-004, the 507 item review, 169 rubric calibration and certificate eligibility remain OPEN/BLOCKED as recorded in the acceptance register. Overall release stays NOT READY.
