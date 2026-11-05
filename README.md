@@ -101,6 +101,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 ## P1 audit registers
 
+- [169-chapter rubric calibration register](docs/169-chapter-rubric-calibration-register.csv) — one row per chapter; all calibration/SME decisions OPEN.
 - [507 core Q&A editorial/SME review register](docs/507-qna-editorial-sme-review-register.csv) — 507 items; all OPEN, not scored/approved.
 - [169 objective-level resource-fit register](docs/169-objective-resource-fit-register.csv) — one objective/source review row per core chapter; all OPEN.
 - [80 agency-role cell validation register](docs/80-agency-role-cell-validation-register.csv) — one row per agency × core-track cell; direct JD validation remains open.
