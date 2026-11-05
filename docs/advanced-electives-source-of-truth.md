@@ -1,10 +1,10 @@
 # Advanced Electives — Source of Truth
 
-**Status:** Curriculum Architecture v1.0 — Proposed / Evidence Validation Pending  
+**Status:** Curriculum Architecture v1.1 + Full Chapter Draft v0.1 — 28/28 chapters authored; evidence, SME, market and learner validation pending  
 **Scope:** 2 advanced electives within the 16 core + 2 elective taxonomy  
-**Last updated:** 2026-11-04
+**Last updated:** 2026-11-05
 
-> This document records the approved architecture and proposed chapter structures. It does not claim that every competency, resource, credential, or assessment has completed evidence validation. Do not label either elective Fully Validated or Final Curriculum until the validation gates below are closed.
+> This document records the approved elective architecture and chapter sequence. The companion file docs/28-advanced-elective-full-chapter-drafts.md now contains first-pass written content for all 28 chapters (14 CRO + 14 Traditional Media). This is a complete first written draft, not a final or SME-approved curriculum. Competency, resource-to-objective fit, credential, assessment, workload and Indonesia-market validation remain open. Do not label either elective Fully Validated or Final Curriculum until the validation gates below are closed.
 
 ## 1. Taxonomy decision
 
@@ -13,7 +13,7 @@ The roadmap retains 16 core tracks. These are additional advanced electives, not
 17. **CRO / Growth / Experience Optimization**
 18. **Traditional Media Planning & Buying**
 
-The elective names and placement are approved at the architecture level. Each has a proposed 14-chapter structure.
+The elective names and placement are approved at the architecture level. Each has 14 complete first-pass written chapter drafts in the companion chapter document; the chapter sequence and outcomes below remain the architecture source of truth.
 
 ## 2. Elective 17 — CRO / Growth / Experience Optimization
 
@@ -23,7 +23,7 @@ Develop the ability to diagnose and improve conversion performance across websit
 
 **Boundary:** CRO focuses on improving conversion and experience within a defined digital journey. Growth Marketing is broader and may include acquisition, activation, retention, referral, and monetization. The terms are not interchangeable.
 
-### Proposed 14-chapter curriculum
+### 14-chapter curriculum — full first-pass drafts authored in companion document
 
 | # | Chapter | Core outcome | Required deliverable |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Develop the ability to plan, evaluate, negotiate, buy, deliver, and govern offli
 
 **Boundary:** The elective focuses on traditional/offline media investment and buying disciplines. Digital media buying, programmatic trading, and paid social/search remain in their respective core tracks. Integrated planning can connect channels without collapsing distinct buying mechanics or measurement standards.
 
-### Proposed 14-chapter curriculum
+### 14-chapter curriculum — full first-pass drafts authored in companion document
 
 | # | Chapter | Core outcome | Required deliverable |
 |---|---|---|---|
@@ -133,6 +133,8 @@ Classify every credential as one of: professional/proctored certification; cours
 
 ## 7. Assessment architecture
 
+The companion full-draft document now includes a common five-dimension learner rubric (Technical accuracy; Deliverable completeness; Analysis and judgement; Evidence, QA and governance; Communication and handoff), two knowledge checks with answer guidance per chapter, and chapter-specific applied artifacts. The proposed 80/100 pass mark and reviewer anchors are not calibrated until SME scoring and learner-pilot evidence are available.
+
 Every chapter should include:
 - A knowledge check for concepts and terminology.
 - A practical artifact demonstrating the stated competency.
@@ -146,8 +148,8 @@ Capstones should assess problem framing, evidence quality, technical/operational
 
 | Gate | Required completion evidence | Status |
 |---|---|---|
-| Architecture | Taxonomy placement, purpose, scope, boundaries, and chapter sequence. | Architecture approved; chapter structures proposed. |
-| Role validation | Chapter-level mapping to comparable senior roles across five agency groups; direct and adjacent evidence distinguished. | Partial; further verification required. |
+| Architecture | Taxonomy placement, purpose, scope, boundaries, and chapter sequence. | Architecture approved; chapter sequence documented. |
+| Content drafting | Full lesson, workflow, practice, artifact/acceptance, knowledge checks, glossary and source caveats for 28 chapters. | COMPLETE — first-pass authored; SME/learner validation pending. |\n| Role validation | Chapter-level mapping to comparable senior roles across five agency groups; direct and adjacent evidence distinguished. | Partial; further verification required. |
 | Market validation | Indonesia-specific measurement, buying, trading, and operational practices. | Open. |
 | Resource validation | Current links, price/access, language, prerequisites, and availability verified. | Open. |
 | Credential validation | Credential type, assessment, cost, validity, renewal, and regional eligibility verified. | Open. |
@@ -162,3 +164,13 @@ Capstones should assess problem framing, evidence quality, technical/operational
 - No changes to the 16-core-track taxonomy.
 - No production website or application code changes.
 - No claim of full evidence validation or final curriculum approval.
+
+## 10. Full-chapter drafting update — 5 November 2026
+
+- Companion document: docs/28-advanced-elective-full-chapter-drafts.md.
+- Draft coverage: 28/28 chapter sections; 14 CRO and 14 Traditional Media.
+- Per chapter: learning outcomes, core teaching narrative, applied workflow, practical exercise, required artifact and acceptance criteria, two knowledge checks with answer guidance, glossary, source route and limitations.
+- Total: 56 knowledge-check questions and 84 chapter glossary definitions, plus one shared five-dimension learner rubric.
+- Structural QA: 28 unique chapter headings; all 28 sections contain the required content blocks; no missing outcome, lesson, workflow, practice or deliverable block; no literal undefined tokens.
+- This changes elective content status from PROPOSED OUTLINES to FULL FIRST-PASS DRAFT AUTHORED. It does not close role/JD validation, source fit, credential verification, Indonesian market/legal review, answer-key approval, rubric calibration, workload testing, learner pilot or SME sign-off.
+- No core 169 chapter IDs were changed; electives remain additional and are not counted inside the 16 core tracks.
