@@ -28,8 +28,12 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       const rows = chapters.map((chapter) => {
         const material = chapter.querySelector(".chapter-study");
         const title = material?.querySelector(".chapter-study-title h4")?.textContent.trim() || "";
-        const concept = material?.querySelector(".lesson-topic-list")?.textContent.trim() || "";
-        const example = material?.querySelector(".chapter-study details:nth-of-type(3) .lesson-fold-body")?.textContent.trim() || "";
+        const sectionText = (label) => {
+          const detail = [...(material?.querySelectorAll("details.lesson-fold") || [])].find((node) => node.querySelector("summary")?.textContent.includes(label));
+          return detail?.querySelector(".lesson-fold-body")?.textContent.trim() || "";
+        };
+        const concept = sectionText("Penjelasan inti");
+        const example = sectionText("Contoh kasus");
         const practice = material?.querySelector(".chapter-deliverable")?.textContent.trim() || "";
         const questions = material?.querySelectorAll(".lesson-check-list > li").length || 0;
         const steps = material?.querySelectorAll(".lesson-topic-list > li").length || 0;
