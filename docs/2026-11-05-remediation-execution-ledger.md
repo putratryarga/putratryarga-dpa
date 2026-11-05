@@ -339,3 +339,15 @@ Source checks and deterministic tests are present; workflow result and authentic
 - The 507 Q&A question texts had zero exact duplicates after case/punctuation/whitespace normalization. This does not detect conceptual near-duplicates or validate answer correctness.
 - Static CI now runs the depth-screen script and validates the 169-row CSV snapshot.
 - No score or chapter-validation status is inferred from text length/field presence. Technical accuracy, specificity, currentness, role relevance, Indonesia application, objective-level source fit, SME review and assessment calibration remain OPEN.
+
+
+## 17. 169-chapter rubric calibration register
+
+**Date:** 5 November 2026  
+**Disposition:** ROW-LEVEL CALIBRATION CONTROL PRESENT; ALL SUBSTANTIVE RUBRIC DECISIONS OPEN.
+
+- Created docs/169-chapter-rubric-calibration-register.csv with 169 chapter rows extracted from the current rubric-draft artifact.
+- Each row includes the chapter learning outcome, required artifact/checklist, assessor verification criteria (minimum four extracted criteria), three embedded Q&A items, scoring dimensions, proposed 0–3 scale, uncalibrated 80/100 target and explicit SME/calibration/pilot fields.
+- All 169 rows remain OPEN for calibration, qualified SME approval, sample learner submissions and inter-rater agreement.
+- The proposed threshold and critical-failure rule are not authorized for summative grading or credential eligibility until standard-setting evidence is complete.
+- The static validator now enforces the 169-row count of this register.
