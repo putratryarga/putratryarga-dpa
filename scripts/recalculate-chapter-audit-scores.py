@@ -26,7 +26,8 @@ def main() -> int:
     parser.add_argument("--chapter-output", type=Path, default=Path("chapter-audit-scores-recalculated.csv"))
     parser.add_argument("--track-output", type=Path, default=Path("track-audit-scorecard-recalculated.csv"))
     parser.add_argument("--expected-ids", type=Path,
-                        help="Optional UTF-8 text file with one canonical DPA chapter ID per line.")
+                        default=Path("docs/169-core-chapter-ids.txt"),
+                        help="UTF-8 file with one canonical DPA chapter ID per line (default: docs/169-core-chapter-ids.txt).")
     parser.add_argument("--require-169", action="store_true",
                         help="Require exactly 169 unique chapter rows across 16 track IDs.")
     args = parser.parse_args()
