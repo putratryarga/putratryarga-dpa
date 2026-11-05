@@ -149,7 +149,7 @@ After reviewing employer-hosted requisitions JR0096922, JR0099039, JR0093003, JR
 - JR0096564 is DMPG, London, with an application end date of 3 August 2026; retain only as historical elective CRO role evidence.
 - JR0093690 is Havas Play, Puteaux. Official indexed information describes a six-month internship starting September 2026, while a secondary repost states January 2027; start date/current application status remain unresolved. It is B related-practice evidence, not direct Havas Media Network evidence.
 
-**Reconciled class-label counts:** A 37, B 20, C 0, D 37, E 0, G 5; 19 compound cells. These are label instances, not unique role/JD counts. The 80-cell table contains four pure G gaps and one B/G cell.
+**Reconciled class-label counts (5 November 2026):** A 37, B 22, C 0, D 42, E 0, G 0; 21 compound cells and 101 class-label instances across 80 unique cells. These are label instances, not unique role/JD counts. All prior G markers now have a sourced historical, index or adjacent-role route; direct/current competency validation remains PARTIAL.
 
 
 ## 5 November 2026 — recovery of the five residual G-marker evidence gaps
