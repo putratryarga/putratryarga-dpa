@@ -315,3 +315,335 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Glossary.** Portfolio: initiatives managed together against shared goals and constraints. Evidence chain: traceability from problem through method, result and decision. Critical failure: condition invalidating assessment regardless of aggregate score.
 
 **Sources and limitations.** All chapter sources, experiment repository, technical QA, privacy review and financial assumptions. SME review is required before learner release.
+
+
+# Elective 18 — Traditional Media Planning & Buying
+
+**Elective outcome:** plan, evaluate, negotiate, buy, deliver and govern offline media investment across television, radio/audio, print, OOH/DOOH, cinema, sponsorship and integrated offline plans. Digital media buying and programmatic execution remain in their core tracks. Market-specific audience currencies, measurement suppliers, regulation, inventory and trading norms must be verified for Indonesia before this draft is used operationally.
+
+## 18.01 — Traditional Media Ecosystem & Agency Operations
+
+**Learning outcomes:** map the parties in an offline media transaction; explain planning, buying, delivery and reconciliation responsibilities; identify conflicts of interest and decision rights.
+
+**Core lesson.** Offline media is an ecosystem of advertisers, agencies, media owners, sales houses, measurement providers, production suppliers, verification partners and specialist vendors. The same organization may perform more than one role, so the learner must identify who owns inventory, who sells it, who measures audience, who validates delivery and who approves payment. An agency workflow connects brief intake, research, strategy, plan, proposal, negotiation, booking, material delivery, campaign monitoring, post-buy and invoice reconciliation. Clear accountability prevents gaps between what was promised, bought, delivered and billed.
+
+**Workflow.** (1) Identify advertiser, agency, media owner, measurement provider and third-party suppliers. (2) Map each party's commercial interest, data access and accountability. (3) Draw the campaign workflow and approval gates. (4) Assign RACI for budget, schedule, creative, legal, delivery, reporting and payment. (5) Document conflict checks, escalation path and records retention.
+
+**Practice.** Build an ecosystem map and RACI for a fictional national consumer campaign involving a TV broadcaster, radio network, OOH operator, agency and audience-measurement supplier.
+
+**Required artifact and acceptance.** Ecosystem map and campaign workflow. Include all stakeholders, money/inventory/data flows, owners, approvals, handoffs, conflicts and escalation. Every key activity must have one accountable owner.
+
+**Knowledge check.**
+1. Why must the media owner and measurement provider be distinguished? **Answer guidance:** one sells or controls inventory; the other supplies audience or delivery evidence under its own methodology. They may be related but are not automatically independent.
+2. What is the purpose of a post-buy workflow? **Answer guidance:** reconcile what was planned, contracted, delivered, verified and billed, then capture performance and makegood decisions.
+
+**Glossary.** Media owner: organization controlling or representing media inventory. Sales house: organization selling inventory on behalf of one or more owners. RACI: responsibility matrix identifying Responsible, Accountable, Consulted and Informed roles.
+
+**Sources and limitations.** Agency role evidence and actual Indonesian supplier workflows. Record the market, period and contract basis; do not assume agency structures or titles are identical across groups.
+
+---
+
+## 18.02 — Audience Intelligence & Research
+
+**Learning outcomes:** translate a business audience into a media target; assess research quality and representativeness; document gaps between target audience and measured universe.
+
+**Core lesson.** Audience research begins with the commercial question: whom must the campaign influence, in what geography and purchase context, and what behaviour matters? Demographic descriptions alone often conceal differences in need, category use, media habits, language, affordability and decision authority. Research may combine survey, panel, census, customer data, location data and qualitative insight. Every source has a universe, fieldwork period, sample frame, weighting, question wording and limitation. Do not combine incomparable sources as if they measure the same population.
+
+**Workflow.** (1) Define the target audience and buying/usage behaviour. (2) Specify geography, age or other permitted characteristics, category and time period. (3) Inventory research sources and inspect universe, sample, fieldwork, weighting and method. (4) Identify coverage gaps, duplication and confidence limitations. (5) Translate evidence into a media audience brief and supplier questions.
+
+**Practice.** Compare three fictional audience sources for an Indonesian personal-care category: a syndicated panel, a client CRM extract and a qualitative study. Identify what each can and cannot support.
+
+**Required artifact and acceptance.** Audience intelligence report with audience definition, need-state/context, geography, source metadata, methodology, sample limitations, media behaviours, contradictions and planning implications.
+
+**Knowledge check.**
+1. Why is a large sample not automatically representative? **Answer guidance:** sampling frame, recruitment, non-response, weighting and coverage may still bias the result.
+2. Can a CRM database estimate the total addressable market? **Answer guidance:** not by itself; CRM describes captured customers under its own coverage and acquisition biases.
+
+**Glossary.** Universe: population a measurement or study is intended to represent. Panel: sample of people or households measured repeatedly. Weighting: adjustment intended to align sample estimates to known population characteristics.
+
+**Sources and limitations.** Local audience research provider methodology, client research and official population statistics. Indonesia market definitions, coverage and licensing must be checked before using a currency or benchmark.
+
+---
+
+## 18.03 — Audience Measurement & Media Data
+
+**Learning outcomes:** interpret reach, frequency, ratings, GRP/TRP and media-specific metrics; inspect measurement methodology; avoid invalid aggregation across currencies.
+
+**Core lesson.** Rating points, reach and frequency are related but not interchangeable. For a defined target and measurement period, GRP is commonly expressed as reach percentage multiplied by average frequency; a rating is an audience percentage under a specified universe and unit. Reach is the share or count exposed at least once; frequency describes repeated exposure among reached units. Print circulation is copies distributed under a defined audit, while readership estimates people reading or accessing a publication. OOH methodologies estimate opportunity or likelihood of exposure using location, visibility and movement assumptions. The unit, universe, period and method are essential to interpretation.
+
+**Workflow.** (1) Read the measurement definition and target universe. (2) Verify period, geography, unit, sample and collection method. (3) Calculate or interpret rating, reach, frequency, GRP/TRP, CPM and CPP only with consistent bases. (4) Inspect duplication, co-viewing, panel error, modeled values and audit status. (5) State what comparisons are valid and what cannot be added or converted.
+
+**Practice.** Use a synthetic TV schedule and two competing audience reports. Calculate GRP and CPP; identify a reach-duplication problem and explain why adding station reach percentages overstates total campaign reach.
+
+**Required artifact and acceptance.** Measurement evaluation with formula sheet, universe, source/method metadata, calculation checks, duplication caveat, confidence limitation and a written recommendation about whether the sources are comparable.
+
+**Knowledge check.**
+1. Does 100 GRP mean 100% unique reach? **Answer guidance:** no; it is a gross exposure measure and may include repeated exposures to the same audience.
+2. Can OOH opportunity-to-see be treated as a verified individual impression? **Answer guidance:** no; methodology and exposure model determine what the metric represents.
+
+**Glossary.** GRP: gross rating points, commonly reach percentage multiplied by average frequency. CPP: cost per rating point under a specified rating currency. Circulation: copies distributed under a stated definition and audit.
+
+**Sources and limitations.** Local measurement-provider methods, current MRC and relevant media-owner documentation. OAAA DOOH methodology and US/UK audience currencies are references only; they are not Indonesian standards unless locally adopted and independently validated.
+
+---
+
+## 18.04 — Television & Broadcast Planning
+
+**Learning outcomes:** construct a TV/broadcast schedule; evaluate audience composition, reach, frequency and cost; account for inventory and delivery constraints.
+
+**Core lesson.** TV planning balances target audience, programme context, daypart, spot length, schedule weight, reach, frequency, cost and creative suitability. A low-cost spot may deliver little target audience or cluster exposure inefficiently. A schedule must specify station, programme/daypart, date, position, duration, spot count, rating assumption, gross and net cost, audience target and cancellation conditions. Ratings are estimates under a defined measurement system; campaign reach and duplication require a valid cross-programme or cross-channel method. Do not convert a platform forecast into a guarantee.
+
+**Workflow.** (1) Confirm brief, target, geography, dates, objective and budget. (2) Compare station/programme inventory, audience profile and quality. (3) Build alternative schedules and calculate rating points, reach/frequency where supported, CPM/CPP and cost. (4) Apply placement, separation, adjacency and brand-safety rules. (5) Record assumptions, booking deadlines, material specs and reconciliation method.
+
+**Practice.** Prepare two schedules for a fictional consumer launch: one reach-led and one frequency-led. Use simulated ratings and net rates; label all assumptions and test a 10% inventory shortfall.
+
+**Required artifact and acceptance.** TV plan and schedule rationale with target definition, inventory, placement, ratings, GRP, reach/frequency method, cost, schedule weight, creative requirements, exclusions and sensitivity scenario.
+
+**Knowledge check.**
+1. Why can two schedules with the same GRP produce different outcomes? **Answer guidance:** audience composition, programme context, reach distribution, frequency, placement and creative fit can differ.
+2. What should be checked before combining ratings from separate sources? **Answer guidance:** target universe, measurement period, unit, method, overlap and comparability.
+
+**Glossary.** Daypart: scheduled time band for a broadcast audience. Spot: a paid advertising placement of specified duration. Adjacency: the programme or content surrounding an advertising break.
+
+**Sources and limitations.** Broadcaster inventory and local TV audience measurement methodology. Any vendor academy or international rating currency is supplementary, not a substitute for Indonesian measurement evidence.
+
+---
+
+## 18.05 — Radio & Audio Investment
+
+**Learning outcomes:** compare broadcast, streaming and other audio environments; build a spot or audio schedule; evaluate cost and audience fit.
+
+**Core lesson.** Audio includes terrestrial radio, digital radio, streaming, podcasts and other sound-led environments. These channels differ in audience measurement, buying unit, ad insertion, targeting, reporting and creative context. Radio planning may use station audience, daypart, programme, spot length and frequency; digital audio may use impressions, completed listens or platform-defined actions. Do not equate a broadcast audience estimate with a digital ad-server impression. Creative quality, repetition, language, local relevance and sound environment influence delivery and response.
+
+**Workflow.** (1) Define audience, geography, occasion and role of audio. (2) Compare station, programme, podcast or streaming inventory and measurement currency. (3) Build spot/ad schedule with daypart, length, frequency and budget. (4) Confirm creative production, copy approval, trafficking and proof. (5) Reconcile planned versus delivered spots/listens and evaluate outcomes.
+
+**Practice.** Build a four-week audio plan for a local retail launch with radio and podcast options. Use simulated audience/cost data and separate broadcast reach from digital impression estimates.
+
+**Required artifact and acceptance.** Radio/audio plan with audience rationale, inventory, schedule, spot length, reach/frequency basis, cost, creative spec, measurement definition, delivery proof and evaluation plan.
+
+**Knowledge check.**
+1. Why should podcast downloads not automatically be treated as listened-to ads? **Answer guidance:** download, stream, ad delivery and completed listen are different measurement events.
+2. Why is frequency important in audio? **Answer guidance:** repetition may aid recall but excessive frequency can waste investment or cause wear-out; assess alongside reach and creative quality.
+
+**Glossary.** Daypart: broadcast time band. Ad insertion: process of placing an ad into audio content. Completion rate: proportion of defined starts that meet a platform's completion rule.
+
+**Sources and limitations.** Radio/audio owner documentation and the Radio Advertising Bureau's Audio Marketing Professional programme as an external learning reference. The AMP credential launched in the United States in 2026; eligibility, cost and relevance to Indonesian buying practice must be checked and must not be represented as an Indonesian professional standard.
+
+---
+
+## 18.06 — Print Media Planning & Buying
+
+**Learning outcomes:** evaluate publication audience and circulation evidence; select format and placement; compare print proposals and delivery terms.
+
+**Core lesson.** Print investment depends on publication audience, editorial context, issue frequency, format, position, geography, circulation and readership methodology. Circulation is not identical to unique readers. A copy may be shared, remain unread or reach a different audience than the campaign's intended target. Compare audited circulation, readership research and publisher claims on their own definitions. Placement premiums, insertions, advertorials, supplements and production costs must be separated from media cost. Editorial association and disclosure rules require review.
+
+**Workflow.** (1) Define target, geography, issue date and communication role. (2) Evaluate publications, editorial context and audience evidence. (3) Compare circulation/readership definition, audit, period and duplication. (4) Select size, position, format, insertion and creative production. (5) Specify material deadline, proof of publication, cancellation and billing terms.
+
+**Practice.** Compare three fictional publication proposals for a financial-services campaign. Detect an apples-to-oranges comparison where one supplier presents circulation, another readership and another claimed monthly visitors.
+
+**Required artifact and acceptance.** Print recommendation and placement plan with source definitions, audience fit, issue schedule, circulation/readership limitations, format, net rates, production fees, disclosure requirements and proof-of-publication.
+
+**Knowledge check.**
+1. Are circulation and readership interchangeable? **Answer guidance:** no; circulation counts copies under a defined method, while readership estimates people who read or access the publication.
+2. Why separate production fees from media cost? **Answer guidance:** to compare proposals accurately and understand the full cost of the creative/placement package.
+
+**Glossary.** Circulation: number of copies distributed under a stated method. Readership: estimated people reading or accessing a publication. Insertion: a scheduled advertisement placement in a publication or issue.
+
+**Sources and limitations.** Publisher media kits and independent circulation/readership audits. If no independent audit exists, label publisher-provided figures and lower confidence.
+
+---
+
+## 18.07 — OOH & DOOH Investment
+
+**Learning outcomes:** evaluate OOH/DOOH sites and formats; distinguish traffic, opportunity-to-see and modeled exposure; plan coverage and delivery verification.
+
+**Core lesson.** Out-of-home investment is location- and context-dependent. A site evaluation considers audience flow, direction, dwell time, line of sight, obstruction, illumination, operating hours, environment, creative legibility and proximity to a relevant occasion. DOOH adds screen loops, share of voice, proof-of-play and dynamic scheduling. Traffic counts are not automatically people exposed; opportunity-to-see is not equivalent to a verified individual impression. Exposure methodology must state data source, mobility assumptions, visibility, duplication and limitations. Location-level reach should not be summed without a defensible deduplication method.
+
+**Workflow.** (1) Define target geography, audience movement and campaign occasion. (2) Map sites, formats, visibility, dwell and inventory availability. (3) Review audience/exposure methodology, source period and model. (4) Build location/format mix, schedule, share of voice and budget. (5) Specify proof-of-play, photographs, uptime, maintenance, makegoods and post-campaign validation.
+
+**Practice.** Evaluate ten fictional Jakarta OOH/DOOH sites for a retail opening. Use synthetic traffic and visibility data; identify sites with high traffic but poor target or viewing conditions.
+
+**Required artifact and acceptance.** OOH/DOOH plan with location map, format, audience rationale, exposure method, time/loop assumptions, cost, creative spec, proof requirements and limitations.
+
+**Knowledge check.**
+1. Does a vehicle passing a billboard prove a person saw the ad? **Answer guidance:** no; traffic is a potential audience input, while visibility and exposure methodology determine the estimated opportunity.
+2. Why can site-level reach not simply be added? **Answer guidance:** people may encounter multiple sites; duplication requires an appropriate measurement or model.
+
+**Glossary.** DOOH: digital out-of-home media. Proof-of-play: record that a digital creative played according to schedule. Opportunity-to-see: modeled or estimated chance to see a placement under a stated method.
+
+**Sources and limitations.** OAAA DOOH exposure methodology is a useful technical reference but is US-oriented and dates from 2022. Indonesia site measurement, traffic data, mobility privacy and exposure currency require local validation.
+
+---
+
+## 18.08 — Cinema, Sponsorship & Special Partnerships
+
+**Learning outcomes:** evaluate cinema and partnership inventory; value rights and deliverables; establish measurement and contract controls.
+
+**Core lesson.** Cinema and sponsorship combine audience access with context, association and experience. They may include screen ads, foyer placements, product sampling, event integration, naming rights, category exclusivity, content rights, hospitality and data capture. The proposal should distinguish guaranteed deliverables from estimated exposure, editorial association and optional value-add. A sponsorship valuation is not a simple media-equivalent multiplier; it must explain audience relevance, rights, activation cost, exclusivity, duration, usage rights and evidence of delivery.
+
+**Workflow.** (1) Define objective and desired audience experience. (2) Inventory rights, placements, access, exclusivity and activation options. (3) Value each deliverable using cost, audience, quality and strategic fit. (4) Review production, approvals, safety, data collection, talent and usage rights. (5) Set proof, reporting, cancellation, replacement and makegood terms.
+
+**Practice.** Evaluate a fictional cinema-and-festival package. Separate guaranteed screen spots, estimated attendance, sampling rights, data capture, category exclusivity and optional social posts.
+
+**Required artifact and acceptance.** Partnership proposal and valuation framework with rights matrix, deliverables, value assumptions, activation cost, audience evidence, usage/term limits, measurement, risks and negotiation conditions.
+
+**Knowledge check.**
+1. Why is sponsorship value not equal to a media-equivalent figure alone? **Answer guidance:** the package includes rights, activation, exclusivity, experience and strategic value that need separate evidence and valuation.
+2. What must be agreed before collecting event attendee data? **Answer guidance:** purpose, notice/consent or other lawful basis, data owner, access, retention, security and permitted follow-up.
+
+**Glossary.** Rights inventory: list of benefits and permissions included in a partnership. Category exclusivity: contractual restriction on competing brands. Makegood: agreed replacement or remedy for an unfulfilled deliverable.
+
+**Sources and limitations.** Actual media-owner, cinema and event partnership proposals; legal review of rights, privacy, sponsorship disclosure and category restrictions is mandatory.
+
+---
+
+## 18.09 — Media Mix & Investment Optimization
+
+**Learning outcomes:** allocate offline budget across channels; compare scenarios and marginal returns; handle audience duplication and measurement limits.
+
+**Core lesson.** Media mix connects target, communication role, schedule, budget and measurement. Reach, frequency, context and cost are not directly comparable across channels without a defined framework. A plan should show why each channel is included, which audience or occasion it contributes, and what trade-off it creates. Use scenarios rather than a single unexplained allocation. Optimize toward the business objective while respecting minimum commitments, inventory, creative supply, geographic coverage and measurement uncertainty. Do not sum cross-media reach without a compatible deduplication method.
+
+**Workflow.** (1) Set objective, target, geography, timing and constraints. (2) Assign roles to TV, audio, print, OOH, cinema and partnerships. (3) Build low/base/high investment scenarios with explicit assumptions. (4) Examine reach, frequency, duplication, marginal cost and channel complementarity. (5) Define reallocation triggers and guardrails.
+
+**Practice.** Allocate a fixed synthetic budget across TV, audio, OOH and print for a regional product launch. Create two alternatives and show how the plan changes if TV inventory becomes unavailable.
+
+**Required artifact and acceptance.** Integrated media flowchart and allocation rationale with budget reconciliation, audience role, reach/frequency basis, assumptions, duplication caveat, marginal trade-offs, inventory dependency and scenario triggers.
+
+**Knowledge check.**
+1. Why is the lowest CPM not automatically the best investment? **Answer guidance:** target quality, context, attention, reach, frequency, duplication and business role matter.
+2. Can cross-media reach be calculated by adding each channel's reach? **Answer guidance:** not without deduplication and compatible audience definitions.
+
+**Glossary.** Media mix: allocation across media channels. Marginal return: expected additional outcome from the next unit of investment. Duplication: overlap of audience across placements or channels.
+
+**Sources and limitations.** Local audience measurement providers and channel-level post-buy data. International planning tools must be labeled by coverage and cannot create an Indonesia-wide currency by themselves.
+
+---
+
+## 18.10 — Commercial Negotiation & Trading
+
+**Learning outcomes:** evaluate rate cards and proposals; prepare negotiation objectives and BATNA; document commercial terms and risk.
+
+**Core lesson.** A rate card is an asking price, not proof of value or a complete offer. Compare net rates, audience, inventory, position, timing, production, fees, data, exclusivity, value-add, cancellation, payment, proof and makegood terms. Negotiation begins with the advertiser's objective, target, walk-away point, alternatives and approval authority. Concessions should be exchanged deliberately and valued at expected use, not nominal list price. Legal terms, tax, currency, liability, brand safety and cancellation must be escalated to authorized reviewers.
+
+**Workflow.** (1) Build comparable proposals with normalized units and costs. (2) Define target outcome, BATNA, reservation point and tradeable concessions. (3) Prioritize price, quality, added value, inventory, data and flexibility. (4) Record every concession, approval and contractual condition. (5) Reconcile signed terms against booking and invoice.
+
+**Practice.** Run a negotiation simulation between agency and publisher for a campaign with fixed dates and budget. Evaluate an offer containing a discount, bonus spots, a premium placement and a makegood clause.
+
+**Required artifact and acceptance.** Negotiation plan and commercial evaluation with apples-to-apples comparison, BATNA, target/limit, concession strategy, fee/tax treatment, risk, approval, agreed terms and post-negotiation summary.
+
+**Knowledge check.**
+1. Why can a 30% discount still be a poor deal? **Answer guidance:** the base rate may be inflated, inventory low-quality, audience irrelevant or added value unusable.
+2. What is a BATNA? **Answer guidance:** the best available alternative if the current negotiation does not produce an acceptable agreement.
+
+**Glossary.** Rate card: published or quoted list price. BATNA: best alternative to a negotiated agreement. Reservation point: least favourable deal a party is willing to accept.
+
+**Sources and limitations.** Current publisher proposals, agency procurement rules and legal templates. Public internet-advertising standard terms are reference material only; they are not a substitute for Indonesian contract review or offline-media terms.
+
+---
+
+## 18.11 — Buying Operations & Campaign Execution
+
+**Learning outcomes:** translate an approved plan into accurate bookings; manage material and approval dependencies; maintain a complete audit trail.
+
+**Core lesson.** Buying operations turns strategy into enforceable instructions. The booking must match the approved budget, media plan, owner, inventory, dates, format, audience, pricing and terms. Creative delivery has technical and legal dependencies: duration, aspect, file format, audio level, copy approval, sponsorship integration, proof and deadline. Changes must be versioned and approved; informal email changes can create a dispute between booked and delivered activity. A buying pack should let another operator execute the campaign without verbal context.
+
+**Workflow.** (1) Reconcile approved plan and budget authority. (2) Issue or verify insertion order/booking confirmation and all terms. (3) Collect creative specification, asset, clearance and approval. (4) Confirm schedule, material receipt, trafficking and escalation contacts. (5) Maintain change log and daily/weekly delivery checks.
+
+**Practice.** Prepare a buying documentation pack for a mixed TV, radio and OOH campaign. Inject a late creative replacement and a site outage; show change control.
+
+**Required artifact and acceptance.** Booking pack and execution checklist with approved plan, PO/IO, dates, cost, spec, materials, clearance, contacts, RACI, changes, delivery evidence and escalation path.
+
+**Knowledge check.**
+1. Why reconcile the booking against the approved plan before sending it? **Answer guidance:** prevent unauthorized spend, wrong dates, inventory, format or deliverables.
+2. What is the minimum evidence for a material change? **Answer guidance:** changed specification, reason, impact, approver, owner, effective date and updated confirmation.
+
+**Glossary.** Insertion order: commercial instruction/contract document specifying placement and terms. Material deadline: final date for accepted creative assets. Change control: documented approval process for modifications.
+
+**Sources and limitations.** Agency procurement and publisher booking templates. Legal interpretation of IOs and PO terms must be handled by authorized counsel.
+
+---
+
+## 18.12 — Delivery Assurance & Post-Buy
+
+**Learning outcomes:** reconcile planned, contracted, delivered and billed activity; assess proof; resolve shortfalls and makegoods.
+
+**Core lesson.** Post-buy compares plan, booking, actual delivery, measurement and invoice. Each number must retain its source and definition. A missing spot, incorrect date, poor placement, screen downtime or audience underdelivery is not the same issue and needs different evidence. Makegood, credit or refund depends on contract terms, tolerance, deadlines and proof. A good post-buy does not hide shortfall inside a blended average; it identifies root cause, financial exposure and the remedy agreed with the owner.
+
+**Workflow.** (1) Collect approved plan, signed booking and delivery logs. (2) Obtain proof-of-airing, proof-of-publication, proof-of-play, photos or relevant third-party measurement. (3) Reconcile booked versus delivered by line item. (4) Calculate under/over delivery and invoice variance using contractual rules. (5) Agree remedy, owner, deadline and closure evidence; capture next-cycle learning.
+
+**Practice.** A synthetic DOOH buy has 12% underdelivery across three locations and a TV spot aired in the wrong daypart. Calculate the disputed delivery and propose remedies under a stated mock contract.
+
+**Required artifact and acceptance.** Post-buy report and reconciliation log with line-level planned/booked/delivered/billed values, evidence links, variance, root cause, contract clause, remedy, approval and closure.
+
+**Knowledge check.**
+1. Why is a blended campaign total insufficient to settle a placement dispute? **Answer guidance:** line-level detail is needed to identify which contracted deliverable failed and which remedy applies.
+2. Is a makegood always preferable to a credit? **Answer guidance:** no; value, timing, audience, campaign purpose and contractual remedy determine suitability.
+
+**Glossary.** Proof-of-airing: evidence that a broadcast spot ran. Proof-of-play: system evidence of a digital screen playing an asset. Makegood: replacement delivery or other agreed remedy.
+
+**Sources and limitations.** Signed insertion orders, delivery evidence, publisher logs and finance reconciliation. Avoid claiming independent verification where only supplier self-report is available.
+
+---
+
+## 18.13 — Cross-Media Measurement & Investment Governance
+
+**Learning outcomes:** establish comparable measurement principles; create auditability and controls; govern conflicts, data and investment risk.
+
+**Core lesson.** Governance protects the integrity of investment decisions. A measurement scorecard should distinguish delivery, audience, quality, brand outcome and business outcome. Cross-media reach requires compatible universes, time periods and deduplication; otherwise present separate channel measures and explain the gap. Procurement controls cover authorization, conflicts, rebates or value-add disclosure, supplier selection, contract storage, invoice verification and records retention. Third-party measurement can improve assurance but is not automatically error-free or available for every market and format.
+
+**Workflow.** (1) Define governance objectives, decision rights and measurement scope. (2) Create metric dictionary and source hierarchy. (3) Design procurement, conflict disclosure, approval and invoice controls. (4) Require evidence and exception handling for each major investment. (5) Review supplier performance, data access, audit findings and corrective action.
+
+**Practice.** Design a governance framework for a fictional annual media investment with multiple agencies and suppliers. Include a conflict declaration, approval matrix, evidence hierarchy and exception log.
+
+**Required artifact and acceptance.** Governance framework and measurement scorecard with metric definitions, source hierarchy, audit trail, approval limits, conflicts, supplier scorecard, invoice checks, privacy, retention and escalation.
+
+**Knowledge check.**
+1. Why can a third-party report still require QA? **Answer guidance:** methodology, sample, coverage, data processing and applicability may still be limited or misunderstood.
+2. What should happen when two sources report conflicting audience values? **Answer guidance:** preserve both definitions, examine methods and time periods, identify a governing source for the decision and document unresolved uncertainty.
+
+**Glossary.** Source hierarchy: agreed order for authoritative evidence. Exception log: register of deviations and resolutions. Investment governance: controls over planning, authorization, delivery, measurement and reconciliation.
+
+**Sources and limitations.** Current MRC/IAB or applicable measurement standards, local measurement-provider documentation, procurement policy and Indonesian legal/privacy requirements. Do not import US/UK currencies or regulatory rules without local adoption evidence.
+
+---
+
+## 18.14 — Senior Investment Leadership Capstone
+
+**Learning outcomes:** lead an integrated offline investment recommendation; defend commercial and measurement assumptions; present delivery and governance accountability.
+
+**Core lesson.** The senior capstone tests the entire investment chain from client brief to post-buy. It must show why each channel is selected, what role it plays, how audience evidence supports the decision, how the plan is bought and delivered, and how the investment will be reconciled. Leadership requires more than a schedule: it requires commercial judgment, supplier management, team design, scenario planning, escalation, transparency and client communication. All simulated data must be labelled; local audience and trading claims require current source evidence.
+
+**Workflow.** (1) Frame business objective, target, geography, budget and risk. (2) Build audience evidence and channel strategy. (3) Produce TV/audio/print/OOH/cinema scenarios and a commercial comparison. (4) Create booking, delivery, governance and post-buy controls. (5) Present the investment decision, uncertainty, trade-offs and 90-day operating plan.
+
+**Practice.** Build a senior integrated offline plan for a fictional consumer brand launching in five Indonesian cities. Include a national and local mix, a fixed budget, a supplier conflict scenario and a 10% delivery shortfall scenario.
+
+**Required artifact and acceptance.** Senior investment plan and client presentation plus workbook. Include brief, target, source methodology, channel roles, schedules, budget, negotiated terms, buying pack, delivery evidence model, measurement scorecard, risk/governance, post-buy and executive recommendation.
+
+**Knowledge check.**
+1. What invalidates a senior capstone despite a persuasive media plan? **Answer guidance:** unsupported audience claims, non-comparable metrics, unapproved terms, missing delivery controls or invented market evidence.
+2. How should local-market uncertainty be presented? **Answer guidance:** identify what is known, source and date, what is assumed, what cannot be compared, and what supplier or independent validation is still required.
+
+**Glossary.** Investment stewardship: accountable management of spend, terms, delivery and evidence. Scenario planning: comparison of plausible operating conditions and decisions. Post-buy: formal reconciliation and evaluation after media delivery.
+
+**Sources and limitations.** All chapter sources, current Indonesian supplier proposals, verified local audience methodologies, contracts and legal/finance review. The capstone must not use US/UK benchmarks as Indonesia facts without local validation.
+
+---
+
+## Programme-level QA and validation status
+
+| Requirement | Draft coverage | Validation status |
+|---|---|---|
+| 28 chapter purposes and learning outcomes | 28 / 28 | Authored; role-level validation pending |
+| Teaching narrative and chapter workflow | 28 / 28 | Authored; SME review pending |
+| Practical exercise and required artifact | 28 / 28 | Authored; learner pilot pending |
+| Observable acceptance criteria | 28 / 28 | Drafted; calibration pending |
+| Knowledge checks with answer guidance | 56 / 56 | Drafted; SME answer-key approval pending |
+| Glossary entries | 84 / 84 | Drafted; terminology review pending |
+| Source routes and explicit caveats | 28 / 28 | Candidate references; current price/access/region and chapter-level fit validation pending |
+| Common five-dimension learner rubric | 1 shared standard | Inherited from existing rubric draft; assessor calibration pending |
+| Indonesian market and legal review | CRO and Traditional Media | OPEN — local practitioner/legal review required |
+| Job-description and employer competency validation | 28 chapter mappings | OPEN — direct/adjacent role evidence must be rechecked |
+| Learner pilot and workload calibration | 0 completed | NOT RUN |
+| Formal SME sign-off | 0 completed | NOT SIGNED OFF |
+
+**Release rule:** this file completes the first full written draft of all 28 elective chapters. It does not make the electives final or validated. Before learner release, each chapter needs an evidence register, verified learning sources, calibrated assessment, role/JD mapping, Indonesia-market review, workload pilot, and named SME approval.
