@@ -143,7 +143,10 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     const paidSocialBox = page.locator('[data-track-box="paidsocial"].on');
     await paidSocialBox.waitFor({ state: "visible" });
     const paidSocialFirstChapter = paidSocialBox.locator("details.week").first();
-    await paidSocialFirstChapter.locator(":scope > summary").click();
+    const paidSocialIsOpen = await paidSocialFirstChapter.evaluate((element) => element.open);
+    if (!paidSocialIsOpen) {
+      await paidSocialFirstChapter.locator(":scope > summary").click();
+    }
     const paidSocialPanel = paidSocialFirstChapter.locator(".chapter-study");
     await paidSocialPanel.waitFor({ state: "visible" });
     const mobilePanelBounds = await paidSocialPanel.evaluate((element) => {
