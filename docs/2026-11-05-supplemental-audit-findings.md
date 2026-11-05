@@ -45,3 +45,17 @@ Counts apply only to this newly authored supplemental register. They are not the
 - Do not close SME, source/JD, market/legal, browser or CI findings without the specified independent evidence.
 - Keep the 169 core chapters separate from the two 14-chapter electives.
 - The release decision remains **NOT READY — REMEDIATION INCOMPLETE** until all required release gates are evidenced.
+
+
+## 5 November second-pass resource enrichment addendum
+
+The resource mapping was enriched after the original 17-finding register was authored. These source additions are evidence improvements only; **the original dispositions and 5 FIXED / 5 PARTIAL / 5 OPEN / 2 BLOCKED counts are unchanged** because no independent SME, legal, current-JD, or objective-level sign-off was obtained.
+
+- **T03 / SRC-005:** added Nielsen Indonesia's TV-panel measurement page and its Indonesia Streaming Content Ratings page to relevant media-audience chapters. This strengthens linear-TV and linear-TV/mobile-streaming video measurement context. It does not establish radio/OOH currencies, general cross-media comparability, or a current independently validated measurement contract.
+- **T07 / SRC-006:** added Shopee's Indonesian advertising policy as a primary source for advertiser/platform definitions, agreements, creative permissions/submission, ad fees, invoicing/payment, cancellation, prohibited content and eligibility terms. It is a contractual policy source, not a neutral multi-marketplace RMN feature comparison.
+- **T08 / SRC-004:** added The Jakarta Post's publisher-side advertising terms / content funding page as a source pointer for booking orders, rate-card/media-kit references and advertising terms. Automated retrieval returned HTTP 403 in this pass. It is one publisher's source, not a current agency buying SOP, complete IO template, makegood process, or legal/procurement approval. SRC-004 remains OPEN.
+- **T10 / SRC-007:** added OpenIntro *Introduction to Modern Statistics* (2e), with a page version date of 31 March 2026, for sampling, exploratory analysis, statistical inference, randomization/bootstrap, regression and sample-size/power foundations. It does not close the separate SQL practice, causal-inference/econometrics or marketing-experiment application gap.
+- **T13 / SRC-008 and T16 / SRC-009:** added Kumparan's Indonesian Cyber Media Guidelines for UGC rules, complaints/corrections, editorial-vs-paid-content labelling and copyright. Added YouTube's channel moderation-control documentation for its platform-specific comment/live-chat/community-post controls; the Help page was search-indexed but direct retrieval returned HTTP 429 in this pass. These do not establish cross-platform governance, crisis escalation, social listening or customer-care operating standards.
+- The resource map now has 169 chapter rows, 169 unique chapter IDs and 46 unique URLs (39 previously recorded plus seven distinct URLs added in this pass). Five of the seven new destinations were directly readable in this check; two remain access-check items (The Jakarta Post 403; YouTube Help 429). No 169-chapter objective-fit decision was changed to PASS solely because a link was added.
+
+The detailed chapter mapping, source scope, retrieval outcomes and per-finding boundaries are recorded in `docs/169-chapter-resource-fit-review.md`.
