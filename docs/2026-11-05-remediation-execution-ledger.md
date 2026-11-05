@@ -491,3 +491,40 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Current resource map: 169 rows / 98 unique URLs; validator checks all eight new URLs and exactly 12 T16 review rows.
 
 **Register effect:** RES-001 remains PASS for structural mapping only. RES-002 is PARTIAL at desk-review level across T02, T03, T07, T10, T13 and T16 (63 chapters in total); all 169 formal objective-level fit decisions remain OPEN.
+
+
+## 29. Consolidated exact-head status and final evidence reconciliation
+
+**Date:** 5 November 2026  
+**Verified remediation head:** `9ba12b6f6f9e3b1cbf05d4f21c31c8263864924a`  
+**Disposition:** REPOSITORY/CI AND PREVIEW BASELINE HEALTHY; RELEASE STILL NOT READY.
+
+### Repository and audit controls
+- 169 canonical core chapter IDs reconcile; the structure-depth screen reports no structural flags and no exact duplicate core Q&A question text.
+- The evidence register contains 507 Q&A pairs. The review register is synchronized exactly to question text/current guide answers; all 507 editorial, answer-review and SME statuses remain OPEN.
+- The objective resource register has 169 rows; 63/169 priority chapters now have first-pass desk-review evidence covering T02 (10), T03 (10), T07 (10), T10 (10), T13 (11) and T16 (12). All 169 formal fit, Indonesia access, language/cost/account eligibility remain OPEN. The 106 non-priority chapters still need their first desk review.
+- Resource map: 169 chapter rows, 98 unique URLs and minimum two unique URLs per chapter. Six priority-track reviews are separate files and all 63 desk classifications are PARTIAL or PARTIAL_STRONG; none is formal acceptance.
+- Agency validation: 80/80 cells have source references (101 URLs total in the register), with source type/caveat captured. Source mix includes employer-hosted JDs, historical/adjacent JDs, employer career portals and indexes, and employer-attributed postings. All employer/JD currentness, role specificity, geography/seniority and competency checks remain OPEN.
+- Rubric calibration: 169 rows; all SME and calibration decisions OPEN. The proposed 80/100 threshold remains uncalibrated.
+- Electives remain separate: 28 chapter validation rows and 56 knowledge-check rows; all technical, source, answer-key, rubric, legal/market and pilot statuses OPEN.
+
+### Engineering and deployment
+- The formative quiz engine remains synthetic-only, standalone and non-credential-bearing. It is not integrated into the main chapter renderer and rejects summative mode.
+- Exact-head [DPA Remediation Static QA run 41992938737](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41992938737) passed static structure, register parity, chapter depth, score-script compile and synthetic vector self-test.
+- Exact-head [DPA Quiz Engine QA run 41992938771](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41992938771) passed deterministic tests, Playwright browser interaction, axe checks, keyboard navigation, mobile overflow and trust-boundary assertions.
+- Vercel preview deployment `dpl_2eNK7nQvuBkBjKK8ep5mV1NE3rFU` is READY for exact head `9ba12b6...`; preview URL is `https://putratryarga-r7qhfsnp1-elric3.vercel.app`. This is not production.
+- Main application browser QA was not completed: the connected TinyFish wallet reported USD -1.14 before the browser run started. No main-app browser result is claimed. The isolated quiz browser test is not a substitute.
+- Current comparison against main reports 395 commits ahead and 2 behind; PR #5 and #6 remain open, draft and unmergeable. Do not merge by bypassing these conditions or treat branch preview as production.
+
+### P0 historical recovery attempt
+A fresh Library search plus exact phrase/term searches against the recovered `16 track.txt` archive found no standalone verbatim AutoClaw Master Prompt, no authoritative 169×7 raw score vectors/seven-dimension definition package, and no original 23-finding / D-1…D-12 discrepancy log. The archive remains a useful historical context source, not a substitute for the missing originals. Keep SCP-001, HIST-001 and HIST-002 BLOCKED; keep the score-input template blank. A newly approved baseline would need a separately named instrument and qualified reviewers.
+
+### Remaining non-repository dependencies
+- Qualified independent SME/editorial review for 169 core chapters, 507 Q&A answers and 169 rubrics.
+- Indonesia learner-side access/cost/language/eligibility checks for all 169 chapter resources.
+- 80 agency-cell currentness, employer/entity, title, JD, geography/seniority and competency validation.
+- Separate technical/legal/source/pilot review for all 28 electives and 56 knowledge checks.
+- Issuer identity/policy/privacy/security, server-side credential registry, and approved assessment rules before certificate issuance.
+- Main application authenticated browser/accessibility QA and exact preview inspection.
+
+**Release gate:** NOT READY. No main/production changes have been made by this remediation work. No score, question approval, SME sign-off, credential issuance or production deployment is inferred from structural/CI/preview success.
