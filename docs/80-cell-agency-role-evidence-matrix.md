@@ -37,23 +37,22 @@ Evidence classes: **A** direct employer-hosted job description; **B** adjacent r
 
 | Class | Count of class labels | Interpretation |
 |---|---:|---|
-| A | 36 | Direct JD label appears in cell statement. |
-| B | 19 | Adjacent-role evidence only. |
+| A | 37 | Direct JD label appears in cell statement. |
+| B | 20 | Adjacent-role evidence only. |
 | C | 0 | Capability/service evidence only. |
 | D | 37 | Index/title/syndicated/historical evidence only. |
-| G | 6 | Explicit evidence gap in the captured batch. |
-| Compound labels | 18 | Cell contains more than one evidence class. |
+| G | 5 | A G gap marker remains in the cell statement; one is paired with B sister-practice evidence. |
+| Compound labels | 19 | Cell contains more than one evidence class. |
 
 Counts are class labels, not mutually exclusive cells. Compound evidence labels contribute to more than one class. They are not counts of independently verified current JDs.
 
 ## 3. Current explicit evidence gaps
 
-- **T09 / Dentsu:** G: direct JD not located in this batch
-- **T11 / Havas Media Network:** G: direct agency SEO JD not located in this batch
-- **T14 / Havas Media Network:** G: direct role JD not located in this batch
-- **T15 / Omnicom Media:** G: dedicated affiliate role evidence not located in this batch
-- **T15 / Havas Media Network:** G: direct affiliate JD not located in this batch
-- **T16 / Havas Media Network:** G: direct community role not located in current Havas Media index
+- **T09 / Dentsu:** G: direct Ad Operations JD not located in the reviewed source batch.
+- **T14 / Havas Media Network:** B/G: Havas Paris Social JR0093003 provides sister-practice influence-management evidence, but no direct Havas Media Network creator/influencer role was verified. The B evidence does not close the HMN-specific gap.
+- **T15 / Omnicom Media:** G: dedicated affiliate role evidence not located in the reviewed source batch.
+- **T15 / Havas Media Network:** G: direct affiliate JD not located in the reviewed source batch.
+- **T16 / Havas Media Network:** G: direct community role not located in the current Havas Media index.
 
 ## 4. Employer-hosted source register
 
@@ -106,7 +105,7 @@ These sources upgrade five additional cells: T04/Dentsu and T05/Dentsu from G to
 - **T16 Dentsu:** direct community manager evidence is evidenced in Colombia; do not generalize its seniority or market to Indonesia.
 - **T06 Dentsu:** Programmatic Specialist direct JD is Lisbon and execution/support level.
 - **T09 Publicis:** Ad Operations Specialist direct JD is Johannesburg.
-- **T11 Dentsu/WPP:** direct SEO evidence exists in several markets; Havas direct SEO evidence remains open.
+- **T11 Havas:** JR0099039 is direct Havas Media evidence for an Organic & AI Manager in Sydney, but it is a 4+ year manager-level role in Australia. It does not establish an entry-level SEO/GEO vacancy or Indonesia-market requirements.
 - **T15 WPP:** direct affiliate evidence includes Jakarta leadership listing and detailed Beirut technical JD. Affiliate is not interchangeable with retail media or all forms of social commerce.
 
 ## 7. Remaining validation work
@@ -118,7 +117,7 @@ These sources upgrade five additional cells: T04/Dentsu and T05/Dentsu from G to
 5. Add chapter-to-JD traceability only where the specific JD supports the chapter competency.
 6. Recheck taxonomy boundaries after evidence extraction; do not add tracks merely to improve symmetry.
 
-**Status:** 80/80 cells are explicitly represented; 6 cells remain G, with additional B/D or compound evidence. Substantive source/JD validation remains **PARTIAL**. This is an auditable coverage ledger, not a claim that all 80 cells have passed.
+**Status:** 80/80 cells are explicitly represented. Five cells retain a G marker: four pure G gaps and one B/G cell where a sister-practice role exists but Havas Media Network direct evidence is still missing. Evidence-class label totals are A 37, B 20, D 37 and G 5, with 19 compound labels (99 label instances across 80 cells). Substantive source/JD validation remains **PARTIAL**. This is an auditable coverage ledger, not a claim that all 80 cells have passed.
 
 
 ## 8. 5 November 2026 — Havas role evidence refresh
@@ -137,3 +136,16 @@ Source URLs:
 - JR0093690: https://havas.wd3.myworkdayjobs.com/fr-FR/MediaExternalCareerSite/job/CONSULTANT-MEDIA-360-JUNIOR--F-H-X-_JR0093690
 
 **Interpretation:** the five holding-group matrix must continue to distinguish Havas Media Network from Havas Media, DMPG, Havas Play and Havas Paris Social. A Havas Group-level role must not be silently relabelled as a direct HMN role. Geography, seniority, unit, application dates and source type remain part of each evidence claim.
+
+
+## 9. 5 November 2026 — post-Havas evidence count reconciliation
+
+After reviewing employer-hosted requisitions JR0096922, JR0099039, JR0093003, JR0096564 and JR0093690, the matrix has been reconciled as follows:
+
+- T05 / Havas: direct Paid Social Specialist evidence (Havas Media Group / Havas Media Network, Warsaw; minimum two years' paid-social experience) upgrades the cell to A.
+- T11 / Havas: direct Organic & AI Manager evidence (Havas Media, Sydney; 4+ years and manager-level scope) upgrades the cell to A. This is not evidence of an entry-level or Indonesia-based role.
+- T14 / Havas: JR0093003 is Havas Paris Social, Puteaux. It is sister-practice B evidence, not a direct Havas Media Network role; the cell remains B/G.
+- JR0096564 is DMPG, London, with an application end date of 3 August 2026; retain only as historical elective CRO role evidence.
+- JR0093690 is Havas Play, Puteaux. Official indexed information describes a six-month internship starting September 2026, while a secondary repost states January 2027; start date/current application status remain unresolved. It is B related-practice evidence, not direct Havas Media Network evidence.
+
+**Reconciled class-label counts:** A 37, B 20, C 0, D 37, E 0, G 5; 19 compound cells. These are label instances, not unique role/JD counts. The 80-cell table contains four pure G gaps and one B/G cell.
