@@ -95,3 +95,12 @@ Separate PASS/FAIL/BLOCKED for: repository integrity; issue/discrepancy reconcil
 
 **Historical archive:** `16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt`.  
 **Execution ledger:** `2026-11-05-remediation-execution-ledger.md`.
+
+
+## 2026-11-05 source and preview re-verification
+
+- Resource-source captions were reconciled with their actual destination publishers across 13 track families. The updated register contains 169 chapter rows and 33 unique resource URLs; all 33 returned readable content in a live fetch.
+- The source check verifies link identity and broad track-level topical coverage only. Exact learning-objective fit for all 169 chapters, Indonesia access, language, price and credential eligibility remain open.
+- Source revision `f9def1a8c6a8b22568b38bd83c7c1086765418fb` has a Vercel Preview deployment in READY state and a successful GitHub Vercel status. Its HTML endpoint returned HTTP 200 and all eight referenced local JavaScript assets returned HTTP 200.
+- HTTP availability is not authenticated browser/runtime QA. The UI interaction and accessibility release gates remain open.
+- Raw score matrix and the original 23 findings / D-1…D-12 records were not recovered. The seven-dimension numerical scale and averaging formula exist, but the dimension definitions and raw input values are not. Do not reconstruct them by inference.
