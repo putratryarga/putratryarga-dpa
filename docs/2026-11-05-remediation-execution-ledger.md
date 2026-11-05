@@ -316,8 +316,8 @@ Source checks and deterministic tests are present; workflow result and authentic
 - `docs/2026-11-05-priority-track-source-remediation.md`: documented six-source enrichment and caveats for T03, T07, T10, T13 and T16; T02 gaps remain documented against its existing GovS 011 and ICC/ESOMAR source mix.
 
 ### Resource enrichment
-- Added six unique source URLs to 21 chapter-resource rows; the resource map now has 169 rows and 54 unique URLs.
-- Added MRC standards references for T03 OOH/measurement context; IAB Europe V2 + MRC retail measurement guidance for T07; SQLBolt + Hernán/Robins *What If* for T10; W3C WCAG 2.2 for T13; and NSW Government community-management guidance for T16.
+- Added six unique source URLs to 21 chapter-resource rows; the resource map now has 169 rows and 55 unique URLs.
+- Added exact MRC OOH standards PDF for T03; IAB/MRC Retail Media Measurement Guidelines PDF and IAB Europe V2.1 article for T07; SQLBolt + Hernán/Robins *What If* for T10; W3C WCAG 2.2 for T13; and NSW Government community-management guidance for T16.
 - These additions are not Indonesian local market evidence or blanket source-fit approval. Objective-to-resource fit remains OPEN for 169/169 chapters. SQLBolt and IAB Europe direct access were not confirmed in this manual check; their search-index evidence is recorded separately.
 - The prior 46/48 automated retrieval result remains a historical snapshot before the six URL additions and is not represented as current 46/54 or 54/54 coverage.
 
@@ -386,3 +386,16 @@ Source checks and deterministic tests are present; workflow result and authentic
 ### Reproducibility
 - Added deterministic validator checks for both triage row counts and the expected heuristic/gap counts. These values are intended to change only when the source registers or review records are deliberately updated.
 - See `docs/2026-11-05-qna-agency-automated-triage.md` for definitions, limitations and prioritization. All item/cell approvals remain OPEN.
+
+
+## 20. T03/T07 exact standards-source refinement
+
+**Date:** 5 November 2026  
+**Disposition:** SOURCE PRECISION IMPROVED; OBJECTIVE FIT AND INDONESIA APPLICATION OPEN.
+
+- Replaced the generic MRC standards index on four T03 rows with the directly opened MRC Out-of-Home Measurement Standards Phase 1 & 2 Combined final PDF (December 2025).
+- Replaced the earlier generic IAB Europe update page on four T07 rows with the V2.1 article dated 22 January 2026; replaced the generic MRC index on the same rows with the directly opened IAB/MRC Retail Media Measurement Guidelines PDF (January 2024).
+- The V2.1 article is directly readable; its linked standards PDF download returned an HTTP retrieval error in this check. The article is used as a source route; PDF download is not marked verified.
+- The MRC PDFs were opened and their titles, publication dates and sections checked. SQLBolt remains search-index verified, but the direct page returned a cache miss.
+- Total current resource inventory: 169 rows / 55 unique URLs. The 169-objective fit register has been regenerated against the new URLs. All objective-level fit, Indonesia access, pricing, language and SME decisions remain OPEN.
+- Reproducible static validation now expects 55 source URLs and checks the exact MRC OOH, MRC Retail and IAB Europe V2.1 URLs.
