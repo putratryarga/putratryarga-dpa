@@ -90,6 +90,11 @@ Lalu buka http://localhost:8000.
 Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%20Roadmap%20Feedback).
 
 
+## Quiz Engine Sandbox
+
+- [Open the formative quiz prototype](quiz-engine-prototype.html) — isolated synthetic test only; not an official DPA exam, not connected to learner progress, and not a credential or competency record.
+- Automated tests: `node scripts/test-dpa-quiz-engine.js`; workflow: `.github/workflows/dpa-quiz-engine-qa.yml`.
+
 ## Audit & working documents
 
 - [Quiz & Assessment Engine — Technical Design](docs/quiz-engine-technical-design.md) — formative quiz architecture, item approval, security boundary and test/release gates; not yet implemented.
