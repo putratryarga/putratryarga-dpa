@@ -140,3 +140,10 @@ A DPA-issued learning certificate is not a BNSP/LSP competency certificate, gove
 The standalone [Quiz Engine Sandbox](../quiz-engine-prototype.html) and dependency-free formative engine are implemented on the remediation branch using synthetic-only T10 fixtures. The engine validates item/chapter IDs, blocks unanswered submissions, calculates deterministic local scores, provides rationale/review/retry and preserves attempt versions for its local session. A dedicated automated test script and GitHub Actions workflow are included.
 
 This implementation is **PARTIAL** and strictly test-only. It is not connected to the main chapter renderer or the 507 reflective Q&A items; no approved item bank, calibrated threshold, summative mode, server-side grading, personal-data collection or credential-bearing assessment exists. The browser-delivered keys are synthetic fixtures only. Exact-head CI and authenticated browser/accessibility verification remain separate gates. See QUIZ-001 in the acceptance register.
+
+
+## 16. P1 granular audit registers
+
+The current remediation branch contains row-level control registers for 507 core Q&A items, 169 objective-to-resource rows, 80 agency × core-track evidence cells, 28 elective chapters and 56 elective knowledge checks. These inventories are linked from the README and requirements acceptance register. Their existence does not establish correctness, source fit, SME approval, direct/current JD validation or learner-pilot readiness; all item-level review decisions remain OPEN.
+
+The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). The resource map now has 54 unique URLs; objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
