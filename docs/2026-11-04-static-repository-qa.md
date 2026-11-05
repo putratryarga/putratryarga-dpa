@@ -119,7 +119,7 @@ The supplemental findings register documents new observations from this pass and
 
 The self-test's score vectors are generated in runner temporary storage, labelled SYNTHETIC and discarded after the job. A successful self-test proves the calculator runs on controlled test input; it does not supply the historical raw score matrix. The run logs also show non-blocking Node/Punycode deprecation warnings.
 
-**Current branch-head note:** the current documentation head is later than the three subject SHAs above. The application code has not changed since f9def1a; Vercel READY preview checks refer to that code/resource SHA and not to every later documentation-only head. The latest docs-head Vercel check remains build-rate-limited. No production merge/deployment occurred.
+**Current branch-head note:** application source changed after f9def1a in `role-study-guides-part1.js`, `role-study-guides-part2.js`, and `role-study-guides-part3.js` to expand answer guidance and glossary definitions. The READY preview at f9def1a predates those three JS updates and is not a preview of the current branch code. Vercel on current branch head remains build-rate-limited, so no READY deployment is claimed for current code. No production merge/deployment occurred.
 
 
 ## 2026-11-05 answer-key and glossary integrity check
@@ -135,7 +135,15 @@ The evidence register and assessment-rubric draft were independently parsed chap
 | Missing answer text | 0 | PASS — structurally present |
 | Duplicate question text | 0 | PASS — 507 unique questions |
 | SME approval | 507 / 507 OPEN | OPEN — correctness and alternate-answer review still required |
-| Short answer guidance | 122 entries under 12 words in 79 chapters | REVIEW FLAG — concise answers may be valid, but these need SME adequacy review |
-| Short glossary definitions | 81 entries under 5 words in 58 chapters | REVIEW FLAG — review for sufficient explanation and context |
+| Short answer guidance | 0 entries under 12 words after 122 source updates | PASS — length triage cleared; SME correctness remains OPEN |
+| Short glossary definitions | 0 entries under 5 words after 81 source updates | PASS — length triage cleared; SME terminology review remains OPEN |
 
-The answer-guide pairs were compared after normalizing whitespace and case; all 507 question/answer pairs match between the evidence and rubric registers. This is a content-sync check, not a subject-matter correctness judgment. All 507 review statuses remain OPEN. Short-answer and short-glossary flags are triage prompts, not automatic defects or grounds for inventing additional content.
+The source guide JS files, evidence register and assessment-rubric draft were compared chapter-by-chapter: 169 source guide IDs, 507 Q&A pairs and 701 glossary definitions in source JS; 507 Q&A and 701 glossary definitions in the evidence register; 507 Q&A in the rubric register. Question, answer and glossary text parity is exact, with zero mismatches. No answer is under 12 words and no glossary definition is under five words. This is source synchronisation and length QA, not a subject-matter correctness judgment. All 507 answer-key review statuses remain OPEN.
+
+
+## 2026-11-05 agency evidence recheck and validator synchronization
+
+- The five former G-marker cells in the 80-cell agency matrix now carry documented historical/index/adjacent routes with explicit caveats. Current labels: A37/B22/D42/G0, 21 compound cells and 101 class-label instances. The matrix is still PARTIAL; not every cell is backed by a current direct JD or validated chapter competency.
+- The static validator initially failed on the intentionally changed agency evidence counts because its expected values remained A37/B20/D37/G5 and 19 compounds. The validator was updated to A37/B22/D42/G0 and 21 compounds on SHA 42e39b49103c2635d0576b23f92d1529bb07c391.
+- The corrected GitHub Actions run [41955180966](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41955180966) completed SUCCESS on that exact SHA. It ran the deterministic repository validator, compiled the score recalculation script, and passed the temporary synthetic 169-vector/16-track score self-test. Earlier failures between 41954852406 and 41955066664 were all the same stale agency-count expectation; the updated validator fixed the root cause.
+- Synthetic score vectors were produced only under runner temporary storage and are not historical/raw audit scores. Raw 169 × 7 inputs remain BLOCKED.
