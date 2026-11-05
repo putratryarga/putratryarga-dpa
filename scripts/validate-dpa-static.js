@@ -205,25 +205,39 @@ try {
 
   const agencyMatrix = read("docs/80-cell-agency-role-evidence-matrix.md");
   const electiveEvidence = read("docs/role-competency-matrix-and-elective-chapter-audit.md");
-  const agencyLines = [...agencyMatrix.matchAll(/^\\|\\s*(\\d{1,2})\\s*\\|[^\\n]*$/gm)];
-  const agencyTrackIds = agencyLines.map((m) => Number(m[1]));
-  const agencyCells = agencyLines.flatMap((m) => m[0].split("|").slice(3, 8).map((x) => x.trim()));
+  const agencyLines = agencyMatrix.split("\n").filter((line) => {
+    if (!line.startsWith("|")) return false;
+    const firstCell = (line.split("|")[1] || "").trim();
+    return firstCell.length > 0 && [...firstCell].every((char) => char >= "0" && char <= "9");
+  });
+  const agencyTrackIds = agencyLines.map((line) => Number(line.split("|")[1].trim()));
+  const agencyCells = agencyLines.flatMap((line) => line.split("|").slice(3, 8).map((x) => x.trim()));
   report.agencyEvidence = { trackRows: agencyTrackIds.length, uniqueTrackRows: unique(agencyTrackIds).length, cells: agencyCells.length, classLabels: {A:0,B:0,C:0,D:0,E:0,G:0}, compoundCells:0 };
   assertEqual("Agency track rows", agencyTrackIds.length, 16);
   assertEqual("Unique agency track rows", unique(agencyTrackIds).length, 16);
   assertEqual("Agency × track evidence cells", agencyCells.length, 80);
   for (const cell of agencyCells) {
-    const prefix = cell.match(/^([A-G](?:\\/[A-G])*)\\s*:/);
-    if (!prefix) { fail.push("Agency evidence cell has no explicit class prefix: " + cell.slice(0,100)); continue; }
-    const labels = prefix[1].split("/");
+    const colon = cell.indexOf(":");
+    const labels = (colon < 0 ? "" : cell.slice(0, colon)).trim().split("/");
+    if (colon < 0 || !labels.length || labels.some((label) => !["A","B","C","D","E","G"].includes(label))) {
+      fail.push("Agency evidence cell has no explicit class prefix: " + cell.slice(0,100));
+      continue;
+    }
     if (labels.length > 1) report.agencyEvidence.compoundCells++;
     for (const label of labels) report.agencyEvidence.classLabels[label]++;
   }
   const expectedAgencyLabels = {A:37,B:20,C:0,D:37,E:0,G:5};
   for (const key of Object.keys(expectedAgencyLabels)) assertEqual("Agency class " + key, report.agencyEvidence.classLabels[key], expectedAgencyLabels[key]);
   assertEqual("Agency compound cells", report.agencyEvidence.compoundCells, 19);
-  const electiveRows = [...electiveEvidence.matchAll(/^\\|\\s*(WPP|Publicis|Omnicom|Dentsu|Havas)\\s+×\\s+(CRO|Traditional)\\s*\\|/gm)];
-  const electiveKeys = electiveRows.map((m) => m[1] + " × " + m[2]);
+  const allowedAgencies = ["WPP","Publicis","Omnicom","Dentsu","Havas"];
+  const allowedElectives = ["CRO","Traditional"];
+  const electiveKeys = electiveEvidence.split("\n").flatMap((line) => {
+    if (!line.startsWith("|")) return [];
+    const key = (line.split("|")[1] || "").trim();
+    const pieces = key.split(" × ");
+    return pieces.length === 2 && allowedAgencies.includes(pieces[0]) && allowedElectives.includes(pieces[1])
+      ? [key] : [];
+  });
   report.electiveEvidenceGroups = electiveKeys.length;
   assertEqual("Elective agency evidence groups", electiveKeys.length, 10);
   assertEqual("Unique elective evidence groups", unique(electiveKeys).length, 10);
