@@ -62,10 +62,10 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 1. Recalculate all 169 chapter scores from authoritative raw vectors and reconcile all totals.
 2. Recover/disposition all 23 issue rows and D-1…D-12.
 3. Audit all 90 role-evidence cells at source/JD level.
-4. Validate all 169 resources for chapter-objective fit and Indonesia access/language/price.
+4. Complete the 169-chapter objective-level source review and Indonesia access/language/price/credential checks; provisional 16-track desk results are documented in docs/169-chapter-resource-fit-review.md.
 5. Complete independent SME review for 169 chapters and legacy guide families.
 6. Validate all 507 answer keys and alternate answers; calibrate rubrics.
-7. Develop/validate all elective chapters before calling them complete.
+7. Validate the 28 full elective first-pass drafts (14 CRO + 14 Traditional Media) against direct/adjacent JDs, chapter-level sources, Indonesian market/legal practice, SME review, assessment calibration and learner pilot before calling them final.
 8. Run authenticated browser/runtime interaction QA. Preview build and HTTP/asset smoke checks now pass for `f9def1a8c6a8b22568b38bd83c7c1086765418fb`; UI behavior, persistence, keyboard and accessibility checks remain NOT RUN.
 9. Re-read all changed files and run final static checks on the exact final SHA.
 
@@ -94,9 +94,21 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 ## 2026-11-05 resource-source and preview execution delta
 
 - **Resource map patch:** commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` corrected publisher captions and URLs across T01, T02, T03, T05, T06, T07, T08, T09, T10, T12, T13, T14 and T15. In particular, the TikTok Academy URL is no longer called LinkedIn Marketing Academy; the Edge Academy URL is no longer called Google Skillshop; StackAdapt is no longer mislabeled IAB; and YouTube's current Creator Partnerships help page is separately linked from TikTok One for Creators.
-- **Source-fetch evidence:** the current map contains 169 rows, 169 unique chapter IDs, 33 unique URLs, and at least two links per chapter row. Readable content was fetched from all 33 current unique URLs. Publisher identity and broad track-level source coverage are checked. Exact source-to-learning-objective fit for all 169 chapters, Indonesia market access, localized pricing and credential conditions remain OPEN.
+- **Source-fetch evidence:** the current map contains 169 rows, 169 unique chapter IDs, 39 unique URLs, and at least two links per chapter row. Readable content was fetched from all 39 current unique URLs. Publisher identity and broad track-level source coverage are checked. Exact source-to-learning-objective fit for all 169 chapters, Indonesia market access, localized pricing and credential conditions remain OPEN.
 - **Source register cross-check:** 169 HTML chapter IDs, 169 guide IDs (10 Full-Stack + 10 Paid Social + 149 role-specific), 169 evidence-register headings, 169 rubric headings, 169 resource IDs and 169 technical-review IDs reconcile with zero duplicate/missing IDs. Register and rubric each contain 507 Q&A items; 169 glossary blocks; no literal `undefined` tokens. 391 unique DOM IDs; 13/13 internal anchors resolve; 19 media queries (14 responsive, two reduced-motion, three print). These are independent source/API recounts; the repository Node validator was not executed locally.
 - **Agency/elective structure:** 80 agency evidence cells and 10 agency × elective groups remain structurally present; source/JD/competency sign-off remains PARTIAL/OPEN.
 - **Preview:** Vercel deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` built from the same resource patch SHA and reached READY. HTTP fetch returned 200, with 169 unique chapter IDs and all eight referenced local JavaScript assets returning 200. No authenticated UI session, role click, theme toggle, localStorage round-trip, keyboard, accessibility-tree, screenshot or console/network interaction QA was run.
 - **Missing historical artifacts:** the complete raw 169 × 7 score matrix is still absent from the 36-file branch tree and inspected Library sources. The normative methodology specifies a 0–4 scale and averaging formula but does not name/define the seven dimensions; therefore no substitute vectors were invented. PR #5/#6 bodies and available discussion/review metadata did not yield the original 23-finding register or D-1…D-12 log; both remain pending recovery.
 - **Release decision:** NOT READY — remediation progress recorded; human/SME, historical-source and authenticated runtime gates are not signed off.
+
+
+## 2026-11-05 elective, resource-fit and provenance delta
+
+- **Elective content:** 28/28 first-pass full chapter drafts authored in docs/28-advanced-elective-full-chapter-drafts.md (14 CRO + 14 Traditional Media). Structural checks: 28 unique sections; each has outcomes, lesson, workflow, practice, artifact/acceptance, two knowledge checks and a source/limitations block; 56 questions and 84 glossary definitions. Full draft does not mean validated or ready for learners.
+- **Architecture sync:** docs/advanced-electives-source-of-truth.md now records Architecture v1.1 + Full Chapter Draft v0.1 and marks 28 chapter drafts complete, with validation pending.
+- **Resource map:** 169 chapter rows, 169 unique IDs, 39 unique URLs, minimum two source links per row. All 39 URLs returned readable content at check time. This proves availability and publisher identity, not exact objective fit.
+- **Resource-fit decision:** docs/169-chapter-resource-fit-review.md provides a provisional desk assessment of all 16 tracks. T08 has a clear commercial-buying source gap; T02 cultural/communication planning, T03 offline measurement, T07 Indonesia RMN comparison, T10 statistics/experimentation, T13 neutral editorial/organic content and T16 community governance remain partial/gap. The 169 objective-level review remains OPEN.
+- **Supplemental findings:** docs/2026-11-05-supplemental-audit-findings.md contains 17 new IDs, separate from the missing historical 23 findings and D-1…D-12. Summary: 3 FIXED, 6 PARTIAL, 6 OPEN, 2 BLOCKED.
+- **Raw scores:** audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv is a blank 169-row collection template. Seven dimension definitions and raw scores are not present. The template must not be fed into the calculator and is not a scorecard.
+- **Historical search:** all 12 available GitHub branches were enumerated and their trees checked; current PR #5/#6 discussion/review metadata and accessible Library search were inspected. No original raw score matrix or original findings/discrepancy register was recovered.
+- **Release decision:** NOT READY — REMEDIATION INCOMPLETE. SME/JD, raw score, historical issue/discrepancy, 169 objective fit, 507 answer-key, rubric calibration, Indonesia market/legal, elective pilot and authenticated browser gates remain open or blocked.
