@@ -44,19 +44,19 @@
 | Canonical chapter ID inventory | 169 unique IDs | STRUCTURE VERIFIED — score recomputation blocked by missing raw vectors |
 | Automated validator script | Includes chapter, agency/elective matrix, Q&A, resource and media-query checks | ADDED — source assertions reviewed; runtime pending |
 
-| Branch-only GitHub Actions workflow | `.github/workflows/dpa-remediation-static-qa.yml` | ADDED — push workflow run not independently visible/verified; synthetic score self-test pending |
+| Branch-only GitHub Actions workflow | `.github/workflows/dpa-remediation-static-qa.yml` | PASS — runs 41950779127, 41950936135 and 41951028735 completed SUCCESS on their exact listed SHAs; synthetic self-test only |
 
 ## Not tested / release blockers
 
 - No authenticated PR preview browser session was available. The connected local Browser tool could not access the originating browser context.
 - Cloud browser/deep-research automation returned an insufficient-funds / empty-wallet response; no browser run was started.
 - No desktop/mobile screenshot inspection, real click/keyboard navigation, role-selector interaction, localStorage persistence round-trip, theme toggle, accessibility-tree inspection, console/network test or cross-browser regression was performed.
-- The Vercel status check on source commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` is **SUCCESS**; deployment `dpl_C4wNhiKsG8DA9hL3y725HqXDdhky` is **READY**. The prior build-rate-limit failure is superseded for this commit. The push-workflow result remains not independently visible through the available connector.
+- The Vercel deployment on code/resource commit `f9def1a8c6a8b22568b38bd83c7c1086765418fb` is **READY**; its HTTP/asset smoke checks passed. Later changes from that code SHA are documentation/audit-input files only. Vercel status on later documentation heads shows **build-rate-limit**, so no READY deployment is claimed for the current documentation HEAD. GitHub Actions push workflow runs 41950779127 (SHA 7442ca4), 41950936135 (SHA e21c30e) and 41951028735 (SHA 2204040) all completed **SUCCESS**; details are in the run links below.
 - A live content-fetch recheck passed for all 39 unique resource URLs currently in the chapter map. Publisher/URL identity and broad track-level topical relevance were reviewed; chapter-objective fit, login/locale/market eligibility, cost and credential expiry remain separate checks.
 
 **Branch relationship:** `main` is `640b1924...`; the remediation branch includes main as a parent and currently has zero commits behind `main`. `main` remains unchanged. PR #5/#6 remain draft/open/unmerged.
 
-**Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW + HTTP/ASSET SMOKE PASS on code/resource commit f9def1a8c6a8b22568b38bd83c7c1086765418fb; branch-only PUSH-WORKFLOW EXECUTION NOT INDEPENDENTLY VERIFIED; NOT READY TO MERGE.
+**Release decision:** STATIC SOURCE CHECKS and GitHub Actions static QA PASS on the exact SHAs recorded; the code preview/HTTP/asset smoke is PASS on code/resource SHA f9def1a8c6a8b22568b38bd83c7c1086765418fb; Vercel deployment of later docs-only branch heads remains build-rate-limited; BROWSER/RUNTIME QA NOT RUN; NOT READY TO MERGE.
 
 
 ## 2026-11-05 post-resource-correction verification
@@ -80,7 +80,7 @@
 
 The 39 resource URLs comprise official publisher, product-support and standards pages. Content fetch establishes that a destination returned readable content at check time; it does not establish that every module maps to every learning objective, nor guarantee local-market eligibility, price, or account access.
 
-**Release state remains NOT READY TO MERGE.** Raw score vectors, original 23 findings and D-1…D-12 records, SME/answer-key/rubric validation, agency competency validation, full elective authoring/validation, and authenticated browser interaction QA remain open or blocked.
+**Release state remains NOT READY TO MERGE.** Raw score vectors, original 23 findings and D-1…D-12 records, SME/answer-key/rubric calibration, agency competency validation, 169 objective-level resource fit, elective JD/market/pilot validation and authenticated browser interaction QA remain open or blocked.
 
 
 ## 2026-11-05 full-draft and supplemental audit update
@@ -107,3 +107,16 @@ The 28 elective chapters are complete only as first-pass written drafts. The fiv
 The supplemental findings register documents new observations from this pass and is not the original 23-finding register or D-1…D-12. The blank score template is a collection aid only. It does not provide, infer or impute score values.
 
 **Current conclusion:** source-level remediation is materially advanced; overall status remains **NOT READY — REMEDIATION INCOMPLETE** until historical score/issue source recovery, 169 objective-level resource review, SME and JD validation, answer-key/rubric calibration, Indonesia-market review, learner pilot and authenticated browser QA are evidenced.
+
+
+## 2026-11-05 exact-commit workflow evidence
+
+| Workflow run | Subject SHA | Result | Verified checks |
+|---|---|---|---|
+| [41950779127](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41950779127) | 7442ca481b9e5f786f95db971ac314cef32f9be5 | SUCCESS | Deterministic Node structure validator, Python script compile, temporary synthetic 169×7 score self-test |
+| [41950936135](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41950936135) | e21c30ec69a66babdab79c3837fb3637d442d8bb | SUCCESS | Same workflow and validation steps |
+| [41951028735](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41951028735) | 220404081535c8a72b966d3ae77dee53911006fe | SUCCESS | 169 HTML IDs, guide/evidence/rubric/resource/technical structures; Python compile; 169 synthetic outputs and 16 synthetic track summaries |
+
+The self-test's score vectors are generated in runner temporary storage, labelled SYNTHETIC and discarded after the job. A successful self-test proves the calculator runs on controlled test input; it does not supply the historical raw score matrix. The run logs also show non-blocking Node/Punycode deprecation warnings.
+
+**Current branch-head note:** the current documentation head is later than the three subject SHAs above. The application code has not changed since f9def1a; Vercel READY preview checks refer to that code/resource SHA and not to every later documentation-only head. The latest docs-head Vercel check remains build-rate-limited. No production merge/deployment occurred.
