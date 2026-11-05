@@ -267,3 +267,19 @@ QTI 3.0 is an optional portability design consideration, not a requirement to ce
 - Objective-to-resource fit for every chapter remains open across all 169 core chapters. The simulation is a practice artifact, not a source-fit approval.
 
 **Disposition:** T08 practical simulation deliverable = PARTIAL/PRESENT. T08 primary-source and SME validation = OPEN. Overall release remains NOT READY.
+
+
+## 12. P2 quiz-engine design addendum
+
+**Date:** 5 November 2026  
+**Design artifact:** [Quiz & Assessment Engine — Technical Design](quiz-engine-technical-design.md)  
+**Status:** DESIGN DRAFT COMPLETE; implementation and content validation remain OPEN.
+
+- Inspected the current guide data and renderer. Existing guide checks are `{ q, a }` reflective Q&A pairs rendered with a disclosure to reveal the answer. They do not have stable item IDs, answer options, distractors, scoring metadata, approval state or an attempt/submission record. This is not a scored quiz.
+- The technical design specifies a canonical chapter-linked item schema, separate public item and private answer-key records, editorial/SME approval states, score and attempt lifecycle, accessible UI acceptance, local formative-progress limits, and a future server-side trust boundary for authoritative grading.
+- The design explicitly prevents the existing 507 static Q&A items from being auto-promoted to scored questions. They require item classification, outcome mapping, distractor authoring where appropriate, source mapping, editorial review and SME approval.
+- A browser-only quiz may be formative/self-check only. Client-delivered answer keys and localStorage are user-controlled and must not be represented as secure grades or credential-bearing assessment.
+- The 80% mastery target remains proposed and uncalibrated. No pass/fail result is approved by this design.
+- QTI 3.0 is optional interoperability consideration only; WCAG 2.2 AA is the proposed accessibility target and still requires applicable human and automated verification.
+
+**Requirement disposition:** quiz technical design = PRESENT / DESIGN COMPLETE. `QUIZ-001`, `QUIZ-002`, `QUIZ-003` and scored-content acceptance remain OPEN. No quiz engine or approved scored bank is claimed as implemented.
