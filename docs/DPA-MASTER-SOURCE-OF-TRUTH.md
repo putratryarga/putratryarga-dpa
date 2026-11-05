@@ -256,7 +256,7 @@ The [T14 12-chapter Q&A technical desk review](T14-12-chapter-qna-technical-desk
 
 The reference set includes Dewan Periklanan Indonesia's EPI 2020, BPK records for UU 8/1999 (Consumer Protection), UU 27/2022 (Personal Data Protection) and UU 28/2014 (Copyright), plus Meta branded-content/partnership ads, TikTok branded-content/Spark Ads authorization and YouTube paid-promotion disclosure. The EPI is an industry ethical code, not itself a statute. Platform authorization is not a substitute for contract rights, copyright/likeness licences or local legal review.
 
-This T14-era Q&A source-mapping snapshot is superseded by the T12 review recorded below. Current post-T12 inventory: 132/507 items have supporting item-level references (T06 36, T10 30, T14 36, T12 30); 375/507 remain without item-level source references. Current triage flags 94 answers under 14 words, 18 bare-Boolean openings and 16 absolute-wording hits; answer length range is 12–45 words. These are heuristic red flags, not correctness findings.
+This T14-era Q&A source-mapping snapshot is superseded by the later T12 and T13 batches. Current post-T13 inventory: 165/507 items have supporting item-level references (T06 36, T10 30, T14 36, T12 30, T13 33); 342/507 remain without item-level source references. Current triage flags 79 answers under 14 words, 18 bare-Boolean openings and 16 absolute-wording hits; answer length range is 12–45 words. These are heuristic red flags, not correctness findings.
 
 **Formal boundary:** all 36 T14 items remain reflective/non-scored. Answer-review, editorial, source-fit, local legal/compliance and SME approval remain OPEN.
 
@@ -267,6 +267,26 @@ The [T12 10-chapter Q&A technical desk review](T12-10-chapter-qna-technical-desk
 
 The source set includes JDIH Komdigi's UU 27/2022 PDP, Google Consent Mode, WhatsApp Business Policy updated 23 September 2026, Gmail sender guidelines and one-click unsubscribe FAQ, RFC 8058, HubSpot workflow suppression/re-enrollment, Salesforce Journey Builder goals/exit criteria, Google Cloud idempotency/retry guidance and GA4 cohort exploration. Legal basis under UU PDP is not limited to consent; each CRM use case requires appropriate basis and qualified local review. WhatsApp opt-in, 24-hour service window and approved templates are distinct from Gmail sender/unsubscribe requirements.
 
-Cumulative item-level source references now cover **132/507 core Q&A items** (T06 36 + T10 30 + T14 36 + T12 30); **375/507 remain without** item-level sources. Triage flags now show 94 answers under 14 words, 18 bare-Boolean openings and 16 absolute-wording hits; answer length range 12–45 words.
+This was the post-T12 snapshot. The later T13 batch brings cumulative item-level source references to **165/507 core Q&A items** (T06 36 + T10 30 + T14 36 + T12 30 + T13 33); **342/507 remain without** item-level sources. Triage flags now show 79 answers under 14 words, 18 bare-Boolean openings and 16 absolute-wording hits; answer length range remains 12–45 words.
 
 **Formal boundary:** all 30 T12 items remain reflective/non-scored. Editorial, source-fit, legal/compliance and SME approval remain OPEN. These sources support review, not legal advice or approved answer keys.
+
+
+## 26. T13 Content Strategy & Creation — 33-item Q&A technical/editorial desk review — 5 November 2026
+
+The [T13 11-chapter Q&A technical desk review](T13-11-chapter-qna-technical-desk-review.md) and [33-row CSV](T13-11-chapter-qna-technical-desk-review.csv) document expansion of all 33 T13 answer explanations to 34–40 words with item-level references. Previous answer wording is retained in the master Q&A register. The canonical role guide, 169-chapter evidence register, 507-item Q&A CSV and automated triage CSV are synchronized.
+
+The sources include EPI 2020, UU 8/1999 and UU 28/2014, Google Search Central helpful-content guidance, Content Marketing Institute editorial strategy, TikTok Creative Center/trends/disclosure/commercial music, Meta Creator Marketplace, YouTube paid-promotion disclosure and YouTube's 24 August 2026 public-view metric update. Scope limits are explicit: EPI is an industry code, platform disclosure is not a contract licence, and trends are not representative research.
+
+The cumulative Q&A triage now records **165/507 item-level supporting references** (T06 36, T10 30, T14 36, T12 30, T13 33); **342/507 remain without** item-level references. Automated flags: 79 under 14 words, 18 bare-Boolean openings, 16 absolute-wording hits; range 12–45 words. These are heuristics, not answer-correctness results.
+
+**Formal boundary:** all 33 T13 items remain reflective/non-scored. Answer-key, editorial, source-fit, platform, rights/legal and SME statuses remain OPEN.
+
+
+## 27. T12/T14 source and editorial corrections — 5 November 2026
+
+- T12-CH01-Q01 had a duplicated dangling phrase at the end of its expanded answer. It is corrected in the role guide, evidence register, master Q&A register and T12 audit CSV. The superseded malformed revision is retained in the new previous-revision field; original answer history remains.
+- Five T14 references used the malformed BPK slug `uu-no-17-tahun-2014` for Law 28/2014. All are corrected to the official UU 28/2014 record URL ending `uu-no-28-tahun-2014` in the master Q&A/triage and T14 review CSV/Markdown.
+- EPI 2020 is documented as an industry self-regulatory code, with the distinction between consumer testimony (1.16) and individual endorsement (1.17). Platform labels/authorization remain distinct from contract copyright/likeness rights and local legal disclosure obligations.
+
+These are technical/editorial source corrections; no answer has become formally approved or scored.

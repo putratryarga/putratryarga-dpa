@@ -353,7 +353,7 @@ Playwright/Chromium and axe checks passed on exact branch head `de6747268108d9f9
 
 The automated triage files are [507 Q&A triage CSV](507-qna-automated-triage.csv), [80-cell agency gap triage CSV](80-agency-cell-evidence-gap-triage.csv) and [triage methodology/report](2026-11-05-qna-agency-automated-triage.md).
 
-- 375/507 core Q&A rows currently lack a per-item source reference; 132 items have supporting references from the T06 (36), T10 (30), T14 (36) and T12 (30) first-pass batches. Automated triage now flags 94 answers below the internal 14-word heuristic, 18 bare-Boolean openings and 16 absolute-wording terms. Answer lengths range from 12–45 words. These are review flags, not correctness findings; all answer/editorial/SME decisions remain OPEN.
+- 342/507 core Q&A rows currently lack a per-item source reference; 165 items have supporting references from the T06 (36), T10 (30), T14 (36), T12 (30) and T13 (33) first-pass batches. Automated triage now flags 79 answers below the internal 14-word heuristic, 18 bare-Boolean openings and 16 absolute-wording terms. Answer lengths range from 12–45 words. These are review flags, not correctness findings; all answer/editorial/SME decisions remain OPEN.
 - 80/80 agency validation rows now carry one or more per-cell source references (101 URLs total), including WPP T01 cross-channel performance roles. All 80 remain OPEN for source-type verification, role specificity, currentness, geography/seniority and chapter competency mapping. 37 evidence statements inherit a class label containing A; those direct-JD labels still require exact source and scope validation.
 - The automated screens are not editorial approval, SME validation or evidence of a current vacancy. All affected acceptance requirements remain OPEN/PARTIAL as recorded above.
 
@@ -479,3 +479,12 @@ The [T12 10-chapter Q&A technical desk review](T12-10-chapter-qna-technical-desk
 The sources distinguish UU PDP legal basis from marketing subscription, WhatsApp opt-in and template rules from Gmail sender requirements, and platform-specific workflow exit/suppression from CRM design principles. RFC 8058 one-click unsubscribe, Google Consent Mode and idempotent retry guidance are mapped only to their technical scopes.
 
 **Formal state:** all 30 remain reflective/non-scored. Answer review, editorial, source-fit, legal/compliance and SME decisions remain OPEN.
+
+
+## 25. T13 Content Strategy & Creation — 33-item Q&A technical/editorial desk review — 5 November 2026
+
+The [T13 11-chapter Q&A technical desk review](T13-11-chapter-qna-technical-desk-review.md) and [33-row CSV](T13-11-chapter-qna-technical-desk-review.csv) record first-pass expansion of all 33 T13 answers to 34–40 words and item-level supporting source mapping. Previous answers are retained in the master Q&A register. The role guide, evidence register and triage CSV are synchronized.
+
+Sources include EPI 2020, BPK UU 8/1999 and UU 28/2014, Google Search Central, Content Marketing Institute, TikTok Creative Center/disclosure/music, Meta Creator Marketplace and YouTube analytics/paid promotion. EPI remains an industry code; platform authorization/disclosure is not a substitute for contract rights or local legal review. The YouTube metric update effective 24 August 2026 is explicitly reflected.
+
+**Current cumulative source mapping:** 165/507 item-level supporting references; 342 without. Short-answer heuristic flags 79, bare-Boolean 18, absolute-wording 16. All 33 T13 items remain reflective/non-scored and answer/editorial/source/SME approval OPEN. No scored quiz or certificate status is inferred.

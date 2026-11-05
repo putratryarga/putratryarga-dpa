@@ -166,6 +166,29 @@ assert(t12QnaAudit.records.every(row => row.item_id.startsWith("DPA-T12-") && ro
 const t12Guide = read("role-study-guides-part2.js");
 assert(t12Qna.every(row => t12Guide.includes(row.question_text) && t12Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
   "T12 Q&A wording must stay synchronized across the role guide and evidence register.");
+assert(t12Qna.headers.includes("previous_revision_answer_guidance"), "Q&A register must preserve superseded editorial corrections.");
+assert(t12Qna.find(row => row.item_id === "DPA-T12-CH01-Q01")?.previous_revision_answer_guidance?.includes("dengan owner"),
+  "T12-CH01-Q01 must retain the superseded malformed answer for audit traceability.");
+const t13Qna = qna.records.filter(row => row.chapter_id.startsWith("DPA-T13-"));
+assert(t13Qna.length === 33, "T13 content Q&A review must contain 33 items.");
+assert(t13Qna.every(row => row.prior_answer_guidance && row.editorial_revision_note && String(row.source_reference || "").includes("http")),
+  "All T13 Q&A revisions must preserve prior answers, revision notes and supporting references.");
+assert(t13Qna.every(row => {
+  const words = row.current_guide_answer.trim().split(" ").filter(Boolean).length;
+  return words >= 34 && words <= 40 && row.item_type === "REFLECTIVE_QA_NOT_SCORED" && row.answer_review_status === "OPEN" && row.editorial_status === "OPEN" && row.sme_status === "OPEN";
+}), "T13 expanded Q&A must remain 34–40 words, reflective/non-scored and formally OPEN.");
+const t13QnaAudit = loadCsv("docs/T13-11-chapter-qna-technical-desk-review.csv");
+assert(t13QnaAudit.records.length === 33, "T13 technical Q&A desk review must contain 33 rows.");
+uniqueBy(t13QnaAudit.records, "item_id", "T13 Q&A technical desk review");
+assert(t13QnaAudit.records.every(row => row.item_id.startsWith("DPA-T13-") && row.desk_review_classification === "PARTIAL" && row.formal_answer_key_status === "OPEN" && row.source_fit_status === "OPEN" && row.sme_status === "OPEN"),
+  "T13 Q&A desk audit must remain PARTIAL with formal answer-key/source-fit/SME status OPEN.");
+const t13Guide = read("role-study-guides-part3.js");
+assert(t13Qna.every(row => t13Guide.includes(row.question_text) && t13Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
+  "T13 Q&A wording must stay synchronized across the role guide and evidence register.");
+assert(t14Qna.every(row => !(row.source_reference || "").includes("uu-no-17-tahun-2014")),
+  "T14 source references must not retain the malformed Copyright Law URL slug.");
+assert(t14Qna.every(row => !(row.source_reference || "").includes("uu-no-17-tahun-2014") || (row.source_reference || "").includes("uu-no-28-tahun-2014")),
+  "T14 copyright source reference must use the correct UU 28/2014 record.");
 const t14Guide = read("role-study-guides-part3.js");
 assert(t14Qna.every(row => t14Guide.includes(row.question_text) && t14Guide.includes(row.current_guide_answer) && evidence.includes(row.question_text) && evidence.includes(row.current_guide_answer)),
   "T14 Q&A wording must stay synchronized across the role guide and evidence register.");

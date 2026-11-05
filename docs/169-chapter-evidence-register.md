@@ -4583,7 +4583,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa CRM bukan sekadar software?
-   **Expected answer in guide (not independently approved):** CRM adalah pendekatan untuk mengelola hubungan dan nilai customer sepanjang lifecycle, bukan hanya aplikasi penyimpan kontak. Software menjalankan proses; strategi menentukan stage, pengalaman, data, ownership, komunikasi dan ukuran keberhasilan sesuai model bisnis. dengan owner dan definisi yang jelas
+   **Expected answer in guide (not independently approved):** CRM adalah pendekatan untuk mengelola hubungan dan nilai customer sepanjang lifecycle, bukan sekadar aplikasi penyimpan kontak. Software menjalankan workflow; strategi menentukan stage, pengalaman, data, ownership, komunikasi dan ukuran keberhasilan sesuai model bisnis, dengan owner serta definisi yang jelas.
 2. **Q:** Apa risiko lifecycle stage tidak memiliki entry/exit criteria?
    **Expected answer in guide (not independently approved):** Entry dan exit criteria menentukan kapan contact memenuhi syarat masuk, berpindah atau keluar dari lifecycle stage. Tanpa definisi, contact dapat menerima pesan yang tidak relevan, masuk ulang secara tidak sengaja atau tertahan di journey setelah goal tercapai.
 3. **Q:** Mengapa retention metric harus mengikuti model bisnis?
@@ -4985,11 +4985,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda brand voice dan tone?
-   **Expected answer in guide (not independently approved):** Brand voice adalah karakter komunikasi yang relatif konsisten; tone menyesuaikan ekspresi voice terhadap konteks, platform, dan audience.
+   **Expected answer in guide (not independently approved):** Brand voice adalah karakter dan prinsip komunikasi yang relatif konsisten, seperti pilihan kata, sikap dan sudut pandang. Tone adalah cara voice diekspresikan dalam situasi tertentu; misalnya nada edukatif, empatik atau tegas dapat berubah mengikuti konteks tanpa mengubah identitas merek.
 2. **Q:** Mengapa brand voice tidak boleh menghalangi platform-native content?
-   **Expected answer in guide (not independently approved):** Ekspresi perlu menyesuaikan format dan perilaku audience sambil mempertahankan promise dan principles.
+   **Expected answer in guide (not independently approved):** Platform-native content mengikuti cara audiens menemukan, menonton dan berinteraksi pada tiap platform. Brand voice tetap menjadi batas identitas, tetapi hook, format, tempo, caption dan CTA boleh diadaptasi. Konsistensi berarti pesan dan nilai tetap dapat dikenali, bukan menyalin aset yang sama.
 3. **Q:** Apa yang termasuk claims policy?
-   **Expected answer in guide (not independently approved):** Claims policy menetapkan batas klaim, proof requirement, legal atau regulatory review, dan pernyataan yang tidak boleh digunakan.
+   **Expected answer in guide (not independently approved):** Claims policy menetapkan klaim yang boleh digunakan, bukti yang wajib tersedia, batas perbandingan, disclaimer, pemilik persetujuan dan kebutuhan review hukum atau kategori. Klaim manfaat, angka dan testimoni harus akurat serta dapat dipertanggungjawabkan; approval platform tidak menggantikan substansiasi.
 
 **Glossary:**
 - **Brand voice:** Karakter bahasa/kepribadian brand yang konsisten.
@@ -5025,11 +5025,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda content pillar dan editorial calendar?
-   **Expected answer in guide (not independently approved):** Pillar menentukan territory/strategic themes; calendar mengatur kapan dan aset mana yang diproduksi/publish.
+   **Expected answer in guide (not independently approved):** Content pillar adalah wilayah tema strategis yang menghubungkan kebutuhan audiens dengan positioning dan objective bisnis. Editorial calendar menerjemahkannya menjadi topik, format, kanal, tanggal, owner, deadline, approval dan status produksi. Pillar menjelaskan arah; calendar mengendalikan pelaksanaan.
 2. **Q:** Mengapa persentase content mix tidak universal?
-   **Expected answer in guide (not independently approved):** Kategori, audience, funnel, budget, and business objective berbeda; proporsi harus ditentukan dari evidence.
+   **Expected answer in guide (not independently approved):** Persentase content mix tidak universal karena kebutuhan audiens, kategori, tahap journey, objective, biaya produksi, channel role dan kapasitas tim berbeda. Tetapkan proporsi sebagai hipotesis awal, lalu evaluasi dari kebutuhan audiens, bukti kinerja dan kontribusi tiap format terhadap tujuan.
 3. **Q:** Kapan content dianggap mendukung conversion?
-   **Expected answer in guide (not independently approved):** Saat ia menjawab objection, membuktikan value, memfasilitasi decision, and mengarah ke next action yang relevan.
+   **Expected answer in guide (not independently approved):** Konten mendukung conversion ketika membantu calon pelanggan memahami manfaat, mengurangi keberatan, memberi proof yang relevan dan menyediakan langkah berikutnya yang jelas. Nilainya dinilai sesuai peran journey dan dihubungkan ke qualified action atau outcome, bukan hanya likes dan views.
 
 **Glossary:**
 - **Content pillar:** Tema strategis yang menyusun sistem konten.
@@ -5065,11 +5065,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa calendar harus memuat status/owner?
-   **Expected answer in guide (not independently approved):** Tanpa status dan owner, tim tidak dapat mengelola approval, dependencies, delays, and accountability.
+   **Expected answer in guide (not independently approved):** Calendar perlu mencatat owner, status dan deadline agar setiap aset memiliki penanggung jawab serta tahap kerja yang dapat ditelusuri. Masukkan brief, draft, fact-check, legal review, approval, scheduling dan publish date; dependensi dan keterlambatan harus terlihat sebelum mengganggu kampanye.
 2. **Q:** Apa beda always-on dan campaign content?
-   **Expected answer in guide (not independently approved):** Always-on content memenuhi kebutuhan audience yang berulang; campaign content terikat objective, timing, dan aktivasi tertentu.
+   **Expected answer in guide (not independently approved):** Always-on content menjawab kebutuhan audiens yang berulang dan menjaga kehadiran merek secara berkelanjutan. Campaign content dirancang untuk objective, periode dan aktivasi tertentu. Keduanya dapat saling mendukung, tetapi dibedakan melalui tujuan, flight, resource dan pengukuran.
 3. **Q:** Bagaimana mengatasi kapasitas produksi terbatas?
-   **Expected answer in guide (not independently approved):** Prioritaskan audience dan business value, repurpose materi, gunakan modular assets, lalu tetapkan cadence yang realistis.
+   **Expected answer in guide (not independently approved):** Saat kapasitas terbatas, prioritaskan aset berdasarkan kebutuhan audiens, dampak bisnis, risiko dan effort; jangan sekadar menambah frekuensi. Gunakan modular content, repurposing yang relevan, batch production dan kalender realistis, sambil mempertahankan waktu untuk fact-check, accessibility dan approval.
 
 **Glossary:**
 - **Editorial architecture:** Sistem struktur topic, formats, workflow, ownership, and distribution.
@@ -5105,11 +5105,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa tren viral belum tentu opportunity?
-   **Expected answer in guide (not independently approved):** Tren bisa tidak relevan dengan audience, category, atau brand dan belum tentu mendukung objective maupun outcome yang diinginkan.
+   **Expected answer in guide (not independently approved):** Tren viral hanyalah sinyal, bukan otomatis peluang merek. Periksa relevansi dengan audiens, kategori, brand voice, timing, sensitivitas budaya, hak musik atau footage, risiko reputasi dan objective. Gunakan data tren untuk menghasilkan hipotesis, lalu validasi sebelum ikut serta.
 2. **Q:** Apa tanda insight mining berkualitas?
-   **Expected answer in guide (not independently approved):** Signals dapat ditelusuri, cluster menjelaskan need/tension, evidence lintas sumber, and content action jelas.
+   **Expected answer in guide (not independently approved):** Insight mining yang baik memiliki sumber dan tanggal yang dapat ditelusuri, menggabungkan sinyal dari beberapa sumber, lalu membedakan pola dari asumsi. Cluster harus menjelaskan kebutuhan atau ketegangan audiens, menunjukkan bukti pendukung dan kontradiksi, serta menghasilkan tindakan konten yang spesifik.
 3. **Q:** Apa beda audience question dan brand talking point?
-   **Expected answer in guide (not independently approved):** Audience question berasal dari kebutuhan mereka; brand talking point berasal dari hal yang ingin disampaikan brand.
+   **Expected answer in guide (not independently approved):** Audience question berasal dari kebutuhan, masalah atau rasa ingin tahu yang benar-benar dimiliki audiens. Brand talking point berasal dari pesan yang ingin disampaikan perusahaan. Strategi konten menghubungkan keduanya tanpa memaksakan promosi ketika bukti atau kebutuhan belum mendukung.
 
 **Glossary:**
 - **Insight mining:** Proses menemukan kebutuhan/tension dari beragam data/sinyal.
@@ -5145,11 +5145,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko hook clickbait?
-   **Expected answer in guide (not independently approved):** Hook yang menjanjikan hal berlebihan dapat mengecewakan audience, meningkatkan bounce atau negative feedback, dan menurunkan brand trust.
+   **Expected answer in guide (not independently approved):** Hook menjadi clickbait ketika menjanjikan hasil, informasi atau sensasi yang tidak dipenuhi isi konten. Ketidaksesuaian itu dapat merusak trust, memicu negative feedback dan membuat distribusi tidak efisien. Pastikan pembuka menarik tetapi tetap akurat, proporsional dan relevan.
 2. **Q:** Apa beda tension dan problem statement?
-   **Expected answer in guide (not independently approved):** Tension menangkap konflik/need audience secara naratif; problem statement memformulasikan hambatan untuk keputusan.
+   **Expected answer in guide (not independently approved):** Tension adalah konflik, kebutuhan atau ketidakpuasan audiens yang memberi energi pada cerita. Problem statement merumuskan hambatan tersebut secara lebih operasional agar dapat dianalisis atau diselesaikan. Tension membangun relevansi naratif; problem statement memperjelas persoalan dan ruang tindakan.
 3. **Q:** Apa fungsi proof dalam storytelling?
-   **Expected answer in guide (not independently approved):** Proof memberi dasar untuk mempercayai claim dan membedakan cerita yang dapat dipertanggungjawabkan dari opini atau hiburan tanpa bukti.
+   **Expected answer in guide (not independently approved):** Proof memberi dasar untuk mempercayai klaim atau cerita, misalnya data yang metodologinya jelas, demonstrasi, dokumen, pengalaman nyata atau sumber ahli. Pilih bukti yang relevan dengan klaim, periksa izin penggunaannya dan jangan mengubah opini atau anekdot menjadi fakta umum.
 
 **Glossary:**
 - **Hook:** Pembuka yang menarik perhatian dan menetapkan relevansi.
@@ -5185,11 +5185,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa long-form membutuhkan source trail?
-   **Expected answer in guide (not independently approved):** Source trail membantu pembaca dan editor memeriksa klaim, angka, freshness, konteks, dan kredibilitas sebelum konten dipublikasikan.
+   **Expected answer in guide (not independently approved):** Long-form membutuhkan source trail agar editor dapat memeriksa asal klaim, angka, kutipan, tanggal, metode dan konteks sebelum publikasi. Simpan URL, penerbit, tanggal akses, bagian yang mendukung serta izin penggunaan visual; utamakan sumber primer untuk klaim penting.
 2. **Q:** Apa risiko memakai sumber sekunder tanpa cross-check?
-   **Expected answer in guide (not independently approved):** Angka/claim bisa outdated, salah konteks, atau hanya mengutip sumber lain yang sama.
+   **Expected answer in guide (not independently approved):** Sumber sekunder dapat mengulang kesalahan sumber awal, memakai data lama atau menghilangkan batas metodologi dan konteks. Telusuri kutipan hingga sumber primer, cocokkan angka serta tanggal, dan cari konfirmasi independen. Bila sumber primer tidak tersedia, jelaskan keterbatasannya.
 3. **Q:** Kapan artikel harus diperbarui?
-   **Expected answer in guide (not independently approved):** Perbarui ketika data, policy, product, platform, legal claim, atau search intent berubah sehingga isi lama berisiko menyesatkan.
+   **Expected answer in guide (not independently approved):** Perbarui artikel ketika fakta, regulasi, produk, fitur platform, harga, data, tautan atau search intent berubah sehingga jawaban lama tidak lagi memadai. Lakukan review berkala sesuai risiko topik, verifikasi sumber terbaru, catat perubahan material dan jangan mengubah tanggal tanpa pembaruan nyata.
 
 **Glossary:**
 - **Editorial brief:** Dokumen scope, reader, angle, evidence, outline, and CTA.
@@ -5225,11 +5225,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda repurposing dan reposting?
-   **Expected answer in guide (not independently approved):** Repurposing mengadaptasi angle, structure, format, and CTA untuk audience/context; reposting mengulang asset.
+   **Expected answer in guide (not independently approved):** Repurposing mengadaptasi ide atau materi sumber menjadi aset baru dengan angle, struktur, durasi, visual, caption dan CTA yang sesuai konteks kanal. Reposting hanya menerbitkan ulang aset yang sama. Pastikan adaptasi tetap menjaga akurasi, hak penggunaan dan kebutuhan audiens.
 2. **Q:** Mengapa first-frame penting?
-   **Expected answer in guide (not independently approved):** First-frame memberi konteks dan relevansi dengan cepat, membantu audience memahami nilai konten, serta memengaruhi keputusan untuk melanjutkan.
+   **Expected answer in guide (not independently approved):** First-frame membantu audiens segera mengenali topik, konteks dan alasan untuk melanjutkan menonton. Gunakan visual serta teks pembuka yang relevan, bukan janji sensasional yang tidak dipenuhi. Uji variasi hook dan nilai hasil dengan retention serta metrik sesuai tujuan.
 3. **Q:** Apa yang harus dicek pada video short-form?
-   **Expected answer in guide (not independently approved):** Aspect ratio, safe zones, captions, audio rights, claims, brand visibility, and link/CTA behavior.
+   **Expected answer in guide (not independently approved):** Periksa rasio dan resolusi, safe zones, keterbacaan caption, subtitle, pacing, cover, CTA dan tampilan lintas perangkat. Pastikan musik memiliki hak penggunaan komersial yang sesuai, klaim akurat, disclosure aktif bila diperlukan, serta identitas atau konten creator memiliki izin.
 
 **Glossary:**
 - **Repurposing:** Mengadaptasi ide/asset ke format dan audience lain.
@@ -5265,11 +5265,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa satu content format tidak selalu cocok lintas platform?
-   **Expected answer in guide (not independently approved):** Audience intent, consumption context, platform distribution, interaction behavior, and format constraints berbeda.
+   **Expected answer in guide (not independently approved):** Satu format tidak otomatis cocok lintas platform karena audiens, niat penggunaan, discovery, durasi, antarmuka, perilaku interaksi dan aturan konten berbeda. Adaptasikan hook, kedalaman, rasio, caption dan CTA berdasarkan fungsi kanal; jangan menyamakan metrik yang definisinya berbeda.
 2. **Q:** Apa yang harus konsisten?
-   **Expected answer in guide (not independently approved):** Brand promise, factual accuracy, point of view, dan key message harus konsisten; format, length, dan execution dapat diadaptasi.
+   **Expected answer in guide (not independently approved):** Yang harus konsisten adalah akurasi fakta, brand promise, nilai, substansi klaim dan disclosure yang diwajibkan. Format, durasi, pacing, visual, bahasa, caption dan CTA dapat disesuaikan dengan perilaku platform selama adaptasi tidak mengubah makna atau menyesatkan audiens.
 3. **Q:** Mengapa metrics lintas platform tidak boleh dibandingkan mentah?
-   **Expected answer in guide (not independently approved):** Definitions, view thresholds, audience, and platform behavior berbeda; gunakan normalized task-specific metrics.
+   **Expected answer in guide (not independently approved):** Metrik lintas platform tidak boleh dibandingkan mentah karena definisi view, threshold, replay, engaged view, attribution, audience dan jendela pelaporan dapat berbeda. Samakan objective dan unit, gunakan metrik yang sebanding, catat tanggal definisi serta hindari ranking hanya dari angka agregat.
 
 **Glossary:**
 - **Platform-native:** Format/ekspresi yang sesuai mekanisme dan ekspektasi platform.
@@ -5305,11 +5305,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa paid boost bukan pengganti distribution strategy?
-   **Expected answer in guide (not independently approved):** Amplification perlu audience fit, asset quality, rights, objective, budget, and downstream measurement.
+   **Expected answer in guide (not independently approved):** Paid boost hanya menambah distribusi berbayar; ia tidak menggantikan pemilihan kanal, audience, timing, format, owned media, community, creator dan tujuan perjalanan pelanggan. Rencanakan distribution sejak brief, pastikan rights dan kesiapan landing path, lalu ukur kontribusi paid dan organic secara terpisah.
 2. **Q:** Apa risiko UGC/creator asset digunakan berbayar tanpa rights?
-   **Expected answer in guide (not independently approved):** Penggunaan tanpa rights dapat melanggar IP atau usage agreement, merusak hubungan creator, dan menimbulkan policy maupun legal exposure.
+   **Expected answer in guide (not independently approved):** UGC atau creator asset tidak otomatis boleh dipakai sebagai iklan hanya karena tersedia secara publik atau pernah diunggah organik. Periksa lisensi hak cipta, portrait/likeness, musik, editing, media, wilayah, durasi dan paid usage; dapatkan izin tertulis sesuai ruang lingkup aktivasi.
 3. **Q:** Bagaimana memisahkan hasil organic dan paid?
-   **Expected answer in guide (not independently approved):** Gunakan tagging, platform reporting, asset IDs, time windows, and clearly defined attribution.
+   **Expected answer in guide (not independently approved):** Pisahkan organic dan paid menggunakan asset ID, label campaign, periode, placement dan laporan native platform. Catat tanggal mulai amplification serta perubahan creative; jangan menjumlahkan angka yang tumpang tindih. Jelaskan bahwa platform attribution tidak otomatis mengukur incremental impact.
 
 **Glossary:**
 - **Amplification:** Meningkatkan distribusi asset melalui paid/partner resources.
@@ -5345,11 +5345,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa view count bukan universal success metric?
-   **Expected answer in guide (not independently approved):** View thresholds/platform definitions berbeda dan tidak membuktikan attention, brand impact, or downstream behavior.
+   **Expected answer in guide (not independently approved):** View count bukan ukuran keberhasilan universal karena definisi platform dan format berbeda serta tidak selalu menunjukkan perhatian atau hasil. YouTube mengubah hitungan public views lintas format mulai 24 Agustus 2026 menjadi play-start; engaged views tetap penting untuk menilai kelanjutan menonton.
 2. **Q:** Apa nilai saves dan shares?
-   **Expected answer in guide (not independently approved):** Dapat menunjukkan utility/advocacy, tetapi tetap perlu interpretasi sesuai platform, content type, and business objective.
+   **Expected answer in guide (not independently approved):** Saves dapat menunjukkan bahwa konten dianggap berguna untuk dirujuk kembali, sedangkan shares dapat menunjukkan keinginan menyebarkannya. Keduanya tetap sinyal perilaku, bukan bukti otomatis tentang sales, loyalty atau advocacy; interpretasikan menurut platform, format, audience dan objective.
 3. **Q:** Apa yang harus dilakukan bila content metric dan sales tidak sejalan?
-   **Expected answer in guide (not independently approved):** Periksa audience/journey role, attribution, landing path, product readiness, and whether asset's intended job is direct conversion.
+   **Expected answer in guide (not independently approved):** Periksa dahulu peran konten dalam journey: awareness, education, consideration atau direct response. Lalu audit audience fit, attribution window, link/landing experience, offer, product availability dan sales process. Jangan langsung menyimpulkan konten gagal bila metrik penjualan tidak bergerak.
 
 **Glossary:**
 - **Watch time:** Watch time adalah total durasi video ditonton atau rata-rata durasi per view sesuai definisi platform.
@@ -5385,11 +5385,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa yang harus bisa dijelaskan dari content capstone?
-   **Expected answer in guide (not independently approved):** Mengapa content themes dipilih, audience need apa yang dijawab, bagaimana diproduksi/disebar, dan bagaimana success diukur.
+   **Expected answer in guide (not independently approved):** Capstone harus menjelaskan mengapa tema dipilih, kebutuhan audiens yang dijawab, bukti di balik insight, proses produksi, adaptasi kanal, rights, distribusi dan KPI. Tunjukkan keputusan serta trade-off, lalu hubungkan hasil dengan objective dan pembelajaran untuk periode berikutnya.
 2. **Q:** Apa yang belum otomatis tercakup oleh kurikulum content strategy?
-   **Expected answer in guide (not independently approved):** Practical production depth seperti shooting, editing, lighting, audio, and motion perlu latihan teknis tambahan.
+   **Expected answer in guide (not independently approved):** Content strategy tidak otomatis melatih kemampuan produksi seperti camera operation, lighting, audio recording, editing, motion graphics, color, subtitle dan file delivery. Jika role menuntut eksekusi, tambahkan latihan teknis, spesifikasi output, penggunaan alat serta QA lintas perangkat.
 3. **Q:** Bagaimana membuktikan portfolio tanpa client?
-   **Expected answer in guide (not independently approved):** Labeli brief/data sebagai simulated; tampilkan storyboard/asset/workflow/source and self-review, bukan fake performance claims.
+   **Expected answer in guide (not independently approved):** Portfolio tanpa client dapat memakai brief, brand, creator dan dataset simulasi selama semuanya diberi label jelas. Tampilkan research, rationale, storyboard, sample asset, workflow, rights checklist, measurement plan dan self-review; jangan mengklaim campaign, client result atau angka pasar fiktif.
 
 **Glossary:**
 - **Editorial system:** Editorial system adalah proses perencanaan, produksi, approval, publishing, measurement, dan update konten secara konsisten.
