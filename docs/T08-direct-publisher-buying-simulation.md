@@ -197,7 +197,7 @@ Reconcile each invoice line against the approved booking and verified delivery.
 | Reported delivery | 5,280,000 | 4,000,000 |
 | Shortfall media value estimate | Rp8,640,000 | Rp7,000,000 |
 | Remedy evidence | Pending written makegood/credit resolution | Pending written makegood/credit resolution |
-| Invoice decision | Hold for documented reconciliation under approved terms; do not deduct unilaterally | Hold for documented reconciliation under approved terms; do not deduct unilaterally |
+| Invoice decision | Reconcile with finance under the IO's invoice/dispute clause; record disputed line items and remedy request. Do not deduct unilaterally. Pay, hold or partially pay only as the signed terms and authorized approval permit. | Reconcile with finance under the IO's invoice/dispute clause; record disputed line items and remedy request. Do not deduct unilaterally. Pay, hold or partially pay only as the signed terms and authorized approval permit. |
 
 The sample does not prescribe a unilateral invoice deduction or a legal right to withhold payment. Finance/procurement must apply the signed terms, dispute window and applicable tax/invoice rules. Any approved credit note, makegood or adjustment must be traceable to the original IO.
 
