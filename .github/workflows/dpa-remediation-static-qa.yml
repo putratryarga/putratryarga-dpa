@@ -31,6 +31,9 @@ jobs:
       - name: Run deterministic repository validator
         run: node scripts/validate-dpa-static.js
 
+      - name: Validate audit register parity
+        run: node scripts/validate-dpa-audit-registers.js
+
       - name: Run deterministic chapter depth screen
         run: node scripts/audit-dpa-chapter-depth.js
 
