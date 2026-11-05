@@ -9,7 +9,7 @@
 - 169 chapter IDs and 169 guide IDs reconcile statically.
 - 149 added role-specific guide objects were reconciled against their source arrays; each has 3 Q&A pairs, 4 glossary entries and 4 workflow steps.
 - 20 legacy guides (10 Full-Stack and 10 Paid Social) retain their original source format and require a separate content/answer-key pass.
-- Across the 149 added guides, **125 answer pairs in 81 chapters** are shorter than 12 words; **81 glossary definitions in 58 chapters** are shorter than 5 words. These are review flags, not automatic errors. Short answers may be acceptable for direct definitions, but must be checked for completeness and acceptable alternatives.
+- Across the 149 added guides, **122 answer pairs in 79 chapters** are shorter than 12 words; **81 glossary definitions in 58 chapters** are shorter than 5 words. Counts use whitespace-delimited words after stripping HTML tags and HTML entities from answer/definition text; these are manual-review flags, not automatic defects. These are review flags, not automatic errors. Short answers may be acceptable for direct definitions, but must be checked for completeness and acceptable alternatives.
 - The rubric register now contains 169 chapter-specific artifact checklists, shared five-dimension scoring criteria, and 507 Q&A review entries. Rubric calibration against sample submissions remains open.
 - The resource map now contains 169 chapter rows; source-to-objective fit and Indonesia access/price checks remain open.
 
@@ -84,9 +84,9 @@
 | DPA-T07-CH03 | Retailer Media Network & Advertising Models | Added role-specific | 1 | 1 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH04 | Onsite Retail Media: Sponsored Products & Search | Added role-specific | 0 | 0 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH05 | Offsite Retail Media: Display, Social & Video | Added role-specific | 2 | 0 | OPEN | OPEN | OPEN | OPEN |
-| DPA-T07-CH06 | Retail Audience, First-Party Data & Targeting | Added role-specific | 2 | 1 | OPEN | OPEN | OPEN | OPEN |
+| DPA-T07-CH06 | Retail Audience, First-Party Data & Targeting | Added role-specific | 3 | 3 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH07 | Product Feed, Digital Shelf & Retail Readiness | Added role-specific | 0 | 0 | OPEN | OPEN | OPEN | OPEN |
-| DPA-T07-CH08 | Campaign Activation, Bidding & Optimization | Added role-specific | 1 | 0 | OPEN | OPEN | OPEN | OPEN |
+| DPA-T07-CH08 | Campaign Activation, Bidding & Optimization | Added role-specific | 0 | 1 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH09 | Sales Measurement, ACoS, ROAS & Incrementality | Added role-specific | 1 | 1 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T07-CH10 | Retail Media Capstone | Added role-specific | 0 | 0 | OPEN | OPEN | OPEN | OPEN |
 | DPA-T08-CH01 | Media Owner, Publisher & Supply Landscape | Added role-specific | 2 | 1 | OPEN | OPEN | OPEN | OPEN |
