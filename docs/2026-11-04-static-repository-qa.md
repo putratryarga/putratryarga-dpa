@@ -38,7 +38,7 @@
 - The 8 local script references and static responsive/theme/progress/focus/reduced-motion code are present. Presence is not proof that the features behave correctly at runtime.
 - The source files include a legitimate JavaScript guard checking whether `DPA_GUIDE_BY_CHAPTER` is `undefined`; this is not a rendered placeholder or a content defect.
 
-| Agency evidence matrix | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | STRUCTURE VERIFIED — competency/JD validation remains PARTIAL |
+| Agency evidence matrix | 80 unique cells; A37/B22/D42/G0; 21 compound labels; 101 class-label instances | STRUCTURE VERIFIED — historical/adjacent routes recovered; direct/current competency validation remains PARTIAL |
 
 | Elective evidence groups | 10 agency × elective rows (5 groups × 2 electives) | STRUCTURE VERIFIED — content validation remains PENDING |
 | Canonical chapter ID inventory | 169 unique IDs | STRUCTURE VERIFIED — score recomputation blocked by missing raw vectors |
