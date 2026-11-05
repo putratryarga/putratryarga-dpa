@@ -147,3 +147,8 @@ This implementation is **PARTIAL** and strictly test-only. It is not connected t
 The current remediation branch contains row-level control registers for 507 core Q&A items, 169 objective-to-resource rows, 80 agency × core-track evidence cells, 28 elective chapters and 56 elective knowledge checks. These inventories are linked from the README and requirements acceptance register. Their existence does not establish correctness, source fit, SME approval, direct/current JD validation or learner-pilot readiness; all item-level review decisions remain OPEN.
 
 The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). The resource map now has 54 unique URLs; objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
+
+
+## 17. 169-core chapter depth screening
+
+A deterministic screening script, [169-chapter depth report](169-chapter-depth-screening.md) and [169-row CSV](169-chapter-depth-screening.csv) now quantify objective, example, workflow, practice, glossary, Q&A and source-map structure. All 169 chapters met the documented heuristic thresholds and the 507 core question texts had no exact normalized duplicates in this screen. This is a structural signal only; it does not close technical accuracy, chapter relevance, resource-fit, local-market or SME acceptance. All corresponding review states remain OPEN.
