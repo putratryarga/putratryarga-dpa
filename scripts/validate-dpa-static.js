@@ -138,6 +138,8 @@ try {
   const sourceOfTruth = read("docs/DPA-MASTER-SOURCE-OF-TRUTH.md");
   const readme = read("README.md");
   const electiveDrafts = read("docs/28-advanced-elective-full-chapter-drafts.md");
+  const t08Simulation = read("docs/T08-direct-publisher-buying-simulation.md");
+  const resourceFitReview = read("docs/169-chapter-resource-fit-review.md");
 
   const scopeLock = acceptanceRegister.includes("18 pathways = 16 Core Specialist Tracks + 2 Advanced Electives");
   if (!scopeLock) fail.push("Acceptance register must lock program scope at 18 pathways = 16 Core + 2 Electives.");
@@ -157,6 +159,25 @@ try {
   const electiveChapterHeadings = electiveDrafts.match(/^## (?:17|18)\.\d{2} — /gm) || [];
   assertEqual("Advanced elective first-pass chapter headings", electiveChapterHeadings.length, 28);
   if (!acceptanceRegister.includes("28 elective draft chapters")) fail.push("Acceptance register must keep 28 elective drafts separate from 169 core chapters.");
+
+  if (!t08Simulation.includes("SYNTHETIC, non-client, non-market-benchmark data")) {
+    fail.push("T08 simulation must declare all exercise data as synthetic.");
+  }
+  const t08ChapterRows = t08Simulation.match(/^\| T08-CH\d{2} — .+\|$/gm) || [];
+  const t08ChapterIds = t08ChapterRows.map((row) => row.match(/T08-CH\d{2}/)[0]);
+  assertEqual("T08 simulation chapter rows", t08ChapterRows.length, 10);
+  assertEqual("T08 simulation unique chapter rows", unique(t08ChapterIds).length, 10);
+  const t08ResourceRows = resources.split(String.fromCharCode(10)).filter((line) =>
+    /\| DPA-T08-CH\d{2} \|/.test(line) &&
+    line.includes("Tier 3 practice pack: docs/T08-direct-publisher-buying-simulation.md (synthetic).")
+  );
+  assertEqual("T08 resource map rows linked to simulation pack", t08ResourceRows.length, 10);
+  if (!resourceFitReview.includes("T08 chapter practice = PARTIALLY ENHANCED")) {
+    fail.push("Resource-fit review must preserve T08 simulation as a practice enhancement, not a source-fit PASS.");
+  }
+  if (!resourceFitReview.includes("169-objective source-fit gate remains **OPEN**")) {
+    fail.push("Resource-fit review must keep the 169-objective source-fit gate OPEN.");
+  }
 
   const htmlIds = [...html.matchAll(/data-chapter-id=["'](DPA-T\d{2}-CH\d{2})["']/g)].map((m) => m[1]);
   const fullIds = [...fullstack.matchAll(/chapterId\s*:\s*["'](DPA-T\d{2}-CH\d{2})["']/g)].map((m) => m[1]);
