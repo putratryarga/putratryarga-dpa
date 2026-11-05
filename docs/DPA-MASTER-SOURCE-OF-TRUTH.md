@@ -172,3 +172,8 @@ The current core chapter resource map has 169 rows and 55 unique URLs. T03's fou
 ## 21. T10 chapter source-fit batch
 
 The [T10 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and its CSV record the first priority track's chapter-level desk review. T10 has ten PARTIAL chapter dispositions; CH04 and CH07 have stronger source alignment, while the gaps for other chapters are documented. The current resource map has 169 rows and 67 unique URLs. Formal acceptance, exact objective-to-source-section sign-off, Indonesia access and SME review remain OPEN.
+
+
+## 22. T03 media-planning source-fit review
+
+A first-pass review for all ten T03 chapters is recorded in [T03 review](T03-10-chapter-source-fit-review.md) and its [10-row CSV](T03-10-chapter-source-fit-review.csv). Each chapter is PARTIAL at desk-review level. The resource map now contains 169 rows and 70 unique URLs. The additional references include YouGov's 2025 Indonesia media-consumption summary, Google Ads Reach Planner's October 2026 frequency-suggestion guidance and MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0. Scope boundaries matter: Reach Planner forecasts YouTube/video-partner plans; MRC OOH covers OOH; MRC digital-audio covers streaming/progressive download and excludes traditional over-the-air AM/FM. No unified Indonesia cross-media currency or radio ratings method is claimed. Formal source fit, Indonesia access and SME review remain OPEN.
