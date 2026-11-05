@@ -319,14 +319,17 @@ try {
   const objectiveFitRegister = read("docs/169-objective-resource-fit-register.csv");
   const agencyCellRegister = read("docs/80-agency-role-cell-validation-register.csv");
   const electiveValidationRegister = read("docs/28-advanced-elective-validation-register.csv");
-  const qnaReviewRows = qnaReviewRegister.trim().split("\\n").length - 1;
-  const objectiveFitRows = objectiveFitRegister.trim().split("\\n").length - 1;
-  const agencyCellRows = agencyCellRegister.trim().split("\\n").length - 1;
-  const electiveValidationRows = electiveValidationRegister.trim().split("\\n").length - 1;
+  const qnaReviewRows = qnaReviewRegister.trim().split("\n").length - 1;
+  const objectiveFitRows = objectiveFitRegister.trim().split("\n").length - 1;
+  const agencyCellRows = agencyCellRegister.trim().split("\n").length - 1;
+  const electiveValidationRows = electiveValidationRegister.trim().split("\n").length - 1;
   assertEqual("507-item Q&A review register rows", qnaReviewRows, 507);
   assertEqual("169-objective resource-fit register rows", objectiveFitRows, 169);
   assertEqual("80-cell agency validation register rows", agencyCellRows, 80);
   assertEqual("28-chapter elective validation register rows", electiveValidationRows, 28);
+  const electiveQnaRegister = read("docs/56-elective-knowledge-check-review-register.csv");
+  const electiveQnaRows = electiveQnaRegister.trim().split("\n").length - 1;
+  assertEqual("56-item elective knowledge-check register rows", electiveQnaRows, 56);
   const requiredNewResourceUrls = [
     "https://sqlbolt.com/topics",
     "https://miguelhernan.org/whatifbook",
