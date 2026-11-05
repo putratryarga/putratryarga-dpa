@@ -647,3 +647,42 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 | Formal SME sign-off | 0 completed | NOT SIGNED OFF |
 
 **Release rule:** this file completes the first full written draft of all 28 elective chapters. It does not make the electives final or validated. Before learner release, each chapter needs an evidence register, verified learning sources, calibrated assessment, role/JD mapping, Indonesia-market review, workload pilot, and named SME approval.
+
+## Source appendix — official and standards reference links
+
+These references support the teaching routes named in the chapter drafts. They are not a substitute for chapter-level evidence sign-off. “Official” means the named issuer publishes the destination; it does not imply neutral coverage, local eligibility, accreditation or complete objective fit.
+
+### Elective 17 — CRO / Growth / Experience Optimization
+
+| Chapter(s) | Reference | Scope and limitation |
+|---|---|---|
+| 17.01, 17.06, 17.13, 17.14 | Internal finance-approved contribution definitions and unit-economics inputs | No public generic source can validate a specific employer's margin, CAC, LTV or cost definitions. Obtain an authorized case brief or label figures synthetic. |
+| 17.02, 17.05, 17.14 | [W3C Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/) | Accessibility success criteria; the learner must verify conformance against the actual product and applicable policy. |
+| 17.03 | [Google Analytics recommended events](https://support.google.com/analytics/answer/9267735/) | Official event names/parameters for defined use cases; not a complete measurement strategy or permission to collect data. |
+| 17.03, 17.09 | [Google Tag Manager data layer](https://developers.google.com/tag-platform/tag-manager/datalayer) | Official technical guidance for passing structured data to tags; implementation and consent QA remain required. |
+| 17.03, 17.04, 17.08, 17.10 | [Google Analytics documentation](https://support.google.com/analytics/) and [GoogleSQL query syntax](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax) | Product documentation and SQL syntax; not a complete statistics, causal-inference or SQL learning programme. |
+| 17.05 | [Microsoft Clarity documentation](https://learn.microsoft.com/clarity) and [recordings overview](https://learn.microsoft.com/en-us/clarity/recordings-overview) | Behavioural observation tool documentation. Session recording/replay use requires privacy, consent, masking and retention review; interaction traces do not independently establish causality. |
+| 17.07, 17.08, 17.09, 17.10, 17.12, 17.14 | [Optimizely — steps to create an experiment](https://support.optimizely.com/hc/en-us/articles/39075638006541-Steps-to-create-an-experiment) and [Feature Experimentation analysis](https://docs.optimizely.com/feature-experimentation/docs/experiment-analysis) | Vendor-specific experiment setup and analysis documentation. Statistical design, randomization validity, sample size and causal assumptions need independent review; do not treat platform output as automatic certification of validity. |
+| 17.11 | CRM/CDP vendor documentation plus the organization's approved privacy, consent, retention and contact-policy documents | Product-specific configuration varies. A platform's ability to segment or activate an audience does not establish lawful purpose or fairness. |
+
+### Elective 18 — Traditional Media Planning & Buying
+
+| Chapter(s) | Reference | Scope and limitation |
+|---|---|---|
+| 18.02, 18.03, 18.04, 18.09, 18.13, 18.14 | Current Indonesian audience-measurement provider methodology and supplier data dictionary, obtained from the authorized supplier | Required local evidence. The public curriculum cannot assume a single Indonesia-wide currency across TV, radio, print, OOH and digital. Preserve universe, period, sample, weighting, unit and method. |
+| 18.03, 18.07, 18.09, 18.13 | [OAAA DOOH Exposure Methodology Standardization Guidelines](https://oaaa.org/resources/dooh-exposure-methodology-standardization-guidelines-best-practices/) | US-oriented methodology published in December 2022. Reference for exposure-model design only; not an Indonesian standard or a direct individual-impression guarantee. |
+| 18.05 | [Radio Advertising Bureau — Audio Marketing Professional (AMP)](https://www.rab.com/public/pr/pr_detail.cfm?id=1035) | RAB announced this professional audio-marketing education/credential on 15 September 2026. It is a US industry programme; check eligibility, fees, assessment, geography and relevance. It is not an Indonesian regulator credential or proof of local buying competency. |
+| 18.01, 18.06, 18.08, 18.10, 18.11, 18.12, 18.13, 18.14 | Current media-owner media kits, proposals, booking confirmations, insertion orders, proof-of-delivery and invoice records, provided under authorization | Commercial and market-specific evidence. Use simulated examples for learning where real documents are confidential; mark all assumptions and redact sensitive terms. Public digital ad standard terms are not a substitute for offline-media contract review. |
+| 18.01, 18.10, 18.11, 18.12, 18.13, 18.14 | Current agency procurement, conflict-of-interest, approval, invoice and legal templates | Internal governance evidence. Must be reviewed by the relevant procurement, finance, compliance and legal owners before operational use. |
+| 18.02, 18.06, 18.09 | [Statistics Indonesia (BPS)](https://www.bps.go.id/) plus licensed/local audience studies | BPS population/geographic context is not a media audience currency. Combine it with appropriately licensed audience methodology; never infer media reach from population counts alone. |
+
+### Source maintenance and learner-facing rules
+
+1. Record exact URL, publisher, page/module title, language, access/fee/eligibility, date checked and version.
+2. Separate law/regulation, technical standard, vendor documentation, supplier proposal, academic evidence and internal operating procedure.
+3. A source may be direct for one learning outcome and context-only for another. Record the fit relationship per chapter.
+4. Recheck all links, prices, regional availability, credentials and product features immediately before a cohort starts.
+5. Never imply that an international vendor course, US trade credential or foreign audience currency is an Indonesian legal/professional standard.
+6. The six source-link groups above are a course-level appendix. They do not close the 169-core-chapter resource-fit review or independently approve any elective chapter.
+
+**Draft disposition:** source routes are now linked to authoritative references where available; local proprietary/contract evidence and independent reviewer sign-off remain open.
