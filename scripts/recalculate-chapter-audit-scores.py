@@ -50,8 +50,8 @@ def main() -> int:
             if line.strip() and not line.lstrip().startswith("#")
         }
         invalid_ids = [x for x in expected_ids if not (
-            len(x) == 13 and x.startswith(CHAPTER_ID_PREFIX)
-            and x[6:8].isdigit() and x[9:11] == "CH" and x[11:13].isdigit()
+            len(x) == 12 and x.startswith(CHAPTER_ID_PREFIX)
+            and x[5:7].isdigit() and x[8:10] == "CH" and x[10:12].isdigit()
         )]
         if invalid_ids:
             raise SystemExit("FAIL: malformed IDs in expected-ID file: " + ", ".join(sorted(invalid_ids)[:10]))
@@ -64,11 +64,11 @@ def main() -> int:
         track_id = (row.get("track_id") or "").strip()
         if not chapter_id or not track_id:
             raise SystemExit(f"FAIL line {line_no}: chapter_id and track_id are required.")
-        if not (len(chapter_id) == 13 and chapter_id.startswith(CHAPTER_ID_PREFIX)
-                and chapter_id[6:8].isdigit() and chapter_id[9:11] == "CH"
-                and chapter_id[11:13].isdigit()):
+        if not (len(chapter_id) == 12 and chapter_id.startswith(CHAPTER_ID_PREFIX)
+                and chapter_id[5:7].isdigit() and chapter_id[8:10] == "CH"
+                and chapter_id[10:12].isdigit()):
             raise SystemExit(f"FAIL line {line_no}: malformed chapter ID {chapter_id!r}.")
-        expected_track = chapter_id[4:8]
+        expected_track = chapter_id[4:7]
         if track_id != expected_track:
             raise SystemExit(f"FAIL line {line_no}: track_id {track_id!r} does not match {chapter_id} ({expected_track}).")
         if chapter_id in seen:
