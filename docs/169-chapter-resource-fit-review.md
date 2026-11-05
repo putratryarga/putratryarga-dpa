@@ -7,7 +7,7 @@
 
 ## 1. Executive result
 
-At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 67 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
+At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 77 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
 
 The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. The initial six-source enrichment was subsequently refined to direct MRC OOH / MRC retail PDFs and the IAB Europe V2.1 article; later T10 and T03 reviews extended the map to 70 unique URLs. Access outcomes and caveats are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 automated retrieval result forward as a current 46/70 result or claim all 70 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
 
@@ -178,3 +178,10 @@ A first-pass source-fit desk review is now recorded in [T03 — Media Planning: 
 The current resource map is **169 chapter rows / 70 unique URLs**. The T03 source pass adds YouGov's 2025 Indonesia media-consumption summary, Google Ads Reach Planner's October 2026 frequency-suggestion update and the MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0. These references have different scopes: YouGov is audience-habit research, Reach Planner is YouTube/video-partner forecasting, and MRC digital audio is streaming/progressive-download measurement. The MRC standard explicitly excludes traditional over-the-air AM/FM measurement. None closes Indonesia cross-media deduplication or traditional radio audience currency.
 
 The T03 review distinguishes narrow component support from complete chapter fit. Do not sum or compare platform video reach, Nielsen TV panel, OOH audience estimates and digital-audio stream metrics as if they shared the same universe or methodology.
+
+
+## T02 — 10-chapter connection-planning source-fit batch review
+
+The [T02 10-Chapter Source-Fit Review](T02-10-chapter-source-fit-review.md) and its [10-row CSV](T02-10-chapter-source-fit-review.csv) record a first-pass desk assessment of CH01–CH10. All ten are PARTIAL. GovS 011 and GCS OASIS provide public-sector campaign lifecycle guidance; GCS Evaluation Cycle provides a communications evaluation process; ICC/ESOMAR provides research ethics; ICC Advertising Code provides responsible-marketing principles; NN/g supports UX journey mapping; and AMA/AAMA resources support positioning/message framework concepts. These are component sources with context-specific limits, not a complete commercial connection-planning curriculum.
+
+The source map now contains 169 rows / 77 unique URLs after this T02 enrichment. Formal objective-level decisions for all 169 chapters, including T02/T03/T10, remain OPEN until exact section-to-objective fit, Indonesia access/cost/language, technical review and qualified SME disposition are recorded.
