@@ -169,3 +169,12 @@ The current map uses the directly opened MRC Out-of-Home Measurement Standards (
 ## T10 — 10-chapter source-fit batch review
 
 The first chapter-level desk review of the next priority track (T10) is recorded in [T10 — 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and its [10-row CSV](T10-10-chapter-source-fit-review.csv). All ten chapters are classified PARTIAL at desk-review level. CH04 and CH07 have stronger mapped method sources after this pass; CH01, CH02, CH03, CH05, CH06, CH08, CH09 and CH10 retain material gaps described in the review. Formal 169-objective acceptance remains OPEN pending exact section evidence, Indonesia access, technical review and qualified SME disposition. Current overall inventory: 169 rows / 67 unique URLs.
+
+
+## T03 10-chapter source-fit desk review — 5 November 2026
+
+A first-pass source-fit desk review is now recorded in [T03 — Media Planning: 10-Chapter Source-Fit Review](T03-10-chapter-source-fit-review.md) and its [10-row CSV](T03-10-chapter-source-fit-review.csv). All ten T03 chapters are classified **PARTIAL** at desk-review level; formal objective acceptance, Indonesia access and SME approval remain OPEN.
+
+The current resource map is **169 chapter rows / 70 unique URLs**. The T03 source pass adds YouGov's 2025 Indonesia media-consumption summary, Google Ads Reach Planner's October 2026 frequency-suggestion update and the MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0. These references have different scopes: YouGov is audience-habit research, Reach Planner is YouTube/video-partner forecasting, and MRC digital audio is streaming/progressive-download measurement. The MRC standard explicitly excludes traditional over-the-air AM/FM measurement. None closes Indonesia cross-media deduplication or traditional radio audience currency.
+
+The T03 review distinguishes narrow component support from complete chapter fit. Do not sum or compare platform video reach, Nielsen TV panel, OOH audience estimates and digital-audio stream metrics as if they shared the same universe or methodology.
