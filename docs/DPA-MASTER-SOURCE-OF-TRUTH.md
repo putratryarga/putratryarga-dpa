@@ -114,3 +114,8 @@ Separate PASS/FAIL/BLOCKED for: repository integrity; issue/discrepancy reconcil
 - Raw-score collection: audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv is a blank 169-row template only. Seven dimension definitions and original raw values remain missing; the template is not a score matrix and must not be scored.
 - Historical recovery: all 12 branches exposed by GitHub were inspected; no raw 169×7 matrix or original 23-row/D-1…D-12 records were located in repository trees, PR #5/#6 discussions/reviews, or accessible Library sources.
 - The overall release decision remains NOT READY — REMEDIATION INCOMPLETE. No production merge/deployment is authorized by this documentation update.
+
+
+## 13. Requirements traceability and acceptance
+
+The normative remediation and release acceptance checklist is [Requirements Traceability & Acceptance Register](requirements-traceability-acceptance-register.md). It preserves the 18-pathway scope (16 Core Specialist Tracks + Electives 17 and 18), the separate CF1–CF6 shared foundation layer, and distinct evidence gates for structure, content, SME, resources, assessments, agency evidence, runtime, accessibility and production. The register does not replace this architecture document; it converts its requirements into testable acceptance criteria and must be kept synchronized. A requirement is not COMPLETE solely because its structural count or CI check passes.
