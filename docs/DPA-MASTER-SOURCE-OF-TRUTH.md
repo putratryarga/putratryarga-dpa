@@ -248,3 +248,14 @@ The source checks cover Google Analytics attribution settings and BigQuery expor
 The cumulative core-Q&A triage inventory now has **66/507 items with supporting item-level references** (36 T06 + 30 T10); **441/507 still lack** an item-level source reference. Short-answer heuristic flags are 122 (under 14 words), bare-Boolean openings 21 and absolute-wording flags 16. Total answer length range is 12–42 words. These are editorial triage signals, not answer correctness findings.
 
 **Formal boundary:** all 30 T10 items remain reflective/non-scored; answer-review, editorial, source-fit and SME approval remain OPEN. The 441 remaining source gaps and all other core answer approvals remain OPEN.
+
+
+## 24. T14 Creator & Influencer Partnerships — 36-item Q&A technical/editorial desk review — 5 November 2026
+
+The [T14 12-chapter Q&A technical desk review](T14-12-chapter-qna-technical-desk-review.md) and [36-row CSV](T14-12-chapter-qna-technical-desk-review.csv) document first-pass expansion of all T14 answer guidance to 33–43 words with item-level references. Prior answer text is retained. The canonical `role-study-guides-part3.js`, 169-chapter evidence register, Q&A review CSV and automated triage CSV are synchronized.
+
+The reference set includes Dewan Periklanan Indonesia's EPI 2020, BPK records for UU 8/1999 (Consumer Protection), UU 27/2022 (Personal Data Protection) and UU 28/2014 (Copyright), plus Meta branded-content/partnership ads, TikTok branded-content/Spark Ads authorization and YouTube paid-promotion disclosure. The EPI is an industry ethical code, not itself a statute. Platform authorization is not a substitute for contract rights, copyright/likeness licences or local legal review.
+
+The cumulative Q&A source-mapping inventory now has **102/507 items with supporting item-level references** (T06 36, T10 30, T14 36); **405/507 still lack** an item-level source reference. Automated triage flags 107 answers under 14 words, 19 bare-Boolean openings and 16 absolute-wording hits; current answer length range is 12–43 words. These remain heuristic red flags, not correctness findings.
+
+**Formal boundary:** all 36 T14 items remain reflective/non-scored. Answer-review, editorial, source-fit, local legal/compliance and SME approval remain OPEN.

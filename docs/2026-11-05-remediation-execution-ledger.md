@@ -600,3 +600,14 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Added docs/T10-10-chapter-qna-technical-desk-review.md and 30-row CSV. The validator requires 30 unique T10 item IDs, prior-answer history, source references, 33–41 word explanations, non-scored item type and OPEN answer/editorial/SME status; it also verifies guide/evidence parity.
 - Updated global automated triage counts after T06 + T10: 66/507 item-level supporting source references; 441 remaining source-reference gaps; 122 answers under 14 words; 21 bare-Boolean flags; 16 absolute-wording flags; answer length range 12–42 words. These are heuristic flags, not correctness findings.
 - No answer was promoted to scored/approved; qualified editorial, statistical, analytics and measurement SME approval remains OPEN.
+
+
+## 2026-11-05 — T14 Creator & Influencer Partnerships Q&A technical/editorial desk review
+
+- Expanded all 36 T14 answers (T14-CH01 through T14-CH12) to 33–43 words, mean 37.3. Prior answers are preserved in the 507-item master Q&A register.
+- Added source references per item from Dewan Periklanan Indonesia EPI 2020; BPK records for UU 8/1999, UU 27/2022 and UU 28/2014; Meta creator marketplace/partnership ads; TikTok branded-content disclosure and Spark Ads authorization; and YouTube paid-promotion disclosure.
+- Preserved substantive boundaries: KOL/KOC are practice labels rather than universal standard tiers; follower spikes are risk signals, not fraud proof; gifting is not automatically a contracted post; organic posting permission is distinct from paid usage rights; platform ad authorization is distinct from copyright/likeness licensing; paid amplification must be separated from organic results; discount codes do not estimate causal incrementality by themselves.
+- Synchronized role-study-guides-part3.js, docs/169-chapter-evidence-register.md, docs/507-qna-editorial-sme-review-register.csv and docs/507-qna-automated-triage.csv.
+- Added docs/T14-12-chapter-qna-technical-desk-review.md and 36-row CSV. Validator requires 36 unique item IDs, prior-answer preservation, source references, 33–43 word band, reflective/non-scored and OPEN answer/editorial/SME states; guide/evidence parity is checked.
+- Cumulative automated triage: 102/507 core Q&A items have item-level supporting references; 405 source-reference gaps remain. 107 answers are under 14 words, 19 bare-Boolean openings, 16 absolute-wording flags; length range 12–43 words. These are editorial heuristics, not accuracy findings.
+- All 36 remain reflective/non-scored; legal/compliance and qualified influencer-practice SME sign-off remain OPEN.

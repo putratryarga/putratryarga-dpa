@@ -5427,11 +5427,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa creator economy tidak sama dengan follower economy?
-   **Expected answer in guide (not independently approved):** Creator value mencakup audience trust, content quality, niche authority, rights, and commercial fit—not audience size alone.
+   **Expected answer in guide (not independently approved):** Creator economy menilai ekosistem nilai yang dibangun creator melalui kepercayaan, keahlian, komunitas, konten dan hubungan komersial. Follower count hanya satu sinyal jangkauan; brand juga perlu menilai audience fit, kualitas konten, kredibilitas, hak penggunaan dan kontribusi terhadap objective.
 2. **Q:** Apa beda influencer campaign dan affiliate partnership?
-   **Expected answer in guide (not independently approved):** Influencer dibayar untuk content/reach/credibility; affiliate dibayar menurut tracked action/sales, meski creator dapat menjalankan keduanya.
+   **Expected answer in guide (not independently approved):** Influencer partnership dapat membayar produksi, distribusi, expertise atau penggunaan konten sesuai kontrak. Affiliate biasanya mengaitkan kompensasi dengan action yang dapat ditelusuri seperti klik atau penjualan. Satu creator dapat menjalankan keduanya, sehingga fee tetap dan variable commission harus dipisahkan.
 3. **Q:** Apa fungsi MCN/creator agency?
-   **Expected answer in guide (not independently approved):** Mengelola talent, production, commercial negotiation, access, and scale; scope berbeda per partner.
+   **Expected answer in guide (not independently approved):** MCN atau creator agency dapat membantu talent management, discovery, negosiasi, produksi, administrasi dan hubungan brand. Ruang lingkup berbeda antar organisasi; brand tetap perlu memeriksa siapa pihak kontrak, siapa memiliki authority, biaya perantara dan tanggung jawab deliverables.
 
 **Glossary:**
 - **Creator economy:** Ekosistem creator, platform, partner, monetization, and brand.
@@ -5467,11 +5467,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda KOL dan KOC secara praktis?
-   **Expected answer in guide (not independently approved):** KOL biasanya dipilih untuk expertise/authority; KOC untuk peer experience/recommendation, tetapi batasnya tidak selalu formal.
+   **Expected answer in guide (not independently approved):** KOL biasanya diposisikan berdasarkan expertise, authority atau pengaruh pada kategori; KOC lebih menekankan pengalaman dan peer recommendation. Istilah ini merupakan label praktik yang batasnya tidak selalu konsisten. Pilih creator berdasarkan fungsi, kredibilitas dan audience, bukan label semata.
 2. **Q:** Mengapa tier berdasarkan followers tidak cukup?
-   **Expected answer in guide (not independently approved):** Followers tidak menunjukkan audience fit, authenticity, influence, engagement quality, or content capability.
+   **Expected answer in guide (not independently approved):** Follower tier hanya mengelompokkan ukuran audience berdasarkan ambang yang dapat berbeda menurut platform, negara dan kategori. Tier tidak membuktikan relevansi, authenticity, trust, kemampuan bercerita atau kualitas interaksi. Bandingkan native insights, audience composition, content sample dan objective fit.
 3. **Q:** Apa kewajiban disclosure?
-   **Expected answer in guide (not independently approved):** Audience harus memahami hubungan komersial seperti paid, gifted, atau affiliate sesuai aturan hukum, platform policies, dan kontrak yang berlaku.
+   **Expected answer in guide (not independently approved):** Disclosure harus membuat hubungan komersial mudah dikenali, termasuk pembayaran, sponsor, gifted product atau affiliate ketika ketentuan berlaku. Terapkan hukum dan pedoman iklan Indonesia serta pengaturan disclosure masing-masing platform; catat siapa bertanggung jawab dan periksa sebelum konten dipublikasikan.
 
 **Glossary:**
 - **KOL:** Key Opinion Leader; creator/expert dengan authority pada area.
@@ -5507,11 +5507,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa discovery perlu source trail?
-   **Expected answer in guide (not independently approved):** Source trail membantu memeriksa ulang creator data, kontak, rates, availability, dan perubahan sebelum shortlist atau kontrak disetujui.
+   **Expected answer in guide (not independently approved):** Source trail mencatat kapan creator ditemukan, kanal penemuan, URL/profile, screenshot atau export, sumber audience data, kontak dan tanggal verifikasi. Jejak ini memungkinkan tim menguji ulang perubahan follower, rate, availability dan brand history sebelum shortlist, approval atau kontrak.
 2. **Q:** Apa beda fit score dan performance guarantee?
-   **Expected answer in guide (not independently approved):** Fit score adalah penilaian awal berdasarkan kriteria; ia bukan jaminan reach, engagement, conversion, atau campaign outcome.
+   **Expected answer in guide (not independently approved):** Fit score adalah alat pembanding berbobot untuk audience, content, category, geography, credibility, risk dan cost. Skor membantu shortlist, tetapi bergantung pada kriteria, data dan bobot yang dipilih; ia bukan forecast, service-level commitment atau jaminan campaign outcome.
 3. **Q:** Apa yang harus dikonfirmasi sebelum shortlist final?
-   **Expected answer in guide (not independently approved):** Konfirmasi audience evidence, availability, fee, usage rights, exclusivity, policy issues, dan deliverables sebelum shortlist dikunci.
+   **Expected answer in guide (not independently approved):** Sebelum shortlist final, verifikasi audience evidence dan tanggalnya, content fit, recent sponsorship, competitor conflict, availability, deliverables, fee basis, payment terms, disclosure, usage rights dan paid amplification permission. Minta bukti native analytics atau media kit, lalu dokumentasikan data yang belum tersedia.
 
 **Glossary:**
 - **Creator discovery:** Proses menemukan talent yang sesuai objective.
@@ -5547,11 +5547,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apakah suspicious follower growth pasti fraud?
-   **Expected answer in guide (not independently approved):** Tidak. Bisa dipengaruhi viral content, media coverage, or platform events; perlu triangulasi.
+   **Expected answer in guide (not independently approved):** Lonjakan follower dapat berasal dari viral content, media coverage, campaign, giveaway atau perubahan platform, selain aktivitas tidak autentik. Anggap pola tersebut sebagai risk signal, bukan bukti fraud. Periksa periode, sumber pertumbuhan, audience geography, engagement quality dan penjelasan creator.
 2. **Q:** Mengapa engagement rate saja tidak cukup?
-   **Expected answer in guide (not independently approved):** Comments dapat fake/low quality, audience tidak relevan, and platform metrics differ by format.
+   **Expected answer in guide (not independently approved):** Engagement rate merangkum interaksi menurut denominator tertentu, tetapi tidak menunjukkan kualitas atau relevansi setiap interaksi. Periksa komentar, saves, shares, audience geography, paid activity, format dan periode; definisi metrik berbeda antar platform sehingga perbandingan harus dinormalisasi.
 3. **Q:** Apa bukti vetting yang harus disimpan?
-   **Expected answer in guide (not independently approved):** Dated screenshots/exports, media kit, risk flags, creator response, source links, and approval rationale.
+   **Expected answer in guide (not independently approved):** Simpan dated profile capture, native insight export atau media kit, sumber dan tanggal data, growth/engagement flags, content review, creator clarification, competitor checks, risk rating, reviewer dan approval rationale. Catat keterbatasan tool; jangan menyimpan data personal berlebihan atau melampaui tujuan.
 
 **Glossary:**
 - **Engagement quality:** Kualitas interaksi, bukan hanya jumlah likes/comments.
@@ -5587,11 +5587,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa KPI harus berbeda per creator role?
-   **Expected answer in guide (not independently approved):** Creator untuk authority atau education, reach, UGC, dan affiliate conversion memiliki peran berbeda sehingga KPI harus mengikuti outcome peran.
+   **Expected answer in guide (not independently approved):** Creator authority atau education dapat dinilai dari credibility, comprehension dan qualified consideration; creator reach dari reach serta view quality; UGC dari usable assets; affiliate dari tracked actions dan sales. Tetapkan KPI sesuai role dan jangan menilai seluruh creator hanya dari views atau engagement.
 2. **Q:** Apa risiko audience overlap tinggi?
-   **Expected answer in guide (not independently approved):** Incremental reach dapat turun dan biaya menjangkau orang yang sama menjadi tinggi.
+   **Expected answer in guide (not independently approved):** Audience overlap tinggi berarti beberapa creator berpotensi menjangkau orang yang sama. Reach tambahan dari creator berikutnya dapat menurun, tetapi overlap juga dapat memperkuat frequency atau pesan. Evaluasi deduplicated reach bila tersedia, objective, incremental cost dan keterbatasan metode.
 3. **Q:** Apa yang harus masuk budget creator?
-   **Expected answer in guide (not independently approved):** Talent fee, production, seeding, shipping, usage rights, exclusivity, amplification, measurement, tax, and contingency.
+   **Expected answer in guide (not independently approved):** Budget harus memuat talent fee, production, seeding/product cost, packing dan shipping, agency fee, usage rights, exclusivity, paid amplification, measurement, tax yang berlaku dan contingency. Pisahkan fixed dan variable cost, tandai asumsi synthetic, serta jangan mengasumsikan rate pasar tanpa quotation aktual.
 
 **Glossary:**
 - **Creator mix:** Creator mix adalah komposisi creator berdasarkan tier, role, audience, format, dan kontribusi yang diharapkan.
@@ -5627,11 +5627,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko brief terlalu preskriptif?
-   **Expected answer in guide (not independently approved):** Konten kehilangan naturalness/creator voice, dan audience dapat melihatnya sebagai iklan yang tidak autentik.
+   **Expected answer in guide (not independently approved):** Brief yang terlalu preskriptif mengatur terlalu banyak dialog, scene dan ekspresi sehingga creator kehilangan suara serta cara komunikasi yang dipercaya audience. Beri objective, facts, mandatory, prohibited claims dan guardrails; biarkan creator menentukan eksekusi yang tetap sesuai strategi.
 2. **Q:** Apa risiko brief terlalu bebas?
-   **Expected answer in guide (not independently approved):** Brief yang tidak memiliki guardrails dapat membuat pesan atau claim melenceng, mandatories terlewat, dan brand-safety atau contract issue muncul.
+   **Expected answer in guide (not independently approved):** Brief yang terlalu bebas tanpa product facts, claim boundaries, mandatory, disclosure, audience dan approval path dapat menghasilkan pesan menyesatkan atau tidak sesuai kontrak. Berikan ruang kreatif di dalam guardrails yang jelas, termasuk bukti claim, prohibited statements dan escalation owner.
 3. **Q:** Bagaimana approval SLA membantu?
-   **Expected answer in guide (not independently approved):** Creator dan brand mengetahui timeline review, jumlah revisi, final asset, and publishing lock.
+   **Expected answer in guide (not independently approved):** Approval SLA menjelaskan siapa meninjau, tenggat feedback, jumlah revisi, format final dan batas waktu sign-off. SLA mengurangi keterlambatan, mencegah feedback yang bertentangan dan memberi creator kepastian kapan aset dapat dipublikasikan sesuai kontrak dan platform schedule.
 
 **Glossary:**
 - **Creator brief:** Arahan campaign dan deliverables bagi creator.
@@ -5667,11 +5667,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda organic posting rights dan paid usage rights?
-   **Expected answer in guide (not independently approved):** Izin posting pada channel creator berbeda dari izin brand menggunakannya pada paid ads/other channels.
+   **Expected answer in guide (not independently approved):** Organic posting rights mengatur publikasi pada akun creator sesuai scope perjanjian. Paid usage rights memberi brand izin tambahan untuk memakai atau mengamplifikasi asset melalui iklan, channel, territory dan periode tertentu. Satu izin tidak otomatis mencakup hak yang lain.
 2. **Q:** Mengapa raw footage harus disebutkan?
-   **Expected answer in guide (not independently approved):** Raw files memiliki nilai/IP scope berbeda; edit, storage, access, and reuse perlu persetujuan.
+   **Expected answer in guide (not independently approved):** Raw footage menentukan hak atas file sumber, akses, storage, editing, cutdowns, derivative works, approval dan reuse setelah campaign. Kontrak perlu menyatakan apakah file diserahkan, siapa memegang hak, batas modifikasi, channel, territory, durasi serta biaya tambahan.
 3. **Q:** Apa yang dilakukan bila creator meminta exclusivity luas?
-   **Expected answer in guide (not independently approved):** Nilai business impact, category definition, duration, competitors, and compensation; negotiate narrower scope.
+   **Expected answer in guide (not independently approved):** Negosiasikan exclusivity dengan mendefinisikan kategori produk, daftar competitor, territory, channel dan periode. Periksa dampaknya terhadap peluang kerja creator dan nilai brand, lalu tukarkan pembatasan yang lebih luas dengan kompensasi yang proporsional serta tanggal berakhir yang tegas.
 
 **Glossary:**
 - **Usage rights:** Izin penggunaan content/persona pada channel/periode tertentu.
@@ -5707,11 +5707,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apakah gifting otomatis mewajibkan posting?
-   **Expected answer in guide (not independently approved):** Tidak kecuali ada agreement yang jelas; gifting dan paid deliverables harus dibedakan.
+   **Expected answer in guide (not independently approved):** Pengiriman produk tanpa persetujuan kontraktual tidak dengan sendirinya menciptakan kewajiban publikasi. Bedakan gifting tanpa deliverable, barter dengan output tertentu dan paid collaboration; jelaskan expectation, disclosure, rights dan kompensasi secara tertulis sebelum creator menyetujui.
 2. **Q:** Mengapa opt-in penting?
-   **Expected answer in guide (not independently approved):** Opt-in memastikan creator menerima produk atau campaign secara sadar dan memahami terms, expectations, serta tidak ada kewajiban tersembunyi.
+   **Expected answer in guide (not independently approved):** Opt-in memastikan creator memahami tujuan pengiriman, produk, data alamat yang digunakan, ekspektasi, batas komunikasi dan apakah ada deliverable. Persetujuan menerima produk tidak boleh diperlakukan sebagai persetujuan otomatis untuk posting, paid usage atau pemrosesan data di luar tujuan.
 3. **Q:** Apa biaya seeding selain produk?
-   **Expected answer in guide (not independently approved):** Packing, shipping, taxes, handling, staff hours, follow-up, and content usage/rights if negotiated.
+   **Expected answer in guide (not independently approved):** Biaya seeding meliputi nilai produk, packaging, fulfillment, shipping, pajak/biaya relevan, handling, staff time, damaged/returned goods dan follow-up. Bila brand meminta konten atau hak penggunaan, masukkan fee serta lisensi terpisah; jangan mengasumsikan gifting menghasilkan asset gratis.
 
 **Glossary:**
 - **Seeding:** Pengiriman produk kepada creator untuk trial/relationship.
@@ -5747,11 +5747,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa yang dilakukan jika creator telat publish?
-   **Expected answer in guide (not independently approved):** Ikuti contract/deadline clause, assess campaign impact, notify owner, and agree corrective path.
+   **Expected answer in guide (not independently approved):** Periksa deadline dan remedy dalam kontrak, lalu konfirmasi status kepada creator/agency serta nilai dampak terhadap campaign calendar. Dokumentasikan keterlambatan dan keputusan: reschedule, revised deliverable, replacement atau remedy yang disepakati. Jangan mengubah fee atau melakukan penalti di luar terms yang berlaku.
 2. **Q:** Mengapa screenshot alone tidak cukup untuk proof?
-   **Expected answer in guide (not independently approved):** Screenshot perlu dilengkapi URL, timestamp, platform, asset version, dan insight exports atau permission evidence yang relevan.
+   **Expected answer in guide (not independently approved):** Screenshot dapat menunjukkan tampilan konten, tetapi tidak selalu membuktikan URL, waktu publikasi, asset version, disclosure atau insight final. Simpan permalink, timestamp, account/platform, capture, export native analytics, approval history dan permission record sesuai deliverable serta contract.
 3. **Q:** Apa yang harus ditangani segera setelah salah link?
-   **Expected answer in guide (not independently approved):** Pause amplification, perbaiki destination, beri tahu creator dan brand, catat impact, lalu verifikasi link serta tracking sebelum aktif kembali.
+   **Expected answer in guide (not independently approved):** Hentikan atau pause amplification bila destination salah, perbaiki link dan tracking, lalu beri tahu creator, agency serta campaign owner. Catat periode dan dampak, simpan bukti, verifikasi landing page serta disclosure, dan lanjutkan hanya setelah pihak berwenang mengonfirmasi koreksi.
 
 **Glossary:**
 - **Content delivery:** Penyerahan aset sesuai brief dan contract.
@@ -5787,11 +5787,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda boost dan partnership ad?
-   **Expected answer in guide (not independently approved):** Boost dapat menggunakan post melalui brand/account flow; partnership ads menjalankan iklan dengan creator partnership identity/authorization sesuai platform.
+   **Expected answer in guide (not independently approved):** Boosting biasanya mempromosikan post melalui kontrol akun/brand sesuai fitur platform. Partnership Ads menggunakan creator atau partner identity dan memerlukan authorization sesuai platform. Detail setup berbeda: Meta memakai partnership permission, sedangkan TikTok Spark Ads memerlukan otorisasi post/creator.
 2. **Q:** Mengapa organic and paid metrics harus dipisah?
-   **Expected answer in guide (not independently approved):** Paid spend mengubah reach, audience, dan delivery; mencampurnya dengan organic results mengaburkan evaluasi kontribusi organik.
+   **Expected answer in guide (not independently approved):** Paid spend menambah distribusi dan dapat mengubah audience, reach, frequency serta hasil delivery. Pisahkan organic reach/views/engagement dari paid delivery dan spend, lalu tampilkan total secara terpisah atau sebagai gabungan berlabel. Jangan mengatribusikan seluruh outcome ke organic creator activity.
 3. **Q:** Apa risiko permission expiry?
-   **Expected answer in guide (not independently approved):** Setelah permission berakhir, ads dapat berhenti atau ditolak dan penggunaan identity maupun content dapat melanggar agreement.
+   **Expected answer in guide (not independently approved):** Authorization memiliki scope dan masa berlaku yang ditentukan platform atau persetujuan creator. Saat permission berakhir atau dicabut, iklan dapat berhenti, tidak dapat diperpanjang atau kehilangan dasar penggunaan identity/content. Catat expiry dan peroleh authorization baru sebelum melanjutkan paid use.
 
 **Glossary:**
 - **Partnership Ads:** Format iklan yang menggunakan creator/partner identity dengan permission.
@@ -5827,11 +5827,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa total views tidak boleh diklaim seluruhnya organic?
-   **Expected answer in guide (not independently approved):** Total views dapat mencakup paid amplification; pisahkan sumber delivery sebelum menyatakan hasil sebagai organic performance.
+   **Expected answer in guide (not independently approved):** Total views dapat menggabungkan organic views dan views dari paid amplification, tergantung definisi pelaporan platform. Pisahkan source of delivery dan periode; klaim organic harus menggunakan metrik yang memang mengukur organic distribution, bukan angka total campaign tanpa segmentasi.
 2. **Q:** Apa risiko discount code sebagai attribution tunggal?
-   **Expected answer in guide (not independently approved):** Pembelian dapat terjadi tanpa code atau code dibagikan; code usage tidak menunjukkan keseluruhan causal impact.
+   **Expected answer in guide (not independently approved):** Discount code hanya menangkap transaksi yang memakai kode tersebut dan dapat dibagikan di luar audience awal. Pembelian tanpa kode, view-through, overlap dan baseline demand tidak tercakup. Gunakan kode bersama UTM, platform insight, CRM dan desain incrementality bila perlu mengestimasi causal impact.
 3. **Q:** Apa yang harus masuk ROI?
-   **Expected answer in guide (not independently approved):** Talent fee, production, seeding, usage rights, paid media, discounts, sales margin, and measurement costs.
+   **Expected answer in guide (not independently approved):** ROI perlu menggunakan denominator biaya yang konsisten: talent fee, agency, production, seeding, shipping, usage rights, paid media, discounts, measurement dan biaya variabel lain. Hubungkan dengan net revenue atau contribution margin, bukan gross sales saja, lalu jelaskan attribution window serta assumptions.
 
 **Glossary:**
 - **CPM:** Cost per thousand impressions menunjukkan biaya untuk setiap seribu impressions pada basis delivery yang disepakati.
@@ -5867,11 +5867,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa bukti capstone siap portfolio?
-   **Expected answer in guide (not independently approved):** Artifacts from strategy through contracting, execution, tracking, reporting, and clear disclosure of synthetic assumptions.
+   **Expected answer in guide (not independently approved):** Portfolio evidence harus menunjukkan alur strategy, discovery, vetting, briefing, contract/rights, disclosure, execution, paid activation, tracking dan reporting. Sertakan file kerja serta source trail. Bila campaign dibuat untuk latihan, tandai seluruh creator, result dan assumptions sebagai SIMULATED.
 2. **Q:** Bagaimana membuktikan creator selection berbasis data?
-   **Expected answer in guide (not independently approved):** Sertakan audience evidence, content sample, fit score, risk review, rate rationale, and alternatives.
+   **Expected answer in guide (not independently approved):** Tunjukkan audience evidence bertanggal, content sample, fit criteria dan weighting, vetting/risk review, fee source, rights, availability serta alasan memilih creator dibanding alternatif. Labeli data yang belum diverifikasi; jangan mengarang audience analytics, rate market atau performance result.
 3. **Q:** Apa yang membedakan campaign report dari relationship review?
-   **Expected answer in guide (not independently approved):** Campaign report menilai output/outcome; relationship review menilai reliability, collaboration, rights, quality, and future fit.
+   **Expected answer in guide (not independently approved):** Campaign report menilai deliverables, delivery, reach, engagement, traffic, outcome dan cost pada campaign tertentu. Relationship review menilai komunikasi, reliability, collaboration, claim/disclosure compliance, rights management, issue handling dan future fit. Keduanya saling melengkapi tetapi menjawab keputusan yang berbeda.
 
 **Glossary:**
 - **Creator partnership capstone:** Kasus end-to-end discovery, deal, execution, and measurement.
