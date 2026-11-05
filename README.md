@@ -105,6 +105,11 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [80 agency-cell evidence gap triage](docs/80-agency-cell-evidence-gap-triage.csv) — exact JD URL/Job ID traceability queue.
 - [Triage report and method](docs/2026-11-05-qna-agency-automated-triage.md).
 
+## Priority source refinement
+
+- Current resource map: **169 rows / 55 unique URLs**. T03 uses the exact MRC OOH standards PDF; T07 uses the IAB/MRC Retail Media Guidelines PDF and IAB Europe V2.1 article. See [track-level source remediation](docs/2026-11-05-priority-track-source-remediation.md).
+- Direct access, source-fit, and Indonesia-market caveats remain recorded; all 169 objective-level fit decisions are OPEN.
+
 ## P1 audit registers
 
 - [169-chapter rubric calibration register](docs/169-chapter-rubric-calibration-register.csv) — one row per chapter; all calibration/SME decisions OPEN.
