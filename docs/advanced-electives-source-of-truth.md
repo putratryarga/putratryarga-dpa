@@ -174,3 +174,26 @@ Capstones should assess problem framing, evidence quality, technical/operational
 - Structural QA: 28 unique chapter headings; all 28 sections contain the required content blocks; no missing outcome, lesson, workflow, practice or deliverable block; no literal undefined tokens.
 - This changes elective content status from PROPOSED OUTLINES to FULL FIRST-PASS DRAFT AUTHORED. It does not close role/JD validation, source fit, credential verification, Indonesian market/legal review, answer-key approval, rubric calibration, workload testing, learner pilot or SME sign-off.
 - No core 169 chapter IDs were changed; electives remain additional and are not counted inside the 16 core tracks.
+
+
+## 11. Elective 17 — independent chapter-level desk audit — 5 November 2026
+
+The [Elective 17 CRO chapter-level desk audit](ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.md) and [14-row review register](ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.csv) assess 17.01–17.14 separately. All 14 are PARTIAL. The current draft averages approximately 289 words per chapter (4,049 words across 14 chapters) and remains a thin first-pass module draft rather than a comprehensive advanced lesson. Material gaps include a worked CAC/LTV/cohort/payback model, rigorous research-method pack, event architecture and consent QA, testable funnel dataset, UX protocol, independently checked MDE/power/sample-size methods, causal estimand design, personalization governance, programme RACI, finance impact bridge and a benchmark capstone solution.
+
+The 28 Elective 17/18 knowledge-check answer-guidance entries were expanded to 32–47 words. Previous guidance is retained in the elective review register's `prior_answer_guidance` column. This is an editorial draft improvement, not approval: all item editorial, source, answer-key and SME statuses remain OPEN and all checks remain reflective/non-scored.
+
+## 12. Elective 18 — independent chapter-level desk audit — 5 November 2026
+
+The [Elective 18 Traditional Media chapter-level desk audit](ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.md) and [14-row review register](ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.csv) assess 18.01–18.14 separately. All 14 are PARTIAL. The draft averages approximately 387 words per chapter (5,413 words across 14 chapters), but 18.14 is 1,358 words and the other 13 are approximately 287–350 words. Depth is uneven. Material gaps include current Indonesia audience-provider methods, TV/radio/print/OOH calculations, digital-audio versus terrestrial-radio separation, local media-owner proposals/ratecards, cross-media deduplication, offline contract/IO/approval templates, post-buy reconciliation workbooks, legal/finance review and a tested senior capstone.
+
+The MRC December 2025 OOH hierarchy is a useful technical reference but not an Indonesian currency; MRC Digital Audio measures digital-audio contexts and is not terrestrial AM/FM audience currency. Nielsen Indonesia's public TV measurement overview is contextual methodology, not a current local trading currency. No cross-media, ratecard or legal validation is implied.
+
+## 13. Elective knowledge-check editorial update — 5 November 2026
+
+- All 56 elective answer-guidance entries were expanded to 32–47 words for explanatory completeness.
+- The previous answer text is preserved per row in `prior_answer_guidance`; the change is traceable and does not overwrite the only historical record.
+- The full 28-chapter draft Markdown is synchronized to the revised guidance in the CSV.
+- All 56 items remain `REFLECTIVE_KNOWLEDGE_CHECK_NOT_SCORED`; editorial, source and SME statuses remain OPEN. They are not scored quiz items and must not be used as approved answer keys.
+- Register parity QA now checks the 56-row total, previous-answer preservation, revision notes, 32–47 word band and non-scored/open status.
+
+**Overall elective state:** first-pass chapter desk reviews complete for 28/28 chapters; all 28 are PARTIAL and all formal technical, source, answer-key, rubric, Indonesia market/legal, credential, workload, pilot and SME decisions remain OPEN. Release remains NOT READY.

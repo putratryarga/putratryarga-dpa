@@ -199,6 +199,33 @@ assert(electives.records.every(row => row.validation_status === "OPEN" && row.sm
   "Elective validation rows must remain OPEN pending independent review.");
 assert(electiveQna.records.every(row => row.editorial_status === "OPEN" && row.sme_status === "OPEN"),
   "Elective knowledge-check reviews must remain OPEN.");
+assert(electiveQna.headers.includes("prior_answer_guidance") && electiveQna.headers.includes("editorial_revision_note"),
+  "Elective Q&A register must preserve prior answers and revision notes.");
+assert(electiveQna.records.every(row => row.prior_answer_guidance && row.editorial_revision_note),
+  "Each elective Q&A revision must preserve a prior answer and an editorial note.");
+assert(electiveQna.records.every(row => {
+  const words = row.answer_guidance.trim().split(" ").filter(Boolean).length;
+  return words >= 32 && words <= 47;
+}), "Expanded elective answer guidance must remain within the reviewed 32–47 word band.");
+assert(electiveQna.records.every(row => row.item_status === "REFLECTIVE_KNOWLEDGE_CHECK_NOT_SCORED" && row.source_review_status === "OPEN"),
+  "Elective knowledge checks must remain reflective/non-scored and source review OPEN.");
+const electiveDraft = read("docs/28-advanced-elective-full-chapter-drafts.md");
+assert(electiveQna.records.every(row => electiveDraft.includes(row.answer_guidance)),
+  "Revised elective answer guidance must match the full chapter draft Markdown.");
+assert(electives.headers.includes("chapter_level_desk_review_status") && electives.headers.includes("chapter_desk_classification"),
+  "Elective validation register must record separate chapter-level desk-review outcomes.");
+assert(electives.records.every(row => row.chapter_level_desk_review_status === "COMPLETE_FIRST_PASS" && row.chapter_desk_classification === "PARTIAL" && row.draft_depth_disposition === "THIN_FIRST_PASS_DRAFT"),
+  "All elective chapters must retain PARTIAL first-pass desk status and thin-draft disposition.");
+const elective17Review = loadCsv("docs/ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.csv");
+const elective18Review = loadCsv("docs/ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.csv");
+assert(elective17Review.records.length === 14 && elective18Review.records.length === 14,
+  "Elective 17 and 18 must each have a separate 14-row chapter-level desk audit.");
+uniqueBy(elective17Review.records, "chapter_id", "Elective 17 chapter audit");
+uniqueBy(elective18Review.records, "chapter_id", "Elective 18 chapter audit");
+assert(elective17Review.records.every(row => row.chapter_id.startsWith("17.") && row.desk_fit_classification === "PARTIAL" && row.formal_acceptance_status === "OPEN"),
+  "Elective 17 review must contain only PARTIAL rows with formal status OPEN.");
+assert(elective18Review.records.every(row => row.chapter_id.startsWith("18.") && row.desk_fit_classification === "PARTIAL" && row.formal_acceptance_status === "OPEN"),
+  "Elective 18 review must contain only PARTIAL rows with formal status OPEN.");
 
 const depth = loadCsv("docs/169-chapter-depth-screening.csv");
 assert(depth.records.length === 169, "Depth screen must contain 169 rows.");

@@ -23,8 +23,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Business/conversion model and KPI tree. Show definitions, formulas, time window, source or synthetic label, assumptions, guardrails, capacity constraints and at least two scenarios. Reconcile subtotals and explain why a higher-revenue option may be rejected.
 
 **Knowledge check.**
-1. Why can revenue rise while business quality deteriorates? **Answer guidance:** discounting, acquisition cost, product mix, returns, weak repeat rate and variable costs can erode contribution.
-2. When is a conversion problem not a CRO problem? **Answer guidance:** when the binding constraint is product-market fit, stock, price, distribution, delivery, sales capacity or another operational defect outside the tested journey.
+1. Why can revenue rise while business quality deteriorates? **Answer guidance:** Revenue can rise while contribution deteriorates when discounting reduces realized price, acquisition costs increase, product mix shifts to lower-margin items, refunds rise, or repeat behaviour weakens. Evaluate contribution after relevant variable and marketing costs by cohort, not revenue alone.
+2. When is a conversion problem not a CRO problem? **Answer guidance:** A conversion symptom is not necessarily a CRO opportunity when the binding constraint is product-market fit, unavailable stock, uncompetitive pricing, weak delivery, poor traffic quality, or limited sales capacity. Diagnose the constraint first; changing interface elements cannot repair an upstream operating failure.
 
 **Glossary.** Contribution margin: revenue less the variable costs included in the stated definition. Conversion rate: defined successful events divided by a stated eligible population. Guardrail: a measure that must not deteriorate beyond a defined tolerance.
 
@@ -45,8 +45,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Research plan and evidence-backed insight report. Include research questions, method rationale, participant criteria, consent approach, sample caveats, evidence excerpts, coding scheme, contradictory evidence and prioritized opportunities.
 
 **Knowledge check.**
-1. Can an interview establish how common a problem is? **Answer guidance:** no; interviews can reveal mechanisms and context, while prevalence requires a design and sample suited to estimation.
-2. What is the difference between a finding and an insight? **Answer guidance:** a finding records what was observed; an insight explains why it may matter for a defined audience and decision, with evidence and uncertainty attached.
+1. Can an interview establish how common a problem is? **Answer guidance:** An interview can explain experiences, language, motives and possible mechanisms, but a small or purposive qualitative sample cannot estimate population prevalence. To estimate how common a problem is, use a sampling and measurement design appropriate to the target population and inference.
+2. What is the difference between a finding and an insight? **Answer guidance:** A finding records an observation or pattern in the evidence. An insight interprets why it matters for a defined audience and decision, links the interpretation to supporting evidence, considers alternative explanations, and states uncertainty rather than presenting an analyst's opinion as fact.
 
 **Glossary.** Triangulation: comparison of different evidence sources or methods. Sampling frame: defined population or list from which participants or observations are selected. Research bias: systematic distortion introduced by recruitment, wording, measurement or interpretation.
 
@@ -67,8 +67,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Measurement specification and analytics QA checklist. Include event names, triggers, parameters, data types, sample payloads, consent handling, identity assumptions, source of truth, test cases, owners and known limitations.
 
 **Knowledge check.**
-1. Why is a UTM parameter not a conversion event? **Answer guidance:** a UTM labels campaign traffic; a conversion event records a defined user or business action.
-2. What should happen when consent is denied? **Answer guidance:** only processing permitted by the applicable consent and legal basis may occur; the event design must document suppression or restricted behaviour.
+1. Why is a UTM parameter not a conversion event? **Answer guidance:** A UTM parameter labels campaign context such as source, medium and campaign on a URL. A conversion event records an observed action or outcome under an event definition. UTMs help attribute traffic; they do not themselves prove that a conversion occurred.
+2. What should happen when consent is denied? **Answer guidance:** When consent is denied, apply the organisation's documented legal basis, privacy policy and regional rules; suppress storage or processing that requires the denied permission and ensure tags follow the recorded state. Consent Mode only communicates choices to supported tags; it does not obtain consent or decide legality.
 
 **Glossary.** Event taxonomy: controlled naming and parameter system for recorded actions. Data layer: structured object/interface exposing page or application context. Consent state: recorded permission governing specified processing.
 
@@ -89,8 +89,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Funnel diagnosis and quantified opportunity backlog. Include metric definitions, baseline, segment sample sizes, data-quality checks, opportunity formulas, confidence, alternative explanations and owners.
 
 **Knowledge check.**
-1. Why can step conversion be high while end-to-end conversion is low? **Answer guidance:** losses compound across stages; inspect the complete sequence and use consistent denominators.
-2. Should every funnel exit be treated as friction? **Answer guidance:** no; some exits are expected, ineligible or intentional. Determine task context before recommending intervention.
+1. Why can step conversion be high while end-to-end conversion is low? **Answer guidance:** End-to-end conversion is the product of conditional conversion rates across sequential stages when the population and denominators are consistently defined. Even fairly high step rates compound, so several small losses can produce a much lower final completion rate.
+2. Should every funnel exit be treated as friction? **Answer guidance:** A funnel exit is not automatically friction. It may be expected research, a deliberate comparison, an ineligible visitor, a cross-device or offline continuation, or an instrumentation gap. Check user intent, eligibility, sequence and data quality before recommending a change.
 
 **Glossary.** Cohort: group sharing a defined entry event or characteristic over a period. Drop-off: eligible users not completing a defined next step. Instrumentation defect: collection or processing error that makes recorded behaviour differ from actual behaviour.
 
@@ -111,8 +111,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** UX/CX audit with prioritized recommendations. Each issue includes screenshot or reproducible description, affected task, evidence, severity rationale, accessibility/privacy consideration, recommended change and verification metric.
 
 **Knowledge check.**
-1. Does a heatmap prove that a page element causes conversion? **Answer guidance:** no; it shows interaction patterns in a dataset; causality needs a suitable test or stronger design.
-2. Why are keyboard and error states part of conversion quality? **Answer guidance:** they affect task completion and access; excluding them can hide friction and misstate success.
+1. Does a heatmap prove that a page element causes conversion? **Answer guidance:** A heatmap visualises aggregated interaction signals for the sampled sessions and configuration. It can reveal where people click, scroll or hesitate, but cannot establish that an element caused conversion. Confounding, selection, device mix and task context require research or a valid experiment.
+2. Why are keyboard and error states part of conversion quality? **Answer guidance:** Keyboard access and clear error handling determine whether people can complete forms and tasks without a pointer and recover when input fails. WCAG requires automatically detected input errors to be identified and described in text; these controls are part of task success, not decorative polish.
 
 **Glossary.** Information architecture: organization and labelling of content and functions. Task success: whether a user completed a task correctly under stated conditions. Accessibility barrier: condition that prevents or impairs access.
 
@@ -133,8 +133,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Ranked experiment backlog with traceable evidence, hypothesis statements, metric definitions, value range, confidence rationale, effort/dependency, risk, owner and decision status.
 
 **Knowledge check.**
-1. What makes a hypothesis falsifiable? **Answer guidance:** it specifies observable outcomes and conditions under which the expectation would not be supported.
-2. Can a prioritization score replace judgement? **Answer guidance:** no; inspect assumptions, uncertainty, constraints and strategic fit.
+1. What makes a hypothesis falsifiable? **Answer guidance:** A falsifiable hypothesis specifies the target population, proposed change, expected mechanism, measurable outcome, relevant guardrails and observation window. It should also state what evidence would contradict the expectation, so the team can reject or revise it rather than rationalise any result.
+2. Can a prioritization score replace judgement? **Answer guidance:** A prioritisation score is a structured aid, not a substitute for judgement. Scores inherit subjective weights, uncertain impact estimates and missing dependencies. Review evidence quality, strategic fit, customer harm, feasibility, capacity and downside risk before committing resources.
 
 **Glossary.** Hypothesis: testable statement about change, population, mechanism and outcome. Opportunity sizing: estimate of potential value under explicit assumptions. ICE: heuristic using Impact, Confidence and Ease; anchors must be calibrated.
 
@@ -155,8 +155,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Experiment brief and pre-registration plan. It must be implementable by product, engineering and analytics without undocumented decisions; include randomization, event QA, analysis, risk and rollback.
 
 **Knowledge check.**
-1. Why must exposure be logged separately from assignment? **Answer guidance:** assignment records intended allocation; exposure confirms the participant received the intended experience.
-2. Why choose the primary metric before launch? **Answer guidance:** pre-specification reduces outcome switching and selective reporting.
+1. Why must exposure be logged separately from assignment? **Answer guidance:** Assignment records the randomised allocation or intended variant; exposure records whether the participant actually received the relevant experience. Keep both events so implementation failures and non-exposure can be diagnosed, while preserving the pre-specified analysis population and avoiding post-treatment selection bias.
+2. Why choose the primary metric before launch? **Answer guidance:** Choose one primary metric before launch to align the hypothesis, sample-size plan and decision rule. Pre-specification limits outcome switching after results are visible; diagnostic metrics and guardrails can explain mechanisms or detect harm without silently becoming alternative success criteria.
 
 **Glossary.** Randomization unit: entity assigned to a condition. Exposure: evidence the assigned experience was presented. Guardrail metric: preselected measure for detecting unacceptable harm.
 
@@ -177,8 +177,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Statistical analysis report with assumptions, sample-size method, data checks, effect estimates, uncertainty intervals, multiplicity handling, decision and limitations.
 
 **Knowledge check.**
-1. Does p < 0.05 mean the result is commercially important? **Answer guidance:** no; assess effect size, interval, cost, risk and business value.
-2. What should happen when a result is inconclusive? **Answer guidance:** report it as inconclusive and decide whether more evidence is worth its cost; do not relabel it a win.
+1. Does p < 0.05 mean the result is commercially important? **Answer guidance:** A p-value below 0.05 does not quantify commercial value or prove a large effect. Examine the estimated effect and confidence interval, baseline, practical threshold, implementation cost, margin, risk, multiplicity and whether the result is robust enough to change the business decision.
+2. What should happen when a result is inconclusive? **Answer guidance:** An inconclusive result means the evidence does not reliably distinguish the relevant effects under the pre-specified decision rule. Report the estimate and uncertainty, do not call it a win or proof of no effect, and decide whether more data is worth its cost.
 
 **Glossary.** Power: probability of detecting a specified effect under stated assumptions. Minimum detectable effect: smallest planned detectable effect. Multiplicity: increased false-positive risk from multiple tests.
 
@@ -199,8 +199,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Implementation plan and test QA log with test matrix, expected/actual output, severity, evidence, owner, fix verification and go/no-go recommendation.
 
 **Knowledge check.**
-1. Why is visual preview insufficient QA? **Answer guidance:** it does not verify production targeting, assignment persistence, events, performance, accessibility or rollback.
-2. When should a test stop for technical reasons? **Answer guidance:** when assignment, rendering, data integrity, privacy, safety or critical journey is compromised.
+1. Why is visual preview insufficient QA? **Answer guidance:** A visual preview does not test production conditions such as audience eligibility, assignment persistence, caching, consent state, analytics events, browser/device rendering, performance or rollback. QA must exercise the actual configured journey and reconcile expected behaviour with event and assignment logs.
+2. When should a test stop for technical reasons? **Answer guidance:** Stop or pause a test when a technical defect threatens participant safety, privacy, critical task completion, valid assignment, exposure integrity or measurement reliability. Record the affected population and time window, preserve evidence, fix and retest, then follow the pre-agreed restart or rollback rule.
 
 **Glossary.** Bucketing: assignment to an experiment condition. Sample-ratio mismatch: observed assignment differs from expected proportions. Rollback: controlled removal of an intervention.
 
@@ -221,8 +221,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Incrementality plan with design rationale, unit, assignment, pre-period, outcome, assumptions, analysis method, sample/region criteria, risks and limitations.
 
 **Knowledge check.**
-1. Is attributed revenue automatically incremental revenue? **Answer guidance:** no; attribution records credit under a rule, while incrementality requires a credible counterfactual.
-2. What assumption is central to difference-in-differences? **Answer guidance:** treated and comparison groups would have followed parallel outcome trends absent treatment, alongside other design conditions.
+1. Is attributed revenue automatically incremental revenue? **Answer guidance:** Attribution allocates observed credit according to a model or rule; it does not by itself estimate what would have happened without advertising. Incrementality compares outcomes with a credible counterfactual, using a suitable experimental or quasi-experimental design and explicit assumptions.
+2. What assumption is central to difference-in-differences? **Answer guidance:** Difference-in-differences relies on a parallel-trends assumption: absent treatment, treated and comparison groups would have followed comparable outcome trends. Also examine anticipation, spillovers, composition changes, concurrent interventions and whether pre-treatment trends support the design.
 
 **Glossary.** Counterfactual: outcome that would have occurred without intervention. Holdout: units withheld from treatment. Spillover: treatment affects comparison units or outcomes outside the intended boundary.
 
@@ -243,8 +243,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Personalization strategy and measurement plan with audience definitions, data map, consent/purpose, decision rules, variant rationale, fallback, frequency, suppression, KPIs and risk controls.
 
 **Knowledge check.**
-1. What is the default when a personalization attribute is missing or stale? **Answer guidance:** use a safe, relevant non-personalized fallback; do not invent the attribute.
-2. Why document cross-channel suppression? **Answer guidance:** prevent conflicting, duplicated or excessive communications that harm experience and measurement.
+1. What is the default when a personalization attribute is missing or stale? **Answer guidance:** If an attribute is missing, stale or unreliable, use a safe and useful non-personalised fallback or omit the personalisation. Do not infer sensitive traits or fabricate a value; define freshness, eligibility, consent and fallback rules before activation.
+2. Why document cross-channel suppression? **Answer guidance:** Cross-channel suppression prevents inconsistent, duplicated or excessive messages across email, app, web, WhatsApp and paid media. It protects experience and contact limits, avoids competing offers, and makes holdouts, exclusions and outcome measurement easier to interpret.
 
 **Glossary.** Audience rule: documented eligibility condition. Suppression: rule preventing ineligible or excessive treatment. Fallback: safe default when personalization cannot be evaluated.
 
@@ -265,8 +265,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** CRO programme operating model with RACI, stages, templates, capacity model, risk gates, review cadence, repository fields, learning KPIs and executive reporting.
 
 **Knowledge check.**
-1. Why is number of tests shipped a weak success metric? **Answer guidance:** it rewards volume rather than validity, impact, decision quality or learning.
-2. What should be retained when a test loses? **Answer guidance:** hypothesis, design, implementation, checks, results, uncertainty, decision and lessons.
+1. Why is number of tests shipped a weak success metric? **Answer guidance:** The number of tests shipped measures activity, not whether experiments were valid, changed a decision, reduced uncertainty or created value. A programme should assess evidence quality, implementation integrity, decision usefulness, learning reuse and incremental commercial or customer outcomes.
+2. What should be retained when a test loses? **Answer guidance:** Retain the hypothesis, rationale, eligible population, design, variants, assignment and exposure checks, instrumentation QA, analysis plan, results, uncertainty, decision, deviations and lessons. A losing or inconclusive test is useful only when its evidence remains reproducible and searchable.
 
 **Glossary.** RACI: responsibility matrix for Responsible, Accountable, Consulted and Informed. Experiment repository: versioned record of tests and decisions. Decision latency: time from evidence availability to an accountable decision.
 
@@ -287,8 +287,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Executive business case and recommendation narrative. Show base/upside/downside, net contribution, time horizon, evidence versus forecast, risks, alternatives and decision requested.
 
 **Knowledge check.**
-1. Why not multiply a test effect blindly by annual traffic? **Answer guidance:** rollout eligibility, seasonality, adoption, traffic mix, persistence and operating capacity may differ from test conditions.
-2. What makes a recommendation actionable? **Answer guidance:** a specific decision, rationale, assumptions, owner, timing, budget, guardrails and review point.
+1. Why not multiply a test effect blindly by annual traffic? **Answer guidance:** A test effect may not persist across all annual traffic because rollout eligibility, seasonality, audience mix, concurrent changes, adoption, operational capacity and novelty can differ. Forecast a range, model costs and guardrails, and validate persistence after rollout rather than multiplying blindly.
+2. What makes a recommendation actionable? **Answer guidance:** An actionable recommendation names the decision required, evidence and alternatives, expected mechanism, assumptions and uncertainty, accountable owner, timing, budget and dependencies. It also defines success and guardrail measures, a review date and conditions for changing course.
 
 **Glossary.** Net incremental contribution: incremental value after included costs. Sensitivity analysis: showing how decisions change as assumptions vary. Decision memo: concise document setting out evidence, options and accountability.
 
@@ -309,8 +309,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** CRO strategy and portfolio presentation plus evidence workbook. Include business model, research, journey audit, KPI/event map, opportunity backlog, experiment brief, QA record, results/uncertainty, financial case, governance and 90-day roadmap.
 
 **Knowledge check.**
-1. What invalidates a capstone despite a polished presentation? **Answer guidance:** fabricated evidence, broken instrumentation, invalid causal claims, privacy failures or unsupported recommendations.
-2. How should synthetic results be presented? **Answer guidance:** label every dataset, chart and conclusion as simulated; do not imply real client outcomes.
+1. What invalidates a capstone despite a polished presentation? **Answer guidance:** A polished capstone is invalid if its evidence is fabricated, instrumentation cannot support its claims, causal conclusions exceed the design, privacy or accessibility risks are ignored, or the recommendation is commercially unsupported. Presentation quality cannot cure a broken evidence chain.
+2. How should synthetic results be presented? **Answer guidance:** Mark every synthetic dataset, assumption, chart, model output and conclusion clearly as simulated, including in slide footnotes and executive summaries. Do not imply client access, real campaign results or observed market performance; separate illustrative scenarios from sourced facts.
 
 **Glossary.** Portfolio: initiatives managed together against shared goals and constraints. Evidence chain: traceability from problem through method, result and decision. Critical failure: condition invalidating assessment regardless of aggregate score.
 
@@ -334,8 +334,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Ecosystem map and campaign workflow. Include all stakeholders, money/inventory/data flows, owners, approvals, handoffs, conflicts and escalation. Every key activity must have one accountable owner.
 
 **Knowledge check.**
-1. Why must the media owner and measurement provider be distinguished? **Answer guidance:** one sells or controls inventory; the other supplies audience or delivery evidence under its own methodology. They may be related but are not automatically independent.
-2. What is the purpose of a post-buy workflow? **Answer guidance:** reconcile what was planned, contracted, delivered, verified and billed, then capture performance and makegood decisions.
+1. Why must the media owner and measurement provider be distinguished? **Answer guidance:** A media owner sells or controls inventory and delivery conditions; a measurement provider estimates audience, exposure or delivery under a stated methodology. One organisation may perform both roles, but commercial control and measurement independence must be disclosed and assessed rather than assumed.
+2. What is the purpose of a post-buy workflow? **Answer guidance:** A post-buy reconciles the approved plan, contracted booking, actual delivery, independent or contractual proof, and invoice. It identifies variances by line item, determines remedies under agreed terms, records decisions and feeds supplier performance into the next investment cycle.
 
 **Glossary.** Media owner: organization controlling or representing media inventory. Sales house: organization selling inventory on behalf of one or more owners. RACI: responsibility matrix identifying Responsible, Accountable, Consulted and Informed roles.
 
@@ -356,8 +356,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Audience intelligence report with audience definition, need-state/context, geography, source metadata, methodology, sample limitations, media behaviours, contradictions and planning implications.
 
 **Knowledge check.**
-1. Why is a large sample not automatically representative? **Answer guidance:** sampling frame, recruitment, non-response, weighting and coverage may still bias the result.
-2. Can a CRM database estimate the total addressable market? **Answer guidance:** not by itself; CRM describes captured customers under its own coverage and acquisition biases.
+1. Why is a large sample not automatically representative? **Answer guidance:** A large sample can still be biased if the sampling frame omits important groups, recruitment is selective, non-response differs, weighting is unsuitable or coverage is uneven. Representativeness depends on design and population coverage, not sample size alone.
+2. Can a CRM database estimate the total addressable market? **Answer guidance:** A CRM describes people and transactions captured by the organisation, not everyone in the market. Acquisition channels, customer eligibility, consent, duplicate records and retention create coverage bias; use independent market and category evidence to estimate addressable demand.
 
 **Glossary.** Universe: population a measurement or study is intended to represent. Panel: sample of people or households measured repeatedly. Weighting: adjustment intended to align sample estimates to known population characteristics.
 
@@ -378,8 +378,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Measurement evaluation with formula sheet, universe, source/method metadata, calculation checks, duplication caveat, confidence limitation and a written recommendation about whether the sources are comparable.
 
 **Knowledge check.**
-1. Does 100 GRP mean 100% unique reach? **Answer guidance:** no; it is a gross exposure measure and may include repeated exposures to the same audience.
-2. Can OOH opportunity-to-see be treated as a verified individual impression? **Answer guidance:** no; methodology and exposure model determine what the metric represents.
+1. Does 100 GRP mean 100% unique reach? **Answer guidance:** GRP is a gross exposure measure, commonly reach percentage multiplied by average frequency for a defined target and period. One hundred GRPs can arise from different reach/frequency combinations and includes repeated exposures; it does not mean 100% unique reach.
+2. Can OOH opportunity-to-see be treated as a verified individual impression? **Answer guidance:** OOH opportunity-to-see is a modelled exposure opportunity under a specified methodology, not proof that a named individual saw an advertisement. Distinguish traffic, gross impressions, viewable/OTS, likelihood-to-see and audience measures, and retain the standard's qualifying rules.
 
 **Glossary.** GRP: gross rating points, commonly reach percentage multiplied by average frequency. CPP: cost per rating point under a specified rating currency. Circulation: copies distributed under a stated definition and audit.
 
@@ -400,8 +400,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** TV plan and schedule rationale with target definition, inventory, placement, ratings, GRP, reach/frequency method, cost, schedule weight, creative requirements, exclusions and sensitivity scenario.
 
 **Knowledge check.**
-1. Why can two schedules with the same GRP produce different outcomes? **Answer guidance:** audience composition, programme context, reach distribution, frequency, placement and creative fit can differ.
-2. What should be checked before combining ratings from separate sources? **Answer guidance:** target universe, measurement period, unit, method, overlap and comparability.
+1. Why can two schedules with the same GRP produce different outcomes? **Answer guidance:** Equal GRPs can hide different reach and frequency distributions, audience composition, dayparts, programme context, placement quality and creative relevance. Compare schedules on the same target universe and period, then assess delivery and business objective rather than GRP alone.
+2. What should be checked before combining ratings from separate sources? **Answer guidance:** Before combining ratings, confirm target universe, geography, age definition, fieldwork and reporting period, unit, sample/design, weighting, currency, station or platform coverage and duplication methodology. If these are not comparable, present separate measures and disclose the limitation.
 
 **Glossary.** Daypart: scheduled time band for a broadcast audience. Spot: a paid advertising placement of specified duration. Adjacency: the programme or content surrounding an advertising break.
 
@@ -422,8 +422,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Radio/audio plan with audience rationale, inventory, schedule, spot length, reach/frequency basis, cost, creative spec, measurement definition, delivery proof and evaluation plan.
 
 **Knowledge check.**
-1. Why should podcast downloads not automatically be treated as listened-to ads? **Answer guidance:** download, stream, ad delivery and completed listen are different measurement events.
-2. Why is frequency important in audio? **Answer guidance:** repetition may aid recall but excessive frequency can waste investment or cause wear-out; assess alongside reach and creative quality.
+1. Why should podcast downloads not automatically be treated as listened-to ads? **Answer guidance:** A download or stream request does not necessarily mean an ad was served, audible or completed. Define the measured event and qualifying conditions, distinguish content consumption from ad delivery, and use the applicable digital-audio standard and provider methodology.
+2. Why is frequency important in audio? **Answer guidance:** Frequency can reinforce recall, but excessive repetition may waste reach, increase avoidance or cause creative wear-out. Evaluate it alongside unique reach, listening context, campaign duration, creative rotation, target response and the measurement method.
 
 **Glossary.** Daypart: broadcast time band. Ad insertion: process of placing an ad into audio content. Completion rate: proportion of defined starts that meet a platform's completion rule.
 
@@ -444,8 +444,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Print recommendation and placement plan with source definitions, audience fit, issue schedule, circulation/readership limitations, format, net rates, production fees, disclosure requirements and proof-of-publication.
 
 **Knowledge check.**
-1. Are circulation and readership interchangeable? **Answer guidance:** no; circulation counts copies under a defined method, while readership estimates people who read or access the publication.
-2. Why separate production fees from media cost? **Answer guidance:** to compare proposals accurately and understand the full cost of the creative/placement package.
+1. Are circulation and readership interchangeable? **Answer guidance:** Circulation counts copies distributed or sold under a stated audit or publisher method; readership estimates people who read or access the publication. Copies and people are different units, so check period, coverage, duplication and methodology before comparing.
+2. Why separate production fees from media cost? **Answer guidance:** Separate production, adaptation, agency, placement and media charges so proposals can be compared on a consistent net basis. It also reveals whether a quoted media discount is offset by mandatory production, handling or other package fees.
 
 **Glossary.** Circulation: number of copies distributed under a stated method. Readership: estimated people reading or accessing a publication. Insertion: a scheduled advertisement placement in a publication or issue.
 
@@ -466,8 +466,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** OOH/DOOH plan with location map, format, audience rationale, exposure method, time/loop assumptions, cost, creative spec, proof requirements and limitations.
 
 **Knowledge check.**
-1. Does a vehicle passing a billboard prove a person saw the ad? **Answer guidance:** no; traffic is a potential audience input, while visibility and exposure methodology determine the estimated opportunity.
-2. Why can site-level reach not simply be added? **Answer guidance:** people may encounter multiple sites; duplication requires an appropriate measurement or model.
+1. Does a vehicle passing a billboard prove a person saw the ad? **Answer guidance:** Vehicle traffic is a potential audience input, not proof that an individual noticed an ad. OOH estimates depend on location, direction, visibility, screen/post functionality, dwell or travel patterns and the applicable OTS/LTS/audience model.
+2. Why can site-level reach not simply be added? **Answer guidance:** People can encounter several sites or formats during the campaign, so summing site reach double-counts duplicated audiences. Use a suitable deduplication method and common target universe; otherwise report site-level reach separately without implying unique campaign reach.
 
 **Glossary.** DOOH: digital out-of-home media. Proof-of-play: record that a digital creative played according to schedule. Opportunity-to-see: modeled or estimated chance to see a placement under a stated method.
 
@@ -488,8 +488,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Partnership proposal and valuation framework with rights matrix, deliverables, value assumptions, activation cost, audience evidence, usage/term limits, measurement, risks and negotiation conditions.
 
 **Knowledge check.**
-1. Why is sponsorship value not equal to a media-equivalent figure alone? **Answer guidance:** the package includes rights, activation, exclusivity, experience and strategic value that need separate evidence and valuation.
-2. What must be agreed before collecting event attendee data? **Answer guidance:** purpose, notice/consent or other lawful basis, data owner, access, retention, security and permitted follow-up.
+1. Why is sponsorship value not equal to a media-equivalent figure alone? **Answer guidance:** A media-equivalent value captures only one comparison and can overstate or understate sponsorship value. Evaluate the rights package, access, content integration, exclusivity, activation cost, audience fit, engagement evidence and measurable outcomes separately.
+2. What must be agreed before collecting event attendee data? **Answer guidance:** Before collecting attendee data, define purpose, roles and ownership, lawful basis and consent/notice where required, data minimisation, access controls, security, retention, processor sharing and follow-up permissions. Obtain local privacy/legal review for the actual event and parties.
 
 **Glossary.** Rights inventory: list of benefits and permissions included in a partnership. Category exclusivity: contractual restriction on competing brands. Makegood: agreed replacement or remedy for an unfulfilled deliverable.
 
@@ -510,8 +510,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Integrated media flowchart and allocation rationale with budget reconciliation, audience role, reach/frequency basis, assumptions, duplication caveat, marginal trade-offs, inventory dependency and scenario triggers.
 
 **Knowledge check.**
-1. Why is the lowest CPM not automatically the best investment? **Answer guidance:** target quality, context, attention, reach, frequency, duplication and business role matter.
-2. Can cross-media reach be calculated by adding each channel's reach? **Answer guidance:** not without deduplication and compatible audience definitions.
+1. Why is the lowest CPM not automatically the best investment? **Answer guidance:** A low CPM can buy irrelevant audiences, poor context, duplicated reach, low attention or inventory that does not serve the campaign role. Compare target quality, effective reach, frequency, viewability/exposure, outcomes, costs and measurement confidence.
+2. Can cross-media reach be calculated by adding each channel's reach? **Answer guidance:** Adding channel reach counts the same people more than once when audiences overlap. Cross-media unique reach requires compatible target universes, periods and a defensible deduplication method; without them, show channel measures separately and state the limitation.
 
 **Glossary.** Media mix: allocation across media channels. Marginal return: expected additional outcome from the next unit of investment. Duplication: overlap of audience across placements or channels.
 
@@ -532,8 +532,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Negotiation plan and commercial evaluation with apples-to-apples comparison, BATNA, target/limit, concession strategy, fee/tax treatment, risk, approval, agreed terms and post-negotiation summary.
 
 **Knowledge check.**
-1. Why can a 30% discount still be a poor deal? **Answer guidance:** the base rate may be inflated, inventory low-quality, audience irrelevant or added value unusable.
-2. What is a BATNA? **Answer guidance:** the best available alternative if the current negotiation does not produce an acceptable agreement.
+1. Why can a 30% discount still be a poor deal? **Answer guidance:** A 30% discount may be calculated from an inflated rate card, applied to weak inventory or offset by fees and unusable bonus placements. Compare net cost, audience quality, timing, guarantees, flexibility, proof and contractual remedies on equivalent terms.
+2. What is a BATNA? **Answer guidance:** BATNA means the best alternative available if the current negotiation does not produce an acceptable agreement. It may be another supplier, a revised plan, a different channel or no purchase; it informs the reservation point and walk-away decision.
 
 **Glossary.** Rate card: published or quoted list price. BATNA: best alternative to a negotiated agreement. Reservation point: least favourable deal a party is willing to accept.
 
@@ -554,8 +554,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Booking pack and execution checklist with approved plan, PO/IO, dates, cost, spec, materials, clearance, contacts, RACI, changes, delivery evidence and escalation path.
 
 **Knowledge check.**
-1. Why reconcile the booking against the approved plan before sending it? **Answer guidance:** prevent unauthorized spend, wrong dates, inventory, format or deliverables.
-2. What is the minimum evidence for a material change? **Answer guidance:** changed specification, reason, impact, approver, owner, effective date and updated confirmation.
+1. Why reconcile the booking against the approved plan before sending it? **Answer guidance:** Reconcile a booking to the approved plan and budget before issue to prevent unauthorised spend, incorrect dates, placements, audiences, formats or deliverables. It also creates a traceable baseline for later changes, invoice checks and dispute resolution.
+2. What is the minimum evidence for a material change? **Answer guidance:** A material change should record the original and revised terms, reason, cost/delivery impact, effective date, responsible owner, authorised approver and version. Obtain updated written confirmation or contractual amendment before execution, then retain it in the booking file.
 
 **Glossary.** Insertion order: commercial instruction/contract document specifying placement and terms. Material deadline: final date for accepted creative assets. Change control: documented approval process for modifications.
 
@@ -576,8 +576,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Post-buy report and reconciliation log with line-level planned/booked/delivered/billed values, evidence links, variance, root cause, contract clause, remedy, approval and closure.
 
 **Knowledge check.**
-1. Why is a blended campaign total insufficient to settle a placement dispute? **Answer guidance:** line-level detail is needed to identify which contracted deliverable failed and which remedy applies.
-2. Is a makegood always preferable to a credit? **Answer guidance:** no; value, timing, audience, campaign purpose and contractual remedy determine suitability.
+1. Why is a blended campaign total insufficient to settle a placement dispute? **Answer guidance:** A blended total can conceal which placement, date, format or location failed. Reconcile line by line to the signed booking and proof, quantify the variance and contractual value, then apply the remedy attached to that specific obligation.
+2. Is a makegood always preferable to a credit? **Answer guidance:** A makegood is not always preferable to a credit. Compare replacement timing, audience quality, relevance to the campaign objective, incremental value, operational feasibility and the signed contract's remedy; document mutual agreement rather than assuming a unilateral entitlement.
 
 **Glossary.** Proof-of-airing: evidence that a broadcast spot ran. Proof-of-play: system evidence of a digital screen playing an asset. Makegood: replacement delivery or other agreed remedy.
 
@@ -598,8 +598,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Governance framework and measurement scorecard with metric definitions, source hierarchy, audit trail, approval limits, conflicts, supplier scorecard, invoice checks, privacy, retention and escalation.
 
 **Knowledge check.**
-1. Why can a third-party report still require QA? **Answer guidance:** methodology, sample, coverage, data processing and applicability may still be limited or misunderstood.
-2. What should happen when two sources report conflicting audience values? **Answer guidance:** preserve both definitions, examine methods and time periods, identify a governing source for the decision and document unresolved uncertainty.
+1. Why can a third-party report still require QA? **Answer guidance:** Third-party reports still require review of universe, sampling, coverage, fieldwork, data processing, metric definitions, exclusions, uncertainty, conflicts and suitability for the decision. Independence or reputation does not guarantee that the report answers the exact question.
+2. What should happen when two sources report conflicting audience values? **Answer guidance:** Preserve both values with source, date, universe and methodology; investigate whether they measure different populations or periods. Apply the agreed source hierarchy for the decision, document unresolved uncertainty and do not select the more favourable number without rationale.
 
 **Glossary.** Source hierarchy: agreed order for authoritative evidence. Exception log: register of deviations and resolutions. Investment governance: controls over planning, authorization, delivery, measurement and reconciliation.
 
@@ -620,8 +620,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Required artifact and acceptance.** Senior investment plan and client presentation plus workbook. Include brief, target, source methodology, channel roles, schedules, budget, negotiated terms, buying pack, delivery evidence model, measurement scorecard, risk/governance, post-buy and executive recommendation.
 
 **Knowledge check.**
-1. What invalidates a senior capstone despite a persuasive media plan? **Answer guidance:** unsupported audience claims, non-comparable metrics, unapproved terms, missing delivery controls or invented market evidence.
-2. How should local-market uncertainty be presented? **Answer guidance:** identify what is known, source and date, what is assumed, what cannot be compared, and what supplier or independent validation is still required.
+1. What invalidates a senior capstone despite a persuasive media plan? **Answer guidance:** A senior plan fails despite persuasive presentation when audience claims lack evidence, metrics are not comparable, terms lack approval, execution/proof controls are absent or local market assumptions are invented. Leadership decisions must be commercially and operationally auditable.
+2. How should local-market uncertainty be presented? **Answer guidance:** State what is known with source and date, what is assumed, which measures are incomparable and why, and what remains unknown. Quantify the decision impact where possible and identify the supplier, research or independent validation needed before commitment.
 
 **Glossary.** Investment stewardship: accountable management of spend, terms, delivery and evidence. Scenario planning: comparison of plausible operating conditions and decisions. Post-buy: formal reconciliation and evaluation after media delivery.
 

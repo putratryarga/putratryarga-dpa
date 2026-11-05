@@ -57,7 +57,7 @@ Roadmap ini panduan belajar mandiri, bukan sertifikasi resmi platform dan bukan 
 | 15 | Affiliate & Social Commerce Partnerships | Performance partnership |
 | 16 | Community Management & Advocacy | Engagement & advocacy |
 
-Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying** kini memiliki 28 bab draft lengkap (14 + 14) di repository. Statusnya **first-pass draft, validation pending**; belum menjadi kurikulum final/SME-approved.
+Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying** memiliki 28 bab draft awal (14 + 14). Audit terpisah 14 chapter per elective mengklasifikasikan semuanya PARTIAL; materi masih thin first-pass draft dan belum final/SME-approved.
 
 ## Fitur
 
@@ -175,3 +175,7 @@ Roadmap ini dibagikan gratis untuk pembelajaran. Konten dan desain tetap milik p
 ## Planned feature: DPA Certificate Issuance & Verification
 
 The proposed [certificate issuance and verification specification](docs/certificate-issuance-verification-spec.md) defines DPA-issued participation, completion and track-achievement credentials, server-side issuance, public verification and revocation. **Design only: no live issuance is implemented or authorized.** Assessment approval, issuer policy, privacy/security review and a trusted backend are prerequisites. DPA-issued learning credentials must not be described as BNSP/LSP or government certification without a separately verified authorization.
+
+- [Elective 17 CRO chapter-level desk audit](docs/ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.md) and [14-row CSV](docs/ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.csv) — all 14 chapters PARTIAL; formal status OPEN.
+- [Elective 18 Traditional Media chapter-level desk audit](docs/ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.md) and [14-row CSV](docs/ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.csv) — all 14 chapters PARTIAL; formal status OPEN.
+- [56 elective knowledge-check review register](docs/56-elective-knowledge-check-review-register.csv) — expanded answer guidance with prior answers preserved; all 56 remain reflective/non-scored and source/editorial/SME statuses OPEN.
