@@ -316,7 +316,7 @@ Source checks and deterministic tests are present; workflow result and authentic
 - `docs/2026-11-05-priority-track-source-remediation.md`: documented six-source enrichment and caveats for T03, T07, T10, T13 and T16; T02 gaps remain documented against its existing GovS 011 and ICC/ESOMAR source mix.
 
 ### Resource enrichment
-- Added six unique source URLs to 21 chapter-resource rows; the resource map now has 169 rows and 55 unique URLs.
+- Added six unique source URLs to 21 chapter-resource rows; the resource map now has 169 rows and 67 unique URLs.
 - Added exact MRC OOH standards PDF for T03; IAB/MRC Retail Media Measurement Guidelines PDF and IAB Europe V2.1 article for T07; SQLBolt + Hernán/Robins *What If* for T10; W3C WCAG 2.2 for T13; and NSW Government community-management guidance for T16.
 - These additions are not Indonesian local market evidence or blanket source-fit approval. Objective-to-resource fit remains OPEN for 169/169 chapters. SQLBolt and IAB Europe direct access were not confirmed in this manual check; their search-index evidence is recorded separately.
 - The prior 46/48 automated retrieval result remains a historical snapshot before the six URL additions and is not represented as current 46/54 or 54/54 coverage.
@@ -405,3 +405,18 @@ Source checks and deterministic tests are present; workflow result and authentic
 
 **Date:** 5 November 2026  
 **Current structural state:** 169 chapter rows / 55 unique external URLs / minimum two unique URLs per chapter. The resource-fit CSV has been regenerated to the exact current mapping. Older ledger entries reporting 48 or 54 URLs are historical snapshots tied to their recorded commits; they are superseded by the current 55-URL mapping. The former 46/48 fetch result is not a current 46/55 result. No current 55/55 direct-access claim is made. All 169 objective-level source-fit and Indonesia access decisions remain OPEN.
+
+
+## 22. T10 chapter-level source fit review
+
+**Date:** 5 November 2026  
+**Disposition:** FIRST-PASS DESK REVIEW COMPLETE; FORMAL ACCEPTANCE OPEN.
+
+- Added 11 unique T10-relevant source URLs (12 row references) across T10-CH02/03/04/05/07/08/09/10, bringing the resource map to 169 chapter rows / 67 unique URLs.
+- Added GA4 export schema/session/attribution material; GoogleSQL and BigQuery computation best practices; Looker Studio calculated fields; Google Meridian and calibration guidance; Optimizely experiment workflow/statistical significance; and Tableau visual best practices.
+- Updated all ten T10 rows in the 169-objective resource-fit register to the current map.
+- Created `docs/T10-10-chapter-source-fit-review.md` and a 10-row CSV with chapter-specific fit classification, evidence, gap and remediation. CH04 (SQL) and CH07 (causal/MMM) have stronger mapped sources; all ten are still PARTIAL overall.
+- Major gaps: direct KPI/measurement planning source (CH01); vendor-neutral data taxonomy/lineage (CH02); CM360/Floodlight sources (CH03); runnable dataset and join QA (CH04); dashboard governance and tool comparison (CH05); diagnostic case (CH06); MTA/causal estimand comparison (CH07); MDE/power/sample-size calculations and stopping rules (CH08); executive insight-readout rubric (CH09); reproducible end-to-end capstone dataset/reference solution (CH10).
+- Direct source access was confirmed for GoogleSQL, BigQuery computation, Looker Studio calculated fields, GA4 attribution settings, Meridian intro/calibration, Optimizely experiment workflow and Tableau visual guidance. Some GA4 Help pages and Optimizely statistical-significance content had retrieval limitations; these are not marked as confirmed learner access.
+
+**Status:** T10 is still PARTIAL; all ten formal acceptance/SME decisions and all 169 objective-level fit decisions remain OPEN.
