@@ -173,4 +173,17 @@ The T16 mapping adds eight local/official source routes:
 
 The existing Dewan Pers Cyber Media Guidelines remain a journalism-context source, not an automatic rulebook for ordinary brand-community pages. NSW guidance remains a public-sector operational example, not Indonesian law. Platform settings vary by account, device, permissions and release, so account-side checks are still required.
 
-**Current map:** 169 rows / 121 unique URLs / minimum two URLs per chapter. Source-map structure is not legal sign-off or evidence of access to each platform account.
+**Map at the T16 checkpoint:** 169 rows / 121 unique URLs / minimum two URLs per chapter. This dated total is superseded by the T01 batch; the current map is 169 rows / 127 unique URLs. Source-map structure is not legal sign-off or proof of account/learner access.
+
+
+## 12. T01 — Full-Stack Digital Marketing & Performance source-fit desk review — 5 November 2026
+
+T01 is a separate first-pass batch after the six priority-track reviews. The [T01 10-Chapter Source-Fit Review](T01-10-chapter-source-fit-review.md) and [CSV](T01-10-chapter-source-fit-review.csv) assess CH01–CH10 against the chapter objective and mapped publisher/source.
+
+**Disposition:** 10/10 chapters PARTIAL at desk-review level. The common Google Skillshop home, Meta Blueprint catalog and HubSpot Academy home references have been replaced with chapter-specific sources covering contribution margin/CVP, break-even, research ethics and journey mapping, evaluation/KPI terminology, communication planning, Search/Social/Programmatic platform learning, SEO/content/community, GA4/consent, experimentation/accessibility and CRM/lifecycle.
+
+**Inventory effect:** six unique URLs were added to the 169-row map, moving the count from 121 to **127 unique URLs**. Minimum two distinct URLs per chapter remains enforced. This count is structural only.
+
+**Boundaries retained:** public-sector planning/evaluation sources (GovS 011, OASIS and GCS Evaluation Cycle) are contextual analogies, not Indonesian law or a complete commercial agency method. Google Reach Planner is YouTube/video-only. Vendor academies (Google, Meta, TTD, TikTok, Salesforce, Optimizely) are product-specific learning routes, not neutral professional standards. Google Consent Mode does not obtain consent or create a legal basis. HubSpot English/Indonesian learner access was not established for the selected course routes. The finance sources do not cover digital CAC/LTV/payback end-to-end.
+
+**Formal state:** all ten T01 rows in the 169-objective register remain OPEN for formal objective fit, Indonesia access, language/cost/account eligibility, technical accuracy and SME approval. Learner pilot remains OPEN. T01 does not change the separate 16 Core + 2 Electives taxonomy.

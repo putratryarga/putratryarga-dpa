@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 121);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 127);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
@@ -351,6 +351,9 @@ try {
   const t16DeskReview = read("docs/T16-12-chapter-source-fit-review.csv");
   const t16DeskReviewRows = t16DeskReview.trim().split("\n").length - 1;
   assertEqual("T16 12-chapter source-fit desk-review rows", t16DeskReviewRows, 12);
+  const t01DeskReview = read("docs/T01-10-chapter-source-fit-review.csv");
+  const t01DeskReviewRows = t01DeskReview.trim().split("\n").length - 1;
+  assertEqual("T01 10-chapter source-fit desk-review rows", t01DeskReviewRows, 10);
   const qnaTriage = read("docs/507-qna-automated-triage.csv");
   const agencyGapTriage = read("docs/80-agency-cell-evidence-gap-triage.csv");
   const qnaTriageRows = qnaTriage.trim().split("\n").length - 1;
@@ -417,7 +420,13 @@ try {
     "https://jdih.komdigi.go.id/produk_hukum/view/id/884/t/undangundang%20nomor%201%20tahun%202024",
     "https://www.tiktok.com/community-guidelines/en/",
     "https://www.meta.com/safety/topics/safety-basics/policies/",
-    "https://support.google.com/youtube/answer/9826490?hl=en"
+    "https://support.google.com/youtube/answer/9826490?hl=en",
+    "https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters",
+    "https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/",
+    "https://skillshop.withgoogle.com/googleads/",
+    "https://support.google.com/analytics/answer/13965727",
+    "https://developers.google.com/tag-platform/security/concepts/consent-mode",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
   ];
   for (const url of requiredNewResourceUrls) {
     if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);

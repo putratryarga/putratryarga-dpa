@@ -7,9 +7,9 @@
 
 ## 1. Executive result
 
-At the end of the T10/T03/T02/T07/T13/T16 priority-track enrichment, the deterministic map check was **169 chapter rows, 169 unique chapter IDs and 98 unique URLs**. A subsequent exact-head enrichment across the remaining ten core tracks expanded the current mapping to **121 unique URLs**. Earlier 39/46/47/48/55/67/70/77/83/90-URL figures below are historical snapshots from their dated passes. These totals establish mapping integrity only, not source-to-objective fit or learner access.
+At the end of the T10/T03/T02/T07/T13/T16 priority-track enrichment, the deterministic map check was **169 chapter rows, 169 unique chapter IDs and 98 unique URLs**. A subsequent exact-head enrichment across the remaining ten core tracks expanded the map to 121 unique URLs; the 5 November T01 source-fit batch raised the **current mapping to 127 unique URLs**. Earlier 39/46/47/48/55/67/70/77/83/90/98/121-URL figures below are dated historical snapshots. These totals establish mapping integrity only, not source-to-objective fit or learner access.
 
-The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. The initial six-source enrichment was subsequently refined to direct MRC OOH / MRC retail PDFs and the IAB Europe V2.1 article; later T10 and T03 reviews extended the map to 70 unique URLs. Access outcomes and caveats are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 automated retrieval result forward as a current 46/70 result or claim all 70 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
+The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. The initial six-source enrichment was subsequently refined to direct MRC OOH / MRC retail PDFs and the IAB Europe V2.1 article; later T10 and T03 reviews extended the map to 70 unique URLs. Access outcomes and caveats are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 automated retrieval result forward as a current fetchability result or claim all 127 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
 
 A further source-level cross-check found an important caveat in the Jakarta Post page: its terms page displays a 10% VAT statement. The Directorate General of Taxes (DJP) explanation of PMK 131/2024 dated 3 January 2025 says non-luxury taxable goods/services are calculated at 12% × 11/12 of the relevant base (effective 11% for most such supplies), while luxury taxable goods/services use 12% on the full applicable base. Do not copy the publisher page's 10% text into a current Indonesian budget model. The tax treatment of an actual advertising invoice, any special DPP treatment and documentation must be confirmed by the publisher and finance/tax reviewer. See the T08 simulation pack and the cited primary-source links there.
 
@@ -156,26 +156,26 @@ This improves practical simulation coverage but does **not** close T08's primary
 
 ### 5 November 2026 — priority-source remediation
 
-The current resource map contains 169 chapter rows and 55 unique URLs after the six-track source-enrichment pass and subsequent exact-source refinement across 21 chapter rows in T03, T07, T10, T13 and T16. The source-by-source relevance, direct/manual access outcomes, jurisdiction caveats and track dispositions are recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md).
+At that historical source-refinement checkpoint, the resource map contained 169 chapter rows and 55 unique URLs after the six-track source-enrichment pass and exact-source refinement across 21 chapter rows in T03, T07, T10, T13 and T16. The current inventory is 127 URLs. The source-by-source relevance, direct/manual access outcomes, jurisdiction caveats and track dispositions are recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md).
 
 This addition is a source-coverage improvement only. The 169-objective review register has one row per core chapter, but all 169 rows remain OPEN until the reviewer identifies the precise resource section that teaches the stated objective, classifies DIRECT/PARTIAL/SUPPORTING/NOT FIT, records evidence, and checks Indonesian access/language/cost/eligibility. No objective-level or chapter-level PASS is implied.
 
 
 ### 5 November 2026 — exact source refinement
 
-The current map uses the directly opened MRC Out-of-Home Measurement Standards (Phase 1 & 2 Combined, final Dec 2025) PDF for four T03 chapters, and the directly opened January 2024 IAB/MRC Retail Media Measurement Guidelines PDF plus the IAB Europe V2.1 article (22 Jan 2026) for four T07 chapters. The older generic MRC index and IAB V2 update announcement have been replaced on these rows. SQLBolt remains search-index verified but direct fetch was unavailable in this check. The V2.1 article was readable; its linked standards PDF returned an HTTP retrieval error and is not claimed as downloaded. Current unique URL count: 55. All objective-fit decisions remain OPEN.
+The current map uses the directly opened MRC Out-of-Home Measurement Standards (Phase 1 & 2 Combined, final Dec 2025) PDF for four T03 chapters, and the directly opened January 2024 IAB/MRC Retail Media Measurement Guidelines PDF plus the IAB Europe V2.1 article (22 Jan 2026) for four T07 chapters. The older generic MRC index and IAB V2 update announcement have been replaced on these rows. SQLBolt remains search-index verified but direct fetch was unavailable in this check. The V2.1 article was readable; its linked standards PDF returned an HTTP retrieval error and is not claimed as downloaded. The unique-URL count at this checkpoint was 55; the current inventory is 127. All objective-fit decisions remain OPEN.
 
 
 ## T10 — 10-chapter source-fit batch review
 
-The first chapter-level desk review of the next priority track (T10) is recorded in [T10 — 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and its [10-row CSV](T10-10-chapter-source-fit-review.csv). All ten chapters are classified PARTIAL at desk-review level. CH04 and CH07 have stronger mapped method sources after this pass; CH01, CH02, CH03, CH05, CH06, CH08, CH09 and CH10 retain material gaps described in the review. Formal 169-objective acceptance remains OPEN pending exact section evidence, Indonesia access, technical review and qualified SME disposition. At the time of the T10 review the inventory was 169 rows / 67 unique URLs; the subsequent T03 source pass increased it to 70 unique URLs.
+The first chapter-level desk review of the next priority track (T10) is recorded in [T10 — 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and its [10-row CSV](T10-10-chapter-source-fit-review.csv). All ten chapters are classified PARTIAL at desk-review level. CH04 and CH07 have stronger mapped method sources after this pass; CH01, CH02, CH03, CH05, CH06, CH08, CH09 and CH10 retain material gaps described in the review. Formal 169-objective acceptance remains OPEN pending exact section evidence, Indonesia access, technical review and qualified SME disposition. At the time of the T10 review the inventory was 169 rows / 67 unique URLs; the subsequent T03 source pass increased it to 70. These are historical checkpoints; the current inventory is 127 URLs.
 
 
 ## T03 10-chapter source-fit desk review — 5 November 2026
 
 A first-pass source-fit desk review is now recorded in [T03 — Media Planning: 10-Chapter Source-Fit Review](T03-10-chapter-source-fit-review.md) and its [10-row CSV](T03-10-chapter-source-fit-review.csv). All ten T03 chapters are classified **PARTIAL** at desk-review level; formal objective acceptance, Indonesia access and SME approval remain OPEN.
 
-The current resource map is **169 chapter rows / 70 unique URLs**. The T03 source pass adds YouGov's 2025 Indonesia media-consumption summary, Google Ads Reach Planner's October 2026 frequency-suggestion update and the MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0. These references have different scopes: YouGov is audience-habit research, Reach Planner is YouTube/video-partner forecasting, and MRC digital audio is streaming/progressive-download measurement. The MRC standard explicitly excludes traditional over-the-air AM/FM measurement. None closes Indonesia cross-media deduplication or traditional radio audience currency.
+The T03 first-pass checkpoint had **169 chapter rows / 70 unique URLs**; the current inventory is 127 URLs. The T03 source pass adds YouGov's 2025 Indonesia media-consumption summary, Google Ads Reach Planner's October 2026 frequency-suggestion update and the MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0. These references have different scopes: YouGov is audience-habit research, Reach Planner is YouTube/video-partner forecasting, and MRC digital audio is streaming/progressive-download measurement. The MRC standard explicitly excludes traditional over-the-air AM/FM measurement. None closes Indonesia cross-media deduplication or traditional radio audience currency.
 
 The T03 review distinguishes narrow component support from complete chapter fit. Do not sum or compare platform video reach, Nielsen TV panel, OOH audience estimates and digital-audio stream metrics as if they shared the same universe or methodology.
 
@@ -184,12 +184,12 @@ The T03 review distinguishes narrow component support from complete chapter fit.
 
 The [T02 10-Chapter Source-Fit Review](T02-10-chapter-source-fit-review.md) and its [10-row CSV](T02-10-chapter-source-fit-review.csv) record a first-pass desk assessment of CH01–CH10. All ten are PARTIAL. GovS 011 and GCS OASIS provide public-sector campaign lifecycle guidance; GCS Evaluation Cycle provides a communications evaluation process; ICC/ESOMAR provides research ethics; ICC Advertising Code provides responsible-marketing principles; NN/g supports UX journey mapping; and AMA/AAMA resources support positioning/message framework concepts. These are component sources with context-specific limits, not a complete commercial connection-planning curriculum.
 
-The source map now contains 169 rows / 77 unique URLs after this T02 enrichment. Formal objective-level decisions for all 169 chapters, including T02/T03/T10, remain OPEN until exact section-to-objective fit, Indonesia access/cost/language, technical review and qualified SME disposition are recorded.
+The T02 first-pass checkpoint reached 169 rows / 77 unique URLs after its enrichment; the current inventory is 127 URLs. Formal objective-level decisions for all 169 chapters, including T02/T03/T10, remain OPEN until exact section-to-objective fit, Indonesia access/cost/language, technical review and qualified SME disposition are recorded.
 
 
 ## T07 — 10-chapter retail and commerce media source-fit batch review
 
-The [T07 10-Chapter Source-Fit Review](T07-10-chapter-source-fit-review.md) and its [10-row CSV](T07-10-chapter-source-fit-review.csv) record the first-pass assessment of T07-CH01…CH10. All ten are PARTIAL. The current mapping has 169 chapter rows / 83 unique URLs.
+The [T07 10-Chapter Source-Fit Review](T07-10-chapter-source-fit-review.md) and its [10-row CSV](T07-10-chapter-source-fit-review.csv) record the first-pass assessment of T07-CH01…CH10. All ten are PARTIAL. The T07 first-pass checkpoint reached 169 chapter rows / 83 unique URLs; the current inventory is 127 URLs.
 
 The T07 source pass adds six Indonesia-facing local routes: TikTok Product Shopping Ads/GMV Max, Tokopedia Product Shopping Ads, Shopee product-ad creation and performance reporting, and Lazada Sponsored Solutions/Sponsored Discovery. These documents make feature scope and local seller workflows more concrete, but several features are seller/permission/whitelist-gated. Shopee's documented 7-day post-click reporting, TikTok campaign optimization and Lazada reporting must not be assumed equivalent. IAB/MRC (US-oriented) and IAB Europe V2.1 (European) remain measurement references, not proof of local retailer implementation.
 
@@ -198,7 +198,7 @@ Formal objective fit, local seller access, commercial fees/terms, technical revi
 
 ## T13 — 11-chapter content strategy and creation source-fit batch review
 
-The [T13 11-Chapter Source-Fit Review](T13-11-chapter-source-fit-review.md) and [11-row CSV](T13-11-chapter-source-fit-review.csv) record the first-pass desk assessment; all eleven chapters are PARTIAL. The current source map contains 169 chapter rows / 90 unique URLs.
+The [T13 11-Chapter Source-Fit Review](T13-11-chapter-source-fit-review.md) and [11-row CSV](T13-11-chapter-source-fit-review.csv) record the first-pass desk assessment; all eleven chapters are PARTIAL. The T13 first-pass checkpoint reached 169 chapter rows / 90 unique URLs; the current inventory is 127 URLs.
 
 New sources provide TikTok Creative Center/Top Ads inspiration, commercial music and creator-disclosure guidance, YouTube native engagement/retention/impression metrics, and the JDIH BPK copyright-law record. These sources are component-specific. Top Ads reports ad examples, not a representative sample of organic posts or consumer culture. YouTube measurement definitions are platform-native, not a shared content currency.
 
@@ -207,8 +207,19 @@ The copyright-law update is time-sensitive: JDIH BPK lists UU 28/2014 in its cur
 
 ## T16 — 12-chapter community management and advocacy source-fit batch review
 
-The [T16 12-Chapter Source-Fit Review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) record a first-pass assessment; all twelve chapters are PARTIAL. The current resource map contains 169 chapter rows / 121 unique URLs.
+The [T16 12-Chapter Source-Fit Review](T16-12-chapter-source-fit-review.md) and [12-row CSV](T16-12-chapter-source-fit-review.csv) record a first-pass assessment; all twelve chapters are PARTIAL. The T16 first-pass checkpoint reached 169 chapter rows / 121 unique URLs; the subsequent T01 source-fit batch raised the current inventory to 127 URLs.
 
 New sources include UU PDP 27/2022, UU ITE 1/2024, PP 71/2019, Meta safety/community controls, TikTok comment filters and Community Guidelines, and YouTube live-chat moderation. They address different layers: law/data processing, electronic-system governance, platform policies and account-level moderation tools. The Dewan Pers Cyber Media Guidelines are scoped to journalistic cyber media; they do not automatically define brand-community moderation obligations. The applicability of PSE regulation to a particular organization/service requires fact-specific legal review.
 
 Formal objective fit, local access, legal applicability, community/care workflow validation and SME sign-off remain OPEN.
+
+
+## T01 — 10-chapter Full-Stack source-fit desk review — 5 November 2026
+
+The [T01 10-Chapter Source-Fit Review](T01-10-chapter-source-fit-review.md) and [10-row CSV](T01-10-chapter-source-fit-review.csv) record the first-pass assessment of all Full-Stack chapters. All ten are PARTIAL. The prior one-size-fits-all mapping (Google Skillshop home, Meta Blueprint catalog and HubSpot Academy home) has been replaced by chapter-specific routes for unit economics, research ethics/journey mapping, evaluation/KPI terminology, campaign planning, paid-platform learning, search/content/community, GA4/consent, experimentation/accessibility and CRM/lifecycle.
+
+Six unique URLs were added, bringing the overall map from 121 to **127 unique URLs**. The map remains 169 chapter rows with a minimum of two distinct URLs per chapter. The 10 T01 formal objective-fit, Indonesia access, language/cost/account eligibility, technical and SME decisions remain OPEN.
+
+Material limitations remain explicit: OpenStax/SBA cover CVP and break-even but not digital CAC/LTV/cohort/payback; ICC/ESOMAR is a code rather than a research-method course; GCS/GovS/OASIS are UK public-sector frameworks; Reach Planner is YouTube/video-only and forecasts are estimates; paid/search/CRM tutorials are vendor-specific; Consent Mode does not obtain consent or replace legal basis; Optimizely statistics are vendor-specific; HubSpot English/Indonesian learner access was not established; and the integrated capstone still lacks a tested reference solution.
+
+**Current desk-review coverage:** T01/T02/T03/T07/T10/T13/T16 = 73 chapters first-pass desk-reviewed, all PARTIAL. The remaining 96 core chapters still require first-pass chapter-level source-fit desk review. All 169 objective-level formal decisions remain OPEN.

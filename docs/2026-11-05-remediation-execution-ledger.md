@@ -503,7 +503,7 @@ Source checks and deterministic tests are present; workflow result and authentic
 - 169 canonical core chapter IDs reconcile; the structure-depth screen reports no structural flags and no exact duplicate core Q&A question text.
 - The evidence register contains 507 Q&A pairs. The review register is synchronized exactly to question text/current guide answers; all 507 editorial, answer-review and SME statuses remain OPEN.
 - The objective resource register has 169 rows; 63/169 priority chapters now have first-pass desk-review evidence covering T02 (10), T03 (10), T07 (10), T10 (10), T13 (11) and T16 (12). All 169 formal fit, Indonesia access, language/cost/account eligibility remain OPEN. The 106 non-priority chapters still need their first desk review.
-- Resource map: 169 chapter rows, 121 unique URLs and minimum two unique URLs per chapter. Six priority-track reviews are separate files and all 63 desk classifications are PARTIAL or PARTIAL_STRONG; none is formal acceptance.
+- Resource map: 169 chapter rows, 127 unique URLs and minimum two unique URLs per chapter. Six priority-track reviews (63 chapters) plus the separate T01 desk review (10 chapters) give 73 first-pass chapter desk reviews; all are PARTIAL or PARTIAL_STRONG, none is formal acceptance.
 - Agency validation: 80/80 cells have source references (101 URLs total in the register), with source type/caveat captured. Source mix includes employer-hosted JDs, historical/adjacent JDs, employer career portals and indexes, and employer-attributed postings. All employer/JD currentness, role specificity, geography/seniority and competency checks remain OPEN.
 - Rubric calibration: 169 rows; all SME and calibration decisions OPEN. The proposed 80/100 threshold remains uncalibrated.
 - Electives remain separate: 28 chapter validation rows and 56 knowledge-check rows; all technical, source, answer-key, rubric, legal/market and pilot statuses OPEN.
@@ -532,10 +532,10 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 
 ## 2026-11-05 exact-head continuation — resource count and T16 artifact reconciliation
 
-- Prior exact-head snapshot `aa4b78f5627b79c26abce02f0c050ec2db114649` had 169 mapped chapter rows and 121 distinct resource URLs under the static validator's Markdown-link parser. The old 98-URL validator expectation was stale after the remaining-track source-enrichment commits; it caused the latest static QA failure, not a connection failure or curriculum-data mismatch.
-- The 169-row / 121-URL map is now synchronized across the validator, README, acceptance register, source-of-truth, priority-track review and resource-fit review. The minimum two-distinct-URLs-per-chapter invariant is retained.
-- Added the missing T16 12-chapter desk-review Markdown and 12-row CSV artifacts referenced by the source-of-truth and resource-fit review. Every T16 row remains PARTIAL at desk level; formal fit, Indonesia access, legal applicability, technical review, SME approval and learner pilot remain OPEN.
-- This documentation/validator sync is confined to the audit branch. It does not update production, merge PR #5/#6, or authorize certificate issuance.
+- Prior exact-head snapshot `aa4b78f5627b79c26abce02f0c050ec2db114649` had 169 mapped chapter rows and 121 distinct resource URLs under the static validator's Markdown-link parser. The old 98-URL validator expectation was stale after the remaining-track source-enrichment commits; it caused the static QA failure on that head, not a connection failure or curriculum-data mismatch.
+- The 169-row / 121-URL mapping was synchronized across validator and control docs on the next checkpoint. The minimum two-distinct-URLs-per-chapter invariant was retained.
+- Added the T16 12-chapter desk-review Markdown and 12-row CSV artifacts. Every T16 row remains PARTIAL at desk level; formal fit, Indonesia access, legal applicability, technical review, SME approval and learner pilot remain OPEN.
+- That 121-URL checkpoint is historical and is superseded by the T01 batch below.
 
 
 ## 2026-11-05 latest exact-head QA closure — `b750ad5089e1195250e3f2b4e96ba76751bfff92`
@@ -546,3 +546,14 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Isolated formative quiz workflow [41998790335](https://github.com/putratryarga/putratyarga-dpa/actions/runs/41998790335) passed on the same SHA: deterministic tests, Playwright interaction, axe checks, keyboard navigation, unanswered guard, review/retry and 390px overflow test. This is not main-app authenticated QA or scored assessment approval.
 - GitHub combined status reports the Vercel check as SUCCESS for this commit. This is not a substitute for authenticated browser QA, production verification or curriculum/content acceptance.
 - Branch comparison: 405 commits ahead, 0 behind `main`. `main` was not changed. PR #5 and #6 remain open/draft and non-mergeable. Release remains NOT READY; certificate issuance remains NOT AUTHORIZED.
+
+## 2026-11-05 T01 Full-Stack source-fit batch — exact inventory reconciliation
+
+- Added docs/T01-10-chapter-source-fit-review.md and its 10-row CSV. T01-CH01…CH10 are all PARTIAL desk-review classifications; none is formal acceptance.
+- Replaced the shared generic three-link mapping on all ten T01 chapter rows with chapter-specific official/professional source routes. Six unique external URLs were added; the mapping remains 169 rows and now contains 127 unique URLs, with at least two unique URLs per chapter.
+- Updated all ten T01 rows in the 169-objective resource-fit register. desk_review_status=FIRST_PASS_DESK_REVIEW_COMPLETE; desk_fit_classification=PARTIAL; objective-level fit, Indonesia access, language/cost/account eligibility, reviewer and SME decisions remain OPEN.
+- Updated both independent validators: expected unique URLs = 127; T01 review CSV = exactly 10 rows; track parity now includes T01 + T02/T03/T07/T10/T13/T16 for 73 total first-pass desk-review rows. Six new mapped URLs are required by the deterministic validator. No acceptance criterion was removed.
+- Updated README, Master Source of Truth, acceptance register, resource-fit review and priority source-remediation doc. Historical counts 39/46/47/48/55/67/70/77/83/90/98/121 remain dated snapshots, not current totals.
+- T01 source-fit limits: CVP/break-even references do not teach digital CAC/LTV/payback end-to-end; ICC/ESOMAR is a code rather than research-method instruction; GovS/OASIS/GCS are UK public-sector context; Reach Planner is video-only; academies are vendor-specific; Consent Mode does not collect consent or replace a legal basis; neutral MDE/power and lifecycle/CRM models remain incomplete; the integrated capstone lacks a tested reference solution.
+- No SME approval, Indonesia learner access, cost/language/account entitlement, legal interpretation, credential eligibility or learner pilot is inferred from the desk review.
+- Work is confined to the audit branch. main, PR merge and production remain untouched; overall release remains NOT READY.

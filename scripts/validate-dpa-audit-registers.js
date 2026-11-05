@@ -116,6 +116,7 @@ for (const row of objective.records) assert(canonical.has(row.chapter_id), "Obje
 const objectiveById = new Map(objective.records.map(row => [row.chapter_id, row]));
 for (const id of coreIds) assert(objectiveById.has(id), "Objective register missing " + id);
 const trackSpecs = [
+  ["T01","docs/T01-10-chapter-source-fit-review.csv",10],
   ["T02","docs/T02-10-chapter-source-fit-review.csv",10],
   ["T03","docs/T03-10-chapter-source-fit-review.csv",10],
   ["T07","docs/T07-10-chapter-source-fit-review.csv",10],
@@ -157,7 +158,7 @@ for (const [track, path, expectedCount] of trackSpecs) {
   deskCounts[track] = {rows:review.records.length,classification:countBy(review.records,classificationField)};
 }
 const expectedDeskReviewRows = trackSpecs.reduce((sum, spec) => sum + spec[2], 0);
-assert(deskReviewRows === expectedDeskReviewRows && deskReviewRows === 63, "Priority-track desk review total must equal 63.");
+assert(deskReviewRows === expectedDeskReviewRows && deskReviewRows === 73, "First-pass desk-review total must equal 73.");
 
 const resourceLines = read("docs/169-chapter-resource-mapping.md").split(/\r?\n/).filter(line => /^\|\s*DPA-T\d{2}-CH\d{2}\s*\|/.test(line));
 const resourceIds = resourceLines.map(line => line.split("|")[1].trim());
@@ -169,7 +170,7 @@ for (const line of resourceLines) {
   assert(uniqueUrls.size >= 2, "Resource map row has fewer than two unique URLs: " + line.split("|")[1].trim());
   for (const url of uniqueUrls) resourceUrls.add(url);
 }
-assert(resourceUrls.size === 121, "Resource URL inventory expected 121 unique URLs; found " + resourceUrls.size);
+assert(resourceUrls.size === 127, "Resource URL inventory expected 127 unique URLs; found " + resourceUrls.size);
 
 const agency = loadCsv("docs/80-agency-role-cell-validation-register.csv");
 assert(agency.records.length === 80, "Agency validation register must contain 80 cells.");
@@ -209,8 +210,8 @@ console.log(JSON.stringify({
   coreQnaItems:qna.records.length,
   qnaParityMismatches:qnaMismatches,
   objectiveResourceRows:objective.records.length,
-  priorityDeskReviewRows:deskReviewRows,
-  priorityDeskReviews:deskCounts,
+  sourceFitDeskReviewRows:deskReviewRows,
+  trackDeskReviews:deskCounts,
   resourceMappingRows:resourceLines.length,
   uniqueResourceUrls:resourceUrls.size,
   agencyCells:agency.records.length,
