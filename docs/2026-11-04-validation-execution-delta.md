@@ -181,3 +181,21 @@ The new `docs/169-chapter-technical-review-matrix.md` contains 169 per-chapter r
 The 169 rubric entries contain chapter-specific artifact checklists and a shared five-dimension scoring model; rubric calibration on weak/competent sample submissions remains open. All 507 answer keys are source-matched but correctness, completeness, acceptable alternatives and SME approval remain open. The 169-chapter resource map is a coverage baseline; source-fit SME and Indonesian access/price/language checks remain open.
 
 **Status:** evidence coverage is materially improved, but the 80-cell matrix is still PARTIAL; all 169 chapters remain pending technical/SME approval. Browser/runtime QA remains NOT RUN.
+
+
+## 13. 5 November 2026 — remediation branch execution delta
+
+**Branch:** `audit/full-dpa-remediation-2026-11-05`.
+
+- Integrated PR #6's unique advanced-elective architecture document into this branch; both electives remain Proposed / Evidence Validation Pending.
+- Corrected T07 source-guide assignment: CH06 = Retail Audience / First-Party Data; CH07 = Product Feed / Digital Shelf / Retail Readiness; CH08 = Campaign Activation / Bidding / Optimization with in-store execution controls retained inside the integrated activation module.
+- Rebuilt the 149 role-specific evidence-register content sections from source guide arrays, including 600 glossary term-definition pairs. The 169 chapter IDs remain unique and the register literal-`undefined` scan returned zero. This is extraction reconciliation, not subject-matter approval.
+- Updated the three T07 assessment draft outcome/artifact and answer-key review sections. Answer-key correctness remains OPEN.
+- Updated T07 chapter-level resources to use Amazon Ads/IAB audience and retail-media guidance, Google Merchant Center product specification, TikTok catalog documentation, Lazada category/product API documentation, and IAB/MRC measurement standards. TikTok product access remains market/account-conditional.
+- Corrected static QA media-query count to 19 total: 14 width-based, 2 reduced-motion and 3 print declarations. Visual/browser behavior remains untested.
+- Removed the orphaned `CONNECTION_GUIDES` declaration from the ID-based renderer branch after confirming it was unreferenced in this branch. The `DPA_GUIDE_BY_CHAPTER` registry remains the active source.
+- Marked the T16-CH12 correction supplement as superseded historical evidence; active register and rubric remain canonical.
+- Refreshed Amazon Ads credential guidance: general Academy FAQ states free certifications, 80% pass score, 24-hour retake, two-year validity, one-sitting assessment and 60–90-minute planning guidance; specific assessment pages can set different formats/timers (e.g. Foundations 50 questions / 120 minutes). See official sources in the credential register.
+- Added canonical Source of Truth and remediation execution ledger. Raw 169 audit vectors and full 23-issue / 12-discrepancy registers remain not found in the repository/accessible Library sources and must not be marked closed from partial excerpts.
+
+**Remaining:** raw 169-vector recalculation, complete 23 + 12 finding disposition, full 90-cell row validation, 169 source-fit and SME review, 507 answer-key validation, rubric calibration, elective chapter development, authenticated browser/runtime QA and preview build success.
