@@ -463,3 +463,17 @@ Source checks and deterministic tests are present; workflow result and authentic
 - Current resource map: 169 rows / 83 unique URLs; validator checks all six local routes and ten T07 review rows.
 
 **Register effect:** RES-001 remains PASS for mapping structure only. RES-002 is PARTIAL at desk-review level across T02, T03, T07 and T10 (10 chapters each); formal acceptance of all 169 objectives remains OPEN.
+
+
+## 27. T13 content strategy and creation source-fit review
+
+**Date:** 5 November 2026  
+**Disposition:** FIRST-PASS DESK REVIEW COMPLETE; 11/11 CHAPTERS PARTIAL; FORMAL ACCEPTANCE OPEN.
+
+- Created `docs/T13-11-chapter-source-fit-review.md` and an 11-row CSV; all chapters have source evidence, material gaps and next actions.
+- Added seven source URLs for TikTok Top Ads, Commercial Music Library, commercial-content disclosure, YouTube native analytics, and JDIH BPK's copyright-law record.
+- Updated the eleven T13 rows in the 169-objective register with desk-review status PARTIAL and explicit gaps. Formal objective fit, rights/legal, platform access, technical/editorial/SME and learner-pilot fields remain OPEN.
+- DPR reporting dated 27 October 2026 describes the RUU Copyright amendment as still under Panja discussion. The draft is not enacted legislation; recheck live JDIH/legislative status before legal instruction.
+- Current resource map: 169 rows / 90 unique URLs; validator checks all seven T13 source URLs and exactly 11 T13 review rows.
+
+**Register effect:** RES-001 remains PASS for mapping structure only. RES-002 is PARTIAL at desk-review level across T02/T03/T07/T10 (10 chapters each) and T13 (11 chapters); formal acceptance for all 169 objectives remains OPEN.
