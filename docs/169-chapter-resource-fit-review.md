@@ -7,7 +7,7 @@
 
 ## 1. Executive result
 
-At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 77 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
+At the time of the T10 source pass, the deterministic map check reported **169 chapter rows, 169 unique chapter IDs and 83 unique URLs**. The subsequent T03 source pass increased this to 70 unique URLs; this later total supersedes the T10 snapshot. Earlier 39/46/47/48-URL figures below are historical snapshots from prior dated passes. This is mapping integrity, not a source-fit approval.
 
 The prior 39-URL / 39-readable snapshot is historical and superseded by the 48-URL inventory that existed before the current source-enrichment pass. The earlier automated retrieval record was **46/48 readable at that time**; The Jakarta Post advertising-terms page returned HTTP 403 and YouTube Help returned HTTP 429. The initial six-source enrichment was subsequently refined to direct MRC OOH / MRC retail PDFs and the IAB Europe V2.1 article; later T10 and T03 reviews extended the map to 70 unique URLs. Access outcomes and caveats are recorded separately in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Do not carry the earlier 46/48 automated retrieval result forward as a current 46/70 result or claim all 70 URLs are directly fetchable. The 169 objective-level fit decisions remain OPEN.
 
@@ -185,3 +185,12 @@ The T03 review distinguishes narrow component support from complete chapter fit.
 The [T02 10-Chapter Source-Fit Review](T02-10-chapter-source-fit-review.md) and its [10-row CSV](T02-10-chapter-source-fit-review.csv) record a first-pass desk assessment of CH01–CH10. All ten are PARTIAL. GovS 011 and GCS OASIS provide public-sector campaign lifecycle guidance; GCS Evaluation Cycle provides a communications evaluation process; ICC/ESOMAR provides research ethics; ICC Advertising Code provides responsible-marketing principles; NN/g supports UX journey mapping; and AMA/AAMA resources support positioning/message framework concepts. These are component sources with context-specific limits, not a complete commercial connection-planning curriculum.
 
 The source map now contains 169 rows / 77 unique URLs after this T02 enrichment. Formal objective-level decisions for all 169 chapters, including T02/T03/T10, remain OPEN until exact section-to-objective fit, Indonesia access/cost/language, technical review and qualified SME disposition are recorded.
+
+
+## T07 — 10-chapter retail and commerce media source-fit batch review
+
+The [T07 10-Chapter Source-Fit Review](T07-10-chapter-source-fit-review.md) and its [10-row CSV](T07-10-chapter-source-fit-review.csv) record the first-pass assessment of T07-CH01…CH10. All ten are PARTIAL. The current mapping has 169 chapter rows / 83 unique URLs.
+
+The T07 source pass adds six Indonesia-facing local routes: TikTok Product Shopping Ads/GMV Max, Tokopedia Product Shopping Ads, Shopee product-ad creation and performance reporting, and Lazada Sponsored Solutions/Sponsored Discovery. These documents make feature scope and local seller workflows more concrete, but several features are seller/permission/whitelist-gated. Shopee's documented 7-day post-click reporting, TikTok campaign optimization and Lazada reporting must not be assumed equivalent. IAB/MRC (US-oriented) and IAB Europe V2.1 (European) remain measurement references, not proof of local retailer implementation.
+
+Formal objective fit, local seller access, commercial fees/terms, technical review and SME approval remain OPEN.
