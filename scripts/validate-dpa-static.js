@@ -134,6 +134,29 @@ try {
   const technical = read("docs/169-chapter-technical-review-matrix.md");
   const chapterInventory = read("docs/169-core-chapter-ids.txt");
   const scoreTemplate = read("audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv");
+  const acceptanceRegister = read("docs/requirements-traceability-acceptance-register.md");
+  const sourceOfTruth = read("docs/DPA-MASTER-SOURCE-OF-TRUTH.md");
+  const readme = read("README.md");
+  const electiveDrafts = read("docs/28-advanced-elective-full-chapter-drafts.md");
+
+  const scopeLock = acceptanceRegister.includes("18 pathways = 16 Core Specialist Tracks + 2 Advanced Electives");
+  if (!scopeLock) fail.push("Acceptance register must lock program scope at 18 pathways = 16 Core + 2 Electives.");
+  if (!acceptanceRegister.includes("CF1–CF6")) fail.push("Acceptance register must preserve CF1–CF6 as a separate shared foundation layer.");
+  if (!readme.includes("18 pathways in total") || !readme.includes("16 Core Specialist Tracks + 2 Advanced Electives")) {
+    fail.push("README must state the 16 Core + 2 Electives program architecture.");
+  }
+  if (!sourceOfTruth.includes("Elective 17: CRO / Growth / Experience Optimization") || !sourceOfTruth.includes("Elective 18: Traditional Media Planning & Buying")) {
+    fail.push("Source of Truth must retain Electives 17 and 18 as separate advanced paths.");
+  }
+  const corePathSection = acceptanceRegister.match(/### 3\.2 Canonical 16 Core Tracks\s*\n([\s\S]*?)(?=\n### 3\.3)/);
+  const corePathwayRows = corePathSection ? (corePathSection[1].match(/^\d+\.\s+.+$/gm) || []) : [];
+  assertEqual("Acceptance register core pathway rows", corePathwayRows.length, 16);
+  const electivePathSection = acceptanceRegister.match(/### 3\.3 Two Advanced Electives\s*\n([\s\S]*?)(?=\n### 3\.4)/);
+  const electivePathwayRows = electivePathSection ? (electivePathSection[1].match(/^1[78]\.\s+.+$/gm) || []) : [];
+  assertEqual("Acceptance register elective pathway rows", electivePathwayRows.length, 2);
+  const electiveChapterHeadings = electiveDrafts.match(/^## (?:17|18)\.\d{2} — /gm) || [];
+  assertEqual("Advanced elective first-pass chapter headings", electiveChapterHeadings.length, 28);
+  if (!acceptanceRegister.includes("28 elective draft chapters")) fail.push("Acceptance register must keep 28 elective drafts separate from 169 core chapters.");
 
   const htmlIds = [...html.matchAll(/data-chapter-id=["'](DPA-T\d{2}-CH\d{2})["']/g)].map((m) => m[1]);
   const fullIds = [...fullstack.matchAll(/chapterId\s*:\s*["'](DPA-T\d{2}-CH\d{2})["']/g)].map((m) => m[1]);
