@@ -24,7 +24,7 @@ The item-by-item output is [507 Q&A automated triage CSV](507-qna-automated-tria
 | Signal | Count |
 |---|---:|
 | Agency × core-track rows | 80 |
-| Cells with at least one per-cell source reference | 79/80 |
+| Cells with at least one per-cell source reference | 80/80 |
 | Source URLs/references linked across cells | 99 |
 | Cells still missing an exact URL/Job ID | 1/80 |
 | Rows with role-specificity OPEN | 80 |
@@ -43,9 +43,9 @@ The item-by-item output is [507 Q&A automated triage CSV](507-qna-automated-tria
 - D/A: 5
 - A/B: 2
 
-The granular register now attaches **99 source references across 79 cells**. Source type varies: direct employer-hosted JDs, official career indexes, employer-attributed LinkedIn postings, adjacent roles and historical/expired requisitions. The link is a traceability improvement, not an automatic confirmation that the role is direct, currently open, Indonesia-based, or covers every chapter competency.
+The granular register now attaches **101 source references across 79 cells**. Source type varies: direct employer-hosted JDs, official career indexes, employer-attributed LinkedIn postings, adjacent roles and historical/expired requisitions. The link is a traceability improvement, not an automatic confirmation that the role is direct, currently open, Indonesia-based, or covers every chapter competency.
 
-The one cell still missing a per-cell source link is **T01 × WPP Media**. The matrix statement refers to performance marketing/integrated planning evidence with varying titles and markets; recover the exact source or preserve the gap rather than substituting an unrelated job.
+The final source-link gap, **T01 × WPP Media**, is now linked to two employer-hosted WPP Media roles: Manager, Performance (Beirut/Lebanon; 4+ years) and Senior Digital Performance Manager (Eindhoven/Netherlands; 5+ years). These establish cross-channel performance role evidence, not entry-level Indonesia scope or every Full-Stack business competency.
 
 All 80 rows remain OPEN for employer/source revalidation, role specificity, currentness, geography/seniority and chapter competency mapping. The A/B/D evidence labels are inherited classifications and must be checked against the attached source and the exact role unit/brand.
 
