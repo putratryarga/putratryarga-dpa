@@ -189,3 +189,10 @@ The [T02 10-chapter source-fit review](T02-10-chapter-source-fit-review.md) and 
 A first-pass review for all ten T07 chapters is recorded in [T07 review](T07-10-chapter-source-fit-review.md) and its [CSV](T07-10-chapter-source-fit-review.csv). Each chapter is PARTIAL; formal objective acceptance, Indonesia seller-account access/eligibility, local commercial terms, technical accuracy and SME review remain OPEN. The current resource map has 169 rows / 83 unique URLs.
 
 The added local sources document distinct TikTok Shop Ads/GMV Max, invitation-gated Tokopedia Product Shopping Ads, Shopee Ads reporting/attribution and Lazada Sponsored Solutions. Their reporting definitions, seller eligibility and account-management paths must be preserved per platform. Platform-attributed sales do not establish incrementality. IAB/MRC and IAB Europe measurement references are standards context, not evidence of local implementation or certification.
+
+
+## 25. T13 content strategy and creation source-fit review
+
+A first-pass review for all eleven T13 chapters is recorded in [T13 review](T13-11-chapter-source-fit-review.md) and [CSV](T13-11-chapter-source-fit-review.csv). Each chapter is PARTIAL; formal objective acceptance, rights clearance, local legal review, platform access and SME approval remain OPEN. The resource map has 169 chapter rows / 90 unique URLs.
+
+The added references include TikTok Creative Center/Top Ads, commercial music and creator-disclosure help, YouTube native analytics and JDIH BPK's UU 28/2014 record. The DPR reported on 27 October 2026 that the bill to amend the copyright law remained under Panja discussion. A proposal is not an enacted law; learners must not present draft changes as current statutory requirements.
