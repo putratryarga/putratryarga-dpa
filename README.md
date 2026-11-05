@@ -110,7 +110,10 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 ## Priority source refinement
 
-- Current resource map: **169 rows / 55 unique URLs**. T03 uses the exact MRC OOH standards PDF; T07 uses the IAB/MRC Retail Media Guidelines PDF and IAB Europe V2.1 article. See [track-level source remediation](docs/2026-11-05-priority-track-source-remediation.md).
+- [T10 10-chapter source-fit review](docs/T10-10-chapter-source-fit-review.md) and [10-row review CSV](docs/T10-10-chapter-source-fit-review.csv) — chapter-specific findings; all formal acceptance remains OPEN.
+
+
+- Current resource map: **169 rows / 67 unique URLs**. T03 uses the exact MRC OOH standards PDF; T07 uses the IAB/MRC Retail Media Guidelines PDF and IAB Europe V2.1 article. See [track-level source remediation](docs/2026-11-05-priority-track-source-remediation.md).
 - Direct access, source-fit, and Indonesia-market caveats remain recorded; all 169 objective-level fit decisions are OPEN.
 
 ## P1 audit registers
