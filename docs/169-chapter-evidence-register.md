@@ -929,9 +929,9 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa KPI perlu denominator dan window?
-   **Expected answer in guide (not independently approved):** Tanpa denominator/periode yang jelas, angka tidak dapat dibandingkan dan dapat menyesatkan.
+   **Expected answer in guide (not independently approved):** Setiap KPI harus menyebut populasi pembagi dan periode pengamatan agar perbandingan konsisten, perubahan dapat ditafsirkan, dan keputusan tidak bias.
 2. **Q:** Apa beda primary dan diagnostic metric?
-   **Expected answer in guide (not independently approved):** Primary menentukan keberhasilan; diagnostic membantu menjelaskan penyebab perubahan primary metric.
+   **Expected answer in guide (not independently approved):** Primary metric menentukan apakah eksperimen atau campaign mencapai tujuan; diagnostic metrics membantu menjelaskan driver yang membuat primary metric berubah.
 3. **Q:** Mengapa CTR tidak boleh menjadi KPI universal?
    **Expected answer in guide (not independently approved):** CTR bergantung pada format, objective, placement, audience, dan click definition; ia tidak selalu mencerminkan business outcome.
 
@@ -1009,11 +1009,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda impressions dan reach?
-   **Expected answer in guide (not independently approved):** Impressions menghitung exposure; reach menghitung individu/household unik menurut metodologi yang digunakan.
+   **Expected answer in guide (not independently approved):** Impressions menghitung total kesempatan penayangan yang tercatat, sedangkan reach memperkirakan orang atau rumah tangga unik menurut universe dan metode deduplikasi.
 2. **Q:** Apa arti GRP?
    **Expected answer in guide (not independently approved):** Gross Rating Points mengukur total rating points berdasarkan target universe; dapat mencakup repeated exposure.
 3. **Q:** Mengapa platform reach tidak selalu dapat dijumlahkan lintas channel?
-   **Expected answer in guide (not independently approved):** Setiap platform dapat menggunakan identity, deduplication, universe, dan time window berbeda.
+   **Expected answer in guide (not independently approved):** Identity graph, universe, deduplication, dan time window dapat berbeda antarplatform; cross-channel reach perlu metodologi deduplikasi yang kompatibel.
 
 **Glossary:**
 - **Reach:** Jumlah orang/household unik yang terpapar.
@@ -1099,7 +1099,7 @@
 - **Buying brief:** Instruksi operasional untuk membeli media sesuai media plan.
 - **RFP:** Request for Proposal kepada media owner/vendor.
 - **Makegood:** Kompensasi delivery yang kurang sesuai ketentuan kontrak.
-- **RACI:** Pembagian accountable/responsible/consulted/informed.
+- **RACI:** RACI membagi pihak yang responsible, accountable, consulted, dan informed untuk setiap aktivitas atau keputusan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -1131,7 +1131,7 @@
 1. **Q:** Mengapa CPM turun belum tentu kemenangan?
    **Expected answer in guide (not independently approved):** CPM lebih murah bisa disebabkan placement/audience quality menurun atau delivery bergeser; cek reach, attention, fraud, conversion, dan margin.
 2. **Q:** Apa beda delivery analysis dan effectiveness analysis?
-   **Expected answer in guide (not independently approved):** Delivery menilai pemenuhan media plan; effectiveness menilai perubahan audience/business outcome.
+   **Expected answer in guide (not independently approved):** Delivery analysis memeriksa apakah placement, volume, timing, dan budget sesuai rencana; effectiveness analysis menilai perubahan audience atau business outcome.
 3. **Q:** Apa syarat rekomendasi optimization yang kuat?
    **Expected answer in guide (not independently approved):** Root cause evidence, change spesifik, expected mechanism, KPI/guardrail, owner, dan batas inferensi.
 
@@ -1253,7 +1253,7 @@
 1. **Q:** Mengapa volume tinggi tidak selalu berarti prioritas tinggi?
    **Expected answer in guide (not independently approved):** Volume tanpa intent, conversion potential, margin, landing fit, dan economics bisa menghasilkan traffic mahal tetapi tidak bernilai.
 2. **Q:** Bagaimana mengelompokkan keyword?
-   **Expected answer in guide (not independently approved):** Berdasarkan intent, product/service, need, brand, competitor, geography, dan funnel context.
+   **Expected answer in guide (not independently approved):** Kelompokkan berdasarkan search intent, produk atau layanan, kebutuhan, brand, kompetitor, geografi, dan funnel context agar struktur serta pesan tetap relevan.
 3. **Q:** Apa batas competitor ad analysis?
    **Expected answer in guide (not independently approved):** Ad copy/visibility adalah observasi; tidak memberi akses ke bid, actual CPA, margin, atau conversion results pesaing.
 
@@ -1295,10 +1295,10 @@
 2. **Q:** Kapan campaign perlu dipisah?
    **Expected answer in guide (not independently approved):** Saat objective, budget, geo, product economics, brand protection, atau bidding strategy membutuhkan kontrol berbeda.
 3. **Q:** Apa tujuan naming taxonomy?
-   **Expected answer in guide (not independently approved):** Menjamin identifikasi objek, konsistensi laporan, QA, perubahan, dan handover antar operator.
+   **Expected answer in guide (not independently approved):** Naming taxonomy membuat objek mudah dikenali, laporan konsisten, QA dapat diulang, perubahan dapat ditelusuri, dan handover antaroperator lebih aman.
 
 **Glossary:**
-- **Campaign:** Unit pengelolaan objective/budget/settings.
+- **Campaign:** Campaign adalah unit pengelolaan iklan dengan objective, budget, targeting, schedule, dan pengaturan delivery tertentu.
 - **Ad group:** Kelompok keyword/ads bertema tertentu dalam campaign.
 - **Naming taxonomy:** Aturan penamaan objek yang konsisten.
 - **Negative overlap:** Situasi keyword/negative settings saling menghalangi traffic yang seharusnya diterima.
@@ -1333,7 +1333,7 @@
 1. **Q:** Apa fungsi search terms report?
    **Expected answer in guide (not independently approved):** Menunjukkan query yang memicu iklan untuk menilai intent, relevansi, biaya, conversion quality, dan peluang keyword/negative.
 2. **Q:** Apa risiko negative keyword terlalu agresif?
-   **Expected answer in guide (not independently approved):** Query bernilai dapat terblokir sehingga reach, volume, dan learning berkurang.
+   **Expected answer in guide (not independently approved):** Negative keyword yang terlalu luas dapat memblokir query relevan; review search terms dan gunakan pengecualian bertingkat sebelum menambahkan blokir.
 3. **Q:** Mengapa match type harus dicek di dokumentasi terbaru?
    **Expected answer in guide (not independently approved):** Platform mengubah matching behavior dan close variants; label match tidak selalu berarti literal match.
 
@@ -1419,7 +1419,7 @@
 
 **Glossary:**
 - **Smart bidding:** Strategi bid otomatis yang mengoptimalkan outcome berdasarkan signals.
-- **tCPA:** Target cost per acquisition.
+- **tCPA:** Target cost per acquisition adalah sasaran biaya rata-rata untuk memperoleh satu conversion yang ditentukan advertiser.
 - **tROAS:** Target return on ad spend berdasarkan conversion value.
 - **Impression share:** Porsi eligible impressions yang berhasil dimenangkan.
 
@@ -1453,7 +1453,7 @@
 1. **Q:** Mengapa form submit belum tentu qualified lead?
    **Expected answer in guide (not independently approved):** Submit hanya perilaku awal; qualification memerlukan validasi data, fit, sales response, dan outcome CRM.
 2. **Q:** Apa risiko conversion double-counting?
-   **Expected answer in guide (not independently approved):** Bidding/reporting menganggap conversion lebih banyak sehingga CPA/ROAS dan optimasi menjadi bias.
+   **Expected answer in guide (not independently approved):** Double-counting membuat sistem bidding dan laporan menganggap hasil lebih banyak dari kenyataan, sehingga CPA, ROAS, dan keputusan optimasi menjadi bias.
 3. **Q:** Apa fungsi offline conversion import?
    **Expected answer in guide (not independently approved):** Menghubungkan conversion yang terjadi di CRM/sales setelah click dengan campaign signal, sesuai identifier, privacy, dan rules.
 
@@ -1578,7 +1578,7 @@
    **Expected answer in guide (not independently approved):** Gunakan label jelas, jelaskan sumber/rumus, jangan klaim client spend atau campaign outcome yang tidak pernah terjadi.
 
 **Glossary:**
-- **Search architecture:** Rancangan account/campaign/ad group/keyword/asset/LP.
+- **Search architecture:** Search architecture mengatur account, campaign, ad group, keyword, asset, dan landing page agar intent serta pengelolaan terstruktur.
 - **Qualified lead:** Prospect yang memenuhi definisi sales/fit yang disepakati.
 - **Optimization log:** Catatan perubahan, alasan, expected effect, dan hasil evaluasi.
 - **Search capstone:** Paket bukti end-to-end yang mengintegrasikan intent, campaign, tracking, dan diagnosis.
@@ -2025,9 +2025,9 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa itu bid floor?
-   **Expected answer in guide (not independently approved):** Harga minimum yang disyaratkan supply side untuk eligible impression/deal.
+   **Expected answer in guide (not independently approved):** Bid floor adalah harga minimum yang ditetapkan supply side untuk impression atau deal yang eligible; bid di bawahnya dapat kalah atau tidak terlayani.
 2. **Q:** Apa fungsi ads.txt dan sellers.json?
-   **Expected answer in guide (not independently approved):** Membantu transparansi dan otorisasi penjual inventory, tetapi tidak sendirian menjamin kualitas.
+   **Expected answer in guide (not independently approved):** ads.txt dan sellers.json membantu mengungkap pihak yang berwenang menjual inventory; keduanya meningkatkan transparansi tetapi tidak menjamin traffic bebas fraud.
 3. **Q:** Mengapa bid tinggi tidak menjamin win?
    **Expected answer in guide (not independently approved):** Eligibility, deal rules, timeout, floor, auction competition, creative compatibility, dan supply signals juga menentukan.
 
@@ -2149,13 +2149,13 @@
 2. **Q:** Apa beda line item dengan creative?
    **Expected answer in guide (not independently approved):** Line item mengatur delivery, targeting, bid, budget, dan schedule; creative adalah asset yang ditayangkan.
 3. **Q:** Apakah sertifikasi DV360 otomatis memberi akses live seat?
-   **Expected answer in guide (not independently approved):** Tidak. Learning credential dan akses akun/seat dikendalikan organisasi/partner dan ketentuan platform.
+   **Expected answer in guide (not independently approved):** Tidak. Sertifikat membuktikan pembelajaran atau assessment, sedangkan seat live bergantung pada organisasi, partner access, kontrak, dan ketentuan platform.
 
 **Glossary:**
 - **Line item:** Unit konfigurasi delivery dalam DSP.
 - **Insertion order:** Objek pengelompokan budget/flight dalam beberapa DSP.
 - **Seat:** Akun/entitas buying access di platform/exchange.
-- **Change log:** Catatan konfigurasi/perubahan dan alasan.
+- **Change log:** Change log mencatat perubahan konfigurasi, waktu, pelaksana, alasan, dan approval agar setup dapat diaudit.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2185,11 +2185,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko click macro salah?
-   **Expected answer in guide (not independently approved):** Click-through dapat hilang, salah redirect, mengganggu billing atau memutus measurement.
+   **Expected answer in guide (not independently approved):** Click macro yang salah dapat memutus redirect, menghapus parameter, mengganggu billing, atau membuat klik tidak tercatat pada sistem pengukuran.
 2. **Q:** Mengapa trafficking sheet menjadi single source of truth?
    **Expected answer in guide (not independently approved):** Sheet mengikat object, tag, date, budget, creative, owner, approval, dan status untuk mencegah konfigurasi berbeda.
 3. **Q:** Apa bukti QA selain upload success?
-   **Expected answer in guide (not independently approved):** Preview/render evidence, click test, landing validation, tracking test, policy/approval, and sign-off.
+   **Expected answer in guide (not independently approved):** Upload success hanya mengonfirmasi file diterima; QA juga memerlukan preview, click test, landing validation, tracking verification, policy approval, dan sign-off.
 
 **Glossary:**
 - **Trafficking:** Konfigurasi teknis campaign/creative/tag untuk delivery.
@@ -2227,7 +2227,7 @@
 1. **Q:** Mengapa menaikkan bid tidak selalu menyelesaikan underspend?
    **Expected answer in guide (not independently approved):** Inventory eligibility, targeting, deal/creative issues, supply, and timeouts dapat menjadi bottleneck selain bid.
 2. **Q:** Apa risiko frequency terlalu tinggi?
-   **Expected answer in guide (not independently approved):** Waste, fatigue, negative experience, and diminishing incremental reach.
+   **Expected answer in guide (not independently approved):** Frequency berlebihan dapat memboroskan spend, menimbulkan ad fatigue dan pengalaman negatif, serta memberi tambahan reach yang semakin kecil.
 3. **Q:** Apa beda average CPM dan clearing price?
    **Expected answer in guide (not independently approved):** Average CPM merangkum biaya hasil delivery; clearing price adalah harga auction pada impression tertentu/menurut mekanisme platform.
 
@@ -2345,7 +2345,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda ad server dengan DSP?
-   **Expected answer in guide (not independently approved):** Ad server mengelola ad decisioning/delivery/tracking; DSP mengelola buying/auction/targeting di inventory.
+   **Expected answer in guide (not independently approved):** Ad server mengatur ad decisioning, delivery, dan tracking; DSP membantu advertiser membeli inventory melalui auction, targeting, bidding, dan deal access.
 2. **Q:** Mengapa Floodlight counts dapat berbeda dengan GA4 purchase?
    **Expected answer in guide (not independently approved):** Counting method, attribution, time zone, identity, consent, deduplication, event definition, and processing berbeda.
 3. **Q:** Mengapa UTM bukan pengganti Floodlight?
@@ -2385,7 +2385,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa CPM tidak boleh menjadi satu-satunya optimization target?
-   **Expected answer in guide (not independently approved):** Ia mengabaikan inventory quality, fraud, reach, outcomes, fees, and contribution.
+   **Expected answer in guide (not independently approved):** CPM murah belum tentu berkualitas; optimasi juga perlu menilai invalid traffic, viewability, audience fit, outcomes, fees, dan contribution.
 2. **Q:** Apa hubungan optimization log dengan repeatability?
    **Expected answer in guide (not independently approved):** Log mencatat perubahan, alasan, dan hasil sehingga learning bisa direplikasi dan tim tidak mengulang kesalahan.
 3. **Q:** Apa batas ROAS platform dalam menilai programmatic?
@@ -2469,7 +2469,7 @@
 1. **Q:** Apa beda marketplace ads dan retail media network?
    **Expected answer in guide (not independently approved):** Marketplace ads adalah penempatan iklan dalam marketplace; RMN dapat mencakup inventory/advertising dari retailer dan aktivasi offsite berbasis retailer signals.
 2. **Q:** Mengapa onsite dan offsite harus dipisah?
-   **Expected answer in guide (not independently approved):** Inventory, audience, data activation, fee, attribution, dan measurement berbeda.
+   **Expected answer in guide (not independently approved):** Onsite memakai inventory dan data di properti retailer, sedangkan offsite menjangkau audience retailer di luar properti; biaya dan metriknya berbeda.
 3. **Q:** Mengapa produk dan seller eligibility perlu dicek?
    **Expected answer in guide (not independently approved):** Ads hanya berguna bila SKU, stok, listing, content, dan account memenuhi syarat platform.
 
@@ -2511,7 +2511,7 @@
 2. **Q:** Mengapa review dan availability penting bagi retail ads?
    **Expected answer in guide (not independently approved):** Media dapat mendorong traffic, tetapi listing trust, stock, pricing, and delivery influence conversion.
 3. **Q:** Apa batas penggunaan loyalty data?
-   **Expected answer in guide (not independently approved):** Eligibility, consent, purpose limitation, access, aggregation, and platform terms harus dipatuhi.
+   **Expected answer in guide (not independently approved):** Gunakan loyalty data hanya untuk purpose yang sah dan disetujui, dengan eligibility, consent, access, aggregation, security, dan platform terms yang sesuai.
 
 **Glossary:**
 - **Purchase intent signal:** Sinyal perilaku yang dapat menunjukkan kesiapan membeli.
@@ -2547,14 +2547,14 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa nama product/feature harus diverifikasi ulang?
-   **Expected answer in guide (not independently approved):** Retail platform sering mengganti nama campaign, default optimization, eligibility, dan reporting.
+   **Expected answer in guide (not independently approved):** Retail platform dapat mengganti nama produk, default optimization, eligibility, dan reporting; dokumentasikan tanggal serta market saat fitur diperiksa.
 2. **Q:** Apa yang perlu diperiksa sebelum memilih self-service vs managed?
    **Expected answer in guide (not independently approved):** Budget threshold, service scope, control, inventory, reporting, fee, data access, and campaign complexity.
 3. **Q:** Apakah satu platform mapping berlaku untuk semua seller?
    **Expected answer in guide (not independently approved):** Tidak. Access dan ad products dapat berbeda menurut seller/brand status, region, category, and program eligibility.
 
 **Glossary:**
-- **RMN:** Retail Media Network.
+- **RMN:** Retail Media Network adalah jaringan iklan retailer yang memanfaatkan inventory dan data shopper untuk mengaktifkan kampanye.
 - **Sponsored product:** Iklan produk pada search/browse/listing placement.
 - **Managed service:** Campaign dioperasikan retailer/agency sesuai scope layanan.
 - **Eligibility:** Syarat akun/produk/market agar dapat menggunakan ad feature.
@@ -2629,9 +2629,9 @@
 1. **Q:** Apa beda offsite sales attribution dan incrementality?
    **Expected answer in guide (not independently approved):** Attribution memberi credit pada exposure menurut model/window; incrementality mengestimasi tambahan penjualan dibanding control/counterfactual.
 2. **Q:** Mengapa match coverage harus dilaporkan?
-   **Expected answer in guide (not independently approved):** Hanya transaksi/audience eligible yang dapat diukur; coverage rendah membatasi representativeness.
+   **Expected answer in guide (not independently approved):** Match coverage menunjukkan bagian transaksi atau audience yang dapat dihubungkan; coverage rendah membatasi representativeness dan generalisasi hasil.
 3. **Q:** Apa risiko mengaktifkan retailer data ke luar platform?
-   **Expected answer in guide (not independently approved):** Privacy, consent, purpose limitation, partner terms, identity resolution, and security controls.
+   **Expected answer in guide (not independently approved):** Aktivasi eksternal menambah risiko privacy, consent, purpose limitation, partner terms, identity resolution, data transfer, dan security.
 
 **Glossary:**
 - **Offsite retail media:** Aktivasi iklan di luar retailer property berbasis audience/data retailer.
@@ -2667,16 +2667,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa segment terlalu sempit berisiko?
-   **Expected answer in guide (not independently approved):** Scale kecil dapat meningkatkan biaya, underdelivery, unstable measurement, dan overfrequency.
+   **Expected answer in guide (not independently approved):** Audience terlalu sempit dapat menurunkan scale, meningkatkan biaya, menghambat delivery, membuat hasil tidak stabil, dan menaikkan frequency.
 2. **Q:** Apa risiko menganggap retailer segment sama dengan CRM segment?
-   **Expected answer in guide (not independently approved):** Definisi, refresh, identity, transaction coverage, and eligibility dapat berbeda.
+   **Expected answer in guide (not independently approved):** Keduanya dapat berbeda dalam definisi, refresh cadence, identity, transaction coverage, eligibility, dan consent; dokumentasikan sebelum dibandingkan.
 3. **Q:** Mengapa suppression penting?
-   **Expected answer in guide (not independently approved):** Mencegah budget/communication terbuang untuk customer yang sudah convert atau tidak eligible.
+   **Expected answer in guide (not independently approved):** Suppression menghindari spend dan pesan yang tidak perlu kepada customer yang sudah convert, tidak eligible, atau harus dikecualikan.
 
 **Glossary:**
-- **Recency:** Kedekatan waktu sejak transaksi/interaksi.
-- **Frequency:** Jumlah transaksi/interaksi selama window.
-- **Monetary value:** Nilai pembelian dalam periode.
+- **Recency:** Recency mengukur seberapa baru customer melakukan transaksi atau interaksi dalam periode analisis yang ditetapkan.
+- **Frequency:** Frequency menghitung berapa kali customer bertransaksi atau berinteraksi selama observation window yang ditentukan.
+- **Monetary value:** Monetary value menunjukkan nilai pembelian customer selama periode analisis berdasarkan definisi revenue yang digunakan.
 - **Audience overlap:** Customer yang muncul pada beberapa segment.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -2760,7 +2760,7 @@
 - **Stock-out:** Kondisi produk tidak tersedia untuk dijual.
 - **Retail readiness:** Kesiapan produk/listing/stock/price untuk menerima traffic.
 - **In-store media:** Media pada lokasi fisik retailer/store.
-- **Proof-of-play:** Log/foto/bukti penayangan layar/placement.
+- **Proof-of-play:** Proof-of-play adalah log atau evidence bahwa creative diputar pada layar sesuai schedule, lokasi, dan durasi yang dibeli.
 - **Footfall:** Jumlah pengunjung yang memasuki area/store menurut sensor/metode.
 - **Daypart:** Segment waktu dalam hari untuk penjadwalan media.
 
@@ -2796,12 +2796,12 @@
 2. **Q:** Apa yang perlu disamakan saat reconciliation?
    **Expected answer in guide (not independently approved):** Date, SKU, currency/tax, sales basis, attribution window, cancellations/returns, campaign tags, and data latency.
 3. **Q:** Apa batas closed-loop reporting?
-   **Expected answer in guide (not independently approved):** Coverage, match rate, attribution methodology, and selection bias membatasi causal interpretation.
+   **Expected answer in guide (not independently approved):** Coverage terbatas, match rate, attribution rules, dan selection bias dapat memengaruhi laporan; closed-loop attribution sendiri tidak membuktikan incrementality.
 
 **Glossary:**
 - **New-to-brand:** Pembeli yang belum membeli brand dalam periode definisi retailer.
 - **Contribution margin:** Revenue dikurangi biaya variabel/komersial yang relevan.
-- **Return rate:** Porsi order/sales yang dikembalikan.
+- **Return rate:** Return rate adalah proporsi order atau unit penjualan yang dikembalikan dibanding basis order atau unit yang ditetapkan.
 - **Incrementality test:** Desain untuk mengestimasi tambahan outcome akibat media.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -2874,9 +2874,9 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda Media Investment dengan Programmatic Trading?
-   **Expected answer in guide (not independently approved):** Investment menegosiasikan/membeli inventory/partnership secara komersial; Programmatic Trader mengelola buying berbasis DSP/auction/deal.
+   **Expected answer in guide (not independently approved):** Media Investment mengelola keputusan dan negosiasi komersial atas inventory atau partnership; Programmatic Trading mengoperasikan buying melalui DSP, auction, dan deal.
 2. **Q:** Apa beda Media Planner dengan Media Buyer?
-   **Expected answer in guide (not independently approved):** Planner menyusun strategy/mix/budget/forecast; buyer menegosiasikan rates, terms, booking, dan inventory delivery.
+   **Expected answer in guide (not independently approved):** Media Planner merancang strategi, mix, budget, dan forecast; Media Buyer menegosiasikan rate serta terms, melakukan booking, dan memantau delivery.
 3. **Q:** Mengapa ownership map penting?
    **Expected answer in guide (not independently approved):** Agar negotiation, approval, booking, tracking, QA, and invoice memiliki accountable owner yang jelas.
 
@@ -2884,7 +2884,7 @@
 - **Media owner:** Pemilik/pengelola inventory dan paket media.
 - **Direct buy:** Pembelian inventory langsung melalui publisher/media owner.
 - **Investment:** Pengalokasian/pembelian media dan penilaian nilai komersialnya.
-- **Booking:** Komitmen inventory/tanggal/volume sesuai terms.
+- **Booking:** Booking mengikat inventory, tanggal, volume, placement, dan commercial terms sesuai konfirmasi atau kontrak yang disetujui.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -2956,14 +2956,14 @@
 1. **Q:** Apa beda RFP dan RFQ?
    **Expected answer in guide (not independently approved):** RFP meminta solusi/proposal yang menjelaskan approach; RFQ meminta quotation untuk scope/requirements yang lebih terdefinisi.
 2. **Q:** Mengapa gross dan net rate harus dipisah?
-   **Expected answer in guide (not independently approved):** Discount/commission/fees dapat membuat quoted price tidak comparable dengan final payable amount.
+   **Expected answer in guide (not independently approved):** Discount, commission, tax, dan fees dapat mengubah nilai akhir; bandingkan proposal memakai basis net payable yang sama.
 3. **Q:** Apa risiko added value dijadikan pengganti discount?
    **Expected answer in guide (not independently approved):** Bonus mungkin tidak relevan, tidak guaranteed, atau memiliki kualitas/jangkauan berbeda dari paid inventory.
 
 **Glossary:**
 - **RFP:** Request for Proposal untuk solusi dan penawaran.
 - **RFQ:** Request for Quotation untuk harga atas scope tertentu.
-- **Gross rate:** Rate sebelum discount/fee tertentu.
+- **Gross rate:** Gross rate adalah harga sebelum discount, commission, rebate, atau fee lain yang memengaruhi payable amount.
 - **Net rate:** Rate setelah discount/commission sesuai definisi kontrak.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -2994,15 +2994,15 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa rate benchmark lama perlu caveat?
-   **Expected answer in guide (not independently approved):** Inventory, market demand, inflation, seasonality, package, and commercial conditions berubah.
+   **Expected answer in guide (not independently approved):** Rate berubah karena inventory, demand, inflation, seasonality, package, dan kondisi komersial; selalu cantumkan periode serta market sumber.
 2. **Q:** Apa perbedaan cost efficiency dan value?
    **Expected answer in guide (not independently approved):** Cost efficiency menilai biaya per unit; value juga menilai quality, relevance, outcomes, guarantees, and audience context.
 3. **Q:** Apa dampak package bundling?
    **Expected answer in guide (not independently approved):** Bundling bisa memberi efficiency tetapi menyamarkan rate per asset/placement dan mengurangi flexibility.
 
 **Glossary:**
-- **CPM:** Cost per thousand impressions.
-- **CPP:** Cost per rating point.
+- **CPM:** Cost per thousand impressions adalah biaya untuk setiap seribu impressions berdasarkan definisi delivery yang disepakati.
+- **CPP:** Cost per rating point adalah biaya untuk memperoleh satu rating point pada target dan measurement currency tertentu.
 - **Net media cost:** Biaya media yang dibayar setelah terms/discount sesuai definisi.
 - **Benchmark confidence:** Tingkat keyakinan benchmark berdasar sumber, recency, sample, and comparability.
 
@@ -3036,14 +3036,14 @@
 1. **Q:** Apa fungsi BATNA?
    **Expected answer in guide (not independently approved):** Alternatif terbaik jika kesepakatan tidak tercapai; memberi batas rasional dan mengurangi keputusan emosional.
 2. **Q:** Mengapa semua added value tidak setara?
-   **Expected answer in guide (not independently approved):** Nilainya tergantung audience, placement, timing, guarantee, production cost, and measurement.
+   **Expected answer in guide (not independently approved):** Nilai added value bergantung pada relevansi audience, placement, timing, guarantee, production cost, dan kemampuan mengukur delivery.
 3. **Q:** Apa yang harus didokumentasikan setelah negotiation?
    **Expected answer in guide (not independently approved):** Final rate, discount, scope, dates, inventory, cancellation, makegood, payment, proof, and authorized approver.
 
 **Glossary:**
 - **BATNA:** Best Alternative to a Negotiated Agreement.
 - **Makegood:** Kompensasi/penayangan pengganti sesuai shortfall terms.
-- **Exclusivity:** Hak/ketentuan eksklusif pada kategori/slot/period.
+- **Exclusivity:** Exclusivity memberi hak atau pembatasan kompetitor pada kategori, slot, channel, wilayah, atau periode tertentu sesuai kontrak.
 - **Concession:** Kompromi atau nilai yang diberikan dalam negotiation.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -3074,16 +3074,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko bonus tidak tercatat terpisah?
-   **Expected answer in guide (not independently approved):** Volume billable dan bonus dapat tertukar sehingga delivery/invoice reconciliation tidak akurat.
+   **Expected answer in guide (not independently approved):** Jika bonus bercampur dengan volume billable, delivery dan invoice reconciliation menjadi keliru; catat contracted dan bonus inventory terpisah.
 2. **Q:** Siapa yang menyetujui legal clause?
-   **Expected answer in guide (not independently approved):** Procurement/legal/authorized approver sesuai governance organisasi; media buyer menandai dan mengeskalasi risiko.
+   **Expected answer in guide (not independently approved):** Legal clause harus disetujui procurement, legal, atau authorized approver sesuai governance; buyer mengidentifikasi risiko dan mengeskalasinya.
 3. **Q:** Mengapa IO harus selaras dengan trafficking sheet?
    **Expected answer in guide (not independently approved):** Agar inventory, dates, formats, volume, rates, tags, and responsibilities sama di dokumen komersial dan operasional.
 
 **Glossary:**
-- **Insertion Order:** Dokumen booking/komitmen media.
+- **Insertion Order:** Insertion Order adalah dokumen komersial yang menetapkan placement, schedule, volume, rate, terms, dan tanggung jawab media.
 - **Billable delivery:** Delivery yang menjadi dasar penagihan.
-- **Cancellation clause:** Ketentuan pembatalan dan biaya/notice.
+- **Cancellation clause:** Cancellation clause menjelaskan notice period, alasan, biaya, dan konsekuensi bila booking dibatalkan oleh pihak terkait.
 - **Makegood clause:** Ketentuan pemulihan jika delivery tidak sesuai commitment.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -3114,17 +3114,17 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda proof-of-posting dan proof-of-play?
-   **Expected answer in guide (not independently approved):** Proof-of-posting mendokumentasikan publication placement; proof-of-play membuktikan screen/audio/spot diputar sesuai log.
+   **Expected answer in guide (not independently approved):** Proof-of-posting membuktikan publikasi atau placement, sedangkan proof-of-play mencatat pemutaran spot atau creative pada layar/audio sesuai log.
 2. **Q:** Mengapa shortfall tidak boleh langsung diasumsikan berdasarkan impressions?
-   **Expected answer in guide (not independently approved):** Contract mungkin memakai billable basis, tolerance, sampling, or alternative delivery definition.
+   **Expected answer in guide (not independently approved):** Kontrak dapat menetapkan billable basis, tolerance, sampling, bonus, atau definisi delivery lain; periksa clause dan bukti line-item terlebih dahulu.
 3. **Q:** Kapan makegood harus dieskalasi?
    **Expected answer in guide (not independently approved):** Saat delivery di luar tolerance, bukti tidak lengkap, deadline terlewati, atau remedy tidak sesuai kontrak.
 
 **Glossary:**
-- **Proof of posting:** Bukti placement/publikasi sesuai booking.
+- **Proof of posting:** Proof of posting adalah bukti placement atau publikasi benar-benar terpasang sesuai media, tanggal, dan spesifikasi booking.
 - **Proof of play:** Bukti spot/media diputar sesuai jadwal.
 - **Shortfall:** Kekurangan delivery relatif pada commitment.
-- **Makegood:** Kompensasi delivery sesuai perjanjian.
+- **Makegood:** Makegood adalah penggantian delivery atau remedy lain ketika media owner tidak memenuhi komitmen yang disepakati.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3158,11 +3158,11 @@
 2. **Q:** Apa yang dilakukan bila currency/tax tidak cocok?
    **Expected answer in guide (not independently approved):** Verifikasi kontrak, exchange-rate basis, tax treatment, legal entity, and finance rules sebelum approve.
 3. **Q:** Mengapa audit trail perlu disimpan?
-   **Expected answer in guide (not independently approved):** Memudahkan dispute, finance approval, month-end close, compliance, and vendor accountability.
+   **Expected answer in guide (not independently approved):** Audit trail mendukung dispute resolution, finance approval, month-end close, compliance review, dan akuntabilitas vendor ketika hasil dipertanyakan.
 
 **Glossary:**
 - **Reconciliation:** Pencocokan dokumen dan angka antar sistem.
-- **Credit note:** Dokumen koreksi pengurang invoice.
+- **Credit note:** Credit note adalah dokumen koreksi yang mengurangi nilai invoice karena adjustment, shortfall, atau kesalahan billing.
 - **Variance:** Selisih antara nilai/volume yang diharapkan dan actual.
 - **Audit trail:** Bukti perubahan, approval, dan keputusan yang dapat ditelusuri.
 
@@ -3203,7 +3203,7 @@
 **Glossary:**
 - **Media value:** Nilai gabungan dari audience, context, delivery, cost, and outcome.
 - **Vendor scorecard:** Penilaian supplier berdasar performance, cost, service, quality, and governance.
-- **Rate history:** Catatan harga/terms lintas campaign/periode.
+- **Rate history:** Rate history mencatat perubahan harga, discount, package, dan terms lintas campaign agar benchmark memiliki konteks waktu.
 - **Renewal:** Perpanjangan kerja sama atau booking dengan terms baru.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -3285,7 +3285,7 @@
 **Glossary:**
 - **Ad Operations:** Fungsi teknis untuk setup, trafficking, tracking, QA, delivery, and reconciliation.
 - **Trafficking:** Penerjemahan brief/booking menjadi konfigurasi campaign/placement/ad/tag.
-- **Ad server:** Sistem ad decisioning/delivery/tracking.
+- **Ad server:** Ad server adalah sistem untuk memilih, mengirim, mengukur, dan mencatat delivery iklan pada placement tertentu.
 - **Change log:** Catatan perubahan konfigurasi beserta alasan dan approver.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -3316,11 +3316,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa trafficking sheet harus mencatat object IDs?
-   **Expected answer in guide (not independently approved):** Nama dapat berubah/duplikat; ID membantu traceability, QA, API/report matching, dan handover.
+   **Expected answer in guide (not independently approved):** Nama campaign dapat berubah atau duplikat; object IDs menjaga traceability, membantu QA, mencocokkan API/report, dan mempermudah handover.
 2. **Q:** Apa risiko URL belum final?
    **Expected answer in guide (not independently approved):** Traffic dapat salah arah, tracking parameter hilang, conversion tidak terekam, atau campaign terpaksa dihentikan.
 3. **Q:** Apa fungsi version control?
-   **Expected answer in guide (not independently approved):** Menghindari asset/setting lama tertayang dan memastikan approval merujuk pada versi final.
+   **Expected answer in guide (not independently approved):** Version control memastikan asset dan setting yang digunakan adalah versi approved, mencegah materi lama tayang, serta menjaga approval tetap terlacak.
 
 **Glossary:**
 - **Trafficking sheet:** Dokumen instruksi detail konfigurasi campaign.
@@ -3358,9 +3358,9 @@
 1. **Q:** Mengapa creative spec harus bersumber dari dokumen terkini?
    **Expected answer in guide (not independently approved):** Dimensi, limits, file type, placement rules, and policy dapat berubah antar platform dan waktu.
 2. **Q:** Apa itu fallback?
-   **Expected answer in guide (not independently approved):** Asset atau behavior alternatif saat creative utama tidak didukung environment/placement.
+   **Expected answer in guide (not independently approved):** Fallback adalah asset atau behaviour alternatif yang digunakan ketika creative utama tidak didukung oleh environment, format, atau placement tertentu.
 3. **Q:** Apa yang diperiksa pada click URL selain destination?
-   **Expected answer in guide (not independently approved):** Redirect, query parameters, UTMs, macros, SSL, deep-link behavior, and tracking events.
+   **Expected answer in guide (not independently approved):** Periksa redirect chain, query parameters, UTM, macros, SSL, deep-link behaviour, dan tracking events agar perjalanan serta atribusi tidak terputus.
 
 **Glossary:**
 - **Aspect ratio:** Perbandingan lebar dan tinggi asset.
@@ -3436,17 +3436,17 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda placement dan creative?
-   **Expected answer in guide (not independently approved):** Placement adalah slot/inventory; creative adalah asset yang ditayangkan dalam slot tersebut.
+   **Expected answer in guide (not independently approved):** Placement adalah slot atau inventory tempat iklan muncul; creative adalah asset pesan yang disajikan di dalam slot tersebut.
 2. **Q:** Apa fungsi Floodlight counting method?
-   **Expected answer in guide (not independently approved):** Menentukan bagaimana activity dihitung agar conversion metric sesuai definisi bisnis.
+   **Expected answer in guide (not independently approved):** Counting method menentukan aturan penghitungan Floodlight activity, sehingga conversion event tidak dihitung dengan basis yang keliru.
 3. **Q:** Apa yang perlu diserahkan ke publisher?
    **Expected answer in guide (not independently approved):** Correct ad/placement tags, spec, click macro, dates, creative, implementation instructions, and QA contacts.
 
 **Glossary:**
 - **Placement:** Representasi slot inventory dalam ad server.
-- **Creative:** Asset iklan yang ditayangkan.
+- **Creative:** Creative adalah materi iklan berupa copy, image, video, audio, atau format lain yang ditayangkan kepada audience.
 - **Floodlight activity:** Event yang diukur oleh CM360.
-- **Counting method:** Aturan penghitungan activity/conversion.
+- **Counting method:** Counting method menetapkan aturan kapan dan bagaimana activity atau conversion dihitung oleh sistem tracking.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -3485,7 +3485,7 @@
 **Glossary:**
 - **Pre-launch QA:** Verifikasi menyeluruh sebelum campaign go-live.
 - **Go/no-go:** Keputusan launch atau tahan berdasarkan acceptance criteria.
-- **Severity:** Tingkat dampak/urgency dari issue.
+- **Severity:** Severity mengklasifikasikan tingkat dampak dan urgensi issue untuk menentukan prioritas, owner, serta escalation.
 - **Sign-off:** Persetujuan resmi bahwa standar launch terpenuhi.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -3518,14 +3518,14 @@
 1. **Q:** Mengapa conversion drop tidak selalu masalah ads delivery?
    **Expected answer in guide (not independently approved):** Site, checkout, consent, tracking, price, stock, CRM, or reporting latency dapat berubah meski delivery normal.
 2. **Q:** Apa urutan troubleshooting yang disiplin?
-   **Expected answer in guide (not independently approved):** Isolasi simptom dan cek data/tag/page/creative/settings/supply sebelum mengubah bid/budget.
+   **Expected answer in guide (not independently approved):** Isolasi gejala, verifikasi data dan tag, periksa page serta creative, lalu cek settings dan supply sebelum mengubah bid atau budget.
 3. **Q:** Mengapa action log penting?
    **Expected answer in guide (not independently approved):** Membuat root cause, owner, risk, and recovery dapat diaudit dan mencegah perubahan berulang tanpa evidence.
 
 **Glossary:**
-- **Pacing:** Kecepatan spend/delivery terhadap rencana.
+- **Pacing:** Pacing membandingkan kecepatan spend atau delivery aktual dengan rencana berdasarkan waktu, budget, dan target volume.
 - **Underdelivery:** Delivery aktual lebih rendah dari komitmen/target.
-- **Rejection:** Penolakan asset/campaign oleh platform/publisher/policy.
+- **Rejection:** Rejection adalah penolakan creative atau campaign oleh platform, publisher, atau policy review sebelum atau saat delivery.
 - **Troubleshooting tree:** Urutan diagnosis untuk menemukan sumber issue.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -3556,7 +3556,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa arti apples-to-apples reconciliation?
-   **Expected answer in guide (not independently approved):** Perbandingan dengan unit, window, timezone, event, scope, dan eligibility yang setara.
+   **Expected answer in guide (not independently approved):** Rekonsiliasi harus memakai unit, window, timezone, event, scope, dan eligibility yang setara agar selisih benar-benar dapat dibandingkan.
 2. **Q:** Mengapa click count tidak sama dengan GA4 sessions?
    **Expected answer in guide (not independently approved):** Click dapat gagal load, user close page, redirect, consent, browser block, or multiple clicks per session.
 3. **Q:** Kapan discrepancy perlu dieskalasi?
@@ -3596,9 +3596,9 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa delivered impressions belum tentu billable impressions?
-   **Expected answer in guide (not independently approved):** Kontrak dapat memiliki tolerance, excluded events, bonus, or alternative billable definitions.
+   **Expected answer in guide (not independently approved):** Kontrak dapat mengecualikan event tertentu, memberi tolerance atau bonus, atau memakai billable definition berbeda dari raw delivery.
 2. **Q:** Apa risiko satu orang mengatur dan menyetujui invoice sendiri?
-   **Expected answer in guide (not independently approved):** Segregation of duties lemah sehingga fraud/error lebih sulit dideteksi.
+   **Expected answer in guide (not independently approved):** Tanpa segregation of duties, error atau fraud lebih sulit dideteksi karena pihak yang membuat transaksi juga mengesahkan pembayarannya.
 3. **Q:** Apa output operational review yang berguna?
    **Expected answer in guide (not independently approved):** Recurring issue, control gap, SLA, owners, automation opportunities, and measurable process improvement.
 
@@ -3800,13 +3800,13 @@
 1. **Q:** Mengapa SQL JOIN dapat menggandakan spend?
    **Expected answer in guide (not independently approved):** Join many-to-many atau grain yang tidak sama menyebabkan satu row cocok dengan banyak row di table lain.
 2. **Q:** Mengapa query perlu test totals sebelum/sesudah join?
-   **Expected answer in guide (not independently approved):** Reconciliation membantu mendeteksi double count, lost rows, and incorrect keys.
+   **Expected answer in guide (not independently approved):** Bandingkan row count dan total sebelum serta sesudah join untuk mendeteksi duplicate rows, lost records, atau key yang tidak tepat.
 3. **Q:** Apa beda WHERE dan HAVING?
-   **Expected answer in guide (not independently approved):** WHERE menyaring rows sebelum aggregation; HAVING menyaring hasil group/aggregate.
+   **Expected answer in guide (not independently approved):** WHERE menyaring baris sebelum aggregation; HAVING menyaring kelompok setelah GROUP BY berdasarkan kondisi aggregate atau hasil kelompok.
 
 **Glossary:**
-- **Grain:** Level detail setiap record.
-- **JOIN:** Menggabungkan table berdasarkan relationship/key.
+- **Grain:** Grain adalah tingkat detail satu baris data, misalnya satu event, order, customer, atau campaign per hari.
+- **JOIN:** JOIN menggabungkan tabel berdasarkan key atau relationship; jenis join menentukan record mana yang dipertahankan atau hilang.
 - **CTE:** Common Table Expression untuk menyusun query bertahap.
 - **Window function:** Fungsi analitis di atas window rows tanpa mengurangi grain result.
 
@@ -3880,7 +3880,7 @@
 1. **Q:** Mengapa korelasi bukan bukti penyebab?
    **Expected answer in guide (not independently approved):** Dua metrik dapat bergerak bersama akibat seasonality, mix, budget, atau faktor ketiga tanpa causal link.
 2. **Q:** Apa fungsi decomposition?
-   **Expected answer in guide (not independently approved):** Memecah outcome menjadi driver sehingga lokasi perubahan dapat diisolasi.
+   **Expected answer in guide (not independently approved):** Decomposition memecah outcome menjadi driver yang lebih kecil sehingga sumber perubahan dapat diisolasi dan diuji.
 3. **Q:** Kapan analisis harus ditahan?
    **Expected answer in guide (not independently approved):** Saat data quality, tracking, population, or metric definitions belum valid untuk mendukung kesimpulan.
 
@@ -3998,11 +3998,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda finding dan insight?
-   **Expected answer in guide (not independently approved):** Finding adalah temuan angka; insight menjelaskan makna/driver dan mengubah keputusan.
+   **Expected answer in guide (not independently approved):** Finding mencatat pola atau angka yang ditemukan; insight menjelaskan kemungkinan makna dan driver, lalu menunjukkan keputusan yang perlu berubah.
 2. **Q:** Mengapa limitation perlu disampaikan?
    **Expected answer in guide (not independently approved):** Agar stakeholder tidak menganggap atribusi/korelasi sebagai causal proof atau membuat keputusan melebihi evidence.
 3. **Q:** Apa yang harus berakhir pada executive deck?
-   **Expected answer in guide (not independently approved):** Keputusan yang diminta, owner, timing, expected impact, risk, and measurement follow-up.
+   **Expected answer in guide (not independently approved):** Executive deck harus meminta keputusan yang jelas, menyebut owner dan timing, serta menunjukkan impact, risk, dan measurement follow-up.
 
 **Glossary:**
 - **Insight:** Interpretasi berbukti yang bermakna untuk keputusan.
@@ -4080,16 +4080,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda crawling dan indexing?
-   **Expected answer in guide (not independently approved):** Crawling adalah discovery/access; indexing adalah proses menyimpan/memahami halaman untuk kemungkinan ditampilkan.
+   **Expected answer in guide (not independently approved):** Crawling adalah proses menemukan serta mengambil URL; indexing adalah proses menganalisis dan menyimpan halaman agar dapat dipertimbangkan untuk hasil search.
 2. **Q:** Mengapa ranking bukan satu-satunya KPI SEO?
-   **Expected answer in guide (not independently approved):** Ranking tidak otomatis menghasilkan qualified traffic, engagement, conversions, or contribution.
+   **Expected answer in guide (not independently approved):** Ranking tidak otomatis menghasilkan qualified traffic, engagement, conversion, atau contribution; ukur dampak bisnis dan kualitas kunjungan.
 3. **Q:** Bagaimana AI features memengaruhi SEO?
    **Expected answer in guide (not independently approved):** Mereka mengubah format discovery/click patterns; foundational crawlability, content usefulness, and search intent tetap penting.
 
 **Glossary:**
 - **Crawlability:** Kemampuan crawler menemukan dan mengakses halaman.
 - **Indexability:** Kelayakan halaman untuk dimasukkan ke index.
-- **Search intent:** Tujuan/kebutuhan di balik query.
+- **Search intent:** Search intent adalah kebutuhan atau tujuan yang mendasari query dan membantu menentukan format serta jawaban halaman.
 - **Organic visibility:** Kemunculan brand/site pada hasil non-paid search.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -4164,13 +4164,13 @@
 2. **Q:** Apa fungsi canonical?
    **Expected answer in guide (not independently approved):** Memberi sinyal preferred URL di antara duplicates/similar pages; bukan jaminan search engine mengikuti pilihan.
 3. **Q:** Apa yang dimaksud orphan page?
-   **Expected answer in guide (not independently approved):** Halaman tanpa internal links yang dapat ditemukan crawler/user melalui navigation biasa.
+   **Expected answer in guide (not independently approved):** Orphan page adalah halaman yang tidak menerima internal links yang memadai, sehingga sulit ditemukan pengguna dan crawler melalui navigasi situs.
 
 **Glossary:**
 - **Canonical:** Sinyal URL pilihan di antara duplikasi.
 - **Robots.txt:** Aturan crawling, bukan pengganti noindex.
 - **XML sitemap:** Daftar URL yang disarankan untuk discovery.
-- **Orphan page:** Halaman minim/tanpa internal links.
+- **Orphan page:** Orphan page adalah halaman tanpa internal link yang memadai dari halaman lain pada situs yang sama.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4202,7 +4202,7 @@
 1. **Q:** Apa beda field data dan lab data CWV?
    **Expected answer in guide (not independently approved):** Field data mencerminkan real-user experience; lab data membantu reproduksi/debug pada kondisi test.
 2. **Q:** Mengapa schema markup tidak menjamin rich result?
-   **Expected answer in guide (not independently approved):** Search engine menentukan eligibility/appearance berdasarkan content quality, policies, and other systems.
+   **Expected answer in guide (not independently approved):** Structured data membantu search engine memahami konten, tetapi tampilan rich result tetap bergantung pada eligibility, quality, policy, dan sistem search.
 3. **Q:** Mengapa technical SEO perlu koordinasi developer?
    **Expected answer in guide (not independently approved):** Banyak issue berada pada templates, rendering, redirects, server, and deployment—not hanya content editor.
 
@@ -4249,7 +4249,7 @@
 **Glossary:**
 - **On-page SEO:** Optimasi elemen dalam halaman agar intent dan content jelas.
 - **Internal link:** Link antarhalaman dalam satu domain.
-- **Search snippet:** Presentasi title/description/content pada SERP.
+- **Search snippet:** Search snippet adalah ringkasan hasil pencarian yang dapat menampilkan title, description, dan cuplikan konten halaman.
 - **Helpful content:** Konten yang memberi nilai nyata dan menjawab kebutuhan audience.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -4280,7 +4280,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa backlink quantity tidak sama dengan authority?
-   **Expected answer in guide (not independently approved):** Relevance, editorial legitimacy, source quality, context, and spam signals memengaruhi value.
+   **Expected answer in guide (not independently approved):** Jumlah link saja tidak menunjukkan kualitas; relevance, editorial legitimacy, source quality, context, dan spam signals juga menentukan nilai.
 2. **Q:** Apa beda earned link dan paid link scheme?
    **Expected answer in guide (not independently approved):** Earned link muncul karena editorial value; paid/manipulative links bertujuan memengaruhi ranking dan berisiko melanggar guidelines.
 3. **Q:** Apa ukuran keberhasilan digital PR selain link count?
@@ -4288,7 +4288,7 @@
 
 **Glossary:**
 - **Referring domain:** Domain yang memberi link ke site.
-- **Anchor text:** Teks clickable pada hyperlink.
+- **Anchor text:** Anchor text adalah teks yang dapat diklik pada hyperlink dan memberi konteks tujuan tautan kepada pengguna maupun crawler.
 - **Digital PR:** Aktivitas earned coverage/links berbasis story dan evidence.
 - **Link scheme:** Praktik manipulatif untuk memengaruhi link signals.
 
@@ -4320,15 +4320,15 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa itu NAP consistency?
-   **Expected answer in guide (not independently approved):** Name, Address, Phone harus akurat dan konsisten lintas listing/sumber.
+   **Expected answer in guide (not independently approved):** NAP consistency berarti nama bisnis, alamat, dan nomor telepon akurat serta konsisten di direktori dan sumber lokal yang relevan.
 2. **Q:** Mengapa review tidak boleh dibeli?
-   **Expected answer in guide (not independently approved):** Fake/incentivized reviews melanggar platform policies dan merusak trust.
+   **Expected answer in guide (not independently approved):** Review palsu atau diberi insentif dapat melanggar platform policies, menyesatkan konsumen, dan merusak kepercayaan terhadap brand.
 3. **Q:** Apa tantangan multi-location SEO?
-   **Expected answer in guide (not independently approved):** Duplicate/thin location pages, inconsistent business data, ownership, and review response governance.
+   **Expected answer in guide (not independently approved):** Risikonya meliputi halaman lokasi tipis atau duplikat, data bisnis tidak konsisten, ownership listing, dan governance respons review.
 
 **Glossary:**
 - **Google Business Profile:** Profil bisnis resmi untuk local presence di Google.
-- **NAP:** Name, Address, Phone information.
+- **NAP:** NAP berarti Name, Address, Phone; ketiganya harus akurat dan konsisten pada listing bisnis lokal yang relevan.
 - **Citation:** Penyebutan informasi bisnis pada directory/listing.
 - **Local landing page:** Halaman yang menjelaskan layanan dan informasi relevan per lokasi.
 
@@ -4364,7 +4364,7 @@
 2. **Q:** Mengapa average position perlu segmentasi?
    **Expected answer in guide (not independently approved):** Aggregation across queries/pages/devices can hide changes in query mix and SERP features.
 3. **Q:** Apa isi SEO recommendation yang actionable?
-   **Expected answer in guide (not independently approved):** Specific page/technical change, evidence, impact hypothesis, priority, owner, timeline, and measurement.
+   **Expected answer in guide (not independently approved):** Rekomendasi harus menyebut halaman atau perubahan teknis spesifik, evidence, impact hypothesis, priority, owner, timeline, serta cara mengukur hasil.
 
 **Glossary:**
 - **Search Console:** Tool untuk melihat Google Search performance/indexation data.
@@ -4402,7 +4402,7 @@
 1. **Q:** Apakah schema menjamin brand muncul di AI answer?
    **Expected answer in guide (not independently approved):** Tidak. Structured data membantu machine understanding di konteks tertentu; tidak menjamin answer inclusion/citation.
 2. **Q:** Mengapa prompt sampling bukan market share?
-   **Expected answer in guide (not independently approved):** Hasil bergantung model, date, location, prompt, personalization, and response variance.
+   **Expected answer in guide (not independently approved):** Hasil prompt sampling bergantung model, date, location, wording, personalization, dan response variance; sampel itu tidak mewakili pangsa pasar.
 3. **Q:** Apa fondasi AEO/GEO yang tetap relevan?
    **Expected answer in guide (not independently approved):** Accessible, helpful, accurate content, clear entities, authoritative evidence, and sound technical SEO.
 
@@ -4450,7 +4450,7 @@
 - **Technical audit:** Pemeriksaan akses, indexation, rendering, performance, and structured technical health.
 - **Content gap:** Kebutuhan informasi/query yang belum dilayani dengan baik.
 - **Roadmap:** Urutan perubahan, owner, effort, timeline, and success criteria.
-- **SERP:** Search Engine Results Page.
+- **SERP:** SERP adalah Search Engine Results Page, yaitu halaman hasil yang ditampilkan mesin pencari untuk sebuah query.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4530,8 +4530,8 @@
 
 **Glossary:**
 - **Identity resolution:** Pengaitan record ke identitas customer dengan rule tertentu.
-- **Primary key:** Identifier unik untuk entity.
-- **Data deduplication:** Pengelolaan record ganda.
+- **Primary key:** Primary key adalah identifier unik yang membedakan setiap record atau entity dalam sebuah tabel atau database.
+- **Data deduplication:** Data deduplication mengidentifikasi dan menangani record duplikat agar jumlah contact, event, atau transaksi tidak terhitung ganda.
 - **Data retention:** Aturan berapa lama data disimpan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -4562,16 +4562,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko lead scoring hanya dari email opens?
-   **Expected answer in guide (not independently approved):** Open tracking dapat bias/privacy-protected and tidak selalu menandakan intent atau fit.
+   **Expected answer in guide (not independently approved):** Open tracking dapat dipengaruhi privacy protection dan machine activity; open tidak selalu menunjukkan intent atau kecocokan lead.
 2. **Q:** Apa beda fit dan intent?
-   **Expected answer in guide (not independently approved):** Fit adalah kesesuaian dengan target profile; intent adalah sinyal kebutuhan/kesiapan bertindak.
+   **Expected answer in guide (not independently approved):** Fit mengukur kesesuaian dengan target profile; intent mengukur sinyal kebutuhan atau kesiapan bertindak pada kategori tertentu.
 3. **Q:** Bagaimana memvalidasi model scoring?
    **Expected answer in guide (not independently approved):** Uji terhadap qualified rate, sales acceptance, conversion, false positives/negatives, and calibration over time.
 
 **Glossary:**
-- **RFM:** Recency, Frequency, Monetary segmentation.
+- **RFM:** RFM adalah model segmentasi customer berdasarkan Recency, Frequency, dan Monetary value dari transaksi selama periode tertentu.
 - **Lead scoring:** Model penilaian fit/intent/progression untuk prioritas.
-- **ICP:** Ideal Customer Profile.
+- **ICP:** Ideal Customer Profile menggambarkan karakteristik account atau customer yang paling sesuai dengan target bisnis.
 - **False positive:** Record yang dianggap eligible/high score tetapi tidak sesuai outcome.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -4604,15 +4604,15 @@
 1. **Q:** Apa beda trigger dan campaign blast?
    **Expected answer in guide (not independently approved):** Trigger dikirim karena event/condition spesifik; blast dikirim ke target segment pada jadwal yang ditetapkan.
 2. **Q:** Mengapa cross-channel purchase suppression penting?
-   **Expected answer in guide (not independently approved):** Agar customer tidak menerima reminder setelah membeli di channel lain.
+   **Expected answer in guide (not independently approved):** Suppression lintas kanal mencegah customer menerima reminder atau offer yang tidak relevan setelah membeli melalui channel lain.
 3. **Q:** Apa fungsi exit condition?
-   **Expected answer in guide (not independently approved):** Mengeluarkan contact saat goal tercapai, tidak lagi eligible, atau consent/status berubah.
+   **Expected answer in guide (not independently approved):** Exit condition menghentikan contact saat goal tercapai, eligibility hilang, consent ditarik, atau status customer berubah.
 
 **Glossary:**
-- **Trigger:** Event/kondisi yang memulai workflow.
-- **Branch:** Percabangan berdasarkan condition.
+- **Trigger:** Trigger adalah event atau kondisi yang memulai automation workflow atau mengaktifkan langkah komunikasi tertentu.
+- **Branch:** Branch adalah jalur workflow yang dipilih berdasarkan condition, attribute, atau behaviour contact.
 - **Suppression:** Pengecualian contact dari komunikasi tertentu.
-- **Exit condition:** Aturan keluar dari journey/workflow.
+- **Exit condition:** Exit condition adalah aturan yang menghentikan contact dari journey ketika goal, eligibility, atau consent state berubah.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -4642,7 +4642,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apakah contact detail sama dengan consent marketing?
-   **Expected answer in guide (not independently approved):** Tidak. Email/nomor yang tersedia tidak otomatis menjadi izin promosi.
+   **Expected answer in guide (not independently approved):** Tidak. Memiliki email atau nomor telepon tidak otomatis memberi izin mengirim promosi; periksa purpose dan legal basis.
 2. **Q:** Kapan SMS/WhatsApp lebih tepat daripada email?
    **Expected answer in guide (not independently approved):** Untuk komunikasi urgent/transactional atau audience preference tertentu; harus sesuai permission, cost, policy, and use case.
 3. **Q:** Mengapa channel fallback perlu dirancang?
@@ -4682,7 +4682,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa arti idempotent workflow?
-   **Expected answer in guide (not independently approved):** Pemrosesan event berulang tidak menghasilkan efek samping ganda, seperti duplicate contact/message.
+   **Expected answer in guide (not independently approved):** Workflow idempotent memproses event berulang tanpa efek samping ganda, misalnya membuat contact atau mengirim message dua kali.
 2. **Q:** Mengapa retry harus memiliki batas?
    **Expected answer in guide (not independently approved):** Retry tanpa kontrol dapat membuat duplicate action, API overload, and repeated messages.
 3. **Q:** Apa yang wajib disimpan dalam error log?
@@ -4762,9 +4762,9 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa cohort harus memiliki start event yang sama?
-   **Expected answer in guide (not independently approved):** Agar kelompok dibandingkan pada lifecycle age yang setara.
+   **Expected answer in guide (not independently approved):** Start event yang seragam menyamakan lifecycle age, sehingga retention dan value antarcohort dapat dibandingkan lebih adil.
 2. **Q:** Apa risiko LTV berbasis revenue?
-   **Expected answer in guide (not independently approved):** Tidak memperhitungkan margin, returns, discounts, support costs, or contribution.
+   **Expected answer in guide (not independently approved):** LTV berbasis revenue dapat melebihkan nilai customer karena tidak mengurangi margin, returns, discounts, service costs, dan contribution.
 3. **Q:** Apa yang dimaksud churn signal?
    **Expected answer in guide (not independently approved):** Perubahan perilaku/engagement/purchase yang dapat mengindikasikan risiko berhenti; perlu validasi dengan historical outcomes.
 
@@ -4802,16 +4802,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa opens bukan satu-satunya success metric?
-   **Expected answer in guide (not independently approved):** Engagement proxy tidak menjamin conversion/retention dan dapat terdistorsi privacy mechanisms.
+   **Expected answer in guide (not independently approved):** Open adalah engagement proxy, bukan hasil bisnis; ia tidak menjamin conversion atau retention dan dapat terdistorsi privacy mechanisms.
 2. **Q:** Apa fungsi holdout group?
-   **Expected answer in guide (not independently approved):** Memberi pembanding untuk mengestimasi dampak tambahan komunikasi dibanding tidak menerima treatment.
+   **Expected answer in guide (not independently approved):** Holdout menyediakan kelompok pembanding tanpa treatment untuk memperkirakan dampak tambahan komunikasi dibanding kondisi tanpa komunikasi.
 3. **Q:** Mengapa frequency perlu guardrail?
-   **Expected answer in guide (not independently approved):** Kontak berlebihan dapat menaikkan fatigue, unsubscribe, complaint, and long-term brand harm.
+   **Expected answer in guide (not independently approved):** Frequency berlebihan dapat meningkatkan fatigue, unsubscribe, complaint, dan kerusakan hubungan jangka panjang; tetapkan batas serta pantau dampaknya.
 
 **Glossary:**
 - **Holdout:** Kelompok yang tidak menerima treatment untuk comparison.
-- **Frequency cap:** Batas kontak per customer/periode.
-- **Control group:** Kelompok pembanding dalam experiment.
+- **Frequency cap:** Frequency cap membatasi jumlah pesan atau exposure yang boleh diterima customer dalam periode tertentu.
+- **Control group:** Control group adalah kelompok pembanding yang tidak menerima treatment untuk mengestimasi dampak komunikasi secara lebih kredibel.
 - **Lifecycle metric:** Metrik sesuai tahap hubungan customer.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -4850,7 +4850,7 @@
 
 **Glossary:**
 - **Lifecycle architecture:** Rangkaian stage, data, trigger, channel, and experience.
-- **Contact policy:** Aturan eligibility/frequency/preferences komunikasi.
+- **Contact policy:** Contact policy mengatur eligibility, frequency, channel preferences, suppression, dan aturan komunikasi kepada setiap customer.
 - **CRM capstone:** Portfolio case yang membuktikan data-to-lifecycle execution.
 - **Governance:** Aturan ownership, permissions, quality, and accountability.
 
@@ -4884,15 +4884,15 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda brand voice dan tone?
-   **Expected answer in guide (not independently approved):** Voice adalah karakter konsisten; tone adalah penyesuaian ekspresi sesuai konteks/platform/audience.
+   **Expected answer in guide (not independently approved):** Brand voice adalah karakter komunikasi yang relatif konsisten; tone menyesuaikan ekspresi voice terhadap konteks, platform, dan audience.
 2. **Q:** Mengapa brand voice tidak boleh menghalangi platform-native content?
    **Expected answer in guide (not independently approved):** Ekspresi perlu menyesuaikan format dan perilaku audience sambil mempertahankan promise dan principles.
 3. **Q:** Apa yang termasuk claims policy?
-   **Expected answer in guide (not independently approved):** Batas klaim, proof requirement, legal/regulatory review, and prohibited statements.
+   **Expected answer in guide (not independently approved):** Claims policy menetapkan batas klaim, proof requirement, legal atau regulatory review, dan pernyataan yang tidak boleh digunakan.
 
 **Glossary:**
 - **Brand voice:** Karakter bahasa/kepribadian brand yang konsisten.
-- **Tone:** Nuansa ekspresi sesuai konteks.
+- **Tone:** Tone adalah nuansa ekspresi brand voice yang disesuaikan dengan konteks, audience, channel, dan tujuan komunikasi.
 - **Content role:** Tugas aset konten dalam journey.
 - **Claims policy:** Aturan bukti dan approval untuk pernyataan brand.
 
@@ -4966,9 +4966,9 @@
 1. **Q:** Mengapa calendar harus memuat status/owner?
    **Expected answer in guide (not independently approved):** Tanpa status dan owner, tim tidak dapat mengelola approval, dependencies, delays, and accountability.
 2. **Q:** Apa beda always-on dan campaign content?
-   **Expected answer in guide (not independently approved):** Always-on melayani kebutuhan berulang; campaign content terikat objective/timing/event tertentu.
+   **Expected answer in guide (not independently approved):** Always-on content memenuhi kebutuhan audience yang berulang; campaign content terikat objective, timing, dan aktivasi tertentu.
 3. **Q:** Bagaimana mengatasi kapasitas produksi terbatas?
-   **Expected answer in guide (not independently approved):** Prioritaskan audience/business value, repurpose, gunakan modular assets, and plan feasible cadence.
+   **Expected answer in guide (not independently approved):** Prioritaskan audience dan business value, repurpose materi, gunakan modular assets, lalu tetapkan cadence yang realistis.
 
 **Glossary:**
 - **Editorial architecture:** Sistem struktur topic, formats, workflow, ownership, and distribution.
@@ -5004,7 +5004,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa tren viral belum tentu opportunity?
-   **Expected answer in guide (not independently approved):** Trend bisa tidak relevan dengan audience/category/brand atau tidak mendukung objective.
+   **Expected answer in guide (not independently approved):** Tren bisa tidak relevan dengan audience, category, atau brand dan belum tentu mendukung objective maupun outcome yang diinginkan.
 2. **Q:** Apa tanda insight mining berkualitas?
    **Expected answer in guide (not independently approved):** Signals dapat ditelusuri, cluster menjelaskan need/tension, evidence lintas sumber, and content action jelas.
 3. **Q:** Apa beda audience question dan brand talking point?
@@ -5044,11 +5044,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko hook clickbait?
-   **Expected answer in guide (not independently approved):** Audience expectation tidak terpenuhi, meningkatkan bounce/negative feedback, dan menurunkan brand trust.
+   **Expected answer in guide (not independently approved):** Hook yang menjanjikan hal berlebihan dapat mengecewakan audience, meningkatkan bounce atau negative feedback, dan menurunkan brand trust.
 2. **Q:** Apa beda tension dan problem statement?
    **Expected answer in guide (not independently approved):** Tension menangkap konflik/need audience secara naratif; problem statement memformulasikan hambatan untuk keputusan.
 3. **Q:** Apa fungsi proof dalam storytelling?
-   **Expected answer in guide (not independently approved):** Membuat claim dipercaya dan membedakan cerita dari opini/hiburan kosong.
+   **Expected answer in guide (not independently approved):** Proof memberi dasar untuk mempercayai claim dan membedakan cerita yang dapat dipertanggungjawabkan dari opini atau hiburan tanpa bukti.
 
 **Glossary:**
 - **Hook:** Pembuka yang menarik perhatian dan menetapkan relevansi.
@@ -5084,11 +5084,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa long-form membutuhkan source trail?
-   **Expected answer in guide (not independently approved):** Pembaca/editor perlu memeriksa klaim, angka, freshness, and credibility.
+   **Expected answer in guide (not independently approved):** Source trail membantu pembaca dan editor memeriksa klaim, angka, freshness, konteks, dan kredibilitas sebelum konten dipublikasikan.
 2. **Q:** Apa risiko memakai sumber sekunder tanpa cross-check?
    **Expected answer in guide (not independently approved):** Angka/claim bisa outdated, salah konteks, atau hanya mengutip sumber lain yang sama.
 3. **Q:** Kapan artikel harus diperbarui?
-   **Expected answer in guide (not independently approved):** Saat data, policy, product, platform, legal claim, or search intent berubah.
+   **Expected answer in guide (not independently approved):** Perbarui ketika data, policy, product, platform, legal claim, atau search intent berubah sehingga isi lama berisiko menyesatkan.
 
 **Glossary:**
 - **Editorial brief:** Dokumen scope, reader, angle, evidence, outline, and CTA.
@@ -5126,7 +5126,7 @@
 1. **Q:** Apa beda repurposing dan reposting?
    **Expected answer in guide (not independently approved):** Repurposing mengadaptasi angle, structure, format, and CTA untuk audience/context; reposting mengulang asset.
 2. **Q:** Mengapa first-frame penting?
-   **Expected answer in guide (not independently approved):** Ia memberi context/relevance cepat dan memengaruhi apakah audience melanjutkan konsumsi.
+   **Expected answer in guide (not independently approved):** First-frame memberi konteks dan relevansi dengan cepat, membantu audience memahami nilai konten, serta memengaruhi keputusan untuk melanjutkan.
 3. **Q:** Apa yang harus dicek pada video short-form?
    **Expected answer in guide (not independently approved):** Aspect ratio, safe zones, captions, audio rights, claims, brand visibility, and link/CTA behavior.
 
@@ -5166,7 +5166,7 @@
 1. **Q:** Mengapa satu content format tidak selalu cocok lintas platform?
    **Expected answer in guide (not independently approved):** Audience intent, consumption context, platform distribution, interaction behavior, and format constraints berbeda.
 2. **Q:** Apa yang harus konsisten?
-   **Expected answer in guide (not independently approved):** Brand promise, fact accuracy, POV, and key message; format/length/execution dapat diadaptasi.
+   **Expected answer in guide (not independently approved):** Brand promise, factual accuracy, point of view, dan key message harus konsisten; format, length, dan execution dapat diadaptasi.
 3. **Q:** Mengapa metrics lintas platform tidak boleh dibandingkan mentah?
    **Expected answer in guide (not independently approved):** Definitions, view thresholds, audience, and platform behavior berbeda; gunakan normalized task-specific metrics.
 
@@ -5206,7 +5206,7 @@
 1. **Q:** Mengapa paid boost bukan pengganti distribution strategy?
    **Expected answer in guide (not independently approved):** Amplification perlu audience fit, asset quality, rights, objective, budget, and downstream measurement.
 2. **Q:** Apa risiko UGC/creator asset digunakan berbayar tanpa rights?
-   **Expected answer in guide (not independently approved):** Pelanggaran usage agreement/IP, creator relationship damage, and policy/legal exposure.
+   **Expected answer in guide (not independently approved):** Penggunaan tanpa rights dapat melanggar IP atau usage agreement, merusak hubungan creator, dan menimbulkan policy maupun legal exposure.
 3. **Q:** Bagaimana memisahkan hasil organic dan paid?
    **Expected answer in guide (not independently approved):** Gunakan tagging, platform reporting, asset IDs, time windows, and clearly defined attribution.
 
@@ -5251,7 +5251,7 @@
    **Expected answer in guide (not independently approved):** Periksa audience/journey role, attribution, landing path, product readiness, and whether asset's intended job is direct conversion.
 
 **Glossary:**
-- **Watch time:** Total/average waktu audience menonton.
+- **Watch time:** Watch time adalah total durasi video ditonton atau rata-rata durasi per view sesuai definisi platform.
 - **Retention:** Porsi audience yang bertahan sepanjang content.
 - **Engaged session:** Sesi dengan meaningful engagement according to analytics definition.
 - **Content ID:** Identifier unik untuk menghubungkan asset dengan data/report.
@@ -5291,9 +5291,9 @@
    **Expected answer in guide (not independently approved):** Labeli brief/data sebagai simulated; tampilkan storyboard/asset/workflow/source and self-review, bukan fake performance claims.
 
 **Glossary:**
-- **Editorial system:** Sistem planning/production/publishing/update untuk content.
+- **Editorial system:** Editorial system adalah proses perencanaan, produksi, approval, publishing, measurement, dan update konten secara konsisten.
 - **Storytelling architecture:** Struktur hook, tension, narrative, proof, and payoff.
-- **Production workflow:** Tahapan shooting/editing/review/versioning/publishing.
+- **Production workflow:** Production workflow mengatur tahapan briefing, shooting, editing, review, versioning, approval, dan publishing content.
 - **Content capstone:** Sistem content end-to-end yang dapat dipresentasikan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -5334,7 +5334,7 @@
 
 **Glossary:**
 - **Creator economy:** Ekosistem creator, platform, partner, monetization, and brand.
-- **MCN:** Multi-Channel Network/creator management organization.
+- **MCN:** Multi-Channel Network adalah organisasi yang mengelola atau mendukung sejumlah creator dan channel dalam ekosistem platform video.
 - **Ambassador:** Creator/talent dengan hubungan partnership jangka lebih panjang.
 - **Partnership model:** Bentuk komersial/operasional kerja sama creator.
 
@@ -5370,7 +5370,7 @@
 2. **Q:** Mengapa tier berdasarkan followers tidak cukup?
    **Expected answer in guide (not independently approved):** Followers tidak menunjukkan audience fit, authenticity, influence, engagement quality, or content capability.
 3. **Q:** Apa kewajiban disclosure?
-   **Expected answer in guide (not independently approved):** Audience harus memahami hubungan komersial/paid/gifted sesuai hukum, platform policies, and contract.
+   **Expected answer in guide (not independently approved):** Audience harus memahami hubungan komersial seperti paid, gifted, atau affiliate sesuai aturan hukum, platform policies, dan kontrak yang berlaku.
 
 **Glossary:**
 - **KOL:** Key Opinion Leader; creator/expert dengan authority pada area.
@@ -5406,16 +5406,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa discovery perlu source trail?
-   **Expected answer in guide (not independently approved):** Memudahkan recheck creator data, contact, rates, availability, and changes sebelum kontrak.
+   **Expected answer in guide (not independently approved):** Source trail membantu memeriksa ulang creator data, kontak, rates, availability, dan perubahan sebelum shortlist atau kontrak disetujui.
 2. **Q:** Apa beda fit score dan performance guarantee?
-   **Expected answer in guide (not independently approved):** Fit score adalah penilaian awal; tidak menjamin campaign outcomes.
+   **Expected answer in guide (not independently approved):** Fit score adalah penilaian awal berdasarkan kriteria; ia bukan jaminan reach, engagement, conversion, atau campaign outcome.
 3. **Q:** Apa yang harus dikonfirmasi sebelum shortlist final?
-   **Expected answer in guide (not independently approved):** Audience evidence, availability, fee, usage rights, exclusivity, policy issues, and deliverables.
+   **Expected answer in guide (not independently approved):** Konfirmasi audience evidence, availability, fee, usage rights, exclusivity, policy issues, dan deliverables sebelum shortlist dikunci.
 
 **Glossary:**
 - **Creator discovery:** Proses menemukan talent yang sesuai objective.
 - **Media kit:** Dokumen creator tentang audience, reach, formats, rates, and past work.
-- **Audience overlap:** Kesamaan audience antar creators/platforms.
+- **Audience overlap:** Audience overlap mengukur kesamaan audience yang mengikuti atau terpapar beberapa creator maupun platform.
 - **Conflict check:** Pemeriksaan competitor category, exclusivity, and brand suitability.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -5454,7 +5454,7 @@
 
 **Glossary:**
 - **Engagement quality:** Kualitas interaksi, bukan hanya jumlah likes/comments.
-- **Audience authenticity:** Keaslian/validitas audience signals.
+- **Audience authenticity:** Audience authenticity menilai apakah audience signals mencerminkan pengguna nyata dan relevan, bukan aktivitas palsu atau manipulatif.
 - **Fraud screening:** Pemeriksaan pola/indikator engagement atau audience tidak valid.
 - **Brand suitability:** Kesesuaian creator/content dengan nilai dan toleransi brand.
 
@@ -5486,14 +5486,14 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa KPI harus berbeda per creator role?
-   **Expected answer in guide (not independently approved):** Authority/education, reach, UGC, and affiliate conversion memiliki tugas dan outcome berbeda.
+   **Expected answer in guide (not independently approved):** Creator untuk authority atau education, reach, UGC, dan affiliate conversion memiliki peran berbeda sehingga KPI harus mengikuti outcome peran.
 2. **Q:** Apa risiko audience overlap tinggi?
    **Expected answer in guide (not independently approved):** Incremental reach dapat turun dan biaya menjangkau orang yang sama menjadi tinggi.
 3. **Q:** Apa yang harus masuk budget creator?
    **Expected answer in guide (not independently approved):** Talent fee, production, seeding, shipping, usage rights, exclusivity, amplification, measurement, tax, and contingency.
 
 **Glossary:**
-- **Creator mix:** Kombinasi tier/roles creator.
+- **Creator mix:** Creator mix adalah komposisi creator berdasarkan tier, role, audience, format, dan kontribusi yang diharapkan.
 - **Deliverable:** Output kerja yang wajib diserahkan.
 - **Usage rights:** Izin penggunaan/whitelisting selama scope/durasi tertentu.
 - **Amplification:** Paid/partner distribution tambahan dari asset creator.
@@ -5528,7 +5528,7 @@
 1. **Q:** Apa risiko brief terlalu preskriptif?
    **Expected answer in guide (not independently approved):** Konten kehilangan naturalness/creator voice, dan audience dapat melihatnya sebagai iklan yang tidak autentik.
 2. **Q:** Apa risiko brief terlalu bebas?
-   **Expected answer in guide (not independently approved):** Pesan/claim dapat melenceng, mandatories terlewat, atau brand safety/contract issue muncul.
+   **Expected answer in guide (not independently approved):** Brief yang tidak memiliki guardrails dapat membuat pesan atau claim melenceng, mandatories terlewat, dan brand-safety atau contract issue muncul.
 3. **Q:** Bagaimana approval SLA membantu?
    **Expected answer in guide (not independently approved):** Creator dan brand mengetahui timeline review, jumlah revisi, final asset, and publishing lock.
 
@@ -5536,7 +5536,7 @@
 - **Creator brief:** Arahan campaign dan deliverables bagi creator.
 - **Storyline:** Urutan narasi/scene yang menyampaikan message.
 - **Mandatory:** Elemen wajib termasuk claim, tag, CTA, and disclosure.
-- **Approval SLA:** Batas waktu review/feedback.
+- **Approval SLA:** Approval SLA menetapkan batas waktu review dan feedback agar produksi serta publishing tidak tertunda.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -5608,7 +5608,7 @@
 1. **Q:** Apakah gifting otomatis mewajibkan posting?
    **Expected answer in guide (not independently approved):** Tidak kecuali ada agreement yang jelas; gifting dan paid deliverables harus dibedakan.
 2. **Q:** Mengapa opt-in penting?
-   **Expected answer in guide (not independently approved):** Creator harus menyetujui penerimaan produk dan memahami campaign terms/expectations.
+   **Expected answer in guide (not independently approved):** Opt-in memastikan creator menerima produk atau campaign secara sadar dan memahami terms, expectations, serta tidak ada kewajiban tersembunyi.
 3. **Q:** Apa biaya seeding selain produk?
    **Expected answer in guide (not independently approved):** Packing, shipping, taxes, handling, staff hours, follow-up, and content usage/rights if negotiated.
 
@@ -5648,9 +5648,9 @@
 1. **Q:** Apa yang dilakukan jika creator telat publish?
    **Expected answer in guide (not independently approved):** Ikuti contract/deadline clause, assess campaign impact, notify owner, and agree corrective path.
 2. **Q:** Mengapa screenshot alone tidak cukup untuk proof?
-   **Expected answer in guide (not independently approved):** Perlu URL, timestamp, platform, asset version, and relevant insight exports/permissions.
+   **Expected answer in guide (not independently approved):** Screenshot perlu dilengkapi URL, timestamp, platform, asset version, dan insight exports atau permission evidence yang relevan.
 3. **Q:** Apa yang harus ditangani segera setelah salah link?
-   **Expected answer in guide (not independently approved):** Pause amplification, correct destination, notify creator/brand, record impact, and verify link/tracking.
+   **Expected answer in guide (not independently approved):** Pause amplification, perbaiki destination, beri tahu creator dan brand, catat impact, lalu verifikasi link serta tracking sebelum aktif kembali.
 
 **Glossary:**
 - **Content delivery:** Penyerahan aset sesuai brief dan contract.
@@ -5688,9 +5688,9 @@
 1. **Q:** Apa beda boost dan partnership ad?
    **Expected answer in guide (not independently approved):** Boost dapat menggunakan post melalui brand/account flow; partnership ads menjalankan iklan dengan creator partnership identity/authorization sesuai platform.
 2. **Q:** Mengapa organic and paid metrics harus dipisah?
-   **Expected answer in guide (not independently approved):** Paid spend mengubah reach/audience/delivery dan mengaburkan evaluasi organic content.
+   **Expected answer in guide (not independently approved):** Paid spend mengubah reach, audience, dan delivery; mencampurnya dengan organic results mengaburkan evaluasi kontribusi organik.
 3. **Q:** Apa risiko permission expiry?
-   **Expected answer in guide (not independently approved):** Ads dapat berhenti/reject dan penggunaan identity/content dapat melanggar agreement.
+   **Expected answer in guide (not independently approved):** Setelah permission berakhir, ads dapat berhenti atau ditolak dan penggunaan identity maupun content dapat melanggar agreement.
 
 **Glossary:**
 - **Partnership Ads:** Format iklan yang menggunakan creator/partner identity dengan permission.
@@ -5726,14 +5726,14 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa total views tidak boleh diklaim seluruhnya organic?
-   **Expected answer in guide (not independently approved):** Views dapat berasal dari paid amplification; sumber delivery harus dipisah.
+   **Expected answer in guide (not independently approved):** Total views dapat mencakup paid amplification; pisahkan sumber delivery sebelum menyatakan hasil sebagai organic performance.
 2. **Q:** Apa risiko discount code sebagai attribution tunggal?
    **Expected answer in guide (not independently approved):** Pembelian dapat terjadi tanpa code atau code dibagikan; code usage tidak menunjukkan keseluruhan causal impact.
 3. **Q:** Apa yang harus masuk ROI?
    **Expected answer in guide (not independently approved):** Talent fee, production, seeding, usage rights, paid media, discounts, sales margin, and measurement costs.
 
 **Glossary:**
-- **CPM:** Cost per thousand impressions.
+- **CPM:** Cost per thousand impressions menunjukkan biaya untuk setiap seribu impressions pada basis delivery yang disepakati.
 - **CPE:** Cost per engagement menurut definisi action.
 - **CPV:** Cost per view sesuai platform/view threshold.
 - **Influencer attribution:** Credit/measurement atas outcome terkait creator touchpoints.
@@ -5774,7 +5774,7 @@
 
 **Glossary:**
 - **Creator partnership capstone:** Kasus end-to-end discovery, deal, execution, and measurement.
-- **Rights matrix:** Ringkasan channel/territory/duration/license scope.
+- **Rights matrix:** Rights matrix merangkum channel, territory, duration, format, editing, paid usage, dan license scope creator asset.
 - **Creator scorecard:** Perbandingan creator berdasarkan objective fit and quality.
 - **Partnership review:** Evaluasi hasil dan kualitas hubungan creator.
 
@@ -5848,7 +5848,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa partner type penting?
-   **Expected answer in guide (not independently approved):** Each type has different traffic, attribution, fraud, audience, and commission behavior.
+   **Expected answer in guide (not independently approved):** Setiap tipe partner membawa pola traffic, attribution, fraud, audience, dan commission yang berbeda sehingga kontrol serta KPI harus disesuaikan.
 2. **Q:** Apa risiko sub-network yang tidak transparan?
    **Expected answer in guide (not independently approved):** Traffic source and downstream publishers sulit diaudit; fraud or policy violations may be hidden.
 3. **Q:** Bagaimana membedakan creator affiliate dari paid creator?
@@ -5888,15 +5888,15 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa beda partner recruited dan partner activated?
-   **Expected answer in guide (not independently approved):** Recruited sudah join; activated telah mempromosikan offer/menjalankan campaign dengan eligible activity.
+   **Expected answer in guide (not independently approved):** Recruited berarti partner telah bergabung; activated berarti partner sudah mempromosikan offer atau menghasilkan eligible activity.
 2. **Q:** Mengapa first-conversion review penting?
-   **Expected answer in guide (not independently approved):** Membantu mendeteksi poor traffic/fraud atau setup errors sebelum partner mendapat scale.
+   **Expected answer in guide (not independently approved):** Review conversion awal membantu mendeteksi poor traffic, fraud, atau setup error sebelum partner diberi volume lebih besar.
 3. **Q:** Apa yang perlu ada di partner kit?
    **Expected answer in guide (not independently approved):** Offer, product feed/assets, tracking links, commission terms, rules, disclosure, contact, and troubleshooting.
 
 **Glossary:**
 - **Partner ICP:** Ideal Partner Profile untuk program.
-- **Activation:** Partner mulai menghasilkan aktivitas/conversions.
+- **Activation:** Activation terjadi ketika partner mulai mempromosikan offer atau menghasilkan aktivitas yang memenuhi kriteria program.
 - **Partner kit:** Asset dan informasi operasional untuk publisher.
 - **Partner pipeline:** Tahapan sourcing hingga productive partnership.
 
@@ -5932,12 +5932,12 @@
 2. **Q:** Apa fungsi reversal/clawback?
    **Expected answer in guide (not independently approved):** Menarik kembali atau membatalkan commission untuk invalid, cancelled, returned, or non-eligible conversions.
 3. **Q:** Bagaimana tiered incentive dapat menimbulkan risiko?
-   **Expected answer in guide (not independently approved):** Partner bisa mengejar volume dengan low-quality/fraud traffic saat bonus threshold mendekat.
+   **Expected answer in guide (not independently approved):** Partner dapat mengejar volume berkualitas rendah atau fraud ketika mendekati bonus threshold, sehingga perlu quality guardrails dan audit.
 
 **Glossary:**
-- **CPS:** Commission per sale.
-- **CPA:** Cost/commission per defined action.
-- **Hybrid commission:** Kombinasi fixed/variable/performance payment.
+- **CPS:** Commission per sale adalah komisi yang dibayarkan untuk setiap penjualan valid sesuai rules program.
+- **CPA:** Cost per action atau commission per action adalah biaya atau komisi untuk action yang didefinisikan dalam program.
+- **Hybrid commission:** Hybrid commission menggabungkan fixed fee, variable payment, dan/atau performance commission dalam satu skema kompensasi.
 - **Clawback:** Pengembalian commission untuk conversion yang tidak eligible.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -5968,11 +5968,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Apa risiko stale product feed?
-   **Expected answer in guide (not independently approved):** Advertiser/partner promote wrong price or unavailable product, damaging conversion and trust.
+   **Expected answer in guide (not independently approved):** Feed yang usang dapat menampilkan harga salah atau produk tidak tersedia, merusak conversion, customer trust, dan partner relationship.
 2. **Q:** Apa fungsi sub-ID?
-   **Expected answer in guide (not independently approved):** Membantu memisahkan publisher placement/campaign/creator source dalam attribution/reporting.
+   **Expected answer in guide (not independently approved):** Sub-ID memisahkan publisher placement, campaign, atau creator source agar attribution, reporting, dan commission reconciliation lebih rinci.
 3. **Q:** Mengapa deep link perlu test di app dan web?
-   **Expected answer in guide (not independently approved):** User journey and tracking may break across device/app install/redirect conditions.
+   **Expected answer in guide (not independently approved):** Redirect dan tracking dapat gagal pada kondisi device, app installation, atau browser berbeda; uji semua jalur sebelum campaign live.
 
 **Glossary:**
 - **Product feed:** File/API data produk untuk platform/publisher.
@@ -6010,15 +6010,15 @@
 1. **Q:** Apa beda attributed sale dan incremental sale?
    **Expected answer in guide (not independently approved):** Attributed sale mendapat credit menurut tracking rule; incremental sale adalah tambahan yang tidak akan terjadi tanpa treatment.
 2. **Q:** Apa yang terjadi bila conversion ID tidak unik?
-   **Expected answer in guide (not independently approved):** Satu order dapat tercatat berulang atau gagal dideduplikasi.
+   **Expected answer in guide (not independently approved):** Order dapat tercatat berulang atau gagal dideduplikasi, sehingga conversion, commission, dan payout menjadi tidak akurat.
 3. **Q:** Mengapa cookie loss harus dicatat?
-   **Expected answer in guide (not independently approved):** Itu dapat mengurangi match/attribution dan membuat observed partner performance tidak lengkap.
+   **Expected answer in guide (not independently approved):** Cookie loss dapat menurunkan match dan attribution, sehingga performance partner yang teramati menjadi tidak lengkap.
 
 **Glossary:**
 - **Click ID:** Identifier click untuk menghubungkan traffic ke conversion.
-- **Attribution window:** Batas waktu credit conversion.
+- **Attribution window:** Attribution window adalah periode ketika conversion dapat dikreditkan ke click atau exposure partner menurut rules program.
 - **Last click:** Aturan memberi credit pada touchpoint click terakhir.
-- **Cross-device:** Perjalanan user melintasi perangkat.
+- **Cross-device:** Cross-device menggambarkan perjalanan pengguna yang berpindah antara beberapa perangkat sebelum menyelesaikan action.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6055,9 +6055,9 @@
    **Expected answer in guide (not independently approved):** Memastikan product, legal, pricing, finance, tracking, and partner terms disetujui sebelum campaign aktif.
 
 **Glossary:**
-- **Offer matrix:** Daftar promo/SKU/eligibility dan terms.
+- **Offer matrix:** Offer matrix mencatat promo, SKU, eligibility, price, commission, stock, dan terms yang berlaku untuk partner.
 - **Affiliate link:** Tracking URL yang mengidentifikasi partner/campaign.
-- **Campaign cap:** Batas budget/commission/conversion yang disetujui.
+- **Campaign cap:** Campaign cap membatasi budget, commission, conversion, atau volume sesuai batas yang disetujui advertiser.
 - **Launch checklist:** Quality gate sebelum program berjalan.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -6096,8 +6096,8 @@
 
 **Glossary:**
 - **GMV:** Gross Merchandise Value; nilai transaksi sebelum adjustment tertentu.
-- **Return rate:** Proporsi order/produk yang dikembalikan.
-- **Social commerce:** Transaksi melalui pengalaman sosial/content/live/shop.
+- **Return rate:** Return rate mengukur proporsi order atau produk yang dikembalikan dari total basis penjualan yang ditetapkan.
+- **Social commerce:** Social commerce adalah aktivitas discovery, engagement, dan transaksi yang terjadi melalui social content, live, atau in-app shop.
 - **Creator commission:** Komisi atas eligible creator-attributed action/sale.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -6132,10 +6132,10 @@
 2. **Q:** Apa itu cookie stuffing?
    **Expected answer in guide (not independently approved):** Praktik menyisipkan tracking cookie tanpa valid user click/consent untuk mengambil attribution credit.
 3. **Q:** Mengapa fraud policy harus tertulis di contract?
-   **Expected answer in guide (not independently approved):** Memberi dasar audit, hold, reversal, suspension, clawback, and dispute resolution.
+   **Expected answer in guide (not independently approved):** Klausul tertulis memberi dasar untuk audit, hold, reversal, suspension, clawback, dan dispute resolution secara konsisten.
 
 **Glossary:**
-- **Click injection:** Praktik memalsukan/menyisipkan click attribution.
+- **Click injection:** Click injection adalah praktik fraud yang menyisipkan click palsu agar conversion diklaim oleh partner yang tidak menghasilkan referral sah.
 - **Cookie stuffing:** Memasang tracking identifiers tanpa user action yang sah.
 - **Invalid conversion:** Order/lead yang tidak memenuhi eligibility/quality rules.
 - **Clawback:** Pengambilan kembali commission yang telah dibukukan/dibayar.
@@ -6168,16 +6168,16 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa network conversions belum final payout?
-   **Expected answer in guide (not independently approved):** Orders may be pending, cancelled, returned, invalid, or outside program eligibility.
+   **Expected answer in guide (not independently approved):** Conversion masih dapat pending, cancelled, returned, invalid, atau di luar eligibility program sebelum komisi disahkan.
 2. **Q:** Apa pentingnya rate table version?
-   **Expected answer in guide (not independently approved):** Commission can change across dates/partners/products; using wrong version produces payment errors.
+   **Expected answer in guide (not independently approved):** Commission dapat berubah menurut tanggal, partner, atau produk; rate table yang salah menimbulkan kesalahan pembayaran.
 3. **Q:** Apa yang harus dilakukan saat partner dispute?
-   **Expected answer in guide (not independently approved):** Provide order-level evidence, rules, source reconciliation, and transparent resolution timeline.
+   **Expected answer in guide (not independently approved):** Sediakan order-level evidence, aturan program, source reconciliation, dan resolution timeline yang transparan untuk menyelesaikan dispute.
 
 **Glossary:**
-- **Commission reconciliation:** Pencocokan conversion dengan komisi/payout.
+- **Commission reconciliation:** Commission reconciliation mencocokkan conversion yang eligible dengan rate, approval, reversal, dan payout partner.
 - **Reversal:** Pengurangan commission atas order tidak eligible.
-- **Payout:** Pembayaran komisi kepada partner.
+- **Payout:** Payout adalah pembayaran komisi final kepada partner setelah validasi conversion dan settlement rules.
 - **Rate table:** Daftar commission rates dan effective dates.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -6216,9 +6216,9 @@
 
 **Glossary:**
 - **Active partner rate:** Proporsi partner yang menghasilkan eligible activity.
-- **Partner tiering:** Kelompok partner berdasar quality/value/requirements.
+- **Partner tiering:** Partner tiering mengelompokkan partner berdasarkan quality, value, volume, compliance, atau persyaratan program.
 - **Contribution profit:** Profit after relevant variable costs and commissions.
-- **Concentration risk:** Ketergantungan pada sedikit partner/sources.
+- **Concentration risk:** Concentration risk muncul ketika bisnis terlalu bergantung pada sedikit partner, publisher, atau sumber traffic.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6330,7 +6330,7 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa brand tidak boleh langsung masuk dengan promosi?
-   **Expected answer in guide (not independently approved):** Community memiliki norma/trust; pesan komersial tanpa permission/value dapat dianggap spam.
+   **Expected answer in guide (not independently approved):** Community memiliki norma dan trust sendiri; promosi tanpa permission atau value dapat dianggap spam dan merusak hubungan.
 2. **Q:** Apa beda lurker dan contributor?
    **Expected answer in guide (not independently approved):** Lurker mengamati tanpa aktif posting; contributor memberi pertanyaan, jawaban, content, or participation.
 3. **Q:** Apa etika social listening?
@@ -6374,12 +6374,12 @@
 2. **Q:** Apa risiko community group tanpa moderation capacity?
    **Expected answer in guide (not independently approved):** Spam, misinformation, harassment, privacy issues, and customer harm can grow faster than support resources.
 3. **Q:** Apa yang perlu dikumpulkan saat onboarding?
-   **Expected answer in guide (not independently approved):** Minimum profile and preference needed for purpose; avoid unnecessary personal data.
+   **Expected answer in guide (not independently approved):** Kumpulkan profile dan preference minimum yang diperlukan untuk tujuan jelas; hindari data pribadi yang tidak relevan.
 
 **Glossary:**
 - **Community platform:** Ruang digital untuk interaksi komunitas.
 - **Onboarding:** Proses menyambut dan membantu anggota memahami rules/value.
-- **Member segment:** Kelompok anggota berdasarkan need/stage/behavior.
+- **Member segment:** Member segment mengelompokkan anggota berdasarkan kebutuhan, lifecycle stage, behaviour, atau kontribusi komunitas.
 - **Moderation capacity:** Resource/tool/time untuk menjaga safety and quality.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -6410,15 +6410,15 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa automated sentiment perlu human QA?
-   **Expected answer in guide (not independently approved):** Slang, sarcasm, context, and mixed language can cause misclassification.
+   **Expected answer in guide (not independently approved):** Slang, sarcasm, context, dan mixed language dapat salah diklasifikasikan oleh model, sehingga human review tetap diperlukan.
 2. **Q:** Apa beda mention volume dan sentiment?
-   **Expected answer in guide (not independently approved):** Volume counts conversations; sentiment interprets tone/context and needs validation.
+   **Expected answer in guide (not independently approved):** Mention volume menghitung percakapan; sentiment menafsirkan tone dan context, sehingga memerlukan validasi serta sampling.
 3. **Q:** Mengapa query exclusions penting?
-   **Expected answer in guide (not independently approved):** Untuk mengurangi irrelevant mentions, homonyms, spam, and false positives.
+   **Expected answer in guide (not independently approved):** Exclusions mengurangi irrelevant mentions, homonyms, spam, dan false positives agar social listening tidak menghasilkan insight keliru.
 
 **Glossary:**
 - **Boolean query:** Kombinasi operator untuk menyaring mention.
-- **Sentiment coding:** Klasifikasi tone/attitude berdasarkan context.
+- **Sentiment coding:** Sentiment coding mengklasifikasikan tone atau attitude percakapan dengan mempertimbangkan konteks, bahasa, dan tujuan analisis.
 - **Recall:** Proporsi relevant mentions yang berhasil ditemukan.
 - **Precision:** Proporsi found mentions yang benar-benar relevant.
 
@@ -6492,14 +6492,14 @@
 1. **Q:** Mengapa challenge dengan hadiah saja dapat gagal?
    **Expected answer in guide (not independently approved):** It can attract incentive-only behavior without meaningful member value or durable participation.
 2. **Q:** Apa yang perlu sebelum repost UGC?
-   **Expected answer in guide (not independently approved):** Permission, attribution/credit, usage scope, editing consent, and compliance review.
+   **Expected answer in guide (not independently approved):** Pastikan permission, attribution atau credit, usage scope, editing consent, dan compliance review sebelum UGC dipublikasikan ulang.
 3. **Q:** Bagaimana mengukur programming quality?
    **Expected answer in guide (not independently approved):** Repeat contributors, meaningful replies, completion, member value, retention, and issue reduction—not raw posts alone.
 
 **Glossary:**
 - **Community programming:** Rangkaian aktivitas/konten untuk memfasilitasi participation.
 - **AMA:** Ask Me Anything; format tanya jawab.
-- **UGC:** User-generated content.
+- **UGC:** User-generated content adalah materi yang dibuat pengguna atau anggota komunitas, bukan diproduksi langsung oleh brand.
 - **Participation loop:** Pola prompt-contribution-response-recognition yang mendorong partisipasi ulang.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -6532,9 +6532,9 @@
 1. **Q:** Mengapa kritik sah tidak boleh dihapus otomatis?
    **Expected answer in guide (not independently approved):** Feedback yang sah memberi evidence dan trust; moderation harus menargetkan harmful behavior, bukan negative sentiment.
 2. **Q:** Apa yang dilakukan pada doxxing/personal data exposure?
-   **Expected answer in guide (not independently approved):** Hide/remove promptly, preserve minimal evidence, escalate security/legal, and protect affected member.
+   **Expected answer in guide (not independently approved):** Hide atau remove segera, simpan evidence minimum, eskalasi ke security/legal, dan lindungi anggota yang terdampak.
 3. **Q:** Mengapa moderation harus memiliki appeal/escalation path?
-   **Expected answer in guide (not independently approved):** Untuk konsistensi, fairness, and review atas keputusan yang berdampak pada anggota.
+   **Expected answer in guide (not independently approved):** Appeal path meningkatkan konsistensi dan fairness serta memungkinkan review atas keputusan moderation yang berdampak pada anggota.
 
 **Glossary:**
 - **Moderation:** Pengelolaan konten/perilaku sesuai community rules.
@@ -6570,15 +6570,15 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa case perlu dipindah ke secure channel?
-   **Expected answer in guide (not independently approved):** Untuk melindungi PII/order details dan memastikan verification/records sesuai service process.
+   **Expected answer in guide (not independently approved):** Secure channel melindungi PII dan order details, serta menjaga verification dan records sesuai service process.
 2. **Q:** Apa bedanya acknowledge dengan resolve?
-   **Expected answer in guide (not independently approved):** Acknowledge mengakui issue; resolve menyelesaikan masalah dan mengonfirmasi outcome.
+   **Expected answer in guide (not independently approved):** Acknowledge berarti mengakui issue telah diterima; resolve berarti masalah ditangani dan outcome dikonfirmasi kepada pihak terkait.
 3. **Q:** Apa yang harus dicatat di ticket?
    **Expected answer in guide (not independently approved):** Case ID, category, owner, SLA, status, evidence, action, and closure—minimum necessary personal data.
 
 **Glossary:**
 - **Customer care:** Service support untuk menyelesaikan customer issue.
-- **PII:** Personally Identifiable Information.
+- **PII:** Personally Identifiable Information adalah informasi yang dapat mengidentifikasi seseorang secara langsung atau melalui kombinasi data.
 - **Ticket:** Record terstruktur untuk case/issue handling.
 - **Closure:** Konfirmasi penyelesaian dan status akhir case.
 
@@ -6614,13 +6614,13 @@
 2. **Q:** Apa beda advocate dan influencer?
    **Expected answer in guide (not independently approved):** Advocate punya relationship/peer trust through genuine participation; influencer is selected for audience/content reach, though overlap exists.
 3. **Q:** Apa yang perlu sebelum memakai UGC brand-wide?
-   **Expected answer in guide (not independently approved):** Permission, credit, channel, period, editing rules, and disclosure.
+   **Expected answer in guide (not independently approved):** Konfirmasi permission, credit, channel, period, editing rules, disclosure, dan rights untuk setiap penggunaan yang direncanakan.
 
 **Glossary:**
 - **Advocacy:** Perilaku mendukung/merekomendasikan brand secara sukarela.
 - **UGC rights:** Izin menggunakan content yang dibuat user.
-- **Peer recommendation:** Rekomendasi dari sesama pengguna/anggota.
-- **Recognition:** Pengakuan/reward atas kontribusi komunitas.
+- **Peer recommendation:** Peer recommendation adalah rekomendasi dari pengguna atau anggota lain yang berbagi pengalaman atau pengetahuan.
+- **Recognition:** Recognition adalah bentuk pengakuan atas kontribusi anggota melalui apresiasi, status, atau reward yang sesuai.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
 
@@ -6657,9 +6657,9 @@
    **Expected answer in guide (not independently approved):** Audit timeline, decisions, response, harm, root cause, and prevention; do not simply delete posts.
 
 **Glossary:**
-- **Early warning signal:** Indikator awal potensi issue/crisis.
+- **Early warning signal:** Early warning signal adalah indikator awal yang dapat menandakan peningkatan risiko, keluhan, atau potensi crisis.
 - **Holding statement:** Pernyataan awal saat investigasi masih berjalan.
-- **Incident lead:** Owner koordinasi penanganan crisis.
+- **Incident lead:** Incident lead adalah pihak yang mengoordinasikan respons, keputusan, komunikasi, dan eskalasi selama penanganan incident.
 - **After-action review:** Evaluasi response dan prevention setelah incident.
 
 **Tools / method / workflow:** derive from the technical-depth steps above; named tools must be verified against the specific platform version and current access.
@@ -6690,11 +6690,11 @@
 
 **Assessment / comprehension checks:** 3 static Q&A item(s); no scored quiz engine or approved answer key is implied.
 1. **Q:** Mengapa member count tidak cukup?
-   **Expected answer in guide (not independently approved):** Growth dapat berasal dari campaign/giveaway dan tidak menunjukkan active/retained/helpful participation.
+   **Expected answer in guide (not independently approved):** Member growth dapat berasal dari campaign atau giveaway; ukur active, retained, helpful, dan recurring participation untuk menilai kualitas.
 2. **Q:** Apa definisi meaningful contribution?
    **Expected answer in guide (not independently approved):** Action yang memberi value pada komunitas seperti jawaban, feedback, support, content, or constructive discussion.
 3. **Q:** Mengapa sentiment score harus divalidasi?
-   **Expected answer in guide (not independently approved):** Bahasa, sarcasm, sample bias, and platform coverage dapat menghasilkan misclassification.
+   **Expected answer in guide (not independently approved):** Language, sarcasm, sample bias, dan platform coverage dapat menyebabkan misclassification; audit sample secara manual sebelum mengambil keputusan.
 
 **Glossary:**
 - **Active member rate:** Proporsi anggota yang melakukan activity terdefinisi.
@@ -6738,7 +6738,7 @@
 
 **Glossary:**
 - **Community operating model:** Model operasi untuk purpose, members, content, moderation, service, and measurement.
-- **Participation:** Keterlibatan/kontribusi anggota.
+- **Participation:** Participation mengukur keterlibatan anggota melalui aktivitas, kontribusi, atau interaksi bermakna di komunitas.
 - **Advocacy loop:** Mekanisme value dan recognition yang mendorong genuine recommendation.
 - **Community capstone:** Paket implementasi dan governance komunitas end-to-end.
 
