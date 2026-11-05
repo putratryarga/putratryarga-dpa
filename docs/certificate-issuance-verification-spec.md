@@ -163,7 +163,7 @@ Required test cases include unauthorized issuance rejection, duplicate-ID preven
 ## 10. Current dependencies and blockers
 
 - The current website architecture is static and does not provide a verified backend registry, authentication, admin role model or trusted issuance endpoint.
-- The quiz/assessment engine has a design document but is not implemented.
+- An isolated synthetic-only formative quiz scaffold is implemented and browser-tested, but it is not integrated into the main chapter renderer and is not a secure/summative assessment system. No approved scored item bank, server-side grading, calibrated threshold or credential-bearing assessment exists.
 - The 507 Q&A answers are not approved as scored items.
 - The 169 learner rubrics remain uncalibrated; the proposed 80% threshold remains unapproved.
 - SME review, learner pilot, issuer identity, privacy policy and legal wording are not yet approved.
