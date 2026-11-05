@@ -99,6 +99,12 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 
 - [Depth-screening summary](docs/169-chapter-depth-screening.md) and [169-row metrics CSV](docs/169-chapter-depth-screening.csv) — deterministic structure-only triage; content/SME approval remains open.
 
+## Automated Q&A and agency evidence triage
+
+- [507 Q&A item triage](docs/507-qna-automated-triage.csv) — source gaps and editorial review heuristics; not approval.
+- [80 agency-cell evidence gap triage](docs/80-agency-cell-evidence-gap-triage.csv) — exact JD URL/Job ID traceability queue.
+- [Triage report and method](docs/2026-11-05-qna-agency-automated-triage.md).
+
 ## P1 audit registers
 
 - [169-chapter rubric calibration register](docs/169-chapter-rubric-calibration-register.csv) — one row per chapter; all calibration/SME decisions OPEN.
