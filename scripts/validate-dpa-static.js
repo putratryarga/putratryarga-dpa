@@ -239,6 +239,27 @@ try {
   assertEqual("Technical review rows", technicalIds.length, 169);
   assertNoMissing("Resource map vs HTML", htmlIds, resourceIds);
   assertNoExtra("Resource map vs HTML", htmlIds, resourceIds);
+
+  const resourceChapterLines = resources.split(String.fromCharCode(10))
+    .filter((line) => /^\|\s*DPA-T\d{2}-CH\d{2}\s*\|/.test(line));
+  const resourceUrls = [...new Set(resourceChapterLines.flatMap((line) =>
+    [...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])
+  ))];
+  const resourceLinkCounts = resourceChapterLines.map((line) =>
+    new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size
+  );
+  report.resourceChapterRows = resourceChapterLines.length;
+  report.uniqueResourceUrls = resourceUrls.length;
+  report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
+    ? Math.min(...resourceLinkCounts) : 0;
+  assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 46);
+  if (resourceLinkCounts.some((count) => count < 2)) {
+    const deficientRows = resourceChapterLines.filter((line) =>
+      new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
+    ).map((line) => line.split("|")[1].trim());
+    fail.push("Chapter resource rows with fewer than two unique source URLs: " + deficientRows.join(", "));
+  }
   assertNoMissing("Technical matrix vs HTML", htmlIds, technicalIds);
   assertNoExtra("Technical matrix vs HTML", htmlIds, technicalIds);
 
