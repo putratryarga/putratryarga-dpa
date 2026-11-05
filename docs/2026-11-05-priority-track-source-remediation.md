@@ -4,7 +4,7 @@
 
 ## 1. What changed
 
-- Added six distinct source URLs to the existing 169-chapter resource map, taking the unique URL inventory from 48 to 54.
+- Replaced the initial general MRC and IAB source routes with precise MRC OOH, MRC Retail Media and IAB Europe V2.1 references. The current 169-chapter map has 55 unique URLs (169 rows). The six-track enrichment affects 21 chapter rows.
 - Updated 21 chapter rows in T03, T07, T10, T13 and T16. T02 received no new URL in this pass because GovS 011 and ICC/ESOMAR 2025 were already mapped; its material insight/research gaps remain.
 - Kept the 169-objective resource-fit register at **OPEN for every chapter**. Source mapping is not objective-level source fit, local access confirmation, SME review or curriculum approval.
 - The 63 chapters across the six priority tracks remain separately identifiable in `docs/169-objective-resource-fit-register.csv`.
@@ -19,9 +19,9 @@ Existing mapped sources include the UK Government communications functional stan
 
 ### T03 — Media Planning
 
-Added the Media Rating Council (MRC) Standards & Guidelines index to CH03, CH06, CH09 and CH10.
+Added the MRC Out-of-Home Measurement Standards (Phase 1 & 2 Combined, final December 2025) PDF to CH03, CH06, CH09 and CH10: https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf
 
-The MRC index identifies:
+The combined MRC PDF identifies:
 - Out-of-Home Measurement Standards (Phase 1 & 2), last updated December 2025;
 - Digital Audio Measurement Standards, issued January 2018;
 - Cross-Media Measurement Standard — Phase I: Video, issued September 2019.
@@ -32,11 +32,11 @@ The OOH standard is relevant to the OOH portion of inventory evaluation and meas
 
 ### T07 — Retail & Commerce Media
 
-Added:
-- IAB Europe Commerce Media Measurement Standards V2 source update to CH03, CH08, CH09 and CH10;
-- MRC Retail Media Measurement Guidelines index (issued January 2024) to the same chapters.
+Added to CH03, CH08, CH09 and CH10:
+- IAB Europe Commerce (Incl. Retail) Media Measurement Standards V2.1 article, dated 22 January 2026: https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/;
+- IAB/MRC Retail Media Measurement Guidelines (January 2024) direct PDF: https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf.
 
-The IAB Europe update describes a refined measurement funnel, gross/net sales definitions, quick-commerce metrics, incrementality methodology, new-to-brand/new-to-category timeframes and flexible lookback guidance (with 30 days described as the default). The MRC index identifies its Retail Media Measurement Guidelines as issued January 2024.
+The V2.1 article describes a refined measurement funnel, gross/net sales definitions, quick-commerce metrics, a formal incrementality definition and approved methods, five new-to-brand/new-to-category timeframes, measurement/insights tools, and a 30-day default lookback with flexible options. The MRC PDF contains separate chapters for data quality, audience measurement, delivery/viewability, IVT, attribution, incrementality (RCT, synthetic control and matched-market), reporting/transparency, data privacy and in-store measurement.
 
 These standards improve measurement vocabulary and comparison criteria. IAB Europe guidance is European industry material, and MRC materials are standards references; neither establishes current Indonesian marketplace feature availability, platform eligibility, local commercial fees, retailer data access, measurement implementation or contractual terms. Do not treat Walmart/Amazon examples as proxies for Shopee/Tokopedia/Lazada.
 
@@ -77,14 +77,15 @@ It is guidance for a New South Wales public-sector context, not Indonesian law, 
 ## 3. Access and source-verification log
 
 Manual source checks in this pass:
-- **Directly opened/readable:** MRC standards index; *What If* author page; W3C WCAG 2.2; NSW Government community-management guide.
-- **Search-index evidence only / direct access not confirmed in this check:** SQLBolt lesson catalogue; IAB Europe standards-update page (direct open returned an internal/cache retrieval error).
+- **Directly opened/readable:** exact MRC OOH standards PDF; exact IAB/MRC Retail Media Measurement Guidelines PDF; IAB Europe V2.1 article; *What If* author page; W3C WCAG 2.2; NSW Government community-management guide.
+- **Search-index evidence only / direct access not confirmed:** SQLBolt lesson catalogue (search result exposes interactive SELECT/JOIN/aggregate/subquery topics; direct open returned cache miss).
+- **Download caveat:** the V2.1 article is readable, but the linked standards PDF returned an HTTP retrieval error during this check; the article is used as the source route, not a claim that the PDF download was validated.
 
 The previous automated retrieval snapshot of 46/48 resources predates the six URL additions and must not be restated as 46/54 or 54/54. The Jakarta Post advertising-terms page and YouTube Help rate-limit issues remain separate prior access caveats. Each newly added URL still requires a learner-side access check from Indonesia, with language, paywall/account, duration and last-checked date recorded.
 
 ## 4. Acceptance boundary
 
-- Resource map structure: 169 rows; 54 unique URLs; at least two unique sources per chapter remains statically checked.
+- Resource map structure: 169 rows; 55 unique URLs; at least two unique sources per chapter remains statically checked.
 - Track-level coverage: T02, T03, T07, T10 and T13 remain PARTIAL; T16 has additional sources but is not promoted to PASS.
 - Objective-level source fit: 169/169 remain OPEN pending exact section-to-objective mapping and fit classification.
 - Indonesia access/cost/language/eligibility: OPEN.
