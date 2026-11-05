@@ -5,6 +5,8 @@
 
 ## Results
 
+**Current target:** remediation branch `audit/full-dpa-remediation-2026-11-05`. All figures below are static-source checks, not browser/runtime behavior.
+
 | Check | Result | Status |
 |---|---:|---|
 | HTML chapter IDs | 169 | PASS |
@@ -33,6 +35,8 @@
 - The chapter evidence register and rubric file contain 169 chapters each and 507 Q&A items each. The 149 role-specific guide glossary fields have been regenerated from source arrays; extraction is not SME content approval.
 - The 8 local script references and static responsive/theme/progress/focus/reduced-motion code are present. Presence is not proof that the features behave correctly at runtime.
 - The source files include a legitimate JavaScript guard checking whether `DPA_GUIDE_BY_CHAPTER` is `undefined`; this is not a rendered placeholder or a content defect.
+
+| Agency evidence matrix | 80 unique cells; A37/B20/D37/G5; 19 compound labels | STRUCTURE VERIFIED — competency/JD validation remains PARTIAL |
 
 ## Not tested / release blockers
 
