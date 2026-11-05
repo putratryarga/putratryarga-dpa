@@ -42,7 +42,9 @@
 
 | Elective evidence groups | 10 agency × elective rows (5 groups × 2 electives) | STRUCTURE VERIFIED — content validation remains PENDING |
 | Canonical chapter ID inventory | 169 unique IDs | STRUCTURE VERIFIED — score recomputation blocked by missing raw vectors |
-| Automated validator script | Includes chapter, matrix, Q&A, resource and media-query checks | ADDED — execution not verified in local Node runtime |
+| Automated validator script | Includes chapter, agency/elective matrix, Q&A, resource and media-query checks | ADDED — source assertions reviewed; runtime pending |
+
+| Branch-only GitHub Actions workflow | `.github/workflows/dpa-remediation-static-qa.yml` | ADDED — push workflow run not independently visible/verified; synthetic score self-test pending |
 
 ## Not tested / release blockers
 
@@ -52,6 +54,6 @@
 - The latest known Vercel status check on remediation commit `bcca5021...` is **FAILURE due to build-rate-limit** (upgrade/build-rate-limit target), not a successful deployment. No GitHub Actions workflow runs are associated with this commit.
 - External resource-link availability, redirect chains, locale access, regional price and credential expiry are not proven by static presence.
 
-**Branch relationship:** `main` is `640b1924...`; remediation is 129 commits ahead / 0 behind after merge commit `85a69f5544c1cdf920576b3ceb236431303f568d`, whose second parent is the unchanged main head. The remediation tree retains the revised crosswalk/elective documentation. PR #5/#6 remain draft/open/unmerged.
+**Branch relationship:** `main` is `640b1924...`; remediation is now 132 commits ahead / 0 behind after the branch-only history reconciliation. `main` remains unchanged. PR #5/#6 remain draft/open/unmerged.
 
 **Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; BRANCH BASE RELATIONSHIP REQUIRES FINAL RECONCILIATION; NOT READY TO MERGE.
