@@ -226,9 +226,11 @@ try {
     if (labels.length > 1) report.agencyEvidence.compoundCells++;
     for (const label of labels) report.agencyEvidence.classLabels[label]++;
   }
-  const expectedAgencyLabels = {A:37,B:20,C:0,D:37,E:0,G:5};
+  // Keep this contract synchronized with docs/80-cell-agency-role-evidence-matrix.md.
+  // 5 Nov 2026 second-pass evidence recovery replaced five G labels with documented adjacent/index/historical routes.
+  const expectedAgencyLabels = {A:37,B:22,C:0,D:42,E:0,G:0};
   for (const key of Object.keys(expectedAgencyLabels)) assertEqual("Agency class " + key, report.agencyEvidence.classLabels[key], expectedAgencyLabels[key]);
-  assertEqual("Agency compound cells", report.agencyEvidence.compoundCells, 19);
+  assertEqual("Agency compound cells", report.agencyEvidence.compoundCells, 21);
   const allowedAgencies = ["WPP","Publicis","Omnicom","Dentsu","Havas"];
   const allowedElectives = ["CRO","Traditional"];
   const electiveKeys = electiveEvidence.split("\n").flatMap((line) => {
