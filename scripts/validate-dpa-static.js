@@ -132,6 +132,8 @@ try {
   const rubrics = read("docs/169-chapter-assessment-rubrics-draft.md");
   const resources = read("docs/169-chapter-resource-mapping.md");
   const technical = read("docs/169-chapter-technical-review-matrix.md");
+  const chapterInventory = read("docs/169-core-chapter-ids.txt");
+  const scoreTemplate = read("audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv");
 
   const htmlIds = [...html.matchAll(/data-chapter-id=["'](DPA-T\d{2}-CH\d{2})["']/g)].map((m) => m[1]);
   const fullIds = [...fullstack.matchAll(/chapterId\s*:\s*["'](DPA-T\d{2}-CH\d{2})["']/g)].map((m) => m[1]);
@@ -149,6 +151,44 @@ try {
 
   assertEqual("HTML chapter IDs", htmlIds.length, 169);
   assertEqual("Unique HTML chapter IDs", unique(htmlIds).length, 169);
+
+  const canonicalIds = chapterInventory.split(/\\r?\\n/).map((x) => x.trim())
+    .filter((x) => x && !x.startsWith("#"));
+  report.canonicalChapterInventoryRows = canonicalIds.length;
+  report.uniqueCanonicalChapterIds = unique(canonicalIds).length;
+  assertEqual("Canonical chapter inventory rows", canonicalIds.length, 169);
+  assertEqual("Unique canonical chapter inventory IDs", unique(canonicalIds).length, 169);
+  if (duplicates(canonicalIds).length) fail.push("Duplicate canonical chapter IDs: " + duplicates(canonicalIds).join(", "));
+  assertNoMissing("Canonical inventory vs HTML", htmlIds, canonicalIds);
+  assertNoExtra("Canonical inventory vs HTML", htmlIds, canonicalIds);
+
+  const scoreTemplateLines = scoreTemplate.trimEnd().split(/\\r?\\n/);
+  const expectedScoreHeader = "chapter_id,track_id,dim_1,dim_2,dim_3,dim_4,dim_5,dim_6,dim_7";
+  report.scoreTemplateRows = Math.max(0, scoreTemplateLines.length - 1);
+  if (scoreTemplateLines[0] !== expectedScoreHeader) {
+    fail.push("Score template header does not match the required nine-column schema.");
+  }
+  const templateIds = [];
+  for (let i = 1; i < scoreTemplateLines.length; i++) {
+    const cells = scoreTemplateLines[i].split(",");
+    if (cells.length !== 9) {
+      fail.push("Score template line " + (i + 1) + ": expected 9 CSV columns, found " + cells.length);
+      continue;
+    }
+    const chapterId = cells[0].trim();
+    const trackId = cells[1].trim();
+    templateIds.push(chapterId);
+    if (!idPattern.test(chapterId)) fail.push("Score template line " + (i + 1) + ": malformed chapter ID " + chapterId);
+    if (trackId !== chapterId.slice(4, 7)) fail.push("Score template line " + (i + 1) + ": track ID does not match " + chapterId);
+    if (cells.slice(2).some((value) => value.trim() !== "")) {
+      fail.push("Score template line " + (i + 1) + ": score fields must remain blank in the collection template.");
+    }
+  }
+  assertEqual("Score template data rows", templateIds.length, 169);
+  assertEqual("Unique score template chapter IDs", unique(templateIds).length, 169);
+  if (duplicates(templateIds).length) fail.push("Duplicate score-template chapter IDs: " + duplicates(templateIds).join(", "));
+  assertNoMissing("Score template vs canonical inventory", canonicalIds, templateIds);
+  assertNoExtra("Score template vs canonical inventory", canonicalIds, templateIds);
   assertEqual("Full-Stack legacy guide count", fullIds.length, 10);
   assertEqual("Paid Social legacy guide count", paidIds.length, 10);
   assertEqual("Role-specific guide count", roleIds.length, 149);
