@@ -152,3 +152,8 @@ The six-track source-enrichment pass is recorded in [Priority Track Source Remed
 ## 17. 169-core chapter depth screening
 
 A deterministic screening script, [169-chapter depth report](169-chapter-depth-screening.md) and [169-row CSV](169-chapter-depth-screening.csv) now quantify objective, example, workflow, practice, glossary, Q&A and source-map structure. All 169 chapters met the documented heuristic thresholds and the 507 core question texts had no exact normalized duplicates in this screen. This is a structural signal only; it does not close technical accuracy, chapter relevance, resource-fit, local-market or SME acceptance. All corresponding review states remain OPEN.
+
+
+## 18. Chapter rubric calibration register
+
+The [169-chapter rubric calibration register](169-chapter-rubric-calibration-register.csv) is the companion control sheet for the chapter-specific assessment-rubric drafts. It tracks chapter outcomes, artifacts, assessor criteria, Q&A and the calibration/SME/pilot decisions separately. No draft rubric or proposed 80/100 score threshold may be represented as calibrated or credential-ready before sample scoring and inter-rater review.
