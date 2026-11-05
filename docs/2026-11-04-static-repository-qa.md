@@ -40,7 +40,11 @@
 
 | Agency evidence matrix | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | STRUCTURE VERIFIED — competency/JD validation remains PARTIAL |
 
-| Elective evidence groups | 10 agency × elective rows (5 groups × 2 electives) | STRUCTURE VERIFIED — content validation remains PENDING |\n| Canonical chapter ID inventory | 169 unique IDs | STRUCTURE VERIFIED — score recomputation blocked by missing raw vectors |\n| Automated validator script | Includes chapter, matrix, Q&A, resource and media-query checks | ADDED — execution not verified in local Node runtime |\n\n## Not tested / release blockers
+| Elective evidence groups | 10 agency × elective rows (5 groups × 2 electives) | STRUCTURE VERIFIED — content validation remains PENDING |
+| Canonical chapter ID inventory | 169 unique IDs | STRUCTURE VERIFIED — score recomputation blocked by missing raw vectors |
+| Automated validator script | Includes chapter, matrix, Q&A, resource and media-query checks | ADDED — execution not verified in local Node runtime |
+
+## Not tested / release blockers
 
 - No authenticated PR preview browser session was available. The connected local Browser tool could not access the originating browser context.
 - Cloud browser/deep-research automation returned an insufficient-funds / empty-wallet response; no browser run was started.
