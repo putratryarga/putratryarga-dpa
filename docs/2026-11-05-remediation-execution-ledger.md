@@ -23,6 +23,10 @@
 | T16-CH12 | Marked old correction supplement superseded, preserving audit history | Active register/rubric are current | FIXED — governance |
 | Amazon credential register | Updated free/80%/24-hour retake/two-year validity and separated general FAQ duration from exam-specific timers | Current official Academy FAQ/assessment pages | FIXED — issuer facts; local account check pending |
 | Source of Truth | Added structured normative document; TXT retained as historical archive | Crosswalk/README references updated | FIXED — documentation governance |
+| Agency evidence | Reconciled 80-cell class labels after Havas requisition review | 80 unique cells; A37/B20/D37/G5; 19 compound labels; 4 pure G + 1 B/G | PARTIAL — source/JD/competency validation remains open |
+
+## Agency evidence status — PARTIAL
+The reconciled 80-cell matrix contains A 37, B 20, C 0, D 37, E 0 and G 5 class-label instances, with 19 compound cells (99 total label instances across 80 unique cells). Five cells retain a G marker: T09/Dentsu; T14/Havas (B/G sister-practice only, no direct HMN role); T15/Omnicom; T15/Havas; T16/Havas. T05/Havas is now direct Paid Social evidence (JR0096922, Warsaw, 2+ years); T11/Havas is now direct Organic & AI Manager evidence (JR0099039, Sydney, 4+ years, manager-level). Neither should be generalized to entry-level or Indonesia-market roles. JR0096564 is historical DMPG evidence, JR0093003 is Havas Paris Social sister-practice evidence, and JR0093690 is Havas Play evidence with unresolved start-date metadata. Cell coverage is complete; competency-level verification of every source is not.
 
 ## Score recalculation — BLOCKED
 Seven raw dimensions (0–4) are required for each of 169 chapters. The complete raw-vector matrix was not found in the inspected repository tree or accessible Library files. The AutoClaw execution transcript reports that 40 scores were recalculated locally, but its files/commit were not retrievable in this repository. This branch does not claim a full 169-score recalculation.
@@ -42,6 +46,11 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 - IAB retail media advanced measurement/data collaboration: https://www.iab.com/guidelines/retail-media-advanced-measurement-and-data-collaboration/
 - IAB/MRC Retail Media Measurement Guidelines: https://www.iab.com/wp-content/uploads/2024/01/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf
 - Amazon Ads Academy FAQ: https://advertising.amazon.com/academy/help
+
+## Additional reconciled quality indicators
+- 149 role-specific guide objects were reparsed. Short-content triage now records 122 answers under 12 words across 79 chapters and 81 glossary definitions under 5 words across 58 chapters (HTML tags/entities stripped; whitespace token count). These are review flags, not automatic defects. The 20 legacy guides remain separate.
+- 169 evidence-register chapters, 169 rubric chapters, 169 glossary blocks, 507 register Q&A entries and 507 rubric Q&A entries are structurally aligned. All answer correctness and rubric calibration remain OPEN.
+- Static source checks recorded 169 HTML IDs, 169 guide mappings, 169 resource rows and 169 technical-review rows; 19 CSS media queries; 391 DOM IDs; 13 internal anchors with no unresolved target. This is static verification only; no browser/runtime claim.
 
 ## Open gates
 1. Recalculate all 169 chapter scores from authoritative raw vectors and reconcile all totals.
