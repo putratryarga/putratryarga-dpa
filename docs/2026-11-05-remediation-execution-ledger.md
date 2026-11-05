@@ -66,7 +66,7 @@ The complete report, 23-row issue register, 12-row discrepancy log, raw 169-chap
 5. Complete independent SME review for 169 chapters and legacy guide families.
 6. Validate all 507 answer keys and alternate answers; calibrate rubrics.
 7. Validate the 28 full elective first-pass drafts (14 CRO + 14 Traditional Media) against direct/adjacent JDs, chapter-level sources, Indonesian market/legal practice, SME review, assessment calibration and learner pilot before calling them final.
-8. Run authenticated browser/runtime interaction QA. Preview build and HTTP/asset smoke checks now pass for `f9def1a8c6a8b22568b38bd83c7c1086765418fb`; UI behavior, persistence, keyboard and accessibility checks remain NOT RUN.
+8. Run authenticated browser/runtime interaction QA. Current-code source SHA `fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2` has Vercel deployment `dpl_HdSvAAgybvAvYMPqvF2FUxiJB4kq` READY; HTTP smoke, 169 chapter IDs, 13 anchor targets, and 8/8 local JavaScript assets pass. UI behavior, role interaction, persistence, keyboard and accessibility checks remain NOT RUN.
 9. Re-read all changed files and run final static checks on the exact final SHA.
 
 **Release decision: NOT READY — source-level remediation is partly implemented; multiple gates remain open or blocked.**
@@ -132,7 +132,7 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 - Validator log reports 169 HTML chapter IDs, 169 unique guide IDs, 169 evidence chapters, 169 rubric chapters, 169 glossary blocks, 169 resource rows, 169 technical rows and 16 track rows.
 - Score script compiled. Temporary synthetic self-test generated 169 vectors, recalculated 169 synthetic chapter outputs and 16 track summaries, and passed. These are pipeline tests, not the historical raw 169×7 score values.
 - Application source did change after `f9def1a` in `role-study-guides-part1.js`, `role-study-guides-part2.js`, and `role-study-guides-part3.js`. The READY preview at f9 therefore does not contain the latest guide content. A preview for current source is not available because of build-rate-limit.
-- Vercel current-head build status remains build-rate-limit. No production deployment or merge performed.
+- Vercel current-code deployment is READY on SHA fd5d25c; no production deployment or merge performed.
 
 
 ## 2026-11-05 final cross-source, agency and CI update
@@ -141,5 +141,17 @@ Added `.github/workflows/dpa-remediation-static-qa.yml` on the remediation branc
 - The five former agency G markers now carry documented B/D or D evidence with historical/adjacent scope caveats. Current 80-cell labels are A37/B22/D42/G0, 21 compound labels, 101 class-label instances. Direct/current employer JD and competency validation remains PARTIAL.
 - The static validator expected counts were updated to match the agency matrix. The earlier CI failures from runs 41954852406–41955066664 were caused by that stale expected-count contract. Run 41955180966 then completed SUCCESS on SHA 42e39b49103c2635d0576b23f92d1529bb07c391.
 - Run 41955180966 checked 169 HTML/guide/evidence/rubric/resource/technical entries, 16 tracks, and the revised agency class counts. The Python score script compiled; synthetic 169-row self-test recalculated 169 chapter scores and 16 track summaries. Synthetic values remained runner-temporary and are not audit inputs.
-- The guide JS updates occurred after the last READY Vercel deployment (`f9def1a`). Current Vercel deployment is build-rate-limited; current-source preview, authenticated browser interaction, persistence, keyboard and accessibility QA remain NOT RUN.
+- The guide JS updates are now included in current-code SHA `fd5d25c`, with READY preview deployment `dpl_HdSvAAgyG8DA9hL3y725HqXDdhky`. HTTP/asset smoke is verified; authenticated browser interaction, persistence, keyboard and accessibility QA remain NOT RUN.
 - Release status remains **NOT READY — REMEDIATION INCOMPLETE**. Raw score vectors, original 23 findings and D-1…D-12, objective-level resource sign-off, SME/JD validation, market/legal review, learner pilot and current-code browser QA remain open or blocked.
+
+
+## 2026-11-05 current-code Vercel preview verification
+
+- Deployment: `dpl_HdSvAAgyG8DA9hL3y725HqXDdhky`, state READY, exact Git source SHA `fd5d25cf8fa314ce9ed8b06cb1a5adb50510f5c2`, branch `audit/full-dpa-remediation-2026-11-05`.
+- Preview alias: https://putratryarga-dpa-git-audit-full-dpa-remediation-2-89524c-elric3.vercel.app/
+- HTML fetch: HTTP 200; page title correct; 169 unique chapter IDs; 13 internal anchor targets.
+- Local JS assets: 8/8 HTTP 200 — fullstack-guides.js, paid-social-guides.js, role-study-guides-part1.js, role-study-guides-part2.js, role-study-guides-part3.js, chapter-guide-map.js, fullstack-master-roadmap.js, fullstack-master-renderer.js. The external Vercel feedback script is not included in the application asset count.
+- Content probes in each of the three updated role-study JS bundles confirm the expanded answer/glossary text is present in the current preview.
+- GitHub Actions run [41955517513](https://github.com/putratryarga/putratryarga-dpa/actions/runs/41955517513) completed SUCCESS on the same source SHA fd5d25c.
+- These are deployment metadata, HTTP and asset checks. No authenticated interactive browser session, real role-selector click, localStorage persistence round-trip, theme toggle, keyboard traversal, accessibility-tree or cross-browser visual QA was executed.
+- Production was not deployed; main remains unchanged. Release status remains **NOT READY — REMEDIATION INCOMPLETE** due to historical input, SME, objective-fit, learner pilot and interactive QA blockers.
