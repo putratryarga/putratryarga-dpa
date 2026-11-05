@@ -8,7 +8,7 @@
 - 16 core specialist tracks and 169 core chapter IDs.
 - 149 role-specific guides plus 10 Full-Stack and 10 Paid Social legacy guides.
 - Elective 17: CRO / Growth / Experience Optimization; Elective 18: Traditional Media Planning & Buying.
-- 28 elective chapter specifications are proposed outlines, not completed chapters.
+- 28 elective chapter specifications now have complete first-pass written drafts in docs/28-advanced-elective-full-chapter-drafts.md; role/JD, source fit, SME, Indonesia-market and learner validation remain OPEN.
 - Synthetic figures/examples must be labelled; they are not live campaigns or client results.
 
 ## 2. Canonical tracks
@@ -78,7 +78,7 @@ Separate professional certification, course completion, learning badge, knowledg
 - Rubrics need observable criteria, performance anchors, critical failures, evidence, feedback and resubmission rules.
 
 ## 10. Electives
-Both electives remain `PROPOSED — CONTENT AND EVIDENCE VALIDATION PENDING` until all 14 chapters each have full learning content, workflows, exercise, deliverable, rubric, Q&A/answer guidance, glossary, sources and market validation. Do not count them among 169 core chapters.
+Both electives are now `FULL FIRST-PASS CONTENT DRAFTED — VALIDATION PENDING`: 28/28 chapters have learning outcomes, core lesson, workflow, practice, required artifact/acceptance, two knowledge checks with answer guidance, glossary and source caveats in docs/28-advanced-elective-full-chapter-drafts.md. Structural QA passes; role/JD evidence, source-objective fit, Indonesia market/legal review, SME answer approval, rubric calibration, workload pilot and formal sign-off remain OPEN. Do not count them among 169 core chapters.
 
 ## 11. Release gates
 Separate PASS/FAIL/BLOCKED for: repository integrity; issue/discrepancy reconciliation; raw score recalculation; 169-chapter content quality; resource fit; 80-cell agency evidence; answer-key/rubric validation; elective completeness; static QA; authenticated browser/runtime QA; build/preview and production verification. BLOCKED must never become PASS. Preview READY is not browser QA; branch commit is not production release.
@@ -91,7 +91,7 @@ Separate PASS/FAIL/BLOCKED for: repository integrity; issue/discrepancy reconcil
 - Static media-query count: 19 total (14 width-based, 2 reduced-motion, 3 print); rendering is not runtime-verified.
 - T16-CH12 correction supplement is superseded but retained as historical audit evidence.
 - Full 169-vector recalculation is BLOCKED: the authoritative raw seven-dimension matrix is not in the inspected repository.
-- SME review, 507 answer-key validation, rubric calibration, 80-cell JD validation, 169 resource-fit review, electives development and browser/runtime QA remain open.
+- SME review, 507 answer-key validation, rubric calibration, 80-cell JD validation, all 169 objective-level resource-fit sign-offs, elective validation and authenticated browser/runtime QA remain open. The 28 elective chapters are now fully drafted at first-pass level.
 
 **Historical archive:** `16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt`.  
 **Execution ledger:** `2026-11-05-remediation-execution-ledger.md`.
@@ -104,3 +104,13 @@ Separate PASS/FAIL/BLOCKED for: repository integrity; issue/discrepancy reconcil
 - Source revision `f9def1a8c6a8b22568b38bd83c7c1086765418fb` has a Vercel Preview deployment in READY state and a successful GitHub Vercel status. Its HTML endpoint returned HTTP 200 and all eight referenced local JavaScript assets returned HTTP 200.
 - HTTP availability is not authenticated browser/runtime QA. The UI interaction and accessibility release gates remain open.
 - Raw score matrix and the original 23 findings / D-1…D-12 records were not recovered. The seven-dimension numerical scale and averaging formula exist, but the dimension definitions and raw input values are not. Do not reconstruct them by inference.
+
+
+## 2026-11-05 remediation expansion
+
+- Advanced electives: 28/28 first-pass written chapter drafts authored (14 CRO + 14 Traditional Media) in docs/28-advanced-elective-full-chapter-drafts.md. Structural review: unique 28 headings; no missing outcome, lesson, workflow, practice, artifact/acceptance, Q&A or source-caveat blocks; 56 questions and 84 glossary definitions. SME, market, JD, resource, calibration and learner-pilot validation remain open.
+- Resource-fit desk review: docs/169-chapter-resource-fit-review.md records provisional assessments for all 16 tracks. Track-level coverage is not a substitute for 169 independent objective-to-source validations. The current map has 169 rows and 39 unique URLs.
+- Supplemental findings: docs/2026-11-05-supplemental-audit-findings.md contains 17 new, independently evidenced items. It does not reconstruct or replace the missing historical 23 findings or D-1…D-12.
+- Raw-score collection: audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv is a blank 169-row template only. Seven dimension definitions and original raw values remain missing; the template is not a score matrix and must not be scored.
+- Historical recovery: all 12 branches exposed by GitHub were inspected; no raw 169×7 matrix or original 23-row/D-1…D-12 records were located in repository trees, PR #5/#6 discussions/reviews, or accessible Library sources.
+- The overall release decision remains NOT READY — REMEDIATION INCOMPLETE. No production merge/deployment is authorized by this documentation update.
