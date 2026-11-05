@@ -308,13 +308,37 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 48);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 54);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
     ).map((line) => line.split("|")[1].trim());
     fail.push("Chapter resource rows with fewer than two unique source URLs: " + deficientRows.join(", "));
   }
+  const qnaReviewRegister = read("docs/507-qna-editorial-sme-review-register.csv");
+  const objectiveFitRegister = read("docs/169-objective-resource-fit-register.csv");
+  const agencyCellRegister = read("docs/80-agency-role-cell-validation-register.csv");
+  const electiveValidationRegister = read("docs/28-advanced-elective-validation-register.csv");
+  const qnaReviewRows = qnaReviewRegister.trim().split("\\n").length - 1;
+  const objectiveFitRows = objectiveFitRegister.trim().split("\\n").length - 1;
+  const agencyCellRows = agencyCellRegister.trim().split("\\n").length - 1;
+  const electiveValidationRows = electiveValidationRegister.trim().split("\\n").length - 1;
+  assertEqual("507-item Q&A review register rows", qnaReviewRows, 507);
+  assertEqual("169-objective resource-fit register rows", objectiveFitRows, 169);
+  assertEqual("80-cell agency validation register rows", agencyCellRows, 80);
+  assertEqual("28-chapter elective validation register rows", electiveValidationRows, 28);
+  const requiredNewResourceUrls = [
+    "https://sqlbolt.com/topics",
+    "https://miguelhernan.org/whatifbook",
+    "https://mediaratingcouncil.org/standards-and-guidelines",
+    "https://iabeurope.eu/iab-europe-releases-updated-commerce-incl-retail-media-standards-flexi-ad-sizes-guidelines-for-retail-media-networks/",
+    "https://www.w3.org/TR/WCAG22/",
+    "https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management"
+  ];
+  for (const url of requiredNewResourceUrls) {
+    if (!resourceUrls.includes(url)) fail.push("Priority resource mapping missing expected URL: " + url);
+  }
+
   assertNoMissing("Technical matrix vs HTML", htmlIds, technicalIds);
   assertNoExtra("Technical matrix vs HTML", htmlIds, technicalIds);
 
