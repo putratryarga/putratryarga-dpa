@@ -54,6 +54,6 @@
 - The latest known Vercel status check on remediation commit `bcca5021...` is **FAILURE due to build-rate-limit** (upgrade/build-rate-limit target), not a successful deployment. No GitHub Actions workflow runs are associated with this commit.
 - External resource-link availability, redirect chains, locale access, regional price and credential expiry are not proven by static presence.
 
-**Branch relationship:** `main` is `640b1924...`; remediation is now 132 commits ahead / 0 behind after the branch-only history reconciliation. `main` remains unchanged. PR #5/#6 remain draft/open/unmerged.
+**Branch relationship:** `main` is `640b1924...`; the remediation branch includes main as a parent and currently has zero commits behind `main`. `main` remains unchanged. PR #5/#6 remain draft/open/unmerged.
 
-**Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; BRANCH BASE RELATIONSHIP REQUIRES FINAL RECONCILIATION; NOT READY TO MERGE.
+**Release decision:** STATIC SOURCE CHECKS PASS only for the listed counts; BROWSER/RUNTIME QA NOT RUN; VERCEL PREVIEW CHECK BLOCKED BY BUILD RATE LIMIT; PUSH-WORKFLOW EXECUTION NOT INDEPENDENTLY VERIFIED; NOT READY TO MERGE.
