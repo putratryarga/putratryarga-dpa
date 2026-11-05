@@ -684,10 +684,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa KPI perlu denominator dan window?
-   - **Current guide answer (not yet approved):** Tanpa denominator/periode yang jelas, angka tidak dapat dibandingkan dan dapat menyesatkan.
+   - **Current guide answer (not yet approved):** Setiap KPI harus menyebut populasi pembagi dan periode pengamatan agar perbandingan konsisten, perubahan dapat ditafsirkan, dan keputusan tidak bias.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda primary dan diagnostic metric?
-   - **Current guide answer (not yet approved):** Primary menentukan keberhasilan; diagnostic membantu menjelaskan penyebab perubahan primary metric.
+   - **Current guide answer (not yet approved):** Primary metric menentukan apakah eksperimen atau campaign mencapai tujuan; diagnostic metrics membantu menjelaskan driver yang membuat primary metric berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa CTR tidak boleh menjadi KPI universal?
    - **Current guide answer (not yet approved):** CTR bergantung pada format, objective, placement, audience, dan click definition; ia tidak selalu mencerminkan business outcome.
@@ -740,13 +740,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda impressions dan reach?
-   - **Current guide answer (not yet approved):** Impressions menghitung exposure; reach menghitung individu/household unik menurut metodologi yang digunakan.
+   - **Current guide answer (not yet approved):** Impressions menghitung total kesempatan penayangan yang tercatat, sedangkan reach memperkirakan orang atau rumah tangga unik menurut universe dan metode deduplikasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa arti GRP?
    - **Current guide answer (not yet approved):** Gross Rating Points mengukur total rating points berdasarkan target universe; dapat mencakup repeated exposure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa platform reach tidak selalu dapat dijumlahkan lintas channel?
-   - **Current guide answer (not yet approved):** Setiap platform dapat menggunakan identity, deduplication, universe, dan time window berbeda.
+   - **Current guide answer (not yet approved):** Identity graph, universe, deduplication, dan time window dapat berbeda antarplatform; cross-channel reach perlu metodologi deduplikasi yang kompatibel.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -827,7 +827,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** CPM lebih murah bisa disebabkan placement/audience quality menurun atau delivery bergeser; cek reach, attention, fraud, conversion, dan margin.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda delivery analysis dan effectiveness analysis?
-   - **Current guide answer (not yet approved):** Delivery menilai pemenuhan media plan; effectiveness menilai perubahan audience/business outcome.
+   - **Current guide answer (not yet approved):** Delivery analysis memeriksa apakah placement, volume, timing, dan budget sesuai rencana; effectiveness analysis menilai perubahan audience atau business outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa syarat rekomendasi optimization yang kuat?
    - **Current guide answer (not yet approved):** Root cause evidence, change spesifik, expected mechanism, KPI/guardrail, owner, dan batas inferensi.
@@ -911,7 +911,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Volume tanpa intent, conversion potential, margin, landing fit, dan economics bisa menghasilkan traffic mahal tetapi tidak bernilai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Bagaimana mengelompokkan keyword?
-   - **Current guide answer (not yet approved):** Berdasarkan intent, product/service, need, brand, competitor, geography, dan funnel context.
+   - **Current guide answer (not yet approved):** Kelompokkan berdasarkan search intent, produk atau layanan, kebutuhan, brand, kompetitor, geografi, dan funnel context agar struktur serta pesan tetap relevan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa batas competitor ad analysis?
    - **Current guide answer (not yet approved):** Ad copy/visibility adalah observasi; tidak memberi akses ke bid, actual CPA, margin, atau conversion results pesaing.
@@ -942,7 +942,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Saat objective, budget, geo, product economics, brand protection, atau bidding strategy membutuhkan kontrol berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa tujuan naming taxonomy?
-   - **Current guide answer (not yet approved):** Menjamin identifikasi objek, konsistensi laporan, QA, perubahan, dan handover antar operator.
+   - **Current guide answer (not yet approved):** Naming taxonomy membuat objek mudah dikenali, laporan konsisten, QA dapat diulang, perubahan dapat ditelusuri, dan handover antaroperator lebih aman.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -967,7 +967,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Menunjukkan query yang memicu iklan untuk menilai intent, relevansi, biaya, conversion quality, dan peluang keyword/negative.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko negative keyword terlalu agresif?
-   - **Current guide answer (not yet approved):** Query bernilai dapat terblokir sehingga reach, volume, dan learning berkurang.
+   - **Current guide answer (not yet approved):** Negative keyword yang terlalu luas dapat memblokir query relevan; review search terms dan gunakan pengecualian bertingkat sebelum menambahkan blokir.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa match type harus dicek di dokumentasi terbaru?
    - **Current guide answer (not yet approved):** Platform mengubah matching behavior dan close variants; label match tidak selalu berarti literal match.
@@ -1051,7 +1051,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Submit hanya perilaku awal; qualification memerlukan validasi data, fit, sales response, dan outcome CRM.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko conversion double-counting?
-   - **Current guide answer (not yet approved):** Bidding/reporting menganggap conversion lebih banyak sehingga CPA/ROAS dan optimasi menjadi bias.
+   - **Current guide answer (not yet approved):** Double-counting membuat sistem bidding dan laporan menganggap hasil lebih banyak dari kenyataan, sehingga CPA, ROAS, dan keputusan optimasi menjadi bias.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa fungsi offline conversion import?
    - **Current guide answer (not yet approved):** Menghubungkan conversion yang terjadi di CRM/sales setelah click dengan campaign signal, sesuai identifier, privacy, dan rules.
@@ -1468,10 +1468,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa itu bid floor?
-   - **Current guide answer (not yet approved):** Harga minimum yang disyaratkan supply side untuk eligible impression/deal.
+   - **Current guide answer (not yet approved):** Bid floor adalah harga minimum yang ditetapkan supply side untuk impression atau deal yang eligible; bid di bawahnya dapat kalah atau tidak terlayani.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa fungsi ads.txt dan sellers.json?
-   - **Current guide answer (not yet approved):** Membantu transparansi dan otorisasi penjual inventory, tetapi tidak sendirian menjamin kualitas.
+   - **Current guide answer (not yet approved):** ads.txt dan sellers.json membantu mengungkap pihak yang berwenang menjual inventory; keduanya meningkatkan transparansi tetapi tidak menjamin traffic bebas fraud.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa bid tinggi tidak menjamin win?
    - **Current guide answer (not yet approved):** Eligibility, deal rules, timeout, floor, auction competition, creative compatibility, dan supply signals juga menentukan.
@@ -1558,7 +1558,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Line item mengatur delivery, targeting, bid, budget, dan schedule; creative adalah asset yang ditayangkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apakah sertifikasi DV360 otomatis memberi akses live seat?
-   - **Current guide answer (not yet approved):** Tidak. Learning credential dan akses akun/seat dikendalikan organisasi/partner dan ketentuan platform.
+   - **Current guide answer (not yet approved):** Tidak. Sertifikat membuktikan pembelajaran atau assessment, sedangkan seat live bergantung pada organisasi, partner access, kontrak, dan ketentuan platform.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1580,13 +1580,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa risiko click macro salah?
-   - **Current guide answer (not yet approved):** Click-through dapat hilang, salah redirect, mengganggu billing atau memutus measurement.
+   - **Current guide answer (not yet approved):** Click macro yang salah dapat memutus redirect, menghapus parameter, mengganggu billing, atau membuat klik tidak tercatat pada sistem pengukuran.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa trafficking sheet menjadi single source of truth?
    - **Current guide answer (not yet approved):** Sheet mengikat object, tag, date, budget, creative, owner, approval, dan status untuk mencegah konfigurasi berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa bukti QA selain upload success?
-   - **Current guide answer (not yet approved):** Preview/render evidence, click test, landing validation, tracking test, policy/approval, and sign-off.
+   - **Current guide answer (not yet approved):** Upload success hanya mengonfirmasi file diterima; QA juga memerlukan preview, click test, landing validation, tracking verification, policy approval, dan sign-off.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1611,7 +1611,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Inventory eligibility, targeting, deal/creative issues, supply, and timeouts dapat menjadi bottleneck selain bid.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko frequency terlalu tinggi?
-   - **Current guide answer (not yet approved):** Waste, fatigue, negative experience, and diminishing incremental reach.
+   - **Current guide answer (not yet approved):** Frequency berlebihan dapat memboroskan spend, menimbulkan ad fatigue dan pengalaman negatif, serta memberi tambahan reach yang semakin kecil.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa beda average CPM dan clearing price?
    - **Current guide answer (not yet approved):** Average CPM merangkum biaya hasil delivery; clearing price adalah harga auction pada impression tertentu/menurut mekanisme platform.
@@ -1692,7 +1692,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda ad server dengan DSP?
-   - **Current guide answer (not yet approved):** Ad server mengelola ad decisioning/delivery/tracking; DSP mengelola buying/auction/targeting di inventory.
+   - **Current guide answer (not yet approved):** Ad server mengatur ad decisioning, delivery, dan tracking; DSP membantu advertiser membeli inventory melalui auction, targeting, bidding, dan deal access.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa Floodlight counts dapat berbeda dengan GA4 purchase?
    - **Current guide answer (not yet approved):** Counting method, attribution, time zone, identity, consent, deduplication, event definition, and processing berbeda.
@@ -1720,7 +1720,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa CPM tidak boleh menjadi satu-satunya optimization target?
-   - **Current guide answer (not yet approved):** Ia mengabaikan inventory quality, fraud, reach, outcomes, fees, and contribution.
+   - **Current guide answer (not yet approved):** CPM murah belum tentu berkualitas; optimasi juga perlu menilai invalid traffic, viewability, audience fit, outcomes, fees, dan contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa hubungan optimization log dengan repeatability?
    - **Current guide answer (not yet approved):** Log mencatat perubahan, alasan, dan hasil sehingga learning bisa direplikasi dan tim tidak mengulang kesalahan.
@@ -1779,7 +1779,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Marketplace ads adalah penempatan iklan dalam marketplace; RMN dapat mencakup inventory/advertising dari retailer dan aktivasi offsite berbasis retailer signals.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa onsite dan offsite harus dipisah?
-   - **Current guide answer (not yet approved):** Inventory, audience, data activation, fee, attribution, dan measurement berbeda.
+   - **Current guide answer (not yet approved):** Onsite memakai inventory dan data di properti retailer, sedangkan offsite menjangkau audience retailer di luar properti; biaya dan metriknya berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa produk dan seller eligibility perlu dicek?
    - **Current guide answer (not yet approved):** Ads hanya berguna bila SKU, stok, listing, content, dan account memenuhi syarat platform.
@@ -1810,7 +1810,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Media dapat mendorong traffic, tetapi listing trust, stock, pricing, and delivery influence conversion.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa batas penggunaan loyalty data?
-   - **Current guide answer (not yet approved):** Eligibility, consent, purpose limitation, access, aggregation, and platform terms harus dipatuhi.
+   - **Current guide answer (not yet approved):** Gunakan loyalty data hanya untuk purpose yang sah dan disetujui, dengan eligibility, consent, access, aggregation, security, dan platform terms yang sesuai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1832,7 +1832,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa nama product/feature harus diverifikasi ulang?
-   - **Current guide answer (not yet approved):** Retail platform sering mengganti nama campaign, default optimization, eligibility, dan reporting.
+   - **Current guide answer (not yet approved):** Retail platform dapat mengganti nama produk, default optimization, eligibility, dan reporting; dokumentasikan tanggal serta market saat fitur diperiksa.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa yang perlu diperiksa sebelum memilih self-service vs managed?
    - **Current guide answer (not yet approved):** Budget threshold, service scope, control, inventory, reporting, fee, data access, and campaign complexity.
@@ -1891,10 +1891,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Attribution memberi credit pada exposure menurut model/window; incrementality mengestimasi tambahan penjualan dibanding control/counterfactual.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa match coverage harus dilaporkan?
-   - **Current guide answer (not yet approved):** Hanya transaksi/audience eligible yang dapat diukur; coverage rendah membatasi representativeness.
+   - **Current guide answer (not yet approved):** Match coverage menunjukkan bagian transaksi atau audience yang dapat dihubungkan; coverage rendah membatasi representativeness dan generalisasi hasil.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa risiko mengaktifkan retailer data ke luar platform?
-   - **Current guide answer (not yet approved):** Privacy, consent, purpose limitation, partner terms, identity resolution, and security controls.
+   - **Current guide answer (not yet approved):** Aktivasi eksternal menambah risiko privacy, consent, purpose limitation, partner terms, identity resolution, data transfer, dan security.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -1916,13 +1916,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa segment terlalu sempit berisiko?
-   - **Current guide answer (not yet approved):** Scale kecil dapat meningkatkan biaya, underdelivery, unstable measurement, dan overfrequency.
+   - **Current guide answer (not yet approved):** Audience terlalu sempit dapat menurunkan scale, meningkatkan biaya, menghambat delivery, membuat hasil tidak stabil, dan menaikkan frequency.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko menganggap retailer segment sama dengan CRM segment?
-   - **Current guide answer (not yet approved):** Definisi, refresh, identity, transaction coverage, and eligibility dapat berbeda.
+   - **Current guide answer (not yet approved):** Keduanya dapat berbeda dalam definisi, refresh cadence, identity, transaction coverage, eligibility, dan consent; dokumentasikan sebelum dibandingkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa suppression penting?
-   - **Current guide answer (not yet approved):** Mencegah budget/communication terbuang untuk customer yang sudah convert atau tidak eligible.
+   - **Current guide answer (not yet approved):** Suppression menghindari spend dan pesan yang tidak perlu kepada customer yang sudah convert, tidak eligible, atau harus dikecualikan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2006,7 +2006,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Date, SKU, currency/tax, sales basis, attribution window, cancellations/returns, campaign tags, and data latency.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa batas closed-loop reporting?
-   - **Current guide answer (not yet approved):** Coverage, match rate, attribution methodology, and selection bias membatasi causal interpretation.
+   - **Current guide answer (not yet approved):** Coverage terbatas, match rate, attribution rules, dan selection bias dapat memengaruhi laporan; closed-loop attribution sendiri tidak membuktikan incrementality.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2056,10 +2056,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda Media Investment dengan Programmatic Trading?
-   - **Current guide answer (not yet approved):** Investment menegosiasikan/membeli inventory/partnership secara komersial; Programmatic Trader mengelola buying berbasis DSP/auction/deal.
+   - **Current guide answer (not yet approved):** Media Investment mengelola keputusan dan negosiasi komersial atas inventory atau partnership; Programmatic Trading mengoperasikan buying melalui DSP, auction, dan deal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda Media Planner dengan Media Buyer?
-   - **Current guide answer (not yet approved):** Planner menyusun strategy/mix/budget/forecast; buyer menegosiasikan rates, terms, booking, dan inventory delivery.
+   - **Current guide answer (not yet approved):** Media Planner merancang strategi, mix, budget, dan forecast; Media Buyer menegosiasikan rate serta terms, melakukan booking, dan memantau delivery.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa ownership map penting?
    - **Current guide answer (not yet approved):** Agar negotiation, approval, booking, tracking, QA, and invoice memiliki accountable owner yang jelas.
@@ -2115,7 +2115,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** RFP meminta solusi/proposal yang menjelaskan approach; RFQ meminta quotation untuk scope/requirements yang lebih terdefinisi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa gross dan net rate harus dipisah?
-   - **Current guide answer (not yet approved):** Discount/commission/fees dapat membuat quoted price tidak comparable dengan final payable amount.
+   - **Current guide answer (not yet approved):** Discount, commission, tax, dan fees dapat mengubah nilai akhir; bandingkan proposal memakai basis net payable yang sama.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa risiko added value dijadikan pengganti discount?
    - **Current guide answer (not yet approved):** Bonus mungkin tidak relevan, tidak guaranteed, atau memiliki kualitas/jangkauan berbeda dari paid inventory.
@@ -2140,7 +2140,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa rate benchmark lama perlu caveat?
-   - **Current guide answer (not yet approved):** Inventory, market demand, inflation, seasonality, package, and commercial conditions berubah.
+   - **Current guide answer (not yet approved):** Rate berubah karena inventory, demand, inflation, seasonality, package, dan kondisi komersial; selalu cantumkan periode serta market sumber.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa perbedaan cost efficiency dan value?
    - **Current guide answer (not yet approved):** Cost efficiency menilai biaya per unit; value juga menilai quality, relevance, outcomes, guarantees, and audience context.
@@ -2171,7 +2171,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Alternatif terbaik jika kesepakatan tidak tercapai; memberi batas rasional dan mengurangi keputusan emosional.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa semua added value tidak setara?
-   - **Current guide answer (not yet approved):** Nilainya tergantung audience, placement, timing, guarantee, production cost, and measurement.
+   - **Current guide answer (not yet approved):** Nilai added value bergantung pada relevansi audience, placement, timing, guarantee, production cost, dan kemampuan mengukur delivery.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus didokumentasikan setelah negotiation?
    - **Current guide answer (not yet approved):** Final rate, discount, scope, dates, inventory, cancellation, makegood, payment, proof, and authorized approver.
@@ -2196,10 +2196,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa risiko bonus tidak tercatat terpisah?
-   - **Current guide answer (not yet approved):** Volume billable dan bonus dapat tertukar sehingga delivery/invoice reconciliation tidak akurat.
+   - **Current guide answer (not yet approved):** Jika bonus bercampur dengan volume billable, delivery dan invoice reconciliation menjadi keliru; catat contracted dan bonus inventory terpisah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Siapa yang menyetujui legal clause?
-   - **Current guide answer (not yet approved):** Procurement/legal/authorized approver sesuai governance organisasi; media buyer menandai dan mengeskalasi risiko.
+   - **Current guide answer (not yet approved):** Legal clause harus disetujui procurement, legal, atau authorized approver sesuai governance; buyer mengidentifikasi risiko dan mengeskalasinya.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa IO harus selaras dengan trafficking sheet?
    - **Current guide answer (not yet approved):** Agar inventory, dates, formats, volume, rates, tags, and responsibilities sama di dokumen komersial dan operasional.
@@ -2224,10 +2224,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda proof-of-posting dan proof-of-play?
-   - **Current guide answer (not yet approved):** Proof-of-posting mendokumentasikan publication placement; proof-of-play membuktikan screen/audio/spot diputar sesuai log.
+   - **Current guide answer (not yet approved):** Proof-of-posting membuktikan publikasi atau placement, sedangkan proof-of-play mencatat pemutaran spot atau creative pada layar/audio sesuai log.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa shortfall tidak boleh langsung diasumsikan berdasarkan impressions?
-   - **Current guide answer (not yet approved):** Contract mungkin memakai billable basis, tolerance, sampling, or alternative delivery definition.
+   - **Current guide answer (not yet approved):** Kontrak dapat menetapkan billable basis, tolerance, sampling, bonus, atau definisi delivery lain; periksa clause dan bukti line-item terlebih dahulu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Kapan makegood harus dieskalasi?
    - **Current guide answer (not yet approved):** Saat delivery di luar tolerance, bukti tidak lengkap, deadline terlewati, atau remedy tidak sesuai kontrak.
@@ -2258,7 +2258,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Verifikasi kontrak, exchange-rate basis, tax treatment, legal entity, and finance rules sebelum approve.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa audit trail perlu disimpan?
-   - **Current guide answer (not yet approved):** Memudahkan dispute, finance approval, month-end close, compliance, and vendor accountability.
+   - **Current guide answer (not yet approved):** Audit trail mendukung dispute resolution, finance approval, month-end close, compliance review, dan akuntabilitas vendor ketika hasil dipertanyakan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2364,13 +2364,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa trafficking sheet harus mencatat object IDs?
-   - **Current guide answer (not yet approved):** Nama dapat berubah/duplikat; ID membantu traceability, QA, API/report matching, dan handover.
+   - **Current guide answer (not yet approved):** Nama campaign dapat berubah atau duplikat; object IDs menjaga traceability, membantu QA, mencocokkan API/report, dan mempermudah handover.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko URL belum final?
    - **Current guide answer (not yet approved):** Traffic dapat salah arah, tracking parameter hilang, conversion tidak terekam, atau campaign terpaksa dihentikan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa fungsi version control?
-   - **Current guide answer (not yet approved):** Menghindari asset/setting lama tertayang dan memastikan approval merujuk pada versi final.
+   - **Current guide answer (not yet approved):** Version control memastikan asset dan setting yang digunakan adalah versi approved, mencegah materi lama tayang, serta menjaga approval tetap terlacak.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2395,10 +2395,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Dimensi, limits, file type, placement rules, and policy dapat berubah antar platform dan waktu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa itu fallback?
-   - **Current guide answer (not yet approved):** Asset atau behavior alternatif saat creative utama tidak didukung environment/placement.
+   - **Current guide answer (not yet approved):** Fallback adalah asset atau behaviour alternatif yang digunakan ketika creative utama tidak didukung oleh environment, format, atau placement tertentu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang diperiksa pada click URL selain destination?
-   - **Current guide answer (not yet approved):** Redirect, query parameters, UTMs, macros, SSL, deep-link behavior, and tracking events.
+   - **Current guide answer (not yet approved):** Periksa redirect chain, query parameters, UTM, macros, SSL, deep-link behaviour, dan tracking events agar perjalanan serta atribusi tidak terputus.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2448,10 +2448,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda placement dan creative?
-   - **Current guide answer (not yet approved):** Placement adalah slot/inventory; creative adalah asset yang ditayangkan dalam slot tersebut.
+   - **Current guide answer (not yet approved):** Placement adalah slot atau inventory tempat iklan muncul; creative adalah asset pesan yang disajikan di dalam slot tersebut.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa fungsi Floodlight counting method?
-   - **Current guide answer (not yet approved):** Menentukan bagaimana activity dihitung agar conversion metric sesuai definisi bisnis.
+   - **Current guide answer (not yet approved):** Counting method menentukan aturan penghitungan Floodlight activity, sehingga conversion event tidak dihitung dengan basis yang keliru.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang perlu diserahkan ke publisher?
    - **Current guide answer (not yet approved):** Correct ad/placement tags, spec, click macro, dates, creative, implementation instructions, and QA contacts.
@@ -2507,7 +2507,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Site, checkout, consent, tracking, price, stock, CRM, or reporting latency dapat berubah meski delivery normal.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa urutan troubleshooting yang disiplin?
-   - **Current guide answer (not yet approved):** Isolasi simptom dan cek data/tag/page/creative/settings/supply sebelum mengubah bid/budget.
+   - **Current guide answer (not yet approved):** Isolasi gejala, verifikasi data dan tag, periksa page serta creative, lalu cek settings dan supply sebelum mengubah bid atau budget.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa action log penting?
    - **Current guide answer (not yet approved):** Membuat root cause, owner, risk, and recovery dapat diaudit dan mencegah perubahan berulang tanpa evidence.
@@ -2532,7 +2532,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa arti apples-to-apples reconciliation?
-   - **Current guide answer (not yet approved):** Perbandingan dengan unit, window, timezone, event, scope, dan eligibility yang setara.
+   - **Current guide answer (not yet approved):** Rekonsiliasi harus memakai unit, window, timezone, event, scope, dan eligibility yang setara agar selisih benar-benar dapat dibandingkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa click count tidak sama dengan GA4 sessions?
    - **Current guide answer (not yet approved):** Click dapat gagal load, user close page, redirect, consent, browser block, or multiple clicks per session.
@@ -2560,10 +2560,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa delivered impressions belum tentu billable impressions?
-   - **Current guide answer (not yet approved):** Kontrak dapat memiliki tolerance, excluded events, bonus, or alternative billable definitions.
+   - **Current guide answer (not yet approved):** Kontrak dapat mengecualikan event tertentu, memberi tolerance atau bonus, atau memakai billable definition berbeda dari raw delivery.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko satu orang mengatur dan menyetujui invoice sendiri?
-   - **Current guide answer (not yet approved):** Segregation of duties lemah sehingga fraud/error lebih sulit dideteksi.
+   - **Current guide answer (not yet approved):** Tanpa segregation of duties, error atau fraud lebih sulit dideteksi karena pihak yang membuat transaksi juga mengesahkan pembayarannya.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa output operational review yang berguna?
    - **Current guide answer (not yet approved):** Recurring issue, control gap, SLA, owners, automation opportunities, and measurable process improvement.
@@ -2703,10 +2703,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Join many-to-many atau grain yang tidak sama menyebabkan satu row cocok dengan banyak row di table lain.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa query perlu test totals sebelum/sesudah join?
-   - **Current guide answer (not yet approved):** Reconciliation membantu mendeteksi double count, lost rows, and incorrect keys.
+   - **Current guide answer (not yet approved):** Bandingkan row count dan total sebelum serta sesudah join untuk mendeteksi duplicate rows, lost records, atau key yang tidak tepat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa beda WHERE dan HAVING?
-   - **Current guide answer (not yet approved):** WHERE menyaring rows sebelum aggregation; HAVING menyaring hasil group/aggregate.
+   - **Current guide answer (not yet approved):** WHERE menyaring baris sebelum aggregation; HAVING menyaring kelompok setelah GROUP BY berdasarkan kondisi aggregate atau hasil kelompok.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2759,7 +2759,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Dua metrik dapat bergerak bersama akibat seasonality, mix, budget, atau faktor ketiga tanpa causal link.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa fungsi decomposition?
-   - **Current guide answer (not yet approved):** Memecah outcome menjadi driver sehingga lokasi perubahan dapat diisolasi.
+   - **Current guide answer (not yet approved):** Decomposition memecah outcome menjadi driver yang lebih kecil sehingga sumber perubahan dapat diisolasi dan diuji.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Kapan analisis harus ditahan?
    - **Current guide answer (not yet approved):** Saat data quality, tracking, population, or metric definitions belum valid untuk mendukung kesimpulan.
@@ -2840,13 +2840,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda finding dan insight?
-   - **Current guide answer (not yet approved):** Finding adalah temuan angka; insight menjelaskan makna/driver dan mengubah keputusan.
+   - **Current guide answer (not yet approved):** Finding mencatat pola atau angka yang ditemukan; insight menjelaskan kemungkinan makna dan driver, lalu menunjukkan keputusan yang perlu berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa limitation perlu disampaikan?
    - **Current guide answer (not yet approved):** Agar stakeholder tidak menganggap atribusi/korelasi sebagai causal proof atau membuat keputusan melebihi evidence.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus berakhir pada executive deck?
-   - **Current guide answer (not yet approved):** Keputusan yang diminta, owner, timing, expected impact, risk, and measurement follow-up.
+   - **Current guide answer (not yet approved):** Executive deck harus meminta keputusan yang jelas, menyebut owner dan timing, serta menunjukkan impact, risk, dan measurement follow-up.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2896,10 +2896,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda crawling dan indexing?
-   - **Current guide answer (not yet approved):** Crawling adalah discovery/access; indexing adalah proses menyimpan/memahami halaman untuk kemungkinan ditampilkan.
+   - **Current guide answer (not yet approved):** Crawling adalah proses menemukan serta mengambil URL; indexing adalah proses menganalisis dan menyimpan halaman agar dapat dipertimbangkan untuk hasil search.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa ranking bukan satu-satunya KPI SEO?
-   - **Current guide answer (not yet approved):** Ranking tidak otomatis menghasilkan qualified traffic, engagement, conversions, or contribution.
+   - **Current guide answer (not yet approved):** Ranking tidak otomatis menghasilkan qualified traffic, engagement, conversion, atau contribution; ukur dampak bisnis dan kualitas kunjungan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana AI features memengaruhi SEO?
    - **Current guide answer (not yet approved):** Mereka mengubah format discovery/click patterns; foundational crawlability, content usefulness, and search intent tetap penting.
@@ -2958,7 +2958,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Memberi sinyal preferred URL di antara duplicates/similar pages; bukan jaminan search engine mengikuti pilihan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang dimaksud orphan page?
-   - **Current guide answer (not yet approved):** Halaman tanpa internal links yang dapat ditemukan crawler/user melalui navigation biasa.
+   - **Current guide answer (not yet approved):** Orphan page adalah halaman yang tidak menerima internal links yang memadai, sehingga sulit ditemukan pengguna dan crawler melalui navigasi situs.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -2983,7 +2983,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Field data mencerminkan real-user experience; lab data membantu reproduksi/debug pada kondisi test.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa schema markup tidak menjamin rich result?
-   - **Current guide answer (not yet approved):** Search engine menentukan eligibility/appearance berdasarkan content quality, policies, and other systems.
+   - **Current guide answer (not yet approved):** Structured data membantu search engine memahami konten, tetapi tampilan rich result tetap bergantung pada eligibility, quality, policy, dan sistem search.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa technical SEO perlu koordinasi developer?
    - **Current guide answer (not yet approved):** Banyak issue berada pada templates, rendering, redirects, server, and deployment—not hanya content editor.
@@ -3036,7 +3036,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa backlink quantity tidak sama dengan authority?
-   - **Current guide answer (not yet approved):** Relevance, editorial legitimacy, source quality, context, and spam signals memengaruhi value.
+   - **Current guide answer (not yet approved):** Jumlah link saja tidak menunjukkan kualitas; relevance, editorial legitimacy, source quality, context, dan spam signals juga menentukan nilai.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda earned link dan paid link scheme?
    - **Current guide answer (not yet approved):** Earned link muncul karena editorial value; paid/manipulative links bertujuan memengaruhi ranking dan berisiko melanggar guidelines.
@@ -3064,13 +3064,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa itu NAP consistency?
-   - **Current guide answer (not yet approved):** Name, Address, Phone harus akurat dan konsisten lintas listing/sumber.
+   - **Current guide answer (not yet approved):** NAP consistency berarti nama bisnis, alamat, dan nomor telepon akurat serta konsisten di direktori dan sumber lokal yang relevan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa review tidak boleh dibeli?
-   - **Current guide answer (not yet approved):** Fake/incentivized reviews melanggar platform policies dan merusak trust.
+   - **Current guide answer (not yet approved):** Review palsu atau diberi insentif dapat melanggar platform policies, menyesatkan konsumen, dan merusak kepercayaan terhadap brand.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa tantangan multi-location SEO?
-   - **Current guide answer (not yet approved):** Duplicate/thin location pages, inconsistent business data, ownership, and review response governance.
+   - **Current guide answer (not yet approved):** Risikonya meliputi halaman lokasi tipis atau duplikat, data bisnis tidak konsisten, ownership listing, dan governance respons review.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3098,7 +3098,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Aggregation across queries/pages/devices can hide changes in query mix and SERP features.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa isi SEO recommendation yang actionable?
-   - **Current guide answer (not yet approved):** Specific page/technical change, evidence, impact hypothesis, priority, owner, timeline, and measurement.
+   - **Current guide answer (not yet approved):** Rekomendasi harus menyebut halaman atau perubahan teknis spesifik, evidence, impact hypothesis, priority, owner, timeline, serta cara mengukur hasil.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3123,7 +3123,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Tidak. Structured data membantu machine understanding di konteks tertentu; tidak menjamin answer inclusion/citation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa prompt sampling bukan market share?
-   - **Current guide answer (not yet approved):** Hasil bergantung model, date, location, prompt, personalization, and response variance.
+   - **Current guide answer (not yet approved):** Hasil prompt sampling bergantung model, date, location, wording, personalization, dan response variance; sampel itu tidak mewakili pangsa pasar.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa fondasi AEO/GEO yang tetap relevan?
    - **Current guide answer (not yet approved):** Accessible, helpful, accurate content, clear entities, authoritative evidence, and sound technical SEO.
@@ -3232,10 +3232,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa risiko lead scoring hanya dari email opens?
-   - **Current guide answer (not yet approved):** Open tracking dapat bias/privacy-protected and tidak selalu menandakan intent atau fit.
+   - **Current guide answer (not yet approved):** Open tracking dapat dipengaruhi privacy protection dan machine activity; open tidak selalu menunjukkan intent atau kecocokan lead.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda fit dan intent?
-   - **Current guide answer (not yet approved):** Fit adalah kesesuaian dengan target profile; intent adalah sinyal kebutuhan/kesiapan bertindak.
+   - **Current guide answer (not yet approved):** Fit mengukur kesesuaian dengan target profile; intent mengukur sinyal kebutuhan atau kesiapan bertindak pada kategori tertentu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana memvalidasi model scoring?
    - **Current guide answer (not yet approved):** Uji terhadap qualified rate, sales acceptance, conversion, false positives/negatives, and calibration over time.
@@ -3263,10 +3263,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Trigger dikirim karena event/condition spesifik; blast dikirim ke target segment pada jadwal yang ditetapkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa cross-channel purchase suppression penting?
-   - **Current guide answer (not yet approved):** Agar customer tidak menerima reminder setelah membeli di channel lain.
+   - **Current guide answer (not yet approved):** Suppression lintas kanal mencegah customer menerima reminder atau offer yang tidak relevan setelah membeli melalui channel lain.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa fungsi exit condition?
-   - **Current guide answer (not yet approved):** Mengeluarkan contact saat goal tercapai, tidak lagi eligible, atau consent/status berubah.
+   - **Current guide answer (not yet approved):** Exit condition menghentikan contact saat goal tercapai, eligibility hilang, consent ditarik, atau status customer berubah.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3288,7 +3288,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apakah contact detail sama dengan consent marketing?
-   - **Current guide answer (not yet approved):** Tidak. Email/nomor yang tersedia tidak otomatis menjadi izin promosi.
+   - **Current guide answer (not yet approved):** Tidak. Memiliki email atau nomor telepon tidak otomatis memberi izin mengirim promosi; periksa purpose dan legal basis.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Kapan SMS/WhatsApp lebih tepat daripada email?
    - **Current guide answer (not yet approved):** Untuk komunikasi urgent/transactional atau audience preference tertentu; harus sesuai permission, cost, policy, and use case.
@@ -3316,7 +3316,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa arti idempotent workflow?
-   - **Current guide answer (not yet approved):** Pemrosesan event berulang tidak menghasilkan efek samping ganda, seperti duplicate contact/message.
+   - **Current guide answer (not yet approved):** Workflow idempotent memproses event berulang tanpa efek samping ganda, misalnya membuat contact atau mengirim message dua kali.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa retry harus memiliki batas?
    - **Current guide answer (not yet approved):** Retry tanpa kontrol dapat membuat duplicate action, API overload, and repeated messages.
@@ -3372,10 +3372,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa cohort harus memiliki start event yang sama?
-   - **Current guide answer (not yet approved):** Agar kelompok dibandingkan pada lifecycle age yang setara.
+   - **Current guide answer (not yet approved):** Start event yang seragam menyamakan lifecycle age, sehingga retention dan value antarcohort dapat dibandingkan lebih adil.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko LTV berbasis revenue?
-   - **Current guide answer (not yet approved):** Tidak memperhitungkan margin, returns, discounts, support costs, or contribution.
+   - **Current guide answer (not yet approved):** LTV berbasis revenue dapat melebihkan nilai customer karena tidak mengurangi margin, returns, discounts, service costs, dan contribution.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang dimaksud churn signal?
    - **Current guide answer (not yet approved):** Perubahan perilaku/engagement/purchase yang dapat mengindikasikan risiko berhenti; perlu validasi dengan historical outcomes.
@@ -3400,13 +3400,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa opens bukan satu-satunya success metric?
-   - **Current guide answer (not yet approved):** Engagement proxy tidak menjamin conversion/retention dan dapat terdistorsi privacy mechanisms.
+   - **Current guide answer (not yet approved):** Open adalah engagement proxy, bukan hasil bisnis; ia tidak menjamin conversion atau retention dan dapat terdistorsi privacy mechanisms.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa fungsi holdout group?
-   - **Current guide answer (not yet approved):** Memberi pembanding untuk mengestimasi dampak tambahan komunikasi dibanding tidak menerima treatment.
+   - **Current guide answer (not yet approved):** Holdout menyediakan kelompok pembanding tanpa treatment untuk memperkirakan dampak tambahan komunikasi dibanding kondisi tanpa komunikasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa frequency perlu guardrail?
-   - **Current guide answer (not yet approved):** Kontak berlebihan dapat menaikkan fatigue, unsubscribe, complaint, and long-term brand harm.
+   - **Current guide answer (not yet approved):** Frequency berlebihan dapat meningkatkan fatigue, unsubscribe, complaint, dan kerusakan hubungan jangka panjang; tetapkan batas serta pantau dampaknya.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3456,13 +3456,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda brand voice dan tone?
-   - **Current guide answer (not yet approved):** Voice adalah karakter konsisten; tone adalah penyesuaian ekspresi sesuai konteks/platform/audience.
+   - **Current guide answer (not yet approved):** Brand voice adalah karakter komunikasi yang relatif konsisten; tone menyesuaikan ekspresi voice terhadap konteks, platform, dan audience.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa brand voice tidak boleh menghalangi platform-native content?
    - **Current guide answer (not yet approved):** Ekspresi perlu menyesuaikan format dan perilaku audience sambil mempertahankan promise dan principles.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang termasuk claims policy?
-   - **Current guide answer (not yet approved):** Batas klaim, proof requirement, legal/regulatory review, and prohibited statements.
+   - **Current guide answer (not yet approved):** Claims policy menetapkan batas klaim, proof requirement, legal atau regulatory review, dan pernyataan yang tidak boleh digunakan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3515,10 +3515,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Tanpa status dan owner, tim tidak dapat mengelola approval, dependencies, delays, and accountability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda always-on dan campaign content?
-   - **Current guide answer (not yet approved):** Always-on melayani kebutuhan berulang; campaign content terikat objective/timing/event tertentu.
+   - **Current guide answer (not yet approved):** Always-on content memenuhi kebutuhan audience yang berulang; campaign content terikat objective, timing, dan aktivasi tertentu.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana mengatasi kapasitas produksi terbatas?
-   - **Current guide answer (not yet approved):** Prioritaskan audience/business value, repurpose, gunakan modular assets, and plan feasible cadence.
+   - **Current guide answer (not yet approved):** Prioritaskan audience dan business value, repurpose materi, gunakan modular assets, lalu tetapkan cadence yang realistis.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3540,7 +3540,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa tren viral belum tentu opportunity?
-   - **Current guide answer (not yet approved):** Trend bisa tidak relevan dengan audience/category/brand atau tidak mendukung objective.
+   - **Current guide answer (not yet approved):** Tren bisa tidak relevan dengan audience, category, atau brand dan belum tentu mendukung objective maupun outcome yang diinginkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa tanda insight mining berkualitas?
    - **Current guide answer (not yet approved):** Signals dapat ditelusuri, cluster menjelaskan need/tension, evidence lintas sumber, and content action jelas.
@@ -3568,13 +3568,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa risiko hook clickbait?
-   - **Current guide answer (not yet approved):** Audience expectation tidak terpenuhi, meningkatkan bounce/negative feedback, dan menurunkan brand trust.
+   - **Current guide answer (not yet approved):** Hook yang menjanjikan hal berlebihan dapat mengecewakan audience, meningkatkan bounce atau negative feedback, dan menurunkan brand trust.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda tension dan problem statement?
    - **Current guide answer (not yet approved):** Tension menangkap konflik/need audience secara naratif; problem statement memformulasikan hambatan untuk keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa fungsi proof dalam storytelling?
-   - **Current guide answer (not yet approved):** Membuat claim dipercaya dan membedakan cerita dari opini/hiburan kosong.
+   - **Current guide answer (not yet approved):** Proof memberi dasar untuk mempercayai claim dan membedakan cerita yang dapat dipertanggungjawabkan dari opini atau hiburan tanpa bukti.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3596,13 +3596,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa long-form membutuhkan source trail?
-   - **Current guide answer (not yet approved):** Pembaca/editor perlu memeriksa klaim, angka, freshness, and credibility.
+   - **Current guide answer (not yet approved):** Source trail membantu pembaca dan editor memeriksa klaim, angka, freshness, konteks, dan kredibilitas sebelum konten dipublikasikan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko memakai sumber sekunder tanpa cross-check?
    - **Current guide answer (not yet approved):** Angka/claim bisa outdated, salah konteks, atau hanya mengutip sumber lain yang sama.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Kapan artikel harus diperbarui?
-   - **Current guide answer (not yet approved):** Saat data, policy, product, platform, legal claim, or search intent berubah.
+   - **Current guide answer (not yet approved):** Perbarui ketika data, policy, product, platform, legal claim, atau search intent berubah sehingga isi lama berisiko menyesatkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3627,7 +3627,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Repurposing mengadaptasi angle, structure, format, and CTA untuk audience/context; reposting mengulang asset.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa first-frame penting?
-   - **Current guide answer (not yet approved):** Ia memberi context/relevance cepat dan memengaruhi apakah audience melanjutkan konsumsi.
+   - **Current guide answer (not yet approved):** First-frame memberi konteks dan relevansi dengan cepat, membantu audience memahami nilai konten, serta memengaruhi keputusan untuk melanjutkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus dicek pada video short-form?
    - **Current guide answer (not yet approved):** Aspect ratio, safe zones, captions, audio rights, claims, brand visibility, and link/CTA behavior.
@@ -3655,7 +3655,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Audience intent, consumption context, platform distribution, interaction behavior, and format constraints berbeda.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa yang harus konsisten?
-   - **Current guide answer (not yet approved):** Brand promise, fact accuracy, POV, and key message; format/length/execution dapat diadaptasi.
+   - **Current guide answer (not yet approved):** Brand promise, factual accuracy, point of view, dan key message harus konsisten; format, length, dan execution dapat diadaptasi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa metrics lintas platform tidak boleh dibandingkan mentah?
    - **Current guide answer (not yet approved):** Definitions, view thresholds, audience, and platform behavior berbeda; gunakan normalized task-specific metrics.
@@ -3683,7 +3683,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Amplification perlu audience fit, asset quality, rights, objective, budget, and downstream measurement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko UGC/creator asset digunakan berbayar tanpa rights?
-   - **Current guide answer (not yet approved):** Pelanggaran usage agreement/IP, creator relationship damage, and policy/legal exposure.
+   - **Current guide answer (not yet approved):** Penggunaan tanpa rights dapat melanggar IP atau usage agreement, merusak hubungan creator, dan menimbulkan policy maupun legal exposure.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana memisahkan hasil organic dan paid?
    - **Current guide answer (not yet approved):** Gunakan tagging, platform reporting, asset IDs, time windows, and clearly defined attribution.
@@ -3798,7 +3798,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Followers tidak menunjukkan audience fit, authenticity, influence, engagement quality, or content capability.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa kewajiban disclosure?
-   - **Current guide answer (not yet approved):** Audience harus memahami hubungan komersial/paid/gifted sesuai hukum, platform policies, and contract.
+   - **Current guide answer (not yet approved):** Audience harus memahami hubungan komersial seperti paid, gifted, atau affiliate sesuai aturan hukum, platform policies, dan kontrak yang berlaku.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3820,13 +3820,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa discovery perlu source trail?
-   - **Current guide answer (not yet approved):** Memudahkan recheck creator data, contact, rates, availability, and changes sebelum kontrak.
+   - **Current guide answer (not yet approved):** Source trail membantu memeriksa ulang creator data, kontak, rates, availability, dan perubahan sebelum shortlist atau kontrak disetujui.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda fit score dan performance guarantee?
-   - **Current guide answer (not yet approved):** Fit score adalah penilaian awal; tidak menjamin campaign outcomes.
+   - **Current guide answer (not yet approved):** Fit score adalah penilaian awal berdasarkan kriteria; ia bukan jaminan reach, engagement, conversion, atau campaign outcome.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus dikonfirmasi sebelum shortlist final?
-   - **Current guide answer (not yet approved):** Audience evidence, availability, fee, usage rights, exclusivity, policy issues, and deliverables.
+   - **Current guide answer (not yet approved):** Konfirmasi audience evidence, availability, fee, usage rights, exclusivity, policy issues, dan deliverables sebelum shortlist dikunci.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -3876,7 +3876,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa KPI harus berbeda per creator role?
-   - **Current guide answer (not yet approved):** Authority/education, reach, UGC, and affiliate conversion memiliki tugas dan outcome berbeda.
+   - **Current guide answer (not yet approved):** Creator untuk authority atau education, reach, UGC, dan affiliate conversion memiliki peran berbeda sehingga KPI harus mengikuti outcome peran.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko audience overlap tinggi?
    - **Current guide answer (not yet approved):** Incremental reach dapat turun dan biaya menjangkau orang yang sama menjadi tinggi.
@@ -3907,7 +3907,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Konten kehilangan naturalness/creator voice, dan audience dapat melihatnya sebagai iklan yang tidak autentik.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko brief terlalu bebas?
-   - **Current guide answer (not yet approved):** Pesan/claim dapat melenceng, mandatories terlewat, atau brand safety/contract issue muncul.
+   - **Current guide answer (not yet approved):** Brief yang tidak memiliki guardrails dapat membuat pesan atau claim melenceng, mandatories terlewat, dan brand-safety atau contract issue muncul.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana approval SLA membantu?
    - **Current guide answer (not yet approved):** Creator dan brand mengetahui timeline review, jumlah revisi, final asset, and publishing lock.
@@ -3963,7 +3963,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Tidak kecuali ada agreement yang jelas; gifting dan paid deliverables harus dibedakan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa opt-in penting?
-   - **Current guide answer (not yet approved):** Creator harus menyetujui penerimaan produk dan memahami campaign terms/expectations.
+   - **Current guide answer (not yet approved):** Opt-in memastikan creator menerima produk atau campaign secara sadar dan memahami terms, expectations, serta tidak ada kewajiban tersembunyi.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa biaya seeding selain produk?
    - **Current guide answer (not yet approved):** Packing, shipping, taxes, handling, staff hours, follow-up, and content usage/rights if negotiated.
@@ -3991,10 +3991,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Ikuti contract/deadline clause, assess campaign impact, notify owner, and agree corrective path.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa screenshot alone tidak cukup untuk proof?
-   - **Current guide answer (not yet approved):** Perlu URL, timestamp, platform, asset version, and relevant insight exports/permissions.
+   - **Current guide answer (not yet approved):** Screenshot perlu dilengkapi URL, timestamp, platform, asset version, dan insight exports atau permission evidence yang relevan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus ditangani segera setelah salah link?
-   - **Current guide answer (not yet approved):** Pause amplification, correct destination, notify creator/brand, record impact, and verify link/tracking.
+   - **Current guide answer (not yet approved):** Pause amplification, perbaiki destination, beri tahu creator dan brand, catat impact, lalu verifikasi link serta tracking sebelum aktif kembali.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4019,10 +4019,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Boost dapat menggunakan post melalui brand/account flow; partnership ads menjalankan iklan dengan creator partnership identity/authorization sesuai platform.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa organic and paid metrics harus dipisah?
-   - **Current guide answer (not yet approved):** Paid spend mengubah reach/audience/delivery dan mengaburkan evaluasi organic content.
+   - **Current guide answer (not yet approved):** Paid spend mengubah reach, audience, dan delivery; mencampurnya dengan organic results mengaburkan evaluasi kontribusi organik.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa risiko permission expiry?
-   - **Current guide answer (not yet approved):** Ads dapat berhenti/reject dan penggunaan identity/content dapat melanggar agreement.
+   - **Current guide answer (not yet approved):** Setelah permission berakhir, ads dapat berhenti atau ditolak dan penggunaan identity maupun content dapat melanggar agreement.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4044,7 +4044,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa total views tidak boleh diklaim seluruhnya organic?
-   - **Current guide answer (not yet approved):** Views dapat berasal dari paid amplification; sumber delivery harus dipisah.
+   - **Current guide answer (not yet approved):** Total views dapat mencakup paid amplification; pisahkan sumber delivery sebelum menyatakan hasil sebagai organic performance.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko discount code sebagai attribution tunggal?
    - **Current guide answer (not yet approved):** Pembelian dapat terjadi tanpa code atau code dibagikan; code usage tidak menunjukkan keseluruhan causal impact.
@@ -4128,7 +4128,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa partner type penting?
-   - **Current guide answer (not yet approved):** Each type has different traffic, attribution, fraud, audience, and commission behavior.
+   - **Current guide answer (not yet approved):** Setiap tipe partner membawa pola traffic, attribution, fraud, audience, dan commission yang berbeda sehingga kontrol serta KPI harus disesuaikan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa risiko sub-network yang tidak transparan?
    - **Current guide answer (not yet approved):** Traffic source and downstream publishers sulit diaudit; fraud or policy violations may be hidden.
@@ -4156,10 +4156,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa beda partner recruited dan partner activated?
-   - **Current guide answer (not yet approved):** Recruited sudah join; activated telah mempromosikan offer/menjalankan campaign dengan eligible activity.
+   - **Current guide answer (not yet approved):** Recruited berarti partner telah bergabung; activated berarti partner sudah mempromosikan offer atau menghasilkan eligible activity.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Mengapa first-conversion review penting?
-   - **Current guide answer (not yet approved):** Membantu mendeteksi poor traffic/fraud atau setup errors sebelum partner mendapat scale.
+   - **Current guide answer (not yet approved):** Review conversion awal membantu mendeteksi poor traffic, fraud, atau setup error sebelum partner diberi volume lebih besar.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang perlu ada di partner kit?
    - **Current guide answer (not yet approved):** Offer, product feed/assets, tracking links, commission terms, rules, disclosure, contact, and troubleshooting.
@@ -4190,7 +4190,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Menarik kembali atau membatalkan commission untuk invalid, cancelled, returned, or non-eligible conversions.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana tiered incentive dapat menimbulkan risiko?
-   - **Current guide answer (not yet approved):** Partner bisa mengejar volume dengan low-quality/fraud traffic saat bonus threshold mendekat.
+   - **Current guide answer (not yet approved):** Partner dapat mengejar volume berkualitas rendah atau fraud ketika mendekati bonus threshold, sehingga perlu quality guardrails dan audit.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4212,13 +4212,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Apa risiko stale product feed?
-   - **Current guide answer (not yet approved):** Advertiser/partner promote wrong price or unavailable product, damaging conversion and trust.
+   - **Current guide answer (not yet approved):** Feed yang usang dapat menampilkan harga salah atau produk tidak tersedia, merusak conversion, customer trust, dan partner relationship.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa fungsi sub-ID?
-   - **Current guide answer (not yet approved):** Membantu memisahkan publisher placement/campaign/creator source dalam attribution/reporting.
+   - **Current guide answer (not yet approved):** Sub-ID memisahkan publisher placement, campaign, atau creator source agar attribution, reporting, dan commission reconciliation lebih rinci.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa deep link perlu test di app dan web?
-   - **Current guide answer (not yet approved):** User journey and tracking may break across device/app install/redirect conditions.
+   - **Current guide answer (not yet approved):** Redirect dan tracking dapat gagal pada kondisi device, app installation, atau browser berbeda; uji semua jalur sebelum campaign live.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4243,10 +4243,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Attributed sale mendapat credit menurut tracking rule; incremental sale adalah tambahan yang tidak akan terjadi tanpa treatment.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa yang terjadi bila conversion ID tidak unik?
-   - **Current guide answer (not yet approved):** Satu order dapat tercatat berulang atau gagal dideduplikasi.
+   - **Current guide answer (not yet approved):** Order dapat tercatat berulang atau gagal dideduplikasi, sehingga conversion, commission, dan payout menjadi tidak akurat.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa cookie loss harus dicatat?
-   - **Current guide answer (not yet approved):** Itu dapat mengurangi match/attribution dan membuat observed partner performance tidak lengkap.
+   - **Current guide answer (not yet approved):** Cookie loss dapat menurunkan match dan attribution, sehingga performance partner yang teramati menjadi tidak lengkap.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4330,7 +4330,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Praktik menyisipkan tracking cookie tanpa valid user click/consent untuk mengambil attribution credit.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa fraud policy harus tertulis di contract?
-   - **Current guide answer (not yet approved):** Memberi dasar audit, hold, reversal, suspension, clawback, and dispute resolution.
+   - **Current guide answer (not yet approved):** Klausul tertulis memberi dasar untuk audit, hold, reversal, suspension, clawback, dan dispute resolution secara konsisten.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4352,13 +4352,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa network conversions belum final payout?
-   - **Current guide answer (not yet approved):** Orders may be pending, cancelled, returned, invalid, or outside program eligibility.
+   - **Current guide answer (not yet approved):** Conversion masih dapat pending, cancelled, returned, invalid, atau di luar eligibility program sebelum komisi disahkan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa pentingnya rate table version?
-   - **Current guide answer (not yet approved):** Commission can change across dates/partners/products; using wrong version produces payment errors.
+   - **Current guide answer (not yet approved):** Commission dapat berubah menurut tanggal, partner, atau produk; rate table yang salah menimbulkan kesalahan pembayaran.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus dilakukan saat partner dispute?
-   - **Current guide answer (not yet approved):** Provide order-level evidence, rules, source reconciliation, and transparent resolution timeline.
+   - **Current guide answer (not yet approved):** Sediakan order-level evidence, aturan program, source reconciliation, dan resolution timeline yang transparan untuk menyelesaikan dispute.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4464,7 +4464,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa brand tidak boleh langsung masuk dengan promosi?
-   - **Current guide answer (not yet approved):** Community memiliki norma/trust; pesan komersial tanpa permission/value dapat dianggap spam.
+   - **Current guide answer (not yet approved):** Community memiliki norma dan trust sendiri; promosi tanpa permission atau value dapat dianggap spam dan merusak hubungan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda lurker dan contributor?
    - **Current guide answer (not yet approved):** Lurker mengamati tanpa aktif posting; contributor memberi pertanyaan, jawaban, content, or participation.
@@ -4498,7 +4498,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Spam, misinformation, harassment, privacy issues, and customer harm can grow faster than support resources.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang perlu dikumpulkan saat onboarding?
-   - **Current guide answer (not yet approved):** Minimum profile and preference needed for purpose; avoid unnecessary personal data.
+   - **Current guide answer (not yet approved):** Kumpulkan profile dan preference minimum yang diperlukan untuk tujuan jelas; hindari data pribadi yang tidak relevan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4520,13 +4520,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa automated sentiment perlu human QA?
-   - **Current guide answer (not yet approved):** Slang, sarcasm, context, and mixed language can cause misclassification.
+   - **Current guide answer (not yet approved):** Slang, sarcasm, context, dan mixed language dapat salah diklasifikasikan oleh model, sehingga human review tetap diperlukan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa beda mention volume dan sentiment?
-   - **Current guide answer (not yet approved):** Volume counts conversations; sentiment interprets tone/context and needs validation.
+   - **Current guide answer (not yet approved):** Mention volume menghitung percakapan; sentiment menafsirkan tone dan context, sehingga memerlukan validasi serta sampling.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa query exclusions penting?
-   - **Current guide answer (not yet approved):** Untuk mengurangi irrelevant mentions, homonyms, spam, and false positives.
+   - **Current guide answer (not yet approved):** Exclusions mengurangi irrelevant mentions, homonyms, spam, dan false positives agar social listening tidak menghasilkan insight keliru.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4579,7 +4579,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** It can attract incentive-only behavior without meaningful member value or durable participation.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa yang perlu sebelum repost UGC?
-   - **Current guide answer (not yet approved):** Permission, attribution/credit, usage scope, editing consent, and compliance review.
+   - **Current guide answer (not yet approved):** Pastikan permission, attribution atau credit, usage scope, editing consent, dan compliance review sebelum UGC dipublikasikan ulang.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Bagaimana mengukur programming quality?
    - **Current guide answer (not yet approved):** Repeat contributors, meaningful replies, completion, member value, retention, and issue reduction—not raw posts alone.
@@ -4607,10 +4607,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Feedback yang sah memberi evidence dan trust; moderation harus menargetkan harmful behavior, bukan negative sentiment.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa yang dilakukan pada doxxing/personal data exposure?
-   - **Current guide answer (not yet approved):** Hide/remove promptly, preserve minimal evidence, escalate security/legal, and protect affected member.
+   - **Current guide answer (not yet approved):** Hide atau remove segera, simpan evidence minimum, eskalasi ke security/legal, dan lindungi anggota yang terdampak.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa moderation harus memiliki appeal/escalation path?
-   - **Current guide answer (not yet approved):** Untuk konsistensi, fairness, and review atas keputusan yang berdampak pada anggota.
+   - **Current guide answer (not yet approved):** Appeal path meningkatkan konsistensi dan fairness serta memungkinkan review atas keputusan moderation yang berdampak pada anggota.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4632,10 +4632,10 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa case perlu dipindah ke secure channel?
-   - **Current guide answer (not yet approved):** Untuk melindungi PII/order details dan memastikan verification/records sesuai service process.
+   - **Current guide answer (not yet approved):** Secure channel melindungi PII dan order details, serta menjaga verification dan records sesuai service process.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa bedanya acknowledge dengan resolve?
-   - **Current guide answer (not yet approved):** Acknowledge mengakui issue; resolve menyelesaikan masalah dan mengonfirmasi outcome.
+   - **Current guide answer (not yet approved):** Acknowledge berarti mengakui issue telah diterima; resolve berarti masalah ditangani dan outcome dikonfirmasi kepada pihak terkait.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang harus dicatat di ticket?
    - **Current guide answer (not yet approved):** Case ID, category, owner, SLA, status, evidence, action, and closure—minimum necessary personal data.
@@ -4666,7 +4666,7 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
    - **Current guide answer (not yet approved):** Advocate punya relationship/peer trust through genuine participation; influencer is selected for audience/content reach, though overlap exists.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Apa yang perlu sebelum memakai UGC brand-wide?
-   - **Current guide answer (not yet approved):** Permission, credit, channel, period, editing rules, and disclosure.
+   - **Current guide answer (not yet approved):** Konfirmasi permission, credit, channel, period, editing rules, disclosure, dan rights untuk setiap penggunaan yang direncanakan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
@@ -4716,13 +4716,13 @@ The chapter-specific checklist below is the minimum evidence the assessor must i
 
 **Chapter Q&A answer-key review:**
 1. **Question:** Mengapa member count tidak cukup?
-   - **Current guide answer (not yet approved):** Growth dapat berasal dari campaign/giveaway dan tidak menunjukkan active/retained/helpful participation.
+   - **Current guide answer (not yet approved):** Member growth dapat berasal dari campaign atau giveaway; ukur active, retained, helpful, dan recurring participation untuk menilai kualitas.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 2. **Question:** Apa definisi meaningful contribution?
    - **Current guide answer (not yet approved):** Action yang memberi value pada komunitas seperti jawaban, feedback, support, content, or constructive discussion.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 3. **Question:** Mengapa sentiment score harus divalidasi?
-   - **Current guide answer (not yet approved):** Bahasa, sarcasm, sample bias, and platform coverage dapat menghasilkan misclassification.
+   - **Current guide answer (not yet approved):** Language, sarcasm, sample bias, dan platform coverage dapat menyebabkan misclassification; audit sample secara manual sebelum mengambil keputusan.
    - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
 
 **Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
