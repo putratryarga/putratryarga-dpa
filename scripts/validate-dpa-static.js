@@ -351,7 +351,7 @@ try {
   assertEqual("Q&A triage bare-Boolean flags", triageBareBoolean, 23);
   assertEqual("Q&A triage absolute-wording flags", triageAbsoluteWording, 16);
   const triageAgencyMissingUrl = agencyGapTriage.split("\n").filter((line) => line.includes("EXACT_URL_OR_JOB_ID_MISSING")).length;
-  assertEqual("Agency cell exact URL/Job ID gaps", triageAgencyMissingUrl, 80);
+  assertEqual("Agency cell exact URL/Job ID gaps", triageAgencyMissingUrl, 1);
   const requiredNewResourceUrls = [
     "https://sqlbolt.com/topics",
     "https://miguelhernan.org/whatifbook",
