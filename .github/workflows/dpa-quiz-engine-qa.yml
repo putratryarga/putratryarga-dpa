@@ -13,7 +13,7 @@ jobs:
   formative-quiz:
     name: Synthetic-only formative quiz tests
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - name: Check out remediation branch
         uses: actions/checkout@v4
@@ -32,6 +32,31 @@ jobs:
 
       - name: Run deterministic engine tests
         run: node scripts/test-dpa-quiz-engine.js
+
+      - name: Install isolated browser test dependencies
+        run: |
+          mkdir -p "$RUNNER_TEMP/dpa-browser-test"
+          cd "$RUNNER_TEMP/dpa-browser-test"
+          npm init -y
+          npm install --no-audit --no-fund playwright @axe-core/playwright
+          npx playwright install --with-deps chromium
+
+      - name: Start local prototype server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$RUNNER_TEMP/dpa-quiz-http.log" 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/quiz-engine-prototype.html > /dev/null; then
+              echo "Local prototype server is ready."
+              exit 0
+            fi
+            sleep 1
+          done
+          cat "$RUNNER_TEMP/dpa-quiz-http.log"
+          exit 1
+
+      - name: Run Playwright browser and accessibility smoke tests
+        run: |
+          NODE_PATH="$RUNNER_TEMP/dpa-browser-test/node_modules" node scripts/test-dpa-quiz-browser.cjs
 
       - name: Verify prototype trust-boundary labels
         run: |
