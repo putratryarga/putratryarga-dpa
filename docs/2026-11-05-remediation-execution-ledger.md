@@ -646,3 +646,45 @@ A fresh Library search plus exact phrase/term searches against the recovered `16
 - Updated first-pass source-fit desk-review coverage from 73/169 to 85/169; 84 core chapters remain without first-pass source-fit desk review.
 - Formal objective fit, Indonesia access, language/cost/account eligibility, all 36 T14 Q&A answer-key/editorial/legal/SME decisions and rubric calibration remain OPEN. No historical raw scores, original 23-finding issue register or D-1…D-12 log were fabricated or reconstructed.
 - The separate 169-row core chapter-resource mapping inventory and its 127 unique URL count were not changed. Main, PR state, production deployment and certificates were not changed.
+
+
+## 2026-11-19 — exact-head role isolation, chapter-panel integrity and release checkpoint
+
+**Branch:** `audit/full-dpa-remediation-2026-11-05`  
+**Head:** `fa10967a3a9afb14cd001c4a682a358daaa2d0e7` (parent `b9c053051fa6ff2dbb4a077fa25a72fa09e5005c`)  
+**Main:** `64f96437bcdb8499add1affbad102283dfe7d8b4`; branch is 430 commits ahead and 0 behind at this checkpoint.
+
+### Browser QA hardening delivered
+
+Updated `scripts/test-dpa-chapter-rendering.cjs` to add explicit assertions for:
+- Exact registry set equality: 169 chapter IDs resolve to 169 authored guide objects with matching IDs, with no missing or orphan guide IDs.
+- Complete non-empty lesson fold bodies (at least six required folds per panel), plus existing concept/example/practice/Q&A and source-link assertions.
+- Role visibility isolation: after each of the 16 role selections, only that role and the shared Common Foundation remain visible.
+- Geometry checks for all 16 role cards at desktop and mobile; zero intersecting card rectangles.
+- Existing mobile 390px document-width, Paid Social panel-boundary and zero-page-error checks.
+
+### Exact-head workflow evidence
+
+All three workflows passed on `fa10967a3a9afb14cd001c4a682a358daaa2d0e7`:
+- Static QA: [44524857402](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44524857402) — structural/register integrity and synthetic score-script self-test passed.
+- Guide registry/browser QA: [44524857485](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44524857485) — 169 guide registry entries, 175 content panels, 16 role switches, selected-role isolation, zero desktop/mobile card overlap, 390px no-overflow, zero runtime errors.
+- Quiz engine QA: [44524857373](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44524857373) — formative synthetic-only unit/browser/accessibility checks passed.
+
+The static score self-test generated temporary synthetic vectors. It does not close the missing authoritative historical 169×7 score data.
+
+### Verified Vercel and GitHub state
+
+- Preview deployment: READY at `https://putratryarga-d8vwsuzkt-elric3.vercel.app`, deployment `dpl_BAxQqhmQRYwaZEMvJmqGdpdE1XLA`, exact branch SHA `fa10967`. No authenticated visual inspection is claimed.
+- Production deployment remains READY at `putratryarga-dpa.vercel.app`, commit `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`; it was not changed.
+- `main` is still `64f96437bcdb8499add1affbad102283dfe7d8b4`; no merge or production promotion occurred.
+
+### Remaining gates — unchanged by this QA
+
+- Exact original AutoClaw prompt, original 169×7 score vectors/dimension definitions and original 23 findings/D-1…D-12 remain BLOCKED/not located.
+- 169 chapter technical/SME approval, 507 answer-key/editorial validation and 169 rubric calibration remain OPEN.
+- Resource mapping has structural coverage, but only 85/169 core chapters have first-pass desk source-fit review; 84 still need that review and all formal objective-level/local-access decisions remain OPEN.
+- The 80 agency cells have evidence routes, but currentness, role specificity, employer/JD provenance, geography/seniority and competency dispositions remain PARTIAL/OPEN; the 80 rows still have blank reviewer/decision fields.
+- All 28 elective chapter desk reviews remain PARTIAL; source/SME, answer keys, rubric, Indonesia legal/market, workload and learner-pilot acceptance remain OPEN.
+- Main-app integrated assessment, authenticated preview QA, manual accessibility and production verification remain OPEN.
+
+**Release decision: NOT READY.** This checkpoint closes specific code/browser assertions, not curriculum validation or production release.
