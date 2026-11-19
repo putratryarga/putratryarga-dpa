@@ -25,8 +25,16 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       const chapters = [...document.querySelectorAll("[data-track-box] details.week")];
       const core = chapters.filter((chapter) => chapter.dataset.chapterId);
       const foundation = chapters.filter((chapter) => !chapter.dataset.chapterId);
+      const guideRegistry = window.DPA_GUIDE_BY_CHAPTER || {};
+      const guideRegistryIds = Object.keys(guideRegistry);
+      const coreIds = core.map((chapter) => chapter.dataset.chapterId);
+      const missingGuideIds = coreIds.filter((id) => !guideRegistry[id] || guideRegistry[id].chapterId !== id);
+      const orphanGuideIds = guideRegistryIds.filter((id) => !coreIds.includes(id));
       const rows = chapters.map((chapter) => {
         const material = chapter.querySelector(".chapter-study");
+        const registeredGuide = chapter.dataset.chapterId ? guideRegistry[chapter.dataset.chapterId] : null;
+        const lessonFoldBodies = [...(material?.querySelectorAll("details.lesson-fold .lesson-fold-body") || [])];
+        const emptyLessonFolds = lessonFoldBodies.filter((body) => !body.textContent.trim()).length;
         const title = material?.querySelector(".chapter-study-title h4")?.textContent.trim() || "";
         const sectionText = (label) => {
           const detail = [...(material?.querySelectorAll("details.lesson-fold") || [])].find((node) => node.querySelector("summary")?.textContent.includes(label));
@@ -52,6 +60,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           resources,
           resourceHrefs,
           emptySource,
+          lessonFoldBodies: lessonFoldBodies.length,
+          emptyLessonFolds,
+          hasRegisteredGuide: Boolean(registeredGuide && registeredGuide.chapterId === chapter.dataset.chapterId),
           hasMaterial: Boolean(material)
         };
       });
@@ -64,6 +75,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         totalPanels: chapters.length,
         corePanels: core.length,
         foundationPanels: foundation.length,
+        guideRegistryCount: guideRegistryIds.length,
+        missingGuideIds,
+        orphanGuideIds,
         rows,
         perTrack
       };
@@ -72,15 +86,47 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.equal(audit.totalPanels, EXPECTED_TOTAL, "Every core/foundation subchapter must render a material panel.");
     assert.equal(audit.corePanels, EXPECTED_CORE, "Expected 169 core chapters.");
     assert.equal(audit.foundationPanels, EXPECTED_FOUNDATION, "Expected 6 Common Foundation chapters.");
+    assert.equal(audit.guideRegistryCount, EXPECTED_CORE, "The guide registry must contain exactly 169 core guides.");
+    assert.deepEqual(audit.missingGuideIds, [], "Every core chapter must resolve to the guide with the same chapter ID.");
+    assert.deepEqual(audit.orphanGuideIds, [], "The guide registry must not contain orphan chapter IDs.");
 
     const missing = audit.rows.filter((row) =>
       !row.hasMaterial || !row.title || row.conceptChars < 80 || row.exampleChars < 80 ||
-      row.practiceChars < 20 || row.steps < 1 || row.questions < 1
+      row.practiceChars < 20 || row.steps < 1 || row.questions < 1 ||
+      (row.id !== "COMMON_FOUNDATION" && !row.hasRegisteredGuide) ||
+      row.lessonFoldBodies < 6 || row.emptyLessonFolds > 0
     );
     assert.deepEqual(missing, [], "Missing or blank learning material panels.");
 
     const noSources = audit.rows.filter((row) => row.emptySource || row.resources < 1);
     assert.deepEqual(noSources, [], "Every chapter must expose at least one mapped source.");
+
+    async function assertRoleCardsDoNotOverlap(label) {
+      const layout = await page.locator("[data-role-card]").evaluateAll((cards) => {
+        const visible = cards.map((card) => {
+          const rect = card.getBoundingClientRect();
+          return { id: card.dataset.roleCard, left: rect.left, right: rect.right, top: rect.top, bottom: rect.bottom, width: rect.width, height: rect.height };
+        }).filter((rect) => rect.width > 0 && rect.height > 0);
+        const overlaps = [];
+        for (let i = 0; i < visible.length; i++) {
+          for (let j = i + 1; j < visible.length; j++) {
+            const horizontal = Math.min(visible[i].right, visible[j].right) - Math.max(visible[i].left, visible[j].left);
+            const vertical = Math.min(visible[i].bottom, visible[j].bottom) - Math.max(visible[i].top, visible[j].top);
+            if (horizontal > 1 && vertical > 1) overlaps.push([visible[i].id, visible[j].id]);
+          }
+        }
+        return { visibleCards: visible.length, overlaps };
+      });
+      assert.equal(layout.visibleCards, 16, label + ": expected all 16 role cards to be visible.");
+      assert.deepEqual(layout.overlaps, [], label + ": role cards must not overlap.");
+      return layout;
+    }
+
+    const desktopRolePicker = page.locator('[data-role-card="fullstack"] .role-pick');
+    if (!(await desktopRolePicker.isVisible())) {
+      await page.locator("[data-role-picker-open]").first().click();
+    }
+    const desktopRoleCardLayout = await assertRoleCardsDoNotOverlap("Desktop role picker");
 
     const invalidResourceLinks = audit.rows.flatMap((row) => row.resourceHrefs)
       .filter((href) => !/^https?:\/\//i.test(href));
@@ -101,8 +147,11 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         if (await openPicker.count()) await openPicker.click();
       }
       await pickerButton.click();
-      const activeBox = page.locator(`[data-track-box="${role}"].on`);
+      const activeBox = page.locator('[data-track-box="' + role + '"].on');
       await activeBox.waitFor({ state: "visible" });
+      const visibleTrackIds = await page.evaluate(() => [...document.querySelectorAll("#weeks [data-track-box]")]
+        .filter((box) => !box.hidden).map((box) => box.dataset.trackBox).sort());
+      assert.deepEqual(visibleTrackIds, ["cf", role].sort(), "Only the selected role and Common Foundation should be visible for " + role + ".");
       const firstChapter = activeBox.locator("details.week").first();
       await firstChapter.locator(":scope > summary").click();
       const panel = firstChapter.locator(".chapter-study");
@@ -139,6 +188,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     if (!(await paidSocialPicker.isVisible())) {
       await page.locator("[data-role-picker-open]").first().click();
     }
+    const mobileRoleCardLayout = await assertRoleCardsDoNotOverlap("Mobile role picker");
     await paidSocialPicker.click();
     const paidSocialBox = page.locator('[data-track-box="paidsocial"].on');
     await paidSocialBox.waitFor({ state: "visible" });
@@ -170,6 +220,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       commonFoundationChapters: audit.foundationPanels,
       totalRenderedPanels: audit.totalPanels,
       rolesOpened: roleIds.length,
+      authoredGuideRegistry: audit.guideRegistryCount,
+      roleVisibilityIsolation: "selected role + Common Foundation only",
+      roleCardOverlap: { desktop: desktopRoleCardLayout, mobile: mobileRoleCardLayout },
       sourceCoverage: "all panels have valid HTTP(S) links",
       mobileViewport: mobileLayout,
       mobilePaidSocialPanel: mobilePanelBounds,
