@@ -50,3 +50,12 @@ jobs:
 
       - name: Verify rendered materials and role switching in Chromium
         run: NODE_PATH="$RUNNER_TEMP/dpa-chapter-browser/node_modules" node scripts/test-dpa-chapter-rendering.cjs
+
+      - name: Upload exact-head browser QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dpa-browser-qa-${{ github.sha }}
+          path: qa-out/
+          if-no-files-found: error
+          retention-days: 30

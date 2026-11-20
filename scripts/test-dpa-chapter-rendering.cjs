@@ -1,4 +1,6 @@
 const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
 const { chromium } = require("playwright");
 
 const BASE_URL = process.env.DPA_TEST_URL || "http://127.0.0.1:4173/index.html";
@@ -10,7 +12,20 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const pageErrors = [];
+  const consoleErrors = [];
+  const requestFailures = [];
+  const httpFailures = [];
   page.on("pageerror", (error) => pageErrors.push(error.message));
+  page.on("console", (message) => {
+    if (message.type() === "error") consoleErrors.push(message.text());
+  });
+  page.on("requestfailed", (request) => requestFailures.push({
+    url: request.url(),
+    error: request.failure()?.errorText || "unknown"
+  }));
+  page.on("response", (response) => {
+    if (response.status() >= 400) httpFailures.push({ url: response.url(), status: response.status() });
+  });
 
   try {
     await page.goto(BASE_URL, { waitUntil: "networkidle" });
@@ -127,6 +142,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       await page.locator("[data-role-picker-open]").first().click();
     }
     const desktopRoleCardLayout = await assertRoleCardsDoNotOverlap("Desktop role picker");
+    const artifactDir = process.env.DPA_QA_ARTIFACT_DIR || "qa-out";
+    fs.mkdirSync(artifactDir, { recursive: true });
+    await page.screenshot({ path: path.join(artifactDir, "desktop-role-picker.png"), fullPage: false });
 
     const invalidResourceLinks = audit.rows.flatMap((row) => row.resourceHrefs)
       .filter((href) => !/^https?:\/\//i.test(href));
@@ -214,8 +232,12 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       `Paid Social panel overflows mobile viewport: ${JSON.stringify(mobilePanelBounds)}`);
 
     assert.deepEqual(pageErrors, [], "Browser runtime errors were raised during page load or role switching.");
-    console.log(JSON.stringify({
+    await page.screenshot({ path: path.join(artifactDir, "mobile-paid-social.png"), fullPage: false });
+    const qaReport = {
       result: "PASS",
+      commitSha: process.env.GITHUB_SHA || null,
+      workflowRunId: process.env.GITHUB_RUN_ID || null,
+      generatedAt: new Date().toISOString(),
       coreChapters: audit.corePanels,
       commonFoundationChapters: audit.foundationPanels,
       totalRenderedPanels: audit.totalPanels,
@@ -227,8 +249,14 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       mobileViewport: mobileLayout,
       mobilePaidSocialPanel: mobilePanelBounds,
       runtimeErrors: pageErrors.length,
-      perTrack: audit.perTrack
-    }, null, 2));
+      consoleErrors,
+      requestFailures,
+      httpFailures,
+      perTrack: audit.perTrack,
+      chapterRows: audit.rows
+    };
+    fs.writeFileSync(path.join(artifactDir, "browser-qa.json"), JSON.stringify(qaReport, null, 2), "utf8");
+    console.log(JSON.stringify(qaReport, null, 2));
   } finally {
     await browser.close();
   }

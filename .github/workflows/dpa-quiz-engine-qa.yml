@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - audit/full-dpa-remediation-2026-11-05
+      - audit/dpa-release-readiness-2026-11-21
   workflow_dispatch:
 
 permissions:
