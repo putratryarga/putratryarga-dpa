@@ -207,12 +207,15 @@ const trackSpecs = [
   ["T02","docs/T02-10-chapter-source-fit-review.csv",10],
   ["T03","docs/T03-10-chapter-source-fit-review.csv",10],
   ["T04","docs/T04-10-chapter-source-fit-review.csv",10],
+  ["T05","docs/T05-10-chapter-source-fit-review.csv",10],
   ["T07","docs/T07-10-chapter-source-fit-review.csv",10],
   ["T08","docs/T08-10-chapter-source-fit-review.csv",10],
   ["T09","docs/T09-10-chapter-source-fit-review.csv",10],
   ["T10","docs/T10-10-chapter-source-fit-review.csv",10],
+  ["T11","docs/T11-10-chapter-source-fit-review.csv",10],
   ["T13","docs/T13-11-chapter-source-fit-review.csv",11],
   ["T14","docs/T14-12-chapter-source-fit-review.csv",12],
+  ["T15","docs/T15-12-chapter-source-fit-review.csv",12],
   ["T16","docs/T16-12-chapter-source-fit-review.csv",12]
 ];
 let deskReviewRows = 0;

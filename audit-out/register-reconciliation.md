@@ -1,51 +1,37 @@
-# Register Reconciliation — 21 November 2026
+# Register Reconciliation — 21 November 2026 (corrected)
 
-Rekonsiliasi otomatis semua register utama DPA pada HEAD `audit/dpa-release-readiness-2026-11-21`.
+**Branch:** `audit/dpa-release-readiness-2026-11-21`  
+**Pre-remediation HEAD:** `4a4a93005e24f22948421f318856dbed692b2448`  
+**Method:** canonical-ID pattern filtering and inspection of repository registers. This reconciles structure; it is not SME approval.
 
-## Kepemilikan review per track
+## Canonical coverage
 
-- **T01**: 10-chapter-source-fit-review.csv
-- **T02**: 10-chapter-source-fit-review.csv
-- **T03**: 10-chapter-source-fit-review.csv
-- **T04**: 10-chapter-source-fit-review.csv
-- **T05**: BELUM ADA register review
-- **T06**: 12-chapter-qna-technical-desk-review.csv
-- **T07**: 10-chapter-source-fit-review.csv
-- **T08**: 10-chapter-source-fit-review.csv
-- **T09**: 10-chapter-source-fit-review.csv
-- **T10**: 10-chapter-source-fit-review.csv, 10-chapter-qna-technical-desk-review.csv
-- **T11**: BELUM ADA register review
-- **T12**: 10-chapter-qna-technical-desk-review.csv
-- **T13**: 11-chapter-source-fit-review.csv, 11-chapter-qna-technical-desk-review.csv
-- **T14**: 12-chapter-source-fit-review.csv, 12-chapter-qna-technical-desk-review.csv
-- **T15**: BELUM ADA register review
-- **T16**: 12-chapter-source-fit-review.csv
-
-## Ringkasan baris register
-
-| Register | Baris | Detail |
+| Control | Count | Interpretation |
 |---|---:|---|
-| docs/169-core-chapter-ids.txt | 172 | unik: 172; duplikat: tidak ada |
-| docs/169-chapter-resource-mapping.md | 169 | ID unik: 169; duplikat: tidak ada |
-| docs/507-qna-automated-triage.csv | 507 | {'(tanpa kolom status)': 507} | OK |
-| docs/507-qna-editorial-sme-review-register.csv | 507 | {'(tanpa kolom status)': 507} | OK |
-| docs/80-agency-role-cell-validation-register.csv | 80 | {'(tanpa kolom status)': 80} | OK |
-| docs/80-agency-cell-evidence-gap-triage.csv | 80 | {'(tanpa kolom status)': 80} | OK |
-| docs/169-objective-resource-fit-register.csv | 169 | {'PARTIAL — first-pass source-fit desk review; formal acceptance OPEN.': 10, 'PARTIAL — first-pass desk review; formal acceptance OPEN': 53, 'PARTIAL': 38, '(tanpa kolom status)': 64, 'PARTIAL_STRONG': 4} | OK |
-| docs/169-chapter-rubric-calibration-register.csv | 169 | {'(tanpa kolom status)': 169} | OK |
-| docs/169-chapter-depth-screening.csv | 169 | {'(tanpa kolom status)': 169} | OK |
-| docs/28-advanced-elective-validation-register.csv | 28 | {'(tanpa kolom status)': 28} | OK |
-| docs/56-elective-knowledge-check-review-register.csv | 56 | {'(tanpa kolom status)': 56} | OK |
-| docs/ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.csv | 14 | {'(tanpa kolom status)': 14} |  |
-| docs/ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.csv | 14 | {'(tanpa kolom status)': 14} |  |
+| Canonical core chapter IDs | 169 unique | Inventory has 172 non-empty lines including 3 comments; 169 match DPA-Txx-CHxx. |
+| Chapter resource map | 169 unique | One mapped row per core chapter. |
+| First-pass source-fit desk review | 147 / 169 | 14 tracks have source-fit registers; T06 (12) + T12 (10) remain unreviewed for objective-level source fit. |
+| Objective resource-fit master register | 169 | All formal objective fit / Indonesia / language-cost states OPEN. |
+| Core Q&A | 507 | Answer, editorial and SME review OPEN for all 507. |
+| Agency role cells | 80 | All five formal validation fields OPEN. |
+| Rubric calibration | 169 | Technical calibration / SME / assessor-pilot statuses OPEN. |
+| Elective chapters | 28 | 14 CRO + 14 Traditional Media; all PARTIAL. |
+| Elective knowledge checks | 56 | Editorial/source/SME approval OPEN. |
 
-## Pemetaan ke angka kanonik
+## New first-pass source-fit registers
 
-- 169 chapter: **172**
-- 169 resource mapping: **169**
-- 507 Q&A triage: **507**
-- 80 agency cells: **80**
-- 169 resource-fit: **169**
-- 169 rubric: **169**
-- 28 elective: **28**
-- 56 elective knowledge checks: **56**
+| Track | Chapters | Disposition | Formal status |
+|---|---:|---|---|
+| T05 Paid Social | 10 | PARTIAL | OPEN |
+| T11 SEO/AEO/GEO | 10 | PARTIAL | OPEN |
+| T15 Affiliate / Social Commerce | 12 | PARTIAL | OPEN |
+
+These registers raise first-pass source-fit coverage from 115/169 to 147/169. The 32 new desk reviews are AI-assisted and must be independently checked. T06 and T12 still need source-fit desk reviews; their Q&A technical-review registers do not replace them.
+
+## Status controls
+
+- 169/169 objective-level fit decisions remain OPEN; a first-pass classification PARTIAL is not formal acceptance.
+- 507/507 Q&A items remain OPEN for answer, editorial and SME review.
+- 80/80 agency cells remain OPEN for employer JD, role, currentness, geography/seniority and competency validation.
+- 28/28 elective chapters remain PARTIAL; 56/56 knowledge checks remain OPEN.
+- Historical S0 / HIST-001 / HIST-002 remain BLOCKED pending artefact recovery or an owner-signed baseline declaration.

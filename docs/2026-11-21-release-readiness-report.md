@@ -1,80 +1,74 @@
-# DPA Release-Readiness Report — 21 November 2026
+# DPA Release-Readiness Report — 21 November 2026 (reconciled)
 
-**Branch:** `audit/dpa-release-readiness-2026-11-21` (forked from `audit/full-dpa-remediation-2026-11-05` @ `84ffbe4`)
-**Session:** AutoClaw release-readiness execution · **Production:** untouched (no merge to `main`, no production deploy)
-
----
+**Branch:** `audit/dpa-release-readiness-2026-11-21`  
+**Pre-remediation HEAD:** `4a4a93005e24f22948421f318856dbed692b2448`  
+**Parent / fork point:** `84ffbe4d4c04556173947576cc54f1430618b3ce`  
+**Verdict:** **READY FOR REVIEW ONLY — NOT READY FOR AUDIENCE**  
+**Production:** untouched; no merge to main, no production deploy/promotion, no certificate issuance.
 
 ## A. Executive verdict
 
-**READY FOR REVIEW ONLY.**
+The 21 November AutoClaw report records five local validators passing and local browser QA on 16 roles / 175 panels. The referenced `qa-out/browser-qa.json` is not committed in this branch, so detailed 21 November browser figures are not independently reproducible from the repository. GitHub Actions evidence is available for ancestor commit `fa10967a3a9afb14cd001c4a682a358daaa2d0e7`; those successful checks are useful prior evidence, but not exact-head verification of this review branch.
 
-Semua gate teknis (G1–G6) lulus dengan bukti otomatis. Dua hal memblokir kenaikan verdict ke READY FOR AUDIENCE: (1) formal acceptance/SME sign-off masih OPEN pada 169 resource-fit dan 507 Q&A, (2) tiga register review track (T05/T11/T15) belum dibuat. Historical blockers (S0, HIST-001, HIST-002) tetap BLOCKED karena artefak aslinya tidak dapat direcovery dari remote mana pun.
+This addendum creates the previously missing T05, T11 and T15 source-fit review registers. They add 32 first-pass PARTIAL reviews and increase source-fit desk coverage from 115/169 to 147/169. Every formal acceptance status remains OPEN. T06 (12 chapters) and T12 (10 chapters) still need source-fit desk reviews.
 
-## B. Actual completion statistics (verified, not estimated)
+## B. Corrected coverage
 
-| Metrik | Nilai terverifikasi | Bukti |
-|---|---|---|
-| Core tracks | 16/16 dirender & diverifikasi browser (vis 10/11/12 bab sesuai desain) | qa-out/browser-qa.json |
-| Advanced electives | 2/2 desk-audit (14+14 = 28 chapter) | docs/ELECTIVE-17/18-*.csv |
-| Chapters | 169/169 ID unik (inventory = mapping, 0 duplikat) + 6 CF | scripts/_reconcile.py |
-| Sub-chapter panels | 7–8 panel per bab (chapter-study renderer) | browser QA perRole.samples |
-| Bab kosong/tipis (<500 karakter) | **0 dari 175** | thinScan browser QA |
-| Q&A | 507/507 baris di 2 register | scripts/_reconcile.py |
-| Resource-fit | 169/169 baris (formal acceptance OPEN) | register CSV |
-| Agency cells | 80/80 | register CSV |
-| Elective knowledge checks | 56/56 | register CSV |
-| Link audit | 361 URL: 306 OK · 41 SSL false-positive (Workday/Nielsen — aman di browser) · 1 bot-block · 13 ditriage → 8 dikoreksi | audit-out/url-audit.json |
-| Validator/test | **5/5 PASS** (exit 0) setelah perbaikan | scripts/*.js |
-| Defect P0 tersisa | 0 | — |
+| Area | Repository count | Meaning / boundary |
+|---|---:|---|
+| Core architecture | 16 tracks | Canonical core paths; employer/SME competency validation remains partial |
+| Advanced electives | 2 × 14 = 28 | Separate draft/audit coverage; all 28 chapter dispositions remain PARTIAL |
+| Core IDs | 169 unique + 6 Common Foundation | 172 non-empty inventory lines included 3 comments; canonical ID filter correctly yields 169 |
+| Resource mapping | 169 rows | Mapping presence, not accepted objective fit |
+| First-pass source-fit desk review | 147/169 | T05/T11/T15 added; T06/T12 (22 chapters) remain to be reviewed |
+| Objective-level formal fit | 169/169 OPEN | Regional access, language, cost and objective acceptance not signed off |
+| Core Q&A | 507/507 OPEN | Answer, editorial and SME review remain open |
+| Agency cells | 80/80 OPEN | Coverage register exists; formal role/currentness/competency fields remain open |
+| Rubrics | 169/169 OPEN | Calibration, SME, assessor pilot and inter-rater decisions remain open |
+| Elective knowledge checks | 56/56 OPEN | Not scored/approved |
+| URL audit snapshot | 361 unique URLs in 11 named files | Snapshot still contains pre-fix DEAD entries; fresh post-fix audit required |
 
-## C. Work completed this session (files changed on this branch)
+## C. Work completed in this addendum
 
-1. `scripts/validate-dpa-static.js` — **fix portability CRLF** (`read()` kini normalisasi `\r\n`→`\n`); sebelumnya FAIL di Windows, PASS di CI Linux. Plus update 1 expected-URL yang mengacu ke tautan mati.
-2. **8 koreksi URL mati → URL resmi hidup** (diverifikasi 200):
-   - `skillshop.withgoogle.com/googleads/` (404 di semua varian) → `https://skillshop.withgoogle.com/` — di `index.html` ×2, `fullstack-master-roadmap.js`, `docs/169-chapter-resource-mapping.md` ×3, `docs/T04-…-review.md` ×2.
-   - `learn.microsoft.com/training/ai/` (404) → `https://learn.microsoft.com/en-us/training/` — di `fullstack-master-roadmap.js`.
-3. `scripts/_link-audit.py` + `audit-out/url-audit.json|summary.txt` — link auditor baru (361 URL, klasifikasi 7 kategori).
-4. `scripts/_reconcile.py` + `audit-out/register-reconciliation.md` — rekonsiliasi 12 register + coverage review per track.
-5. `qa-out/browser-qa.json` — browser QA 16 jalur + quiz sandbox + axe + viewports.
-6. Register acceptance: log verifikasi sesi ini ditambahkan (bagian akhir file).
+1. T05 Paid Social: 10-row CSV + chapter-level Markdown review; every chapter PARTIAL, formal fields OPEN.
+2. T11 SEO/AEO/GEO: 10-row CSV + chapter-level Markdown review; every chapter PARTIAL, formal fields OPEN.
+3. T15 Affiliate/Social Commerce: 12-row CSV + chapter-level Markdown review; every chapter PARTIAL, formal fields OPEN.
+4. Updated the 169-row master objective-resource register for those 32 rows, explicitly recording AI-assisted first-pass review and no independent reviewer assigned.
+5. Updated `validate-dpa-audit-registers.js` to validate all 147 source-fit desk-reviewed rows.
+6. Fixed `scripts/_reconcile.py` so only `DPA-Txx-CHxx` lines count as canonical IDs; comments no longer inflate the total.
+7. Added corrected `audit-out/register-reconciliation.md`, AI-era source audit, end-to-end runbook and v11.2 structured-data review candidate.
 
-## D. Research verification (corrections this session)
+## D. Runtime evidence boundary
 
-- `skillshop.withgoogle.com/googleads/` → 404 terkonfirmasi (semua varian, 4 Nov & 21 Nov) → entry point resmi kini `skillshop.withgoogle.com` (200).
-- `learn.microsoft.com/training/ai/` → 404 → `learn.microsoft.com/en-us/training/` (200).
-- Evidence decay terdokumentasi (tidak disenyapkan): `job-boards.greenhouse.io/omguk` 404 dan `gcs.civilservice.gov.uk` DNS-mati pada evidence matrix — job listings/evidence eksternal yang kedaluwarsa; perlu refresh evidence pada siklus berikutnya.
-- Klaim sensitif sudah sesuai arahan: TTD Programmatic 101 dilabeli learning course (badge), ChatGPT Ads tidak diklaim ketersediaan universal, Meta/Google badge ≠ professional certification dipisahkan di peta credential.
+- The session report states local Playwright/Chrome QA: 16/16 role renders, 175/175 chapter enrichment, 0 console/page/request errors, no overflow from 320–1440 px, skip-link and quiz sandbox checks.
+- The referenced `qa-out/browser-qa.json` is not present in this branch tree. Treat the detailed local results as reported, not as a committed artifact.
+- CI checks on ancestor `fa10967` passed for static, guide-registry/browser and synthetic quiz workflows. A new exact-head run and committed artifact are still required after this addendum.
+- Quiz engine remains synthetic-only formative prototype, not integrated scored assessment or credential system.
 
-## E. Testing evidence
+## E. Outstanding blockers
 
-```
-node scripts/validate-dpa-static.js          EXIT=0  (status PASS, failures [])
-node scripts/validate-dpa-audit-registers.js EXIT=0
-node scripts/validate-dpa-guide-registry.js  EXIT=0  (169/169 chapter guides)
-node scripts/audit-dpa-chapter-depth.js      EXIT=0  (min metrics: objective 362, steps 4, qna 3, urls 2)
-node scripts/test-dpa-quiz-engine.js         EXIT=0  (7 kelompok uji deterministik)
-```
-Browser QA (Playwright/Chrome, http://127.0.0.1:4173): 0 console error · 0 page error · 0 request gagal · 175 bab dienrich · 0 bab tipis · tanpa overflow 320–1440 · axe 1 temuan (watermark dekoratif, aria-hidden — pengecualian WCAG 1.4.3 incidental) · skip-link Tab pertama ✓ · quiz sandbox: 3 soal, feedback, 0 error.
-
-## F. Outstanding issues
-
-| ID | Severity | Isu | Kebutuhan |
+| ID | Priority | Issue | Closure evidence |
 |---|---|---|---|
-| O-1 | P1 | Review register T05/T11/T15 belum dibuat (13 track lain sudah) | Desk review mengikuti format T07/T16 |
-| O-2 | P1 | Formal acceptance OPEN: 169 resource-fit + 507 Q&A menunggu SME sign-off | Qualified reviewer |
-| O-3 | P2 | Historical blockers S0 / HIST-001 / HIST-002 tetap BLOCKED (artefak tidak ada di remote mana pun; `2084f07` invalid) | Keputusan owner: deklarasi baseline baru |
-| O-4 | P2 | Label versi situs masih "Revisi v11.1" padahal arsitektur sudah renderer-based | Bump + release tag |
-| O-5 | P3 | Evidence decay: 2 URL evidence agency mati; refresh berkala perlu dijadwalkan | Siklus review berikutnya |
-| O-6 | P3 | 12 jalur masih memakai generator fallback (4 jalur hand-authored: T01/T02/T05/T09) | Lanjutkan penulisan guide mengikuti pola paid-social-guides.js |
+| O-1 | P1 | T06/T12 source-fit review (22 chapters) | Chapter-level evidence, PARTIAL dispositions and master-register parity |
+| O-2 | P1 | 169 resource-fit formal acceptance | Qualified reviewer and dated objective-level disposition with Indonesia access/language/cost evidence |
+| O-3 | P1 | 507 Q&A editorial/SME acceptance | Named reviewer, approved answer, source, disposition and accepted alternatives |
+| O-4 | P1 | 80 agency role-cell validation | Current direct/official JD and formal role/currentness/seniority/competency decisions |
+| O-5 | P1 | 169 rubric calibration | Technical/SME approval, assessor pilot and inter-rater evidence |
+| O-6 | P1 | 28 elective chapters and 56 checks | Deepening, worked methods, Indonesia fit, answer/source/SME acceptance and learner pilot |
+| O-7 | P1 | Exact-head authenticated browser/accessibility QA | New Playwright + authenticated Vercel preview evidence tied to final SHA |
+| O-8 | P2 | S0 / HIST-001 / HIST-002 historical blockers | Recover source artefacts or owner-signed new-baseline declaration |
+| O-9 | P2 | Final tag and release approval | Owner sign-off, independent PR review and separate production authorisation |
+| O-10 | P3 | Expired/missing agency evidence | Refresh job evidence and preserve source dates |
+| O-11 | P3 | Guide fallback in 12 tracks | Authored chapter guides and exact-ID/source verification |
 
-## G. Audience readiness
+## F. Audience and credential verdict
 
-**READY FOR REVIEW ONLY** — bukan READY FOR AUDIENCE. Alasan: konten 169 bab + 507 Q&A ada, tidak kosong, dan lulus semua gate teknis; tetapi formal acceptance (SME) terbuka, tiga register review track belum ada, dan historical blockers belum diselesaikan. Ijazah/sertifikat issuance TIDAK diotorisasi (sesuai register CERT).
+**NOT READY FOR AUDIENCE.** No certificate or track-achievement issuance is authorised. The credential issuance specification remains design-only; assessment approval, issuer policy, privacy/security review and trusted backend are prerequisites.
 
-## H. Next required action (smallest set)
+## G. Immediate closure sequence
 
-1. Buat 3 register review T05/T11/T15 (format T07/T16).
-2. Batch SME sign-off 169 resource-fit + 507 Q&A (dapat bertahap per track).
-3. Keputusan owner atas S0/HIST-001/HIST-002: recovery artefak atau deklarasi baseline baru yang ditandatangani.
-4. Bump label versi + tag rilis setelah 1–3 selesai; production deploy menunggu otorisasi terpisah.
+1. Complete T06/T12 source-fit reviews, then independent review of all 169 resource mappings.
+2. Batch SME/editorial review for 507 Q&A, 169 rubrics, 80 agency cells, and 28 electives / 56 checks.
+3. Resolve historical baseline blockers with original artefact recovery or owner signature.
+4. Run exact-head authenticated browser/accessibility and fresh post-fix link QA; commit JSON or CI artifact with SHA/run ID.
+5. Only after gates close, prepare PR/tag and seek separate production authorisation.

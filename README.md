@@ -82,7 +82,7 @@ Lalu buka http://localhost:8000.
 
 ## Catatan data & audit
 
-- Tanggal audit resource terbaru: **5 November 2026** (v11.1 remediation pass).
+- Tanggal audit resource terbaru: **21 November 2026** (v11.2 review candidate; production unchanged).
 - Sumber prioritas: dokumentasi resmi platform (Tier 1), standar industri IAB/MRC/IAB Europe (Tier 2), dan praktik/simulasi berbasis job task (Tier 3).
 - Klaim yang belum bisa diverifikasi otomatis (mis. ketersediaan ChatGPT Ads per negara, harga ujian TikTok certification) diberi catatan eksplisit di situs — jangan dikutip sebagai fakta pasti.
 - Nama jalur adalah **keluarga kompetensi standar**, bukan klaim bahwa semua agency memakai job title yang persis sama; variasi title dicantumkan sebagai alias.
@@ -113,7 +113,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [T10 10-chapter source-fit review](docs/T10-10-chapter-source-fit-review.md) and [10-row review CSV](docs/T10-10-chapter-source-fit-review.csv) — chapter-specific findings; all formal acceptance remains OPEN.
 
 
-- Current resource map: **169 rows / 181 unique URLs**. First-pass source-fit desk review covers **115/169 core chapters**; 54 remain without a first-pass review and all formal objective-fit/local-access decisions remain OPEN. T04, T08 and T09 each have 10 PARTIAL chapter dispositions with chapter-specific Search, publisher, platform and measurement sources. See [T04 review](docs/T04-10-chapter-source-fit-review.md), [T08 review](docs/T08-10-chapter-source-fit-review.md), [T09 review](docs/T09-10-chapter-source-fit-review.md), and [169-chapter resource-fit review](docs/169-chapter-resource-fit-review.md).
+- Current resource map: **169 rows / 181 unique URLs**. First-pass source-fit desk review covers **147/169 core chapters**; 22 remain without a source-fit desk review (T06: 12; T12: 10) and all formal objective-fit/local-access decisions remain OPEN. T04, T08 and T09 each have 10 PARTIAL chapter dispositions with chapter-specific Search, publisher, platform and measurement sources. See [T04 review](docs/T04-10-chapter-source-fit-review.md), [T08 review](docs/T08-10-chapter-source-fit-review.md), [T09 review](docs/T09-10-chapter-source-fit-review.md), and [169-chapter resource-fit review](docs/169-chapter-resource-fit-review.md).
 - Direct access, source-fit, and Indonesia-market caveats remain recorded; all 169 objective-level fit decisions are OPEN.
 
 ## T16 Community Management & Advocacy source-fit review
@@ -167,7 +167,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [Remediation execution ledger](docs/2026-11-05-remediation-execution-ledger.md) and [static repository QA report](docs/2026-11-04-static-repository-qa.md).
 - [Raw 169 × 7 score input template](audit-inputs/169-chapter-audit-score-input-TEMPLATE.csv) — blank collection template, not historical raw values; read [its usage/provenance rules](audit-inputs/README.md) before use.
 
-**Release decision:** NOT READY — REMEDIATION INCOMPLETE. The original raw score matrix, historical issue/discrepancy records, SME/JD sign-off, complete 169-objective source fit, learner pilot and authenticated browser QA remain open or blocked.
+**Release decision:** READY FOR REVIEW ONLY — NOT READY FOR AUDIENCE. The original raw score matrix, historical issue/discrepancy records, SME/JD sign-off, complete 169-objective source fit, learner pilot and authenticated browser QA remain open or blocked.
 
 ## Hak penggunaan
 
@@ -188,3 +188,12 @@ The proposed [certificate issuance and verification specification](docs/certific
 
 
 - [T13 Content Strategy & Creation Q&A technical desk review](docs/T13-11-chapter-qna-technical-desk-review.md) and [33-row CSV](docs/T13-11-chapter-qna-technical-desk-review.csv) — 33 first-pass answer explanations expanded and source-linked; still reflective/non-scored and formally OPEN.
+
+
+## 21 November 2026 release-review addendum
+
+- [Release-readiness report](docs/2026-11-21-release-readiness-report.md) — reconciled counts and remaining formal gates.
+- [AI-era curriculum / Copilot recommendation audit](docs/2026-11-21-copilot-ai-era-update-audit.md) — verified changes and accepted/deferred updates.
+- [End-to-end remediation runbook](docs/2026-11-21-end-to-end-remediation-runbook.md) — single closure checklist.
+- [T05 Paid Social](docs/T05-10-chapter-source-fit-review.md), [T11 SEO/AEO/GEO](docs/T11-10-chapter-source-fit-review.md), [T15 Affiliate/Social Commerce](docs/T15-12-chapter-source-fit-review.md) source-fit reviews — first-pass PARTIAL, formal acceptance OPEN.
+- [Corrected register reconciliation](audit-out/register-reconciliation.md) — 169 canonical IDs and 147/169 source-fit first-pass coverage.

@@ -3,8 +3,8 @@
 **Project:** The Full-Stack Digital Performance Architect (DPA)  
 **Register version:** 1.0  
 **Baseline date:** 5 November 2026  
-**Working branch:** `audit/full-dpa-remediation-2026-11-05`  
-**Release state:** NOT READY — REMEDIATION INCOMPLETE  
+**Current working branch:** `audit/dpa-release-readiness-2026-11-21` (forked from `audit/full-dpa-remediation-2026-11-05` @ `84ffbe4`). Historical entries retain their original branch references.  
+**Release state (21 Nov 2026):** READY FOR REVIEW ONLY — NOT READY FOR AUDIENCE; formal SME, source-fit, rubric, agency and exact-head runtime acceptance remain OPEN/BLOCKED.  
 **Scope lock:** **18 pathways = 16 Core Specialist Tracks + 2 Advanced Electives**
 
 > This register is the control document for remediation. It distinguishes structural presence, substantive validation, runtime verification and production release. A file existing, a count matching, or CI passing is not by itself evidence that the underlying learning content is correct.
@@ -533,10 +533,21 @@ Production remains on commit `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d` (deploym
 
 ## Session verification log — 21 November 2026
 
-Session branch: udit/dpa-release-readiness-2026-11-21 (forked from udit/full-dpa-remediation-2026-11-05 @ 84ffbe4). Production untouched: no merge to main, no production promotion, no certificate issuance.
+Session branch: audit/dpa-release-readiness-2026-11-21 (forked from audit/full-dpa-remediation-2026-11-05 @ 84ffbe4). Production untouched: no merge to main, no production promotion, no certificate issuance.
 
 1. All five local validators/tests PASS (exit 0): validate-dpa-static, validate-dpa-audit-registers, validate-dpa-guide-registry (169/169), audit-dpa-chapter-depth, test-dpa-quiz-engine. Engineering fix applied: CRLF portability in validate-dpa-static.js ead() (CI Linux parity); expected-URL updated to corrected Skillshop entry point.
 2. Link audit (scripts/_link-audit.py): 361 URLs -> 306 OK, 41 SSL false-positive (browser-safe), 1 bot-block, 13 triaged. Corrections applied (8): dead skillshop.withgoogle.com/googleads/ -> live official entry point (index.html x2, fullstack-master-roadmap.js, 169-chapter-resource-mapping.md x3, T04 review x2); dead learn.microsoft.com/training/ai/ -> /en-us/training/. Evidence decay recorded: job-boards.greenhouse.io/omguk (404), gcs.civilservice.gov.uk (DNS) - evidence refresh needed next cycle.
 3. Register reconciliation (scripts/_reconcile.py, audit-out/register-reconciliation.md): canonical numbers verified (169 IDs unique = 169 mapping rows; 507 Q&A x2 registers; 80 agency cells x2; 169 rubric; 169 depth; 28 elective; 56 knowledge checks). Gap identified: review registers for T05/T11/T15 do not exist yet.
 4. Browser QA (Playwright/Chrome, qa-out/browser-qa.json): 16/16 tracks render with correct chapter counts; 175/175 chapters enriched, 0 thin (<500 chars); 0 console/page/network errors; no horizontal overflow at 320/375/768/1024/1366/1440; axe single finding (decorative watermark, aria-hidden, WCAG 1.4.3 incidental); skip-link verified; quiz sandbox functional (3 synthetic items, feedback, no errors).
 5. Full report: docs/2026-11-21-release-readiness-report.md. Verdict: **READY FOR REVIEW ONLY** (engineering gates green; SME/historical blockers S0/HIST-001/HIST-002 remain).
+
+
+## 21 November 2026 — corrected end-to-end reconciliation addendum
+
+- Reviewed branch HEAD before this remediation: `4a4a93005e24f22948421f318856dbed692b2448`; fork point: `84ffbe4d4c04556173947576cc54f1430618b3ce`. Production remains untouched.
+- Canonical inventory: 172 non-empty lines include 3 comments; 169 lines match the canonical chapter-ID pattern and are unique. The earlier 172 count was a raw line count, not a chapter count.
+- First-pass source-fit review: 147/169 after adding T05 (10), T11 (10) and T15 (12); all are PARTIAL and formal statuses OPEN. T06 (12) and T12 (10) remain without source-fit desk review.
+- Objective-fit register: 169/169 rows, all formal objective fit, Indonesia access and language/cost states OPEN. Q&A: 507/507 answer/editorial/SME fields OPEN. Agency validation: 80/80 formal fields OPEN. Rubrics: 169/169 calibration/SME/pilot states OPEN.
+- The 19 November CI/browser checks at ancestor `fa10967a3a9afb14cd001c4a682a358daaa2d0e7` are prior evidence, not exact-head results for the v11.2 candidate. The referenced `qa-out/browser-qa.json` is not committed in this branch.
+- Website structured-data candidate removes universal `P12W`, adds `dateModified` and pathway-level parts. Version 11.2 remains a review candidate; not a public release.
+- Current Copilot source audit: `docs/2026-11-21-copilot-ai-era-update-audit.md`; closure sequence: `docs/2026-11-21-end-to-end-remediation-runbook.md`.

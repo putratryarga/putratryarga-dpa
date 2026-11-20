@@ -35,7 +35,7 @@ def status_breakdown(rows, keys=("status", "Status", "classification", "Classifi
 
 
 # 1. 169 chapter ids
-ids = [ln.strip() for ln in io.open("docs/169-core-chapter-ids.txt", encoding="utf-8-sig") if ln.strip()]
+ids = [ln.strip() for ln in io.open("docs/169-core-chapter-ids.txt", encoding="utf-8-sig") if re.fullmatch(r"DPA-T\\d{2}-CH\\d{2}", ln.strip())]
 dup_ids = [k for k, v in Counter(ids).items() if v > 1]
 rows_summary.append(("docs/169-core-chapter-ids.txt", len(ids), f"unik: {len(set(ids))}; duplikat: {dup_ids or 'tidak ada'}"))
 
