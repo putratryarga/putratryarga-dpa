@@ -1,7 +1,7 @@
 # Digital Performance Architect — Audience Readiness Brief
 
-**As of:** 19 November 2026  
-**Working build:** `audit/full-dpa-remediation-2026-11-05` · `fa10967`  
+**As of:** 20 November 2026  
+**Working build:** `audit/full-dpa-remediation-2026-11-05` · latest branch build; exact candidate SHA and CI recorded in the execution ledger  
 **Release status:** Preview / development. Not a production launch.
 
 ## What the roadmap contains
@@ -14,19 +14,20 @@
 
 ## What has passed engineering QA
 
-The exact branch commit `fa10967a3a9afb14cd001c4a682a358daaa2d0e7` passed all three GitHub Actions workflows:
+The pre-batch exact branch commit `244854903d954b66b7cef94e8b4e306bfb6faea8` passed all three GitHub Actions workflows; new checks for the source-fit batch are pending:
 
-- [Guide Registry and Browser QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44524857485): 169 chapter-to-guide ID matches, 175 rendered material panels with required non-empty lesson sections, all 16 role switches, selected-role isolation, no overlap among 16 role cards at desktop/mobile, 390px mobile no-overflow and zero browser page errors.
-- [Remediation Static QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44524857402): chapter/register/resource/rubric/Q&A row parity and deterministic validation passed. Synthetic score vectors were used only for a calculation self-test.
-- [Quiz Engine QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44524857373): isolated formative prototype tests, Playwright browser flow, targeted axe checks, keyboard navigation and mobile overflow passed.
+- [Guide Registry and Browser QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44525378074): 169 chapter-to-guide ID matches, 175 rendered material panels with required non-empty lesson sections, all 16 role switches, selected-role isolation, no overlap among 16 role cards at desktop/mobile, 390px mobile no-overflow and zero browser page errors.
+- [Remediation Static QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44525377314): chapter/register/resource/rubric/Q&A row parity and deterministic validation passed. Synthetic score vectors were used only for a calculation self-test.
+- [Quiz Engine QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44525377322): isolated formative prototype tests, Playwright browser flow, targeted axe checks, keyboard navigation and mobile overflow passed.
 
 The branch also has a Vercel preview deployment in READY state: [Open preview](https://putratryarga-d8vwsuzkt-elric3.vercel.app). Deployment READY is not the same as content approval, authenticated visual QA or production publication.
 
 ## What is not yet approved
 
 - Technical accuracy, depth and seniority fit for all 169 chapters still require independent review.
-- Source-to-learning-objective fit has first-pass desk review for **85/169** core chapters; **84** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
+- Source-to-learning-objective fit has first-pass desk review for **95/169** core chapters; **84** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
 - All **507** Q&A remain reflective/non-scored and require answer correctness, alternate-answer and SME/editorial approval.
+- T08 now has first-pass source-specific desk dispositions for all 10 chapters using official 2026 Bisnis publisher material, Google Ad Manager, WFA, MRC and Indonesian tax references; all ten remain PARTIAL, not formally accepted. See [T08 source-fit review](T08-10-chapter-source-fit-review.md).
 - The **80 agency × track evidence cells** are represented, but currentness, exact employer/JD scope, geography, seniority and competency validation remain partial/open.
 - All **28 elective chapters** have first-pass desk reviews, but every chapter remains partial pending technical/source/SME, market/legal, rubric and learner-pilot validation.
 - The historical 169×7 score matrix, original audit prompt and original 23 findings/D-1…D-12 have not been recovered; they are not reconstructed from synthetic data.
@@ -42,3 +43,8 @@ Do not describe the roadmap as a fully validated or accredited qualification. Do
 ## Release recommendation
 
 Use the preview for a **curriculum-architecture walkthrough or feedback session**, clearly labelled as a development preview. Keep registration, credential claims and learner completion promises on hold until the substantive content, SME, assessment, local-market and production gates are approved.
+
+
+## 20 November 2026 — T08 source-fit update
+
+The first-pass desk-review register now covers 95/169 core chapters. The additional T08 batch covers CH01–CH10 and all ten are PARTIAL. The official 2026 Bisnis Indonesia and Bisnis.com Regional rate cards are publisher-specific examples, not a market-wide benchmark. The 74 remaining chapters still need first-pass desk review; formal source-fit, Indonesia access, Q&A, rubric, agency evidence, SME and learner-pilot acceptance gates remain open.
