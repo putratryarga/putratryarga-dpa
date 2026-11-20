@@ -4,7 +4,7 @@
 
 ## 1. Decision
 
-<badge>READY FOR REVIEW ONLY</badge>
+**READY FOR REVIEW ONLY**
 
 DPA can now be shared with qualified SMEs and internal reviewers as a clearly labelled **v11.2 Review Candidate**. It is **not READY FOR AUDIENCE**. Technical/browser workflows now pass on a single exact test SHA, but formal content acceptance and owner decisions remain open. Production has not been merged, promoted or deployed, and no credential issuance is authorised.
 
@@ -72,11 +72,11 @@ The test scope is deliberately bounded: 1440px desktop and 390px mobile, role sw
 - Standardise credential audit fields and clarify free core learning versus paid exams/licenses/ad spend.
 
 **Corrections from official sources:**
-- Google DSA automatic migration is now February 2027; September 2026 was the phase for campaign-level broad match and standalone Automatically Created Assets. Do not collapse these migrations into one date. [Google DSA migration](https://developers.google.com/ads/blog/posts/2026/06/dynamic-search-ads-dsa-automigration) · [Google campaign broad/ACA migration](https://developers.google.com/ads/blog/posts/2026/08/migrate-campaign-level-broad-match-and). citeturn408096search1turn408096search0
-- TikTok Smart+ upgraded experience supports full automation, partial automation or manual control, but TikTok says it may not be available to all accounts. citeturn386334search4turn386334search8
-- OpenAI Ads Manager's current country list includes Indonesia for self-service, but the advertiser/billing legal entity must be based in a listed country. This does not guarantee account onboarding or approval. Sponsored Agents remain limited alpha for selected advertisers. citeturn386334search1turn386334search2
-- OpenAI Academy badges require course completion and an assessment score of at least 80%; eligible pathway certificates require all course assessments. Neither is a professional certification. citeturn386334search0turn386334search5
-- Microsoft Advertising has three certification routes and eight learning paths; all three certifications lead to Microsoft Advertising Certified Expert. Learning-path badges are separate from certification. citeturn386334search6
+- Google DSA automatic migration is now February 2027; September 2026 was the phase for campaign-level broad match and standalone Automatically Created Assets. Do not collapse these migrations into one date. [Google DSA migration](https://developers.google.com/ads/blog/posts/2026/06/dynamic-search-ads-dsa-automigration) · [Google campaign broad/ACA migration](https://developers.google.com/ads/blog/posts/2026/08/migrate-campaign-level-broad-match-and). 
+- TikTok Smart+ upgraded experience supports full automation, partial automation or manual control, but TikTok says it may not be available to all accounts. [TikTok Smart+ official update](https://ads.tiktok.com/resources/help/article/about-updates-to-smart-plus?lang=en).
+- OpenAI Ads Manager's current country list includes Indonesia for self-service, but the advertiser/billing legal entity must be based in a listed country. This does not guarantee account onboarding or approval. Sponsored Agents remain limited alpha for selected advertisers. [OpenAI Ads Manager availability](https://help.openai.com/en/articles/20001245-ads-manager-availability) · [Sponsored Agents availability](https://help.openai.com/en/articles/20001524-sponsored-agents-in-chatgpt-ads).
+- OpenAI Academy badges require course completion and an assessment score of at least 80%; eligible pathway certificates require all course assessments. Neither is a professional certification. [OpenAI Academy course and badge rules](https://help.openai.com/en/articles/20001270-openai-academy-courses).
+- Microsoft Advertising has three certification routes and eight learning paths; all three certifications lead to Microsoft Advertising Certified Expert. Learning-path badges are separate from certification. [Microsoft Advertising Learning Lab](https://about.ads.microsoft.com/en/resources/training-certification/learning-lab).
 
 **Deferred:** fintech/digital banking as a new third elective; role-fit assessment; progress export/filter enhancements. Fintech remains a case pack inside the existing 16+2 architecture unless the owner changes scope.
 

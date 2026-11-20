@@ -144,8 +144,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     const desktopRoleCardLayout = await assertRoleCardsDoNotOverlap("Desktop role picker");
     const artifactDir = process.env.DPA_QA_ARTIFACT_DIR || "qa-out";
     fs.mkdirSync(artifactDir, { recursive: true });
-    await page.locator("#sec-role").scrollIntoViewIfNeeded();
-    await page.screenshot({ path: path.join(artifactDir, "desktop-role-picker.png"), fullPage: false });
+    await page.locator("#sec-role").screenshot({ path: path.join(artifactDir, "desktop-role-picker.png") });
 
     const invalidResourceLinks = audit.rows.flatMap((row) => row.resourceHrefs)
       .filter((href) => !/^https?:\/\//i.test(href));
@@ -237,7 +236,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       const toast = document.getElementById("toast");
       if (!toast) return true;
       const opacity = Number.parseFloat(window.getComputedStyle(toast).opacity);
-      return !toast.classList.contains("show") && opacity < 0.05;
+      return !toast.classList.contains("show") && opacity <= 0.001;
     }, null, { timeout: 6000 });
     assert.deepEqual(pageErrors, [], "Browser runtime errors were raised during page load or role switching.");
     await page.screenshot({ path: path.join(artifactDir, "mobile-paid-social.png"), fullPage: false });
