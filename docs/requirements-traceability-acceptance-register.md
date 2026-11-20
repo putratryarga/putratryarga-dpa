@@ -528,3 +528,15 @@ The exact branch commit has a Vercel Preview deployment in READY state: [deploym
 Production remains on commit `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d` (deployment `dpl_DN3uQRSqEhdJDE5mn123xidFYC1Z`, alias `putratryarga-dpa.vercel.app`). Main remains at `64f96437bcdb8499add1affbad102283dfe7d8b4`. No merge, production promotion or certificate issuance was performed.
 
 **Current release decision remains NOT READY.** The remaining content, historical-source, resource fit, agency-JD, SME, answer-key, rubric, local-market, elective-pilot and full authenticated runtime gates listed above have not been closed by these engineering tests.
+
+---
+
+## Session verification log — 21 November 2026
+
+Session branch: udit/dpa-release-readiness-2026-11-21 (forked from udit/full-dpa-remediation-2026-11-05 @ 84ffbe4). Production untouched: no merge to main, no production promotion, no certificate issuance.
+
+1. All five local validators/tests PASS (exit 0): validate-dpa-static, validate-dpa-audit-registers, validate-dpa-guide-registry (169/169), audit-dpa-chapter-depth, test-dpa-quiz-engine. Engineering fix applied: CRLF portability in validate-dpa-static.js ead() (CI Linux parity); expected-URL updated to corrected Skillshop entry point.
+2. Link audit (scripts/_link-audit.py): 361 URLs -> 306 OK, 41 SSL false-positive (browser-safe), 1 bot-block, 13 triaged. Corrections applied (8): dead skillshop.withgoogle.com/googleads/ -> live official entry point (index.html x2, fullstack-master-roadmap.js, 169-chapter-resource-mapping.md x3, T04 review x2); dead learn.microsoft.com/training/ai/ -> /en-us/training/. Evidence decay recorded: job-boards.greenhouse.io/omguk (404), gcs.civilservice.gov.uk (DNS) - evidence refresh needed next cycle.
+3. Register reconciliation (scripts/_reconcile.py, audit-out/register-reconciliation.md): canonical numbers verified (169 IDs unique = 169 mapping rows; 507 Q&A x2 registers; 80 agency cells x2; 169 rubric; 169 depth; 28 elective; 56 knowledge checks). Gap identified: review registers for T05/T11/T15 do not exist yet.
+4. Browser QA (Playwright/Chrome, qa-out/browser-qa.json): 16/16 tracks render with correct chapter counts; 175/175 chapters enriched, 0 thin (<500 chars); 0 console/page/network errors; no horizontal overflow at 320/375/768/1024/1366/1440; axe single finding (decorative watermark, aria-hidden, WCAG 1.4.3 incidental); skip-link verified; quiz sandbox functional (3 synthetic items, feedback, no errors).
+5. Full report: docs/2026-11-21-release-readiness-report.md. Verdict: **READY FOR REVIEW ONLY** (engineering gates green; SME/historical blockers S0/HIST-001/HIST-002 remain).

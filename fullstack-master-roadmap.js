@@ -53,7 +53,7 @@ W03:{
  learn:["Pahami search intent/query classes, auction eligibility, Ad Rank, account/campaign/ad group architecture.","Kelompokkan keyword berdasarkan intent; bedakan keyword target dari search term aktual.","Pahami match types dan negative keyword logic; audit search terms agar tidak menutup traffic relevan.","Susun Responsive Search Ads, assets, message match, landing-page relevance, conversion actions, dan bidding concepts.","Quality Score dipakai sebagai diagnostic signal, bukan satu-satunya KPI. Evaluasi CPA/value/margin dan query quality."],
  credential:"Primary: Google Ads Search Certification melalui Google Skillshop. Sertifikasi Search berbeda dari Display, Display & Video 360, dan Campaign Manager 360. HubSpot Digital Advertising dapat menjadi supporting course, bukan pengganti sertifikasi Google.",
  exact:[
-  ["Google Skillshop · Google Ads Learning Paths","https://skillshop.withgoogle.com/googleads/","Entry point resmi untuk learning dan certification paths Google Ads; pilih Search path dan cek assessment/eligibility terkini."],
+  ["Google Skillshop · Google Ads Learning Paths","https://skillshop.withgoogle.com/","Entry point resmi untuk learning dan certification paths Google Ads; pilih Search path dan cek assessment/eligibility terkini."],
   ["Google Ads Help","https://support.google.com/google-ads/?hl=en","Dokumentasi resmi auction, keyword, search terms, bidding, conversion, dan campaign setup."]
  ],
  build:["Petakan minimal 20 search queries menjadi intent buckets dan beri prioritas berdasarkan relevance/economics, bukan volume saja.","Buat campaign → ad group → keyword architecture serta negative-keyword logic sheet.","Tulis dua RSA concepts per ad group dan mapping keyword cluster ke landing page.","Rancang conversion action/value definitions dan tulis assumption untuk bidding."],
@@ -130,7 +130,7 @@ W08:{
  exact:[
   ["HubSpot · Email Marketing Certification","https://academy.hubspot.com/courses/email-marketing-certification-en","Free course/certification, includes segmentation, automation, deliverability, and testing."],
   ["Zapier Academy","https://learn.zapier.com/","Learning resource; verify whether the selected current course offers a completion credential."],
-  ["Microsoft Learn · AI Learning","https://learn.microsoft.com/training/ai/","Learning modules and profile achievements/badges; not all badges are professional certifications."],
+  ["Microsoft Learn · AI Learning","https://learn.microsoft.com/en-us/training/","Learning modules and profile achievements/badges; not all badges are professional certifications."],
   ["Microsoft Learn · Badges and Trophies FAQ","https://learn.microsoft.com/en-us/training/support/faq","Official explanation of achievements, badges, trophies, and profile sharing."],
   ["Semrush · AI for Marketing","https://www.semrush.com/academy/courses/ai-for-marketing-course/","AI marketing course; check current certificate/assessment route."]
  ],

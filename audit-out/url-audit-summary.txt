@@ -1,0 +1,361 @@
+[BLOCKED_BOT] https://www.linkedin.com/premium/ -> https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpremium%2F | HTTP 403
+[DEAD] https://skillshop.withgoogle.com/googleads/ -> https://skillshop.withgoogle.com/googleads/ | HTTP 404
+[DEAD] https://learn.microsoft.com/training/ai/ -> https://learn.microsoft.com/id-id/training/ai/ | HTTP 404
+[DEAD] https://job-boards.greenhouse.io/omguk -> https://job-boards.greenhouse.io/omguk | HTTP 404
+[ERROR] https://gcs.civilservice.gov.uk/wp-content/uploads/2020/03/Guide-to-Campaign-Planning-OASIS-Framework.pdf ->  | URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[ERROR] https://business.whatsapp.com/policy/preview?lang=id_ID -> https://business.whatsapp.com/policy/preview?lang=id_ID | HTTP 400
+[ERROR] https://developers.facebook.com/docs/marketing-api/conversions-api/ -> https://developers.facebook.com/docs/marketing-api/conversions-api/ | HTTP 400
+[ERROR] https://www.meta.com/safety/topics/safety-basics/tools/stay-safe/ -> https://www.meta.com/safety/topics/safety-basics/tools/stay-safe/ | HTTP 400
+[ERROR] https://www.meta.com/safety/topics/safety-basics/policies/ -> https://www.meta.com/safety/topics/safety-basics/policies/ | HTTP 400
+[FORBIDDEN] http://www.w3.org/2000/svg -> https://www.w3.org/2000/svg | HTTP 403
+[FORBIDDEN] https://americanadvertisingandmarketingassociation.org/resources/planning-strategy/positioning-messaging-framework/ -> https://americanadvertisingandmarketingassociation.org/resources/planning-strategy/positioning-messaging-framework/ | HTTP 403
+[FORBIDDEN] https://www.w3.org/TR/WCAG22/ -> https://www.w3.org/TR/WCAG22/ | HTTP 403
+[FORBIDDEN] https://mediaindonesia.com/template/layanan-bisnis/rate_card_mi.html -> https://mediaindonesia.com/template/layanan-bisnis/rate_card_mi.html | HTTP 403
+[FORBIDDEN] https://jdih.dpr.go.id/setjen/detail-dokumen/tipe/uu/id/1814 -> https://jdih.dpr.go.id/setjen/detail-dokumen/tipe/uu/id/1814 | HTTP 403
+[OK] https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-600.css -> https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-600.css | 
+[OK] https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-500.css -> https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-500.css | 
+[OK] https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-400.css -> https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-400.css | 
+[OK] https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400.css -> https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400.css | 
+[OK] https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.5/latin-400.css -> https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.5/latin-400.css | 
+[OK] https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400-italic.css -> https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400-italic.css | 
+[OK] https://schema.org -> https://schema.org | 
+[OK] https://putratryarga-dpa.vercel.app/ -> https://putratryarga-dpa.vercel.app/ | 
+[OK] https://academy.hubspot.com/courses/inbound -> https://academy.hubspot.com/courses/inbound | 
+[OK] https://trends.google.com/trends/ -> https://trends.google.com/trends/ | 
+[OK] https://skillshop.withgoogle.com/ -> https://skillshop.withgoogle.com/ | 
+[OK] https://cdn.jsdelivr.net -> https://www.jsdelivr.com/ | 
+[OK] https://support.google.com/analytics/answer/6367342 -> https://support.google.com/analytics/answer/6367342 | 
+[OK] https://www.thinkwithgoogle.com/intl/en-apac/ -> https://business.google.com/en-all/think/ | 
+[OK] https://support.google.com/analytics/answer/15068052 -> https://support.google.com/analytics/answer/15068052 | 
+[OK] https://business.google.com/us/think/measurement/cmo-guide-measuring-media-effectiveness/ -> https://business.google.com/us/think/measurement/cmo-guide-measuring-media-effectiveness/ | 
+[OK] https://cloud.google.com/bigquery/docs/sandbox -> https://docs.cloud.google.com/bigquery/docs/sandbox?hl=id | 
+[OK] https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep -> https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep | 
+[OK] https://tagmanager.google.com/ -> https://accounts.google.com/v3/signin/identifier?continue=https://tagmanager.google.com/&followup=https://tagmanager.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S991947789:1795202386353166 | 
+[OK] https://developers.google.com/search/docs/appearance/ai-features -> https://developers.google.com/search/docs/appearance/ai-features?hl=id | 
+[OK] https://www.youngurbanproject.com/digital-marketing-strategy-course/ -> https://www.youngurbanproject.com/digital-marketing-strategy-course/ | 
+[OK] https://academy.hubspot.com/courses/email-marketing-certification-en -> https://academy.hubspot.com/courses/email-marketing-certification-en | 
+[OK] https://www.facebookblueprint.com/student/catalog -> https://www.facebookblueprint.com/student/catalog | 
+[OK] https://training.marketing.linkedin.com/path/start-advertising -> https://training.marketing.linkedin.com/path/start-advertising | 
+[OK] https://academy.hubspot.com/courses/content-marketing -> https://academy.hubspot.com/courses/content-marketing | 
+[OK] https://business.google.com/id/ad-tools/google-ad-experiments/ -> https://business.google.com/id/ad-tools/google-ad-experiments/ | 
+[OK] https://support.google.com/analytics/answer/10917952?hl=id -> https://support.google.com/analytics/answer/10917952?hl=id | 
+[OK] https://support.google.com/analytics/answer/6367342?hl=id -> https://support.google.com/analytics/answer/6367342?hl=id | 
+[OK] https://support.google.com/tagmanager/answer/9442095?hl=en -> https://support.google.com/tagmanager/answer/9442095?hl=en | 
+[OK] https://support.google.com/tagmanager/answer/13034206?hl=en -> https://support.google.com/tagmanager/answer/13034206?hl=en | 
+[OK] https://developers.google.com/search/docs/fundamentals/seo-starter-guide -> https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=id | 
+[OK] https://about.ads.microsoft.com/en/resources/training-certification/learning-lab -> https://about.ads.microsoft.com/en/resources/training-certification/learning-lab | 
+[OK] https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide -> https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide | 
+[OK] https://www.tiktokacademy.com/student/catalog/list?category_ids=38330-build-brand-awareness -> https://www.tiktokacademy.com/student/catalog/list?category_ids=38330-build-brand-awareness | 
+[OK] https://formedia.facebookblueprint.com/student/path/253143-meta-campaign-measurement-strategies -> https://formedia.facebookblueprint.com/student/path/253143-meta-campaign-measurement-strategies | 
+[OK] https://support.google.com/google-ads/answer/9427120 -> https://support.google.com/google-ads/answer/9427120 | 
+[OK] https://support.google.com/google-ads/?hl=en -> https://support.google.com/google-ads/?hl=en | 
+[OK] https://training.marketing.linkedin.com/page/certifications -> https://training.marketing.linkedin.com/page/certifications | 
+[OK] https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning -> https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning | 
+[OK] https://www.tiktokacademy.com/student/collection/3523001/path/5619729 -> https://www.tiktokacademy.com/student/collection/3523001/path/5619729 | 
+[OK] https://www.tiktokacademy.com/student/collection/3523001/path/5619726 -> https://www.tiktokacademy.com/student/collection/3523001/path/5619726 | 
+[OK] https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course -> https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course | 
+[OK] https://www.tiktokacademy.com/student/collection/3523001/path/5619728 -> https://www.tiktokacademy.com/student/collection/3523001/path/5619728 | 
+[OK] https://www.facebookblueprint.com/student/path/219694-define-audiences -> https://www.facebookblueprint.com/student/path/219694-define-audiences | 
+[OK] https://www.facebookblueprint.com/student/path/211543-meta-advertising-course -> https://www.facebookblueprint.com/student/path/211543-meta-advertising-course | 
+[OK] https://www.facebookblueprint.com/student/path/211562-ad-types-course -> https://www.facebookblueprint.com/student/path/211562-ad-types-course | 
+[OK] https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative -> https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative | 
+[OK] https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course -> https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course | 
+[OK] https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course -> https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course | 
+[OK] https://edgeacademy.thetradedesk.com/programmatic-101 -> https://edgeacademy.thetradedesk.com/programmatic-101 | 
+[OK] https://ads.tiktok.com/help/article/campaign-set-up -> https://ads.tiktok.com/resources/help/article/campaign-set-up | 
+[OK] https://support.google.com/skillshop/answer/14744470?hl=id -> https://support.google.com/skillshop/answer/14744470?hl=id | 
+[OK] https://ads.tiktok.com/resources/help/article/account-structure-best-practices?lang=en -> https://ads.tiktok.com/resources/help/article/account-structure-best-practices?lang=en | 
+[OK] https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings -> https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings | 
+[OK] https://support.google.com/displayvideo/answer/6099729?hl=en -> https://support.google.com/displayvideo/answer/6099729?hl=en | 
+[OK] https://ads.tiktok.com/resources/help/article/learning-phase -> https://ads.tiktok.com/resources/help/article/learning-phase | 
+[OK] https://ads.tiktok.com/help/article/event-deduplication?lang=en -> https://ads.tiktok.com/resources/help/article/event-deduplication?lang=en | 
+[OK] https://ads.tiktok.com/help/article/ad-set-up?lang=en-GB -> https://ads.tiktok.com/resources/help/article/ad-set-up?lang=en-GB | 
+[OK] https://ads.tiktok.com/resources/help/article/bidding-budget-solutions-drive-tiktok-auction-ad-performance -> https://ads.tiktok.com/resources/help/article/bidding-budget-solutions-drive-tiktok-auction-ad-performance | 
+[OK] https://iabtechlab.com/sellers-json/ -> https://iabtechlab.com/sellers-json/ | 
+[OK] https://iabtechlab.com/ads-txt/ -> https://iabtechlab.com/ads-txt/ | 
+[OK] https://advertising.amazon.com/academy/certifications -> https://advertising.amazon.com/academy/certifications | 
+[OK] https://seller.blibli.com/learning/news/ART-21403/tampilan-menu-bliklan -> https://seller.blibli.com/learning/news/ART-21403/tampilan-menu-bliklan | 
+[OK] https://www.lazadasolutions.com/id/ -> https://www.lazadasolutions.com/id/ | 
+[OK] https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id -> https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id | 
+[OK] https://support.google.com/campaignmanager/answer/2834023?hl=en -> https://support.google.com/campaignmanager/answer/2834023?hl=en | 
+[OK] https://iklan.shopee.co.id/learn/faq/571/19 -> https://iklan.shopee.co.id/learn/faq/571/19 | 
+[OK] https://iabeurope.eu/knowledge_hub/iab-europes-guide-to-curation-in-digital-advertising/ -> https://iabeurope.eu/knowledge_hub/iab-europes-guide-to-curation-in-digital-advertising/ | 
+[OK] https://support.google.com/campaignmanager/answer/3419088?hl=en -> https://support.google.com/campaignmanager/answer/3419088?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/2829205?hl=en -> https://support.google.com/campaignmanager/answer/2829205?hl=en | 
+[OK] https://wfanet.org/globalmediacharter -> https://wfanet.org/globalmediacharter | 
+[OK] https://support.google.com/campaignmanager/answer/2826636?hl=en -> https://support.google.com/campaignmanager/answer/2826636?hl=en | 
+[OK] https://wfanet.org/knowledge/item/2025/02/27/wfa-launches-new-transparency-tool-for-media -> https://wfanet.org/knowledge/item/2025/02/27/wfa-launches-new-transparency-tool-for-media | 
+[OK] https://www.warc.com/en/article/pitch-smart-a-study-by-mediasense-7b4c212ae8a846a6871e0815cbdd199c -> https://www.warc.com/en/article/pitch-smart-a-study-by-mediasense-7b4c212ae8a846a6871e0815cbdd199c | 
+[OK] https://support.google.com/campaignmanager/answer/4483813?hl=en -> https://support.google.com/campaignmanager/answer/4483813?hl=en | 
+[OK] https://iabeurope.eu/retail-media-glossary/ -> https://iabeurope.eu/retail-media-glossary/ | 
+[OK] https://support.google.com/campaignmanager/answer/3027419?hl=en -> https://support.google.com/campaignmanager/answer/3027419?hl=en | 
+[OK] https://support.google.com/tagmanager/answer/6107056?hl=en -> https://support.google.com/tagmanager/answer/6107056?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/2823400?hl=en -> https://support.google.com/campaignmanager/answer/2823400?hl=en | 
+[OK] https://support.google.com/tagmanager/answer/14842769?hl=en -> https://support.google.com/tagmanager/answer/14842769?hl=en | 
+[OK] https://support.google.com/analytics/answer/10917952?hl=en -> https://support.google.com/analytics/answer/10917952?hl=en | 
+[OK] https://www.kaggle.com/learn/intro-to-sql -> https://www.kaggle.com/learn/intro-to-sql | 
+[OK] https://search.google.com/search-console -> https://search.google.com/search-console/about | 
+[OK] https://www.mediaratingcouncil.org/standards-and-guidelines -> https://www.mediaratingcouncil.org/standards-and-guidelines | 
+[OK] https://clarity.microsoft.com/ -> https://clarity.microsoft.com/ | 
+[OK] https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/ -> https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/ | 
+[OK] https://support.google.com/campaignmanager/answer/2704779?hl=en -> https://support.google.com/campaignmanager/answer/2704779?hl=en | 
+[OK] https://academy.hubspot.com/courses/hubspot-marketing-hub-software -> https://academy.hubspot.com/courses/hubspot-marketing-hub-software | 
+[OK] https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup -> https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup | 
+[OK] https://www.bing.com/webmasters -> https://www.bing.com/webmasters/about | 
+[OK] https://support.google.com/looker-studio -> https://docs.cloud.google.com/data-studio?visit_id=639307991981322206-1314642275&rd=1&hl=id | 
+[OK] https://training.marketing.linkedin.com/ -> https://training.marketing.linkedin.com/ | 
+[OK] https://help.shopee.co.id/portal/10/article/147677 -> https://help.shopee.co.id/portal/10/article/147677 | 
+[OK] https://help.shopee.co.id/portal/4/article/72053 -> https://help.shopee.co.id/portal/4/article/72053 | 
+[OK] https://www.tiktokacademy.com/student/path/3697241/activity/5944696 -> https://www.tiktokacademy.com/student/path/3697241/activity/5944696 | 
+[OK] https://www.tiktokacademy.com/student/catalog/list?category_ids=38329-creative-guidance -> https://www.tiktokacademy.com/student/catalog/list?category_ids=38329-creative-guidance | 
+[OK] https://help.shopee.co.id/portal/4/article/72050 -> https://help.shopee.co.id/portal/4/article/72050 | 
+[OK] https://www.facebookblueprint.com/student/path/253169-creator-marketing-course -> https://www.facebookblueprint.com/student/path/253169-creator-marketing-course | 
+[OK] https://www.facebookblueprint.com/student/path/253173-partnership-ads-course -> https://www.facebookblueprint.com/student/path/253173-partnership-ads-course | 
+[OK] https://www.facebookblueprint.com/student/catalog/list?locale=en -> https://www.facebookblueprint.com/student/catalog/list?locale=en | 
+[OK] https://www.iabaustralia.com.au/online-courses/iab-australia-affiliate-marketing-essentials-training/ -> https://www.iabaustralia.com.au/online-courses/iab-australia-affiliate-marketing-essentials-training/ | 
+[OK] https://www.facebookblueprint.com/student/path/211551-partnership-ads -> https://www.facebookblueprint.com/student/path/211551-partnership-ads | 
+[OK] https://www.tiktokacademy.com/student/activity/2638309-find-and-partner-with-creators -> https://www.tiktokacademy.com/student/activity/2638309-find-and-partner-with-creators | 
+[OK] https://www.facebookblueprint.com/student/path/196033-establish-online-community -> https://www.facebookblueprint.com/student/path/196033-establish-online-community | 
+[OK] https://www.facebookblueprint.com/student/path/196036-strategic-content-for-your-community -> https://www.facebookblueprint.com/student/path/196036-strategic-content-for-your-community | 
+[OK] https://www.facebookblueprint.com/student/path/196035-managing-online-communities-course -> https://www.facebookblueprint.com/student/path/196035-managing-online-communities-course | 
+[OK] https://www.mediaratingcouncil.org/ -> https://www.mediaratingcouncil.org/ | 
+[OK] https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/ -> https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/ | 
+[OK] https://www.tiktok.com/safety/id-ID/policies-and-engagement/overview?ln=id -> https://www.tiktok.com/safety/id-ID/policies-and-engagement/overview?ln=id | 
+[OK] https://academy.hubspot.com/courses/social-media -> https://academy.hubspot.com/courses/social-media | 
+[OK] https://iabtechlab.com/standards/ -> https://iabtechlab.com/standards/ | 
+[OK] https://academy.hubspot.com/courses/digital-marketing -> https://academy.hubspot.com/courses/digital-marketing | 
+[OK] https://www.linkedin.com/learning/ -> https://www.linkedin.com/learning/ | 
+[OK] https://www.facebookblueprint.com/student/path/196034 -> https://www.facebookblueprint.com/student/path/196034 | 
+[OK] https://academy.hubspot.com/courses/inbound-sales -> https://academy.hubspot.com/courses/inbound-sales | 
+[OK] https://certifications.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses -> https://certifications.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses | 
+[OK] https://academy.hubspot.com/courses/hubspot-sales-hub-software -> https://academy.hubspot.com/courses/hubspot-sales-hub-software | 
+[OK] https://ads.tiktok.com/business/learn/course/list -> https://ads.tiktok.com/business/learn/course/list | 
+[OK] https://academy.hubspot.com/courses/aeo-fundamentals-certification-en -> https://academy.hubspot.com/courses/aeo-fundamentals-certification-en | 
+[OK] https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/ -> https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/ | 
+[OK] https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/ -> https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/ | 
+[OK] https://academy.hubspot.com/courses/digital-advertising -> https://academy.hubspot.com/courses/digital-advertising | 
+[OK] https://www.warc.com/ -> https://www.warc.com/en | 
+[OK] https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/ -> https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/ | 
+[OK] https://www.coursera.org/professional-certificates/facebook-marketing-analytics -> https://www.coursera.org/professional-certificates/facebook-marketing-analytics | 
+[OK] https://developers.google.com/search/docs/fundamentals/ai-optimization-guide -> https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=id | 
+[OK] https://learn.microsoft.com/en-us/training/support/faq -> https://learn.microsoft.com/en-us/training/support/faq | 
+[OK] https://academy.hubspot.com/ -> https://academy.hubspot.com/ | 
+[OK] https://www.tiktokacademy.com/student/collection/3523001-achievements -> https://www.tiktokacademy.com/student/collection/3523001-achievements | 
+[OK] https://www.semrush.com/academy/courses/ai-for-marketing-course/ -> https://www.semrush.com/academy/courses/ai-for-marketing-course/ | 
+[OK] https://learn.zapier.com/ -> https://learn.zapier.com/ | 
+[OK] https://business.linkedin.com/advertise/ads/marketing-academy -> https://business.linkedin.com/advertise/ads/marketing-academy | 
+[OK] https://www.iab.com/guidelines/mrc-social-media-measurement-guidelines/ -> https://www.iab.com/guidelines/mrc-social-media-measurement-guidelines/ | 
+[OK] https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications -> https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications | 
+[OK] https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/ -> https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/ | 
+[OK] https://www.facebookblueprint.com/student/catalog?edition=starter -> https://www.facebookblueprint.com/student/catalog?edition=starter | 
+[OK] https://help.shopee.co.id/portal/4/article/71191-Kebijakan-Pengiklanan-Shopee -> https://help.shopee.co.id/portal/4/article/71191-Kebijakan-Pengiklanan-Shopee | 
+[OK] https://marketingplatform.google.com/about/support/ -> https://marketingplatform.google.com/about/support/ | 
+[OK] https://www.thejakartapost.com/content-funding-classifications -> https://www.thejakartapost.com/content-funding-classifications | 
+[OK] https://support.google.com/google-ads/answer/9427120?hl=en -> https://support.google.com/google-ads/answer/9427120?hl=en | 
+[OK] https://support.google.com/google-ads/answer/7539883?hl=id -> https://support.google.com/google-ads/answer/7539883?hl=id | 
+[OK] https://agencies.facebookblueprint.com/student/catalog -> https://agencies.facebookblueprint.com/student/catalog | 
+[OK] https://connectacademy.walmartlearning.com/student/catalog/list?category_ids=399-ad-certifications -> https://connectacademy.walmartlearning.com/student/catalog/list?category_ids=399-ad-certifications | 
+[OK] https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax -> https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax | 
+[OK] https://iabtechlab.com/solutions/ -> https://iabtechlab.com/solutions/ | 
+[OK] https://iabtechlab.com/standards/measurement/ -> https://iabtechlab.com/standards/measurement/ | 
+[OK] https://developers.google.com/search/docs/essentials -> https://developers.google.com/search/docs/essentials?hl=id | 
+[OK] https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement -> https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement | 
+[OK] https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a -> https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a | 
+[OK] https://ads.tiktok.com/resources/help/article/creative-center?lang=id -> https://ads.tiktok.com/resources/help/article/creative-center?lang=id | 
+[OK] https://www.openintro.org/book/ims/ -> https://www.openintro.org/book/ims/ | 
+[OK] https://showcase.kumparan.com/pedoman-media-siber -> https://showcase.kumparan.com/pedoman-media-siber | 
+[OK] https://impact.com/pxa/learning-path/affiliate-marketing-partnerships-certification/ -> https://impact.com/pxa/learning-path/affiliate-marketing-partnerships-certification/ | 
+[OK] https://ads.tiktok.com/business/id/academy -> https://ads.tiktok.com/business/id/academy | 
+[OK] https://support.google.com/youtube/answer/11912632 -> https://support.google.com/youtube/answer/11912632 | 
+[OK] https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning -> https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning | 
+[OK] https://support.google.com/youtube/answer/9385307?co=GENIE.CountryCode%3DID&hl=id -> https://support.google.com/youtube/answer/9385307?co=GENIE.CountryCode%3DID&hl=id | 
+[OK] https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters -> https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters | 
+[OK] https://ads.tiktok.com/help/article/about-tiktok-one-for-creators?lang=id -> https://ads.tiktok.com/resources/help/article/about-tiktok-one-for-creators?lang=id | 
+[OK] https://formedia.facebookblueprint.com/student/activity/412177-resources-for-creators -> https://formedia.facebookblueprint.com/student/activity/412177-resources-for-creators | 
+[OK] https://support.google.com/youtube/answer/16622701?hl=en -> https://support.google.com/youtube/answer/16622701?hl=en | 
+[OK] https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses -> https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses | 
+[OK] https://www.facebookblueprint.com/student/catalog/list?course_type=certifications&locale=en -> https://www.facebookblueprint.com/student/catalog/list?course_type=certifications&locale=en | 
+[OK] https://support.google.com/tagmanager/answer/14009635?hl=en -> https://support.google.com/tagmanager/answer/14009635?hl=en | 
+[OK] https://standards.esomar.org/assets/documents/icc-esomar-code-2025.pdf -> https://standards.esomar.org/assets/documents/icc-esomar-code-2025.pdf | 
+[OK] https://support.google.com/analytics/answer/13965727 -> https://support.google.com/analytics/answer/13965727 | 
+[OK] https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/ -> https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/ | 
+[OK] https://developers.google.com/search/docs/fundamentals/creating-helpful-content -> https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=id | 
+[OK] https://www.optimizely.com/optimization-glossary/statistical-significance -> https://www.optimizely.com/optimization-glossary/statistical-significance | 
+[OK] https://developers.google.com/tag-platform/security/concepts/consent-mode -> https://developers.google.com/tag-platform/security/concepts/consent-mode?hl=id | 
+[OK] https://yougov.com/reports/52747-id-media-consumption-report-2025 -> https://yougov.com/reports/52747-id-media-consumption-report-2025 | 
+[OK] https://trainingworkshops.facebookblueprint.com/student/path/253143-ad-campaign-evaluation-and-measurement -> https://trainingworkshops.facebookblueprint.com/student/path/253143-ad-campaign-evaluation-and-measurement | 
+[OK] https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/ -> https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/ | 
+[OK] https://support.google.com/google-ads/answer/1752122/ -> https://support.google.com/google-ads/answer/1752122/ | 
+[OK] https://support.google.com/mail/answer/81126?hl=id -> https://support.google.com/mail/answer/81126?hl=id | 
+[OK] https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab -> https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab | 
+[OK] https://support.google.com/google-ads/answer/7337243/use-keyword-planner -> https://support.google.com/google-ads/answer/7337243/use-keyword-planner | 
+[OK] https://support.google.com/google-ads/answer/3022575?hl=en -> https://support.google.com/google-ads/answer/3022575?hl=en | 
+[OK] https://support.optimizely.com/hc/en-us/articles/39075638006541-Steps-to-create-an-experiment -> https://docs.optimizely.com/performance-edge/docs/Pv4s-steps-to-create-an-experiment | 
+[OK] https://about.ads.microsoft.com/en/get-started/new-advertiser-faqs -> https://about.ads.microsoft.com/en/get-started/new-advertiser-faqs | 
+[OK] https://mediaratingcouncil.org/sites/default/files/Standards/Digital%20Audio%20Measurement%20Standards%20-%20Final%20Version%201.0.pdf -> https://mediaratingcouncil.org/sites/default/files/Standards/Digital%20Audio%20Measurement%20Standards%20-%20Final%20Version%201.0.pdf | 
+[OK] https://support.google.com/google-ads/answer/9427192?hl=en -> https://support.google.com/google-ads/answer/9427192?hl=en | 
+[OK] https://about.ads.microsoft.com/en/tools/planning/keyword-planner -> https://about.ads.microsoft.com/en/tools/planning/keyword-planner | 
+[OK] https://support.google.com/google-ads/answer/9808024?hl=en -> https://support.google.com/google-ads/answer/9808024?hl=en | 
+[OK] https://support.google.com/google-ads/answer/9510373?hl=en -> https://support.google.com/google-ads/answer/9510373?hl=en | 
+[OK] https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf -> https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf | 
+[OK] https://support.google.com/google-ads/answer/2579754?hl=en -> https://support.google.com/google-ads/answer/2579754?hl=en | 
+[OK] https://support.google.com/google-ads/answer/2453972?hl=en -> https://support.google.com/google-ads/answer/2453972?hl=en | 
+[OK] https://support.google.com/adspolicy/answer/16427615 -> https://support.google.com/adspolicy/answer/16427615 | 
+[OK] https://support.google.com/google-ads/answer/14086?hl=en -> https://support.google.com/google-ads/answer/14086?hl=en | 
+[OK] https://learn.microsoft.com/en-us/advertising/guides/responsive-search-ads?view=bingads-13 -> https://learn.microsoft.com/en-us/advertising/guides/responsive-search-ads?view=bingads-13 | 
+[OK] https://www.about.ads.microsoft.com/en/solutions/ad-products-formats/search -> https://www.about.ads.microsoft.com/en/solutions/ad-products-formats/search | 
+[OK] https://support.google.com/google-ads/answer/7478529 -> https://support.google.com/google-ads/answer/7478529 | 
+[OK] https://support.google.com/google-ads/answer/14997606?hl=en -> https://support.google.com/google-ads/answer/14997606?hl=en | 
+[OK] https://support.google.com/google-ads/answer/2472708?hl=en -> https://support.google.com/google-ads/answer/2472708?hl=en | 
+[OK] https://support.google.com/google-ads/answer/6167122?hl=en -> https://support.google.com/google-ads/answer/6167122?hl=en | 
+[OK] https://support.google.com/google-ads/answer/17092074?hl=en -> https://support.google.com/google-ads/answer/17092074?hl=en | 
+[OK] https://support.google.com/google-ads/answer/13258081?hl=en -> https://support.google.com/google-ads/answer/13258081?hl=en | 
+[OK] https://support.google.com/google-ads/answer/15713840?hl=en -> https://support.google.com/google-ads/answer/15713840?hl=en | 
+[OK] https://support.google.com/google-ads/answer/10966879?hl=en -> https://support.google.com/google-ads/answer/10966879?hl=en | 
+[OK] https://support.google.com/google-ads/answer/6167148?hl=en -> https://support.google.com/google-ads/answer/6167148?hl=en | 
+[OK] https://support.google.com/google-ads/answer/2998031/about-offline-conversion-imports -> https://support.google.com/google-ads/answer/2998031/about-offline-conversion-imports | 
+[OK] https://support.google.com/google-ads/faq/10286469?hl=en -> https://support.google.com/google-ads/faq/10286469?hl=en | 
+[OK] https://support.google.com/google-ads/answer/16560108 -> https://support.google.com/google-ads/answer/16560108 | 
+[OK] https://support.google.com/google-ads/answer/7103314?hl=en-id -> https://support.google.com/google-ads/answer/7103314?hl=en-id | 
+[OK] https://support.google.com/google-ads/answer/13738235?hl=en -> https://support.google.com/google-ads/answer/13738235?hl=en | 
+[OK] https://support.google.com/google-ads/answer/6167118?preview=true -> https://support.google.com/google-ads/answer/6167118?preview=true | 
+[OK] https://about.ads.microsoft.com/en/tools/performance/conversion-tracking -> https://about.ads.microsoft.com/en/tools/performance/conversion-tracking | 
+[OK] https://support.google.com/google-ads/answer/6261395/set-up-a-campaign-experiment -> https://support.google.com/google-ads/answer/6261395/set-up-a-campaign-experiment | 
+[OK] https://support.google.com/google-ads/answer/2497703?hl=en -> https://support.google.com/google-ads/answer/2497703?hl=en | 
+[OK] https://support.google.com/google-ads/answer/10683687?hl=en -> https://support.google.com/google-ads/answer/10683687?hl=en | 
+[OK] https://iabtechlab.com/standards/openrtb/ -> https://iabtechlab.com/standards/openrtb/ | 
+[OK] https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf -> https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf | 
+[OK] https://www.lazadasolutions.com/id/id-faqs/ -> https://www.lazadasolutions.com/id/id-faqs/ | 
+[OK] https://iklan.shopee.co.id/learn/faq/574/1716 -> https://iklan.shopee.co.id/learn/faq/574/1716 | 
+[OK] https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id -> https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id | 
+[OK] https://lazada-sellercenter.readme.io/docs/guide-for-creating-products -> https://lazada-sellercenter.readme.io/docs/guide-for-creating-products | 
+[OK] https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/ -> https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/ | 
+[OK] https://support.google.com/merchants/answer/7052112 -> https://support.google.com/merchants/answer/7052112 | 
+[OK] https://advertising.amazon.com/help/GKSQZKMHW95GJDB7 -> https://advertising.amazon.com/help/GKSQZKMHW95GJDB7 | 
+[OK] https://ads.tiktok.com/help/article/how-to-create-product-shopping-ads?lang=id -> https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id | 
+[OK] https://ads.tiktok.com/resources/help/article/catalog-product-parameters -> https://ads.tiktok.com/resources/help/article/catalog-product-parameters | 
+[OK] https://lazada-sellercenter.readme.io/docs/createproduct -> https://lazada-sellercenter.readme.io/docs/createproduct | 
+[OK] https://iklan.shopee.co.id/learn/faq/555/8 -> https://iklan.shopee.co.id/learn/faq/555/8 | 
+[OK] https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Regional-Bisnis.com.pdf -> https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Regional-Bisnis.com.pdf | 
+[OK] https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Harian-Bisnis-Indonesia.pdf?id=ff28ea7963672966e0820fa11b084ac7c62d14d7615794299d65bbce7e6b10c1 -> https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Harian-Bisnis-Indonesia.pdf?id=ff28ea7963672966e0820fa11b084ac7c62d14d7615794299d65bbce7e6b10c1 | 
+[OK] https://advertising.amazon.com/help/G3XAU5G7C2JTNQTM -> https://advertising.amazon.com/help/G3XAU5G7C2JTNQTM | 
+[OK] https://www.lazadasolutions.com/id/faq/bagaimana-cara-mengelola-campaign-sponsored-discovery-di-aplikasi-lazada-seller-center/ -> https://www.lazadasolutions.com/id/faq/bagaimana-cara-mengelola-campaign-sponsored-discovery-di-aplikasi-lazada-seller-center/ | 
+[OK] https://www.ana.net/content/show/id/pr-2023-06-updated-media-buying-contract -> https://www.ana.net/content/show/id/pr-2023-06-updated-media-buying-contract | 
+[OK] https://support.google.com/admanager/answer/9248464 -> https://support.google.com/admanager/answer/9248464 | 
+[OK] https://ads.tiktok.com/resources/help/article/create-manage-catalogs?lang=id -> https://ads.tiktok.com/resources/help/article/create-manage-catalogs?lang=id | 
+[OK] https://www.iab.com/guidelines/retail-media-advanced-measurement-and-data-collaboration/ -> https://www.iab.com/guidelines/retail-media-advanced-measurement-and-data-collaboration/ | 
+[OK] https://jdih.kemenkeu.go.id/dok/pmk-131-tahun-2024 -> https://jdih.kemenkeu.go.id/dok/pmk-131-tahun-2024 | 
+[OK] https://support.google.com/campaignmanager/answer/2709362 -> https://support.google.com/campaignmanager/answer/2709362 | 
+[OK] https://www.iab.com/wp-content/uploads/2024/01/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf -> https://www.iab.com/wp-content/uploads/2024/01/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf | 
+[OK] https://support.google.com/campaignmanager/answer/2826636 -> https://support.google.com/campaignmanager/answer/2826636 | 
+[OK] https://support.google.com/admanager/answer/9405477?hl=en -> https://support.google.com/admanager/answer/9405477?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/3312873?hl=en -> https://support.google.com/campaignmanager/answer/3312873?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/2826648?hl=en -> https://support.google.com/campaignmanager/answer/2826648?hl=en | 
+[OK] https://wfanet.org/knowledge/item/2018/06/21/WFA-releases-full-version-of-Global-Media-Charter-to-reform-digital-ad-ecosystem?originNode=3023&originTag=Global+Media+Charter -> https://wfanet.org/knowledge/item/2018/06/21/WFA-releases-full-version-of-Global-Media-Charter-to-reform-digital-ad-ecosystem?originNode=3023&originTag=Global+Media+Charter | 
+[OK] https://support.google.com/campaignmanager/answer/2829774?hl=en -> https://support.google.com/campaignmanager/answer/2829774?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/13681097 -> https://support.google.com/campaignmanager/answer/13681097 | 
+[OK] https://support.google.com/campaignmanager/answer/2838056?hl=en -> https://support.google.com/campaignmanager/answer/2838056?hl=en | 
+[OK] https://support.google.com/admanager/answer/6160380?hl=en -> https://support.google.com/admanager/answer/6160380?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/3414002?hl=en -> https://support.google.com/campaignmanager/answer/3414002?hl=en | 
+[OK] https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads?lang=id -> https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads?lang=id | 
+[OK] https://support.google.com/campaignmanager/answer/9999963?hl=en -> https://support.google.com/campaignmanager/answer/9999963?hl=en | 
+[OK] https://ads.tiktok.com/resources/help/article/getting-started-events-api?redirected=1 -> https://ads.tiktok.com/resources/help/article/getting-started-events-api?redirected=1 | 
+[OK] https://www.pajak.go.id/id/peraturan-7 -> https://www.pajak.go.id/id/peraturan-7 | 
+[OK] https://support.google.com/campaignmanager/answer/6193740?hl=en -> https://support.google.com/campaignmanager/answer/6193740?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/15406732?hl=en -> https://support.google.com/campaignmanager/answer/15406732?hl=en | 
+[OK] https://support.google.com/campaignmanager/answer/13744493?hl=en -> https://support.google.com/campaignmanager/answer/13744493?hl=en | 
+[OK] https://developers.google.com/tag-platform/tag-manager/server-side/debug -> https://developers.google.com/tag-platform/tag-manager/server-side/debug?hl=id | 
+[OK] https://support.google.com/admanager/answer/6214526?hl=en -> https://support.google.com/admanager/answer/6214526?hl=en | 
+[OK] https://sqlbolt.com/topics -> https://sqlbolt.com/topics | 
+[OK] https://support.google.com/analytics/answer/7029846?hl=en -> https://support.google.com/analytics/answer/7029846?hl=en | 
+[OK] https://support.google.com/analytics/answer/10597962 -> https://support.google.com/analytics/answer/10597962 | 
+[OK] https://support.google.com/analytics/answer/9191807 -> https://support.google.com/analytics/answer/9191807 | 
+[OK] https://developers.google.com/analytics/bigquery/schemas -> https://developers.google.com/analytics/bigquery/schemas?hl=id | 
+[OK] https://miguelhernan.org/whatifbook -> https://miguelhernan.org/whatifbook | 
+[OK] https://developers.google.com/meridian/docs/basics/meridian-introduction -> https://developers.google.com/meridian/docs/basics/meridian-introduction | 
+[OK] https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration -> https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration | 
+[OK] https://docs.cloud.google.com/data-studio/tutorial-calculated-fields-intro -> https://docs.cloud.google.com/data-studio/tutorial-calculated-fields-intro?hl=id | 
+[OK] https://support.google.com/webmasters/answer/10268906 -> https://support.google.com/webmasters/answer/10268906 | 
+[OK] https://docs.cloud.google.com/bigquery/docs/introduction-sql -> https://docs.cloud.google.com/bigquery/docs/introduction-sql?hl=id | 
+[OK] https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm -> https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm | 
+[OK] https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014 -> https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014 | 
+[OK] https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/ -> https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/ | 
+[OK] https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data -> https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=id | 
+[OK] https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute -> https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute?hl=id | 
+[OK] https://support.tiktok.com/id/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok -> https://www.tiktok.com/support/faq_detail?id=7636670088170773013 | 
+[OK] https://support.google.com/youtube/answer/154235 -> https://support.google.com/youtube/answer/154235 | 
+[OK] https://shopee.co.id/m/affiliates -> https://shopee.co.id/m/affiliates | 
+[OK] https://ads.tiktok.com/resources/help/article/how-to-use-top-ads-dashboard -> https://ads.tiktok.com/resources/help/article/how-to-use-top-ads-dashboard | 
+[OK] https://support.google.com/youtube/answer/9313698?cid=analytics-series&hl=en -> https://support.google.com/youtube/answer/9313698?cid=analytics-series&hl=en | 
+[OK] https://support.google.com/youtube/answer/9314486?hl=en -> https://support.google.com/youtube/answer/9314486?hl=en | 
+[OK] https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/peraturan%2Bpemerintah%2Bnomor%2B71%2Btahun%2B2019 -> https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/peraturan%2Bpemerintah%2Bnomor%2B71%2Btahun%2B2019 | 
+[OK] https://ads.tiktok.com/resources/help/article/about-the-content-disclosure-setting-for-creators?lang=id -> https://ads.tiktok.com/resources/help/article/about-the-content-disclosure-setting-for-creators?lang=id | 
+[OK] https://support.google.com/youtube/answer/12942217?co=YOUTUBE -> https://support.google.com/youtube/answer/12942217?co=YOUTUBE | 
+[OK] https://support.tiktok.com/en/account-and-privacy/account-privacy-settings/manage-comments -> https://www.tiktok.com/support/faq_detail?id=7636676985892739605 | 
+[OK] https://jdih.komdigi.go.id/produk_hukum/view/id/884/t/undangundang%20nomor%201%20tahun%202024 -> https://jdih.komdigi.go.id/produk_hukum/view/id/884/t/undangundang%20nomor%201%20tahun%202024 | 
+[OK] https://support.google.com/youtube/answer/9826490?hl=en -> https://support.google.com/youtube/answer/9826490?hl=en | 
+[OK] https://support.google.com/google-ads/answer/9702955 -> https://support.google.com/google-ads/answer/9702955 | 
+[OK] https://ads.tiktok.com/help/article/tiktok-shopping-and-showcase?lang=id -> https://ads.tiktok.com/resources/help/article/tiktok-shopping-and-showcase?lang=id | 
+[OK] https://www.tiktok.com/community-guidelines/en/ -> https://www.tiktok.com/safety/en/policies-and-engagement/overview | 
+[OK] https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management -> https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5464567008 -> https://job-boards.greenhouse.io/wppmedia/jobs/5464567008 | 
+[OK] https://www.tiktokacademy.com/student/page/3053325-certification-faqs -> https://www.tiktokacademy.com/student/page/3053325-certification-faqs | 
+[OK] https://advertising.amazon.com/academy/help -> https://advertising.amazon.com/academy/help | 
+[OK] https://advertising.amazon.com/academy/student/activity/86034/amazon-ads-foundations-certification-assessment -> https://advertising.amazon.com/academy/student/activity/86034/amazon-ads-foundations-certification-assessment | 
+[OK] https://advertising.amazon.com/academy/student/path/1532 -> https://advertising.amazon.com/academy/student/path/1532 | 
+[OK] https://github.com/putratryarga/putratryarga-dpa -> https://github.com/putratryarga/putratryarga-dpa | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5378904008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[OK] https://ipg.tiktokacademy.com/student/path/2552988-certification-exam-prep -> https://ipg.tiktokacademy.com/student/path/2552988-certification-exam-prep | 
+[OK] https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047166008 -> https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047166008 | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5465665008 -> https://job-boards.greenhouse.io/wppmedia/jobs/5465665008 | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5459870008 -> https://job-boards.greenhouse.io/wppmedia/jobs/5459870008 | 
+[OK] https://careers.publicisgroupe.com/jobs/149884?lang=en-us -> https://careers.publicisgroupe.com/jobs/149884?lang=en-us | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5313454008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5208747008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[OK] https://careers.publicisgroupe.com/jobs/176664?lang=en-US -> https://careers.publicisgroupe.com/jobs/176664?lang=en-US | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5378823008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5341033008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[OK] https://careers.publicisgroupe.com/jobs/179047?lang=en-US -> https://careers.publicisgroupe.com/jobs/179047?lang=en-US | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5235133008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[OK] https://job-boards.greenhouse.io/wppmedia/jobs/5425758008 -> https://job-boards.greenhouse.io/wppmedia?error=true | 
+[SSL_FALSE_POSITIVE] https://www.purwadhika.com/skill-accelerator/certified-digital-planner-and-strategist-with-p3i ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.stackadapt.com/academy/programmatic-masterclass ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.integralads.com/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://doubleverify.com/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.braze.com/docs ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.purwadhika.com/skill-accelerator/certified-advanced-digital-content-specialist-with-p3i ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://social-media-management-help.brandwatch.com/en/collections/19777485-listen ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://ads.openai.com/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.nielsen.com/news-center/2023/nielsen-more-than-doubles-tv-audience-measurement-in-indonesia/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.nielsen.com/news-center/2022/nielsen-launches-streaming-content-ratings-enabling-cross-media-measurement-in-indonesia/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://success.awin.com/articles/en_US/Knowledge/What-is-Affiliate-Marketing ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.nngroup.com/articles/journey-mapping-101/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.ama.org/topics/brand-and-branding/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://www.communications.gov.uk/wp-content/uploads/2024/02/2024-02-13-GCS-Evaluation-Cycle-FINAL-OFFICIAL.pdf ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dewaniklanindonesia.com/etika-pariwara-indonesia-epi/ ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://facebook-blueprintglobal1.pearsonvue.com/index ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://facebook-blueprint1.pearsonvue.com/index ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Media-Planner_R1124602 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Connection-Planner_R1129068 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Paid-Social-Specialist_JR0095187-1 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/SEO-Executive_R1121609-1 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Analyst--Analytics-Insights_R16240 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Programmatic-Specialist_R1123420 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Senior-Associate--SEO_R1122543 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Digital-Consultant_R1123158 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Data-Science-and-Analytics-05_60055-AS ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Manager_R1126792 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Marketing-Lead_R1129669 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Manager--Influencer-Marketing_R1130356 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Media-Analyst_R1129420-1 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Content-Manager_R1121993 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Organic---AI-Manager_JR0099039 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Paid-Social-Specialist_JR0096922 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Senior-Enablement-Lead--Analytics--CRO----Personalisation-_JR0096564 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/CreativeExternalCareerSite/job/Consultant-e--senior---Influence-management---stratgie_JR0093003 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/fr-FR/MediaExternalCareerSite/job/CONSULTANT-MEDIA-360-JUNIOR--F-H-X-_JR0093690 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Consultant-e-Senior-Influence-Management---Strat%C3%A9gie_JR0093003 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Search---Ad-Ops-Executive_R1129353-1 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Account-Executive---Talent-and-Influencer_JR0092770 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Affiliate-Manager_JR0097605 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)
+[SSL_FALSE_POSITIVE] https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Alternance-consultant-social-media_JR0094195 ->  | SSL_LOCAL_TRUST (false positive kemungkinan)

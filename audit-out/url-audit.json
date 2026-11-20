@@ -1,0 +1,2890 @@
+[
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-600.css",
+  "status": 200,
+  "final": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-600.css",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-500.css",
+  "status": 200,
+  "final": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-500.css",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-400.css",
+  "status": 200,
+  "final": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/latin-400.css",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400.css",
+  "status": 200,
+  "final": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400.css",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.5/latin-400.css",
+  "status": 200,
+  "final": "https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.5/latin-400.css",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400-italic.css",
+  "status": 200,
+  "final": "https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif@5.2.5/latin-400-italic.css",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://schema.org",
+  "status": 200,
+  "final": "https://schema.org",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "http://www.w3.org/2000/svg",
+  "status": 403,
+  "final": "https://www.w3.org/2000/svg",
+  "title": null,
+  "error": "HTTP 403",
+  "class": "FORBIDDEN"
+ },
+ {
+  "url": "https://putratryarga-dpa.vercel.app/",
+  "status": 200,
+  "final": "https://putratryarga-dpa.vercel.app/",
+  "title": "Full-Stack Digital Performance Architect — Putra Try Arga",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/inbound",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/inbound",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://trends.google.com/trends/",
+  "status": 200,
+  "final": "https://trends.google.com/trends/",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://skillshop.withgoogle.com/",
+  "status": 200,
+  "final": "https://skillshop.withgoogle.com/",
+  "title": "Skillshop",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.jsdelivr.net",
+  "status": 200,
+  "final": "https://www.jsdelivr.com/",
+  "title": "jsDelivr - A free, fast, and reliable CDN for JS and open source",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/6367342",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/6367342",
+  "title": "Akun demo - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.thinkwithgoogle.com/intl/en-apac/",
+  "status": 200,
+  "final": "https://business.google.com/en-all/think/",
+  "title": "Think with Google - Marketing Research, Insights, and Trends",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/15068052",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/15068052",
+  "title": "[GA4] Mendaftar kursus Akademi Analytics di Skillshop - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://business.google.com/us/think/measurement/cmo-guide-measuring-media-effectiveness/",
+  "status": 200,
+  "final": "https://business.google.com/us/think/measurement/cmo-guide-measuring-media-effectiveness/",
+  "title": "Measuring media effectiveness for CMOs - Think with Google US",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cloud.google.com/bigquery/docs/sandbox",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/bigquery/docs/sandbox?hl=id",
+  "title": "Mencoba BigQuery menggunakan sandbox &nbsp;|&nbsp; Google Cloud Documentation",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep",
+  "status": 200,
+  "final": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep",
+  "title": "Forage Omnichannel Marketing - Forage",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://tagmanager.google.com/",
+  "status": 200,
+  "final": "https://accounts.google.com/v3/signin/identifier?continue=https://tagmanager.google.com/&followup=https://tagmanager.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S991947789:1795202386353166",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/search/docs/appearance/ai-features",
+  "status": 200,
+  "final": "https://developers.google.com/search/docs/appearance/ai-features?hl=id",
+  "title": "Fitur AI dan Situs Anda | Pusat Google Penelusuran &nbsp;|&nbsp; Documentation &nbsp;|&nbs",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.youngurbanproject.com/digital-marketing-strategy-course/",
+  "status": 200,
+  "final": "https://www.youngurbanproject.com/digital-marketing-strategy-course/",
+  "title": "Digital Marketing Strategy Free Course - Young Urban Project",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/email-marketing-certification-en",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/email-marketing-certification-en",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/catalog",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/catalog",
+  "title": "Meta Blueprint : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://training.marketing.linkedin.com/path/start-advertising",
+  "status": 200,
+  "final": "https://training.marketing.linkedin.com/path/start-advertising",
+  "title": "Start advertising your business on LinkedIn",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/content-marketing",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/content-marketing",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://skillshop.withgoogle.com/googleads/",
+  "status": 404,
+  "final": "https://skillshop.withgoogle.com/googleads/",
+  "title": null,
+  "error": "HTTP 404",
+  "class": "DEAD"
+ },
+ {
+  "url": "https://business.google.com/id/ad-tools/google-ad-experiments/",
+  "status": 200,
+  "final": "https://business.google.com/id/ad-tools/google-ad-experiments/",
+  "title": "Menguji Kampanye dengan Mudah Menggunakan Eksperimen Google Ads - Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/10917952?hl=id",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/10917952?hl=id",
+  "title": "Pembuat URL: Mengumpulkan data kampanye dengan URL kustom - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/6367342?hl=id",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/6367342?hl=id",
+  "title": "Akun demo - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/tagmanager/answer/9442095?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/tagmanager/answer/9442095?hl=en",
+  "title": "Set up Google Analytics in Tag Manager - Tag Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/tagmanager/answer/13034206?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/tagmanager/answer/13034206?hl=en",
+  "title": "Set up Google Analytics events in Tag Manager - Tag Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+  "status": 200,
+  "final": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=id",
+  "title": "Panduan Memulai SEO: Dasar-Dasar | Pusat Google Penelusuran &nbsp;|&nbsp; Documentation &n",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.purwadhika.com/skill-accelerator/certified-digital-planner-and-strategist-with-p3i",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+  "status": 200,
+  "final": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+  "title": "Learning Lab | Microsoft Advertising",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide",
+  "status": 200,
+  "final": "https://contenthub.facebookblueprint.com/student/activity/206246-media-planning-professional-study-guide",
+  "title": "Media Planning Professional Study Guide : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/catalog/list?category_ids=38330-build-brand-awareness",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/catalog/list?category_ids=38330-build-brand-awareness",
+  "title": "Build brand awareness : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://formedia.facebookblueprint.com/student/path/253143-meta-campaign-measurement-strategies",
+  "status": 200,
+  "final": "https://formedia.facebookblueprint.com/student/path/253143-meta-campaign-measurement-strategies",
+  "title": "Campaign evaluation and measurement strategies : Learn new skills to build your brand or b",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/9427120",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/9427120",
+  "title": "Tentang Reach Planner - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/?hl=en",
+  "title": "Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://training.marketing.linkedin.com/page/certifications",
+  "status": 200,
+  "final": "https://training.marketing.linkedin.com/page/certifications",
+  "title": "Certifications | LinkedIn Marketing Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/collection/507792-meta-ads-manager-learning",
+  "title": "Meta Ads Manager learning : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/collection/3523001/path/5619729",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/collection/3523001/path/5619729",
+  "title": "Promote your TikTok Shop : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/collection/3523001/path/5619726",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/collection/3523001/path/5619726",
+  "title": "Drive website sales : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course",
+  "title": "Selecting campaign objectives : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/collection/3523001/path/5619728",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/collection/3523001/path/5619728",
+  "title": "Generate and message leads : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/219694-define-audiences",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/219694-define-audiences",
+  "title": "Defining your ad audience : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211543-meta-advertising-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211543-meta-advertising-course",
+  "title": "Get started with advertising on Facebook and Instagram : Learn new skills to build your br",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211562-ad-types-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211562-ad-types-course",
+  "title": "Determining the best buying type and bid strategy : Learn new skills to build your brand o",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative",
+  "title": "Exploring best practices for ad creative : Learn new skills to build your brand or busines",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course",
+  "title": "Set up the Meta Pixel and Meta Conversions API for ad campaigns : Learn new skills to buil",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course",
+  "title": "Analyzing campaign reporting results and measurement strategies : Learn new skills to buil",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://edgeacademy.thetradedesk.com/programmatic-101",
+  "status": 200,
+  "final": "https://edgeacademy.thetradedesk.com/programmatic-101",
+  "title": "Programmatic 101 | Edge Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/campaign-set-up",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/campaign-set-up",
+  "title": "How to Set Up a Campaign | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/skillshop/answer/14744470?hl=id",
+  "status": 200,
+  "final": "https://support.google.com/skillshop/answer/14744470?hl=id",
+  "title": "Sertifikasi untuk Google Ads/GMP/GA di Skillshop - Bantuan Skillshop",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/account-structure-best-practices?lang=en",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/account-structure-best-practices?lang=en",
+  "title": "Account Structure Best Practices | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings",
+  "title": "Privacy controls and brand safety : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/displayvideo/answer/6099729?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/displayvideo/answer/6099729?hl=en",
+  "title": "Training for Display &amp; Video 360 - Display &amp; Video 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/learning-phase",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/learning-phase",
+  "title": "About Learning Phase | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/event-deduplication?lang=en",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/event-deduplication?lang=en",
+  "title": "About Event Deduplication | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/ad-set-up?lang=en-GB",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/ad-set-up?lang=en-GB",
+  "title": "How to Create an Ad | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.stackadapt.com/academy/programmatic-masterclass",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/bidding-budget-solutions-drive-tiktok-auction-ad-performance",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/bidding-budget-solutions-drive-tiktok-auction-ad-performance",
+  "title": "Bidding &amp; Budget Tips for Performance | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabtechlab.com/sellers-json/",
+  "status": 200,
+  "final": "https://iabtechlab.com/sellers-json/",
+  "title": "IAB Tech Lab",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabtechlab.com/ads-txt/",
+  "status": 200,
+  "final": "https://iabtechlab.com/ads-txt/",
+  "title": "IAB Tech Lab",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://advertising.amazon.com/academy/certifications",
+  "status": 200,
+  "final": "https://advertising.amazon.com/academy/certifications",
+  "title": "Accreditation - Certification training courses from Amazon Ads Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://seller.blibli.com/learning/news/ART-21403/tampilan-menu-bliklan",
+  "status": 200,
+  "final": "https://seller.blibli.com/learning/news/ART-21403/tampilan-menu-bliklan",
+  "title": "Blibli Seller Center - Jual Online Mudah, Aman & Nyaman | Blibli.com",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.lazadasolutions.com/id/",
+  "status": 200,
+  "final": "https://www.lazadasolutions.com/id/",
+  "title": "Lazada Sponsored Solutions : Lazada Sponsored Solutions",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id",
+  "title": "Cara Membuat Product Shopping Ads | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2834023?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2834023?hl=en",
+  "title": "Create ads - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iklan.shopee.co.id/learn/faq/571/19",
+  "status": 200,
+  "final": "https://iklan.shopee.co.id/learn/faq/571/19",
+  "title": "Jenis-Jenis Iklan di Shopee | Iklanku Indonesia",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabeurope.eu/knowledge_hub/iab-europes-guide-to-curation-in-digital-advertising/",
+  "status": 200,
+  "final": "https://iabeurope.eu/knowledge_hub/iab-europes-guide-to-curation-in-digital-advertising/",
+  "title": "IAB Europe’s Guide to Curation in Digital Advertising - IAB Europe",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/3419088?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/3419088?hl=en",
+  "title": "Trafficking workflow - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2829205?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2829205?hl=en",
+  "title": "Create, copy, or archive placements - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://wfanet.org/globalmediacharter",
+  "status": 200,
+  "final": "https://wfanet.org/globalmediacharter",
+  "title": "Global Media Charter - World Federation of Advertisers",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2826636?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2826636?hl=en",
+  "title": "Placement tags - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://wfanet.org/knowledge/item/2025/02/27/wfa-launches-new-transparency-tool-for-media",
+  "status": 200,
+  "final": "https://wfanet.org/knowledge/item/2025/02/27/wfa-launches-new-transparency-tool-for-media",
+  "title": "WFA launches new Transparency Tool for media - World Federation of Advertisers",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.integralads.com/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.warc.com/en/article/pitch-smart-a-study-by-mediasense-7b4c212ae8a846a6871e0815cbdd199c",
+  "status": 200,
+  "final": "https://www.warc.com/en/article/pitch-smart-a-study-by-mediasense-7b4c212ae8a846a6871e0815cbdd199c",
+  "title": "Pitch Smart: A study by Mediasense | WARC",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/4483813?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/4483813?hl=en",
+  "title": "Set up display creatives - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://doubleverify.com/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://iabeurope.eu/retail-media-glossary/",
+  "status": 200,
+  "final": "https://iabeurope.eu/retail-media-glossary/",
+  "title": "Retail Media Glossary - IAB Europe",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/3027419?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/3027419?hl=en",
+  "title": "About Floodlight and Floodlight conversions - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/tagmanager/answer/6107056?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/tagmanager/answer/6107056?hl=en",
+  "title": "Preview and debug containers - Tag Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2823400?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2823400?hl=en",
+  "title": "How Floodlight counts conversions - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/tagmanager/answer/14842769?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/tagmanager/answer/14842769?hl=en",
+  "title": "4. Verify and publish tags - Tag Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/10917952?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/10917952?hl=en",
+  "title": "URL builders: Collect campaign data with custom URLs - Analytics Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.kaggle.com/learn/intro-to-sql",
+  "status": 200,
+  "final": "https://www.kaggle.com/learn/intro-to-sql",
+  "title": "Learn Intro to SQL Tutorials | Kaggle",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://search.google.com/search-console",
+  "status": 200,
+  "final": "https://search.google.com/search-console/about",
+  "title": "Google Search Console",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.mediaratingcouncil.org/standards-and-guidelines",
+  "status": 200,
+  "final": "https://www.mediaratingcouncil.org/standards-and-guidelines",
+  "title": "Minimum Standards for Media Rating Research | MRC",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.braze.com/docs",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://clarity.microsoft.com/",
+  "status": 200,
+  "final": "https://clarity.microsoft.com/",
+  "title": "Microsoft Clarity - Free Heatmaps & Session Recordings",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.purwadhika.com/skill-accelerator/certified-advanced-digital-content-specialist-with-p3i",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/",
+  "status": 200,
+  "final": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/",
+  "title": "Semrush SEO Crash Course with Brian Dean - Semrush Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2704779?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2704779?hl=en",
+  "title": "Download or send placement tags - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/hubspot-marketing-hub-software",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/hubspot-marketing-hub-software",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup",
+  "status": 200,
+  "final": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-marketing-cloud-engagement-account-setup",
+  "title": "Set Up Marketing Cloud Engagement | Salesforce Trailhead",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.bing.com/webmasters",
+  "status": 200,
+  "final": "https://www.bing.com/webmasters/about",
+  "title": "Bing Webmaster Tools",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/looker-studio",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/data-studio?visit_id=639307991981322206-1314642275&rd=1&hl=id",
+  "title": "Dokumentasi Data Studio &nbsp;|&nbsp; Google Cloud Documentation",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://training.marketing.linkedin.com/",
+  "status": 200,
+  "final": "https://training.marketing.linkedin.com/",
+  "title": "LinkedIn Marketing Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://help.shopee.co.id/portal/10/article/147677",
+  "status": 200,
+  "final": "https://help.shopee.co.id/portal/10/article/147677",
+  "title": "[Shopee Affiliate Program] Apa itu Skema Komisi Baru Shopee Affiliate? | Pusat Bantuan Sho",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://help.shopee.co.id/portal/4/article/72053",
+  "status": 200,
+  "final": "https://help.shopee.co.id/portal/4/article/72053",
+  "title": "[Shopee Affiliate Program] Apa itu Shopee Affiliate Program? | Pusat Bantuan Shopee ID",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/path/3697241/activity/5944696",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/path/3697241/activity/5944696",
+  "title": "How to work with creators your audience trusts : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/catalog/list?category_ids=38329-creative-guidance",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/catalog/list?category_ids=38329-creative-guidance",
+  "title": "Creative guidance : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://help.shopee.co.id/portal/4/article/72050",
+  "status": 200,
+  "final": "https://help.shopee.co.id/portal/4/article/72050",
+  "title": "[Shopee Affiliate Program] Bagaimana cara mendaftar Shopee Affiliate Program? | Pusat Bant",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/253169-creator-marketing-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/253169-creator-marketing-course",
+  "title": "Improving business results through effective creator partnerships : Learn new skills to bu",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/253173-partnership-ads-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/253173-partnership-ads-course",
+  "title": "Amplify campaigns with partnership ads : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/catalog/list?locale=en",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/catalog/list?locale=en",
+  "title": "Meta Blueprint : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.iabaustralia.com.au/online-courses/iab-australia-affiliate-marketing-essentials-training/",
+  "status": 200,
+  "final": "https://www.iabaustralia.com.au/online-courses/iab-australia-affiliate-marketing-essentials-training/",
+  "title": "IAB Australia Affiliate &amp; Partnership Marketing Essentials Training - IAB Australia",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/211551-partnership-ads",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/211551-partnership-ads",
+  "title": "Increase campaign performance with partnership ads : Learn new skills to build your brand ",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://social-media-management-help.brandwatch.com/en/collections/19777485-listen",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/activity/2638309-find-and-partner-with-creators",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/activity/2638309-find-and-partner-with-creators",
+  "title": "Find and partner with creators : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/196033-establish-online-community",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/196033-establish-online-community",
+  "title": "Define and establish a community : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/196036-strategic-content-for-your-community",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/196036-strategic-content-for-your-community",
+  "title": "Make strategic content decisions for a community : Learn new skills to build your brand or",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/196035-managing-online-communities-course",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/196035-managing-online-communities-course",
+  "title": "Engage and moderate a community : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.mediaratingcouncil.org/",
+  "status": 200,
+  "final": "https://www.mediaratingcouncil.org/",
+  "title": "Home | MRC",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.openai.com/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/",
+  "status": 200,
+  "final": "https://aseanfoundation.org/advancing-future-skills-for-asean-youth-workforce-asean-foundation-and-linkedin-launch-asean-ahead-programme/",
+  "title": "Advancing Future Skills for ASEAN Youth Workforce: ASEAN Foundation and LinkedIn Launch AS",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktok.com/safety/id-ID/policies-and-engagement/overview?ln=id",
+  "status": 200,
+  "final": "https://www.tiktok.com/safety/id-ID/policies-and-engagement/overview?ln=id",
+  "title": "Kebijakan &amp;amp; keterlibatan | TikTok",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.linkedin.com/premium/",
+  "status": 403,
+  "final": "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpremium%2F",
+  "title": null,
+  "error": "HTTP 403",
+  "class": "BLOCKED_BOT"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/social-media",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/social-media",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabtechlab.com/standards/",
+  "status": 200,
+  "final": "https://iabtechlab.com/standards/",
+  "title": "IAB Tech Lab",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/digital-marketing",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/digital-marketing",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.linkedin.com/learning/",
+  "status": 200,
+  "final": "https://www.linkedin.com/learning/",
+  "title": "LinkedIn Learning: Kursus Pelatihan Online dan Pengembangan Keahlian",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/path/196034",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/path/196034",
+  "title": "Develop community strategies and processes : Learn new skills to build your brand or busin",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/inbound-sales",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/inbound-sales",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://certifications.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses",
+  "status": 200,
+  "final": "https://certifications.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses",
+  "title": "600-101: Meta Community Management Online Courses : Learn new skills to build your brand o",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/hubspot-sales-hub-software",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/hubspot-sales-hub-software",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/business/learn/course/list",
+  "status": 200,
+  "final": "https://ads.tiktok.com/business/learn/course/list",
+  "title": "Business Learning Center",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/aeo-fundamentals-certification-en",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/aeo-fundamentals-certification-en",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/",
+  "status": 200,
+  "final": "https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course/",
+  "title": "Free Google Analytics 4 course - GA4 Fundamentals",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/",
+  "status": 200,
+  "final": "https://www.analyticsmania.com/courses/google-tag-manager-fundamentals-course/",
+  "title": "Google Tag Manager Fundamentals - Course (2026) - Analytics Mania",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/courses/digital-advertising",
+  "status": 200,
+  "final": "https://academy.hubspot.com/courses/digital-advertising",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.warc.com/",
+  "status": 200,
+  "final": "https://www.warc.com/en",
+  "title": "WARC | Marketing Effectiveness",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/",
+  "status": 200,
+  "final": "https://www.semrush.com/academy/courses/fundamentals-of-marketing-analytics/",
+  "title": "Fundamentals of Marketing Analytics - Semrush Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.coursera.org/professional-certificates/facebook-marketing-analytics",
+  "status": 200,
+  "final": "https://www.coursera.org/professional-certificates/facebook-marketing-analytics",
+  "title": "Sertifikat Profesional Meta Analisis Pemasaran | Coursera",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+  "status": 200,
+  "final": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=id",
+  "title": "Panduan Google tentang Pengoptimalan untuk Fitur AI Generatif di Google Penelusuran | Pusa",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/training/support/faq",
+  "status": 200,
+  "final": "https://learn.microsoft.com/en-us/training/support/faq",
+  "title": "Microsoft Learn frequently asked questions (FAQs) | Microsoft Learn",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://academy.hubspot.com/",
+  "status": 200,
+  "final": "https://academy.hubspot.com/",
+  "title": "HubSpot Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/collection/3523001-achievements",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/collection/3523001-achievements",
+  "title": "TikTok Academy Achievements : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://learn.microsoft.com/training/ai/",
+  "status": 404,
+  "final": "https://learn.microsoft.com/id-id/training/ai/",
+  "title": null,
+  "error": "HTTP 404",
+  "class": "DEAD"
+ },
+ {
+  "url": "https://www.semrush.com/academy/courses/ai-for-marketing-course/",
+  "status": 200,
+  "final": "https://www.semrush.com/academy/courses/ai-for-marketing-course/",
+  "title": "How to Become an AI-Powered Marketer - Semrush Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://learn.zapier.com/",
+  "status": 200,
+  "final": "https://learn.zapier.com/",
+  "title": "Zapier Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.nielsen.com/news-center/2023/nielsen-more-than-doubles-tv-audience-measurement-in-indonesia/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.nielsen.com/news-center/2022/nielsen-launches-streaming-content-ratings-enabling-cross-media-measurement-in-indonesia/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://business.linkedin.com/advertise/ads/marketing-academy",
+  "status": 200,
+  "final": "https://business.linkedin.com/advertise/ads/marketing-academy",
+  "title": "LinkedIn Ads Certifications | Advertise on LinkedIn",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.iab.com/guidelines/mrc-social-media-measurement-guidelines/",
+  "status": 200,
+  "final": "https://www.iab.com/guidelines/mrc-social-media-measurement-guidelines/",
+  "title": "IAB - MRC Social Media Measurement Guidelines",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications",
+  "status": 200,
+  "final": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications",
+  "title": "Government Functional Standard - GovS 011: Communications - GOV.UK",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/",
+  "status": 200,
+  "final": "https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/",
+  "title": "ICC/Esomar International Code on Market, Opinion and Social Research and Data Analytics - ",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/catalog?edition=starter",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/catalog?edition=starter",
+  "title": "Meta Blueprint : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://help.shopee.co.id/portal/4/article/71191-Kebijakan-Pengiklanan-Shopee",
+  "status": 200,
+  "final": "https://help.shopee.co.id/portal/4/article/71191-Kebijakan-Pengiklanan-Shopee",
+  "title": "Kebijakan Pengiklanan Shopee | Pusat Bantuan Shopee ID",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://marketingplatform.google.com/about/support/",
+  "status": 200,
+  "final": "https://marketingplatform.google.com/about/support/",
+  "title": "Services and Support - Google Marketing Platform",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.thejakartapost.com/content-funding-classifications",
+  "status": 200,
+  "final": "https://www.thejakartapost.com/content-funding-classifications",
+  "title": "Content Funding Classifications | The Jakarta Post",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/9427120?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/9427120?hl=en",
+  "title": "About Reach Planner - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/7539883?hl=id",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/7539883?hl=id",
+  "title": "Pelatihan Google Ads di Skillshop - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://agencies.facebookblueprint.com/student/catalog",
+  "status": 200,
+  "final": "https://agencies.facebookblueprint.com/student/catalog",
+  "title": "Meta Blueprint : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://connectacademy.walmartlearning.com/student/catalog/list?category_ids=399-ad-certifications",
+  "status": 200,
+  "final": "https://connectacademy.walmartlearning.com/student/catalog/list?category_ids=399-ad-certifications",
+  "title": "Ad Certifications : Walmart Connect Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax",
+  "title": "Query syntax &nbsp;|&nbsp; BigQuery &nbsp;|&nbsp; Google Cloud Documentation",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabtechlab.com/solutions/",
+  "status": 200,
+  "final": "https://iabtechlab.com/solutions/",
+  "title": "IAB Tech Lab",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabtechlab.com/standards/measurement/",
+  "status": 200,
+  "final": "https://iabtechlab.com/standards/measurement/",
+  "title": "IAB Tech Lab",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/search/docs/essentials",
+  "status": 200,
+  "final": "https://developers.google.com/search/docs/essentials?hl=id",
+  "title": "Dasar-Dasar Google Penelusuran (sebelumnya Pedoman Webmaster) | Pusat Google Penelusuran &",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement",
+  "status": 200,
+  "final": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement",
+  "title": "Deploy Marketing Cloud Engagement | Salesforce Trailhead",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a",
+  "status": 200,
+  "final": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a",
+  "title": "Bing Webmaster Tools - Help Documentation",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/creative-center?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/creative-center?lang=id",
+  "title": "Tentang Creative Center",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.openintro.org/book/ims/",
+  "status": 200,
+  "final": "https://www.openintro.org/book/ims/",
+  "title": "Introduction to Modern Statistics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://showcase.kumparan.com/pedoman-media-siber",
+  "status": 200,
+  "final": "https://showcase.kumparan.com/pedoman-media-siber",
+  "title": "Acuan pedoman kumparan sebagai media online di Indonesia | Kumparan Showcase",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://success.awin.com/articles/en_US/Knowledge/What-is-Affiliate-Marketing",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://impact.com/pxa/learning-path/affiliate-marketing-partnerships-certification/",
+  "status": 200,
+  "final": "https://impact.com/pxa/learning-path/affiliate-marketing-partnerships-certification/",
+  "title": "Affiliate Marketing &amp; Partnerships Certification Course - impact.com",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/business/id/academy",
+  "status": 200,
+  "final": "https://ads.tiktok.com/business/id/academy",
+  "title": "Akademi TikTok | Belajar Iklan TikTok | TikTok for Business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/11912632",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/11912632",
+  "title": "Tips YouTube Insights - Komputer - Bantuan YouTube",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning",
+  "title": "Meta Ads Manager learning : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/9385307?co=GENIE.CountryCode%3DID&hl=id",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/9385307?co=GENIE.CountryCode%3DID&hl=id",
+  "title": "Mulai menggunakan Kemitraan Kreator YouTube - Indonesia - Bantuan YouTube",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.nngroup.com/articles/journey-mapping-101/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.ama.org/topics/brand-and-branding/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters",
+  "status": 200,
+  "final": "https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters",
+  "title": "Ch. 3 Why It Matters - Principles of Accounting, Volume 2: Managerial Accounting | OpenSta",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/about-tiktok-one-for-creators?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/about-tiktok-one-for-creators?lang=id",
+  "title": "Tentang TikTok One untuk Kreator",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://formedia.facebookblueprint.com/student/activity/412177-resources-for-creators",
+  "status": 200,
+  "final": "https://formedia.facebookblueprint.com/student/activity/412177-resources-for-creators",
+  "title": "Resources for Creators : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://americanadvertisingandmarketingassociation.org/resources/planning-strategy/positioning-messaging-framework/",
+  "status": 403,
+  "final": "https://americanadvertisingandmarketingassociation.org/resources/planning-strategy/positioning-messaging-framework/",
+  "title": null,
+  "error": "HTTP 403",
+  "class": "FORBIDDEN"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/16622701?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/16622701?hl=en",
+  "title": "Manage your channel’s moderation settings - Computer - YouTube Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.communications.gov.uk/wp-content/uploads/2024/02/2024-02-13-GCS-Evaluation-Cycle-FINAL-OFFICIAL.pdf",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://gcs.civilservice.gov.uk/wp-content/uploads/2020/03/Guide-to-Campaign-Planning-OASIS-Framework.pdf",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+  "class": "ERROR"
+ },
+ {
+  "url": "https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses",
+  "status": 200,
+  "final": "https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses",
+  "title": "600-101: Meta Community Management Online Courses : Learn new skills to build your brand o",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.facebookblueprint.com/student/catalog/list?course_type=certifications&locale=en",
+  "status": 200,
+  "final": "https://www.facebookblueprint.com/student/catalog/list?course_type=certifications&locale=en",
+  "title": "Meta Blueprint : Learn new skills to build your brand or business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/tagmanager/answer/14009635?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/tagmanager/answer/14009635?hl=en",
+  "title": "Set up consent mode - Tag Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.w3.org/TR/WCAG22/",
+  "status": 403,
+  "final": "https://www.w3.org/TR/WCAG22/",
+  "title": null,
+  "error": "HTTP 403",
+  "class": "FORBIDDEN"
+ },
+ {
+  "url": "https://standards.esomar.org/assets/documents/icc-esomar-code-2025.pdf",
+  "status": 200,
+  "final": "https://standards.esomar.org/assets/documents/icc-esomar-code-2025.pdf",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/13965727",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/13965727",
+  "title": "Konversi vs. peristiwa utama di Google Analytics - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/",
+  "status": 200,
+  "final": "https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/",
+  "title": "Break-even point calculator - Small Business Administration",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+  "status": 200,
+  "final": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=id",
+  "title": "Membuat Konten yang Bermanfaat, Tepercaya, dan Mengutamakan Pengguna | Pusat Google Penelu",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.optimizely.com/optimization-glossary/statistical-significance",
+  "status": 200,
+  "final": "https://www.optimizely.com/optimization-glossary/statistical-significance",
+  "title": "Statistical significance",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/tag-platform/security/concepts/consent-mode",
+  "status": 200,
+  "final": "https://developers.google.com/tag-platform/security/concepts/consent-mode?hl=id",
+  "title": "Ringkasan mode izin &nbsp;|&nbsp; Security and Privacy hub &nbsp;|&nbsp; Google for Develo",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://yougov.com/reports/52747-id-media-consumption-report-2025",
+  "status": 200,
+  "final": "https://yougov.com/reports/52747-id-media-consumption-report-2025",
+  "title": "Screens, streams, and scrolls:​ State of the Indonesia's media consumption in 2025​",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://business.whatsapp.com/policy/preview?lang=id_ID",
+  "status": 400,
+  "final": "https://business.whatsapp.com/policy/preview?lang=id_ID",
+  "title": null,
+  "error": "HTTP 400",
+  "class": "ERROR"
+ },
+ {
+  "url": "https://trainingworkshops.facebookblueprint.com/student/path/253143-ad-campaign-evaluation-and-measurement",
+  "status": 200,
+  "final": "https://trainingworkshops.facebookblueprint.com/student/path/253143-ad-campaign-evaluation-and-measurement",
+  "title": "Campaign evaluation and measurement strategies : Learn new skills to build your brand or b",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/",
+  "status": 200,
+  "final": "https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/",
+  "title": "The ICC Advertising and Marketing Communications Code - ICC - International Chamber of Com",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/1752122/",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/1752122/",
+  "title": "Peringkat Iklan: Definisi - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/mail/answer/81126?hl=id",
+  "status": 200,
+  "final": "https://support.google.com/mail/answer/81126?hl=id",
+  "title": "Panduan pengirim email - Bantuan Gmail",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+  "status": 200,
+  "final": "https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+  "title": "Learning Lab | Microsoft Advertising",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/7337243/use-keyword-planner",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/7337243/use-keyword-planner",
+  "title": "Menggunakan Keyword Planner - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/3022575?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/3022575?hl=en",
+  "title": "About Keyword Planner forecasts - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.optimizely.com/hc/en-us/articles/39075638006541-Steps-to-create-an-experiment",
+  "status": 200,
+  "final": "https://docs.optimizely.com/performance-edge/docs/Pv4s-steps-to-create-an-experiment",
+  "title": "Steps to create an experiment - Performance Edge docs",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://about.ads.microsoft.com/en/get-started/new-advertiser-faqs",
+  "status": 200,
+  "final": "https://about.ads.microsoft.com/en/get-started/new-advertiser-faqs",
+  "title": "Frequently Asked Questions for new Microsoft Advertisers | Microsoft Advertising",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://mediaratingcouncil.org/sites/default/files/Standards/Digital%20Audio%20Measurement%20Standards%20-%20Final%20Version%201.0.pdf",
+  "status": 200,
+  "final": "https://mediaratingcouncil.org/sites/default/files/Standards/Digital%20Audio%20Measurement%20Standards%20-%20Final%20Version%201.0.pdf",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/9427192?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/9427192?hl=en",
+  "title": "About suggestions in Reach Planner - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://about.ads.microsoft.com/en/tools/planning/keyword-planner",
+  "status": 200,
+  "final": "https://about.ads.microsoft.com/en/tools/planning/keyword-planner",
+  "title": "Performance Insights &amp; Keyword Planner Tool | Microsoft Advertising",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/9808024?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/9808024?hl=en",
+  "title": "About forecasts in Reach Planner - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/9510373?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/9510373?hl=en",
+  "title": "Create a Search campaign - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf",
+  "status": 200,
+  "final": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/2579754?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/2579754?hl=en",
+  "title": "Use auction insights to compare performance - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/2453972?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/2453972?hl=en",
+  "title": "About negative keywords - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/adspolicy/answer/16427615",
+  "status": 200,
+  "final": "https://support.google.com/adspolicy/answer/16427615",
+  "title": "Pengalaman pada tujuan iklan - Bantuan Kebijakan Periklanan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/14086?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/14086?hl=en",
+  "title": "Landing page - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/advertising/guides/responsive-search-ads?view=bingads-13",
+  "status": 200,
+  "final": "https://learn.microsoft.com/en-us/advertising/guides/responsive-search-ads?view=bingads-13",
+  "title": "Responsive Search Ads - Microsoft Advertising API | Microsoft Learn",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.about.ads.microsoft.com/en/solutions/ad-products-formats/search",
+  "status": 200,
+  "final": "https://www.about.ads.microsoft.com/en/solutions/ad-products-formats/search",
+  "title": "Microsoft Search ads | Microsoft Advertising",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/7478529",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/7478529",
+  "title": "Tentang opsi pencocokan kata kunci - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/14997606?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/14997606?hl=en",
+  "title": "How matching works - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/2472708?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/2472708?hl=en",
+  "title": "About the search terms report - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/6167122?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/6167122?hl=en",
+  "title": "Best practices for creating effective responsive search ads - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/17092074?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/17092074?hl=en",
+  "title": "Search campaigns specs and format requirements - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/13258081?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/13258081?hl=en",
+  "title": "Set up enhanced conversions for web using the Google tag - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/15713840?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/15713840?hl=en",
+  "title": "About enhanced conversions for leads - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/10966879?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/10966879?hl=en",
+  "title": "How Google Ads calculates bids - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/6167148?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/6167148?hl=en",
+  "title": "Pick the right bid strategy - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/2998031/about-offline-conversion-imports",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/2998031/about-offline-conversion-imports",
+  "title": "Tentang impor konversi offline - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/faq/10286469?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/faq/10286469?hl=en",
+  "title": "Bidding - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/16560108",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/16560108",
+  "title": "Menyiapkan konversi web - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/7103314?hl=en-id",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/7103314?hl=en-id",
+  "title": "Get impression share data - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/13738235?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/13738235?hl=en",
+  "title": "Using Quality Score to improve your performance - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/6167118?preview=true",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/6167118?preview=true",
+  "title": "Tentang Skor Kualitas untuk kampanye Penelusuran - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://about.ads.microsoft.com/en/tools/performance/conversion-tracking",
+  "status": 200,
+  "final": "https://about.ads.microsoft.com/en/tools/performance/conversion-tracking",
+  "title": "Conversion tracking tools | Microsoft Advertising",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/6261395/set-up-a-campaign-experiment",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/6261395/set-up-a-campaign-experiment",
+  "title": "Menyiapkan eksperimen kustom - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/2497703?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/2497703?hl=en",
+  "title": "About impression share - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/10683687?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/10683687?hl=en",
+  "title": "About custom experiments - Google Ads Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabtechlab.com/standards/openrtb/",
+  "status": 200,
+  "final": "https://iabtechlab.com/standards/openrtb/",
+  "title": "IAB Tech Lab",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf",
+  "status": 200,
+  "final": "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.lazadasolutions.com/id/id-faqs/",
+  "status": 200,
+  "final": "https://www.lazadasolutions.com/id/id-faqs/",
+  "title": "FAQs - Lazada Sponsored Solutions",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iklan.shopee.co.id/learn/faq/574/1716",
+  "status": 200,
+  "final": "https://iklan.shopee.co.id/learn/faq/574/1716",
+  "title": "Bagaimana Cara Mengaktifkan Iklan Produk | Shopee Ads Indonesia",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/about-product-shopping-ads-on-tokopedia?lang=id",
+  "title": "Business Resource Center",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://lazada-sellercenter.readme.io/docs/guide-for-creating-products",
+  "status": 200,
+  "final": "https://lazada-sellercenter.readme.io/docs/guide-for-creating-products",
+  "title": "Guide for Creating Products",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/",
+  "status": 200,
+  "final": "https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/",
+  "title": "IAB Europe&#039;s Commerce (Incl. Retail) Media Measurement Standards V2.1 - IAB Europe",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/merchants/answer/7052112",
+  "status": 200,
+  "final": "https://support.google.com/merchants/answer/7052112",
+  "title": "Spesifikasi data produk - Bantuan Google Merchant Center",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://advertising.amazon.com/help/GKSQZKMHW95GJDB7",
+  "status": 200,
+  "final": "https://advertising.amazon.com/help/GKSQZKMHW95GJDB7",
+  "title": "Amazon",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/how-to-create-product-shopping-ads?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id",
+  "title": "Cara Membuat Product Shopping Ads | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/catalog-product-parameters",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/catalog-product-parameters",
+  "title": "Catalog Product Parameters | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://lazada-sellercenter.readme.io/docs/createproduct",
+  "status": 200,
+  "final": "https://lazada-sellercenter.readme.io/docs/createproduct",
+  "title": "CreateProduct",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://iklan.shopee.co.id/learn/faq/555/8",
+  "status": 200,
+  "final": "https://iklan.shopee.co.id/learn/faq/555/8",
+  "title": "Pemantauan Performa Iklan | Iklanku Indonesia",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Regional-Bisnis.com.pdf",
+  "status": 200,
+  "final": "https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Regional-Bisnis.com.pdf",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Harian-Bisnis-Indonesia.pdf?id=ff28ea7963672966e0820fa11b084ac7c62d14d7615794299d65bbce7e6b10c1",
+  "status": 200,
+  "final": "https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Harian-Bisnis-Indonesia.pdf?id=ff28ea7963672966e0820fa11b084ac7c62d14d7615794299d65bbce7e6b10c1",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://mediaindonesia.com/template/layanan-bisnis/rate_card_mi.html",
+  "status": 403,
+  "final": "https://mediaindonesia.com/template/layanan-bisnis/rate_card_mi.html",
+  "title": null,
+  "error": "HTTP 403",
+  "class": "FORBIDDEN"
+ },
+ {
+  "url": "https://advertising.amazon.com/help/G3XAU5G7C2JTNQTM",
+  "status": 200,
+  "final": "https://advertising.amazon.com/help/G3XAU5G7C2JTNQTM",
+  "title": "Amazon",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.lazadasolutions.com/id/faq/bagaimana-cara-mengelola-campaign-sponsored-discovery-di-aplikasi-lazada-seller-center/",
+  "status": 200,
+  "final": "https://www.lazadasolutions.com/id/faq/bagaimana-cara-mengelola-campaign-sponsored-discovery-di-aplikasi-lazada-seller-center/",
+  "title": "Bagaimana cara mengelola campaign Sponsored Discovery di Aplikasi Lazada Seller Center? - ",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.ana.net/content/show/id/pr-2023-06-updated-media-buying-contract",
+  "status": 200,
+  "final": "https://www.ana.net/content/show/id/pr-2023-06-updated-media-buying-contract",
+  "title": "ANA Releases Updated Media Buying Contract Template | About the ANA | ANA",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/admanager/answer/9248464",
+  "status": 200,
+  "final": "https://support.google.com/admanager/answer/9248464",
+  "title": "Cara bertransaksi di Ad Manager - Bantuan Google Ad Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/create-manage-catalogs?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/create-manage-catalogs?lang=id",
+  "title": "Cara Membuat Katalog | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.iab.com/guidelines/retail-media-advanced-measurement-and-data-collaboration/",
+  "status": 200,
+  "final": "https://www.iab.com/guidelines/retail-media-advanced-measurement-and-data-collaboration/",
+  "title": "IAB | Retail Media Advanced Measurement and Data Collaboration",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://jdih.kemenkeu.go.id/dok/pmk-131-tahun-2024",
+  "status": 200,
+  "final": "https://jdih.kemenkeu.go.id/dok/pmk-131-tahun-2024",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2709362",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2709362",
+  "title": "Overview of Campaign Manager 360 - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.iab.com/wp-content/uploads/2024/01/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf",
+  "status": 200,
+  "final": "https://www.iab.com/wp-content/uploads/2024/01/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2826636",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2826636",
+  "title": "Placement tags - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/admanager/answer/9405477?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/admanager/answer/9405477?hl=en",
+  "title": "About line items - Google Ad Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/3312873?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/3312873?hl=en",
+  "title": "Set up ads and placements for in-stream or VPAID - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2826648?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2826648?hl=en",
+  "title": "Test tags - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://wfanet.org/knowledge/item/2018/06/21/WFA-releases-full-version-of-Global-Media-Charter-to-reform-digital-ad-ecosystem?originNode=3023&originTag=Global+Media+Charter",
+  "status": 200,
+  "final": "https://wfanet.org/knowledge/item/2018/06/21/WFA-releases-full-version-of-Global-Media-Charter-to-reform-digital-ad-ecosystem?originNode=3023&originTag=Global+Media+Charter",
+  "title": "WFA releases full version of Global Media Charter to reform digital ad ecosystem - World F",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/",
+  "status": 400,
+  "final": "https://developers.facebook.com/docs/marketing-api/conversions-api/",
+  "title": null,
+  "error": "HTTP 400",
+  "class": "ERROR"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2829774?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2829774?hl=en",
+  "title": "Tagging issues in Campaign Manager 360 - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/13681097",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/13681097",
+  "title": "Manage Floodlight details, conversions, or status - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/2838056?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/2838056?hl=en",
+  "title": "Set up a campaign - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/admanager/answer/6160380?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/admanager/answer/6160380?hl=en",
+  "title": "Investigate report discrepancies - Google Ad Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/3414002?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/3414002?hl=en",
+  "title": "Ad creation for creative-placement assignments - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads?lang=id",
+  "title": "In-Feed Auction Ads TikTok | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/9999963?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/9999963?hl=en",
+  "title": "Create or request a Campaign Manager 360 billing report - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/getting-started-events-api?redirected=1",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/getting-started-events-api?redirected=1",
+  "title": "Get Started with Events API | TikTok Ads Manager",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.pajak.go.id/id/peraturan-7",
+  "status": 200,
+  "final": "https://www.pajak.go.id/id/peraturan-7",
+  "title": "PETUNJUK TEKNIS PEMBUATAN FAKTUR PAJAK DALAM RANGKA PELAKSANAAN PERATURAN MENTERI KEUANGAN",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/6193740?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/6193740?hl=en",
+  "title": "How Campaign Manager 360 counts impressions and clicks - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/15406732?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/15406732?hl=en",
+  "title": "How Campaign Manager 360 billing works - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/campaignmanager/answer/13744493?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/campaignmanager/answer/13744493?hl=en",
+  "title": "View and download your invoices - Campaign Manager 360 Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/tag-platform/tag-manager/server-side/debug",
+  "status": 200,
+  "final": "https://developers.google.com/tag-platform/tag-manager/server-side/debug?hl=id",
+  "title": "Melakukan pratinjau dan debug terhadap penampung server &nbsp;|&nbsp; Google Tag Manager -",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/admanager/answer/6214526?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/admanager/answer/6214526?hl=en",
+  "title": "Google Ad Manager billing setup - Google Ad Manager Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://sqlbolt.com/topics",
+  "status": 200,
+  "final": "https://sqlbolt.com/topics",
+  "title": "SQLBolt - Learn SQL - Intermediate SQL Topics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/7029846?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/7029846?hl=en",
+  "title": "BigQuery Export schema - Analytics Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/10597962",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/10597962",
+  "title": "Memilih setelan atribusi - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/analytics/answer/9191807",
+  "status": 200,
+  "final": "https://support.google.com/analytics/answer/9191807",
+  "title": "Tentang sesi Analytics - Bantuan Analytics",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/analytics/bigquery/schemas",
+  "status": 200,
+  "final": "https://developers.google.com/analytics/bigquery/schemas?hl=id",
+  "title": "Skema BigQuery Export &nbsp;|&nbsp; Google Analytics &nbsp;|&nbsp; Google for Developers",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://miguelhernan.org/whatifbook",
+  "status": 200,
+  "final": "https://miguelhernan.org/whatifbook",
+  "title": "Causal Inference: What If (the book) &mdash; Miguel Hernán",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/meridian/docs/basics/meridian-introduction",
+  "status": 200,
+  "final": "https://developers.google.com/meridian/docs/basics/meridian-introduction",
+  "title": "Meridian &nbsp;|&nbsp; Google for Developers",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration",
+  "status": 200,
+  "final": "https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration",
+  "title": "Calibrate treatment priors &nbsp;|&nbsp; Meridian &nbsp;|&nbsp; Google for Developers",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://docs.cloud.google.com/data-studio/tutorial-calculated-fields-intro",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/data-studio/tutorial-calculated-fields-intro?hl=id",
+  "title": "Pengantar tutorial kolom kalkulasi &nbsp;|&nbsp; Data Studio &nbsp;|&nbsp; Google Cloud Do",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/webmasters/answer/10268906",
+  "status": 200,
+  "final": "https://support.google.com/webmasters/answer/10268906",
+  "title": "Bagaimana performa Anda di Google? - Bantuan Search Console",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://docs.cloud.google.com/bigquery/docs/introduction-sql",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/bigquery/docs/introduction-sql?hl=id",
+  "title": "Pengantar SQL di BigQuery &nbsp;|&nbsp; Google Cloud Documentation",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm",
+  "status": 200,
+  "final": "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm",
+  "title": "Visual Best Practices - Tableau",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014",
+  "status": 200,
+  "final": "https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014",
+  "title": "UU No. 28 Tahun 2014 tentang Hak Cipta - JDIH BPK",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+  "status": 200,
+  "final": "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+  "title": "JDIH Kemkomdigi - Undang-Undang Nomor 27 Tahun 2022",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+  "status": 200,
+  "final": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=id",
+  "title": "Pengantar Cara Kerja Markup Data Terstruktur | Pusat Google Penelusuran &nbsp;|&nbsp; Docu",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute",
+  "status": 200,
+  "final": "https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute?hl=id",
+  "title": "Mengoptimalkan komputasi kueri &nbsp;|&nbsp; BigQuery &nbsp;|&nbsp; Google Cloud Documenta",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.tiktok.com/id/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok",
+  "status": 200,
+  "final": "https://www.tiktok.com/support/faq_detail?id=7636670088170773013",
+  "title": "TikTok Support",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dewaniklanindonesia.com/etika-pariwara-indonesia-epi/",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/154235",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/154235",
+  "title": "Menambahkan penempatan produk berbayar, sponsor &amp; endorsement - Bantuan YouTube",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://shopee.co.id/m/affiliates",
+  "status": 200,
+  "final": "https://shopee.co.id/m/affiliates",
+  "title": null,
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://jdih.dpr.go.id/setjen/detail-dokumen/tipe/uu/id/1814",
+  "status": 403,
+  "final": "https://jdih.dpr.go.id/setjen/detail-dokumen/tipe/uu/id/1814",
+  "title": null,
+  "error": "HTTP 403",
+  "class": "FORBIDDEN"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/how-to-use-top-ads-dashboard",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/how-to-use-top-ads-dashboard",
+  "title": "Business Resource Center",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/9313698?cid=analytics-series&hl=en",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/9313698?cid=analytics-series&hl=en",
+  "title": "Understand your YouTube engagement - Computer - YouTube Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/9314486?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/9314486?hl=en",
+  "title": "Check your YouTube thumbnail impressions and watch time - Computer - YouTube Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/peraturan%2Bpemerintah%2Bnomor%2B71%2Btahun%2B2019",
+  "status": 200,
+  "final": "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/peraturan%2Bpemerintah%2Bnomor%2B71%2Btahun%2B2019",
+  "title": "JDIH Kemkomdigi - Peraturan Pemerintah Nomor 71 Tahun 2019",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/resources/help/article/about-the-content-disclosure-setting-for-creators?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/about-the-content-disclosure-setting-for-creators?lang=id",
+  "title": "Tentang Pengaturan Pengungkapan Konten Komersial untuk Kreator",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/12942217?co=YOUTUBE",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/12942217?co=YOUTUBE",
+  "title": "Tips analisis tab Konten - Video - Bantuan YouTube",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.tiktok.com/en/account-and-privacy/account-privacy-settings/manage-comments",
+  "status": 200,
+  "final": "https://www.tiktok.com/support/faq_detail?id=7636676985892739605",
+  "title": "TikTok Support",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.meta.com/safety/topics/safety-basics/tools/stay-safe/",
+  "status": 400,
+  "final": "https://www.meta.com/safety/topics/safety-basics/tools/stay-safe/",
+  "title": null,
+  "error": "HTTP 400",
+  "class": "ERROR"
+ },
+ {
+  "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/884/t/undangundang%20nomor%201%20tahun%202024",
+  "status": 200,
+  "final": "https://jdih.komdigi.go.id/produk_hukum/view/id/884/t/undangundang%20nomor%201%20tahun%202024",
+  "title": "JDIH Kemkomdigi - Undang-Undang Nomor 1 Tahun 2024",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://facebook-blueprintglobal1.pearsonvue.com/index",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.meta.com/safety/topics/safety-basics/policies/",
+  "status": 400,
+  "final": "https://www.meta.com/safety/topics/safety-basics/policies/",
+  "title": null,
+  "error": "HTTP 400",
+  "class": "ERROR"
+ },
+ {
+  "url": "https://support.google.com/youtube/answer/9826490?hl=en",
+  "status": 200,
+  "final": "https://support.google.com/youtube/answer/9826490?hl=en",
+  "title": "Moderate live chat - YouTube Help",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://support.google.com/google-ads/answer/9702955",
+  "status": 200,
+  "final": "https://support.google.com/google-ads/answer/9702955",
+  "title": "Tentang sertifikasi Google Ads - Bantuan Google Ads",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ads.tiktok.com/help/article/tiktok-shopping-and-showcase?lang=id",
+  "status": 200,
+  "final": "https://ads.tiktok.com/resources/help/article/tiktok-shopping-and-showcase?lang=id",
+  "title": "Tentang TikTok Shop dan Showcase | TikTok for Business",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://facebook-blueprint1.pearsonvue.com/index",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://www.tiktok.com/community-guidelines/en/",
+  "status": 200,
+  "final": "https://www.tiktok.com/safety/en/policies-and-engagement/overview",
+  "title": "Policies &amp; engagement | TikTok",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management",
+  "status": 200,
+  "final": "https://www.nsw.gov.au/nsw-government/communications/social-media-guidelines/community-management",
+  "title": "Community management for social media | NSW Government",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Media-Planner_R1124602",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Connection-Planner_R1129068",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5464567008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia/jobs/5464567008",
+  "title": "Job Application for Biddable Social Specialist at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://www.tiktokacademy.com/student/page/3053325-certification-faqs",
+  "status": 200,
+  "final": "https://www.tiktokacademy.com/student/page/3053325-certification-faqs",
+  "title": "Certification FAQs : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://advertising.amazon.com/academy/help",
+  "status": 200,
+  "final": "https://advertising.amazon.com/academy/help",
+  "title": "Help and FAQ - Amazon Ads Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Paid-Social-Specialist_JR0095187-1",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://advertising.amazon.com/academy/student/activity/86034/amazon-ads-foundations-certification-assessment",
+  "status": 200,
+  "final": "https://advertising.amazon.com/academy/student/activity/86034/amazon-ads-foundations-certification-assessment",
+  "title": "Introduction to Amazon Ads Certification Assessment | Amazon Ads Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://advertising.amazon.com/academy/student/path/1532",
+  "status": 200,
+  "final": "https://advertising.amazon.com/academy/student/path/1532",
+  "title": "Certification: Get certified in Amazon Ads Programmatic Solutions | Amazon Ads Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://github.com/putratryarga/putratryarga-dpa",
+  "status": 200,
+  "final": "https://github.com/putratryarga/putratryarga-dpa",
+  "title": "GitHub - putratryarga/putratryarga-dpa · GitHub",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5378904008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://ipg.tiktokacademy.com/student/path/2552988-certification-exam-prep",
+  "status": 200,
+  "final": "https://ipg.tiktokacademy.com/student/path/2552988-certification-exam-prep",
+  "title": "TikTok Media Buying Professional Certification : TikTok Academy",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/SEO-Executive_R1121609-1",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047166008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047166008",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Analyst--Analytics-Insights_R16240",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5465665008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia/jobs/5465665008",
+  "title": "Job Application for Manager, SEO, MENA at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5459870008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia/jobs/5459870008",
+  "title": "Job Application for Associate, Data Analytics &amp; BI, GOC at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Programmatic-Specialist_R1123420",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://careers.publicisgroupe.com/jobs/149884?lang=en-us",
+  "status": 200,
+  "final": "https://careers.publicisgroupe.com/jobs/149884?lang=en-us",
+  "title": "Senior Digital Planning Manager in Jakarta, Indonesia | Publicis Groupe Holdings B.V",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5313454008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Senior-Associate--SEO_R1122543",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Digital-Consultant_R1123158",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5208747008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://careers.publicisgroupe.com/jobs/176664?lang=en-US",
+  "status": 200,
+  "final": "https://careers.publicisgroupe.com/jobs/176664?lang=en-US",
+  "title": "Ad Operations Specialist in Johannesburg, South Africa | Publicis Groupe Holdings B.V",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5378823008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Data-Science-and-Analytics-05_60055-AS",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Manager_R1126792",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5341033008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Marketing-Lead_R1129669",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://careers.publicisgroupe.com/jobs/179047?lang=en-US",
+  "status": 200,
+  "final": "https://careers.publicisgroupe.com/jobs/179047?lang=en-US",
+  "title": "Media Planner in Miami, Florida | Publicis Groupe Holdings B.V",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Manager--Influencer-Marketing_R1130356",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Media-Analyst_R1129420-1",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5235133008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/wppmedia/jobs/5425758008",
+  "status": 200,
+  "final": "https://job-boards.greenhouse.io/wppmedia?error=true",
+  "title": "Jobs at WPP Media",
+  "error": null,
+  "class": "OK"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Content-Manager_R1121993",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Organic---AI-Manager_JR0099039",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Paid-Social-Specialist_JR0096922",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Senior-Enablement-Lead--Analytics--CRO----Personalisation-_JR0096564",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/CreativeExternalCareerSite/job/Consultant-e--senior---Influence-management---stratgie_JR0093003",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://job-boards.greenhouse.io/omguk",
+  "status": 404,
+  "final": "https://job-boards.greenhouse.io/omguk",
+  "title": null,
+  "error": "HTTP 404",
+  "class": "DEAD"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/fr-FR/MediaExternalCareerSite/job/CONSULTANT-MEDIA-360-JUNIOR--F-H-X-_JR0093690",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Consultant-e-Senior-Influence-Management---Strat%C3%A9gie_JR0093003",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Search---Ad-Ops-Executive_R1129353-1",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Account-Executive---Talent-and-Influencer_JR0092770",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Affiliate-Manager_JR0097605",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ },
+ {
+  "url": "https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Alternance-consultant-social-media_JR0094195",
+  "status": null,
+  "final": null,
+  "title": null,
+  "error": "SSL_LOCAL_TRUST (false positive kemungkinan)",
+  "class": "SSL_FALSE_POSITIVE"
+ }
+]

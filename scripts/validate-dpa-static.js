@@ -9,7 +9,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-const read = (p) => fs.readFileSync(path.join(process.cwd(), p), "utf8");
+const read = (p) => fs.readFileSync(path.join(process.cwd(), p), "utf8").replace(/\r\n/g, "\n");
 const fail = [];
 const report = {};
 const idPattern = /^DPA-T\d{2}-CH\d{2}$/;
@@ -432,7 +432,7 @@ try {
     "https://support.google.com/youtube/answer/9826490?hl=en",
     "https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters",
     "https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/",
-    "https://skillshop.withgoogle.com/googleads/",
+    "https://skillshop.withgoogle.com/",
     "https://support.google.com/analytics/answer/13965727",
     "https://developers.google.com/tag-platform/security/concepts/consent-mode",
     "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"

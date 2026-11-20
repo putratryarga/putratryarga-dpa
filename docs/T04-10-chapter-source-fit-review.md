@@ -9,7 +9,7 @@ The previous T04 rows relied mostly on a generic Skillshop/help hub. That did no
 
 | Source | Supports | Limitation |
 |---|---|---|
-| [Google Skillshop Search](https://skillshop.withgoogle.com/googleads/) | Search learning/certification route. | Not chapter-level evidence for every objective or local exam eligibility. |
+| [Google Skillshop Search](https://skillshop.withgoogle.com/) | Search learning/certification route. | Not chapter-level evidence for every objective or local exam eligibility. |
 | [Microsoft Advertising Learning Lab](https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab) | Microsoft Search learning path. | Not full Microsoft Ads operational coverage. |
 | [Google Ad Rank](https://support.google.com/google-ads/answer/1752122/) | Bid, quality, thresholds, competition, query context and asset impact. | Google auction only. |
 | [Google Keyword Planner](https://support.google.com/google-ads/answer/7337243/use-keyword-planner), [forecast guide](https://support.google.com/google-ads/answer/3022575?hl=en) | Keyword ideas, volume estimates, bid ranges and forecasts. | Estimates depend on date/location/account; not actual CPC/sales. |
@@ -66,7 +66,7 @@ Machine-readable record: [T04-10-chapter-source-fit-review.csv](T04-10-chapter-s
 
 ## External URLs reviewed 20 November 2026
 
-- skill: https://skillshop.withgoogle.com/googleads/
+- skill: https://skillshop.withgoogle.com/
 - ms: https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab
 - rank: https://support.google.com/google-ads/answer/1752122/
 - kp: https://support.google.com/google-ads/answer/7337243/use-keyword-planner
