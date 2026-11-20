@@ -355,7 +355,7 @@ try {
   const t08DeskReviewRows = t08DeskReview.trim().split("\n").length - 1;
   assertEqual("T08 10-chapter source-fit desk-review rows", t08DeskReviewRows, 10);
   const t09DeskReview = read("docs/T09-10-chapter-source-fit-review.csv");
-  const t09DeskReviewRows = t09DeskReview.trim().split("\\n").length - 1;
+  const t09DeskReviewRows = t09DeskReview.trim().split("\n").length - 1;
   assertEqual("T09 10-chapter source-fit desk-review rows", t09DeskReviewRows, 10);
   const t01DeskReview = read("docs/T01-10-chapter-source-fit-review.csv");
   const t01DeskReviewRows = t01DeskReview.trim().split("\n").length - 1;

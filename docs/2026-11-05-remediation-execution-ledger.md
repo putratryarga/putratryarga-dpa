@@ -735,3 +735,8 @@ The first validator synchronization commit `fc2a48915f715d1af0d7fc6cf541698d018c
 - Resource map remains 169 unique chapter IDs and at least two distinct URLs per chapter. Current row-based unique URL inventory: 153.
 - Static validators now avoid brittle exact-URL assertions: they report the current count, use a conservative source-inventory floor (100), and hard-check 169 rows, unique IDs, minimum two links per row and desk-review register parity. Aggregate desk-review count is calculated from declared track review registers.
 - Release remains NOT READY: Meta/retail specs, live account tests, vendor/publisher invoice evidence, formal objective fit, SME review and learner pilot remain open.
+
+
+### T09 static-validator parser correction
+
+The first T09 exact-head static run on `d00c87a8149822e2f4528aa07256961d919c5ab0` reported 10 expected desk-review data rows but parsed zero. The CSV itself was verified separately as one header plus ten unique T09 IDs. Root cause: the newly inserted validator used the literal delimiter `"\\n"` (backslash+n characters) instead of a newline delimiter `"\n"`. The source now uses `split("\n")`. This is a validator implementation defect; T09 source-map and register integrity remained 169 rows / 169 IDs / two or more links per chapter / 153 unique row URLs. The correction requires new exact-head CI evidence.
