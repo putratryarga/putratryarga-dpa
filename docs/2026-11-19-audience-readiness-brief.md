@@ -25,9 +25,10 @@ The branch also has a Vercel preview deployment in READY state: [Open preview](h
 ## What is not yet approved
 
 - Technical accuracy, depth and seniority fit for all 169 chapters still require independent review.
-- Source-to-learning-objective fit has first-pass desk review for **95/169** core chapters; **74** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
+- Source-to-learning-objective fit has first-pass desk review for **105/169** core chapters; **74** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
 - All **507** Q&A remain reflective/non-scored and require answer correctness, alternate-answer and SME/editorial approval.
-- T08 now has first-pass source-specific desk dispositions for all 10 chapters using official 2026 Bisnis publisher material, Google Ad Manager, WFA, MRC and Indonesian tax references; all ten remain PARTIAL, not formally accepted. See [T08 source-fit review](T08-10-chapter-source-fit-review.md).
+- T08 has first-pass source-specific desk dispositions for all 10 chapters using official 2026 Bisnis publisher material, Google Ad Manager, WFA, MRC and Indonesian tax references; all ten remain PARTIAL, not formally accepted. See [T08 source-fit review](T08-10-chapter-source-fit-review.md).
+- T09 has first-pass source-specific desk dispositions for all 10 Ad Operations chapters using CM360, GTM, TikTok and IAB sources; all ten remain PARTIAL, not formally accepted. See [T09 source-fit review](T09-10-chapter-source-fit-review.md).
 - The **80 agency × track evidence cells** are represented, but currentness, exact employer/JD scope, geography, seniority and competency validation remain partial/open.
 - All **28 elective chapters** have first-pass desk reviews, but every chapter remains partial pending technical/source/SME, market/legal, rubric and learner-pilot validation.
 - The historical 169×7 score matrix, original audit prompt and original 23 findings/D-1…D-12 have not been recovered; they are not reconstructed from synthetic data.
@@ -48,3 +49,8 @@ Use the preview for a **curriculum-architecture walkthrough or feedback session*
 ## 20 November 2026 — T08 source-fit update
 
 The first-pass desk-review register now covers 95/169 core chapters. The additional T08 batch covers CH01–CH10 and all ten are PARTIAL. The official 2026 Bisnis Indonesia and Bisnis.com Regional rate cards are publisher-specific examples, not a market-wide benchmark. The 74 remaining chapters still need first-pass desk review; formal source-fit, Indonesia access, Q&A, rubric, agency evidence, SME and learner-pilot acceptance gates remain open.
+
+
+## 20 November 2026 — T09 Ad Operations source-fit update
+
+The first-pass desk-review register now covers 105/169 core chapters; 64 remain. T09 CH01–CH10 were reviewed against CM360, GTM, TikTok and IAB source sections; all ten are PARTIAL. Formal objective-level fit, Indonesia access, cost/language/account eligibility, live testing and SME approval remain open. Current chapter-row resource inventory: 153 unique URLs across 169 rows; every row has at least two unique resource links.

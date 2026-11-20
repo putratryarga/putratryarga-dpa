@@ -721,3 +721,17 @@ The static score self-test generated temporary synthetic vectors. It does not cl
 ### Count correction from exact validator output
 
 The first validator synchronization commit `fc2a48915f715d1af0d7fc6cf541698d018c37ee` still failed static validation. The exact Node validator output reported `uniqueResourceUrls: 136` for the 169 chapter rows while the assertion expected 137. The earlier 137 count came from a broader whole-file URL extraction that included one non-chapter-row link. The source-of-truth count is therefore **136 unique URLs across the 169 chapter rows**. Both validators and current-state documents are corrected to 136; the historical T01 127-URL snapshot remains unchanged as a dated checkpoint. No minimum-per-chapter regression was present (the exact validator reported a minimum of two source links per chapter).
+
+
+## 2026-11-20 — T09 Ad Operations source-fit batch
+
+**Starting head:** `7a6a5dbcaf1aa680f2467bc828ce136fad694535`  
+**Scope:** DPA-T09-CH01 through CH10 (10/10).
+
+- Added `docs/T09-10-chapter-source-fit-review.md` and its 10-row CSV.
+- Replaced repeated generic sources with CM360 campaign, placement, trafficking, creative, tag testing, diagnostics, Floodlight and billing docs; GTM preview/server-side debug; TikTok In-Feed specs (page marked updated June 2026); Meta CAPI; and IAB OM SDK/ECAPI.
+- Updated the 169-objective register with ten first-pass dispositions. All T09 chapters are PARTIAL; formal objective fit, Indonesia access and language/cost/account eligibility remain OPEN. No independent reviewer or SME approval is claimed.
+- First-pass coverage increases 95/169 → 105/169; 64 chapters remain without first-pass review.
+- Resource map remains 169 unique chapter IDs and at least two distinct URLs per chapter. Current row-based unique URL inventory: 153.
+- Static validators now avoid brittle exact-URL assertions: they report the current count, use a conservative source-inventory floor (100), and hard-check 169 rows, unique IDs, minimum two links per row and desk-review register parity. Aggregate desk-review count is calculated from declared track review registers.
+- Release remains NOT READY: Meta/retail specs, live account tests, vendor/publisher invoice evidence, formal objective fit, SME review and learner pilot remain open.

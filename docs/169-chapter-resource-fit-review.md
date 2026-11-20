@@ -243,3 +243,14 @@ The batch replaces repeated generic sources with official publisher-specific sou
 **Disposition:** 10/10 T08 chapters PARTIAL at desk-review level. The publisher documents support selected rate-card, Media Order, booking deadline, cancellation and proof-retention objectives. They do not establish a market-wide benchmark, comparable multi-publisher quotes, agency buying SOP, universal Indonesian IO/contract, automatic makegood rights or transaction-specific tax treatment. Media Indonesia's 2025 card is historical context only. The Jakarta Post's 10% VAT wording is historical and must not be reused as a current tax reference.
 
 The 169-row mapping still has 169 unique core IDs and now contains 136 unique URLs. First-pass desk-review coverage is **95/169** core chapters (up from 85/169); **74/169** remain without a first-pass review. Formal objective-fit acceptance, local access, price/language/account eligibility and SME decisions remain OPEN for all 169.
+
+
+## 8. T09 Ad Operations — 20 November 2026
+
+A first-pass source-fit desk review is recorded for all ten T09 chapters in [T09-10-chapter-source-fit-review.md](T09-10-chapter-source-fit-review.md) and its 10-row CSV.
+
+The batch replaces repeated generic links with CM360 campaign/placement/trafficking/creative/tag/Floodlight/testing/diagnostic/billing documentation, GTM Preview and server-side debug, TikTok In-Feed specifications marked updated June 2026, Meta CAPI, TikTok Events API and IAB OM SDK/ECAPI measurement scopes.
+
+**Desk disposition:** 10/10 T09 chapters PARTIAL. These sources improve fit for CM360 workflow, tag QA, Floodlight, discrepancy and product billing. They do not provide a complete Meta/retail/publisher specification matrix, a universal cross-platform taxonomy, live account tests, vendor/publisher invoice reconciliation or independent capstone approval. Formal objective fit, Indonesia access, cost/language eligibility and SME approval remain OPEN.
+
+First-pass desk-review coverage is **105/169**; **64/169** core chapters remain without first-pass review. The current row-based resource map contains **153 unique URLs** across 169 unique chapter rows; every chapter row has at least two unique links. This is structural mapping, not formal source-to-objective acceptance.
