@@ -254,3 +254,10 @@ The batch replaces repeated generic links with CM360 campaign/placement/traffick
 **Desk disposition:** 10/10 T09 chapters PARTIAL. These sources improve fit for CM360 workflow, tag QA, Floodlight, discrepancy and product billing. They do not provide a complete Meta/retail/publisher specification matrix, a universal cross-platform taxonomy, live account tests, vendor/publisher invoice reconciliation or independent capstone approval. Formal objective fit, Indonesia access, cost/language eligibility and SME approval remain OPEN.
 
 First-pass desk-review coverage is **105/169**; **64/169** core chapters remain without first-pass review. The current row-based resource map contains **153 unique URLs** across 169 unique chapter rows; every chapter row has at least two unique links. This is structural mapping, not formal source-to-objective acceptance.
+
+
+## 9. T04 Paid Search — 20 November 2026
+
+Ten T04 chapters now have a first-pass source-fit review in [T04-10-chapter-source-fit-review.md](T04-10-chapter-source-fit-review.md) and its CSV. Generic sources were replaced with Google Search-specific Ad Rank, keyword planning, Auction Insights, Search Terms, campaign setup, matching/negatives, RSA/landing, Smart Bidding, conversion, Quality Score, Impression Share and experiment documentation. Microsoft sources are bounded comparators, not equal-depth coverage.
+
+All ten remain PARTIAL. The review records June 2026 Smart Bidding labels, April 2026 Enhanced Conversions consolidation and the 15 June 2026 Data Manager API transition. No Indonesia CPC benchmark, account access, live CRM/tag test or SME approval is claimed. First-pass coverage is 115/169; 54 remain. Row-based map has 181 unique URLs across 169 chapter IDs, at least two per row. Formal gates remain OPEN.

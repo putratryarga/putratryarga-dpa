@@ -336,6 +336,9 @@ try {
   const rubricCalibrationRegister = read("docs/169-chapter-rubric-calibration-register.csv");
   const rubricCalibrationRows = rubricCalibrationRegister.trim().split("\n").length - 1;
   assertEqual("169-chapter rubric calibration register rows", rubricCalibrationRows, 169);
+  const t04DeskReview = read("docs/T04-10-chapter-source-fit-review.csv");
+  const t04DeskReviewRows = t04DeskReview.trim().split("\n").length - 1;
+  assertEqual("T04 10-chapter source-fit desk-review rows", t04DeskReviewRows, 10);
   const t03DeskReview = read("docs/T03-10-chapter-source-fit-review.csv");
   const t03DeskReviewRows = t03DeskReview.trim().split("\n").length - 1;
   assertEqual("T03 10-chapter source-fit desk-review rows", t03DeskReviewRows, 10);

@@ -25,10 +25,11 @@ The branch also has a Vercel preview deployment in READY state: [Open preview](h
 ## What is not yet approved
 
 - Technical accuracy, depth and seniority fit for all 169 chapters still require independent review.
-- Source-to-learning-objective fit has first-pass desk review for **105/169** core chapters; **64** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
+- Source-to-learning-objective fit has first-pass desk review for **115/169** core chapters; **54** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
 - All **507** Q&A remain reflective/non-scored and require answer correctness, alternate-answer and SME/editorial approval.
 - T08 has first-pass source-specific desk dispositions for all 10 chapters using official 2026 Bisnis publisher material, Google Ad Manager, WFA, MRC and Indonesian tax references; all ten remain PARTIAL, not formally accepted. See [T08 source-fit review](T08-10-chapter-source-fit-review.md).
 - T09 has first-pass source-specific desk dispositions for all 10 Ad Operations chapters using CM360, GTM, TikTok and IAB sources; all ten remain PARTIAL, not formally accepted. See [T09 source-fit review](T09-10-chapter-source-fit-review.md).
+- T04 has first-pass source-specific desk dispositions for all 10 Paid Search chapters using Google Ads and Microsoft Advertising references. All ten remain PARTIAL; the review records the 2026 Smart Bidding, Enhanced Conversions and Data Manager changes. See [T04 source-fit review](T04-10-chapter-source-fit-review.md).
 - The **80 agency × track evidence cells** are represented, but currentness, exact employer/JD scope, geography, seniority and competency validation remain partial/open.
 - All **28 elective chapters** have first-pass desk reviews, but every chapter remains partial pending technical/source/SME, market/legal, rubric and learner-pilot validation.
 - The historical 169×7 score matrix, original audit prompt and original 23 findings/D-1…D-12 have not been recovered; they are not reconstructed from synthetic data.
@@ -53,4 +54,9 @@ At the checkpoint immediately after the T08 batch and before T09, the first-pass
 
 ## 20 November 2026 — T09 Ad Operations source-fit update
 
-The first-pass desk-review register now covers 105/169 core chapters; 64 remain. T09 CH01–CH10 were reviewed against CM360, GTM, TikTok and IAB source sections; all ten are PARTIAL. Formal objective-level fit, Indonesia access, cost/language/account eligibility, live testing and SME approval remain open. Current chapter-row resource inventory: 153 unique URLs across 169 rows; every row has at least two unique resource links.
+The first-pass desk-review register now covers 115/169 core chapters; 54 remain. T09 CH01–CH10 were reviewed against CM360, GTM, TikTok and IAB source sections; all ten are PARTIAL. Formal objective-level fit, Indonesia access, cost/language/account eligibility, live testing and SME approval remain open. Current chapter-row resource inventory: 153 unique URLs across 169 rows; every row has at least two unique resource links.
+
+
+## 20 November 2026 — T04 Paid Search update
+
+First-pass desk review now covers 115/169 core chapters; 54 remain. T04 CH01–CH10 are source-reviewed and all ten PARTIAL. Current Google Ads changes for June 2026 Smart Bidding naming, April 2026 Enhanced Conversions consolidation and 15 June 2026 Data Manager API migration are recorded. Microsoft is a bounded comparator, not equal-depth coverage. Formal fit, Indonesia access, live account tests and SME approval remain OPEN. Chapter-row map has 181 unique URLs across 169 rows.

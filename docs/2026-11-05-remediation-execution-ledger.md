@@ -740,3 +740,15 @@ The first validator synchronization commit `fc2a48915f715d1af0d7fc6cf541698d018c
 ### T09 static-validator parser correction
 
 The first T09 exact-head static run on `d00c87a8149822e2f4528aa07256961d919c5ab0` reported 10 expected desk-review data rows but parsed zero. The CSV itself was verified separately as one header plus ten unique T09 IDs. Root cause: the newly inserted validator used the literal delimiter `"\\n"` (backslash+n characters) instead of a newline delimiter `"\n"`. The source now uses `split("\n")`. This is a validator implementation defect; T09 source-map and register integrity remained 169 rows / 169 IDs / two or more links per chapter / 153 unique row URLs. The correction requires new exact-head CI evidence.
+
+
+## 2026-11-20 — T04 Paid Search source-fit batch
+
+**Baseline:** `501b78688de10b766ef21e85cbe5624f248d1ea8`; scope T04 CH01–CH10.
+- Added T04 review Markdown and 10-row CSV. Replaced generic Skillshop sources with chapter-specific Google Search references for Ad Rank, Planner, Auction Insights, Search Terms, campaign setup, match/negative, RSA/landing policy, Smart Bidding, conversions, Quality Score, Impression Share and Experiments.
+- Added Microsoft Learning Lab, Planner, Search, RSA and UET as bounded comparators, not equal-depth coverage.
+- Recorded June 2026 Smart Bidding label changes, April 2026 Enhanced Conversions consolidation and 15 June 2026 Data Manager API migration for offline/lead uploads.
+- All 10 T04 are PARTIAL; formal fit, Indonesia access, language/cost/account eligibility remain OPEN; AI-assisted desk review, no independent SME approval.
+- First-pass coverage rises 105/169 → 115/169; 54 remain. Resource map has 181 unique URLs, 169 unique chapter IDs and at least two links each.
+- Added T04 to static source-review row test and dynamic audit-register track specs. Exact-head CI pending.
+- Release remains NOT READY; account access, local CPC, tag/privacy tests, content fit and SME/learner review remain open.

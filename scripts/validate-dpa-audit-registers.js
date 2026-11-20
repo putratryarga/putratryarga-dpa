@@ -206,6 +206,7 @@ const trackSpecs = [
   ["T01","docs/T01-10-chapter-source-fit-review.csv",10],
   ["T02","docs/T02-10-chapter-source-fit-review.csv",10],
   ["T03","docs/T03-10-chapter-source-fit-review.csv",10],
+  ["T04","docs/T04-10-chapter-source-fit-review.csv",10],
   ["T07","docs/T07-10-chapter-source-fit-review.csv",10],
   ["T08","docs/T08-10-chapter-source-fit-review.csv",10],
   ["T09","docs/T09-10-chapter-source-fit-review.csv",10],
