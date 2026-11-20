@@ -197,3 +197,10 @@ The proposed [certificate issuance and verification specification](docs/certific
 - [End-to-end remediation runbook](docs/2026-11-21-end-to-end-remediation-runbook.md) — single closure checklist.
 - [T05 Paid Social](docs/T05-10-chapter-source-fit-review.md), [T11 SEO/AEO/GEO](docs/T11-10-chapter-source-fit-review.md), [T15 Affiliate/Social Commerce](docs/T15-12-chapter-source-fit-review.md) source-fit reviews — first-pass PARTIAL, formal acceptance OPEN.
 - [Corrected register reconciliation](audit-out/register-reconciliation.md) — 169 canonical IDs and 147/169 source-fit first-pass coverage.
+
+
+## Consolidated release handoff — 21 November 2026
+
+- [Final audit & release handoff](docs/2026-11-21-final-audit-handoff.md) — consolidated verdict, verified scope, exact-head CI, Copilot findings and remaining owners/actions.
+- [Exact-head browser QA artifact](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638/artifacts/14663148340) — JSON + desktop/mobile screenshots on commit `5c44ec881b282a8665028833283cdc5048943abb`.
+- Exact-head workflows: [Static QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317578), [Guide/Browser QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638), [Quiz QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317620). All three PASS; audience release remains blocked by formal review and owner gates.

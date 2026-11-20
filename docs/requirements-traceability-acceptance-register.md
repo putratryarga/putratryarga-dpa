@@ -551,3 +551,17 @@ Session branch: audit/dpa-release-readiness-2026-11-21 (forked from audit/full-d
 - The 19 November CI/browser checks at ancestor `fa10967a3a9afb14cd001c4a682a358daaa2d0e7` are prior evidence, not exact-head results for the v11.2 candidate. The referenced `qa-out/browser-qa.json` is not committed in this branch.
 - Website structured-data candidate removes universal `P12W`, adds `dateModified` and pathway-level parts. Version 11.2 remains a review candidate; not a public release.
 - Current Copilot source audit: `docs/2026-11-21-copilot-ai-era-update-audit.md`; closure sequence: `docs/2026-11-21-end-to-end-remediation-runbook.md`.
+
+
+## 21 November 2026 — exact-head CI and browser evidence addendum
+
+**Test SHA:** `5c44ec881b282a8665028833283cdc5048943abb` on `audit/dpa-release-readiness-2026-11-21`.
+
+All three GitHub Actions workflows completed SUCCESS on the same SHA:
+- Static QA / audit-register parity / depth screen / synthetic score self-test: run [44807317578](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317578).
+- Guide Registry + Playwright browser QA: run [44807317638](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638).
+- Synthetic-only quiz + Playwright/axe: run [44807317620](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317620).
+
+Browser artifact [14663148340](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638/artifacts/14663148340) contains `browser-qa.json`, desktop role-picker screenshot and mobile Paid Social screenshot. JSON binds to commit SHA and run ID; exact counts: 169 core + 6 CF = 175 panels, 169 guide IDs, 16 roles opened, zero desktop/mobile card overlaps, 390px viewport/document width equal, no page/console errors, no failed requests and no HTTP failures. All 175 chapter panels passed the script's defined non-empty-material, steps, Q&A, fold and source-link checks.
+
+The quiz is a 3-item synthetic prototype and remains non-scored/non-credential. Authenticated Vercel Preview review remains OPEN; repository-local Playwright does not replace it. Formal SME, rubric, resource-fit, agency/JD and owner baseline gates remain OPEN/BLOCKED.
