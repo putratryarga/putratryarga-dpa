@@ -308,7 +308,7 @@ try {
   report.minimumUniqueSourceLinksPerChapter = resourceLinkCounts.length
     ? Math.min(...resourceLinkCounts) : 0;
   assertEqual("Chapter resource mapping rows", resourceChapterLines.length, 169);
-  assertEqual("Unique chapter resource URLs", resourceUrls.length, 127);
+  assertEqual("Unique chapter resource URLs", resourceUrls.length, 137);
   if (resourceLinkCounts.some((count) => count < 2)) {
     const deficientRows = resourceChapterLines.filter((line) =>
       new Set([...line.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1])).size < 2
@@ -351,6 +351,9 @@ try {
   const t16DeskReview = read("docs/T16-12-chapter-source-fit-review.csv");
   const t16DeskReviewRows = t16DeskReview.trim().split("\n").length - 1;
   assertEqual("T16 12-chapter source-fit desk-review rows", t16DeskReviewRows, 12);
+  const t08DeskReview = read("docs/T08-10-chapter-source-fit-review.csv");
+  const t08DeskReviewRows = t08DeskReview.trim().split("\n").length - 1;
+  assertEqual("T08 10-chapter source-fit desk-review rows", t08DeskReviewRows, 10);
   const t01DeskReview = read("docs/T01-10-chapter-source-fit-review.csv");
   const t01DeskReviewRows = t01DeskReview.trim().split("\n").length - 1;
   assertEqual("T01 10-chapter source-fit desk-review rows", t01DeskReviewRows, 10);

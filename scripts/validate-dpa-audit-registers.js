@@ -207,6 +207,7 @@ const trackSpecs = [
   ["T02","docs/T02-10-chapter-source-fit-review.csv",10],
   ["T03","docs/T03-10-chapter-source-fit-review.csv",10],
   ["T07","docs/T07-10-chapter-source-fit-review.csv",10],
+  ["T08","docs/T08-10-chapter-source-fit-review.csv",10],
   ["T10","docs/T10-10-chapter-source-fit-review.csv",10],
   ["T13","docs/T13-11-chapter-source-fit-review.csv",11],
   ["T14","docs/T14-12-chapter-source-fit-review.csv",12],
@@ -246,7 +247,7 @@ for (const [track, path, expectedCount] of trackSpecs) {
   deskCounts[track] = {rows:review.records.length,classification:countBy(review.records,classificationField)};
 }
 const expectedDeskReviewRows = trackSpecs.reduce((sum, spec) => sum + spec[2], 0);
-assert(deskReviewRows === expectedDeskReviewRows && deskReviewRows === 85, "First-pass desk-review total must equal 85.");
+assert(deskReviewRows === expectedDeskReviewRows && deskReviewRows === 95, "First-pass desk-review total must equal 95.");
 
 const resourceLines = read("docs/169-chapter-resource-mapping.md").split(/\r?\n/).filter(line => /^\|\s*DPA-T\d{2}-CH\d{2}\s*\|/.test(line));
 const resourceIds = resourceLines.map(line => line.split("|")[1].trim());
@@ -258,7 +259,7 @@ for (const line of resourceLines) {
   assert(uniqueUrls.size >= 2, "Resource map row has fewer than two unique URLs: " + line.split("|")[1].trim());
   for (const url of uniqueUrls) resourceUrls.add(url);
 }
-assert(resourceUrls.size === 127, "Resource URL inventory expected 127 unique URLs; found " + resourceUrls.size);
+assert(resourceUrls.size === 137, "Resource URL inventory expected 137 unique URLs; found " + resourceUrls.size);
 
 const agency = loadCsv("docs/80-agency-role-cell-validation-register.csv");
 assert(agency.records.length === 80, "Agency validation register must contain 80 cells.");

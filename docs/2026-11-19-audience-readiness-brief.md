@@ -14,7 +14,7 @@
 
 ## What has passed engineering QA
 
-The pre-batch exact branch commit `244854903d954b66b7cef94e8b4e306bfb6faea8` passed all three GitHub Actions workflows; new checks for the source-fit batch are pending:
+The pre-batch exact branch commit `244854903d954b66b7cef94e8b4e306bfb6faea8` passed all three GitHub Actions workflows. The subsequent source-fit batch is on `235b09a39d2f828df250e60f7fbbf2b7ae443bab`; two workflows passed, while static QA exposed the stale hard-coded 127-URL expectation and is being corrected.
 
 - [Guide Registry and Browser QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44525378074): 169 chapter-to-guide ID matches, 175 rendered material panels with required non-empty lesson sections, all 16 role switches, selected-role isolation, no overlap among 16 role cards at desktop/mobile, 390px mobile no-overflow and zero browser page errors.
 - [Remediation Static QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44525377314): chapter/register/resource/rubric/Q&A row parity and deterministic validation passed. Synthetic score vectors were used only for a calculation self-test.
@@ -25,7 +25,7 @@ The branch also has a Vercel preview deployment in READY state: [Open preview](h
 ## What is not yet approved
 
 - Technical accuracy, depth and seniority fit for all 169 chapters still require independent review.
-- Source-to-learning-objective fit has first-pass desk review for **95/169** core chapters; **84** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
+- Source-to-learning-objective fit has first-pass desk review for **95/169** core chapters; **74** still need first-pass desk review. Formal objective-level fit and Indonesia access/price/language/eligibility remain open for all 169.
 - All **507** Q&A remain reflective/non-scored and require answer correctness, alternate-answer and SME/editorial approval.
 - T08 now has first-pass source-specific desk dispositions for all 10 chapters using official 2026 Bisnis publisher material, Google Ad Manager, WFA, MRC and Indonesian tax references; all ten remain PARTIAL, not formally accepted. See [T08 source-fit review](T08-10-chapter-source-fit-review.md).
 - The **80 agency × track evidence cells** are represented, but currentness, exact employer/JD scope, geography, seniority and competency validation remain partial/open.

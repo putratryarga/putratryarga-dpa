@@ -688,3 +688,31 @@ The static score self-test generated temporary synthetic vectors. It does not cl
 - Main-app integrated assessment, authenticated preview QA, manual accessibility and production verification remain OPEN.
 
 **Release decision: NOT READY.** This checkpoint closes specific code/browser assertions, not curriculum validation or production release.
+
+
+## 2026-11-20 — T08 source-fit batch and validator reconciliation
+
+**Starting head:** `244854903d954b66b7cef94e8b4e306bfb6faea8`  
+**T08 source-fit batch head:** `235b09a39d2f828df250e60f7fbbf2b7ae443bab`  
+**Branch:** `audit/full-dpa-remediation-2026-11-05`
+
+### T08 source-fit work delivered
+
+- Added a 10-chapter first-pass desk review for DPA-T08-CH01 through CH10 in `docs/T08-10-chapter-source-fit-review.md` and its 10-row CSV.
+- Replaced repeated generic T08 resources in the 169-row map with chapter-specific publisher/platform/industry/government sources, including the official Bisnis Indonesia 2026 rate card and separate Bisnis.com Regional 2026 rate card.
+- Updated the 169-objective resource-fit register. The ten T08 records now have a dated first-pass desk disposition PARTIAL, while formal objective fit, Indonesia access and language/cost/eligibility remain OPEN.
+- First-pass coverage increased from 85/169 to 95/169. Seventy-four core chapters still have no first-pass source-fit review.
+- Mapping integrity remains 169 rows / 169 unique IDs / at least two unique source URLs per chapter. Unique URLs increased from 127 to 137.
+
+### Exact-head QA on the T08 batch
+
+- Guide Registry and Browser QA: run [44772856894](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44772856894) — SUCCESS.
+- Quiz Engine QA: run [44772856843](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44772856843) — SUCCESS.
+- Static QA: run [44772856632](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44772856632) — FAILED because two deterministic validators still hard-coded the superseded 127-URL count and the audit-register validator did not include the new T08 source-fit batch. This is a validator/register synchronization defect, not evidence of incorrect chapter content. The next commit updates both validators and current-state documents; all checks must be rerun against its exact head.
+
+### Preview and release boundaries
+
+- Vercel preview is READY at `https://putratryarga-ginu0s8xt-elric3.vercel.app`, deployment `dpl_9imxd3EsVUaMQk3YsPebzZ9ERJXA`, exact SHA `235b09a`.
+- This preview has not received authenticated visual/manual inspection. PDF screenshot rendering of the 2026 Bisnis rate card was attempted but the screenshot service rejected the large PDF; its extracted text and page sections were reviewed instead.
+- Main, production, existing PR state and certificates were not changed.
+- Release remains **NOT READY**. This batch is a first-pass source desk review only; it is not SME sign-off, price benchmark, local contract approval or a formal objective-fit PASS.
