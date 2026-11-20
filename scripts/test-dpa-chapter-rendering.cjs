@@ -235,8 +235,10 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     // Capture the steady UI, not the transient 2.6s role-selection toast.
     await page.waitForFunction(() => {
       const toast = document.getElementById("toast");
-      return !toast || !toast.classList.contains("show");
-    }, null, { timeout: 5000 });
+      if (!toast) return true;
+      const opacity = Number.parseFloat(window.getComputedStyle(toast).opacity);
+      return !toast.classList.contains("show") && opacity < 0.05;
+    }, null, { timeout: 6000 });
     assert.deepEqual(pageErrors, [], "Browser runtime errors were raised during page load or role switching.");
     await page.screenshot({ path: path.join(artifactDir, "mobile-paid-social.png"), fullPage: false });
     const qaReport = {
