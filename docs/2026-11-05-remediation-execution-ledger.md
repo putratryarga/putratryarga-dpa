@@ -702,7 +702,7 @@ The static score self-test generated temporary synthetic vectors. It does not cl
 - Replaced repeated generic T08 resources in the 169-row map with chapter-specific publisher/platform/industry/government sources, including the official Bisnis Indonesia 2026 rate card and separate Bisnis.com Regional 2026 rate card.
 - Updated the 169-objective resource-fit register. The ten T08 records now have a dated first-pass desk disposition PARTIAL, while formal objective fit, Indonesia access and language/cost/eligibility remain OPEN.
 - First-pass coverage increased from 85/169 to 95/169. Seventy-four core chapters still have no first-pass source-fit review.
-- Mapping integrity remains 169 rows / 169 unique IDs / at least two unique source URLs per chapter. Unique URLs increased from 127 to 137.
+- Mapping integrity remains 169 rows / 169 unique IDs / at least two unique source URLs per chapter. Unique URLs in the 169 chapter rows increased from 127 to 136; the whole Markdown file has one additional non-row link, which is excluded by the deterministic row-based validator.
 
 ### Exact-head QA on the T08 batch
 
@@ -716,3 +716,8 @@ The static score self-test generated temporary synthetic vectors. It does not cl
 - This preview has not received authenticated visual/manual inspection. PDF screenshot rendering of the 2026 Bisnis rate card was attempted but the screenshot service rejected the large PDF; its extracted text and page sections were reviewed instead.
 - Main, production, existing PR state and certificates were not changed.
 - Release remains **NOT READY**. This batch is a first-pass source desk review only; it is not SME sign-off, price benchmark, local contract approval or a formal objective-fit PASS.
+
+
+### Count correction from exact validator output
+
+The first validator synchronization commit `fc2a48915f715d1af0d7fc6cf541698d018c37ee` still failed static validation. The exact Node validator output reported `uniqueResourceUrls: 136` for the 169 chapter rows while the assertion expected 137. The earlier 137 count came from a broader whole-file URL extraction that included one non-chapter-row link. The source-of-truth count is therefore **136 unique URLs across the 169 chapter rows**. Both validators and current-state documents are corrected to 136; the historical T01 127-URL snapshot remains unchanged as a dated checkpoint. No minimum-per-chapter regression was present (the exact validator reported a minimum of two source links per chapter).
