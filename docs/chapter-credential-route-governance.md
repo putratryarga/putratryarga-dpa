@@ -105,3 +105,32 @@ The official Meta Blueprint catalog distinguishes Marketing Science as a role-ba
 Primary issuer references:
 - https://agencies.facebookblueprint.com/student/catalog
 - https://www.facebookblueprint.com/student/activity/697093-meta-certified-marketing-science-professional
+
+
+## Common Foundation integration and learner journey correction — 21 November 2026
+
+The six Common Foundation chapters are shared learning units and are not part of the 169 specialist core chapter count. They now have stable IDs `DPA-CF-CH01` through `DPA-CF-CH06` so chapter-specific lesson, resource, and credential routes can resolve consistently.
+
+### Confirmed routes added
+- **CF2 — Client Brief & Problem Framing:** Forage Omnichannel Marketing Simulation Certificate (direct applied simulation: integrated marketing plan and creative brief) and HubSpot Academy Inbound Certification (adjacent course certification: shared goals, buyer personas and buyer journey; not a dedicated client-brief certification).
+- **CF3 — Consumer & Audience Fundamentals:** HubSpot Academy Inbound Certification, with explicit scope limited to customer-centric inbound, personas and buyer journey.
+- **CF6 — Agency Workflow & Professional Practice:** Forage Omnichannel Marketing Simulation Certificate as applied workflow practice; do not represent it as a professional certification.
+
+### Important product correction
+The previous renderer removed learning-resource cards whenever their URL also appeared in the credential route map. This incorrectly separated Learn from Earn and could hide the learning route. The renderer now retains those clickable resources in Learn and also exposes the award route in Earn, with the resource tagged **Belajar + credential**. Provider award conditions remain explicit.
+
+The repeated **DPA chapter achievement · planned** panel has been removed. DPA does not currently issue chapter badges/certificates; an unissued internal award must not be presented as a substitute for real provider credentials.
+
+CF2's lesson has been expanded with chapter-specific brief audit, problem statement, objective/scope/constraint analysis, success criteria, seven workflow steps, three targeted knowledge checks, a guided worksheet and glossary. This replaces generic topic-template questions for the chapter.
+
+### Issuer evidence
+- Forage Omnichannel Marketing page states a self-paced 5–6 hour simulation and offers a completion certificate, resume snippet and interview tips: https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep
+- HubSpot Academy Inbound page states it is a free certification course with seven lessons, four quizzes and approximately 2 hours 45 minutes. It covers shared goals, buyer personas and buyer journey. The page's listed languages do not include Bahasa Indonesia at the time checked: https://academy.hubspot.com/courses/inbound
+
+These are course/simulation completion awards, not professional certifications. Access, language, assessment, and certificate issuance remain subject to the issuer's current account and course rules.
+
+### Regression requirements
+- All six Common Foundation chapters must have stable unique IDs and objective-specific source mappings.
+- CF2 must expose both Forage and HubSpot award routes as real external links in Earn and retain the same learning links in Learn.
+- The browser test must distinguish the 169 core chapters from six shared Common Foundation chapters by container identity, not by missing chapter IDs.
+- No planned DPA badge panel may appear while the DPA issuance workflow remains unauthorized.
