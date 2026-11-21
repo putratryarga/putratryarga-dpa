@@ -246,18 +246,23 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.ok(mobilePanelBounds.right <= mobilePanelBounds.viewportWidth + 1,
       `Paid Social panel overflows mobile viewport: ${JSON.stringify(mobilePanelBounds)}`);
 
-    const milestoneStrip = paidSocialPanel.locator(".chapter-milestones");
-    await milestoneStrip.screenshot({ path: path.join(artifactDir, "mobile-paid-social-milestones.png") });
-    const earnMilestone = paidSocialPanel.locator('[data-milestone="earn"]');
-    await earnMilestone.screenshot({ path: path.join(artifactDir, "mobile-paid-social-earn.png") });
-
-    // Capture the steady UI, not the transient 2.6s role-selection toast.
+    // Wait for role-switch feedback to disappear before capturing the milestone UI.
     await page.waitForFunction(() => {
       const toast = document.getElementById("toast");
       if (!toast) return true;
       const opacity = Number.parseFloat(window.getComputedStyle(toast).opacity);
       return !toast.classList.contains("show") && opacity <= 0.001;
     }, null, { timeout: 6000 });
+    await page.evaluate(() => {
+      if (document.activeElement && typeof document.activeElement.blur === "function") document.activeElement.blur();
+    });
+    // Screenshot-only cleanup: the sticky progress bar and skip-link focus layer otherwise cover
+    // the chapter card when Playwright scrolls a tall element into view. This does not alter app CSS.
+    await page.addStyleTag({ content: ".topbar{visibility:hidden!important} .skip-link:focus{top:-60px!important} #toast{display:none!important}" });
+    const milestoneStrip = paidSocialPanel.locator(".chapter-milestones");
+    await milestoneStrip.screenshot({ path: path.join(artifactDir, "mobile-paid-social-milestones.png") });
+    const earnMilestone = paidSocialPanel.locator('[data-milestone="earn"]');
+    await earnMilestone.screenshot({ path: path.join(artifactDir, "mobile-paid-social-earn.png") });
     assert.deepEqual(pageErrors, [], "Browser runtime errors were raised during page load or role switching.");
     await page.screenshot({ path: path.join(artifactDir, "mobile-paid-social.png"), fullPage: false });
     const qaReport = {
