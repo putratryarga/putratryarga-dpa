@@ -332,6 +332,14 @@ async function run() {
         fs.mkdirSync(SCREENSHOT_DIR, { recursive: true });
         const chapter = page.locator('[data-track-box="adops"] details.week[data-chapter-id]').first();
         await chapter.scrollIntoViewIfNeeded();
+        await page.waitForFunction(
+          () => {
+            const toast = document.getElementById("toast");
+            return !toast || !toast.classList.contains("show");
+          },
+          null,
+          { timeout: 5000 }
+        );
         const filename = width === 390 ? "dpa-mobile-390-adops-chapter.png" : "dpa-desktop-1366-adops-chapter.png";
         const screenshotPath = path.join(SCREENSHOT_DIR, filename);
         await page.screenshot({ path: screenshotPath, fullPage: false });
