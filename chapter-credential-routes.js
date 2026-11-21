@@ -25,6 +25,25 @@ var registry = {
     "scope": "Platform-specific; tidak mengukur kemampuan planning lintas channel.",
     "verifiedOn": "2026-11-21"
   },
+  "meta_marketing_science": {
+    "provider": "Meta Blueprint",
+    "title": "Meta Certified Marketing Science Professional",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": true,
+    "description": "Sertifikasi profesional untuk merumuskan business goals dan KPI, memilih metodologi pengukuran, merancang test, membaca hasil analisis, dan menyusun rekomendasi berbasis data. Cakupannya spesifik pada kompetensi Marketing Science Meta.",
+    "duration": "60 pertanyaan; 90 menit menurut panduan sertifikasi Meta yang dipublikasikan pada 2026.",
+    "cost": "Harga ujian tidak dinyatakan pada halaman publik yang diperiksa; cek biaya dan ketersediaan saat registrasi.",
+    "eligibility": "Ikuti learning path, persiapan, dan persyaratan ujian yang ditetapkan Meta Certification Hub.",
+    "validity": "Periksa masa berlaku dan renewal pada ketentuan sertifikasi terkini.",
+    "regional": "Bahasa ujian, akses akun, dan eligibility peserta Indonesia belum diverifikasi.",
+    "url": "https://certifications.facebookblueprint.com/student/catalog",
+    "sourceUrl": "https://www.facebookblueprint.com/student/activity/697093-meta-certified-marketing-science-professional",
+    "award": "Meta Certified Marketing Science Professional; award dikeluarkan Meta setelah persyaratan dan ujian dipenuhi.",
+    "scope": "Meta-issued professional certification; tidak menggantikan kompetensi statistik, eksperimen, dan measurement lintas platform.",
+    "verifiedOn": "2026-11-21"
+  },
   "meta_media_planning": {
     "provider": "Meta",
     "title": "Meta Certified Media Planning Professional",
@@ -579,23 +598,17 @@ var chapterMap = {
   "DPA-T09-CH08": [],
   "DPA-T09-CH09": [],
   "DPA-T09-CH10": [],
-  "DPA-T10-CH01": [],
+  "DPA-T10-CH01": ["meta_marketing_science"],
   "DPA-T10-CH02": [],
   "DPA-T10-CH03": [
     "google_analytics_certification"
   ],
   "DPA-T10-CH04": [],
   "DPA-T10-CH05": [],
-  "DPA-T10-CH06": [
-    "google_analytics_certification"
-  ],
-  "DPA-T10-CH07": [
-    "linkedin_marketing_measurement"
-  ],
-  "DPA-T10-CH08": [
-    "linkedin_marketing_measurement"
-  ],
-  "DPA-T10-CH09": [],
+  "DPA-T10-CH06": ["google_analytics_certification","meta_marketing_science"],
+  "DPA-T10-CH07": ["linkedin_marketing_measurement","meta_marketing_science"],
+  "DPA-T10-CH08": ["linkedin_marketing_measurement","meta_marketing_science"],
+  "DPA-T10-CH09": ["meta_marketing_science"],
   "DPA-T10-CH10": [],
   "DPA-T11-CH01": [
     "semrush_seo_crash"
@@ -1334,10 +1347,10 @@ var auditMap = {
     "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH01": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_marketing_science"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route identified for Meta Marketing Science; objective fit and Indonesia access/language/checkout eligibility require independent chapter-level acceptance."
   },
   "DPA-T10-CH02": {
     "routeIds": [],
@@ -1366,40 +1379,34 @@ var auditMap = {
     "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH06": {
-    "routeIds": [
-      "google_analytics_certification"
-    ],
+    "routeIds": ["google_analytics_certification","meta_marketing_science"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH07": {
-    "routeIds": [
-      "linkedin_marketing_measurement"
-    ],
+    "routeIds": ["linkedin_marketing_measurement","meta_marketing_science"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH08": {
-    "routeIds": [
-      "linkedin_marketing_measurement"
-    ],
+    "routeIds": ["linkedin_marketing_measurement","meta_marketing_science"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH09": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_marketing_science"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route identified for Meta Marketing Science; objective fit and Indonesia access/language/checkout eligibility require independent chapter-level acceptance."
   },
   "DPA-T10-CH10": {
     "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route identified for Meta Marketing Science; objective fit and Indonesia access/language/checkout eligibility require independent chapter-level acceptance."
   },
   "DPA-T11-CH01": {
     "routeIds": [
@@ -1419,15 +1426,15 @@ var auditMap = {
   },
   "DPA-T11-CH03": {
     "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route identified for Meta Marketing Science; objective fit and Indonesia access/language/checkout eligibility require independent chapter-level acceptance."
   },
   "DPA-T11-CH04": {
     "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route identified for Meta Marketing Science; objective fit and Indonesia access/language/checkout eligibility require independent chapter-level acceptance."
   },
   "DPA-T11-CH05": {
     "routeIds": [
