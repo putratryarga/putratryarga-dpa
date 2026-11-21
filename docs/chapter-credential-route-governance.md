@@ -57,7 +57,7 @@ Google Analytics Certification is now included after the current official Analyt
 
 ## Coverage and open gates
 
-- Core: 169/169 chapter IDs in the credential audit map and CSV. 53 chapters have at least one optional external route (78 total route placements) after adding the Meta Marketing Science route to five T10 objectives; 116 chapters remain applied-skill/portfolio-first in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
+- Core: 169/169 chapter IDs in the credential audit map and CSV. 52 chapters have at least one mapped external route (78 total route placements) in the current runtime map; 117 chapters remain applied-skill/portfolio-first. This runtime count supersedes the earlier 50-chapter / 73-placement summary, which was stale in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
 - The mapping itself remains `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; source-to-objective relevance, course fit, Indonesia account access, final checkout price, prerequisites, credential availability and chapter assessment acceptance remain OPEN.
 - Advanced Electives: 28/28 chapter IDs are captured separately in `28-elective-credential-route-review.csv`, but all are deliberately marked `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`. The elective curricula are not yet integrated into the chapter renderer.
 - The current milestone strip is informational, not a credential progress engine. External completion is not imported; DPA awards are disabled.
