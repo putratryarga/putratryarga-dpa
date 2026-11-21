@@ -258,7 +258,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     });
     // Screenshot-only cleanup: the sticky progress bar and skip-link focus layer otherwise cover
     // the chapter card when Playwright scrolls a tall element into view. This does not alter app CSS.
-    await page.addStyleTag({ content: ".topbar{visibility:hidden!important} .skip-link:focus{top:-60px!important} #toast{display:none!important}" });
+    await page.addStyleTag({ content: ".topbar{visibility:hidden!important} .skip-link{display:none!important} #toast{display:none!important}" });
     const milestoneStrip = paidSocialPanel.locator(".chapter-milestones");
     await milestoneStrip.screenshot({ path: path.join(artifactDir, "mobile-paid-social-milestones.png") });
     const earnMilestone = paidSocialPanel.locator('[data-milestone="earn"]');
