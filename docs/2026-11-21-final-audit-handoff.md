@@ -109,3 +109,16 @@ Current release branch has a Vercel Preview in **READY** state: [deployment insp
 5. After all mandatory gates are closed, open/review PR, tag release and request production approval separately.
 
 **Until these are done: review-candidate status only; no public audience release and no DPA credential issuance.**
+
+
+## Superseding end-to-end recovery handoff — 21 November 2026
+
+The recovery branch `audit/dpa-end-to-end-completion-2026-11-21` contains three local commits beyond PR #7's previously verified head: `11ffd07` (integration, archive recovery and audit reconciliation), `0cd4726` (wait for the role-change toast before capturing clean screenshots), and `062fc81` (wait for the toast's fade transition to end). The exact tested source candidate is `062fc814c3bd5a29292de9e3783c6ca56856616b`.
+
+All six deterministic local checks, JavaScript syntax checks, and exact-SHA Playwright/axe passed. Browser scope: 16 role routes, 175 chapter milestone panels, seven requested viewport widths with zero horizontal overflow, zero page/console errors, first-tab skip-link check, zero axe violations in two views, and two contrast checks marked incomplete. Local artifacts are saved in the task output folder.
+
+Current route map is 51 distinct issuer routes; 161/169 core chapters have 224 placements; CF is 4/6 with five placements. The 43-row credential proposal set is reconciled; 175 mapping rows match runtime. A–F details and formal boundaries are in `docs/audit/AF-WORKSTREAM-RECONCILIATION.md` and the updated requirements register.
+
+Historical recovery corrected two previous statuses: HIST-001 raw matrix/methodology is recovered and row scores recalculate, but five of 16 track-summary means conflict with raw scores; HIST-002's 23 findings and D-1…D-12 log are recovered. Both remain PARTIAL pending historical reconciliation/closure mapping. The standalone S0 master prompt remains NOT RECOVERED.
+
+**Release disposition remains NOT READY.** Human/SME blockers include six incomplete Common Foundation lessons, all 28 elective chapters and 56 checks, 507 Q&A answer/editorial decisions, 169 rubric calibrations, 169 objective-resource access/fit decisions, 80 agency-evidence validations, manual accessibility and authenticated hosted-preview review, and owner approval. `main`, production and credential issuance remain untouched.

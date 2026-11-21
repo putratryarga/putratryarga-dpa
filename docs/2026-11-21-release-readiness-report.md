@@ -109,3 +109,36 @@ The current review branch has a Vercel Preview deployment in **READY** state: [d
 3. Resolve historical source blockers with original artefact recovery or owner-signed baseline declaration.
 4. Complete authenticated Vercel Preview review and fresh post-fix link audit.
 5. Only after the mandatory gates pass, submit a reviewed PR/tag and request separate production authorisation.
+
+
+## Superseding recovery update — 21 November 2026
+
+This update supersedes the earlier 35-route/136-chapter credential snapshot and prior statements that the historical score matrix and discrepancy archive were unavailable. The protected source baseline was PR #7 head `da4b0097d0f5d8f68b05f78ffae195f5c6847b96`; local recovery branch `audit/dpa-end-to-end-completion-2026-11-21` now contains the reconciled integration. Local code candidate `062fc814c3bd5a29292de9e3783c6ca56856616b` passed the six validators/tests, JavaScript syntax checks, and Playwright/axe browser runner at that exact SHA. Final machine-readable browser evidence and screenshots are in the task outputs; no authenticated hosted preview was tested by this local run.
+
+### Corrected current counts
+
+| Area | Current result | Acceptance boundary |
+|---|---:|---|
+| Issuer registry | 51 unique routes | First-pass and not SME accepted |
+| Core route mapping | 161/169, 224 placements, 8 portfolio-first | Chapter fit/account access not accepted |
+| Common Foundation route mapping | 4/6, 5 placements | Foundation curriculum itself remains incomplete |
+| Credential register | 175 unique rows (169 core + 6 CF) | Runtime parity passes; not credential issuance |
+| Authored Part 4 guides | 9 core guide overrides (T03/T08/T10) | Other 12 tracks can still use generic fallbacks |
+| Q&A / rubrics | 507 / 169 | Q&A decisions and rubric calibration all OPEN |
+| Resource-fit records | 169 | 163 PARTIAL, 6 PARTIAL_STRONG; formal fit/access NOT ASSESSED |
+| Agencies / electives | 80 cells / 28 chapters + 56 checks | Agency validation and elective acceptance OPEN |
+| Historical archive | 18 files, 685,540 bytes, SHA-256 preserved | Matrix and discrepancy logs recovered; 5 track-mean mismatches remain |
+
+### Exact local browser evidence
+
+At source candidate `062fc814c3bd5a29292de9e3783c6ca56856616b`, Playwright/axe opened 16/16 role routes, swept all 175 milestone panels, found zero milestone errors and zero axe violations across two views, and measured 0px horizontal overflow at 320, 375, 390, 768, 1024, 1366 and 1440px. No browser-console or page errors occurred. Keyboard Tab reached the skip link first. Axe marked one contrast target incomplete in each view; manual contrast and screen-reader review remain required. This test does not make external network requests to every resource URL or verify authenticated provider access.
+
+### Recovered historical findings
+
+The original score matrix has 169 unique rows, seven dimensions, no blank scores, and zero row-average recalculation mismatches. Five historic track means disagree with their raw chapter scores: Analytics 2.8 vs 2.9 reported; CRM 2.9 vs 2.6; Content 2.6 vs 2.7; KOL 2.6 vs 2.7; Community 2.6 vs 2.7. The 23-item finding register and all 12 discrepancy-log entries are preserved. Mark HIST-001/HIST-002 PARTIAL until summary values and closure dispositions are reconciled. The original standalone S0 prompt remains NOT RECOVERED.
+
+### Updated URL/source checks
+
+The 273-row historic URL recheck was recounted: 123 2xx, 20 redirects, 41 local TLS-trust observations, 68 bot blocks at 429, 11 404, 1 DNS failure, 4 HTTP 400, 3 bot-block 403, 1 forbidden 403, and 1 timeout. Thirteen are likely failures; bot-blocks are inconclusive. Fresh official issuer checks confirmed the dead Skillshop subpath/root correction, an Edge Academy Learn-only source, the distinct developer scope of Microsoft's Azure SQL Applied Skills, and the Semrush course-certificate/assessment wording. These checks do not constitute a fresh crawl of every current URL.
+
+**Final verdict: NOT READY.** CF1–CF6 are outlines, 28 elective chapters remain partial, all 507 answer decisions and 169 rubric calibrations are open, all 169 formal resource-fit/access and 80 agency-cell validations remain open, and historical track-score summaries require reconciliation. The branch remains review-only; no merge, production change, or DPA credential issuance.

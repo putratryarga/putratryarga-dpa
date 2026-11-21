@@ -2,7 +2,8 @@
 
 **Assessment date:** 21 November 2026 (Asia/Bangkok)
 **Candidate branch:** `audit/dpa-end-to-end-completion-2026-11-21`
-**Verdict:** **NOT READY** for audience release. This note reconciles the recovered work and known evidence; exact-SHA local browser evidence is recorded in the final execution report.
+**Tested candidate:** `062fc814c3bd5a29292de9e3783c6ca56856616b`
+**Verdict:** **NOT READY** for audience release. Local tests passed at this exact candidate; formal curriculum, SME, human accessibility and release approvals remain open.
 
 ## Recovered execution state
 
@@ -17,7 +18,7 @@ The local recovery branch contains the previously interrupted integration work t
 | **C — Q&A and rubrics** | 507 Q&A rows and 169 rubrics are present and structurally reconciled. | 507 machine checks pass; no exact duplicates/parity mismatches, four fuzzy pairs (eight items), and a 60-item stratified desk sample is consistent with its guide. 168/169 rubrics use shared generic criteria. | All 507 answer/editorial/source decisions are pending SME review. All 169 rubrics need calibration, reviewer approval, learner-work pilot and inter-rater evidence. Threshold 80/100 is uncalibrated. |
 | **D — resources, URLs, agencies** | 273 URL recheck observations were independently recounted and the report arithmetic corrected. | Results: 123 HTTP 2xx, 20 valid redirects, 41 local TLS-trust observations, 68 bot-block 429, 11 HTTP 404, one DNS failure, four HTTP 400, three bot-block 403, one forbidden 403, one timeout. The four official issuer/resource pages reviewed in this pass are cited in the source-provenance register. | 13 likely-failure candidates remain (11×404, DNS, timeout); bot blocks are inconclusive. The 169 objective-fit/access fields remain NOT ASSESSED in this run. Of 80 agency cells, 39 are employer-explicit and 41 index/inferred; all currentness, specificity, geography and seniority approvals remain open. |
 | **E — advanced electives** | 28 chapters and 56 checks were re-counted. | Both separate electives remain in the 16+2 architecture. | All 28 chapters remain partial/open; all 56 checks are reflective and unscored. No elective acceptance or calibration. |
-| **F — engineering and learner QA** | Six local checks were run after the route-register mismatch was fixed. | Static structure, register parity, guide/route parity, depth structure, synthetic-only quiz and uniqueness checks pass. The latest browser runner now includes 320/375/390/768/1024/1366/1440 widths and screenshot capture. | Browser results are accepted only after the final exact candidate SHA run. Automated axe is not manual WCAG or screen-reader acceptance; hosted authenticated Preview has not been reviewed in this local run. |
+| **F — engineering and learner QA** | Six local validators/tests plus a browser run were executed on the exact candidate SHA shown above. | All six local checks pass. Browser: 16/16 roles open, 175 milestone panels present, seven widths pass with zero horizontal overflow, no script/page errors, first Tab reaches the skip link, and axe reports zero WCAG 2 A/AA violations across two views. The 165 credential cards cover 165 chapters, 10 show the portfolio-first state, maximum three cards/chapter. | Axe leaves one color-contrast node incomplete per view; this is not an axe failure, but needs manual contrast review. No screen-reader test or authenticated hosted Preview review is included. |
 
 ## Reconciliation decisions
 
@@ -29,8 +30,14 @@ The local recovery branch contains the previously interrupted integration work t
 
 ## Release gate summary
 
-**Technical:** PARTIAL pending exact-SHA browser evidence and hosted review.
+**Technical:** PASS for the local deterministic and browser scope at the tested SHA; hosted Preview and manual accessibility remain OPEN.
 **Curriculum/editorial:** OPEN; CF and electives are materially incomplete.
 **Credential/professional integrity:** PARTIAL; integration is structurally consistent but unapproved.
 **Learner experience/accessibility:** PARTIAL; automated local checks do not replace manual accessibility or authenticated preview review.
 **Owner/SME:** OPEN; historical discrepancies, curriculum, answers, rubrics, agencies and release authorization need named human decisions.
+
+## Exact-SHA evidence and artifacts
+
+The local regression commands `validate-dpa-static`, `validate-dpa-audit-registers`, `validate-dpa-guide-registry`, `audit-dpa-chapter-depth`, `test-dpa-quiz-engine` and `test-dpa-content-uniqueness.cjs` all exited 0 on `062fc814c3bd5a29292de9e3783c6ca56856616b`; JavaScript syntax checks also passed. The Playwright/axe runner passed on that exact SHA. Machine-readable result is saved in the task-level `outputs` folder outside this repository (SHA-256 `80D060C057044145A5CF4EC69DF5DF436EC1423A4E5338184D5B4CF5EF82E550`). Screenshots were visually checked and the transient role-change toast is fully gone from both captures: 390px mobile and 1366px desktop.
+
+The browser run does not request every external URL, inspect authenticated provider accounts or test a hosted deployment. Axe marked one contrast target per run as **incomplete**; manual color/contrast and assistive-technology review is still needed. No GitHub Actions run was created by these local checks; remote CI must be checked after any branch push.
