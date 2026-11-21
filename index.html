@@ -1457,6 +1457,36 @@ details.week{margin-bottom:16px!important}
  .chapter-source-list{grid-template-columns:minmax(0,1fr)!important}
  .lesson-glossary{grid-template-columns:minmax(0,1fr)!important}
 }
+
+/* Chapter-level credential and milestone layer */
+.chapter-milestones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0 16px;min-width:0}
+.chapter-milestone{min-width:0;padding:12px;border:1px solid var(--line);border-radius:9px;background:var(--sf)}
+.chapter-milestone-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:7px}
+.chapter-milestone-step{font:700 10px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.chapter-milestone h5{margin:0 0 5px;font-size:12px;line-height:1.4;color:var(--ink)}
+.chapter-milestone p{margin:0;color:var(--ink2);font-size:11px;line-height:1.55}
+.chapter-milestone.learn{border-top:3px solid var(--blue)}
+.chapter-milestone.earn{border-top:3px solid var(--green)}
+.chapter-milestone.apply{border-top:3px solid var(--gold)}
+.chapter-milestone.master{border-top:3px solid var(--ink3)}
+.credential-route-list{display:grid;grid-template-columns:1fr;gap:8px;margin-top:8px}
+.credential-route-card{min-width:0;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--sf2)}
+.credential-route-card strong{display:block;color:var(--ink);font-size:11px;line-height:1.45;margin:7px 0 4px}
+.credential-route-card p{margin:0 0 6px;color:var(--ink2);font-size:10px;line-height:1.5}
+.credential-route-tags{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+.credential-route-card .tag{margin-top:0;font-size:9px;white-space:normal;max-width:100%}
+.credential-route-meta{display:grid;gap:3px;margin-top:6px;color:var(--ink3);font-size:9.5px;line-height:1.45;overflow-wrap:anywhere}
+.credential-route-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:8px;font-size:10px;font-weight:700}
+.credential-route-actions a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+.t-credential{background:var(--green-s);color:var(--green);border:1px solid rgba(86,156,119,.4)}
+.t-coursecert{background:rgba(165,128,191,.16);color:#B18BCB;border:1px solid rgba(165,128,191,.38)}
+.t-coursecred{background:var(--blue-s);color:var(--blue);border:1px solid rgba(122,155,190,.36)}
+.t-completion{background:rgba(165,128,191,.12);color:#B18BCB;border:1px solid rgba(165,128,191,.32)}
+.t-exam{background:var(--red-s);color:var(--red);border:1px solid rgba(201,112,94,.4)}
+.t-milestone-optional{background:var(--sf3);color:var(--ink3);border:1px solid var(--line)}
+.chapter-earn-empty{padding:9px;border:1px dashed var(--line);border-radius:7px;color:var(--ink2);font-size:10.5px;line-height:1.55;margin-top:7px}
+.chapter-milestone-note{margin-top:7px!important;color:var(--ink3)!important;font-size:9.5px!important}
+@media(max-width:700px){.chapter-milestones{grid-template-columns:1fr}.credential-route-card{padding:11px}.chapter-milestone{padding:11px}}
 </style>
 </head>
 <body>
@@ -4657,6 +4687,7 @@ details.week{margin-bottom:16px!important}
 <script src="./role-study-guides-part3.js"></script>
 <script src="./chapter-guide-map.js"></script>
 <script src="./chapter-resources.js"></script>
+<script src="./chapter-credential-routes.js"></script>
 <script src="./fullstack-master-roadmap.js"></script>
 <script src="./fullstack-master-renderer.js"></script>
 <script>
@@ -4847,37 +4878,89 @@ function buildGuide(box,chapter,index){
  var practice=roleNote?roleNote.practice:(ctx.worksheet+' Kerjakan deliverable "'+outcome+'" dalam urutan: (1) tulis brief dan asumsi; (2) isi komponen wajib dari subtopik; (3) tambahkan sumber, evidence, owner, dan versi; (4) review dengan quality check; (5) tulis keputusan, risiko, dan next action. '+(role==="adops"?"Gunakan data sintetis dan beri label SYNTHETIC.":"Pisahkan fakta, asumsi, dan data sintetis."));
  return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome,terms:roleNote&&roleNote.terms?roleNote.terms:[]};
 }
+function credentialRouteIsMappedToChapter(chapterId,href){
+ var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||[];
+ var registry=window.DPA_CREDENTIAL_REGISTRY||{};
+ return routeIds.some(function(id){var r=registry[id];return r&&(r.url===href||r.sourceUrl===href);});
+}
+function renderCredentialRouteCard(route){
+ var html='<article class="credential-route-card">';
+ html+='<div class="credential-route-tags"><span class="tag '+studyEsc(route.tagClass||'t-coursecred')+'">'+studyEsc(route.label||'Provider credential')+'</span>';
+ if(route.paidExam)html+='<span class="tag t-exam">Paid / proctored exam</span>';
+ html+='<span class="tag t-milestone-optional">Opsional</span></div>';
+ html+='<strong>'+studyEsc(route.title)+'</strong><p>'+studyEsc(route.description)+'</p>';
+ html+='<div class="credential-route-meta">';
+ if(route.duration)html+='<span><b>Format:</b> '+studyEsc(route.duration)+'</span>';
+ if(route.cost)html+='<span><b>Biaya:</b> '+studyEsc(route.cost)+'</span>';
+ if(route.eligibility)html+='<span><b>Syarat:</b> '+studyEsc(route.eligibility)+'</span>';
+ if(route.validity)html+='<span><b>Masa berlaku:</b> '+studyEsc(route.validity)+'</span>';
+ if(route.regional)html+='<span><b>Akses Indonesia:</b> '+studyEsc(route.regional)+'</span>';
+ if(route.scope)html+='<span><b>Batas cakupan:</b> '+studyEsc(route.scope)+'</span>';
+ html+='</div><div class="credential-route-actions">';
+ html+='<a data-credential-url="true" href="'+studyEsc(route.url)+'" target="_blank" rel="noopener noreferrer">Buka jalur resmi ↗</a>';
+ if(route.sourceUrl&&route.sourceUrl!==route.url)html+='<a data-credential-url="true" href="'+studyEsc(route.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Detail issuer ↗</a>';
+ html+='</div></article>';
+ return html;
+}
+function renderChapterMilestones(chapterId,guide){
+ var registry=window.DPA_CREDENTIAL_REGISTRY||{};
+ var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||[];
+ var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,2);
+ var html='<section class="chapter-milestones" aria-label="Milestone belajar bab">';
+ html+='<article class="chapter-milestone learn" data-milestone="learn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">01 · Learn</span></div><h5>Pahami materi inti</h5><p>Pelajari konsep, contoh, langkah kerja, dan sumber yang dipetakan untuk learning objective bab ini.</p></article>';
+ html+='<article class="chapter-milestone earn" data-milestone="earn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">02 · Earn</span><span class="tag t-milestone-optional">Opsional</span></div><h5>External credential, bila relevan</h5>';
+ if(routes.length){
+  html+='<div class="credential-route-list">'+routes.map(renderCredentialRouteCard).join('')+'</div>';
+  html+='<p class="chapter-milestone-note">Credential diterbitkan provider setelah seluruh syaratnya dipenuhi. DPA tidak menerbitkan atau menyinkronkan award eksternal.</p>';
+ }else{
+  html+='<div class="chapter-earn-empty">Belum ada credential eksternal yang dipetakan khusus ke objective bab ini pada rilis ini. Ini bukan klaim bahwa tidak ada credential di seluruh pasar. Bukti kompetensi bab ini berfokus pada praktik dan portfolio.</div>';
+ }
+ html+='</article>';
+ html+='<article class="chapter-milestone apply" data-milestone="apply"><div class="chapter-milestone-head"><span class="chapter-milestone-step">03 · Apply</span></div><h5>Buat bukti kerja</h5><p>'+studyEsc(guide.deliverable||guide.practice||'Selesaikan deliverable bab dan simpan evidence yang dapat diperiksa.')+'</p></article>';
+ html+='<article class="chapter-milestone master" data-milestone="master"><div class="chapter-milestone-head"><span class="chapter-milestone-step">04 · Master</span></div><h5>Periksa penguasaan</h5><p>Jawab knowledge check dan review deliverable terhadap acceptance criteria serta rubric bab. Ini self-review/panduan belajar, bukan keputusan assessor atau DPA chapter badge.</p></article>';
+ html+='</section>';
+ return html;
+}
 function appendChapterStudy(chapter,box,index,resources,selected){
  if(chapter.querySelector(".chapter-study"))return;
  var guide=buildGuide(box,chapter,index);
+ var chapterId=chapter.dataset.chapterId||"";
  var links=[],seenSourceUrls={};
- var mappedResources=(window.DPA_CHAPTER_RESOURCE_MAP||{})[chapter.dataset.chapterId]||[];
+ var mappedResources=(window.DPA_CHAPTER_RESOURCE_MAP||{})[chapterId]||[];
  function addMappedSource(item){
   var href=String(item.url||"").trim(),title=String(item.title||"Rujukan bab").trim();
   if(!/^https?:\/\//i.test(href)||seenSourceUrls[href]||links.length>=5)return;
+  if(credentialRouteIsMappedToChapter(chapterId,href))return;
   seenSourceUrls[href]=true;
-  links.push('<div class="chapter-resource-item"><a class="res" href="'+studyEsc(href)+'" target="_blank" rel="noopener noreferrer"><span><span class="rn">'+studyEsc(title)+'</span><span class="rd">Referensi yang dipetakan untuk objective bab ini; periksa cakupan, akses, dan batas sumber.</span></span><span class="tag t-doc">Rujukan bab</span></a></div>');
+  links.push('<div class="chapter-resource-item"><a class="res" data-resource-type="reference" href="'+studyEsc(href)+'" target="_blank" rel="noopener noreferrer"><span><span class="rn">'+studyEsc(title)+'</span><span class="rd">Sumber rujukan untuk objective bab ini; periksa konteks, tanggal, cakupan, akses, dan batas sumber.</span></span><span class="tag t-doc">Referensi</span></a></div>');
  }
  mappedResources.forEach(addMappedSource);
  selected.forEach(function(n){
   if(links.length>=5)return;
   var a=resources[n].cloneNode(true),href=a.getAttribute("href")||"";
-  if(!/^https?:\/\//i.test(href)||seenSourceUrls[href])return;
+  if(!/^https?:\/\//i.test(href)||seenSourceUrls[href]||credentialRouteIsMappedToChapter(chapterId,href))return;
   seenSourceUrls[href]=true;
   a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");
+  a.setAttribute("data-resource-type","reference");
+  var tag=a.querySelector(".tag");
+  if(tag){
+   tag.className="tag t-doc";
+   if(/credential|certification|badge/i.test(tag.textContent))tag.textContent="Referensi";
+  }
   links.push('<div class="chapter-resource-item">'+a.outerHTML+'</div>');
  });
  var html='<section class="chapter-study" aria-label="Materi belajar bab">';
  html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
  html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
- html+=box.dataset.trackBox==="fullstack"?renderFullstackMasterCrosswalk(index):"";;
- html+='<details class="lesson-fold" open><summary>Rute belajar &amp; bukti kerja</summary><div class="lesson-fold-body"><ol><li><b>LEARN:</b> pahami konsep dan contoh kasus, lalu baca referensi yang dipetakan untuk bab ini.</li><li><b>CREDENTIAL ROUTE:</b> cek ketentuan provider. Course completion, badge, skilling certificate, dan professional certification adalah bukti yang berbeda; jangan mengklaim credential sebelum assessment dan syaratnya terpenuhi.</li><li><b>BUILD:</b> kerjakan latihan terpandu dan simpan worksheet, diagram, query, brief, campaign map, atau output lain yang diminta.</li><li><b>VERIFY:</b> jawab cek pemahaman, uji output terhadap acceptance criteria, simpan evidence, dan tulis limitation serta next action.</li></ol><p style="margin-top:10px">Gunakan data sintetis hanya untuk latihan dan beri label SIMULATED. Jangan menyajikannya sebagai client result atau live campaign outcome.</p></div></details>';
+ html+=renderChapterMilestones(chapterId,guide);
+ html+=box.dataset.trackBox==="fullstack"?renderFullstackMasterCrosswalk(index):"";
+ html+='<details class="lesson-fold" open><summary>Aturan credential dan bukti kompetensi</summary><div class="lesson-fold-body"><p>External credential bersifat opsional dan diterbitkan provider, bukan oleh DPA. Periksa assessment, biaya, bahasa, prasyarat, dan masa berlaku di halaman issuer sebelum mendaftar. Penyelesaian materi tidak otomatis berarti memperoleh credential.</p><p style="margin-top:8px">Milestone Master adalah self-review terhadap deliverable dan knowledge check. Roadmap ini belum mengeluarkan DPA certificate/badge, belum mengimpor completion eksternal, dan belum mengesahkan kompetensi secara otomatis. Gunakan data sintetis hanya untuk latihan dan beri label SIMULATED.</p></div></details>';
  html+='<details class="lesson-fold" open><summary>Penjelasan inti &amp; konsep yang harus dikuasai</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.concept)+'</p><ol class="lesson-topic-list">'+guide.steps.map(function(x){return '<li>'+x+'</li>';}).join("")+'</ol></div></details>';
  if(guide.terms&&guide.terms.length){html+='<details class="lesson-fold"><summary>Istilah penting &amp; definisi</summary><div class="lesson-fold-body"><dl class="lesson-glossary">'+guide.terms.map(function(t){return '<div class="lesson-glossary-item"><dt>'+studyEsc(t.term)+'</dt><dd>'+studyEsc(t.definition)+'</dd></div>';}).join("")+'</dl></div></details>';}
  html+='<details class="lesson-fold" open><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
  html+='<details class="lesson-fold" open><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
  html+='<details class="lesson-fold" open><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
- html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+links.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links.join("")||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
+ html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+links.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links.join("")||'<p class="source-empty">Belum ada referensi tambahan pada daftar ini. Gunakan milestone Earn bila tersedia dan lanjutkan dengan applied evidence.</p>')+'</div></div></details>';
  html+='</section>';
  var body=chapter.querySelector(".wbody");if(!body)return;
  var deliverable=body.querySelector(".deliv");
