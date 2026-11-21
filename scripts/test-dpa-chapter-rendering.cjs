@@ -65,6 +65,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         const earnMilestone = material?.querySelector('[data-milestone="earn"]');
         const credentialCards = [...(earnMilestone?.querySelectorAll(".credential-route-card") || [])];
         const fallbackEarn = Boolean(earnMilestone?.querySelector(".chapter-earn-empty"));
+        const skillRecognition = Boolean(earnMilestone?.querySelector(".chapter-skill-recognition"));
+        const masteryText = material?.querySelector('[data-milestone="master"]')?.textContent || "";
         const mappedRouteIds = chapter.dataset.chapterId ? (chapterCredentialMap[chapter.dataset.chapterId] || []) : [];
         const resourceNodes = [...(material?.querySelectorAll(".chapter-source-list .chapter-resource-item a, .credential-route-card a[data-credential-url]") || [])];
         const resources = resourceNodes.length;
@@ -86,6 +88,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           milestoneCount: milestoneNodes.length,
           earnCardCount: credentialCards.length,
           fallbackEarn,
+          skillRecognition,
+          masterySelfReviewOnly: /self-review/i.test(masteryText),
           mappedCredentialRouteCount: mappedRouteIds.length,
           emptySource,
           lessonFoldBodies: lessonFoldBodies.length,
@@ -123,6 +127,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       row.practiceChars < 20 || row.steps < 1 || row.questions < 1 || row.uniqueResources < 2 ||
       row.milestoneCount !== 4 || row.mappedCredentialRouteCount > 3 || row.earnCardCount !== row.mappedCredentialRouteCount ||
       (row.id === "COMMON_FOUNDATION" ? !row.fallbackEarn : (row.mappedCredentialRouteCount === 0 && !row.fallbackEarn)) ||
+      !row.skillRecognition || !row.masterySelfReviewOnly ||
       (row.id !== "COMMON_FOUNDATION" && !row.hasRegisteredGuide) ||
       row.lessonFoldBodies < 6 || row.emptyLessonFolds > 0
     );
