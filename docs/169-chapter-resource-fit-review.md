@@ -261,3 +261,10 @@ First-pass desk-review coverage is **105/169**; **64/169** core chapters remain 
 Ten T04 chapters now have a first-pass source-fit review in [T04-10-chapter-source-fit-review.md](T04-10-chapter-source-fit-review.md) and its CSV. Generic sources were replaced with Google Search-specific Ad Rank, keyword planning, Auction Insights, Search Terms, campaign setup, matching/negatives, RSA/landing, Smart Bidding, conversion, Quality Score, Impression Share and experiment documentation. Microsoft sources are bounded comparators, not equal-depth coverage.
 
 All ten remain PARTIAL. The review records June 2026 Smart Bidding labels, April 2026 Enhanced Conversions consolidation and the 15 June 2026 Data Manager API transition. No Indonesia CPC benchmark, account access, live CRM/tag test or SME approval is claimed. First-pass coverage is 115/169; 54 remain. Row-based map has 181 unique URLs across 169 chapter IDs, at least two per row. Formal gates remain OPEN.
+
+
+## 21 November 2026 — completion of first-pass desk-review coverage
+
+The T06 Programmatic Media Buying review (12 chapters) and T12 CRM/Lifecycle review (10 chapters) have now been added in dedicated Markdown and CSV registers: [T06 review](T06-12-chapter-source-fit-review.md) · [T06 CSV](T06-12-chapter-source-fit-review.csv) · [T12 review](T12-10-chapter-source-fit-review.md) · [T12 CSV](T12-10-chapter-source-fit-review.csv).
+
+This closes first-pass source-fit desk-review coverage at **169/169 chapters across all 16 core tracks**. It does not close formal objective-level fit: all 169 formal fit, Indonesia access, language/cost/account eligibility and SME states remain OPEN. T06/T12 are deliberately classified PARTIAL. Their review notes identify vendor/standards scope boundaries and material gaps: OpenRTB/supply-path and DV360/CM360 platform specificity in T06; CRM architecture, consent/legal basis, channel policy, deliverability and causal experimentation gaps in T12. The records are AI-assisted desk reviews and need independent technical, local legal/privacy and track SME acceptance.

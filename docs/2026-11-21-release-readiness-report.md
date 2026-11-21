@@ -7,7 +7,7 @@
 
 ## A. Executive verdict
 
-The missing T05, T11 and T15 source-fit desk-review registers have been added. They contain 32 AI-assisted first-pass records, all classified PARTIAL, with every formal acceptance field OPEN. First-pass source-fit review coverage is now 147/169. T06 (12 chapters) and T12 (10 chapters) remain without source-fit desk-review registers.
+The T05, T06, T11, T12 and T15 source-fit desk-review registers are now present. The 22 newly added T06/T12 records bring first-pass desk-review coverage to 169/169 across 16 tracks. Every new chapter disposition is PARTIAL; all 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility and SME decisions remain OPEN. First-pass coverage is not independent acceptance.
 
 The exact-head technical and browser tests have now run successfully on `038e272d7be9f771c52b1e6cf6e964e9696ae04b`. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
 
@@ -21,7 +21,7 @@ The exact-head technical and browser tests have now run successfully on `038e272
 | Advanced electives | 2 × 14 = 28 chapters | Separate audit coverage; all 28 remain PARTIAL |
 | Core chapter IDs | 169 unique + 6 Common Foundation | 172 non-empty lines include 3 comments; canonical ID pattern yields 169 |
 | Chapter-resource mapping | 169 rows | Mapping exists; not formal source-fit approval |
-| First-pass source-fit review | 147/169 | T05/T11/T15 registers added; T06 (12) and T12 (10) remain |
+| First-pass source-fit review | 169/169 | 16 track registers cover every core chapter; T06/T12 are PARTIAL first-pass reviews, not formal acceptance |
 | Objective-level formal fit | 169/169 OPEN | Indonesia access, language, cost and eligibility require qualified review |
 | Core Q&A | 507/507 OPEN | Answer, editorial and SME status remain open |
 | Agency cells | 80/80 OPEN | Coverage ledger exists; employer JD, currentness and competency validation remain open |
@@ -33,9 +33,9 @@ The exact-head technical and browser tests have now run successfully on `038e272
 
 ## C. Work committed to this review branch
 
-1. Added T05 Paid Social (10), T11 SEO/AEO/GEO (10) and T15 Affiliate/Social Commerce (12) source-fit Markdown and CSV registers. Each is explicitly PARTIAL; independent reviewer, Indonesia access, technical accuracy, SME and learner-pilot fields remain OPEN.
-2. Updated the 169-row objective-resource master with the 32 first-pass dispositions. Formal objective-fit/access/language-cost states remain OPEN.
-3. Updated `scripts/validate-dpa-audit-registers.js` to validate all 147 first-pass source-fit rows.
+1. Added T05 (10), T06 (12), T11 (10), T12 (10) and T15 (12) source-fit Markdown and CSV registers. Each is explicitly PARTIAL; independent reviewer, Indonesia access, technical accuracy, SME and learner-pilot fields remain OPEN.
+2. Updated the 169-row objective-resource master with 54 first-pass dispositions from recent batches, including 22 T06/T12 records. Formal objective-fit/access/language-cost states remain OPEN.
+3. Updated `scripts/validate-dpa-audit-registers.js` to require all 16 source-fit registers and validate 169/169 first-pass desk-review rows.
 4. Corrected `scripts/_reconcile.py` to count canonical IDs only.
 5. Added the official-source audit of Copilot 365 recommendations and an end-to-end remediation runbook.
 6. Updated website structured data: removed the universal `P12W` duration; added `dateModified`, review-candidate version, pathway-level educational-level description and `hasPart` entries. Visible label is v11.2 Review Candidate; not a production release label.
@@ -73,7 +73,7 @@ The exact application commit above also has a Vercel Preview deployment in **REA
 
 | ID | Priority | Outstanding issue | Required closure evidence |
 |---|---|---|---|
-| O-1 | P1 | T06 and T12 source-fit desk reviews (22 chapters) | Chapter-specific source-fit Markdown/CSV and master-register reconciliation |
+| O-1 | P1 | Independent acceptance of T06/T12's 22 PARTIAL source-fit reviews | Qualified programmatic/CRM/privacy reviewers validate exact sources, account access, Indonesia applicability and disposition |
 | O-2 | P1 | 169 formal resource-fit decisions | Qualified reviewer, exact source excerpt, objective-fit decision, Indonesia access, language/cost/account eligibility and dated disposition |
 | O-3 | P1 | 507 Q&A answer/editorial/SME reviews | Named reviewer, approved answer guidance, sources, accepted alternatives, review date and disposition |
 | O-4 | P1 | 80 agency role cells | Current direct/official JD, employer identity, geography, seniority, currentness and chapter-competency decision |
@@ -91,7 +91,7 @@ The exact application commit above also has a Vercel Preview deployment in **REA
 
 ## G. Immediate closure path
 
-1. Complete T06/T12 first-pass source-fit reviews, then independent acceptance of all 169 resource mappings.
+1. Assign independent track reviewers to accept/revise T06/T12's 22 PARTIAL desk-review records; then formally accept all 169 resource mappings.
 2. Run SME/editorial batches for 507 Q&A, 169 rubrics, 80 agency cells, 28 electives and 56 checks.
 3. Resolve historical source blockers with original artefact recovery or owner-signed baseline declaration.
 4. Complete authenticated Vercel Preview review and fresh post-fix link audit.

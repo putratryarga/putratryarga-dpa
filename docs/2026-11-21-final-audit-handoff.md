@@ -26,7 +26,7 @@ DPA can now be shared with qualified SMEs and internal reviewers as a clearly la
 | Chapter browser panels | 175/175 | Playwright PASS on exact test SHA |
 | Role selection | 16/16 opened | Selected role + CF only; zero role-card overlap at 1440px and 390px |
 | Resource mapping | 169 rows | Mapping complete; formal objective-fit decisions 169/169 OPEN |
-| Source-fit desk reviews | 147/169 | T05/T11/T15 newly added, all PARTIAL; T06/T12 (22) remain |
+| Source-fit desk reviews | 169/169 | 16 track registers; T05/T06/T11/T12/T15 all first-pass PARTIAL. Formal objective acceptance remains OPEN |
 | Core Q&A | 507 rows | Answer/editorial/SME status 507/507 OPEN |
 | Agency role evidence | 80 cells | Coverage ledger exists; all formal validation fields 80/80 OPEN |
 | Rubrics | 169 rows | Technical calibration/SME/assessor pilot still OPEN |
@@ -58,8 +58,8 @@ The tested application commit has a Vercel Preview deployment in **READY** state
 ## 5. Remediation completed in this branch
 
 1. Added T05 Paid Social (10), T11 SEO/AEO/GEO (10) and T15 Affiliate/Social Commerce (12) chapter-level source-fit review registers, each with chapter evidence, material gaps, next actions and explicit PARTIAL/OPEN dispositions.
-2. Updated the 169-objective master register for those 32 chapters. First-pass coverage is now 147/169; the new records are AI-assisted, not independent reviewer or SME approval.
-3. Extended the audit-register validator to include T05/T11/T15 and 147 first-pass records.
+2. Updated the 169-objective master register for the 22 T06/T12 records; first-pass desk-review coverage is now 169/169. These AI-assisted records are PARTIAL, not independent reviewer or SME approval.
+3. Extended the audit-register validator to require T05/T06/T11/T12/T15 registers and 169/169 first-pass desk-review records.
 4. Fixed the chapter-ID reconciliation script to count only lines matching `DPA-Txx-CHxx`; the three comment lines no longer inflate the count to 172.
 5. Corrected website structured data: removed the universal `P12W` duration, added `dateModified`, version and pathway `hasPart` declarations. Visible version is v11.2 Review Candidate.
 6. Added a documented AI-era/Copilot recommendation audit, an end-to-end runbook and a consolidated register reconciliation.
@@ -88,7 +88,7 @@ The tested application commit has a Vercel Preview deployment in **READY** state
 
 | Priority | Work remaining | Required evidence / owner |
 |---|---|---|
-| P1 | T06 + T12 source-fit review (22 chapters) | Dedicated chapter-level CSV/MD reviews; reviewer/SME validates exact sources |
+| P1 | Independent acceptance of T06 + T12 (22 PARTIAL records) | Qualified reviewers validate exact source sections, Indonesia/account access, technical accuracy and record formal dispositions |
 | P1 | Formal acceptance of 169 resource fits | Qualified domain reviewer per relevant track; exact evidence, local access, language/cost/account eligibility, date and disposition |
 | P1 | Review 507 Q&A | Editorial + technical SME; approve answer, accepted alternatives, source and disposition. Keep non-scored until then |
 | P1 | Validate 80 agency role cells | Current direct/official JD, employer, location, seniority, expiry/currentness, competency linkage and reviewer sign-off |
@@ -102,7 +102,7 @@ The tested application commit has a Vercel Preview deployment in **READY** state
 
 ## 8. Fastest honest path to completion
 
-1. Assign qualified reviewers and close the remaining T06/T12 source-fit first-pass reviews.
+1. Assign qualified reviewers to accept/revise the 22 T06/T12 PARTIAL desk reviews; then formally accept all 169 objective-resource fits.
 2. Batch SME acceptance by track for 169 sources, 507 Q&A, 169 rubrics and 28 elective chapters/56 checks; keep every decision traceable and dated.
 3. Obtain owner decision for historical blockers: recover originals or sign a new baseline statement.
 4. Complete authenticated Vercel Preview inspection and refresh the post-fix URL audit.

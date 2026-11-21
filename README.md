@@ -113,7 +113,7 @@ Masukan: [email](mailto:putratryarga027@gmail.com?subject=Digital%20Performance%
 - [T10 10-chapter source-fit review](docs/T10-10-chapter-source-fit-review.md) and [10-row review CSV](docs/T10-10-chapter-source-fit-review.csv) — chapter-specific findings; all formal acceptance remains OPEN.
 
 
-- Current resource map: **169 rows / 181 unique URLs**. First-pass source-fit desk review covers **147/169 core chapters**; 22 remain without a source-fit desk review (T06: 12; T12: 10) and all formal objective-fit/local-access decisions remain OPEN. T04, T08 and T09 each have 10 PARTIAL chapter dispositions with chapter-specific Search, publisher, platform and measurement sources. See [T04 review](docs/T04-10-chapter-source-fit-review.md), [T08 review](docs/T08-10-chapter-source-fit-review.md), [T09 review](docs/T09-10-chapter-source-fit-review.md), and [169-chapter resource-fit review](docs/169-chapter-resource-fit-review.md).
+- Current resource map: **169 rows / 181 unique URLs**. First-pass source-fit desk review now covers **169/169 core chapters across 16 tracks**. T06 Programmatic (12 chapters) and T12 CRM/Lifecycle (10 chapters) have chapter-specific PARTIAL reviews and supplemental primary-source routes. All 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility decisions remain OPEN pending independent review. T04, T08 and T09 each have 10 PARTIAL chapter dispositions with chapter-specific Search, publisher, platform and measurement sources. See [T04 review](docs/T04-10-chapter-source-fit-review.md), [T08 review](docs/T08-10-chapter-source-fit-review.md), [T09 review](docs/T09-10-chapter-source-fit-review.md), and [169-chapter resource-fit review](docs/169-chapter-resource-fit-review.md).
 - Direct access, source-fit, and Indonesia-market caveats remain recorded; all 169 objective-level fit decisions are OPEN.
 
 ## T16 Community Management & Advocacy source-fit review
@@ -195,8 +195,10 @@ The proposed [certificate issuance and verification specification](docs/certific
 - [Release-readiness report](docs/2026-11-21-release-readiness-report.md) — reconciled counts and remaining formal gates.
 - [AI-era curriculum / Copilot recommendation audit](docs/2026-11-21-copilot-ai-era-update-audit.md) — verified changes and accepted/deferred updates.
 - [End-to-end remediation runbook](docs/2026-11-21-end-to-end-remediation-runbook.md) — single closure checklist.
-- [T05 Paid Social](docs/T05-10-chapter-source-fit-review.md), [T11 SEO/AEO/GEO](docs/T11-10-chapter-source-fit-review.md), [T15 Affiliate/Social Commerce](docs/T15-12-chapter-source-fit-review.md) source-fit reviews — first-pass PARTIAL, formal acceptance OPEN.
-- [Corrected register reconciliation](audit-out/register-reconciliation.md) — 169 canonical IDs and 147/169 source-fit first-pass coverage.
+- [T05 Paid Social](docs/T05-10-chapter-source-fit-review.md), [T06 Programmatic](docs/T06-12-chapter-source-fit-review.md), [T11 SEO/AEO/GEO](docs/T11-10-chapter-source-fit-review.md), [T12 CRM/Lifecycle](docs/T12-10-chapter-source-fit-review.md), [T15 Affiliate/Social Commerce](docs/T15-12-chapter-source-fit-review.md) source-fit reviews — first-pass PARTIAL, formal acceptance OPEN.
+- [T06 Programmatic source-fit review](docs/T06-12-chapter-source-fit-review.md) and [12-row CSV](docs/T06-12-chapter-source-fit-review.csv) — 12 chapters PARTIAL; platform, supply, privacy and measurement acceptance OPEN.
+- [T12 CRM/Lifecycle source-fit review](docs/T12-10-chapter-source-fit-review.md) and [10-row CSV](docs/T12-10-chapter-source-fit-review.csv) — 10 chapters PARTIAL; privacy, channel, technical and SME acceptance OPEN.
+- [Corrected register reconciliation](audit-out/register-reconciliation.md) — 169 canonical IDs and 169/169 first-pass source-fit desk-review coverage; formal acceptance remains OPEN.
 
 
 ## Consolidated release handoff — 21 November 2026

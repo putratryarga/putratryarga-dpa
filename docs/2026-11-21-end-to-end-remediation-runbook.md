@@ -6,9 +6,9 @@
 
 ## Completed in this addendum
 
-- [x] Created T05 (10), T11 (10) and T15 (12) first-pass source-fit registers.
-- [x] Updated the 169-row objective-resource master for these 32 rows: PARTIAL first-pass; all formal fit/access/language-cost/SME states OPEN.
-- [x] Updated the audit-register validator to require 147 first-pass source-fit rows.
+- [x] Created T05 (10), T06 (12), T11 (10), T12 (10) and T15 (12) first-pass source-fit registers; coverage is 169/169.
+- [x] Updated the 169-row objective-resource master for the 22 T06/T12 rows: PARTIAL first-pass; all formal fit/access/language-cost/SME states OPEN.
+- [x] Updated the audit-register validator to require all 16 track registers and 169/169 first-pass source-fit rows.
 - [x] Fixed the ID reconciler to exclude three inventory comments; canonical count is 169 IDs, not 172 non-empty lines.
 - [x] Updated structured data to remove one universal duration and add date/version/pathway parts.
 - [x] Added official-source correction and Copilot recommendation disposition.
@@ -21,7 +21,7 @@
 - [ ] Assign qualified technical SMEs, research/editorial reviewers, legal/privacy reviewers and release owner.
 
 ### P1 — content and source acceptance
-- [ ] Complete source-fit desk review for T06 (12) and T12 (10); then reconcile the full 169 chapter set.
+- [x] Complete first-pass desk review for T06 (12) and T12 (10); reconcile full 169/169 coverage. [ ] Independent reviewer/SME must accept or revise the 22 PARTIAL records and formally close all 169 objective-fit decisions.
 - [ ] For all 169 resources, capture exact-source excerpt, objective fit, Indonesia access, language, cost/account eligibility, reviewer/date and formal disposition.
 - [ ] Review all 507 Q&A answers for correctness, clarity, accepted alternatives, sources and editorial quality. Keep non-scored until SME approval.
 - [ ] Calibrate all 169 learner rubrics; complete SME approval, assessor pilot and inter-rater evidence.
