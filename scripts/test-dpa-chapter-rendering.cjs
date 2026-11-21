@@ -38,8 +38,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     const audit = await page.evaluate(() => {
       const boxes = [...document.querySelectorAll("[data-track-box]")];
       const chapters = [...document.querySelectorAll("[data-track-box] details.week")];
-      const core = chapters.filter((chapter) => chapter.dataset.chapterId);
-      const foundation = chapters.filter((chapter) => !chapter.dataset.chapterId);
+      const foundation = chapters.filter((chapter) => chapter.closest('[data-track-box="cf"]'));
+      const core = chapters.filter((chapter) => !chapter.closest('[data-track-box="cf"]'));
       const guideRegistry = window.DPA_GUIDE_BY_CHAPTER || {};
       const chapterCredentialMap = window.DPA_CHAPTER_CREDENTIAL_MAP || {};
       const guideRegistryIds = Object.keys(guideRegistry);
@@ -67,7 +67,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         const fallbackEarn = Boolean(earnMilestone?.querySelector(".chapter-earn-empty"));
         const skillRecognition = Boolean(earnMilestone?.querySelector(".chapter-skill-recognition"));
         const masteryText = material?.querySelector('[data-milestone="master"]')?.textContent || "";
-        const mappedRouteIds = chapter.dataset.chapterId ? (chapterCredentialMap[chapter.dataset.chapterId] || []) : [];
+        const foundationCredentialMap = window.DPA_FOUNDATION_CREDENTIAL_MAP || {};
+        const mappedRouteIds = chapter.dataset.chapterId ? (foundationCredentialMap[chapter.dataset.chapterId] || chapterCredentialMap[chapter.dataset.chapterId] || []) : [];
         const resourceNodes = [...(material?.querySelectorAll(".chapter-source-list .chapter-resource-item a, .credential-route-card a[data-credential-url]") || [])];
         const resources = resourceNodes.length;
         const resourceHrefs = resourceNodes.map((link) => link.getAttribute("href") || "");
@@ -89,7 +90,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           earnCardCount: credentialCards.length,
           fallbackEarn,
           skillRecognition,
-          masterySelfReviewOnly: /self-review/i.test(masteryText),
+          masterySelfReviewOnly: /self-review|pemeriksaan mandiri/i.test(masteryText),
+          isFoundation: Boolean(chapter.closest('[data-track-box="cf"]')),
           mappedCredentialRouteCount: mappedRouteIds.length,
           emptySource,
           lessonFoldBodies: lessonFoldBodies.length,
@@ -126,9 +128,9 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       !row.hasMaterial || !row.title || row.conceptChars < 80 || row.exampleChars < 80 ||
       row.practiceChars < 20 || row.steps < 1 || row.questions < 1 || row.uniqueResources < 2 ||
       row.milestoneCount !== 4 || row.mappedCredentialRouteCount > 3 || row.earnCardCount !== row.mappedCredentialRouteCount ||
-      (row.id === "COMMON_FOUNDATION" ? !row.fallbackEarn : (row.mappedCredentialRouteCount === 0 && !row.fallbackEarn)) ||
-      !row.skillRecognition || !row.masterySelfReviewOnly ||
-      (row.id !== "COMMON_FOUNDATION" && !row.hasRegisteredGuide) ||
+      (row.mappedCredentialRouteCount === 0 && !row.fallbackEarn) ||
+      row.skillRecognition || !row.masterySelfReviewOnly ||
+      (!row.isFoundation && !row.hasRegisteredGuide) ||
       row.lessonFoldBodies < 6 || row.emptyLessonFolds > 0
     );
     assert.deepEqual(missing, [], "Missing or blank learning material panels.");
@@ -170,8 +172,12 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       .filter((href) => !/^https?:\/\//i.test(href));
     assert.deepEqual(invalidResourceLinks, [], "Mapped learning resources must use explicit HTTP(S) URLs.");
 
-    const ids = audit.rows.filter((row) => row.id !== "COMMON_FOUNDATION").map((row) => row.id);
-    assert.equal(new Set(ids).size, EXPECTED_CORE, "Core chapter IDs must be unique.");
+    const ids = audit.rows.map((row) => row.id);
+    assert.equal(new Set(ids).size, EXPECTED_TOTAL, "All core and Common Foundation chapter IDs must be unique.");
+    const cf2 = audit.rows.find((row) => row.id === "DPA-CF-CH02");
+    assert.ok(cf2 && cf2.earnCardCount >= 2, "CF2 must expose both Forage and HubSpot award routes in Earn.");
+    assert.ok(cf2.resourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must be clickable in CF2 resources/Earn.");
+    assert.ok(cf2.resourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must be clickable in CF2 resources/Earn.");
 
     // Open every role at least once and verify its selected chapter panel is visible.
     const roleIds = ["fullstack", "connection", "media", "paidsearch", "paidsocial",
