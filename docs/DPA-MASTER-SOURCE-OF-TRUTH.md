@@ -154,7 +154,7 @@ The formative quiz and assessment architecture is documented in [Quiz & Assessme
 
 The proposed [DPA Certificate Issuance & Verification specification](certificate-issuance-verification-spec.md) records a future DPA-owned learning credential feature: participation, completion and track-achievement certificates with controlled server-side issuance, public verification, revocation and audit history.
 
-This is a **design baseline only**. The current website is static and has no verified credential registry, authenticated issuer workflow or trusted server-side issuance endpoint. Assessment item approval, rubric calibration, threshold setting, issuer identity, learner privacy/consent, security review and pilot remain prerequisites. No real learner certificate may be issued until the applicable CERT-001–CERT-008 criteria in the acceptance register pass.
+This is a **design baseline only**. The current website is static and has an informational external-provider route registry, but it has no learner-owned award verification registry, authenticated issuer workflow or trusted server-side issuance endpoint. Assessment item approval, rubric calibration, threshold setting, issuer identity, learner privacy/consent, security review and pilot remain prerequisites. No real learner certificate may be issued until the applicable CERT-001–CERT-008 criteria in the acceptance register pass.
 
 A DPA-issued learning certificate is not a BNSP/LSP competency certificate, government-accredited qualification or third-party platform certification. Any LPK/LSP partnership is a separate workstream requiring independent licensing, scheme and issuer verification.
 
