@@ -1490,6 +1490,10 @@ details.week{margin-bottom:16px!important}
 .t-milestone-optional{background:var(--sf3);color:var(--ink3);border:1px solid var(--line)}
 .chapter-earn-empty{padding:9px;border:1px dashed var(--line);border-radius:7px;color:var(--ink2);font-size:10.5px;line-height:1.55;margin-top:7px}
 .chapter-milestone-note{margin-top:7px!important;color:var(--ink3)!important;font-size:9.5px!important}
+.chapter-skill-recognition{margin-top:9px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--sf2)}
+.chapter-skill-recognition strong{display:block;font-size:10.5px;line-height:1.45;margin:5px 0;color:var(--ink)}
+.chapter-skill-recognition p{font-size:10px;line-height:1.5;color:var(--ink2);margin:4px 0 0}
+.chapter-skill-recognition .tag{display:inline-block;margin:0;font-size:9px}
 @media(max-width:700px){.chapter-milestones{grid-template-columns:1fr}.credential-route-card{padding:11px}.chapter-milestone{padding:11px}}
 </style>
 </head>
@@ -4910,18 +4914,20 @@ function renderChapterMilestones(chapterId,guide){
  var registry=window.DPA_CREDENTIAL_REGISTRY||{};
  var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||[];
  var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,3);
+ var deliverable=studyEsc(guide.deliverable||guide.practice||'Selesaikan deliverable bab dan simpan evidence yang dapat diperiksa.');
  var html='<section class="chapter-milestones" aria-label="Milestone belajar bab">';
  html+='<article class="chapter-milestone learn" data-milestone="learn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">01 · Learn</span></div><h5>Pahami materi inti</h5><p>Pelajari konsep, contoh, langkah kerja, dan sumber yang dipetakan untuk learning objective bab ini.</p></article>';
- html+='<article class="chapter-milestone earn" data-milestone="earn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">02 · Earn</span><span class="tag t-milestone-optional">Opsional</span></div><h5>External credential, bila relevan</h5>';
+ html+='<article class="chapter-milestone earn" data-milestone="earn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">02 · Earn</span><span class="tag t-milestone-optional">Jalur pengakuan</span></div><h5>Credential &amp; chapter achievement</h5>';
  if(routes.length){
   html+='<div class="credential-route-list">'+routes.map(renderCredentialRouteCard).join('')+'</div>';
-  html+='<p class="chapter-milestone-note">Credential diterbitkan provider setelah seluruh syaratnya dipenuhi. DPA tidak menerbitkan atau menyinkronkan award eksternal.</p>';
+  html+='<p class="chapter-milestone-note">Credential eksternal diterbitkan oleh provider setelah syaratnya dipenuhi. DPA tidak mengklaim, menerbitkan, atau menyinkronkan award provider.</p>';
  }else{
-  html+='<div class="chapter-earn-empty">Belum ada credential eksternal yang dipetakan khusus ke objective bab ini pada rilis ini. Ini bukan klaim bahwa tidak ada credential di seluruh pasar. Bukti kompetensi bab ini berfokus pada praktik dan portfolio.</div>';
+  html+='<div class="chapter-earn-empty"><strong>External credential belum dipetakan untuk objective ini.</strong><br>Ini bukan klaim bahwa credential tidak tersedia di pasar. Jalur utama bab ini adalah demonstrasi kompetensi melalui deliverable yang dapat diperiksa.</div>';
  }
+ html+='<div class="chapter-skill-recognition"><span class="tag t-coursecred">DPA chapter achievement · planned</span><strong>Bangun bukti penguasaan bab</strong><p>Deliverable: '+deliverable+'</p><p>Pengakuan internal baru dapat diaktifkan setelah learning outcomes, knowledge checks, rubric, passing standard, dan proses reviewer disahkan. Saat ini belum ada badge atau sertifikat DPA yang diterbitkan.</p></div>';
  html+='</article>';
- html+='<article class="chapter-milestone apply" data-milestone="apply"><div class="chapter-milestone-head"><span class="chapter-milestone-step">03 · Apply</span></div><h5>Buat bukti kerja</h5><p>'+studyEsc(guide.deliverable||guide.practice||'Selesaikan deliverable bab dan simpan evidence yang dapat diperiksa.')+'</p></article>';
- html+='<article class="chapter-milestone master" data-milestone="master"><div class="chapter-milestone-head"><span class="chapter-milestone-step">04 · Master</span></div><h5>Periksa penguasaan</h5><p>Jawab knowledge check dan review deliverable terhadap acceptance criteria serta rubric bab. Ini self-review/panduan belajar, bukan keputusan assessor atau DPA chapter badge.</p></article>';
+ html+='<article class="chapter-milestone apply" data-milestone="apply"><div class="chapter-milestone-head"><span class="chapter-milestone-step">03 · Apply</span></div><h5>Buat bukti kerja</h5><p>'+deliverable+'</p></article>';
+ html+='<article class="chapter-milestone master" data-milestone="master"><div class="chapter-milestone-head"><span class="chapter-milestone-step">04 · Master</span></div><h5>Uji penguasaan</h5><p>Gunakan knowledge check dan rubric bab untuk menilai akurasi, kualitas deliverable, dan alasan keputusan. Pada rilis ini hasilnya masih self-review; belum menjadi keputusan assessor atau badge kompetensi.</p></article>';
  html+='</section>';
  return html;
 }
