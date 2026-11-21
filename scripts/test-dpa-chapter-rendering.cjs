@@ -41,6 +41,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       const core = chapters.filter((chapter) => chapter.dataset.chapterId);
       const foundation = chapters.filter((chapter) => !chapter.dataset.chapterId);
       const guideRegistry = window.DPA_GUIDE_BY_CHAPTER || {};
+      const chapterCredentialMap = window.DPA_CHAPTER_CREDENTIAL_MAP || {};
       const guideRegistryIds = Object.keys(guideRegistry);
       const coreIds = core.map((chapter) => chapter.dataset.chapterId);
       const missingGuideIds = coreIds.filter((id) => !guideRegistry[id] || guideRegistry[id].chapterId !== id);
@@ -60,7 +61,12 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         const practice = material?.querySelector(".chapter-deliverable")?.textContent.trim() || "";
         const questions = material?.querySelectorAll(".lesson-check-list > li").length || 0;
         const steps = material?.querySelectorAll(".lesson-topic-list > li").length || 0;
-        const resourceNodes = [...(material?.querySelectorAll(".chapter-source-list .chapter-resource-item a") || [])];
+        const milestoneNodes = [...(material?.querySelectorAll(".chapter-milestone") || [])];
+        const earnMilestone = material?.querySelector('[data-milestone="earn"]');
+        const credentialCards = [...(earnMilestone?.querySelectorAll(".credential-route-card") || [])];
+        const fallbackEarn = Boolean(earnMilestone?.querySelector(".chapter-earn-empty"));
+        const mappedRouteIds = chapter.dataset.chapterId ? (chapterCredentialMap[chapter.dataset.chapterId] || []) : [];
+        const resourceNodes = [...(material?.querySelectorAll(".chapter-source-list .chapter-resource-item a, .credential-route-card a[data-credential-url]") || [])];
         const resources = resourceNodes.length;
         const resourceHrefs = resourceNodes.map((link) => link.getAttribute("href") || "");
         const uniqueResourceHrefs = [...new Set(resourceHrefs)];
@@ -77,6 +83,10 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           resources,
           uniqueResources,
           resourceHrefs,
+          milestoneCount: milestoneNodes.length,
+          earnCardCount: credentialCards.length,
+          fallbackEarn,
+          mappedCredentialRouteCount: mappedRouteIds.length,
           emptySource,
           lessonFoldBodies: lessonFoldBodies.length,
           emptyLessonFolds,
@@ -111,6 +121,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     const missing = audit.rows.filter((row) =>
       !row.hasMaterial || !row.title || row.conceptChars < 80 || row.exampleChars < 80 ||
       row.practiceChars < 20 || row.steps < 1 || row.questions < 1 || row.uniqueResources < 2 ||
+      row.milestoneCount !== 4 || row.earnCardCount !== row.mappedCredentialRouteCount ||
+      (row.id === "COMMON_FOUNDATION" ? !row.fallbackEarn : (row.mappedCredentialRouteCount === 0 && !row.fallbackEarn)) ||
       (row.id !== "COMMON_FOUNDATION" && !row.hasRegisteredGuide) ||
       row.lessonFoldBodies < 6 || row.emptyLessonFolds > 0
     );
@@ -255,7 +267,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       authoredGuideRegistry: audit.guideRegistryCount,
       roleVisibilityIsolation: "selected role + Common Foundation only",
       roleCardOverlap: { desktop: desktopRoleCardLayout, mobile: mobileRoleCardLayout },
-      sourceCoverage: "all 175 panels expose at least 2 unique mapped HTTP(S) links",
+      sourceCoverage: "all 175 panels expose at least 2 unique mapped HTTP(S) links including credential-route cards",
+      credentialMilestones: { stagesPerPanel: 4, coreRouteCards: audit.rows.filter(row => row.id !== "COMMON_FOUNDATION").reduce((sum,row)=>sum+row.earnCardCount,0), noRouteFallbacks: audit.rows.filter(row => row.fallbackEarn).length },
       mobileViewport: mobileLayout,
       mobilePaidSocialPanel: mobilePanelBounds,
       runtimeErrors: pageErrors.length,
