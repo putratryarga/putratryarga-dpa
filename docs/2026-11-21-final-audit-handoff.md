@@ -39,17 +39,21 @@ DPA can now be shared with qualified SMEs and internal reviewers as a clearly la
 
 Working branch: `audit/dpa-release-readiness-2026-11-21`.
 
-Exact-head CI/browser test commit: `5c44ec881b282a8665028833283cdc5048943abb`.
+Exact-head CI/browser test commit: `038e272d7be9f771c52b1e6cf6e964e9696ae04b`.
 
 All three workflows passed on that same SHA:
 
-- [Static QA — run 44807317578](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317578)
-- [Guide Registry + Browser QA — run 44807317638](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638)
-- [Quiz Engine QA — run 44807317620](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317620)
+- [Static QA — run 44808776900](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776900)
+- [Guide Registry + Browser QA — run 44808776955](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955)
+- [Quiz Engine QA — run 44808776981](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776981)
 
-Browser report + screenshots: [artifact 14663148340](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638/artifacts/14663148340). The JSON contains 175 chapter rows and the commit SHA/run ID. This is stronger and more reproducible than the previously cited local-only `qa-out/browser-qa.json` report.
+Browser report + screenshots: [artifact 14664901792](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955/artifacts/14664901792). The JSON contains 175 chapter rows and the commit SHA/run ID. This is stronger and more reproducible than the previously cited local-only `qa-out/browser-qa.json` report.
 
 The test scope is deliberately bounded: 1440px desktop and 390px mobile, role switching, chapter panel structure, guide identity, source-link presence and browser errors. It does not constitute authenticated Vercel Preview review, full cross-browser review, or expert content approval.
+
+### Current Vercel Preview (verified 21 November 2026)
+
+The tested application commit has a Vercel Preview deployment in **READY** state: [deployment inspection](https://vercel.com/elric3/putratyarga-dpa/6XwxJTFEqvBj7JDKSGurESRdva4W) · [preview URL](https://putratryarga-86fn8hscj-elric3.vercel.app/). Vercel metadata ties it to the release branch and exact commit above; the authenticated fetch returned HTTP 200. Its target is not production. The latest listed production deployment still points to `main`; no production promotion or domain reassignment was performed. Human authenticated visual/accessibility review of the hosted preview remains open.
 
 ## 5. Remediation completed in this branch
 
