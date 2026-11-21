@@ -341,7 +341,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
   "DPA-T06-CH05": [
     {"title": "Programmatic Masterclass · jalur credential resmi", "url": "https://www.stackadapt.com/academy/programmatic-masterclass"},
     {"title": "Amazon Ads Programmatic Solutions Certification · jalur credential resmi", "url": "https://advertising.amazon.com/academy/student/path/1532"},
-    {"title": "Display & Video 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Display & Video 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"}
   ],
   "DPA-T06-CH06": [
@@ -368,7 +368,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"}
   ],
   "DPA-T06-CH10": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Programmatic Advertising Learning Path Badge · jalur credential resmi", "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"},
     {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"},
     {"title": "StackAdapt Programmatic Masterclass", "url": "https://www.stackadapt.com/academy/programmatic-masterclass"}
@@ -376,7 +376,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
   "DPA-T06-CH11": [
     {"title": "Programmatic Masterclass · jalur credential resmi", "url": "https://www.stackadapt.com/academy/programmatic-masterclass"},
     {"title": "Amazon Ads Programmatic Solutions Certification · jalur credential resmi", "url": "https://advertising.amazon.com/academy/student/path/1532"},
-    {"title": "Display & Video 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Display & Video 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"}
   ],
   "DPA-T06-CH12": [
@@ -501,57 +501,57 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "MRC — measurement standards index", "url": "https://www.mediaratingcouncil.org/standards-and-guidelines"}
   ],
   "DPA-T09-CH01": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "CM360 Overview", "url": "https://support.google.com/campaignmanager/answer/2709362"},
     {"title": "IAB Tech Lab Measurement standards (OM SDK/ECAPI)", "url": "https://iabtechlab.com/standards/measurement/"}
   ],
   "DPA-T09-CH02": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "CM360 Trafficking workflow", "url": "https://support.google.com/campaignmanager/answer/3419088?hl=en"},
     {"title": "CM360 Set up a campaign", "url": "https://support.google.com/campaignmanager/answer/2838056?hl=en"},
     {"title": "CM360 Placement tags", "url": "https://support.google.com/campaignmanager/answer/2826636"}
   ],
   "DPA-T09-CH03": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "TikTok In-Feed Auction Ads specs (updated June 2026)", "url": "https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads?lang=id"},
     {"title": "CM360 In-stream/VPAID ad and placement setup", "url": "https://support.google.com/campaignmanager/answer/3312873?hl=en"},
     {"title": "CM360 Creative-placement assignments", "url": "https://support.google.com/campaignmanager/answer/3414002?hl=en"}
   ],
   "DPA-T09-CH04": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "GTM Preview and debug containers", "url": "https://support.google.com/tagmanager/answer/6107056?hl=en"},
     {"title": "CM360 Test tags", "url": "https://support.google.com/campaignmanager/answer/2826648?hl=en"},
     {"title": "Meta Conversions API", "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/"},
     {"title": "TikTok Events API", "url": "https://ads.tiktok.com/resources/help/article/getting-started-events-api?redirected=1"}
   ],
   "DPA-T09-CH05": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "CM360 Set up a campaign", "url": "https://support.google.com/campaignmanager/answer/2838056?hl=en"},
     {"title": "CM360 Create placements", "url": "https://support.google.com/campaignmanager/answer/2829205?hl=en"},
     {"title": "CM360 Manage Floodlight details and conversions", "url": "https://support.google.com/campaignmanager/answer/13681097"},
     {"title": "CM360 Floodlight counting methods", "url": "https://support.google.com/campaignmanager/answer/2823400?hl=en"}
   ],
   "DPA-T09-CH06": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "CM360 Test tags", "url": "https://support.google.com/campaignmanager/answer/2826648?hl=en"},
     {"title": "CM360 Tagging issues and diagnostics", "url": "https://support.google.com/campaignmanager/answer/2829774?hl=en"},
     {"title": "GTM Preview and debug containers", "url": "https://support.google.com/tagmanager/answer/6107056?hl=en"}
   ],
   "DPA-T09-CH07": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "CM360 Tagging issues and diagnostics", "url": "https://support.google.com/campaignmanager/answer/2829774?hl=en"},
     {"title": "Google Ad Manager Investigate report discrepancies", "url": "https://support.google.com/admanager/answer/6160380?hl=en"},
     {"title": "GTM Server-side preview and debug", "url": "https://developers.google.com/tag-platform/tag-manager/server-side/debug"}
   ],
   "DPA-T09-CH08": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Ad Manager Investigate report discrepancies", "url": "https://support.google.com/admanager/answer/6160380?hl=en"},
     {"title": "CM360 How impressions and clicks are counted", "url": "https://support.google.com/campaignmanager/answer/6193740?hl=en"},
     {"title": "IAB Tech Lab Measurement standards", "url": "https://iabtechlab.com/standards/measurement/"},
     {"title": "CM360 Floodlight counting methods", "url": "https://support.google.com/campaignmanager/answer/2823400?hl=en"}
   ],
   "DPA-T09-CH09": [
-    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.docebosaas.com/pages/17/certifications"},
+    {"title": "Campaign Manager 360 Certification (2026) · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "CM360 View and download invoices", "url": "https://support.google.com/campaignmanager/answer/13744493?hl=en"},
     {"title": "CM360 Create/request billing reports", "url": "https://support.google.com/campaignmanager/answer/9999963?hl=en"},
     {"title": "CM360 How billing works", "url": "https://support.google.com/campaignmanager/answer/15406732?hl=en"},
