@@ -6,6 +6,16 @@
 **Verdict:** **READY FOR REVIEW ONLY — NOT READY FOR AUDIENCE**  
 **Production:** untouched; no merge to main, no production promotion/deploy, no certificate issuance.
 
+### Update — 21 November 2026 (fresh verification, remediation run 2)
+
+**Current head:** `05a2e27` on this branch (parent `b9157d8`). All three workflows SUCCESS on exactly `05a2e27`: Static QA run 44909093527, Guide Registry + Browser QA runs 44909093498 / 44909096872, Quiz Engine QA run 44909093485.
+
+**New finding F-2026-11-21-01 (FOUND → FIXED):** the checkpoint head `b9157d8` had a failing Static QA workflow (run 44865347811) that the previous checkpoint had not reported: between `bbd89dd` (last all-green revision) and `b9157d8`, index.html gained one intentional width-based @media rule for the credential-route mobile layout while scripts/validate-dpa-static.js still expected 19 total / 14 width-based. Fixed in commit `05a2e27` by syncing the validator snapshot to 20/15 (reduced-motion 2 and print 3 unchanged); no HTML/CSS content changed; local reproduction FAIL → PASS recorded.
+
+**Checkpoint registry claims independently re-verified** (recomputed from chapter-credential-routes.js / chapter-resources.js / docs/169-core-chapter-ids.txt, not from documents): 35 issuer routes; 136/169 core chapters with ≥1 mapped Earn route; 33 core chapters without selected route; 194 core route placements; CF 3/6 mapped with 4 placements; 36 no-route fallbacks; 169 core + 6 CF resource-map rows. Integrity: 0 orphan references, 0 registry records missing mandatory fields, 0 non-HTTPS URLs, 0 duplicate titles, 169 audit rows honestly marked FIRST_PASS_MAPPING_NOT_SME_ACCEPTED. Two curated routes are unused by the core map (forage_omnichannel_certificate, meta_pixel_optimization_course) — noted for the credential audit, not a defect.
+
+**Evidence provenance correction:** QA artifact 14691273501's name suffix `7a40f92d…` is GitHub's refs/pull/7/merge ref (verified via API), not the branch head; because origin/main is an ancestor of this branch, the merge ref's tree is identical to `b9157d8`. The preview `putratryarga-kjz0bjini-elric3.vercel.app` serves the Vercel SSO login page without authentication; authenticated preview inspection stays OPEN (O-7).
+
 ## A. Executive verdict
 
 The T05, T06, T11, T12 and T15 source-fit desk-review registers are now present. The 22 newly added T06/T12 records bring first-pass desk-review coverage to 169/169 across 16 tracks. Every new chapter disposition is PARTIAL; all 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility and SME decisions remain OPEN. First-pass coverage is not independent acceptance.

@@ -53,3 +53,22 @@ T06 Programmatic adds IAB OpenRTB/supply-chain standards, DV360 auction operatio
 - 28/28 elective chapters remain PARTIAL; 56/56 elective knowledge checks remain OPEN.
 - Historical S0 / HIST-001 / HIST-002 remain BLOCKED pending original artefact recovery or an owner-signed new-baseline declaration.
 - This reconciliation does not authorise audience release, certificate issuance, merge to `main` or production deployment.
+
+## Credential-route registry fresh verification (21 November 2026, run 2)
+
+Recomputed mechanically from `chapter-credential-routes.js`, `chapter-resources.js` and `docs/169-core-chapter-ids.txt` at head `b9157d8` — all checkpoint figures reproduce exactly:
+
+| Control | Recomputed |
+|---|---:|
+| Issuer routes in `DPA_CREDENTIAL_REGISTRY` | 35 |
+| Core chapters with ≥1 mapped Earn route | 136/169 |
+| Core chapters without selected route | 33 |
+| Core route placements | 194 |
+| Common Foundation chapters mapped | 3/6 |
+| Common Foundation placements | 4 |
+| No-route fallbacks (33 core + 3 CF) | 36 |
+| Core / CF resource-map rows | 169 / 6 |
+
+Integrity: 0 orphan route references; 0 records missing provider/title/type/label/url/award/verifiedOn; 0 non-HTTPS URLs; 0 duplicate titles; 169 chapter-credential audit rows all marked `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. Unused curated routes: `forage_omnichannel_certificate`, `meta_pixel_optimization_course`. This verification is structural only; award-type accuracy and Indonesia access remain OPEN pending SME acceptance.
+
+A Static QA regression at the checkpoint head (validator @media snapshot 19/14 vs the intentional 20/15 after the credential-route mobile rule) was found by fresh verification and fixed in commit `05a2e27`; all three workflows are SUCCESS on that exact head (runs 44909093527, 44909093498/44909096872, 44909093485).
