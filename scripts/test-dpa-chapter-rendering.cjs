@@ -184,11 +184,18 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.ok(cf2.learningResourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must also be clickable in Learn.");
     assert.ok(cf2.learningResourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must also be clickable in Learn.");
     const requiredCredentialChapters = [
+      ["DPA-T01-CH01", "hubspot"],
+      ["DPA-T02-CH06", "linkedin.com"],
       ["DPA-T03-CH03", "microsoft"],
       ["DPA-T04-CH01", "microsoft"],
       ["DPA-T06-CH01", "microsoft"],
+      ["DPA-T07-CH03", "microsoft"],
+      ["DPA-T09-CH01", "skillshop.withgoogle.com"],
+      ["DPA-T10-CH02", "skillshop.withgoogle.com"],
+      ["DPA-T11-CH01", "semrush.com"],
       ["DPA-T12-CH05", "hubspot"],
       ["DPA-T13-CH02", "hubspot"],
+      ["DPA-T14-CH10", "certifications.facebookblueprint.com"],
       ["DPA-T15-CH01", "impact.com"],
       ["DPA-T16-CH01", "communitytraining.facebookblueprint.com"]
     ];
