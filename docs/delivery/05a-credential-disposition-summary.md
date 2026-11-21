@@ -63,3 +63,9 @@ Keputusan: NO_ROUTE_WITH_EVIDENCE - route hanya dipetakan bila assessment issuer
 - Klaim carried dari riset same-day yang TIDAK re-fetch: Forage (T01-CH10), Ahrefs Certification (T11-CH10), HubSpot certification-overview (T12-CH10), OpenStax/SBA (CF-CH01), sebagian kurikulum Meltwater/PXA. Semua ditandai di kolom verification_status CSV (NEGATIVE_PARTIAL / PARTIAL_VERIFIED_JS_GATE).
 - Fee LinkedIn Marketing Strategy tidak dinyatakan di help article resmi - cek halaman enrol sebelum booking.
 - Semua pemeriksaan dilakukan 2026-11-21; daftar URL + status ada di 09-source-provenance-register.md.
+
+## 8. Superseding integration reconciliation — 21 November 2026
+
+The table above preserves Agent A's isolated-worktree result. It is not the final integrated disposition count. The reconciled runtime CSV now contains 43 proposal rows: 30 accepted-disposition rows (12 direct, 11 partial including the canonical Semrush route, 7 supporting), 1 duplicate Semrush proposal merged into that canonical route, 10 `NO_ROUTE_WITH_EVIDENCE`, and 2 `NOT_SELECTED` rows. The second Semrush proposal supports T11-CH03/04 through one canonical route. The Trade Desk supply-chain course remains Learn-only because the individual page does not evidence an award; the proposed Microsoft Azure SQL Fundamentals path remains unselected because that specific path is no longer current. A separate Microsoft Applied Skills Azure SQL application-development credential was discovered on 22 Nov, but is a distinct developer assessment and is not mapped without SME fit review.
+
+The integrated registry now has 51 distinct issuer routes; core coverage is 161/169 chapters and 224 placements; Common Foundation is 4/6 chapters and five placements. These are first-pass selections, not accepted chapter decisions. `T08-CH08` remains explicitly no-route. The current runtime, CSV and map parity is enforced by `scripts/validate-dpa-guide-registry.js`.

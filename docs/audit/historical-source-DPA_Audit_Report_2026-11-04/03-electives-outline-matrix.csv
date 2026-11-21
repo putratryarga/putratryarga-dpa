@@ -1,0 +1,29 @@
+Chapter ID,Track,Chapter title,Instructional substance,Competency alignment,Technical accuracy,Practical exercise,Deliverable,Resource/evidence quality,Assessment alignment,Score,Status,Defects,Recommended remediation
+DPA-ELC-CRO-01,Elective 17 CRO,Growth Economics & Conversion Strategy,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only: core outcome + deliverable label; no teaching content,Author full instructional content + evidence register before validation
+DPA-ELC-CRO-02,Elective 17 CRO,Customer Research & Insight,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content; check overlap with T01-CH02 consumer research
+DPA-ELC-CRO-03,Elective 17 CRO,Digital Analytics Architecture,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; overlap risk with T09/T10 tracking-measurement scope,Define boundary vs T09/T10 at authoring
+DPA-ELC-CRO-04,Elective 17 CRO,Behavioural & Funnel Analytics,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-CRO-05,Elective 17 CRO,UX & Digital Experience Optimization,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-CRO-06,Elective 17 CRO,Hypothesis & Opportunity Prioritization,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-CRO-07,Elective 17 CRO,Experimentation Design,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; overlap risk with T01-CH08 and T10 experimentation chapters,Define boundary vs T01/T10 at authoring
+DPA-ELC-CRO-08,Elective 17 CRO,Advanced Statistics for Experimentation,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content; platform thresholds must not be generalized (doc already notes)
+DPA-ELC-CRO-09,Elective 17 CRO,Experimentation Technology & Technical QA,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-CRO-10,Elective 17 CRO,Causal Measurement & Incrementality,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; overlap risk with T10 incrementality chapters,Define boundary vs T10 at authoring
+DPA-ELC-CRO-11,Elective 17 CRO,Personalization & Journey Orchestration,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; partial adjacency to T12 lifecycle,Define boundary vs T12 at authoring
+DPA-ELC-CRO-12,Elective 17 CRO,Experimentation Programme Management,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-CRO-13,Elective 17 CRO,Commercial Impact & Executive Advisory,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-CRO-14,Elective 17 CRO,Senior CRO Capstone,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; capstone integration criteria listed in doc §7 only,Author capstone brief + rubric with scoring anchors
+DPA-ELC-TM-01,Elective 18 TM,Traditional Media Ecosystem & Agency Operations,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-02,Elective 18 TM,Audience Intelligence & Research,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content; Indonesia measurement sources must be validated locally
+DPA-ELC-TM-03,Elective 18 TM,Audience Measurement & Media Data,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; doc itself warns not to transfer India/UK systems to Indonesia,Author content with Indonesia measurement methodology validation
+DPA-ELC-TM-04,Elective 18 TM,Television & Broadcast Planning,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-05,Elective 18 TM,Radio & Audio Investment,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-06,Elective 18 TM,Print Media Planning & Buying,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-07,Elective 18 TM,OOH & DOOH Investment,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-08,Elective 18 TM,Cinema Sponsorship & Special Partnerships,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-09,Elective 18 TM,Media Mix & Investment Optimization,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-10,Elective 18 TM,Commercial Negotiation & Trading,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; boundary risk vs T08 publisher negotiation scope,Define boundary vs T08 at authoring
+DPA-ELC-TM-11,Elective 18 TM,Buying Operations & Campaign Execution,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only; boundary risk vs T08 buying operations,Define boundary vs T08 at authoring
+DPA-ELC-TM-12,Elective 18 TM,Delivery Assurance & Post-Buy,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-13,Elective 18 TM,Cross-Media Measurement & Investment Governance,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author content
+DPA-ELC-TM-14,Elective 18 TM,Senior Investment Leadership Capstone,1,2,0,1,2,1,0,1.0,NOT VERIFIED,Outline-only,Author capstone brief + rubric with scoring anchors

@@ -128,19 +128,6 @@ details.week,
   scroll-margin-top: 120px;
 }
 
-.wm { position: fixed; inset: 0; z-index: 9000; pointer-events: none; overflow: hidden; }
-.wm span {
-  position: absolute;
-  font: 500 14px var(--sans);
-  color: rgba(237,232,222,.03);
-  white-space: nowrap;
-  transform: rotate(-32deg);
-}
-.wm span:nth-child(1) { top: 12%; left: -6%; }
-.wm span:nth-child(2) { top: 38%; left: 8%; }
-.wm span:nth-child(3) { top: 64%; left: -3%; }
-.wm span:nth-child(4) { top: 88%; left: 10%; }
-
 #toast {
   position: fixed;
   bottom: 28px;
@@ -260,10 +247,6 @@ html[data-theme="light"] .human {
 html[data-theme="light"] .chk input {
   border-color: #716955;
   background: var(--sf2);
-}
-
-html[data-theme="light"] .wm span {
-  color: rgba(25,23,18,.04);
 }
 
 html[data-theme="light"] .t-step {
@@ -936,7 +919,7 @@ footer p {
 
 @media print {
   body { background: #fff; color: #1A1610; }
-  .wm, .topbar, #toast { display: none !important; }
+  .topbar, #toast { display: none !important; }
   main.page { max-width: 100%; padding: 0; }
   section { margin-bottom: 24px; break-inside: avoid-page; }
   details.week { break-inside: avoid; border-color: #ccc; background: #fff; }
@@ -953,7 +936,6 @@ footer p {
   .deliv .chk { color: #1A1610; }
   th { background: #F2EFE8; color: #1A1610; }
   a { color: #1A1610; text-decoration: underline; }
-  .wm span { color: rgba(0,0,0,.05); }
   .tag { border: 1px solid #999; color: #333; background: #fff; }
   .slot-item { background: #fff; border: 1px solid #ccc; }
   .seq-box { background: #FAF7F0; border-color: #D6D0C4; }
@@ -1503,12 +1485,6 @@ details.week{margin-bottom:16px!important}
 
 <a class="skip-link" href="#main">Langsung ke konten utama</a>
 
-<div class="wm" aria-hidden="true">
-<span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
-<span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
-<span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
-<span>© Putra Try Arga · Gratis untuk edukasi · Bukan untuk dijual</span>
-</div>
 <div id="toast" role="status" aria-live="polite"></div>
 
 <main class="page" id="main" tabindex="-1">
@@ -4695,9 +4671,11 @@ details.week{margin-bottom:16px!important}
 <script src="./role-study-guides-part1.js"></script>
 <script src="./role-study-guides-part2.js"></script>
 <script src="./role-study-guides-part3.js"></script>
+<script src="./role-study-guides-part4.js"></script>
 <script src="./chapter-guide-map.js"></script>
 <script src="./chapter-resources.js"></script>
 <script src="./chapter-credential-routes.js"></script>
+<script src="./chapter-credential-routes-integration.js"></script>
 <script src="./fullstack-master-roadmap.js"></script>
 <script src="./fullstack-master-renderer.js"></script>
 <script>

@@ -19,7 +19,7 @@ Semua pemeriksaan dilakukan 2026-11-21. Status: VERIFIED = halaman issuer dibaca
 | # | URL | Status | Terverifikasi |
 |---|---|---|---|
 | 8 | https://credly.com/org/the-trade-desk-inc/badge/the-trade-desk-edge-academy-certified-data-driven-planning | VERIFIED | Tipe Certification; kriteria 5 jam coursework + exam 25 MCQ; tanpa expiry |
-| 9 | https://edgeacademy.thetradedesk.com/courses | PARTIAL | Course Strengthening Your Programmatic Supply Chain di katalog resmi; halaman JS-heavy; sertifikat per-kursus via snippet |
+| 9 | https://edgeacademy.thetradedesk.com/courses | VERIFIED_LISTING_ONLY | Katalog menampilkan course Strengthening Your Programmatic Supply Chain; kalimat umum katalog menyebut courses atau certifications, tetapi halaman individual tidak membuktikan award course ini. Dipertahankan di Learn, tidak di Earn. |
 | 10 | https://www.mediaocean.com/mediaocean-launches-digital-product-training-certifications-program-with-credly | VERIFIED | Rilis 20 Okt 2022: Credly badges Prisma dan Flashtalking; training via Strigo; katalog gated |
 | 11 | https://academy.hubspot.com/courses/content-marketing | VERIFIED | FREE Certification Course; kurikulum storytelling/framework/measurement |
 | 12 | https://academy.hubspot.com/courses/aeo-fundamentals-certification-en | VERIFIED | FREE Certification Course; 7 lessons; EEAT, AI Overviews, GSC+GA4 |
@@ -38,7 +38,7 @@ Semua pemeriksaan dilakukan 2026-11-21. Status: VERIFIED = halaman issuer dibaca
 | 25 | https://www.semrush.com/academy/courses/technical-seo-course-with-bastian-grimm | VERIFIED | 34 lessons/5 jam/100 persen free; Technical SEO Exam -> certificate Semrush |
 | 26 | https://www.semrush.com/academy/courses/techincal-seo-and-ai-search-essentials-with-semrush | VERIFIED | CWV (LCP/INP/CLS), HTTPS, schema, sitemaps, robots, AI crawlers; final assessment (URL asli typo techincal) |
 | 27 | https://trailhead.salesforce.com/content/learn/trails/unlock-your-data-with-data-cloud | VERIFIED | +6,400 poin/Intermediate/sekitar 10 jam; DMO, identity resolution, segmentation, activation; produk kini Data 360 |
-| 28 | https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/ | VERIFIED | 2 modul; Beginner; role DBA; prasyarat pengalaman SQL Server |
+| 28 | https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/ | NOT_CURRENT_PATH | URL proposal lama bukan learning path aktif; tidak dipetakan sebagai award. Pemeriksaan 22 Nov menemukan Applied Skills credential terpisah untuk Azure SQL application development (lihat §E); bukan pengganti langsung untuk proposal lama. |
 | 29 | https://www.tiktokacademy.com/student/collection/2079614-courses | PARTIAL | Course Creative planning dan Build your brand di koleksi publik; certificate per-kursus via caveat |
 | 30 | https://learning.braze.com/page/certification | VERIFIED | Retention and Loyalty Playbook FREE 45 menit tanpa sertifikat; certification exam berbayar (diskon 50 persen = USD 50) |
 | 31 | https://www.analyticsmania.com/courses/free-google-analytics-fundamentals-course | VERIFIED | 90 menit video + quiz 30 soal + course-completion certificate |
@@ -52,6 +52,16 @@ Semua pemeriksaan dilakukan 2026-11-21. Status: VERIFIED = halaman issuer dibaca
 | 34 | https://academy.hubspot.com/certification-overview | T12-CH10 negative (format knowledge/product cert) |
 | 35 | https://skillshop.exceedlms.com/ | T01-CH05 akses assessment Skillshop |
 | 36 | https://www.forage.com | T01-CH10 negative (simulasi tanpa assessment) |
+
+## E. Cross-check lanjutan pada sumber issuer resmi — 21 November 2026
+
+| # | URL | Status | Temuan dan keputusan |
+|---|---|---|---|
+| 37 | https://skillshop.withgoogle.com/ | VERIFIED | Katalog resmi menampilkan jalur Google Ads, Google Marketing Platform, Google Analytics dan produk lain. Empat referensi runtime yang sebelumnya memakai `/googleads/` diganti ke root; root dibuka langsung. |
+| 38 | https://edgeacademy.thetradedesk.com/courses | VERIFIED_LISTING_ONLY | Katalog memisahkan course dan certification pada level pustaka; halaman Strengthening Your Programmatic Supply Chain tidak menyatakan award atau kriteria penyelesaian per-course. Learn-only. |
+| 39 | https://edgeacademy.thetradedesk.com/programmatic-supply-chain | VERIFIED_CONTENT_ONLY | Halaman menjelaskan SPO, supply-path inefficiency dan seller quality; tidak menemukan award individual. Learn-only. |
+| 40 | https://learn.microsoft.com/en-us/credentials/applied-skills/develop-data-driven-applications-by-using-microsoft-azure-sql-database/ | VERIFIED_SEPARATE_CREDENTIAL | Microsoft menyatakan Applied Skills credential dengan interactive lab assessment untuk mengembangkan Azure SQL applications; assessment berbahasa Inggris dan beberapa bahasa lain. Ini berbeda dari path Azure SQL Fundamentals yang diusulkan dan developer-specific; tidak ditambahkan ke Earn tanpa review fit SME. |
+| 41 | https://www.semrush.com/academy/courses/techincal-seo-and-ai-search-essentials-with-semrush/ | VERIFIED | Halaman canonical saat ini memuat technical SEO + AI search, course assessment dan certificate. Satu route kanonis dipakai untuk T11-CH03/04. |
 
 ## D. Sumber internal (worktree dpa-wA, branch audit/v3-A-credential)
 

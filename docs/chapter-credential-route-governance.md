@@ -139,6 +139,13 @@ These are course/simulation completion awards, not professional certifications. 
 Current registry count cross-check (21 Nov 2026): 35 unique issuer/simulation/course award routes; core mapping 136/169 chapters and 194 placements; Common Foundation mapping 3/6 chapters and 4 placements. Counts describe the curated first-pass map, not full market coverage or independent SME acceptance.
 
 
+## Superseding A–F credential integration snapshot — 21 November 2026
+
+This snapshot supersedes the earlier 20-route, 35-route and 136/169 route-count summaries above. The integrated runtime now contains **51 distinct issuer routes**. The core chapter map has routes in **161/169 chapters** (224 placements; eight chapters remain without an external route selected). Common Foundation has routes in **4/6 chapters** (five placements). Counts are independently recomputed from the runtime object and cross-checked against the 175-row CSV; every selected mapping remains `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
+
+Credential proposal disposition: 43 rows = 30 accepted-disposition rows (12 direct, 11 partial including one canonical Semrush entry, 7 supporting), one duplicate Semrush proposal merged into that canonical route, ten evidence-based no-route decisions and two candidates not selected. `T08-CH08` remains no-route after a four-way scope analysis. The Trade Desk supply-chain course stays Learn-only because its individual page does not state a completion award. The proposed Microsoft Learn Azure SQL Fundamentals path is inactive; a separate Microsoft Applied Skills Azure SQL application-development credential exists but is not added because fit to T12-CH02's customer-data architecture outcomes is unreviewed. Google Skillshop source references now use its official catalogue root. See `docs/delivery/09-source-provenance-register.md` for the issuer cross-checks and `docs/delivery/05-credential-proposal-disposition-register.csv` for row-level decisions.
+
+
 ### Expanded issuer-route coverage — 21 November 2026
 
 The chapter-level route map now has 30 distinct routes. Newly added provider evidence was mapped only to relevant objective clusters:

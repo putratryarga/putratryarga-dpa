@@ -20,7 +20,17 @@ var DPA_GUIDE_BY_CHAPTER = {};
    register(group[role]);
   });
  }
+ function override(guides){
+  (guides||[]).forEach(function(guide){
+   if(!guide||!guide.chapterId)return;
+   if(!DPA_GUIDE_BY_CHAPTER[guide.chapterId]){
+    throw new Error("Cannot override missing DPA chapter guide ID: "+guide.chapterId);
+   }
+   DPA_GUIDE_BY_CHAPTER[guide.chapterId]=guide;
+  });
+ }
  register(typeof FULLSTACK_GUIDES!=="undefined"?FULLSTACK_GUIDES:[]);
  register(typeof PAID_SOCIAL_GUIDES!=="undefined"?PAID_SOCIAL_GUIDES:[]);
  registerGroup(typeof ROLE_STUDY_GUIDES!=="undefined"?ROLE_STUDY_GUIDES:null);
+ override(typeof ROLE_STUDY_GUIDES_PART4!=="undefined"?ROLE_STUDY_GUIDES_PART4:[]);
 })();

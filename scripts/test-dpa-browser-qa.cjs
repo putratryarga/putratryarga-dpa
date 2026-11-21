@@ -18,10 +18,17 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const { execFileSync } = require("node:child_process");
 
 const ROOT = path.resolve(__dirname, "..");
 const BASE_URL = process.env.DPA_TEST_URL || "http://127.0.0.1:4180/index.html";
 const PW_MODULES = process.env.DPA_PW_MODULES || path.resolve(ROOT, "..", "dpa-work", "node_modules");
+const REPORT_PATH = process.env.DPA_REPORT_PATH
+  ? path.resolve(process.env.DPA_REPORT_PATH)
+  : path.join(ROOT, "docs", "delivery", "18a-browser-qa.json");
+const SCREENSHOT_DIR = process.env.DPA_SCREENSHOT_DIR
+  ? path.resolve(process.env.DPA_SCREENSHOT_DIR)
+  : null;
 
 const { chromium } = require(path.join(PW_MODULES, "playwright-core"));
 const AXE_SRC = fs.readFileSync(path.join(PW_MODULES, "axe-core", "axe.min.js"), "utf8");
@@ -45,12 +52,13 @@ const ROLES = {
   affiliate:   { expected: 12, track: "T15" },
   community:   { expected: 12, track: "T16" }
 };
-const VIEWPORTS = [320, 375, 768, 1024, 1366, 1440];
+const VIEWPORTS = [320, 375, 390, 768, 1024, 1366, 1440];
 const OVERFLOW_TOLERANCE_PX = 1;
 
 function newReport() {
   return {
     generatedAt: new Date().toISOString(),
+    candidateSha: execFileSync("git", ["rev-parse", "HEAD"], { cwd: ROOT, encoding: "utf8" }).trim(),
     baseUrl: BASE_URL,
     viewportOverflowTolerancePx: OVERFLOW_TOLERANCE_PX,
     consoleErrors: [],
@@ -60,6 +68,7 @@ function newReport() {
     fullDomMilestoneSweep: {},
     sampledChapters: [],
     viewportChecks: [],
+    screenshots: [],
     skipLink: {},
     axe: {},
     failure: []
@@ -319,6 +328,15 @@ async function run() {
         pass: overflowBefore <= OVERFLOW_TOLERANCE_PX && overflowAfter <= OVERFLOW_TOLERANCE_PX
       };
       report.viewportChecks.push(entry);
+      if (SCREENSHOT_DIR && (width === 390 || width === 1366)) {
+        fs.mkdirSync(SCREENSHOT_DIR, { recursive: true });
+        const chapter = page.locator('[data-track-box="adops"] details.week[data-chapter-id]').first();
+        await chapter.scrollIntoViewIfNeeded();
+        const filename = width === 390 ? "dpa-mobile-390-adops-chapter.png" : "dpa-desktop-1366-adops-chapter.png";
+        const screenshotPath = path.join(SCREENSHOT_DIR, filename);
+        await page.screenshot({ path: screenshotPath, fullPage: false });
+        report.screenshots.push({ viewport: width, path: screenshotPath });
+      }
       if (!entry.pass) {
         report.failure.push("Viewport " + width + "px horizontal overflow: default view " + overflowBefore + "px, adops chapter open " + overflowAfter + "px (tolerance " + OVERFLOW_TOLERANCE_PX + "px).");
       }
@@ -368,10 +386,10 @@ async function run() {
     await browser.close();
   }
 
-  const outPath = path.join(ROOT, "docs", "delivery", "18a-browser-qa.json");
+  const outPath = REPORT_PATH;
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(report, null, 2), "utf8");
-  console.log(JSON.stringify({ status: report.status, failures: report.failure, output: path.relative(ROOT, outPath) }, null, 2));
+  console.log(JSON.stringify({ status: report.status, candidateSha: report.candidateSha, failures: report.failure, output: outPath }, null, 2));
   if (report.status !== "PASS") process.exit(1);
   console.log("PASS: browser QA gates all green.");
 }

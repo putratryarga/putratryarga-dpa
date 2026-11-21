@@ -3,6 +3,45 @@ const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
 
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let value = "";
+  let quoted = false;
+  for (let i = 0; i < text.length; i += 1) {
+    const char = text[i];
+    if (quoted) {
+      if (char === '"' && text[i + 1] === '"') {
+        value += '"';
+        i += 1;
+      } else if (char === '"') {
+        quoted = false;
+      } else {
+        value += char;
+      }
+    } else if (char === '"' && value.length === 0) {
+      quoted = true;
+    } else if (char === ",") {
+      row.push(value);
+      value = "";
+    } else if (char === "\n" || char === "\r") {
+      if (char === "\r" && text[i + 1] === "\n") i += 1;
+      row.push(value);
+      value = "";
+      if (row.some((cell) => cell.length > 0)) rows.push(row);
+      row = [];
+    } else {
+      value += char;
+    }
+  }
+  if (value.length || row.length) {
+    row.push(value);
+    if (row.some((cell) => cell.length > 0)) rows.push(row);
+  }
+  assert.equal(quoted, false, "Credential route CSV must not contain an unterminated quoted cell.");
+  return rows;
+}
+
 const root = process.cwd();
 const sourceFiles = [
   "fullstack-guides.js",
@@ -10,9 +49,11 @@ const sourceFiles = [
   "role-study-guides-part1.js",
   "role-study-guides-part2.js",
   "role-study-guides-part3.js",
+  "role-study-guides-part4.js",
   "chapter-guide-map.js",
   "chapter-resources.js",
-  "chapter-credential-routes.js"
+  "chapter-credential-routes.js",
+  "chapter-credential-routes-integration.js"
 ];
 
 const sandbox = { console };
@@ -28,6 +69,8 @@ const chapterIds = [...html.matchAll(/data-chapter-id=["'](DPA-T[0-9]{2}-CH[0-9]
 const uniqueChapterIds = [...new Set(chapterIds)];
 const registry = sandbox.DPA_GUIDE_BY_CHAPTER;
 const registryIds = Object.keys(registry || {});
+const part4Guides = sandbox.ROLE_STUDY_GUIDES_PART4 || [];
+const part4Ids = part4Guides.map((guide) => guide.chapterId);
 const sourceMap = sandbox.DPA_CHAPTER_RESOURCE_MAP || {};
 const sourceMapIds = Object.keys(sourceMap);
 const missing = uniqueChapterIds.filter((id) => !registry[id]);
@@ -44,6 +87,16 @@ const invalidOrThinSourceMaps = uniqueChapterIds.filter((id) => {
 assert.equal(chapterIds.length, 169, "index.html must expose exactly 169 core chapter IDs.");
 assert.equal(uniqueChapterIds.length, 169, "Chapter IDs in index.html must be unique.");
 assert.equal(registryIds.length, 169, "Guide registry must contain exactly 169 entries.");
+assert.equal(part4Ids.length, 9, "Recovered Part 4 must contain exactly nine authored guide overrides.");
+assert.equal(new Set(part4Ids).size, 9, "Recovered Part 4 guide IDs must be unique.");
+assert.deepEqual([...part4Ids].sort(), [
+  "DPA-T03-CH01", "DPA-T03-CH05", "DPA-T03-CH06",
+  "DPA-T08-CH01", "DPA-T08-CH05", "DPA-T08-CH06",
+  "DPA-T10-CH01", "DPA-T10-CH07", "DPA-T10-CH08"
+].sort(), "Recovered Part 4 scope must match the reviewed nine guide IDs.");
+for (const guide of part4Guides) {
+  assert.equal(registry[guide.chapterId], guide, "Authored Part 4 guide must override its existing guide object: " + guide.chapterId);
+}
 assert.deepEqual(missing, [], `Missing chapter guides: ${missing.join(", ")}`);
 assert.deepEqual(orphaned, [], `Guide IDs not present in index.html: ${orphaned.join(", ")}`);
 assert.ok(html.includes('<script src="./chapter-resources.js"></script>'), "index.html must load the objective-level chapter resource map.");
@@ -68,11 +121,20 @@ console.log(`PASS: ${registryIds.length}/169 chapter guides and ${sourceMapIds.l
 const credentialRegistry = sandbox.DPA_CREDENTIAL_REGISTRY || {};
 const chapterCredentialMap = sandbox.DPA_CHAPTER_CREDENTIAL_MAP || {};
 const credentialAudit = sandbox.DPA_CHAPTER_CREDENTIAL_AUDIT || {};
+const foundationCredentialMap = sandbox.DPA_FOUNDATION_CREDENTIAL_MAP || {};
+const foundationCredentialAudit = sandbox.DPA_FOUNDATION_CREDENTIAL_AUDIT || {};
 const credentialMapIds = Object.keys(chapterCredentialMap);
 const auditIds = Object.keys(credentialAudit);
-assert.ok(html.includes('<script src="./chapter-credential-routes.js"></script>'), "index.html must load the chapter credential route registry.");
+const foundationIds = [...html.matchAll(/data-chapter-id=["'](DPA-CF-CH\d{2})["']/g)].map((match) => match[1]);
+assert.ok(html.includes('<script src="./chapter-credential-routes.js"></script>'), "index.html must load the base chapter credential route registry.");
+assert.ok(html.includes('<script src="./chapter-credential-routes-integration.js"></script>'), "index.html must load the reconciled credential route integration.");
 assert.equal(credentialMapIds.length, 169, "Credential map must explicitly cover all 169 core chapters.");
 assert.equal(auditIds.length, 169, "Credential audit must explicitly cover all 169 core chapters.");
+assert.equal(foundationIds.length, 6, "The learner-facing Common Foundation must expose six stable chapter IDs.");
+assert.equal(new Set(foundationIds).size, 6, "Common Foundation chapter IDs must be unique.");
+assert.equal(Object.keys(foundationCredentialMap).length, 6, "Credential map must explicitly cover all six Common Foundation chapters.");
+assert.equal(Object.keys(foundationCredentialAudit).length, 6, "Credential audit must explicitly cover all six Common Foundation chapters.");
+assert.equal(Object.keys(credentialRegistry).length, 51, "Reconciled issuer route registry must contain 51 unique routes.");
 assert.deepEqual([...credentialMapIds].sort(), [...uniqueChapterIds].sort(), "Credential map IDs must exactly match core chapter IDs.");
 assert.deepEqual([...auditIds].sort(), [...uniqueChapterIds].sort(), "Credential audit IDs must exactly match core chapter IDs.");
 for (const [id, routeIds] of Object.entries(chapterCredentialMap)) {
@@ -91,8 +153,39 @@ for (const [id, routeIds] of Object.entries(chapterCredentialMap)) {
   assert.ok(credentialAudit[id].verificationStatus === "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "Credential mapping must not be overclaimed as accepted: " + id);
   if (!routeIds.length) assert.equal(credentialAudit[id].outcome, "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE", "No-route chapter needs an applied evidence outcome: " + id);
 }
-const credentialRegister = fs.readFileSync(path.join(root, "docs/credential-route-mapping-register.csv"), "utf8").trim().split(/\r?\n/);
-assert.equal(credentialRegister.length - 1, 169, "Credential route register must contain 169 core chapter rows.");
+for (const [id, routeIds] of Object.entries(foundationCredentialMap)) {
+  assert.ok(Array.isArray(routeIds), "Common Foundation credential route list must be an array: " + id);
+  assert.ok(routeIds.length <= 3, "No more than three credential suggestions per Foundation chapter: " + id);
+  for (const routeId of routeIds) {
+    const route = credentialRegistry[routeId];
+    assert.ok(route, "Unknown credential route " + routeId + " in " + id);
+    assert.ok(/^https:\/\//i.test(route.url) && /^https:\/\//i.test(route.sourceUrl), "Foundation issuer and evidence URLs must be HTTPS: " + routeId);
+  }
+  assert.deepEqual(foundationCredentialAudit[id].routeIds, routeIds, "Foundation credential audit and runtime map diverged for " + id);
+  assert.ok(foundationCredentialAudit[id].verificationStatus === "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "Foundation mappings must remain first-pass: " + id);
+}
+const credentialRegister = parseCsv(fs.readFileSync(path.join(root, "docs/credential-route-mapping-register.csv"), "utf8"));
+assert.equal(credentialRegister.length - 1, 175, "Credential route register must contain 169 core and six Common Foundation rows.");
+const credentialRegisterHeader = credentialRegister[0];
+const credentialColumn = Object.fromEntries(credentialRegisterHeader.map((name, index) => [name, index]));
+for (const requiredColumn of ["chapter_id", "credential_route_ids", "journey_status", "mapping_verification_status", "notes"]) {
+  assert.notEqual(credentialColumn[requiredColumn], undefined, "Credential register is missing column " + requiredColumn);
+}
+const credentialRows = credentialRegister.slice(1);
+const credentialRowsById = new Map(credentialRows.map((row) => [row[credentialColumn.chapter_id], row]));
+assert.equal(credentialRowsById.size, 175, "Credential register chapter IDs must be unique.");
+assert.deepEqual([...credentialRowsById.keys()].sort(), [...uniqueChapterIds, ...foundationIds].sort(), "Credential register IDs must exactly cover core plus Common Foundation chapters.");
+for (const [id, runtimeMap, runtimeAudit] of [
+  ...Object.entries(chapterCredentialMap).map(([id, routes]) => [id, routes, credentialAudit[id]]),
+  ...Object.entries(foundationCredentialMap).map(([id, routes]) => [id, routes, foundationCredentialAudit[id]])
+]) {
+  const row = credentialRowsById.get(id);
+  const registeredRoutes = String(row[credentialColumn.credential_route_ids] || "").split(";").filter(Boolean);
+  assert.deepEqual(registeredRoutes, [...runtimeMap], "Credential CSV route IDs must match runtime order for " + id);
+  assert.equal(row[credentialColumn.journey_status], runtimeMap.length ? "OPTIONAL_EXTERNAL_EARN" : "APPLIED_SKILL_PORTFOLIO", "Credential CSV journey status diverged for " + id);
+  assert.equal(row[credentialColumn.mapping_verification_status], "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "Credential CSV must preserve first-pass status for " + id);
+  assert.equal(row[credentialColumn.notes], runtimeAudit.note, "Credential CSV note must match its runtime audit note for " + id);
+}
 const electiveRegister = fs.readFileSync(path.join(root, "docs/28-elective-credential-route-review.csv"), "utf8").trim().split(/\r?\n/);
 assert.equal(electiveRegister.length - 1, 28, "Elective credential review must contain 28 chapter rows.");
 assert.ok(electiveRegister.slice(1).every((line) => line.includes("NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION")), "All elective credential reviews must remain explicitly open until reviewed.");

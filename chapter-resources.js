@@ -26,7 +26,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "YouGov — Indonesia Media Consumption Report 2025", "url": "https://yougov.com/reports/52747-id-media-consumption-report-2025"}
   ],
   "DPA-T01-CH05": [
-    {"title": "Google Skillshop — Google Ads Learning Paths", "url": "https://skillshop.withgoogle.com/googleads/"},
+    {"title": "Google Skillshop — Google Ads Learning Paths", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Meta Blueprint — Campaign Evaluation and Measurement Strategies", "url": "https://trainingworkshops.facebookblueprint.com/student/path/253143-ad-campaign-evaluation-and-measurement"},
     {"title": "The Trade Desk Edge Academy — Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"},
     {"title": "TikTok Academy Indonesia", "url": "https://ads.tiktok.com/business/id/academy"}
@@ -185,7 +185,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
   "DPA-T04-CH01": [
     {"title": "Google Ads Search Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Microsoft Advertising Search Certification · jalur credential resmi", "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"},
-    {"title": "Google Skillshop — Search learning/certification", "url": "https://skillshop.withgoogle.com/googleads/"},
+    {"title": "Google Skillshop — Search learning/certification", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Ads — Ad Rank", "url": "https://support.google.com/google-ads/answer/1752122/"},
     {"title": "Microsoft Advertising Learning Lab", "url": "https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab"}
   ],
@@ -247,7 +247,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
   ],
   "DPA-T04-CH10": [
     {"title": "Google Ads Search Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
-    {"title": "Google Skillshop — Search", "url": "https://skillshop.withgoogle.com/googleads/"},
+    {"title": "Google Skillshop — Search", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Microsoft Advertising Learning Lab", "url": "https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab"},
     {"title": "Google Search campaign setup", "url": "https://support.google.com/google-ads/answer/9510373?hl=en"},
     {"title": "Google Smart Bidding", "url": "https://support.google.com/google-ads/faq/10286469?hl=en"}
@@ -453,7 +453,8 @@ var DPA_CHAPTER_RESOURCE_MAP = {
   "DPA-T08-CH01": [
     {"title": "Google Ad Manager — Ways of transacting (direct-sold vs traditional/programmatic)", "url": "https://support.google.com/admanager/answer/9248464"},
     {"title": "IAB Tech Lab — ads.txt/app-ads.txt", "url": "https://iabtechlab.com/ads-txt/"},
-    {"title": "IAB Tech Lab — sellers.json", "url": "https://iabtechlab.com/sellers-json/"}
+    {"title": "IAB Tech Lab — sellers.json", "url": "https://iabtechlab.com/sellers-json/"},
+    {"title": "The Trade Desk Edge Academy — Strengthening Your Programmatic Supply Chain (learn-only; award not verified)", "url": "https://edgeacademy.thetradedesk.com/programmatic-supply-chain"}
   ],
   "DPA-T08-CH02": [
     {"title": "Bisnis Indonesia — Rate Card 2026 (inventory formats and published rate units)", "url": "https://cdn.bisnis.com/bisnis-web/assets/advertise-with-us/2026/Rate-Card-2026-Harian-Bisnis-Indonesia.pdf?id=ff28ea7963672966e0820fa11b084ac7c62d14d7615794299d65bbce7e6b10c1"},
@@ -987,7 +988,7 @@ var DPA_FOUNDATION_RESOURCE_MAP = {
     {"title": "Nielsen Norman Group · Journey Mapping 101", "url": "https://www.nngroup.com/articles/journey-mapping-101/"}
   ],
   "DPA-CF-CH04": [
-    {"title": "Google Skillshop · Google Ads Measurement learning and certification", "url": "https://skillshop.withgoogle.com/googleads/"},
+    {"title": "Google Skillshop · Google Ads Measurement learning and certification", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Ads Help · About measurement and conversion metrics", "url": "https://support.google.com/google-ads/"}
   ],
   "DPA-CF-CH05": [
