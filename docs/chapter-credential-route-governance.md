@@ -57,7 +57,7 @@ Google Analytics Certification is now included after the current official Analyt
 
 ## Coverage and open gates
 
-- Core: 169/169 chapter IDs in the credential audit map and CSV. 52/169 core chapters have at least one mapped external route (78 route placements); 117/169 core chapters remain applied-skill/portfolio-first in the current curated map. Common Foundation is tracked separately: 3/6 chapters have 4 route placements. This runtime count supersedes the earlier 50-chapter / 73-placement summary, which was stale in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
+- Core: 169/169 chapter IDs in the credential audit map and CSV. 95/169 core chapters have at least one mapped external route (141 route placements); 74/169 core chapters remain applied-skill/portfolio-first in the current curated map. Common Foundation is tracked separately: 3/6 chapters have 4 route placements. This runtime count supersedes the earlier 50-chapter / 73-placement summary, which was stale in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
 - The mapping itself remains `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; source-to-objective relevance, course fit, Indonesia account access, final checkout price, prerequisites, credential availability and chapter assessment acceptance remain OPEN.
 - Advanced Electives: 28/28 chapter IDs are captured separately in `28-elective-credential-route-review.csv`, but all are deliberately marked `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`. The elective curricula are not yet integrated into the chapter renderer.
 - The current milestone strip is informational, not a credential progress engine. External completion is not imported; DPA awards are disabled.
@@ -136,4 +136,20 @@ These are course/simulation completion awards, not professional certifications. 
 - No planned DPA badge panel may appear while the DPA issuance workflow remains unauthorized.
 
 
-Current registry count cross-check (21 Nov 2026): 23 unique issuer/simulation/course award routes; core mapping 52/169 chapters and 78 placements; Common Foundation mapping 3/6 chapters and 4 placements. Counts describe the curated first-pass map, not full market coverage or independent SME acceptance.
+Current registry count cross-check (21 Nov 2026): 23 unique issuer/simulation/course award routes; core mapping 95/169 chapters and 141 placements; Common Foundation mapping 3/6 chapters and 4 placements. Counts describe the curated first-pass map, not full market coverage or independent SME acceptance.
+
+
+### Expanded issuer-route coverage — 21 November 2026
+
+The chapter-level route map now has 30 distinct routes. Newly added provider evidence was mapped only to relevant objective clusters:
+- Microsoft Advertising Search Certification: T04-CH01–CH09.
+- Microsoft Advertising Display & Video Certification: selected T03-CH03–CH09 objectives.
+- Microsoft Programmatic Advertising Learning Path Badge: selected T06 programmatic ecosystem, inventory, platform, activation, optimization and capstone objectives. This is a learning-path badge, not a proctored professional certification.
+- HubSpot Email Marketing Certification: T12-CH05–CH07 and CH09.
+- HubSpot Inbound Certification: T12-CH01, CH03 and CH04.
+- HubSpot Content Marketing Certification: T13-CH02–CH06 and CH11.
+- HubSpot Social Media Marketing Certification: T13-CH01–CH03 and CH07–CH10.
+- impact.com Affiliate Marketing & Partnerships Industry Certification: T15-CH01–CH11.
+- Meta Blueprint Community Management course-level credentials: T16-CH01–CH12; five separate course activities are labelled Credential by the provider, not professional certification.
+
+After reconciliation, the runtime core map contains 95/169 mapped chapters and 141 route placements. The 74 chapters without a selected route remain explicitly open for further issuer research and SME acceptance. The six Common Foundation chapters are tracked separately (3/6 mapped, four placements). All 169 core audit-map rows and CSV register rows must match the runtime route map exactly.
