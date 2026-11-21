@@ -10,6 +10,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "U.S. Small Business Administration — Break-Even Point Calculator",
       "url": "https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/"
+    },
+    {
+      "title": "HubSpot Academy · Digital Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
     }
   ],
   "DPA-T01-CH02": [
@@ -38,6 +42,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Analytics Help — Conversions vs. Key Events",
       "url": "https://support.google.com/analytics/answer/13965727"
+    },
+    {
+      "title": "HubSpot Academy · Digital Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
     }
   ],
   "DPA-T01-CH04": [
@@ -56,6 +64,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "YouGov — Indonesia Media Consumption Report 2025",
       "url": "https://yougov.com/reports/52747-id-media-consumption-report-2025"
+    },
+    {
+      "title": "HubSpot Academy · Digital Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
     }
   ],
   "DPA-T01-CH05": [
@@ -88,6 +100,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Meta Blueprint — Community Management Online Courses",
       "url": "https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses"
+    },
+    {
+      "title": "HubSpot Academy · Digital Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
     }
   ],
   "DPA-T01-CH07": [
@@ -102,6 +118,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Tag Manager Help — Set Up Consent Mode",
       "url": "https://support.google.com/tagmanager/answer/14009635?hl=en"
+    },
+    {
+      "title": "HubSpot Academy · Digital Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
     }
   ],
   "DPA-T01-CH08": [
@@ -130,6 +150,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Workspace Admin Help — Email Sender Guidelines",
       "url": "https://support.google.com/mail/answer/81126?hl=id"
+    },
+    {
+      "title": "HubSpot Academy · Digital Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/digital-marketing"
     }
   ],
   "DPA-T01-CH10": [
@@ -166,6 +190,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "ICC/ESOMAR International Code on Market, Opinion and Social Research and Data Analytics (2025)",
       "url": "https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/"
+    },
+    {
+      "title": "HubSpot Academy · Inbound Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/inbound"
     }
   ],
   "DPA-T02-CH02": [
@@ -184,6 +212,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "ICC/ESOMAR International Code on Market, Opinion and Social Research and Data Analytics (2025)",
       "url": "https://iccwbo.org/news-publications/business-solutions/iccesomar-international-code-market-opinion-social-research-data-analytics/"
+    },
+    {
+      "title": "HubSpot Academy · Inbound Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/inbound"
     }
   ],
   "DPA-T02-CH03": [
@@ -222,6 +254,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "LinkedIn Marketing Academy",
       "url": "https://business.linkedin.com/advertise/ads/marketing-academy"
+    },
+    {
+      "title": "HubSpot Academy · Inbound Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/inbound"
     }
   ],
   "DPA-T02-CH06": [
@@ -236,6 +272,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "UK Government GovS 011 — Communications functional standard (OASIS)",
       "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications"
+    },
+    {
+      "title": "LinkedIn Marketing Strategy Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/marketing-strategy-exam"
+    },
+    {
+      "title": "LinkedIn Advertising Fundamentals Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/advertising-fundamentals-exam"
     }
   ],
   "DPA-T02-CH07": [
@@ -246,6 +290,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "LinkedIn Marketing Academy",
       "url": "https://business.linkedin.com/advertise/ads/marketing-academy"
+    },
+    {
+      "title": "LinkedIn Marketing Strategy Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/marketing-strategy-exam"
+    },
+    {
+      "title": "LinkedIn Content and Creative Design Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/content-and-creative-design-exam"
     }
   ],
   "DPA-T02-CH08": [
@@ -256,6 +308,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "LinkedIn Marketing Academy",
       "url": "https://business.linkedin.com/advertise/ads/marketing-academy"
+    },
+    {
+      "title": "LinkedIn Content and Creative Design Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/content-and-creative-design-exam"
+    },
+    {
+      "title": "LinkedIn Advertising Fundamentals Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/advertising-fundamentals-exam"
     }
   ],
   "DPA-T02-CH09": [
@@ -270,6 +330,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "UK Government GovS 011 — Communications functional standard (OASIS)",
       "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications"
+    },
+    {
+      "title": "LinkedIn Marketing Measurement Certification · official credential route",
+      "url": "https://training.marketing.linkedin.com/marketing-measurement-exam"
     }
   ],
   "DPA-T02-CH10": [
@@ -456,6 +520,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Out-of-Home Measurement Standards (Phase 1 & 2, Dec 2025)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf"
+    },
+    {
+      "title": "Meta Certified Media Planning Professional · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/catalog"
     }
   ],
   "DPA-T04-CH01": [
@@ -986,6 +1054,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok Shop Ads — Indonesia",
       "url": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id"
+    },
+    {
+      "title": "Amazon Ads for Retail Certification · official credential route",
+      "url": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification"
     }
   ],
   "DPA-T07-CH02": [
@@ -1000,6 +1072,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok Shop Ads — Indonesia",
       "url": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id"
+    },
+    {
+      "title": "Amazon Ads for Retail Certification · official credential route",
+      "url": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification"
     }
   ],
   "DPA-T07-CH03": [
@@ -1026,6 +1102,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Retail Media Measurement Guidelines (Jan 2024)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf"
+    },
+    {
+      "title": "Amazon Ads for Retail Certification · official credential route",
+      "url": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification"
+    },
+    {
+      "title": "Microsoft Advertising Retail Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T07-CH04": [
@@ -1054,6 +1138,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok Shop Ads — Indonesia",
       "url": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id"
+    },
+    {
+      "title": "Microsoft Advertising Retail Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
+    },
+    {
+      "title": "Turn Social Inspiration into Retail Sales with Collaborative Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/196024-196024-collaborative-ads"
     }
   ],
   "DPA-T07-CH06": [
@@ -1064,6 +1156,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "IAB — Retail Media Advanced Measurement & Data Collaboration",
       "url": "https://www.iab.com/guidelines/retail-media-advanced-measurement-and-data-collaboration/"
+    },
+    {
+      "title": "Microsoft Advertising Retail Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
+    },
+    {
+      "title": "Turn Social Inspiration into Retail Sales with Collaborative Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/196024-196024-collaborative-ads"
     }
   ],
   "DPA-T07-CH07": [
@@ -1086,6 +1186,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok Shop Ads — Indonesia",
       "url": "https://ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads?lang=id"
+    },
+    {
+      "title": "Amazon Ads for Retail Certification · official credential route",
+      "url": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification"
+    },
+    {
+      "title": "Microsoft Advertising Retail Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T07-CH08": [
@@ -1134,6 +1242,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Retail Media Measurement Guidelines (Jan 2024)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf"
+    },
+    {
+      "title": "Turn Social Inspiration into Retail Sales with Collaborative Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/196024-196024-collaborative-ads"
     }
   ],
   "DPA-T07-CH10": [
@@ -1156,6 +1268,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Retail Media Measurement Guidelines (Jan 2024)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf"
+    },
+    {
+      "title": "Amazon Ads for Retail Certification · official credential route",
+      "url": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification"
     }
   ],
   "DPA-T08-CH01": [
@@ -1306,6 +1422,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "IAB Tech Lab Measurement standards (OM SDK/ECAPI)",
       "url": "https://iabtechlab.com/standards/measurement/"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH02": [
@@ -1320,6 +1440,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "CM360 Placement tags",
       "url": "https://support.google.com/campaignmanager/answer/2826636"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH03": [
@@ -1334,6 +1458,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "CM360 Creative-placement assignments",
       "url": "https://support.google.com/campaignmanager/answer/3414002?hl=en"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH04": [
@@ -1356,6 +1484,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "GTM Consent Mode",
       "url": "https://support.google.com/tagmanager/answer/14009635?hl=en"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH05": [
@@ -1388,6 +1520,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "GTM Preview and debug containers",
       "url": "https://support.google.com/tagmanager/answer/6107056?hl=en"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH07": [
@@ -1402,6 +1538,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "GTM Server-side preview and debug",
       "url": "https://developers.google.com/tag-platform/tag-manager/server-side/debug"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH08": [
@@ -1420,6 +1560,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "CM360 Floodlight counting methods",
       "url": "https://support.google.com/campaignmanager/answer/2823400?hl=en"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH09": [
@@ -1438,6 +1582,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Ad Manager Billing setup/invoice comparison",
       "url": "https://support.google.com/admanager/answer/6214526?hl=en"
+    },
+    {
+      "title": "Campaign Manager 360 Certification (2026) · official credential route",
+      "url": "https://skillshop.docebosaas.com/pages/17/certifications"
     }
   ],
   "DPA-T09-CH10": [
@@ -1492,6 +1640,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Analytics 4 BigQuery export schema",
       "url": "https://support.google.com/analytics/answer/7029846?hl=en"
+    },
+    {
+      "title": "Google Analytics Certification · official credential route",
+      "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"
     }
   ],
   "DPA-T10-CH03": [
@@ -1510,6 +1662,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "GA4 sessions and session attribution",
       "url": "https://support.google.com/analytics/answer/9191807"
+    },
+    {
+      "title": "Google Analytics Certification · official credential route",
+      "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"
     }
   ],
   "DPA-T10-CH04": [
@@ -1554,6 +1710,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Tableau Visual Best Practices",
       "url": "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm"
+    },
+    {
+      "title": "Google Analytics Certification · official credential route",
+      "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"
     }
   ],
   "DPA-T10-CH06": [
@@ -1594,6 +1754,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Meridian treatment-prior calibration",
       "url": "https://developers.google.com/meridian/docs/advanced-modeling/roi-priors-and-calibration"
+    },
+    {
+      "title": "Google Analytics Certification · official credential route",
+      "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"
     }
   ],
   "DPA-T10-CH08": [
@@ -1620,6 +1784,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Optimizely statistical-significance guidance",
       "url": "https://www.optimizely.com/optimization-glossary/statistical-significance"
+    },
+    {
+      "title": "Google Analytics Certification · official credential route",
+      "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"
     }
   ],
   "DPA-T10-CH09": [
@@ -1634,6 +1802,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Tableau Visual Best Practices",
       "url": "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm"
+    },
+    {
+      "title": "Google Analytics Certification · official credential route",
+      "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"
     }
   ],
   "DPA-T10-CH10": [
@@ -1658,6 +1830,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Bing Webmaster Guidelines",
       "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+      "title": "SEO Crash Course with Brian Dean · official credential route",
+      "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/"
     }
   ],
   "DPA-T11-CH02": [
@@ -1668,6 +1844,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Bing Webmaster Guidelines",
       "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+      "title": "SEO Crash Course with Brian Dean · official credential route",
+      "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/"
     }
   ],
   "DPA-T11-CH03": [
@@ -1698,6 +1878,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Bing Webmaster Guidelines",
       "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+      "title": "SEO Crash Course with Brian Dean · official credential route",
+      "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/"
     }
   ],
   "DPA-T11-CH06": [
@@ -1708,6 +1892,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Bing Webmaster Guidelines",
       "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+      "title": "SEO Crash Course with Brian Dean · official credential route",
+      "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/"
     }
   ],
   "DPA-T11-CH07": [
@@ -1718,6 +1906,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Bing Webmaster Guidelines",
       "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+      "title": "SEO Crash Course with Brian Dean · official credential route",
+      "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/"
     }
   ],
   "DPA-T11-CH08": [
@@ -1728,6 +1920,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Bing Webmaster Guidelines",
       "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a"
+    },
+    {
+      "title": "SEO Crash Course with Brian Dean · official credential route",
+      "url": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/"
     }
   ],
   "DPA-T11-CH09": [
@@ -2170,6 +2366,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "YouTube paid-promotion disclosure",
       "url": "https://support.google.com/youtube/answer/154235?hl=id"
+    },
+    {
+      "title": "Amplify Campaigns with Partnership Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course"
     }
   ],
   "DPA-T14-CH07": [
@@ -2188,6 +2388,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok One creator collaboration",
       "url": "https://ads.tiktok.com/resources/help/article/about-working-with-creators-on-tiktok-one-campaigns?lang=en"
+    },
+    {
+      "title": "Amplify Campaigns with Partnership Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course"
     }
   ],
   "DPA-T14-CH08": [
@@ -2228,6 +2432,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok One Project Reporting",
       "url": "https://ads.tiktok.com/resources/help/article/about-tiktok-one-campaign-reporting?lang=id"
+    },
+    {
+      "title": "Amplify Campaigns with Partnership Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course"
     }
   ],
   "DPA-T14-CH10": [
@@ -2250,6 +2458,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "YouTube paid-promotion disclosure",
       "url": "https://support.google.com/youtube/answer/154235?hl=id"
+    },
+    {
+      "title": "Amplify Campaigns with Partnership Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course"
     }
   ],
   "DPA-T14-CH11": [
@@ -2264,6 +2476,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok One Project Reporting",
       "url": "https://ads.tiktok.com/resources/help/article/about-tiktok-one-campaign-reporting?lang=id"
+    },
+    {
+      "title": "Amplify Campaigns with Partnership Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course"
     }
   ],
   "DPA-T14-CH12": [
@@ -2286,6 +2502,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "UU 28/2014",
       "url": "https://peraturan.bpk.go.id/Details/38690/uu-no-28-tahun-2014"
+    },
+    {
+      "title": "Amplify Campaigns with Partnership Ads · official credential route",
+      "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course"
     }
   ],
   "DPA-T15-CH01": [
