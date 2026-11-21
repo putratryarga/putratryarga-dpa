@@ -34,6 +34,7 @@ A Paid / proctored label only appears where the issuer's route is described as a
 |---|---|---|
 | Google Ads Search Certification | Professional certification | T04 Paid Search chapters 01–10 |
 | Meta Certified Media Planning Professional | Professional certification | T03 selected media-planning objectives; Meta-specific only |
+| Meta Certified Marketing Science Professional | Professional certification | T10-CH01, CH06–CH09 for KPI/measurement, analytics interpretation, effectiveness and experiment design; Meta-specific only |
 | Meta Certified Media Buying Professional | Professional certification | T05 selected Paid Social objectives; Meta-specific only |
 | TikTok Media Buying Professional Certification | Professional certification | T05 selected Paid Social objectives; at least one year hands-on experience required |
 | Meta Blueprint buying-types course | Course-completion credential | T05-CH06 |
@@ -56,7 +57,7 @@ Google Analytics Certification is now included after the current official Analyt
 
 ## Coverage and open gates
 
-- Core: 169/169 chapter IDs in the credential audit map and CSV. 50 chapters have at least one optional external route (73 total route placements); 119 chapters are applied-skill/portfolio-first in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
+- Core: 169/169 chapter IDs in the credential audit map and CSV. 53 chapters have at least one optional external route (78 total route placements) after adding the Meta Marketing Science route to five T10 objectives; 116 chapters remain applied-skill/portfolio-first in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
 - The mapping itself remains `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; source-to-objective relevance, course fit, Indonesia account access, final checkout price, prerequisites, credential availability and chapter assessment acceptance remain OPEN.
 - Advanced Electives: 28/28 chapter IDs are captured separately in `28-elective-credential-route-review.csv`, but all are deliberately marked `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`. The elective curricula are not yet integrated into the chapter renderer.
 - The current milestone strip is informational, not a credential progress engine. External completion is not imported; DPA awards are disabled.
@@ -95,3 +96,12 @@ The chapter Earn panel now uses the heading **Credential & chapter achievement**
 - Browser QA now asserts that every rendered chapter has the recognition pathway and that the Master panel discloses its self-review status.
 
 This update improves the learner-facing pathway without fabricating provider awards or activating the proposed certificate system. Core mapping still remains first-pass pending independent SME acceptance; the 28 elective chapters remain outside the current learner renderer and require separate implementation and review.
+
+
+### Additional issuer research — Meta Marketing Science
+
+The official Meta Blueprint catalog distinguishes Marketing Science as a role-based certification area. Meta's 2026 certification-preparation page describes business goals/KPIs, measurement methodology, test campaigns, interpretation of statistical outputs and data-driven recommendations; it specifies a 60-question, 90-minute exam. The route is mapped only to T10 objectives with defensible overlap and is explicitly Meta-specific. Current exam availability, Indonesian account eligibility, exam language, checkout price and renewal terms remain unverified; these are not presented as settled facts.
+
+Primary issuer references:
+- https://agencies.facebookblueprint.com/student/catalog
+- https://www.facebookblueprint.com/student/activity/697093-meta-certified-marketing-science-professional
