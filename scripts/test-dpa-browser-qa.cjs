@@ -335,7 +335,7 @@ async function run() {
         await page.waitForFunction(
           () => {
             const toast = document.getElementById("toast");
-            return !toast || !toast.classList.contains("show");
+            return !toast || (!toast.classList.contains("show") && Number.parseFloat(getComputedStyle(toast).opacity) <= 0.01);
           },
           null,
           { timeout: 5000 }
