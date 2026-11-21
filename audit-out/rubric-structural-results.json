@@ -1,0 +1,683 @@
+{
+ "n_rows": 169,
+ "issues": {
+  "criteria_count_mismatch": [],
+  "qna_count_mismatch": [],
+  "md_csv_field_mismatch": [],
+  "checklist_vs_guide_practice_mismatch": [
+   {
+    "chapter_id": "DPA-T16-CH12"
+   }
+  ]
+ },
+ "per_row": {
+  "DPA-T01-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T01-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T02-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T03-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T04-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T05-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH11": {
+   "n_criteria": 4
+  },
+  "DPA-T06-CH12": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T07-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T08-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T09-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T10-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T11-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T12-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T13-CH11": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH11": {
+   "n_criteria": 4
+  },
+  "DPA-T14-CH12": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH11": {
+   "n_criteria": 4
+  },
+  "DPA-T15-CH12": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH01": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH02": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH03": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH04": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH05": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH06": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH07": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH08": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH09": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH10": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH11": {
+   "n_criteria": 4
+  },
+  "DPA-T16-CH12": {
+   "n_criteria": 4
+  }
+ },
+ "empty_by_col": {
+  "chapter_id": 0,
+  "chapter_title": 0,
+  "learning_outcome": 0,
+  "required_artifact_checklist": 0,
+  "assessor_verification_criteria": 0,
+  "assessor_criteria_count": 0,
+  "qna_items_in_rubric": 0,
+  "score_dimensions": 0,
+  "dimension_scale": 0,
+  "proposed_pass_mark": 0,
+  "critical_failure_rule": 0,
+  "rubric_content_status": 0,
+  "technical_calibration_status": 0,
+  "sme_approval_status": 0,
+  "assessor_pilot_status": 0,
+  "inter_rater_agreement_status": 0,
+  "learner_resubmission_status": 0,
+  "reviewer": 169,
+  "review_date": 169,
+  "evidence_link": 169,
+  "decision": 169,
+  "notes": 0
+ },
+ "empty_by_col_ids": {
+  "reviewer": [
+   "DPA-T01-CH01",
+   "DPA-T01-CH02",
+   "DPA-T01-CH03",
+   "DPA-T01-CH04",
+   "DPA-T01-CH05"
+  ],
+  "review_date": [
+   "DPA-T01-CH01",
+   "DPA-T01-CH02",
+   "DPA-T01-CH03",
+   "DPA-T01-CH04",
+   "DPA-T01-CH05"
+  ],
+  "evidence_link": [
+   "DPA-T01-CH01",
+   "DPA-T01-CH02",
+   "DPA-T01-CH03",
+   "DPA-T01-CH04",
+   "DPA-T01-CH05"
+  ],
+  "decision": [
+   "DPA-T01-CH01",
+   "DPA-T01-CH02",
+   "DPA-T01-CH03",
+   "DPA-T01-CH04",
+   "DPA-T01-CH05"
+  ]
+ },
+ "distinct_criteria_sets": 2,
+ "criteria_set_top": [
+  [
+   "- the artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope. - the learner explains the decision logic and connects the evidence to the role-specific outcome. - assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled. - the artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.",
+   168
+  ],
+  [
+   "- purpose, member value, audience segments, platform choice and governance are coherent and justified. - moderation, customer-care handoff, escalation, crisis response, privacy and ugc permissions are operationally specified. - metrics distinguish member count from meaningful participation, retention, resolution, safety and business/service value. - assumptions, synthetic data, source provenance, limitations and privacy controls are explicit.",
+   1
+  ]
+ ],
+ "score_dimension_count_dist": {
+  "5": 169
+ },
+ "distinct_score_dimension_sets": 1,
+ "distinct_dimension_scales": {
+  "0-3 each; maximum 15": 169
+ },
+ "distinct_pass_marks": {
+  "80/100 — uncalibrated": 169
+ },
+ "distinct_critical_failure_rules": {
+  "score 0 on technical accuracy or evidence/qa fails the chapter — rule not calibrated": 169
+ },
+ "status_distribution": {
+  "rubric_content_status": {
+   "draft_present": 169
+  },
+  "technical_calibration_status": {
+   "open": 169
+  },
+  "sme_approval_status": {
+   "open": 169
+  },
+  "assessor_pilot_status": {
+   "open": 169
+  },
+  "inter_rater_agreement_status": {
+   "open": 169
+  },
+  "learner_resubmission_status": {
+   "open": 169
+  }
+ },
+ "md_sections": 169,
+ "md_missing_blocks": [],
+ "md_verify_bullet_dist": {
+  "4": 169
+ },
+ "md_qna_item_dist": {
+  "3": 169
+ },
+ "rubric_sample": {
+  "n": 30,
+  "items": [
+   "DPA-T01-CH09",
+   "DPA-T02-CH03",
+   "DPA-T03-CH02",
+   "DPA-T03-CH03",
+   "DPA-T03-CH05",
+   "DPA-T03-CH07",
+   "DPA-T04-CH03",
+   "DPA-T04-CH06",
+   "DPA-T05-CH03",
+   "DPA-T05-CH10",
+   "DPA-T06-CH02",
+   "DPA-T07-CH04",
+   "DPA-T07-CH06",
+   "DPA-T07-CH08",
+   "DPA-T08-CH02",
+   "DPA-T09-CH01",
+   "DPA-T10-CH01",
+   "DPA-T10-CH03",
+   "DPA-T10-CH07",
+   "DPA-T10-CH08",
+   "DPA-T11-CH02",
+   "DPA-T11-CH03",
+   "DPA-T11-CH10",
+   "DPA-T12-CH04",
+   "DPA-T12-CH06",
+   "DPA-T13-CH06",
+   "DPA-T14-CH01",
+   "DPA-T14-CH03",
+   "DPA-T15-CH03",
+   "DPA-T16-CH10"
+  ],
+  "per_track": {
+   "T01": 1,
+   "T02": 1,
+   "T03": 4,
+   "T04": 2,
+   "T05": 2,
+   "T06": 1,
+   "T07": 3,
+   "T08": 1,
+   "T09": 1,
+   "T10": 4,
+   "T11": 3,
+   "T12": 2,
+   "T13": 1,
+   "T14": 2,
+   "T15": 1,
+   "T16": 1
+  },
+  "seed": 20261121,
+  "note": "1/track + 14 second picks = 30; all 16 tracks covered"
+ }
+}
