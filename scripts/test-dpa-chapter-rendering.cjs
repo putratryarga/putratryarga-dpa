@@ -178,6 +178,20 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.ok(cf2 && cf2.earnCardCount >= 2, "CF2 must expose both Forage and HubSpot award routes in Earn.");
     assert.ok(cf2.resourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must be clickable in CF2 resources/Earn.");
     assert.ok(cf2.resourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must be clickable in CF2 resources/Earn.");
+    const requiredCredentialChapters = [
+      ["DPA-T03-CH03", "microsoft"],
+      ["DPA-T04-CH01", "microsoft"],
+      ["DPA-T06-CH01", "microsoft"],
+      ["DPA-T12-CH05", "hubspot"],
+      ["DPA-T13-CH02", "hubspot"],
+      ["DPA-T15-CH01", "impact.com"],
+      ["DPA-T16-CH01", "communitytraining.facebookblueprint.com"]
+    ];
+    for (const [chapterId, expectedHost] of requiredCredentialChapters) {
+      const row = audit.rows.find((item) => item.id === chapterId);
+      assert.ok(row && row.earnCardCount > 0, chapterId + " must expose a mapped provider award route.");
+      assert.ok(row.resourceHrefs.some((href) => href.includes(expectedHost)), chapterId + " must expose the issuer link in the learner panel.");
+    }
 
     // Open every role at least once and verify its selected chapter panel is visible.
     const roleIds = ["fullstack", "connection", "media", "paidsearch", "paidsocial",
