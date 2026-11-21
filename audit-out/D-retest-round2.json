@@ -1,0 +1,172 @@
+{
+ "sg_retest_ok": 0,
+ "sg_still": {
+  "429": 68
+ },
+ "curl_tls": {
+  "https://www.nielsen.com/news-center/2022/nielsen-launches-streaming-content-ratings-enabling-cross-media-measurement-in-indonesia/": {
+   "code": "200",
+   "err": ""
+  },
+  "https://www.nielsen.com/news-center/2023/nielsen-more-than-doubles-tv-audience-measurement-in-indonesia/": {
+   "code": "200",
+   "err": ""
+  },
+  "https://success.awin.com/articles/en_US/Knowledge/What-is-Affiliate-Marketing": {
+   "code": "200",
+   "err": ""
+  },
+  "https://www.ama.org/topics/brand-and-branding/": {
+   "code": "200",
+   "err": ""
+  },
+  "https://www.nngroup.com/articles/journey-mapping-101/": {
+   "code": "200",
+   "err": ""
+  },
+  "https://www.stackadapt.com/academy/programmatic-masterclass": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Connection-Planner_R1129068": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Media-Planner_R1124602": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Paid-Social-Specialist_JR0095187-1": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/SEO-Executive_R1121609-1": {
+   "code": "200",
+   "err": ""
+  },
+  "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Analyst--Analytics-Insights_R16240": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Programmatic-Specialist_R1123420": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Digital-Consultant_R1123158": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Senior-Associate--SEO_R1122543": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Marketing-Lead_R1129669": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Influencer-Manager_R1126792": {
+   "code": "200",
+   "err": ""
+  },
+  "https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Data-Science-and-Analytics-05_60055-AS": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Manager--Influencer-Marketing_R1130356": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Media-Analyst_R1129420-1": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Social-Content-Manager_R1121993": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Organic---AI-Manager_JR0099039": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Paid-Social-Specialist_JR0096922": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/CreativeExternalCareerSite/job/Consultant-e--senior---Influence-management---stratgie_JR0093003": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Search---Ad-Ops-Executive_R1129353-1": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/fr-FR/MediaExternalCareerSite/job/CONSULTANT-MEDIA-360-JUNIOR--F-H-X-_JR0093690": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Consultant-e-Senior-Influence-Management---Strat%C3%A9gie_JR0093003": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Account-Executive---Talent-and-Influencer_JR0092770": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Alternance-consultant-social-media_JR0094195": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Media-Planner_R1128963": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Senior-Enablement-Lead--Analytics--CRO----Personalisation-_JR0096564": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Digital-Media-Planning_JR0043376": {
+   "code": "200",
+   "err": ""
+  },
+  "https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Senior-Associate--Planning_R13469": {
+   "code": "200",
+   "err": ""
+  },
+  "https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Affiliate-Manager_JR0097605": {
+   "code": "200",
+   "err": ""
+  },
+  "https://interpublic.wd5.myworkdayjobs.com/en-US/OMC/job/Senior-Director--Integrated-Investment-Lead---CPG_R10234": {
+   "code": "200",
+   "err": ""
+  },
+  "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Senior-Analyst--SEO_26445-KP": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/eCommerce-Executive_R1123610": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Director---Data-Science_R1123760-1": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Jakarta/Sr-Media-Investment-Executive_R1126022": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Sr-Social-Media-Executive_R1126105": {
+   "code": "200",
+   "err": ""
+  },
+  "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/CRM-Campaign-Specialist_R1124584": {
+   "code": "200",
+   "err": ""
+  },
+  "https://interpublic.wd5.myworkdayjobs.com/omc/job/los-angeles-california-united-states-of-america/social-media-strategist_r11306": {
+   "code": "200",
+   "err": ""
+  }
+ }
+}
