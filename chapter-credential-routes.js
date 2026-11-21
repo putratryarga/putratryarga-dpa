@@ -44,6 +44,46 @@ var registry = {
     "scope": "Meta-issued professional certification; tidak menggantikan kompetensi statistik, eksperimen, dan measurement lintas platform.",
     "verifiedOn": "2026-11-21"
   },
+  "forage_omnichannel_certificate": {
+    "provider": "Forage",
+    "title": "Forage · Omnichannel Marketing Simulation Certificate",
+    "type": "simulation_completion_certificate",
+    "label": "Simulation completion certificate",
+    "tagClass": "t-completion",
+    "paidExam": false,
+    "description": "Simulasi kerja mandiri 5–6 jam yang meminta peserta membuat integrated marketing plan dan creative brief untuk peluncuran produk fiktif. Forage menyatakan peserta dapat memperoleh certificate untuk dicantumkan di CV/LinkedIn setelah menyelesaikan simulasi.",
+    "duration": "5–6 jam; self-paced.",
+    "cost": "Free simulation.",
+    "eligibility": "Selesaikan seluruh task dan ketentuan completion pada akun Forage.",
+    "validity": "Tidak dinyatakan sebagai sertifikasi profesional berjangka; ini bukti penyelesaian simulasi.",
+    "regional": "Halaman publik menawarkan simulasi self-paced; persyaratan akun dan penerbitan certificate mengikuti Forage.",
+    "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep",
+    "sourceUrl": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep",
+    "award": "Forage completion certificate; bukan professional certification atau sertifikasi dari brand pemberi simulasi.",
+    "scope": "Direct practice untuk integrated marketing plan dan creative brief; bukan pengganti pengalaman mengelola client brief nyata.",
+    "fitNote": "Direct applied simulation for brief-to-plan workflow",
+    "verifiedOn": "2026-11-21"
+  },
+  "hubspot_inbound_certification": {
+    "provider": "HubSpot Academy",
+    "title": "HubSpot Academy · Inbound Certification",
+    "type": "course_completion_credential",
+    "label": "Free course certification",
+    "tagClass": "t-completion",
+    "paidExam": false,
+    "description": "Sertifikasi course gratis tentang inbound methodology, shared goals, buyer personas, buyer journey, dan pendekatan customer-centric. HubSpot menyatakan course ini mencakup 7 lessons, 4 quizzes, dan sekitar 2 jam 45 menit.",
+    "duration": "±2 jam 45 menit; 7 lessons; 4 quizzes.",
+    "cost": "Free certification course.",
+    "eligibility": "Buat akun HubSpot Academy, selesaikan course dan assessment sesuai aturan provider.",
+    "validity": "Periksa masa berlaku pada ketentuan sertifikat HubSpot saat completion.",
+    "regional": "Bahasa Indonesia tidak tercantum dalam daftar bahasa pada halaman course yang diperiksa; cek pilihan bahasa dan akses akun sebelum mulai.",
+    "url": "https://academy.hubspot.com/courses/inbound",
+    "sourceUrl": "https://academy.hubspot.com/courses/inbound",
+    "award": "HubSpot Academy Inbound Certification setelah course dan assessment selesai; bukan professional certification berbasis ujian proctored.",
+    "scope": "Strong adjacent learning for buyer, objective and journey framing; not a dedicated client-brief certification.",
+    "fitNote": "Adjacent course certification; complements, not replaces, client-brief practice",
+    "verifiedOn": "2026-11-21"
+  },
   "meta_media_planning": {
     "provider": "Meta",
     "title": "Meta Certified Media Planning Professional",
@@ -1709,6 +1749,14 @@ var auditMap = {
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "No external credential selected for this objective in the current curated registry; use the chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   }
+};
+root.DPA_FOUNDATION_CREDENTIAL_MAP = var foundationMap = {
+  "DPA-CF-CH01": [],
+  "DPA-CF-CH02": ["forage_omnichannel_certificate","hubspot_inbound_certification"],
+  "DPA-CF-CH03": ["hubspot_inbound_certification"],
+  "DPA-CF-CH04": [],
+  "DPA-CF-CH05": [],
+  "DPA-CF-CH06": ["forage_omnichannel_certificate"]
 };
 root.DPA_CREDENTIAL_REGISTRY = registry;
 root.DPA_CHAPTER_CREDENTIAL_MAP = chapterMap;
