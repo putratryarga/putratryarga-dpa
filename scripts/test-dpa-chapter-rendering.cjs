@@ -246,6 +246,11 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.ok(mobilePanelBounds.right <= mobilePanelBounds.viewportWidth + 1,
       `Paid Social panel overflows mobile viewport: ${JSON.stringify(mobilePanelBounds)}`);
 
+    const milestoneStrip = paidSocialPanel.locator(".chapter-milestones");
+    await milestoneStrip.screenshot({ path: path.join(artifactDir, "mobile-paid-social-milestones.png") });
+    const earnMilestone = paidSocialPanel.locator('[data-milestone="earn"]');
+    await earnMilestone.screenshot({ path: path.join(artifactDir, "mobile-paid-social-earn.png") });
+
     // Capture the steady UI, not the transient 2.6s role-selection toast.
     await page.waitForFunction(() => {
       const toast = document.getElementById("toast");
