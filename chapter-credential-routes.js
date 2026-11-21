@@ -565,7 +565,7 @@ var registry = {
     "eligibility": "Sign in to Skillshop, complete the relevant learning path and take its certification assessment. Exact account/assessment rules must be checked in the learner account.",
     "validity": "Validity/renewal is not stated in the public Analytics Academy help article; verify on the issued credential.",
     "regional": "Google's public help page does not specify exam-language coverage or Indonesia account eligibility. Confirm language and access in Skillshop before committing.",
-    "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification",
+    "url": "https://skillshop.withgoogle.com/",
     "sourceUrl": "https://support.google.com/analytics/answer/15068052",
     "award": "Google Analytics certification issued by Google Skillshop after the relevant assessment is passed.",
     "scope": "GA platform-specific; supports GA4 setup, collection, reporting and measurement, but not all cross-platform analytics capabilities.",
@@ -585,7 +585,7 @@ var registry = {
     "validity": "The exact 2026 credential validity is not specified in the public listing; verify the credential record in Skillshop.",
     "regional": "Current Skillshop catalogue lists English content for this 2026 path. Indonesian exam language and Indonesia account access are not confirmed.",
     "url": "https://skillshop.withgoogle.com/",
-    "sourceUrl": "https://skillshop.current Skillshopsaas.com/learn",
+    "sourceUrl": "https://skillshop.withgoogle.com/",
     "award": "Google Marketing Platform certification route; provider awards certification when the associated assessment is passed.",
     "scope": "DV360 only; it does not establish competence in every DSP, SSP, exchange or programmatic trading workflow.",
     "verifiedOn": "2026-11-21"
@@ -604,7 +604,7 @@ var registry = {
     "validity": "The exact 2026 credential validity is not specified in the public listing; verify the credential record in Skillshop.",
     "regional": "Current Skillshop catalogue lists English plus one additional language for this 2026 path; the second language is not identified in the indexed listing. Indonesian exam language and Indonesia account access must be confirmed.",
     "url": "https://skillshop.withgoogle.com/",
-    "sourceUrl": "https://skillshop.current Skillshopsaas.com/learn",
+    "sourceUrl": "https://skillshop.withgoogle.com/",
     "award": "Google Marketing Platform certification route; provider awards certification when the associated assessment is passed.",
     "scope": "CM360/ad-server workflows; not a substitute for platform-neutral ad operations controls or all ad-serving technologies.",
     "verifiedOn": "2026-11-21"
