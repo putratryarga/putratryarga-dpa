@@ -584,8 +584,8 @@ var registry = {
     "eligibility": "Use hands-on DV360 practice and follow the current 2026 preparation and assessment path. The public course listing does not specify a complete eligibility rule.",
     "validity": "The exact 2026 credential validity is not specified in the public listing; verify the credential record in Skillshop.",
     "regional": "Current Skillshop catalogue lists English content for this 2026 path. Indonesian exam language and Indonesia account access are not confirmed.",
-    "url": "https://skillshop.docebosaas.com/pages/17/certifications",
-    "sourceUrl": "https://skillshop.docebosaas.com/learn",
+    "url": "https://skillshop.withgoogle.com/",
+    "sourceUrl": "https://skillshop.current Skillshopsaas.com/learn",
     "award": "Google Marketing Platform certification route; provider awards certification when the associated assessment is passed.",
     "scope": "DV360 only; it does not establish competence in every DSP, SSP, exchange or programmatic trading workflow.",
     "verifiedOn": "2026-11-21"
@@ -603,8 +603,8 @@ var registry = {
     "eligibility": "Use hands-on CM360 practice and follow the current 2026 preparation and assessment path. The public listing does not specify a complete eligibility rule.",
     "validity": "The exact 2026 credential validity is not specified in the public listing; verify the credential record in Skillshop.",
     "regional": "Current Skillshop catalogue lists English plus one additional language for this 2026 path; the second language is not identified in the indexed listing. Indonesian exam language and Indonesia account access must be confirmed.",
-    "url": "https://skillshop.docebosaas.com/pages/17/certifications",
-    "sourceUrl": "https://skillshop.docebosaas.com/learn",
+    "url": "https://skillshop.withgoogle.com/",
+    "sourceUrl": "https://skillshop.current Skillshopsaas.com/learn",
     "award": "Google Marketing Platform certification route; provider awards certification when the associated assessment is passed.",
     "scope": "CM360/ad-server workflows; not a substitute for platform-neutral ad operations controls or all ad-serving technologies.",
     "verifiedOn": "2026-11-21"
