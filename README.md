@@ -74,7 +74,7 @@ Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Tradi
 - Setiap chapter menampilkan **Learn → Earn → Apply → Master**. External credential diterbitkan oleh provider; DPA tidak menerbitkan atau menyinkronkan credential eksternal.
 - Bab tanpa rute credential yang dipilih tetap memiliki **Applied Skill & Portfolio Evidence** sebagai bukti kompetensi.
 - Registry implementasi dan aturan klasifikasi: [chapter credential route governance](docs/chapter-credential-route-governance.md), [169-core mapping register](docs/credential-route-mapping-register.csv), dan [28-elective review queue](docs/28-elective-credential-route-review.csv).
-- Status: first-pass mapping 169 chapter core (43 chapter memiliki opsi Earn; 126 berfokus pada applied evidence) dan 28 chapter advanced elective masih OPEN untuk review credential. Ini bukan SME acceptance. DPA certificate/chapter badge belum diterbitkan dan belum aktif.
+- Status: first-pass mapping 169 chapter core (50 chapter memiliki opsi Earn; 119 berfokus pada applied evidence) dan 28 chapter advanced elective masih OPEN untuk review credential. Ini bukan SME acceptance. DPA certificate/chapter badge belum diterbitkan dan belum aktif.
 
 
 ## Teknologi
