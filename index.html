@@ -4909,7 +4909,7 @@ function renderCredentialRouteCard(route){
 function renderChapterMilestones(chapterId,guide){
  var registry=window.DPA_CREDENTIAL_REGISTRY||{};
  var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||[];
- var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,2);
+ var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,3);
  var html='<section class="chapter-milestones" aria-label="Milestone belajar bab">';
  html+='<article class="chapter-milestone learn" data-milestone="learn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">01 · Learn</span></div><h5>Pahami materi inti</h5><p>Pelajari konsep, contoh, langkah kerja, dan sumber yang dipetakan untuk learning objective bab ini.</p></article>';
  html+='<article class="chapter-milestone earn" data-milestone="earn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">02 · Earn</span><span class="tag t-milestone-optional">Opsional</span></div><h5>External credential, bila relevan</h5>';
