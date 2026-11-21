@@ -81,3 +81,17 @@ Google Analytics Certification is now included after the current official Analyt
 LinkedIn exam pages and languages are issuer-specific; Bahasa Indonesia is not listed in the current LinkedIn Help article. Exam pricing is not stated there. LinkedIn route access, price and account access should be checked before learners commit.
 
 This implementation is confined to the audit branch and makes no change to `main`, production routing, or credential issuance.
+
+
+## Learner-facing recognition pathway update — 21 November 2026
+
+The chapter Earn panel now uses the heading **Credential & chapter achievement** on every rendered core and Common Foundation chapter.
+
+- Where a defensible provider route is mapped, the provider-issued credential card remains visible with its evidence type and issuer link.
+- Where no provider route is mapped, the learner is shown an explicit objective-level explanation and the chapter deliverable used as applied evidence. The message is not presented as a statement that the market has no credential.
+- Every chapter also shows a **DPA chapter achievement — planned** pathway. This is a design/status notice, not an issued badge, certificate, or claim of assessed competence.
+- The DPA achievement pathway must remain non-issuable until learning outcomes, the 507-item question bank, chapter rubrics, passing standards, assessor calibration, issuer identity, privacy controls, and a trusted server-side issuance/verification service are approved.
+- Master is now labelled as a mastery check and explicitly remains self-review in this release. It must not be represented as an assessor decision.
+- Browser QA now asserts that every rendered chapter has the recognition pathway and that the Master panel discloses its self-review status.
+
+This update improves the learner-facing pathway without fabricating provider awards or activating the proposed certificate system. Core mapping still remains first-pass pending independent SME acceptance; the 28 elective chapters remain outside the current learner renderer and require separate implementation and review.
