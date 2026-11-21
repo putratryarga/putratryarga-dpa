@@ -72,6 +72,8 @@
   --gold-s: rgba(210,162,76,.1);
   --gold-l: rgba(210,162,76,.28);
   --green: #8FB573;
+  --credential-purple: #B18BCB;
+  --credential-purple-s: rgba(165,128,191,.16);
   --green-s: rgba(143,181,115,.12);
   --blue: #7A9BBE;
   --blue-s: rgba(122,155,190,.12);
@@ -223,6 +225,8 @@ main.page { max-width: 900px; margin: 0 auto; padding: 0 22px 100px; }
 }
 
 html[data-theme="light"] {
+  --credential-purple: #654478;
+  --credential-purple-s: rgba(101,68,120,.10);
   --bg: #F5F1E8;
   --bg-glow: #ECE7DC;
   --sf: #FBF8F0;
@@ -1479,9 +1483,9 @@ details.week{margin-bottom:16px!important}
 .credential-route-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:8px;font-size:10px;font-weight:700}
 .credential-route-actions a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
 .t-credential{background:var(--green-s);color:var(--green);border:1px solid rgba(86,156,119,.4)}
-.t-coursecert{background:rgba(165,128,191,.16);color:#B18BCB;border:1px solid rgba(165,128,191,.38)}
+.t-coursecert{background:var(--credential-purple-s);color:var(--credential-purple);border:1px solid rgba(165,128,191,.38)}
 .t-coursecred{background:var(--blue-s);color:var(--blue);border:1px solid rgba(122,155,190,.36)}
-.t-completion{background:rgba(165,128,191,.12);color:#B18BCB;border:1px solid rgba(165,128,191,.32)}
+.t-completion{background:var(--credential-purple-s);color:var(--credential-purple);border:1px solid rgba(165,128,191,.32)}
 .t-exam{background:var(--red-s);color:var(--red);border:1px solid rgba(201,112,94,.4)}
 .t-milestone-optional{background:var(--sf3);color:var(--ink3);border:1px solid var(--line)}
 .chapter-earn-empty{padding:9px;border:1px dashed var(--line);border-radius:7px;color:var(--ink2);font-size:10.5px;line-height:1.55;margin-top:7px}
@@ -4868,7 +4872,7 @@ function buildGuide(box,chapter,index){
  var chapterId=chapter.dataset.chapterId||"";
  var roleNote=(typeof DPA_GUIDE_BY_CHAPTER!=="undefined"&&chapterId)?DPA_GUIDE_BY_CHAPTER[chapterId]||null:null;
  var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
- var example=roleNote?roleNote.example:(custom?custom[1]:(role==="adops"?(ADOPS_CASES[index]||ctx.example):ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,2).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
+ var example=roleNote?roleNote.example:(custom?custom[1]:(role==="adops"?(ADOPS_CASES[index]||ctx.example):ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,3).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
  var steps=roleNote?roleNote.steps:topics.map(function(t){
   return '<b>'+studyEsc(t)+'</b>. '+studyEsc(explainTopic(t,role,title,outcome))+' Tindakan belajar: tulis definisi dan sumber, petakan input serta proses, lalu catat output dan kesalahan yang harus dicegah.';
  });
