@@ -10,7 +10,7 @@
 
 The T05, T06, T11, T12 and T15 source-fit desk-review registers are now present. The 22 newly added T06/T12 records bring first-pass desk-review coverage to 169/169 across 16 tracks. Every new chapter disposition is PARTIAL; all 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility and SME decisions remain OPEN. First-pass coverage is not independent acceptance.
 
-The source/validator revision `1787b0d2d2b8faac995b4d84208024801a972992` passed Static QA, Guide Registry/Browser QA and Quiz Engine QA. After a docs-only reconciliation commit, Static QA and Guide/Browser QA also passed on current branch head `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`; no application, quiz or validator code changed in that docs-only commit. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
+All three workflows—Static QA, Guide Registry/Browser QA and Quiz Engine QA—passed on the same reviewed revision `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`. A later documentation-only handoff correction did not change application, quiz, validator or workflow code. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
 
 **The programme is ready to be sent to qualified reviewers as a review candidate. It is not ready to be advertised as fully validated or released to a general audience.**
 
@@ -50,7 +50,7 @@ Static QA and Guide/Browser QA completed **SUCCESS** on current branch head `bc7
 |---|---|---|
 | Static validators / register parity / chapter depth / synthetic score-script self-test | [44850970968](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970968) | SUCCESS |
 | Guide registry + Playwright browser QA | [44850970724](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724) | SUCCESS |
-| Synthetic-only quiz engine + Playwright/axe | [44850753308](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850753308) | SUCCESS |
+| Synthetic-only quiz engine + Playwright/axe | [44850970822](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850753308) | SUCCESS |
 
 The browser report and screenshots are preserved in artifact [dpa-browser-qa-bc778f134feb9e7741e4d32cbdf5c27def5e15b0](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724/artifacts/14685401315) (artifact ID `14685401315`, 30-day retention). The JSON records:
 

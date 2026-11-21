@@ -6,7 +6,7 @@
 
 **READY FOR REVIEW ONLY**
 
-DPA can be shared with qualified SMEs and internal reviewers as a clearly labelled **v11.2 Review Candidate**. It is **not READY FOR AUDIENCE**. Static QA and Guide/Browser QA pass on reviewed branch head `bc778f1`; Quiz Engine QA passed on parent source/validator commit `1787b0d` and no quiz/application code changed afterward. Formal content acceptance and owner decisions remain open. Production has not been merged, promoted or deployed, and no credential issuance is authorised.
+DPA can be shared with qualified SMEs and internal reviewers as a clearly labelled **v11.2 Review Candidate**. It is **not READY FOR AUDIENCE**. Static QA, Guide/Browser QA and Quiz Engine QA all pass on the same reviewed SHA `bc778f1`. Formal content acceptance and owner decisions remain open. Production has not been merged, promoted or deployed, and no credential issuance is authorised.
 
 ## 2. Scope lock
 
@@ -45,7 +45,7 @@ Static and Guide/Browser workflows passed on current branch head `bc778f134feb9e
 
 - [Static QA — run 44850970968](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970968)
 - [Guide Registry + Browser QA — run 44850970724](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724)
-- [Quiz Engine QA — run 44850753308](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850753308)
+- [Quiz Engine QA — run 44850970822](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850753308)
 
 Browser report + screenshots: [artifact 14685401315](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724/artifacts/14685401315). The JSON contains 175 chapter rows, commit SHA `bc778f1…`, and run ID `44850970724`; all non-empty-content, role-overlap, mobile overflow and error-count checks pass. This is stronger and more reproducible than the previously cited local-only `qa-out/browser-qa.json` report.
 
