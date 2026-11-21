@@ -6,7 +6,7 @@
 
 **READY FOR REVIEW ONLY**
 
-DPA can now be shared with qualified SMEs and internal reviewers as a clearly labelled **v11.2 Review Candidate**. It is **not READY FOR AUDIENCE**. Technical/browser workflows now pass on a single exact test SHA, but formal content acceptance and owner decisions remain open. Production has not been merged, promoted or deployed, and no credential issuance is authorised.
+DPA can be shared with qualified SMEs and internal reviewers as a clearly labelled **v11.2 Review Candidate**. It is **not READY FOR AUDIENCE**. Static QA and Guide/Browser QA pass on reviewed branch head `bc778f1`; Quiz Engine QA passed on parent source/validator commit `1787b0d` and no quiz/application code changed afterward. Formal content acceptance and owner decisions remain open. Production has not been merged, promoted or deployed, and no credential issuance is authorised.
 
 ## 2. Scope lock
 
@@ -39,21 +39,21 @@ DPA can now be shared with qualified SMEs and internal reviewers as a clearly la
 
 Working branch: `audit/dpa-release-readiness-2026-11-21`.
 
-Exact-head CI/browser test commit: `038e272d7be9f771c52b1e6cf6e964e9696ae04b`.
+Source/validator commit: `1787b0d2d2b8faac995b4d84208024801a972992`. Reviewed docs/source reconciliation revision: `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`.
 
-All three workflows passed on that same SHA:
+Static and Guide/Browser workflows passed on current branch head `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`; Quiz Engine passed on `1787b0d2d2b8faac995b4d84208024801a972992`, with only documentation changes afterward:
 
-- [Static QA — run 44808776900](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776900)
-- [Guide Registry + Browser QA — run 44808776955](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955)
-- [Quiz Engine QA — run 44808776981](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776981)
+- [Static QA — run 44850970968](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970968)
+- [Guide Registry + Browser QA — run 44850970724](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724)
+- [Quiz Engine QA — run 44850753308](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850753308)
 
-Browser report + screenshots: [artifact 14664901792](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955/artifacts/14664901792). The JSON contains 175 chapter rows and the commit SHA/run ID. This is stronger and more reproducible than the previously cited local-only `qa-out/browser-qa.json` report.
+Browser report + screenshots: [artifact 14685401315](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724/artifacts/14685401315). The JSON contains 175 chapter rows, commit SHA `bc778f1…`, and run ID `44850970724`; all non-empty-content, role-overlap, mobile overflow and error-count checks pass. This is stronger and more reproducible than the previously cited local-only `qa-out/browser-qa.json` report.
 
 The test scope is deliberately bounded: 1440px desktop and 390px mobile, role switching, chapter panel structure, guide identity, source-link presence and browser errors. It does not constitute authenticated Vercel Preview review, full cross-browser review, or expert content approval.
 
 ### Current Vercel Preview (verified 21 November 2026)
 
-The tested application commit has a Vercel Preview deployment in **READY** state: [deployment inspection](https://vercel.com/elric3/putratyarga-dpa/6XwxJTFEqvBj7JDKSGurESRdva4W) · [preview URL](https://putratryarga-86fn8hscj-elric3.vercel.app/). Vercel metadata ties it to the release branch and exact commit above; the authenticated fetch returned HTTP 200. Its target is not production. The latest listed production deployment still points to `main`; no production promotion or domain reassignment was performed. Human authenticated visual/accessibility review of the hosted preview remains open.
+Current release branch has a Vercel Preview in **READY** state: [deployment inspection](https://vercel.com/elric3/putratryarga-dpa/AjHQNYhG8fQ3j7X59ZNzohDdAUeS) · [preview URL](https://putratryarga-clljkrz62-elric3.vercel.app/). Deployment `dpl_AjHQNYhG8fQ3j7X59ZNzohDdAUeS` is tied to reviewed revision `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`; authenticated fetch returned HTTP 200 with v11.2 review-candidate metadata and the 16+2 architecture. It is Preview only; latest production deployment remains on `main` at `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`. Human authenticated visual/accessibility review remains open.
 
 ## 5. Remediation completed in this branch
 

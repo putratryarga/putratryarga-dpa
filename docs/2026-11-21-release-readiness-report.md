@@ -1,7 +1,8 @@
 # DPA Release-Readiness Report — 21 November 2026 (final audit update)
 
 **Branch:** `audit/dpa-release-readiness-2026-11-21`  
-**Exact-head CI/browser test SHA:** `038e272d7be9f771c52b1e6cf6e964e9696ae04b`  
+**Reviewed release-branch revision:** `bc778f134feb9e7741e4d32cbdf5c27def5e15b0` (the source/validator parent is `1787b0d2d2b8faac995b4d84208024801a972992`)  
+**Source/validator test commit:** `1787b0d2d2b8faac995b4d84208024801a972992`  
 **Verdict:** **READY FOR REVIEW ONLY — NOT READY FOR AUDIENCE**  
 **Production:** untouched; no merge to main, no production promotion/deploy, no certificate issuance.
 
@@ -9,7 +10,7 @@
 
 The T05, T06, T11, T12 and T15 source-fit desk-review registers are now present. The 22 newly added T06/T12 records bring first-pass desk-review coverage to 169/169 across 16 tracks. Every new chapter disposition is PARTIAL; all 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility and SME decisions remain OPEN. First-pass coverage is not independent acceptance.
 
-The exact-head technical and browser tests have now run successfully on `038e272d7be9f771c52b1e6cf6e964e9696ae04b`. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
+The source/validator revision `1787b0d2d2b8faac995b4d84208024801a972992` passed Static QA, Guide Registry/Browser QA and Quiz Engine QA. After a docs-only reconciliation commit, Static QA and Guide/Browser QA also passed on current branch head `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`; no application, quiz or validator code changed in that docs-only commit. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
 
 **The programme is ready to be sent to qualified reviewers as a review candidate. It is not ready to be advertised as fully validated or released to a general audience.**
 
@@ -43,15 +44,15 @@ The exact-head technical and browser tests have now run successfully on `038e272
 
 ## D. Exact-head CI and browser evidence
 
-All three GitHub Actions workflows completed **SUCCESS** on the same commit `038e272d7be9f771c52b1e6cf6e964e9696ae04b`:
+Static QA and Guide/Browser QA completed **SUCCESS** on current branch head `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`. Quiz Engine QA completed **SUCCESS** on source/validator commit `1787b0d2d2b8faac995b4d84208024801a972992`; the subsequent `bc778f1` commit only changed documentation and did not change quiz/app/test code:
 
 | Gate | Workflow run | Result |
 |---|---|---|
-| Static validators / register parity / chapter depth / synthetic score-script self-test | [44808776900](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776900) | SUCCESS |
-| Guide registry + Playwright browser QA | [44808776955](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955) | SUCCESS |
-| Synthetic-only quiz engine + Playwright/axe | [44808776981](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776981) | SUCCESS |
+| Static validators / register parity / chapter depth / synthetic score-script self-test | [44850970968](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970968) | SUCCESS |
+| Guide registry + Playwright browser QA | [44850970724](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724) | SUCCESS |
+| Synthetic-only quiz engine + Playwright/axe | [44850753308](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850753308) | SUCCESS |
 
-The browser report and screenshots are preserved in artifact [dpa-browser-qa-038e272d7be9f771c52b1e6cf6e964e9696ae04b](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955/artifacts/14664901792) (artifact ID `14664901792`, 30-day retention). The JSON records:
+The browser report and screenshots are preserved in artifact [dpa-browser-qa-bc778f134feb9e7741e4d32cbdf5c27def5e15b0](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44850970724/artifacts/14685401315) (artifact ID `14685401315`, 30-day retention). The JSON records:
 
 - 169 core chapters + 6 Common Foundation = 175 rendered learning panels.
 - 169/169 authored guide registry IDs; 16/16 role paths opened.
@@ -63,11 +64,13 @@ The browser report and screenshots are preserved in artifact [dpa-browser-qa-038
 
 The same JSON and two screenshots (`desktop-role-picker.png`, `mobile-paid-social.png`) are inside the workflow artifact. The quiz workflow separately passed deterministic engine tests, Playwright interaction, targeted WCAG 2.2 axe checks, keyboard radio navigation, mobile overflow and synthetic-only/no-persistence/no-network controls. Quiz coverage is a three-item synthetic prototype, not the 507-item curriculum assessment.
 
+**Browser evidence:** the exact branch-head JSON reports 175 rows; each panel has non-empty concept, example and practice fields, three questions, at least three learning steps, resource links and six non-empty lesson folds. The smallest concept body is 729 characters. This is structural/functional completeness, not a quality or SME verdict.
+
 **Boundary:** these checks establish repository-local browser/runtime behavior at the tested desktop (1440px) and mobile (390px) configurations. They do not replace authenticated review of the deployed Vercel Preview, nor do they validate learning content accuracy or SME acceptance.
 
 ### Current Vercel Preview (verified 21 November 2026)
 
-The exact application commit above also has a Vercel Preview deployment in **READY** state: [deployment inspection](https://vercel.com/elric3/putratryarga-dpa/6XwxJTFEqvBj7JDKSGurESRdva4W) · [preview URL](https://putratryarga-86fn8hscj-elric3.vercel.app/). Vercel metadata identifies branch `audit/dpa-release-readiness-2026-11-21` and commit `038e272d7be9f771c52b1e6cf6e964e9696ae04b`; an authenticated Vercel fetch returned HTTP 200 and the deployed HTML contains the corrected v11.2 review-candidate metadata. The deployment has no production target; the latest listed production deployment remains associated with `main`. This is Preview availability and an HTTP response check, **not** a substitute for a human authenticated UI/accessibility inspection of the hosted preview.
+The current review branch has a Vercel Preview deployment in **READY** state: [deployment inspection](https://vercel.com/elric3/putratryarga-dpa/AjHQNYhG8fQ3j7X59ZNzohDdAUeS) · [preview URL](https://putratryarga-clljkrz62-elric3.vercel.app/). Vercel metadata identifies branch `audit/dpa-release-readiness-2026-11-21` and revision `bc778f134feb9e7741e4d32cbdf5c27def5e15b0`; authenticated fetch returned HTTP 200, title `Full-Stack Digital Performance Architect`, JSON-LD version `11.2 review candidate`, and `hasPart` for CF1–CF6, the 16 core tracks and two electives. Target is Preview only. The latest listed production deployment remains on `main` at `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`; this review branch has not been merged or promoted. HTTP 200 does not replace human authenticated visual/accessibility review.
 
 ## E. Remaining blockers
 
