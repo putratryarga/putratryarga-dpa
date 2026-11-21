@@ -493,8 +493,12 @@ try {
     reducedMotion: media.filter((x) => /prefers-reduced-motion/i.test(x)).length,
     print: media.filter((x) => /\bprint\b/i.test(x)).length
   };
-  assertEqual("@media total", report.mediaQueries.total, 19);
-  assertEqual("@media width-based", report.mediaQueries.widthBased, 14);
+  // Expected @media snapshot: 20 total / 15 width-based since b9157d8 added the
+  // intentional credential-route mobile rule @media(max-width:700px) for
+  // .chapter-milestones/.credential-route-card/.chapter-milestone (v11.2 UI work).
+  // Update these expectations only together with a reviewed index.html change.
+  assertEqual("@media total", report.mediaQueries.total, 20);
+  assertEqual("@media width-based", report.mediaQueries.widthBased, 15);
   assertEqual("@media reduced-motion", report.mediaQueries.reducedMotion, 2);
   assertEqual("@media print", report.mediaQueries.print, 3);
 
