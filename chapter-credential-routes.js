@@ -224,6 +224,106 @@ var registry = {
     "fitNote": "Direct vendor certification for organic social strategy and measurement",
     "verifiedOn": "2026-11-21"
   },
+  "hubspot_digital_marketing_certification": {
+    "provider": "HubSpot Academy",
+    "title": "HubSpot Academy · Digital Marketing Certification",
+    "type": "vendor_course_certification",
+    "label": "Free course certification",
+    "tagClass": "t-coursecert",
+    "paidExam": false,
+    "description": "Course certification gratis yang mencakup human-centered digital marketing strategy, content, SEO, social media, email, advertising dan reporting. HubSpot menyebut 10 lessons, 30 videos, 8 quizzes, dan sekitar 3 jam 24 menit.",
+    "duration": "±3 jam 24 menit; 10 lessons; 8 quizzes.",
+    "cost": "Free certification course.",
+    "eligibility": "Selesaikan course dan exam sesuai ketentuan HubSpot Academy.",
+    "validity": "Periksa masa berlaku/renewal pada akun sertifikasi HubSpot.",
+    "regional": "Bahasa yang tercantum pada halaman course: Deutsch, Español, Français, 日本語; Bahasa Indonesia tidak tercantum. Cek akses akun Indonesia.",
+    "url": "https://academy.hubspot.com/courses/digital-marketing",
+    "sourceUrl": "https://academy.hubspot.com/courses/digital-marketing",
+    "award": "HubSpot Academy Digital Marketing Certification setelah lulus exam; vendor-issued course certification.",
+    "scope": "Broad digital marketing foundation; not a specialist certification in paid media buying, analytics engineering or programmatic trading.",
+    "fitNote": "Broad foundation credential for selected integrated digital marketing objectives",
+    "verifiedOn": "2026-11-21"
+  },
+  "microsoft_retail_advertising_certification": {
+    "provider": "Microsoft Advertising Learning Lab",
+    "title": "Microsoft Advertising Retail Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Microsoft Advertising Retail Advertising certification. Learning Lab menyebut sertifikasi ini memberikan shareable digital badge setelah peserta menyelesaikan certification.",
+    "duration": "Format, durasi dan passing score mengikuti halaman certification/assessment saat enrolment.",
+    "cost": "Biaya ujian tidak dinyatakan pada halaman Learning Lab yang diperiksa; cek registrasi.",
+    "eligibility": "Daftar dengan akun Learning Lab dan penuhi persyaratan assessment issuer.",
+    "validity": "Validity/renewal tidak dinyatakan pada halaman yang diperiksa.",
+    "regional": "Ketersediaan exam, bahasa, dan akses akun Indonesia belum diverifikasi.",
+    "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+    "sourceUrl": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+    "award": "Microsoft Advertising Retail Certification dan shareable digital badge setelah lulus assessment.",
+    "scope": "Microsoft Retail Advertising only; not a general retail media or commerce strategy qualification.",
+    "fitNote": "Platform-specific retail advertising certification",
+    "verifiedOn": "2026-11-21"
+  },
+  "amazon_retail_certification": {
+    "provider": "Amazon Ads Academy",
+    "title": "Amazon Ads for Retail Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Amazon Ads for Retail Certification memvalidasi pemahaman retail program Amazon, seller/ vendor types, fulfillment, retail readiness, Seller Central dan Vendor Central. Assessment diperlukan; course persiapan bersifat opsional.",
+    "duration": "±3 jam 47 menit learning path; assessment 2 jam.",
+    "cost": "Amazon Ads Academy menyatakan certifications free of charge.",
+    "eligibility": "Selesaikan required certification assessment dan persyaratan issuer; account Amazon Ads Academy diperlukan.",
+    "validity": "Amazon Ads certifications berlaku 2 tahun.",
+    "regional": "Halaman global menyatakan konten ini belum tersedia dalam bahasa pilihan tertentu; bahasa dan akses akun Indonesia perlu dicek saat enrolment.",
+    "url": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification",
+    "sourceUrl": "https://advertising.amazon.com/academy/certifications",
+    "award": "Amazon Ads for Retail Certification, digital badge dan downloadable certificate setelah lulus assessment.",
+    "scope": "Amazon retail programs and seller operations; not a universal retail media network credential.",
+    "fitNote": "Direct credential for retail ecosystem, seller readiness and commerce operations",
+    "verifiedOn": "2026-11-21"
+  },
+  "meta_partnership_ads_course": {
+    "provider": "Meta Blueprint",
+    "title": "Amplify Campaigns with Partnership Ads",
+    "type": "course_completion_credential",
+    "label": "Course-completion credential",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Meta Blueprint intermediate course yang membahas always-on creator partnerships, Partnership Ads Hub, content permissions, Creator Marketplace, Ads Manager setup dan measurement. Halaman issuer menampilkan label Credential For Completion.",
+    "duration": "20 menit; 3 lessons.",
+    "cost": "Online course; biaya tidak dinyatakan pada halaman aktivitas yang diperiksa.",
+    "eligibility": "Selesaikan aktivitas sesuai ketentuan Meta Blueprint dan cek credential pada akun learner.",
+    "validity": "Masa berlaku course credential tidak dinyatakan.",
+    "regional": "Bahasa dan akses akun Indonesia perlu dicek pada Meta Blueprint.",
+    "url": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course",
+    "sourceUrl": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course",
+    "award": "Meta Blueprint Credential For Completion; bukan Meta Certified Professional exam.",
+    "scope": "Direct fit for creator collaboration, content permissions, partnership ads setup and measurement.",
+    "fitNote": "Direct course credential for creator partnership and paid amplification objectives",
+    "verifiedOn": "2026-11-21"
+  },
+  "meta_collaborative_ads_course": {
+    "provider": "Meta Blueprint",
+    "title": "Turn Social Inspiration into Retail Sales with Collaborative Ads",
+    "type": "course_completion_credential",
+    "label": "Course-completion credential",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Meta Blueprint intermediate course tentang kolaborasi brand-retailer untuk performance marketing melalui Collaborative Ads, setup campaign dan measurement. Halaman issuer menampilkan Credential For Completion.",
+    "duration": "30 menit; 3 lessons.",
+    "cost": "Online course; biaya tidak dinyatakan pada halaman aktivitas yang diperiksa.",
+    "eligibility": "Selesaikan aktivitas sesuai ketentuan Meta Blueprint dan cek credential pada akun learner.",
+    "validity": "Masa berlaku course credential tidak dinyatakan.",
+    "regional": "Bahasa dan akses akun Indonesia perlu dicek pada Meta Blueprint.",
+    "url": "https://certifications.facebookblueprint.com/student/path/196024-196024-collaborative-ads",
+    "sourceUrl": "https://certifications.facebookblueprint.com/student/path/196024-196024-collaborative-ads",
+    "award": "Meta Blueprint Credential For Completion; bukan Meta Certified Professional exam.",
+    "scope": "Meta Collaborative Ads only; supports brand-retailer campaign collaboration, not all retail media buying.",
+    "fitNote": "Direct course credential for retail collaboration and offsite retail activation",
+    "verifiedOn": "2026-11-21"
+  },
   "meta_media_planning": {
     "provider": "Meta",
     "title": "Meta Certified Media Planning Professional",
@@ -587,25 +687,25 @@ var registry = {
   }
 };
 var chapterMap = {
-  "DPA-T01-CH01": [],
+  "DPA-T01-CH01": ["hubspot_digital_marketing_certification"],
   "DPA-T01-CH02": [],
-  "DPA-T01-CH03": [],
-  "DPA-T01-CH04": [],
+  "DPA-T01-CH03": ["hubspot_digital_marketing_certification"],
+  "DPA-T01-CH04": ["hubspot_digital_marketing_certification"],
   "DPA-T01-CH05": [],
-  "DPA-T01-CH06": [],
-  "DPA-T01-CH07": [],
+  "DPA-T01-CH06": ["hubspot_digital_marketing_certification"],
+  "DPA-T01-CH07": ["hubspot_digital_marketing_certification"],
   "DPA-T01-CH08": [],
-  "DPA-T01-CH09": [],
+  "DPA-T01-CH09": ["hubspot_digital_marketing_certification"],
   "DPA-T01-CH10": [],
-  "DPA-T02-CH01": [],
-  "DPA-T02-CH02": [],
+  "DPA-T02-CH01": ["hubspot_inbound_certification"],
+  "DPA-T02-CH02": ["hubspot_inbound_certification"],
   "DPA-T02-CH03": [],
   "DPA-T02-CH04": [],
-  "DPA-T02-CH05": [],
-  "DPA-T02-CH06": [],
-  "DPA-T02-CH07": [],
-  "DPA-T02-CH08": [],
-  "DPA-T02-CH09": [],
+  "DPA-T02-CH05": ["hubspot_inbound_certification"],
+  "DPA-T02-CH06": ["linkedin_marketing_strategy","linkedin_advertising_fundamentals"],
+  "DPA-T02-CH07": ["linkedin_marketing_strategy","linkedin_content_creative"],
+  "DPA-T02-CH08": ["linkedin_content_creative","linkedin_advertising_fundamentals"],
+  "DPA-T02-CH09": ["linkedin_marketing_measurement"],
   "DPA-T02-CH10": [],
   "DPA-T03-CH01": [
     "meta_media_planning"
@@ -620,7 +720,7 @@ var chapterMap = {
   "DPA-T03-CH07": ["microsoft_ads_display_video_certification"],
   "DPA-T03-CH08": ["meta_media_planning","microsoft_ads_display_video_certification"],
   "DPA-T03-CH09": ["microsoft_ads_display_video_certification"],
-  "DPA-T03-CH10": [],
+  "DPA-T03-CH10": ["meta_media_planning"],
   "DPA-T04-CH01": ["google_ads_search","microsoft_ads_search_certification"],
   "DPA-T04-CH02": ["google_ads_search","microsoft_ads_search_certification"],
   "DPA-T04-CH03": ["google_ads_search","microsoft_ads_search_certification"],
@@ -697,22 +797,20 @@ var chapterMap = {
     "google_dv360_2026"
   ],
   "DPA-T06-CH12": ["microsoft_programmatic_learning_badge"],
-  "DPA-T07-CH01": [],
-  "DPA-T07-CH02": [],
-  "DPA-T07-CH03": [],
+  "DPA-T07-CH01": ["amazon_retail_certification"],
+  "DPA-T07-CH02": ["amazon_retail_certification"],
+  "DPA-T07-CH03": ["amazon_retail_certification","microsoft_retail_advertising_certification"],
   "DPA-T07-CH04": [
     "amazon_sponsored_ads"
   ],
-  "DPA-T07-CH05": [],
-  "DPA-T07-CH06": [],
-  "DPA-T07-CH07": [],
+  "DPA-T07-CH05": ["microsoft_retail_advertising_certification","meta_collaborative_ads_course"],
+  "DPA-T07-CH06": ["microsoft_retail_advertising_certification","meta_collaborative_ads_course"],
+  "DPA-T07-CH07": ["amazon_retail_certification","microsoft_retail_advertising_certification"],
   "DPA-T07-CH08": [
     "amazon_sponsored_ads"
   ],
-  "DPA-T07-CH09": [
-    "amazon_sponsored_ads"
-  ],
-  "DPA-T07-CH10": [],
+  "DPA-T07-CH09": ["amazon_sponsored_ads","meta_collaborative_ads_course"],
+  "DPA-T07-CH10": ["amazon_retail_certification"],
   "DPA-T08-CH01": [],
   "DPA-T08-CH02": [],
   "DPA-T08-CH03": [],
@@ -723,44 +821,36 @@ var chapterMap = {
   "DPA-T08-CH08": [],
   "DPA-T08-CH09": [],
   "DPA-T08-CH10": [],
-  "DPA-T09-CH01": [],
-  "DPA-T09-CH02": [],
-  "DPA-T09-CH03": [],
-  "DPA-T09-CH04": [],
+  "DPA-T09-CH01": ["google_cm360_2026"],
+  "DPA-T09-CH02": ["google_cm360_2026"],
+  "DPA-T09-CH03": ["google_cm360_2026"],
+  "DPA-T09-CH04": ["google_cm360_2026"],
   "DPA-T09-CH05": [
     "google_cm360_2026"
   ],
-  "DPA-T09-CH06": [],
-  "DPA-T09-CH07": [],
-  "DPA-T09-CH08": [],
-  "DPA-T09-CH09": [],
+  "DPA-T09-CH06": ["google_cm360_2026"],
+  "DPA-T09-CH07": ["google_cm360_2026","google_dv360_2026"],
+  "DPA-T09-CH08": ["google_cm360_2026"],
+  "DPA-T09-CH09": ["google_cm360_2026"],
   "DPA-T09-CH10": [],
   "DPA-T10-CH01": ["meta_marketing_science"],
-  "DPA-T10-CH02": [],
-  "DPA-T10-CH03": [
-    "google_analytics_certification"
-  ],
+  "DPA-T10-CH02": ["google_analytics_certification"],
+  "DPA-T10-CH03": ["google_analytics_certification"],
   "DPA-T10-CH04": [],
-  "DPA-T10-CH05": [],
+  "DPA-T10-CH05": ["google_analytics_certification"],
   "DPA-T10-CH06": ["google_analytics_certification","meta_marketing_science"],
-  "DPA-T10-CH07": ["linkedin_marketing_measurement","meta_marketing_science"],
-  "DPA-T10-CH08": ["linkedin_marketing_measurement","meta_marketing_science"],
-  "DPA-T10-CH09": ["meta_marketing_science"],
+  "DPA-T10-CH07": ["linkedin_marketing_measurement","meta_marketing_science","google_analytics_certification"],
+  "DPA-T10-CH08": ["linkedin_marketing_measurement","meta_marketing_science","google_analytics_certification"],
+  "DPA-T10-CH09": ["meta_marketing_science","google_analytics_certification"],
   "DPA-T10-CH10": [],
-  "DPA-T11-CH01": [
-    "semrush_seo_crash"
-  ],
-  "DPA-T11-CH02": [
-    "semrush_seo_crash"
-  ],
+  "DPA-T11-CH01": ["semrush_seo_crash"],
+  "DPA-T11-CH02": ["semrush_seo_crash"],
   "DPA-T11-CH03": [],
   "DPA-T11-CH04": [],
-  "DPA-T11-CH05": [
-    "semrush_seo_crash"
-  ],
-  "DPA-T11-CH06": [],
-  "DPA-T11-CH07": [],
-  "DPA-T11-CH08": [],
+  "DPA-T11-CH05": ["semrush_seo_crash"],
+  "DPA-T11-CH06": ["semrush_seo_crash"],
+  "DPA-T11-CH07": ["semrush_seo_crash"],
+  "DPA-T11-CH08": ["semrush_seo_crash"],
   "DPA-T11-CH09": [],
   "DPA-T11-CH10": [],
   "DPA-T12-CH01": ["hubspot_inbound_certification"],
@@ -789,13 +879,13 @@ var chapterMap = {
   "DPA-T14-CH03": [],
   "DPA-T14-CH04": [],
   "DPA-T14-CH05": [],
-  "DPA-T14-CH06": [],
-  "DPA-T14-CH07": [],
+  "DPA-T14-CH06": ["meta_partnership_ads_course"],
+  "DPA-T14-CH07": ["meta_partnership_ads_course"],
   "DPA-T14-CH08": [],
-  "DPA-T14-CH09": [],
-  "DPA-T14-CH10": [],
-  "DPA-T14-CH11": [],
-  "DPA-T14-CH12": [],
+  "DPA-T14-CH09": ["meta_partnership_ads_course"],
+  "DPA-T14-CH10": ["meta_partnership_ads_course"],
+  "DPA-T14-CH11": ["meta_partnership_ads_course"],
+  "DPA-T14-CH12": ["meta_partnership_ads_course"],
   "DPA-T15-CH01": ["impact_affiliate_industry_certification"],
   "DPA-T15-CH02": ["impact_affiliate_industry_certification"],
   "DPA-T15-CH03": ["impact_affiliate_industry_certification"],
@@ -807,7 +897,7 @@ var chapterMap = {
   "DPA-T15-CH09": ["impact_affiliate_industry_certification"],
   "DPA-T15-CH10": ["impact_affiliate_industry_certification"],
   "DPA-T15-CH11": ["impact_affiliate_industry_certification"],
-  "DPA-T15-CH12": [],
+  "DPA-T15-CH12": ["impact_affiliate_industry_certification"],
   "DPA-T16-CH01": ["meta_community_course_credentials"],
   "DPA-T16-CH02": ["meta_community_course_credentials"],
   "DPA-T16-CH03": ["meta_community_course_credentials"],
@@ -823,10 +913,10 @@ var chapterMap = {
 };
 var auditMap = {
   "DPA-T01-CH01": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_digital_marketing_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T01-CH02": {
     "routeIds": [],
@@ -835,16 +925,16 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH03": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_digital_marketing_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T01-CH04": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_digital_marketing_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T01-CH05": {
     "routeIds": [],
@@ -853,16 +943,16 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_digital_marketing_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T01-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_digital_marketing_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T01-CH08": {
     "routeIds": [],
@@ -871,10 +961,10 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH09": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_digital_marketing_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T01-CH10": {
     "routeIds": [],
@@ -883,16 +973,16 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH01": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_inbound_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH02": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_inbound_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH03": {
     "routeIds": [],
@@ -907,34 +997,34 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH05": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["hubspot_inbound_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["linkedin_marketing_strategy","linkedin_advertising_fundamentals"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["linkedin_marketing_strategy","linkedin_content_creative"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH08": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["linkedin_content_creative","linkedin_advertising_fundamentals"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH09": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["linkedin_marketing_measurement"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T02-CH10": {
     "routeIds": [],
@@ -997,10 +1087,10 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T03-CH10": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_media_planning"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T04-CH01": {
     "routeIds": ["google_ads_search","microsoft_ads_search_certification"],
@@ -1195,22 +1285,22 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH01": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["amazon_retail_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH02": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["amazon_retail_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH03": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["amazon_retail_certification","microsoft_retail_advertising_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH04": {
     "routeIds": ["amazon_sponsored_ads"],
@@ -1219,22 +1309,22 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH05": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["microsoft_retail_advertising_certification","meta_collaborative_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["microsoft_retail_advertising_certification","meta_collaborative_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["amazon_retail_certification","microsoft_retail_advertising_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH08": {
     "routeIds": ["amazon_sponsored_ads"],
@@ -1243,16 +1333,16 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH09": {
-    "routeIds": ["amazon_sponsored_ads"],
+    "routeIds": ["amazon_sponsored_ads","meta_collaborative_ads_course"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T07-CH10": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["amazon_retail_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T08-CH01": {
     "routeIds": [],
@@ -1315,28 +1405,28 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH01": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH02": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH03": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH04": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH05": {
     "routeIds": ["google_cm360_2026"],
@@ -1345,28 +1435,28 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026","google_dv360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH08": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH09": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_cm360_2026"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T09-CH10": {
     "routeIds": [],
@@ -1381,10 +1471,10 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T10-CH02": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_analytics_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T10-CH03": {
     "routeIds": ["google_analytics_certification"],
@@ -1399,10 +1489,10 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH05": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["google_analytics_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T10-CH06": {
     "routeIds": ["google_analytics_certification","meta_marketing_science"],
@@ -1411,19 +1501,19 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T10-CH07": {
-    "routeIds": ["linkedin_marketing_measurement","meta_marketing_science"],
+    "routeIds": ["linkedin_marketing_measurement","meta_marketing_science","google_analytics_certification"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T10-CH08": {
-    "routeIds": ["linkedin_marketing_measurement","meta_marketing_science"],
+    "routeIds": ["linkedin_marketing_measurement","meta_marketing_science","google_analytics_certification"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T10-CH09": {
-    "routeIds": ["meta_marketing_science"],
+    "routeIds": ["meta_marketing_science","google_analytics_certification"],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
@@ -1465,22 +1555,22 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T11-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["semrush_seo_crash"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T11-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["semrush_seo_crash"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T11-CH08": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["semrush_seo_crash"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T11-CH09": {
     "routeIds": [],
@@ -1651,16 +1741,16 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_partnership_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T14-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_partnership_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T14-CH08": {
     "routeIds": [],
@@ -1669,28 +1759,28 @@ var auditMap = {
     "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH09": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_partnership_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T14-CH10": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_partnership_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T14-CH11": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_partnership_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T14-CH12": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["meta_partnership_ads_course"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T15-CH01": {
     "routeIds": ["impact_affiliate_industry_certification"],
@@ -1759,10 +1849,10 @@ var auditMap = {
     "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T15-CH12": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": ["impact_affiliate_industry_certification"],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this objective in the current curated registry; use chapter deliverable and portfolio evidence. This is not a market-wide claim that no credential exists."
+    "note": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance."
   },
   "DPA-T16-CH01": {
     "routeIds": ["meta_community_course_credentials"],
