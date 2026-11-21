@@ -1475,6 +1475,7 @@ details.week{margin-bottom:16px!important}
 .chapter-milestone.master{border-top:3px solid var(--ink3)}
 .credential-route-list{display:grid;grid-template-columns:1fr;gap:8px;margin-top:8px}
 .credential-fit-note{padding:7px 9px;border-left:2px solid var(--gold);background:var(--sf2);font-size:10px!important;line-height:1.45!important}
+.chapter-resource-item [data-resource-type="learning-and-credential"] .tag{font-weight:700}
 .credential-route-card{min-width:0;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--sf2)}
 .credential-route-card strong{display:block;color:var(--ink);font-size:11px;line-height:1.45;margin:7px 0 4px}
 .credential-route-card p{margin:0 0 6px;color:var(--ink2);font-size:10px;line-height:1.5}
@@ -4918,7 +4919,7 @@ function renderCredentialRouteCard(route){
  var html='<article class="credential-route-card">';
  html+='<div class="credential-route-tags"><span class="tag '+studyEsc(route.tagClass||'t-coursecred')+'">'+studyEsc(route.label||'Provider credential')+'</span>';
  if(route.paidExam)html+='<span class="tag t-exam">Paid / proctored exam</span>';
- html+='<span class="tag t-milestone-optional">Opsional</span></div>';
+ html+='<span class="tag t-milestone-optional">Jalur provider</span></div>';
  html+='<strong>'+studyEsc(route.title)+'</strong><p>'+studyEsc(route.description)+'</p>';
  if(route.fitNote)html+='<p class="credential-fit-note"><b>Kecocokan dengan bab:</b> '+studyEsc(route.fitNote)+'</p>';
  html+='<div class="credential-route-meta">';
@@ -4964,22 +4965,28 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  function addMappedSource(item){
   var href=String(item.url||"").trim(),title=String(item.title||"Rujukan bab").trim();
   if(!/^https?:\/\//i.test(href)||seenSourceUrls[href]||links.length>=5)return;
-  if(credentialRouteIsMappedToChapter(chapterId,href))return;
+
   seenSourceUrls[href]=true;
-  links.push('<div class="chapter-resource-item"><a class="res" data-resource-type="reference" href="'+studyEsc(href)+'" target="_blank" rel="noopener noreferrer"><span><span class="rn">'+studyEsc(title)+'</span><span class="rd">Sumber rujukan untuk objective bab ini; periksa konteks, tanggal, cakupan, akses, dan batas sumber.</span></span><span class="tag t-doc">Referensi</span></a></div>');
+  var awardRoute=credentialRouteIsMappedToChapter(chapterId,href);
+  links.push('<div class="chapter-resource-item"><a class="res" data-resource-type="'+(awardRoute?'learning-and-credential':'reference')+'" href="'+studyEsc(href)+'" target="_blank" rel="noopener noreferrer"><span><span class="rn">'+studyEsc(title)+'</span><span class="rd">'+(awardRoute?'Materi belajar sekaligus jalur menuju award provider; cek syarat completion/assessment pada issuer.':'Sumber rujukan untuk objective bab ini; periksa konteks, tanggal, cakupan, akses, dan batas sumber.')+'</span></span><span class="tag '+(awardRoute?'t-completion':'t-doc')+'">'+(awardRoute?'Belajar + credential':'Referensi')+'</span></a></div>');
  }
  mappedResources.forEach(addMappedSource);
  selected.forEach(function(n){
   if(links.length>=5)return;
   var a=resources[n].cloneNode(true),href=a.getAttribute("href")||"";
-  if(!/^https?:\/\//i.test(href)||seenSourceUrls[href]||credentialRouteIsMappedToChapter(chapterId,href))return;
+  if(!/^https?:\/\//i.test(href)||seenSourceUrls[href])return;
   seenSourceUrls[href]=true;
   a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");
   a.setAttribute("data-resource-type","reference");
   var tag=a.querySelector(".tag");
   if(tag){
-   tag.className="tag t-doc";
-   if(/credential|certification|badge/i.test(tag.textContent))tag.textContent="Referensi";
+   if(credentialRouteIsMappedToChapter(chapterId,href)){
+    tag.className="tag t-completion";tag.textContent="Belajar + credential";
+    a.setAttribute("data-resource-type","learning-and-credential");
+   }else{
+    tag.className="tag t-doc";
+    if(/credential|certification|badge/i.test(tag.textContent))tag.textContent="Referensi";
+   }
   }
   links.push('<div class="chapter-resource-item">'+a.outerHTML+'</div>');
  });
