@@ -326,6 +326,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Out-of-Home Measurement Standards (Phase 1 & 2, Dec 2025)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH04": [
@@ -336,6 +340,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "The Trade Desk Edge Academy Programmatic 101",
       "url": "https://edgeacademy.thetradedesk.com/programmatic-101"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH05": [
@@ -346,6 +354,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "The Trade Desk Edge Academy Programmatic 101",
       "url": "https://edgeacademy.thetradedesk.com/programmatic-101"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH06": [
@@ -368,6 +380,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Out-of-Home Measurement Standards (Phase 1 & 2, Dec 2025)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH07": [
@@ -382,6 +398,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Ads Reach Planner forecasts",
       "url": "https://support.google.com/google-ads/answer/9808024?hl=en"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH08": [
@@ -392,6 +412,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "The Trade Desk Edge Academy Programmatic 101",
       "url": "https://edgeacademy.thetradedesk.com/programmatic-101"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH09": [
@@ -410,6 +434,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "MRC Out-of-Home Measurement Standards (Phase 1 & 2, Dec 2025)",
       "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf"
+    },
+    {
+      "title": "Microsoft Advertising Display & Video Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T03-CH10": [
@@ -442,6 +470,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Microsoft Advertising Learning Lab",
       "url": "https://www.about.ads.microsoft.com/en/resources/training-certification/learning-lab"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH02": [
@@ -460,6 +492,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Microsoft Keyword Planner",
       "url": "https://about.ads.microsoft.com/en/tools/planning/keyword-planner"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH03": [
@@ -474,6 +514,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Microsoft Search ads overview",
       "url": "https://www.about.ads.microsoft.com/en/solutions/ad-products-formats/search"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH04": [
@@ -492,6 +540,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google how matching works",
       "url": "https://support.google.com/google-ads/answer/14997606?hl=en"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH05": [
@@ -514,6 +570,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Microsoft RSA specifications",
       "url": "https://learn.microsoft.com/en-us/advertising/guides/responsive-search-ads?view=bingads-13"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH06": [
@@ -532,6 +596,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Keyword Planner forecast",
       "url": "https://support.google.com/google-ads/answer/3022575?hl=en"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH07": [
@@ -554,6 +626,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Microsoft UET",
       "url": "https://about.ads.microsoft.com/en/tools/performance/conversion-tracking"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH08": [
@@ -576,6 +656,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google Auction Insights",
       "url": "https://support.google.com/google-ads/answer/2579754?hl=en"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH09": [
@@ -590,6 +678,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Google experiment best practices",
       "url": "https://support.google.com/google-ads/answer/6167122?hl=en"
+    },
+    {
+      "title": "Google Ads Search Certification · official credential route",
+      "url": "https://skillshop.withgoogle.com/"
+    },
+    {
+      "title": "Microsoft Advertising Search Certification · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T04-CH10": [
@@ -726,6 +822,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH02": [
@@ -736,6 +836,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH03": [
@@ -746,6 +850,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH04": [
@@ -756,6 +864,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH05": [
@@ -776,6 +888,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH07": [
@@ -786,6 +902,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH08": [
@@ -796,6 +916,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH09": [
@@ -806,6 +930,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH10": [
@@ -816,6 +944,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T06-CH11": [
@@ -836,6 +968,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "StackAdapt Programmatic Masterclass",
       "url": "https://www.stackadapt.com/academy/programmatic-masterclass"
+    },
+    {
+      "title": "Programmatic Advertising Learning Path Badge · official credential route",
+      "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"
     }
   ],
   "DPA-T07-CH01": [
@@ -1622,6 +1758,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "HubSpot Academy · Inbound Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/inbound"
     }
   ],
   "DPA-T12-CH02": [
@@ -1642,6 +1782,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "HubSpot Academy · Inbound Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/inbound"
     }
   ],
   "DPA-T12-CH04": [
@@ -1652,6 +1796,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "HubSpot Academy · Inbound Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/inbound"
     }
   ],
   "DPA-T12-CH05": [
@@ -1662,6 +1810,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "Email Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/email-marketing-certification-en"
     }
   ],
   "DPA-T12-CH06": [
@@ -1672,6 +1824,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "Email Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/email-marketing-certification-en"
     }
   ],
   "DPA-T12-CH07": [
@@ -1682,6 +1838,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "Email Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/email-marketing-certification-en"
     }
   ],
   "DPA-T12-CH08": [
@@ -1702,6 +1862,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Salesforce Trailhead Deploy Marketing Cloud Engagement",
       "url": "https://trailhead.salesforce.com/content/learn/trails/implement-marketing-cloud-engagement"
+    },
+    {
+      "title": "Email Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/email-marketing-certification-en"
     }
   ],
   "DPA-T12-CH10": [
@@ -1726,6 +1890,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "W3C — Web Content Accessibility Guidelines (WCAG) 2.2",
       "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH02": [
@@ -1736,6 +1904,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Meta Blueprint creator/content learning",
       "url": "https://www.facebookblueprint.com/student/catalog?edition=starter"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH03": [
@@ -1746,6 +1918,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Meta Blueprint creator/content learning",
       "url": "https://www.facebookblueprint.com/student/catalog?edition=starter"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH04": [
@@ -1760,6 +1936,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "TikTok Creative Center",
       "url": "https://ads.tiktok.com/resources/help/article/creative-center?lang=id"
+    },
+    {
+      "title": "HubSpot Academy · Content Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
     }
   ],
   "DPA-T13-CH05": [
@@ -1770,6 +1950,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Meta Blueprint creator/content learning",
       "url": "https://www.facebookblueprint.com/student/catalog?edition=starter"
+    },
+    {
+      "title": "HubSpot Academy · Content Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
     }
   ],
   "DPA-T13-CH06": [
@@ -1788,6 +1972,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "W3C — Web Content Accessibility Guidelines (WCAG) 2.2",
       "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "HubSpot Academy · Content Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
     }
   ],
   "DPA-T13-CH07": [
@@ -1806,6 +1994,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "W3C — Web Content Accessibility Guidelines (WCAG) 2.2",
       "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH08": [
@@ -1828,6 +2020,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "W3C — Web Content Accessibility Guidelines (WCAG) 2.2",
       "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH09": [
@@ -1842,6 +2038,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "Kumparan Cyber Media Guidelines",
       "url": "https://showcase.kumparan.com/pedoman-media-siber"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH10": [
@@ -1856,6 +2056,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "YouTube Analytics tips",
       "url": "https://support.google.com/youtube/answer/11912632"
+    },
+    {
+      "title": "HubSpot Academy · Social Media Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/social-media"
     }
   ],
   "DPA-T13-CH11": [
@@ -1870,6 +2074,10 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {
       "title": "YouTube Analytics tips",
       "url": "https://support.google.com/youtube/answer/11912632"
+    },
+    {
+      "title": "HubSpot Academy · Content Marketing Certification · official credential route",
+      "url": "https://academy.hubspot.com/courses/content-marketing"
     }
   ],
   "DPA-T14-CH01": [
