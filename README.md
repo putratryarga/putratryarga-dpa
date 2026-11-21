@@ -32,7 +32,7 @@ merge PRs until the documented release blockers are closed.
 
 Repository ini berisi website edukasi satu halaman (*single-page learning roadmap*). Struktur v11 disusun dari audit fungsi pekerjaan di global agency network (WPP, Publicis, Omnicom/legacy IPG, Dentsu, Havas) dan benchmark kurikulum Purwadhika × P3I — bukan sekadar daftar course.
 
-Alur belajar: **Common Foundation (CF1–CF6)** → **pilih jalur** → **bab khusus jalur (10–12 bab)** → **platform learning & credential** → **praktik/simulasi** → **capstone portofolio**.
+Alur belajar: **Common Foundation (CF1–CF6)** → **pilih jalur** → **Role-Based Core berjalan paralel dengan Official Platform Learning & Credential** → **praktik/simulasi** → **assessment** → **capstone portofolio**.
 
 Roadmap ini panduan belajar mandiri, bukan sertifikasi resmi platform dan bukan jaminan pekerjaan. Badge course ≠ sertifikasi profesional; perbedaan ini dilabeli eksplisit di seluruh situs.
 
@@ -64,9 +64,18 @@ Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Tradi
 - **Role-path selector 16 jalur** — bab, resource, dan progres menyesuaikan jalur aktif.
 - **Common Foundation CF1–CF6** wajib untuk semua jalur.
 - **Deliverable per bab** yang bisa dibawa ke portofolio + capstone per jalur.
-- **Peta credential per jalur** dengan pemisahan tajam: badge / completion credential / skilling certificate / professional certification, termasuk yang berbayar ditandai jelas.
+- **Credential route inline per bab** melalui milestone Learn → Earn → Apply → Master; Earn bersifat opsional dan hanya muncul bila rute provider relevan. Badge, course-completion credential, course certificate, professional certification, dan paid/proctored exam dibedakan eksplisit; sumber referensi tetap netral.
 - **Rubrik self-review** untuk menilai deliverable sebelum masuk portofolio.
-- **Tema gelap/terang**, checklist progres tersimpan di browser (localStorage), print/save PDF.
+- **Tema gelap/terang**, checklist progres tersimpan di browser (localStorage), print/save PDF.
+
+## Chapter learning & credential milestones
+
+- Satu credential dapat mendukung beberapa chapter, dan satu chapter dapat memiliki beberapa learning resource. Pemetaan dibuat berdasarkan learning objective, bukan satu sertifikat wajib untuk setiap bab.
+- Setiap chapter menampilkan **Learn → Earn → Apply → Master**. External credential diterbitkan oleh provider; DPA tidak menerbitkan atau menyinkronkan credential eksternal.
+- Bab tanpa rute credential yang dipilih tetap memiliki **Applied Skill & Portfolio Evidence** sebagai bukti kompetensi.
+- Registry implementasi dan aturan klasifikasi: [chapter credential route governance](docs/chapter-credential-route-governance.md), [169-core mapping register](docs/credential-route-mapping-register.csv), dan [28-elective review queue](docs/28-elective-credential-route-review.csv).
+- Status: first-pass mapping 169 chapter core (43 chapter memiliki opsi Earn; 126 berfokus pada applied evidence) dan 28 chapter advanced elective masih OPEN untuk review credential. Ini bukan SME acceptance. DPA certificate/chapter badge belum diterbitkan dan belum aktif.
+
 
 ## Teknologi
 
