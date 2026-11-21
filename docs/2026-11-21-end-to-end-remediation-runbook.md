@@ -62,3 +62,19 @@
 ## Final release gate
 
 Audience release requires accepted baseline and scope; completed mandatory source/content/answer/rubric/agency/elective reviews; exact-head authenticated runtime/accessibility QA; no P0/P1 defect; named reviewer/owner approvals; and separate production authorisation. Certificate issuance needs separate assessment, issuer, privacy/security and trusted-backend approval.
+
+
+## Final renderer and source-map closure — 21 November 2026
+
+- [x] Generate `chapter-resources.js` from the 169-row objective-resource register; 169 IDs / 509 chapter-resource placements, at least two unique URLs per core chapter.
+- [x] Render objective-level source mapping ahead of track-level supplemental links.
+- [x] Extend static guide validator and Playwright test to fail on missing/duplicate/<2 unique HTTP(S) links in any core chapter panel.
+- [x] Exact-head Static QA, Guide/Browser QA and Quiz Engine QA passed on `bbd89dd`.
+- [x] Preview for `bbd89dd` READY; authenticated HTML fetch HTTP 200 with v11.2 review-candidate metadata.
+- [ ] Independent formal validation of all 169 objective/source fits and Indonesia access/language/cost/account eligibility.
+- [ ] Human authenticated desktop/mobile Preview and full WCAG 2.2 AA review; post-fix 181-URL recheck.
+- [ ] Close 507 Q&A, 169 rubric, 80 agency-cell, 28 elective and 56 elective-check reviews with named reviewer/date/evidence.
+- [ ] Owner baseline decision/recovery for S0, HIST-001 and HIST-002.
+- [ ] Approve PR, tag and production deploy separately after all mandatory gates pass.
+
+**No production change, audience release or credential issuance is authorised by these repository-side changes.**
