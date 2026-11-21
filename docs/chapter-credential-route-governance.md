@@ -57,7 +57,7 @@ Google Analytics Certification is now included after the current official Analyt
 
 ## Coverage and open gates
 
-- Core: 169/169 chapter IDs in the credential audit map and CSV. 95/169 core chapters have at least one mapped external route (141 route placements); 74/169 core chapters remain applied-skill/portfolio-first in the current curated map. Common Foundation is tracked separately: 3/6 chapters have 4 route placements. This runtime count supersedes the earlier 50-chapter / 73-placement summary, which was stale in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
+- Core: 169/169 chapter IDs in the credential audit map and CSV. 136/169 core chapters have at least one mapped external route (194 route placements); 33/169 core chapters remain applied-skill/portfolio-first in the current curated map. Common Foundation is tracked separately: 3/6 chapters have 4 route placements. This runtime count supersedes the earlier 50-chapter / 73-placement summary, which was stale in the current curation. This is a curated shortlist, not proof that other chapters lack provider credentials.
 - The mapping itself remains `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; source-to-objective relevance, course fit, Indonesia account access, final checkout price, prerequisites, credential availability and chapter assessment acceptance remain OPEN.
 - Advanced Electives: 28/28 chapter IDs are captured separately in `28-elective-credential-route-review.csv`, but all are deliberately marked `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`. The elective curricula are not yet integrated into the chapter renderer.
 - The current milestone strip is informational, not a credential progress engine. External completion is not imported; DPA awards are disabled.
@@ -136,7 +136,7 @@ These are course/simulation completion awards, not professional certifications. 
 - No planned DPA badge panel may appear while the DPA issuance workflow remains unauthorized.
 
 
-Current registry count cross-check (21 Nov 2026): 23 unique issuer/simulation/course award routes; core mapping 95/169 chapters and 141 placements; Common Foundation mapping 3/6 chapters and 4 placements. Counts describe the curated first-pass map, not full market coverage or independent SME acceptance.
+Current registry count cross-check (21 Nov 2026): 35 unique issuer/simulation/course award routes; core mapping 136/169 chapters and 194 placements; Common Foundation mapping 3/6 chapters and 4 placements. Counts describe the curated first-pass map, not full market coverage or independent SME acceptance.
 
 
 ### Expanded issuer-route coverage — 21 November 2026
@@ -152,4 +152,13 @@ The chapter-level route map now has 30 distinct routes. Newly added provider evi
 - impact.com Affiliate Marketing & Partnerships Industry Certification: T15-CH01–CH11.
 - Meta Blueprint Community Management course-level credentials: T16-CH01–CH12; five separate course activities are labelled Credential by the provider, not professional certification.
 
-After reconciliation, the runtime core map contains 95/169 mapped chapters and 141 route placements. The 74 chapters without a selected route remain explicitly open for further issuer research and SME acceptance. The six Common Foundation chapters are tracked separately (3/6 mapped, four placements). All 169 core audit-map rows and CSV register rows must match the runtime route map exactly.
+After reconciliation, the runtime core map contains 136/169 mapped chapters and 194 route placements. The 33 chapters without a selected route remain explicitly open for further issuer research and SME acceptance. The six Common Foundation chapters are tracked separately (3/6 mapped, four placements). All 169 core audit-map rows and CSV register rows must match the runtime route map exactly.
+
+
+### Unified Learn + Earn route presentation — expanded mapping
+
+For every mapped core chapter, the resource map now prioritizes the issuer's actual learning/credential route before general references. The same issuer URL is deliberately visible and clickable in both Learn and Earn: Learn explains the material and preparation; Earn explains the award, type, prerequisites and issuer conditions. This removes the earlier renderer behavior that hid a learning source whenever it was also mapped as an award route.
+
+The learner panel retains up to five unique source URLs per chapter. When the URL is also a mapped award route, its source label is **Belajar + credential**. Provider awards remain optional and issuer-controlled. No DPA award is implied.
+
+Latest core route coverage after expansion: 35 distinct registry routes; 136/169 mapped chapters; 194 route placements; 33 chapters remain without a selected route. Common Foundation: 3/6 mapped, four placements. All mapping is still first-pass and not SME-accepted.
