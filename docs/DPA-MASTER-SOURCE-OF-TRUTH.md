@@ -1,5 +1,5 @@
 # DPA Master Source of Truth
-**Version:** 1.0 · **Effective date:** 5 November 2026  
+**Version:** 1.1 · **Effective date:** 22 November 2026
 **Normative status:** Current architecture and governance reference; not a claim of full release validation.
 
 > This structured document is the normative statement of current curriculum architecture. The transcript-style file `16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt` remains a historical research/audit archive.
@@ -81,7 +81,7 @@ The learner renderer now surfaces four milestones inside each chapter panel with
 
 The canonical external-route registry is `chapter-credential-routes.js`; mapping and limitations are documented in [chapter credential route governance](chapter-credential-route-governance.md), with a 169-row [core chapter mapping CSV](credential-route-mapping-register.csv). The [28 elective review CSV](28-elective-credential-route-review.csv) tracks advanced-elective credential review separately.
 
-**Current first-pass counts (21 November 2026):** all 169 core chapter IDs have an explicit outcome; 50 chapters have at least one mapped external credential route (73 route placements), while 119 chapter objectives are presented as applied-skill/portfolio-first in this curated release. This is a first-pass mapping, not proof that the other chapters have no credentials in the wider market. All 169 rows remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. All 28 elective chapter rows remain `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`.
+**Current first-pass counts (reconciled 21 November 2026; runtime registry + CSV parity):** 51 distinct issuer/simulation/course-award routes; 161/169 core chapter IDs have at least one selected external route (224 placements), while eight core objectives remain applied-skill/portfolio-first in this curated map. Common Foundation is separate: 4/6 chapters mapped with five placements. This is a first-pass selection, not proof that the other chapters have no credentials in the wider market. The 169 core and six foundation rows remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; all 28 elective chapter rows remain `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`. These counts supersede the earlier 50-route/73-placement snapshot in this section and the 35-route/136-chapter snapshots in the historical credential addenda.
 
 Provider-specific labels are kept distinct: professional certification; vendor-issued course certification; course-completion credential; course-completion certificate; digital badge; and learning path/reference. A completion credential is not a professional certification. A badge is not proof of mastery unless the issuing provider's assessment supports that claim. A route is never represented as earned merely because a learner opens or completes a DPA chapter.
 
@@ -170,7 +170,7 @@ This implementation is **PARTIAL** and strictly test-only. It is not connected t
 
 The current remediation branch contains row-level control registers for 507 core Q&A items, 169 objective-to-resource rows, 80 agency × core-track evidence cells, 28 elective chapters and 56 elective knowledge checks. These inventories are linked from the README and requirements acceptance register. Their existence does not establish correctness, source fit, SME approval, direct/current JD validation or learner-pilot readiness; all item-level review decisions remain OPEN.
 
-The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Its dated checkpoint had 67 unique URLs; later source-map work has superseded that historical count. The current resource map has 181 unique URLs. Objective-level fit for all 169 chapters and Indonesia access/cost/language checks remain OPEN.
+The six-track source-enrichment pass is recorded in [Priority Track Source Remediation](2026-11-05-priority-track-source-remediation.md). Its dated checkpoint had 67 unique URLs; later source-map work has superseded that historical count. The current core resource map has 180 unique URLs (reconciled by the current static and register validators). Objective-level fit for all 169 core chapters and Indonesia access/cost/language checks remain OPEN. The six shared foundation chapters have a separate objective-level map in `chapter-resources.js`; source mapping and browser visibility do not establish access, affordability, or formal fit acceptance.
 
 
 ## 17. 169-core chapter depth screening
@@ -320,3 +320,11 @@ The [T09 Ad Operations 10-Chapter Source-Fit Review](T09-10-chapter-source-fit-r
 
 
 The [T04 Paid Search review](T04-10-chapter-source-fit-review.md) adds 10 first-pass desk reviews, all PARTIAL. It covers Google Search auction/keyword/matching/RSA/bidding/conversion/diagnostic/experiment topics, with bounded Microsoft comparators and explicit 2026 Google Ads changes. No local CPC benchmark, live account/CRM test or SME approval is claimed. Current desk-review coverage: 115/169, 54 remain.
+
+## 27. Common Foundation lesson implementation — 22 November 2026
+
+The learner renderer now supplies six authored foundation lessons through `CF_GUIDE_NOTES` and `CF_LESSON_META` in `index.html`. Each lesson includes objective-specific explanation, an applied Indonesian-context scenario, sequenced learning actions, three formative knowledge checks with discussion, a guided artifact, glossary, prerequisites/level/track relationship, limitations, and observable self-review criteria. The objective-level link map in `chapter-resources.js` now selects sources for unit economics/market research, brief/objective framing, audience/journey, marketing mathematics, attribution/measurement/privacy, and agency workflow/advertising ethics/copyright.
+
+This is autonomous implementation and source desk-review, not formal learning acceptance. The 22 November source recheck is documented in [Common Foundation Six-Chapter Audit](audit/COMMON-FOUNDATION-AUDIT.md). It verified the identity and relevant scope of OpenStax contribution-margin material, U.S. SBA market-research guidance, UK Government GovS 011, HubSpot Academy inbound, Nielsen Norman Group journey mapping, Google Ads conversion/attribution help, Google Analytics demo guidance, BPK records for UU 27/2022 and UU 28/2014, and Dewan Periklanan Indonesia EPI 2020. EPI 2020 is the latest published edition located; P3I has publicly encouraged DPI to form an update team. The source maps describe jurisdiction, method, account, award, and legal limitations. A wrong SBA nested URL was found as 404 and replaced by the current official business-planning page.
+
+Indonesia-region access/cost/language checks, current legal analysis, exact source-section acceptance, and SME/editorial review remain OPEN. The six criteria in `CF_LESSON_META` are formative self-review guidance, not calibrated learner rubrics. The 169-core guide fallback, 507 answer decisions, 169 rubric calibrations, 28 elective drafts/56 checks, 169 formal resource-fit decisions, 80 agency cells, and release/accessibility/owner approvals remain separate gates.

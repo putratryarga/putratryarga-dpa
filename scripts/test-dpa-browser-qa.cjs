@@ -182,6 +182,7 @@ async function run() {
         let earnChaptersWithCards = 0;
         let earnChaptersEmpty = 0;
         let credentialLinksTotal = 0;
+        const foundationLessons = [];
         for (const chapter of chapters) {
           const id = chapter.dataset.chapterId;
           const study = chapter.querySelector(".chapter-study");
@@ -215,14 +216,47 @@ async function run() {
           if (checks < 1) problems.push(id + ": no knowledge-check items (master)");
           const steps = [...chapter.querySelectorAll(".lesson-topic-list")].reduce((s, l) => s + l.querySelectorAll("li").length, 0);
           if (steps < 3) problems.push(id + ": fewer than 3 lesson steps");
+          if (id.startsWith("DPA-CF-CH")) {
+            const folds = [...study.querySelectorAll("details.lesson-fold")];
+            const foldBySummary = (pattern) => folds.find((fold) => pattern.test((fold.querySelector("summary") || {}).textContent || ""));
+            const metaFold = foldBySummary(/Tingkat, prasyarat, dan kaitan/i);
+            const conceptFold = foldBySummary(/Penjelasan inti/i);
+            const answerGuidedChecks = [...study.querySelectorAll(".lesson-check-list > li")].filter((item) => item.querySelector("details.lesson-answer")).length;
+            const glossaryTerms = study.querySelectorAll(".lesson-glossary-item").length;
+            const criteriaFold = foldBySummary(/Kriteria review deliverable/i);
+            const acceptanceCriteria = criteriaFold ? criteriaFold.querySelectorAll(".lesson-topic-list > li").length : 0;
+            const sourceLinks = new Set([...study.querySelectorAll(".chapter-source-list a[href]")].map((a) => a.href));
+            const exampleFold = foldBySummary(/Contoh kasus/i);
+            const exampleText = exampleFold ? (exampleFold.textContent || "") : "";
+            const entry = {
+              id,
+              meta: Boolean(metaFold && /Level:/.test(metaFold.textContent) && /Prasyarat:/.test(metaFold.textContent) && /Hubungan ke jalur spesialis:/.test(metaFold.textContent) && /Batas penggunaan:/.test(metaFold.textContent)),
+              concept: Boolean(conceptFold && conceptFold.querySelectorAll(".lesson-topic-list > li").length >= 4),
+              answerGuidedChecks,
+              glossaryTerms,
+              acceptanceCriteria,
+              uniqueSourceLinks: sourceLinks.size,
+              syntheticExampleLabel: /synthetic|simulasi|sintetis/i.test(exampleText)
+            };
+            foundationLessons.push(entry);
+            if (!entry.meta) problems.push(id + ": missing level, prerequisite, track relationship, or limitation");
+            if (!entry.concept) problems.push(id + ": fewer than four sequenced authored teaching steps");
+            if (entry.answerGuidedChecks < 3) problems.push(id + ": fewer than three checks with answer discussion");
+            if (entry.glossaryTerms < 4) problems.push(id + ": glossary has fewer than four terms");
+            if (entry.acceptanceCriteria < 4) problems.push(id + ": fewer than four learner-facing review criteria");
+            if (entry.uniqueSourceLinks < 2) problems.push(id + ": fewer than two unique foundation source links");
+            if (!entry.syntheticExampleLabel) problems.push(id + ": worked example is not visibly marked as simulated/synthetic");
+          }
         }
         return {
           chapterCount: chapters.length,
           problems,
+          foundationLessons,
           earn: { chaptersWithCards: earnChaptersWithCards, chaptersWithEmptyState: earnChaptersEmpty, maxCardsPerChapter: earnCardMax, credentialLinksTotal }
         };
       });
       report.fullDomMilestoneSweep = sweep;
+      if (sweep.foundationLessons.length !== 6) report.failure.push("Expected six rendered foundation lesson audits; found " + sweep.foundationLessons.length + ".");
       if (sweep.problems.length) report.failure.push("Milestone sweep problems (first 12): " + sweep.problems.slice(0, 12).join(" | "));
 
       // ---------- C. 16 role switches + per-role chapter counts + samples ----------

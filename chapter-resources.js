@@ -975,28 +975,31 @@ var DPA_CHAPTER_RESOURCE_MAP = {
 };
 var DPA_FOUNDATION_RESOURCE_MAP = {
   "DPA-CF-CH01": [
-    {"title": "OpenStax · Principles of Managerial Accounting: Cost-Volume-Profit Analysis", "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-why-it-matters"},
-    {"title": "U.S. SBA · Break-Even Point Calculator", "url": "https://www.sba.gov/counseling/plan-your-business/break-even-point-calculator/"}
+    {"title": "OpenStax · Contribution margin and cost-volume-profit", "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"},
+    {"title": "U.S. SBA · Plan your business (Market research and competitive analysis section)", "url": "https://www.sba.gov/counseling/plan-your-business/"}
   ],
   "DPA-CF-CH02": [
-    {"title": "Forage · Omnichannel Marketing Simulation Certificate · jalur credential resmi", "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep"},
-    {"title": "HubSpot Academy · Inbound Certification · jalur credential resmi", "url": "https://academy.hubspot.com/courses/inbound"},
-    {"title": "UK Government · GovS 011 Communications Standard (OASIS planning/evaluation)", "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications"}
+    {"title": "UK Government · GovS 011 Communications: objectives, audience and campaign planning", "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications"},
+    {"title": "Forage · Omnichannel Marketing simulation", "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep"}
   ],
   "DPA-CF-CH03": [
     {"title": "HubSpot Academy · Inbound Certification · jalur credential resmi", "url": "https://academy.hubspot.com/courses/inbound"},
     {"title": "Nielsen Norman Group · Journey Mapping 101", "url": "https://www.nngroup.com/articles/journey-mapping-101/"}
   ],
   "DPA-CF-CH04": [
-    {"title": "Google Skillshop · Google Ads Measurement learning and certification", "url": "https://skillshop.withgoogle.com/"},
-    {"title": "Google Ads Help · About measurement and conversion metrics", "url": "https://support.google.com/google-ads/"}
+    {"title": "OpenStax · Contribution margin and cost-volume-profit", "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-1-explain-contribution-margin-and-calculate-contribution-margin-per-unit-contribution-margin-ratio-and-total-contribution-margin"},
+    {"title": "Google Ads Help · Conversion measurement", "url": "https://support.google.com/google-ads/answer/1722022?hl=en"}
   ],
   "DPA-CF-CH05": [
     {"title": "Google Analytics · Demo Account", "url": "https://support.google.com/analytics/answer/6367342"},
-    {"title": "Google Skillshop · Analytics learning catalogue", "url": "https://skillshop.withgoogle.com/"}
+    {"title": "Google Ads Help · Attribution models", "url": "https://support.google.com/google-ads/answer/6259715?hl=en"},
+    {"title": "JDIH BPK · UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi", "url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"}
   ],
   "DPA-CF-CH06": [
-    {"title": "Forage · Omnichannel Marketing Simulation Certificate · jalur credential resmi", "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep"},
-    {"title": "UK Government · GovS 011 Communications Standard", "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications"}
+    {"title": "UK Government · GovS 011 Communications", "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-011-communication/government-functional-standard-govs-011-communications"},
+    {"title": "JDIH BPK · UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi", "url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"},
+    {"title": "Dewan Periklanan Indonesia · Etika Pariwara Indonesia 2020", "url": "https://p3i-pusat.com/wp-content/uploads/2020/09/Etika-Pariwara-Indonesia-Amandemen-ed2020.pdf"},
+    {"title": "JDIH BPK · UU No. 28 Tahun 2014 tentang Hak Cipta", "url": "https://peraturan.bpk.go.id/Details/38690"},
+    {"title": "Forage · Omnichannel Marketing simulation", "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep"}
   ]
 };
