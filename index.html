@@ -1840,7 +1840,7 @@ details.week{margin-bottom:16px!important}
   <p class="sdesc roadmap-subtitle">Hanya bab dari role aktif yang ditampilkan. Common Foundation berlaku untuk semua role dan dapat dibuka dari bagian wajib di atas. Setiap bab memiliki materi, deliverable dan sumber belajar yang relevan.</p>
 <details class="foundation-fold" id="foundationFold"><summary id="cf"><span class="foundation-kicker">WAJIB UNTUK SEMUA ROLE</span><strong>Common Foundation · 6 bab</strong><span class="foundation-hint">Buka saat diperlukan</span><span class="fold-chev" aria-hidden="true">+</span></summary><div class="foundation-body">
   <div class="track-box on" data-track-box="cf">
-    <details class="week" data-type="core">
+    <details class="week" data-type="core" data-chapter-id="DPA-CF-CH01">
       <summary><span class="wn">CF1</span><span class="wt">Business &amp; Commercial Understanding</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
       <div class="wbody">
         <div class="box"><h3>Yang dipelajari</h3><ul>
@@ -1853,7 +1853,7 @@ details.week{margin-bottom:16px!important}
         </div>
       </div>
     </details>
-    <details class="week" data-type="core">
+    <details class="week" data-type="core" data-chapter-id="DPA-CF-CH02">
       <summary><span class="wn">CF2</span><span class="wt">Client Brief &amp; Problem Framing</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
       <div class="wbody">
         <div class="box"><h3>Yang dipelajari</h3><ul>
@@ -1866,7 +1866,7 @@ details.week{margin-bottom:16px!important}
         </div>
       </div>
     </details>
-    <details class="week" data-type="core">
+    <details class="week" data-type="core" data-chapter-id="DPA-CF-CH03">
       <summary><span class="wn">CF3</span><span class="wt">Consumer &amp; Audience Fundamentals</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
       <div class="wbody">
         <div class="box"><h3>Yang dipelajari</h3><ul>
@@ -1879,7 +1879,7 @@ details.week{margin-bottom:16px!important}
         </div>
       </div>
     </details>
-    <details class="week" data-type="core">
+    <details class="week" data-type="core" data-chapter-id="DPA-CF-CH04">
       <summary><span class="wn">CF4</span><span class="wt">Marketing &amp; Media Mathematics</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
       <div class="wbody">
         <div class="box"><h3>Yang dipelajari</h3><ul>
@@ -1892,7 +1892,7 @@ details.week{margin-bottom:16px!important}
         </div>
       </div>
     </details>
-    <details class="week" data-type="core">
+    <details class="week" data-type="core" data-chapter-id="DPA-CF-CH05">
       <summary><span class="wn">CF5</span><span class="wt">Measurement Fundamentals</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
       <div class="wbody">
         <div class="box"><h3>Yang dipelajari</h3><ul>
@@ -1905,7 +1905,7 @@ details.week{margin-bottom:16px!important}
         </div>
       </div>
     </details>
-    <details class="week" data-type="core">
+    <details class="week" data-type="core" data-chapter-id="DPA-CF-CH06">
       <summary><span class="wn">CF6</span><span class="wt">Agency Workflow &amp; Professional Practice</span><span class="wtime">±1–2 jam</span><span class="wtog" aria-hidden="true">+</span></summary>
       <div class="wbody">
         <div class="box"><h3>Yang dipelajari</h3><ul>
@@ -4828,7 +4828,29 @@ community:{purpose:"Bangun komunitas dengan purpose, audience map, listening, en
 
 var CF_GUIDE_NOTES=[
 ["Business model menjelaskan bagaimana perusahaan menciptakan, mengirimkan dan menangkap nilai. Pisahkan revenue, COGS, gross profit, operating expense dan contribution margin. CAC adalah biaya akuisisi per pelanggan baru; LTV memperkirakan kontribusi ekonomi pelanggan sepanjang hubungan dengan periode dan basis margin konsisten.","Contoh sintetis: 1.000 unit × Rp100.000 = Rp100 juta revenue. COGS Rp60 juta menghasilkan gross profit Rp40 juta. Biaya akuisisi Rp10 juta untuk 200 pelanggan berarti CAC Rp50.000. Gross profit bukan net profit."],
-["Client brief adalah input yang perlu diklarifikasi. Pisahkan business context, gejala, masalah bisnis, objective, audience, scope, budget, timeline, constraint dan bukti. Problem framing mengubah permintaan kabur menjadi pertanyaan yang bisa diteliti.","'Butuh campaign awareness' belum cukup. Tanyakan awareness siapa, terhadap apa, di wilayah mana, dibanding baseline apa, dan apakah awareness memang hambatan utama menuju business outcome."],
+["Client brief adalah input keputusan, bukan instruksi yang harus diterima mentah. Pisahkan business context, gejala, masalah yang sudah terbukti, objective, audience, scope, budget, timeline, constraint, stakeholder, dan bukti yang belum tersedia. Problem framing mengubah permintaan kabur menjadi pertanyaan yang dapat diteliti dan diukur.","'Butuh campaign awareness' belum cukup. Tanyakan awareness siapa, terhadap apa, di wilayah mana, dibanding baseline apa, perilaku apa yang diharapkan berubah, dan apakah awareness memang hambatan utama menuju business outcome.",
+[
+'<b>Audit brief.</b> Tandai setiap pernyataan sebagai fakta terverifikasi, interpretasi, asumsi, atau pertanyaan terbuka. Catat sumber, tanggal, dan owner untuk setiap fakta.',
+'<b>Uji business context.</b> Identifikasi model bisnis, kategori, kondisi pasar, masalah komersial, dan alasan pekerjaan ini diminta. Pisahkan gejala dari akar masalah.',
+'<b>Definisikan objective.</b> Ubah permintaan menjadi outcome yang spesifik: siapa yang berubah perilakunya, perubahan apa, baseline, target, periode, dan indikator keberhasilan.',
+'<b>Tetapkan audience dan scope.</b> Nyatakan segmen, wilayah, channel/touchpoint, deliverable, pekerjaan yang termasuk dan tidak termasuk, serta stakeholder pengambil keputusan.',
+'<b>Catat constraint.</b> Rekam budget, timeline, legal/policy, brand safety, data/privacy, dependency, resource, dan batas operasional.',
+'<b>Tulis problem statement.</b> Gunakan format: Untuk [audience], [masalah terverifikasi] terjadi pada [konteks], berdampak pada [business outcome]. Kita perlu menguji [pertanyaan] dengan [bukti/metode] dalam [periode].',
+'<b>Definisikan success criteria.</b> Tetapkan primary KPI, diagnostic metrics, guardrails, baseline, target, measurement source, owner, dan decision rule. Tandai data yang belum tersedia.'
+],
+[
+'Brief menyebut “awareness rendah”. Data apa yang membuktikan rendah, pada audience dan wilayah mana, dibandingkan baseline/periode apa? Mana fakta dan mana asumsi?',
+'Klien meminta campaign selama tiga bulan dengan budget Rp500 juta. Apa saja scope, constraint, dependency, dan pertanyaan klarifikasi sebelum menyetujui rencana?',
+'Tulis problem statement dan success criteria dari brief latihan. Apakah objective, audience, baseline, target, timeframe, KPI, sumber data, serta guardrails sudah dapat diverifikasi?'
+],
+'Gunakan brief latihan yang sengaja dibuat tidak lengkap. (1) Highlight fakta, asumsi, interpretasi, dan unknown; (2) susun daftar pertanyaan klarifikasi berdasarkan dampak/urgensi; (3) petakan business objective, audience, scope, budget, timeline, constraint, dan stakeholder; (4) tulis problem statement satu paragraf; (5) buat success-criteria table berisi KPI, definisi, baseline, target, periode, sumber, owner, dan guardrail; (6) catat risiko dan keputusan yang belum boleh dibuat. Jangan mengarang baseline atau hasil; beri label SIMULATED pada data latihan.',
+[
+{term:'Business problem',definition:'Masalah pada outcome bisnis yang didukung bukti, bukan sekadar permintaan channel atau gejala.'},
+{term:'Problem statement',definition:'Pernyataan terstruktur tentang audience/konteks, masalah terverifikasi, dampak bisnis, pertanyaan yang perlu dijawab, dan batas pekerjaan.'},
+{term:'Success criteria',definition:'Kondisi terukur yang menentukan apakah pekerjaan berhasil, termasuk baseline, target, periode, KPI, sumber data, owner, dan guardrails.'},
+{term:'Constraint',definition:'Batas budget, waktu, kapasitas, legal, kebijakan, data, teknologi, atau dependency yang memengaruhi solusi.'},
+{term:'Assumption',definition:'Pernyataan yang belum dibuktikan dan harus diuji; tidak boleh ditulis sebagai fakta.'}
+]],
 ["Audience bukan sekadar umur atau gender. Segmentasi berguna mengelompokkan orang berdasarkan kebutuhan, motivasi, perilaku, nilai ekonomi dan konteks. Need menjelaskan apa yang dicari; tension adalah hambatan; insight menghubungkan observasi dengan alasan perilaku.","Banyak user menambah produk ke cart tetapi tidak checkout. Jangan langsung simpulkan harga mahal; cek ongkir, payment, trust, stok, urgency dan error checkout."],
 ["Marketing mathematics mengubah budget dan delivery menjadi estimasi hasil. CTR=clicks/impressions; CPC=spend/clicks; CPM=spend/impressions×1.000; CVR=conversions/clicks; CPA=spend/conversions; ROAS=attributed revenue/ad spend; frequency=impressions/reach. ROAS bukan profit.","Data sintetis: spend Rp10 juta; 500.000 impressions; 5.000 clicks; 100 conversions; revenue Rp30 juta. CPM Rp20.000, CPC Rp2.000, CTR 1%, CVR 2%, CPA Rp100.000 dan ROAS 3,0x."],
 ["Measurement dimulai dari keputusan, bukan dashboard. Bedakan business KPI, diagnostic metric dan guardrail. Attribution membagi kredit menurut aturan tertentu, bukan bukti kausalitas. Data quality mencakup event definition, duplicate firing, missing values, timezone, consent dan source consistency.","Untuk meningkatkan completed purchase, KPI bisa purchases/contribution revenue; add-to-cart dan checkout start adalah diagnostic metrics; refund rate dan margin bisa menjadi guardrails."],
@@ -4877,17 +4899,17 @@ function buildGuide(box,chapter,index){
  var roleNote=(typeof DPA_GUIDE_BY_CHAPTER!=="undefined"&&chapterId)?DPA_GUIDE_BY_CHAPTER[chapterId]||null:null;
  var concept=custom?custom[0]:(roleNote?roleNote.concept:ctx.purpose+' Bab "'+title.trim()+'" menghubungkan '+topics.slice(0,3).join("; ")+'. Kuasai input, proses, output, dan quality control agar keputusan dapat dipertanggungjawabkan.');
  var example=roleNote?roleNote.example:(custom?custom[1]:(role==="adops"?(ADOPS_CASES[index]||ctx.example):ctx.example+' Fokuskan pada bab "'+title.trim()+'": gunakan '+topics.slice(0,3).join(" dan ")+', lalu tunjukkan dampaknya pada deliverable "'+outcome+'".'));
- var steps=roleNote?roleNote.steps:topics.map(function(t){
+ var steps=roleNote?roleNote.steps:(custom&&custom[2]?custom[2]:topics.map(function(t){
   return '<b>'+studyEsc(t)+'</b>. '+studyEsc(explainTopic(t,role,title,outcome))+' Tindakan belajar: tulis definisi dan sumber, petakan input serta proses, lalu catat output dan kesalahan yang harus dicegah.';
- });
- var checks=roleNote?roleNote.checks:topics.slice(0,3).map(function(t){
+ }));
+ var checks=roleNote?roleNote.checks:(custom&&custom[3]?custom[3]:topics.slice(0,3).map(function(t){
   return 'Untuk "'+t+'": input apa yang diperlukan, seperti apa output yang benar, dan bagaimana lu memverifikasinya sebelum dipakai?';
- });
- var practice=roleNote?roleNote.practice:(ctx.worksheet+' Kerjakan deliverable "'+outcome+'" dalam urutan: (1) tulis brief dan asumsi; (2) isi komponen wajib dari subtopik; (3) tambahkan sumber, evidence, owner, dan versi; (4) review dengan quality check; (5) tulis keputusan, risiko, dan next action. '+(role==="adops"?"Gunakan data sintetis dan beri label SYNTHETIC.":"Pisahkan fakta, asumsi, dan data sintetis."));
- return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome,terms:roleNote&&roleNote.terms?roleNote.terms:[]};
+ }));
+ var practice=roleNote?roleNote.practice:(custom&&custom[4]?custom[4]:(ctx.worksheet+' Kerjakan deliverable "'+outcome+'" dalam urutan: (1) tulis brief dan asumsi; (2) isi komponen wajib dari subtopik; (3) tambahkan sumber, evidence, owner, dan versi; (4) review dengan quality check; (5) tulis keputusan, risiko, dan next action. '+(role==="adops"?"Gunakan data sintetis dan beri label SYNTHETIC.":"Pisahkan fakta, asumsi, dan data sintetis.")));
+ return {concept:concept,example:example,steps:steps,practice:practice,checks:checks,deliverable:outcome,terms:roleNote&&roleNote.terms?roleNote.terms:(custom&&custom[5]?custom[5]:[])};
 }
 function credentialRouteIsMappedToChapter(chapterId,href){
- var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||[];
+ var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||(window.DPA_FOUNDATION_CREDENTIAL_MAP||{})[chapterId]||[];
  var registry=window.DPA_CREDENTIAL_REGISTRY||{};
  return routeIds.some(function(id){var r=registry[id];return r&&(r.url===href||r.sourceUrl===href);});
 }
@@ -4912,19 +4934,19 @@ function renderCredentialRouteCard(route){
 }
 function renderChapterMilestones(chapterId,guide){
  var registry=window.DPA_CREDENTIAL_REGISTRY||{};
- var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||[];
+ var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||(window.DPA_FOUNDATION_CREDENTIAL_MAP||{})[chapterId]||[];
  var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,3);
  var deliverable=studyEsc(guide.deliverable||guide.practice||'Selesaikan deliverable bab dan simpan evidence yang dapat diperiksa.');
  var html='<section class="chapter-milestones" aria-label="Milestone belajar bab">';
  html+='<article class="chapter-milestone learn" data-milestone="learn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">01 · Learn</span></div><h5>Pahami materi inti</h5><p>Pelajari konsep, contoh, langkah kerja, dan sumber yang dipetakan untuk learning objective bab ini.</p></article>';
- html+='<article class="chapter-milestone earn" data-milestone="earn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">02 · Earn</span><span class="tag t-milestone-optional">Jalur pengakuan</span></div><h5>Credential &amp; chapter achievement</h5>';
+ html+='<article class="chapter-milestone earn" data-milestone="earn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">02 · Earn</span><span class="tag t-milestone-optional">Provider-issued</span></div><h5>Credential yang bisa diperoleh</h5>';
  if(routes.length){
   html+='<div class="credential-route-list">'+routes.map(renderCredentialRouteCard).join('')+'</div>';
   html+='<p class="chapter-milestone-note">Credential eksternal diterbitkan oleh provider setelah syaratnya dipenuhi. DPA tidak mengklaim, menerbitkan, atau menyinkronkan award provider.</p>';
  }else{
-  html+='<div class="chapter-earn-empty"><strong>External credential belum dipetakan untuk objective ini.</strong><br>Ini bukan klaim bahwa credential tidak tersedia di pasar. Jalur utama bab ini adalah demonstrasi kompetensi melalui deliverable yang dapat diperiksa.</div>';
+  html+='<div class="chapter-earn-empty"><strong>Belum ada award provider yang tervalidasi untuk objective ini.</strong><br>Gunakan jalur belajar dan praktik di bawah. Kami tidak akan menyebut sumber belajar sebagai sertifikasi jika issuer tidak menjanjikan award.</div>';
  }
- html+='<div class="chapter-skill-recognition"><span class="tag t-coursecred">DPA chapter achievement · planned</span><strong>Bangun bukti penguasaan bab</strong><p>Deliverable: '+deliverable+'</p><p>Pengakuan internal baru dapat diaktifkan setelah learning outcomes, knowledge checks, rubric, passing standard, dan proses reviewer disahkan. Saat ini belum ada badge atau sertifikat DPA yang diterbitkan.</p></div>';
+
  html+='</article>';
  html+='<article class="chapter-milestone apply" data-milestone="apply"><div class="chapter-milestone-head"><span class="chapter-milestone-step">03 · Apply</span></div><h5>Buat bukti kerja</h5><p>'+deliverable+'</p></article>';
  html+='<article class="chapter-milestone master" data-milestone="master"><div class="chapter-milestone-head"><span class="chapter-milestone-step">04 · Master</span></div><h5>Uji penguasaan</h5><p>Gunakan knowledge check dan rubric bab untuk menilai akurasi, kualitas deliverable, dan alasan keputusan. Pada rilis ini hasilnya masih self-review; belum menjadi keputusan assessor atau badge kompetensi.</p></article>';
@@ -4936,7 +4958,7 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  var guide=buildGuide(box,chapter,index);
  var chapterId=chapter.dataset.chapterId||"";
  var links=[],seenSourceUrls={};
- var mappedResources=(window.DPA_CHAPTER_RESOURCE_MAP||{})[chapterId]||[];
+ var mappedResources=(window.DPA_CHAPTER_RESOURCE_MAP||{})[chapterId]||(window.DPA_FOUNDATION_RESOURCE_MAP||{})[chapterId]||[];
  function addMappedSource(item){
   var href=String(item.url||"").trim(),title=String(item.title||"Rujukan bab").trim();
   if(!/^https?:\/\//i.test(href)||seenSourceUrls[href]||links.length>=5)return;
