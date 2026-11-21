@@ -1,0 +1,5508 @@
+{
+ "n_rows": 507,
+ "issues": {
+  "empty_required_fields": {
+   "automated_triage_flags": [
+    "DPA-T06-CH01-Q01",
+    "DPA-T06-CH01-Q02",
+    "DPA-T06-CH01-Q03",
+    "DPA-T06-CH02-Q01",
+    "DPA-T06-CH02-Q02",
+    "DPA-T06-CH02-Q03",
+    "DPA-T06-CH03-Q01",
+    "DPA-T06-CH03-Q02",
+    "DPA-T06-CH03-Q03",
+    "DPA-T06-CH04-Q01",
+    "DPA-T06-CH04-Q02",
+    "DPA-T06-CH04-Q03",
+    "DPA-T06-CH05-Q01",
+    "DPA-T06-CH05-Q02",
+    "DPA-T06-CH05-Q03",
+    "DPA-T06-CH06-Q01",
+    "DPA-T06-CH06-Q02",
+    "DPA-T06-CH06-Q03",
+    "DPA-T06-CH07-Q01",
+    "DPA-T06-CH07-Q02",
+    "DPA-T06-CH07-Q03",
+    "DPA-T06-CH08-Q01",
+    "DPA-T06-CH08-Q02",
+    "DPA-T06-CH08-Q03",
+    "DPA-T06-CH09-Q01",
+    "DPA-T06-CH09-Q02",
+    "DPA-T06-CH09-Q03",
+    "DPA-T06-CH10-Q01",
+    "DPA-T06-CH10-Q02",
+    "DPA-T06-CH10-Q03",
+    "DPA-T06-CH11-Q01",
+    "DPA-T06-CH11-Q02",
+    "DPA-T06-CH11-Q03",
+    "DPA-T06-CH12-Q01",
+    "DPA-T06-CH12-Q02",
+    "DPA-T06-CH12-Q03",
+    "DPA-T10-CH01-Q01",
+    "DPA-T10-CH01-Q02",
+    "DPA-T10-CH01-Q03",
+    "DPA-T10-CH02-Q01",
+    "DPA-T10-CH02-Q02",
+    "DPA-T10-CH02-Q03",
+    "DPA-T10-CH03-Q01",
+    "DPA-T10-CH03-Q02",
+    "DPA-T10-CH03-Q03",
+    "DPA-T10-CH04-Q01",
+    "DPA-T10-CH04-Q02",
+    "DPA-T10-CH04-Q03",
+    "DPA-T10-CH05-Q01",
+    "DPA-T10-CH05-Q02",
+    "DPA-T10-CH05-Q03",
+    "DPA-T10-CH06-Q01",
+    "DPA-T10-CH06-Q02",
+    "DPA-T10-CH06-Q03",
+    "DPA-T10-CH07-Q01",
+    "DPA-T10-CH07-Q02",
+    "DPA-T10-CH07-Q03",
+    "DPA-T10-CH08-Q01",
+    "DPA-T10-CH08-Q02",
+    "DPA-T10-CH08-Q03",
+    "DPA-T10-CH09-Q01",
+    "DPA-T10-CH09-Q02",
+    "DPA-T10-CH09-Q03",
+    "DPA-T10-CH10-Q01",
+    "DPA-T10-CH10-Q02",
+    "DPA-T10-CH10-Q03",
+    "DPA-T12-CH01-Q01",
+    "DPA-T12-CH01-Q02",
+    "DPA-T12-CH01-Q03",
+    "DPA-T12-CH02-Q01",
+    "DPA-T12-CH02-Q02",
+    "DPA-T12-CH02-Q03",
+    "DPA-T12-CH03-Q02",
+    "DPA-T12-CH03-Q03",
+    "DPA-T12-CH04-Q01",
+    "DPA-T12-CH04-Q02",
+    "DPA-T12-CH04-Q03",
+    "DPA-T12-CH05-Q01",
+    "DPA-T12-CH05-Q02",
+    "DPA-T12-CH05-Q03",
+    "DPA-T12-CH06-Q01",
+    "DPA-T12-CH06-Q02",
+    "DPA-T12-CH06-Q03",
+    "DPA-T12-CH07-Q01",
+    "DPA-T12-CH07-Q02",
+    "DPA-T12-CH07-Q03",
+    "DPA-T12-CH08-Q01",
+    "DPA-T12-CH08-Q02",
+    "DPA-T12-CH08-Q03",
+    "DPA-T12-CH09-Q01",
+    "DPA-T12-CH09-Q02",
+    "DPA-T12-CH09-Q03",
+    "DPA-T12-CH10-Q01",
+    "DPA-T12-CH10-Q02",
+    "DPA-T12-CH10-Q03",
+    "DPA-T13-CH01-Q01",
+    "DPA-T13-CH01-Q02",
+    "DPA-T13-CH01-Q03",
+    "DPA-T13-CH02-Q01",
+    "DPA-T13-CH02-Q02",
+    "DPA-T13-CH02-Q03",
+    "DPA-T13-CH03-Q01",
+    "DPA-T13-CH03-Q03",
+    "DPA-T13-CH04-Q01",
+    "DPA-T13-CH04-Q02",
+    "DPA-T13-CH04-Q03",
+    "DPA-T13-CH05-Q01",
+    "DPA-T13-CH05-Q02",
+    "DPA-T13-CH05-Q03",
+    "DPA-T13-CH06-Q01",
+    "DPA-T13-CH06-Q02",
+    "DPA-T13-CH06-Q03",
+    "DPA-T13-CH07-Q01",
+    "DPA-T13-CH07-Q02",
+    "DPA-T13-CH07-Q03",
+    "DPA-T13-CH08-Q01",
+    "DPA-T13-CH08-Q02",
+    "DPA-T13-CH08-Q03",
+    "DPA-T13-CH09-Q01",
+    "DPA-T13-CH09-Q02",
+    "DPA-T13-CH09-Q03",
+    "DPA-T13-CH10-Q01",
+    "DPA-T13-CH10-Q02",
+    "DPA-T13-CH10-Q03",
+    "DPA-T13-CH11-Q01",
+    "DPA-T13-CH11-Q02",
+    "DPA-T13-CH11-Q03",
+    "DPA-T14-CH01-Q01",
+    "DPA-T14-CH01-Q02",
+    "DPA-T14-CH01-Q03",
+    "DPA-T14-CH02-Q02",
+    "DPA-T14-CH02-Q03",
+    "DPA-T14-CH03-Q01",
+    "DPA-T14-CH03-Q02",
+    "DPA-T14-CH03-Q03",
+    "DPA-T14-CH04-Q01",
+    "DPA-T14-CH04-Q02",
+    "DPA-T14-CH04-Q03",
+    "DPA-T14-CH05-Q01",
+    "DPA-T14-CH05-Q02",
+    "DPA-T14-CH05-Q03",
+    "DPA-T14-CH06-Q01",
+    "DPA-T14-CH06-Q02",
+    "DPA-T14-CH06-Q03",
+    "DPA-T14-CH07-Q01",
+    "DPA-T14-CH07-Q02",
+    "DPA-T14-CH07-Q03",
+    "DPA-T14-CH08-Q01",
+    "DPA-T14-CH08-Q02",
+    "DPA-T14-CH08-Q03",
+    "DPA-T14-CH09-Q01",
+    "DPA-T14-CH09-Q02",
+    "DPA-T14-CH09-Q03",
+    "DPA-T14-CH10-Q01",
+    "DPA-T14-CH10-Q02",
+    "DPA-T14-CH10-Q03",
+    "DPA-T14-CH11-Q01",
+    "DPA-T14-CH11-Q02",
+    "DPA-T14-CH11-Q03",
+    "DPA-T14-CH12-Q01",
+    "DPA-T14-CH12-Q02",
+    "DPA-T14-CH12-Q03"
+   ]
+  },
+  "item_id_duplicates": [],
+  "exact_normalized_question_duplicates": [],
+  "fuzzy_question_pairs_ge_085": [
+   {
+    "a": "DPA-T02-CH03-Q01",
+    "b": "DPA-T10-CH09-Q01",
+    "ratio": 0.852,
+    "same_chapter": false
+   },
+   {
+    "a": "DPA-T03-CH08-Q01",
+    "b": "DPA-T08-CH01-Q02",
+    "ratio": 0.962,
+    "same_chapter": false
+   },
+   {
+    "a": "DPA-T04-CH03-Q02",
+    "b": "DPA-T05-CH04-Q02",
+    "ratio": 0.949,
+    "same_chapter": false
+   },
+   {
+    "a": "DPA-T09-CH08-Q02",
+    "b": "DPA-T11-CH08-Q01",
+    "ratio": 0.889,
+    "same_chapter": false
+   }
+  ],
+  "guide_answer_mismatches": [],
+  "word_count_mismatches_gt2": [],
+  "cross_register_inconsistencies": [],
+  "register_only_items": [],
+  "source_url_bad_format": [],
+  "triage_flag_inconsistencies": [],
+  "length_flag_mismatches": []
+ },
+ "per_row": {
+  "DPA-T01-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 25,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T01-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 26,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T01-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 23,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 24,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 21,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 21,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 22,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T01-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 11,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 23,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T01-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 24,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T01-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T01-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 22,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 22,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH03-Q01": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T10-CH09-Q01"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T02-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T02-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T02-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T02-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T02-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T03-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T03-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T03-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 11,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T03-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T03-CH08-Q01": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T08-CH01-Q02"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T03-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T03-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH03-Q02": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T05-CH04-Q02"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T04-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T04-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T04-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T04-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T04-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T04-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 23,
+   "question_words": 13,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 30,
+   "question_words": 11,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T05-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 27,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 21,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 24,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 30,
+   "question_words": 11,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T05-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 26,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 27,
+   "question_words": 14,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH04-Q02": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T04-CH03-Q02"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 26,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 28,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 24,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 21,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 22,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 24,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 32,
+   "question_words": 12,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 25,
+   "question_words": 13,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 21,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 25,
+   "question_words": 11,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T05-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 22,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 31,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T05-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH01-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH01-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH01-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH02-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH02-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH02-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH03-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH03-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH03-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH04-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH04-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH04-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH05-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH05-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH05-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH06-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 42,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH06-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH06-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH07-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH07-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH07-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH08-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH08-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH08-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH09-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH09-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH09-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 33,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH10-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH10-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH10-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH11-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH11-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH11-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T06-CH12-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH12-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sedang"
+  },
+  "DPA-T06-CH12-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 4,
+   "tier": "sulit"
+  },
+  "DPA-T07-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 21,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T07-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 22,
+   "question_words": 16,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 28,
+   "question_words": 12,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T07-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 26,
+   "question_words": 15,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 25,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 25,
+   "question_words": 11,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T07-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T07-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T07-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH01-Q02": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T03-CH08-Q01"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T08-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T08-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T09-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T09-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T09-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T09-CH08-Q02": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T11-CH08-Q01"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T09-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T09-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH01-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 9,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH01-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH01-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH02-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH02-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH02-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH03-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH03-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH03-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH04-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH04-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH04-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH05-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH05-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH05-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 33,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH06-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH06-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 3,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH06-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH07-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH07-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 3,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH07-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH08-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH08-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 33,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH08-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH09-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "fuzzy_with": [
+    "DPA-T02-CH03-Q01"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH09-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T10-CH09-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH10-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 33,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH10-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T10-CH10-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 10,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T11-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T11-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T11-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH08-Q01": {
+   "empty_fields": [],
+   "fuzzy_with": [
+    "DPA-T09-CH08-Q02"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T11-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH01-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH01-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH01-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH02-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH02-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH02-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH03-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH03-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH04-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH04-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH04-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH05-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 9,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH05-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH05-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH06-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH06-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH06-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH07-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH07-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 45,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH07-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T12-CH08-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH08-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH08-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH09-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH09-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH09-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH10-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH10-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T12-CH10-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 10,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH01-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH01-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH01-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH02-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH02-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH02-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH03-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 34,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH03-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH04-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH04-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH04-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH05-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH05-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH05-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH06-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH06-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH06-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH07-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH07-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 3,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH07-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH08-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 9,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH08-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH08-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH09-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH09-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH09-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH10-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T13-CH10-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH10-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 11,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH11-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH11-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 9,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T13-CH11-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH01-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH01-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH01-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH02-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH02-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 3,
+   "source_url_status": "OK",
+   "source_url_count": 4,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH03-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH03-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH03-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH04-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH04-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH04-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH05-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 43,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH05-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH05-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH06-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH06-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 39,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH06-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH07-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 9,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH07-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 1,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH07-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH08-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 33,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH08-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 3,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH08-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH09-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH09-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 35,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH09-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH10-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH10-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH10-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 38,
+   "question_words": 4,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH11-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH11-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 41,
+   "question_words": 7,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH11-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 40,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sulit"
+  },
+  "DPA-T14-CH12-Q01": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 5,
+   "source_url_status": "OK",
+   "source_url_count": 3,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH12-Q02": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 36,
+   "question_words": 6,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T14-CH12-Q03": {
+   "empty_fields": [
+    "automated_triage_flags"
+   ],
+   "guide_match": "EXACT",
+   "answer_words": 37,
+   "question_words": 8,
+   "source_url_status": "OK",
+   "source_url_count": 2,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 20,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T15-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T15-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 3,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T15-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 19,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T15-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH11-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH11-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH11-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH12-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH12-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T15-CH12-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH01-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH01-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH01-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH02-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 8,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH02-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH02-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH03-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH03-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH03-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH04-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH04-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH04-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH05-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH05-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH05-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH06-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 12,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH06-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH06-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH07-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH07-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH07-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH08-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH08-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH08-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH09-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sulit"
+  },
+  "DPA-T16-CH09-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 16,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH09-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 7,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH10-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 15,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH10-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH10-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH11-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 18,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH11-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "mudah"
+  },
+  "DPA-T16-CH11-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 17,
+   "question_words": 5,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH12-Q01": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 9,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH12-Q02": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 13,
+   "question_words": 4,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  },
+  "DPA-T16-CH12-Q03": {
+   "empty_fields": [],
+   "guide_match": "EXACT",
+   "answer_words": 14,
+   "question_words": 6,
+   "source_url_status": "EMPTY",
+   "source_url_count": 0,
+   "tier": "sedang"
+  }
+ },
+ "multi_url_rows": 154,
+ "distribution": {
+  "chapters": 169,
+  "items_per_chapter_min": 3,
+  "items_per_chapter_max": 3,
+  "per_track": {
+   "T01": 30,
+   "T02": 30,
+   "T03": 30,
+   "T04": 30,
+   "T05": 30,
+   "T06": 36,
+   "T07": 30,
+   "T08": 30,
+   "T09": 30,
+   "T10": 30,
+   "T11": 30,
+   "T12": 30,
+   "T13": 33,
+   "T14": 36,
+   "T15": 36,
+   "T16": 36
+  },
+  "question_number_anomalies": [],
+  "tracks": 16
+ },
+ "tier_counts": {
+  "sulit": 116,
+  "sedang": 366,
+  "mudah": 25
+ },
+ "sampling": {
+  "track_allocation_target": {
+   "T01": 4,
+   "T02": 4,
+   "T03": 4,
+   "T04": 4,
+   "T05": 4,
+   "T06": 4,
+   "T07": 4,
+   "T08": 4,
+   "T09": 3,
+   "T10": 3,
+   "T11": 3,
+   "T12": 3,
+   "T13": 4,
+   "T14": 4,
+   "T15": 4,
+   "T16": 4
+  },
+  "n_sampled": 60,
+  "tier_counts": {
+   "sedang": 20,
+   "sulit": 20,
+   "mudah": 20
+  },
+  "per_track_sampled": {
+   "T01": 4,
+   "T02": 4,
+   "T03": 4,
+   "T04": 4,
+   "T05": 4,
+   "T06": 4,
+   "T07": 4,
+   "T08": 4,
+   "T09": 3,
+   "T10": 3,
+   "T11": 3,
+   "T12": 3,
+   "T13": 4,
+   "T14": 4,
+   "T15": 4,
+   "T16": 4
+  },
+  "items": [
+   {
+    "item_id": "DPA-T01-CH07-Q01",
+    "track": "T01",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T01-CH01-Q03",
+    "track": "T01",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T02-CH04-Q03",
+    "track": "T02",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T03-CH02-Q02",
+    "track": "T03",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T04-CH07-Q03",
+    "track": "T04",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T05-CH05-Q03",
+    "track": "T05",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T05-CH05-Q02",
+    "track": "T05",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T05-CH08-Q01",
+    "track": "T05",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T06-CH07-Q01",
+    "track": "T06",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T06-CH01-Q03",
+    "track": "T06",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T06-CH08-Q01",
+    "track": "T06",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T07-CH01-Q03",
+    "track": "T07",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T07-CH04-Q02",
+    "track": "T07",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T07-CH02-Q02",
+    "track": "T07",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T07-CH06-Q01",
+    "track": "T07",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T08-CH03-Q02",
+    "track": "T08",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T08-CH08-Q02",
+    "track": "T08",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T08-CH03-Q01",
+    "track": "T08",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T09-CH05-Q03",
+    "track": "T09",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T10-CH10-Q01",
+    "track": "T10",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T10-CH02-Q03",
+    "track": "T10",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T11-CH03-Q01",
+    "track": "T11",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T11-CH02-Q03",
+    "track": "T11",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T12-CH03-Q01",
+    "track": "T12",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T12-CH06-Q02",
+    "track": "T12",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T12-CH08-Q01",
+    "track": "T12",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T13-CH11-Q02",
+    "track": "T13",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T13-CH05-Q01",
+    "track": "T13",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T13-CH08-Q01",
+    "track": "T13",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T13-CH08-Q03",
+    "track": "T13",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T14-CH08-Q03",
+    "track": "T14",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T14-CH10-Q01",
+    "track": "T14",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T14-CH09-Q01",
+    "track": "T14",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T14-CH08-Q02",
+    "track": "T14",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T15-CH07-Q02",
+    "track": "T15",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T15-CH01-Q02",
+    "track": "T15",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T15-CH06-Q03",
+    "track": "T15",
+    "tier": "sedang"
+   },
+   {
+    "item_id": "DPA-T16-CH11-Q03",
+    "track": "T16",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T16-CH09-Q03",
+    "track": "T16",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T08-CH05-Q01",
+    "track": "T08",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T02-CH07-Q03",
+    "track": "T02",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T09-CH05-Q02",
+    "track": "T09",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T16-CH11-Q02",
+    "track": "T16",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T01-CH08-Q03",
+    "track": "T01",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T04-CH05-Q01",
+    "track": "T04",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T02-CH03-Q03",
+    "track": "T02",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T02-CH06-Q02",
+    "track": "T02",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T09-CH09-Q01",
+    "track": "T09",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T06-CH01-Q01",
+    "track": "T06",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T03-CH07-Q03",
+    "track": "T03",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T04-CH07-Q01",
+    "track": "T04",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T16-CH09-Q01",
+    "track": "T16",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T11-CH07-Q01",
+    "track": "T11",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T15-CH04-Q03",
+    "track": "T15",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T04-CH09-Q02",
+    "track": "T04",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T05-CH03-Q01",
+    "track": "T05",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T03-CH06-Q02",
+    "track": "T03",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T10-CH03-Q01",
+    "track": "T10",
+    "tier": "sulit"
+   },
+   {
+    "item_id": "DPA-T03-CH03-Q03",
+    "track": "T03",
+    "tier": "mudah"
+   },
+   {
+    "item_id": "DPA-T01-CH01-Q01",
+    "track": "T01",
+    "tier": "sulit"
+   }
+  ],
+  "seed": 20261121,
+  "note": "brief 6/track x16 tracks = 96 > 60; 60 kept, proportional per track, tiers ~20/20/20"
+ },
+ "flag_summary": {
+  "SOURCE_REFERENCE_MISSING": 237,
+  "BARE_BOOLEAN_OPENING;SOURCE_REFERENCE_MISSING": 15,
+  "ANSWER_LENGTH_HEURISTIC_LT_14_WORDS;BARE_BOOLEAN_OPENING;SOURCE_REFERENCE_MISSING": 3,
+  "ABSOLUTE_WORDING;SOURCE_REFERENCE_MISSING": 11,
+  "ANSWER_LENGTH_HEURISTIC_LT_14_WORDS;SOURCE_REFERENCE_MISSING": 74,
+  "": 162,
+  "ANSWER_LENGTH_HEURISTIC_LT_14_WORDS;ABSOLUTE_WORDING;SOURCE_REFERENCE_MISSING": 2,
+  "ABSOLUTE_WORDING": 3
+ }
+}
