@@ -1,7 +1,7 @@
 # DPA Release-Readiness Report — 21 November 2026 (final audit update)
 
 **Branch:** `audit/dpa-release-readiness-2026-11-21`  
-**Exact-head CI/browser test SHA:** `5c44ec881b282a8665028833283cdc5048943abb`  
+**Exact-head CI/browser test SHA:** `038e272d7be9f771c52b1e6cf6e964e9696ae04b`  
 **Verdict:** **READY FOR REVIEW ONLY — NOT READY FOR AUDIENCE**  
 **Production:** untouched; no merge to main, no production promotion/deploy, no certificate issuance.
 
@@ -9,7 +9,7 @@
 
 The missing T05, T11 and T15 source-fit desk-review registers have been added. They contain 32 AI-assisted first-pass records, all classified PARTIAL, with every formal acceptance field OPEN. First-pass source-fit review coverage is now 147/169. T06 (12 chapters) and T12 (10 chapters) remain without source-fit desk-review registers.
 
-The exact-head technical and browser tests have now run successfully on `5c44ec881b282a8665028833283cdc5048943abb`. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
+The exact-head technical and browser tests have now run successfully on `038e272d7be9f771c52b1e6cf6e964e9696ae04b`. This closes the earlier evidence gap for deterministic validators, guide registry, role switching, browser chapter rendering, and the synthetic-only quiz workflow. It does **not** close independent SME review, owner baseline decisions, rubric validation, learner pilots, current employer/JD validation, or authenticated Vercel Preview review.
 
 **The programme is ready to be sent to qualified reviewers as a review candidate. It is not ready to be advertised as fully validated or released to a general audience.**
 
@@ -43,15 +43,15 @@ The exact-head technical and browser tests have now run successfully on `5c44ec8
 
 ## D. Exact-head CI and browser evidence
 
-All three GitHub Actions workflows completed **SUCCESS** on the same commit `5c44ec881b282a8665028833283cdc5048943abb`:
+All three GitHub Actions workflows completed **SUCCESS** on the same commit `038e272d7be9f771c52b1e6cf6e964e9696ae04b`:
 
 | Gate | Workflow run | Result |
 |---|---|---|
-| Static validators / register parity / chapter depth / synthetic score-script self-test | [44807317578](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317578) | SUCCESS |
-| Guide registry + Playwright browser QA | [44807317638](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638) | SUCCESS |
-| Synthetic-only quiz engine + Playwright/axe | [44807317620](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317620) | SUCCESS |
+| Static validators / register parity / chapter depth / synthetic score-script self-test | [44808776900](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776900) | SUCCESS |
+| Guide registry + Playwright browser QA | [44808776955](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955) | SUCCESS |
+| Synthetic-only quiz engine + Playwright/axe | [44808776981](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776981) | SUCCESS |
 
-The browser report and screenshots are preserved in artifact [dpa-browser-qa-5c44ec881b282a8665028833283cdc5048943abb](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44807317638/artifacts/14663148340) (artifact ID `14663148340`, 30-day retention). The JSON records:
+The browser report and screenshots are preserved in artifact [dpa-browser-qa-038e272d7be9f771c52b1e6cf6e964e9696ae04b](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44808776955/artifacts/14664901792) (artifact ID `14664901792`, 30-day retention). The JSON records:
 
 - 169 core chapters + 6 Common Foundation = 175 rendered learning panels.
 - 169/169 authored guide registry IDs; 16/16 role paths opened.
@@ -64,6 +64,10 @@ The browser report and screenshots are preserved in artifact [dpa-browser-qa-5c4
 The same JSON and two screenshots (`desktop-role-picker.png`, `mobile-paid-social.png`) are inside the workflow artifact. The quiz workflow separately passed deterministic engine tests, Playwright interaction, targeted WCAG 2.2 axe checks, keyboard radio navigation, mobile overflow and synthetic-only/no-persistence/no-network controls. Quiz coverage is a three-item synthetic prototype, not the 507-item curriculum assessment.
 
 **Boundary:** these checks establish repository-local browser/runtime behavior at the tested desktop (1440px) and mobile (390px) configurations. They do not replace authenticated review of the deployed Vercel Preview, nor do they validate learning content accuracy or SME acceptance.
+
+### Current Vercel Preview (verified 21 November 2026)
+
+The exact application commit above also has a Vercel Preview deployment in **READY** state: [deployment inspection](https://vercel.com/elric3/putratryarga-dpa/6XwxJTFEqvBj7JDKSGurESRdva4W) · [preview URL](https://putratryarga-86fn8hscj-elric3.vercel.app/). Vercel metadata identifies branch `audit/dpa-release-readiness-2026-11-21` and commit `038e272d7be9f771c52b1e6cf6e964e9696ae04b`; an authenticated Vercel fetch returned HTTP 200 and the deployed HTML contains the corrected v11.2 review-candidate metadata. The deployment has no production target; the latest listed production deployment remains associated with `main`. This is Preview availability and an HTTP response check, **not** a substitute for a human authenticated UI/accessibility inspection of the hosted preview.
 
 ## E. Remaining blockers
 
