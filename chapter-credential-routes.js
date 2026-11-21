@@ -1,7 +1,7 @@
 /* DPA chapter-level external credential routes.
- * Issuer pages were desk-checked on 2026-11-21. This is a first-pass mapping,
- * not final SME approval or proof of Indonesia account/checkout eligibility.
- * DPA does not issue or verify the external credential.
+ * Issuer pages were desk-checked on 2026-11-21. This is first-pass mapping,
+ * not final SME acceptance or proof of Indonesia account/checkout eligibility.
+ * DPA does not issue or verify external credentials.
  */
 (function(root){
 "use strict";
@@ -252,6 +252,139 @@ var registry = {
     "award": "Course-completion certificate dari Semrush Academy.",
     "scope": "Intro/foundational SEO; tidak memvalidasi seluruh kompetensi technical SEO, AEO atau GEO.",
     "verifiedOn": "2026-11-21"
+  },
+  "google_analytics_certification": {
+    "provider": "Google Analytics / Skillshop",
+    "title": "Google Analytics Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Sertifikasi resmi untuk pengetahuan penggunaan Google Analytics. Relevan untuk GA4 property, data collection, reporting, measurement features, dan integrasi dengan produk Google. Tidak mengesahkan seluruh digital analytics, SQL, BI, attribution, atau measurement engineering.",
+    "duration": "Google lists four preparation courses; Grow with Google APAC describes a 3.5-hour Analytics certification route for India. Confirm the exact Indonesia path and exam duration in Skillshop.",
+    "cost": "Analytics Academy preparation courses are described as free. Grow with Google APAC lists the Analytics certification route as paid for India; fee and checkout price for Indonesia are not confirmed. Do not assume zero cost.",
+    "eligibility": "Sign in to Skillshop, complete the relevant learning path and take its certification assessment. Exact account/assessment rules must be checked in the learner account.",
+    "validity": "Validity/renewal is not stated in the public Analytics Academy help article; verify on the issued credential.",
+    "regional": "Google's public help page does not specify exam-language coverage or Indonesia account eligibility. Confirm language and access in Skillshop before committing.",
+    "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification",
+    "sourceUrl": "https://support.google.com/analytics/answer/15068052",
+    "award": "Google Analytics certification issued by Google Skillshop after the relevant assessment is passed.",
+    "scope": "GA platform-specific; supports GA4 setup, collection, reporting and measurement, but not all cross-platform analytics capabilities.",
+    "verifiedOn": "2026-11-21"
+  },
+  "google_dv360_2026": {
+    "provider": "Google Marketing Platform / Skillshop",
+    "title": "Display & Video 360 Certification (2026)",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Current 2026 Skillshop course/catalogue lists a dedicated Display & Video 360 certification. It is relevant to DSP navigation, campaign setup, inventory, targeting, deal and delivery/optimization workflows; it is not a general certification for all DSPs.",
+    "duration": "The public 2026 catalogue does not show the individual exam duration. A combined Google Marketing Platform preparation route is described as 7.5 hours in a Google APAC guide; do not interpret that as the duration of this exam.",
+    "cost": "Google APAC's guide lists the Google Marketing Platform certification path as free for India. Indonesia-specific pricing/account access and any assessment conditions must be checked in Skillshop.",
+    "eligibility": "Use hands-on DV360 practice and follow the current 2026 preparation and assessment path. The public course listing does not specify a complete eligibility rule.",
+    "validity": "The exact 2026 credential validity is not specified in the public listing; verify the credential record in Skillshop.",
+    "regional": "Current Skillshop catalogue lists English content for this 2026 path. Indonesian exam language and Indonesia account access are not confirmed.",
+    "url": "https://skillshop.docebosaas.com/pages/17/certifications",
+    "sourceUrl": "https://skillshop.docebosaas.com/learn",
+    "award": "Google Marketing Platform certification route; provider awards certification when the associated assessment is passed.",
+    "scope": "DV360 only; it does not establish competence in every DSP, SSP, exchange or programmatic trading workflow.",
+    "verifiedOn": "2026-11-21"
+  },
+  "google_cm360_2026": {
+    "provider": "Google Marketing Platform / Skillshop",
+    "title": "Campaign Manager 360 Certification (2026)",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Current 2026 Skillshop course/catalogue lists a dedicated Campaign Manager 360 certification. Relevant to ad-server campaign, placement, ad, creative, tag and Floodlight workflows; not a universal ad-operations qualification.",
+    "duration": "The public 2026 catalogue does not show the individual exam duration. A combined Google Marketing Platform preparation route is described as 7.5 hours in a Google APAC guide; this is not an individual-exam duration.",
+    "cost": "Google APAC's guide lists the Google Marketing Platform certification path as free for India. Indonesia-specific price and account access must be checked in Skillshop.",
+    "eligibility": "Use hands-on CM360 practice and follow the current 2026 preparation and assessment path. The public listing does not specify a complete eligibility rule.",
+    "validity": "The exact 2026 credential validity is not specified in the public listing; verify the credential record in Skillshop.",
+    "regional": "Current Skillshop catalogue lists English plus one additional language for this 2026 path; the second language is not identified in the indexed listing. Indonesian exam language and Indonesia account access must be confirmed.",
+    "url": "https://skillshop.docebosaas.com/pages/17/certifications",
+    "sourceUrl": "https://skillshop.docebosaas.com/learn",
+    "award": "Google Marketing Platform certification route; provider awards certification when the associated assessment is passed.",
+    "scope": "CM360/ad-server workflows; not a substitute for platform-neutral ad operations controls or all ad-serving technologies.",
+    "verifiedOn": "2026-11-21"
+  },
+  "linkedin_advertising_fundamentals": {
+    "provider": "LinkedIn Marketing Academy",
+    "title": "LinkedIn Advertising Fundamentals Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "LinkedIn certification covering advertising fundamentals such as campaign setup and targeting tools. A platform-specific credential, not a general paid-social qualification.",
+    "duration": "60-minute exam; 60 multiple-choice questions; 75% passing score.",
+    "cost": "The official certification help article does not state an exam fee. Check the enrolment page before booking; do not assume paid or free.",
+    "eligibility": "Preparation courses and practice exam are available. LinkedIn Help says learners may complete the path or choose the certification exam directly; a LinkedIn profile is needed to use the Academy.",
+    "validity": "24 months; renewal/retake terms should be checked before enrolment.",
+    "regional": "The issuer lists English, French, German, Japanese, Portuguese, Spanish and Simplified Chinese. Bahasa Indonesia is not listed. Indonesia account access should be checked at sign-in.",
+    "url": "https://training.marketing.linkedin.com/advertising-fundamentals-exam",
+    "sourceUrl": "https://www.linkedin.com/help/lms/answer/a489784",
+    "award": "LinkedIn Marketing Academy certification; certificate can be added to the LinkedIn profile and downloaded as PDF.",
+    "scope": "LinkedIn advertising only; does not validate Meta, TikTok or other paid-social platforms.",
+    "verifiedOn": "2026-11-21"
+  },
+  "linkedin_marketing_strategy": {
+    "provider": "LinkedIn Marketing Academy",
+    "title": "LinkedIn Marketing Strategy Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "LinkedIn certification for planning and executing full-funnel LinkedIn marketing from organic presence through campaigns, including brand awareness and lead generation. This is platform-specific strategy, not cross-channel media planning.",
+    "duration": "60-minute exam; 60 multiple-choice questions; 75% passing score.",
+    "cost": "The official certification help article does not state an exam fee. Check the enrolment page before booking.",
+    "eligibility": "Preparation courses and practice exam are available; direct exam selection is also offered through LinkedIn Marketing Academy.",
+    "validity": "24 months.",
+    "regional": "The issuer lists English, French, German, Japanese, Portuguese, Spanish and Simplified Chinese. Bahasa Indonesia is not listed. Indonesia account access should be checked at sign-in.",
+    "url": "https://training.marketing.linkedin.com/marketing-strategy-exam",
+    "sourceUrl": "https://www.linkedin.com/help/lms/answer/a489784",
+    "award": "LinkedIn Marketing Academy certification; certificate can be added to the LinkedIn profile and downloaded as PDF.",
+    "scope": "LinkedIn only; does not validate full-funnel planning on Meta, TikTok, Google or traditional media.",
+    "verifiedOn": "2026-11-21"
+  },
+  "linkedin_content_creative": {
+    "provider": "LinkedIn Marketing Academy",
+    "title": "LinkedIn Content and Creative Design Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "LinkedIn certification for full-funnel content/creative strategy, including operating an active LinkedIn Page and designing visual ad creative. It is LinkedIn-specific and not a general creative production qualification.",
+    "duration": "60-minute exam; 60 multiple-choice questions; 75% passing score.",
+    "cost": "The official certification help article does not state an exam fee. Check the enrolment page before booking.",
+    "eligibility": "Preparation courses and practice exam are available; direct exam selection is also offered through LinkedIn Marketing Academy.",
+    "validity": "24 months.",
+    "regional": "The issuer lists English, French, German, Japanese, Portuguese, Spanish and Simplified Chinese. Bahasa Indonesia is not listed. Indonesia account access should be checked at sign-in.",
+    "url": "https://training.marketing.linkedin.com/content-and-creative-design-exam",
+    "sourceUrl": "https://www.linkedin.com/help/lms/answer/a489784",
+    "award": "LinkedIn Marketing Academy certification; certificate can be added to the LinkedIn profile and downloaded as PDF.",
+    "scope": "LinkedIn content and ad creative; does not validate video production, design systems or content strategy across all platforms.",
+    "verifiedOn": "2026-11-21"
+  },
+  "linkedin_marketing_measurement": {
+    "provider": "LinkedIn Marketing Academy",
+    "title": "LinkedIn Marketing Measurement Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "LinkedIn certification covering campaign reporting, conversion tracking, experiments, interpretation of campaign data and connecting marketing activity to business outcomes. It remains LinkedIn-specific.",
+    "duration": "60-minute exam; 60 multiple-choice questions; 75% passing score.",
+    "cost": "The official certification help article does not state an exam fee. Check the enrolment page before booking.",
+    "eligibility": "Preparation courses and practice exam are available; LinkedIn recommends hands-on Campaign Manager reporting/conversion-tracking experience or passing the practice exam.",
+    "validity": "24 months.",
+    "regional": "The issuer lists English, French, German, Japanese, Portuguese, Spanish and Simplified Chinese. Bahasa Indonesia is not listed. Indonesia account access should be checked at sign-in.",
+    "url": "https://training.marketing.linkedin.com/marketing-measurement-exam",
+    "sourceUrl": "https://www.linkedin.com/help/lms/answer/a489784",
+    "award": "LinkedIn Marketing Academy certification; certificate can be added to the LinkedIn profile and downloaded as PDF.",
+    "scope": "LinkedIn measurement only; not a general marketing analytics, experimentation or attribution credential.",
+    "verifiedOn": "2026-11-21"
   }
 };
 var chapterMap = {
@@ -327,11 +460,13 @@ var chapterMap = {
   ],
   "DPA-T05-CH01": [
     "meta_media_buying",
-    "tiktok_media_buying"
+    "tiktok_media_buying",
+    "linkedin_advertising_fundamentals"
   ],
   "DPA-T05-CH02": [
     "meta_media_buying",
-    "tiktok_media_buying"
+    "tiktok_media_buying",
+    "linkedin_marketing_strategy"
   ],
   "DPA-T05-CH03": [
     "meta_media_buying",
@@ -339,11 +474,13 @@ var chapterMap = {
   ],
   "DPA-T05-CH04": [
     "meta_media_buying",
-    "tiktok_media_buying"
+    "tiktok_media_buying",
+    "linkedin_advertising_fundamentals"
   ],
   "DPA-T05-CH05": [
     "meta_media_buying",
-    "tiktok_media_buying"
+    "tiktok_media_buying",
+    "linkedin_content_creative"
   ],
   "DPA-T05-CH06": [
     "tiktok_media_buying",
@@ -362,7 +499,8 @@ var chapterMap = {
   ],
   "DPA-T05-CH10": [
     "meta_media_buying",
-    "tiktok_media_buying"
+    "tiktok_media_buying",
+    "linkedin_marketing_strategy"
   ],
   "DPA-T06-CH01": [
     "stackadapt_programmatic",
@@ -378,7 +516,8 @@ var chapterMap = {
   ],
   "DPA-T06-CH05": [
     "stackadapt_programmatic",
-    "amazon_programmatic"
+    "amazon_programmatic",
+    "google_dv360_2026"
   ],
   "DPA-T06-CH06": [],
   "DPA-T06-CH07": [
@@ -393,10 +532,13 @@ var chapterMap = {
     "stackadapt_programmatic",
     "amazon_programmatic"
   ],
-  "DPA-T06-CH10": [],
+  "DPA-T06-CH10": [
+    "google_cm360_2026"
+  ],
   "DPA-T06-CH11": [
     "stackadapt_programmatic",
-    "amazon_programmatic"
+    "amazon_programmatic",
+    "google_dv360_2026"
   ],
   "DPA-T06-CH12": [],
   "DPA-T07-CH01": [],
@@ -429,7 +571,9 @@ var chapterMap = {
   "DPA-T09-CH02": [],
   "DPA-T09-CH03": [],
   "DPA-T09-CH04": [],
-  "DPA-T09-CH05": [],
+  "DPA-T09-CH05": [
+    "google_cm360_2026"
+  ],
   "DPA-T09-CH06": [],
   "DPA-T09-CH07": [],
   "DPA-T09-CH08": [],
@@ -437,12 +581,20 @@ var chapterMap = {
   "DPA-T09-CH10": [],
   "DPA-T10-CH01": [],
   "DPA-T10-CH02": [],
-  "DPA-T10-CH03": [],
+  "DPA-T10-CH03": [
+    "google_analytics_certification"
+  ],
   "DPA-T10-CH04": [],
   "DPA-T10-CH05": [],
-  "DPA-T10-CH06": [],
-  "DPA-T10-CH07": [],
-  "DPA-T10-CH08": [],
+  "DPA-T10-CH06": [
+    "google_analytics_certification"
+  ],
+  "DPA-T10-CH07": [
+    "linkedin_marketing_measurement"
+  ],
+  "DPA-T10-CH08": [
+    "linkedin_marketing_measurement"
+  ],
   "DPA-T10-CH09": [],
   "DPA-T10-CH10": [],
   "DPA-T11-CH01": [
@@ -486,7 +638,9 @@ var chapterMap = {
   "DPA-T13-CH05": [],
   "DPA-T13-CH06": [],
   "DPA-T13-CH07": [],
-  "DPA-T13-CH08": [],
+  "DPA-T13-CH08": [
+    "linkedin_content_creative"
+  ],
   "DPA-T13-CH09": [],
   "DPA-T13-CH10": [],
   "DPA-T13-CH11": [],
@@ -532,121 +686,121 @@ var auditMap = {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T01-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T02-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T03-CH01": {
     "routeIds": [
@@ -654,7 +808,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T03-CH02": {
     "routeIds": [
@@ -662,13 +816,13 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T03-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T03-CH04": {
     "routeIds": [
@@ -676,7 +830,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T03-CH05": {
     "routeIds": [
@@ -684,19 +838,19 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T03-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T03-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T03-CH08": {
     "routeIds": [
@@ -704,19 +858,19 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T03-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T03-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T04-CH01": {
     "routeIds": [
@@ -724,7 +878,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH02": {
     "routeIds": [
@@ -732,7 +886,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH03": {
     "routeIds": [
@@ -740,7 +894,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH04": {
     "routeIds": [
@@ -748,7 +902,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH05": {
     "routeIds": [
@@ -756,7 +910,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH06": {
     "routeIds": [
@@ -764,7 +918,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH07": {
     "routeIds": [
@@ -772,7 +926,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH08": {
     "routeIds": [
@@ -780,7 +934,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH09": {
     "routeIds": [
@@ -788,7 +942,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T04-CH10": {
     "routeIds": [
@@ -796,25 +950,27 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH01": {
     "routeIds": [
       "meta_media_buying",
-      "tiktok_media_buying"
+      "tiktok_media_buying",
+      "linkedin_advertising_fundamentals"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH02": {
     "routeIds": [
       "meta_media_buying",
-      "tiktok_media_buying"
+      "tiktok_media_buying",
+      "linkedin_marketing_strategy"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH03": {
     "routeIds": [
@@ -823,25 +979,27 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH04": {
     "routeIds": [
       "meta_media_buying",
-      "tiktok_media_buying"
+      "tiktok_media_buying",
+      "linkedin_advertising_fundamentals"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH05": {
     "routeIds": [
       "meta_media_buying",
-      "tiktok_media_buying"
+      "tiktok_media_buying",
+      "linkedin_content_creative"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH06": {
     "routeIds": [
@@ -850,7 +1008,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH07": {
     "routeIds": [
@@ -858,7 +1016,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH08": {
     "routeIds": [
@@ -867,7 +1025,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH09": {
     "routeIds": [
@@ -876,16 +1034,17 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T05-CH10": {
     "routeIds": [
       "meta_media_buying",
-      "tiktok_media_buying"
+      "tiktok_media_buying",
+      "linkedin_marketing_strategy"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH01": {
     "routeIds": [
@@ -894,7 +1053,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH02": {
     "routeIds": [
@@ -902,13 +1061,13 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T06-CH04": {
     "routeIds": [
@@ -917,22 +1076,23 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH05": {
     "routeIds": [
       "stackadapt_programmatic",
-      "amazon_programmatic"
+      "amazon_programmatic",
+      "google_dv360_2026"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T06-CH07": {
     "routeIds": [
@@ -941,7 +1101,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH08": {
     "routeIds": [
@@ -950,7 +1110,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH09": {
     "routeIds": [
@@ -959,46 +1119,49 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH10": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "google_cm360_2026"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH11": {
     "routeIds": [
       "stackadapt_programmatic",
-      "amazon_programmatic"
+      "amazon_programmatic",
+      "google_dv360_2026"
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T06-CH12": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH04": {
     "routeIds": [
@@ -1006,25 +1169,25 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T07-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T07-CH08": {
     "routeIds": [
@@ -1032,7 +1195,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T07-CH09": {
     "routeIds": [
@@ -1040,193 +1203,203 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T07-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T08-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH05": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "google_cm360_2026"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T09-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T09-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH03": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "google_analytics_certification"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH06": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "google_analytics_certification"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH07": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "linkedin_marketing_measurement"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH08": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "linkedin_marketing_measurement"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T10-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T10-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH01": {
     "routeIds": [
@@ -1234,7 +1407,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T11-CH02": {
     "routeIds": [
@@ -1242,19 +1415,19 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T11-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH05": {
     "routeIds": [
@@ -1262,61 +1435,61 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T11-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T12-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T12-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T12-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T12-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T12-CH05": {
     "routeIds": [
@@ -1324,7 +1497,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T12-CH06": {
     "routeIds": [
@@ -1332,7 +1505,7 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T12-CH07": {
     "routeIds": [
@@ -1340,13 +1513,13 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T12-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T12-CH09": {
     "routeIds": [
@@ -1354,295 +1527,297 @@ var auditMap = {
     ],
     "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified; objective-fit and Indonesia account/price eligibility still require chapter-level independent acceptance."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T12-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH08": {
-    "routeIds": [],
-    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "routeIds": [
+      "linkedin_content_creative"
+    ],
+    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "Issuer route identified; objective fit, Indonesia account/language/checkout eligibility and provider terms still require chapter-level independent acceptance."
   },
   "DPA-T13-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T13-CH11": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH11": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T14-CH12": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH11": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T15-CH12": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH01": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH02": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH03": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH04": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH05": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH06": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH07": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH08": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH09": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH10": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH11": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T16-CH12": {
     "routeIds": [],
     "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "No external credential selected for this chapter objective in this initial curated register; this is not a claim that no credential exists anywhere."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   }
 };
 root.DPA_CREDENTIAL_REGISTRY = registry;
