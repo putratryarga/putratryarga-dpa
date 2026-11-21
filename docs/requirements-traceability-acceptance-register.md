@@ -609,3 +609,10 @@ Vercel Preview deployment [dpl_Genz5L2mAoBRMdt2vRwFqQQEWtMc](https://vercel.com/
 - Guide authored depth: generator fallbacks remain in 12 tracks; 169 guide identities and structural test coverage do not prove each is a fully authored chapter-specific guide.
 
 **Final disposition:** Engineering/source-renderer remediation for this branch is green at the tested scope. DPA is suitable for controlled SME/internal review as a v11.2 Review Candidate. It is **not approved for general audience release, certificate issuance, merge to `main` or production deployment** until the mandatory owner/SME gates are closed.
+
+
+## Credential route and learner journey status — 21 November 2026
+
+The earlier T04 checkpoint in this register recorded 115/169 mapped core chapters. The current runtime route registry has since expanded to **35 distinct issuer routes, 136/169 mapped core chapters, and 194 route placements**; 33 core chapters remain OPEN for additional issuer research. Common Foundation is tracked separately at 3/6 mapped chapters and four placements. The runtime map, audit map and 169-row CSV register reconcile; the browser QA run 44865105835 passed on the PR merge ref containing branch head 60b5e02. See the [current credential route governance](chapter-credential-route-governance.md) and [exact browser QA run](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44865105835).
+
+This is implementation/desk-review coverage, not SME acceptance, provider-account verification or release approval. The 28 elective chapters and all outstanding SME, content, Q&A/rubric, agency evidence and production gates remain open.
