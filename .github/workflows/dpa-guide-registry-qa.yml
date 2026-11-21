@@ -24,10 +24,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate all chapter guide mappings
-        run: node scripts/validate-dpa-guide-registry.js
-
-      - name: Validate credential route and elective coverage registers
+      - name: Validate core guides, source links, credential routes and elective coverage
         run: node scripts/validate-dpa-guide-registry.js
 
       - name: Install isolated browser test dependencies
