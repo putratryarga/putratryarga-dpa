@@ -1404,9 +1404,9 @@ var auditMap = {
   },
   "DPA-T10-CH10": {
     "routeIds": [],
-    "outcome": "EXTERNAL_CREDENTIAL_OPTION",
+    "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
     "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
-    "note": "Issuer route identified for Meta Marketing Science; objective fit and Indonesia access/language/checkout eligibility require independent chapter-level acceptance."
+    "note": "No external credential selected for this chapter objective in the current curated registry; use applied work and portfolio evidence. This is not a market-wide claim that no credential exists."
   },
   "DPA-T11-CH01": {
     "routeIds": [
