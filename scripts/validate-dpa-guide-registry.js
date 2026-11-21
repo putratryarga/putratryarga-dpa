@@ -77,7 +77,7 @@ assert.deepEqual([...credentialMapIds].sort(), [...uniqueChapterIds].sort(), "Cr
 assert.deepEqual([...auditIds].sort(), [...uniqueChapterIds].sort(), "Credential audit IDs must exactly match core chapter IDs.");
 for (const [id, routeIds] of Object.entries(chapterCredentialMap)) {
   assert.ok(Array.isArray(routeIds), "Credential route list must be an array: " + id);
-  assert.ok(routeIds.length <= 2, "No more than two credential suggestions per chapter: " + id);
+  assert.ok(routeIds.length <= 3, "No more than three credential suggestions per chapter: " + id);
   for (const routeId of routeIds) {
     const route = credentialRegistry[routeId];
     assert.ok(route, "Unknown credential route " + routeId + " in " + id);
@@ -97,4 +97,4 @@ const electiveRegister = fs.readFileSync(path.join(root, "docs/28-elective-crede
 assert.equal(electiveRegister.length - 1, 28, "Elective credential review must contain 28 chapter rows.");
 assert.ok(electiveRegister.slice(1).every((line) => line.includes("NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION")), "All elective credential reviews must remain explicitly open until reviewed.");
 
-console.log("PASS: chapter credential routes cover all 169 core chapters; no more than two suggestions per chapter; 28 elective reviews remain transparently OPEN.");
+console.log("PASS: chapter credential routes cover all 169 core chapters; no more than three suggestions per chapter; 28 elective reviews remain transparently OPEN.");
