@@ -71,6 +71,30 @@ For each chapter distinguish official learning, official technical documentation
 
 Separate professional certification, course completion, learning badge, knowledge assessment and award. Do not conflate them.
 
+### 8.1 Chapter-level Learn–Earn–Apply–Master implementation
+
+The learner renderer now surfaces four milestones inside each chapter panel without adding another navigation menu:
+- **Learn:** chapter concepts, examples, workflow and references.
+- **Earn:** optional external provider route only where an issuer-backed route is mapped to the chapter objective.
+- **Apply:** the chapter deliverable, simulation or portfolio artifact.
+- **Master:** knowledge checks and self-review against the chapter acceptance criteria; not a DPA-issued badge or assessor decision.
+
+The canonical external-route registry is `chapter-credential-routes.js`; mapping and limitations are documented in [chapter credential route governance](chapter-credential-route-governance.md), with a 169-row [core chapter mapping CSV](credential-route-mapping-register.csv). The [28 elective review CSV](28-elective-credential-route-review.csv) tracks advanced-elective credential review separately.
+
+**Current first-pass counts (21 November 2026):** all 169 core chapter IDs have an explicit outcome; 43 chapters have at least one mapped external credential route (59 route placements), while 126 chapter objectives are presented as applied-skill/portfolio-first in this curated release. This is a first-pass mapping, not proof that the other chapters have no credentials in the wider market. All 169 rows remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. All 28 elective chapter rows remain `NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION`.
+
+Provider-specific labels are kept distinct: professional certification; vendor-issued course certification; course-completion credential; course-completion certificate; digital badge; and learning path/reference. A completion credential is not a professional certification. A badge is not proof of mastery unless the issuing provider's assessment supports that claim. A route is never represented as earned merely because a learner opens or completes a DPA chapter.
+
+Role-Based Core and relevant official platform learning/certification operate **in parallel**, as in the original v10 learning model. The credential cross-track map remains a secondary reference rather than a required navigation step. The chapter inline card is the default learner entry point.
+
+### 8.2 External provider routes versus DPA-issued awards
+
+External provider credentials are issued and assessed by their respective providers. DPA links to the issuer and records the route; it cannot verify provider-account completion or guarantee price, language, prerequisites, local payment, or account access unless the issuer explicitly confirms them.
+
+The DPA website currently has an informational external-credential route registry. It does **not** have a learner-owned award verification registry, authenticated issuer workflow, trusted server-side issuance endpoint, or external provider completion sync. The current four-stage milestone strip is informational, not a credential progress engine.
+
+No DPA chapter achievement, certificate or professional competency award may be issued until the relevant assessment items, answer keys, rubric calibration, threshold setting, assessor agreement, issuer identity, learner privacy/consent, security review and pilot criteria are accepted. The existing synthetic quiz prototype does not meet these requirements.
+
 ## 9. Assessment governance
 - Static Q&A is not a scored quiz.
 - Answer keys remain OPEN until correctness, ambiguity, completeness and acceptable alternatives are reviewed against sources and by SMEs where required.
