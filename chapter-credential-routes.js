@@ -56,7 +56,7 @@ var registry = {
     "cost": "Free simulation.",
     "eligibility": "Selesaikan seluruh task dan ketentuan completion pada akun Forage.",
     "validity": "Tidak dinyatakan sebagai sertifikasi profesional berjangka; ini bukti penyelesaian simulasi.",
-    "regional": "Halaman publik menawarkan simulasi self-paced; persyaratan akun dan penerbitan certificate mengikuti Forage.",
+    "regional": "Halaman publik menawarkan simulasi self-paced; akun, akses, dan penerbitan certificate untuk peserta Indonesia mengikuti ketentuan Forage dan belum diuji dengan akun lokal.",
     "url": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep",
     "sourceUrl": "https://www.theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep",
     "award": "Forage completion certificate; bukan professional certification atau sertifikasi dari brand pemberi simulasi.",
