@@ -10,7 +10,8 @@ const sourceFiles = [
   "role-study-guides-part1.js",
   "role-study-guides-part2.js",
   "role-study-guides-part3.js",
-  "chapter-guide-map.js"
+  "chapter-guide-map.js",
+  "chapter-resources.js"
 ];
 
 const sandbox = { console };
@@ -26,14 +27,29 @@ const chapterIds = [...html.matchAll(/data-chapter-id=["'](DPA-T[0-9]{2}-CH[0-9]
 const uniqueChapterIds = [...new Set(chapterIds)];
 const registry = sandbox.DPA_GUIDE_BY_CHAPTER;
 const registryIds = Object.keys(registry || {});
+const sourceMap = sandbox.DPA_CHAPTER_RESOURCE_MAP || {};
+const sourceMapIds = Object.keys(sourceMap);
 const missing = uniqueChapterIds.filter((id) => !registry[id]);
 const orphaned = registryIds.filter((id) => !uniqueChapterIds.includes(id));
+const missingSourceMapIds = uniqueChapterIds.filter((id) => !sourceMap[id]);
+const orphanSourceMapIds = sourceMapIds.filter((id) => !uniqueChapterIds.includes(id));
+const invalidOrThinSourceMaps = uniqueChapterIds.filter((id) => {
+  const entries = sourceMap[id] || [];
+  const urls = [...new Set(entries.map((entry) => entry && entry.url)
+    .filter((url) => /^https?:\/\//i.test(String(url || ""))))];
+  return urls.length < 2;
+});
 
 assert.equal(chapterIds.length, 169, "index.html must expose exactly 169 core chapter IDs.");
 assert.equal(uniqueChapterIds.length, 169, "Chapter IDs in index.html must be unique.");
 assert.equal(registryIds.length, 169, "Guide registry must contain exactly 169 entries.");
 assert.deepEqual(missing, [], `Missing chapter guides: ${missing.join(", ")}`);
 assert.deepEqual(orphaned, [], `Guide IDs not present in index.html: ${orphaned.join(", ")}`);
+assert.ok(html.includes('<script src="./chapter-resources.js"></script>'), "index.html must load the objective-level chapter resource map.");
+assert.equal(sourceMapIds.length, 169, "Chapter resource map must contain exactly 169 core IDs.");
+assert.deepEqual(missingSourceMapIds, [], `Missing objective-level resources: ${missingSourceMapIds.join(", ")}`);
+assert.deepEqual(orphanSourceMapIds, [], `Orphan objective-level resource IDs: ${orphanSourceMapIds.join(", ")}`);
+assert.deepEqual(invalidOrThinSourceMaps, [], `Every core chapter must have at least two unique HTTP(S) objective-level source URLs: ${invalidOrThinSourceMaps.join(", ")}`);
 
 for (const id of uniqueChapterIds) {
   const guide = registry[id];
@@ -45,4 +61,4 @@ for (const id of uniqueChapterIds) {
   assert.ok(Array.isArray(guide.checks) && guide.checks.length > 0, `Missing knowledge checks for ${id}`);
 }
 
-console.log(`PASS: ${registryIds.length}/169 chapter guides registered; every chapter has concept, example, steps, practice, and knowledge checks.`);
+console.log(`PASS: ${registryIds.length}/169 chapter guides and ${sourceMapIds.length}/169 objective-level resource maps; every core chapter has at least two unique HTTP(S) sources plus concept, example, steps, practice, and knowledge checks.`);

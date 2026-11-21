@@ -63,6 +63,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         const resourceNodes = [...(material?.querySelectorAll(".chapter-source-list .chapter-resource-item a") || [])];
         const resources = resourceNodes.length;
         const resourceHrefs = resourceNodes.map((link) => link.getAttribute("href") || "");
+        const uniqueResourceHrefs = [...new Set(resourceHrefs)];
+        const uniqueResources = uniqueResourceHrefs.length;
         const emptySource = Boolean(material?.querySelector(".source-empty"));
         return {
           id: chapter.dataset.chapterId || "COMMON_FOUNDATION",
@@ -73,6 +75,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           questions,
           steps,
           resources,
+          uniqueResources,
           resourceHrefs,
           emptySource,
           lessonFoldBodies: lessonFoldBodies.length,
@@ -107,14 +110,14 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
 
     const missing = audit.rows.filter((row) =>
       !row.hasMaterial || !row.title || row.conceptChars < 80 || row.exampleChars < 80 ||
-      row.practiceChars < 20 || row.steps < 1 || row.questions < 1 ||
+      row.practiceChars < 20 || row.steps < 1 || row.questions < 1 || row.uniqueResources < 2 ||
       (row.id !== "COMMON_FOUNDATION" && !row.hasRegisteredGuide) ||
       row.lessonFoldBodies < 6 || row.emptyLessonFolds > 0
     );
     assert.deepEqual(missing, [], "Missing or blank learning material panels.");
 
-    const noSources = audit.rows.filter((row) => row.emptySource || row.resources < 1);
-    assert.deepEqual(noSources, [], "Every chapter must expose at least one mapped source.");
+    const noSources = audit.rows.filter((row) => row.emptySource || row.uniqueResources < 2);
+    assert.deepEqual(noSources, [], "Every chapter must expose at least two unique mapped learning sources.");
 
     async function assertRoleCardsDoNotOverlap(label) {
       const layout = await page.locator("[data-role-card]").evaluateAll((cards) => {
@@ -252,7 +255,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       authoredGuideRegistry: audit.guideRegistryCount,
       roleVisibilityIsolation: "selected role + Common Foundation only",
       roleCardOverlap: { desktop: desktopRoleCardLayout, mobile: mobileRoleCardLayout },
-      sourceCoverage: "all panels have valid HTTP(S) links",
+      sourceCoverage: "all 175 panels expose at least 2 unique mapped HTTP(S) links",
       mobileViewport: mobileLayout,
       mobilePaidSocialPanel: mobilePanelBounds,
       runtimeErrors: pageErrors.length,

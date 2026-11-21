@@ -4656,6 +4656,7 @@ details.week{margin-bottom:16px!important}
 <script src="./role-study-guides-part2.js"></script>
 <script src="./role-study-guides-part3.js"></script>
 <script src="./chapter-guide-map.js"></script>
+<script src="./chapter-resources.js"></script>
 <script src="./fullstack-master-roadmap.js"></script>
 <script src="./fullstack-master-renderer.js"></script>
 <script>
@@ -4849,10 +4850,23 @@ function buildGuide(box,chapter,index){
 function appendChapterStudy(chapter,box,index,resources,selected){
  if(chapter.querySelector(".chapter-study"))return;
  var guide=buildGuide(box,chapter,index);
- var links=selected.slice(0,5).map(function(n){
-  var a=resources[n].cloneNode(true);a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");
-  return '<div class="chapter-resource-item">'+a.outerHTML+'</div>';
- }).join("");
+ var links=[],seenSourceUrls={};
+ var mappedResources=(window.DPA_CHAPTER_RESOURCE_MAP||{})[chapter.dataset.chapterId]||[];
+ function addMappedSource(item){
+  var href=String(item.url||"").trim(),title=String(item.title||"Rujukan bab").trim();
+  if(!/^https?:\/\//i.test(href)||seenSourceUrls[href]||links.length>=5)return;
+  seenSourceUrls[href]=true;
+  links.push('<div class="chapter-resource-item"><a class="res" href="'+studyEsc(href)+'" target="_blank" rel="noopener noreferrer"><span><span class="rn">'+studyEsc(title)+'</span><span class="rd">Referensi yang dipetakan untuk objective bab ini; periksa cakupan, akses, dan batas sumber.</span></span><span class="tag t-doc">Rujukan bab</span></a></div>');
+ }
+ mappedResources.forEach(addMappedSource);
+ selected.forEach(function(n){
+  if(links.length>=5)return;
+  var a=resources[n].cloneNode(true),href=a.getAttribute("href")||"";
+  if(!/^https?:\/\//i.test(href)||seenSourceUrls[href])return;
+  seenSourceUrls[href]=true;
+  a.setAttribute("target","_blank");a.setAttribute("rel","noopener noreferrer");
+  links.push('<div class="chapter-resource-item">'+a.outerHTML+'</div>');
+ });
  var html='<section class="chapter-study" aria-label="Materi belajar bab">';
  html+='<div class="chapter-study-title"><div><span class="chapter-study-kicker">PANDUAN BELAJAR</span><h4>'+studyEsc((chapter.querySelector(".wt")||{}).textContent||"Materi bab")+'</h4></div><span class="chapter-study-time">±45–75 menit</span></div>';
  html+='<p class="chapter-study-intro">Setelah bagian ini, lu harus bisa menjelaskan konsep, menjalankan langkah kerja, dan menghasilkan deliverable dengan evidence yang bisa diperiksa.</p>';
@@ -4863,7 +4877,7 @@ function appendChapterStudy(chapter,box,index,resources,selected){
  html+='<details class="lesson-fold" open><summary>Contoh kasus dan cara mengambil keputusan</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.example)+'</p></div></details>';
  html+='<details class="lesson-fold" open><summary>Latihan terpandu &amp; deliverable</summary><div class="lesson-fold-body"><p>'+studyEsc(guide.practice)+'</p><div class="chapter-deliverable"><b>Output bab:</b> '+studyEsc(guide.deliverable)+'</div></div></details>';
  html+='<details class="lesson-fold" open><summary>Cek pemahaman &amp; pembahasan</summary><div class="lesson-fold-body"><ol class="lesson-check-list">'+guide.checks.map(function(x){if(x&&typeof x==="object")return '<li><b>'+studyEsc(x.q)+'</b><details class="lesson-answer"><summary>Lihat pembahasan</summary><p>'+studyEsc(x.a)+'</p></details></li>';return '<li>'+studyEsc(x)+'</li>';}).join("")+'</ol></div></details>';
- html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+selected.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
+ html+='<details class="lesson-fold" open><summary>Sumber belajar <span class="lesson-source-count">'+links.length+' referensi</span></summary><div class="lesson-fold-body"><div class="chapter-source-list">'+(links.join("")||'<p class="source-empty">Belum ada referensi yang dipetakan. Bab ini perlu sumber sebelum dianggap siap dipelajari.</p>')+'</div></div></details>';
  html+='</section>';
  var body=chapter.querySelector(".wbody");if(!body)return;
  var deliverable=body.querySelector(".deliv");
