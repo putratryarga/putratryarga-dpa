@@ -570,14 +570,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"}
   ],
   "DPA-T10-CH02": [
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"},
     {"title": "Google Analytics BigQuery export schemas", "url": "https://developers.google.com/analytics/bigquery/schemas"},
     {"title": "Google Analytics 4 BigQuery export schema", "url": "https://support.google.com/analytics/answer/7029846?hl=en"}
   ],
   "DPA-T10-CH03": [
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"},
     {"title": "GA4 attribution settings", "url": "https://support.google.com/analytics/answer/10597962"},
@@ -591,14 +591,14 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "GoogleSQL introduction for BigQuery", "url": "https://docs.cloud.google.com/bigquery/docs/introduction-sql"}
   ],
   "DPA-T10-CH05": [
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"},
     {"title": "Looker Studio calculated fields tutorial", "url": "https://docs.cloud.google.com/data-studio/tutorial-calculated-fields-intro"},
     {"title": "Tableau Visual Best Practices", "url": "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm"}
   ],
   "DPA-T10-CH06": [
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Meta Certified Marketing Science Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"},
@@ -607,20 +607,20 @@ var DPA_CHAPTER_RESOURCE_MAP = {
   "DPA-T10-CH07": [
     {"title": "LinkedIn Marketing Measurement Certification · jalur credential resmi", "url": "https://training.marketing.linkedin.com/marketing-measurement-exam"},
     {"title": "Meta Certified Marketing Science Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"}
   ],
   "DPA-T10-CH08": [
     {"title": "LinkedIn Marketing Measurement Certification · jalur credential resmi", "url": "https://training.marketing.linkedin.com/marketing-measurement-exam"},
     {"title": "Meta Certified Marketing Science Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"}
   ],
   "DPA-T10-CH09": [
     {"title": "Meta Certified Marketing Science Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
-    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification"},
+    {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"},
     {"title": "Tableau Visual Best Practices", "url": "https://help.tableau.com/current/blueprint/en-us/bp_visual_best_practices.htm"}
