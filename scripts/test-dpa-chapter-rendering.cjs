@@ -182,7 +182,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     assert.ok(cf2.resourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must be clickable in CF2 resources/Earn.");
     assert.ok(cf2.resourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must be clickable in CF2 resources/Earn.");
     assert.ok(cf2.learningResourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must also be clickable in Learn.");
-    assert.ok(cf2.learningResourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must also be clickable in Learn.");
+    const cf3 = audit.rows.find((row) => row.id === "DPA-CF-CH03");
+    assert.ok(cf3 && cf3.learningResourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Academy Inbound must be clickable in CF3 Learn resources.");
     const requiredCredentialChapters = [
       ["DPA-T01-CH01", "hubspot"],
       ["DPA-T02-CH06", "linkedin.com"],
