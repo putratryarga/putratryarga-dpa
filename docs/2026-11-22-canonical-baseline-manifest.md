@@ -200,3 +200,43 @@ The 175-panel/16-role local Chromium result and limitations remain as described 
 These corrections supersede the earlier 22 Nov seven-path and Indonesia-not-listed interpretations. The Meta HTTP 429 caveat remains. The canonical acceptance register and findings register reflect the same status.
 
 **Acceptance remains NOT READY for learner release.** Independent content/SME, answers/rubrics, resource access, agency cells, elective validation, manual accessibility, historical discrepancies, S0 provenance and a real learner pilot remain open. No merge, production action or credential issuance is approved.
+
+
+## Final documentation branch snapshot — 22 November 2026, 15:53 WIB
+
+This delta supersedes the older top-of-file snapshot and all intermediate 632/645/650/652/653/654/656 figures for current-branch status.
+
+| Field | Current verified value |
+|---|---|
+| Current branch/source SHA at this snapshot | `8c244fe11e99cc07956a46bdc3b38ff68b80a4f5` |
+| Core code/content snapshot | `c3d603fa0e64efe1f80f5bfe53577bb03fdd5677` plus documentation-only deltas; no validator/app/runtime changes after the source-quality batch |
+| PR #7 | OPEN / DRAFT / UNMERGED |
+| PR commits ahead / behind | **657 / 0** |
+| Changed files | **191** |
+| Additions / deletions | **71,550 / 367** |
+| Merge-base | `64f96437bcdb8499add1affbad102283dfe7d8b4` |
+| Preview deployment | `dpl_DU4DkY9b5DgqZg4B6LJhv83EdXLS` |
+| Preview URL | [`putratryarga-5gmfpu4z5-elric3.vercel.app`](https://putratryarga-5gmfpu4z5-elric3.vercel.app/) |
+| Preview state | READY / Vercel status SUCCESS |
+| Production | unchanged; deployment `dpl_DN3uQRSqEhdJDE5mn123xidFYC1Z`, source `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d` |
+
+### Exact-head QA at 8c244fe
+
+All four current-source workflows have completed SUCCESS at exact SHA `8c244fe11e99cc07956a46bdc3b38ff68b80a4f5`:
+
+- Guide Registry / Chromium push [45005446210](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005446210).
+- Static QA push [45005446205](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005446205).
+- Quiz Engine QA push [45005446190](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005446190).
+- Guide Registry / Chromium PR-context [45005450686](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005450686).
+- Browser artifact [14747697254](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005446210/artifacts/14747697254), SHA-256 `07008cb9819b1866606abe3cc7c539e3a8e8b9765d2a42fb52530dd7478338b1`.
+
+The exact-source Guide validator passed 169/169 core guide/resource maps and credential route coverage. Chromium rendered 175 panels, opened 16 roles, measured 390px viewport and document width, and reported zero console, request and HTTP failures. Static QA's arithmetic self-test used temporary synthetic vectors; Quiz Engine remained an isolated synthetic-only formative prototype. None of these tests constitutes substantive SME approval, authenticated hosted preview review, full WCAG 2.2 AA, learner pilot or production release approval.
+
+### Current external-source dispositions
+
+- OpenAI Ads: Indonesia is **Available** in the current English and Indonesian self-service country tables. This is country-supported status; advertiser legal-entity requirements and actual account provisioning remain separate.
+- Microsoft Advertising Learning Lab: three product certifications and **eight** learning paths, including Holiday Best Practices.
+- Meta CAPI v25 parameter page: direct fetch returned HTTP 429; exact v25 field/event/hashing statements remain UNVERIFIED until successful issuer-page review.
+- Historical and count reconciliations are in the inventory section above and in the preceding dated snapshot addenda.
+
+**Release state remains NOT READY.** PR #7 remains draft/unmerged. Production is unchanged.

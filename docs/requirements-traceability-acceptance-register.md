@@ -876,3 +876,14 @@ No formal curriculum/assessment/resource/agency/SME status is promoted by this e
 - Google and TikTok official-source corrections remain as documented in the platform audit.
 
 These issuer-source corrections do not alter curriculum, resource-fit, Q&A, rubric, agency or SME acceptance statuses. All relevant formal statuses remain OPEN / IN REVIEW. The overall release verdict remains NOT READY.
+
+
+## Final branch synchronization — 22 November 2026
+
+The canonical branch snapshot is now `8c244fe11e99cc07956a46bdc3b38ff68b80a4f5`: PR #7 is 657 commits ahead / 0 behind, 191 files, 71,550 additions and 367 deletions; merge-base is main SHA `64f96437bcdb8499add1affbad102283dfe7d8b4`. Preview deployment `dpl_DU4DkY9b5DgqZg4B6LJhv83EdXLS` is READY from that exact branch source; production remains on `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`.
+
+All exact-source checks at `8c244fe` are SUCCESS: Guide/Browser push [45005446210](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005446210), Static [45005446205](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45005446205), Quiz [45005446190](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45005446190) and Guide/Browser PR-context [45005450686](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45005450686).
+
+The current external-source correction is: OpenAI lists Indonesia as Available for self-service (subject to advertiser legal-entity and account provisioning); Microsoft lists eight learning paths; Meta CAPI v25 details remain unverified because the issuer page returned HTTP429. No change to formal curriculum, assessment, resource-fit, agency or SME acceptance status follows from these source updates.
+
+**Final acceptance:** technical structural/local-browser verification VERIFIED; curriculum acceptance INCOMPLETE; controlled learner pilot NOT APPROVED; general release NOT READY. Continue to hold merge/production pending remaining acceptance and explicit owner approval.
