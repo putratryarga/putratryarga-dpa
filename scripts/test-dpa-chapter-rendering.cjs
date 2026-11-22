@@ -210,6 +210,17 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       assert.ok(row.learningResourceHrefs.some((href) => href.includes(expectedHost)), chapterId + " must keep the same issuer route clickable in Learn as well as Earn.");
     }
 
+    const onsiteMarketplace = audit.rows.find((row) => row.id === "DPA-T07-CH04");
+    assert.ok(onsiteMarketplace && onsiteMarketplace.earnCardCount === 0 && onsiteMarketplace.fallbackEarn,
+      "T07-CH04 onsite marketplace sponsored products must remain portfolio-first until a relevant issuer-awarded Indonesian marketplace credential is verified.");
+    assert.ok(onsiteMarketplace.learningResourceHrefs.some((href) => href.includes("iklan.shopee.co.id/learn/faq")),
+      "T07-CH04 must provide official Shopee Ads learning resources.");
+    assert.ok(onsiteMarketplace.learningResourceHrefs.some((href) => href.includes("ads.tiktok.com/resources/help/article/how-to-create-product-shopping-ads")),
+      "T07-CH04 must provide official TikTok Shop Ads learning resources.");
+    const productFeed = audit.rows.find((row) => row.id === "DPA-T07-CH07");
+    assert.ok(productFeed && productFeed.earnCardCount > 0 && productFeed.credentialRouteHrefs.some((href) => href.includes("skillshop.withgoogle.com")),
+      "T07-CH07 product-feed readiness may surface Google Shopping as an optional offsite product-feed credential.");
+
     const requiredIndonesiaCredentialChapters = [
       ["DPA-T11-CH02", "ahrefs.com"],
       ["DPA-T12-CH01", "academy.moengage.com"],
