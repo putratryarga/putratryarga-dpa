@@ -23,7 +23,7 @@ var registry = {
     "sourceUrl": "https://support.google.com/google-ads/answer/9702955?hl=id",
     "award": "Sertifikasi profesional Google Ads untuk area produk yang dipilih.",
     "scope": "Platform-specific; tidak mengukur kemampuan planning lintas channel.",
-    "verifiedOn": "2026-11-22"
+    "verifiedOn": "2026-11-21"
   },
   "meta_marketing_science": {
     "provider": "Meta Blueprint",
@@ -493,7 +493,7 @@ var registry = {
     "sourceUrl": "https://advertising.amazon.com/academy/student/path/1532/amazon-dsp-certification",
     "award": "Digital badge + downloadable PDF setelah lulus certification assessment; beda dari learning-path award.",
     "scope": "Amazon Ads programmatic only; bukan bukti akses/live DSP seat di marketplace lain.",
-    "verifiedOn": "2026-11-21"
+    "verifiedOn": "2026-11-22"
   },
   "amazon_sponsored_ads": {
     "provider": "Amazon Ads Academy",
