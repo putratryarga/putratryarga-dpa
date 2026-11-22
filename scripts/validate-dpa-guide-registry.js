@@ -145,6 +145,8 @@ for (const id of [...metaCompletionIds, ...tiktokCompletionIds]) {
 assert.ok(credentialRegistry["meta_sba_ads_manager_skilling_certificate"], "Meta Small Business Academy Ads Manager skilling certificate must remain distinct.");
 assert.equal(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].type, "skilling_certificate", "Meta SBA Ads Manager route is a skilling certificate, not a completion course or professional certification.");
 assert.equal(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].paidExam, false, "Meta SBA skill test is not a paid professional certification exam.");
+assert.equal(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].tagClass, "t-coursecert", "Meta SBA skilling certificate must have a distinct visual type from course-completion credentials.");
+assert.deepEqual(chapterCredentialMap["DPA-T05-CH01"], ["meta_v10_ads_campaign", "tiktok_basics_achievement", "meta_sba_ads_manager_skilling_certificate"], "T05 entry chapter must prioritize completion credentials before Meta SBA skilling test.");
 assert.ok(/fee.*not state|does not state.*fee/i.test(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].cost), "Meta SBA assessment price uncertainty must remain explicit.");
 for (const id of ["meta_media_buying", "meta_media_planning", "meta_marketing_science", "tiktok_media_buying"]) {
   assert.ok(credentialRegistry[id], "Paid platform professional certification must be retained: " + id);
