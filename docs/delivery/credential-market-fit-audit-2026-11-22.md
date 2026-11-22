@@ -14,7 +14,8 @@ The current curated registry contains **65 routes** after removing 21 weak-fit o
 | Measure | Current result |
 |---|---:|
 | Curated issuer routes | **65** |
-| Professional certifications | 21 |
+| Professional certifications | 13 |
+| Vendor product certifications | 8 |
 | Vendor course certifications | 8 |
 | Course-completion credentials | 32 |
 | Course-completion certificate | 1 |
@@ -72,7 +73,7 @@ This is a purposive sample of role descriptions, not a statistical census of all
 
 ### Performance media and paid search
 
-- **Google Ads Search, Display, Measurement, Video and Shopping Certifications** — official Skillshop product-area routes. Search/Display/Measurement/Video/Shopping are distinct certificates, not one generic Google badge. Google lists Bahasa Indonesia among supported certification languages. Shopping is retained because Indonesian marketplace/e-commerce roles explicitly mention Google Shopping Ads.
+- **Google Ads Search, Display, Measurement, Video and Shopping Certifications** — official Skillshop foundational product-area certifications. They are free, assessed, downloadable/shareable and distinct from the separate virtually proctored Google Ads Professional Certifications (Display/Search/Video), which Google says are limited-access and not generally public. Standard Google Ads certification assessment requires 80%, allows 75 minutes, has a 24-hour retake wait and is valid one year; Bahasa Indonesia is supported. Shopping is retained because Indonesian marketplace/e-commerce roles explicitly mention Google Shopping Ads.
 - **Microsoft Advertising Search Certification** — retained as a secondary paid-search option because the Publicis Indonesia Paid Search Manager role names Microsoft Ads. Microsoft Display & Video, Retail and Programmatic paths were not retained as default Earn routes because the audited Indonesian JDs did not establish equivalent demand.
 - **Google Analytics Certification** — retained for GA/measurement roles; do not assume the exam is free solely because preparation learning is free.
 - **DV360 and CM360 Certifications** — retained because Indonesian agency biddable and operations roles name DV360 and CM360/Floodlight.
