@@ -1057,308 +1057,273 @@ var additions = {
 Object.assign(registry, additions);
 
 var placementOverrides = {
-  "DPA-T01-CH02": [
+"DPA-T01-CH02": [
     "hubspot_content_marketing_certification"
   ],
-  "DPA-T01-CH05": [
+"DPA-T01-CH05": [
     "google_ads_search"
   ],
-  "DPA-T01-CH08": [
+"DPA-T01-CH08": [
     "meta_ab_testing_course"
   ],
-  "DPA-T02-CH03": [
+"DPA-T02-CH03": [
     "t02_tiktok_creative_planning"
   ],
-  "DPA-T02-CH04": [
+"DPA-T02-CH04": [
     "linkedin_marketing_strategy"
   ],
-  "DPA-T08-CH01": [
+"DPA-T08-CH01": [
     "t08_iab_dbpc"
   ],
-  "DPA-T08-CH02": [
+"DPA-T08-CH02": [
     "t08_iab_dbpc",
     "t08_ttd_edge_data_driven_planning"
   ],
-  "DPA-T08-CH03": [
+"DPA-T08-CH03": [
     "t08_iab_dbpc"
   ],
-  "DPA-T08-CH04": [
+"DPA-T08-CH04": [
     "t08_iab_dbpc",
     "t08_ttd_edge_data_driven_planning"
   ],
-  "DPA-T08-CH05": [
+"DPA-T08-CH05": [
     "t08_iab_dbpc"
   ],
-  "DPA-T08-CH06": [
+"DPA-T08-CH06": [
     "t08_iab_dbpc",
     "t08_mediaocean_prisma"
   ],
-  "DPA-T08-CH07": [
+"DPA-T08-CH07": [
     "t08_iab_daoc"
   ],
-  "DPA-T08-CH09": [
+"DPA-T08-CH09": [
     "t08_iab_dbpc",
     "t08_ttd_edge_data_driven_planning"
   ],
-  "DPA-T08-CH10": [
+"DPA-T08-CH10": [
     "t08_iab_dbpc"
   ],
-  "DPA-T10-CH04": [
+"DPA-T10-CH04": [
     "t10_kaggle_intro_sql",
     "t10_coursera_google_data_analytics"
   ],
-  "DPA-T11-CH03": [
-    "t11_semrush_technical_seo"
-  ],
-  "DPA-T11-CH04": [
-    "t11_semrush_technical_seo"
-  ],
-  "DPA-T11-CH09": [
+"DPA-T11-CH03": ["t11_semrush_technical_seo", "ahrefs_seo_certification"],
+"DPA-T11-CH04": ["t11_semrush_technical_seo", "ahrefs_seo_certification"],
+"DPA-T11-CH09": [
     "t11_hubspot_aeo_fundamentals"
   ],
-  "DPA-T12-CH02": [
-    "salesforce_mce_foundations",
-    "braze_practitioner"
-  ],
-  "DPA-T14-CH01": [
+"DPA-T12-CH02": ["salesforce_mce_foundations", "braze_practitioner"],
+"DPA-T14-CH01": [
     "t14_meltwater_influencer_cert_1"
   ],
-  "DPA-T14-CH02": [
-    "t14_meta_creator_marketing"
-  ],
-  "DPA-T14-CH03": [
+"DPA-T14-CH02": ["t14_meltwater_influencer_cert_1", "meltwater_influencer_cert_2", "t14_meta_creator_marketing"],
+"DPA-T14-CH03": [
     "t14_meltwater_klear_foundations"
   ],
-  "DPA-T14-CH04": [
+"DPA-T14-CH04": [
     "t14_pxa_protect_monitor"
   ],
-  "DPA-T14-CH05": [
-    "t14_pxa_creator_product_training",
-    "t02_tiktok_creative_planning",
-    "t14_meta_creator_marketing"
-  ],
-  "DPA-T14-CH08": [
+"DPA-T14-CH05": ["meltwater_influencer_cert_2", "t02_tiktok_creative_planning", "t14_meta_creator_marketing"]
+
+};,
+"DPA-T14-CH08": [
     "t14_meltwater_influencer_cert_1"
   ],
-  "DPA-T04-CH01": [
+"DPA-T04-CH01": [
     "tiktok_search_achievement",
     "google_ads_search",
     "microsoft_ads_search_certification"
   ],
-  "DPA-T05-CH01": [
+"DPA-T05-CH01": [
     "meta_v10_ads_campaign",
     "tiktok_basics_achievement",
     "meta_sba_ads_manager_skilling_certificate"
   ],
-  "DPA-T05-CH02": [
+"DPA-T05-CH02": [
     "meta_v10_campaign_objectives",
     "tiktok_website_sales_achievement",
     "tiktok_lead_generation_achievement"
   ],
-  "DPA-T05-CH03": [
+"DPA-T05-CH03": [
     "meta_v10_audience_strategy",
     "tiktok_build_brand_achievement",
     "meta_media_buying"
   ],
-  "DPA-T05-CH04": [
+"DPA-T05-CH04": [
     "meta_v10_ads_campaign",
     "tiktok_basics_achievement",
     "tiktok_auto_ads_achievement"
   ],
-  "DPA-T05-CH05": [
+"DPA-T05-CH05": [
     "meta_v10_creative_best_practices",
     "tiktok_creative_production_achievement",
     "tiktok_ai_solutions_achievement"
   ],
-  "DPA-T05-CH06": [
+"DPA-T05-CH06": [
     "meta_v10_buying_types",
     "meta_buying_types_course",
     "tiktok_media_buying"
   ],
-  "DPA-T05-CH07": [
+"DPA-T05-CH07": [
     "meta_v10_pixel_capi",
     "meta_pixel_capi_course",
     "meta_pixel_optimization_course"
   ],
-  "DPA-T05-CH08": [
+"DPA-T05-CH08": [
     "meta_v10_privacy_brand_safety",
     "tiktok_brand_safety_achievement",
     "meta_media_buying"
   ],
-  "DPA-T05-CH09": [
+"DPA-T05-CH09": [
     "meta_v10_campaign_measurement",
     "meta_ab_testing_course",
     "tiktok_advanced_leadgen_achievement"
   ],
-  "DPA-T07-CH01": [
+"DPA-T07-CH01": [
     "amazon_retail_certification",
     "tiktok_shop_achievement"
   ],
-  "DPA-T07-CH08": [
-    "amazon_sponsored_ads",
-    "tiktok_advanced_shop_achievement",
-    "tiktok_shop_achievement"
-  ],
-  "DPA-T07-CH09": [
+"DPA-T07-CH08": ["google_ads_shopping", "tiktok_advanced_shop_achievement", "tiktok_shop_achievement"],
+"DPA-T07-CH09": [
     "amazon_sponsored_ads",
     "meta_collaborative_ads_course",
     "tiktok_advanced_shop_achievement"
   ],
-  "DPA-T12-CH03": [
-    "hubspot_inbound_certification",
-    "tiktok_lead_generation_achievement",
-    "tiktok_advanced_leadgen_achievement"
-  ],
-  "DPA-T13-CH02": [
+"DPA-T12-CH03": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_marketing_specialist"],
+"DPA-T13-CH02": [
     "hubspot_social_media_certification",
     "tiktok_build_brand_achievement"
   ],
-  "DPA-T13-CH07": [
+"DPA-T13-CH07": [
     "tiktok_creative_production_achievement",
     "tiktok_ai_solutions_achievement",
     "hubspot_social_media_certification"
   ],
-  "DPA-T13-CH10": [
+"DPA-T13-CH10": [
     "hubspot_social_media_certification",
     "tiktok_creative_iteration_achievement",
     "meta_v10_campaign_measurement"
   ],
-  "DPA-T14-CH06": [
+"DPA-T14-CH06": [
     "meta_partnership_ads_course",
     "t02_tiktok_creative_planning",
     "tiktok_creative_production_achievement"
   ],
-  "DPA-T14-CH09": [
+"DPA-T14-CH09": [
     "meta_partnership_ads_course",
     "tiktok_creative_production_achievement",
     "tiktok_creative_iteration_achievement"
   ],
-  "DPA-T14-CH10": [
+"DPA-T14-CH10": [
     "meta_partnership_ads_course",
     "tiktok_creative_iteration_achievement",
     "meta_v10_creative_best_practices"
   ],
-  "DPA-T16-CH07": [
+"DPA-T16-CH07": [
     "meta_community_course_credentials",
     "meta_v10_privacy_brand_safety",
     "tiktok_brand_safety_achievement"
   ],
-  "DPA-T16-CH10": [
+"DPA-T16-CH10": [
     "meta_community_course_credentials",
     "tiktok_brand_safety_achievement",
     "meta_v10_privacy_brand_safety"
   ],
+"DPA-T03-CH03": ["google_ads_display", "google_ads_video"],
+"DPA-T03-CH04": ["meta_media_planning", "google_ads_display", "google_ads_video"],
+"DPA-T03-CH05": ["meta_media_planning", "google_ads_display", "google_ads_video"],
+"DPA-T06-CH01": ["google_dv360_2026"],
+"DPA-T06-CH04": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
+"DPA-T06-CH07": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
+"DPA-T06-CH08": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
+"DPA-T07-CH04": ["google_ads_shopping"],
+"DPA-T10-CH06": ["google_analytics_certification", "meta_marketing_science", "moengage_analytics_expert"],
+"DPA-T10-CH07": ["meta_marketing_science", "google_analytics_certification", "google_ads_measurement"],
+"DPA-T10-CH08": ["meta_marketing_science", "google_analytics_certification", "google_ads_measurement"],
+"DPA-T11-CH02": ["semrush_seo_crash", "ahrefs_seo_certification"],
+"DPA-T11-CH06": ["semrush_seo_crash", "ahrefs_seo_certification"],
+"DPA-T11-CH08": ["semrush_seo_crash", "ahrefs_seo_certification"],
+"DPA-T12-CH01": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
+"DPA-T12-CH04": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
+"DPA-T12-CH05": ["hubspot_email_marketing", "salesforce_mce_foundations", "salesforce_mce_email_specialist"],
+"DPA-T12-CH06": ["hubspot_email_marketing", "moengage_growth_marketer", "braze_marketing_specialist"],
+"DPA-T12-CH07": ["hubspot_email_marketing", "salesforce_mce_email_specialist", "moengage_growth_marketer"],
+"DPA-T12-CH08": ["moengage_analytics_expert"],
+"DPA-T12-CH09": ["hubspot_email_marketing", "moengage_growth_marketer", "braze_digital_strategist"]
 
-  "DPA-T03-CH03": ["google_ads_display", "google_ads_video"],
-  "DPA-T03-CH04": ["meta_media_planning", "google_ads_display", "google_ads_video"],
-  "DPA-T03-CH05": ["meta_media_planning", "google_ads_display", "google_ads_video"],
-  "DPA-T06-CH01": ["google_dv360_2026"],
-  "DPA-T06-CH04": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
-  "DPA-T06-CH07": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
-  "DPA-T06-CH08": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
-  "DPA-T07-CH04": ["google_ads_shopping"],
-  "DPA-T07-CH08": ["google_ads_shopping", "tiktok_advanced_shop_achievement", "tiktok_shop_achievement"],
-  "DPA-T10-CH06": ["google_analytics_certification", "meta_marketing_science", "moengage_analytics_expert"],
-  "DPA-T10-CH07": ["meta_marketing_science", "google_analytics_certification", "google_ads_measurement"],
-  "DPA-T10-CH08": ["meta_marketing_science", "google_analytics_certification", "google_ads_measurement"],
-  "DPA-T11-CH02": ["semrush_seo_crash", "ahrefs_seo_certification"],
-  "DPA-T11-CH03": ["t11_semrush_technical_seo", "ahrefs_seo_certification"],
-  "DPA-T11-CH04": ["t11_semrush_technical_seo", "ahrefs_seo_certification"],
-  "DPA-T11-CH06": ["semrush_seo_crash", "ahrefs_seo_certification"],
-  "DPA-T11-CH08": ["semrush_seo_crash", "ahrefs_seo_certification"],
-  "DPA-T12-CH01": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
-  "DPA-T12-CH02": ["salesforce_mce_foundations", "braze_practitioner"],
-  "DPA-T12-CH03": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_marketing_specialist"],
-  "DPA-T12-CH04": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
-  "DPA-T12-CH05": ["hubspot_email_marketing", "salesforce_mce_foundations", "salesforce_mce_email_specialist"],
-  "DPA-T12-CH06": ["hubspot_email_marketing", "moengage_growth_marketer", "braze_marketing_specialist"],
-  "DPA-T12-CH07": ["hubspot_email_marketing", "salesforce_mce_email_specialist", "moengage_growth_marketer"],
-  "DPA-T12-CH08": ["moengage_analytics_expert"],
-  "DPA-T12-CH09": ["hubspot_email_marketing", "moengage_growth_marketer", "braze_digital_strategist"],
-  "DPA-T14-CH02": ["t14_meltwater_influencer_cert_1", "meltwater_influencer_cert_2", "t14_meta_creator_marketing"],
-  "DPA-T14-CH05": ["meltwater_influencer_cert_2", "t02_tiktok_creative_planning", "t14_meta_creator_marketing"]
-
-};
 
 var placementNotes = {
-  "DPA-T01-CH02": "HubSpot Content Marketing Certification is a partial adjacent fit for storytelling and content strategy; it does not teach primary consumer research or full brand-positioning methods. First-pass mapping; learner portfolio remains primary.",
-  "DPA-T01-CH05": "Google Ads Search Certification directly covers only the Search pillar of this combined chapter; paid social and programmatic objectives remain in the chapter lesson and practice. First-pass mapping.",
-  "DPA-T01-CH08": "Meta Blueprint's A/B tests, creative tests and lift-studies completion credential is platform-specific; it supplements the chapter's independent experiment-design practice.",
-  "DPA-T02-CH03": "TikTok Creative Planning Achievement covers TikTok audience research, inspiration and creative briefs; supporting fit only for the broader cultural-insight objective.",
-  "DPA-T02-CH04": "LinkedIn Marketing Strategy Certification is a first-pass partial fit for LinkedIn full-funnel planning only; it is not a cross-channel communications-planning credential.",
-  "DPA-T08-CH01": "IAB DBPC is a partial professional route for digital media buying and planning; the related Trade Desk supply-chain course remains Learn-only because no course award was evidenced.",
-  "DPA-T08-CH02": "IAB DBPC directly covers media research, inventory, audience, planning and allocation; The Trade Desk Data-Driven Planning certification is additional partial vendor-specific evidence.",
-  "DPA-T08-CH03": "IAB DBPC directly covers digital media strategy and planning; this is professional exam evidence, not a substitute for the chapter artifact.",
-  "DPA-T08-CH04": "IAB DBPC directly covers media strategy and allocation; The Trade Desk certification is supporting vendor-specific evidence for data-driven planning.",
-  "DPA-T08-CH05": "IAB DBPC is a partial fit for digital media planning; use the chapter work sample for specialist investment decisions.",
-  "DPA-T08-CH06": "IAB DBPC partially covers digital campaign execution; Mediaocean Prisma badges are supporting, product-specific and gated to the issuer portal.",
-  "DPA-T08-CH07": "IAB DAOC is a partial fit for operational execution; verify chapter-specific scope and Indonesia exam access before enrolment.",
-  "DPA-T08-CH09": "IAB DBPC directly covers campaign analysis and optimization; The Trade Desk certification is additional vendor-specific evidence.",
-  "DPA-T08-CH10": "IAB DBPC is only a supporting external option. The integrated media-investment capstone remains assessed through the chapter portfolio, not the external exam.",
-  "DPA-T10-CH04": "Kaggle Intro to SQL directly supports SQL practice and a course-completion certificate; the Google Data Analytics program is broader, subscription-based supporting learning, not a professional exam certification.",
-  "DPA-T11-CH03": "The current Semrush Technical SEO and AI Search course is the live destination for the earlier Technical SEO URL; it supports the mapped technical foundations but is a vendor course certificate.",
-  "DPA-T11-CH04": "The same current Semrush course serves this adjacent technical SEO/AI-search objective; the former second route resolves to the identical issuer destination and is consolidated to prevent duplicate registry entries.",
-  "DPA-T11-CH09": "HubSpot AEO Fundamentals is a first-pass direct fit for foundational AEO; it does not guarantee search rankings or AI citations.",
-  "DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations and Braze Certified Practitioner are platform-specific CRM foundations. The former assesses subscriber/data concepts; the latter validates basic Braze platform and data-planning knowledge. Neither is a full enterprise data-architecture assessment.",
-  "DPA-T14-CH01": "Meltwater Influencer Marketing Certification I directly supports ecosystem and campaign foundations; it is a vendor course certification, not an independent professional license.",
-  "DPA-T14-CH02": "Meta's creator-partnership course credential is a partial platform-specific fit; it does not cover the full creator taxonomy or platform-neutral selection process.",
-  "DPA-T14-CH03": "Meltwater Klear Foundations is a product-specific course certification for discovery and management workflows; platform-neutral audience research remains in the chapter.",
-  "DPA-T14-CH04": "PXA's Affiliate & Partnerships Expert path is only partial support for creator vetting; fraud and monitoring in affiliate programs do not equal creator-audience fraud screening.",
-  "DPA-T14-CH05": "TikTok Creative Planning is a platform-specific Achievement for audience research and creative briefs; it supports creator strategy but does not certify creator selection or commercial evaluation.",
-  "DPA-T14-CH08": "Meltwater Influencer Marketing Certification I is supporting only for creator relationships and campaign practice; chapter portfolio evidence remains primary.",
-  "DPA-T04-CH01": "TikTok Get discovered with Search provides an issuer-listed Credential for Completion specifically for Search Ads. Google and Microsoft remain separate provider certifications; the platforms are not interchangeable.",
-  "DPA-T05-CH01": "Completion-first entry route: Meta Blueprint's v10 introductory course and TikTok Basics are free-to-learn course-completion/Achievement options at the issuer level; Meta Small Business Academy follows as a separate Ads Manager skilling test with fee not stated publicly. Paid Meta Media Buying Professional remains optional and is not required to earn either completion award.",
-  "DPA-T05-CH02": "Meta's course directly covers campaign objectives and conversion locations. TikTok Drive Website Sales and Generate and message leads support mainstream website-conversion and lead-generation objectives; app-promotion is retained as learning-only vertical specialization.",
-  "DPA-T05-CH03": "Meta's v10 course directly covers custom/lookalike audiences and targeting; TikTok Build your brand supports awareness and audience-funnel learning. Meta professional certification remains optional and exam-based.",
-  "DPA-T05-CH04": "Meta's introductory course and TikTok Basics support account/campaign setup. TikTok Auto Ads is a narrow dealership-inventory specialization, not a general paid-social credential.",
-  "DPA-T05-CH05": "Meta's creative best-practice credential and TikTok Creative Production support creative formats and production. TikTok AI Solutions is limited to TikTok advertising products, not general AI competence.",
-  "DPA-T05-CH06": "The recovered Meta v10 buying-type course and current v11 Meta buying-types course are separate issuer activities. TikTok Media Buying Professional Certification remains a paid/advanced exam option, not a free completion award.",
-  "DPA-T05-CH07": "Meta's v10 Pixel/CAPI award and current Meta Pixel/CAPI route cover platform-specific event measurement; the pixel optimization activity is a separate advanced course. None certifies general measurement engineering.",
-  "DPA-T05-CH08": "Meta Privacy controls and brand safety plus TikTok brand-safety Achievement support platform-specific risk controls; they do not replace Indonesian privacy law, contracts or cross-platform governance training.",
-  "DPA-T05-CH09": "Meta reporting/measurement and A/B testing credentials plus TikTok's advanced lead-generation Achievement support campaign analysis/optimization. Applied statistical design and incrementality remain in the chapter deliverable.",
-  "DPA-T07-CH01": "TikTok Shop completion learning supports the social-commerce part of the retail-media ecosystem; it is distinct from Amazon Ads certification and does not establish retailer-media network expertise.",
-  "DPA-T07-CH08": "TikTok Shop and its advanced Strategy Achievement are platform-specific activation/optimization options; Amazon Sponsored Ads remains separate.",
-  "DPA-T07-CH09": "TikTok Shop advanced learning is supporting commerce optimization. Meta Collaborative Ads and Amazon Sponsored Ads have distinct product scopes; sales measurement and incrementality remain chapter evidence.",
-  "DPA-T12-CH03": "TikTok lead-generation Achievements support platform-specific lead capture and messaging. The advanced path is separate and does not substitute for CRM lead-scoring design.",
-  "DPA-T13-CH02": "TikTok Build your brand supports awareness and consideration; HubSpot Social Media Certification covers broader organic social strategy.",
-  "DPA-T13-CH07": "TikTok Creative Production directly supports short-form content production; AI Solutions is TikTok-product-specific and HubSpot Social is broader organic social learning.",
-  "DPA-T13-CH10": "TikTok Creative Iteration and Meta campaign measurement are platform-specific supporting credentials. Learners still need an independent content-performance analysis and optimization artifact.",
-  "DPA-T14-CH06": "Meta Partnership Ads teaches creator-content authorization and paid collaboration; TikTok Creative Planning/Production supports briefs and execution. Contract, usage-rights and disclosure skills remain chapter work.",
-  "DPA-T14-CH09": "TikTok Creative Production/Iteration supports content delivery and iteration; Meta Partnership Ads is platform-specific and does not substitute for real creator-management experience.",
-  "DPA-T14-CH10": "Meta Partnership Ads directly supports Meta amplification and permissions; TikTok Creative Iteration is supporting creative learning, not TikTok paid-media certification.",
-  "DPA-T16-CH07": "Meta Community Management, Meta Privacy/Brand Safety and TikTok brand-safety Achievement support platform controls. They do not replace moderation playbooks, crisis escalation or local legal review.",
-  "DPA-T16-CH10": "TikTok brand-safety and Meta privacy/community activities provide platform-policy learning only; crisis triage, escalation and response governance remain assessed through the chapter portfolio.",
+"DPA-T01-CH02": "HubSpot Content Marketing Certification is a partial adjacent fit for storytelling and content strategy; it does not teach primary consumer research or full brand-positioning methods. First-pass mapping; learner portfolio remains primary.",
+"DPA-T01-CH05": "Google Ads Search Certification directly covers only the Search pillar of this combined chapter; paid social and programmatic objectives remain in the chapter lesson and practice. First-pass mapping.",
+"DPA-T01-CH08": "Meta Blueprint's A/B tests, creative tests and lift-studies completion credential is platform-specific; it supplements the chapter's independent experiment-design practice.",
+"DPA-T02-CH03": "TikTok Creative Planning Achievement covers TikTok audience research, inspiration and creative briefs; supporting fit only for the broader cultural-insight objective.",
+"DPA-T02-CH04": "LinkedIn Marketing Strategy Certification is a first-pass partial fit for LinkedIn full-funnel planning only; it is not a cross-channel communications-planning credential.",
+"DPA-T08-CH01": "IAB DBPC is a partial professional route for digital media buying and planning; the related Trade Desk supply-chain course remains Learn-only because no course award was evidenced.",
+"DPA-T08-CH02": "IAB DBPC directly covers media research, inventory, audience, planning and allocation; The Trade Desk Data-Driven Planning certification is additional partial vendor-specific evidence.",
+"DPA-T08-CH03": "IAB DBPC directly covers digital media strategy and planning; this is professional exam evidence, not a substitute for the chapter artifact.",
+"DPA-T08-CH04": "IAB DBPC directly covers media strategy and allocation; The Trade Desk certification is supporting vendor-specific evidence for data-driven planning.",
+"DPA-T08-CH05": "IAB DBPC is a partial fit for digital media planning; use the chapter work sample for specialist investment decisions.",
+"DPA-T08-CH06": "IAB DBPC partially covers digital campaign execution; Mediaocean Prisma badges are supporting, product-specific and gated to the issuer portal.",
+"DPA-T08-CH07": "IAB DAOC is a partial fit for operational execution; verify chapter-specific scope and Indonesia exam access before enrolment.",
+"DPA-T08-CH09": "IAB DBPC directly covers campaign analysis and optimization; The Trade Desk certification is additional vendor-specific evidence.",
+"DPA-T08-CH10": "IAB DBPC is only a supporting external option. The integrated media-investment capstone remains assessed through the chapter portfolio, not the external exam.",
+"DPA-T10-CH04": "Kaggle Intro to SQL directly supports SQL practice and a course-completion certificate; the Google Data Analytics program is broader, subscription-based supporting learning, not a professional exam certification.",
+"DPA-T11-CH03": "Ahrefs Certification supports crawl/site-audit tool proficiency; the learner still needs a real technical audit and fix-priority artifact.",
+"DPA-T11-CH04": "Ahrefs tool certification supports site audit workflows; technical diagnosis and implementation remain portfolio requirements.",
+"DPA-T11-CH09": "HubSpot AEO Fundamentals is a first-pass direct fit for foundational AEO; it does not guarantee search rankings or AI citations.",
+"DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations and Braze Certified Practitioner are platform-specific CRM foundations. The former assesses subscriber/data concepts; the latter validates basic Braze platform and data-planning knowledge. Neither is a full enterprise data-architecture assessment.",
+"DPA-T14-CH01": "Meltwater Influencer Marketing Certification I directly supports ecosystem and campaign foundations; it is a vendor course certification, not an independent professional license.",
+"DPA-T14-CH02": "Meltwater Influencer Marketing Certification I and II directly support creator ecosystem, selection and campaign planning; Meta's award is narrower and platform-specific.",
+"DPA-T14-CH03": "Meltwater Klear Foundations is a product-specific course certification for discovery and management workflows; platform-neutral audience research remains in the chapter.",
+"DPA-T14-CH04": "PXA's Affiliate & Partnerships Expert path is only partial support for creator vetting; fraud and monitoring in affiliate programs do not equal creator-audience fraud screening.",
+"DPA-T14-CH05": "Meltwater Certification II covers influencer selection and conversion tactics; TikTok and Meta paths remain separate platform-specific completion learning."
 
-  "DPA-T03-CH03": "Google Ads Display and Video are direct product-specific credentials for digital display/video activation; neither replaces cross-channel media evaluation.",
-  "DPA-T03-CH04": "Google Ads Display/Video support channel-role and format execution; Meta Media Planning remains a separate platform-specific professional credential.",
-  "DPA-T03-CH05": "Google Ads Display/Video support channel and campaign planning within Google Ads; the chapter investment rationale and cross-channel budget allocation remain portfolio-assessed.",
-  "DPA-T06-CH01": "DV360 is directly named in Indonesian agency biddable/programmatic job requirements; TTD remains an optional global-agency skill where mapped.",
-  "DPA-T06-CH04": "DV360 and TTD are platform routes used in agency programmatic work; this is not proof of SSP, exchange or supply-path expertise.",
-  "DPA-T06-CH07": "DV360 and TTD support platform bidding and pacing practice; programmatic trading judgment must also be shown in the campaign artifact.",
-  "DPA-T06-CH08": "DV360 and TTD support deal and activation learning; advanced PMP/PG negotiation still needs chapter-level evidence.",
-  "DPA-T07-CH04": "Google Shopping Ads is included because Indonesian marketplace/e-commerce advertising roles explicitly reference Google Shopping alongside Shopee/TikTok Shop. It does not certify marketplace-native Ads Manager operation.",
-  "DPA-T07-CH08": "Google Shopping and TikTok Shop Academy achievements are platform-specific evidence; Shopee, Tokopedia and Lazada operation remains a local practical requirement without a verified public issuer certificate in this audit.",
-  "DPA-T10-CH06": "MoEngage Analytics Expert provides a completion credential for behavioral funnels, cohorts and retention analysis; it complements, not replaces, cross-platform marketing analytics.",
-  "DPA-T10-CH07": "Google Ads Measurement validates Google Ads measurement solutions; pair with GA4 and independent attribution/incrementality work.",
-  "DPA-T10-CH08": "Google Ads Measurement is supporting platform-specific measurement knowledge; statistical experiment design still requires independent practice.",
-  "DPA-T11-CH02": "Ahrefs Certification is a free, one-hour tool-vendor exam and directly supports keyword, competitor and SEO research tool workflows.",
-  "DPA-T11-CH03": "Ahrefs Certification supports crawl/site-audit tool proficiency; the learner still needs a real technical audit and fix-priority artifact.",
-  "DPA-T11-CH04": "Ahrefs tool certification supports site audit workflows; technical diagnosis and implementation remain portfolio requirements.",
-  "DPA-T11-CH06": "Ahrefs Certification supports backlink and competitive research workflows; it is not a standalone digital PR or authority-building professional licence.",
-  "DPA-T11-CH08": "Ahrefs Certification supports SEO reporting and analysis workflows; validate GSC/GA4 and reporting skill separately.",
-  "DPA-T12-CH01": "HubSpot Inbound, MoEngage Growth Marketer and Braze Certified Marketing Strategy Expert cover different CRM/lifecycle platform paths. The Braze exam is a paid advanced certification; the free Braze learning path alone does not award a certificate. Indonesia CRM job descriptions explicitly name these platforms.",
-  "DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations and Braze Certified Practitioner are platform-specific CRM foundations. The former assesses subscriber/data concepts; the latter validates basic Braze platform and data-planning knowledge. Neither is a full enterprise data-architecture assessment.",
-  "DPA-T12-CH03": "Braze Certified Marketing Specialist and MoEngage Growth Marketer validate vendor-specific segmentation/lifecycle workflow knowledge; HubSpot Inbound supports broader buyer and lifecycle framing. The Braze exam is paid and proctored.",
-  "DPA-T12-CH04": "The three routes cover customer journey and trigger-based communication in their respective platforms; the learner must still design a channel-neutral journey map.",
-  "DPA-T12-CH05": "HubSpot Email Marketing and Salesforce Marketing Cloud credentials match email/engagement work; Salesforce Foundations is USD 75 and the Specialist exam is USD 200 before local taxes.",
-  "DPA-T12-CH06": "MoEngage Growth Marketer and Braze Certified Marketing Specialist support automation and journey planning; HubSpot Email is an adjacent route. The Braze learning path is free, but its certification exam is paid.",
-  "DPA-T12-CH07": "Salesforce Marketing Cloud Specialist and MoEngage support platform-specific messaging and optimization; deliverability and personalization still require applied work.",
-  "DPA-T12-CH08": "MoEngage Analytics Expert covers funnel/cohort/retention analysis directly; use a learner portfolio to demonstrate lifecycle impact.",
-  "DPA-T12-CH09": "These issuer routes support lifecycle optimization/reporting, but the chapter's test design and incremental lift analysis remain independently assessed.",
-  "DPA-T14-CH02": "Meltwater Influencer Marketing Certification I and II directly support creator ecosystem, selection and campaign planning; Meta's award is narrower and platform-specific.",
-  "DPA-T14-CH05": "Meltwater Certification II covers influencer selection and conversion tactics; TikTok and Meta paths remain separate platform-specific completion learning."
+};,
+"DPA-T14-CH08": "Meltwater Influencer Marketing Certification I is supporting only for creator relationships and campaign practice; chapter portfolio evidence remains primary.",
+"DPA-T04-CH01": "TikTok Get discovered with Search provides an issuer-listed Credential for Completion specifically for Search Ads. Google and Microsoft remain separate provider certifications; the platforms are not interchangeable.",
+"DPA-T05-CH01": "Completion-first entry route: Meta Blueprint's v10 introductory course and TikTok Basics are free-to-learn course-completion/Achievement options at the issuer level; Meta Small Business Academy follows as a separate Ads Manager skilling test with fee not stated publicly. Paid Meta Media Buying Professional remains optional and is not required to earn either completion award.",
+"DPA-T05-CH02": "Meta's course directly covers campaign objectives and conversion locations. TikTok Drive Website Sales and Generate and message leads support mainstream website-conversion and lead-generation objectives; app-promotion is retained as learning-only vertical specialization.",
+"DPA-T05-CH03": "Meta's v10 course directly covers custom/lookalike audiences and targeting; TikTok Build your brand supports awareness and audience-funnel learning. Meta professional certification remains optional and exam-based.",
+"DPA-T05-CH04": "Meta's introductory course and TikTok Basics support account/campaign setup. TikTok Auto Ads is a narrow dealership-inventory specialization, not a general paid-social credential.",
+"DPA-T05-CH05": "Meta's creative best-practice credential and TikTok Creative Production support creative formats and production. TikTok AI Solutions is limited to TikTok advertising products, not general AI competence.",
+"DPA-T05-CH06": "The recovered Meta v10 buying-type course and current v11 Meta buying-types course are separate issuer activities. TikTok Media Buying Professional Certification remains a paid/advanced exam option, not a free completion award.",
+"DPA-T05-CH07": "Meta's v10 Pixel/CAPI award and current Meta Pixel/CAPI route cover platform-specific event measurement; the pixel optimization activity is a separate advanced course. None certifies general measurement engineering.",
+"DPA-T05-CH08": "Meta Privacy controls and brand safety plus TikTok brand-safety Achievement support platform-specific risk controls; they do not replace Indonesian privacy law, contracts or cross-platform governance training.",
+"DPA-T05-CH09": "Meta reporting/measurement and A/B testing credentials plus TikTok's advanced lead-generation Achievement support campaign analysis/optimization. Applied statistical design and incrementality remain in the chapter deliverable.",
+"DPA-T07-CH01": "TikTok Shop completion learning supports the social-commerce part of the retail-media ecosystem; it is distinct from Amazon Ads certification and does not establish retailer-media network expertise.",
+"DPA-T07-CH08": "Google Shopping and TikTok Shop Academy achievements are platform-specific evidence; Shopee, Tokopedia and Lazada operation remains a local practical requirement without a verified public issuer certificate in this audit.",
+"DPA-T07-CH09": "TikTok Shop advanced learning is supporting commerce optimization. Meta Collaborative Ads and Amazon Sponsored Ads have distinct product scopes; sales measurement and incrementality remain chapter evidence.",
+"DPA-T12-CH03": "Braze Certified Marketing Specialist and MoEngage Growth Marketer validate vendor-specific segmentation/lifecycle workflow knowledge; HubSpot Inbound supports broader buyer and lifecycle framing. The Braze exam is paid and proctored.",
+"DPA-T13-CH02": "TikTok Build your brand supports awareness and consideration; HubSpot Social Media Certification covers broader organic social strategy.",
+"DPA-T13-CH07": "TikTok Creative Production directly supports short-form content production; AI Solutions is TikTok-product-specific and HubSpot Social is broader organic social learning.",
+"DPA-T13-CH10": "TikTok Creative Iteration and Meta campaign measurement are platform-specific supporting credentials. Learners still need an independent content-performance analysis and optimization artifact.",
+"DPA-T14-CH06": "Meta Partnership Ads teaches creator-content authorization and paid collaboration; TikTok Creative Planning/Production supports briefs and execution. Contract, usage-rights and disclosure skills remain chapter work.",
+"DPA-T14-CH09": "TikTok Creative Production/Iteration supports content delivery and iteration; Meta Partnership Ads is platform-specific and does not substitute for real creator-management experience.",
+"DPA-T14-CH10": "Meta Partnership Ads directly supports Meta amplification and permissions; TikTok Creative Iteration is supporting creative learning, not TikTok paid-media certification.",
+"DPA-T16-CH07": "Meta Community Management, Meta Privacy/Brand Safety and TikTok brand-safety Achievement support platform controls. They do not replace moderation playbooks, crisis escalation or local legal review.",
+"DPA-T16-CH10": "TikTok brand-safety and Meta privacy/community activities provide platform-policy learning only; crisis triage, escalation and response governance remain assessed through the chapter portfolio.",
+"DPA-T03-CH03": "Google Ads Display and Video are direct product-specific credentials for digital display/video activation; neither replaces cross-channel media evaluation.",
+"DPA-T03-CH04": "Google Ads Display/Video support channel-role and format execution; Meta Media Planning remains a separate platform-specific professional credential.",
+"DPA-T03-CH05": "Google Ads Display/Video support channel and campaign planning within Google Ads; the chapter investment rationale and cross-channel budget allocation remain portfolio-assessed.",
+"DPA-T06-CH01": "DV360 is directly named in Indonesian agency biddable/programmatic job requirements; TTD remains an optional global-agency skill where mapped.",
+"DPA-T06-CH04": "DV360 and TTD are platform routes used in agency programmatic work; this is not proof of SSP, exchange or supply-path expertise.",
+"DPA-T06-CH07": "DV360 and TTD support platform bidding and pacing practice; programmatic trading judgment must also be shown in the campaign artifact.",
+"DPA-T06-CH08": "DV360 and TTD support deal and activation learning; advanced PMP/PG negotiation still needs chapter-level evidence.",
+"DPA-T07-CH04": "Google Shopping Ads is included because Indonesian marketplace/e-commerce advertising roles explicitly reference Google Shopping alongside Shopee/TikTok Shop. It does not certify marketplace-native Ads Manager operation.",
+"DPA-T10-CH06": "MoEngage Analytics Expert provides a completion credential for behavioral funnels, cohorts and retention analysis; it complements, not replaces, cross-platform marketing analytics.",
+"DPA-T10-CH07": "Google Ads Measurement validates Google Ads measurement solutions; pair with GA4 and independent attribution/incrementality work.",
+"DPA-T10-CH08": "Google Ads Measurement is supporting platform-specific measurement knowledge; statistical experiment design still requires independent practice.",
+"DPA-T11-CH02": "Ahrefs Certification is a free, one-hour tool-vendor exam and directly supports keyword, competitor and SEO research tool workflows.",
+"DPA-T11-CH06": "Ahrefs Certification supports backlink and competitive research workflows; it is not a standalone digital PR or authority-building professional licence.",
+"DPA-T11-CH08": "Ahrefs Certification supports SEO reporting and analysis workflows; validate GSC/GA4 and reporting skill separately.",
+"DPA-T12-CH01": "HubSpot Inbound, MoEngage Growth Marketer and Braze Certified Marketing Strategy Expert cover different CRM/lifecycle platform paths. The Braze exam is a paid advanced certification; the free Braze learning path alone does not award a certificate. Indonesia CRM job descriptions explicitly name these platforms.",
+"DPA-T12-CH04": "The three routes cover customer journey and trigger-based communication in their respective platforms; the learner must still design a channel-neutral journey map.",
+"DPA-T12-CH05": "HubSpot Email Marketing and Salesforce Marketing Cloud credentials match email/engagement work; Salesforce Foundations is USD 75 and the Specialist exam is USD 200 before local taxes.",
+"DPA-T12-CH06": "MoEngage Growth Marketer and Braze Certified Marketing Specialist support automation and journey planning; HubSpot Email is an adjacent route. The Braze learning path is free, but its certification exam is paid.",
+"DPA-T12-CH07": "Salesforce Marketing Cloud Specialist and MoEngage support platform-specific messaging and optimization; deliverability and personalization still require applied work.",
+"DPA-T12-CH08": "MoEngage Analytics Expert covers funnel/cohort/retention analysis directly; use a learner portfolio to demonstrate lifecycle impact.",
+"DPA-T12-CH09": "These issuer routes support lifecycle optimization/reporting, but the chapter's test design and incremental lift analysis remain independently assessed."
 
-};
 
 for (var chapterId of Object.keys(placementOverrides)) {
   var routeIds = placementOverrides[chapterId];
