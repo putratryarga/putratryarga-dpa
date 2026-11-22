@@ -88,7 +88,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
       "url": "https://ads.tiktok.com/business/id/academy"
     },
     {
-      "title": "OpenAI Ads Manager — country eligibility (Indonesia partner rollout; self-service not listed, checked 22 Nov 2026)",
+      "title": "OpenAI Ads Manager — Indonesia is country-supported for self-service; confirm advertiser legal entity and account access (checked 22 Nov 2026)",
       "url": "https://help.openai.com/id-id/articles/20001245-ads-manager-availability"
     }
   ],

@@ -6,9 +6,9 @@
 
 - **Google AI Max:** AI Max for Search moved out of beta. DSA automatic migration was extended to February 2027; September 2026 migration applied to campaign-level broad match and standalone Automatically Created Assets. Do not state that every legacy search setting migrates in September.
 - **TikTok Smart+:** the October 2026 upgraded experience supports full automation, partial automation or fully manual control. Treat controls as module-level choices rather than assuming one campaign-wide switch: audience controls/suggestions/manual targeting; campaign or ad-group budget; automatic or manual placements; Smart+ Catalog or manual catalog flow; and creative combinations/reporting/multi-URL. The upgraded flow is documented for Sales, Lead Generation, App Promotion and Traffic objectives, but TikTok says the feature may not be enabled for every account; confirm the learner's account and market before promising availability.
-- **OpenAI Ads (21 Nov note superseded 22 Nov):** the 21 Nov snapshot interpreted an older localized country-list crawl as Indonesia self-service availability. A fresh 22 Nov check of the current English Help Center page (updated 1 hour before retrieval) and current Indonesian translation (updated 2 days before retrieval) did **not** list Indonesia for self-service Ads Manager. OpenAI's 23 Sep 2026 market announcement does include Indonesia in a partner-led ChatGPT Ads rollout via OpenAI Ads Solutions, agency and technology partners; this is not proof of self-service account eligibility. Treat Indonesia as **partner / Ads Solutions route announced; self-service not listed in the current country table; account-level eligibility unverified**.
+- **OpenAI Ads — Indonesia country status (22 Nov 2026):** the current English and Indonesian Ads Manager Availability Help Center pages list Indonesia as **Available** for self-service. The advertiser/billing legal entity must be based in a listed country; the Help Center separately warns that account creation and self-service access are not the same, so an individual ad account's provisioning and eligibility still need to be checked. OpenAI's 23 Sep 2026 announcement also describes Indonesia partner / Ads Solutions rollout. Record Indonesia as **country-supported for self-service; account-level access/eligibility still to be confirmed**, not as partner-only.
 - **OpenAI Academy:** courses are free and global. A badge requires completing its course and passing the assessment at 80% or above. Eligible pathway certificates require all courses and assessments. Badges and pathway certificates are not professional certifications.
-- **Microsoft Advertising Learning Lab:** three certification routes (Search, Display & Video, Retail) and seven learning paths. Passing all three certifications gives Microsoft Advertising Certified Expert status; learning-path badges are a distinct category.
+- **Microsoft Advertising Learning Lab:** three product certification routes (Search, Display & Video, Retail) and eight learning paths, including Holiday Best Practices. Passing all three certifications gives Microsoft Advertising Certified Expert status; learning-path badges are distinct from product certifications.
 - **Fintech elective:** do not add a third elective. Use fintech as a cross-sector case pack inside CF and relevant tracks unless the owner formally changes the 16+2 architecture.
 
 ## Recommendation disposition
@@ -42,7 +42,7 @@ The October Smart+ guide describes full/partial/manual controls and warns featur
 - https://ads.tiktok.com/help/article/how-to-request-tiktok-account-ad-delivery-permissions-in-business-center?lang=id
 
 ### OpenAI Ads and Academy
-**Current correction — 22 November 2026:** The latest English Ads Manager Availability page says self-service availability depends on the advertiser/billing legal entity's country and lists only Australia, Brazil, Canada, Japan, Korea, Mexico, New Zealand, the United Kingdom and the United States; Indonesia is absent. The current Indonesian translation lists Australia, Brazil, Canada, Japan, Korea, New Zealand, the United Kingdom and the United States as available (Mexico as coming soon); Indonesia is also absent. An earlier search-index snippet that showed Indonesia as available is stale and is not reliable account-eligibility evidence. Separately, OpenAI's 23 September 2026 announcement says ChatGPT Ads began rolling out in Indonesia through OpenAI Ads Solutions, agency partners and technology partners; it also says self-service Ads Manager is available only to eligible businesses. Therefore DPA must not promise Indonesian self-service signup. Record the market rollout and the access method separately. 
+**Current correction — 22 November 2026:** The current English Help Center availability page and Indonesian translation both list Indonesia as **Available** for self-service Ads Manager. The advertiser/billing legal entity must be based in a listed country; the Help Center distinguishes country support from actual account creation and access, which can depend on account eligibility/provisioning. OpenAI's 23 September 2026 market announcement separately describes partner / Ads Solutions rollout in Indonesia. Therefore DPA should record Indonesia as **country-supported for self-service**, while instructing learners to confirm their specific ad account and advertiser legal entity rather than promising every account is already provisioned. 
 
 **Sponsored Agent distinction:** the Help Center article for Sponsored Agents says the format remains limited alpha for selected advertisers and is not open for early-access requests. A separate Sponsored Business Agent setup page says the Ads Manager feature is rolling out to eligible advertisers over the coming weeks and only appears when the ad account has access. Keep this as a limited, account-dependent rollout, not a generally available capability. OpenAI Academy badges/course certificates remain distinct from professional certification.
 
@@ -54,7 +54,7 @@ The October Smart+ guide describes full/partial/manual controls and warns featur
 - https://help.openai.com/en/articles/20001270-openai-academy-courses
 
 ### Microsoft Advertising Learning Lab
-Three certification routes and seven learning paths are listed on the current official page; keep product certification and learning-path badge separate.
+Three certification routes and eight learning paths are listed on the current official page; keep product certification and learning-path badge separate.
 - https://about.ads.microsoft.com/en/resources/training-certification/learning-lab
 
 ### SEO / AI Search guidance
@@ -82,7 +82,7 @@ TikTok Shop seller terms describe affiliate functionality, public/targeted plans
 
 ## Country eligibility correction — 22 November 2026
 
-The 21 November OpenAI Ads self-service statement is superseded by the fresh 22 November review recorded above. The English and Indonesian Help Center country tables both omit Indonesia in the current snapshots. Indonesia's September market rollout announcement remains valid for partner/Ads Solutions access, but it must not be conflated with country-enabled self-service Ads Manager or assumed account entitlement. Recheck the official country table before giving learners an enrolment instruction; do not change it to `country-supported` unless the official self-service table lists Indonesia or the advertiser's account visibly grants access.
+The 21 November statement that Indonesia was self-service unavailable is superseded. The current English and Indonesian Help Center country tables checked on 22 November list Indonesia as Available. Country support is confirmed; individual account provisioning and legal-entity eligibility remain account-level checks. Keep this separate from the partner / Ads Solutions route announced in September.
 
 
 ## 22 November 2026 — operational control and issuer cross-check
@@ -124,7 +124,7 @@ Official evidence:
 
 ### Microsoft Advertising Learning Lab — credential taxonomy
 
-The current official Learning Lab page lists Microsoft Advertising product certifications in Search, Display & Video and Retail Advertising; passing all three earns Microsoft Advertising Certified Expert status. It currently lists seven learning paths: Search Advertising, Display & Video Advertising, Retail Advertising, Digital Advertising Fundamentals, Programmatic Advertising, Generative AI and Automation, and Performance Max. Do not count learning-path badges as product certifications. Keep this route optional and platform-specific; chapter placement still needs objective fit and account/region verification.
+The current official Learning Lab page lists Microsoft Advertising product certifications in Search, Display & Video and Retail Advertising; passing all three earns Microsoft Advertising Certified Expert status. It lists eight learning paths, including Holiday Best Practices, alongside Search Advertising, Display & Video Advertising, Retail Advertising, Digital Advertising Fundamentals, Programmatic Advertising, Generative AI and Automation, and Performance Max. Do not count learning-path badges as product certifications. Keep this route optional and platform-specific; chapter placement still needs objective fit and account/region verification.
 
 Official evidence:
 - Microsoft Advertising — [Learning Lab](https://about.ads.microsoft.com/en/resources/training-certification/learning-lab)
@@ -136,4 +136,4 @@ The Google DSA/ACA/broad-match dates and TikTok account-dependent Smart+ control
 
 ## Issuer retrieval limitation — 22 November 2026
 
-The Meta for Developers Conversions API v25 parameter page was directly requested during this review but returned HTTP 429. The source remains listed for future verification; no specific v25 required-parameter or hashing assertion is marked verified by this audit. Microsoft Advertising Learning Lab currently lists seven learning paths alongside three product certifications; earlier eight-path wording is superseded.
+The Meta for Developers Conversions API v25 parameter page was directly requested during this review but returned HTTP 429. The source remains listed for future verification; no specific v25 required-parameter or hashing assertion is marked verified by this audit. Microsoft Advertising Learning Lab currently lists eight learning paths alongside three product certifications; the earlier seven-path correction was superseded after a fresh issuer-page check.

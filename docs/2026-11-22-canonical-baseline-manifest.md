@@ -113,7 +113,7 @@ The static workflow generated 169 temporary **synthetic** vectors solely to self
 ## 5. Changes verified in this finalization pass
 
 - Reconciled README and Source of Truth to the 89-route / 150-of-169 chapter mapping / 264-placement / 187-URL snapshot; historical count checkpoints are retained as historical, not current inventory.
-- Corrected the OpenAI Ads country-access wording: Indonesia's September market announcement is a partner/Ads Solutions rollout, while the current English and Indonesian self-service country tables do not list Indonesia. Sponsored Agents remains limited alpha; Sponsored Business Agent access is account-dependent.
+- Corrected the OpenAI Ads country-access wording: Indonesia is listed as Available in the current English and Indonesian self-service country tables; the advertiser/billing legal entity and individual account provisioning must still be checked. The September partner/Ads Solutions rollout is a separate access route. Sponsored Agents remains limited alpha; Sponsored Business Agent access is account-dependent.
 - Strengthened credential validation: all 89 issuer definitions must be reachable from a Core or Foundation chapter map; duplicate route IDs per chapter and mismatched Foundation map/audit IDs fail validation; all 16 TikTok Academy Achievement route IDs are asserted and remain distinct from the paid TikTok Media Buying Professional Certification.
 - Strengthened the 169 core-guide validator: concept, worked example and practice each at least 100 characters; at least four sequenced steps; at least three question/answer-guided checks; at least four defined glossary terms; at least two unique HTTPS resources.
 - Strengthened Chromium rendering checks for the same core guide substance while allowing the learner-facing deliverable brief to be shorter than the underlying full practice guide.
@@ -163,5 +163,10 @@ The Preview is still protected by project SSO for its deployment hostname. These
 
 ## Issuer-page verification delta — 22 November 2026
 
-- Microsoft Advertising Learning Lab currently displays three product certifications (Search, Display & Video, Retail) and seven learning paths (Search, Display & Video, Retail, Digital Advertising Fundamentals, Programmatic Advertising, Generative AI and Automation, Performance Max). Passing all three product certifications confers Microsoft Advertising Certified Expert status. This exact list supersedes the earlier eight-learning-path wording.
+- Microsoft Advertising Learning Lab currently displays three product certifications (Search, Display & Video, Retail) and eight learning paths, including Holiday Best Practices. Passing all three product certifications confers Microsoft Advertising Certified Expert status. This exact list supersedes the earlier seven-learning-path correction.
 - Meta for Developers Conversions API v25 parameter documentation was requested directly but returned HTTP 429 from the review environment. Do not treat exact field-level requirements, supported event lists or hashing requirements as verified in this snapshot; recheck the issuer page before publishing parameter-specific lesson instructions. The link is retained as a primary reference, not a completed verification.
+
+
+## Current country/issuer correction — 22 November 2026
+
+OpenAI Ads Manager's current English and Indonesian Help Center availability tables list Indonesia as Available for self-service. This establishes country-supported status, not automatic provisioning of every advertiser account; the advertiser/billing legal entity must be in the listed country and account-specific access must still be confirmed. Microsoft's current Learning Lab issuer page lists eight learning paths alongside three product certifications, including Holiday Best Practices. Meta CAPI v25 parameter details remain unverified due HTTP 429 as recorded above.
