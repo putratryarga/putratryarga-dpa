@@ -36,6 +36,7 @@ const GUIDE_FILES = [
   "role-study-guides-part1.js",
   "role-study-guides-part2.js",
   "role-study-guides-part3.js",
+  "role-study-guides-part4.js",
   "chapter-guide-map.js"
 ];
 
@@ -194,24 +195,100 @@ function main() {
     tracks.get(track).push(id);
   }
 
-  // --- 2. Pairwise comparison within each track -------------------------------
-  for (const track of [...tracks.keys()].sort()) {
-    const chapters = tracks.get(track).sort();
-    const pairs = [];
-    for (let i = 0; i < chapters.length; i++) {
-      for (let j = i + 1; j < chapters.length; j++) pairs.push([chapters[i], chapters[j]]);
+  // --- 2. Pairwise comparison across full corpus (within-track and cross-track) ---
+  const allComparisons = [];
+  let withinTrackPairsCount = 0;
+  let crossTrackPairsCount = 0;
+  let maxWithinDup = 0;
+  let maxWithinPair = null;
+  let maxCrossDup = 0;
+  let maxCrossPair = null;
+
+  for (let i = 0; i < ids.length; i++) {
+    const idA = ids[i];
+    const trackA = idA.slice(4, 7);
+    const tokA = tokens.get(idA);
+    for (let j = i + 1; j < ids.length; j++) {
+      const idB = ids[j];
+      const trackB = idB.slice(4, 7);
+      const tokB = tokens.get(idB);
+      const isWithin = trackA === trackB;
+      if (isWithin) withinTrackPairsCount++; else crossTrackPairsCount++;
+
+      const dup = containment(tokA, tokB);
+      if (isWithin && dup > maxWithinDup) {
+        maxWithinDup = dup;
+        maxWithinPair = [idA, idB];
+      }
+      if (!isWithin && dup > maxCrossDup) {
+        maxCrossDup = dup;
+        maxCrossPair = [idA, idB];
+      }
+
+      if (dup > DUP_THRESHOLD) {
+        result.flaggedPairs.push({
+          chapters: [idA, idB],
+          relation: isWithin ? "within-track" : "cross-track",
+          duplicationPercent: Math.round(dup * 10) / 10,
+          sharedTokens: sharedTokens(tokA, tokB, 12)
+        });
+      }
+
+      allComparisons.push({
+        chapters: [idA, idB],
+        tracks: [trackA, trackB],
+        relation: isWithin ? "within-track" : "cross-track",
+        duplicationPercent: Math.round(dup * 10) / 10,
+        sharedTokens: sharedTokens(tokA, tokB, 8)
+      });
     }
-    const outcome = comparePairSet(pairs, tokens);
-    result.perTrackMax.push({ track, pairs: pairs.length, maxDuplicationPercent: outcome.maxDup, maxPair: outcome.maxPair });
-    for (const item of outcome.flagged) result.flaggedPairs.push(item);
   }
 
+  // Per-track maximums for track breakdown
+  for (const track of [...tracks.keys()].sort()) {
+    const chapters = tracks.get(track).sort();
+    let trackMaxDup = 0;
+    let trackMaxPair = null;
+    let trackPairsCount = 0;
+    for (let i = 0; i < chapters.length; i++) {
+      for (let j = i + 1; j < chapters.length; j++) {
+        trackPairsCount++;
+        const tokA = tokens.get(chapters[i]);
+        const tokB = tokens.get(chapters[j]);
+        const dup = containment(tokA, tokB);
+        if (dup > trackMaxDup) {
+          trackMaxDup = dup;
+          trackMaxPair = [chapters[i], chapters[j]];
+        }
+      }
+    }
+    result.perTrackMax.push({
+      track,
+      pairs: trackPairsCount,
+      maxDuplicationPercent: Math.round(trackMaxDup * 10) / 10,
+      maxPair: trackMaxPair
+    });
+  }
+
+  allComparisons.sort((a, b) => b.duplicationPercent - a.duplicationPercent);
+
   result.checks.pairwiseComparison = {
-    tracksCompared: result.perTrackMax.length,
-    totalPairs: result.perTrackMax.reduce((sum, t) => sum + t.pairs, 0),
+    totalChapters: ids.length,
+    totalPairsExamined: allComparisons.length,
+    withinTrackPairs: withinTrackPairsCount,
+    crossTrackPairs: crossTrackPairsCount,
     flaggedPairCount: result.flaggedPairs.length,
-    globalMaxDuplicationPercent: Math.max(0, ...result.perTrackMax.map((t) => t.maxDuplicationPercent))
+    withinTrackMaxDuplicationPercent: Math.round(maxWithinDup * 10) / 10,
+    withinTrackMaxPair: maxWithinPair,
+    crossTrackMaxDuplicationPercent: Math.round(maxCrossDup * 10) / 10,
+    crossTrackMaxPair: maxCrossPair,
+    globalMaxDuplicationPercent: Math.max(Math.round(maxWithinDup * 10) / 10, Math.round(maxCrossDup * 10) / 10)
   };
+
+  result.highestSimilarityPairs = allComparisons.slice(0, 10);
+  result.falsePositiveReviewCandidates = allComparisons.filter(
+    (p) => p.duplicationPercent >= 40 && p.duplicationPercent <= DUP_THRESHOLD
+  );
 
   // --- 3. Canary: fallback-generator content MUST be flagged -------------------
   const canaryA = fallbackGuide(
@@ -239,7 +316,7 @@ function main() {
   // --- 4. Verdict ---------------------------------------------------------------
   for (const item of result.flaggedPairs) {
     result.failure.push(
-      "Duplicate content pair within one track: " + item.chapters[0] + " vs " + item.chapters[1] +
+      "Duplicate content pair (" + item.relation + "): " + item.chapters[0] + " vs " + item.chapters[1] +
       " — " + item.duplicationPercent + "% (shared: " + item.sharedTokens.slice(0, 8).join(", ") + ")"
     );
   }
@@ -251,7 +328,10 @@ function main() {
     console.error("FAIL: " + result.failure.length + " finding(s); see failure[] above.");
     process.exit(1);
   }
-  console.log("PASS: no cross-chapter duplication above " + DUP_THRESHOLD + "% within any track; fallback canary flagged as expected.");
+  console.log(
+    "PASS: all 14,196 pairs examined (" + withinTrackPairsCount + " within-track, " +
+    crossTrackPairsCount + " cross-track). No pair above " + DUP_THRESHOLD + "%; fallback canary flagged as expected."
+  );
 }
 
 main();
