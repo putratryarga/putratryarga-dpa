@@ -18,6 +18,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Map revenue model, customer, offer, pricing, fulfilment and repeat cycle. (2) Build a KPI tree from business outcome to journey behaviours and operational drivers. (3) Calculate baseline conversion and contribution using consistent population and period definitions. (4) List non-digital constraints such as stock, sales response, eligibility, pricing and delivery. (5) Write a conversion charter stating scope, owner, baseline, target, guardrails and exclusions.
 
+**Worked example (SIMULATED).** A D2C subscription product sells for Rp250,000. Product, fulfilment, payment and introductory-discount costs total Rp150,000, leaving Rp100,000 contribution before acquisition. If fully loaded CAC is Rp72,000, first-order contribution after acquisition is Rp28,000 before fixed overhead. A plan using Rp95,000 CAC may still grow orders but destroys first-order contribution unless repeat-purchase evidence supports the payback. State the cohort, return/refund window and margin basis before projecting LTV; do not use revenue-only LTV as profit.
+
 **Practice.** Use a synthetic subscription or commerce business. Model traffic, sessions, orders, AOV, gross margin, variable fulfilment cost, refund rate, paid acquisition cost and repeat behaviour. Compare a revenue-growth scenario with a contribution-growth scenario.
 
 **Required artifact and acceptance.** Business/conversion model and KPI tree. Show definitions, formulas, time window, source or synthetic label, assumptions, guardrails, capacity constraints and at least two scenarios. Reconcile subtotals and explain why a higher-revenue option may be rejected.
@@ -39,6 +41,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Research reduces decision uncertainty. Quantitative data shows the scale and distribution of behaviour; interviews and usability sessions help explain context, motivation and friction. Neither method proves more than its design permits. Recruitment must reflect the target population and task. Distinguish a customer statement, observed behaviour, analyst interpretation and business hypothesis. Triangulation means comparing independent evidence, not repeating the same assumption in three formats.
 
 **Workflow.** (1) Define the decision and research questions before choosing a method. (2) Specify segment, eligibility, recruitment, sample limitations and consent. (3) Collect behavioural analytics, support themes, reviews, surveys or interviews as appropriate. (4) Code evidence into needs, triggers, barriers and workarounds while preserving context. (5) Triangulate findings and label confidence, contradiction and unanswered questions.
+
+**Worked example (SIMULATED).** Twelve interviews with recent purchasers reveal that five participants mention uncertainty about delivery timing and four mention difficulty comparing product variants. These counts identify hypotheses inside this small purposive sample; they are not population prevalence. The team codes verbatim evidence by trigger, barrier and decision criterion, checks contradictions, then tests prevalence with a separately designed survey and behavioural analytics. Keep respondent selection, recruitment channel and missing segments visible in the research log.
 
 **Practice.** Investigate a synthetic checkout abandonment problem. Combine funnel data, five simulated interview transcripts and a usability observation log. Mark all material synthetic. Produce three insight statements with evidence links and competing explanations.
 
@@ -62,6 +66,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Translate decisions into metrics and an event dictionary. (2) Map page/screen, action, trigger, event name, parameters and allowed values. (3) Specify identity, consent state, retention, access and suppression. (4) Define implementation owner, environment, test data and expected sequence. (5) Test duplicate, missing, malformed, out-of-order and consent-denied cases; record release criteria.
 
+**Worked example (SIMULATED).** A commerce team defines view_item, add_to_cart, begin_checkout and purchase with a common event_id and item identifier. Browser and server events send the same purchase twice; the reconciliation report shows 120 browser events and 120 server events but only 120 unique event IDs, not 240 purchases. The data contract specifies consent state, currency, value, event time, source, deduplication and owner. Test denied-consent behaviour and never place direct personal identifiers in event parameters.
+
 **Practice.** Create a measurement specification for a three-step application form. Include view, start, validation error, step completion, submit and confirmed outcome. Test duplicate submit and consent denied.
 
 **Required artifact and acceptance.** Measurement specification and analytics QA checklist. Include event names, triggers, parameters, data types, sample payloads, consent handling, identity assumptions, source of truth, test cases, owners and known limitations.
@@ -83,6 +89,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** A funnel is a sequence of explicitly defined eligible events. Conversion between adjacent stages is not interchangeable with end-to-end conversion. Segment comparisons require stable definitions, adequate sample and attention to selection effects. A large drop-off is not automatically an opportunity: it may be an expected choice, eligibility filter, instrumentation gap or duplicate event. Begin with data quality and cohort construction, then size the opportunity under realistic constraints.
 
 **Workflow.** (1) Validate event sequence, deduplication, timezone, eligibility and population definitions. (2) Calculate step conversion, abandonment and end-to-end rate with denominators. (3) Segment by device, source, audience, product and relevant context. (4) Quantify affected volume and plausible recoverable share without assuming every exit is fixable. (5) Rank issues by evidence, impact, confidence, effort and risk.
+
+**Worked example (SIMULATED).** In one week, 40,000 eligible product-detail views produce 8,000 add-to-carts (20%), 4,000 checkouts (50% of carts) and 2,000 purchases (50% of checkouts). The overall view-to-purchase rate is 5%. A device cut shows mobile checkout completion at 35% versus desktop at 62%; this is a diagnostic association, not proof that mobile UX caused the gap. Check payment mix, traffic quality, stock, latency and tracking before prioritising a test.
 
 **Practice.** Analyze a synthetic five-step funnel with device and traffic-source splits. Introduce one tracking defect and one genuine UX issue; distinguish them through reconciliation checks.
 
@@ -106,6 +114,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Define target user, task, context and success criteria. (2) Audit supported devices, keyboard paths and error states. (3) Inspect analytics, user feedback, usability evidence and privacy-safe behaviour tools. (4) Describe each issue by user, context, evidence, severity and task impact. (5) Prioritize fixes and specify post-release verification.
 
+**Worked example (SIMULATED).** In eight moderated usability sessions, six participants hesitate when delivery fees appear only on the final checkout step. This is qualitative evidence of a recurring friction pattern in the tested task, not a six-of-eight estimate for the whole market. A proposed improvement shows a delivery estimate on the product page and cart. The team checks comprehension, page speed, fulfilment accuracy, refund rate and contribution margin before measuring conversion impact.
+
 **Practice.** Audit a synthetic mobile product-detail-to-checkout journey. Record five issues, distinguish accessibility blockers from preference issues, and prototype two improvements.
 
 **Required artifact and acceptance.** UX/CX audit with prioritized recommendations. Each issue includes screenshot or reproducible description, affected task, evidence, severity rationale, accessibility/privacy consideration, recommended change and verification metric.
@@ -127,6 +137,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** A hypothesis states a change, target population, expected mechanism and measurable outcome. It is not a feature request disguised as a sentence. ICE or impact-confidence-effort scores are discussion aids, not objective truth; anchors and evidence must be visible. Estimate value with ranges and distinguish potential gross uplift from net incremental contribution. Include dependencies, customer harm, implementation risk and opportunity cost.
 
 **Workflow.** (1) Write the observed problem and evidence before proposing a solution. (2) State intervention, audience, mechanism, primary metric and guardrails. (3) Estimate eligible population, baseline and realistic effect range. (4) Score impact, confidence, effort, dependencies and risk using defined anchors. (5) Create a ranked backlog and document why lower-ranked ideas were deferred.
+
+**Worked example (SIMULATED).** The backlog contains two ideas. Idea A has impact 7/10, confidence 0.8 and effort 2; using the team's simple ICE-like score (impact × confidence ÷ effort) gives 2.8. Idea B has impact 9, confidence 0.3 and effort 6, giving 0.45. A ranks first for investigation, but the score is a prioritisation aid, not a probability or forecast. Record why confidence is low, what evidence would change it and whether dependencies make the nominal effort misleading.
 
 **Practice.** Turn eight observed checkout or onboarding issues into hypotheses. Prioritize them under a fixed engineering capacity constraint and show how ranking changes under a risk-first scenario.
 
@@ -150,6 +162,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Translate the hypothesis into treatment/control and define randomization unit. (2) Specify eligibility, exclusions, assignment, exposure logging and crossover rules. (3) Choose one primary metric plus diagnostic and guardrail metrics. (4) Estimate sample requirement and duration from baseline, minimum detectable effect, alpha, power and traffic. (5) Pre-register analysis, stopping, decision and rollout conditions; QA before exposure.
 
+**Worked example (SIMULATED).** An ecommerce team tests an earlier delivery-cost estimate. It assigns eligible signed-in users by stable user ID, keeps one variant per user, logs assignment separately from actual exposure and runs both variants over the same weekday/weekend mix. The primary metric is purchase per eligible assigned user; guardrails are contribution margin per user, cancellation, refund and page latency. The pre-registration states exclusions, sample plan, stopping rule and rollout conditions before the first result is visible.
+
 **Practice.** Design an A/B test for a checkout progress indicator. Specify assignment, exposure event, primary conversion, revenue/margin guardrails, sample-size assumptions, duration constraint and stop conditions.
 
 **Required artifact and acceptance.** Experiment brief and pre-registration plan. It must be implementable by product, engineering and analytics without undocumented decisions; include randomization, event QA, analysis, risk and rollback.
@@ -171,6 +185,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Statistical significance is not business importance. Define the estimand, unit, baseline, effect scale, uncertainty interval, alpha, power and minimum detectable effect. For binary conversion, a planning approximation depends on baseline rate, detectable difference, alpha and power; final methods must account for variance, clustering, repeated observations and platform design. Repeated peeking, unplanned comparisons and post-hoc subgroup hunting can inflate false positives.
 
 **Workflow.** (1) State target effect in absolute and relative terms. (2) Estimate sample size with a documented method and defensible baseline. (3) Check randomization, sample-ratio mismatch, novelty, seasonality, interference and tracking. (4) Report effect estimate, interval and practical interpretation. (5) Account for multiplicity and stopping design; document inconclusive outcomes.
+
+**Worked example (SIMULATED).** A team plans to detect an absolute conversion-rate increase from 5.0% to 5.5% with two-sided 5% alpha and 80% power. A conventional two-proportion normal approximation gives roughly 31,300 observations per arm before allowance for clustering, repeated users, attrition or implementation loss. The plan documents the formula/tool version and baseline source. If traffic cannot reach the requirement in a practical period, redesign the test or accept that it may be inconclusive; do not lower the MDE after seeing results.
 
 **Practice.** Analyze synthetic binary-conversion and revenue-per-user experiments. Compare effect size, interval width, power assumptions and commercial value; include an inconclusive result.
 
@@ -194,6 +210,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Translate the brief into configuration, code and data contracts. (2) Validate targeting, persistent assignment, rendering and fallback. (3) Test events, deduplication, exposure and analytics reconciliation. (4) Check device/browser, performance, accessibility and consent behaviour. (5) Define staged rollout, monitoring, rollback owner and post-launch verification.
 
+**Worked example (SIMULATED).** A feature flag expects 50/50 assignment across 20,000 eligible users but receives 12,400 treatment and 7,600 control assignments. This sample-ratio mismatch is a launch-blocking diagnostic until allocation, eligibility and logging are reconciled. The QA run checks persistent assignment, exposure, duplicate events, cross-device identity, bot/internal traffic, variant rendering, analytics parity and rollback. A passing interface smoke test alone does not establish experiment integrity.
+
 **Practice.** Create an implementation and QA plan for a form-layout experiment, including logged-in/out users, devices, consent denial, cached pages and a rollback failure scenario.
 
 **Required artifact and acceptance.** Implementation plan and test QA log with test matrix, expected/actual output, severity, evidence, owner, fix verification and go/no-go recommendation.
@@ -215,6 +233,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Attribution assigns credit according to a rule; incrementality estimates what would not have happened without the intervention. A randomized holdout is often strong when feasible, but customer randomization may be unsuitable because of spillover, shared devices, marketplace effects or operational constraints. Geo tests and matched-market designs require comparable regions, sufficient pre-periods and stable boundaries. Difference-in-differences depends on a defensible parallel-trends assumption. Report uncertainty and limits.
 
 **Workflow.** (1) Define causal question, treatment, outcome, population and horizon. (2) Choose design based on randomization feasibility, spillover and available units. (3) Set baseline/pre-period, comparison group and contamination controls. (4) Predefine estimator, uncertainty and sensitivity checks. (5) Interpret causal estimate separately from attributed conversions and platform-reported credit.
+
+**Worked example (SIMULATED).** A randomized holdout compares purchase rates of 5.0% in the exposed group and 4.0% in the control group over the same eligibility and time window. The absolute lift is 1 percentage point and relative lift is 25%; at 10,000 exposed eligible users, the point estimate represents about 100 additional purchases versus the control rate. Convert those estimated incremental purchases to contribution margin after discounts, returns and variable costs, then report uncertainty and spillover limitations. Do not substitute platform-attributed conversions for the counterfactual.
 
 **Practice.** Compare a user-level holdout and geo experiment for a fictional regional promotion. Identify where spillover, low volume and pre-trend differences weaken the alternatives.
 
@@ -238,6 +258,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Identify a journey need and define audience rule. (2) Document data source, freshness, purpose, consent, exclusions and access. (3) Design content/offer variants with fallback and frequency policy. (4) Coordinate channel timing, suppression and preference management. (5) Measure incremental journey outcome and monitor complaints, fairness and fatigue.
 
+**Worked example (SIMULATED).** A replenishment journey offers a reminder 25 days after a purchase, but only to customers whose product usage makes that timing plausible, who have valid marketing permission and who have not reordered, returned the product or contacted support with an unresolved issue. A 10% randomized holdout measures incremental repeat contribution. Frequency caps, channel preference, quiet hours, opt-out, data retention and fallback when a signal is missing are part of the design, not post-launch cleanup.
+
 **Practice.** Design a post-signup onboarding journey for new and returning customers. Include data minimization, fallback content, contact caps and an experiment plan.
 
 **Required artifact and acceptance.** Personalization strategy and measurement plan with audience definitions, data map, consent/purpose, decision rules, variant rationale, fallback, frequency, suppression, KPIs and risk controls.
@@ -259,6 +281,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** A mature programme is measured by decision quality and learning, not test count. Governance defines intake, evidence thresholds, prioritization, capacity, design review, QA, launch permissions, analysis ownership, knowledge retention and escalation. Portfolio management balances foundational fixes, high-risk tests and strategic bets. Every experiment needs a decision owner and path for shipping, iterating or stopping. Preserve negative and inconclusive results.
 
 **Workflow.** (1) Set programme charter, scope, decision rights and critical-failure rules. (2) Create intake and triage with readiness requirements. (3) Allocate engineering, design, analytics and research capacity. (4) Run design/statistical/technical review before launch and analysis review after completion. (5) Maintain searchable repository, decision log and quarterly learning review.
+
+**Worked example (SIMULATED).** A quarterly experimentation programme receives 40 ideas but has capacity for 12 properly instrumented tests. The team first excludes tests with missing events, unresolved privacy basis or no decision owner. It then ranks the remainder by decision value, uncertainty reduction, expected impact, cost and dependency, while reserving capacity for replication and technical debt. A programme dashboard reports launched, completed, inconclusive and invalidated tests separately; an experiment count is not a measure of commercial value.
 
 **Practice.** Create a quarterly operating model for a product team with one engineer, one analyst and limited design support. Allocate capacity and show escalation for a privacy-critical issue.
 
@@ -282,6 +306,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Summarize decision, evidence, population and result. (2) Translate effect into a financial model with explicit scenario assumptions. (3) Subtract implementation, operational and variable costs; show sensitivity. (4) Compare alternatives, downside, opportunity cost and risks. (5) Write executive recommendation with owner, timing, guardrails and review date.
 
+**Worked example (SIMULATED).** A test is estimated to add 900 incremental orders with Rp85,000 contribution per order after product, fulfilment, discount and payment costs. Estimated incremental contribution is Rp76.5 million. If implementation and media costs total Rp28 million, estimated net contribution is Rp48.5 million before fixed overhead and uncertainty. The executive readout shows the confidence range, payback horizon, sensitivity to returns and the conditions under which rollout should stop.
+
 **Practice.** Prepare a two-page investment memo for a checkout improvement with uncertain conversion lift and measurable implementation cost.
 
 **Required artifact and acceptance.** Executive business case and recommendation narrative. Show base/upside/downside, net contribution, time horizon, evidence versus forecast, risks, alternatives and decision requested.
@@ -303,6 +329,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** The capstone demonstrates a complete chain from business problem to sustained outcome. A polished presentation cannot compensate for invalid measurement or unsupported claims. Show how a research signal becomes an opportunity, why the intervention was selected, how it was implemented and tested, what the result means, and what leadership should do next. Use synthetic evidence where live access is unavailable and label it throughout. Recommendations must respect capacity, privacy and uncertainty.
 
 **Workflow.** (1) Frame business problem, audience, value model and journey scope. (2) Synthesize research, analytics and UX evidence into a prioritized opportunity set. (3) Design and technically QA one experiment plus an appropriate measurement alternative. (4) Analyze results, uncertainty, guardrails and commercial implications. (5) Present a 90-day roadmap, governance model and executive decision request.
+
+**Worked example (SIMULATED).** A fictional Indonesian retailer has 90 days to improve profitable conversion. The learner receives a synthetic event dataset, unit economics, usability notes, campaign costs, consent constraints and an experiment backlog. The reference decision must connect the business problem to a validated funnel diagnosis, prioritised UX change, test design, incremental contribution scenario, CRM suppression rules and executive recommendation. Every projected result is labelled SIMULATED and every missing real-world input is disclosed.
 
 **Practice.** Build an end-to-end CRO portfolio for a fictional Indonesian commerce or subscription product. Include one completed synthetic experiment and one future test with a defensible causal plan.
 
@@ -329,6 +357,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Identify advertiser, agency, media owner, measurement provider and third-party suppliers. (2) Map each party's commercial interest, data access and accountability. (3) Draw the campaign workflow and approval gates. (4) Assign RACI for budget, schedule, creative, legal, delivery, reporting and payment. (5) Document conflict checks, escalation path and records retention.
 
+**Worked example (SIMULATED).** A national launch involves an advertiser, lead agency, specialist buying team, television and radio owners, an OOH vendor and an independent measurement provider. The RACI names who owns the brief, audience definition, plan, rate negotiation, insertion order, creative clearance, proof of posting, invoice reconciliation and post-buy. Agency holding-company affiliation does not replace the contracting legal entity; record the actual seller, commission/fee basis, conflicts and approval trail.
+
 **Practice.** Build an ecosystem map and RACI for a fictional national consumer campaign involving a TV broadcaster, radio network, OOH operator, agency and audience-measurement supplier.
 
 **Required artifact and acceptance.** Ecosystem map and campaign workflow. Include all stakeholders, money/inventory/data flows, owners, approvals, handoffs, conflicts and escalation. Every key activity must have one accountable owner.
@@ -350,6 +380,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Audience research begins with the commercial question: whom must the campaign influence, in what geography and purchase context, and what behaviour matters? Demographic descriptions alone often conceal differences in need, category use, media habits, language, affordability and decision authority. Research may combine survey, panel, census, customer data, location data and qualitative insight. Every source has a universe, fieldwork period, sample frame, weighting, question wording and limitation. Do not combine incomparable sources as if they measure the same population.
 
 **Workflow.** (1) Define the target audience and buying/usage behaviour. (2) Specify geography, age or other permitted characteristics, category and time period. (3) Inventory research sources and inspect universe, sample, fieldwork, weighting and method. (4) Identify coverage gaps, duplication and confidence limitations. (5) Translate evidence into a media audience brief and supplier questions.
+
+**Worked example (SIMULATED).** A brand commissions a 1,200-person audience survey with regional and age quotas. The sample includes an online panel and an intercept component, so the researcher documents recruitment, weighting, non-response, coverage and the effect of quota design. Results show higher stated awareness in one region, but the report does not call it a population estimate unless the sampling and weighting support that inference. Media behaviour is triangulated with audited provider data and campaign evidence.
 
 **Practice.** Compare three fictional audience sources for an Indonesian personal-care category: a syndicated panel, a client CRM extract and a qualitative study. Identify what each can and cannot support.
 
@@ -373,6 +405,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Read the measurement definition and target universe. (2) Verify period, geography, unit, sample and collection method. (3) Calculate or interpret rating, reach, frequency, GRP/TRP, CPM and CPP only with consistent bases. (4) Inspect duplication, co-viewing, panel error, modeled values and audit status. (5) State what comparisons are valid and what cannot be added or converted.
 
+**Worked example (SIMULATED).** In a defined TV target universe, a schedule buys two programmes rated 5.0 and four spots in a programme rated 3.0. Gross rating points are (2 × 5.0) + (4 × 3.0) = 22 GRP. At a net cost of Rp220 million, CPP is Rp10 million per GRP. If the same measurement source estimates 14% deduplicated reach, average frequency is 22 ÷ 14 = 1.57. The universe, period, target, rating source and deduplication method must match before these values are compared.
+
 **Practice.** Use a synthetic TV schedule and two competing audience reports. Calculate GRP and CPP; identify a reach-duplication problem and explain why adding station reach percentages overstates total campaign reach.
 
 **Required artifact and acceptance.** Measurement evaluation with formula sheet, universe, source/method metadata, calculation checks, duplication caveat, confidence limitation and a written recommendation about whether the sources are comparable.
@@ -394,6 +428,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** TV planning balances target audience, programme context, daypart, spot length, schedule weight, reach, frequency, cost and creative suitability. A low-cost spot may deliver little target audience or cluster exposure inefficiently. A schedule must specify station, programme/daypart, date, position, duration, spot count, rating assumption, gross and net cost, audience target and cancellation conditions. Ratings are estimates under a defined measurement system; campaign reach and duplication require a valid cross-programme or cross-channel method. Do not convert a platform forecast into a guarantee.
 
 **Workflow.** (1) Confirm brief, target, geography, dates, objective and budget. (2) Compare station/programme inventory, audience profile and quality. (3) Build alternative schedules and calculate rating points, reach/frequency where supported, CPM/CPP and cost. (4) Apply placement, separation, adjacency and brand-safety rules. (5) Record assumptions, booking deadlines, material specs and reconciliation method.
+
+**Worked example (SIMULATED).** A broadcast plan schedules 40 spots with an average target rating of 2.5, producing 100 GRP. The net investment is Rp400 million, so CPP is Rp4 million. If the measurement provider estimates 30% target reach under the same universe and period, average frequency is 3.33. The planner still checks daypart, programme context, spot length, audience composition, regional coverage and final as-run logs; the average rating alone does not prove that every insertion delivered the planned audience.
 
 **Practice.** Prepare two schedules for a fictional consumer launch: one reach-led and one frequency-led. Use simulated ratings and net rates; label all assumptions and test a 10% inventory shortfall.
 
@@ -417,6 +453,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Define audience, geography, occasion and role of audio. (2) Compare station, programme, podcast or streaming inventory and measurement currency. (3) Build spot/ad schedule with daypart, length, frequency and budget. (4) Confirm creative production, copy approval, trafficking and proof. (5) Reconcile planned versus delivered spots/listens and evaluate outcomes.
 
+**Worked example (SIMULATED).** A radio plan books 60 thirty-second spots with an average target rating of 2.0, or 120 GRP. At Rp90 million net, CPP is Rp750,000. A reported 20% reach would imply an average frequency of 6 only if reach and GRP use the same target, period and measurement basis. Compare station coverage, daypart, audio stream versus over-the-air delivery, spot logs and audience currency; do not transfer a digital audio CPM directly to broadcast radio.
+
 **Practice.** Build a four-week audio plan for a local retail launch with radio and podcast options. Use simulated audience/cost data and separate broadcast reach from digital impression estimates.
 
 **Required artifact and acceptance.** Radio/audio plan with audience rationale, inventory, schedule, spot length, reach/frequency basis, cost, creative spec, measurement definition, delivery proof and evaluation plan.
@@ -438,6 +476,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Print investment depends on publication audience, editorial context, issue frequency, format, position, geography, circulation and readership methodology. Circulation is not identical to unique readers. A copy may be shared, remain unread or reach a different audience than the campaign's intended target. Compare audited circulation, readership research and publisher claims on their own definitions. Placement premiums, insertions, advertorials, supplements and production costs must be separated from media cost. Editorial association and disclosure rules require review.
 
 **Workflow.** (1) Define target, geography, issue date and communication role. (2) Evaluate publications, editorial context and audience evidence. (3) Compare circulation/readership definition, audit, period and duplication. (4) Select size, position, format, insertion and creative production. (5) Specify material deadline, proof of publication, cancellation and billing terms.
+
+**Worked example (SIMULATED).** Five print insertions cost Rp25 million each, or Rp125 million. If audited circulation is 50,000 copies per issue, the five insertions represent 250,000 distributed copies; if a separate readership study estimates 150,000 readers per issue, gross readership opportunities are 750,000. CPM is Rp500,000 on the circulation denominator but about Rp166,667 on the readership denominator. Both calculations can be arithmetically correct and still answer different questions; label the denominator and audit basis.
 
 **Practice.** Compare three fictional publication proposals for a financial-services campaign. Detect an apples-to-oranges comparison where one supplier presents circulation, another readership and another claimed monthly visitors.
 
@@ -461,6 +501,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Define target geography, audience movement and campaign occasion. (2) Map sites, formats, visibility, dwell and inventory availability. (3) Review audience/exposure methodology, source period and model. (4) Build location/format mix, schedule, share of voice and budget. (5) Specify proof-of-play, photographs, uptime, maintenance, makegoods and post-campaign validation.
 
+**Worked example (SIMULATED).** An OOH supplier models 120,000 opportunities-to-see per week across ten sites. A two-week flight therefore reports 240,000 gross modeled OTS; an Rp80 million investment gives a model-based CPM of about Rp333,333. This does not represent 240,000 unique people or verified individual views. The plan records location, direction, visibility, dwell, traffic source, model version, audience universe and independent-audit status before comparing options.
+
 **Practice.** Evaluate ten fictional Jakarta OOH/DOOH sites for a retail opening. Use synthetic traffic and visibility data; identify sites with high traffic but poor target or viewing conditions.
 
 **Required artifact and acceptance.** OOH/DOOH plan with location map, format, audience rationale, exposure method, time/loop assumptions, cost, creative spec, proof requirements and limitations.
@@ -482,6 +524,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Cinema and sponsorship combine audience access with context, association and experience. They may include screen ads, foyer placements, product sampling, event integration, naming rights, category exclusivity, content rights, hospitality and data capture. The proposal should distinguish guaranteed deliverables from estimated exposure, editorial association and optional value-add. A sponsorship valuation is not a simple media-equivalent multiplier; it must explain audience relevance, rights, activation cost, exclusivity, duration, usage rights and evidence of delivery.
 
 **Workflow.** (1) Define objective and desired audience experience. (2) Inventory rights, placements, access, exclusivity and activation options. (3) Value each deliverable using cost, audience, quality and strategic fit. (4) Review production, approvals, safety, data collection, talent and usage rights. (5) Set proof, reporting, cancellation, replacement and makegood terms.
+
+**Worked example (SIMULATED).** A cinema package includes 30 screens for four weeks, with a specified number of scheduled showings, on-screen spots and foyer assets. The commercial comparison separates guaranteed placements, audience estimates, sponsorship rights, category exclusivity, creative production, sampling permissions and proof-of-delivery. A package with the highest gross attendance estimate may be weaker if its audience, film schedule, territory or activation rights do not fit the target. Confirm makegood and cancellation terms in writing.
 
 **Practice.** Evaluate a fictional cinema-and-festival package. Separate guaranteed screen spots, estimated attendance, sampling rights, data capture, category exclusivity and optional social posts.
 
@@ -505,6 +549,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Set objective, target, geography, timing and constraints. (2) Assign roles to TV, audio, print, OOH, cinema and partnerships. (3) Build low/base/high investment scenarios with explicit assumptions. (4) Examine reach, frequency, duplication, marginal cost and channel complementarity. (5) Define reallocation triggers and guardrails.
 
+**Worked example (SIMULATED).** A Rp1.2 billion regional launch scenario allocates Rp420 million to TV, Rp300 million to OOH, Rp180 million to radio, Rp120 million to print and Rp180 million to cinema/sponsorship. The planner records each channel's audience role, measurement unit, geography, timing, cost basis and forecast confidence. A high-reach TV plan and high-traffic OOH plan cannot simply be added into unique cross-media reach; overlap remains unmeasured until a compatible deduplication method is available.
+
 **Practice.** Allocate a fixed synthetic budget across TV, audio, OOH and print for a regional product launch. Create two alternatives and show how the plan changes if TV inventory becomes unavailable.
 
 **Required artifact and acceptance.** Integrated media flowchart and allocation rationale with budget reconciliation, audience role, reach/frequency basis, assumptions, duplication caveat, marginal trade-offs, inventory dependency and scenario triggers.
@@ -526,6 +572,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** A rate card is an asking price, not proof of value or a complete offer. Compare net rates, audience, inventory, position, timing, production, fees, data, exclusivity, value-add, cancellation, payment, proof and makegood terms. Negotiation begins with the advertiser's objective, target, walk-away point, alternatives and approval authority. Concessions should be exchanged deliberately and valued at expected use, not nominal list price. Legal terms, tax, currency, liability, brand safety and cancellation must be escalated to authorized reviewers.
 
 **Workflow.** (1) Build comparable proposals with normalized units and costs. (2) Define target outcome, BATNA, reservation point and tradeable concessions. (3) Prioritize price, quality, added value, inventory, data and flexibility. (4) Record every concession, approval and contractual condition. (5) Reconcile signed terms against booking and invoice.
+
+**Worked example (SIMULATED).** A publisher quotes Rp250 million list price and offers a 20% discount, giving Rp200 million net before applicable taxes and production. It also offers 15% bonus placements. The buyer records those bonus units separately and values them only if format, audience, timing, placement and delivery are comparable to paid inventory. Negotiation compares equivalent net cost and commercial protections, not an advertised percentage discount that hides weaker inventory or conditions.
 
 **Practice.** Run a negotiation simulation between agency and publisher for a campaign with fixed dates and budget. Evaluate an offer containing a discount, bonus spots, a premium placement and a makegood clause.
 
@@ -549,6 +597,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Reconcile approved plan and budget authority. (2) Issue or verify insertion order/booking confirmation and all terms. (3) Collect creative specification, asset, clearance and approval. (4) Confirm schedule, material receipt, trafficking and escalation contacts. (5) Maintain change log and daily/weekly delivery checks.
 
+**Worked example (SIMULATED).** Before a Rp300 million campaign is released, the operations team reconciles the signed insertion order against channel, title/programme, format, dimensions, spot length, quantity, dates, geography, net rate, taxes, cancellation terms and creative deadline. Each creative file receives a version ID and written approval. The launch checklist assigns one owner for trafficking, proof capture, brand-safety exceptions, schedule changes and escalation. No campaign is considered live solely because the booking email was sent.
+
 **Practice.** Prepare a buying documentation pack for a mixed TV, radio and OOH campaign. Inject a late creative replacement and a site outage; show change control.
 
 **Required artifact and acceptance.** Booking pack and execution checklist with approved plan, PO/IO, dates, cost, spec, materials, clearance, contacts, RACI, changes, delivery evidence and escalation path.
@@ -570,6 +620,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** Post-buy compares plan, booking, actual delivery, measurement and invoice. Each number must retain its source and definition. A missing spot, incorrect date, poor placement, screen downtime or audience underdelivery is not the same issue and needs different evidence. Makegood, credit or refund depends on contract terms, tolerance, deadlines and proof. A good post-buy does not hide shortfall inside a blended average; it identifies root cause, financial exposure and the remedy agreed with the owner.
 
 **Workflow.** (1) Collect approved plan, signed booking and delivery logs. (2) Obtain proof-of-airing, proof-of-publication, proof-of-play, photos or relevant third-party measurement. (3) Reconcile booked versus delivered by line item. (4) Calculate under/over delivery and invoice variance using contractual rules. (5) Agree remedy, owner, deadline and closure evidence; capture next-cycle learning.
+
+**Worked example (SIMULATED).** A post-buy report shows 1.70 million modeled OTS against 2.00 million booked, a 15% shortfall. The buyer checks whether the reporting period, model and location mix match the contract before requesting a remedy. A makegood must be agreed on equivalent audience, geography, visibility, timing and format; otherwise apply the contract's credit/refund process. Keep booked, delivered, estimated and verified quantities separate in the reconciliation workbook.
 
 **Practice.** A synthetic DOOH buy has 12% underdelivery across three locations and a TV spot aired in the wrong daypart. Calculate the disputed delivery and propose remedies under a stated mock contract.
 
@@ -593,6 +645,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 
 **Workflow.** (1) Define governance objectives, decision rights and measurement scope. (2) Create metric dictionary and source hierarchy. (3) Design procurement, conflict disclosure, approval and invoice controls. (4) Require evidence and exception handling for each major investment. (5) Review supplier performance, data access, audit findings and corrective action.
 
+**Worked example (SIMULATED).** Two audience reports give different reach for the same TV schedule because one uses a different target universe and another reports a different period. Governance preserves both reports, metadata, calculation basis and vendor notes; the approved source hierarchy selects the report for the contractual KPI while the discrepancy remains logged. The investment scorecard separates delivery, audience, quality, brand outcome and business outcome, and records approval, conflict disclosure, invoice checks and data retention.
+
 **Practice.** Design a governance framework for a fictional annual media investment with multiple agencies and suppliers. Include a conflict declaration, approval matrix, evidence hierarchy and exception log.
 
 **Required artifact and acceptance.** Governance framework and measurement scorecard with metric definitions, source hierarchy, audit trail, approval limits, conflicts, supplier scorecard, invoice checks, privacy, retention and escalation.
@@ -614,6 +668,8 @@ Each learner artifact is scored on five dimensions, 0–3 each: Technical accura
 **Core lesson.** The senior capstone tests the entire investment chain from client brief to post-buy. It must show why each channel is selected, what role it plays, how audience evidence supports the decision, how the plan is bought and delivered, and how the investment will be reconciled. Leadership requires more than a schedule: it requires commercial judgment, supplier management, team design, scenario planning, escalation, transparency and client communication. All simulated data must be labelled; local audience and trading claims require current source evidence.
 
 **Workflow.** (1) Frame business objective, target, geography, budget and risk. (2) Build audience evidence and channel strategy. (3) Produce TV/audio/print/OOH/cinema scenarios and a commercial comparison. (4) Create booking, delivery, governance and post-buy controls. (5) Present the investment decision, uncertainty, trade-offs and 90-day operating plan.
+
+**Worked example (SIMULATED).** A fictional advertiser receives a Rp2 billion annual media budget across TV, radio, print, OOH, cinema and sponsorship. The learner prepares a market/audience brief, vendor and agency RACI, budget scenarios, negotiated terms, insertion orders, creative and trafficking QA, proof-of-delivery, post-buy reconciliation, measurement limitations and executive review. The capstone must reconcile every booked amount and identify which performance conclusions are supported, modeled or still unknown.
 
 **Practice.** Build a senior integrated offline plan for a fictional consumer brand launching in five Indonesian cities. Include a national and local mix, a fixed budget, a supplier conflict scenario and a 10% delivery shortfall scenario.
 
