@@ -1260,16 +1260,16 @@ var placementOverrides = {
   ],
   "DPA-T07-CH02": [],
   "DPA-T07-CH03": [],
-  "DPA-T07-CH04": [
-    "google_ads_shopping"
-  ],
+  "DPA-T07-CH04": [],
   "DPA-T07-CH05": [
     "meta_collaborative_ads_course"
   ],
   "DPA-T07-CH06": [
     "meta_collaborative_ads_course"
   ],
-  "DPA-T07-CH07": [],
+  "DPA-T07-CH07": [
+    "google_ads_shopping"
+  ],
   "DPA-T07-CH08": [
     "google_ads_shopping",
     "tiktok_advanced_shop_achievement",
@@ -1673,10 +1673,10 @@ var placementNotes = {
   "DPA-T07-CH01": "TikTok Shop completion learning supports the social-commerce part of the retail-media ecosystem; it is distinct from Amazon Ads certification and does not establish retailer-media network expertise.",
   "DPA-T07-CH02": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T07-CH03": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T07-CH04": "Google Shopping Ads is included because Indonesian marketplace/e-commerce advertising roles explicitly reference Google Shopping alongside Shopee/TikTok Shop. It does not certify marketplace-native Ads Manager operation.",
+  "DPA-T07-CH04": "No public issuer-awarded credential with a clear assessment and issuance requirement was verified for Shopee Sponsored Products, Tokopedia Ads or Lazada onsite sponsored listings in this audit. Teach the local marketplace systems in Learn and assess with a campaign build, bid/keyword/product selection, budget and ROAS evidence. Do not substitute Google Shopping or Amazon Sponsored Ads for onsite marketplace operation.",
   "DPA-T07-CH05": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T07-CH06": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T07-CH07": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
+  "DPA-T07-CH07": "Google Shopping Ads certification is relevant to product-feed advertising and Merchant Center readiness, and is requested in Indonesian ecommerce roles. It is an offsite Google ads credential, not proof of Shopee/Tokopedia/Lazada marketplace feed operations; retain local marketplace feed and digital-shelf practice in the chapter.",
   "DPA-T07-CH08": "Google Shopping and TikTok Shop Academy achievements are platform-specific evidence; Shopee, Tokopedia and Lazada operation remains a local practical requirement without a verified public issuer certificate in this audit.",
   "DPA-T07-CH09": "TikTok Shop advanced learning is supporting commerce optimization. Meta Collaborative Ads and Amazon Sponsored Ads have distinct product scopes; sales measurement and incrementality remain chapter evidence.",
   "DPA-T07-CH10": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
