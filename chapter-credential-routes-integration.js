@@ -1822,7 +1822,7 @@ function removeOutOfMarketEarnRoutes(routeMap, audit) {
     routeMap[chapterId] = retained;
     if (audit && audit[chapterId]) {
       audit[chapterId].routeIds = retained.slice();
-      if (!retained.length) {
+      if (current.length > 0 && !retained.length) {
         audit[chapterId].outcome = "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE";
         var genericRouteNote = "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.";
         if (!audit[chapterId].note || audit[chapterId].note === genericRouteNote) {
