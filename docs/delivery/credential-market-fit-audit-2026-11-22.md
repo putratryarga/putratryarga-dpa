@@ -9,12 +9,12 @@
 
 The previous 75-route catalogue was too broad for the DPA's default Indonesia learner journey. It contained awards that were valid in their own markets but weakly supported by Indonesian role demand, were limited to a product/customer account, were simulation or practice completion rather than a professional signal, or were mismatched to the chapter objective.
 
-The current curated registry contains **65 routes** after removing 21 weak-fit or out-of-market routes from the default Earn experience and adding 11 issuer routes with stronger Indonesian-market alignment.
+The current curated registry contains **67 routes** after removing 21 weak-fit or out-of-market routes from default Earn and adding 13 issuer routes with stronger Indonesian-market and professional-role alignment.
 
 | Measure | Current result |
 |---|---:|
-| Curated issuer routes | **65** |
-| Professional certifications | 13 |
+| Curated issuer routes | **67** |
+| Professional certifications | 15 |
 | Vendor product certifications | 8 |
 | Vendor course certifications | 8 |
 | Course-completion credentials | 32 |
@@ -23,11 +23,11 @@ The current curated registry contains **65 routes** after removing 21 weak-fit o
 | Skilling certificate | 1 |
 | Core specialist chapters | 169 |
 | Core chapters with at least one selected route | **145/169** |
-| Core route placements | **233** |
+| Core route placements | **234** |
 | Common Foundation chapters with a selected route | **2/6** |
 | Foundation route placements | **2** |
 | Total mapping rows | 175 (169 Core + 6 Common Foundation) |
-| Unique mapped routes | 65 |
+| Vendor product certifications | 8 |\n| Unique mapped routes | 67 |
 
 All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. This is a relevance-filtered desk review, not final SME approval, account-level access testing, credential issuance, or proof that every learner can redeem every award in Indonesia.
 
@@ -94,7 +94,7 @@ This is a purposive sample of role descriptions, not a statistical census of all
 - **HubSpot Inbound, Email, Digital Marketing, Content and Social Media certifications** — retained where course objectives fit DPA chapters and the public issuer identifies a certificate/assessment. These are vendor course certifications, not broad independent CRM qualifications.
 - **MoEngage Growth Marketer — Credential for Completion** — added. The official path covers behavioral segmentation, lifecycle automation, email, push, SMS, WhatsApp, in-app messaging, flows and optimisation. The path page does not state an Indonesia-specific price/access condition; account-level completion must be checked.
 - **MoEngage Analytics Expert — Credential for Completion** — added. The official path covers event-based behavioral analytics, funnels, cohorts, retention and path analysis. This is a MoEngage-specific completion credential, not a neutral analytics qualification.
-- **Braze Certified Digital Strategist** — added as an optional vendor professional certification. Braze states that the certification validates campaign strategy, technical-stack understanding and lifecycle journeys; its public pages do not disclose the current exam fee. Do not advertise it as free.
+- **Braze certifications — current three-level route family:** (1) Braze Certified Practitioner, foundational, USD 50; 30 questions, 60 minutes, 73% pass; (2) Braze Certified Marketing Specialist (renamed from Marketer), intermediate, USD 100; 60 questions, 90 minutes, 69% pass; (3) Braze Certified Marketing Strategy Expert (renamed from Digital Strategist), advanced, USD 150; 50 mixed-format questions, 90 minutes, 72% pass. All are paid, proctored vendor professional certifications with three-year validity and issuer retake rules. Braze provides free Foundations (6 courses), Marketer (13 courses) and Digital Strategist (14 courses) learning paths, but these prepare learners for paid exams; path completion alone is not claimed as a free certificate. Current Braze job demand in Indonesia is evidenced by FLOQ and Transcosmos CEP roles.
 - **Salesforce Certified Marketing Cloud Engagement Foundations** — added as a paid entry-level route. The current guide lists 40 multiple-choice questions, 70 minutes, 65% pass and USD 75 plus applicable tax; no prerequisite; free retake.
 - **Salesforce Certified Marketing Cloud Engagement Specialist** — added as an advanced optional route. Salesforce's current pricing page lists USD 200 plus tax and USD 100 retake. It maps to email, subscriber/data management and inbox delivery.
 
@@ -140,7 +140,7 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 - A completion credential is shown as a completion award, not a professional certification.
 - A tool-vendor credential (Ahrefs, MoEngage, Braze, HubSpot, Salesforce Marketing Cloud) must state its product-specific scope.
 - The Salesforce Foundations and Specialist exams are paid; local checkout currency/tax must be checked.
-- Braze exam fee is not stated in the public material checked; do not label it free.
+- Braze exams are paid: Practitioner USD 50, Marketing Specialist USD 100 and Marketing Strategy Expert USD 150 before local taxes. Retakes are not free; full fee applies, with the issuer's wait/attempt limits. The free Braze learning paths are preparation, not completion certificates.
 - MoEngage public course pages identify Credential for Completion but do not settle local fees, language or account-level access.
 - LinkedIn credentials are English-language in the current issuer help listing; do not imply Bahasa Indonesia exam delivery.
 - TikTok Academy learning is free according to TikTok's Indonesia page. The separate TikTok Media Buying Certification is a proctored professional exam and not the same award.
@@ -160,9 +160,11 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 - Awin Agency, Marketplace Ads Specialist: https://id.linkedin.com/jobs/view/marketplace-ads-specialist-at-awin-agency-4487683071
 - FLOQ, CRM Automation & Lifecycle Intelligence Manager: https://id.linkedin.com/jobs/view/crm-automation-lifecycle-intelligence-manager-at-floq-4490286071
 - Transcosmos Indonesia, Project Manager (DX): https://id.linkedin.com/jobs/view/project-manager-dx-at-transcosmos-indonesia-official-4477147387
+- Transcosmos Indonesia, Project Manager (CEP Specialist): https://id.linkedin.com/jobs/view/project-manager-cep-specialist-at-transcosmos-indonesia-official-4492542328
 - KliknClean, CRM Specialist: https://id.linkedin.com/jobs/view/crm-specialist-at-kliknclean-4321556156
 - Narrativ Digital Agency, Senior SEO Specialist: https://www.linkedin.com/jobs/
-- KOL / Influencer Specialist sample: https://www.linkedin.com/jobs/
+- Clickbait Creative Performance Agency, KOL Specialist: https://id.linkedin.com/jobs/view/kol-specialist-agency-experience-at-clickbait-creative-performance-agency-4490211439
+- Social Bread Indonesia, KOL & Affiliate Specialist: https://id.linkedin.com/jobs/view/kol-affiliate-specialist-tiktok-marketing-agency-at-social-bread-indonesia-4455456349
 
 ### Official issuer evidence
 - Google Skillshop, Google Ads certification catalogue: https://skillshop.withgoogle.com/googleads/
@@ -171,8 +173,12 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 - Ahrefs Certification: https://ahrefs.com/id/certification
 - MoEngage Growth Marketer: https://academy.moengage.com/student/path/3328685-moengage-growth-marketer
 - MoEngage Analytics Expert: https://academy.moengage.com/student/path/3388299-moengage-analytics-expert
-- Braze Digital Strategist launch: https://community.braze.com/discussion/1413/digital-strategist-certification-has-launched
-- Braze certification overview: https://community.braze.com/kb/articles/17-the-ultimate-guide-to-braze-learning
+- Braze certification registration and exam pricing: https://braze-dev.skilljar.com/page/certification
+- Braze Learning free learning paths: https://braze-dev.skilljar.com/page/learning-paths
+- Braze Practitioner badge and exam criteria: https://www.credly.com/org/braze/badge/braze-certified-practitioner
+- Braze Marketing Specialist badge and exam criteria: https://www.credly.com/org/braze/badge/braze-certified-marketing-specialist
+- Braze Marketing Strategy Expert badge and exam criteria: https://www.credly.com/org/braze/badge/marketing-strategy-expert
+- Braze certification programme renaming announcement: https://community.braze.com/discussion/5685/certification-program-updates
 - Salesforce Marketing Cloud Engagement Foundations exam guide: https://help.salesforce.com/s/articleView?id=005298962&language=en_US&type=1
 - Salesforce certification exam prices: https://help.salesforce.com/s/articleView?id=005298916&language=en_US&type=1
 - Salesforce Marketing Cloud Engagement Specialist: https://trailhead.salesforce.com/credentials/marketingcloudengagementspecialist
