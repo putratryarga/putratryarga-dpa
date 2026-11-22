@@ -1356,7 +1356,6 @@ marketExcludedRouteIds.forEach(function(routeId) {
 function removeOutOfMarketEarnRoutes(routeMap, audit) {
   Object.keys(routeMap).forEach(function(chapterId) {
     var current = routeMap[chapterId] || [];
-    var removedAny = current.some(function(routeId) { return !!excludedRouteLookup[routeId]; });
     var retained = current.filter(function(routeId) { return !excludedRouteLookup[routeId]; });
     routeMap[chapterId] = retained;
     if (audit && audit[chapterId]) {
@@ -1364,8 +1363,6 @@ function removeOutOfMarketEarnRoutes(routeMap, audit) {
       if (!retained.length) {
         audit[chapterId].outcome = "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE";
         audit[chapterId].note = "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.";
-      } else if (removedAny && !placementNotes[chapterId]) {
-        audit[chapterId].note = "Retained route(s) support a specific platform or industry skill with relevance to Indonesia-based professional work. First-pass mapping only; confirm precise chapter fit, current issuer award, local access, language and cost before learner reliance.";
       }
     }
   });
