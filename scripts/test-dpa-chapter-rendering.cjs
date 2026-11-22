@@ -193,7 +193,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       ["DPA-T03-CH03", "skillshop.withgoogle.com"],
       ["DPA-T04-CH01", "skillshop.withgoogle.com"],
       ["DPA-T06-CH01", "skillshop.withgoogle.com"],
-      ["DPA-T07-CH04", "skillshop.withgoogle.com"],
+      ["DPA-T07-CH07", "skillshop.withgoogle.com"],
       ["DPA-T09-CH01", "skillshop.withgoogle.com"],
       ["DPA-T10-CH02", "skillshop.withgoogle.com"],
       ["DPA-T11-CH01", "semrush.com"],
