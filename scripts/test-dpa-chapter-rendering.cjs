@@ -64,6 +64,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
         const milestoneNodes = [...(material?.querySelectorAll(".chapter-milestone") || [])];
         const earnMilestone = material?.querySelector('[data-milestone="earn"]');
         const credentialCards = [...(earnMilestone?.querySelectorAll(".credential-route-card") || [])];
+        const credentialRouteHrefs = credentialCards.flatMap((card) => [...card.querySelectorAll("a[data-credential-url]")])
+          .map((link) => link.getAttribute("href") || "");
         const fallbackEarn = Boolean(earnMilestone?.querySelector(".chapter-earn-empty"));
         const skillRecognition = Boolean(earnMilestone?.querySelector(".chapter-skill-recognition"));
         const masteryText = material?.querySelector('[data-milestone="master"]')?.textContent || "";
@@ -89,6 +91,7 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
           uniqueResources,
           resourceHrefs,
           learningResourceHrefs,
+          credentialRouteHrefs,
           milestoneCount: milestoneNodes.length,
           earnCardCount: credentialCards.length,
           fallbackEarn,
@@ -178,19 +181,19 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
     const ids = audit.rows.map((row) => row.id);
     assert.equal(new Set(ids).size, EXPECTED_TOTAL, "All core and Common Foundation chapter IDs must be unique.");
     const cf2 = audit.rows.find((row) => row.id === "DPA-CF-CH02");
-    assert.ok(cf2 && cf2.earnCardCount >= 2, "CF2 must expose both Forage and HubSpot award routes in Earn.");
-    assert.ok(cf2.resourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must be clickable in CF2 resources/Earn.");
-    assert.ok(cf2.resourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must be clickable in CF2 resources/Earn.");
-    assert.ok(cf2.learningResourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage must also be clickable in Learn.");
+    assert.ok(cf2 && cf2.earnCardCount === 1, "CF2 must expose the Indonesia-relevant HubSpot Inbound credential without elevating the Forage simulation certificate into Earn.");
+    assert.ok(cf2.credentialRouteHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Inbound must be clickable in CF2 Earn.");
+    assert.ok(!cf2.credentialRouteHrefs.some((href) => href.includes("theforage.com")), "Forage simulation completion must remain out of default Earn.");
+    assert.ok(cf2.learningResourceHrefs.some((href) => href.includes("theforage.com/simulations/forage/sponsored-content-omnichannel-marketing-5iep")), "Forage may remain a practice/simulation resource in Learn, but not as a default professional credential.");
     const cf3 = audit.rows.find((row) => row.id === "DPA-CF-CH03");
     assert.ok(cf3 && cf3.learningResourceHrefs.some((href) => href.includes("academy.hubspot.com/courses/inbound")), "HubSpot Academy Inbound must be clickable in CF3 Learn resources.");
     const requiredCredentialChapters = [
       ["DPA-T01-CH01", "hubspot"],
       ["DPA-T02-CH06", "linkedin.com"],
-      ["DPA-T03-CH03", "microsoft"],
-      ["DPA-T04-CH01", "microsoft"],
-      ["DPA-T06-CH01", "microsoft"],
-      ["DPA-T07-CH03", "microsoft"],
+      ["DPA-T03-CH03", "skillshop.withgoogle.com"],
+      ["DPA-T04-CH01", "skillshop.withgoogle.com"],
+      ["DPA-T06-CH01", "skillshop.withgoogle.com"],
+      ["DPA-T07-CH04", "skillshop.withgoogle.com"],
       ["DPA-T09-CH01", "skillshop.withgoogle.com"],
       ["DPA-T10-CH02", "skillshop.withgoogle.com"],
       ["DPA-T11-CH01", "semrush.com"],
@@ -205,6 +208,18 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       assert.ok(row && row.earnCardCount > 0, chapterId + " must expose a mapped provider award route.");
       assert.ok(row.resourceHrefs.some((href) => href.includes(expectedHost)), chapterId + " must expose the issuer link in the learner panel.");
       assert.ok(row.learningResourceHrefs.some((href) => href.includes(expectedHost)), chapterId + " must keep the same issuer route clickable in Learn as well as Earn.");
+    }
+
+    const requiredIndonesiaCredentialChapters = [
+      ["DPA-T11-CH02", "ahrefs.com"],
+      ["DPA-T12-CH01", "academy.moengage.com"],
+      ["DPA-T12-CH05", "trailhead.salesforce.com"],
+      ["DPA-T14-CH02", "academy.meltwater.com"]
+    ];
+    for (const [chapterId, expectedHost] of requiredIndonesiaCredentialChapters) {
+      const row = audit.rows.find((item) => item.id === chapterId);
+      assert.ok(row && row.earnCardCount > 0, chapterId + " must expose a market-relevant credential in Earn.");
+      assert.ok(row.credentialRouteHrefs.some((href) => href.includes(expectedHost)), chapterId + " must expose the selected issuer award in Earn.");
     }
 
     // Open every role at least once and verify its selected chapter panel is visible.
