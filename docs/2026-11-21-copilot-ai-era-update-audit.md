@@ -8,7 +8,7 @@
 - **TikTok Smart+:** the October 2026 upgraded experience supports full automation, partial automation or fully manual control. Treat controls as module-level choices rather than assuming one campaign-wide switch: audience controls/suggestions/manual targeting; campaign or ad-group budget; automatic or manual placements; Smart+ Catalog or manual catalog flow; and creative combinations/reporting/multi-URL. The upgraded flow is documented for Sales, Lead Generation, App Promotion and Traffic objectives, but TikTok says the feature may not be enabled for every account; confirm the learner's account and market before promising availability.
 - **OpenAI Ads (21 Nov note superseded 22 Nov):** the 21 Nov snapshot interpreted an older localized country-list crawl as Indonesia self-service availability. A fresh 22 Nov check of the current English Help Center page (updated 1 hour before retrieval) and current Indonesian translation (updated 2 days before retrieval) did **not** list Indonesia for self-service Ads Manager. OpenAI's 23 Sep 2026 market announcement does include Indonesia in a partner-led ChatGPT Ads rollout via OpenAI Ads Solutions, agency and technology partners; this is not proof of self-service account eligibility. Treat Indonesia as **partner / Ads Solutions route announced; self-service not listed in the current country table; account-level eligibility unverified**.
 - **OpenAI Academy:** courses are free and global. A badge requires completing its course and passing the assessment at 80% or above. Eligible pathway certificates require all courses and assessments. Badges and pathway certificates are not professional certifications.
-- **Microsoft Advertising Learning Lab:** three certification routes (Search, Display & Video, Retail) and eight learning paths. Passing all three certifications gives Microsoft Advertising Certified Expert status; learning-path badges are a distinct category.
+- **Microsoft Advertising Learning Lab:** three certification routes (Search, Display & Video, Retail) and seven learning paths. Passing all three certifications gives Microsoft Advertising Certified Expert status; learning-path badges are a distinct category.
 - **Fintech elective:** do not add a third elective. Use fintech as a cross-sector case pack inside CF and relevant tracks unless the owner formally changes the 16+2 architecture.
 
 ## Recommendation disposition
@@ -54,7 +54,7 @@ The October Smart+ guide describes full/partial/manual controls and warns featur
 - https://help.openai.com/en/articles/20001270-openai-academy-courses
 
 ### Microsoft Advertising Learning Lab
-Three certification routes and eight learning paths are listed on the official page; keep certification and path badge separate.
+Three certification routes and seven learning paths are listed on the current official page; keep product certification and learning-path badge separate.
 - https://about.ads.microsoft.com/en/resources/training-certification/learning-lab
 
 ### SEO / AI Search guidance
@@ -116,7 +116,7 @@ Official evidence:
 
 ### Meta — Conversions API and data-governance caveat
 
-Meta's current Conversions API parameter documentation states that the API supports web, app, offline and business-messaging events. For website events, the documented required parameters include `client_user_agent`, `action_source` and `event_source_url`; email and phone identifiers are hashing-required parameters when sent. This is an implementation requirement, not a legal basis or consent mechanism. DPA lessons must keep event accuracy, deduplication, match quality, data minimisation, permissions and the advertiser's applicable privacy obligations separate.
+Meta's official Conversions API v25 parameter page is the primary issuer reference for implementation requirements. However, a direct retrieval attempt from this audit environment on 22 November 2026 returned HTTP 429, so the exact v25 event types, required fields and hashing rules are not independently verified in this review and must not be treated as a current parameter-level acceptance. Keep the lesson's governance boundary: an API transport is not a consent mechanism or a lawful basis. Recheck the issuer page before locking field-level lab instructions.
 
 Official evidence:
 - Meta for Developers — [Conversions API parameters, v25.0](https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/v25.0/)
@@ -124,11 +124,16 @@ Official evidence:
 
 ### Microsoft Advertising Learning Lab — credential taxonomy
 
-The current official Learning Lab page lists Microsoft Advertising certifications in Search, Display & Video and Retail Advertising; completing all three earns the umbrella **Microsoft Advertising Certified Expert** status. It separately describes eight learning paths/badges, including Digital Advertising Fundamentals, Programmatic Advertising, Generative AI and Automation, Performance Max and Holiday Best Practices. Do not classify every learning-path badge as one of the three product certifications. Keep the route optional and platform-specific; chapter placement still needs objective fit and account/region verification.
+The current official Learning Lab page lists Microsoft Advertising product certifications in Search, Display & Video and Retail Advertising; passing all three earns Microsoft Advertising Certified Expert status. It currently lists seven learning paths: Search Advertising, Display & Video Advertising, Retail Advertising, Digital Advertising Fundamentals, Programmatic Advertising, Generative AI and Automation, and Performance Max. Do not count learning-path badges as product certifications. Keep this route optional and platform-specific; chapter placement still needs objective fit and account/region verification.
 
 Official evidence:
 - Microsoft Advertising — [Learning Lab](https://about.ads.microsoft.com/en/resources/training-certification/learning-lab)
 
 ### DPA disposition
 
-The Google DSA/ACA/broad-match dates and TikTok account-dependent Smart+ controls above are operationally material and should be used in the relevant Search and Paid Social lessons. Meta's CAPI requirements strengthen existing tracking/privacy instruction. Microsoft Learning Lab is an issuer route candidate and scope cross-check; do not increase registry totals or chapter placements until its exact issuer award and mapping are reconciled with the canonical credential registry. None of these external-source checks constitutes SME approval of the affected DPA chapters.
+The Google DSA/ACA/broad-match dates and TikTok account-dependent Smart+ controls above are operationally material and should be used in the relevant Search and Paid Social lessons. Meta CAPI v25 field-level requirements remain unverified because the issuer page returned HTTP 429 during this review; recheck before updating parameter-specific exercises. Microsoft Learning Lab is an issuer route candidate and scope cross-check; do not increase registry totals or chapter placements until its exact issuer award and mapping are reconciled with the canonical credential registry. None of these external-source checks constitutes SME approval of the affected DPA chapters.
+
+
+## Issuer retrieval limitation — 22 November 2026
+
+The Meta for Developers Conversions API v25 parameter page was directly requested during this review but returned HTTP 429. The source remains listed for future verification; no specific v25 required-parameter or hashing assertion is marked verified by this audit. Microsoft Advertising Learning Lab currently lists seven learning paths alongside three product certifications; earlier eight-path wording is superseded.

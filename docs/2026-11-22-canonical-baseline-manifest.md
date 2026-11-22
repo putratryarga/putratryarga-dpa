@@ -159,3 +159,9 @@ The exact-head browser artifact is [14746384331](https://github.com/putratryarga
 **Current Preview:** deployment `dpl_tZn1BPdDw1gC3ymxuFvXeJDAXJi5` is READY from exact branch HEAD `94a6a33`: [`putratryarga-okbuzax5m-elric3.vercel.app`](https://putratyarga-okbuzax5m-elric3.vercel.app/). Vercel status is SUCCESS.
 
 The Preview is still protected by project SSO for its deployment hostname. These results establish exact-source CI and deployment provenance, not authenticated hosted human review, full WCAG 2.2 AA, learner acceptance or SME acceptance. Production remains on the previously deployed main SHA and was not modified.
+
+
+## Issuer-page verification delta — 22 November 2026
+
+- Microsoft Advertising Learning Lab currently displays three product certifications (Search, Display & Video, Retail) and seven learning paths (Search, Display & Video, Retail, Digital Advertising Fundamentals, Programmatic Advertising, Generative AI and Automation, Performance Max). Passing all three product certifications confers Microsoft Advertising Certified Expert status. This exact list supersedes the earlier eight-learning-path wording.
+- Meta for Developers Conversions API v25 parameter documentation was requested directly but returned HTTP 429 from the review environment. Do not treat exact field-level requirements, supported event lists or hashing requirements as verified in this snapshot; recheck the issuer page before publishing parameter-specific lesson instructions. The link is retained as a primary reference, not a completed verification.
