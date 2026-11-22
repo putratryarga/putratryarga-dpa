@@ -87,10 +87,10 @@ const invalidOrThinSourceMaps = uniqueChapterIds.filter((id) => {
 assert.equal(chapterIds.length, 169, "index.html must expose exactly 169 core chapter IDs.");
 assert.equal(uniqueChapterIds.length, 169, "Chapter IDs in index.html must be unique.");
 assert.equal(registryIds.length, 169, "Guide registry must contain exactly 169 entries.");
-assert.equal(part4Ids.length, 9, "Recovered Part 4 must contain exactly nine authored guide overrides.");
-assert.equal(new Set(part4Ids).size, 9, "Recovered Part 4 guide IDs must be unique.");
+assert.equal(part4Ids.length, 10, "Recovered Part 4 must contain exactly ten authored guide overrides.");
+assert.equal(new Set(part4Ids).size, 10, "Recovered Part 4 guide IDs must be unique.");
 assert.deepEqual([...part4Ids].sort(), [
-  "DPA-T03-CH01", "DPA-T03-CH05", "DPA-T03-CH06",
+  "DPA-T03-CH01", "DPA-T03-CH04", "DPA-T03-CH05", "DPA-T03-CH06",
   "DPA-T08-CH01", "DPA-T08-CH05", "DPA-T08-CH06",
   "DPA-T10-CH01", "DPA-T10-CH07", "DPA-T10-CH08"
 ].sort(), "Recovered Part 4 scope must match the reviewed nine guide IDs.");
