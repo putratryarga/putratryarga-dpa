@@ -243,4 +243,4 @@ const electiveRegister = fs.readFileSync(path.join(root, "docs/28-elective-crede
 assert.equal(electiveRegister.length - 1, 28, "Elective credential review must contain 28 chapter rows.");
 assert.ok(electiveRegister.slice(1).every((line) => line.includes("NOT_YET_REVIEWED_IN_THIS_IMPLEMENTATION")), "All elective credential reviews must remain explicitly open until reviewed.");
 
-console.log("PASS: chapter credential routes cover all 169 core chapters; no more than three suggestions per chapter; 28 elective reviews remain transparently OPEN.");
+console.log("PASS: chapter credential routes cover all 169 core chapters; maximum three suggestions per chapter except the scoped four-route T05-CH09; 28 elective reviews remain transparently OPEN.");
