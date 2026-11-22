@@ -49,7 +49,7 @@ Unless a route is explicitly described as a mandatory assessment by its issuer, 
 - **Indonesia / language / account access:** Bahasa Indonesia tercantum dalam 22 bahasa sertifikasi. Akses akun/assessment dari Indonesia tetap perlu dicek saat enrolment.
 - **Limit / objective-fit caveat:** Platform-specific; tidak mengukur kemampuan planning lintas channel.
 - **Issuer route:** [Open issuer route](https://skillshop.withgoogle.com/) · [Issuer fact/source page](https://support.google.com/google-ads/answer/9702955?hl=id)
-- **Registry verification date / status:** 2026-11-22 · **PARTIAL** — current public issuer description recorded; Indonesia sign-in, regional eligibility, local checkout/payment/tax, and any unpublished account-specific conditions have not been tested.
+- **Registry verification date / status:** 2026-11-21 · **PARTIAL** — current public issuer description recorded; Indonesia sign-in, regional eligibility, local checkout/payment/tax, and any unpublished account-specific conditions have not been tested.
  
 ### meta_marketing_science — Meta Certified Marketing Science Professional
 
@@ -385,7 +385,7 @@ Unless a route is explicitly described as a mandatory assessment by its issuer, 
 - **Indonesia / language / account access:** Availability materi/assessment untuk akun Indonesia belum diverifikasi; beberapa path Amazon tidak tersedia di semua bahasa/market.
 - **Limit / objective-fit caveat:** Amazon Ads programmatic only; bukan bukti akses/live DSP seat di marketplace lain.
 - **Issuer route:** [Open issuer route](https://advertising.amazon.com/academy/student/path/1532) · [Issuer fact/source page](https://advertising.amazon.com/academy/certifications?activeLocale=en-us)
-- **Registry verification date / status:** 2026-11-21 · **PARTIAL** — current public issuer description recorded; Indonesia sign-in, regional eligibility, local checkout/payment/tax, and any unpublished account-specific conditions have not been tested.
+- **Registry verification date / status:** 2026-11-22 · **PARTIAL** — current public issuer description recorded; Indonesia sign-in, regional eligibility, local checkout/payment/tax, and any unpublished account-specific conditions have not been tested.
  
 ### amazon_sponsored_ads — Amazon Sponsored Ads Certification
 
