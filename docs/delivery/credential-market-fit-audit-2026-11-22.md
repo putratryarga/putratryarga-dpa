@@ -7,43 +7,50 @@
 
 ## Executive decision
 
-The previous 75-route catalogue was too broad for the DPA's default Indonesia learner journey. It contained awards that were valid in their own markets but weakly supported by Indonesian role demand, were limited to a product/customer account, were simulation or practice completion rather than a professional signal, or were mismatched to the chapter objective.
+The first Indonesia-only curation pass was too restrictive: it treated a small sample of local vacancies as if it defined the entire professional market, and removed 21 valid issuer routes simply because they were global, specialist, product-specific or completion awards. The revised registry retains these routes with explicit tiers and chapter-specific scope, while keeping Indonesian employer demand as the priority for the default learner journey.
 
-The current curated registry contains **67 routes** after removing 21 weak-fit or out-of-market routes from default Earn and adding 13 issuer routes with stronger Indonesian-market and professional-role alignment.
+The current runtime contains **89 issuer routes**. Of these, 67 are Indonesia-priority routes, 11 are global-specialist options, and 11 are supporting completion, product-learning or gated routes. A route being visible does not mean that every learner must earn it or that every award is a professional certification.
 
 | Measure | Current result |
 |---|---:|
-| Curated issuer routes | **67** |
-| Professional certifications | 15 |
+| Issuer route definitions | **89** |
+| Indonesia-priority routes | **67** |
+| Global-specialist optional routes | **11** |
+| Supporting completion, product and gated routes | **11** |
+| Professional certifications | 22 |
 | Vendor product certifications | 8 |
-| Vendor course certifications | 8 |
-| Course-completion credentials | 32 |
-| Course-completion certificate | 1 |
+| Vendor course certifications | 13 |
+| Course-completion credentials | 37 |
+| Course-completion certificates | 4 |
+| Simulation completion certificates | 1 |
 | Industry certifications | 2 |
-| Skilling certificate | 1 |
+| Learning-path badges | 1 |
+| Skilling certificates | 1 |
 | Core specialist chapters | 169 |
-| Core chapters with at least one selected route | **145/169** |
-| Core route placements | **234** |
-| Common Foundation chapters with a selected route | **2/6** |
-| Foundation route placements | **2** |
+| Core chapters with at least one selected route | **150/169** |
+| Core route placements | **260** |
+| Common Foundation chapters with a selected route | **4/6** |
+| Foundation route placements | **5** |
 | Total mapping rows | 175 (169 Core + 6 Common Foundation) |
-| Vendor product certifications | 8 |
-| Unique mapped routes | 67 |
+| Mapped chapter rows | **154/175** |
+| Portfolio-first chapter rows | **21/175** |
+| Total route placements | **265** |
+| Unique mapped routes | **89/89** |
 
 All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. This is a relevance-filtered desk review, not final SME approval, account-level access testing, credential issuance, or proof that every learner can redeem every award in Indonesia.
 
 ## Decision standard
 
-A credential is eligible for default Earn only when it passes the following tests:
+The catalogue separates four learner-facing tiers. Indonesia demand remains the default priority, but it is not a deletion rule for legitimate global agency skills or issuer-awarded completion credentials.
 
-1. **Indonesia-market relevance:** an Indonesian employer, agency, brand, or regional delivery role names the platform, skill, or a directly equivalent workflow; alternatively, it is a recognised industry standard with direct fit to a core job family.
-2. **Global agency credibility:** the skill is used in credible agency practice, media operations, client delivery, measurement, CRM/lifecycle, SEO, creator or affiliate work. A globally available badge alone is not enough.
-3. **Issuer and award proof:** an official issuer page identifies a real exam, credential, certificate, completion award or badge. A course page without an award stays in Learn.
-4. **Chapter fit:** the assessment content supports the actual chapter objective. Platform credentials are not represented as cross-platform competency.
-5. **Cost and access transparency:** course access, award issuance, exam fee, retake, renewal, language, prerequisites and Indonesia availability are recorded separately. Unknown is not labelled free.
-6. **No artificial credential requirement:** where a role objective has no relevant award, DPA uses its applied deliverable and portfolio evidence instead of inserting an unrelated badge.
+1. **Indonesia-priority Earn:** directly aligned with Indonesian employer, agency, brand or regional delivery requirements and a chapter objective.
+2. **Global / specialist optional Earn:** a valid issuer route for a distinct global platform, retailer, client ecosystem or vertical. It is optional and must not be presented as a universal job prerequisite.
+3. **Supporting completion / product learning:** a course badge, learning-path award, simulation certificate or tool-specific training certificate. Display the exact award type and scope; never relabel it as a professional exam.
+4. **Conditional / gated:** a real issuer route whose access depends on a customer, partner or business-linked account. Show the access condition and do not promise self-service availability.
 
-The route catalogue is not a substitute for current job-description review. Job postings are volatile and the observed sample below is a dated snapshot.
+Every mapped route must pass issuer and chapter-fit checks. Record assessment, award type, language, fee, validity, prerequisites and Indonesia access separately. Unknown is not free; a completion badge is not a professional certification; a global-specialist route is not a local marketplace substitute. Where no objective-fit award exists, retain Learn + applied deliverable + portfolio evidence.
+
+The selection is a first-pass evidence map, not a requirement for learners to earn every award. Employer skill requirements may be demonstrated by live platform practice and campaign outcomes even when a credential is unavailable.
 
 ## Indonesian hiring evidence
 
@@ -70,12 +77,20 @@ The following current/recent role descriptions provide a concrete market anchor.
 
 This is a purposive sample of role descriptions, not a statistical census of all Indonesian vacancies. Senior, junior, agency, brand-side and cross-border role scopes must not be collapsed. Individual job listings may close; the evidence URLs are retained for audit traceability, not as live vacancy guarantees.
 
-## Routes retained in default Earn
+### Global agency and cross-border evidence
+
+The Indonesian role sample is not a proxy for the entire global agency market. A current WPP Media US role for **Manager, Retail DSP & Commerce Media** explicitly requires hands-on experience with Amazon DSP and/or Walmart Connect, retailer first-party audiences, onsite/offsite activation, bidding, pacing, optimization, measurement and client recommendations. This supports keeping Amazon Ads routes visible as global/cross-border specialist options. It does not imply that an Amazon certificate substitutes for hands-on campaign results or Indonesian marketplace operations.
+
+A separate WPP Media **Supervisor, Paid Search** listing names Google Ads, Microsoft Advertising, Search Ads 360 and Campaign Manager 360 as hands-on platforms. This supports retaining Microsoft Advertising as a platform option, while keeping each credential's exact exam scope visible. The job listing does not itself require the Display & Video certification.
+
+The distinction is deliberate: global job-market evidence supports an optional skills route, not a claim that every agency requires the named certificate.
+
+## Indonesia-priority routes retained in default Earn
 
 ### Performance media and paid search
 
 - **Google Ads Search, Display, Measurement, Video and Shopping Certifications** — official Skillshop foundational product-area certifications. They are free, assessed, downloadable/shareable and distinct from the separate virtually proctored Google Ads Professional Certifications (Display/Search/Video), which Google says are limited-access and not generally public. Standard Google Ads certification assessment requires 80%, allows 75 minutes, has a 24-hour retake wait and is valid one year; Bahasa Indonesia is supported. Shopping is retained because Indonesian ecommerce roles explicitly request Google Shopping Ads; it maps to product-feed and Merchant Center readiness (T07-CH07), not onsite marketplace Sponsored Products (T07-CH04).
-- **Microsoft Advertising Search Certification** — retained as a secondary paid-search option because the Publicis Indonesia Paid Search Manager role names Microsoft Ads. Microsoft Display & Video, Retail and Programmatic paths were not retained as default Earn routes because the audited Indonesian JDs did not establish equivalent demand.
+- **Microsoft Advertising Search Certification** — retained as a secondary paid-search option because the Publicis Indonesia Paid Search Manager role names Microsoft Ads. Microsoft Display & Video and Retail certifications are available as global-specialist options; Microsoft's Programmatic path is a learning-path badge, not an exam certification.
 - **Google Analytics Certification** — retained for GA/measurement roles; do not assume the exam is free solely because preparation learning is free.
 - **DV360 and CM360 Certifications** — retained because Indonesian agency biddable and operations roles name DV360 and CM360/Floodlight.
 - **Meta Blueprint and TikTok Academy completion awards** — retained as issuer course/achievement credentials, not relabelled as professional exams.
@@ -105,31 +120,40 @@ This is a purposive sample of role descriptions, not a statistical census of all
 - **Meta creator/Partnership Ads and relevant TikTok Academy creative achievements** — retained as platform-specific supplemental awards, not proof of creator contracting, negotiation, disclosure compliance or live campaign success.
 - **impact.com Affiliate Marketing & Partnerships Industry Certification** — retained for Track 15 because the issuer identifies an industry certification and its competencies align with affiliate program strategy, partner recruitment, commercial terms, tracking and performance. Request-access approval and Indonesian account eligibility still need testing.
 
-## Routes excluded from default Earn
+## Global, specialist and completion routes restored to the registry
 
-These awards/resources may still be useful in specialist learning, international client work or personal development. Their existence is not denied. They are simply not promoted as default Indonesia-market chapter credentials in this version.
+These routes were removed from the first Indonesia-filtered catalogue, not because the awards were false, but because the selection logic treated the sampled Indonesian vacancy set as the entire professional market. They are now available as chapter-specific optional or supporting routes. Their inclusion does not make them default prerequisites.
 
-| Removed route / family | Decision reason |
-|---|---|
-| Amazon Ads Retail, Programmatic and Sponsored Ads | Legitimate issuer certifications, but the sampled Indonesian marketplace roles prioritise Shopee, TikTok Shop and Lazada. Amazon is not a default local retail-media route; reserve for verified cross-border/Amazon-client demand. |
-| Microsoft Display & Video, Retail and Programmatic Learning Path Badge | No direct Indonesia hiring evidence in the audited role sample; Google Ads and DV360 are better evidenced. Microsoft Search is retained separately. |
-| StackAdapt Programmatic Masterclass | Valid vendor learning/certificate path, but not named in the reviewed Indonesian/global-agency role sample; DV360 and TTD have stronger hiring evidence. |
-| Forage Omnichannel Simulation Certificate | Applied simulation completion is useful practice, not a market-recognised professional credential. Keep as a practice resource, not default Earn. |
-| Analytics Mania GA4 Fundamentals Certificate | Third-party completion certificate, not Google-issued; Google Analytics/Skillshop provides the stronger issuer route. |
-| Google Data Analytics Professional Certificate via Coursera | Reputable but broad and subscription-based; not the strongest direct proof for marketing measurement compared with GA4, Google Ads Measurement, TTD/CM360 and applied analytics work. Keep as optional wider learning. |
-| Kaggle Intro to SQL completion certificate | Useful practice, but a basic learning completion award is not a professional marketing analytics credential. Retain SQL exercises and portfolio evidence in Learn. |
-| Salesforce Trailhead Data 360 badges | Product-scope mismatch for the CRM lifecycle requirement. Indonesian CRM roles explicitly name Salesforce Marketing Cloud; that relevant credential family is now mapped instead. |
-| Mediaocean Prisma badges | Product/customer-access gated and no public learner access or matching Indonesian JD was confirmed. Keep as reference for employer/customer contexts only. |
-| Meltwater Klear Foundations product certification | Product-specific workflow credential; Meltwater's industry-level Influencer Marketing Certifications are a stronger fit for platform-neutral creator work. |
-| impact.com Creator Product Training | Product training, not the best general creator-partnership credential. The industry affiliate certification remains for Track 15. |
-| impact.com Affiliate Protection / Monitor expert path | Partial affiliate-program fit but weak alignment to creator-audience fraud/vetting objectives in Track 14. |
-| LinkedIn Marketing Strategy and Content & Creative Design | Not sufficiently supported by the audited Indonesian role evidence for these chapter placements. LinkedIn Advertising Fundamentals and Marketing Measurement remain supplementary. |
-| TikTok Auto Ads Achievement | Automotive-specific; not a default general paid-social credential. |
-| TikTok Promote App and Advanced App Promotion Achievements | App-acquisition specialization; kept out of default generalist Earn rather than presented as a universal paid-social requirement. |
+| Route | Exact award class | Tier / learner note |
+|---|---|---|
+| Amazon Ads for Retail Certification | Professional certification | Global specialist; issuer assessment, free, two-year validity; Amazon seller/retail scope only. |
+| Amazon Ads Programmatic Solutions Certification | Professional certification | Global specialist; free, 80% pass threshold and two-year validity; route page lists a two-hour assessment, while general FAQ duration differs, so check the live path. |
+| Amazon Sponsored Ads Certification | Professional certification | Global specialist; free assessed route; Sponsored Products/Brands only, never a Shopee/Tokopedia/Lazada substitute. |
+| Microsoft Advertising Display & Video Certification | Professional certification | Global platform specialist; exam and shareable badge; public Learning Lab page does not state fee. |
+| Microsoft Advertising Programmatic Learning Path | Learning-path badge | Supporting learning award after completing the path's courses; not the Display & Video exam or a professional certification. |
+| Microsoft Advertising Retail Certification | Professional certification | Global platform specialist; exam and shareable badge; fee must be checked at enrolment. |
+| StackAdapt Programmatic Masterclass | Vendor course certification | Free two-hour vendor course with module tests and a recognized certificate; not independent cross-industry accreditation. |
+| Forage Omnichannel Marketing Simulation | Simulation completion certificate | Free job simulation; evidence of completing an integrated brief and plan, not employer-issued experience. |
+| Analytics Mania GA4 Fundamentals | Course-completion certificate | Free third-party GA4 course certificate; not Google-issued. |
+| Google Data Analytics Professional Certificate (Coursera) | Course-completion certificate | Paid subscription course program; broader than marketing measurement and not a proctored professional exam. |
+| Kaggle Intro to SQL | Course-completion certificate | Free beginner SQL course certificate; useful practice proof, not an advanced analytics credential. |
+| Salesforce Trailhead Data 360 | Course-completion badges | Free product-learning badges; some challenges require a special Data 360 org and some content is English-only; not Salesforce Certified Data 360 Consultant. |
+| Mediaocean Prisma product training | Vendor product-training credential | Customer/partner-gated; keep as conditional route until access and active badge requirements are confirmed in the portal. |
+| Meltwater Klear Foundations | Vendor product-course certification | Free product certification course covering Klear creator discovery, recruitment, vetting, campaign management and measurement. |
+| impact.com Creator Product Training Fundamentals | Vendor product-training certification | Free path, four lessons, six videos and a 45-minute exam; tool-specific, not a general influencer license. |
+| impact.com Affiliate & Partnerships Industry Expert | Vendor industry-training certification path | Free path with six courses and a 50-minute exam; affiliate program protection/monitoring, tracking and operations. Distinct from the broader Affiliate Marketing & Partnerships Industry Certification mapped in T15. |
+| LinkedIn Marketing Strategy Certification | Professional certification | Global/B2B platform specialist; 60 questions/60 minutes, 75% pass, up to three attempts and 24-month validity; no Bahasa Indonesia exam language listed and fee not stated. |
+| LinkedIn Content and Creative Design Certification | Professional certification | Global/B2B platform specialist; same issuer exam framework and language/fee caveats as above. |
+| TikTok Drive Vehicle Sales with Auto Ads | Credential for Completion | Free-to-learn automotive dealership specialization; not a general paid-social or Media Buying Professional credential. |
+| TikTok Promote your app | Credential for Completion | App installs, data connections, campaign setup and measurement; vertical specialization, not a professional exam. |
+| TikTok Advance your App Promotion Strategy | Credential for Completion | Advanced app signals and Smart+ app campaign learning; vertical specialization, not a professional exam. |
+| Snapchat Essentials (Snap Focus) | Credential for Completion | Six courses plus final exam and survey; platform-specific completion award. Fee is not stated publicly and Snap Focus access requires a business-associated Ads Manager account. |
 
-### Platforms not added merely because an award exists
+The current runtime applies route tiers (GLOBAL_SPECIALIST_OPTIONAL, SUPPORTING_COMPLETION, VERTICAL_SPECIALIST_COMPLETION, PRODUCT_LEARNING_BADGE, PRODUCT_COURSE_CERTIFICATION, EMPLOYER_CUSTOMER_GATED) rather than deleting these routes. These are selection labels, not provider accreditation.
 
-Pinterest Academy, Snap Focus and Adobe credentials were not added to default Earn in this audit because the reviewed Indonesia agency/job evidence did not establish sufficiently direct demand for those issuer-specific routes. This is a market-fit decision, not a claim that those providers do not issue awards. Revisit only with a concrete Indonesian employer, agency or client-role evidence trail.
+### Additional platform candidates still under review
+
+Adobe and Pinterest are not described as irrelevant or nonexistent. Their route-level award type, current exam/fee requirements, regional availability and direct chapter fit have not yet been fully reconciled against this registry. They remain candidates for a separate issuer-and-role review rather than being silently inserted or dismissed.
 
 ### Marketplace credential gap — deliberately not fabricated
 
@@ -137,15 +161,20 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 
 ## Cost, access and learner-facing rules
 
-- A free learning page does not prove that the final exam or award is free.
-- A completion credential is shown as a completion award, not a professional certification.
-- A tool-vendor credential (Ahrefs, MoEngage, Braze, HubSpot, Salesforce Marketing Cloud) must state its product-specific scope.
-- The Salesforce Foundations and Specialist exams are paid; local checkout currency/tax must be checked.
-- Braze exams are paid: Practitioner USD 50, Marketing Specialist USD 100 and Marketing Strategy Expert USD 150 before local taxes. Retakes are not free; full fee applies, with the issuer's wait/attempt limits. The free Braze learning paths are preparation, not completion certificates.
-- MoEngage public course pages identify Credential for Completion but do not settle local fees, language or account-level access.
-- LinkedIn credentials are English-language in the current issuer help listing; do not imply Bahasa Indonesia exam delivery.
-- TikTok Academy learning is free according to TikTok's Indonesia page. The separate TikTok Media Buying Certification is a proctored professional exam and not the same award.
-- No external credential is made mandatory for DPA chapter completion. Chapter deliverables and portfolio evidence remain primary.
+- Amazon Ads Academy says its certifications are free, require at least 80% to pass and are valid for two years. General FAQ duration differs from some route-specific exam pages; use the specific route page at enrolment.
+- Microsoft Advertising separates Search, Display & Video and Retail exam certifications (with shareable badges) from its Programmatic Advertising Learning Path badge, earned by completing the path courses. The public Learning Lab pages checked here do not state all exam fees.
+- StackAdapt's Programmatic Masterclass is free and two hours, with eight modules and module tests. The issuer calls it a professional certification; DPA classifies it as a vendor course certification to avoid implying independent accreditation.
+- LinkedIn certification exams have 60 multiple-choice questions in 60 minutes, a 75% pass score, up to three attempts and 24-month validity. The current official language list excludes Bahasa Indonesia; the public help page does not state the exam fee.
+- TikTok Academy's Auto Ads, Promote your app and Advanced App Promotion pages label the award Credential For Completion. These are free-to-learn issuer paths with an associated assessment; they are not TikTok Media Buying Professional Certification.
+- Snap Focus's Snapchat Essentials course requires six courses, the final exam and survey. The public page does not state a fee; business-associated Snapchat Ads Manager access is required to use Snap Focus.
+- Forage simulations are free and the certificate proves completion of a simulated task. It is not an internship, employer certification or proof of live client delivery.
+- Analytics Mania's GA4 course is free and provides a third-party course-completion certificate. Kaggle Intro to SQL is a free beginner course with a completion certificate.
+- Coursera's Google Data Analytics Professional Certificate is a paid subscription program; price is country-specific. Do not copy a US price to Indonesian checkout.
+- Trailhead learning is free, but some Data 360 challenges require a dedicated Data 360 org and some course material is English-only.
+- Mediaocean Prisma training is customer/partner-gated; no public price or self-service entry route is confirmed.
+- Meltwater Klear Foundations is a free product-course path with 28 lessons, about one hour of video and an exam/certification section. The award validates Klear product use, not platform-neutral fraud screening.
+- impact.com Creator Product Training is a free product-training path with a 45-minute exam. The separate Affiliate & Partnerships Industry Expert path has six courses and a 50-minute exam. Do not conflate either with the existing Affiliate Marketing & Partnerships Industry Certification route.
+- No external credential is mandatory for DPA chapter completion. Chapter deliverables, campaign builds and portfolio evidence remain primary. No DPA-issued credential is authorized by this audit.
 
 ## Primary source register
 
@@ -190,18 +219,36 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 - TikTok Academy Indonesia: https://ads.tiktok.com/business/id/academy
 - TikTok Media Buying Certification Indonesia: https://ads.tiktok.com/business/id/academy/tiktok-certification
 
+### Global and completion route issuer evidence
+
+- Amazon Ads Academy Certifications and help: https://advertising.amazon.com/academy/certifications and https://advertising.amazon.com/academy/help
+- Amazon Ads Programmatic Solutions Certification: https://advertising.amazon.com/academy/student/path/1532/amazon-dsp-certification
+- Microsoft Advertising Learning Lab: https://about.ads.microsoft.com/en/resources/training-certification/learning-lab
+- StackAdapt Programmatic Masterclass: https://www.stackadapt.com/academy/programmatic-masterclass
+- LinkedIn Marketing Academy exam requirements and languages: https://www.linkedin.com/help/lms/answer/a489784
+- TikTok Academy Auto Ads, Promote your app and Advanced App Promotion: https://partners.tiktokacademy.com/student/collection/2079614/path/4855051 ; https://partners.tiktokacademy.com/student/collection/2079614/path/2958029 ; https://partners.tiktokacademy.com/student/collection/2079614/path/5967934
+- Snap Focus / Snapchat Essentials: https://forbusiness.snapchat.com/resources/snapfocus ; https://snap.exceedlms.com/student/collection/580772-snapchat-essentials
+- Forage job simulations: https://www.theforage.com/ and https://www.theforage.com/faq
+- Kaggle Intro to SQL: https://www.kaggle.com/learn/intro-to-sql
+- Salesforce Trailhead Data 360: https://trailhead.salesforce.com/content/learn/trails/unlock-your-data-with-data-cloud
+- Mediaocean Prisma training announcement: https://www.mediaocean.com/mediaocean-launches-digital-product-training-certifications-program-with-credly
+- Meltwater Klear Foundations: https://academy.meltwater.com/courses/influencer-marketing-with-meltwater-foundations
+- impact.com Creator Product Training and Affiliate/Partnerships Expert: https://impact.com/pxa/courses/impact-com-creator-product-training-fundamentals-certification-path/ ; https://impact.com/pxa/learning-path/affiliate-partnerships-industry-expert-certification-path/
+- WPP Media, Manager Retail DSP & Commerce Media (Amazon DSP and/or Walmart Connect experience): https://job-boards.greenhouse.io/wppmedia/jobs/5210621008
+- WPP Media, Supervisor Paid Search (Google Ads, Microsoft Advertising, SA360, CM360): https://job-boards.greenhouse.io/wppmedia/jobs/5185184008
+
 ## Implementation and remaining gates
 
 This audit has been reflected in:
-- `chapter-credential-routes-integration.js` — issuer additions, default-Earn exclusions, and chapter placement overrides.
-- `docs/credential-route-mapping-register.csv` — 175-row map synced to route IDs and first-pass notes.
-- `scripts/validate-dpa-guide-registry.js` — route-count, expected-route and exclusion assertions.
+- `chapter-credential-routes-integration.js` — 89 issuer routes, tiered optional/global/specialist dispositions and chapter placements; global routes are retained rather than deleted by the Indonesia filter.
+- `docs/credential-route-mapping-register.csv` — 175-row map synced to 89 unique route IDs and first-pass notes.
+- `scripts/validate-dpa-guide-registry.js` — route classification, tier, chapter-fit, map-parity and local-marketplace non-substitution assertions.
 
 Still open:
-1. Exact-head GitHub Actions validation and browser QA must pass on the final commit.
-2. Test Indonesian signed-in learner accounts for Google, Meta, TikTok, Microsoft, HubSpot, MoEngage, Braze, Salesforce, Ahrefs and Meltwater award issuance, language, cost and checkout.
+1. Exact-head GitHub Actions validation and browser QA must pass on the 89-route credential-expansion commit.
+2. Test Indonesian signed-in learner accounts for Google, Meta, TikTok, Microsoft, Amazon Ads, LinkedIn, Snap Focus, HubSpot, MoEngage, Braze, Salesforce, Ahrefs, Meltwater, Kaggle and Coursera award issuance, language, cost and checkout; Mediaocean remains employer/customer-gated.
 3. Confirm fee, retake and renewal facts at point of enrolment; do not extrapolate USD fees to IDR checkout.
-4. Independent SME acceptance of every chapter placement and all 28 elective credential reviews.
+4. Independent SME acceptance of every chapter placement, including restored global/specialist options, and all 28 elective credential reviews.
 5. Update learner-facing catalogue and governance pages so historical snapshots are not mistaken for the current Indonesia-filtered selection.
 
-No changes to `main`, no merge and no production release are made by this audit.
+No changes to `main`, no merge and no production release are made by this audit. The expanded 89-route registry remains first-pass and awaits exact-head CI, account tests and SME review.

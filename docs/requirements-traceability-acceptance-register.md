@@ -123,7 +123,7 @@ A PASS must identify the relevant class. A B-PASS must never be presented as a D
 | RES-001 | P1 | Maintain one resource row for each of the 169 core chapters with exact chapter ID, publisher, exact destination URL, resource type and last-checked date. Structural minimums do not prove fit. | Resource mapping register, 169-objective resource-fit register and static set/count check | **PASS (B, mapping structure only)** — current local check confirms 169 rows and 180 unique URLs, with at least two unique learner-facing HTTP(S) sources per chapter; objective fit and Indonesia access remain OPEN. |
 | RES-002 | P1 | For every learning objective, classify whether each cited resource is DIRECT FIT, PARTIAL FIT, SUPPORTING or NOT FIT; state which section supports which objective and explain gaps. | 169-objective resource-fit register, T03/T10 chapter source-fit reviews, exact source excerpts and reviewer disposition | **PARTIAL** — first-pass chapter-level source-fit desk review now recorded for 169/169 core chapters across T01–T16. All dispositions are PARTIAL/PARTIAL_STRONG; all 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility and independent SME decisions remain OPEN.
 | RES-003 | P1 | Verify access from Indonesia, language, paywall, prerequisite, duration, price/tax, account eligibility, regional availability and last-check date for each learner-facing resource. Mark unverified claims explicitly. | Live publisher checks, regional access test and dated evidence | **OPEN** |
-| RES-004 | P1 | Classify credentials correctly: professional certification, course completion, learning badge, skilling certificate, knowledge assessment or award. Verify issuer, exam, validity, price and eligibility; do not infer a credential from a course page. | Issuer primary sources and credential register | **PARTIAL** — 67 issuer routes are now filtered against Indonesian role demand and global agency practice, with 145/169 Core chapters mapped and 234 Core route placements; issuer-by-issuer Indonesia account/award/checkout checks, chapter-level SME acceptance and the 28 elective reviews remain OPEN. |
+| RES-004 | P1 | Classify credentials correctly: professional certification, course completion, learning badge, skilling certificate, knowledge assessment or award. Verify issuer, exam, validity, price and eligibility; do not infer a credential from a course page. | Issuer primary sources and credential register | **PARTIAL** — 89 issuer routes are tiered across Indonesia-priority, global-specialist, completion, product and gated pathways; 150/169 Core chapters mapped with 260 placements, Common Foundation 4/6 with five placements, and 175 CSV rows. All 89 routes are mapped, but chapter fits remain FIRST_PASS_MAPPING_NOT_SME_ACCEPTED; exact-head CI on the expanded registry and SME/account acceptance remain OPEN. |
 | RES-005 | P1 | Maintain the three resource tiers in the historical roadmap: Tier 1 official platform/provider learning; Tier 2 job descriptions, professional frameworks and standards; Tier 3 applied projects, tools and portfolio work. Explain when a track has no platform certification. | Per-track resource matrix | **PARTIAL** — principle exists; comprehensive per-track and objective mapping open |
 | AGY-001 | P1 | Maintain the 5-agency × 16-core-track matrix (80 unique cells) and separate elective evidence matrix. Counts must not be mistaken for validation. | 80-cell agency-role matrix and elective evidence register | **PASS (B, cell structure only)** |
 | AGY-002 | P1 | Validate each agency cell against current or clearly dated evidence. Record employing entity, brand, job title, duties, geography, seniority, experience, Job ID, official URL, publication/expiry/currentness and direct/adjacent/capability/historical/gap class. | `docs/80-agency-role-cell-validation-register.csv` (80 cells) plus primary employer/career sources and independent cell review | **PARTIAL** — all 80 cells have per-cell source references (101 URLs) and explicit source-type caveats; employer/JD currentness, role specificity, geography/seniority and competency validation remain OPEN |
@@ -706,3 +706,35 @@ Paid platform professional examinations were retained, not reclassified: Meta Me
 ### Meta Small Business Academy category reconciliation — 22 November 2026
 
 Added the Meta Ads Manager learning collection as a distinct `skilling_certificate` route. It includes six recommended learning modules and a separate skill test; Meta states that course completion is not required to begin the test. Public fee/Indonesia account issuance are not stated and remain OPEN. The completion-first Meta Blueprint/TikTok Academy routes remain separate, and paid/proctored Meta and TikTok professional exams remain advanced optional routes. The validator now enforces 75 total definitions and the distinct Meta SBA category. This does not change the overall release verdict.
+
+## Credential market-tier expansion — 22 November 2026
+
+The previous 67-route Indonesia-filtered registry has been expanded without deleting global or completion awards. Implementation baseline: edc804913afe1345c8ca62cce43baf06988cbd75.
+
+| Measure | Current desk-review result |
+|---|---:|
+| Issuer route definitions | 89 |
+| Professional certifications | 22 |
+| Vendor product certifications | 8 |
+| Vendor course certifications | 13 |
+| Course-completion credentials | 37 |
+| Course-completion certificates | 4 |
+| Simulation completion certificates | 1 |
+| Industry certifications | 2 |
+| Learning-path badge | 1 |
+| Skilling certificate | 1 |
+| Core chapter coverage | 150/169 |
+| Core route placements | 260 |
+| Common Foundation coverage | 4/6 |
+| Foundation placements | 5 |
+| Total route placements | 265 |
+| Unique registered routes mapped | 89/89 |
+| CSV rows | 175 (169 Core + 6 Foundation) |
+
+The 21 routes previously removed from Earn were restored with explicit tier labels: global-specialist optional, supporting completion, product-learning/product-certification, vertical-specialist completion, or employer/customer-gated. Snap Focus Snapchat Essentials was added as a separate Credential For Completion route. The registry does not equate these awards with professional certification or require learners to earn every route.
+
+Global market evidence includes a WPP Media US role requiring hands-on Amazon DSP and/or Walmart Connect experience, and a separate WPP Media Paid Search role naming Microsoft Advertising. These support retaining platform routes for global/specialist practice; they do not imply that the job requires the certificate itself.
+
+The runtime evaluation and generated CSV reconciliation found **0 route-ID, journey-status, verification-status or note mismatches** across all 175 rows. This is structural/static evidence only. Prior CI passing on commit c662aa3 predates the 89-route expansion; the final expanded commit must pass all exact-head workflows.
+
+All mappings remain FIRST_PASS_MAPPING_NOT_SME_ACCEPTED. Provider account issuance, pricing, language, regional access, expiry and retake terms need learner-account testing; chapter placements require qualified SME review. PR #7 remains open/draft/unmerged. No production change, certificate issuance or release approval is authorized.

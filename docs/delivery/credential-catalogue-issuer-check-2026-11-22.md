@@ -3,9 +3,9 @@
 **Branch reviewed:** `audit/dpa-release-readiness-2026-11-21`  
 **Code baseline at start of review:** `fe828d0572e563474708bf59d1ce62866b3ae986`  
 **Registry sources:** `chapter-credential-routes.js` + `chapter-credential-routes-integration.js` + `docs/credential-route-mapping-register.csv`  
-**Purpose:** Historical issuer desk-check and pre-market-filter catalogue. The current learner-facing Earn selection is superseded by [Credential Market-Fit Audit — Indonesia and Global Agency Practice](credential-market-fit-audit-2026-11-22.md). External credentials are issued by their publishers; DPA does not issue them.
+**Purpose:** Historical issuer desk-check and pre-market-filter catalogue. The current learner-facing Earn selection is governed by [Credential Market-Fit Audit — Indonesia and Global Agency Practice](credential-market-fit-audit-2026-11-22.md) and [Credential Route Tiering and Global Market Evidence](credential-route-tiering-and-global-market-evidence-2026-11-22.md). External credentials are issued by their publishers; DPA does not issue them.
 
-> **Current selection as of 22 November 2026:** 67 curated Earn routes; 145/169 Core chapters mapped; 234 Core placements; 2/6 Common Foundation chapters mapped. The 75-route inventory and detailed route list later in this file are a pre-filter snapshot. Do not expose the excluded routes as default Indonesia Earn recommendations; use the market-fit audit and current runtime/CSV instead.
+> **Historical selection snapshot only:** the 67-route / 145-of-169 / 234-placement figures below describe the earlier Indonesia-only filtered state and are no longer current. The live audit branch now holds 89 routes, 150/169 Core chapters with routes, 260 Core placements and 4/6 Common Foundation chapters with five placements. Use the market-fit audit, credential tiering report and runtime CSV for the current selection.
 
 ## 1. Reconciled registry counts
 
