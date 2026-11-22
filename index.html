@@ -5046,11 +5046,24 @@ function credentialRouteIsMappedToChapter(chapterId,href){
  var registry=window.DPA_CREDENTIAL_REGISTRY||{};
  return routeIds.some(function(id){var r=registry[id];return r&&(r.url===href||r.sourceUrl===href);});
 }
+function credentialRouteTierLabel(route){
+ var labels={
+  "GLOBAL_SPECIALIST_OPTIONAL":"Global / spesialis (opsional)",
+  "SUPPORTING_SIMULATION_COMPLETION":"Simulasi / completion pendukung",
+  "SUPPORTING_COMPLETION":"Completion pendukung",
+  "SUPPORTING_PAID_COURSE_CERTIFICATE":"Kursus berbayar (completion)",
+  "EMPLOYER_CUSTOMER_GATED":"Akses employer / customer",
+  "PRODUCT_LEARNING_BADGE":"Badge pembelajaran produk",
+  "PRODUCT_COURSE_CERTIFICATION":"Sertifikasi kursus produk",
+  "VERTICAL_SPECIALIST_COMPLETION":"Completion spesialis vertikal"
+ };
+ return labels[route.routeTier||"INDONESIA_CORE_PRIORITY"]||"Prioritas Indonesia";
+}
 function renderCredentialRouteCard(route){
  var html='<article class="credential-route-card">';
  html+='<div class="credential-route-tags"><span class="tag '+studyEsc(route.tagClass||'t-coursecred')+'">'+studyEsc(route.label||'Provider credential')+'</span>';
  if(route.paidExam)html+='<span class="tag t-exam">Paid / proctored exam</span>';
- html+='<span class="tag t-milestone-optional">Jalur provider</span></div>';
+ html+='<span class="tag t-milestone-optional">'+studyEsc(credentialRouteTierLabel(route))+'</span></div>';
  html+='<strong>'+studyEsc(route.title)+'</strong><p>'+studyEsc(route.description)+'</p>';
  if(route.fitNote)html+='<p class="credential-fit-note"><b>Kecocokan dengan bab:</b> '+studyEsc(route.fitNote)+'</p>';
  html+='<div class="credential-route-meta">';
@@ -5069,7 +5082,8 @@ function renderCredentialRouteCard(route){
 function renderChapterMilestones(chapterId,guide){
  var registry=window.DPA_CREDENTIAL_REGISTRY||{};
  var routeIds=(window.DPA_CHAPTER_CREDENTIAL_MAP||{})[chapterId]||(window.DPA_FOUNDATION_CREDENTIAL_MAP||{})[chapterId]||[];
- var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,3);
+ var routeLimit=chapterId==="DPA-T05-CH09"?4:3;
+ var routes=routeIds.map(function(id){return registry[id];}).filter(Boolean).slice(0,routeLimit);
  var deliverable=studyEsc(guide.deliverable||guide.practice||'Selesaikan deliverable bab dan simpan evidence yang dapat diperiksa.');
  var html='<section class="chapter-milestones" aria-label="Milestone belajar bab">';
  html+='<article class="chapter-milestone learn" data-milestone="learn"><div class="chapter-milestone-head"><span class="chapter-milestone-step">01 · Learn</span></div><h5>Pahami materi inti</h5><p>Pelajari konsep, contoh, langkah kerja, dan sumber yang dipetakan untuk learning objective bab ini.</p></article>';
