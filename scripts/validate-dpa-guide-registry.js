@@ -62,6 +62,15 @@ for (const relativePath of sourceFiles) {
   const absolutePath = path.join(root, relativePath);
   const source = fs.readFileSync(absolutePath, "utf8");
   vm.runInContext(source, runtimeContext, { filename: relativePath });
+  if (relativePath === "chapter-credential-routes.js" || relativePath === "chapter-credential-routes-integration.js") {
+    console.log("[credential-runtime-diagnostic]", relativePath, JSON.stringify({
+      cf01: sandbox.DPA_FOUNDATION_CREDENTIAL_AUDIT &&
+        sandbox.DPA_FOUNDATION_CREDENTIAL_AUDIT["DPA-CF-CH01"],
+      cfMap: sandbox.DPA_FOUNDATION_CREDENTIAL_MAP &&
+        sandbox.DPA_FOUNDATION_CREDENTIAL_MAP["DPA-CF-CH01"],
+      coreCount: Object.keys(sandbox.DPA_CHAPTER_CREDENTIAL_MAP || {}).length
+    }));
+  }
 }
 
 const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
