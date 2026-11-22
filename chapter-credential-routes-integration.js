@@ -1833,6 +1833,26 @@ function removeOutOfMarketEarnRoutes(routeMap, audit) {
 removeOutOfMarketEarnRoutes(chapterMap, auditMap);
 removeOutOfMarketEarnRoutes(foundationMap, foundationAudit);
 
+// Rebuild the six Common Foundation audit rows from the final filtered map.
+// Notes are deliberately restored after filtering so a generic fallback cannot
+// overwrite the chapter-specific disposition and the register remains auditable.
+var foundationNoteOverrides = {
+  "DPA-CF-CH01": "No suitably matched external award selected; unit economics remains a Learn objective and portfolio exercise. This is not a market-wide absence claim.",
+  "DPA-CF-CH02": "HubSpot Inbound is an adjacent vendor course credential for buyer and journey framing; it does not replace client-brief practice. Forage remains Learn-only as a simulation exercise and is not presented as a default professional Earn route.",
+  "DPA-CF-CH03": "HubSpot Inbound is an adjacent course credential; objective fit and current terms remain first-pass and not SME accepted.",
+  "DPA-CF-CH04": "Khan Academy does not issue a certificate for this learning; no matching math-for-marketing award selected. Use the chapter assessment and work sample.",
+  "DPA-CF-CH05": "Supporting GA4 course-completion certificate only; it is not a Google-issued certification or a full marketing-measurement credential.",
+  "DPA-CF-CH06": "Forage is an applied simulation completion certificate; role-specific agency workflow and professionalism remain portfolio-led."
+};
+Object.keys(foundationNoteOverrides).forEach(function(chapterId) {
+  var routeIds = (foundationMap[chapterId] || []).slice();
+  foundationAudit[chapterId] = {
+    "routeIds": routeIds,
+    "outcome": routeIds.length ? "EXTERNAL_CREDENTIAL_OPTION" : "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE",
+    "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED",
+    "note": foundationNoteOverrides[chapterId]
+  };
+});
 
 root.DPA_CREDENTIAL_REGISTRY = registry;
 root.DPA_CHAPTER_CREDENTIAL_MAP = chapterMap;
