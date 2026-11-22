@@ -1125,7 +1125,7 @@ var placementOverrides = {
   ],
 "DPA-T14-CH05": ["meltwater_influencer_cert_2", "t02_tiktok_creative_planning", "t14_meta_creator_marketing"]
 
-};,
+};
 "DPA-T14-CH08": [
     "t14_meltwater_influencer_cert_1"
   ],
@@ -1278,7 +1278,7 @@ var placementNotes = {
 "DPA-T14-CH04": "PXA's Affiliate & Partnerships Expert path is only partial support for creator vetting; fraud and monitoring in affiliate programs do not equal creator-audience fraud screening.",
 "DPA-T14-CH05": "Meltwater Certification II covers influencer selection and conversion tactics; TikTok and Meta paths remain separate platform-specific completion learning."
 
-};,
+};
 "DPA-T14-CH08": "Meltwater Influencer Marketing Certification I is supporting only for creator relationships and campaign practice; chapter portfolio evidence remains primary.",
 "DPA-T04-CH01": "TikTok Get discovered with Search provides an issuer-listed Credential for Completion specifically for Search Ads. Google and Microsoft remain separate provider certifications; the platforms are not interchangeable.",
 "DPA-T05-CH01": "Completion-first entry route: Meta Blueprint's v10 introductory course and TikTok Basics are free-to-learn course-completion/Achievement options at the issuer level; Meta Small Business Academy follows as a separate Ads Manager skilling test with fee not stated publicly. Paid Meta Media Buying Professional remains optional and is not required to earn either completion award.",
