@@ -3,8 +3,8 @@
 **Project:** The Full-Stack Digital Performance Architect (DPA)  
 **Register version:** 1.1
 **Baseline date:** 5 November 2026  
-**Current working branch:** `audit/dpa-end-to-end-completion-2026-11-21`, forked from the verified PR #7 remote head `da4b0097d0f5d8f68b05f78ffae195f5c6847b96`. Historical entries retain their original branch references.
-**Release state (21 Nov 2026, end-to-end recovery update):** **NOT READY**; exact candidate verification and human review gates are recorded in the latest addendum below. Prior dates and workflow SHAs are historical evidence only.
+**Current review branch:** `audit/dpa-release-readiness-2026-11-21` (PR #7). The former `audit/dpa-end-to-end-completion-2026-11-21` reference is a historical local-workspace checkpoint, not the live remote review branch. Historical entries retain their original branch references.
+**Release state (22 Nov 2026, live remote audit):** **NOT READY**; exact candidate verification and human review gates are recorded in the latest addendum below. Prior dates and workflow SHAs are historical evidence only.
 **Scope lock:** **18 pathways = 16 Core Specialist Tracks + 2 Advanced Electives**
 
 > This register is the control document for remediation. It distinguishes structural presence, substantive validation, runtime verification and production release. A file existing, a count matching, or CI passing is not by itself evidence that the underlying learning content is correct.
@@ -633,3 +633,34 @@ This is implementation/desk-review coverage, not SME acceptance, provider-accoun
 - **Independent issuer checks:** official checks show the legacy Skillshop `/googleads/` path is 404 while the Skillshop root is active; Edge Academy's supply-chain course is Learn-only without a course-specific award confirmed; Microsoft's separate Azure SQL Applied Skills is developer-focused and not mapped to the DPA customer-data outcome; Semrush describes a technical SEO/AI-search course certificate and final assessment. Current source links are in `docs/delivery/09-source-provenance-register.md`.
 
 **Release decision: NOT READY.** This is a local review candidate, not audience acceptance. Authenticated hosted preview inspection, manual accessibility, formal objective-fit, SME/editorial decisions, owner approval, and the historical scorecard discrepancy remain open. No merge, production deployment or DPA credential issuance is authorized.
+
+
+## 22 November 2026 — live remote audit, issuer catalogue and remediation addendum
+
+**Review branch:** `audit/dpa-release-readiness-2026-11-21` · **PR:** [#7](https://github.com/putratryarga/putratryarga-dpa/pull/7) · **main remains protected and untouched**. This addendum supersedes prior statements of current route counts and any assertion that the old 21 Nov checkpoint is the latest review state. The PR remains OPEN / DRAFT / UNMERGED; documentation, content, CI or Preview success is not release approval.
+
+### Current verified implementation deltas
+
+- Six CF1–CF6 lesson drafts are committed in `92b4e662`; they contain worked synthetic cases, sequenced lesson steps, explained checks, glossary and guided practice. The exact previous review head `fe828d0` passed the Guide Registry / Chromium CI workflow. Content, objective-source fit, local access, rubric calibration and SME acceptance remain PARTIAL/OPEN.
+- The authored Part 4 guide set was expanded to **10** with `DPA-T03-CH04 — Media Objective, KPI & Channel Roles`; the validator's explicit expected-ID set was updated in the same remediation batch. The follow-on Guide Registry / Browser QA run is the acceptance evidence to inspect at its exact head; do not infer pass from file writes alone.
+- OpenAI Ads Manager documentation has been added to the objective-level source map for T01, T03 and T10, and the stale 4 Nov page note has been replaced with the current Indonesia self-service condition. It remains a beta platform-learning reference, not a DPA or OpenAI certification.
+- A 51-route issuer catalogue was added at `docs/delivery/credential-catalogue-issuer-check-2026-11-22.md`, derived from the baseline registry, the 16 integration additions, and the 175-row CSV. One route definition (`meta_pixel_optimization_course`) is currently not assigned to any chapter in the CSV. Amazon Programmatic Advanced and Google SA360 are proposed issuer candidates, not yet integrated mappings.
+
+### Credential registry reconciliation
+
+The latest route totals are **51 definitions** (35 baseline + 16 integration), **161/169 core chapters mapped with 224 core placements**, and **4/6 Common Foundation chapters mapped with five CF placements**. The combined CSV has 175 chapter rows, 165 mapped rows, 229 placements and ten portfolio-first rows. These figures supersede older 30/35 route, 136/169 core and 3/6 CF statements elsewhere in historical addenda. All mapping statuses remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; mapping count does not prove objective fit, account access or competency.
+
+### Historical, content and assessment status
+
+- The 18-file Nov 4 source archive is checksum-reconciled 18/18; the original 169 × 7 raw score records, 23 findings and D-1…D-12 log are recovered. Five summary means still conflict with raw row recomputation; HIST-001/HIST-002 remain PARTIAL pending explicit reconciliation and dispositions. The exact original standalone S0 AutoClaw Master Prompt is still not located; SCP-001 remains BLOCKED.
+- Core guide structure and chapter identity are not equivalent to 169 fully authored, independently reviewed lessons. Generic fallback depth and objective-level examples require a fresh chapter-by-chapter re-count and substantive review; keep CORE-002 OPEN and CORE-003 PARTIAL until evidence is recorded.
+- 507 Q&A answer/editorial/source decisions remain OPEN. Keep items reflective and non-scored. 169 rubrics require objective-specific criteria review, calibration, SME approval and assessor pilot; no approved scored pass threshold exists.
+- 169 resource rows are a coverage structure only. Objective fit, source currency, Indonesian language/account access, price/eligibility and two-way source relevance remain open. The historic URL crawl is dated evidence, not current live fetchability.
+- 80 agency cells remain PARTIAL/OPEN pending current employer-hosted JDs, employing entity, exact role duties, geography, seniority and competency mapping. Adjacent/index-only evidence must not be promoted to direct role proof.
+- The 28 elective chapters / 56 checks remain draft or partial pending substantive lesson depth, source fit and SME review. Do not count them as validated core chapters.
+
+### Current hard blockers and release boundary
+
+S0 prompt provenance; five historical scorecard discrepancies; 169 chapter editorial/technical review; 169 source-fit and Indonesia-access decisions; 507 Q&A decisions; 169 rubric calibration/pilot; 80 agency/JD cells; 28 elective chapters and 56 checks; hosted authenticated visual review; manual keyboard/screen-reader/contrast and full WCAG 2.2 AA verification; learner pilot; explicit owner release approval. DPA certificate issuance remains unauthorized and must not be represented as a live benefit.
+
+**Disposition:** controlled internal/SME review candidate only. **NOT READY for general audience, merge, production or credential issuance.** No main-branch or production operation is authorized by this addendum.
