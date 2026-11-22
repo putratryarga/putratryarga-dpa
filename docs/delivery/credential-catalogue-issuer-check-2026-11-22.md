@@ -5,29 +5,29 @@
 **Registry sources:** `chapter-credential-routes.js` + `chapter-credential-routes-integration.js` + `docs/credential-route-mapping-register.csv`  
 **Purpose:** Historical issuer desk-check and pre-market-filter catalogue. The current learner-facing Earn selection is superseded by [Credential Market-Fit Audit — Indonesia and Global Agency Practice](credential-market-fit-audit-2026-11-22.md). External credentials are issued by their publishers; DPA does not issue them.
 
-> **Current selection as of 22 November 2026:** 65 curated Earn routes; 145/169 Core chapters mapped; 233 Core placements; 2/6 Common Foundation chapters mapped. The 75-route inventory and detailed route list later in this file are a pre-filter snapshot. Do not expose the excluded routes as default Indonesia Earn recommendations; use the market-fit audit and current runtime/CSV instead.
+> **Current selection as of 22 November 2026:** 67 curated Earn routes; 145/169 Core chapters mapped; 234 Core placements; 2/6 Common Foundation chapters mapped. The 75-route inventory and detailed route list later in this file are a pre-filter snapshot. Do not expose the excluded routes as default Indonesia Earn recommendations; use the market-fit audit and current runtime/CSV instead.
 
 ## 1. Reconciled registry counts
 
 | Measure | Recomputed result |
 |---|---:|
-| Curated Indonesia-market Earn route definitions | **65** = 86 original definitions less 21 out-of-market / weak-fit exclusions |
+| Curated Indonesia-market Earn route definitions | **67** = 88 raw definitions less 21 out-of-market / weak-fit exclusions |
 | Core rows | 169 |
 | Core chapters with selected external routes | **145/169** |
-| Core route placements | **233** |
+| Core route placements | **234** |
 | Core chapters with no selected external route | **24/169** (portfolio-first in this Indonesia-filtered map) |
 | Shared Common Foundation rows | 6 |
 | CF chapters with selected external routes | **2/6** |
 | CF route placements | **2** |
 | CF chapters with no selected external route | **4/6** (portfolio-first in this Indonesia-filtered map) |
-| Combined mapping CSV | **175 rows**, 147 mapped rows, **235 placements**, 28 portfolio-first rows |
+| Combined mapping CSV | **175 rows**, 147 mapped rows, **236 placements**, 28 portfolio-first rows |
 
-**Counting rule:** a route placement is one route ID on one chapter row; a single issuer route can legitimately support multiple chapters. The 65 active route definitions are not the number of credentials every learner must earn. The previous 86 raw definitions include 21 routes removed from default Earn after the Indonesia-market relevance filter. The map remains a first-pass curated selection, not exhaustive market coverage. All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
+**Counting rule:** a route placement is one route ID on one chapter row; a single issuer route can legitimately support multiple chapters. The 67 active route definitions are not the number of credentials every learner must earn. The previous 86 raw definitions include 21 routes removed from default Earn after the Indonesia-market relevance filter. The map remains a first-pass curated selection, not exhaustive market coverage. All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
 
 ## 2. Evidence taxonomy and learner-facing meaning
 
 - **Professional/vendor certification:** an issuer-defined assessment or exam. Use the issuer's exact title and its own validity/renewal conditions. Platform-specific certification is not proof of cross-platform strategy or a campaign result.
-- **Vendor course certification:** an issuer's course plus assessment/certificate. It is not automatically an independent professional certification.
+- **Vendor product certification:** an issuer's product-area assessment award (for example, Google's foundational product certifications); this is distinct from the issuer's separately named proctored professional-certification tier.\n- **Vendor course certification:** an issuer's course plus assessment/certificate. It is not automatically an independent professional certification.
 - **Course-completion credential:** a course/activity award explicitly labelled by the provider. It does not mean the learner passed a professional certification exam.
 - **Course-completion certificate / simulation certificate:** evidence of learning or applied simulation completion; not a professional licence.
 - **Digital badge / learning-path award:** recognition of completing a defined learning path; a badge is not necessarily an assessed professional certification.
@@ -39,7 +39,7 @@ Unless a route is explicitly described as a mandatory assessment by its issuer, 
 
 ## 3. Superseded pre-filter issuer catalogue (75 historical definitions)
 
-The detailed route entries below preserve the earlier issuer-only desk-check. Some routes in this historical list have since been withheld from default Earn following the Indonesia-market and professional-role review. Their appearance here does not mean they are currently mapped to learners.
+The detailed route entries below preserve the earlier issuer-only desk-check. Some routes in this historical 75-route snapshot have since been withheld from default Earn following the Indonesia-market and professional-role review. The current 67-route map also adds two Braze exams at renamed current titles and should be read from the runtime/CSV, not inferred from this older route table. Their appearance here does not mean they are currently mapped to learners.
 
 ### google_ads_search — Google Ads Search Certification
 
