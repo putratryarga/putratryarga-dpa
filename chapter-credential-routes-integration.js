@@ -776,7 +776,7 @@ var additions = {
     "type": "skilling_certificate",
     "label": "Skilling Certificate",
     "tagClass": "t-coursecert",
-    "paidExam": false,
+    "paidExam": null,
     "description": "Six recommended learning modules cover campaign objectives, audiences, placements/budget/schedule, creative, campaign analysis and Meta Advertising Standards. A separate Meta Ads Manager learning skill test awards the Meta Small Business Academy skilling certificate.",
     "duration": "Six courses, approximately 90 minutes total based on the issuer's listed 15m + 15m + 15m + 20m + 10m + 15m; additional assessment time is not stated.",
     "cost": "The public Meta page does not state a separate fee for the skill test or certificate. Do not promise free issuance until the signed-in learner account confirms the test and award are available at no cost.",
