@@ -11,6 +11,7 @@ No additional learner menu is introduced. The active role's chapter panel now pr
 ## Evidence taxonomy
 
 - `professional_certification`: a provider's formal professional assessment/certification (e.g., Google Ads, Meta, TikTok, Amazon Ads). The issuer owns assessment and award.
+- `vendor_product_certification`: a vendor product-area certification earned through a defined product assessment (for example, Google Ads foundational certifications). It is distinct from the issuer’s separate proctored professional-certification tier.
 - `vendor_course_certification`: a vendor-issued course certification. This is not automatically an independent or cross-industry qualification.
 - `course_completion_credential`: a provider course/activity marked as a credential on the issuer page; not equivalent to the provider's professional certification exam.
 - `course_completion_certificate`: a course-completion certificate, not a professional certification.
