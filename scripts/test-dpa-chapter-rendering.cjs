@@ -214,6 +214,8 @@ const EXPECTED_TOTAL = EXPECTED_CORE + EXPECTED_FOUNDATION;
       ["DPA-T11-CH02", "ahrefs.com"],
       ["DPA-T12-CH01", "academy.moengage.com"],
       ["DPA-T12-CH05", "trailhead.salesforce.com"],
+      ["DPA-T12-CH03", "credly.com/org/braze/badge/braze-certified-marketing-specialist"],
+      ["DPA-T12-CH02", "credly.com/org/braze/badge/braze-certified-practitioner"],
       ["DPA-T14-CH02", "academy.meltwater.com"]
     ];
     for (const [chapterId, expectedHost] of requiredIndonesiaCredentialChapters) {
