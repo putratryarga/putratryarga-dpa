@@ -738,3 +738,61 @@ Global market evidence includes a WPP Media US role requiring hands-on Amazon DS
 The runtime evaluation and generated CSV reconciliation found **0 route-ID, journey-status, verification-status or note mismatches** across all 175 rows. This is structural/static evidence only. Prior CI passing on commit c662aa3 predates the 89-route expansion; the final expanded commit must pass all exact-head workflows.
 
 All mappings remain FIRST_PASS_MAPPING_NOT_SME_ACCEPTED. Provider account issuance, pricing, language, regional access, expiry and retake terms need learner-account testing; chapter placements require qualified SME review. PR #7 remains open/draft/unmerged. No production change, certificate issuance or release approval is authorized.
+
+## Live remote baseline and acceptance reconciliation — 22 November 2026, 14:54 WIB
+
+**Audited repository:** `putratryarga/putratryarga-dpa`  
+**Default branch / base:** `main` at `64f96437bcdb8499add1affbad102283dfe7d8b4`  
+**Audited review branch:** `audit/dpa-release-readiness-2026-11-21`  
+**Pull request:** [#7 — DPA v11.2](https://github.com/putratryarga/putratryarga-dpa/pull/7), OPEN / DRAFT / UNMERGED, base `main`, source HEAD `82b4d7c05303bef2fea18e897867f5ec246a08ae`. GitHub reports 630 commits and 190 changed files. The PR's synthetic merge ref is not a merged production commit.  
+**Audited source commit:** [`82b4d7c05303bef2fea18e897867f5ec246a08ae`](https://github.com/putratryarga/putratryarga-dpa/commit/82b4d7c05303bef2fea18e897867f5ec246a08ae).  
+**Audit timestamp:** 2026-11-22 14:54 WIB.  
+**Access:** GitHub repository read/write and PR inspection available; Vercel project/deployment metadata available. Hosted authenticated visual review remains subject to project SSO; manual human/SME access has not been established here.
+
+### Deployment relationship — verified metadata
+
+- Vercel Preview deployment `dpl_6k6HWk1H3P41pEHiXE1Xa1TyUhvd` is **READY**, sourced from the audited review branch at `82b4d7c05303bef2fea18e897867f5ec246a08ae`. Preview hostname: [putratryarga-n2dg0vbkg-elric3.vercel.app](https://putratryarga-n2dg0vbkg-elric3.vercel.app/).
+- The Vercel project reports SSO protection enabled for all deployment hostnames except custom domains. A READY metadata state is not an authenticated learner-journey or accessibility acceptance.
+- Public production alias [putratryarga-dpa.vercel.app](https://putratryarga-dpa.vercel.app/) currently resolves to deployment `dpl_DN3uQRSqEhdJDE5mn123xidFYC1Z`, sourced from `main` at `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`, target `production`, state **READY**.
+- Git comparison confirms the production deployment commit is an ancestor of current `main`, two commits behind with **documentation-only additions** (`docs/T07-10-chapter-source-fit-review.md` and `docs/T16-12-chapter-source-fit-review.md`). This establishes metadata ancestry, not a live content/route/browser verification. Production was not changed.
+
+### Exact current CI evidence and scope
+
+- Vercel status check for source HEAD `82b4d7c` is **SUCCESS**.
+- GitHub Actions run [#315 / 44991058994 — DPA Guide Registry and Browser QA](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44991058994) completed **SUCCESS**. Its job checked out GitHub's synthetic PR merge commit `b7bba15b9158b43fbae91ed64c0157443f4446fd` (source HEAD `82b4d7c` merged into base `64f9643`); evidence must be described as PR-merge-context QA, not a test of the source SHA in isolation.
+- The run's validator reports 169/169 core guide IDs and 169/169 objective-level resource-map IDs, at least two unique HTTP(S) source URLs per core chapter, and non-empty concept, worked example, steps, practice and knowledge-check fields. It also reports credential-route coverage across all 169 core chapters and transparently leaves 28 elective reviews OPEN.
+- The Chromium report records 175 rendered panels (169 Core + 6 Common Foundation), at least two unique mapped HTTP(S) links in every panel, a 390px mobile viewport, empty console-error and HTTP-failure arrays, and uploaded artifact [14741477809](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44991058994/artifacts/14741477809). This is structural/render QA; it does not establish chapter correctness, live provider access, keyboard/screen-reader quality, WCAG 2.2 AA, authenticated hosted behavior or learner acceptance.
+- The current run retrieved for this PR-context check is the Guide Registry / Browser QA workflow. Do not infer that Quiz Engine QA and Remediation Static QA passed on this exact source HEAD from older run IDs. Their workflow definitions do not declare a `pull_request` trigger; current exact-HEAD evidence for those suites remains to be obtained separately.
+
+### Current implementation inventory — reconciled from files at source HEAD
+
+| Area | Actual records / result | Acceptance interpretation |
+|---|---:|---|
+| Core taxonomy | 16 Core Tracks | Structural taxonomy present; job-family and curriculum acceptance remain open |
+| Advanced electives | 2 × 14 = 28 chapter drafts | All 28 are `THIN_FIRST_PASS_DRAFT`; substantive/SME acceptance OPEN |
+| Shared Common Foundation | 6 chapters | Lesson drafts render; editorial, source-fit and SME review OPEN |
+| Core specialist guides | 169 unique chapter records | Structural fields and exact-ID runtime map pass; technical/content accuracy and SME review OPEN |
+| Objective resource fit | 169 rows; 163 PARTIAL / 6 PARTIAL_STRONG desk classifications | Formal objective-fit, Indonesia-access, language/cost/account eligibility and independent review OPEN for all 169 |
+| Q&A | 507 unique items | All 507 remain reflective/non-scored; answer, editorial and SME review OPEN |
+| Rubrics | 169 unique rows | All are DRAFT_PRESENT; technical calibration, SME approval, assessor pilot, inter-rater agreement and resubmission rules OPEN |
+| Agency evidence | 80 unique cells | Source/evidence statements exist; employer-hosted JD, role specificity, currentness, geography/seniority and competency validation OPEN for all 80 |
+| Elective checks | 56 unique items | All reflective/non-scored; editorial, source and SME review OPEN |
+| Credential issuer registry | 89 unique route definitions | 22 professional certifications; 8 vendor product certifications; 13 vendor course certifications; 37 course-completion credentials; 4 course-completion certificates; 1 simulation completion certificate; 2 industry certifications; 1 learning-path badge; 1 skilling certificate |
+| Credential placement | 150/169 Core chapters (260 placements); 4/6 Foundation chapters (4 placements); 264 total placements across 175 rows | 89/89 route IDs reconcile structurally; 21 rows are portfolio-first. All 175 mapping rows are `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; no SME, account-level issuance, Indonesia eligibility or award verification is implied |
+
+The current credential market-tier report classifies 67 routes as Indonesia-priority, 11 as global-specialist optional and 11 as supporting/product/gated. These are tiers **within 89 total routes**; 67 is not the total catalogue size. Earlier 51-, 74-, 75- and 67-total-route counts are superseded historical snapshots.
+
+### Historical claims reconciled
+
+- The previous provisional HEAD `8cd6b4d` is not the current PR source HEAD. The only current PR source SHA for this audit is the full 40-character `82b4d7c...` above.
+- The latest route registry contains 89 route definitions, not 51. The latest reconciled placement counts are 150/169 Core, 4/6 Foundation, 260 Core placements and 264 total placements.
+- The 507 Q&A, 169 rubrics, 80 agency cells, 28 elective chapters and 56 elective checks exist as registers/drafts, not completed human validation.
+- The original historical 169 × 7 raw-score matrix, 23 findings and D-1…D-12 log are recovered; five track-summary means still differ from raw-row recomputation. Inter-rater agreement cannot be inferred from disjoint reviewer assignments. S0 — the exact original standalone AutoClaw Master Prompt — remains NOT FOUND/BLOCKED.
+
+### Release disposition
+
+**Technical structural/render checks: PARTIAL PASS (B/E-limited, PR merge-context). Product acceptance: NOT READY. Controlled learner pilot: NOT APPROVED on this evidence. General release: NOT READY.** No merge, production deployment, DPA-issued credential, or public certification claim is authorized by this audit.
+
+**Remaining release blockers:** 169 substantive chapter reviews; six CF editorial/source/access reviews; 169 resource-fit and Indonesia-access decisions; 507 answer/editorial/source decisions; 169 rubric calibration and assessor pilot; 80 role/JD evidence validations; 28 elective substantive reviews and 56 check validations; current exact-head Quiz Engine and static QA; authenticated hosted Preview inspection; manual keyboard/contrast/screen-reader and WCAG 2.2 AA review; historical scorecard discrepancy disposition; S0 provenance decision; controlled learner pilot; explicit owner release approval.
+
+**Control rule:** This is the current remote baseline snapshot. Subsequent work must append dated evidence against the resulting exact HEAD and update only changed requirements. Do not overwrite historical audit evidence or report old run IDs as current-head passes.
