@@ -110,14 +110,18 @@ assert.deepEqual(invalidOrThinSourceMaps, [], `Every core chapter must have at l
 for (const id of uniqueChapterIds) {
   const guide = registry[id];
   assert.ok(guide, `Guide not found for ${id}`);
-  assert.ok(typeof guide.concept === "string" && guide.concept.trim(), `Empty concept for ${id}`);
-  assert.ok(typeof guide.example === "string" && guide.example.trim(), `Empty worked example for ${id}`);
-  assert.ok(Array.isArray(guide.steps) && guide.steps.length > 0, `Missing learning steps for ${id}`);
-  assert.ok(typeof guide.practice === "string" && guide.practice.trim(), `Missing practice task for ${id}`);
-  assert.ok(Array.isArray(guide.checks) && guide.checks.length > 0, `Missing knowledge checks for ${id}`);
+  assert.ok(typeof guide.concept === "string" && guide.concept.trim().length >= 100, `Concept is missing or below the 100-character instructional floor for ${id}`);
+  assert.ok(typeof guide.example === "string" && guide.example.trim().length >= 100, `Worked example is missing or below the 100-character instructional floor for ${id}`);
+  assert.ok(Array.isArray(guide.steps) && guide.steps.length >= 4, `At least four sequenced learning steps are required for ${id}`);
+  assert.ok(guide.steps.every(step => String(step || "").trim()), `Blank learning step found for ${id}`);
+  assert.ok(typeof guide.practice === "string" && guide.practice.trim().length >= 100, `Practice/deliverable is missing or below the 100-character instructional floor for ${id}`);
+  assert.ok(Array.isArray(guide.checks) && guide.checks.length >= 3, `At least three answer-guided knowledge checks are required for ${id}`);
+  assert.ok(guide.checks.every(item => item && String(item.q || "").trim() && String(item.a || "").trim()), `Every knowledge check must include a question and answer guidance for ${id}`);
+  assert.ok(Array.isArray(guide.terms) && guide.terms.length >= 4, `At least four glossary terms are required for ${id}`);
+  assert.ok(guide.terms.every(item => item && String(item.term || "").trim() && String(item.definition || "").trim()), `Every glossary term must include a term and definition for ${id}`);
 }
 
-console.log(`PASS: ${registryIds.length}/169 chapter guides and ${sourceMapIds.length}/169 objective-level resource maps; every core chapter has at least two unique HTTP(S) sources plus concept, example, steps, practice, and knowledge checks.`);
+console.log(`PASS: ${registryIds.length}/169 chapter guides and ${sourceMapIds.length}/169 objective-level resource maps; every core guide meets the 100-character concept/example/practice floor, four steps, three answer-guided checks, four defined glossary terms, and at least two unique HTTP(S) sources.`);
 
 
 const credentialRegistry = sandbox.DPA_CREDENTIAL_REGISTRY || {};
