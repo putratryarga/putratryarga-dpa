@@ -1204,7 +1204,7 @@ var placementOverrides = {
     "meta_community_course_credentials",
     "tiktok_brand_safety_achievement",
     "meta_v10_privacy_brand_safety"
-  ]
+  ],
 
   "DPA-T03-CH03": ["google_ads_display", "google_ads_video"],
   "DPA-T03-CH04": ["meta_media_planning", "google_ads_display", "google_ads_video"],
@@ -1284,7 +1284,7 @@ var placementNotes = {
   "DPA-T14-CH09": "TikTok Creative Production/Iteration supports content delivery and iteration; Meta Partnership Ads is platform-specific and does not substitute for real creator-management experience.",
   "DPA-T14-CH10": "Meta Partnership Ads directly supports Meta amplification and permissions; TikTok Creative Iteration is supporting creative learning, not TikTok paid-media certification.",
   "DPA-T16-CH07": "Meta Community Management, Meta Privacy/Brand Safety and TikTok brand-safety Achievement support platform controls. They do not replace moderation playbooks, crisis escalation or local legal review.",
-  "DPA-T16-CH10": "TikTok brand-safety and Meta privacy/community activities provide platform-policy learning only; crisis triage, escalation and response governance remain assessed through the chapter portfolio."
+  "DPA-T16-CH10": "TikTok brand-safety and Meta privacy/community activities provide platform-policy learning only; crisis triage, escalation and response governance remain assessed through the chapter portfolio.",
 
   "DPA-T03-CH03": "Google Ads Display and Video are direct product-specific credentials for digital display/video activation; neither replaces cross-channel media evaluation.",
   "DPA-T03-CH04": "Google Ads Display/Video support channel-role and format execution; Meta Media Planning remains a separate platform-specific professional credential.",
