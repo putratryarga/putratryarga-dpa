@@ -49,7 +49,7 @@ Unless a route is explicitly described as a mandatory assessment by its issuer, 
 - **Indonesia / language / account access:** Bahasa Indonesia tercantum dalam 22 bahasa sertifikasi. Akses akun/assessment dari Indonesia tetap perlu dicek saat enrolment.
 - **Limit / objective-fit caveat:** Platform-specific; tidak mengukur kemampuan planning lintas channel.
 - **Issuer route:** [Open issuer route](https://skillshop.withgoogle.com/) · [Issuer fact/source page](https://support.google.com/google-ads/answer/9702955?hl=id)
-- **Registry verification date / status:** 2026-11-21 · **PARTIAL** — current public issuer description recorded; Indonesia sign-in, regional eligibility, local checkout/payment/tax, and any unpublished account-specific conditions have not been tested.
+- **Registry verification date / status:** 2026-11-22 · **PARTIAL** — current public issuer description recorded; Indonesia sign-in, regional eligibility, local checkout/payment/tax, and any unpublished account-specific conditions have not been tested.
  
 ### meta_marketing_science — Meta Certified Marketing Science Professional
 
@@ -379,7 +379,7 @@ Unless a route is explicitly described as a mandatory assessment by its issuer, 
 - **Chapter fit in current CSV:** DPA-T06-CH01, DPA-T06-CH04, DPA-T06-CH05, DPA-T06-CH07, DPA-T06-CH08, DPA-T06-CH09, DPA-T06-CH11.
 - **Learning outcome / scope:** Certification assessment vendor untuk Amazon Ads programmatic solutions, termasuk supply quality, campaign setup, policy, performance dan optimization.
 - **Cost:** Gratis menurut FAQ Amazon Ads Academy.
-- **Duration / assessment:** Path sekitar 2 jam; assessment sekitar 60–90 menit uninterrupted menurut FAQ.
+- **Duration / assessment:** The named Programmatic Solutions path specifies a required 2-hour assessment, plus optional preparatory courses and a 20-minute practice assessment. Its specific exam timer takes precedence over the general Academy FAQ's 60–90-minute guidance.
 - **Eligibility / prerequisites:** Perlu akun Amazon Ads Academy; account/marketplace access dan bahasa materi perlu dicek.
 - **Award / validity:** Digital badge + downloadable PDF setelah lulus certification assessment; beda dari learning-path award. Validity: Berlaku 2 tahun; passing score 80% menurut FAQ issuer.
 - **Indonesia / language / account access:** Availability materi/assessment untuk akun Indonesia belum diverifikasi; beberapa path Amazon tidak tersedia di semua bahasa/market.
