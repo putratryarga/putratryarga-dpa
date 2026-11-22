@@ -1110,7 +1110,7 @@ var placementOverrides = {
   "DPA-T05-CH02": [
     "meta_v10_campaign_objectives",
     "tiktok_website_sales_achievement",
-    "tiktok_promote_app_achievement"
+    "tiktok_lead_generation_achievement"
   ],
   "DPA-T05-CH03": [
     "meta_v10_audience_strategy",
@@ -1145,7 +1145,7 @@ var placementOverrides = {
   "DPA-T05-CH09": [
     "meta_v10_campaign_measurement",
     "meta_ab_testing_course",
-    "tiktok_advanced_app_achievement"
+    "tiktok_advanced_leadgen_achievement"
   ],
   "DPA-T07-CH01": [
     "amazon_retail_certification",
@@ -1346,7 +1346,7 @@ var marketExcludedRouteIds = [
   "t12_trailhead_data360", "t08_mediaocean_prisma", "t14_meltwater_klear_foundations",
   "t14_pxa_creator_product_training", "t14_pxa_protect_monitor",
   "linkedin_marketing_strategy", "linkedin_content_creative",
-  "tiktok_auto_ads_achievement"
+  "tiktok_auto_ads_achievement", "tiktok_promote_app_achievement", "tiktok_advanced_app_achievement"
 ];
 var excludedRouteLookup = {};
 marketExcludedRouteIds.forEach(function(routeId) {
