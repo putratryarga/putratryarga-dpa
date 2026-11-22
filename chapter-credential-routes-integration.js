@@ -1824,7 +1824,10 @@ function removeOutOfMarketEarnRoutes(routeMap, audit) {
       audit[chapterId].routeIds = retained.slice();
       if (!retained.length) {
         audit[chapterId].outcome = "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE";
-        audit[chapterId].note = "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.";
+        var genericRouteNote = "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.";
+        if (!audit[chapterId].note || audit[chapterId].note === genericRouteNote) {
+          audit[chapterId].note = "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.";
+        }
       }
     }
   });
