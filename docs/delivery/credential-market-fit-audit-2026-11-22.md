@@ -150,7 +150,7 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 ### Indonesian hiring evidence
 - Publicis Groupe Indonesia, Performance Specialist: https://id.linkedin.com/jobs/view/performance-specialist-at-publicis-groupe-indonesia-4492142141
 - Publicis Groupe Indonesia, Biddable Specialist: https://id.linkedin.com/jobs/view/biddable-specialist-at-publicis-groupe-indonesia-4483872592
-- Publicis Groupe Indonesia, Media Performance Manager: https://careers.publicisgroupe.com/event-4838/jobs/163977?lang=en-us
+- Publicis Groupe Indonesia, Media Performance Manager: https://id.linkedin.com/jobs/view/paid-search-manager-at-publicis-groupe-indonesia-4475791641event-4838/jobs/163977?lang=en-us
 - Publicis Groupe Indonesia, Paid Search Manager: https://careers.publicisgroupe.com/
 - CPXi Asia, Digital Performance Specialist: https://id.linkedin.com/jobs/view/digital-performance-specialist-at-cpxi-asia-4461606238
 - Big Ads, Ad Operations / Programmatic Manager: https://id.linkedin.com/jobs/view/ad-operations-programmatic-manager-at-big-ads-4479945954
