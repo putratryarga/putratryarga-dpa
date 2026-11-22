@@ -29,7 +29,8 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "Google Skillshop — Google Ads Learning Paths", "url": "https://skillshop.withgoogle.com/"},
     {"title": "Meta Blueprint — Campaign Evaluation and Measurement Strategies", "url": "https://trainingworkshops.facebookblueprint.com/student/path/253143-ad-campaign-evaluation-and-measurement"},
     {"title": "The Trade Desk Edge Academy — Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"},
-    {"title": "TikTok Academy Indonesia", "url": "https://ads.tiktok.com/business/id/academy"}
+    {"title": "TikTok Academy Indonesia", "url": "https://ads.tiktok.com/business/id/academy"},
+    {"title":"OpenAI Ads Manager — country availability and Indonesia self-service condition","url":"https://help.openai.com/id-id/articles/20001245-ads-manager-availability"}
   ],
   "DPA-T01-CH06": [
     {"title": "HubSpot Academy · Digital Marketing Certification · jalur credential resmi", "url": "https://academy.hubspot.com/courses/digital-marketing"},
@@ -135,13 +136,15 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "Microsoft Advertising Display & Video Certification · jalur credential resmi", "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"},
     {"title": "Meta Blueprint agency role catalog (Media Planner)", "url": "https://agencies.facebookblueprint.com/student/catalog"},
     {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"},
-    {"title": "MRC Out-of-Home Measurement Standards (Phase 1 & 2, Dec 2025)", "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf"}
+    {"title": "MRC Out-of-Home Measurement Standards (Phase 1 & 2, Dec 2025)", "url": "https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf"},
+    {"title":"OpenAI Ads Manager Beta — campaign workflow, reporting and supported capability","url":"https://help.openai.com/id-id/articles/20001206-ads-manager-beta-overview"}
   ],
   "DPA-T03-CH04": [
     {"title": "Meta Certified Media Planning Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
     {"title": "Microsoft Advertising Display & Video Certification · jalur credential resmi", "url": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab"},
     {"title": "Meta Blueprint agency role catalog (Media Planner)", "url": "https://agencies.facebookblueprint.com/student/catalog"},
-    {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"}
+    {"title": "The Trade Desk Edge Academy Programmatic 101", "url": "https://edgeacademy.thetradedesk.com/programmatic-101"},
+    {"title":"OpenAI Ads Manager Beta — campaign objectives, operating workflow and reporting boundaries","url":"https://help.openai.com/id-id/articles/20001206-ads-manager-beta-overview"}
   ],
   "DPA-T03-CH05": [
     {"title": "Meta Certified Media Planning Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
@@ -609,7 +612,7 @@ var DPA_CHAPTER_RESOURCE_MAP = {
     {"title": "LinkedIn Marketing Measurement Certification · jalur credential resmi", "url": "https://training.marketing.linkedin.com/marketing-measurement-exam"},
     {"title": "Meta Certified Marketing Science Professional · jalur credential resmi", "url": "https://certifications.facebookblueprint.com/student/catalog"},
     {"title": "Google Analytics Certification · jalur credential resmi", "url": "https://skillshop.withgoogle.com/"},
-    {"title": "Google Skillshop Analytics", "url": "https://skillshop.withgoogle.com/"},
+    {"title":"OpenAI Ads Manager Beta — platform-reported impressions, clicks, CTR and spend delay; not lift proof","url":"https://help.openai.com/id-id/articles/20001206-ads-manager-beta-overview"},
     {"title": "IAB Tech Lab Measurement Pillar", "url": "https://iabtechlab.com/standards/measurement/"}
   ],
   "DPA-T10-CH08": [
