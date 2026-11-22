@@ -95,7 +95,7 @@ assert.deepEqual([...part4Ids].sort(), [
   "DPA-T03-CH01", "DPA-T03-CH04", "DPA-T03-CH05", "DPA-T03-CH06",
   "DPA-T08-CH01", "DPA-T08-CH05", "DPA-T08-CH06",
   "DPA-T10-CH01", "DPA-T10-CH07", "DPA-T10-CH08"
-].sort(), "Recovered Part 4 scope must match the reviewed nine guide IDs.");
+].sort(), "Recovered Part 4 scope must match the reviewed ten guide IDs.");
 for (const guide of part4Guides) {
   assert.equal(registry[guide.chapterId], guide, "Authored Part 4 guide must override its existing guide object: " + guide.chapterId);
 }
@@ -136,7 +136,11 @@ assert.equal(foundationIds.length, 6, "The learner-facing Common Foundation must
 assert.equal(new Set(foundationIds).size, 6, "Common Foundation chapter IDs must be unique.");
 assert.equal(Object.keys(foundationCredentialMap).length, 6, "Credential map must explicitly cover all six Common Foundation chapters.");
 assert.equal(Object.keys(foundationCredentialAudit).length, 6, "Credential audit must explicitly cover all six Common Foundation chapters.");
+assert.deepEqual(Object.keys(foundationCredentialMap).sort(), [...foundationIds].sort(), "Foundation route-map IDs must exactly match the six rendered foundation chapter IDs.");
+assert.deepEqual(Object.keys(foundationCredentialAudit).sort(), [...foundationIds].sort(), "Foundation route-audit IDs must exactly match the six rendered foundation chapter IDs.");
 assert.equal(Object.keys(credentialRegistry).length, 89, "Issuer route registry must retain 89 Indonesia-core, global-specialist and completion routes.");
+const mappedIssuerRouteIds = new Set([...Object.values(chapterCredentialMap), ...Object.values(foundationCredentialMap)].flat());
+assert.deepEqual([...mappedIssuerRouteIds].sort(), Object.keys(credentialRegistry).sort(), "Every registered issuer route must be referenced by at least one Core or Common Foundation chapter mapping.");
 const metaCompletionIds = ["meta_v10_ads_campaign","meta_v10_campaign_objectives","meta_v10_audience_strategy","meta_v10_buying_types","meta_v10_creative_best_practices","meta_v10_pixel_capi","meta_v10_campaign_measurement","meta_v10_privacy_brand_safety"];
 const tiktokCompletionIds = ["tiktok_basics_achievement","tiktok_build_brand_achievement","tiktok_website_sales_achievement","tiktok_promote_app_achievement","tiktok_lead_generation_achievement","tiktok_shop_achievement","tiktok_search_achievement","tiktok_auto_ads_achievement","tiktok_advanced_shop_achievement","tiktok_advanced_leadgen_achievement","tiktok_advanced_app_achievement","tiktok_creative_production_achievement","tiktok_creative_iteration_achievement","tiktok_ai_solutions_achievement","tiktok_brand_safety_achievement","t02_tiktok_creative_planning"];
 for (const id of [...metaCompletionIds, ...tiktokCompletionIds]) {
@@ -193,6 +197,7 @@ for (const [id, routeIds] of Object.entries(chapterCredentialMap)) {
   assert.ok(Array.isArray(routeIds), "Credential route list must be an array: " + id);
   const chapterRouteLimit = id === "DPA-T05-CH09" ? 4 : 3;
   assert.ok(routeIds.length <= chapterRouteLimit, "Credential suggestion limit exceeded for " + id + " (limit " + chapterRouteLimit + ").");
+  assert.equal(new Set(routeIds).size, routeIds.length, "Duplicate credential route ID in chapter map: " + id);
   for (const routeId of routeIds) {
     const route = credentialRegistry[routeId];
     assert.ok(route, "Unknown credential route " + routeId + " in " + id);
