@@ -1117,7 +1117,8 @@ var placementOverrides = {
     "t11_hubspot_aeo_fundamentals"
   ],
   "DPA-T12-CH02": [
-    "t12_trailhead_data360"
+    "salesforce_mce_foundations",
+    "braze_practitioner"
   ],
   "DPA-T14-CH01": [
     "t14_meltwater_influencer_cert_1"
@@ -1298,7 +1299,7 @@ var placementNotes = {
   "DPA-T11-CH03": "The current Semrush Technical SEO and AI Search course is the live destination for the earlier Technical SEO URL; it supports the mapped technical foundations but is a vendor course certificate.",
   "DPA-T11-CH04": "The same current Semrush course serves this adjacent technical SEO/AI-search objective; the former second route resolves to the identical issuer destination and is consolidated to prevent duplicate registry entries.",
   "DPA-T11-CH09": "HubSpot AEO Fundamentals is a first-pass direct fit for foundational AEO; it does not guarantee search rankings or AI citations.",
-  "DPA-T12-CH02": "Salesforce Trailhead Data 360 badges are product-specific learning credentials. The proposed Microsoft Learn Fundamentals URL is no longer an active learning path. Microsoft separately offers an Applied Skills credential for Azure SQL application development; that distinct developer assessment is not mapped here because its fit to this chapter's customer-data architecture outcomes remains unreviewed.",
+  "DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations and Braze Certified Practitioner are platform-specific CRM foundations. The former assesses subscriber/data concepts; the latter validates basic Braze platform and data-planning knowledge. Neither is a full enterprise data-architecture assessment.",
   "DPA-T14-CH01": "Meltwater Influencer Marketing Certification I directly supports ecosystem and campaign foundations; it is a vendor course certification, not an independent professional license.",
   "DPA-T14-CH02": "Meta's creator-partnership course credential is a partial platform-specific fit; it does not cover the full creator taxonomy or platform-neutral selection process.",
   "DPA-T14-CH03": "Meltwater Klear Foundations is a product-specific course certification for discovery and management workflows; platform-neutral audience research remains in the chapter.",
