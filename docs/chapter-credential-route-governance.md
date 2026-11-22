@@ -2,7 +2,7 @@
 
 **Implementation baseline:** DPA v11.2 review branch  
 **Issuer desk-check date:** 21 November 2026  
-**State:** First-pass implementation; NOT final chapter-level acceptance.
+**State:** First-pass implementation; NOT final chapter-level acceptance. Indonesia-market filter applied 22 November 2026; current learner selection and disposition are recorded in [Credential Market-Fit Audit — Indonesia and Global Agency Practice](delivery/credential-market-fit-audit-2026-11-22.md).
 
 ## Experience decision
 
@@ -28,7 +28,11 @@ A Paid / proctored label only appears where the issuer's route is described as a
 6. DPA cannot observe completion in external provider accounts and does not auto-award or sync external credentials.
 7. “Master” is self-review/assessment guidance only. It does not issue a DPA chapter badge or certificate.
 
-## First-pass curation in this branch
+## Historical pre-market-filter curation snapshot
+
+> This table predates the 22 November 2026 Indonesia-market filter. It is retained for provenance only. The current 65-route selection, 145/169 Core coverage, 233 Core placements, and 2/6 Common Foundation coverage are defined in the market-fit audit and `docs/credential-route-mapping-register.csv`. Do not treat excluded Amazon, StackAdapt, Microsoft Retail/Display or product/customer-gated awards below as default Earn routes.
+
+## First-pass curation in this historical snapshot
 
 | Provider route | Evidence type | Chapter fit |
 |---|---|---|
