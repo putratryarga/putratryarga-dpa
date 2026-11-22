@@ -332,37 +332,639 @@ var additions = {
     "scope": "Affiliate program protection, monitoring and partnership operations; only partial support for creator vetting and audience-fraud screening.",
     "fitNote": "Partial supporting fit; use dedicated creator vetting evidence and the chapter deliverable as primary proof.",
     "verifiedOn": "2026-11-21"
+  },
+  "meta_v10_ads_campaign": {
+    "provider": "Meta Blueprint",
+    "title": "Get started with advertising on Facebook and Instagram",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Learn how Facebook/Instagram ads work and create ads using a Facebook Page, Instagram account and Meta Ads Manager.",
+    "duration": "15 minutes · Beginner",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required Meta Blueprint lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation in the learner account.",
+    "url": "https://www.facebookblueprint.com/student/path/211543-meta-advertising-course",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/211543-meta-advertising-course",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Platform-specific entry-level Meta Ads and account setup.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_campaign_objectives": {
+    "provider": "Meta Blueprint",
+    "title": "Selecting campaign objectives",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Choose a Meta Ads Manager campaign objective and align it with conversion location and performance goal.",
+    "duration": "16 minutes · Beginner",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Platform-specific campaign objective and conversion-location learning.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_audience_strategy": {
+    "provider": "Meta Blueprint",
+    "title": "Defining your ad audience",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Create new, custom and lookalike audiences; use detailed targeting, data sources and Meta Advantage+ audience.",
+    "duration": "31 minutes · Beginner",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/219694-define-audiences",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/219694-define-audiences",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Meta audience targeting and segmentation; not platform-neutral consumer research certification.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_buying_types": {
+    "provider": "Meta Blueprint",
+    "title": "Determining the best buying type and bid strategy",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Understand auction and reservation buying types and bid strategies across Meta technologies.",
+    "duration": "28 minutes · Intermediate",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/211562-ad-types-course",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/211562-ad-types-course",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Meta-specific buying types and bid strategy.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_creative_best_practices": {
+    "provider": "Meta Blueprint",
+    "title": "Exploring best practices for ad creative",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Optimize ad placements, formats and creative across Meta technologies using Ads Manager.",
+    "duration": "20 minutes · Beginner",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Meta creative formats, placements and asset optimization.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_pixel_capi": {
+    "provider": "Meta Blueprint",
+    "title": "Set up the Meta Pixel and Meta Conversions API for ad campaigns",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Use Meta Pixel and Conversions API together to understand website customer actions and improve advertising measurement.",
+    "duration": "10 minutes · Beginner",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Meta-specific Pixel/CAPI setup and measurement; not general analytics-engineering certification.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_campaign_measurement": {
+    "provider": "Meta Blueprint",
+    "title": "Analyzing campaign reporting results and measurement strategies",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Analyze campaign reporting, business-aligned metrics, experiments, incrementality and measurement methodologies.",
+    "duration": "15 minutes · Intermediate",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Meta campaign reporting and measurement literacy; applied statistical/engineering competence requires practice.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meta_v10_privacy_brand_safety": {
+    "provider": "Meta Blueprint",
+    "title": "Privacy controls and brand safety",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Understand advertising data privacy, business integrity, ad review and brand-safety controls across Meta technologies.",
+    "duration": "14 minutes · Intermediate",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required course lessons/activities while signed in; verify the award in the learner account.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "Public page checked in English; individual course language and Indonesia account/award access need confirmation.",
+    "url": "https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings",
+    "sourceUrl": "https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings",
+    "award": "Meta Blueprint Credential For Completion for this course activity; not a professional certification exam.",
+    "scope": "Meta-specific privacy/brand-safety controls; not a substitute for Indonesian law or cross-platform governance.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_basics_achievement": {
+    "provider": "TikTok Academy",
+    "title": "TikTok basics",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Set up accounts, make content and get started with TikTok ads. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958026",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958026",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Foundation for TikTok account, platform and ad setup.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_build_brand_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Build your brand",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Guide audiences from awareness to consideration and build brand favorability on TikTok. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958027",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958027",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Platform-specific awareness, consideration and brand-building.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_website_sales_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Drive website sales",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Bring visitors to a website and drive product sales. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958028",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958028",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Platform-specific website conversion and sales campaigns.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_promote_app_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Promote your app",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Drive installs and retention for mobile applications. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958029",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958029",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Platform-specific app-promotion objectives and campaigns.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_lead_generation_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Generate and message leads",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Generate leads and message prospective customers on TikTok. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958030",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/2958030",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Platform-specific lead-generation and messaging objectives.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_shop_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Promote your TikTok Shop",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Learn TikTok Shop benefits and promote products to drive sales. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/3544207",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/3544207",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "TikTok Shop and social-commerce activation.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_search_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Get discovered with Search",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Leverage TikTok Search Ads to reach high-intent audiences. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/3818244",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/3818244",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "TikTok Search Ads and high-intent discovery.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_auto_ads_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Drive vehicle sales with Auto Ads",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Set up a dealership to promote its vehicle inventory on TikTok. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/4855051",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/4855051",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Narrow automotive vertical use case; not a general paid-social course.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_advanced_shop_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Advance your TikTok Shop strategy",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Use advanced strategies to optimize TikTok Shop campaigns and grow sales. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5967932",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5967932",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Advanced TikTok Shop campaign optimization.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_advanced_leadgen_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Advance your Lead Gen Strategy",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Use advanced strategies for higher-quality leads and improve TikTok campaign performance. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5967933",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5967933",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Advanced TikTok lead quality and optimization.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_advanced_app_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Advance your App Promotion Strategy",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Improve app signals, optimization paths, Smart+ App Campaigns and creative variation. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5967934",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5967934",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Advanced app-promotion and optimization; product/account eligibility may vary.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_creative_production_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Creative production",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Shoot and edit TikTok videos and work with creators/agencies to produce videos. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5699142",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5699142",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Short-form video production and creator/agency workflows.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_creative_iteration_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Creative iteration",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Create TikTok creative variations to test performance and extend creative investment. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5699143",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5699143",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "Creative testing, iteration and learning.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_ai_solutions_achievement": {
+    "provider": "TikTok Academy",
+    "title": "AI Solutions",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Learn TikTok-specific AI advertising solutions and product capabilities. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5910597",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5910597",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "TikTok product-specific AI advertising solutions; not a general AI/ML credential.",
+    "verifiedOn": "2026-11-22"
+  },
+  "tiktok_brand_safety_achievement": {
+    "provider": "TikTok Academy",
+    "title": "Keep your brand safe and authentic",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Learn TikTok brand safety, authenticity and safe advertising practices. TikTok Academy lists this as a credential-bearing learning path.",
+    "duration": "Self-paced; exact duration is not stated on the public learning-path page.",
+    "cost": "Issuer presents this as free online learning; no separate course or professional-exam fee is stated on the public page. Confirm account enrolment and award visibility before starting.",
+    "eligibility": "Complete the required courses in the learning path and pass the associated assessment, as stated by TikTok Academy's Courses catalogue.",
+    "validity": "No expiry or renewal period is stated on the public course/path page checked on 22 November 2026.",
+    "regional": "TikTok Academy provides a Bahasa Indonesia locale. Individual path language can differ; Indonesia account enrolment and award issuance must be confirmed inside a learner account and have not been locally account-tested.",
+    "url": "https://partners.tiktokacademy.com/student/collection/2079614/path/5946266",
+    "sourceUrl": "https://partners.tiktokacademy.com/student/collection/2079614/path/5946266",
+    "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
+    "scope": "TikTok-specific brand integrity and safety controls.",
+    "verifiedOn": "2026-11-22"
   }
 };
 
 Object.assign(registry, additions);
 
 var placementOverrides = {
-  "DPA-T01-CH02": ["hubspot_content_marketing_certification"],
-  "DPA-T01-CH05": ["google_ads_search"],
-  "DPA-T01-CH08": ["meta_ab_testing_course"],
-  "DPA-T02-CH03": ["t02_tiktok_creative_planning"],
-  "DPA-T02-CH04": ["linkedin_marketing_strategy"],
-  "DPA-T08-CH01": ["t08_iab_dbpc"],
-  "DPA-T08-CH02": ["t08_iab_dbpc", "t08_ttd_edge_data_driven_planning"],
-  "DPA-T08-CH03": ["t08_iab_dbpc"],
-  "DPA-T08-CH04": ["t08_iab_dbpc", "t08_ttd_edge_data_driven_planning"],
-  "DPA-T08-CH05": ["t08_iab_dbpc"],
-  "DPA-T08-CH06": ["t08_iab_dbpc", "t08_mediaocean_prisma"],
-  "DPA-T08-CH07": ["t08_iab_daoc"],
-  "DPA-T08-CH09": ["t08_iab_dbpc", "t08_ttd_edge_data_driven_planning"],
-  "DPA-T08-CH10": ["t08_iab_dbpc"],
-  "DPA-T10-CH04": ["t10_kaggle_intro_sql", "t10_coursera_google_data_analytics"],
-  "DPA-T11-CH03": ["t11_semrush_technical_seo"],
-  "DPA-T11-CH04": ["t11_semrush_technical_seo"],
-  "DPA-T11-CH09": ["t11_hubspot_aeo_fundamentals"],
-  "DPA-T12-CH02": ["t12_trailhead_data360"],
-  "DPA-T14-CH01": ["t14_meltwater_influencer_cert_1"],
-  "DPA-T14-CH02": ["t14_meta_creator_marketing"],
-  "DPA-T14-CH03": ["t14_meltwater_klear_foundations"],
-  "DPA-T14-CH04": ["t14_pxa_protect_monitor"],
-  "DPA-T14-CH05": ["t14_pxa_creator_product_training"],
-  "DPA-T14-CH08": ["t14_meltwater_influencer_cert_1"]
+  "DPA-T01-CH02": [
+    "hubspot_content_marketing_certification"
+  ],
+  "DPA-T01-CH05": [
+    "google_ads_search"
+  ],
+  "DPA-T01-CH08": [
+    "meta_ab_testing_course"
+  ],
+  "DPA-T02-CH03": [
+    "t02_tiktok_creative_planning"
+  ],
+  "DPA-T02-CH04": [
+    "linkedin_marketing_strategy"
+  ],
+  "DPA-T08-CH01": [
+    "t08_iab_dbpc"
+  ],
+  "DPA-T08-CH02": [
+    "t08_iab_dbpc",
+    "t08_ttd_edge_data_driven_planning"
+  ],
+  "DPA-T08-CH03": [
+    "t08_iab_dbpc"
+  ],
+  "DPA-T08-CH04": [
+    "t08_iab_dbpc",
+    "t08_ttd_edge_data_driven_planning"
+  ],
+  "DPA-T08-CH05": [
+    "t08_iab_dbpc"
+  ],
+  "DPA-T08-CH06": [
+    "t08_iab_dbpc",
+    "t08_mediaocean_prisma"
+  ],
+  "DPA-T08-CH07": [
+    "t08_iab_daoc"
+  ],
+  "DPA-T08-CH09": [
+    "t08_iab_dbpc",
+    "t08_ttd_edge_data_driven_planning"
+  ],
+  "DPA-T08-CH10": [
+    "t08_iab_dbpc"
+  ],
+  "DPA-T10-CH04": [
+    "t10_kaggle_intro_sql",
+    "t10_coursera_google_data_analytics"
+  ],
+  "DPA-T11-CH03": [
+    "t11_semrush_technical_seo"
+  ],
+  "DPA-T11-CH04": [
+    "t11_semrush_technical_seo"
+  ],
+  "DPA-T11-CH09": [
+    "t11_hubspot_aeo_fundamentals"
+  ],
+  "DPA-T12-CH02": [
+    "t12_trailhead_data360"
+  ],
+  "DPA-T14-CH01": [
+    "t14_meltwater_influencer_cert_1"
+  ],
+  "DPA-T14-CH02": [
+    "t14_meta_creator_marketing"
+  ],
+  "DPA-T14-CH03": [
+    "t14_meltwater_klear_foundations"
+  ],
+  "DPA-T14-CH04": [
+    "t14_pxa_protect_monitor"
+  ],
+  "DPA-T14-CH05": [
+    "t14_pxa_creator_product_training",
+    "t02_tiktok_creative_planning",
+    "t14_meta_creator_marketing"
+  ],
+  "DPA-T14-CH08": [
+    "t14_meltwater_influencer_cert_1"
+  ],
+  "DPA-T04-CH01": [
+    "tiktok_search_achievement",
+    "google_ads_search",
+    "microsoft_ads_search_certification"
+  ],
+  "DPA-T05-CH01": [
+    "meta_v10_ads_campaign",
+    "tiktok_basics_achievement",
+    "meta_media_buying"
+  ],
+  "DPA-T05-CH02": [
+    "meta_v10_campaign_objectives",
+    "tiktok_website_sales_achievement",
+    "tiktok_promote_app_achievement"
+  ],
+  "DPA-T05-CH03": [
+    "meta_v10_audience_strategy",
+    "tiktok_build_brand_achievement",
+    "meta_media_buying"
+  ],
+  "DPA-T05-CH04": [
+    "meta_v10_ads_campaign",
+    "tiktok_basics_achievement",
+    "tiktok_auto_ads_achievement"
+  ],
+  "DPA-T05-CH05": [
+    "meta_v10_creative_best_practices",
+    "tiktok_creative_production_achievement",
+    "tiktok_ai_solutions_achievement"
+  ],
+  "DPA-T05-CH06": [
+    "meta_v10_buying_types",
+    "meta_buying_types_course",
+    "tiktok_media_buying"
+  ],
+  "DPA-T05-CH07": [
+    "meta_v10_pixel_capi",
+    "meta_pixel_capi_course",
+    "meta_pixel_optimization_course"
+  ],
+  "DPA-T05-CH08": [
+    "meta_v10_privacy_brand_safety",
+    "tiktok_brand_safety_achievement",
+    "meta_media_buying"
+  ],
+  "DPA-T05-CH09": [
+    "meta_v10_campaign_measurement",
+    "meta_ab_testing_course",
+    "tiktok_advanced_app_achievement"
+  ],
+  "DPA-T07-CH01": [
+    "amazon_retail_certification",
+    "tiktok_shop_achievement"
+  ],
+  "DPA-T07-CH08": [
+    "amazon_sponsored_ads",
+    "tiktok_advanced_shop_achievement",
+    "tiktok_shop_achievement"
+  ],
+  "DPA-T07-CH09": [
+    "amazon_sponsored_ads",
+    "meta_collaborative_ads_course",
+    "tiktok_advanced_shop_achievement"
+  ],
+  "DPA-T12-CH03": [
+    "hubspot_inbound_certification",
+    "tiktok_lead_generation_achievement",
+    "tiktok_advanced_leadgen_achievement"
+  ],
+  "DPA-T13-CH02": [
+    "hubspot_social_media_certification",
+    "tiktok_build_brand_achievement"
+  ],
+  "DPA-T13-CH07": [
+    "tiktok_creative_production_achievement",
+    "tiktok_ai_solutions_achievement",
+    "hubspot_social_media_certification"
+  ],
+  "DPA-T13-CH10": [
+    "hubspot_social_media_certification",
+    "tiktok_creative_iteration_achievement",
+    "meta_v10_campaign_measurement"
+  ],
+  "DPA-T14-CH06": [
+    "meta_partnership_ads_course",
+    "t02_tiktok_creative_planning",
+    "tiktok_creative_production_achievement"
+  ],
+  "DPA-T14-CH09": [
+    "meta_partnership_ads_course",
+    "tiktok_creative_production_achievement",
+    "tiktok_creative_iteration_achievement"
+  ],
+  "DPA-T14-CH10": [
+    "meta_partnership_ads_course",
+    "tiktok_creative_iteration_achievement",
+    "meta_v10_creative_best_practices"
+  ],
+  "DPA-T16-CH07": [
+    "meta_community_course_credentials",
+    "meta_v10_privacy_brand_safety",
+    "tiktok_brand_safety_achievement"
+  ],
+  "DPA-T16-CH10": [
+    "meta_community_course_credentials",
+    "tiktok_brand_safety_achievement",
+    "meta_v10_privacy_brand_safety"
+  ]
 };
 
 var placementNotes = {
@@ -389,8 +991,30 @@ var placementNotes = {
   "DPA-T14-CH02": "Meta's creator-partnership course credential is a partial platform-specific fit; it does not cover the full creator taxonomy or platform-neutral selection process.",
   "DPA-T14-CH03": "Meltwater Klear Foundations is a product-specific course certification for discovery and management workflows; platform-neutral audience research remains in the chapter.",
   "DPA-T14-CH04": "PXA's Affiliate & Partnerships Expert path is only partial support for creator vetting; fraud and monitoring in affiliate programs do not equal creator-audience fraud screening.",
-  "DPA-T14-CH05": "impact.com Creator Product Training is a product-specific certification for creator discovery and campaign scope; broader strategy and contract work remain portfolio-led.",
-  "DPA-T14-CH08": "Meltwater Influencer Marketing Certification I is supporting only for creator relationships and campaign practice; chapter portfolio evidence remains primary."
+  "DPA-T14-CH05": "TikTok Creative Planning is a platform-specific Achievement for audience research and creative briefs; it supports creator strategy but does not certify creator selection or commercial evaluation.",
+  "DPA-T14-CH08": "Meltwater Influencer Marketing Certification I is supporting only for creator relationships and campaign practice; chapter portfolio evidence remains primary.",
+  "DPA-T04-CH01": "TikTok Get discovered with Search provides an issuer-listed Credential for Completion specifically for Search Ads. Google and Microsoft remain separate provider certifications; the platforms are not interchangeable.",
+  "DPA-T05-CH01": "Meta's recovered v10 introductory course and TikTok Basics provide course-completion recognition before optional professional exams. Meta Media Buying Professional remains a separate certification route.",
+  "DPA-T05-CH02": "Meta's course directly covers campaign objectives and conversion locations. TikTok Drive Website Sales and Promote your app support separate platform-specific conversion objectives.",
+  "DPA-T05-CH03": "Meta's v10 course directly covers custom/lookalike audiences and targeting; TikTok Build your brand supports awareness and audience-funnel learning. Meta professional certification remains optional and exam-based.",
+  "DPA-T05-CH04": "Meta's introductory course and TikTok Basics support account/campaign setup. TikTok Auto Ads is a narrow dealership-inventory specialization, not a general paid-social credential.",
+  "DPA-T05-CH05": "Meta's creative best-practice credential and TikTok Creative Production support creative formats and production. TikTok AI Solutions is limited to TikTok advertising products, not general AI competence.",
+  "DPA-T05-CH06": "The recovered Meta v10 buying-type course and current v11 Meta buying-types course are separate issuer activities. TikTok Media Buying Professional Certification remains a paid/advanced exam option, not a free completion award.",
+  "DPA-T05-CH07": "Meta's v10 Pixel/CAPI award and current Meta Pixel/CAPI route cover platform-specific event measurement; the pixel optimization activity is a separate advanced course. None certifies general measurement engineering.",
+  "DPA-T05-CH08": "Meta Privacy controls and brand safety plus TikTok brand-safety Achievement support platform-specific risk controls; they do not replace Indonesian privacy law, contracts or cross-platform governance training.",
+  "DPA-T05-CH09": "Meta reporting/measurement and A/B testing credentials plus TikTok's advanced app-promotion path support campaign analysis/optimization. Applied statistical design and incrementality remain in the chapter deliverable.",
+  "DPA-T07-CH01": "TikTok Shop completion learning supports the social-commerce part of the retail-media ecosystem; it is distinct from Amazon Ads certification and does not establish retailer-media network expertise.",
+  "DPA-T07-CH08": "TikTok Shop and its advanced Strategy Achievement are platform-specific activation/optimization options; Amazon Sponsored Ads remains separate.",
+  "DPA-T07-CH09": "TikTok Shop advanced learning is supporting commerce optimization. Meta Collaborative Ads and Amazon Sponsored Ads have distinct product scopes; sales measurement and incrementality remain chapter evidence.",
+  "DPA-T12-CH03": "TikTok lead-generation Achievements support platform-specific lead capture and messaging. The advanced path is separate and does not substitute for CRM lead-scoring design.",
+  "DPA-T13-CH02": "TikTok Build your brand supports awareness and consideration; HubSpot Social Media Certification covers broader organic social strategy.",
+  "DPA-T13-CH07": "TikTok Creative Production directly supports short-form content production; AI Solutions is TikTok-product-specific and HubSpot Social is broader organic social learning.",
+  "DPA-T13-CH10": "TikTok Creative Iteration and Meta campaign measurement are platform-specific supporting credentials. Learners still need an independent content-performance analysis and optimization artifact.",
+  "DPA-T14-CH06": "Meta Partnership Ads teaches creator-content authorization and paid collaboration; TikTok Creative Planning/Production supports briefs and execution. Contract, usage-rights and disclosure skills remain chapter work.",
+  "DPA-T14-CH09": "TikTok Creative Production/Iteration supports content delivery and iteration; Meta Partnership Ads is platform-specific and does not substitute for real creator-management experience.",
+  "DPA-T14-CH10": "Meta Partnership Ads directly supports Meta amplification and permissions; TikTok Creative Iteration is supporting creative learning, not TikTok paid-media certification.",
+  "DPA-T16-CH07": "Meta Community Management, Meta Privacy/Brand Safety and TikTok brand-safety Achievement support platform controls. They do not replace moderation playbooks, crisis escalation or local legal review.",
+  "DPA-T16-CH10": "TikTok brand-safety and Meta privacy/community activities provide platform-policy learning only; crisis triage, escalation and response governance remain assessed through the chapter portfolio."
 };
 
 for (var chapterId of Object.keys(placementOverrides)) {

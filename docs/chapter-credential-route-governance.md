@@ -184,3 +184,18 @@ This is the newest count authority for this document. It supersedes the earlier 
 **Latest evidence:** [Credential & Learning Route Catalogue — issuer check 22 Nov 2026](credential-catalogue-issuer-check-2026-11-22.md), `docs/credential-route-mapping-register.csv`, baseline registry plus integration source, and the PR #7 live branch. OpenAI Ads Manager availability, TikTok certification FAQ, Amazon Programmatic paths, Meta Startup Hub course labels, P3I programmes, TikTok One, Blibli Bliklan and ASEAN AHEAD have separate issuer notes in the catalogue. Additional routes identified in that research remain proposals until objective-fit and access are approved.
 
 **Learner communication rule:** external routes are optional; a platform course credential, learning-path award, professional certification, simulation completion certificate and programme benefit must retain separate labels. Portfolio evidence remains primary where a chapter has no well-matched issuer route.
+
+## Superseding platform-completion integration — 22 November 2026
+
+The issuer inventory has been expanded from the prior 51-route snapshot to **74 route definitions** (35 base + 39 integration additions). This is the current route-registry total, not a count of certificates a learner must collect.
+
+- Recovered and mapped the eight Meta Blueprint course activities from the v10 baseline. Each current official Meta page shows the award marker **Credential For Completion**.
+- Integrated all sixteen current TikTok Academy Achievement learning paths. Fifteen were added in this batch; the existing Creative Planning route supplies the sixteenth. TikTok's official Courses catalogue states that Achievement follows required course completion and passing the associated assessment.
+- Kept existing paid platform professional certifications intact: Meta Media Buying, Meta Media Planning, Meta Marketing Science and TikTok Media Buying remain separate professional-certification routes with paid-exam disclosure.
+- Completion-first ordering is applied to affected chapter Earn suggestions. Each mapped chapter remains capped at three recommendations. Course routes remain clickable in Learn and are repeated in Earn; no DPA credential is created or automatically issued.
+- All 169 core map/audit IDs, six CF map/audit IDs and 175 CSV rows remain authoritative. Updated CSV route order, journey status and notes are kept in parity with runtime. Objective-fit mappings remain FIRST_PASS_MAPPING_NOT_SME_ACCEPTED pending SME/access review.
+- Public award labels do not prove Indonesia account eligibility or account-level issuance. TikTok has a Bahasa Indonesia portal locale, but individual path language/account access and Meta course locale/award issuance must be checked in learner accounts.
+
+The latest machine validator checks the 74-definition total, eight recovered Meta IDs, all sixteen TikTok Achievement IDs, completion classification, preservation of four paid platform professional exams, mapping parity and maximum-three-per-chapter behavior. This supersedes prior 51-route, 224-core-placement and 229-combined-placement figures in earlier dated snapshots. Recomputed figures are in the 22 November issuer catalogue and CSV.
+
+**Release boundary:** this credential inventory update is code/data integration, not release approval. Chapter fit, signed-in Indonesia access, manual hosted Learn/Earn rendering, formal SME acceptance, learner pilot, accessibility review and remaining DPA curriculum/assessment gates are still separate. No provider credential is auto-issued by DPA.

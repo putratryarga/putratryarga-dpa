@@ -9,18 +9,18 @@
 
 | Measure | Recomputed result |
 |---|---:|
-| Unique issuer/course/simulation route definitions | **51** = 35 base routes + 16 A–F integration additions |
+| Unique issuer/course/simulation route definitions | **74** = 35 base routes + 39 integration additions |
 | Core rows | 169 |
 | Core chapters with selected external routes | **161/169** |
-| Core route placements | **224** |
+| Core route placements | **254** |
 | Core chapters with no selected external route | **8/169** (portfolio-first in this curated map) |
 | Shared Common Foundation rows | 6 |
 | CF chapters with selected external routes | **4/6** |
 | CF route placements | **5** |
 | CF chapters with no selected external route | **2/6** (portfolio-first in this curated map) |
-| Combined mapping CSV | **175 rows**, 165 mapped rows, **229 placements**, 10 portfolio-first rows |
+| Combined mapping CSV | **175 rows**, 165 mapped rows, **259 placements**, 10 portfolio-first rows |
 
-**Counting rule:** a route placement is one route ID on one chapter row; a single issuer route can legitimately support multiple chapters. The 51 route-definition count is not the count of Meta professional certifications or the count of certificates a learner must earn. The map is an optional curated selection, not exhaustive market coverage. All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
+**Counting rule:** a route placement is one route ID on one chapter row; a single issuer route can legitimately support multiple chapters. The 74 route-definition count is not the count of Meta professional certifications or the count of certificates a learner must earn. The map is an optional curated selection, not exhaustive market coverage. All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
 
 ## 2. Evidence taxonomy and learner-facing meaning
 
@@ -890,3 +890,64 @@ Current DPA gates remain separate:
 - **Release approved:** requires exact production build, accessibility, learner pilot and post-release checks.
 
 **This catalogue does not change PR #7's release verdict: OPEN / DRAFT / NOT READY.**
+
+## 8. Meta Blueprint and TikTok Academy completion inventory — verified 22 November 2026
+
+This addendum supersedes earlier incomplete platform-course inventories and is based on issuer pages checked on 22 November 2026. The runtime retains all eight historic Meta Blueprint course activities from the v10 baseline and all sixteen current TikTok Academy learning paths that advertise an Achievement/Credential for Completion. These are course/path awards, not paid professional-certification exams.
+
+### Meta Blueprint — eight recovered v10 activities
+
+| Activity | Issuer award | Public course duration | Official route |
+|---|---|---:|---|
+| Get started with advertising on Facebook and Instagram | Credential For Completion | 15 minutes | https://www.facebookblueprint.com/student/path/211543-meta-advertising-course |
+| Selecting campaign objectives | Credential For Completion | 16 minutes | https://www.facebookblueprint.com/student/path/219699-selecting-objectives-course |
+| Defining your ad audience | Credential For Completion | 31 minutes | https://www.facebookblueprint.com/student/path/219694-define-audiences |
+| Determining the best buying type and bid strategy | Credential For Completion | 28 minutes | https://www.facebookblueprint.com/student/path/211562-ad-types-course |
+| Exploring best practices for ad creative | Credential For Completion | 20 minutes | https://www.facebookblueprint.com/student/path/211557-exploring-best-practices-ad-creative |
+| Set up the Meta Pixel and Meta Conversions API for ad campaigns | Credential For Completion | 10 minutes | https://www.facebookblueprint.com/student/path/211547-meta-pixel-conversions-api-course |
+| Analyzing campaign reporting results and measurement strategies | Credential For Completion | 15 minutes | https://www.facebookblueprint.com/student/path/211564-ads-campaign-measure-test-course |
+| Privacy controls and brand safety | Credential For Completion | 14 minutes | https://www.facebookblueprint.com/student/path/211555-privacy-brand-settings |
+
+Each current Meta course page displays the award marker Credential For Completion. The public activity pages do not display a separate professional-exam fee; Indonesia account/locale availability still requires learner-account confirmation. Existing v11 Meta course-credential routes remain in the registry.
+
+### TikTok Academy — sixteen current Achievement paths
+
+The issuer's Courses catalogue says each learning path yields an official Achievement after required courses are completed and the associated assessment is passed. The sixteen public paths are:
+
+| Learning path | Official route |
+|---|---|
+| TikTok basics | https://partners.tiktokacademy.com/student/collection/2079614/path/2958026 |
+| Build your brand | https://partners.tiktokacademy.com/student/collection/2079614/path/2958027 |
+| Drive website sales | https://partners.tiktokacademy.com/student/collection/2079614/path/2958028 |
+| Promote your app | https://partners.tiktokacademy.com/student/collection/2079614/path/2958029 |
+| Generate and message leads | https://partners.tiktokacademy.com/student/collection/2079614/path/2958030 |
+| Promote your TikTok Shop | https://partners.tiktokacademy.com/student/collection/2079614/path/3544207 |
+| Get discovered with Search | https://partners.tiktokacademy.com/student/collection/2079614/path/3818244 |
+| Drive vehicle sales with Auto Ads | https://partners.tiktokacademy.com/student/collection/2079614/path/4855051 |
+| Advance your TikTok Shop strategy | https://partners.tiktokacademy.com/student/collection/2079614/path/5967932 |
+| Advance your Lead Gen Strategy | https://partners.tiktokacademy.com/student/collection/2079614/path/5967933 |
+| Advance your App Promotion Strategy | https://partners.tiktokacademy.com/student/collection/2079614/path/5967934 |
+| Creative planning | https://partners.tiktokacademy.com/student/collection/2079614/path/5699141 |
+| Creative production | https://partners.tiktokacademy.com/student/collection/2079614/path/5699142 |
+| Creative iteration | https://partners.tiktokacademy.com/student/collection/2079614/path/5699143 |
+| AI Solutions | https://partners.tiktokacademy.com/student/collection/2079614/path/5910597 |
+| Keep your brand safe and authentic | https://partners.tiktokacademy.com/student/collection/2079614/path/5946266 |
+
+TikTok Academy's path-completion Achievement is the completion-first option. TikTok Media Buying Professional Certification remains a separate professional exam route with its own eligibility and fee; it is not counted as one of these sixteen learning-path Achievements. Bahasa Indonesia is available as a portal locale, but individual path language, account enrolment from Indonesia and award issuance must still be verified in the learner account.
+
+### Learner-facing classification and priority
+
+1. Show Meta Blueprint Credential for Completion and TikTok Academy Achievement/course completion first when the chapter objective is an appropriate fit.
+2. Retain paid/proctored Meta and TikTok professional certification routes as separate advanced/optional choices. Never show a paid professional exam as a prerequisite for earning a free course-completion credential.
+3. A course/path award records completion of the issuer's defined content and, for TikTok paths, the associated assessment. It does not prove workplace experience or full chapter mastery.
+4. Learn keeps the source course link; Earn displays the same issuer route, exact award type and completion conditions. DPA does not import external completion status or issue the provider's award.
+
+### Reconciliation after this addendum
+
+- Registry definitions: **74** (35 base + 39 integration additions).
+- Newly integrated: **8 Meta Blueprint + 15 missing TikTok Academy paths**; the existing Creative Planning route completes the current 16-path TikTok list.
+- Recovered Meta v10 course-completion routes: **8**. TikTok Academy paths: **16**.
+- Core chapter mapping: **161/169**, **254** placements; Common Foundation remains separately mapped in four of six chapters.
+- Combined CSV: **175** rows, **165** mapped rows, **259** placements.
+- The four Meta/TikTok professional certification exams remain separately classified and are not free completion awards.
+- All chapter mappings remain first-pass and not SME accepted. Public pages do not replace a signed-in Indonesian learner-account check.
