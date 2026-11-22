@@ -788,7 +788,7 @@ var additions = {
     "award": "Meta Small Business Academy skilling certificate for Ads Manager, awarded after passing the separate learning skill test. This is not a Meta Blueprint course Credential For Completion and not a Meta Certified Professional exam.",
     "scope": "Direct platform-specific Ads Manager fundamentals and knowledge check; it does not establish live campaign experience or independently validate campaign performance.",
     "verifiedOn": "2026-11-22"
-  }
+  },
 
   "google_ads_display": {
     "provider": "Google Skillshop",
