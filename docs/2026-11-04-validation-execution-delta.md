@@ -1,0 +1,220 @@
+# 4 November 2026 — Validation Execution Delta
+
+**Purpose:** Record verified corrections and fresh source findings after the previous consolidated audit snapshot. This document supplements, and does not silently overwrite, the canonical Source of Truth.  
+**Status:** ACTIVE AUDIT / NOT RELEASE-READY.
+
+## 1. Repository corrections committed in this audit pass
+
+- Fixed the canonical Source of Truth filename in `docs/16-core-track-role-crosswalk.md` and `docs/resource-credential-validation.md` on PR #5 and PR #6. Both now point to `docs/16_track_Source_of_Truth_with_Advanced_Audit_2026-11-04.txt`; the stale filename no longer appears in those two documents.
+- Added `docs/169-chapter-assessment-rubrics-draft.md`. It contains 168 parsed chapter-specific rubric drafts from the register, each based on its actual learning objective and practice/deliverable prompt, with a proposed 5-dimension 0–3 scoring standard. It is **not** a completed 169-chapter rubric register; see the T16-CH12 supplement below.
+- Added `docs/T16-CH12-register-correction-and-rubric-supplement.md` to both PR branches. It records the source-vs-register mismatch and provides the final chapter's correct Q&A, glossary and chapter-specific rubric draft.
+
+## 2. Confirmed chapter extraction defect
+
+Affected chapter: `DPA-T16-CH12 — Community Capstone`.
+
+The guide source `role-study-guides-part3.js` contains valid question/answer and glossary arrays for this chapter. The evidence register `docs/169-chapter-evidence-register.md` currently displays literal `undefined` for all three Q&A pairs and four glossary entries. This indicates an extraction/register-generation defect, not missing source-guide content.
+
+Correct values are recorded in `docs/T16-CH12-register-correction-and-rubric-supplement.md`. The main 169-chapter register still requires regeneration and a repository-wide scan for literal `undefined`. Until then, the register must not be called clean.
+
+## 3. New employer-role evidence captured in this pass
+
+Evidence class rules remain: A = employer-hosted direct job description; B = adjacent role; C = capability/service page; D = employer career-index/title or syndicated listing; G = no sufficiently specific evidence located in the current batch. A role title or job-board index does not validate every competency.
+
+| Holding group | Track / role family | Evidence captured | Class and limits |
+|---|---|---|---|
+| WPP Media | Paid Search / SEM | Paid Search Executive and Paid Search Manager appear in WPP Media Madrid job index; WPP Media Jakarta Platform Executive – Paid Media & Performance explicitly includes Google Ads Search fundamentals, keyword/negative management and cross-channel campaign operations. | D for Madrid index; A for Jakarta role (search is one component of a cross-channel position). Do not treat the Jakarta role as a pure SEM JD. |
+| WPP Media | Paid Social | Paid Social Manager / Senior Paid Social roles appear in employer job listings; the Senior Paid Social Executive JD describes activation, QA, pacing, optimization, reporting and multi-platform delivery. | D/A depending on listing; London/US examples are not Indonesian market proof. |
+| WPP Media | Ad Operations | Executive – Ad Ops JD specifies tags, pixels, tracking code implementation/testing, trafficking, troubleshooting, web analytics and coordination with technical/creative/analytics teams. | A; global operations-centre role, not Indonesia-specific. |
+| WPP Media | SEO / GEO | SEO Consultant and Experience (SEO, GEO) roles appear in current employer job indexes. | D; titles establish role-family presence, not complete technical depth. |
+| WPP Media | KOL / Creator | Social and Influencer Executive JD covers creator shortlisting, briefing, deliverables, relationship workflow, content, product seeding and reporting. | A; Melbourne market and combined social/influencer role. |
+| Publicis Media | Media Planning | Senior Digital Planning Manager Jakarta JD covers end-to-end planning across Search, Social, Programmatic and other digital channels, campaign setup, delivery, reporting, optimization, client presentation and team mentoring. | A; Jakarta and highly relevant to local curriculum. |
+| Publicis Media | Performance Marketing | Media Performance Manager Jakarta JD covers paid media strategy/execution across Google, Meta, TikTok and programmatic, budget allocation, optimization, reporting, GA4, GTM and Looker Studio. | A; Jakarta and cross-channel performance role, not a synonym for Full-Stack. |
+| Publicis Media | Paid Search | SEM Specialist Madrid JD covers execution, monitoring and optimization of paid search accounts. | A; employer-hosted but Madrid-specific. |
+| Publicis Media | Community / Creator interface | Social & Community Management Specialist Copenhagen JD covers daily community conversations, moderation, UGC and influencer collaboration. | A; combined role; do not use as proof that all agencies combine these functions. |
+| Omnicom / legacy Mediabrands network | Paid Search, Paid Social, Programmatic, SEO/GEO, Retail Search | Employer job board lists roles across Kinesso/Mediabrands including Paid Search & Social, Programmatic, SEO/GEO, Retail Search and paid social. | D; the index is under legacy Mediabrands branding. Treat it as a network/portfolio listing within Omnicom context, not a sixth holding group or a full JD. |
+| Dentsu / Merkle | CRM / Lifecycle | CRM Campaign Specialist Jakarta JD requires CRM operations, marketing automation, responsive HTML email, dynamic content, personalization, segmentation logic, campaign QA and platforms such as SFMC, Braze, Adobe Campaign, Responsys and Iterable. | A; direct Jakarta evidence. |
+| Havas Media Network | Media Planning / integrated digital | Digital Media Planning Group Head Bengaluru JD covers cross-channel brand/performance planning, buying, implementation, optimization, reporting, publisher negotiation, landing-page usability/conversion improvements, and team/client ownership. | A; Bengaluru, 6–7 years, integrated digital role; not pure offline buying or a dedicated CRO specialist. |
+| Havas Media Network | Role-family coverage | Current Havas Media career index lists Analytics, Connections Planning, Digital Investment, Publishing, Media Planning/Buying, Performance Marketing and Programmatic. | D; role-family titles only. Current index did not show direct Paid Social, dedicated SEO, Affiliate or Community roles in the reviewed snapshot. Absence from the index is not proof that the capability does not exist. |
+
+### Source URLs
+
+- WPP Media current role index (Madrid): https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047166008
+- WPP Media Jakarta Platform Executive – Paid Media & Performance: https://job-boards.greenhouse.io/wppmedia/jobs/5378823008
+- WPP Media Executive – Ad Ops: https://job-boards.greenhouse.io/wppmedia/jobs/5313454008
+- WPP Media Senior Paid Social Executive: https://job-boards.greenhouse.io/wppmedia/jobs/5390314008
+- WPP Media Social and Influencer Executive: https://job-boards.greenhouse.io/wppmedia/jobs/5410220008
+- WPP Media Australia SEO/GEO and specialist role index: https://job-boards.greenhouse.io/wppmedia?offices%5B%5D=4047041008
+- Publicis Senior Digital Planning Manager Jakarta: https://careers.publicisgroupe.com/jobs/149884?lang=en-us
+- Publicis Media Performance Manager Jakarta: https://careers.publicisgroupe.com/event-4838/jobs/163977?lang=en-us
+- Publicis SEM Specialist Madrid: https://careers.publicisgroupe.com/jobs/174690?lang=en-US
+- Publicis Social & Community Management Specialist Copenhagen: https://careers.publicisgroupe.com/jobs/180872?lang=en-US
+- Omnicom / Mediabrands employer job index: https://job-boards.greenhouse.io/mediabrands
+- Dentsu CRM Campaign Specialist Jakarta: https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/CRM-Campaign-Specialist_R1124584
+- Havas Media current role index: https://jobs.jobvite.com/havasmedia
+- Havas Digital Media Planning Group Head Bengaluru: https://havas.wd3.myworkdayjobs.com/en-US/MediaExternalCareerSite/job/Digital-Media-Planning_JR0043376
+
+## 4. What this evidence does and does not close
+
+This pass adds several direct JDs and improves coverage for Paid Search, Paid Social, Ad Operations, SEO/GEO, Creator, Planning, Performance, CRM and Havas integrated digital planning. It does **not** complete the 5 × 16 matrix. Several cells still have only title-level, adjacent, historical or no evidence; source quality and seniority/geography are not uniform. The matrix must remain PARTIAL until each of the 80 cells has a traceable source or an explicitly justified gap record and each direct JD's competency claims have been extracted and checked.
+
+## 5. Outstanding validation gates
+
+1. Rebuild the full chapter register from the current guide source and remove extraction defects such as the T16-CH12 `undefined` values.
+2. Complete qualified technical/SME review for all 169 chapters, including objectives, technical workflows, examples, practice realism, role boundaries and current product terminology.
+3. Validate all 507 Q&A items against authoritative sources, including acceptable alternate answers. Static Q&A must not be presented as a scored quiz.
+4. Calibrate all 169 chapter rubrics with sample submissions and reviewer agreement. Current rubric drafts are proposals, not approved assessments.
+5. Complete chapter-level Tier 1 official learning, Tier 2 industry standards/frameworks and Tier 3 applied practice/resource mapping. Validate URLs, region, price, access, language, credential type, prerequisites and expiry.
+6. Complete all 80 agency × track evidence cells with source URLs, date, geography, evidence class, seniority, extracted competency, confidence and limitations.
+7. Complete authenticated browser/runtime QA: desktop and mobile breakpoints, all track selectors, chapter-guide mapping, progress persistence, theme, keyboard/screen-reader basics, console/network errors, external links and regression. Vercel READY is not a substitute.
+8. Keep PR #5 and PR #6 draft/open until all release gates are evidenced. No merge authorization is implied.
+
+## 6. Runtime QA constraint in this pass
+
+The public deployment could not be inspected through the available page reader. The interactive browser automation service reported a negative wallet balance and refused to start a run. Therefore no browser-level runtime test or screenshot has been claimed. Resume after the browser service is funded or an authorized browser session becomes available.
+
+
+## 7. 4 November 2026 — source-to-register extraction correction
+
+**Execution status:** completed and committed to PR #5 and PR #6. This corrects extraction integrity only; it does not convert the answer keys or curriculum into SME-approved content.
+
+- Parsed the actual guide-source arrays from `role-study-guides-part1.js`, `role-study-guides-part2.js` and `role-study-guides-part3.js`, preserving each immutable `DPA-Txx-CHxx` identifier.
+- Reconciled all **149 newly added guide objects** to their chapter IDs and replaced the broken Q&A/glossary extraction in the chapter evidence register.
+- Before correction, the register contained **2,086 literal `undefined` tokens** across the 149 added guide entries. After correction, a full-string scan returned **0** literal `undefined` tokens.
+- The chapter register still contains **169 unique chapter entries**. Its 507 Q&A items now contain the actual source-guide question and answer text, not placeholders.
+- The assessment register now contains **169 chapter-specific rubric entries** and 507 source-matched Q&A answer-key review entries. A full-string scan returned **0** literal `undefined` tokens in the rubric file.
+- The previously separate T16-CH12 Community Capstone rubric is now incorporated into the main rubric register.
+- The corrected register and rubric file are committed in both PR branches. PR #6 now also carries the rubric register so both pull requests share the same core audit artifacts.
+
+### What this closes / does not close
+
+**Closed:** extraction defect for the 149 added guides; chapter ID-to-source-array reconciliation for those 149; missing 169th rubric entry; placeholder removal in the two audit artifacts.
+
+**Still open:** correctness review of all 507 answers, acceptable alternate answers, independent technical/SME review of all 169 chapters, rubric calibration with sample work, final per-chapter official resource mapping, 80-cell employer-role evidence validation, and authenticated browser/runtime QA. The source-guide text is preserved as authored and is not represented as independently fact-checked merely because extraction now matches.
+
+### Reproducible checks
+
+| Check | Before | After | Interpretation |
+|---|---:|---:|---|
+| Register chapter entries | 169 | 169 | Count preserved |
+| Register literal `undefined` | 2,086 | 0 | Extraction placeholders removed |
+| Added source guide objects reconciled | Not reconciled | 149 | ID-linked source arrays parsed |
+| Rubric chapter entries | 168 | 169 | Missing T16-CH12 added |
+| Rubric literal `undefined` | 888 | 0 | Answer-key placeholders removed |
+| Q&A items in register/rubric | 507 | 507 | Source text populated; correctness review remains open |
+
+**Release decision remains:** NOT READY / DRAFT. Do not merge based on extraction repair alone.
+
+
+## 8. 4 November 2026 — five additional direct employer-role sources
+
+A further official-source search upgraded five inherited evidence cells in the role-level chapter register and the new 80-cell matrix:
+
+- **Track 5 / Havas:** Paid Social Specialist, employer-hosted Havas Workday listing. Scope includes paid-social campaign management, audience segmentation, budgets, reporting and A/B tests. The indexed extract did not expose complete geography/seniority; those fields remain explicitly unconfirmed.
+- **Track 6 / Dentsu:** Programmatic Specialist, employer-hosted Workday listing, Lisbon. Scope includes DSP setup, targeting, bids/budgets, brand safety, viewability, trafficking support and end-of-campaign evaluation. This is execution/support-level evidence, not senior trading leadership.
+- **Track 9 / Publicis:** Ad Operations Specialist, employer-hosted Publicis careers listing, Johannesburg. Scope includes trafficking sheets, tags/pixels/UTMs/click trackers, creative/placement QA, go-live and issue logs; 2–5 years' experience.
+- **Track 11 / Dentsu:** SEO Executive, employer-hosted Workday listing. Scope includes technical SEO checks, robots.txt, XML sitemap, redirects, canonical tags, keyword/content audits, reporting and SEO tools. The indexed extract did not expose geography; retain this limitation.
+- **Track 15 / WPP:** Group Head Affiliate, employer-hosted Jakarta listing, plus Mindshare Affiliate Manager Beirut employer JD. The latter specifies direct publishers/networks, S2S postbacks, pixels, MMPs, attribution, tracking QA, fraud controls and CPI/CPL/CPA/RevShare/CPS models. Preserve the Jakarta vs Beirut market/seniority distinction.
+
+The matrix is now at `docs/80-cell-agency-role-evidence-matrix.md`. It explicitly represents all 80 cells and upgrades these five cell statements. This does not mean 80/80 are fully validated: the matrix remains partial, with 16 explicit G gaps in the inherited/updated class labels and other cells relying on B/D or compound evidence. The new matrix documents the evidence class, scope caveats, source URLs and outstanding work.
+
+### New official URLs
+- Havas Paid Social Specialist: https://havas.wd3.myworkdayjobs.com/en-US/GroupExternalCareerSite/job/Paid-Social-Specialist_JR0095187-1
+- Dentsu Programmatic Specialist, Lisbon: https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/Programmatic-Specialist_R1123420
+- Publicis Ad Operations Specialist, Johannesburg: https://careers.publicisgroupe.com/jobs/176664?lang=en-US
+- Dentsu SEO Executive: https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL/job/SEO-Executive_R1121609-1
+- WPP Media Group Head Affiliate, Jakarta: https://job-boards.greenhouse.io/wppmedia/jobs/5235133008
+- WPP Media Mindshare Affiliate Manager, Beirut: https://job-boards.greenhouse.io/wppmedia/jobs/5341033008
+
+**Remaining:** validate all 80 cells at JD/competency level; this pass upgrades five but does not close every gap.
+
+
+## 9. 4 November 2026 — deterministic static repository QA
+
+Static QA was rerun against the PR #5 branch and recorded in `docs/2026-11-04-static-repository-qa.md` (synchronized to PR #6). Confirmed: 169 HTML chapter IDs; 169 guide IDs (10 Full-Stack + 10 Paid Social + 149 role-specific); no missing/orphan/duplicate guide IDs; 391 unique HTML element IDs; 13/13 internal anchors resolve; eight local script references; 169 chapter-register entries; 169 rubric entries; 507 Q&A items in each register; zero literal `undefined` in the corrected register and rubric. Responsive/media-query, localStorage, theme, focus and reduced-motion code is present but behavior is not runtime-verified.
+
+**New PR-head CI state:** GitHub combined status for the latest PR #5 and PR #6 commits reports Vercel **FAILURE** with target URL indicating a build-rate-limit restriction. This is not a code-test failure diagnosis and is not a READY deployment. No GitHub Actions workflow runs are associated with these commits.
+
+**Browser QA:** not run. The connected local Browser service could not access the originating browser context; cloud browser/deep-research service returned insufficient funds/empty wallet before a run could start. No screenshots, interaction, console/network, mobile/desktop or accessibility runtime tests are claimed.
+
+Release status remains NOT READY TO MERGE.
+
+
+## 10. 4 November 2026 — 169-chapter resource mapping baseline
+
+Created `docs/169-chapter-resource-mapping.md` in both PR branches. It contains **169/169 chapter rows** across all 16 tracks. Each row maps (1) Tier 1 official issuer/platform learning, (2) Tier 2 official platform documentation or industry standard, and (3) the chapter's own Tier 3 practice/deliverable extracted from the chapter evidence register. The existing resource/credential validation register now links to this file.
+
+Official resource families include Google Skillshop, Meta Blueprint, TikTok Academy, LinkedIn Marketing Academy, StackAdapt Academy, The Trade Desk Edge Academy, IAB Tech Lab, Walmart Connect Academy, Amazon Ads Academy, Google Search Central, Bing Webmaster Guidelines, HubSpot Academy, Salesforce Trailhead, impact.com Partnerships Experience Academy, Awin documentation and creator/community platform resources.
+
+**Status:** coverage mapping complete for 169 chapters; chapter-by-chapter SME source-fit review and Indonesian access/price/language/credential checks remain OPEN. A resource link is not evidence of free access, a professional credential or complete chapter coverage.
+
+
+## 11. 4 November 2026 — further agency-role source upgrades
+
+A targeted search of employer-hosted job descriptions produced additional evidence and updated the 80-cell matrix and every chapter's inherited role-level evidence line for affected tracks:
+
+- **T04 / Dentsu: G → B.** Digital Consultant - Biddable Specialist covers paid search (Google/Bing), paid social and display. This is adjacent cross-channel evidence, not a pure SEM specialist JD.
+- **T05 / Dentsu: G → B.** The same cross-channel biddable role covers paid social on Meta/TikTok/LinkedIn. This does not establish a dedicated paid-social specialist role.
+- **T12 / WPP: G → B.** Manager, Marketing, Italy includes CRM communications and marketing automation duties; adjacent role, not a dedicated CRM title.
+- **T12 / Omnicom: G → B.** Manager, Analytics/Insights includes segmentation and CRM evaluations; adjacent analytics evidence, not lifecycle/automation execution.
+- **T14 / Dentsu: G → A.** Employer-hosted Influencer Manager / Influencer Marketing Lead / Manager roles cover creator sourcing, briefs, contracts, campaign delivery, budgets, compliance and measurement across London/Lisbon/New York.
+- **T16 / Dentsu: B → A.** Employer-hosted Social Media Analyst / Community Manager in Medellin directly covers community replies, reputation, engagement, content and reporting; a senior community/content role also covers Discord/Reddit/Telegram.
+
+The matrix now records all 80 cells and a broader set of direct/adjacent source links. Remaining G cells are intentionally retained where the audited batch still lacks sufficiently specific direct evidence. Do not upgrade an adjacent role to A merely because a responsibility appears in its job description.
+
+
+## 12. 4 November 2026 — 80-cell evidence refresh and chapter technical triage
+
+The 80-cell agency-role matrix and all chapter role-level evidence notes were refreshed with additional employer-hosted sources. Current class-label counts are **A 36, B 19, D 37, G 6**, with **18 compound labels**. These counts are not mutually exclusive because compound cells carry multiple classes. Six explicit G gaps remain:
+
+- T09 / Dentsu — direct Ad Operations JD not located in this batch.
+- T11 / Havas Media Network — direct agency SEO JD not located.
+- T14 / Havas Media Network — direct creator/influencer JD not located.
+- T15 / Omnicom Media — dedicated affiliate JD not located.
+- T15 / Havas Media Network — direct affiliate JD not located.
+- T16 / Havas Media Network — direct community JD not located in the current index.
+
+Additional changes: T04/Dentsu and T05/Dentsu now B (cross-channel biddable JD, not dedicated specialist); T12/WPP and T12/Omnicom now B (adjacent CRM/analytics duties); T14/Dentsu now A (direct influencer role family); T16/Dentsu now A (direct community manager role). Geography and seniority remain attached to the source descriptions.
+
+The new `docs/169-chapter-technical-review-matrix.md` contains 169 per-chapter review rows. Structural triage confirms 149 added role-specific guides with 3 Q&A and 4 glossary entries each and 4 workflow steps each; 20 legacy guides remain separately identified. Within the 149 new guides, 125 answers under 12 words occur across 81 chapters and 81 glossary definitions under 5 words occur across 58 chapters. These are manual-review flags, not automatic defects.
+
+The 169 rubric entries contain chapter-specific artifact checklists and a shared five-dimension scoring model; rubric calibration on weak/competent sample submissions remains open. All 507 answer keys are source-matched but correctness, completeness, acceptable alternatives and SME approval remain open. The 169-chapter resource map is a coverage baseline; source-fit SME and Indonesian access/price/language checks remain open.
+
+**Status:** evidence coverage is materially improved, but the 80-cell matrix is still PARTIAL; all 169 chapters remain pending technical/SME approval. Browser/runtime QA remains NOT RUN.
+
+
+## 13. 5 November 2026 — remediation branch execution delta
+
+**Branch:** `audit/full-dpa-remediation-2026-11-05`.
+
+- Integrated PR #6's unique advanced-elective architecture document into this branch; both electives remain Proposed / Evidence Validation Pending.
+- Corrected T07 source-guide assignment: CH06 = Retail Audience / First-Party Data; CH07 = Product Feed / Digital Shelf / Retail Readiness; CH08 = Campaign Activation / Bidding / Optimization with in-store execution controls retained inside the integrated activation module.
+- Rebuilt the 149 role-specific evidence-register content sections from source guide arrays, including 600 glossary term-definition pairs. The 169 chapter IDs remain unique and the register literal-`undefined` scan returned zero. This is extraction reconciliation, not subject-matter approval.
+- Updated the three T07 assessment draft outcome/artifact and answer-key review sections. Answer-key correctness remains OPEN.
+- Updated T07 chapter-level resources to use Amazon Ads/IAB audience and retail-media guidance, Google Merchant Center product specification, TikTok catalog documentation, Lazada category/product API documentation, and IAB/MRC measurement standards. TikTok product access remains market/account-conditional.
+- Corrected static QA media-query count to 19 total: 14 width-based, 2 reduced-motion and 3 print declarations. Visual/browser behavior remains untested.
+- Removed the orphaned `CONNECTION_GUIDES` declaration from the ID-based renderer branch after confirming it was unreferenced in this branch. The `DPA_GUIDE_BY_CHAPTER` registry remains the active source.
+- Marked the T16-CH12 correction supplement as superseded historical evidence; active register and rubric remain canonical.
+- Refreshed Amazon Ads credential guidance: general Academy FAQ states free certifications, 80% pass score, 24-hour retake, two-year validity, one-sitting assessment and 60–90-minute planning guidance; specific assessment pages can set different formats/timers (e.g. Foundations 50 questions / 120 minutes). See official sources in the credential register.
+- Added canonical Source of Truth and remediation execution ledger. Raw 169 audit vectors and full 23-issue / 12-discrepancy registers remain not found in the repository/accessible Library sources and must not be marked closed from partial excerpts.
+
+**Remaining:** raw 169-vector recalculation, complete 23 + 12 finding disposition, full 90-cell row validation, 169 source-fit and SME review, 507 answer-key validation, rubric calibration, elective chapter development, authenticated browser/runtime QA and preview build success.
+
+
+## 14. 5 November 2026 — post-remediation short-content flag recalculation
+
+After correcting T07-CH06/07/08 guide assignments and rewriting the integrated T07-CH08 assessment, all 149 role-specific guide arrays were reparsed. The deterministic word-count convention strips HTML tags/entities and counts whitespace-delimited tokens. Current totals are **122 short answer pairs across 79 chapters** (<12 words) and **81 short glossary definitions across 58 chapters** (<5 words). These counts are triage flags only; they do not establish that an answer or definition is substantively inadequate. The T07 rows were updated in the technical review matrix: CH06 = 3/3; CH07 = 0/0; CH08 = 0/1.
+
+The 20 legacy Full-Stack and Paid Social guides are not included in these 149-guide short-content totals and remain a separate content-review population.
+
+
+## 15. 5 November 2026 — agency evidence and validation checkpoint
+
+- Reconciled the 80-cell matrix following Havas Workday requisition review. Current class-label instances: A 37, B 20, C 0, D 37, E 0, G 5; 19 compound cells. The table still has exactly 80 unique cells. Four cells are pure G gaps; T14/Havas is B/G because JR0093003 is Havas Paris Social sister-practice evidence, not a direct Havas Media Network role.
+- T05/Havas is direct Paid Social evidence (JR0096922, Warsaw, 2+ years). T11/Havas is direct Organic & AI Manager evidence (JR0099039, Sydney, 4+ years, manager-level); neither proves entry-level or Indonesian market coverage. JR0096564 is historical DMPG evidence with an August 3, 2026 application end date. JR0093690 is Havas Play evidence with unresolved September 2026 vs January 2027 start-date metadata.
+- Added TikTok Media Buying certification retake rule: seven days between unsuccessful attempts; recertification eligibility opens six months before expiry. Exam is 60 questions / 110 minutes, proctored, USD 200 before applicable tax/fees, intended for candidates with at least one year of TikTok Ads Manager experience, and valid for two years. Recheck local account access/pricing at booking.
+- Added `docs/169-core-chapter-ids.txt`, a 169-ID inventory extracted from the HTML chapter attributes. The chapter score script defaults to this inventory and enforces ID-set equality plus integer 0–4 raw values across seven dimensions.
+- Extended `scripts/validate-dpa-static.js` to assert the 80-cell matrix label totals and 10 elective evidence groups. The script has not been executed in an actual local Node checkout; its presence is not claimed as a PASS. Equivalent counts were manually recalculated from GitHub source files.
+- Static QA report formatting was corrected so the Interpretation section is a real heading rather than a literal escaped newline marker.
+
+**Limitations unchanged:** the raw 169 score vectors, original complete 23-issue/12-discrepancy ledgers, 90 raw evidence CSV and full 32 chapter packs remain unavailable; complete SME, all 169 source-fit, 507 answer correctness, rubric calibration, browser/runtime and successful preview-build validation remain open.

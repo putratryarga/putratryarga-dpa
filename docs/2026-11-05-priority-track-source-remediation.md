@@ -1,0 +1,189 @@
+# Priority Track Source Remediation — 5 November 2026
+**Scope:** T02, T03, T07, T10, T13 and T16 after the T08 remediation pass.  
+**Status:** Source inventory enriched; track-level status remains PARTIAL; all 169 objective-level fit decisions remain OPEN.
+
+## 1. What changed
+
+- Replaced the initial general MRC and IAB source routes with precise MRC OOH, MRC Retail Media and IAB Europe V2.1 references. At that dated checkpoint the 169-chapter map had 67 unique URLs (169 rows); subsequent dated enrichments are recorded below. The six-track enrichment affects 21 chapter rows.
+- Updated 21 chapter rows in T03, T07, T10, T13 and T16. T02 received no new URL in this pass because GovS 011 and ICC/ESOMAR 2025 were already mapped; its material insight/research gaps remain.
+- Kept the 169-objective resource-fit register at **OPEN for every chapter**. Source mapping is not objective-level source fit, local access confirmation, SME review or curriculum approval.
+- The 63 chapters across the six priority tracks remain separately identifiable in `docs/169-objective-resource-fit-register.csv`.
+
+## 2. Track-by-track source mapping
+
+### T02 — Connection Planning
+
+Existing mapped sources include the UK Government communications functional standard GovS 011 and the ICC/ESOMAR International Code (2025). They support planning lifecycle/governance and professional research ethics, respectively. They do not by themselves establish a complete curriculum for cultural insight, communication theory, qualitative consumer research, proposition development or neutral cross-channel connection planning.
+
+**Disposition:** no source-count change; track coverage remains PARTIAL. Further sources need to be tied to the exact learning objective and reviewed for relevance beyond public-sector UK communications or general research ethics.
+
+### T03 — Media Planning
+
+Added the MRC Out-of-Home Measurement Standards (Phase 1 & 2 Combined, final December 2025) PDF to CH03, CH06, CH09 and CH10: https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf
+
+The combined MRC PDF identifies:
+- Out-of-Home Measurement Standards (Phase 1 & 2), last updated December 2025;
+- Digital Audio Measurement Standards, issued January 2018;
+- Cross-Media Measurement Standard — Phase I: Video, issued September 2019.
+
+The OOH standard is relevant to the OOH portion of inventory evaluation and measurement planning. The MRC source is a standards route, not evidence that Indonesia has adopted an identical OOH currency or that local provider data is available. It does not close radio audience measurement, Indonesia-specific GRP/TRP/CPP methodology, cross-media deduplication, current media-owner terms or local TV audience-source validation.
+
+**Disposition:** track remains PARTIAL. The MRC source improves standards coverage only; Indonesia-specific measurement-provider and media-owner evidence remains required.
+
+### T07 — Retail & Commerce Media
+
+Added to CH03, CH08, CH09 and CH10:
+- IAB Europe Commerce (Incl. Retail) Media Measurement Standards V2.1 article, dated 22 January 2026: https://iabeurope.eu/knowledge_hub/iab-europes-commerce-incl-retail-media-measurement-standards-v2/;
+- IAB/MRC Retail Media Measurement Guidelines (January 2024) direct PDF: https://mediaratingcouncil.org/sites/default/files/Standards/IAB_Retail_Media_Measurement_Guidelines_January2024.pdf.
+
+The V2.1 article describes a refined measurement funnel, gross/net sales definitions, quick-commerce metrics, a formal incrementality definition and approved methods, five new-to-brand/new-to-category timeframes, measurement/insights tools, and a 30-day default lookback with flexible options. The MRC PDF contains separate chapters for data quality, audience measurement, delivery/viewability, IVT, attribution, incrementality (RCT, synthetic control and matched-market), reporting/transparency, data privacy and in-store measurement.
+
+These standards improve measurement vocabulary and comparison criteria. IAB Europe guidance is European industry material, and MRC materials are standards references; neither establishes current Indonesian marketplace feature availability, platform eligibility, local commercial fees, retailer data access, measurement implementation or contractual terms. Do not treat Walmart/Amazon examples as proxies for Shopee/Tokopedia/Lazada.
+
+**Disposition:** track remains PARTIAL. Validate specific Indonesian products/accounts and retailer-provided measurement terms before learner release.
+
+### T10 — Media Analytics & Measurement
+
+Added:
+- SQLBolt interactive SQL lessons to CH04;
+- Hernán and Robins' *Causal Inference: What If* to CH07 and CH08.
+
+SQLBolt's indexed lesson catalogue covers SELECT, filtering/sorting, JOINs, NULL handling, expressions, aggregates, subqueries and set operations. It is suitable as a practical introductory SQL exercise route; it is not a full BigQuery dialect, data-engineering or warehouse-performance curriculum.
+
+The *What If* book is available free online from its authors and addresses causal inference without models, with models and with complex longitudinal data. It is a substantial methodological supplement, not a marketing-specific campaign measurement textbook. Learners still need applied experiments, randomized/holdout examples, power and sample-size practice, SQL execution checks, data QA and qualified review.
+
+**Disposition:** track remains PARTIAL. The source enrichments do not replace the runnable synthetic dataset/query tests and independent econometrics/causal-method validation required for the chapters.
+
+### T13 — Content Strategy & Creation
+
+Added W3C Web Content Accessibility Guidelines (WCAG) 2.2 to CH01, CH06, CH07 and CH08.
+
+WCAG 2.2 is a W3C Recommendation published 12 December 2024 and provides testable web-content accessibility criteria. It is relevant to accessible digital content and platform adaptation, including how content is presented and operated across devices.
+
+It is not a content-strategy framework, cultural-insight source, copyright clearance, creator usage-rights contract, music licence or Indonesian legal opinion. Editorial quality, brand claims, organic measurement, accessibility implementation and rights management need their own source and reviewer evidence.
+
+**Disposition:** track remains PARTIAL. Accessibility coverage is improved; editorial research, IP/creator rights and organic platform-specific strategy remain gaps.
+
+### T16 — Community Management & Advocacy
+
+Added the NSW Government's Community Management for Social Media guide to CH05, CH07, CH08, CH10, CH11 and CH12.
+
+The guide covers public community guidelines, active/passive/hands-off moderation choices, monitoring cadence, negative-feedback responses, issue escalation, privacy handling for personal information and crisis response. It is a useful operational playbook reference.
+
+It is guidance for a New South Wales public-sector context, not Indonesian law, a substitute for company policy, platform terms, legal review or a locally approved crisis response procedure. Its moderation and recordkeeping suggestions must be adapted to the relevant organization, channel, risk and jurisdiction.
+
+**Disposition:** track status improves from a narrow Meta-heavy source family, but remains PARTIAL. Indonesian privacy/consumer-safety/legal input, cross-platform tooling, social listening, customer care and crisis escalation review remain open.
+
+## 3. Access and source-verification log
+
+Manual source checks in this pass:
+- **Directly opened/readable:** exact MRC OOH standards PDF; exact IAB/MRC Retail Media Measurement Guidelines PDF; IAB Europe V2.1 article; *What If* author page; W3C WCAG 2.2; NSW Government community-management guide.
+- **Search-index evidence only / direct access not confirmed:** SQLBolt lesson catalogue (search result exposes interactive SELECT/JOIN/aggregate/subquery topics; direct open returned cache miss).
+- **Download caveat:** the V2.1 article is readable, but the linked standards PDF returned an HTTP retrieval error during this check; the article is used as the source route, not a claim that the PDF download was validated.
+
+The previous automated retrieval snapshot of 46/48 resources predates the six URL additions and must not be restated as 46/54 or 54/54. The Jakarta Post advertising-terms page and YouTube Help rate-limit issues remain separate prior access caveats. Each newly added URL still requires a learner-side access check from Indonesia, with language, paywall/account, duration and last-checked date recorded.
+
+## 4. Acceptance boundary
+
+- Resource map structure: 169 rows; 55 unique URLs; at least two unique sources per chapter remains statically checked.
+- Track-level coverage: T02, T03, T07, T10 and T13 remain PARTIAL; T16 has additional sources but is not promoted to PASS.
+- Objective-level source fit: 169/169 remain OPEN pending exact section-to-objective mapping and fit classification.
+- Indonesia access/cost/language/eligibility: OPEN.
+- SME/technical chapter sign-off: OPEN.
+
+**No track or chapter is marked validated solely because a source URL was added.**
+
+
+## 5. T10 chapter-level source-fit review — 5 November 2026
+
+T10 received 12 additional source references (11 unique URLs, including one shared Tableau resource) across CH02, CH03, CH04, CH05, CH07, CH08, CH09 and CH10. The current map is now 169 rows / 67 unique URLs. See [T10 — 10-Chapter Source-Fit Review](T10-10-chapter-source-fit-review.md) and the 10-row [T10 source-fit CSV](T10-10-chapter-source-fit-review.csv).
+
+Desk classification: CH04 and CH07 have stronger method-source alignment; all ten remain PARTIAL overall. CH01 still lacks a direct KPI/measurement planning framework; CH02 lacks vendor-neutral taxonomy/lineage; CH03 lacks CM360/Floodlight and full platform reconciliation sources; CH04 still needs runnable spreadsheet/SQL validation; CH05 needs cross-tool dashboard governance; CH06 needs a worked diagnostic/root-cause case; CH07 needs explicit MTA vs incrementality vs MMM estimands and direct media measurement sources; CH08 needs MDE/power/sample-size calculation and stopping/multiple-testing controls; CH09 needs an executive-readout rubric; CH10 needs a reproducible end-to-end capstone package.
+
+Source access is not universal. Some Google Analytics Help pages and the Optimizely statistical-significance article returned retrieval/cache limitations; those are not marked as verified Indonesia learner access. All ten formal acceptance/SME decisions remain OPEN.
+
+
+## 7. T03 source-fit desk review and final inventory reconciliation — 5 November 2026
+
+The [T03 10-chapter source-fit review](T03-10-chapter-source-fit-review.md) and [CSV](T03-10-chapter-source-fit-review.csv) document the first-pass assessment of all T03 chapters. All ten are PARTIAL at desk-review level, with formal objective acceptance OPEN.
+
+The T03 map now includes:
+- YouGov's 2025 Indonesia media-consumption report page: summary covers TV, radio, podcasts and social habits; the full report download uses a separate platform route, so full learner access is OPEN.
+- Google Ads Help — Reach Planner suggestions: current October 2026 weekly-frequency suggestions; scope is YouTube/video-partner planning, not all-media reach.
+- MRC/IAB/RAB/NAB Digital Audio Measurement Standards v1.0 (January 2018): digital streaming/progressive downloads; not traditional over-the-air AM/FM radio.
+
+The source review also records the current provider and policy evidence: MRC OOH Phase 1/2 final December 2025; Nielsen Indonesia TV/streaming releases are older provider-published descriptions; KPI's 2025 MKK survey article is a public-broadcasting survey initiative, not commercial radio ratings. Direct access and local applicability remain separate acceptance checks.
+
+**Current source-map structure:** 169 chapter rows / 70 unique URLs / at least two unique URLs per row. Previous totals (48, 54, 55 and 67) are historical snapshots and are superseded. No 70/70 direct-fetch or Indonesia learner-access claim is made.
+
+
+## 8. T02 connection-planning source-fit review and current total — 5 November 2026
+
+The [T02 10-chapter source-fit review](T02-10-chapter-source-fit-review.md) and its [CSV](T02-10-chapter-source-fit-review.csv) record first-pass source fit for all ten T02 chapters. Each chapter is PARTIAL; formal objective, Indonesia access/cost/language and SME acceptance remain OPEN.
+
+The T02 enrichment adds seven source URLs:
+- GCS OASIS Guide to Campaign Planning (2020 PDF) — objectives, audience/insight, strategy, implementation and scoring/evaluation.
+- GCS Evaluation Cycle (February 2024 PDF) — planning evaluation from the beginning and linking goals/audiences/metrics/learning.
+- ICC/ESOMAR Code 2025 official PDF route — research/data-analytics ethics and participant/privacy responsibilities; direct PDF learner access needs confirmation.
+- ICC Advertising and Marketing Communications Code (2024) — responsible marketing across advertising, digital communication, sponsorship, sales promotion and social media.
+- Nielsen Norman Group Journey Mapping 101 — UX-oriented action/thought/emotion journey mapping; direct page cache miss in this check.
+- AMA Brand and Branding — public definition of brand positioning relative to competitors; deeper content may be membership-gated.
+- AAMA Positioning & Messaging Framework — detailed association resource; direct page cache miss in this check.
+
+The source scopes are not interchangeable. UK government planning guidance is not Indonesian commercial law or a universal agency SOP; UX journey mapping is not complete media-connection planning; association frameworks are not validated universal standards; ICC Codes are ethical/self-regulatory, not local legal advice.
+
+**Current overall source map:** 169 rows / 77 unique URLs / at least two unique URLs per row. Earlier 48-, 54-, 55-, 67- and 70-URL totals are dated historical snapshots superseded by this current mapping. No 77/77 direct-access claim is made.
+
+
+## 9. T07 retail-media source-fit review and current total — 5 November 2026
+
+The [T07 10-chapter source-fit review](T07-10-chapter-source-fit-review.md) and [CSV](T07-10-chapter-source-fit-review.csv) assess all T07 chapters; every row is PARTIAL at desk-review level and all formal acceptance remains OPEN.
+
+The T07 mapping now includes six current Indonesia marketplace references: TikTok Product Shopping Ads (March 2026), Tokopedia Product Shopping Ads (March 2026), Shopee Ads creation and performance reporting, and Lazada Sponsored Solutions/Sponsored Discovery. Key limitations are recorded: TikTok Shop Ads uses GMV Max as the default/only campaign type since July 2025; Tokopedia placements are invitation/eligibility-gated and can change the Ads Manager/Seller Center reporting path; Shopee's metric guide defines post-click outcomes over seven days and can include other seller-store products; Lazada features include seller-whitelist gates.
+
+IAB/MRC Retail Media Guidelines (US-oriented, 2024) and IAB Europe V2.1 (Jan 2026) provide measurement standards context, but do not prove that Indonesian marketplaces implement those standards.
+
+**Current map:** 169 chapter rows / 83 unique URLs / minimum two URLs per chapter. Previous 48/54/55/67/70/77 totals are historical snapshots; no 83/83 direct-access or local account-eligibility claim is made.
+
+
+## 10. T13 content strategy, creator rights and measurement source-fit review — 5 November 2026
+
+The [T13 11-chapter review](T13-11-chapter-source-fit-review.md) and [CSV](T13-11-chapter-source-fit-review.csv) classify all eleven chapters PARTIAL; formal acceptance remains OPEN.
+
+New source routes cover TikTok Creative Center/Top Ads (updated July 2026), Commercial Music Library and creator commercial-content disclosure (April 2026), YouTube native Analytics engagement/impression/retention guidance, and Indonesia's UU 28/2014 JDIH record. The important boundaries are:
+- TikTok Top Ads is high-performing ad inspiration/performance data, not a representative organic-content or cultural-insight dataset.
+- TikTok's Commercial Music Library is the platform's cleared library for the relevant commercial uses; music outside it needs separate rights confirmation. Platform clearance is not a cross-platform or all-territory licence.
+- YouTube impressions, CTR and retention are YouTube-native definitions and cannot be treated as Instagram, TikTok or LinkedIn common metrics.
+- JDIH BPK records UU 28/2014; DPR reporting on 27 October 2026 confirms the amendment RUU was still under Panja discussion. Do not teach proposed changes as enacted law; obtain legal review and recheck status.
+
+**Current map:** 169 rows / 90 unique URLs / at least two source URLs per chapter. This is mapping structure only, not direct-access or legal clearance.
+
+
+## 11. T16 community governance and legal-scope source-fit review — 5 November 2026
+
+The [T16 12-chapter review](T16-12-chapter-source-fit-review.md) and [CSV](T16-12-chapter-source-fit-review.csv) assess all twelve chapters; each remains PARTIAL and formally OPEN.
+
+The T16 mapping adds eight local/official source routes:
+- UU PDP 27/2022 (JDIH DPR) — personal-data rights and processing principles; relevant to comments/DMs/member records.
+- UU ITE 1/2024 (JDIH Komdigi) — electronic information and content-moderation context; not a brand-modulator legal handbook.
+- PP 71/2019 (JDIH Komdigi) — electronic-system governance and PSE responsibilities; applicability depends on the actual entity/service and must not be assumed for every brand account.
+- Meta Safety Center tools and Community Standards/policies — platform-specific comment, restrict, hidden-words, report and content-policy mechanisms.
+- TikTok comment filters and Community Guidelines — platform-specific keyword/spam/offensive-comment controls and safety rules.
+- YouTube live-chat moderation — moderator roles, blocked words, hold settings, slow mode and channel-specific controls.
+
+The existing Dewan Pers Cyber Media Guidelines remain a journalism-context source, not an automatic rulebook for ordinary brand-community pages. NSW guidance remains a public-sector operational example, not Indonesian law. Platform settings vary by account, device, permissions and release, so account-side checks are still required.
+
+**Map at the T16 checkpoint:** 169 rows / 121 unique URLs / minimum two URLs per chapter. This dated total is superseded by the T01 batch; the current map is 169 rows / 127 unique URLs. Source-map structure is not legal sign-off or proof of account/learner access.
+
+
+## 12. T01 — Full-Stack Digital Marketing & Performance source-fit desk review — 5 November 2026
+
+T01 is a separate first-pass batch after the six priority-track reviews. The [T01 10-Chapter Source-Fit Review](T01-10-chapter-source-fit-review.md) and [CSV](T01-10-chapter-source-fit-review.csv) assess CH01–CH10 against the chapter objective and mapped publisher/source.
+
+**Disposition:** 10/10 chapters PARTIAL at desk-review level. The common Google Skillshop home, Meta Blueprint catalog and HubSpot Academy home references have been replaced with chapter-specific sources covering contribution margin/CVP, break-even, research ethics and journey mapping, evaluation/KPI terminology, communication planning, Search/Social/Programmatic platform learning, SEO/content/community, GA4/consent, experimentation/accessibility and CRM/lifecycle.
+
+**Inventory effect:** six unique URLs were added to the 169-row map, moving the count from 121 to **127 unique URLs**. Minimum two distinct URLs per chapter remains enforced. This count is structural only.
+
+**Boundaries retained:** public-sector planning/evaluation sources (GovS 011, OASIS and GCS Evaluation Cycle) are contextual analogies, not Indonesian law or a complete commercial agency method. Google Reach Planner is YouTube/video-only. Vendor academies (Google, Meta, TTD, TikTok, Salesforce, Optimizely) are product-specific learning routes, not neutral professional standards. Google Consent Mode does not obtain consent or create a legal basis. HubSpot English/Indonesian learner access was not established for the selected course routes. The finance sources do not cover digital CAC/LTV/payback end-to-end.
+
+**Formal state:** all ten T01 rows in the 169-objective register remain OPEN for formal objective fit, Indonesia access, language/cost/account eligibility, technical accuracy and SME approval. Learner pilot remains OPEN. T01 does not change the separate 16 Core + 2 Electives taxonomy.

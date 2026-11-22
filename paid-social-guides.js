@@ -3,7 +3,7 @@
  * Nama menu/fitur platform dapat berubah; validasi opsi aktual di akun masing-masing.
  */
 var PAID_SOCIAL_GUIDES = [
-{
+{chapterId:"DPA-T05-CH01",
  concept:"Paid social adalah aktivitas membeli inventory iklan pada platform sosial secara terencana dan terukur. Pekerjaan specialist menghubungkan outcome bisnis, akun platform, aset identitas, sumber data, audience, creative, auction/delivery, measurement, dan optimization. Meta dan TikTok menjadi platform praktik utama; LinkedIn merupakan pendalaman untuk kebutuhan B2B, sedangkan Pinterest, Snapchat, Reddit, atau X dipelajari sesuai kebutuhan pasar dan akses akun.",
  example:"KASUS SIMULASI — sebuah brand FMCG Indonesia menunjuk agency untuk mengelola Meta dan TikTok. Brand tetap menjadi pemilik Business Portfolio, Page, Instagram identity, TikTok account, ad account, domain, catalog, serta Pixel/dataset. Agency mendapat partner/person access sesuai pekerjaannya. Saat kerja sama berakhir, akses agency dapat dicabut tanpa memindahkan kepemilikan aset atau berbagi password personal.",
  steps:[
@@ -26,7 +26,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Least privilege",definition:"Prinsip memberikan hak akses minimum yang cukup untuk menjalankan tugas."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH02",
  concept:"Campaign objective menjelaskan hasil yang diminta dari optimasi platform; funnel menggambarkan perjalanan konsumen; conversion location menunjukkan tempat tindakan terjadi; performance goal dan optimization event menentukan sinyal delivery. Semuanya saling berkaitan, tetapi bukan istilah yang dapat saling menggantikan. Nama objective, conversion location, dan goal dapat berubah sesuai platform, campaign type, serta eligibility akun. Periksa pilihan aktual di Ads Manager sebelum launch.",
  example:"KASUS SIMULASI — brand skincare meminta lebih banyak penjualan website, tetapi operator memilih Traffic hanya karena kliknya murah. Hasilnya bisa berupa banyak kunjungan tanpa purchase yang memadai. Ketika website, checkout, event tracking, dan consent sudah siap, evaluasi objective Sales/conversion dan event Purchase. Bila conversion signal belum dapat dipercaya, dokumentasikan kekurangan data; jangan menyebut traffic murah sebagai sales.",
  steps:[
@@ -50,7 +50,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Diagnostic metric",definition:"Metrik untuk menjelaskan perubahan performa; bukan pengganti outcome bisnis."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH03",
  concept:"Audience strategy dimulai dari kebutuhan dan perilaku konsumen, lalu diterjemahkan menjadi sumber data, aturan segmentasi, exclusions, serta hipotesis yang bisa diuji. Custom Audience biasanya memakai sumber first-party atau interaksi platform yang diizinkan; Lookalike Audience memodelkan prospek dari karakteristik source audience; interest/behavior memberi sinyal targeting; broad atau automated audience memberi ruang lebih luas bagi sistem. Ketersediaan fitur berbeda menurut platform dan akun. Jangan mengunggah atau mengaktifkan data pelanggan tanpa hak, consent, dan dasar penggunaan yang sesuai.",
  example:"KASUS SIMULASI — toko online memiliki 20.000 pengunjung website, tetapi hanya 1.200 pembeli. Seed Lookalike dari seluruh pengunjung mungkin terlalu luas karena niatnya beragam. Seed pembeli bisa lebih dekat dengan outcome, tetapi mungkin terlalu kecil atau sudah usang. Specialist perlu menilai kualitas sumber, recency, consent, ukuran, overlap, dan objective sebelum memilih seed.",
  steps:[
@@ -74,7 +74,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Audience overlap",definition:"Tumpang tindih orang di beberapa audience group yang dapat mengganggu delivery dan interpretasi hasil."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH04",
  concept:"Campaign architecture menyusun hubungan objective, budget, audience, placement, creative, dan reporting. Meta umumnya memakai hierarchy Campaign → Ad Set → Ad; TikTok Ads Manager memakai Campaign → Ad Group → Ad. Konsep levelnya mirip, tetapi setting dan tanggung jawabnya tidak identik. Pada TikTok, campaign setup mencakup objective dan campaign budget; ad group mengatur antara lain placement, targeting, schedule, optimization, dan bid; ad memuat identity, creative, copy, CTA, URL, serta tracking. Selalu validasi workflow dan pilihan terbaru di masing-masing platform.",
  example:"KASUS SIMULASI — sebuah brand ingin menguji dua audience dan tiga creative angle di Meta dan TikTok. Jika setiap kombinasi dibuat menjadi campaign terpisah, budget dapat terfragmentasi dan reporting makin sulit. Arsitektur yang lebih sederhana menentukan objective serta level budget yang tepat, memisahkan audience/test cell hanya jika memang perlu diisolasi, lalu memberi setiap ad creative ID dan naming yang dapat ditelusuri.",
  steps:[
@@ -98,7 +98,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Test cell",definition:"Unit kombinasi variabel dalam eksperimen yang didefinisikan agar hasil dapat dibandingkan secara adil."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH05",
  concept:"Creative merupakan bagian dari sistem optimasi, bukan dekorasi setelah media plan selesai. Mulai dari audience tension dan product truth, lalu turunkan menjadi angle, hook, proof, format, message, CTA, serta kesinambungan landing page. Satu iklan sebaiknya menyampaikan satu proposisi utama dan satu tindakan yang jelas. Format dan placement harus mengikuti spesifikasi platform, safe zone, cropping, aspect ratio, caption/audio, serta konteks konsumsi. Hak penggunaan creator content, musik, testimonial, dan partnership ads harus dipastikan sebelum amplifikasi.",
  example:"KASUS SIMULASI — sebuah brand minuman sehat menguji tiga angle: convenience, taste, dan ingredient proof. Offer dan landing page dibuat sama agar perbandingan awal lebih mungkin mencerminkan perbedaan angle, bukan perubahan promosi. Setiap angle memiliki dua hook. Tim mencatat creative ID, opening beberapa detik pertama, product demonstration, proof, CTA, durasi, format, dan retention metrics.",
  steps:[
@@ -122,7 +122,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Usage rights / whitelisting",definition:"Izin penggunaan atau amplifikasi konten creator; ruang lingkup dan durasinya harus terdokumentasi."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH06",
  concept:"Auction menentukan iklan yang memenuhi syarat untuk memperoleh kesempatan delivery. Hasil tidak ditentukan bid saja; platform juga mempertimbangkan predicted action, relevance/quality, serta delivery rules. Bedakan budget, level budget, bid, cost cap/goal, dan target ROAS. Nama serta ketersediaan strategi berbeda antarpublisher dan objective. Jangan menganggap istilah CBO/ABO Meta berlaku identik di TikTok. Target efisiensi harus diturunkan dari unit economics, bukan hanya benchmark CPM.",
  example:"KASUS SIMULASI — AOV sebuah produk Rp150.000 dan contribution margin sebelum biaya iklan Rp45.000 per order. Bisnis menetapkan allowable acquisition cost Rp30.000 per order agar tersisa kontribusi Rp15.000 sebelum biaya lain. Target revenue ROAS aritmetis pada AOV dan CPA tersebut adalah 5,0x (Rp150.000 ÷ Rp30.000). Ini target bisnis simulasi, bukan janji bahwa auction akan menghasilkan angka tersebut.",
  steps:[
@@ -146,7 +146,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Revenue ROAS",definition:"Attributed revenue dibagi ad spend; tidak sama dengan profit atau incrementality."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH07",
  concept:"Tracking menghubungkan interaksi iklan dengan tindakan di website/app. Browser Pixel mengirim event dari browser; Conversions API/Events API mengirim event melalui server atau koneksi data. Keduanya dapat saling melengkapi, tetapi tidak menghapus kewajiban consent, privacy, dan minimisasi data. Event design harus punya definisi bisnis, event name, waktu, value/currency, source, dan parameter yang diperlukan. Jika event yang sama dikirim melalui browser dan server, ikuti aturan deduplication provider. TikTok secara eksplisit meminta event_id yang sama pada event overlap dari Pixel dan Events API. UTM mengelompokkan traffic; UTM bukan pengganti event tracking.",
  example:"KASUS SIMULASI — satu purchase website dikirim melalui browser Pixel dan server Events API. Jika keduanya mewakili transaksi yang sama tetapi memakai event ID berbeda, platform dapat membaca dua event. Jika event_id yang sama diteruskan pada kedua jalur sesuai aturan provider, sistem dapat mengenali duplikasi. Jangan menggunakan satu event_id statis untuk semua transaksi; identifier harus unik untuk setiap kejadian.",
  steps:[
@@ -171,7 +171,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Consent signal",definition:"Informasi izin atau pilihan pengguna yang mengatur apakah data boleh dikumpulkan atau dibagikan."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH08",
  concept:"Learning phase adalah periode awal delivery saat sistem mengeksplorasi dan mengumpulkan signal untuk menemukan audience yang paling mungkin mencapai optimization goal. Performa dapat berfluktuasi; fluktuasi saja bukan bukti campaign gagal. Jangan menerapkan satu ambang untuk semua platform atau objective. Panduan umum TikTok yang diperbarui Juni 2026 menyebut volatilitas biasanya mulai menurun setelah sekitar 25 hasil campaign atau 7 hari. Angka tersebut bersifat indikatif, bukan jaminan status learning selesai. Guidance objective-specific dapat berbeda. Jangan menerapkan benchmark TikTok ke Meta.",
  example:"KASUS SIMULASI — tiga hari pertama campaign Purchase menunjukkan CPA yang naik-turun. Operator kemudian menaikkan budget besar, mengganti audience, mengganti creative, dan mengubah event sekaligus. Setelah itu performa berubah, tetapi penyebabnya tidak dapat dipisahkan. Praktik yang lebih baik: catat baseline, periksa status learning, pastikan delivery dan tracking sehat, lalu lakukan satu perubahan material dengan hipotesis yang terdokumentasi.",
  steps:[
@@ -195,7 +195,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Change log",definition:"Catatan perubahan konfigurasi, owner, timestamp, hipotesis, serta hasil setelah perubahan."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH09",
  concept:"Optimization harus dimulai dari business outcome lalu bergerak ke diagnosis, bukan dari satu metrik ke tindakan spontan. CTR, CPC, CPM, video views, dan frequency membantu menjelaskan delivery; conversion rate, CPA, revenue, margin, lead quality, dan retention lebih dekat dengan nilai bisnis. Creative testing yang baik menetapkan hypothesis, variabel utama, audience, budget, duration, primary metric, guardrail, dan decision rule sebelum test berjalan. A/B test sulit diinterpretasikan jika banyak variabel berubah sekaligus atau basis reporting tidak sebanding.",
  example:"KASUS SIMULASI — dua creative masing-masing menghabiskan Rp1.500.000. Creative A menghasilkan 20 purchase dan revenue Rp3.000.000 (CPA Rp75.000; revenue ROAS 2,0x). Creative B menghasilkan 30 purchase dan revenue Rp4.500.000 (CPA Rp50.000; revenue ROAS 3,0x), walaupun CTR-nya lebih rendah. B tampak lebih kuat pada outcome simulasi, tetapi keputusan akhir tetap harus memeriksa margin, refund, konsistensi attribution, dan kecukupan volume untuk menarik kesimpulan.",
  steps:[
@@ -219,7 +219,7 @@ var PAID_SOCIAL_GUIDES = [
   {term:"Incrementality",definition:"Outcome tambahan yang disebabkan iklan dibandingkan counterfactual tanpa iklan."}
  ]
 },
-{
+{chapterId:"DPA-T05-CH10",
  concept:"Capstone menguji kemampuan menghubungkan business brief sampai rekomendasi optimization yang dapat dipertanggungjawabkan. Satu paket kerja harus menunjukkan commercial guardrails, objective, audience, campaign architecture per platform, creative strategy, budget/bidding, tracking, QA, reporting, serta decision log. Meta dan TikTok menjadi scope inti; TikTok Shop/Lead Gen dan LinkedIn ditambahkan bila conversion path serta business case mendukung. Angka contoh tanpa data advertiser wajib diberi label SIMULATED.",
  example:"KASUS SIMULASI — brand consumer Indonesia menyiapkan campaign website-purchase selama 30 hari dengan budget hipotetis Rp30 juta. Brief mencantumkan AOV, contribution margin, target order, dan batas stok. Rencana harus menjelaskan pembagian budget, pilihan objective/event, creative test, deduplication event, monitoring, serta kapan keputusan perubahan dilakukan. Forecast tidak boleh disajikan sebagai hasil aktual.",
  steps:[

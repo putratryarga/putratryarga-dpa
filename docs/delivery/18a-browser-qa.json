@@ -1,0 +1,1862 @@
+{
+  "generatedAt": "2026-11-21T14:51:06.493Z",
+  "baseUrl": "http://127.0.0.1:4180/index.html",
+  "viewportOverflowTolerancePx": 1,
+  "consoleErrors": [],
+  "pageErrors": [],
+  "gates": {
+    "consolePageErrors": {
+      "consoleErrors": 0,
+      "pageErrors": 0
+    }
+  },
+  "roleSwitch": [
+    {
+      "role": "fullstack",
+      "expectedChapters": 10,
+      "track": "T01",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Full-Stack Digital Marketing & Performance",
+      "sampled": [
+        "DPA-T01-CH01",
+        "DPA-T01-CH10"
+      ]
+    },
+    {
+      "role": "connection",
+      "expectedChapters": 10,
+      "track": "T02",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Connection / Communications Planner",
+      "sampled": [
+        "DPA-T02-CH01",
+        "DPA-T02-CH10"
+      ]
+    },
+    {
+      "role": "media",
+      "expectedChapters": 10,
+      "track": "T03",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Media Planner / Digital Planner & Strategist",
+      "sampled": [
+        "DPA-T03-CH01",
+        "DPA-T03-CH10"
+      ]
+    },
+    {
+      "role": "paidsearch",
+      "expectedChapters": 10,
+      "track": "T04",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Paid Search / SEM Specialist",
+      "sampled": [
+        "DPA-T04-CH01",
+        "DPA-T04-CH10"
+      ]
+    },
+    {
+      "role": "paidsocial",
+      "expectedChapters": 10,
+      "track": "T05",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Paid Social / Biddable Social Specialist",
+      "sampled": [
+        "DPA-T05-CH01",
+        "DPA-T05-CH10"
+      ]
+    },
+    {
+      "role": "programmatic",
+      "expectedChapters": 12,
+      "track": "T06",
+      "boxOn": true,
+      "chapterCount": 12,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Programmatic Specialist / Trader",
+      "sampled": [
+        "DPA-T06-CH01",
+        "DPA-T06-CH12"
+      ]
+    },
+    {
+      "role": "retail",
+      "expectedChapters": 10,
+      "track": "T07",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Retail & Commerce Media Specialist",
+      "sampled": [
+        "DPA-T07-CH01",
+        "DPA-T07-CH10"
+      ]
+    },
+    {
+      "role": "investment",
+      "expectedChapters": 10,
+      "track": "T08",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Media Buying, Investment & Publisher Partnerships",
+      "sampled": [
+        "DPA-T08-CH01",
+        "DPA-T08-CH10"
+      ]
+    },
+    {
+      "role": "adops",
+      "expectedChapters": 10,
+      "track": "T09",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Ad Operations / Digital Campaign Operations",
+      "sampled": [
+        "DPA-T09-CH01",
+        "DPA-T09-CH10"
+      ]
+    },
+    {
+      "role": "analytics",
+      "expectedChapters": 10,
+      "track": "T10",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Media Analytics / Marketing Science",
+      "sampled": [
+        "DPA-T10-CH01",
+        "DPA-T10-CH10"
+      ]
+    },
+    {
+      "role": "seo",
+      "expectedChapters": 10,
+      "track": "T11",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "SEO / Organic Search / AEO / GEO",
+      "sampled": [
+        "DPA-T11-CH01",
+        "DPA-T11-CH10"
+      ]
+    },
+    {
+      "role": "crm",
+      "expectedChapters": 10,
+      "track": "T12",
+      "boxOn": true,
+      "chapterCount": 10,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "CRM / Lifecycle / Marketing Automation",
+      "sampled": [
+        "DPA-T12-CH01",
+        "DPA-T12-CH10"
+      ]
+    },
+    {
+      "role": "content",
+      "expectedChapters": 11,
+      "track": "T13",
+      "boxOn": true,
+      "chapterCount": 11,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Content Strategy & Creation",
+      "sampled": [
+        "DPA-T13-CH01",
+        "DPA-T13-CH11"
+      ]
+    },
+    {
+      "role": "kol",
+      "expectedChapters": 12,
+      "track": "T14",
+      "boxOn": true,
+      "chapterCount": 12,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "KOL / KOC / Influencer & Creator Partnerships",
+      "sampled": [
+        "DPA-T14-CH01",
+        "DPA-T14-CH12"
+      ]
+    },
+    {
+      "role": "affiliate",
+      "expectedChapters": 12,
+      "track": "T15",
+      "boxOn": true,
+      "chapterCount": 12,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Affiliate & Social Commerce Partnerships",
+      "sampled": [
+        "DPA-T15-CH01",
+        "DPA-T15-CH12"
+      ]
+    },
+    {
+      "role": "community",
+      "expectedChapters": 12,
+      "track": "T16",
+      "boxOn": true,
+      "chapterCount": 12,
+      "chapterIdsMatchTrack": true,
+      "otherCoreBoxesVisible": 0,
+      "activeRoleName": "Community Management & Advocacy",
+      "sampled": [
+        "DPA-T16-CH01",
+        "DPA-T16-CH12"
+      ]
+    }
+  ],
+  "fullDomMilestoneSweep": {
+    "chapterCount": 175,
+    "problems": [],
+    "earn": {
+      "chaptersWithCards": 139,
+      "chaptersWithEmptyState": 36,
+      "maxCardsPerChapter": 3,
+      "credentialLinksTotal": 275
+    }
+  },
+  "sampledChapters": [
+    {
+      "role": "fullstack",
+      "chapterId": "DPA-T01-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 10
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1153,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://academy.hubspot.com/courses/digital-marketing",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 102,
+        "deliverableTextLength": 76
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 5,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "fullstack",
+      "chapterId": "DPA-T01-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 16
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 92,
+        "deliverableTextLength": 66
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 6,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "connection",
+      "chapterId": "DPA-T02-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1149,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://academy.hubspot.com/courses/inbound",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 91,
+        "deliverableTextLength": 65
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "connection",
+      "chapterId": "DPA-T02-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 116,
+        "deliverableTextLength": 90
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "media",
+      "chapterId": "DPA-T03-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 987,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://certifications.facebookblueprint.com/student/catalog",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.facebookblueprint.com/student/catalog?course_id=275362",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 96,
+        "deliverableTextLength": 70
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "media",
+      "chapterId": "DPA-T03-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 987,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://certifications.facebookblueprint.com/student/catalog",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.facebookblueprint.com/student/catalog?course_id=275362",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 106,
+        "deliverableTextLength": 80
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "paidsearch",
+      "chapterId": "DPA-T04-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1959,
+        "credentialCardCount": 2,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://skillshop.withgoogle.com/",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://support.google.com/google-ads/answer/9702955?hl=id",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 81,
+        "deliverableTextLength": 55
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "paidsearch",
+      "chapterId": "DPA-T04-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 999,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://skillshop.withgoogle.com/",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://support.google.com/google-ads/answer/9702955?hl=id",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 102,
+        "deliverableTextLength": 76
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "paidsocial",
+      "chapterId": "DPA-T05-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 2865,
+        "credentialCardCount": 3,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://certifications.facebookblueprint.com/student/catalog",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.facebookblueprint.com/student/catalog?course_id=275362",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://ipg.tiktokacademy.com/student/path/2552988-certification-exam-prep",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.tiktokacademy.com/student/page/3053325-certification-faqs",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://training.marketing.linkedin.com/advertising-fundamentals-exam",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.linkedin.com/help/lms/answer/a489784",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 73,
+        "deliverableTextLength": 47
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "paidsocial",
+      "chapterId": "DPA-T05-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 2781,
+        "credentialCardCount": 3,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://certifications.facebookblueprint.com/student/catalog",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.facebookblueprint.com/student/catalog?course_id=275362",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://ipg.tiktokacademy.com/student/path/2552988-certification-exam-prep",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.tiktokacademy.com/student/page/3053325-certification-faqs",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://training.marketing.linkedin.com/marketing-strategy-exam",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.linkedin.com/help/lms/answer/a489784",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 102,
+        "deliverableTextLength": 76
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 6,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "programmatic",
+      "chapterId": "DPA-T06-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 2719,
+        "credentialCardCount": 3,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://www.stackadapt.com/academy/programmatic-masterclass",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://advertising.amazon.com/academy/student/path/1532",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://advertising.amazon.com/academy/certifications?activeLocale=en-us",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 82,
+        "deliverableTextLength": 56
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "programmatic",
+      "chapterId": "DPA-T06-CH12",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1172,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://about.ads.microsoft.com/en/resources/training-certification/learning-lab",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 109,
+        "deliverableTextLength": 83
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "retail",
+      "chapterId": "DPA-T07-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1196,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://advertising.amazon.com/academy/certifications",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 61,
+        "deliverableTextLength": 35
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "retail",
+      "chapterId": "DPA-T07-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1196,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://advertising.amazon.com/academy/student/path/1523/amazon-ads-for-retail-certification",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://advertising.amazon.com/academy/certifications",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 97,
+        "deliverableTextLength": 71
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "investment",
+      "chapterId": "DPA-T08-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 86,
+        "deliverableTextLength": 60
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "investment",
+      "chapterId": "DPA-T08-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 111,
+        "deliverableTextLength": 85
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "adops",
+      "chapterId": "DPA-T09-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1713,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://skillshop.withgoogle.com/",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 74,
+        "deliverableTextLength": 48
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "adops",
+      "chapterId": "DPA-T09-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 87,
+        "deliverableTextLength": 61
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "analytics",
+      "chapterId": "DPA-T10-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1200,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://certifications.facebookblueprint.com/student/catalog",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.facebookblueprint.com/student/activity/697093-meta-certified-marketing-science-professional",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 77,
+        "deliverableTextLength": 51
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "analytics",
+      "chapterId": "DPA-T10-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 92,
+        "deliverableTextLength": 66
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "seo",
+      "chapterId": "DPA-T11-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 969,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 72,
+        "deliverableTextLength": 46
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "seo",
+      "chapterId": "DPA-T11-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 80,
+        "deliverableTextLength": 54
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "crm",
+      "chapterId": "DPA-T12-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1149,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://academy.hubspot.com/courses/inbound",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 70,
+        "deliverableTextLength": 44
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "crm",
+      "chapterId": "DPA-T12-CH10",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 100,
+        "deliverableTextLength": 74
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "content",
+      "chapterId": "DPA-T13-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1078,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://academy.hubspot.com/courses/social-media",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 76,
+        "deliverableTextLength": 50
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "content",
+      "chapterId": "DPA-T13-CH11",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1122,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://academy.hubspot.com/courses/content-marketing",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 82,
+        "deliverableTextLength": 56
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "kol",
+      "chapterId": "DPA-T14-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 256,
+        "credentialCardCount": 0,
+        "credentialCardsMax3": true,
+        "emptyState": true,
+        "cardLinks": []
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 75,
+        "deliverableTextLength": 49
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": false,
+      "problems": []
+    },
+    {
+      "role": "kol",
+      "chapterId": "DPA-T14-CH12",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1101,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://certifications.facebookblueprint.com/student/path/253173-partnership-ads-course",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 106,
+        "deliverableTextLength": 80
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "affiliate",
+      "chapterId": "DPA-T15-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1331,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://impact.com/pxa/learning-path/affiliate-marketing-partnerships-certification/",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 52,
+        "deliverableTextLength": 26
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "affiliate",
+      "chapterId": "DPA-T15-CH12",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1331,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://impact.com/pxa/learning-path/affiliate-marketing-partnerships-certification/",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 67,
+        "deliverableTextLength": 41
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "community",
+      "chapterId": "DPA-T16-CH01",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1336,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 55,
+        "deliverableTextLength": 29
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    },
+    {
+      "role": "community",
+      "chapterId": "DPA-T16-CH12",
+      "found": true,
+      "studyPanel": {
+        "present": true,
+        "visible": true,
+        "folds": 7
+      },
+      "learn": {
+        "present": true,
+        "visible": true,
+        "textLength": 127
+      },
+      "earn": {
+        "present": true,
+        "visible": true,
+        "textLength": 1336,
+        "credentialCardCount": 1,
+        "credentialCardsMax3": true,
+        "emptyState": false,
+        "cardLinks": [
+          {
+            "href": "https://communitytraining.facebookblueprint.com/student/collection/205897-facebook-community-manager-online-courses",
+            "visible": true,
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      "apply": {
+        "present": true,
+        "visible": true,
+        "textLength": 63,
+        "deliverableTextLength": 37
+      },
+      "master": {
+        "present": true,
+        "visible": true,
+        "textLength": 233,
+        "knowledgeCheckItems": 3
+      },
+      "learnStepListItems": 4,
+      "earnLinkClickable": true,
+      "problems": []
+    }
+  ],
+  "viewportChecks": [
+    {
+      "viewport": 320,
+      "innerWidth": 320,
+      "docClientWidth": 320,
+      "overflowPxDefaultView": 0,
+      "overflowPxAdopsChapterOpen": 0,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "innerWidth": 375,
+      "docClientWidth": 375,
+      "overflowPxDefaultView": 0,
+      "overflowPxAdopsChapterOpen": 0,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "innerWidth": 768,
+      "docClientWidth": 768,
+      "overflowPxDefaultView": 0,
+      "overflowPxAdopsChapterOpen": 0,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "innerWidth": 1024,
+      "docClientWidth": 1024,
+      "overflowPxDefaultView": 0,
+      "overflowPxAdopsChapterOpen": 0,
+      "pass": true
+    },
+    {
+      "viewport": 1366,
+      "innerWidth": 1366,
+      "docClientWidth": 1366,
+      "overflowPxDefaultView": 0,
+      "overflowPxAdopsChapterOpen": 0,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "innerWidth": 1440,
+      "docClientWidth": 1440,
+      "overflowPxDefaultView": 0,
+      "overflowPxAdopsChapterOpen": 0,
+      "pass": true
+    }
+  ],
+  "skipLink": {
+    "firstTabFocus": {
+      "tag": "A",
+      "isSkipLink": true,
+      "href": "#main",
+      "text": "Langsung ke konten utama"
+    }
+  },
+  "axe": {
+    "runs": [
+      {
+        "label": "default view (fullstack, all weeks expanded)",
+        "passes": 26,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "wcagTags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "nodeCount": 3,
+            "sampleSelectors": [
+              ".wm > span:nth-child(2)",
+              ".wm > span:nth-child(3)",
+              ".wm > span:nth-child(4)"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodeCount": 2
+          }
+        ]
+      },
+      {
+        "label": "role picker open",
+        "passes": 26,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "wcagTags": [
+              "wcag2aa",
+              "wcag143"
+            ],
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "nodeCount": 2,
+            "sampleSelectors": [
+              ".wm > span:nth-child(1)",
+              ".wm > span:nth-child(4)"
+            ]
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodeCount": 3
+          }
+        ]
+      }
+    ],
+    "totalViolations": 2
+  },
+  "failure": [
+    "axe WCAG2 A/AA violations: 2 rule(s) — see report.axe.runs"
+  ],
+  "status": "FAIL"
+}

@@ -1,0 +1,899 @@
+====================================================================================================
+[RUBRIC 1/30] DPA-T01-CH09 — CRM, Lifecycle & Automation
+### DPA-T01-CH09 — CRM, Lifecycle & Automation
+**Competency:** T01-C05
+
+**Learning outcome under assessment:** CRM dan lifecycle marketing mengelola hubungan setelah interaksi: lead nurturing, onboarding, activation, repeat purchase, loyalty, win-back, dan churn prevention. Rancang komunikasi berdasarkan lifecycle stage, segment, trigger, content, timing, frequency, suppression, exit condition, dan consent. Email/WhatsApp bukan sekadar channel blast; keduanya memerlukan permission, preference management, deliverability, data hygiene, dan customer-service coordination. Ukur activation, repeat rate, retention, churn, revenue/margin, dan customer experience.
+
+**Required artifact / chapter-specific evidence checklist:** Buat lifecycle map dua flow: (1) new customer onboarding, (2) replenishment/repeat atau lapsed win-back. Tiap flow berisi trigger, eligibility, consent, segment, message, channel, delay, branch, frequency cap, suppression, exit, KPI, guardrail, dan QA. Unsubscribe/opt-out wajib jadi test scenario.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa suppression dan exit condition penting?
+   - **Current guide answer (not yet approved):** Mencegah komunikasi berulang/tidak relevan, misalnya reminder purchase setelah customer sudah membeli atau promotional message setelah unsubscribe.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apakah nomor WhatsApp/email otomatis berarti consent marketing?
+   - **Current guide answer (not yet approved):** Tidak. Kontak yang tersedia bukan bukti izin promosi. Perlu dasar pemrosesan/consent, preference management, opt-out, dan kebijakan channel.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa repeat purchase dibaca bersama margin dan customer experience?
+   - **Current guide answer (not yet approved):** Diskon agresif dapat menaikkan repeat tetapi menurunkan margin; frekuensi pesan berlebih meningkatkan unsubscribe/complaint. Nilai hubungan dinilai utuh.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 2/30] DPA-T02-CH03 — Cultural Insight, Human Tension & Behavioral Insight
+### DPA-T02-CH03 — Cultural Insight, Human Tension & Behavioral Insight
+**Competency:** T02-C02
+
+**Learning outcome under assessment:** Cultural insight menghubungkan perubahan konteks budaya, perilaku nyata, kebutuhan manusia, dan ketegangan yang relevan dengan kategori. Tren hanya sinyal; insight menjelaskan mengapa sinyal tersebut penting bagi audience dan brand. Human tension biasanya memuat dua kebutuhan yang bertabrakan. Planner menguji skala, momentum, durasi, relevansi kategori, dan risiko appropriation sebelum mengusulkan platform ide.
+
+**Required artifact / chapter-specific evidence checklist:** Buat cultural insight board berisi lima sinyal, dua tren, satu human tension, evidence pro/kontra, brand role, serta tiga potential communication territories. Jangan mengklaim hubungan kausal dari korelasi tren.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda trend dan insight?
+   - **Current guide answer (not yet approved):** Trend menunjukkan pola/sinyal yang berkembang; insight menjelaskan motivasi atau tension yang mendasari perilaku dan mengarahkan keputusan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa insight harus punya evidence yang dapat membantahnya?
+   - **Current guide answer (not yet approved):** Tanpa falsifiability, insight mudah menjadi slogan yang terdengar menarik tetapi tidak dapat diuji atau dipakai mengambil keputusan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang dimaksud brand fit dalam cultural moment?
+   - **Current guide answer (not yet approved):** Kesesuaian antara nilai, pengalaman, kompetensi, dan peran nyata brand dengan isu yang ingin dimasuki.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 3/30] DPA-T03-CH02 — Audience Research & Media Consumption
+### DPA-T03-CH02 — Audience Research & Media Consumption
+**Competency:** T03-C01
+
+**Learning outcome under assessment:** Audience planning memilih siapa yang perlu dijangkau, di mana mereka berada, bagaimana konsumsi medianya, dan apakah data yang digunakan cukup relevan. Gunakan behavioral, category, contextual, first-party, survey, syndicated, dan platform data dengan memahami definisi serta bias masing-masing. Audience sizing perlu menyebut universe, target definition, duplication, geography, dan periode. Planner tidak boleh menganggap platform audience estimate sama dengan unique people.
+
+**Required artifact / chapter-specific evidence checklist:** Buat audience landscape berisi 2–3 segmen, estimasi universe dengan source caveat, media consumption, occasion, platform role, duplication risk, dan implikasi terhadap channel selection.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa audience estimate tidak bisa langsung dijumlahkan lintas platform?
+   - **Current guide answer (not yet approved):** Universe, identity resolution, time window, deduplication, dan metode pengukuran berbeda; hasilnya dapat overlap.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa fungsi first-party data dalam media planning?
+   - **Current guide answer (not yet approved):** Membantu memahami existing customers/consented audience dan membangun targeting atau suppression, dengan governance serta izin yang sesuai.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa data source harus punya tanggal dan metodologi?
+   - **Current guide answer (not yet approved):** Audience behavior dan platform definitions berubah; tanpa recency/method, planner tidak bisa menilai reliability estimate.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 4/30] DPA-T03-CH03 — Media Landscape, Inventory & Channel Evaluation
+### DPA-T03-CH03 — Media Landscape, Inventory & Channel Evaluation
+**Competency:** T03-C02
+
+**Learning outcome under assessment:** Media landscape evaluation menilai channel, format, placement, publisher, inventory quality, audience fit, environment, availability, cost model, dan measurement. Channel yang sama dapat memiliki kualitas berbeda menurut placement dan context. Planner perlu membedakan media owner/publisher, platform self-serve, network, DSP, dan reseller; pahami siapa mengontrol inventory, data, ad serving, brand safety, dan laporan delivery.
+
+**Required artifact / chapter-specific evidence checklist:** Buat inventory evaluation sheet minimal enam opsi: audience fit, placement/context, buying type, rate basis, projected delivery, quality controls, reporting, exclusions, dan recommendation.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa CPM murah belum tentu inventory bernilai?
+   - **Current guide answer (not yet approved):** Cost per thousand tidak mengukur viewability, IVT, contextual suitability, attention, audience relevance, atau outcomes.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda publisher direct dan DSP inventory?
+   - **Current guide answer (not yet approved):** Direct dibeli melalui media owner/representative dengan terms spesifik; DSP mengakses inventory melalui platform dan mekanisme auction/deal.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang dimaksud apples-to-apples media comparison?
+   - **Current guide answer (not yet approved):** Menyamakan scope, format, audience, dates, impressions/reach, fee, measurement, dan delivery terms sebelum membandingkan harga.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 5/30] DPA-T03-CH05 — Media Mix, Budget Allocation & Investment Rationale
+### DPA-T03-CH05 — Media Mix, Budget Allocation & Investment Rationale
+**Competency:** T03-C03
+
+**Learning outcome under assessment:** Media mix mengalokasikan investasi antar channel dan format berdasarkan audience, task, reach/intent, cost, expected contribution, creative, measurement, dan risiko. Budget allocation bukan pembagian rata atau sekadar mengejar ROAS platform. Planner membuat scenario dan menjelaskan marginal trade-off: apa yang hilang ketika suatu channel dikurangi, dan apa yang diperoleh ketika budget dipindah. Forecast harus menampilkan input, range, dan uncertainty.
+
+**Required artifact / chapter-specific evidence checklist:** Buat tiga media-mix scenarios dengan budget total tetap. Untuk setiap skenario tulis allocation, KPI, forecast range, assumptions, risks, marginal trade-off, dan kondisi realokasi.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda average ROAS dan marginal ROAS?
+   - **Current guide answer (not yet approved):** Average menilai hasil keseluruhan; marginal mengukur hasil tambahan dari satu unit budget berikutnya dan lebih relevan untuk scaling.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa satu channel dengan ROAS tertinggi tidak otomatis menerima seluruh budget?
+   - **Current guide answer (not yet approved):** Volume, incrementality, role dalam demand creation, saturation, overlap, margin, dan channel risk dapat membuat return marginal turun.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang wajib ada dalam forecast?
+   - **Current guide answer (not yet approved):** Input, formula, time window, range, source, confidence, scenario, serta penjelasan bahwa forecast bukan guaranteed delivery.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 6/30] DPA-T03-CH07 — Media Flowchart, Flighting & Scenario Planning
+### DPA-T03-CH07 — Media Flowchart, Flighting & Scenario Planning
+**Competency:** T03-C05
+
+**Learning outcome under assessment:** Media flowchart menerjemahkan strategi dan budget menjadi jadwal, channel, format, weight, target, owner, dan flight dates. Pola continuity, flighting, dan pulsing berbeda sesuai seasonality, demand, launch moment, inventory, serta budget. Scenario planning menguji perubahan tanggal, stock, price promotion, atau media availability. Flowchart bukan dekorasi; ia menjadi alat koordinasi planning, buying, creative, client, dan finance.
+
+**Required artifact / chapter-specific evidence checklist:** Buat flowchart 8 minggu dengan channel/format, spend weighting, flighting, asset deadline, dependencies, dan three contingency scenarios. Tulis change-control rules jika dates atau inventory berubah.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa risiko flighting tanpa stock calendar?
+   - **Current guide answer (not yet approved):** Iklan dapat mendorong demand saat produk tidak tersedia dan membuang budget atau menurunkan customer trust.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Kapan pulsing lebih tepat daripada full continuity?
+   - **Current guide answer (not yet approved):** Saat baseline presence dibutuhkan tetapi demand/seasonality memiliki momen puncak yang memerlukan intensitas tambahan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa fungsi dependency mapping?
+   - **Current guide answer (not yet approved):** Memastikan booking, creative, approvals, tags, stock, dan owner siap sesuai urutan launch.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 7/30] DPA-T04-CH03 — Account, Campaign & Ad Group Architecture
+### DPA-T04-CH03 — Account, Campaign & Ad Group Architecture
+**Competency:** T04-C03
+
+**Learning outcome under assessment:** Campaign architecture mengatur hubungan account, campaign, ad group, keyword, ads, assets, audience, geography, language, budget, conversion action, dan landing page. Struktur yang baik memberi kontrol cukup tanpa memecah data terlalu kecil. Naming taxonomy memudahkan QA dan reporting; pemilihan campaign type harus mengikuti objective, channel inventory, feed, conversion readiness, dan kemampuan kontrol.
+
+**Required artifact / chapter-specific evidence checklist:** Bangun account map untuk brand latihan: account settings, 3 campaign, ad groups, keyword clusters, ad assets, landing pages, conversion actions, naming, dan QA checks. Jelaskan alasan struktur.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa tidak membuat satu campaign untuk setiap keyword?
+   - **Current guide answer (not yet approved):** Fragmentasi dapat membagi budget/conversion signals dan membuat learning serta management tidak efisien.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Kapan campaign perlu dipisah?
+   - **Current guide answer (not yet approved):** Saat objective, budget, geo, product economics, brand protection, atau bidding strategy membutuhkan kontrol berbeda.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa tujuan naming taxonomy?
+   - **Current guide answer (not yet approved):** Naming taxonomy membuat objek mudah dikenali, laporan konsisten, QA dapat diulang, perubahan dapat ditelusuri, dan handover antaroperator lebih aman.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 8/30] DPA-T04-CH06 — Campaign Types, Bidding Strategy & Budget Management
+### DPA-T04-CH06 — Campaign Types, Bidding Strategy & Budget Management
+**Competency:** T04-C03, T04-C06
+
+**Learning outcome under assessment:** Bidding dan budget menentukan cara platform berpartisipasi dalam auction dan mengejar conversion/value. Manual, Maximize Clicks, Maximize Conversions, target CPA, Maximize Conversion Value, dan target ROAS memiliki kebutuhan sinyal serta trade-off berbeda. Smart bidding memerlukan conversion tracking yang sehat, volume yang memadai, dan definisi value yang tepat. Budget pacing harus dipantau bersama spend, impression share, marginal CPA/ROAS, dan business margin.
+
+**Required artifact / chapter-specific evidence checklist:** Simulasikan tiga bid strategies untuk satu campaign. Isi input signal, required data, budget, expected trade-off, monitoring metrics, guardrail, dan perubahan yang dilakukan pada kasus underdelivery/overspend.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa smart bidding tidak memperbaiki conversion tracking yang rusak?
+   - **Current guide answer (not yet approved):** Algoritma mengoptimalkan signal yang diberikan; event salah/duplikat membuat learning dan budget allocation ikut salah.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa risiko menetapkan target ROAS terlalu tinggi?
+   - **Current guide answer (not yet approved):** Delivery dapat menyempit atau berhenti mengejar peluang yang masih profitable pada target bisnis sebenarnya.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang dipantau selain average CPA?
+   - **Current guide answer (not yet approved):** Conversion value, margin, volume, query quality, impression share, budget pacing, new-customer share, dan marginal performance.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 9/30] DPA-T05-CH03 — Audience Research, Segmentation & Targeting
+### DPA-T05-CH03 — Audience Research, Segmentation & Targeting
+**Competency:** T05-C02
+
+**Learning outcome under assessment:** Audience strategy dimulai dari kebutuhan dan perilaku konsumen, lalu diterjemahkan menjadi sumber data, aturan segmentasi, exclusions, serta hipotesis yang bisa diuji. Custom Audience biasanya memakai sumber first-party atau interaksi platform yang diizinkan; Lookalike Audience memodelkan prospek dari karakteristik source audience; interest/behavior memberi sinyal targeting; broad atau automated audience memberi ruang lebih luas bagi sistem. Ketersediaan fitur berbeda menurut platform dan akun. Jangan mengunggah atau mengaktifkan data pelanggan tanpa hak, consent, dan dasar penggunaan yang sesuai.
+
+**Required artifact / chapter-specific evidence checklist:** Bangun audience matrix dengan kolom: segment, business role, source, inclusion rule, exclusion rule, lookback/recency, consent status, estimated size, overlap risk, message angle, KPI, dan test hypothesis. Buat minimal segmen prospecting, retargeting, serta existing-customer/retention. Gunakan data sintetis jika data first-party berizin tidak tersedia.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa daftar seluruh pengunjung website tidak otomatis menjadi seed Lookalike terbaik?
+   - **Current guide answer (not yet approved):** Pengunjung memiliki niat dan kualitas yang beragam. Seed harus mewakili outcome yang dicari dan cukup valid; buyer terverifikasi atau qualified lead dapat lebih relevan jika sumbernya sah serta ukurannya memadai.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa risiko retargeting tanpa exclusion pelanggan yang sudah membeli?
+   - **Current guide answer (not yet approved):** Pembeli lama bisa terus menerima pesan akuisisi yang sama, audience dapat overlap, dan frequency meningkat tanpa menambah nilai incremental.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Bolehkah data pelanggan sensitif digunakan untuk membuat audience?
+   - **Current guide answer (not yet approved):** Jangan menggunakan atau mengirim data sensitif yang dilarang platform atau tidak memiliki dasar pemrosesan yang sah. Ikuti consent, privacy law, platform policy, serta prinsip minimisasi data.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 10/30] DPA-T05-CH10 — Paid Social Capstone
+### DPA-T05-CH10 — Paid Social Capstone
+**Competency:** T05-C06
+
+**Learning outcome under assessment:** Capstone menguji kemampuan menghubungkan business brief sampai rekomendasi optimization yang dapat dipertanggungjawabkan. Satu paket kerja harus menunjukkan commercial guardrails, objective, audience, campaign architecture per platform, creative strategy, budget/bidding, tracking, QA, reporting, serta decision log. Meta dan TikTok menjadi scope inti; TikTok Shop/Lead Gen dan LinkedIn ditambahkan bila conversion path serta business case mendukung. Angka contoh tanpa data advertiser wajib diberi label SIMULATED.
+
+**Required artifact / chapter-specific evidence checklist:** Susun satu capstone folder berisi: (1) brief restatement dan unit economics, (2) platform role/objective decision, (3) Meta dan TikTok architecture, (4) audience matrix, (5) creative strategy dan test matrix, (6) budget/bid/pacing sheet, (7) event map + UTM + deduplication plan, (8) pre-launch QA checklist, (9) weekly report memakai data SIMULATED, dan (10) optimization memo. Presentasikan keputusan dalam 8–10 slide. Beri skor 0–3 untuk business logic, platform setup, creative/testing, tracking/QA, commercial analysis, dan evidence/limitations. Setiap area harus minimal 2; setidaknya dua area harus mendapat 3 sebelum pekerjaan disebut portfolio-ready.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa yang membedakan capstone portfolio-ready dari campaign mock-up biasa?
+   - **Current guide answer (not yet approved):** Ada alur yang dapat ditelusuri dari brief dan unit economics ke objective, audience, structure, creative, budget, tracking, QA, hasil, serta keputusan. File dapat direplikasi dan semua asumsi/data diberi label dengan jujur.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Bagaimana data performa sintetis harus ditampilkan?
+   - **Current guide answer (not yet approved):** Beri label SIMULATED pada setiap tabel/chart, jelaskan cara pembuatannya, dan jangan menyebutnya hasil campaign aktual atau client work.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa saja yang harus ada dalam optimization memo?
+   - **Current guide answer (not yet approved):** Keputusan, evidence, perbandingan KPI dengan target, diagnosis, risk/limitation, owner, timeline, dan next test yang spesifik.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 11/30] DPA-T06-CH02 — Auction Mechanics, OpenRTB & Supply Path
+### DPA-T06-CH02 — Auction Mechanics, OpenRTB & Supply Path
+**Competency:** T06-C01
+
+**Learning outcome under assessment:** OpenRTB dan auction mechanics menjelaskan bagaimana bid request, impression opportunity, buyer response, price, dan creative diproses. Supply path menentukan rantai pihak yang terlibat dari publisher menuju DSP. Trader perlu memahami auction type, bid floor, timeout, win rate, clearing dynamics, deal identifiers, reseller, dan ads.txt/sellers.json sebagai sinyal otorisasi. Tidak semua mekanisme lelang bersifat first-price dengan implementasi identik.
+
+**Required artifact / chapter-specific evidence checklist:** Buat bid-flow diagram dan supply-path audit untuk dua inventory scenarios. Isi request signals, eligibility, auction/deal type, fee layers, authorized sellers checks, timeout risk, dan optimization actions.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa itu bid floor?
+   - **Current guide answer (not yet approved):** Bid floor adalah harga minimum yang ditetapkan supply side untuk impression atau deal yang eligible; bid di bawahnya dapat kalah atau tidak terlayani.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa fungsi ads.txt dan sellers.json?
+   - **Current guide answer (not yet approved):** ads.txt dan sellers.json membantu mengungkap pihak yang berwenang menjual inventory; keduanya meningkatkan transparansi tetapi tidak menjamin traffic bebas fraud.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa bid tinggi tidak menjamin win?
+   - **Current guide answer (not yet approved):** Eligibility, deal rules, timeout, floor, auction competition, creative compatibility, dan supply signals juga menentukan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 12/30] DPA-T07-CH04 — Onsite Retail Media: Sponsored Products & Search
+### DPA-T07-CH04 — Onsite Retail Media: Sponsored Products & Search
+**Competency:** T07-C03
+
+**Learning outcome under assessment:** Onsite Retail Media memanfaatkan sponsored products, sponsored search, sponsored brands/store, dan rekomendasi pada properti retailer. Search placement menangkap query/shopper intent; product placement memerlukan listing content, image, price, rating, inventory, and availability. Bid dan budget harus dibaca bersama organic rank, competition, margin, product-level ROAS/ACoS, and category economics.
+
+**Required artifact / chapter-specific evidence checklist:** Buat onsite retail campaign plan untuk lima SKU: product readiness audit, keyword/product target, campaign structure, bid/budget assumptions, negative/exclusion logic, sales metrics, and listing improvement backlog.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa hubungan listing quality dengan sponsored ad performance?
+   - **Current guide answer (not yet approved):** Ad dapat menghasilkan traffic; listing, availability, price, review, and fulfillment menentukan apakah traffic berkonversi.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda ROAS dan ACoS?
+   - **Current guide answer (not yet approved):** ROAS adalah sales/ad spend; ACoS adalah ad spend/ad-attributed sales, sehingga keduanya berbanding terbalik jika basis sama.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa perlu SKU-level analysis?
+   - **Current guide answer (not yet approved):** Aggregate campaign metrics dapat menutupi SKU bermargin rendah, low stock, atau listing yang tidak converting.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 13/30] DPA-T07-CH06 — Retail Audience, First-Party Data & Targeting
+### DPA-T07-CH06 — Retail Audience, First-Party Data & Targeting
+**Competency:** T07-C02, T07-C04
+
+**Learning outcome under assessment:** Retail audience and first-party data digunakan untuk membuat segment seperti category buyers, loyalty members, lapsed purchasers, new-to-brand, high-value, and product affinities. Targeting bergantung pada taxonomy retailer, match coverage, scale, privacy, and platform controls. Audience strategy harus seimbang antara precision dan reach; segment terlalu kecil dapat menaikkan CPM, membatasi delivery, atau membuat hasil tidak stabil.
+
+**Required artifact / chapter-specific evidence checklist:** Buat retail audience taxonomy untuk prospecting, new-to-brand, repeat, lapsed, and high-value segments. Sertakan logic, window, scale/match caveat, activation, suppression, and measurement.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa segment terlalu sempit berisiko?
+   - **Current guide answer (not yet approved):** Audience terlalu sempit dapat menurunkan scale, meningkatkan biaya, menghambat delivery, membuat hasil tidak stabil, dan menaikkan frequency.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa risiko menganggap retailer segment sama dengan CRM segment?
+   - **Current guide answer (not yet approved):** Keduanya dapat berbeda dalam definisi, refresh cadence, identity, transaction coverage, eligibility, dan consent; dokumentasikan sebelum dibandingkan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa suppression penting?
+   - **Current guide answer (not yet approved):** Suppression menghindari spend dan pesan yang tidak perlu kepada customer yang sudah convert, tidak eligible, atau harus dikecualikan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 14/30] DPA-T07-CH08 — Campaign Activation, Bidding & Optimization
+### DPA-T07-CH08 — Campaign Activation, Bidding & Optimization
+**Competency:** T07-C05
+
+**Learning outcome under assessment:** Retail activation dan optimization menggabungkan campaign configuration, product/feed readiness, bid/budget, placement, query, product availability, pricing, promotion, reviews, and sales signals. Optimasi dilakukan pada level retailer, campaign, keyword, placement, and SKU. Perubahan bid harus dibandingkan dengan stock/price/promo agar kenaikan sales tidak salah diatribusikan ke media. Aktivasi juga dapat mencakup in-store retail media seperti screen, audio, shelf signage, kiosk, sampling, QR, dan proximity placements. Perencanaan in-store memerlukan store list, inventory/location map, footfall/dwell methodology, operating hours, installation, uptime, creative specification, proof-of-play, store operations, safety, serta pengukuran yang tidak menyamakan plays atau footfall dengan unique ad exposure.
+
+**Required artifact / chapter-specific evidence checklist:** Buat retail optimization log dari data SIMULATED 14 hari: per SKU/query, bid, spend, clicks, sales, stock, price, promo, rating, ACoS, root cause, action, and result. Tambahkan modul in-store: placement map untuk 20 toko, flight/daypart, creative spec, store operations checklist, proof-of-play evidence, uptime exception log, dan sales/footfall measurement caveats.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa saja penyebab retail media ROAS turun, dan bagaimana memisahkan masalah media dari masalah produk?
+   - **Current guide answer (not yet approved):** Periksa spend, bid, query, placement, serta harga, stok, promo, rating, kualitas listing, kompetitor, seasonality, dan margin per SKU. Jangan mengubah seluruh bid sebelum mengisolasi faktor produk/operasional.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Kontrol apa yang wajib ada pada aktivasi in-store retail media?
+   - **Current guide answer (not yet approved):** Validasi store/placement inventory, daypart, creative spec, installation, uptime, proof-of-play, store operations, safety, footfall methodology, dan periode pembanding. Plays atau footfall bukan otomatis unique ad exposure.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa change log dan measurement caveats penting saat mengoptimasi retail campaign?
+   - **Current guide answer (not yet approved):** Catat perubahan bid/SKU/placement, alasan, observation window, owner, guardrail, dan hasil. Pisahkan platform attribution dari incrementality; rekonsiliasi sales, return, stock, margin, match coverage, dan control design.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 15/30] DPA-T08-CH02 — Inventory, Audience & Media Value Assessment
+### DPA-T08-CH02 — Inventory, Audience & Media Value Assessment
+**Competency:** T08-C02
+
+**Learning outcome under assessment:** Inventory evaluation menilai audience fit, reach, context, format, quality, availability, exclusivity, placement, package flexibility, and pricing. Media kit menyediakan deskripsi inventory, tetapi klaim reach/circulation perlu diperiksa berdasarkan source, period, methodology, duplication, and target. Value bukan sekadar audience besar; premium context, relevance, attention, and commercial guarantee juga penting.
+
+**Required artifact / chapter-specific evidence checklist:** Buat publisher inventory scorecard untuk lima opsi dengan audience, reach definition, format, quality, availability, rate, value-add, verification, methodology, dan recommended use.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa media kit tidak boleh diterima tanpa verifikasi?
+   - **Current guide answer (not yet approved):** Reach, circulation, audience and engagement claims dapat memakai definisi/periode berbeda atau self-reported.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa yang membuat proposal media value comparable?
+   - **Current guide answer (not yet approved):** Satuan, audience, dates, placements, format, reporting, measurement, exclusivity, fees, and contract basis harus dinormalisasi.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Bagaimana menilai value-add?
+   - **Current guide answer (not yet approved):** Periksa placement, audience, timing, guarantee, production/measurement cost, and whether it substitutes paid inventory.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 16/30] DPA-T09-CH01 — Digital Ad Tech & Campaign Delivery Ecosystem
+### DPA-T09-CH01 — Digital Ad Tech & Campaign Delivery Ecosystem
+**Competency:** T09-C01
+
+**Learning outcome under assessment:** Ad Operations menghubungkan media plan, platform/ad server, publisher, creative, tracking, verification, dan analytics. Tugas utamanya memastikan campaign dikonfigurasi, ditayangkan, dilacak, dan direkonsiliasi dengan benar—bukan menetapkan seluruh audience strategy atau budget allocation. Ekosistem dapat meliputi Google Ads, Meta, TikTok, LinkedIn, DV360, CM360, retailer platforms, dan direct publisher placements. Scope kerja mengikuti platform yang dipakai klien.
+
+**Required artifact / chapter-specific evidence checklist:** Buat cross-platform Ad Ops ecosystem diagram untuk satu campaign: platform roles, ad server, tags/pixels, publisher, verification, ownership, approvals, and evidence trail.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda Ad Ops dan Media Buyer?
+   - **Current guide answer (not yet approved):** Ad Ops menjalankan technical trafficking, tracking, QA, and delivery control; buyer mengelola inventory purchase, rates, and commercial terms.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda Ad Ops dan performance specialist?
+   - **Current guide answer (not yet approved):** Performance specialist mengelola audience/bidding/creative optimization; Ad Ops memastikan setup teknis dan measurement berfungsi.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Mengapa multi-platform governance penting?
+   - **Current guide answer (not yet approved):** Tanpa naming, versioning, access, and approval yang konsisten, kesalahan sulit dilacak antar channel.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 17/30] DPA-T10-CH01 — Business Question, KPI & Measurement Framework
+### DPA-T10-CH01 — Business Question, KPI & Measurement Framework
+**Competency:** T10-C01, T10-C04
+
+**Learning outcome under assessment:** Media Analytics dimulai dari business question, bukan dashboard atau file data yang kebetulan tersedia. Pertanyaan harus menentukan unit analisis, periode, population, outcome, diagnostic metrics, guardrails, dan keputusan yang akan diambil. KPI architecture menghubungkan business outcomes dengan driver seperti spend, reach, qualified traffic, conversion, revenue, margin, and retention. Definisi metric wajib menyebut formula, denominator, source, timezone, attribution window, owner, and limitation.
+
+**Required artifact / chapter-specific evidence checklist:** Buat measurement brief untuk pertanyaan bisnis 'apa yang mendorong kenaikan cost per qualified lead?'. Sertakan KPI tree, metric dictionary, analysis scope, segmentation, data owners, dan decision criteria.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa analyst perlu tahu keputusan apa yang akan diambil?
+   - **Current guide answer (not yet approved):** Agar analisis fokus pada evidence yang dapat mengubah tindakan, bukan hanya menghasilkan chart.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa yang wajib ada di metric dictionary?
+   - **Current guide answer (not yet approved):** Formula, denominator, unit, currency, source, timezone, attribution window, owner, refresh, dan caveat.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa beda leading dan lagging metrics?
+   - **Current guide answer (not yet approved):** Leading memberi sinyal awal proses; lagging mencatat hasil akhir seperti sales atau margin.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 18/30] DPA-T10-CH03 — GA4, Platform Analytics & CM360 Data
+### DPA-T10-CH03 — GA4, Platform Analytics & CM360 Data
+**Competency:** T10-C03
+
+**Learning outcome under assessment:** GA4, native ad-platform analytics, dan CM360 memiliki model serta fungsi berbeda. GA4 berorientasi event/session/user; platform Ads mengoptimasi dan melaporkan menurut model internal; CM360/ad server merekam delivery, clicks, and Floodlight activities. Analyst harus memahami dimension, metric, event parameter, attribution setting, modeled data, consent, retention, thresholding, and export limits sebelum menyatukan data lintas sistem.
+
+**Required artifact / chapter-specific evidence checklist:** Buat cross-platform metric mapping untuk Google Ads, Meta, TikTok, GA4, dan CM360. Sertakan event/metric definitions, attribution, time zone, deduplication, reporting grain, and known limitations.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa angka conversion platform bisa berbeda dari GA4?
+   - **Current guide answer (not yet approved):** Attribution, view-through, identity, consent, time zone, event definition, deduplication, and processing berbeda.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda impression dan session?
+   - **Current guide answer (not yet approved):** Impression adalah exposure iklan; session adalah kumpulan interaksi website/app dalam analytics definition.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang harus dipastikan sebelum data digabung?
+   - **Current guide answer (not yet approved):** Grain, keys, time zone, currency, naming, event definition, dedupe, and source limitations.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 19/30] DPA-T10-CH07 — Attribution, Incrementality & Marketing Effectiveness
+### DPA-T10-CH07 — Attribution, Incrementality & Marketing Effectiveness
+**Competency:** T10-C05
+
+**Learning outcome under assessment:** Attribution membagi credit conversion berdasarkan rule/model, sedangkan incrementality mengestimasi tambahan outcome yang disebabkan media dibanding counterfactual. Marketing effectiveness mempertimbangkan contribution, halo/cross-channel, brand, sales, and long-term effects. Platform ROAS tidak otomatis mengukur incremental return. Analyst perlu memahami last-click, data-driven, multi-touch, lift test, geo holdout, MMM, and their assumptions and data needs.
+
+**Required artifact / chapter-specific evidence checklist:** Buat attribution vs incrementality analysis memo dengan synthetic dataset; rancang satu geo-holdout atau user-level holdout, tentukan primary metric, contamination risk, sample/duration, and limitation.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda attributed conversion dan incremental conversion?
+   - **Current guide answer (not yet approved):** Attributed conversion menerima credit menurut model/window; incremental conversion adalah tambahan akibat treatment dibanding counterfactual.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa risiko last-click?
+   - **Current guide answer (not yet approved):** Ia cenderung memberi credit pada touchpoint akhir dan mengabaikan demand creation/assisted interactions.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Kapan geo experiment cocok?
+   - **Current guide answer (not yet approved):** Saat treatment dapat dibedakan lintas wilayah, market comparability memadai, spillover dapat dikendalikan, and sample/time cukup.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 20/30] DPA-T10-CH08 — Experiment Design, A/B Testing & Statistics
+### DPA-T10-CH08 — Experiment Design, A/B Testing & Statistics
+**Competency:** T10-C06
+
+**Learning outcome under assessment:** Experiment design membutuhkan hypothesis, randomization unit, control/treatment, primary metric, guardrails, sample size, duration, stopping rule, and contamination controls. Statistik dasar seperti confidence interval, power, significance, variance, and multiple testing memengaruhi interpretasi. Significance bukan ukuran business impact; analyst harus memeriksa effect size, practical significance, data quality, and segment effects.
+
+**Required artifact / chapter-specific evidence checklist:** Buat A/B test protocol dan analysis notebook untuk satu experiment: hypothesis, unit, sample/duration calculation, metrics, guardrails, QA, stopping rule, confidence interval, and decision memo.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda statistical significance dan practical significance?
+   - **Current guide answer (not yet approved):** Significance menilai compatibility data dengan null hypothesis; practical significance menilai apakah effect cukup besar untuk keputusan bisnis.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa early peeking berisiko?
+   - **Current guide answer (not yet approved):** Repeated checks dapat meningkatkan false-positive rate dan mendorong stop/continue decisions yang bias.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa peran randomization unit?
+   - **Current guide answer (not yet approved):** Menentukan entitas yang diacak; harus sesuai exposure and interference pattern agar perbandingan valid.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 21/30] DPA-T11-CH02 — Keyword, Topic & Competitor Research
+### DPA-T11-CH02 — Keyword, Topic & Competitor Research
+**Competency:** T11-C02
+
+**Learning outcome under assessment:** Keyword/topic research mengidentifikasi demand, query language, competitor gaps, and content opportunities. Keyword volume dari tools adalah estimasi, bukan demand pasti; periksa trend, SERP format, geography, and seasonality. Topic clustering menyusun hubungan pillar/supporting pages. Competitor SERP analysis membaca page type, intent, features, content depth, and proof rather than copying text.
+
+**Required artifact / chapter-specific evidence checklist:** Buat keyword-topic map minimal 50 query untuk satu kategori. Sertakan intent, SERP feature, page type, topic cluster, competitor gaps, priority score, and proposed URL.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa satu keyword tidak otomatis memerlukan satu halaman?
+   - **Current guide answer (not yet approved):** Query dengan intent sama dapat dilayani satu halaman; terlalu banyak halaman serupa dapat menimbulkan cannibalization.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa batas search volume estimate?
+   - **Current guide answer (not yet approved):** Tools menggunakan estimasi, grouping, and sampling; actual demand varies by location, season, and query definition.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa maksud keyword cannibalization?
+   - **Current guide answer (not yet approved):** Beberapa halaman site bersaing untuk intent/query yang sama sehingga relevansi dan signals dapat tersebar.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 22/30] DPA-T11-CH03 — Website Architecture, Crawlability & Indexing
+### DPA-T11-CH03 — Website Architecture, Crawlability & Indexing
+**Competency:** T11-C03
+
+**Learning outcome under assessment:** Website architecture memengaruhi crawling, navigation, internal link equity, and user discovery. URL structure, hierarchy, canonical, robots directives, sitemap, pagination, faceted navigation, and JavaScript rendering perlu dipahami berdasarkan site scale. Crawl budget bukan solusi universal; prioritasnya memastikan important pages discoverable, indexable, canonicalized, and valuable.
+
+**Required artifact / chapter-specific evidence checklist:** Buat technical architecture audit dengan crawl sample: URL taxonomy, orphan pages, status code, canonical, robots, sitemap, faceted URLs, internal links, and remediation roadmap.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa risiko memblokir URL melalui robots.txt tanpa memahami index state?
+   - **Current guide answer (not yet approved):** URL dapat tetap diketahui/diindeks dari links meski crawler tidak dapat membaca content; directives punya fungsi berbeda.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa fungsi canonical?
+   - **Current guide answer (not yet approved):** Memberi sinyal preferred URL di antara duplicates/similar pages; bukan jaminan search engine mengikuti pilihan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang dimaksud orphan page?
+   - **Current guide answer (not yet approved):** Orphan page adalah halaman yang tidak menerima internal links yang memadai, sehingga sulit ditemukan pengguna dan crawler melalui navigasi situs.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 23/30] DPA-T11-CH10 — Organic Search Capstone
+### DPA-T11-CH10 — Organic Search Capstone
+**Competency:** T11-C07
+
+**Learning outcome under assessment:** SEO Capstone menyatukan audit teknis, keyword/topic research, content strategy, digital PR, local, reporting, and AI visibility baseline menjadi roadmap yang diprioritaskan. Rekomendasi harus mempertimbangkan engineering/content resources dan business impact. Hindari menjanjikan ranking atau traffic uplift tanpa data; nyatakan uncertainty dan measurement plan.
+
+**Required artifact / chapter-specific evidence checklist:** Siapkan SEO capstone: technical audit, keyword/topic map, on-page brief, backlink/PR review, local checklist, Search Console baseline, AI visibility log, prioritized 90-day roadmap, and executive summary.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa SEO roadmap perlu owner dan dependency?
+   - **Current guide answer (not yet approved):** Banyak fixes butuh engineering, design, content, legal, and product; tanpa owners/dependencies, rekomendasi tidak bisa dieksekusi.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa yang tidak boleh dijanjikan SEO specialist?
+   - **Current guide answer (not yet approved):** Posisi/ranking pasti atau traffic growth tanpa mempertimbangkan competition, indexing, update, and external factors.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang membuktikan capstone berbasis evidence?
+   - **Current guide answer (not yet approved):** Source URLs, crawl export, GSC/GA4 data, issue examples, priority rationale, assumptions, and measurement plan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 24/30] DPA-T12-CH04 — Customer Journey & Trigger-Based Communication
+### DPA-T12-CH04 — Customer Journey & Trigger-Based Communication
+**Competency:** T12-C04
+
+**Learning outcome under assessment:** Trigger-based communication terjadi karena event/kondisi: signup, purchase, product usage, cart abandon, renewal, inactivity, or service status. Trigger berbeda dari broadcast campaign dan journey sequence. Setiap workflow perlu eligibility, consent, branch, delay, frequency cap, suppression, exit condition, retry, and exception handling. Timing harus masuk akal dengan product use and customer context.
+
+**Required artifact / chapter-specific evidence checklist:** Buat workflow diagram untuk welcome, cart abandon, post-purchase, and reactivation. Sertakan trigger/condition/action, branches, delays, suppression, exit, frequency cap, and QA scenarios.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda trigger dan campaign blast?
+   - **Current guide answer (not yet approved):** Trigger dikirim karena event/condition spesifik; blast dikirim ke target segment pada jadwal yang ditetapkan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa cross-channel purchase suppression penting?
+   - **Current guide answer (not yet approved):** Suppression lintas kanal mencegah customer menerima reminder atau offer yang tidak relevan setelah membeli melalui channel lain.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa fungsi exit condition?
+   - **Current guide answer (not yet approved):** Exit condition menghentikan contact saat goal tercapai, eligibility hilang, consent ditarik, atau status customer berubah.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 25/30] DPA-T12-CH06 — Marketing Automation & Workflow Architecture
+### DPA-T12-CH06 — Marketing Automation & Workflow Architecture
+**Competency:** T12-C02, T12-C04, T12-C06
+
+**Learning outcome under assessment:** Automation architecture menyusun trigger, condition, action, branch, delay, data input, integration, retry, and monitoring. Workflow harus idempotent agar event duplicate tidak memicu pesan ganda. API/webhook, CRM, email service, spreadsheet, and data warehouse perlu error handling and ownership. Automation bukan sekadar happy path; desain juga failure, consent change, missing data, and human handoff.
+
+**Required artifact / chapter-specific evidence checklist:** Buat automation architecture dan QA plan untuk form-to-CRM-to-email flow. Dokumentasikan schema, API/webhook, dedupe, retries, consent, error queue, monitoring, and human handoff.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa arti idempotent workflow?
+   - **Current guide answer (not yet approved):** Workflow idempotent memproses event berulang tanpa efek samping ganda, misalnya membuat contact atau mengirim message dua kali.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa retry harus memiliki batas?
+   - **Current guide answer (not yet approved):** Retry tanpa kontrol dapat membuat duplicate action, API overload, and repeated messages.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang wajib disimpan dalam error log?
+   - **Current guide answer (not yet approved):** Timestamp, event ID, failure reason, workflow step, retry count, owner, and remediation status.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 26/30] DPA-T13-CH06 — Long-Form Content Development
+### DPA-T13-CH06 — Long-Form Content Development
+**Competency:** T13-C04
+
+**Learning outcome under assessment:** Long-form content membutuhkan riset, struktur, evidence, editorial clarity, and search/user intent. Artikel, newsletter, founder POV, case study, blog, whitepaper, and thought leadership memiliki depth dan reader task berbeda. Outline perlu argument, source, examples, proof, author expertise, internal/external links, and CTA. Content accuracy dan legal claim review penting terutama pada finance/health/regulated categories.
+
+**Required artifact / chapter-specific evidence checklist:** Buat brief dan outline long-form 1.200–1.500 kata dengan thesis, audience, sources, evidence table, section hierarchy, visual suggestions, author review, and CTA.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa long-form membutuhkan source trail?
+   - **Current guide answer (not yet approved):** Source trail membantu pembaca dan editor memeriksa klaim, angka, freshness, konteks, dan kredibilitas sebelum konten dipublikasikan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa risiko memakai sumber sekunder tanpa cross-check?
+   - **Current guide answer (not yet approved):** Angka/claim bisa outdated, salah konteks, atau hanya mengutip sumber lain yang sama.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Kapan artikel harus diperbarui?
+   - **Current guide answer (not yet approved):** Perbarui ketika data, policy, product, platform, legal claim, atau search intent berubah sehingga isi lama berisiko menyesatkan.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 27/30] DPA-T14-CH01 — Creator Economy & Influencer Ecosystem
+### DPA-T14-CH01 — Creator Economy & Influencer Ecosystem
+**Competency:** T14-C01
+
+**Learning outcome under assessment:** Creator partnerships beroperasi dalam creator economy yang melibatkan talent, agency/MCN, brand, platform, creator manager, affiliate, production, and media amplification. Partnership dapat dibayar untuk reach, content, credibility, community, usage rights, or trackable conversion. Creator partnership bukan sekadar memilih akun dengan followers besar; strategi harus menentukan role creator dalam audience journey dan business objective.
+
+**Required artifact / chapter-specific evidence checklist:** Buat creator ecosystem map dan role matrix untuk awareness, education, product review, conversion, and advocacy campaigns. Sertakan partner types, deliverables, payment model, and risks.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa creator economy tidak sama dengan follower economy?
+   - **Current guide answer (not yet approved):** Creator value mencakup audience trust, content quality, niche authority, rights, and commercial fit—not audience size alone.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda influencer campaign dan affiliate partnership?
+   - **Current guide answer (not yet approved):** Influencer dibayar untuk content/reach/credibility; affiliate dibayar menurut tracked action/sales, meski creator dapat menjalankan keduanya.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa fungsi MCN/creator agency?
+   - **Current guide answer (not yet approved):** Mengelola talent, production, commercial negotiation, access, and scale; scope berbeda per partner.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 28/30] DPA-T14-CH03 — Creator Discovery & Audience Research
+### DPA-T14-CH03 — Creator Discovery & Audience Research
+**Competency:** T14-C03
+
+**Learning outcome under assessment:** Creator discovery menggunakan criteria yang dapat direplikasi: category fit, audience demographics/geography, engagement quality, content quality, brand safety, previous sponsorship, follower growth anomalies, and commercial availability. Discovery sources dapat berupa platform search, creator marketplace, agency roster, social listening, and referrals. Shortlist tidak boleh hanya berdasarkan popularitas; semua claims tentang audience harus diverifikasi dengan available analytics atau media kit.
+
+**Required artifact / chapter-specific evidence checklist:** Buat discovery workbook 30 candidates dan shortlist lima: criteria, source, profile, audience evidence, content fit, conflicts, outreach status, and recommendation.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa discovery perlu source trail?
+   - **Current guide answer (not yet approved):** Source trail membantu memeriksa ulang creator data, kontak, rates, availability, dan perubahan sebelum shortlist atau kontrak disetujui.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Apa beda fit score dan performance guarantee?
+   - **Current guide answer (not yet approved):** Fit score adalah penilaian awal berdasarkan kriteria; ia bukan jaminan reach, engagement, conversion, atau campaign outcome.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang harus dikonfirmasi sebelum shortlist final?
+   - **Current guide answer (not yet approved):** Konfirmasi audience evidence, availability, fee, usage rights, exclusivity, policy issues, dan deliverables sebelum shortlist dikunci.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 29/30] DPA-T15-CH03 — Partner Discovery & Recruitment
+### DPA-T15-CH03 — Partner Discovery & Recruitment
+**Competency:** T15-C02
+
+**Learning outcome under assessment:** Partner discovery and recruitment harus memiliki ideal partner profile, category fit, reach/source quality, content standards, commercial expectations, and compliance checks. Outreach menjelaskan value proposition untuk partner, tracking, support, payment, asset, and exclusivity. Recruitment bukan mengejar jumlah partner; active/productive partner ratio dan incremental contribution lebih relevan.
+
+**Required artifact / chapter-specific evidence checklist:** Buat recruitment pipeline untuk 30 partner prospects: source, type, audience, reach, fit, risks, contact, status, onboarding requirements, and activation target.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Apa beda partner recruited dan partner activated?
+   - **Current guide answer (not yet approved):** Recruited berarti partner telah bergabung; activated berarti partner sudah mempromosikan offer atau menghasilkan eligible activity.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Mengapa first-conversion review penting?
+   - **Current guide answer (not yet approved):** Review conversion awal membantu mendeteksi poor traffic, fraud, atau setup error sebelum partner diberi volume lebih besar.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang perlu ada di partner kit?
+   - **Current guide answer (not yet approved):** Offer, product feed/assets, tracking links, commission terms, rules, disclosure, contact, and troubleshooting.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
+
+====================================================================================================
+[RUBRIC 30/30] DPA-T16-CH10 — Crisis Monitoring & Escalation
+### DPA-T16-CH10 — Crisis Monitoring & Escalation
+**Competency:** T16-C05
+
+**Learning outcome under assessment:** Crisis monitoring mengamati early signals, complaint velocity, sentiment/context, safety reports, influential actors, and potential escalation. Crisis playbook harus mendefinisikan trigger, severity, spokesperson, legal/PR/customer care owners, holding statement, approval, evidence preservation, and updates. Community manager tidak boleh berspekulasi atau menghapus kritik substansial; ia harus menjaga factuality, empathy, and escalation.
+
+**Required artifact / chapter-specific evidence checklist:** Buat crisis playbook dengan 5 scenarios, severity triggers, RACI, holding statement, approval chain, response SLA, evidence log, and after-action review.
+
+**Assessor must verify:**
+- The artifact contains each required element named in the practice prompt, with correct definitions, calculations and scope.
+- The learner explains the decision logic and connects the evidence to the role-specific outcome.
+- Assumptions, synthetic data, source provenance, limitations and platform/version dependencies are explicitly labelled.
+- The artifact is reproducible, internally consistent and usable by another practitioner without undocumented context.
+
+**Chapter Q&A answer-key review:**
+1. **Question:** Mengapa holding statement harus hati-hati?
+   - **Current guide answer (not yet approved):** Fakta belum lengkap; statement harus acknowledge, explain next step, and avoid unsupported claims or blame.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+2. **Question:** Kapan issue berubah menjadi crisis?
+   - **Current guide answer (not yet approved):** Saat scope, safety/legal risk, rapid spread, business impact, or stakeholder attention melewati escalation threshold.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+3. **Question:** Apa yang perlu dilakukan setelah crisis?
+   - **Current guide answer (not yet approved):** Audit timeline, decisions, response, harm, root cause, and prevention; do not simply delete posts.
+   - **Review status:** OPEN — subject-matter reviewer must validate correctness, completeness, ambiguity, and acceptable alternate answers against authoritative sources.
+
+**Chapter decision:** score five dimensions 0–3; convert to 100; proposed pass ≥80/100 and no critical failure. Record assessor, date, version, evidence link, score by dimension, feedback and resubmission status.
+
+---
