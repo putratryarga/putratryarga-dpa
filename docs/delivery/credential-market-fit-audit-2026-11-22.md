@@ -27,7 +27,8 @@ The current curated registry contains **67 routes** after removing 21 weak-fit o
 | Common Foundation chapters with a selected route | **2/6** |
 | Foundation route placements | **2** |
 | Total mapping rows | 175 (169 Core + 6 Common Foundation) |
-| Vendor product certifications | 8 |\n| Unique mapped routes | 67 |
+| Vendor product certifications | 8 |
+| Unique mapped routes | 67 |
 
 All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. This is a relevance-filtered desk review, not final SME approval, account-level access testing, credential issuance, or proof that every learner can redeem every award in Indonesia.
 
