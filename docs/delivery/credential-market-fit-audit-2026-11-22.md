@@ -74,7 +74,7 @@ This is a purposive sample of role descriptions, not a statistical census of all
 
 ### Performance media and paid search
 
-- **Google Ads Search, Display, Measurement, Video and Shopping Certifications** — official Skillshop foundational product-area certifications. They are free, assessed, downloadable/shareable and distinct from the separate virtually proctored Google Ads Professional Certifications (Display/Search/Video), which Google says are limited-access and not generally public. Standard Google Ads certification assessment requires 80%, allows 75 minutes, has a 24-hour retake wait and is valid one year; Bahasa Indonesia is supported. Shopping is retained because Indonesian marketplace/e-commerce roles explicitly mention Google Shopping Ads.
+- **Google Ads Search, Display, Measurement, Video and Shopping Certifications** — official Skillshop foundational product-area certifications. They are free, assessed, downloadable/shareable and distinct from the separate virtually proctored Google Ads Professional Certifications (Display/Search/Video), which Google says are limited-access and not generally public. Standard Google Ads certification assessment requires 80%, allows 75 minutes, has a 24-hour retake wait and is valid one year; Bahasa Indonesia is supported. Shopping is retained because Indonesian ecommerce roles explicitly request Google Shopping Ads; it maps to product-feed and Merchant Center readiness (T07-CH07), not onsite marketplace Sponsored Products (T07-CH04).
 - **Microsoft Advertising Search Certification** — retained as a secondary paid-search option because the Publicis Indonesia Paid Search Manager role names Microsoft Ads. Microsoft Display & Video, Retail and Programmatic paths were not retained as default Earn routes because the audited Indonesian JDs did not establish equivalent demand.
 - **Google Analytics Certification** — retained for GA/measurement roles; do not assume the exam is free solely because preparation learning is free.
 - **DV360 and CM360 Certifications** — retained because Indonesian agency biddable and operations roles name DV360 and CM360/Floodlight.
@@ -133,7 +133,7 @@ Pinterest Academy, Snap Focus and Adobe credentials were not added to default Ea
 
 ### Marketplace credential gap — deliberately not fabricated
 
-The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Lazada Sponsored Solutions. However, this audit did not verify a public, current, issuer-awarded Shopee Ads or Tokopedia Ads professional certificate with clear assessment and issuance conditions. The learner path should therefore teach those systems and require a practical marketplace campaign artifact, but must not claim an unverified certificate. TikTok Academy ad Achievements are not automatically a TikTok Shop seller certificate.
+The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Lazada Sponsored Solutions. The T07-CH04 chapter (onsite Sponsored Products and Search) is therefore portfolio-first: this audit did not verify a public, current, issuer-awarded Shopee Sponsored Products, Tokopedia Ads or Lazada onsite sponsored-listing professional certificate with clear assessment and issuance conditions. Google Shopping is not interchangeable with marketplace onsite search and is mapped only to T07-CH07 product-feed / digital-shelf readiness. TikTok Academy ad Achievements are not automatically a TikTok Shop seller certificate.
 
 ## Cost, access and learner-facing rules
 
