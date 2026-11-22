@@ -136,7 +136,7 @@ assert.equal(foundationIds.length, 6, "The learner-facing Common Foundation must
 assert.equal(new Set(foundationIds).size, 6, "Common Foundation chapter IDs must be unique.");
 assert.equal(Object.keys(foundationCredentialMap).length, 6, "Credential map must explicitly cover all six Common Foundation chapters.");
 assert.equal(Object.keys(foundationCredentialAudit).length, 6, "Credential audit must explicitly cover all six Common Foundation chapters.");
-assert.equal(Object.keys(credentialRegistry).length, 67, "Indonesia-market-filtered issuer route registry must contain 67 curated routes.");
+assert.equal(Object.keys(credentialRegistry).length, 89, "Issuer route registry must retain 89 Indonesia-core, global-specialist and completion routes.");
 const metaCompletionIds = ["meta_v10_ads_campaign","meta_v10_campaign_objectives","meta_v10_audience_strategy","meta_v10_buying_types","meta_v10_creative_best_practices","meta_v10_pixel_capi","meta_v10_campaign_measurement","meta_v10_privacy_brand_safety"];
 const tiktokCompletionIds = ["tiktok_basics_achievement","tiktok_build_brand_achievement","tiktok_website_sales_achievement","tiktok_lead_generation_achievement","tiktok_shop_achievement","tiktok_search_achievement","tiktok_advanced_shop_achievement","tiktok_advanced_leadgen_achievement","tiktok_creative_production_achievement","tiktok_creative_iteration_achievement","tiktok_ai_solutions_achievement","tiktok_brand_safety_achievement","t02_tiktok_creative_planning"];
 for (const id of [...metaCompletionIds, ...tiktokCompletionIds]) {
@@ -163,15 +163,36 @@ for (const id of ["braze_digital_strategist","braze_marketing_specialist","braze
   assert.equal(credentialRegistry[id].type, "professional_certification", "Braze role certifications must remain professional exam credentials: " + id);
   assert.equal(credentialRegistry[id].paidExam, true, "Braze professional exams are paid and proctored: " + id);
 }
-for (const id of ["amazon_retail_certification","amazon_programmatic","amazon_sponsored_ads","microsoft_ads_display_video_certification","microsoft_programmatic_learning_badge","microsoft_retail_advertising_certification","stackadapt_programmatic","forage_omnichannel_certificate","analyticsmania_ga4_fundamentals","t10_coursera_google_data_analytics","t10_kaggle_intro_sql","t12_trailhead_data360","t08_mediaocean_prisma","t14_meltwater_klear_foundations","t14_pxa_creator_product_training","t14_pxa_protect_monitor","linkedin_marketing_strategy","linkedin_content_creative","tiktok_auto_ads_achievement","tiktok_promote_app_achievement","tiktok_advanced_app_achievement"]) {
-  assert.equal(credentialRegistry[id], undefined, "Out-of-market or weakly evidenced route must not appear in Earn: " + id);
+const globalAndCompletionRouteIds = ["amazon_retail_certification","amazon_programmatic","amazon_sponsored_ads","microsoft_ads_display_video_certification","microsoft_programmatic_learning_badge","microsoft_retail_advertising_certification","stackadapt_programmatic","forage_omnichannel_certificate","analyticsmania_ga4_fundamentals","t10_coursera_google_data_analytics","t10_kaggle_intro_sql","t12_trailhead_data360","t08_mediaocean_prisma","t14_meltwater_klear_foundations","t14_pxa_creator_product_training","t14_pxa_protect_monitor","linkedin_marketing_strategy","linkedin_content_creative","tiktok_auto_ads_achievement","tiktok_promote_app_achievement","tiktok_advanced_app_achievement","snapchat_essentials_completion"];
+for (const id of globalAndCompletionRouteIds) {
+  assert.ok(credentialRegistry[id], "Global, specialist or course-completion route must remain available: " + id);
+  assert.ok(credentialRegistry[id].routeTier, "Global/specialist route must carry a learner-facing tier disposition: " + id);
 }
+for (const id of ["amazon_retail_certification","amazon_programmatic","amazon_sponsored_ads","microsoft_ads_display_video_certification","microsoft_retail_advertising_certification","linkedin_marketing_strategy","linkedin_content_creative"]) {
+  assert.equal(credentialRegistry[id].type, "professional_certification", "Assessed platform certification type must remain distinct: " + id);
+}
+assert.equal(credentialRegistry["microsoft_programmatic_learning_badge"].type, "learning_path_badge", "Microsoft Programmatic must remain a learning-path badge, not an exam certification.");
+assert.equal(credentialRegistry["stackadapt_programmatic"].type, "vendor_course_certification", "StackAdapt must remain a vendor course certificate.");
+assert.equal(credentialRegistry["forage_omnichannel_certificate"].type, "simulation_completion_certificate", "Forage must remain a simulation completion certificate.");
+for (const id of ["analyticsmania_ga4_fundamentals","t10_coursera_google_data_analytics","t10_kaggle_intro_sql"]) {
+  assert.equal(credentialRegistry[id].type, "course_completion_certificate", "Course completion must not be promoted to a professional exam: " + id);
+}
+assert.equal(credentialRegistry["t12_trailhead_data360"].type, "course_completion_credential", "Trailhead module awards must remain learning badges.");
+assert.equal(credentialRegistry["t08_mediaocean_prisma"].routeTier, "EMPLOYER_CUSTOMER_GATED", "Mediaocean must remain a gated product-training path.");
+for (const id of ["tiktok_auto_ads_achievement","tiktok_promote_app_achievement","tiktok_advanced_app_achievement","snapchat_essentials_completion"]) {
+  assert.equal(credentialRegistry[id].type, "course_completion_credential", "Platform completion award must not be mislabeled as a professional certification: " + id);
+}
+assert.equal(credentialRegistry["t05_not_a_real_route"], undefined, "Reserved route-key sanity check.");
+assert.ok(!chapterCredentialMap["DPA-T07-CH04"].includes("amazon_sponsored_ads"), "Amazon Sponsored Ads must not substitute for Indonesian onsite marketplace advertising.");
+assert.ok(!chapterCredentialMap["DPA-T07-CH04"].includes("google_ads_shopping"), "Google Shopping must not substitute for Indonesian onsite marketplace advertising.");
+assert.equal(chapterCredentialMap["DPA-T05-CH09"].length, 4, "T05 optimization chapter may expose four tightly scoped completion/professional routes.");
 
 assert.deepEqual([...credentialMapIds].sort(), [...uniqueChapterIds].sort(), "Credential map IDs must exactly match core chapter IDs.");
 assert.deepEqual([...auditIds].sort(), [...uniqueChapterIds].sort(), "Credential audit IDs must exactly match core chapter IDs.");
 for (const [id, routeIds] of Object.entries(chapterCredentialMap)) {
   assert.ok(Array.isArray(routeIds), "Credential route list must be an array: " + id);
-  assert.ok(routeIds.length <= 3, "No more than three credential suggestions per chapter: " + id);
+  const chapterRouteLimit = id === "DPA-T05-CH09" ? 4 : 3;
+  assert.ok(routeIds.length <= chapterRouteLimit, "Credential suggestion limit exceeded for " + id + " (limit " + chapterRouteLimit + ").");
   for (const routeId of routeIds) {
     const route = credentialRegistry[routeId];
     assert.ok(route, "Unknown credential route " + routeId + " in " + id);

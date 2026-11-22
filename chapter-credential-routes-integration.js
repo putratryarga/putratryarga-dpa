@@ -789,7 +789,6 @@ var additions = {
     "scope": "Direct platform-specific Ads Manager fundamentals and knowledge check; it does not establish live campaign experience or independently validate campaign performance.",
     "verifiedOn": "2026-11-22"
   },
-
   "google_ads_display": {
     "provider": "Google Skillshop",
     "title": "Google Ads Display Certification",
@@ -949,7 +948,6 @@ var additions = {
     "scope": "Advanced Braze-specific campaign and lifecycle strategy; not a platform-neutral CRM qualification.",
     "fitNote": "Optional advanced route because Indonesian CRM/lifecycle job descriptions explicitly name Braze; real campaign and lifecycle design evidence remains primary.",
     "verifiedOn": "2026-11-22"
-
   },
   "salesforce_mce_foundations": {
     "provider": "Salesforce Trailhead",
@@ -1010,7 +1008,6 @@ var additions = {
     "scope": "Influencer selection, campaign design and conversion tactics; it does not replace local creator contracting, disclosure compliance or live campaign results.",
     "fitNote": "Direct supportive fit for Indonesian KOL/creator campaign roles.",
     "verifiedOn": "2026-11-22"
-
   },
   "braze_marketing_specialist": {
     "provider": "Braze Learning",
@@ -1051,10 +1048,59 @@ var additions = {
     "scope": "Foundational Braze platform knowledge; not proof of advanced lifecycle architecture, SQL, CRM strategy or live campaign performance.",
     "fitNote": "Entry-level optional credential for CRM learners whose target Indonesian roles explicitly request Braze experience.",
     "verifiedOn": "2026-11-22"
+  },
+  "snapchat_essentials_completion": {
+    "provider": "Snap Focus (Snap Inc.)",
+    "title": "Snapchat Essentials — Credential for Completion",
+    "type": "course_completion_credential",
+    "label": "Credential for Completion",
+    "tagClass": "t-coursecred",
+    "paidExam": null,
+    "description": "The official Snap Focus Snapchat Essentials path is labelled Credential For Completion. The issuer requires completion of six learning courses, the final exam and survey. Coverage includes Snapchat advertising fundamentals, Ads Manager setup, creative best practices, measurement and optimization.",
+    "duration": "Six courses, final exam and survey; the public page lists course-level durations but no total path estimate.",
+    "cost": "The public issuer page does not state a course or exam fee. Confirm the current terms inside Snap Focus before enrolment.",
+    "eligibility": "Snap Focus sign-in is required. Snap's help guidance says the learner's Ads Manager account must be associated with a business; account access from Indonesia has not been locally tested.",
+    "validity": "No expiry or renewal period is stated on the public path page checked on 22 November 2026.",
+    "regional": "Global Snap Focus portal; Indonesia access and any region-specific certification path must be confirmed at sign-in. Business-linked Ads Manager account required.",
+    "url": "https://snap.exceedlms.com/student/collection/580772-snapchat-essentials",
+    "sourceUrl": "https://forbusiness.snapchat.com/resources/snapfocus",
+    "award": "Snapchat Essentials Credential For Completion after six courses, final exam and survey; not a cross-platform professional certification.",
+    "scope": "Snapchat platform only; introductory campaign activation, creative, measurement and optimization.",
+    "fitNote": "Global paid-social platform specialism; optional supporting route rather than an Indonesia-default buying credential.",
+    "verifiedOn": "2026-11-22",
+    "routeTier": "GLOBAL_SPECIALIST_OPTIONAL"
   }
 };
 
 Object.assign(registry, additions);
+
+var routeTierLookup = {
+  "amazon_retail_certification": "GLOBAL_SPECIALIST_OPTIONAL",
+  "amazon_programmatic": "GLOBAL_SPECIALIST_OPTIONAL",
+  "amazon_sponsored_ads": "GLOBAL_SPECIALIST_OPTIONAL",
+  "microsoft_ads_display_video_certification": "GLOBAL_SPECIALIST_OPTIONAL",
+  "microsoft_programmatic_learning_badge": "GLOBAL_SPECIALIST_OPTIONAL",
+  "microsoft_retail_advertising_certification": "GLOBAL_SPECIALIST_OPTIONAL",
+  "stackadapt_programmatic": "GLOBAL_SPECIALIST_OPTIONAL",
+  "forage_omnichannel_certificate": "SUPPORTING_SIMULATION_COMPLETION",
+  "analyticsmania_ga4_fundamentals": "SUPPORTING_COMPLETION",
+  "t10_coursera_google_data_analytics": "SUPPORTING_PAID_COURSE_CERTIFICATE",
+  "t10_kaggle_intro_sql": "SUPPORTING_COMPLETION",
+  "t12_trailhead_data360": "PRODUCT_LEARNING_BADGE",
+  "t08_mediaocean_prisma": "EMPLOYER_CUSTOMER_GATED",
+  "t14_meltwater_klear_foundations": "PRODUCT_COURSE_CERTIFICATION",
+  "t14_pxa_creator_product_training": "PRODUCT_COURSE_CERTIFICATION",
+  "t14_pxa_protect_monitor": "GLOBAL_SPECIALIST_OPTIONAL",
+  "linkedin_marketing_strategy": "GLOBAL_SPECIALIST_OPTIONAL",
+  "linkedin_content_creative": "GLOBAL_SPECIALIST_OPTIONAL",
+  "tiktok_auto_ads_achievement": "VERTICAL_SPECIALIST_COMPLETION",
+  "tiktok_promote_app_achievement": "VERTICAL_SPECIALIST_COMPLETION",
+  "tiktok_advanced_app_achievement": "VERTICAL_SPECIALIST_COMPLETION",
+  "snapchat_essentials_completion": "GLOBAL_SPECIALIST_OPTIONAL"
+};
+Object.keys(routeTierLookup).forEach(function(routeId) {
+  if (registry[routeId]) registry[routeId].routeTier = routeTierLookup[routeId];
+});
 
 var placementOverrides = {
   "DPA-T01-CH01": [
@@ -1085,9 +1131,7 @@ var placementOverrides = {
     "hubspot_digital_marketing_certification"
   ],
   "DPA-T01-CH10": [],
-  "DPA-T02-CH01": [
-    "hubspot_inbound_certification"
-  ],
+  "DPA-T02-CH01": ["hubspot_inbound_certification","forage_omnichannel_certificate"],
   "DPA-T02-CH02": [
     "hubspot_inbound_certification"
   ],
@@ -1098,27 +1142,20 @@ var placementOverrides = {
   "DPA-T02-CH05": [
     "hubspot_inbound_certification"
   ],
-  "DPA-T02-CH06": [
-    "linkedin_advertising_fundamentals"
-  ],
+  "DPA-T02-CH06": ["linkedin_advertising_fundamentals","linkedin_marketing_strategy"],
   "DPA-T02-CH07": [],
-  "DPA-T02-CH08": [
-    "linkedin_advertising_fundamentals"
-  ],
+  "DPA-T02-CH08": ["linkedin_advertising_fundamentals","linkedin_content_creative"],
   "DPA-T02-CH09": [
     "linkedin_marketing_measurement"
   ],
-  "DPA-T02-CH10": [],
+  "DPA-T02-CH10": ["forage_omnichannel_certificate"],
   "DPA-T03-CH01": [
     "meta_media_planning"
   ],
   "DPA-T03-CH02": [
     "meta_media_planning"
   ],
-  "DPA-T03-CH03": [
-    "google_ads_display",
-    "google_ads_video"
-  ],
+  "DPA-T03-CH03": ["google_ads_display","google_ads_video","microsoft_ads_display_video_certification"],
   "DPA-T03-CH04": [
     "meta_media_planning",
     "google_ads_display",
@@ -1131,9 +1168,7 @@ var placementOverrides = {
   ],
   "DPA-T03-CH06": [],
   "DPA-T03-CH07": [],
-  "DPA-T03-CH08": [
-    "meta_media_planning"
-  ],
+  "DPA-T03-CH08": ["meta_media_planning","t08_mediaocean_prisma"],
   "DPA-T03-CH09": [],
   "DPA-T03-CH10": [
     "meta_media_planning"
@@ -1193,10 +1228,7 @@ var placementOverrides = {
     "tiktok_build_brand_achievement",
     "meta_media_buying"
   ],
-  "DPA-T05-CH04": [
-    "meta_v10_ads_campaign",
-    "tiktok_basics_achievement"
-  ],
+  "DPA-T05-CH04": ["meta_v10_ads_campaign","tiktok_basics_achievement","tiktok_auto_ads_achievement"],
   "DPA-T05-CH05": [
     "meta_v10_creative_best_practices",
     "tiktok_creative_production_achievement",
@@ -1217,27 +1249,13 @@ var placementOverrides = {
     "tiktok_brand_safety_achievement",
     "meta_media_buying"
   ],
-  "DPA-T05-CH09": [
-    "meta_v10_campaign_measurement",
-    "meta_ab_testing_course",
-    "tiktok_advanced_leadgen_achievement"
-  ],
-  "DPA-T05-CH10": [
-    "meta_media_buying",
-    "tiktok_media_buying"
-  ],
-  "DPA-T06-CH01": [
-    "google_dv360_2026"
-  ],
+  "DPA-T05-CH09": ["meta_v10_campaign_measurement","meta_ab_testing_course","tiktok_advanced_leadgen_achievement","tiktok_advanced_app_achievement"],
+  "DPA-T05-CH10": ["meta_media_buying","tiktok_media_buying","tiktok_promote_app_achievement"],
+  "DPA-T06-CH01": ["google_dv360_2026","amazon_programmatic","microsoft_programmatic_learning_badge"],
   "DPA-T06-CH02": [],
   "DPA-T06-CH03": [],
-  "DPA-T06-CH04": [
-    "google_dv360_2026",
-    "t08_ttd_edge_data_driven_planning"
-  ],
-  "DPA-T06-CH05": [
-    "google_dv360_2026"
-  ],
+  "DPA-T06-CH04": ["google_dv360_2026","t08_ttd_edge_data_driven_planning","stackadapt_programmatic"],
+  "DPA-T06-CH05": ["google_dv360_2026","amazon_programmatic"],
   "DPA-T06-CH06": [],
   "DPA-T06-CH07": [
     "google_dv360_2026",
@@ -1255,11 +1273,9 @@ var placementOverrides = {
     "google_dv360_2026"
   ],
   "DPA-T06-CH12": [],
-  "DPA-T07-CH01": [
-    "tiktok_shop_achievement"
-  ],
+  "DPA-T07-CH01": ["tiktok_shop_achievement","amazon_retail_certification"],
   "DPA-T07-CH02": [],
-  "DPA-T07-CH03": [],
+  "DPA-T07-CH03": ["microsoft_retail_advertising_certification"],
   "DPA-T07-CH04": [],
   "DPA-T07-CH05": [
     "meta_collaborative_ads_course"
@@ -1267,18 +1283,13 @@ var placementOverrides = {
   "DPA-T07-CH06": [
     "meta_collaborative_ads_course"
   ],
-  "DPA-T07-CH07": [
-    "google_ads_shopping"
-  ],
+  "DPA-T07-CH07": ["google_ads_shopping","amazon_retail_certification"],
   "DPA-T07-CH08": [
     "google_ads_shopping",
     "tiktok_advanced_shop_achievement",
     "tiktok_shop_achievement"
   ],
-  "DPA-T07-CH09": [
-    "meta_collaborative_ads_course",
-    "tiktok_advanced_shop_achievement"
-  ],
+  "DPA-T07-CH09": ["meta_collaborative_ads_course","tiktok_advanced_shop_achievement","amazon_sponsored_ads"],
   "DPA-T07-CH10": [],
   "DPA-T08-CH01": [
     "t08_iab_dbpc"
@@ -1343,13 +1354,11 @@ var placementOverrides = {
   "DPA-T10-CH01": [
     "meta_marketing_science"
   ],
-  "DPA-T10-CH02": [
-    "google_analytics_certification"
-  ],
+  "DPA-T10-CH02": ["google_analytics_certification","analyticsmania_ga4_fundamentals"],
   "DPA-T10-CH03": [
     "google_analytics_certification"
   ],
-  "DPA-T10-CH04": [],
+  "DPA-T10-CH04": ["t10_coursera_google_data_analytics","t10_kaggle_intro_sql"],
   "DPA-T10-CH05": [
     "google_analytics_certification"
   ],
@@ -1411,10 +1420,7 @@ var placementOverrides = {
     "moengage_growth_marketer",
     "braze_digital_strategist"
   ],
-  "DPA-T12-CH02": [
-    "salesforce_mce_foundations",
-    "braze_practitioner"
-  ],
+  "DPA-T12-CH02": ["salesforce_mce_foundations","braze_practitioner","t12_trailhead_data360"],
   "DPA-T12-CH03": [
     "hubspot_inbound_certification",
     "moengage_growth_marketer",
@@ -1473,9 +1479,7 @@ var placementOverrides = {
     "tiktok_ai_solutions_achievement",
     "hubspot_social_media_certification"
   ],
-  "DPA-T13-CH08": [
-    "hubspot_social_media_certification"
-  ],
+  "DPA-T13-CH08": ["hubspot_social_media_certification","snapchat_essentials_completion"],
   "DPA-T13-CH09": [
     "hubspot_social_media_certification"
   ],
@@ -1495,8 +1499,8 @@ var placementOverrides = {
     "meltwater_influencer_cert_2",
     "t14_meta_creator_marketing"
   ],
-  "DPA-T14-CH03": [],
-  "DPA-T14-CH04": [],
+  "DPA-T14-CH03": ["t14_meltwater_klear_foundations","t14_pxa_creator_product_training"],
+  "DPA-T14-CH04": ["t14_meltwater_klear_foundations"],
   "DPA-T14-CH05": [
     "meltwater_influencer_cert_2",
     "t02_tiktok_creative_planning",
@@ -1553,9 +1557,7 @@ var placementOverrides = {
   "DPA-T15-CH08": [
     "impact_affiliate_industry_certification"
   ],
-  "DPA-T15-CH09": [
-    "impact_affiliate_industry_certification"
-  ],
+  "DPA-T15-CH09": ["impact_affiliate_industry_certification","t14_pxa_protect_monitor"],
   "DPA-T15-CH10": [
     "impact_affiliate_industry_certification"
   ],
@@ -1618,24 +1620,24 @@ var placementNotes = {
   "DPA-T01-CH08": "Meta Blueprint's A/B tests, creative tests and lift-studies completion credential is platform-specific; it supplements the chapter's independent experiment-design practice.",
   "DPA-T01-CH09": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T01-CH10": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T02-CH01": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T02-CH01": "HubSpot Inbound is an adjacent vendor course credential for buyer/journey framing. Forage is a free simulation completion certificate for an integrated marketing plan and creative brief; neither replaces a live client brief or portfolio proof.",
   "DPA-T02-CH02": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T02-CH03": "TikTok Creative Planning Achievement covers TikTok audience research, inspiration and creative briefs; supporting fit only for the broader cultural-insight objective.",
   "DPA-T02-CH04": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T02-CH05": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T02-CH06": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T02-CH06": "LinkedIn Advertising Fundamentals and Marketing Strategy are platform-specific exam certifications. Marketing Strategy validates LinkedIn full-funnel planning only; cross-channel media and comms planning remain portfolio-assessed.",
   "DPA-T02-CH07": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T02-CH08": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T02-CH08": "LinkedIn Advertising Fundamentals and Content & Creative Design are platform-specific exam certifications. They support LinkedIn channel/creative work, not general creative strategy across every platform.",
   "DPA-T02-CH09": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T02-CH10": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
+  "DPA-T02-CH10": "Forage Omnichannel is a free simulation completion certificate for an integrated marketing plan and creative brief. It is useful applied practice, not employer-issued experience or a professional marketing certification.",
   "DPA-T03-CH01": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T03-CH02": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T03-CH03": "Google Ads Display and Video are direct product-specific credentials for digital display/video activation; neither replaces cross-channel media evaluation.",
+  "DPA-T03-CH03": "Google Ads Display/Video and Microsoft Advertising Display & Video are separate platform certifications; Microsoft is a global specialist option and does not replace cross-channel media evaluation or DV360 trading evidence.",
   "DPA-T03-CH04": "Google Ads Display/Video support channel-role and format execution; Meta Media Planning remains a separate platform-specific professional credential.",
   "DPA-T03-CH05": "Google Ads Display/Video support channel and campaign planning within Google Ads; the chapter investment rationale and cross-channel budget allocation remain portfolio-assessed.",
   "DPA-T03-CH06": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T03-CH07": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T03-CH08": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T03-CH08": "Meta Media Planning is platform-specific. Mediaocean Prisma is a product-training credential that may require customer or partner portal access; confirm the active course and badge with the employer/issuer before presenting it as self-service.",
   "DPA-T03-CH09": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T03-CH10": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T04-CH01": "TikTok Get discovered with Search provides an issuer-listed Credential for Completion specifically for Search Ads. Google and Microsoft remain separate provider certifications; the platforms are not interchangeable.",
@@ -1651,18 +1653,18 @@ var placementNotes = {
   "DPA-T05-CH01": "Completion-first entry route: Meta Blueprint's v10 introductory course and TikTok Basics are free-to-learn course-completion/Achievement options at the issuer level; Meta Small Business Academy follows as a separate Ads Manager skilling test with fee not stated publicly. Paid Meta Media Buying Professional remains optional and is not required to earn either completion award.",
   "DPA-T05-CH02": "Meta's course directly covers campaign objectives and conversion locations. TikTok Drive Website Sales and Generate and message leads support mainstream website-conversion and lead-generation objectives; app-promotion is retained as learning-only vertical specialization.",
   "DPA-T05-CH03": "Meta's v10 course directly covers custom/lookalike audiences and targeting; TikTok Build your brand supports awareness and audience-funnel learning. Meta professional certification remains optional and exam-based.",
-  "DPA-T05-CH04": "Meta's introductory course and TikTok Basics support account/campaign setup. TikTok Auto Ads is a narrow dealership-inventory specialization, not a general paid-social credential.",
+  "DPA-T05-CH04": "Meta's introductory course and TikTok Basics support account/campaign setup. TikTok Auto Ads is a narrow dealership-inventory Credential For Completion, not a general paid-social certification.",
   "DPA-T05-CH05": "Meta's creative best-practice credential and TikTok Creative Production support creative formats and production. TikTok AI Solutions is limited to TikTok advertising products, not general AI competence.",
   "DPA-T05-CH06": "The recovered Meta v10 buying-type course and current v11 Meta buying-types course are separate issuer activities. TikTok Media Buying Professional Certification remains a paid/advanced exam option, not a free completion award.",
   "DPA-T05-CH07": "Meta's v10 Pixel/CAPI award and current Meta Pixel/CAPI route cover platform-specific event measurement; the pixel optimization activity is a separate advanced course. None certifies general measurement engineering.",
   "DPA-T05-CH08": "Meta Privacy controls and brand safety plus TikTok brand-safety Achievement support platform-specific risk controls; they do not replace Indonesian privacy law, contracts or cross-platform governance training.",
-  "DPA-T05-CH09": "Meta reporting/measurement and A/B testing credentials plus TikTok's advanced lead-generation Achievement support campaign analysis/optimization. Applied statistical design and incrementality remain in the chapter deliverable.",
-  "DPA-T05-CH10": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T06-CH01": "DV360 is directly named in Indonesian agency biddable/programmatic job requirements; TTD remains an optional global-agency skill where mapped.",
+  "DPA-T05-CH09": "Meta measurement/A-B testing and TikTok Advanced Lead Generation support optimization. TikTok Advance your App Promotion Strategy is a separate vertical Credential For Completion for app signals and Smart+ optimization; all completion awards remain distinct from professional exams.",
+  "DPA-T05-CH10": "Meta Media Buying and TikTok Media Buying are separate professional exam credentials. TikTok Promote your app is a free-to-learn Credential For Completion for app installs, data connections, campaign setup and measurement; it is not a paid media-buying certification.",
+  "DPA-T06-CH01": "DV360 is directly named in Indonesian agency programmatic roles. Amazon Ads Programmatic Solutions is a free, assessed, two-year global product certification; Microsoft's Programmatic Advertising award is a learning-path badge after course completion, not an exam certification.",
   "DPA-T06-CH02": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T06-CH03": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T06-CH04": "DV360 and TTD are platform routes used in agency programmatic work; this is not proof of SSP, exchange or supply-path expertise.",
-  "DPA-T06-CH05": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T06-CH04": "DV360 and The Trade Desk support agency programmatic practice. StackAdapt Programmatic Masterclass is a free two-hour vendor course certificate; it introduces the wider ecosystem but does not prove SSP/exchange operations or live DSP trading.",
+  "DPA-T06-CH05": "DV360 provides platform architecture practice. Amazon Ads Programmatic Solutions is an optional global product certification for Amazon's programmatic stack, not proof of access to every DSP or advanced trading experience.",
   "DPA-T06-CH06": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T06-CH07": "DV360 and TTD support platform bidding and pacing practice; programmatic trading judgment must also be shown in the campaign artifact.",
   "DPA-T06-CH08": "DV360 and TTD support deal and activation learning; advanced PMP/PG negotiation still needs chapter-level evidence.",
@@ -1670,15 +1672,15 @@ var placementNotes = {
   "DPA-T06-CH10": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T06-CH11": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T06-CH12": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T07-CH01": "TikTok Shop completion learning supports the social-commerce part of the retail-media ecosystem; it is distinct from Amazon Ads certification and does not establish retailer-media network expertise.",
+  "DPA-T07-CH01": "TikTok Shop completion learning supports social commerce. Amazon Ads for Retail Certification validates Amazon retail programmes and seller readiness; it is a global/cross-border option, not a Shopee/Tokopedia/Lazada certificate.",
   "DPA-T07-CH02": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T07-CH03": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
+  "DPA-T07-CH03": "Microsoft Advertising Retail Certification is a platform-specific global specialist exam route. It does not establish expertise across every retailer media network or Indonesian marketplace onsite ads.",
   "DPA-T07-CH04": "No public issuer-awarded credential with a clear assessment and issuance requirement was verified for Shopee Sponsored Products, Tokopedia Ads or Lazada onsite sponsored listings in this audit. Teach the local marketplace systems in Learn and assess with a campaign build, bid/keyword/product selection, budget and ROAS evidence. Do not substitute Google Shopping or Amazon Sponsored Ads for onsite marketplace operation.",
   "DPA-T07-CH05": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T07-CH06": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T07-CH07": "Google Shopping Ads certification is relevant to product-feed advertising and Merchant Center readiness, and is requested in Indonesian ecommerce roles. It is an offsite Google ads credential, not proof of Shopee/Tokopedia/Lazada marketplace feed operations; retain local marketplace feed and digital-shelf practice in the chapter.",
+  "DPA-T07-CH07": "Google Shopping supports Merchant Center product-feed and offsite ads; Amazon Ads for Retail adds Amazon seller/vendor retail readiness. Neither proves Shopee/Tokopedia/Lazada onsite feed operations.",
   "DPA-T07-CH08": "Google Shopping and TikTok Shop Academy achievements are platform-specific evidence; Shopee, Tokopedia and Lazada operation remains a local practical requirement without a verified public issuer certificate in this audit.",
-  "DPA-T07-CH09": "TikTok Shop advanced learning is supporting commerce optimization. Meta Collaborative Ads and Amazon Sponsored Ads have distinct product scopes; sales measurement and incrementality remain chapter evidence.",
+  "DPA-T07-CH09": "Meta Collaborative Ads and TikTok Shop advanced learning support partner-commerce measurement. Amazon Sponsored Ads Certification covers Sponsored Products/Brands and Amazon ACoS/ROAS only; it must not be substituted for local marketplace onsite operations or T07-CH04.",
   "DPA-T07-CH10": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T08-CH01": "IAB DBPC is a partial professional route for digital media buying and planning; the related Trade Desk supply-chain course remains Learn-only because no course award was evidenced.",
   "DPA-T08-CH02": "IAB DBPC directly covers media research, inventory, audience, planning and allocation; The Trade Desk Data-Driven Planning certification is additional partial vendor-specific evidence.",
@@ -1701,9 +1703,9 @@ var placementNotes = {
   "DPA-T09-CH09": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T09-CH10": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T10-CH01": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T10-CH02": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T10-CH02": "Google Analytics Certification is the primary issuer route. Analytics Mania GA4 Fundamentals is a free third-party course-completion certificate, not a Google-issued certification and not evidence of advanced analytics engineering.",
   "DPA-T10-CH03": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T10-CH04": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
+  "DPA-T10-CH04": "Kaggle Intro to SQL is a free course-completion certificate for introductory BigQuery SQL practice. Google's Data Analytics Professional Certificate is a paid Coursera subscription programme; it is broader than this chapter and neither route substitutes for applied SQL work.",
   "DPA-T10-CH05": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T10-CH06": "MoEngage Analytics Expert provides a completion credential for behavioral funnels, cohorts and retention analysis; it complements, not replaces, cross-platform marketing analytics.",
   "DPA-T10-CH07": "Google Ads Measurement validates Google Ads measurement solutions; pair with GA4 and independent attribution/incrementality work.",
@@ -1721,7 +1723,7 @@ var placementNotes = {
   "DPA-T11-CH09": "HubSpot AEO Fundamentals is a first-pass direct fit for foundational AEO; it does not guarantee search rankings or AI citations.",
   "DPA-T11-CH10": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
   "DPA-T12-CH01": "HubSpot Inbound, MoEngage Growth Marketer and Braze Certified Marketing Strategy Expert cover different CRM/lifecycle platform paths. The Braze exam is a paid advanced certification; the free Braze learning path alone does not award a certificate. Indonesia CRM job descriptions explicitly name these platforms.",
-  "DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations and Braze Certified Practitioner are platform-specific CRM foundations. The former assesses subscriber/data concepts; the latter validates basic Braze platform and data-planning knowledge. Neither is a full enterprise data-architecture assessment.",
+  "DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations and Braze Practitioner validate vendor-specific CRM platform foundations. Trailhead Data 360 badges are free product-learning completions with some English-only content and special-org requirements; they are not Salesforce Certified Data 360 Consultant status.",
   "DPA-T12-CH03": "Braze Certified Marketing Specialist and MoEngage Growth Marketer validate vendor-specific segmentation/lifecycle workflow knowledge; HubSpot Inbound supports broader buyer and lifecycle framing. The Braze exam is paid and proctored.",
   "DPA-T12-CH04": "The three routes cover customer journey and trigger-based communication in their respective platforms; the learner must still design a channel-neutral journey map.",
   "DPA-T12-CH05": "HubSpot Email Marketing and Salesforce Marketing Cloud credentials match email/engagement work; Salesforce Foundations is USD 75 and the Specialist exam is USD 200 before local taxes.",
@@ -1737,14 +1739,14 @@ var placementNotes = {
   "DPA-T13-CH05": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T13-CH06": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T13-CH07": "TikTok Creative Production directly supports short-form content production; AI Solutions is TikTok-product-specific and HubSpot Social is broader organic social learning.",
-  "DPA-T13-CH08": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T13-CH08": "HubSpot Social Media supports broader organic social learning. Snapchat Essentials is a Snap Focus Credential For Completion requiring six courses, a final exam and survey; account access requires a business-associated Snapchat Ads Manager account and remains platform-specific.",
   "DPA-T13-CH09": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T13-CH10": "TikTok Creative Iteration and Meta campaign measurement are platform-specific supporting credentials. Learners still need an independent content-performance analysis and optimization artifact.",
   "DPA-T13-CH11": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T14-CH01": "Meltwater Influencer Marketing Certification I directly supports ecosystem and campaign foundations; it is a vendor course certification, not an independent professional license.",
   "DPA-T14-CH02": "Meltwater Influencer Marketing Certification I and II directly support creator ecosystem, selection and campaign planning; Meta's award is narrower and platform-specific.",
-  "DPA-T14-CH03": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
-  "DPA-T14-CH04": "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.",
+  "DPA-T14-CH03": "Meltwater Klear Foundations is a free product-course certification covering creator discovery, recruitment and campaign setup. impact.com Creator Product Training Fundamentals is a free vendor-product path with a 45-minute exam/downloadable certificate; both are tool-specific, not independent influencer-marketing licences.",
+  "DPA-T14-CH04": "Meltwater Klear Foundations includes creator vetting workflows and a product exam, but it only validates Klear usage. Platform-neutral audience-quality, fraud-screening and human due diligence remain portfolio-assessed.",
   "DPA-T14-CH05": "Meltwater Certification II covers influencer selection and conversion tactics; TikTok and Meta paths remain separate platform-specific completion learning.",
   "DPA-T14-CH06": "Meta Partnership Ads teaches creator-content authorization and paid collaboration; TikTok Creative Planning/Production supports briefs and execution. Contract, usage-rights and disclosure skills remain chapter work.",
   "DPA-T14-CH07": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
@@ -1761,7 +1763,7 @@ var placementNotes = {
   "DPA-T15-CH06": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T15-CH07": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T15-CH08": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
-  "DPA-T15-CH09": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
+  "DPA-T15-CH09": "impact.com Affiliate Marketing & Partnerships Industry Certification remains the broad industry route. The separate free PXA Affiliate & Partnerships Industry Expert path adds Protect & Monitor, tracking and programme operations; its scope is affiliate fraud/monitoring, not creator audience fraud.",
   "DPA-T15-CH10": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T15-CH11": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
   "DPA-T15-CH12": "Issuer route(s) identified in curated registry; objective fit, Indonesia access/language/checkout eligibility, prerequisites and current provider terms require independent chapter-level acceptance.",
@@ -1792,24 +1794,14 @@ for (var chapterId of Object.keys(placementOverrides)) {
 
 foundationMap["DPA-CF-CH05"] = ["analyticsmania_ga4_fundamentals"];
 foundationAudit["DPA-CF-CH01"] = { "routeIds": [], "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "No suitably matched external award selected; unit economics remains a Learn objective and portfolio exercise. This is not a market-wide absence claim." };
-foundationAudit["DPA-CF-CH02"] = { "routeIds": ["forage_omnichannel_certificate", "hubspot_inbound_certification"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "HubSpot Inbound is an adjacent vendor course credential for buyer and journey framing; it does not replace client-brief practice. Forage remains Learn-only as a simulation exercise and is not presented as a default professional Earn route." };
+foundationAudit["DPA-CF-CH02"] = { "routeIds": ["forage_omnichannel_certificate", "hubspot_inbound_certification"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "HubSpot Inbound is an adjacent vendor course credential for buyer and journey framing; it does not replace client-brief practice. Forage is a free simulation completion certificate for an integrated marketing plan and creative brief, not an employer-issued credential or professional certification." };
 foundationAudit["DPA-CF-CH03"] = { "routeIds": ["hubspot_inbound_certification"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "HubSpot Inbound is an adjacent course credential; objective fit and current terms remain first-pass and not SME accepted." };
 foundationAudit["DPA-CF-CH04"] = { "routeIds": [], "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "Khan Academy does not issue a certificate for this learning; no matching math-for-marketing award selected. Use the chapter assessment and work sample." };
 foundationAudit["DPA-CF-CH05"] = { "routeIds": ["analyticsmania_ga4_fundamentals"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "Supporting GA4 course-completion certificate only; it is not a Google-issued certification or a full marketing-measurement credential." };
 foundationAudit["DPA-CF-CH06"] = { "routeIds": ["forage_omnichannel_certificate"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "Forage is an applied simulation completion certificate; role-specific agency workflow and professionalism remain portfolio-led." };
 
 
-var marketExcludedRouteIds = [
-  "amazon_retail_certification", "amazon_programmatic", "amazon_sponsored_ads",
-  "microsoft_ads_display_video_certification", "microsoft_programmatic_learning_badge",
-  "microsoft_retail_advertising_certification", "stackadapt_programmatic",
-  "forage_omnichannel_certificate", "analyticsmania_ga4_fundamentals",
-  "t10_coursera_google_data_analytics", "t10_kaggle_intro_sql",
-  "t12_trailhead_data360", "t08_mediaocean_prisma", "t14_meltwater_klear_foundations",
-  "t14_pxa_creator_product_training", "t14_pxa_protect_monitor",
-  "linkedin_marketing_strategy", "linkedin_content_creative",
-  "tiktok_auto_ads_achievement", "tiktok_promote_app_achievement", "tiktok_advanced_app_achievement"
-];
+var marketExcludedRouteIds = [];
 var excludedRouteLookup = {};
 marketExcludedRouteIds.forEach(function(routeId) {
   excludedRouteLookup[routeId] = true;
@@ -1838,7 +1830,7 @@ removeOutOfMarketEarnRoutes(foundationMap, foundationAudit);
 // overwrite the chapter-specific disposition and the register remains auditable.
 var foundationNoteOverrides = {
   "DPA-CF-CH01": "No suitably matched external award selected; unit economics remains a Learn objective and portfolio exercise. This is not a market-wide absence claim.",
-  "DPA-CF-CH02": "HubSpot Inbound is an adjacent vendor course credential for buyer and journey framing; it does not replace client-brief practice. Forage remains Learn-only as a simulation exercise and is not presented as a default professional Earn route.",
+  "DPA-CF-CH02": "HubSpot Inbound is an adjacent vendor course credential for buyer and journey framing; it does not replace client-brief practice. Forage is a free simulation completion certificate for an integrated marketing plan and creative brief, not an employer-issued credential or professional certification.",
   "DPA-CF-CH03": "HubSpot Inbound is an adjacent course credential; objective fit and current terms remain first-pass and not SME accepted.",
   "DPA-CF-CH04": "Khan Academy does not issue a certificate for this learning; no matching math-for-marketing award selected. Use the chapter assessment and work sample.",
   "DPA-CF-CH05": "Supporting GA4 course-completion certificate only; it is not a Google-issued certification or a full marketing-measurement credential.",
