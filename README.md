@@ -57,7 +57,7 @@ Roadmap ini panduan belajar mandiri, bukan sertifikasi resmi platform dan bukan 
 | 15 | Affiliate & Social Commerce Partnerships | Performance partnership |
 | 16 | Community Management & Advocacy | Engagement & advocacy |
 
-Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying** memiliki 28 bab draft awal (14 + 14). Audit terpisah 14 chapter per elective mengklasifikasikan semuanya PARTIAL; materi masih thin first-pass draft dan belum final/SME-approved.
+Advanced elective **17. CRO / Growth / Experience Optimization** dan **18. Traditional Media Planning & Buying** memiliki 28 bab (14 + 14). Setiap bab kini memiliki worked example spesifik yang diberi label SIMULATED dan register depth berstatus WORKED_EXAMPLE_ENRICHED_FIRST_PASS. Audit terpisah tetap mengklasifikasikan semua 28 sebagai PARTIAL; validasi teknis, source-fit, answer, rubric, pasar/legal, workload, dan SME belum selesai.
 
 ## Fitur
 
