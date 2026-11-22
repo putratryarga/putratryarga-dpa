@@ -769,6 +769,25 @@ var additions = {
     "award": "Official TikTok Academy Achievement / Credential For Completion after required learning-path courses and associated assessment; not TikTok Media Buying Professional Certification.",
     "scope": "TikTok-specific brand integrity and safety controls.",
     "verifiedOn": "2026-11-22"
+  },
+  "meta_sba_ads_manager_skilling_certificate": {
+    "provider": "Meta Blueprint · Meta Small Business Academy",
+    "title": "Meta Ads Manager learning — Meta Small Business Academy skilling certificate",
+    "type": "skilling_certificate",
+    "label": "Skilling Certificate",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Six recommended learning modules cover campaign objectives, audiences, placements/budget/schedule, creative, campaign analysis and Meta Advertising Standards. A separate Meta Ads Manager learning skill test awards the Meta Small Business Academy skilling certificate.",
+    "duration": "Six courses, approximately 90 minutes total based on the issuer's listed 15m + 15m + 15m + 20m + 10m + 15m; additional assessment time is not stated.",
+    "cost": "The public Meta page does not state a separate fee for the skill test or certificate. Do not promise free issuance until the signed-in learner account confirms the test and award are available at no cost.",
+    "eligibility": "Take the separate Meta Ads Manager learning skill test. Meta explicitly states that completing the six recommended courses is encouraged but is not required before beginning the test.",
+    "validity": "No expiry or renewal period is stated on the public collection page.",
+    "regional": "Public Meta Blueprint collection page checked in English. Indonesia account access, test availability, language and award issuance need confirmation in the signed-in learner account.",
+    "url": "https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning",
+    "sourceUrl": "https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning",
+    "award": "Meta Small Business Academy skilling certificate for Ads Manager, awarded after passing the separate learning skill test. This is not a Meta Blueprint course Credential For Completion and not a Meta Certified Professional exam.",
+    "scope": "Direct platform-specific Ads Manager fundamentals and knowledge check; it does not establish live campaign experience or independently validate campaign performance.",
+    "verifiedOn": "2026-11-22"
   }
 };
 
@@ -864,8 +883,8 @@ var placementOverrides = {
   ],
   "DPA-T05-CH01": [
     "meta_v10_ads_campaign",
-    "tiktok_basics_achievement",
-    "meta_media_buying"
+    "meta_sba_ads_manager_skilling_certificate",
+    "tiktok_basics_achievement"
   ],
   "DPA-T05-CH02": [
     "meta_v10_campaign_objectives",
@@ -994,7 +1013,7 @@ var placementNotes = {
   "DPA-T14-CH05": "TikTok Creative Planning is a platform-specific Achievement for audience research and creative briefs; it supports creator strategy but does not certify creator selection or commercial evaluation.",
   "DPA-T14-CH08": "Meltwater Influencer Marketing Certification I is supporting only for creator relationships and campaign practice; chapter portfolio evidence remains primary.",
   "DPA-T04-CH01": "TikTok Get discovered with Search provides an issuer-listed Credential for Completion specifically for Search Ads. Google and Microsoft remain separate provider certifications; the platforms are not interchangeable.",
-  "DPA-T05-CH01": "Meta's recovered v10 introductory course and TikTok Basics provide course-completion recognition before optional professional exams. Meta Media Buying Professional remains a separate certification route.",
+  "DPA-T05-CH01": "Completion-first entry route: Meta Blueprint's v10 introductory course and TikTok Basics carry course-completion/Achievement recognition; Meta Small Business Academy adds a distinct Ads Manager skilling certificate after its separate skill test. The paid Meta Media Buying Professional exam remains a separate advanced option and is not a prerequisite.",
   "DPA-T05-CH02": "Meta's course directly covers campaign objectives and conversion locations. TikTok Drive Website Sales and Promote your app support separate platform-specific conversion objectives.",
   "DPA-T05-CH03": "Meta's v10 course directly covers custom/lookalike audiences and targeting; TikTok Build your brand supports awareness and audience-funnel learning. Meta professional certification remains optional and exam-based.",
   "DPA-T05-CH04": "Meta's introductory course and TikTok Basics support account/campaign setup. TikTok Auto Ads is a narrow dealership-inventory specialization, not a general paid-social credential.",

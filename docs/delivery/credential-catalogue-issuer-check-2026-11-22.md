@@ -9,7 +9,7 @@
 
 | Measure | Recomputed result |
 |---|---:|
-| Unique issuer/course/simulation route definitions | **74** = 35 base routes + 39 integration additions |
+| Unique issuer/course/simulation route definitions | **75** = 35 base routes + 39 integration additions |
 | Core rows | 169 |
 | Core chapters with selected external routes | **161/169** |
 | Core route placements | **254** |
@@ -944,10 +944,21 @@ TikTok Academy's path-completion Achievement is the completion-first option. Tik
 
 ### Reconciliation after this addendum
 
-- Registry definitions: **74** (35 base + 39 integration additions).
+- Registry definitions: **75** (35 base + 40 integration additions).
 - Newly integrated: **8 Meta Blueprint + 15 missing TikTok Academy paths**; the existing Creative Planning route completes the current 16-path TikTok list.
 - Recovered Meta v10 course-completion routes: **8**. TikTok Academy paths: **16**.
 - Core chapter mapping: **161/169**, **254** placements; Common Foundation remains separately mapped in four of six chapters.
 - Combined CSV: **175** rows, **165** mapped rows, **259** placements.
 - The four Meta/TikTok professional certification exams remain separately classified and are not free completion awards.
 - All chapter mappings remain first-pass and not SME accepted. Public pages do not replace a signed-in Indonesian learner-account check.
+
+### Meta Small Business Academy — separate Ads Manager skilling certificate
+
+Meta's current Meta Ads Manager learning collection describes six recommended courses and a separate skill test that awards the **Meta Small Business Academy skilling certificate for Ads Manager**. The issuer says course completion is encouraged but is not required before taking the test. This is a separate award from the eight recovered Blueprint Credential For Completion courses and from Meta Professional Certification.
+
+- Learning/test route: https://www.facebookblueprint.com/student/collection/507005-meta-ads-manager-learning
+- Six recommended modules: campaign objectives (15m), audience creation (15m), placements/budget/schedule (15m), ad creative (20m), campaign result analysis (10m), and Meta Advertising Standards (15m).
+- Assessment: Meta Ads Manager learning skill test.
+- Cost: the public collection page does not state a fee for the test or certificate; learner-account confirmation is required. DPA does not promise no-cost issuance based on the public page alone.
+- Placement: T05-CH01, as a distinct skill-test recognition option alongside the course-completion routes.
+- Classification: `skilling_certificate`, not `course_completion_credential` and not `professional_certification`.

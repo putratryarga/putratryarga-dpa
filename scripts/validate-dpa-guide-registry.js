@@ -134,7 +134,7 @@ assert.equal(foundationIds.length, 6, "The learner-facing Common Foundation must
 assert.equal(new Set(foundationIds).size, 6, "Common Foundation chapter IDs must be unique.");
 assert.equal(Object.keys(foundationCredentialMap).length, 6, "Credential map must explicitly cover all six Common Foundation chapters.");
 assert.equal(Object.keys(foundationCredentialAudit).length, 6, "Credential audit must explicitly cover all six Common Foundation chapters.");
-assert.equal(Object.keys(credentialRegistry).length, 74, "Reconciled issuer route registry must contain 74 unique routes.");
+assert.equal(Object.keys(credentialRegistry).length, 75, "Reconciled issuer route registry must contain 75 unique routes.");
 const metaCompletionIds = ["meta_v10_ads_campaign","meta_v10_campaign_objectives","meta_v10_audience_strategy","meta_v10_buying_types","meta_v10_creative_best_practices","meta_v10_pixel_capi","meta_v10_campaign_measurement","meta_v10_privacy_brand_safety"];
 const tiktokCompletionIds = ["tiktok_basics_achievement","tiktok_build_brand_achievement","tiktok_website_sales_achievement","tiktok_promote_app_achievement","tiktok_lead_generation_achievement","tiktok_shop_achievement","tiktok_search_achievement","tiktok_auto_ads_achievement","tiktok_advanced_shop_achievement","tiktok_advanced_leadgen_achievement","tiktok_advanced_app_achievement","tiktok_creative_production_achievement","tiktok_creative_iteration_achievement","tiktok_ai_solutions_achievement","tiktok_brand_safety_achievement","t02_tiktok_creative_planning"];
 for (const id of [...metaCompletionIds, ...tiktokCompletionIds]) {
@@ -142,6 +142,10 @@ for (const id of [...metaCompletionIds, ...tiktokCompletionIds]) {
   assert.equal(credentialRegistry[id].type, "course_completion_credential", "Meta/TikTok completion award must not be labelled as a professional exam: " + id);
   assert.equal(credentialRegistry[id].paidExam, false, "Completion route must not be marked as a paid professional exam: " + id);
 }
+assert.ok(credentialRegistry["meta_sba_ads_manager_skilling_certificate"], "Meta Small Business Academy Ads Manager skilling certificate must remain distinct.");
+assert.equal(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].type, "skilling_certificate", "Meta SBA Ads Manager route is a skilling certificate, not a completion course or professional certification.");
+assert.equal(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].paidExam, false, "Meta SBA skill test is not a paid professional certification exam.");
+assert.ok(/fee.*not state|does not state.*fee/i.test(credentialRegistry["meta_sba_ads_manager_skilling_certificate"].cost), "Meta SBA assessment price uncertainty must remain explicit.");
 for (const id of ["meta_media_buying", "meta_media_planning", "meta_marketing_science", "tiktok_media_buying"]) {
   assert.ok(credentialRegistry[id], "Paid platform professional certification must be retained: " + id);
   assert.equal(credentialRegistry[id].type, "professional_certification", "Paid platform exam must remain a professional certification: " + id);
