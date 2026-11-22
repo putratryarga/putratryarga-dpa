@@ -789,6 +789,227 @@ var additions = {
     "scope": "Direct platform-specific Ads Manager fundamentals and knowledge check; it does not establish live campaign experience or independently validate campaign performance.",
     "verifiedOn": "2026-11-22"
   }
+
+  "google_ads_display": {
+    "provider": "Google Skillshop",
+    "title": "Google Ads Display Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Official Google Ads Display certification for planning, launching and optimizing visual advertising campaigns, audience reach, automated bidding and campaign measurement.",
+    "duration": "Assessment format and duration are shown in the current Skillshop assessment.",
+    "cost": "Skillshop lists free online Google Ads training and certification paths. Confirm current account and assessment terms at enrolment.",
+    "eligibility": "Complete the Google Ads Display learning path and pass its assessment through Skillshop.",
+    "validity": "Follow the validity and renewal conditions shown in the learner's Skillshop certification record.",
+    "regional": "Google Ads certifications are available in Bahasa Indonesia among the supported languages. Confirm account and assessment access from Indonesia.",
+    "url": "https://skillshop.withgoogle.com/googleads/",
+    "sourceUrl": "https://support.google.com/google-ads/answer/9702955?hl=id",
+    "award": "Google Ads Display Certification issued through Skillshop after passing the product-area assessment.",
+    "scope": "Google Display product proficiency only; it does not certify all programmatic DSPs or cross-channel media planning.",
+    "fitNote": "Direct Google Ads channel credential for agency media-planning and biddable work.",
+    "verifiedOn": "2026-11-22"
+  },
+  "google_ads_measurement": {
+    "provider": "Google Skillshop",
+    "title": "Google Ads Measurement Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Official Google Ads Measurement certification covering measurement setup, interpreting advertising metrics and using measurement solutions to improve campaign decisions.",
+    "duration": "Assessment format and duration are shown in the current Skillshop assessment.",
+    "cost": "Skillshop lists free online Google Ads training and certification paths. Confirm current account and assessment terms at enrolment.",
+    "eligibility": "Complete the Google Ads Measurement learning path and pass its assessment through Skillshop.",
+    "validity": "Follow the validity and renewal conditions shown in the learner's Skillshop certification record.",
+    "regional": "Google Ads certifications are available in Bahasa Indonesia among the supported languages. Confirm account and assessment access from Indonesia.",
+    "url": "https://skillshop.withgoogle.com/googleads/",
+    "sourceUrl": "https://support.google.com/google-ads/answer/9702955?hl=id",
+    "award": "Google Ads Measurement Certification issued through Skillshop after passing the product-area assessment.",
+    "scope": "Google Ads measurement product-area proficiency; it is not a general analytics-engineering or independent incrementality qualification.",
+    "fitNote": "Direct platform credential for performance measurement; pair with GA4, GTM and applied measurement work.",
+    "verifiedOn": "2026-11-22"
+  },
+  "google_ads_video": {
+    "provider": "Google Skillshop",
+    "title": "Google Ads Video Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Official Google Ads Video certification for YouTube and Google video advertising formats, audience solutions, creative strategy and campaign performance.",
+    "duration": "Assessment format and duration are shown in the current Skillshop assessment.",
+    "cost": "Skillshop lists free online Google Ads training and certification paths. Confirm current account and assessment terms at enrolment.",
+    "eligibility": "Complete the Google Ads Video learning path and pass its assessment through Skillshop.",
+    "validity": "Follow the validity and renewal conditions shown in the learner's Skillshop certification record.",
+    "regional": "Google Ads certifications are available in Bahasa Indonesia among the supported languages. Confirm account and assessment access from Indonesia.",
+    "url": "https://skillshop.withgoogle.com/googleads/",
+    "sourceUrl": "https://support.google.com/google-ads/answer/9702955?hl=id",
+    "award": "Google Ads Video Certification issued through Skillshop after passing the product-area assessment.",
+    "scope": "Google/YouTube video advertising only; not a general video-production or all-platform video-planning credential.",
+    "fitNote": "Platform credential for agency video and digital-media activation.",
+    "verifiedOn": "2026-11-22"
+  },
+  "google_ads_shopping": {
+    "provider": "Google Skillshop",
+    "title": "Google Shopping Ads Certification",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Official Google Shopping Ads certification for product-feed-led Shopping campaigns and reaching shoppers across online and local inventory journeys.",
+    "duration": "Current Shopping Ads assessment page specifies its own question count, time limit and passing score; verify these at enrolment.",
+    "cost": "Skillshop lists free online Google Ads training and certification paths. Confirm current account and assessment terms at enrolment.",
+    "eligibility": "Complete the Shopping Ads learning path and pass its assessment through Skillshop.",
+    "validity": "Follow the validity and renewal conditions shown in the learner's Skillshop certification record.",
+    "regional": "Google Shopping ads and Merchant Center support Indonesia. Confirm product, feed, account and assessment eligibility for the learner's business context.",
+    "url": "https://skillshop.withgoogle.com/googleads/",
+    "sourceUrl": "https://support.google.com/google-ads/answer/9702955?hl=id",
+    "award": "Google Shopping Ads Certification issued through Skillshop after passing the product-area assessment.",
+    "scope": "Google Shopping product-feed advertising; it does not certify Shopee, Tokopedia, Lazada or TikTok Shop campaign operations.",
+    "fitNote": "Relevant adjacent evidence for Indonesian e-commerce performance roles that explicitly request Google Shopping Ads.",
+    "verifiedOn": "2026-11-22"
+  },
+  "ahrefs_seo_certification": {
+    "provider": "Ahrefs Academy",
+    "title": "Ahrefs Certification",
+    "type": "vendor_course_certification",
+    "label": "Tool-vendor certification",
+    "tagClass": "t-coursecert",
+    "paidExam": false,
+    "description": "Official tool-vendor certification validating Ahrefs workflows, reports and platform knowledge. The issuer lists 67 questions, a one-hour exam and a 75% passing score.",
+    "duration": "67 questions; 1 hour; 75% pass score; three attempts, then a 15-day wait before retry.",
+    "cost": "Free certification exam; a paid or non-paid Ahrefs account can be used.",
+    "eligibility": "Create or use an Ahrefs account and pass the issuer's certification exam.",
+    "validity": "Shareable certificate valid for one year.",
+    "regional": "The issuer provides an Indonesian-language certification page. Account and exam access from Indonesia should be confirmed before enrolment.",
+    "url": "https://ahrefs.com/id/certification",
+    "sourceUrl": "https://ahrefs.com/certification",
+    "award": "Official Ahrefs shareable certification after passing the exam; this is a tool-vendor credential, not an independent SEO professional licence.",
+    "scope": "Ahrefs tool use, workflows and reports; pair with Search Console, technical SEO practice and measurable portfolio evidence.",
+    "fitNote": "Directly relevant to Indonesian SEO job requirements that name Ahrefs.",
+    "verifiedOn": "2026-11-22"
+  },
+  "moengage_growth_marketer": {
+    "provider": "MoEngage Academy",
+    "title": "MoEngage Growth Marketer — Credential for Completion",
+    "type": "course_completion_credential",
+    "label": "Course-completion credential",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Issuer learning path for omnichannel engagement, behavioral segmentation, lifecycle automation, email, push, SMS, WhatsApp, in-app campaigns, flows and campaign optimization.",
+    "duration": "Approximately 1.9 hours of published learning content.",
+    "cost": "The public path page does not state a separate fee. Confirm sign-in, access and award issuance in the learner account; do not assume a paid subscription is required or that the credential is free until checked.",
+    "eligibility": "Complete the MoEngage Growth Marketer path and meet the issuer's completion requirements.",
+    "validity": "No expiry period is stated on the public path page.",
+    "regional": "The public academy path is accessible as an issuer listing; Indonesian account access, language and completion-award issuance still require learner-account verification.",
+    "url": "https://academy.moengage.com/student/path/3328685-moengage-growth-marketer",
+    "sourceUrl": "https://academy.moengage.com/student/path/3328685-moengage-growth-marketer",
+    "award": "MoEngage Growth Marketer Credential for Completion; not a cross-platform CRM certification.",
+    "scope": "MoEngage-specific lifecycle marketing and engagement workflows; the role skills transfer, but the credential is vendor-specific.",
+    "fitNote": "Mapped because Indonesian CRM/lifecycle vacancies explicitly name MoEngage.",
+    "verifiedOn": "2026-11-22"
+  },
+  "moengage_analytics_expert": {
+    "provider": "MoEngage Academy",
+    "title": "MoEngage Analytics Expert — Credential for Completion",
+    "type": "course_completion_credential",
+    "label": "Course-completion credential",
+    "tagClass": "t-coursecred",
+    "paidExam": false,
+    "description": "Issuer learning path for event-based behavioral data, funnels, cohorts, retention, path analysis and custom reporting.",
+    "duration": "Approximately 1.2 hours of published learning content.",
+    "cost": "The public path page does not state a separate fee. Confirm sign-in, access and award issuance in the learner account.",
+    "eligibility": "Complete the MoEngage Analytics Expert path and meet the issuer's completion requirements.",
+    "validity": "No expiry period is stated on the public path page.",
+    "regional": "The public academy path is accessible as an issuer listing; Indonesian account access, language and completion-award issuance still require learner-account verification.",
+    "url": "https://academy.moengage.com/student/path/3388299-moengage-analytics-expert",
+    "sourceUrl": "https://academy.moengage.com/student/path/3388299-moengage-analytics-expert",
+    "award": "MoEngage Analytics Expert Credential for Completion; not a neutral analytics or SQL certification.",
+    "scope": "MoEngage-specific behavioral analytics, funnel and cohort workflows; general analysis capability still needs an independent work sample.",
+    "fitNote": "Relevant to Indonesian CRM roles asking for cohort, funnel, lifecycle and behavioral analytics skills.",
+    "verifiedOn": "2026-11-22"
+  },
+  "braze_digital_strategist": {
+    "provider": "Braze Learning",
+    "title": "Braze Certified Digital Strategist",
+    "type": "professional_certification",
+    "label": "Vendor professional certification",
+    "tagClass": "t-credential",
+    "paidExam": false,
+    "description": "Braze certification validating campaign strategy, the Braze technical stack and customer lifecycle journey planning, including user personas, meaningful moments and drop-off points.",
+    "duration": "Exam format and duration must be confirmed on the current Braze certification registration page.",
+    "cost": "The reviewed public issuer pages do not state the current exam fee. Do not label the exam free; confirm price and tax before booking.",
+    "eligibility": "Register for the Braze Digital Strategist certification exam and meet the current issuer requirements. Braze states certification exams can be accessed without a Braze ID.",
+    "validity": "Follow current Braze certification maintenance and renewal terms.",
+    "regional": "Braze states anyone can register for its certification exams; Indonesian account, payment, proctoring and language availability should be confirmed during registration.",
+    "url": "https://learning.braze.com/page/certification",
+    "sourceUrl": "https://community.braze.com/discussion/1413/digital-strategist-certification-has-launched",
+    "award": "Braze Certified Digital Strategist issued after passing the official certification exam.",
+    "scope": "Braze-specific customer engagement platform strategy; not a platform-neutral CRM or lifecycle marketing qualification.",
+    "fitNote": "Mapped because Indonesian CRM and marketing-automation vacancies explicitly name Braze.",
+    "verifiedOn": "2026-11-22"
+  },
+  "salesforce_mce_foundations": {
+    "provider": "Salesforce Trailhead",
+    "title": "Salesforce Certified Marketing Cloud Engagement Foundations",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": true,
+    "description": "Entry-level professional exam for foundational Marketing Cloud Engagement knowledge, including marketing concepts, email tools, Journey Builder, data management, reporting and analytics.",
+    "duration": "40 multiple-choice questions plus up to five unscored questions; 70 minutes; 65% passing score.",
+    "cost": "USD 75 plus applicable local taxes; retake is free. Confirm local checkout price and currency in Indonesia.",
+    "eligibility": "No prerequisite. Designed for candidates new to Salesforce Marketing Cloud Engagement, typically up to six months of experience.",
+    "validity": "No maintenance requirement is currently stated in the public exam guide; verify the issuer's current maintenance policy.",
+    "regional": "Exam delivery is proctored online or at a test centre. Indonesia scheduling, local tax and payment availability must be checked before booking.",
+    "url": "https://trailhead.salesforce.com/credentials/marketingassociate",
+    "sourceUrl": "https://help.salesforce.com/s/articleView?id=005298962&language=en_US&type=1",
+    "award": "Salesforce Certified Marketing Cloud Engagement Foundations professional certification after passing the proctored exam.",
+    "scope": "Salesforce Marketing Cloud Engagement foundations; the exam does not validate advanced automation configuration, SMS/push channel execution, SQL or AMPscript.",
+    "fitNote": "Entry-level platform credential for local CRM/lifecycle roles that explicitly list Salesforce Marketing Cloud.",
+    "verifiedOn": "2026-11-22"
+  },
+  "salesforce_mce_email_specialist": {
+    "provider": "Salesforce Trailhead",
+    "title": "Salesforce Certified Marketing Cloud Engagement Specialist",
+    "type": "professional_certification",
+    "label": "Professional certification",
+    "tagClass": "t-credential",
+    "paidExam": true,
+    "description": "Professional certification for email marketing best practices, message design, subscriber and data management, and inbox delivery using Salesforce Marketing Cloud Engagement.",
+    "duration": "Follow the current exam guide for format, duration and passing score.",
+    "cost": "USD 200 plus applicable local taxes; retake USD 100. Confirm local checkout price and currency in Indonesia.",
+    "eligibility": "Prepare with the official Trailhead learning path and satisfy current certification requirements; practical experience is recommended.",
+    "validity": "Follow Salesforce's current annual maintenance requirements for active certifications.",
+    "regional": "Exam is delivered through Salesforce's proctored exam system; Indonesia scheduling, local tax and payment availability must be checked before booking.",
+    "url": "https://trailhead.salesforce.com/credentials/marketingcloudengagementspecialist",
+    "sourceUrl": "https://help.salesforce.com/s/articleView?id=005298916&language=en_US&type=1",
+    "award": "Salesforce Certified Marketing Cloud Engagement Specialist after passing the professional exam.",
+    "scope": "Salesforce Marketing Cloud email-specialist capability; platform-specific and not a general CRM lifecycle certification.",
+    "fitNote": "Advanced optional credential for email/CRM specialists; not a beginner requirement.",
+    "verifiedOn": "2026-11-22"
+  },
+  "meltwater_influencer_cert_2": {
+    "provider": "Meltwater Academy",
+    "title": "Influencer Marketing Certification II",
+    "type": "industry_certification",
+    "label": "Industry certification",
+    "tagClass": "t-coursecert",
+    "paidExam": false,
+    "description": "Industry certification on influencer campaign design, selecting the right influencers and conversion-driving tactics; it builds on Influencer Marketing Certification I.",
+    "duration": "Self-paced; total duration is not stated on the public collection page.",
+    "cost": "Free according to the issuer's Influencer Marketing collection page.",
+    "eligibility": "Complete Influencer Marketing Certification I knowledge and the Certification II path according to Meltwater Academy requirements.",
+    "validity": "Expiry or renewal conditions are not stated on the public collection page.",
+    "regional": "The course is listed in the global Meltwater Academy catalogue; Indonesia account access, language and certificate issuance should be confirmed at enrolment.",
+    "url": "https://academy.meltwater.com/collections/Industry_Certification",
+    "sourceUrl": "https://academy.meltwater.com/pages/Influencer%20Marketing",
+    "award": "Meltwater Influencer Marketing Certification II; an issuer industry certification, not a regulated professional licence.",
+    "scope": "Influencer selection, campaign design and conversion tactics; it does not replace local creator contracting, disclosure compliance or live campaign results.",
+    "fitNote": "Direct supportive fit for Indonesian KOL/creator campaign roles.",
+    "verifiedOn": "2026-11-22"
+  }
 };
 
 Object.assign(registry, additions);
@@ -984,6 +1205,36 @@ var placementOverrides = {
     "tiktok_brand_safety_achievement",
     "meta_v10_privacy_brand_safety"
   ]
+
+  "DPA-T03-CH03": ["google_ads_display", "google_ads_video"],
+  "DPA-T03-CH04": ["meta_media_planning", "google_ads_display", "google_ads_video"],
+  "DPA-T03-CH05": ["meta_media_planning", "google_ads_display", "google_ads_video"],
+  "DPA-T06-CH01": ["google_dv360_2026"],
+  "DPA-T06-CH04": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
+  "DPA-T06-CH07": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
+  "DPA-T06-CH08": ["google_dv360_2026", "t08_ttd_edge_data_driven_planning"],
+  "DPA-T07-CH04": ["google_ads_shopping"],
+  "DPA-T07-CH08": ["google_ads_shopping", "tiktok_advanced_shop_achievement", "tiktok_shop_achievement"],
+  "DPA-T10-CH06": ["google_analytics_certification", "meta_marketing_science", "moengage_analytics_expert"],
+  "DPA-T10-CH07": ["meta_marketing_science", "google_analytics_certification", "google_ads_measurement"],
+  "DPA-T10-CH08": ["meta_marketing_science", "google_analytics_certification", "google_ads_measurement"],
+  "DPA-T11-CH02": ["semrush_seo_crash", "ahrefs_seo_certification"],
+  "DPA-T11-CH03": ["t11_semrush_technical_seo", "ahrefs_seo_certification"],
+  "DPA-T11-CH04": ["t11_semrush_technical_seo", "ahrefs_seo_certification"],
+  "DPA-T11-CH06": ["semrush_seo_crash", "ahrefs_seo_certification"],
+  "DPA-T11-CH08": ["semrush_seo_crash", "ahrefs_seo_certification"],
+  "DPA-T12-CH01": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
+  "DPA-T12-CH02": ["salesforce_mce_foundations"],
+  "DPA-T12-CH03": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
+  "DPA-T12-CH04": ["hubspot_inbound_certification", "moengage_growth_marketer", "braze_digital_strategist"],
+  "DPA-T12-CH05": ["hubspot_email_marketing", "salesforce_mce_foundations", "salesforce_mce_email_specialist"],
+  "DPA-T12-CH06": ["hubspot_email_marketing", "moengage_growth_marketer", "braze_digital_strategist"],
+  "DPA-T12-CH07": ["hubspot_email_marketing", "salesforce_mce_email_specialist", "moengage_growth_marketer"],
+  "DPA-T12-CH08": ["moengage_analytics_expert"],
+  "DPA-T12-CH09": ["hubspot_email_marketing", "moengage_growth_marketer", "braze_digital_strategist"],
+  "DPA-T14-CH02": ["t14_meltwater_influencer_cert_1", "meltwater_influencer_cert_2", "t14_meta_creator_marketing"],
+  "DPA-T14-CH05": ["meltwater_influencer_cert_2", "t02_tiktok_creative_planning", "t14_meta_creator_marketing"]
+
 };
 
 var placementNotes = {
@@ -1034,6 +1285,36 @@ var placementNotes = {
   "DPA-T14-CH10": "Meta Partnership Ads directly supports Meta amplification and permissions; TikTok Creative Iteration is supporting creative learning, not TikTok paid-media certification.",
   "DPA-T16-CH07": "Meta Community Management, Meta Privacy/Brand Safety and TikTok brand-safety Achievement support platform controls. They do not replace moderation playbooks, crisis escalation or local legal review.",
   "DPA-T16-CH10": "TikTok brand-safety and Meta privacy/community activities provide platform-policy learning only; crisis triage, escalation and response governance remain assessed through the chapter portfolio."
+
+  "DPA-T03-CH03": "Google Ads Display and Video are direct product-specific credentials for digital display/video activation; neither replaces cross-channel media evaluation.",
+  "DPA-T03-CH04": "Google Ads Display/Video support channel-role and format execution; Meta Media Planning remains a separate platform-specific professional credential.",
+  "DPA-T03-CH05": "Google Ads Display/Video support channel and campaign planning within Google Ads; the chapter investment rationale and cross-channel budget allocation remain portfolio-assessed.",
+  "DPA-T06-CH01": "DV360 is directly named in Indonesian agency biddable/programmatic job requirements; TTD remains an optional global-agency skill where mapped.",
+  "DPA-T06-CH04": "DV360 and TTD are platform routes used in agency programmatic work; this is not proof of SSP, exchange or supply-path expertise.",
+  "DPA-T06-CH07": "DV360 and TTD support platform bidding and pacing practice; programmatic trading judgment must also be shown in the campaign artifact.",
+  "DPA-T06-CH08": "DV360 and TTD support deal and activation learning; advanced PMP/PG negotiation still needs chapter-level evidence.",
+  "DPA-T07-CH04": "Google Shopping Ads is included because Indonesian marketplace/e-commerce advertising roles explicitly reference Google Shopping alongside Shopee/TikTok Shop. It does not certify marketplace-native Ads Manager operation.",
+  "DPA-T07-CH08": "Google Shopping and TikTok Shop Academy achievements are platform-specific evidence; Shopee, Tokopedia and Lazada operation remains a local practical requirement without a verified public issuer certificate in this audit.",
+  "DPA-T10-CH06": "MoEngage Analytics Expert provides a completion credential for behavioral funnels, cohorts and retention analysis; it complements, not replaces, cross-platform marketing analytics.",
+  "DPA-T10-CH07": "Google Ads Measurement validates Google Ads measurement solutions; pair with GA4 and independent attribution/incrementality work.",
+  "DPA-T10-CH08": "Google Ads Measurement is supporting platform-specific measurement knowledge; statistical experiment design still requires independent practice.",
+  "DPA-T11-CH02": "Ahrefs Certification is a free, one-hour tool-vendor exam and directly supports keyword, competitor and SEO research tool workflows.",
+  "DPA-T11-CH03": "Ahrefs Certification supports crawl/site-audit tool proficiency; the learner still needs a real technical audit and fix-priority artifact.",
+  "DPA-T11-CH04": "Ahrefs tool certification supports site audit workflows; technical diagnosis and implementation remain portfolio requirements.",
+  "DPA-T11-CH06": "Ahrefs Certification supports backlink and competitive research workflows; it is not a standalone digital PR or authority-building professional licence.",
+  "DPA-T11-CH08": "Ahrefs Certification supports SEO reporting and analysis workflows; validate GSC/GA4 and reporting skill separately.",
+  "DPA-T12-CH01": "HubSpot Inbound, MoEngage Growth Marketer and Braze Digital Strategist cover different CRM/lifecycle platform paths. Indonesia CRM job descriptions explicitly name HubSpot, MoEngage and Braze; platform awards remain vendor-specific.",
+  "DPA-T12-CH02": "Salesforce Marketing Cloud Engagement Foundations is a paid entry-level exam covering subscriber/data concepts; it is not a full enterprise data-architecture assessment.",
+  "DPA-T12-CH03": "MoEngage and Braze validate vendor-specific segmentation and lifecycle workflow knowledge; HubSpot Inbound supports broader buyer and lifecycle framing.",
+  "DPA-T12-CH04": "The three routes cover customer journey and trigger-based communication in their respective platforms; the learner must still design a channel-neutral journey map.",
+  "DPA-T12-CH05": "HubSpot Email Marketing and Salesforce Marketing Cloud credentials match email/engagement work; Salesforce Foundations is USD 75 and the Specialist exam is USD 200 before local taxes.",
+  "DPA-T12-CH06": "MoEngage Growth Marketer and Braze Digital Strategist support automation and journey planning; HubSpot Email is an adjacent route. Confirm MoEngage/Braze access and fee conditions.",
+  "DPA-T12-CH07": "Salesforce Marketing Cloud Specialist and MoEngage support platform-specific messaging and optimization; deliverability and personalization still require applied work.",
+  "DPA-T12-CH08": "MoEngage Analytics Expert covers funnel/cohort/retention analysis directly; use a learner portfolio to demonstrate lifecycle impact.",
+  "DPA-T12-CH09": "These issuer routes support lifecycle optimization/reporting, but the chapter's test design and incremental lift analysis remain independently assessed.",
+  "DPA-T14-CH02": "Meltwater Influencer Marketing Certification I and II directly support creator ecosystem, selection and campaign planning; Meta's award is narrower and platform-specific.",
+  "DPA-T14-CH05": "Meltwater Certification II covers influencer selection and conversion tactics; TikTok and Meta paths remain separate platform-specific completion learning."
+
 };
 
 for (var chapterId of Object.keys(placementOverrides)) {
@@ -1054,6 +1335,41 @@ foundationAudit["DPA-CF-CH03"] = { "routeIds": ["hubspot_inbound_certification"]
 foundationAudit["DPA-CF-CH04"] = { "routeIds": [], "outcome": "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "Khan Academy does not issue a certificate for this learning; no matching math-for-marketing award selected. Use the chapter assessment and work sample." };
 foundationAudit["DPA-CF-CH05"] = { "routeIds": ["analyticsmania_ga4_fundamentals"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "Supporting GA4 course-completion certificate only; it is not a Google-issued certification or a full marketing-measurement credential." };
 foundationAudit["DPA-CF-CH06"] = { "routeIds": ["forage_omnichannel_certificate"], "outcome": "EXTERNAL_CREDENTIAL_OPTION", "verificationStatus": "FIRST_PASS_MAPPING_NOT_SME_ACCEPTED", "note": "Forage is an applied simulation completion certificate; role-specific agency workflow and professionalism remain portfolio-led." };
+
+
+var marketExcludedRouteIds = [
+  "amazon_retail_certification", "amazon_programmatic", "amazon_sponsored_ads",
+  "microsoft_ads_display_video_certification", "microsoft_programmatic_learning_badge",
+  "microsoft_retail_advertising_certification", "stackadapt_programmatic",
+  "forage_omnichannel_certificate", "analyticsmania_ga4_fundamentals",
+  "t10_coursera_google_data_analytics", "t10_kaggle_intro_sql",
+  "t12_trailhead_data360", "t08_mediaocean_prisma", "t14_meltwater_klear_foundations",
+  "t14_pxa_creator_product_training", "t14_pxa_protect_monitor",
+  "linkedin_marketing_strategy", "linkedin_content_creative",
+  "tiktok_auto_ads_achievement"
+];
+var excludedRouteLookup = {};
+marketExcludedRouteIds.forEach(function(routeId) {
+  excludedRouteLookup[routeId] = true;
+  delete registry[routeId];
+});
+function removeOutOfMarketEarnRoutes(routeMap, audit) {
+  Object.keys(routeMap).forEach(function(chapterId) {
+    var current = routeMap[chapterId] || [];
+    var retained = current.filter(function(routeId) { return !excludedRouteLookup[routeId]; });
+    routeMap[chapterId] = retained;
+    if (audit && audit[chapterId]) {
+      audit[chapterId].routeIds = retained.slice();
+      if (!retained.length) {
+        audit[chapterId].outcome = "APPLIED_SKILL_AND_PORTFOLIO_EVIDENCE";
+        audit[chapterId].note = "No external credential is selected for this objective under the Indonesia-market and professional-role relevance filter; use the chapter's applied deliverable and portfolio evidence. This is not a market-wide absence claim.";
+      }
+    }
+  });
+}
+removeOutOfMarketEarnRoutes(chapterMap, auditMap);
+removeOutOfMarketEarnRoutes(foundationMap, foundationAudit);
+
 
 root.DPA_CREDENTIAL_REGISTRY = registry;
 root.DPA_CHAPTER_CREDENTIAL_MAP = chapterMap;
