@@ -3,24 +3,26 @@
 **Branch reviewed:** `audit/dpa-release-readiness-2026-11-21`  
 **Code baseline at start of review:** `fe828d0572e563474708bf59d1ce62866b3ae986`  
 **Registry sources:** `chapter-credential-routes.js` + `chapter-credential-routes-integration.js` + `docs/credential-route-mapping-register.csv`  
-**Purpose:** Current catalogue and reconciliation for learner guidance. This is not a blanket claim that every item is available in Indonesia, free, or required. External credentials are issued by their publishers; DPA does not issue them.
+**Purpose:** Historical issuer desk-check and pre-market-filter catalogue. The current learner-facing Earn selection is superseded by [Credential Market-Fit Audit — Indonesia and Global Agency Practice](credential-market-fit-audit-2026-11-22.md). External credentials are issued by their publishers; DPA does not issue them.
+
+> **Current selection as of 22 November 2026:** 65 curated Earn routes; 145/169 Core chapters mapped; 233 Core placements; 2/6 Common Foundation chapters mapped. The 75-route inventory and detailed route list later in this file are a pre-filter snapshot. Do not expose the excluded routes as default Indonesia Earn recommendations; use the market-fit audit and current runtime/CSV instead.
 
 ## 1. Reconciled registry counts
 
 | Measure | Recomputed result |
 |---|---:|
-| Unique issuer/course/simulation route definitions | **75** = 35 base routes + 39 integration additions |
+| Curated Indonesia-market Earn route definitions | **65** = 86 original definitions less 21 out-of-market / weak-fit exclusions |
 | Core rows | 169 |
-| Core chapters with selected external routes | **161/169** |
-| Core route placements | **254** |
-| Core chapters with no selected external route | **8/169** (portfolio-first in this curated map) |
+| Core chapters with selected external routes | **145/169** |
+| Core route placements | **233** |
+| Core chapters with no selected external route | **24/169** (portfolio-first in this Indonesia-filtered map) |
 | Shared Common Foundation rows | 6 |
-| CF chapters with selected external routes | **4/6** |
-| CF route placements | **5** |
-| CF chapters with no selected external route | **2/6** (portfolio-first in this curated map) |
-| Combined mapping CSV | **175 rows**, 165 mapped rows, **259 placements**, 10 portfolio-first rows |
+| CF chapters with selected external routes | **2/6** |
+| CF route placements | **2** |
+| CF chapters with no selected external route | **4/6** (portfolio-first in this Indonesia-filtered map) |
+| Combined mapping CSV | **175 rows**, 147 mapped rows, **235 placements**, 28 portfolio-first rows |
 
-**Counting rule:** a route placement is one route ID on one chapter row; a single issuer route can legitimately support multiple chapters. The 74 route-definition count is not the count of Meta professional certifications or the count of certificates a learner must earn. The map is an optional curated selection, not exhaustive market coverage. All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
+**Counting rule:** a route placement is one route ID on one chapter row; a single issuer route can legitimately support multiple chapters. The 65 active route definitions are not the number of credentials every learner must earn. The previous 86 raw definitions include 21 routes removed from default Earn after the Indonesia-market relevance filter. The map remains a first-pass curated selection, not exhaustive market coverage. All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
 
 ## 2. Evidence taxonomy and learner-facing meaning
 
@@ -35,7 +37,9 @@
 
 Unless a route is explicitly described as a mandatory assessment by its issuer, DPA should present it as **optional**. The chapter's applied deliverable and portfolio evidence remain the core proof of competence.
 
-## 3. Current mapped route catalogue (51 definitions)
+## 3. Superseded pre-filter issuer catalogue (75 historical definitions)
+
+The detailed route entries below preserve the earlier issuer-only desk-check. Some routes in this historical list have since been withheld from default Earn following the Indonesia-market and professional-role review. Their appearance here does not mean they are currently mapped to learners.
 
 ### google_ads_search — Google Ads Search Certification
 
