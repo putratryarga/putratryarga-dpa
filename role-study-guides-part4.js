@@ -1,7 +1,7 @@
 // ============================================================
 // DPA v3 — ROLE STUDY GUIDES PART 4 (authored remediation batch 1)
 // ============================================================
-// Isi aktual saat pemulihan: 9 guide spesifik authored (T03-CH01/05/06,
+// Isi aktual saat pemulihan: 10 guide spesifik authored (T03-CH01/04/05/06,
 // T08-CH01/05/06, T10-CH01/07/08). Ini batch parsial; T11/T13/T16 belum
 // ada di file ini. Konten latihan diberi label SIMULATED.
 //
@@ -172,5 +172,38 @@ G("Eksperimen yang valid adalah perbandingan terkontrol: unit yang dirandomisasi
 ["P-value","Ukuran seberapa tidak mungkin data sebesar ini muncul bila tidak ada efek nyata."],
 ["Randomization unit","Unit yang dibagi acak antar arm dan sekaligus unit analisis utama."]],
 "DPA-T10-CH08"),
-/*__APPEND_ANCH__*/
+G("Media objective menerjemahkan business dan marketing objective menjadi kontribusi yang secara masuk akal dapat dihasilkan media. KPI media harus mengukur mekanisme tersebut, bukan menggantikan outcome bisnis. Planner membedakan outcome (misalnya qualified demand atau sales), media outcome (reach pada audience target, kualitas exposure, traffic yang memenuhi syarat), dan diagnostic metrics (frequency, CPM, viewability, CTR, CPC, landing-page engagement). Setiap KPI perlu definisi operasional, denominator, sumber, jendela waktu, segmentasi, owner, serta guardrail. Channel role adalah hipotesis kontribusi: video dapat membantu reach dan demonstrasi, search menangkap intent aktif, social membangun discovery/consideration, programmatic memperluas/menyaring inventory dan audience, sedangkan retail media menghubungkan exposure dengan shopper context. Tidak ada channel yang otomatis memiliki satu fungsi universal; perannya bergantung pada audience, format, objective, inventory, budget, data dan cara ukur. Hindari menyamakan platform-attributed conversion atau ROAS dengan incremental business impact.",
+
+"SIMULATED — brand minuman siap minum ingin menaikkan trial di kota yang distribusinya sudah tersedia. Brief memiliki dua objective: membangun consideration pada calon pembeli baru dan menangkap demand saat mereka mencari produk. Planner mengusulkan video reach untuk memperkenalkan occasion, paid social untuk menguji creative angle dan membawa audience ke retailer, search untuk menangkap query berintent, serta retail media pada retailer dengan stok dan produk yang siap. KPI tidak diseragamkan: video dinilai dengan unique reach, frequency, completed-view/attention proxy yang tersedia dan brand-lift jika desainnya layak; social memakai qualified landing visits dan downstream actions; search memakai eligible clicks dan conversion yang didefinisikan; retail memakai attributed sales sebagai laporan platform, disandingkan dengan holdout atau pembanding untuk menilai incrementality. Anggaran, baseline, target dan hasil dalam contoh ini hipotetis dan bukan benchmark atau campaign aktual.",
+
+["<b>Turunkan objective secara berurutan.</b> Tulis business outcome, marketing outcome, audience behavior yang ingin berubah, lalu media objective. Jika rantai logikanya terputus, minta klarifikasi sebelum menetapkan KPI.",
+
+"<b>Definisikan audience dan konteks.</b> Nyatakan target, wilayah, eligibility, kebutuhan, momen dan exclusions. Pastikan channel yang dipilih memang dapat menjangkau audience itu dan produk tersedia di wilayah aktivasi.",
+
+"<b>Susun KPI hierarchy.</b> Bedakan outcome KPI, media delivery/quality KPI, diagnostic metrics dan guardrails. Untuk setiap KPI tulis formula, denominator, sumber, jendela waktu, segmentasi dan owner.",
+
+"<b>Bangun peran channel sebagai hipotesis.</b> Jelaskan kontribusi yang diharapkan, audience/placement/format, tahap journey, dependency, risiko overlap dan cara mengevaluasinya. Jangan memilih channel hanya karena sedang populer.",
+
+"<b>Periksa kualitas exposure dan traffic.</b> Tentukan standar viewability, invalid traffic, brand safety, frequency management, landing-page readiness dan conversion quality yang relevan. Jangan menyamakan impression dengan perhatian atau klik dengan demand berkualitas.",
+
+"<b>Rancang measurement sebelum flight.</b> Pastikan tagging, UTM, event, taxonomy, attribution window, deduplication dan dashboard konsisten. Pisahkan platform reporting, analytics source of truth dan metode incrementality.",
+
+"<b>Tetapkan decision rule dan trade-off.</b> Buat kondisi untuk scale, hold, reallocate atau stop; sertakan guardrail margin, complaint, stock, lead quality dan saturation. Dokumentasikan assumptions serta keterbatasan data."],
+
+"Buat media objective & KPI architecture untuk satu brand latihan (label SIMULATED): (1) objective ladder business → marketing → behavior → media; (2) tabel KPI dengan formula, numerator/denominator, source, window, segment, owner dan guardrail; (3) channel-role matrix berisi hipotesis kontribusi, format/inventory, audience, dependency, overlap dan risk; (4) measurement map yang membedakan platform report, analytics source of truth dan lift/incrementality design; (5) decision rules scale/hold/reallocate/stop. Tunjukkan setidaknya satu contoh ketika CTR atau platform ROAS tampak naik tetapi keputusan tidak boleh otomatis scale karena lead quality, margin, stock atau incremental effect belum terbukti.",
+
+[["Mengapa business outcome seperti revenue tidak selalu tepat menjadi KPI media harian?", "Revenue dipengaruhi harga, distribusi, stok, produk, promosi, kompetisi dan faktor lain di luar media. Media team perlu outcome bisnis sebagai north-star, tetapi untuk diagnosis dan optimasi harian juga membutuhkan indikator yang lebih dekat dengan kontribusi media, dengan definisi dan batas atribusi yang jelas. Keterkaitan bukan bukti bahwa perubahan revenue disebabkan media."],
+
+["CTR meningkat dari 0,8% menjadi 1,2%. Apakah itu cukup untuk menyatakan channel lebih efektif?", "Belum. Periksa denominator, inventory, creative, audience, placement, valid traffic, landing-page experience, conversion quality, biaya dan guardrails. Klik yang meningkat bisa tidak relevan atau tidak menghasilkan outcome. Bandingkan segmen dan periode yang sepadan, serta gunakan KPI yang disepakati sebelum membaca hasil."],
+
+["Platform melaporkan ROAS 5x pada retail media. Apa yang harus ditambahkan sebelum menyebut kampanye incremental dan mengalokasikan lebih banyak budget?", "Periksa definisi attributed sales, attribution window, overlap dengan organic/affiliate/promosi lain, baseline, stock/price, deduplication, dan apakah platform memasukkan semua order produk yang dipromosikan. Jika memungkinkan gunakan holdout, matched-market, geo experiment atau desain lain yang layak; tanpa pembanding kausal, sebut sebagai attributed ROAS platform, bukan incremental return."]],
+
+[["Objective ladder","Rangkaian business outcome, marketing outcome, behavior change dan media objective yang saling menjelaskan."],
+["Outcome KPI","Ukuran hasil utama yang terkait dengan objective dan mempunyai definisi operasional serta owner."],
+["Diagnostic metric","Metrik untuk menjelaskan mekanisme atau penyebab perubahan outcome, bukan outcome itu sendiri."],
+["Guardrail","Ukuran pelindung untuk mendeteksi trade-off yang tidak diinginkan, misalnya margin, frequency, complaint, stock atau lead quality."],
+["Incrementality","Tambahan outcome yang terjadi karena intervensi dibandingkan kondisi kontrafaktual yang masuk akal."],
+["Platform-attributed ROAS","Nilai konversi yang dikreditkan platform berdasarkan aturan atribusinya; tidak otomatis menyatakan efek kausal."]],
+
+"DPA-T03-CH04"),/*__APPEND_ANCH__*/
 ];
