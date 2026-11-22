@@ -169,3 +169,18 @@ For every mapped core chapter, the resource map now prioritizes the issuer's act
 The learner panel retains up to five unique source URLs per chapter. When the URL is also a mapped award route, its source label is **Belajar + credential**. Provider awards remain optional and issuer-controlled. No DPA award is implied.
 
 Latest core route coverage after expansion: 35 distinct registry routes; 136/169 mapped chapters; 194 route placements; 33 chapters remain without a selected route. Common Foundation: 3/6 mapped, four placements. All mapping is still first-pass and not SME-accepted.
+
+
+## 22 November 2026 — superseding live registry reconciliation
+
+This is the newest count authority for this document. It supersedes the earlier dated snapshots that report 30/35 routes, 136/169 core chapters, 194 core placements, or CF 3/6 with four placements. Those figures remain historical checkpoints and are not the live registry total.
+
+- **51 route definitions** are now present: 35 in `chapter-credential-routes.js` plus 16 integration additions in `chapter-credential-routes-integration.js`.
+- The 169 core chapter rows contain **161 mapped chapters / 224 placements**. Eight core chapters have no external route selected in this curated release and remain portfolio-first.
+- The six Common Foundation rows contain **4 mapped chapters / 5 placements**. Two CF chapters remain portfolio-first.
+- The combined CSV has **175 rows** (169 core + 6 CF), **165 mapped rows**, **229 total placements**, and ten rows without an external route. The CSV references 50 of the 51 route definitions; `meta_pixel_optimization_course` remains defined in the route registry but has no selected chapter placement in the current CSV. Do not count that unused route as learner coverage.
+- Mapping status is still `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. Count parity does not establish chapter objective-fit, issuer availability, learner completion, or competency.
+
+**Latest evidence:** [Credential & Learning Route Catalogue — issuer check 22 Nov 2026](credential-catalogue-issuer-check-2026-11-22.md), `docs/credential-route-mapping-register.csv`, baseline registry plus integration source, and the PR #7 live branch. OpenAI Ads Manager availability, TikTok certification FAQ, Amazon Programmatic paths, Meta Startup Hub course labels, P3I programmes, TikTok One, Blibli Bliklan and ASEAN AHEAD have separate issuer notes in the catalogue. Additional routes identified in that research remain proposals until objective-fit and access are approved.
+
+**Learner communication rule:** external routes are optional; a platform course credential, learning-path award, professional certification, simulation completion certificate and programme benefit must retain separate labels. Portfolio evidence remains primary where a chapter has no well-matched issuer route.
