@@ -57,10 +57,11 @@ const sourceFiles = [
 ];
 
 const sandbox = { console };
+const runtimeContext = vm.createContext(sandbox);
 for (const relativePath of sourceFiles) {
   const absolutePath = path.join(root, relativePath);
   const source = fs.readFileSync(absolutePath, "utf8");
-  vm.runInNewContext(source, sandbox, { filename: relativePath });
+  vm.runInContext(source, runtimeContext, { filename: relativePath });
 }
 
 const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
