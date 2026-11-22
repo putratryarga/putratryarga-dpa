@@ -664,3 +664,33 @@ The latest route totals are **51 definitions** (35 baseline + 16 integration), *
 S0 prompt provenance; five historical scorecard discrepancies; 169 chapter editorial/technical review; 169 source-fit and Indonesia-access decisions; 507 Q&A decisions; 169 rubric calibration/pilot; 80 agency/JD cells; 28 elective chapters and 56 checks; hosted authenticated visual review; manual keyboard/screen-reader/contrast and full WCAG 2.2 AA verification; learner pilot; explicit owner release approval. DPA certificate issuance remains unauthorized and must not be represented as a live benefit.
 
 **Disposition:** controlled internal/SME review candidate only. **NOT READY for general audience, merge, production or credential issuance.** No main-branch or production operation is authorized by this addendum.
+
+
+## 22 November 2026 — exact-head guide coverage and QA closure
+
+**Verified review head:** `4928bc50102e6dc148a8e8f81c0e085ec8072a39` on `audit/dpa-release-readiness-2026-11-21`. **PR #7 remains OPEN / DRAFT / UNMERGED** against `main` at `64f96437bcdb8499add1affbad102283dfe7d8b4`. This is a remote repository snapshot; any GPT Work changes left only in an unmounted local workspace are not represented here until committed/pushed.
+
+### Exact-head QA evidence
+
+All following checks completed successfully at exact branch head `4928bc5`:
+
+- **DPA Guide Registry and Browser QA:** [run 44965987225](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44965987225) — PASS. The Node validator confirmed 169/169 core chapter guide records and 169/169 objective-level resource maps; each core chapter has at least two unique HTTP(S) sources. The same run confirmed all 28 elective reviews remain transparently OPEN.
+- The Chromium browser report recorded **169 core chapters + 6 Common Foundation chapters = 175 rendered panels**; **16 roles opened**; 169 authored guide registry records; role visibility limited to selected role + Common Foundation; all 16 role cards visible with no overlaps at desktop and mobile; 4 learning milestones per panel; 229 mapped credential cards and 10 explicit no-route/portfolio-first states; every panel has at least 2 distinct mapped HTTP(S) links; at 390px viewport the document width remained 390px; runtime errors 0, console errors 0, request failures 0, HTTP failures 0. All lesson folds were non-empty and all chapter materials were present.
+- **DPA Quiz Engine QA:** [run 44965981892](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44965981892) — PASS. Deterministic engine tests and Playwright browser smoke passed. Targeted axe/WCAG 2.2 checks passed for initial, question and result states; unanswered guard, progress, deterministic result, review/retry, native radio keyboard navigation and 390px mobile overflow checks passed. Prototype is still synthetic-only, non-scored, does not persist learner data and does not affect roadmap progress.
+- **DPA Remediation Static QA:** run 44965981926 — PASS. Repository validator, acceptance-register parity, chapter depth screen, score-script compilation and seven-dimension calculation with temporary synthetic fixtures passed. This is not calibration or approval of real learner scoring.
+- **Vercel status:** SUCCESS for the same review head. A successful Preview build is not an authorization to merge, promote or release production.
+- Browser QA artifact: [artifact 14730999740](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44965987225/artifacts/14730999740), with SHA-256 recorded by GitHub Actions. Retain this as exact-head evidence, not as manual hosted-user acceptance.
+
+### Reconciled teaching-material status
+
+The old note that generic guide fallback remained across 12 tracks is superseded for runtime coverage at this head. The source has **169 unique core guide records**: T01 Full-Stack 10, T05 Paid Social 10, plus 149 chapter-specific guides across the other 14 specialist tracks. The immutable runtime registry resolves all 169 core chapter IDs. The source-level structural floor across those records is at least 4 steps, 3 knowledge checks and 4 glossary terms, with concept, worked example and practice/deliverable fields present. Part 4 now contains 10 targeted guide overrides, including the newly authored `DPA-T03-CH04 — Media Objective, KPI & Channel Roles`. `buildGuide` uses the chapter-specific guide record for all 169 core chapters; the generic runtime fallback path is therefore not used for the core set in this snapshot.
+
+This corrects the runtime-coverage statement only. It does **not** close chapter accuracy, factual currency, instructional-design, source relevance, editorial review, SME approval, learning-outcome alignment, assessment calibration or assessor pilot. Those acceptance items remain OPEN/PARTIAL until individual evidence and reviewer dispositions are recorded. Likewise, six CF lessons are authored and render, but their academic/editorial approval remains open.
+
+### Credential mapping / route catalogue reconciliation
+
+The catalogue is saved at `docs/delivery/credential-catalogue-issuer-check-2026-11-22.md`. Route metadata validation finds 51 definitions with all required issuer fields present: 21 professional certifications, 12 vendor course certifications, 11 course-completion credentials, 4 course-completion certificates, 1 industry certification, 1 learning-path badge, and 1 simulation completion certificate. There are no duplicate route titles or missing required metadata fields. Registry and CSV counts remain 161/169 core chapters with 224 placements, 4/6 CF chapters with 5 placements, 175 CSV rows, 165 mapped rows and 229 total placements. Ten rows are explicit portfolio-first states. One route definition (`meta_pixel_optimization_course`) is not assigned to a chapter in the current CSV and must not be counted as learner coverage. All mapped objective fits are still `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
+
+### Current disposition
+
+**Technical snapshot: PASS for the exact-head automated checks above. Product acceptance: NOT READY.** Do not merge PR #7, touch production, publish DPA certification claims or expose this as a fully SME-approved curriculum based only on green CI. Remaining gates include historical score-summary discrepancies and missing original S0 prompt, 507 Q&A editorial/answer/source review, 169 rubric calibration and assessor pilot, chapter-level source fit and Indonesia access, 80 employer/JD evidence cells, 28 elective chapter reviews and 56 elective checks, manual WCAG 2.2 AA review and assistive-technology testing, authenticated hosted Preview review, learner pilot and explicit owner approval.
