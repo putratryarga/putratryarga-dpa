@@ -849,3 +849,16 @@ Vercel Preview deployment `dpl_7cqBXCM8XPupgxkB2E7rkFLGeZwY` is READY at [`putra
 No P0 was confirmed by structural/runtime tests, but no claim is made that no substantive P0 content error exists: not all chapters, answers and agency cells have independent human review. P1 work remains across content, CF, resource fit, Q&A, rubrics, agency evidence, electives, accessibility, history and learner pilot.
 
 **Decision:** technical structural/local Chromium checks VERIFIED for HEAD `c3d603f`; curriculum acceptance NOT COMPLETE; pilot NOT APPROVED; general release NOT READY. PR #7 stays OPEN / DRAFT / UNMERGED. Production is unchanged. Do not merge or deploy without explicit owner approval.
+
+
+## 22 November 2026 — current branch-head and platform-source delta
+
+**Current PR/documentation HEAD:** `94a6a33afa299a33cf1fd9560210d9b47f144ea4`. The code and test scripts remain the same as the already-audited code snapshot `c3d603fa0e64efe1f80f5bfe53577bb03fdd5677`; Git comparison confirms the eight intervening commits modify documentation files only. The current PR has 653 commits ahead / 0 behind, 191 files, 71,440 additions and 367 deletions. Full deployment and test provenance is in the canonical baseline manifest.
+
+All three push workflows and the Guide PR-context workflow passed on exact source HEAD `94a6a33`: Guide/Browser [45004576061](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45004576061), Static [45004576105](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45004576105), Quiz [45004575997](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45004575997), and Guide PR-context [45004579782](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45004579782). The Preview deployment `dpl_tZn1BPdDw1gC3ymxuFvXeJDAXJi5` is READY from that same SHA. This adds exact-head reproducibility to the prior code-validation evidence; it does not change substantive acceptance statuses.
+
+### Current external-platform verification delta
+
+The platform audit now cites the official Google timeline: campaign-level broad match and standalone ACA migration began 1–30 September 2026; DSA creation is scheduled to end in January 2027; DSA auto-migration is scheduled for 1–28 February 2027. TikTok Smart+ is documented as full, partial or fully manual at module level, but may not yet be enabled for all accounts. Meta CAPI v25 documentation specifies current required web-event parameters and hashing for email/phone identifiers. Microsoft Learning Lab separates three Advertising product certifications (Search, Display & Video, Retail) from learning-path badges; all three certifications lead to Microsoft Advertising Certified Expert. These claims and issuer URLs are recorded in `docs/2026-11-21-copilot-ai-era-update-audit.md`.
+
+No formal curriculum/assessment/resource/agency/SME status is promoted by this external-source update. Those statuses remain as recorded in the preceding acceptance table.

@@ -139,3 +139,23 @@ The following are still open or blocked:
 **Safety boundary:** PR #7 remains OPEN / DRAFT / UNMERGED. Production remains at its previously deployed `main` commit `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`. No main mutation, merge, production deployment, DPA certificate issuance or public claim of SME-approved completion has been performed or authorized.
 
 This manifest is the canonical snapshot for this audit. New commits must append a dated delta and preserve earlier snapshots; do not silently replace historic evidence or interpret automation as substantive acceptance.
+
+
+## 22 November 2026 — documentation synchronization delta (15:48 WIB)
+
+The reviewed code/validator baseline remains `c3d603fa0e64efe1f80f5bfe53577bb03fdd5677`. Eight commits after that snapshot change only six documentation files (README, this manifest, Source of Truth, acceptance register, findings register, and platform-update audit); no app/runtime, chapter guide, validator or test-script file changed in this delta. The current full PR branch HEAD is therefore **`94a6a33afa299a33cf1fd9560210d9b47f144ea4`**, with **653 commits ahead / 0 behind**, 191 changed files, 71,440 additions and 367 deletions. Merge-base remains the main SHA above.
+
+The final documentation-synchronized HEAD `94a6a33` was itself re-validated:
+
+| Workflow | Run | Exact source head | Result |
+|---|---:|---|---|
+| DPA Guide Registry / Browser QA (push) | [45004576061](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45004576061) | `94a6a33` | SUCCESS |
+| DPA Remediation Static QA (push) | [45004576105](https://github.com/putratryarga/putratyarga-dpa/actions/runs/45004576105) | `94a6a33` | SUCCESS |
+| DPA Quiz Engine QA (push) | [45004575997](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45004575997) | `94a6a33` | SUCCESS |
+| DPA Guide Registry / Browser QA (PR context) | [45004579782](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45004579782) | PR head `94a6a33` | SUCCESS |
+
+The exact-head browser artifact is [14746384331](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45004576061/artifacts/14746384331), SHA-256 `26e40a800c463f768effff618eee4b5da7f8f1b2f0a8bae3d19eef5c87cb25a2`. It reports 175 rendered panels, 16 role switches, no desktop/mobile card overlap, 390px viewport/document width, zero console/request/HTTP failures, and at least two unique HTTP(S) source links per panel.
+
+**Current Preview:** deployment `dpl_tZn1BPdDw1gC3ymxuFvXeJDAXJi5` is READY from exact branch HEAD `94a6a33`: [`putratryarga-okbuzax5m-elric3.vercel.app`](https://putratyarga-okbuzax5m-elric3.vercel.app/). Vercel status is SUCCESS.
+
+The Preview is still protected by project SSO for its deployment hostname. These results establish exact-source CI and deployment provenance, not authenticated hosted human review, full WCAG 2.2 AA, learner acceptance or SME acceptance. Production remains on the previously deployed main SHA and was not modified.

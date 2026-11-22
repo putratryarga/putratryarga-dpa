@@ -103,3 +103,17 @@ The original 4 November 2026 archive containing the 169×7 raw chapter scores, 2
 - Preview: https://vercel.com/elric3/putratryarga-dpa/7cqBXCM8XPupgxkB2E7rkFLGeZwY
 
 These are exact code-source verification references for c3d603f. A later documentation-only snapshot update does not constitute new substantive curriculum acceptance.
+
+
+## 22 November 2026 — exact-head QA and platform-update delta
+
+**Current documentation HEAD:** `94a6a33afa299a33cf1fd9560210d9b47f144ea4`. The eight commits since tested code snapshot `c3d603f` modify documentation files only. The three source-triggered workflows and Guide PR-context workflow have all completed SUCCESS at exact head `94a6a33`; current Preview is READY from the same SHA. See the canonical baseline manifest for exact deployment ID, run IDs, artifact digest and production provenance.
+
+### PLATFORM-2026-01 — Google / TikTok / Meta / Microsoft operational update (P1, REMEDIATED — content-source update only)
+
+- **Google Search:** official chronology distinguishes September 2026 migration of campaign-level broad match and standalone ACA from the separate DSA phase. New DSA creation is due to end January 2027; remaining DSA campaigns are scheduled to migrate in February 2027. AI Max is an optimization layer within Search, not a new campaign type; feature controls include search-term matching, text customization and final URL expansion. Links and control caveats are in the platform audit.
+- **TikTok Smart+:** official October 2026 help distinguishes full, partial and manual control at the module level. Audience, budget, placement and catalog controls are selectable; feature availability can vary by account. Do not teach it as a uniform all-account campaign setting.
+- **Meta CAPI:** current v25 developer documentation defines web, app, offline and business-messaging events; website-event parameters and hashed identifiers are documented. It is not a consent or legal-basis mechanism.
+- **Microsoft Learning Lab:** current issuer page distinguishes product certifications (Search, Display & Video, Retail) from eight learning paths/badges. All three product certifications grant Microsoft Advertising Certified Expert status; learning-path badges must not be conflated with those certifications.
+
+The update is recorded in `docs/2026-11-21-copilot-ai-era-update-audit.md`. It is an evidence-backed documentation update; it does not imply all affected chapters were SME-accepted or that Microsoft award mapping has been integrated into the canonical registry.
