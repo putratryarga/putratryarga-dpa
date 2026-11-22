@@ -1938,4 +1938,4 @@ root.DPA_FOUNDATION_CREDENTIAL_MAP = {
 root.DPA_CREDENTIAL_REGISTRY = registry;
 root.DPA_CHAPTER_CREDENTIAL_MAP = chapterMap;
 root.DPA_CHAPTER_CREDENTIAL_AUDIT = auditMap;
-})(typeof window !== "undefined" ? window : globalThis);
+})(globalThis);

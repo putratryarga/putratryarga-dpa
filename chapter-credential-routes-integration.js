@@ -1859,4 +1859,4 @@ root.DPA_CHAPTER_CREDENTIAL_MAP = chapterMap;
 root.DPA_CHAPTER_CREDENTIAL_AUDIT = auditMap;
 root.DPA_FOUNDATION_CREDENTIAL_MAP = foundationMap;
 root.DPA_FOUNDATION_CREDENTIAL_AUDIT = foundationAudit;
-})(typeof window !== "undefined" ? window : globalThis);
+})(globalThis);
