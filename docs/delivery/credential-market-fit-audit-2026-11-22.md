@@ -30,11 +30,11 @@ The current runtime contains **89 issuer routes**. Of these, 67 are Indonesia-pr
 | Core chapters with at least one selected route | **150/169** |
 | Core route placements | **260** |
 | Common Foundation chapters with a selected route | **4/6** |
-| Foundation route placements | **5** |
+| Foundation route placements | **4** |
 | Total mapping rows | 175 (169 Core + 6 Common Foundation) |
 | Mapped chapter rows | **154/175** |
 | Portfolio-first chapter rows | **21/175** |
-| Total route placements | **265** |
+| Total route placements | **264** |
 | Unique mapped routes | **89/89** |
 
 All mappings remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. This is a relevance-filtered desk review, not final SME approval, account-level access testing, credential issuance, or proof that every learner can redeem every award in Indonesia.

@@ -5,7 +5,7 @@
 **Registry sources:** `chapter-credential-routes.js` + `chapter-credential-routes-integration.js` + `docs/credential-route-mapping-register.csv`  
 **Purpose:** Historical issuer desk-check and pre-market-filter catalogue. The current learner-facing Earn selection is governed by [Credential Market-Fit Audit — Indonesia and Global Agency Practice](credential-market-fit-audit-2026-11-22.md) and [Credential Route Tiering and Global Market Evidence](credential-route-tiering-and-global-market-evidence-2026-11-22.md). External credentials are issued by their publishers; DPA does not issue them.
 
-> **Historical selection snapshot only:** the 67-route / 145-of-169 / 234-placement figures below describe the earlier Indonesia-only filtered state and are no longer current. The live audit branch now holds 89 routes, 150/169 Core chapters with routes, 260 Core placements and 4/6 Common Foundation chapters with five placements. Use the market-fit audit, credential tiering report and runtime CSV for the current selection.
+> **Historical selection snapshot only:** the 67-route / 145-of-169 / 234-placement figures below describe the earlier Indonesia-only filtered state and are no longer current. The live audit branch now holds 89 routes, 150/169 Core chapters with routes, 260 Core placements and 4/6 Common Foundation chapters with four placements. Use the market-fit audit, credential tiering report and runtime CSV for the current selection.
 
 ## 1. Reconciled registry counts
 

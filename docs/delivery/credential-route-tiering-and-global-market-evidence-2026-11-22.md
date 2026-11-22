@@ -3,7 +3,7 @@
 **Audit date:** 22 November 2026  
 **Repository:** putratryarga/putratryarga-dpa  
 **Branch:** audit/dpa-release-readiness-2026-11-21  
-**Implementation baseline:** edc804913afe1345c8ca62cce43baf06988cbd75
+**Implementation baseline:** 099666c3ab7376f71f1b1f6c20a4342abf9395c5
 
 ## Decision
 
@@ -31,8 +31,8 @@ The registry contains **89 issuer routes**, of which 67 are Indonesia-priority, 
 | Core chapters with routes | 150/169 |
 | Core route placements | 260 |
 | Common Foundation chapters with routes | 4/6 |
-| Foundation placements | 5 |
-| Total route placements | 265 |
+| Foundation placements | 4 |
+| Total route placements | 264 |
 | Mapped chapter rows | 154/175 |
 | Portfolio-first chapter rows | 21/175 |
 | Unique route IDs mapped | 89/89 |
@@ -50,7 +50,7 @@ The register contains 175 chapter rows (169 Core + 6 Common Foundation). All rou
 | microsoft_programmatic_learning_badge | Microsoft Programmatic Advertising learning-path badge | Global specialist; T06-CH01. Programmatic ecosystem literacy, not live DSP proof. | Complete the learning path courses; not a professional exam. |
 | microsoft_retail_advertising_certification | Microsoft Advertising Retail — professional certification | Global specialist; T07-CH03. Microsoft retail advertising only. | Exam and shareable badge; fee not stated publicly. |
 | stackadapt_programmatic | StackAdapt Programmatic Masterclass — vendor course certification | Global specialist; T06-CH04. Programmatic ecosystem and campaign concepts, not independent accreditation. | Free; two hours, eight modules and tests. |
-| forage_omnichannel_certificate | Forage Omnichannel Marketing — simulation completion certificate | Supporting simulation; T02-CH01/CH10 and CF-CH02/CH06. Integrated brief and plan simulation. | Free, about 5–6 hours. Not employer experience. |
+| forage_omnichannel_certificate | Forage Omnichannel Marketing — simulation completion certificate | Supporting simulation; T02-CH01/CH10 and CF-CH06. Integrated brief and plan simulation. | Free, about 5–6 hours. Not employer experience. |
 | analyticsmania_ga4_fundamentals | Analytics Mania GA4 Fundamentals — course-completion certificate | Supporting completion; T10-CH02 and CF-CH05. Beginner GA4 only. | Free course; third-party certificate, not Google-issued. |
 | t10_coursera_google_data_analytics | Google Data Analytics Professional Certificate via Coursera — course-completion certificate | Supporting paid course; T10-CH04. Broader data analytics, not a marketing measurement exam. | Paid subscription; local Indonesia price must be checked. |
 | t10_kaggle_intro_sql | Kaggle Intro to SQL — course-completion certificate | Supporting completion; T10-CH04. Introductory BigQuery SQL. | Free course; Kaggle account required. |
