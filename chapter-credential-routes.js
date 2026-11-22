@@ -23,7 +23,7 @@ var registry = {
     "sourceUrl": "https://support.google.com/google-ads/answer/9702955?hl=id",
     "award": "Sertifikasi profesional Google Ads untuk area produk yang dipilih.",
     "scope": "Platform-specific; tidak mengukur kemampuan planning lintas channel.",
-    "verifiedOn": "2026-11-21"
+    "verifiedOn": "2026-11-22"
   },
   "meta_marketing_science": {
     "provider": "Meta Blueprint",
@@ -484,13 +484,13 @@ var registry = {
     "tagClass": "t-credential",
     "paidExam": false,
     "description": "Certification assessment vendor untuk Amazon Ads programmatic solutions, termasuk supply quality, campaign setup, policy, performance dan optimization.",
-    "duration": "Path sekitar 2 jam; assessment sekitar 60–90 menit uninterrupted menurut FAQ.",
+    "duration": "The specific Programmatic Solutions certification page lists a required 2-hour assessment, plus optional preparatory courses and an optional 20-minute practice assessment. The general Academy FAQ estimate of 60–90 minutes does not override the route-specific exam timer.",
     "cost": "Gratis menurut FAQ Amazon Ads Academy.",
     "eligibility": "Perlu akun Amazon Ads Academy; account/marketplace access dan bahasa materi perlu dicek.",
     "validity": "Berlaku 2 tahun; passing score 80% menurut FAQ issuer.",
     "regional": "Availability materi/assessment untuk akun Indonesia belum diverifikasi; beberapa path Amazon tidak tersedia di semua bahasa/market.",
     "url": "https://advertising.amazon.com/academy/student/path/1532",
-    "sourceUrl": "https://advertising.amazon.com/academy/certifications?activeLocale=en-us",
+    "sourceUrl": "https://advertising.amazon.com/academy/student/path/1532/amazon-dsp-certification",
     "award": "Digital badge + downloadable PDF setelah lulus certification assessment; beda dari learning-path award.",
     "scope": "Amazon Ads programmatic only; bukan bukti akses/live DSP seat di marketplace lain.",
     "verifiedOn": "2026-11-21"
