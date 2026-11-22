@@ -308,13 +308,13 @@ assert(electiveQna.records.every(row => row.item_status === "REFLECTIVE_KNOWLEDG
 const electiveDraft = read("docs/28-advanced-elective-full-chapter-drafts.md");
 assert(electiveQna.records.every(row => electiveDraft.includes(row.answer_guidance)),
   "Revised elective answer guidance must match the full chapter draft Markdown.");
-const electiveSections = [...electiveDraft.matchAll(/^## (17\\.\\d{2}|18\\.\\d{2}) — [^\\n]+/gm)];
+const electiveSections = [...electiveDraft.matchAll(/^## (17\.\d{2}|18\.\d{2}) — [^\n]+/gm)];
 assert(electiveSections.length === 28, "Elective draft must contain exactly 28 uniquely identified chapter sections.");
 assert(new Set(electiveSections.map(item => item[1])).size === 28, "Elective draft chapter IDs must be unique.");
 for (let index = 0; index < electiveSections.length; index++) {
   const item = electiveSections[index];
   const section = electiveDraft.slice(item.index, index + 1 < electiveSections.length ? electiveSections[index + 1].index : electiveDraft.length);
-  const worked = section.match(/\\*\\*Worked example \\(SIMULATED\\)\\.\\*\\*([\\s\\S]*?)(?=\\n\\n\\*\\*Practice\\.\\*\\*)/);
+  const worked = section.match(/\*\*Worked example \(SIMULATED\)\.\*\*([\s\S]*?)(?=\n\n\*\*Practice\.\*\*)/);
   assert(worked && worked[1].trim().length >= 250, "Elective chapter needs a substantive labelled simulated worked example: " + item[1]);
   assert(section.includes("**Learning outcomes:**") && section.includes("**Core lesson.**") && section.includes("**Workflow.**") &&
     section.includes("**Practice.**") && section.includes("**Required artifact and acceptance.**") &&
