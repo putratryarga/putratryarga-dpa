@@ -170,3 +170,33 @@ The Preview is still protected by project SSO for its deployment hostname. These
 ## Current country/issuer correction — 22 November 2026
 
 OpenAI Ads Manager's current English and Indonesian Help Center availability tables list Indonesia as Available for self-service. This establishes country-supported status, not automatic provisioning of every advertiser account; the advertiser/billing legal entity must be in the listed country and account-specific access must still be confirmed. Microsoft's current Learning Lab issuer page lists eight learning paths alongside three product certifications, including Holiday Best Practices. Meta CAPI v25 parameter details remain unverified due HTTP 429 as recorded above.
+
+
+## Final platform evidence and exact-head closure — 22 November 2026
+
+**Current audited code/source HEAD:** `284c5e85f698ad0f5db72d7aed1e0b222b75d794`.  
+**PR #7 at this code snapshot:** 656 commits ahead / 0 behind `main`; 191 changed files; 71,506 additions; 367 deletions. Merge-base remains `64f96437bcdb8499add1affbad102283dfe7d8b4`.  
+**Production remains unchanged:** `dpl_DN3uQRSqEhdJDE5mn123xidFYC1Z`, source `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`.
+
+### Exact-source workflows — all PASS on 284c5e8
+
+- Guide Registry / Chromium push: [run 45005285022](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285022) — SUCCESS.
+- Static QA push: [run 45005285090](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285090) — SUCCESS.
+- Quiz Engine QA push: [run 45005285106](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285106) — SUCCESS.
+- Guide Registry / Chromium PR-context: [run 45005288145](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005288145) — SUCCESS.
+- Browser report artifact [14747731841](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285022/artifacts/14747731841), SHA-256 `9e3e4ef9a53d5508443223ca0bb794228a1f637f12095e7c95be15bec9ad25fc`.
+
+The 175-panel/16-role local Chromium result and limitations remain as described above. Static score vectors are synthetic-only; quiz prototype remains synthetic-only, formative, non-persistent and unintegrated into the main Q&A.
+
+**Preview:** deployment `dpl_G2wQijSTJbHH9kueCvG36w9CFLiV`, READY, exact source SHA `284c5e85f698ad0f5db72d7aed1e0b222b75d794`: [`putratryarga-dqz2yvtqk-elric3.vercel.app`](https://putratryarga-dqz2yvtqk-elric3.vercel.app/). Vercel check SUCCESS. Project SSO protection means authenticated hosted-human inspection remains INACCESSIBLE.
+
+### Final issuer-source corrections
+
+- **OpenAI Ads:** current English and Indonesian Help Center tables now list Indonesia as **Available** for self-service. Country support is not proof an individual ad account has been provisioned; the advertiser/billing legal entity must be based in a listed country and account-level access must still be checked. Partner / Ads Solutions rollout is a separate route.
+- **Microsoft Advertising Learning Lab:** the current official page lists three product certifications and **eight learning paths**, including Holiday Best Practices. All three product certifications lead to Microsoft Advertising Certified Expert. Learning paths/badges must not be confused with certifications.
+- **Meta CAPI v25:** the issuer parameter page returned HTTP 429 from this review environment. Exact event/field/hashing assertions remain unverified; do not publish parameter-level lab requirements until the primary page can be rechecked.
+- Google DSA/ACA/broad-match migration dates and TikTok Smart+ full/partial/manual module-level controls and account caveats remain recorded in the platform audit.
+
+These corrections supersede the earlier 22 Nov seven-path and Indonesia-not-listed interpretations. The Meta HTTP 429 caveat remains. The canonical acceptance register and findings register reflect the same status.
+
+**Acceptance remains NOT READY for learner release.** Independent content/SME, answers/rubrics, resource access, agency cells, elective validation, manual accessibility, historical discrepancies, S0 provenance and a real learner pilot remain open. No merge, production action or credential issuance is approved.

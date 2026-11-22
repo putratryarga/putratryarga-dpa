@@ -862,3 +862,17 @@ All three push workflows and the Guide PR-context workflow passed on exact sourc
 The platform audit now cites the official Google migration chronology: campaign-level broad match and standalone ACA migration began 1–30 September 2026; DSA creation is scheduled to end in January 2027; DSA auto-migration is scheduled for 1–28 February 2027. TikTok Smart+ is documented as full, partial or fully manual at module level, with account-availability caveats. Microsoft Learning Lab currently lists three product certifications and eight learning paths (including Holiday Best Practices); all three product certifications lead to Microsoft Advertising Certified Expert. The Meta CAPI v25 issuer page returned HTTP 429 in this review, so exact v25 required fields, event types and hashing rules remain unverified and are not promoted to learner-facing parameter-level acceptance. Official URLs and caveats are recorded in `docs/2026-11-21-copilot-ai-era-update-audit.md`.
 
 No formal curriculum/assessment/resource/agency/SME status is promoted by this external-source update. Those statuses remain as recorded in the preceding acceptance table.
+
+
+## 22 November 2026 — final current-source reconciliation, exact HEAD 284c5e8
+
+**Code source HEAD:** `284c5e85f698ad0f5db72d7aed1e0b222b75d794`.  
+**Exact-source QA:** Guide/Browser push [45005285022](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285022), Static [45005285090](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285090), Quiz [45005285106](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285106), and Guide/Browser PR-context [45005288145](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005288145) all completed SUCCESS. Browser artifact [14747731841](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45005285022/artifacts/14747731841). Vercel Preview `dpl_G2wQijSTJbHH9kueCvG36w9CFLiV` is READY from the same SHA. Production remains unchanged.
+
+### Corrections from final official-source recheck
+- OpenAI Ads Manager's current English and Indonesian Help Center country tables list Indonesia as **Available** for self-service. Mark the country supported; keep advertiser/billing legal-entity eligibility and actual signed-in account provisioning as separate checks. The September partner/Ads Solutions announcement does not negate self-service country support.
+- Microsoft Advertising Learning Lab lists three product certifications plus **eight learning paths**, including Holiday Best Practices. The previous seven-path correction was itself incorrect and is superseded.
+- Meta CAPI v25 parameter page returned HTTP 429 in this review environment. Specific v25 supported-event, required-parameter and hashing statements remain unverified; no learner-facing parameter requirement is accepted from this pass.
+- Google and TikTok official-source corrections remain as documented in the platform audit.
+
+These issuer-source corrections do not alter curriculum, resource-fit, Q&A, rubric, agency or SME acceptance statuses. All relevant formal statuses remain OPEN / IN REVIEW. The overall release verdict remains NOT READY.
