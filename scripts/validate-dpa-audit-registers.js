@@ -308,10 +308,23 @@ assert(electiveQna.records.every(row => row.item_status === "REFLECTIVE_KNOWLEDG
 const electiveDraft = read("docs/28-advanced-elective-full-chapter-drafts.md");
 assert(electiveQna.records.every(row => electiveDraft.includes(row.answer_guidance)),
   "Revised elective answer guidance must match the full chapter draft Markdown.");
+const electiveSections = [...electiveDraft.matchAll(/^## (17\\.\\d{2}|18\\.\\d{2}) — [^\\n]+/gm)];
+assert(electiveSections.length === 28, "Elective draft must contain exactly 28 uniquely identified chapter sections.");
+assert(new Set(electiveSections.map(item => item[1])).size === 28, "Elective draft chapter IDs must be unique.");
+for (let index = 0; index < electiveSections.length; index++) {
+  const item = electiveSections[index];
+  const section = electiveDraft.slice(item.index, index + 1 < electiveSections.length ? electiveSections[index + 1].index : electiveDraft.length);
+  const worked = section.match(/\\*\\*Worked example \\(SIMULATED\\)\\.\\*\\*([\\s\\S]*?)(?=\\n\\n\\*\\*Practice\\.\\*\\*)/);
+  assert(worked && worked[1].trim().length >= 250, "Elective chapter needs a substantive labelled simulated worked example: " + item[1]);
+  assert(section.includes("**Learning outcomes:**") && section.includes("**Core lesson.**") && section.includes("**Workflow.**") &&
+    section.includes("**Practice.**") && section.includes("**Required artifact and acceptance.**") &&
+    section.includes("**Knowledge check.**") && section.includes("**Glossary.**") && section.includes("**Sources and limitations.**"),
+    "Elective chapter is missing an instructional component: " + item[1]);
+}
 assert(electives.headers.includes("chapter_level_desk_review_status") && electives.headers.includes("chapter_desk_classification"),
   "Elective validation register must record separate chapter-level desk-review outcomes.");
-assert(electives.records.every(row => row.chapter_level_desk_review_status === "COMPLETE_FIRST_PASS" && row.chapter_desk_classification === "PARTIAL" && row.draft_depth_disposition === "THIN_FIRST_PASS_DRAFT"),
-  "All elective chapters must retain PARTIAL first-pass desk status and thin-draft disposition.");
+assert(electives.records.every(row => row.chapter_level_desk_review_status === "COMPLETE_FIRST_PASS" && row.chapter_desk_classification === "PARTIAL" && row.draft_depth_disposition === "WORKED_EXAMPLE_ENRICHED_FIRST_PASS"),
+  "All elective chapters must retain PARTIAL first-pass desk status and the worked-example-enriched draft disposition.");
 const elective17Review = loadCsv("docs/ELECTIVE-17-CRO-CHAPTER-LEVEL-DESK-AUDIT.csv");
 const elective18Review = loadCsv("docs/ELECTIVE-18-TRADITIONAL-MEDIA-CHAPTER-LEVEL-DESK-AUDIT.csv");
 assert(elective17Review.records.length === 14 && elective18Review.records.length === 14,
