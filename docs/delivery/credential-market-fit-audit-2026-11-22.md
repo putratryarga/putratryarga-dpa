@@ -162,7 +162,9 @@ The Indonesian role sample strongly supports Shopee Ads, TikTok Shop Ads and Laz
 - Transcosmos Indonesia, Project Manager (DX): https://id.linkedin.com/jobs/view/project-manager-dx-at-transcosmos-indonesia-official-4477147387
 - Transcosmos Indonesia, Project Manager (CEP Specialist): https://id.linkedin.com/jobs/view/project-manager-cep-specialist-at-transcosmos-indonesia-official-4492542328
 - KliknClean, CRM Specialist: https://id.linkedin.com/jobs/view/crm-specialist-at-kliknclean-4321556156
-- Narrativ Digital Agency, Senior SEO Specialist: https://www.linkedin.com/jobs/
+- Narrativ Digital Agency, Senior SEO Specialist: https://id.linkedin.com/jobs/view/senior-seo-specialist-seo-aeo-geo-at-narrativ-digital-agency-4469112092
+- Surya Digital Teknologi, SEO Specialist (Semarang): https://id.linkedin.com/jobs/view/search-engine-optimization-specialist-at-surya-digital-teknologi-4490173357
+- Impactive Agency Indonesia, Junior SEO Specialist: https://id.linkedin.com/jobs/view/junior-seo-specialist-at-impactive-agency-indonesia-4483537088
 - Clickbait Creative Performance Agency, KOL Specialist: https://id.linkedin.com/jobs/view/kol-specialist-agency-experience-at-clickbait-creative-performance-agency-4490211439
 - Social Bread Indonesia, KOL & Affiliate Specialist: https://id.linkedin.com/jobs/view/kol-affiliate-specialist-tiktok-marketing-agency-at-social-bread-indonesia-4455456349
 
