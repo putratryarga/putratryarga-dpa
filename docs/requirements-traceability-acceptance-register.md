@@ -120,7 +120,7 @@ A PASS must identify the relevant class. A B-PASS must never be presented as a D
 | CORE-002 | P1 | Independently review all 169 chapters for technical accuracy, depth, sequencing, role relevance, seniority, objective measurability, local context, examples and practical usefulness. Record one disposition and evidence per chapter. | 169-row technical matrix + source citations + qualified reviewer sign-off | **OPEN** — extraction/traceability is not content approval |
 | CORE-003 | P1 | Every chapter must show measurable learning outcomes, concept explanation, role-specific workflow, worked example or case, practice task, deliverable/acceptance criteria, glossary and limitations where relevant. | Chapter-level checklist and reviewer sampling/full coverage | **PARTIAL** — structural fields largely extracted; substantive depth and accuracy open |
 | CORE-004 | P1 | Validate role progression and prerequisite depth across Common Foundation, Core and Elective paths. Shared fundamentals must not force irrelevant specialist exercises on every role. Advanced content must not be presented as entry-level competency. | Cross-track prerequisite graph and role-specific curriculum review | **OPEN** |
-| RES-001 | P1 | Maintain one resource row for each of the 169 core chapters with exact chapter ID, publisher, exact destination URL, resource type and last-checked date. Structural minimums do not prove fit. | Resource mapping register, 169-objective resource-fit register and static set/count check | **PASS (B, mapping structure only)** — current local check confirms 169 rows and 180 unique URLs, with at least two unique learner-facing HTTP(S) sources per chapter; objective fit and Indonesia access remain OPEN. |
+| RES-001 | P1 | Maintain one resource row for each of the 169 core chapters with exact chapter ID, publisher, exact destination URL, resource type and last-checked date. Structural minimums do not prove fit. | Resource mapping register, 169-objective resource-fit register and static set/count check | **PASS (B, mapping structure only)** — current exact-source recount confirms 169 rows and 187 unique URLs, with at least two unique learner-facing HTTP(S) sources per chapter; objective fit and Indonesia access remain OPEN. |
 | RES-002 | P1 | For every learning objective, classify whether each cited resource is DIRECT FIT, PARTIAL FIT, SUPPORTING or NOT FIT; state which section supports which objective and explain gaps. | 169-objective resource-fit register, T03/T10 chapter source-fit reviews, exact source excerpts and reviewer disposition | **PARTIAL** — first-pass chapter-level source-fit desk review now recorded for 169/169 core chapters across T01–T16. All dispositions are PARTIAL/PARTIAL_STRONG; all 169 formal objective-fit, Indonesia-access, language/cost/account-eligibility and independent SME decisions remain OPEN.
 | RES-003 | P1 | Verify access from Indonesia, language, paywall, prerequisite, duration, price/tax, account eligibility, regional availability and last-check date for each learner-facing resource. Mark unverified claims explicitly. | Live publisher checks, regional access test and dated evidence | **OPEN** |
 | RES-004 | P1 | Classify credentials correctly: professional certification, course completion, learning badge, skilling certificate, knowledge assessment or award. Verify issuer, exam, validity, price and eligibility; do not infer a credential from a course page. | Issuer primary sources and credential register | **PARTIAL** — 89 issuer routes are tiered across Indonesia-priority, global-specialist, completion, product and gated pathways; 150/169 Core chapters mapped with 260 placements, Common Foundation 4/6 with four placements, and 175 CSV rows. All 89 routes are mapped, but chapter fits remain FIRST_PASS_MAPPING_NOT_SME_ACCEPTED; exact-head CI on the expanded registry and SME/account acceptance remain OPEN. |
@@ -164,7 +164,7 @@ The following are evidence of presence or structural integrity only, not overall
 | Shared foundation | CF1–CF6 | Shared layer is documented | All six behave correctly in every role path |
 | Electives | 28 first-pass chapter drafts (14 + 14) | Structural completeness of drafts | SME approval, source fit, local fit or learner readiness |
 | Guides / Q&A | 169 chapters / 507 Q&A items | Source/register parity | Correctness of all answer keys |
-| Resources | 169 rows / 180 unique URLs / ≥2 unique URLs per chapter | Current mapping structure reconciled by the 22 November static and register validators | Objective-level fit, Indonesia access, pricing or credential eligibility remain OPEN |
+| Resources | 169 Core rows / 187 unique URLs / ≥2 unique URLs per chapter | Current mapping structure reconciled by the 22 November static and register validators | Objective-level fit, Indonesia access, pricing or credential eligibility remain OPEN |
 | Agency matrix | 80 unique core cells, five agency groups | Matrix coverage ledger exists | 80 independently validated direct/current job descriptions |
 | Static CI | PASS B — run 44852795744 on `bbd89dd` | Exact register/validator parity and temporary synthetic score-script self-test; 169 resource-fit desk-review rows | Historical 169×7 score matrix remains unavailable; no content/SME acceptance implied |
 | Preview | Vercel Preview READY for `bbd89dd`; authenticated fetch HTTP 200 | HTML/JSON-LD v11.2 review-candidate metadata and 16+2 architecture returned | Human authenticated visual/accessibility review and production verification remain OPEN |
@@ -415,7 +415,7 @@ This is a branch preview, not production. The quiz sandbox's automated browser c
 
 The [T01 10-Chapter Source-Fit Review](T01-10-chapter-source-fit-review.md) and its [10-row CSV](T01-10-chapter-source-fit-review.csv) record the first-pass chapter-level desk review of all ten Full-Stack chapters. All ten are PARTIAL at desk-review level. New chapter-specific source routes support portions of business economics, research ethics/positioning, evaluation/KPI terminology, campaign planning, paid-platform learning, SEO/content/community, GA4/consent, experimentation/UX and CRM/lifecycle.
 
-At the 5 November T01 review checkpoint, the 169-row core map contained 181 unique URLs. The 22 November static and register validators now reconcile the current map to 180 unique URLs and at least two distinct URLs per chapter. T04, T08 and T09 use chapter-specific Search, publisher, platform, technical and measurement sources. This is mapping structure, not source-to-objective acceptance.
+At the 5 November T01 review checkpoint, the 169-row core map contained 181 unique URLs. The 22 November exact-source recount and static/register validators reconcile the current map to 187 unique URLs and at least two distinct URLs per chapter. T04, T08 and T09 use chapter-specific Search, publisher, platform, technical and measurement sources. This is mapping structure, not source-to-objective acceptance.
 
 **T01 formal boundary:** all ten objective-level fit, Indonesia access, language/cost/account eligibility, technical accuracy, qualified SME approval and learner-pilot statuses remain OPEN. Public-sector frameworks are contextual analogies; platform training is vendor-specific; HubSpot course-language access was not established for English/Indonesian; Google Consent Mode is not a substitute for obtaining consent or legal basis; Google Reach Planner is YouTube/video-only. See the T01 review for chapter-specific gaps and next actions.
 
@@ -606,7 +606,7 @@ Vercel Preview deployment [dpl_Genz5L2mAoBRMdt2vRwFqQQEWtMc](https://vercel.com/
 - AGY-002: 80 agency role cells still require current employer-hosted JDs, role specificity, geography/seniority and competency sign-off.
 - ELEC-002: 28 elective chapters remain PARTIAL and 56 knowledge checks remain OPEN; not advanced-content approved.
 - ACCESS-001/RUNTIME-001: human authenticated Preview inspection, full WCAG 2.2 AA/manual assistive-technology review and broader cross-browser/viewport checks remain open.
-- Evidence freshness: refresh two expired/unresolvable agency/job evidence routes and run a fresh post-fix audit of the 181 unique source URLs.
+- Evidence freshness: refresh two expired/unresolvable agency/job evidence routes and run a fresh post-fix audit of the 187 unique source URLs.
 - Guide authored depth: generator fallbacks remain in 12 tracks; 169 guide identities and structural test coverage do not prove each is a fully authored chapter-specific guide.
 
 **Final disposition:** Engineering/source-renderer remediation for this branch is green at the tested scope. DPA is suitable for controlled SME/internal review as a v11.2 Review Candidate. It is **not approved for general audience release, certificate issuance, merge to `main` or production deployment** until the mandatory owner/SME gates are closed.
@@ -614,7 +614,7 @@ Vercel Preview deployment [dpl_Genz5L2mAoBRMdt2vRwFqQQEWtMc](https://vercel.com/
 
 ## Credential route and learner journey status — 21 November 2026
 
-The earlier T04 checkpoint in this register recorded 115/169 mapped core chapters. The current runtime route registry has since expanded to **35 distinct issuer routes, 136/169 mapped core chapters, and 194 route placements**; 33 core chapters remain OPEN for additional issuer research. Common Foundation is tracked separately at 3/6 mapped chapters and four placements. The runtime map, audit map and 169-row CSV register reconcile; the browser QA run 44865105835 passed on the PR merge ref containing branch head 60b5e02. See the [current credential route governance](chapter-credential-route-governance.md) and [exact browser QA run](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44865105835).
+**Historical 5 Nov registry checkpoint — superseded:** the runtime map contained 35 distinct issuer routes, 136/169 mapped Core chapters and 194 Core placements; Common Foundation was 3/6 with four placements. Preserve contemporaneous browser evidence [run 44865105835](https://github.com/putratryarga/putratryarga-dpa/actions/runs/44865105835). These figures are not current inventory.
 
 This is implementation/desk-review coverage, not SME acceptance, provider-account verification or release approval. The 28 elective chapters and all outstanding SME, content, Q&A/rubric, agency evidence and production gates remain open.
 
@@ -623,7 +623,7 @@ This is implementation/desk-review coverage, not SME acceptance, provider-accoun
 
 **Tested source candidate:** `062fc814c3bd5a29292de9e3783c6ca56856616b` on `audit/dpa-end-to-end-completion-2026-11-21`. This addendum supersedes earlier route counts and statements that HIST-001/HIST-002 were not recovered.
 
-- **A — credentials:** 51 unique issuer routes; 161/169 core chapters mapped, 224 core placements, eight portfolio-first chapters; CF 4/6 mapped with five placements. The route CSV has 175 unique core+CF rows and validator-enforced parity with runtime IDs, order, status and notes. All dispositions remain first-pass, not SME accepted.
+- **Historical credential integration checkpoint — superseded:** 51 unique issuer routes; 161/169 Core chapters mapped, 224 Core placements, eight Core portfolio-first chapters; CF 4/6 mapped with five placements. This 175-row CSV was structurally reconciled at the earlier integration stage. Current inventory is in the latest addendum.
 - **B — authored guides/CF:** nine repaired and loaded T03/T08/T10 core guides. They do not make the CF complete: CF1–CF6 still have topic outlines and one deliverable each, without full teaching sequences, worked examples, checks and calibrated rubrics. Generic guide fallbacks remain in 12 tracks.
 - **C — assessment:** 507 Q&A and 169 rubrics are structurally present. Machine parity/duplicate checks pass; four fuzzy Q&A pairs (eight items) remain. All 507 answer keys/editorial/source decisions and all 169 rubric calibration/SME/pilot/inter-rater decisions remain OPEN. Passing score 80/100 remains uncalibrated.
 - **D — URLs/resources/agencies:** 273 observed URL results sum to 123 2xx, 20 valid redirects, 41 local TLS-trust observations, 68 HTTP 429 bot blocks, 11 HTTP 404, one DNS failure, four HTTP 400, three HTTP 403 bot blocks, one forbidden 403 and one timeout. There are 13 likely-failure candidates; bot blocks remain inconclusive. The 169 objective-resource rows are still formal-fit/access NOT ASSESSED in this run. All 80 agency cells still need current employer/JD, geography, seniority and competency validation.
@@ -648,7 +648,7 @@ This is implementation/desk-review coverage, not SME acceptance, provider-accoun
 
 ### Credential registry reconciliation
 
-The latest route totals are **51 definitions** (35 baseline + 16 integration), **161/169 core chapters mapped with 224 core placements**, and **4/6 Common Foundation chapters mapped with five CF placements**. The combined CSV has 175 chapter rows, 165 mapped rows, 229 placements and ten portfolio-first rows. These figures supersede older 30/35 route, 136/169 core and 3/6 CF statements elsewhere in historical addenda. All mapping statuses remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`; mapping count does not prove objective fit, account access or competency.
+**Historical 22 Nov credential-integration checkpoint — superseded by the 89-route market-tier expansion:** 51 definitions (35 baseline + 16 integration), 161/169 Core mapped, 224 Core placements, CF 4/6 with five placements, 175 CSV rows and 229 total placements. Retain as earlier integration-stage evidence; current status is below.
 
 ### Historical, content and assessment status
 
@@ -689,7 +689,7 @@ This corrects the runtime-coverage statement only. It does **not** close chapter
 
 ### Credential mapping / route catalogue reconciliation
 
-The catalogue is saved at `docs/delivery/credential-catalogue-issuer-check-2026-11-22.md`. Route metadata validation finds 51 definitions with all required issuer fields present: 21 professional certifications, 12 vendor course certifications, 11 course-completion credentials, 4 course-completion certificates, 1 industry certification, 1 learning-path badge, and 1 simulation completion certificate. There are no duplicate route titles or missing required metadata fields. Registry and CSV counts remain 161/169 core chapters with 224 placements, 4/6 CF chapters with 5 placements, 175 CSV rows, 165 mapped rows and 229 total placements. Ten rows are explicit portfolio-first states. One route definition (`meta_pixel_optimization_course`) is not assigned to a chapter in the current CSV and must not be counted as learner coverage. All mapped objective fits are still `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`.
+The catalogue is saved at `docs/delivery/credential-catalogue-issuer-check-2026-11-22.md`. **Historical issuer-catalogue checkpoint — superseded:** a prior 51-definition inventory reported 161/169 Core, 224 Core placements, CF 4/6 with five placements and one unassigned route. The current 89-definition issuer registry and 175-row mapping register are reconciled in the finalization addendum below; all mappings remain first-pass, not SME accepted.
 
 ### Current disposition
 
@@ -769,7 +769,7 @@ All mappings remain FIRST_PASS_MAPPING_NOT_SME_ACCEPTED. Provider account issuan
 | Area | Actual records / result | Acceptance interpretation |
 |---|---:|---|
 | Core taxonomy | 16 Core Tracks | Structural taxonomy present; job-family and curriculum acceptance remain open |
-| Advanced electives | 2 × 14 = 28 chapter drafts | All 28 are `THIN_FIRST_PASS_DRAFT`; substantive/SME acceptance OPEN |
+| Advanced electives | 2 × 14 = 28 chapter drafts | All 28 are `WORKED_EXAMPLE_ENRICHED_FIRST_PASS`; substantive/SME acceptance OPEN |
 | Shared Common Foundation | 6 chapters | Lesson drafts render; editorial, source-fit and SME review OPEN |
 | Core specialist guides | 169 unique chapter records | Structural fields and exact-ID runtime map pass; technical/content accuracy and SME review OPEN |
 | Objective resource fit | 169 rows; 163 PARTIAL / 6 PARTIAL_STRONG desk classifications | Formal objective-fit, Indonesia-access, language/cost/account eligibility and independent review OPEN for all 169 |
@@ -796,3 +796,56 @@ The current credential market-tier report classifies 67 routes as Indonesia-prio
 **Remaining release blockers:** 169 substantive chapter reviews; six CF editorial/source/access reviews; 169 resource-fit and Indonesia-access decisions; 507 answer/editorial/source decisions; 169 rubric calibration and assessor pilot; 80 role/JD evidence validations; 28 elective substantive reviews and 56 check validations; current exact-head Quiz Engine and static QA; authenticated hosted Preview inspection; manual keyboard/contrast/screen-reader and WCAG 2.2 AA review; historical scorecard discrepancy disposition; S0 provenance decision; controlled learner pilot; explicit owner release approval.
 
 **Control rule:** This is the current remote baseline snapshot. Subsequent work must append dated evidence against the resulting exact HEAD and update only changed requirements. Do not overwrite historical audit evidence or report old run IDs as current-head passes.
+
+
+## 22 November 2026 — finalization and exact-source QA
+
+**Reviewed code HEAD:** `c3d603fa0e64efe1f80f5bfe53577bb03fdd5677`.  
+**Canonical manifest:** [`2026-11-22-canonical-baseline-manifest.md`](2026-11-22-canonical-baseline-manifest.md).  
+**PR #7:** OPEN / DRAFT / UNMERGED; 645 commits, 190 files, 71,160 additions, 367 deletions; merge-base equals main `64f96437bcdb8499add1affbad102283dfe7d8b4`. Production was not modified.
+
+### Canonical inventory
+16 Core Tracks + 2 Advanced Electives; 6 shared Common Foundation; 169 Core chapters; 28 elective chapters; 507 Core Q&A; 169 rubric rows; 169 objective-resource rows; 80 agency cells; 56 elective checks. The Core resource map is 169 rows / 187 unique URLs (652 URL entries before de-duplication). The issuer registry contains 89 definitions: 22 professional certs, 8 vendor product certs, 13 vendor course certs, 37 course-completion credentials, 4 completion certificates, 1 simulation certificate, 2 industry certifications, 1 learning-path badge and 1 skilling certificate. Market tiers: 67 Indonesia-priority + 11 global-specialist + 11 supporting/product/gated. Mapping: 150/169 Core mapped (260 placements; 19 Core portfolio-first), Foundation 4/6 (4 placements; 2 portfolio-first), 175 rows, 154 optional Earn rows, 21 applied-skill portfolio-first rows, 264 total placements. All 175 rows remain `FIRST_PASS_MAPPING_NOT_SME_ACCEPTED`. The 67 is a tier within 89, not total routes.
+
+### Changes
+- README and Source of Truth count corrections: 89 issuer routes, 150/169 Core mapping, 264 placements, 187 unique resource URLs.
+- OpenAI Ads: distinguish Indonesia partner/Ads Solutions rollout from self-service Ads Manager; the current English and Indonesian self-service country tables do not list Indonesia.
+- Credential validator: 89/89 issuer-route reachability; duplicate route IDs rejected within each chapter; Foundation IDs reconciled to rendered Foundation; all 16 TikTok Academy Achievement routes asserted as course-completion credentials, distinct from the paid professional exam.
+- Core guide validator: each 169 guide requires concept/example/practice ≥100 chars, ≥4 nonblank learning steps, ≥3 question/answer checks and ≥4 term/definition pairs; ≥2 unique HTTPS sources.
+- Chromium renderer: corresponding Core content floors; concise UI deliverable briefs are not falsely failed when the underlying full practice guide meets the guide validator.
+- All 28 elective drafts now have a distinct `Worked example (SIMULATED)`; register uses `WORKED_EXAMPLE_ENRICHED_FIRST_PASS`. Formal technical/source/answer/rubric/local-market/workload/SME statuses remain OPEN.
+
+### Exact-source workflow and deployment evidence — HEAD c3d603f
+
+All three workflows completed SUCCESS on the exact source SHA `c3d603fa0e64efe1f80f5bfe53577bb03fdd5677`:
+
+- Guide Registry / Chromium [run 45003704525](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45003704525): 169/169 guides and resource IDs; 175 rendered panels; 16 roles opened; selected role + CF only; no role-card overlap desktop/mobile; four milestones per panel; 264 route cards; 21 portfolio-first fallbacks; ≥2 unique HTTP(S) links in every panel; 390px viewport/document width; zero runtime, console, request or HTTP errors. Artifact [14746907959](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45003704525/artifacts/14746907959), SHA-256 `5fb7d2686122b060e062e04429a1ec96283d67f5b27ae58c07a7786ca4eb13d7`.
+- Static QA [run 45003704564](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45003704564): repo validators, register parity, 169-row depth screen, Python score-script compilation and temporary synthetic 169-vector / 16-track arithmetic self-test. The test vectors are synthetic, not historical source scores.
+- Quiz Engine QA [run 45003704477](https://github.com/putratryarga/putratryarga-dpa/actions/runs/45003704477): synthetic-only formative engine, Playwright smoke, targeted axe checks for initial/question/result, keyboard radio, retry/review, progress and 390px overflow. Not integrated into the main chapter renderer or approved for scored assessment.
+
+Vercel Preview deployment `dpl_7cqBXCM8XPupgxkB2E7rkFLGeZwY` is READY at [`putratryarga-jl6hhcty1-elric3.vercel.app`](https://putratryarga-jl6hhcty1-elric3.vercel.app/) with source SHA exactly `c3d603f`; Vercel check SUCCESS. Hosted authenticated visual and manual accessibility review remains INACCESSIBLE in this context because of SSO. Production alias remains on deployment `dpl_DN3uQRSqEhdJDE5mn123xidFYC1Z`, source `640b1924a6b200fac83df1dcac1ddd1e8b9ea61d`.
+
+### Current acceptance decision
+
+| Area | Status | Evidence / limitation |
+|---|---|---|
+| 16+2 taxonomy, 169 Core IDs and structural mapping sets | VERIFIED (B) | Exact IDs and register parity |
+| 169 guide structure and source floors | VERIFIED (B) | Current validator and local Chromium run |
+| 175 lesson panels and 16-role switching | VERIFIED (E-local Chromium) | Zero card overlaps/runtime/network failures; hosted manual review not completed |
+| Credential registry reachability and classification | VERIFIED (B) | 89/89 route definitions reachable; 16 TikTok path assertions |
+| 28 elective worked-example enrichment | REMEDIATED | All examples explicitly SIMULATED; content acceptance still IN REVIEW |
+| Core content accuracy and SME approval | IN REVIEW | No independent acceptance for 169 chapters |
+| CF1–CF6 content/access review | IN REVIEW | Rendered lesson drafts, formal source/access/SME open |
+| 507 answer keys and Q&A | IN REVIEW | All reflective/non-scored; answer correctness/source/SME open |
+| 169 rubrics | IN REVIEW | Calibration, assessor pilot and reviewer agreement open; 80/100 uncalibrated |
+| 169 resource objective-fit/access decisions | IN REVIEW | Desk status 163 PARTIAL / 6 PARTIAL_STRONG; Indonesia account/language/cost tests open |
+| 80 agency cells | IN REVIEW | Current employer JD, role specificity, geography, seniority and competency validation open |
+| 28 elective chapters / 56 checks | IN REVIEW | Worked examples added; technical/source/legal/answer/rubric/SME review open |
+| Hosted Preview accessibility/manual acceptance | INACCESSIBLE | SSO blocks authenticated visual/assistive-technology review |
+| Historical scorecard and S0 prompt provenance | BLOCKED / IN REVIEW | Five track means disagree; standalone AutoClaw prompt not located |
+| Controlled pilot | BLOCKED / NOT APPROVED | No real 5–10-learner cohort, calibrated assessment or feedback evidence |
+| General release / production | BLOCKED / NOT READY | No owner authorization; no merge, production deploy or DPA credential issuance |
+
+No P0 was confirmed by structural/runtime tests, but no claim is made that no substantive P0 content error exists: not all chapters, answers and agency cells have independent human review. P1 work remains across content, CF, resource fit, Q&A, rubrics, agency evidence, electives, accessibility, history and learner pilot.
+
+**Decision:** technical structural/local Chromium checks VERIFIED for HEAD `c3d603f`; curriculum acceptance NOT COMPLETE; pilot NOT APPROVED; general release NOT READY. PR #7 stays OPEN / DRAFT / UNMERGED. Production is unchanged. Do not merge or deploy without explicit owner approval.
