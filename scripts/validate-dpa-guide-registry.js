@@ -134,7 +134,7 @@ assert.equal(foundationIds.length, 6, "The learner-facing Common Foundation must
 assert.equal(new Set(foundationIds).size, 6, "Common Foundation chapter IDs must be unique.");
 assert.equal(Object.keys(foundationCredentialMap).length, 6, "Credential map must explicitly cover all six Common Foundation chapters.");
 assert.equal(Object.keys(foundationCredentialAudit).length, 6, "Credential audit must explicitly cover all six Common Foundation chapters.");
-assert.equal(Object.keys(credentialRegistry).length, 65, "Indonesia-market-filtered issuer route registry must contain 65 curated routes.");
+assert.equal(Object.keys(credentialRegistry).length, 67, "Indonesia-market-filtered issuer route registry must contain 67 curated routes.");
 const metaCompletionIds = ["meta_v10_ads_campaign","meta_v10_campaign_objectives","meta_v10_audience_strategy","meta_v10_buying_types","meta_v10_creative_best_practices","meta_v10_pixel_capi","meta_v10_campaign_measurement","meta_v10_privacy_brand_safety"];
 const tiktokCompletionIds = ["tiktok_basics_achievement","tiktok_build_brand_achievement","tiktok_website_sales_achievement","tiktok_lead_generation_achievement","tiktok_shop_achievement","tiktok_search_achievement","tiktok_advanced_shop_achievement","tiktok_advanced_leadgen_achievement","tiktok_creative_production_achievement","tiktok_creative_iteration_achievement","tiktok_ai_solutions_achievement","tiktok_brand_safety_achievement","t02_tiktok_creative_planning"];
 for (const id of [...metaCompletionIds, ...tiktokCompletionIds]) {
@@ -154,8 +154,12 @@ for (const id of ["meta_media_buying", "meta_media_planning", "meta_marketing_sc
   assert.equal(credentialRegistry[id].paidExam, true, "Paid platform exam must remain separately disclosed: " + id);
 }
 
-for (const id of ["google_ads_display","google_ads_measurement","google_ads_video","google_ads_shopping","ahrefs_seo_certification","moengage_growth_marketer","moengage_analytics_expert","braze_digital_strategist","salesforce_mce_foundations","salesforce_mce_email_specialist","meltwater_influencer_cert_2"]) {
+for (const id of ["google_ads_display","google_ads_measurement","google_ads_video","google_ads_shopping","ahrefs_seo_certification","moengage_growth_marketer","moengage_analytics_expert","braze_digital_strategist","braze_marketing_specialist","braze_practitioner","salesforce_mce_foundations","salesforce_mce_email_specialist","meltwater_influencer_cert_2"]) {
   assert.ok(credentialRegistry[id], "Indonesia-relevant issuer route missing: " + id);
+}
+for (const id of ["braze_digital_strategist","braze_marketing_specialist","braze_practitioner"]) {
+  assert.equal(credentialRegistry[id].type, "professional_certification", "Braze role certifications must remain professional exam credentials: " + id);
+  assert.equal(credentialRegistry[id].paidExam, true, "Braze professional exams are paid and proctored: " + id);
 }
 for (const id of ["amazon_retail_certification","amazon_programmatic","amazon_sponsored_ads","microsoft_ads_display_video_certification","microsoft_programmatic_learning_badge","microsoft_retail_advertising_certification","stackadapt_programmatic","forage_omnichannel_certificate","analyticsmania_ga4_fundamentals","t10_coursera_google_data_analytics","t10_kaggle_intro_sql","t12_trailhead_data360","t08_mediaocean_prisma","t14_meltwater_klear_foundations","t14_pxa_creator_product_training","t14_pxa_protect_monitor","linkedin_marketing_strategy","linkedin_content_creative","tiktok_auto_ads_achievement","tiktok_promote_app_achievement","tiktok_advanced_app_achievement"]) {
   assert.equal(credentialRegistry[id], undefined, "Out-of-market or weakly evidenced route must not appear in Earn: " + id);
