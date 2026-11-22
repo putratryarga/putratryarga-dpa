@@ -27,7 +27,8 @@
 ## 2. Evidence taxonomy and learner-facing meaning
 
 - **Professional/vendor certification:** an issuer-defined assessment or exam. Use the issuer's exact title and its own validity/renewal conditions. Platform-specific certification is not proof of cross-platform strategy or a campaign result.
-- **Vendor product certification:** an issuer's product-area assessment award (for example, Google's foundational product certifications); this is distinct from the issuer's separately named proctored professional-certification tier.\n- **Vendor course certification:** an issuer's course plus assessment/certificate. It is not automatically an independent professional certification.
+- **Vendor product certification:** an issuer's product-area assessment award (for example, Google's foundational product certifications); this is distinct from the issuer's separately named proctored professional-certification tier.
+- **Vendor course certification:** an issuer's course plus assessment/certificate. It is not automatically an independent professional certification.
 - **Course-completion credential:** a course/activity award explicitly labelled by the provider. It does not mean the learner passed a professional certification exam.
 - **Course-completion certificate / simulation certificate:** evidence of learning or applied simulation completion; not a professional licence.
 - **Digital badge / learning-path award:** recognition of completing a defined learning path; a badge is not necessarily an assessed professional certification.
