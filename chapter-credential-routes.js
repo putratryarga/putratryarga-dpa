@@ -1929,7 +1929,7 @@ var auditMap = {
 };
 root.DPA_FOUNDATION_CREDENTIAL_MAP = {
   "DPA-CF-CH01": [],
-  "DPA-CF-CH02": ["forage_omnichannel_certificate","hubspot_inbound_certification"],
+  "DPA-CF-CH02": ["hubspot_inbound_certification"],
   "DPA-CF-CH03": ["hubspot_inbound_certification"],
   "DPA-CF-CH04": [],
   "DPA-CF-CH05": [],
