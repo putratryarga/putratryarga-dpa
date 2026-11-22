@@ -146,7 +146,7 @@ for (const [id, routeIds] of Object.entries(chapterCredentialMap)) {
     assert.ok(/^https:\/\//i.test(route.url), "Credential route must link to an HTTPS issuer URL: " + routeId);
     assert.ok(/^https:\/\//i.test(route.sourceUrl), "Issuer evidence URL must be HTTPS: " + routeId);
     assert.ok(route.provider && route.title && route.label && route.type && route.description, "Credential route metadata incomplete: " + routeId);
-    assert.ok(typeof route.verifiedOn === "string" && /^\\d{4}-\\d{2}-\\d{2}$/.test(route.verifiedOn), "Credential issuer desk-check date must be an ISO calendar date: " + routeId);
+    assert.ok(typeof route.verifiedOn === "string" && /^\d{4}-\d{2}-\d{2}$/.test(route.verifiedOn), "Credential issuer desk-check date must be an ISO calendar date: " + routeId);
     assert.ok(/indonesia/i.test(route.regional || ""), "Every route must disclose Indonesia access status: " + routeId);
   }
   assert.deepEqual(credentialAudit[id].routeIds, routeIds, "Credential audit and runtime map diverged for " + id);
